@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="Downloader" revision="1" />
+  <Message key="ForegroundDownloading" value="Im Vordergrund herunterladen" revision="1" />
+  <Message key="ProgressString" value="{percent} % fertig" revision="1" />
+  <Message key="Unknown" value="Unbekannt" revision="1" />
+  <Message key="PleaseWait" value="Bitte warten…" revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="Dies wird alle aktuellen Download Aufgaben erneut starten. Möchten Sie fortfahren?" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="Möchten Sie alle aktiven Download Aufgaben annullieren." revision="1" />
+  <Message key="Proxy Page" value="Proxy" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Auswahl Proxy-Einstellungen bei &quot;Prüfung nach Updates&quot;:" revision="0" />
+  <Message key="Default" value="Vorgabe" revision="0" />
+  <Message key="Autodetect proxy settings" value="Proxy-Einstellungen automatisch bestimmen" revision="0" />
+  <Message key="Do not use proxy" value="Proxy nicht verwenden" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="Verwende folgenden Proxy (HTTP):" revision="0" />
+  <Message key="Settings" value="Einstellungen" revision="0" />
+  <Message key="Authentication" value="Authentifizierung" revision="0" />
+  <Message key="Authentication is not required" value="Authentifizierung nicht erforderlich" revision="0" />
+  <Message key="Authenticate me as logged on user" value="Authentifizierung als eingeloggter Benutzer" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Authentifizierung  mit folgenden Daten:" revision="0" />
+  <Message key="User name:" value="Benutzername:" revision="0" />
+  <Message key="Password:" value="Passwort:" revision="0" />
+  <Message key="Re-type password:" value="Passwort wiederh.:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo speichert das eingegebene Passwort sicher in Ihrem lokalen Benutzerkonto)" revision="0" />
+  <Message key="PasswordMismatch" value="Beide eingegebenen Passwörter müssen übereinstimmen." revision="0" />
+  <Message key="Downloader settings" value="Proxy Einstellungen" revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="&amp;Downloader" revision="0" />
+    <Item value="Downloader" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="&amp;Annulliert alle Download Aufgaben" revision="1" />
+    <Item value="Annulliert alle Download Aufgaben" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="Herunterladen im Vordergrund" revision="1" />
+    <Item value="Benutzt die ganze verfügbare Netzwerkbandbreite für die Download Aufgaben" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="Aufgabe" revision="1" />
+    <Item value="Status" revision="1" />
+    <Item value="Größe" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="In Warteschlange" revision="1" />
+    <Item value="Verbindung aufbauen…" revision="1" />
+    <Item value="Übertragung…" revision="1" />
+    <Item value="Unterbrochen" revision="1" />
+    <Item value="Fehler" revision="1" />
+    <Item value="Fehler. Neuer Versuch in 10 Sekunden…" revision="1" />
+    <Item value="Übertragen" revision="1" />
+    <Item value="Abgeschlossen" revision="1" />
+    <Item value="Abgebrochen" revision="1" />
+  </Enumeration>
+</Language>

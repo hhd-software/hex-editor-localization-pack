@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrivilegeNotGained" value="Begrenzter Satz von Prozessen in der Prozessliste" revision="1" />
+  <Message key="RegionInfo" value="Bereichsbasis: {base} ({base:2})\rBereichsende: {end} ({end:2})\rBereichsgröße: {size} ({size:2})\rTyp: {type}\rStatus: {state}\rFlags: {flags}" revision="1" />
+  <Message key="Unknown" value="Unbekannt" revision="1" />
+  <Message key="No process selected" value="Kein Prozess ausgewählt" revision="1" />
+  <Message key="Specify a range using a list of blocks or a list of modules." value="Gebe einen Bereich mit einer Liste von Blöcken oder einer Liste von Modulen an." revision="1" />
+  <Message key="Either start or end is too big. Please enter correct values." value="Entweder Beginn oder Ende ist zu groß. Bitte geben Sie richtige Werte ein." revision="1" />
+  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="Mehrfache Auswahl ist nur erlaubt wenn nach Adressen sortiert ist. Klicken Sie zuerst auf die Überschrift der ersten Spalte, um die Blöcke zu sortieren." revision="1" />
+  <Message key="ProcessDescription" value="Prozess: {process}, Blöcke: {blocks}, Module: {modules}" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Open Process" value="Prozess Öffnen" revision="1" />
+  <Message key="Set Colors…" value="Farbe setzen…" revision="1" />
+  <Message key="Display decimal values" value="Dezimalwerte anzeigen" revision="1" />
+  <Message key="Logarithmic scale" value="Logarithmische Skala" revision="1" />
+  <Message key="Start:" value="Beginn:" revision="1" />
+  <Message key="End:" value="Ende:" revision="1" />
+  <Message key="Size:" value="Größe:" revision="1" />
+  <Message key="Show All Processes" value="Zeige Alle Prozesse" revision="1" />
+  <Message key="Refresh" value="Aktualisieren" revision="1" />
+  <Message key="Color Selection" value="Farbauswahl" revision="1" />
+  <Message key="No Access/Guard" value="Kein Zugriff/Schutz:" revision="1" />
+  <Message key="Read Only/Execute" value="Nur Lesezugriff/Ausführen:" revision="1" />
+  <Message key="Read/Write" value="Lesen/Schreiben:" revision="1" />
+  <Message key="Copy on Write" value="Kopieren beim Schreiben:" revision="1" />
+  <Message key="Free" value="Frei:" revision="1" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="P&amp;rozess öffnen…" revision="1" />
+    <Item value="Öffnet einen Prozessspeicher für Lesen und Schreiben" revision="1" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="Gehe zu… (im Prozess)" revision="1" />
+    <Item value="Springt zu einem Segment im bearbeiteten Prozessspeicher" revision="1" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="Unbekannt" revision="1" />
+    <Item value="Abbild" revision="1" />
+    <Item value="Abgebildet" revision="1" />
+    <Item value="Privat" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="Unbekannt" revision="1" />
+    <Item value="Zweckgebunden" revision="1" />
+    <Item value="Frei" revision="1" />
+    <Item value="Reserviert" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="Kein Zugriff" revision="1" />
+    <Item value="Nur Lesen" revision="1" />
+    <Item value="Lesen, Schreiben" revision="1" />
+    <Item value="Kopieren beim Schreiben" revision="1" />
+    <Item value="Ausführen" revision="1" />
+    <Item value="Ausführen, Lesen" revision="1" />
+    <Item value="Ausführen, Lesen, Schreiben" revision="1" />
+    <Item value="Ausführen, Kopieren beim Schreiben" revision="1" />
+    <Item value="Geschützt (zurückhaltend)" revision="1" />
+    <Item value="Kein Cache" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="Prozess öffnen" revision="1" />
+    <Item value="Die Prozess Öffnen Funktion erlaubt es Ihnen die Speicheradresse eines ausgewählten Prozesses für Anzeige und Bearbeitung zu öffnen." revision="1" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Prozess öffnen" revision="1" />
+    <Item value="Öffnet den Speicherbereich eines Prozesses für Anzeige und Änderungen" revision="1" />
+  </Enumeration>
+  <Enumeration key="DisplayNotification">
+    <Item value="Eingeschränkte &quot;Prozess Öffnen&quot; Funktionalität" revision="1" />
+    <Item value="Warnung: Hex Editor Neo hat nicht die erforderlichen Rechte auf laufende Prozesse auf Ihrem System zuzugreifen. Er kann sich nur mit einer kleinen Teilmenge von laufenden Prozessen verbinden. Starten Sie Hex Editor Neo mit Administratorrechten um den Speicherbereich aller Prozesse bearbeiten zu können." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tabs">
+    <Item value="Blöcke" revision="1" />
+    <Item value="Module" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessColumns">
+    <Item value="ID" revision="1" />
+    <Item value="Name" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="Adresse" revision="1" />
+    <Item value="Größe" revision="1" />
+    <Item value="Typ" revision="1" />
+    <Item value="Status" revision="1" />
+    <Item value="Flags" revision="1" />
+    <Item value="Module" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="Name" revision="1" />
+    <Item value="Adresse" revision="1" />
+    <Item value="Größe" revision="1" />
+  </Enumeration>
+</Language>

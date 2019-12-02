@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Sample Text" value="Beispiel Text" revision="0" />
+  <Message key="Loading" value="Lesezeichen laden…" revision="0" />
+  <Message key="Initializing" value="Lesezeichen initialisieren" revision="0" />
+  <Message key="Bookmarks" value="Lesezeichen" revision="0" />
+  <Message key="Progress" value="Aktuelle Aufgabe ist in Bearbeitung. Bitte warten bis sie fertiggestellt ist." revision="0" />
+  <Message key="GroupDelete" value="Gruppe wird gelöscht (inklusive aller enthaltener Lesezeichen). Wollen Sie fortfahren?" revision="0" />
+  <Message key="AllDelete" value="Alle Gruppen werden gelöscht. Wollen Sie fortfahren?" revision="0" />
+  <Message key="BookmarkGroup" value="Lesezeichen Gruppe {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Fehler beim Erstellen der Lesezeichen Gruppe" revision="0" />
+  <Message key="SelWarning" value="Die aktuelle Auswahl enthält mehrere Fragmente. Jedes wird als eigenständiges Lesezeichen hinzugefügt. Wollen Sie fortfahren?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Fehler beim Konvertieren der Auswahl zu Lesezeichen" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Fehler beim Konvertieren von Lesezeichen zur Auswahl" revision="0" />
+  <Message key="AllBookmarksDelete" value="Alle Lesezeichen werden gelöscht. Wollen Sie fortfahren?" revision="0" />
+  <Message key="Error loading from file" value="Fehler beim Laden von Datei" revision="0" />
+  <Message key="File has different version" value="Datei hat unterschiedliche Version" revision="0" />
+  <Message key="Error loading bookmarks" value="Fehler beim Laden der Lesezeichen" revision="0" />
+  <Message key="Select Action" value="Auswahl Aktion" revision="0" />
+  <Message key="New selection" value="Neue Auswahl" revision="0" />
+  <Message key="Add to selection" value="Zur Auswahl hinzufügen" revision="0" />
+  <Message key="Subtract from selection" value="Von Auswahl entfernen" revision="0" />
+  <Message key="Edit Group" value="Lesezeichen Gruppe bearbeiten" revision="0" />
+  <Message key="Name:" value="Name:" revision="0" />
+  <Message key="Text:" value="Text:" revision="0" />
+  <Message key="Background:" value="Hintergrund:" revision="0" />
+  <Message key="Outline:" value="Umrisslinie:" revision="0" />
+  <Message key="Round edges" value="Runde Ecken" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="BookmarksFilterString" value="Lesezeichen Dateien (*.hexbook)|*.hexbookk|" revision="0" />
+  <Message key="SelectionFilterString" value="Auswahl-Dateien (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Zeigt Konvertierungswarnung von Auswahl zu Lesezeichen " revision="1" />
+  <Message key="MergeBookmarks" value="Mit existierenden Lesezeichen zusammenführen?" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Neue Lesezeichen Gruppe" revision="0" />
+    <Item value="Erzeugt eine neue Lesezeichen Gruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Lesezeichen umschalten" revision="0" />
+    <Item value="Setzt oder entfernt ein Lesezeichen an der aktuellen Position" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Vorheriges Lesezeichen" revision="0" />
+    <Item value="Geht zum vorhergehenden Lesezeichen" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Nächstes Lesezeichen" revision="0" />
+    <Item value="Geht zum nächsten Lesezeichen" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Auswahl zu Lesezeichen" revision="0" />
+    <Item value="Konvertiert die aktuelle Auswahl in Lesezeichen." revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Lesezeichen zu Auswahl…" revision="0" />
+    <Item value="Konvertiert die aktuellen Lesezeichen in Auswahlbereiche." revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Lesezeichen laden…" revision="0" />
+    <Item value="Lädt Lesezeichen von einer Datei" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Lesezeichen speichern…" revision="0" />
+    <Item value="Speichert Lesezeichen in eine Datei" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;Lesezeichen" revision="0" />
+    <Item value="Lesezeichen" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Auswahl" revision="0" />
+    <Item value="Wählt diese Lesezeichengruppe aus" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Bearbeiten" revision="0" />
+    <Item value="Bearbeitet die Lesezeichengruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="&amp;Alles löschen" revision="0" />
+    <Item value="Löscht alle Einträge" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="Entfernen" revision="0" />
+    <Item value="Entfernt den aktuellen Eintrag" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Gehe zu Lesezeichen" revision="0" />
+    <Item value="Gehe zu Lesezeichen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Ersetzt die aktuelle Auswahl durch die aktuelle Lesezeichen-Gruppe." revision="0" />
+    <Item value="Fügt die aktuelle Lesezeichen-Gruppe zur Auswahl hinzu." revision="0" />
+    <Item value="Entfernt die aktuelle Lesezeichen-Gruppe von der Auswahl." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Sichtbar" revision="0" />
+    <Item value="Sticky" revision="0" />
+    <Item value="Aktiv" revision="0" />
+    <Item value="Lesezeichen-Gruppe" revision="0" />
+    <Item value="# Lesezeichen" revision="0" />
+    <Item value="Farbe" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Nr." revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Größe" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Lesezeichen" revision="0" />
+    <Item value="Die Lesezeichen-Funktion erlaubt es Ihnen Lesezeichen in einer Datei zu platzieren, um dort schnell zu navigieren." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Konvertierungswarnung von Auswahl zu Lesezeichen" revision="1" />
+    <Item value="Aktuelle Auswahl enthält mehrere Fragmente. Jedes wird zu einem eigenen Lesezeichen hinzugefügt. Wollen Sie fortfahren?" revision="1" />
+  </Enumeration>
+</Language>

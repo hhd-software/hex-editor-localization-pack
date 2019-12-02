@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" value="Prüfsummen Berechnen" revision="1" />
+  <Message key="8-bit sum" value="8-bit Summe" revision="1" />
+  <Message key="16-bit sum" value="16-bit Summe" revision="1" />
+  <Message key="32-bit sum" value="32-bit Summe" revision="1" />
+  <Message key="64-bit sum" value="64-bit Summe" revision="1" />
+  <Message key="Zero bits" value="Anzahl NULL Bits" revision="0" />
+  <Message key="One bits" value="Anzahl EINS Bits" revision="0" />
+  <Message key="Sum of Little-Endian 16-bit values" value="Summe von Little-Endian 16-bit Werten" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="Summe von Big-Endian 16-bit Werten" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="Summe von Little-Endian 32-bit Werten" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="Summe von Big-Endian 32-bit Werten" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="Summe von Little-Endian 64-bit Werten" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="Summe von Big-Endian 64-bit Werten" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="Summe von 8-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="Summe von Little-Endian 16-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="Summe von Big-Endian 16-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="Summe von Little-Endian 32-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="Summe von Big-Endian 32-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="Summe von Little-Endian 64-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="Summe von Big-Endian 64-bit Vorzeichen-Werten" revision="1" />
+  <Message key="Custom CRC" value="Benutzerdefiniertes CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Einige Werte passen nicht in 16 bits. Bitte geben Sie 16-bit Werte ein: Bereich von 0 bis 0xFFFF (65535)." revision="1" />
+  <Message key="Loading checksums" value="Prüfsummen laden" revision="1" />
+  <Message key="Initializing checksums" value="Prüfsummen initialisieren" revision="1" />
+  <Message key="Checksum" value="Prüfsummen" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Die Prüfsummen Funktion berechnet verschiedene Prüfsummen für ausgewählte Daten oder das ganze Dokument." revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="Bitte warten Sie bis alle anstehenden Operationen fertiggestellt sind." revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Tabulator-getrennte Text Datei (*.tsv)|*.tsv|All Files|*||" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Anfang={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="Add Algorithm" value="Algorithmus hinzufügen" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="Hinzuzufügenden Algorithmus auswählen:" revision="1" />
+  <Message key="Custom CRC Parameters" value="Benutzerdefinierte CRC Parameter" revision="1" />
+  <Message key="Initial Value:" value="Anfangswert:" revision="1" />
+  <Message key="Polynomial:" value="Ploynom:" revision="1" />
+  <Message key="XOR Out:" value="Exklusiv-ODER Ausgabe:" revision="1" />
+  <Message key="Hex" value="Hex:" revision="2" />
+  <Message key="Decimal" value="Dezimal:" revision="2" />
+  <Message key="Reflection In" value="Reflexion Eingang" revision="1" />
+  <Message key="Reflection Out" value="Reflexion Ausgang" revision="1" />
+  <Message key="Name:" value="Name:" revision="0" />
+  <Message key="Checksum Result" value="Prüfsummenergebnis" revision="1" />
+  <Message key="Copy" value="Kopieren" revision="1" />
+  <Message key="Size:" value="Größe:" revision="1" />
+  <Message key="Separator:" value="Trennung:" revision="1" />
+  <Message key="Checksum settings" value="Prüfsummen" revision="0" />
+  <Enumeration key="Checksum result separators">
+    <Item value="Keine Trennungen" revision="1" />
+    <Item value="Leerzeichen(' ')" revision="1" />
+    <Item value="Komma (',')" revision="1" />
+    <Item value="Strich ('-')" revision="1" />
+    <Item value="Doppelpunkt (':')" revision="1" />
+    <Item value="Strichpunkt (';')" revision="1" />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item value="Einfache Summen" revision="1" />
+    <Item value="Mehr Summen" revision="1" />
+    <Item value="Prüfsummen" revision="1" />
+    <Item value="Hashes" revision="1" />
+    <Item value="Summen mit Vorzeichen" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item value="&amp;Prüfsummen" revision="0" />
+    <Item value="Prüfsummen" revision="0" />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item value="Nur Auswahl" revision="1" />
+    <Item value="Ganzes Dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item value="Algorithmus" revision="1" />
+    <Item value="Wert (Hex)" revision="1" />
+    <Item value="Wert (Dezi.)" revision="1" />
+    <Item value="Parameter" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item value="Ergebniss anzeigen" revision="0" />
+    <Item value="Zeigt das ausgewählte Prüfsummen-Ergebniss an" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item value="Aktualisieren" revision="0" />
+    <Item value="Startet Prüfsummen Berechnung" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item value="Alle abhaken" revision="1" />
+    <Item value="Schaltet alle Algorithmen für die Berechnung ein" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item value="Alle enthaken" revision="1" />
+    <Item value="Schaltet alle Algorithmen für die Berechnung aus" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item value="Kopieren" revision="1" />
+    <Item value="Kopiert das ausgewählte Ergebniss in die Zwischenablage" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item value="Alles kopieren" revision="1" />
+    <Item value="Kopiert alle Ergebnisse in die Zwischenablage" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item value="Exportieren…" revision="1" />
+    <Item value="Exportiert ausgewählte Ergebnisse in eine Test-Datei" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item value="Parameter…" revision="1" />
+    <Item value="Konfiguriert die Algorithmen Parameter" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item value="Algorithmus hinzufügen…" revision="1" />
+    <Item value="Fügt einen neuen Algorithmus hinzu" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item value="Algorithmus entfernen" revision="1" />
+    <Item value="Entfernt den aktuell ausgewählten Algorithmus" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item value="Algorithmenliste zurücksetzen" revision="1" />
+    <Item value="Setzt die Algorithmenliste auf den Standard zurück" revision="1" />
+  </Enumeration>
+</Language>

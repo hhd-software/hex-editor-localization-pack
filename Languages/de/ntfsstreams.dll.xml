@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="Die Anwendung kann nicht geschlossen werden solange die aktuelle Stream-Operation nicht fertiggestellt oder abgebrochen wurde." revision="0" />
+  <Message key="NTFS Streams" value="NTFS Streams" revision="0" />
+  <Message key="OpenOnCreate" value="Stream nach seiner Erstellung öffnen" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Ungültiger Ordner oder Maskensyntax." revision="0" />
+  <Message key="Invalid folder list syntax." value="Ungültige Syntax der Ordnerliste." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Ausschluß-Muster ist ein ungültiger regulärer Ausdruck." revision="0" />
+  <Message key="InvalidStreamName" value="Ungültiger Stream Name. Ein Name darf folgende Zeichen nicht einthalten:  / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="NTFS St&amp;reams" revision="0" />
+  <Message key="CreateError" value="Fehler beim Erstellen des Stream: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Der folgende Fehler ist bei der Erstellung des Stream aufgetreten:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="Die Operation kann nicht rückgängig gemacht werden. Wollen Sie mit dem Löschen des(der) ausgewählten Stream(s) fortfahren?" revision="0" />
+  <Message key="DeleteError" value="Fehler beim Löschen des Stream: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="Der folgende Fehler ist beim Löschen des Stream aufgetreten:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="Der(die) folgende(n) Fehler ist(sind) beim Öffnen des Stream aufgetreten:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Dieser Stream ist zur Zeit im Editor-Fenster geöffnet. Wollen Sie ihn schließen, um die angeforderte Operation durchzuführen?" revision="0" />
+  <Message key="RenameError" value="Fehler beim Umbenennen des Stream: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Der folgende Fehler trat beim Umbenennen des Streams auf:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Suche beendet.{|finished}Suche nach Streams…{?finished} {found} Streams gefunden ({files} Dateien in {folders} Ordnern überprüft)." revision="0" />
+  <Message key="StreamSize" value="Gesamt: {size} bytes" revision="1" />
+  <Message key="RenameOperation" value="Stream umbenennen" revision="0" />
+  <Message key="Find Streams Folder List" value="Suche Streams  - Ordner Liste" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Verzeichnis eingeben oder Durchsuchen-Schaltfläche benutzen:" revision="0" />
+  <Message key="Folder list:" value="Ordner Liste:" revision="0" />
+  <Message key="Move &amp;Up" value="Nach &amp;oben" revision="0" />
+  <Message key="Move &amp;Down" value="Nach &amp;unten" revision="0" />
+  <Message key="File Stream Name" value="Datei-Stream Name" revision="0" />
+  <Message key="Enter the stream name:" value="Stream Name eingeben:" revision="0" />
+  <Message key="Find Streams" value="Streams suchen" revision="0" />
+  <Message key="Search in:" value="Suche in Liste:" revision="0" />
+  <Message key="File types:" value="Datei Typen:" revision="0" />
+  <Message key="Larger than:" value="Größer als:" revision="0" />
+  <Message key="Exclude:" value="Ausschließen:" revision="0" />
+  <Message key="(regular expression)" value="(regulärer Ausdruck)" revision="0" />
+  <Message key="Include sub-folders" value="Unterverzeichnisse" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="Stream &amp;erzeugen…" revision="0" />
+    <Item value="Erzeugt einen neuen Datei-Stream" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="Stream(s) &amp;öffnen" revision="0" />
+    <Item value="Datei-Stream(s) im Editor-Fenster öffnen" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="Stream(s) löschen…" revision="0" />
+    <Item value="Löscht Datei-Stream(s)" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="St&amp;ream umbenennen…" revision="0" />
+    <Item value="Benennt einen Datei-Stream um" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="Aktuelle Operation &amp;abbrechen" revision="0" />
+    <Item value="Bricht die aktuelle Operation ab" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Eltern-Datei öffnen" revision="1" />
+    <Item value="Öffnet die Eltern-Datei, die den Stream (Datenstrom) enthält." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Streams suchen…" revision="0" />
+    <Item value="Macht alle Dateien mit Alternate-Data-Streams (Datenströmen) in den ausgewählten Orten ausfindig." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Stream Suchen &amp;Modus verlassen" revision="0" />
+    <Item value="Verlässt den Modus zum Suchen von Streams (Datenströmen)" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Stream Name" revision="0" />
+    <Item value="Größe" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Datei" revision="0" />
+    <Item value="Stream" revision="0" />
+    <Item value="Größe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS St&amp;reams" revision="0" />
+    <Item value="NTFS Streams" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Streams suchen" revision="0" />
+    <Item value="Startet das Modul zum sSuchen von Streams (Datenströmen)" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Bytes" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="NTFS Streams" revision="0" />
+    <Item value="Die NTFS Streams Funktion erlaubt es Ihnen neue, benannte Streams (Datenströme) zu erzeugen, umzubenennen und zu löschen." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Keine Streams. Sie müssen die Datei zuerst speichern." revision="0" />
+    <Item value="Dies ist ein Stream (Datenstrom). Verschachtelte Streams werden vom Dateisystem nicht unterstützt." revision="0" />
+    <Item value="Außerstande Streams ausfindig zu machen." revision="0" />
+    <Item value="Streams werden vom Dateisystem nicht unterstützt." revision="0" />
+    <Item value="Fehler Streams ausfindig zu machen." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Streams Suchen" revision="0" />
+    <Item value="Die Stream Suchen Funktion erlaubt es Ihnen nach Dateien mit benannten Streams (Datenströmen) auf der Festplatte zu suchen." revision="0" />
+  </Enumeration>
+</Language>
