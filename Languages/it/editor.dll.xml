@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} Numero {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="Vai a {v}" revision="0" />
+  <Message key="FileNotSaved" value="Il Presente Documento è stato Modificato. Vuoi Salvarlo?" revision="0" />
+  <Message key="SaveProtocolFile" value="Errore Salvando File &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="Errore" revision="0" />
+  <Message key="Structure Editor" value="Struttura Editor" revision="0" />
+  <Message key="Line" value="Riga" revision="0" />
+  <Message key="StructureFormats" value="File di Definizione Struttura (*.h)|*.h|" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Schema Corrente non Salvato&gt;" revision="0" />
+  <Message key="Default" value="Predefinito" revision="0" />
+  <Message key="SchemeDelError" value="Questo Schema non può Essere Cancellata" revision="0" />
+  <Message key="Coloring" value="Colorazione" revision="0" />
+  <Message key="Structure Editor Page" value="Struttura Editor" revision="0" />
+  <Message key="Save" value="Salva" revision="0" />
+  <Message key="Delete" value="Elimina" revision="0" />
+  <Message key="Font:" value="Cararattere:" revision="0" />
+  <Message key="Size:" value="Dimensione:" revision="0" />
+  <Message key="Font color:" value="Colore Cararattere:" revision="0" />
+  <Message key="Back color:" value="Colore di Fondo:" revision="0" />
+  <Message key="Bold" value="Grassetto" revision="0" />
+  <Message key="Italic" value="Italico" revision="0" />
+  <Message key="Reset" value="Resetta" revision="0" />
+  <Message key="Find" value="Trova" revision="0" />
+  <Message key="Fi&amp;nd what:" value="Cosa &amp;Trovare:" revision="0" />
+  <Message key="Options" value="Opzioni" revision="0" />
+  <Message key="Find within" value="Trova all'Interno" revision="0" />
+  <Message key="Match &amp;whole word only" value="Abbina Sola Parola &amp;Intera" revision="0" />
+  <Message key="Match &amp;case" value="Ricerca &amp;Esatta" revision="0" />
+  <Message key="Whole window" value="Finestra Intera" revision="0" />
+  <Message key="Selection" value="Selezione" revision="0" />
+  <Message key="&amp;Find" value="&amp;Trova" revision="0" />
+  <Message key="Replace" value="Sostituisci" revision="0" />
+  <Message key="Replace with: " value="Sostituisci con:" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Trova Successivo" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Sostituisci" revision="0" />
+  <Message key="Replace &amp;All" value="Sostituisci &amp;Tutto" revision="0" />
+  <Message key="A pattern was not found." value="Un Modello non è stato Trovato." revision="0" />
+  <Message key="InvalidColoringScheme" value="Nome Combinazione di Colori Non Valido." revision="0" />
+  <Message key="OverwriteColoringScheme" value="Lo Schema Specificato Già Esiste. Vuoi Sovrascriverlo?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="Sostituisci" revision="0" />
+    <Item value="Sostituisci Tutto" revision="0" />
+  </Enumeration>
+</Language>

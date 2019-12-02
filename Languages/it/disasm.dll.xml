@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="Scopo Generale" revision="0" />
+  <Message key="Function name" value="Nome Funzione" revision="0" />
+  <Message key="Headers" value="Intestazioni" revision="0" />
+  <Message key="InvalidAddress" value="Indirizzo Non Valido. Inserisci l'Indirizzo Corretto." revision="0" />
+  <Message key="InvalidLength" value="Lunghezza Non Valida. Inserisci una Lunghezza Valida." revision="0" />
+  <Message key="Invalid file name." value="Nome File Non Valido." revision="0" />
+  <Message key="OpenError" value="File Non può Essere Aperto: &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="Dimensione File Errata" revision="0" />
+  <Message key="WrongAddress" value="Indirizzo Inserito è più Grande della Dimensione del Documento. Inserire l'Indirizzo Corretto." revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo Non Riesce a Smontare i File di Dimensioni Superiori a {max size}. {?is too big}Smontaggio a Partire da {from} a {to} (size = {size}). Continua?" revision="0" />
+  <Message key="Locked" value="Questo Documento è Attualmente Bloccato. Ripetere l'Operazione più Tardi." revision="0" />
+  <Message key="FormatString" value="Tutti Eseguibili|*.exe;*.dll;*.sys;*.ocx|Eseguibili (*.exe)|*.exe|Dinamico-Link Librerie (*.dll)|*.dll|Librerie ActiveX (*.ocx)|*.ocx|Driver (*.sys)|*.sys|" revision="0" />
+  <Message key="N/A" value="Non Disponibile" revision="0" />
+  <Message key="- No section selected -" value="- Nessuna Sezione Selezionata -" revision="0" />
+  <Message key="Can not retrieve file name" value="Impossibile Recuperare Nome File" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="CLR Execution Engine Non può Avviarsi" revision="0" />
+  <Message key="Incorrect file format" value="Formato File Non Corretto" revision="0" />
+  <Message key="Error parsing metadata" value="Analisi Errore Metadati" revision="0" />
+  <Message key="Can not disassemble method" value="Impossibile Smontare Metodo: {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="Impossibile Analizzare Eccezione Intestazione" revision="0" />
+  <Message key="The document has been changed." value="Il Documento è stato Modificato." revision="0" />
+  <Message key="Refresh" value="Aggiorna" revision="0" />
+  <Message key="Go" value="Vai" revision="0" />
+  <Message key="Go To:" value="Vai a:" revision="0" />
+  <Message key="Text" value="Testo" revision="0" />
+  <Message key="Loading" value="Caricando Disassembler" revision="0" />
+  <Message key="Disassembler" value="Disassembler" revision="0" />
+  <Message key="ShowImplicitOperands" value="Mostra Operandi Impliciti" revision="0" />
+  <Message key="ShowPrefixes" value="Mostra Prefissi" revision="0" />
+  <Message key="ShowDecimalValues" value="Mostra Valori Decimali" revision="0" />
+  <Message key="ShowBytecode" value="Mostra Codice Raw" revision="0" />
+  <Message key="ParseSymbols" value="Analizza Simboli" revision="0" />
+  <Message key="IntelVisualization" value="Usa Sintassi AT&amp;T" revision="0" />
+  <Message key="ShowVLines" value="Mostra Linee Griglia" revision="0" />
+  <Message key="ShowHardcodedOperands" value="Mostra Operandi &quot;hardcoded&quot;" revision="0" />
+  <Message key="DisasmError" value="Errore Aprendo File" revision="0" />
+  <Message key="DisasmError2" value="Errore Disassemblaggio File{has error?}: {error}{?has error}" revision="1" />
+  <Message key="OpName" value="Codice Disassemblaggio" revision="0" />
+  <Message key="RefreshError" value="Errore Aggiornando il Disassemblaggio " revision="0" />
+  <Message key="RefreshErrorSize" value="Dimensione File è stata Cambiata. Non è Possibile Aggiornare il Disassemblaggio." revision="0" />
+  <Message key="Unable to write to a file." value="Errore Scrittura Dati in un File." revision="0" />
+  <Message key="ClipboardError" value="Errore Copiatura Dati." revision="0" />
+  <Message key="Searching" value="Cercando" revision="0" />
+  <Message key="NotFound" value="Un Modello Non è stato Trovato" revision="0" />
+  <Message key="None" value="Nessuno" revision="0" />
+  <Message key="Find what:" value="Cosa Trovare:" revision="0" />
+  <Message key="InAllColumns" value="--- In Tutte le Colonne" revision="0" />
+  <Message key="Select" value="Seleziona" revision="0" />
+  <Message key="Symbol Format:" value="Formato Simbolo:" revision="0" />
+  <Message key="Loaded Image Name:" value="Caricato Nome Immagine:" revision="0" />
+  <Message key="Loaded Pdb Name:" value="Caricato Nome Pdb:" revision="0" />
+  <Message key="Information matched:" value="Informazioni Abbinate:" revision="0" />
+  <Message key="Line numbers:" value="Numeri di Riga" revision="0" />
+  <Message key="Global symbols:" value="Simboli Globali:" revision="0" />
+  <Message key="Type information:" value="Tipo Informazioni:" revision="0" />
+  <Message key="Source indexing:" value="Indicizzazione Fonte:" revision="0" />
+  <Message key="Public symbols:" value="Simboli Pubblici:" revision="0" />
+  <Message key="No symbol found." value="Nessun Simbolo Trovato." revision="0" />
+  <Message key="Select Columns" value="Seleziona Colonne" revision="0" />
+  <Message key="Select all" value="Seleziona Tutto" revision="0" />
+  <Message key="Export to:" value="Esporta a:" revision="0" />
+  <Message key="Export headers" value="Esporta Intestazioni" revision="0" />
+  <Message key="File:" value="File:" revision="0" />
+  <Message key="Instr. set:" value="Imposta Instr.:" revision="0" />
+  <Message key="Section:" value="Sezione:" revision="0" />
+  <Message key="Start:" value="Avvio:" revision="0" />
+  <Message key="Size:" value="Dimensione:" revision="0" />
+  <Message key="File size:" value="Dimensione File:" revision="0" />
+  <Message key="Dual view" value="Doppia Visione" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="Sincronizza Cursore con Visualizzazione Hex" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="Sincronizza Selizione con Visualizzazione Hex" revision="0" />
+  <Message key="Hexadecimal" value="Esadecimale" revision="0" />
+  <Message key="Decimal" value="Decimale" revision="0" />
+  <Message key="Symbols…" value="Simboli" revision="0" />
+  <Message key="Find Window" value="Find" revision="0" />
+  <Message key="Find" value="&amp;Trova" revision="0" />
+  <Message key="Find All" value="Trova &amp;Tutto" revision="0" />
+  <Message key="Search in:" value="Cerca in:" revision="0" />
+  <Message key="Search up" value="Cerca Sù:" revision="0" />
+  <Message key="Search down" value="Cerca Giù:" revision="0" />
+  <Message key="Ignore case" value="Ignora Caso" revision="0" />
+  <Message key="Go To" value="Vai A" revision="0" />
+  <Message key="Raw address" value="Indirizzo Raw" revision="0" />
+  <Message key="Virtual address" value="Indirizzo Virtuale" revision="0" />
+  <Message key="Details" value="Dettagli" revision="0" />
+  <Message key="Data:" value="Dati:" revision="0" />
+  <Message key="Length:" value="Lunghezza:" revision="0" />
+  <Message key="Lowercase" value="Minuscolo" revision="0" />
+  <Message key="Show symbols" value="Mostra Simboli" revision="0" />
+  <Message key="Symbols" value="Simboli" revision="0" />
+  <Message key="Source files:" value="File Sorgente:" revision="0" />
+  <Message key="Module details:" value="Dettagli Modulo:" revision="0" />
+  <Message key="Address:" value="Indirizzo:" revision="0" />
+  <Message key="Name:" value="Nome:" revision="0" />
+  <Message key="Search" value="Cerca" revision="0" />
+  <Message key="Jump" value="Salto" revision="0" />
+  <Message key="string" value="Stringa" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="Esegui Disassembler…" revision="0" />
+    <Item value="Disassembla un File Eseguibile" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="Esporta…" revision="0" />
+    <Item value="Esporta Disassemblaggio" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="Dettagli" revision="0" />
+    <Item value="Mostra Dettagli di Istruzioni" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="Seleziona Colonne" revision="0" />
+    <Item value="Seleziona Disassemblatore Colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="Simboli" revision="0" />
+    <Item value="Mostra Simboli per Questo Documento. Vai a un Simbolo Selezionato." revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="Aggorna" revision="0" />
+    <Item value="Aggorna Disassemblaggio" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="Sincronizza Cursore" revision="0" />
+    <Item value="Sincronizza Cursore in Entrambe le Viste" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="Sincronizza Selezione" revision="0" />
+    <Item value="Sincronizza Selezione in Entrambe le Viste" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="Effettuare" revision="0" />
+    <Item value="Zero/Pari" revision="0" />
+    <Item value="Troppo Pieno" revision="0" />
+    <Item value="Direzione" revision="0" />
+    <Item value="Negativo" revision="0" />
+    <Item value="Parità" revision="0" />
+    <Item value="O" revision="0" />
+    <Item value="Non Effettuare" revision="0" />
+    <Item value="Non Zero" revision="0" />
+    <Item value="Non Troppo Pieno" revision="0" />
+    <Item value="Non Dir" revision="0" />
+    <Item value="Non Registrati" revision="0" />
+    <Item value="Non Parità" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="Funzione" revision="0" />
+    <Item value="Dati" revision="0" />
+    <Item value="Simbolo Pubblico" revision="0" />
+    <Item value="Tipo Definito dall'Utente" revision="0" />
+    <Item value="Enumerazione" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="Appunti" revision="0" />
+    <Item value="File" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="Campo" revision="0" />
+    <Item value="Dimensione" revision="0" />
+    <Item value="Valore" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="x86 (32-bit Compreso FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="MSIL (.NET)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="Disassemblatore" revision="0" />
+    <Item value="Il Modulo Disassemblatore Consente di Smontare il Codice Eseguibile nei File o nella Memoria. Supporta Diversi set di Istruzioni ed è in Grado di Utilizzare File di Simbolo." revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="Istruzione" revision="0" />
+    <Item value="Classe" revision="0" />
+    <Item value="Metodo" revision="0" />
+    <Item value="Descrizione" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Indirizzo Raw" revision="0" />
+    <Item value="Indirizzo Virtuale" revision="0" />
+    <Item value="Offset Relativo" revision="0" />
+    <Item value="Bytecode" revision="0" />
+    <Item value="Mnemonico" revision="0" />
+    <Item value="Operandi" revision="0" />
+    <Item value="Operandi Impliciti" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="Flag Controllato" revision="0" />
+    <Item value="Flag Modificato" revision="0" />
+    <Item value="Descrizione" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="Indirizzo" revision="0" />
+    <Item value="Nome" revision="0" />
+    <Item value="Dimensione" revision="0" />
+    <Item value="Tipo Base" revision="0" />
+    <Item value="Tipo Indice" revision="0" />
+    <Item value="Tag" revision="0" />
+    <Item value="Flag" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="Metodo" revision="0" />
+    <Item value="Funzione" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="Disassembla File" revision="0" />
+    <Item value="Avvia Disassemblaggio di un Eseguibile" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="Formato Sconosciuto" revision="0" />
+    <Item value="Simboli Non Disponibili per il Modulo" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="CodeView (.dbg File)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="Esportazioni" revision="0" />
+    <Item value="Differito" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="Virtuale" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="FALSO" revision="0" />
+    <Item value="VERO" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="Non Disponibile" revision="0" />
+    <Item value="Disponibile" revision="0" />
+  </Enumeration>
+</Language>

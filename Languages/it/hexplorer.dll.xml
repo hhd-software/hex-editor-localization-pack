@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Esplora 1" revision="0" />
+  <Message key="Explorer 2" value="Esplora 2" revision="0" />
+  <Message key="Invalid path specified" value="Percorso Specificato Non Valido" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(errore copiando cartelle)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Errore Copiando i File Seguenti:" revision="0" />
+  <Message key="Loading" value="Caricando Esplora" revision="0" />
+  <Message key="Initializing" value="Inizializzando Esplora" revision="0" />
+  <Message key="Explorer settings" value="Esplora" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Precedente" revision="0" />
+    <Item value="Vai alla Posizione Precedente" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Successivo" revision="0" />
+    <Item value="Vai alla Posizione Successiva" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Sù" revision="0" />
+    <Item value="Vai alla Directory Padre" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Posizione Corrente" revision="0" />
+    <Item value="Sincronizza la Directory Corrente con Browser" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Trova nei File" revision="0" />
+    <Item value="Apri Finestra di Trova nei File" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Cartelle" revision="0" />
+    <Item value="Attiva o Disattiva la Finestra del Browser" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Esplora Incorpora" revision="0" />
+    <Item value="Esplora Incorpora Finestra Strumenti che Imita Windows Explorer ed è Strettamente Integrato con Hex Editor. Una Finestra di Esplora Risorse è Disponibile nell'Edizione Standard e Due sono Disponibili nelle Versioni Professionale e Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 Esploratori Incorporati" revision="0" />
+    <Item value="Esplora Incorpora Finestra Strumenti che Imita Windows Explorer ed è Strettamente Integrato con Hex Editor. Una Finestra di Esplora Risorse è Disponibile nell'Edizione Standard e Due sono Disponibili nelle Versioni Professionale e Ultimate." revision="0" />
+  </Enumeration>
+</Language>
