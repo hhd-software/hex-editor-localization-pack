@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} número {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="Ir para {v}" revision="0" />
+  <Message key="FileNotSaved" value="O documento atual foi modificado. Você quer salvá-lo?" revision="0" />
+  <Message key="SaveProtocolFile" value="Erro ao salvar arquivo &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="Erro" revision="0" />
+  <Message key="Structure Editor" value="Editor de Estrutura" revision="0" />
+  <Message key="Line" value="Linha" revision="0" />
+  <Message key="StructureFormats" value="Arquivos de Definição de Estrutura (*.h)|*.h|" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Esquema atual não foi salvo&gt;" revision="0" />
+  <Message key="Default" value="Padrão" revision="0" />
+  <Message key="SchemeDelError" value="Esse esquema não pode ser excluído" revision="0" />
+  <Message key="Coloring" value="Colorindo" revision="0" />
+  <Message key="Structure Editor Page" value="Editor de Estrutura" revision="0" />
+  <Message key="Save" value="Salvar" revision="0" />
+  <Message key="Delete" value="Excluir" revision="0" />
+  <Message key="Font:" value="Fonte:" revision="0" />
+  <Message key="Size:" value="Tamanho:" revision="0" />
+  <Message key="Font color:" value="Cor da Fonte:" revision="0" />
+  <Message key="Back color:" value="Cor de fundo:" revision="0" />
+  <Message key="Bold" value="Negrito" revision="0" />
+  <Message key="Italic" value="Itálico" revision="0" />
+  <Message key="Reset" value="Restaurar" revision="0" />
+  <Message key="Find" value="Localizar" revision="0" />
+  <Message key="Fi&amp;nd what:" value="Loca&amp;lizar o que:" revision="0" />
+  <Message key="Options" value="Opções" revision="0" />
+  <Message key="Find within" value="Localizar dentro" revision="0" />
+  <Message key="Match &amp;whole word only" value="Coincidir &amp;apenas palavra inteira" revision="0" />
+  <Message key="Match &amp;case" value="Coincidir &amp;caso" revision="0" />
+  <Message key="Whole window" value="Janela inteira" revision="0" />
+  <Message key="Selection" value="Seleção" revision="0" />
+  <Message key="&amp;Find" value="&amp;Localizar" revision="0" />
+  <Message key="Replace" value="Substituir" revision="0" />
+  <Message key="Replace with: " value="Substituir com:" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Localizar Próximo" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Substituir" revision="0" />
+  <Message key="Replace &amp;All" value="Substituir &amp;Todos" revision="0" />
+  <Message key="A pattern was not found." value="Nenhum padrão foi encontrado." revision="0" />
+  <Message key="InvalidColoringScheme" value="Nome do esquema de cores inválido." revision="0" />
+  <Message key="OverwriteColoringScheme" value="O esquema especificado já existe. Você quer substituí-lo?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="Substituir…" revision="0" />
+    <Item value="Substituir texto" revision="0" />
+  </Enumeration>
+</Language>
