@@ -1,8 +1,8 @@
 # Localization Pack for Hex Editor Neo
 
-This repository hosts a community-based development page of free localization pack for [Hex Editor Neo](//www.hhdsoftware.com/hex-editor-neo) product from HHD Software Ltd.
+This repository hosts a community-based development page of free localization pack for [Hex Editor Neo](//www.hhdsoftware.com/free-hex-editor) product from HHD Software Ltd.
 
-Please browse our [[Wiki]] for detailed instructions on using this repository and localization utility.
+Please browse our [Wiki](wiki) for detailed instructions on using this repository and localization utility.
 
 ## Localization Utility System Requirements
 
