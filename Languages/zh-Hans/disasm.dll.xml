@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="通用" revision="0" />
+  <Message key="Function name" value="函数名称" revision="0" />
+  <Message key="Headers" value="PE 文件头" revision="0" />
+  <Message key="InvalidAddress" value="无效的地址，请输入正确的地址。" revision="0" />
+  <Message key="InvalidLength" value="无效的长度，请输入一个有效的长度。" revision="0" />
+  <Message key="Invalid file name." value="无效的文件名。" revision="0" />
+  <Message key="OpenError" value="无法打开文件: &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="文件大小错误" revision="0" />
+  <Message key="WrongAddress" value="输入的地址大于此文档的大小，请输入正确的地址。" revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo 无法反汇编大于 {max size} 大小的文件，{?is too big}反汇编开始自 {from} 到 {to} (大小 = {size})，要继续吗？" revision="0" />
+  <Message key="Locked" value="此文档目前被锁定，请以后重复操作。" revision="0" />
+  <Message key="FormatString" value="所有可执行文件|*.exe;*.dll;*.sys;*.ocx|可执行文件 (*.exe)|*.exe|动态链接库文件 (*.dll)|*.dll|ActiveX 库文件 (*.ocx)|*.ocx|驱动程序文件 (*.sys)|*.sys|" revision="0" />
+  <Message key="N/A" value="不可用" revision="0" />
+  <Message key="- No section selected -" value="- 未选择节 -" revision="0" />
+  <Message key="Can not retrieve file name" value="无法获取文件名" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="无法启动 CLR 执行引擎" revision="0" />
+  <Message key="Incorrect file format" value="不正确的文件格式" revision="0" />
+  <Message key="Error parsing metadata" value="解析媒体数据错误" revision="0" />
+  <Message key="Can not disassemble method" value="无法反汇编方法: {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="无法解析异常的 PE  文件头" revision="0" />
+  <Message key="The document has been changed." value="此文档已被更改。" revision="0" />
+  <Message key="Refresh" value="刷新" revision="0" />
+  <Message key="Go" value="转到" revision="0" />
+  <Message key="Go To:" value="转到:" revision="0" />
+  <Message key="Text" value="文本" revision="0" />
+  <Message key="Loading" value="正在载入反汇编器" revision="0" />
+  <Message key="Disassembler" value="反汇编器" revision="0" />
+  <Message key="ShowImplicitOperands" value="显示隐式操作数" revision="0" />
+  <Message key="ShowPrefixes" value="显示前缀" revision="0" />
+  <Message key="ShowDecimalValues" value="显示十进制值" revision="0" />
+  <Message key="ShowBytecode" value="显示 raw 代码" revision="0" />
+  <Message key="ParseSymbols" value="解析符号" revision="0" />
+  <Message key="IntelVisualization" value="使用 AT&amp;T 语法" revision="0" />
+  <Message key="ShowVLines" value="显示网格线" revision="0" />
+  <Message key="ShowHardcodedOperands" value="显示 &quot;硬编码&quot; 操作数" revision="0" />
+  <Message key="DisasmError" value="打开文件错误" revision="0" />
+  <Message key="DisasmError2" value="反汇编文件错误{has error?}: {error}{?has error}" revision="1" />
+  <Message key="OpName" value="正在反汇编代码" revision="0" />
+  <Message key="RefreshError" value="刷新反汇编错误。" revision="0" />
+  <Message key="RefreshErrorSize" value="文件大小已被更改，无法刷新反汇编。" revision="0" />
+  <Message key="Unable to write to a file." value="写入数据到一个文件中错误。" revision="0" />
+  <Message key="ClipboardError" value="复制数据错误。" revision="0" />
+  <Message key="Searching" value="正在搜索" revision="0" />
+  <Message key="NotFound" value="未找到匹配项" revision="0" />
+  <Message key="None" value="无" revision="0" />
+  <Message key="Find what:" value="查找内容:" revision="0" />
+  <Message key="InAllColumns" value="--- 在所有列中" revision="0" />
+  <Message key="Select" value="选择" revision="0" />
+  <Message key="Symbol Format:" value="符号格式:" revision="0" />
+  <Message key="Loaded Image Name:" value="载入的映像名称:" revision="0" />
+  <Message key="Loaded Pdb Name:" value="载入的 Pdb 名称:" revision="0" />
+  <Message key="Information matched:" value="匹配的信息:" revision="0" />
+  <Message key="Line numbers:" value="行数:" revision="0" />
+  <Message key="Global symbols:" value="全局符号:" revision="0" />
+  <Message key="Type information:" value="类型信息:" revision="0" />
+  <Message key="Source indexing:" value="源索引:" revision="0" />
+  <Message key="Public symbols:" value="公用符号:" revision="0" />
+  <Message key="No symbol found." value="未找到符号。" revision="0" />
+  <Message key="Select Columns" value="选择列" revision="0" />
+  <Message key="Select all" value="全选" revision="0" />
+  <Message key="Export to:" value="导出到:" revision="0" />
+  <Message key="Export headers" value="导出 PE 文件头" revision="0" />
+  <Message key="File:" value="文件:" revision="0" />
+  <Message key="Instr. set:" value="指令集:" revision="0" />
+  <Message key="Section:" value="节:" revision="0" />
+  <Message key="Start:" value="开始:" revision="0" />
+  <Message key="Size:" value="大小:" revision="0" />
+  <Message key="File size:" value="文件大小:" revision="0" />
+  <Message key="Dual view" value="双视图" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="光标与十六进制视图同步" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="选择与十六进制视图同步" revision="0" />
+  <Message key="Hexadecimal" value="十六进制" revision="0" />
+  <Message key="Decimal" value="十进制" revision="0" />
+  <Message key="Symbols…" value="符号..." revision="0" />
+  <Message key="Find Window" value="查找" revision="0" />
+  <Message key="Find" value="查找(&amp;F)" revision="0" />
+  <Message key="Find All" value="全部查找(&amp;A)" revision="0" />
+  <Message key="Search in:" value="搜索范围:" revision="0" />
+  <Message key="Search up" value="向上搜索" revision="0" />
+  <Message key="Search down" value="向下搜索" revision="0" />
+  <Message key="Ignore case" value="不区分大小写" revision="0" />
+  <Message key="Go To" value="转到" revision="0" />
+  <Message key="Raw address" value="Raw 地址" revision="0" />
+  <Message key="Virtual address" value="虚拟地址" revision="0" />
+  <Message key="Details" value="详细信息" revision="0" />
+  <Message key="Data:" value="数据:" revision="0" />
+  <Message key="Length:" value="长度:" revision="0" />
+  <Message key="Lowercase" value="小写" revision="0" />
+  <Message key="Show symbols" value="显示符号" revision="0" />
+  <Message key="Symbols" value="符号" revision="0" />
+  <Message key="Source files:" value="源文件:" revision="0" />
+  <Message key="Module details:" value="模块详细信息:" revision="0" />
+  <Message key="Address:" value="地址:" revision="0" />
+  <Message key="Name:" value="名称:" revision="0" />
+  <Message key="Search" value="搜索" revision="0" />
+  <Message key="Jump" value="跳转" revision="0" />
+  <Message key="string" value="字符串" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="运行反汇编器..." revision="0" />
+    <Item value="反汇编一个可执行文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="导出.." revision="0" />
+    <Item value="导出反汇编" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="详细信息..." revision="0" />
+    <Item value="显示指令的详细信息" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="选择列..." revision="0" />
+    <Item value="选择反汇编器列" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="符号..." revision="0" />
+    <Item value="显示此文档的符号，跳转到一个选定的符号。" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="刷新" revision="0" />
+    <Item value="刷新反汇编" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="同步光标" revision="0" />
+    <Item value="同步两个视图中的光标" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="同步选择" revision="0" />
+    <Item value="同步两个视图中的选择" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Or" revision="0" />
+    <Item value="Not Carry" revision="0" />
+    <Item value="Not Zero" revision="0" />
+    <Item value="Not Overflow" revision="0" />
+    <Item value="Not Dir" revision="0" />
+    <Item value="Not Sign" revision="0" />
+    <Item value="Not Parity" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="函数" revision="0" />
+    <Item value="数据" revision="0" />
+    <Item value="公用符号" revision="0" />
+    <Item value="用定义的类型" revision="0" />
+    <Item value="枚举" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="剪贴板" revision="0" />
+    <Item value="文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="域" revision="0" />
+    <Item value="大小" revision="0" />
+    <Item value="值" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="x86 (32 位包括 FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="MSIL (.NET)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="反汇编器" revision="0" />
+    <Item value="反汇编器模块允许你反汇编文件或内存中的可执行代码，它支持几套指令集并能使用符号文件。" revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="指令" revision="0" />
+    <Item value="类" revision="0" />
+    <Item value="方法" revision="0" />
+    <Item value="描述" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Raw 地址" revision="0" />
+    <Item value="虚拟地址" revision="0" />
+    <Item value="相对偏移" revision="0" />
+    <Item value="字节码" revision="0" />
+    <Item value="助记符" revision="0" />
+    <Item value="操作数" revision="0" />
+    <Item value="隐式操作数" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="检测的标志位" revision="0" />
+    <Item value="修改的标志位" revision="0" />
+    <Item value="描述" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="地址" revision="0" />
+    <Item value="名称" revision="0" />
+    <Item value="大小" revision="0" />
+    <Item value="基本类型" revision="0" />
+    <Item value="类型索引" revision="0" />
+    <Item value="标签" revision="0" />
+    <Item value="标志" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="方法" revision="0" />
+    <Item value="函数" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="反汇编文件" revision="0" />
+    <Item value="开始反汇编一个可执行文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="未知的格式" revision="0" />
+    <Item value="此模块无符号可用" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="代码视图(.dbg 文件)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="导出" revision="0" />
+    <Item value="延迟" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="虚拟" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="FALSE" revision="0" />
+    <Item value="TRUE" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="不可用" revision="0" />
+    <Item value="可用" revision="0" />
+  </Enumeration>
+</Language>

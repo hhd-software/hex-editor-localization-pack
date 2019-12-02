@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="应用程序无法被关闭，直到完成或取消当前流操作。" revision="0" />
+  <Message key="NTFS Streams" value="NTFS 流" revision="0" />
+  <Message key="OpenOnCreate" value="创建后打开流" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="无效的文件夹或掩码语法。" revision="0" />
+  <Message key="Invalid folder list syntax." value="无效的文件夹列表语法。" revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="排除模式是一个无效的正则表达式。" revision="0" />
+  <Message key="InvalidStreamName" value="无效的流名，一个名称中不能包含下面的字符: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="NTFS 流(&amp;R)" revision="0" />
+  <Message key="CreateError" value="创建流错误: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="创建流时发生下面的错误:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="此操作无法被撤销，你确实想继续删除选定的流吗？" revision="0" />
+  <Message key="DeleteError" value="删除流错误: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="删除流时发生下面的错误:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="打开流时发生下面的错误:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="目前已在编辑器中打开了此流，为了执行请求的操作，你想关闭这个流吗？" revision="0" />
+  <Message key="RenameError" value="重命名流错误: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="重命名流时发生下面的错误:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}搜索已完成，{|finished}正在搜索流…{?finished} {found} 个流找到 (在 {folders} 文件夹已选择了 {files} 个文件)。" revision="0" />
+  <Message key="StreamSize" value="总共: {size} 字节 ({size as text})" revision="0" />
+  <Message key="Size" value="{size} 字节 ({size as text})" revision="0" />
+  <Message key="Renaming" value="已完成 {percent}%。" revision="0" />
+  <Message key="Find Streams Folder List" value="查找流文件夹列表" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="输入文件夹的路径或按浏览按钮:" revision="0" />
+  <Message key="Folder list:" value="文件夹列表:" revision="0" />
+  <Message key="Move &amp;Up" value="上移(&amp;U)" revision="0" />
+  <Message key="Move &amp;Down" value="下移(&amp;D)" revision="0" />
+  <Message key="File Stream Name" value="文件流名称" revision="0" />
+  <Message key="Enter the stream name:" value="输入流名:" revision="0" />
+  <Message key="Find Streams" value="查找流" revision="0" />
+  <Message key="Search in:" value="搜索范围:" revision="0" />
+  <Message key="File types:" value="文件类型:" revision="0" />
+  <Message key="Larger than:" value="大于:" revision="0" />
+  <Message key="Exclude:" value="排除:" revision="0" />
+  <Message key="(regular expression)" value="(正则表达式)" revision="0" />
+  <Message key="Include sub-folders" value="包含子文件夹" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="创建流(&amp;C)..." revision="0" />
+    <Item value="创建新文件流" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="打开流(&amp;O)" revision="0" />
+    <Item value="在编辑器中打开文件流" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="删除流(&amp;D)..." revision="0" />
+    <Item value="删除文件流" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="重命名流(&amp;R)..." revision="0" />
+    <Item value="重命名文件流" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="取消当前操作(&amp;A)" revision="0" />
+    <Item value="取消当前流操作" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="打开父文件(&amp;P)" revision="0" />
+    <Item value="打开包含此流的父文件。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="查找流..." revision="0" />
+    <Item value="在选定的位置定位所有具有交换数据流的文件。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="退出查找流模式(&amp;M)" revision="0" />
+    <Item value="退出查找流模式" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="流名" revision="0" />
+    <Item value="大小" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS 流(&amp;R)" revision="0" />
+    <Item value="NTFS 流" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="查找流" revision="0" />
+    <Item value="开始查找流模块" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="字节" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="NTFS 流" revision="0" />
+    <Item value="NTFS 流功能允许你创建新命名的流、重命名流以及删除它们。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="不是流，你必须先保存此文件。" revision="0" />
+    <Item value="这是一个流，此文件系统不支持嵌套的流。" revision="0" />
+    <Item value="无法定位流。" revision="0" />
+    <Item value="此文件系统不支持嵌套的流。" revision="0" />
+    <Item value="定位流错误。" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="查找流" revision="0" />
+    <Item value="查找流功能允许你搜索磁盘上具有命名流的文件。" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Different" value="差异" revision="0" />
+  <Message key="Not Found" value="未找到" revision="0" />
+  <Message key="Matched blocks:" value="匹配的块数:" revision="0" />
+  <Message key="Different blocks:" value="差异块数:" revision="0" />
+  <Message key="Not found blocks:" value="未找到的块数:" revision="0" />
+  <Message key="Inserted blocks:" value="插入的块数:" revision="0" />
+  <Message key="Removed blocks:" value="移除的块数:" revision="0" />
+  <Message key="IdenticalNotification" value="文件比较: NTFS 流在完全相同的文件中" revision="0" />
+  <Message key="File Comparison" value="文件比较" revision="0" />
+  <Message key="Error opening both files" value="打开的两个文件都有错误" revision="0" />
+  <Message key="Error opening one of files" value="打开的文件之一有错误" revision="0" />
+  <Message key="Locked" value="至少一个文档被锁定导致漫长操作，请稍候，直到完成此操作。" revision="0" />
+  <Message key="OpName" value="正在比较文件" revision="0" />
+  <Message key="CompareError" value="比较文件错误" revision="0" />
+  <Message key="ConvertError" value="创建选择错误。" revision="0" />
+  <Message key="DisplayStreams" value="显示 {file} 的流" revision="0" />
+  <Message key="Convert Blocks To Selection" value="将块转换为选择" revision="0" />
+  <Message key="Matched blocks" value="匹配的块数" revision="0" />
+  <Message key="Inserted blocks" value="插入的块数" revision="0" />
+  <Message key="Removed blocks" value="已移除的块数" revision="0" />
+  <Message key="Modified blocks" value="已修改的块数" revision="0" />
+  <Message key="Color Selection" value="颜色选择" revision="0" />
+  <Message key="Compare Files" value="比较文件" revision="0" />
+  <Message key="First file:" value="第一个文件:" revision="0" />
+  <Message key="Second file:" value="第二个文件:" revision="0" />
+  <Message key="Comparison method:" value="比较方式:" revision="0" />
+  <Message key="Align documents:" value="对齐文档:" revision="0" />
+  <Message key="Synchronize windows" value="同步窗口" revision="0" />
+  <Message key="Colors…" value="颜色..." revision="0" />
+  <Message key="Swap" value="交换" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="重新比较" revision="0" />
+    <Item value="重新比较文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="比较文件..." revision="0" />
+    <Item value="比较文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="转换为选择" revision="0" />
+    <Item value="将块转换为选择" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="启用颜色" revision="0" />
+    <Item value="启用颜色" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="显示十六进制值" revision="0" />
+    <Item value="以十进制或十六进制方式显示数据" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="上一个块" revision="0" />
+    <Item value="转到上一个块" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="下一个块" revision="0" />
+    <Item value="转到下一个块" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="选择颜色..." revision="0" />
+    <Item value="选择用于高亮块的颜色" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="组合模式" revision="0" />
+    <Item value="同时显示两个文件的块" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="简单比较算法" revision="0" />
+    <Item value="差异算法" revision="0" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="不对齐" revision="0" />
+    <Item value="横向对齐" revision="0" />
+    <Item value="纵向对齐" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="正常" revision="0" />
+    <Item value="精确" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="文件比较" revision="0" />
+    <Item value="文件是相同的，但包含了附加的流，Hex Editor Neo 不会自动比较附加流的内容，你可以对它进行手动处理，选择一个下面的选项并继续。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="文件比较" revision="0" />
+    <Item value="文件是相同的。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="比较文件" revision="0" />
+    <Item value="比较两个二进制文件的内容" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="比较文件" revision="0" />
+    <Item value="比较文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="文件比较" revision="0" />
+    <Item value="文件比较功能允许你查找两个文件间的差异。" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="匹配" revision="0" />
+    <Item value="已修改" revision="0" />
+    <Item value="插入" revision="0" />
+    <Item value="已移除" revision="0" />
+    <Item value="已移动" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="类型" revision="0" />
+    <Item value="偏移 (源)" revision="0" />
+    <Item value="偏移 (目标)" revision="0" />
+    <Item value="大小" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="复制和导出" revision="1" />
+  <Message key="BigSizeNotification" value="大文本复制通知" revision="1" />
+  <Message key="FloatingDigits" value="单精度浮点数复制/导出位数" revision="1" />
+  <Message key="DoubleDigits" value="双精度浮点数复制/导出位数" revision="1" />
+  <Message key="IntelHexColumns" value="Intel HEX 和 Motorola S 格式的每行字节数" revision="1" />
+  <Message key="EncodedFormat" value="编码数据(&amp;E)" revision="1" />
+  <Message key="RawFilter" value="文本文件 (*.txt)|*.txt|" revision="1" />
+  <Message key="Default" value="默认" revision="1" />
+  <Message key="Little Endian" value="小端序" revision="1" />
+  <Message key="Big Endian" value="大端序" revision="1" />
+  <Message key="FormattedFormat" value="格式化值(&amp;F)" revision="1" />
+  <Message key="Loading" value="正在载入剪贴板支持" revision="1" />
+  <Message key="Initializing" value="正在初始化剪贴板支持" revision="1" />
+  <Message key="CopyExportLocalized" value="复制和导出" revision="1" />
+  <Message key="Export" value="导出(&amp;X)" revision="1" />
+  <Message key="BadFormat" value="导出格式无法处理选定的数据" revision="1" />
+  <Message key="BadImportFormat" value="错误的数据格式。" revision="1" />
+  <Message key="ErrorExport" value="创建输出文件时有一个错误: {text}\r\n(错误代码: {code})" revision="1" />
+  <Message key="ErrorExport2" value="导出数据时出错: {text}\r\n(错误代码: {code})" revision="1" />
+  <Message key="ErrorImport" value="导出十六进制数据时出错: {text}\r\n(错误代码: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="打开十六进制" revision="1" />
+  <Message key="AllSupportedFormats" value="所有支持的格式" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="复制到剪贴板中(&amp;C)" revision="1" />
+  <Message key="&amp;Export" value="导出(&amp;E)" revision="1" />
+  <Message key="Format:" value="格式:" revision="1" />
+  <Message key="Merge" value="合并" revision="1" />
+  <Message key="Algorithm:" value="算法:" revision="1" />
+  <Message key="Append" value="追加" revision="1" />
+  <Message key="&amp;Elements:" value="元素(&amp;E):" revision="1" />
+  <Message key="&amp;Columns:" value="列(&amp;C):" revision="1" />
+  <Message key="&amp;Type:" value="类型(&amp;T):" revision="1" />
+  <Message key="Byte order:" value="字节序:" revision="1" />
+  <Message key="Group:" value="组:" revision="1" />
+  <Message key="&amp;Addresses" value="地址(&amp;A)" revision="1" />
+  <Message key="&amp;Text pane" value="文本窗格(&amp;T)" revision="1" />
+  <Message key="Insert Hex" value="插入十六进制" revision="1" />
+  <Message key="Insert from" value="插入自" revision="1" />
+  <Message key="Format" value="格式" revision="1" />
+  <Message key="Put the data at" value="放置数据到" revision="1" />
+  <Message key="Clipboard" value="剪贴板" revision="1" />
+  <Message key="File:" value="文件:" revision="1" />
+  <Message key="Start of the file" value="文件开头" revision="1" />
+  <Message key="Cursor location" value="光标位置" revision="1" />
+  <Message key="Insert mode" value="插入模式" revision="1" />
+  <Message key="Ignore data offset" value="忽略数据偏移" revision="1" />
+  <Message key="Encoding:" value="编码:" revision="1" />
+  <Enumeration key="EditCopyAs">
+    <Item value="复制方式(&amp;A)..." revision="1" />
+    <Item value="将选择转换为支持的格式之一并放置到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="导出(&amp;E)..." revision="1" />
+    <Item value="导出选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="粘贴方式(&amp;S)..." revision="1" />
+    <Item value="解析剪贴板中的数据并粘贴到文档中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="插入十六进制(&amp;H)..." revision="1" />
+    <Item value="插入 ASCII 编码的二进制文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="打开十六进制(&amp;H)..." revision="1" />
+    <Item value="打开 ASCII 编码的二进制文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64 编码" revision="1" />
+    <Item value="UU 编码" revision="1" />
+    <Item value="引用可打印的字符编码(Quoted-printable)" revision="1" />
+    <Item value="Intel 8 位十六进制" revision="1" />
+    <Item value="Intel 16 位十六进制" revision="1" />
+    <Item value="Intel 32 位十六进制" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="编码数据复制/导出" revision="1" />
+    <Item value="编码数据复制/导出功能允许你复制或导出 Base64、UUEncode 或引用可打印的字符(Quoted-printable)编码格式中的当前选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="格式化数据复制/导出" revision="1" />
+    <Item value="格式化数据复制/导出功能允许你复制或导出宽字符集格式的代码窗格中的内容。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="当前" revision="1" />
+    <Item value="无" revision="1" />
+    <Item value="系统默认" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="Raw 文本复制/导出" revision="1" />
+    <Item value="Raw 文本复制/导出功能允许你复制或导出选定编码的文本窗格中的内容。" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="Raw 文本(&amp;R)" revision="1" />
+    <Item value="转换为一个纯 ASCII 或 UNICODE 字符串" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="大文本复制" revision="1" />
+    <Item value="虽然 Hex Editor Neo 支持复制大量的文本到剪贴板中，但你将此文本粘贴到其它应用程序时可能会遇到困难，你想继续吗？" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="打开十六进制/插入十六进制" revision="1" />
+    <Item value="打开十六进制/插入十六进制功能允许你解码 Intel HEX 或 Motorola S-Records 文件并以二进制内容方式插入新文档或已打开文件的内部。" revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="Intel HEX" revision="1" />
+    <Item value="Motorola S-Records" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="默认" revision="1" />
+    <Item value="十六进制" revision="1" />
+    <Item value="十进制" revision="1" />
+    <Item value="八进制" revision="1" />
+    <Item value="二进制" revision="1" />
+    <Item value="单精度浮点数" revision="1" />
+    <Item value="双精度浮点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="默认" revision="1" />
+    <Item value="字节" revision="1" />
+    <Item value="字" revision="1" />
+    <Item value="双字" revision="1" />
+    <Item value="四字" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="无分隔符" revision="1" />
+    <Item value="空格分隔的文本" revision="1" />
+    <Item value="逗号分隔的文本" revision="1" />
+    <Item value="C/C++ 数组" revision="1" />
+    <Item value="Java 数据" revision="1" />
+    <Item value="Javascript 数组" revision="1" />
+    <Item value="Delphi 数组" revision="1" />
+    <Item value="C# .NET 数组" revision="1" />
+    <Item value="Visual Basic .NET 数组" revision="1" />
+    <Item value="PHP 数组" revision="1" />
+    <Item value="汇编数组" revision="1" />
+  </Enumeration>
+</Language>

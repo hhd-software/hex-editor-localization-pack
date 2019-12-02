@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="你确实想取消此操作吗？这将损坏此文件。" revision="1" />
+  <Message key="OccFound" value="截止目前已找到 {N} 个匹配项。" revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo 5 复制的数据" revision="1" />
+  <Message key="DefaultBranchName" value="默认" revision="1" />
+  <Message key="Continue working with a file." value="继续执行与一个文件相关的操作。" revision="1" />
+  <Message key="Discard all changes and close the file." value="放弃所有更改并关闭此文件。" revision="1" />
+  <Message key="SharedError" value="更新一个文件时有一个错误。" revision="1" />
+  <Message key="InvalidChars" value="正则表达式类包含无效的字符。" revision="1" />
+  <Message key="ClassExists" value="此类已存在，请更改类名。" revision="1" />
+  <Message key="DeleteClasses?" value="你确实想删除所有类吗？" revision="1" />
+  <Message key="LoadError" value="内部错误: {text} ({code})" revision="1" />
+  <Message key="Loading" value="正在载入核心组件" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="执行操作前检查最低磁盘空间需求" revision="1" />
+  <Message key="IgnoreRenames" value="忽略重命名共享打开的文件" revision="1" />
+  <Message key="RemovedNotification" value="共享文档已删除" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="自动尝试使用磁盘快照打开" revision="0" />
+  <Message key="NewBranchName" value="分支 {n}" revision="1" />
+  <Message key="OldVersion" value="{name} (旧版本 {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;: 创建文档对象错误: {text} ({code})" revision="2" />
+  <Message key="LongTime" value="以共享方式打开 &quot;{path}&quot; 文件可能花费很长的时间，你想以正常、锁定方式替代打开此文件吗？" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: 打开文档错误: {text} ({code})" revision="2" />
+  <Message key="LowDiskSpace" value="磁盘 {disk} 上的可用空间太小，将无法执行此操作，请先删除一些文件后重试。\r\n\r\n注意： 当包含临时文件的磁盘可用空间太小时，将禁用大多数的 Hex Editor Neo 操作，但 不会禁用 &quot;另存为&quot;操作，以便允许你保存对此文件的更改到其它卷中。\r\n\r\n你可以通过菜单 &quot;工具-&gt;设置-&gt;常规选项卡&quot; 禁用此勾选，取消勾选 &quot;执行操作前检查最低磁盘空间需求&quot; 禁用此选项。" revision="1" />
+  <Message key="Unknown Process" value="未知的进程" revision="1" />
+  <Message key="Physical Memory" value="物理内存" revision="1" />
+  <Message key="Shared File Conflict Detected" value="检测到共享文件冲突" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="此文件已在  Hex Editor Neo 的外部被修改，你想做什么？" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="保留所有更改并不更新此文件" revision="1" />
+  <Message key="Discard all changes and close the file" value="放弃所有更改并关闭此文件" revision="1" />
+  <Message key="Discard all changes and update the file" value="放弃所有更改并更新此文件" revision="1" />
+  <Message key="Retain all changes and update the file" value="保留所有更改并更新此文件" revision="1" />
+  <Message key="Highlight changes in the file" value="高亮此文件中的更改" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="使用简单算法(较快但准确度低)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="使用差异算法(较慢但准确度高)" revision="1" />
+  <Message key="Close older versions of the file" value="关闭旧版本文件" revision="1" />
+  <Message key="Edit Class" value="编辑类" revision="1" />
+  <Message key="Class name (must be unique):" value="类名(必须唯一):" revision="1" />
+  <Message key="Regular expression:" value="正则表达式:" revision="1" />
+  <Message key="Regular Expressions" value="正则表达式" revision="1" />
+  <Message key="Regular Expressions Page" value="正则表达式" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="在此页中你可以创建可重用的正则表达式类，每个类应当是一个有效的正则表达式并可以引用其它类。" revision="1" />
+  <Message key="Add…" value="添加(&amp;A).." revision="1" />
+  <Message key="Edit…" value="编辑(&amp;E)..." revision="1" />
+  <Message key="Delete All" value="全部删除(&amp;T)" revision="1" />
+  <Message key="Global regular expression options:" value="全局正则表达式选项:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Dot) 元字符不匹配 null 字符 ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (点)元字符不匹配换行字符('\\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="无效的非转义空格" revision="1" />
+  <Message key="Open Shared" value="打开共享" revision="1" />
+  <Message key="SnapshotTitle" value="从快照打开" revision="0" />
+  <Message key="SnapshotDescription" value="Hex Editor Neo 打开 &quot;{path}&quot; 发生如下错误:\r\n    » {text} ({code})\r\n\r\n你要尝试创建一个卷快照并从快照中打开文件吗？" revision="0" />
+  <Message key="RegExp settings" value="正则表达式类 " revision="0" />
+  <Enumeration key="ConflictOptions">
+    <Item value="忽略更改" revision="1" />
+    <Item value="关闭此文件" revision="1" />
+    <Item value="更新此文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item value="检测到共享文件冲突" revision="1" />
+    <Item value="文件 {name} 已被其它应用程序移除，你想做什么？" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item value="查找所有" revision="1" />
+    <Item value="填充" revision="1" />
+    <Item value="删除" revision="1" />
+    <Item value="保存" revision="1" />
+    <Item value="查找" revision="1" />
+    <Item value="替换全部" revision="1" />
+    <Item value="收集统计" revision="1" />
+    <Item value="另存为" revision="1" />
+    <Item value="保存历史" revision="1" />
+    <Item value="载入历史" revision="1" />
+    <Item value="创建路径" revision="1" />
+    <Item value="获取已修改的选择" revision="1" />
+    <Item value="复制" revision="1" />
+    <Item value="粘贴" revision="1" />
+    <Item value="历史清理" revision="1" />
+    <Item value="模式统计" revision="1" />
+    <Item value="导出" revision="1" />
+    <Item value="加密" revision="1" />
+    <Item value="解密" revision="1" />
+    <Item value="逐位运算" revision="1" />
+    <Item value="算数运算" revision="1" />
+    <Item value="移位运算" revision="1" />
+    <Item value="逆序运算" revision="1" />
+    <Item value="大小写转换运算" revision="1" />
+    <Item value="插入十六进制" revision="1" />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item value="类名" revision="1" />
+    <Item value="正则表达式" revision="1" />
+  </Enumeration>
+</Language>

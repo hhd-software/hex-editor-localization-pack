@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrivilegeNotGained" value="进程列表中的有限进程集" revision="1" />
+  <Message key="RegionInfo" value="区域基址: {base} ({base:2})\r区域结束地址: {end} ({end:2})\r区域大小: {size} ({size:2})\r类型: {type}\r状态: {state}\r标志: {flags}" revision="1" />
+  <Message key="Unknown" value="未知" revision="1" />
+  <Message key="No process selected" value="未选择进程" revision="1" />
+  <Message key="Specify a range using a list of blocks or a list of modules." value="用块或模块列表指定一个范围。" revision="1" />
+  <Message key="Either start or end is too big. Please enter correct values." value="开始地址或结束地址太大，请输入正确的值。" revision="1" />
+  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="仅当按地址排序时才允许多项选择，点击第一列的标题对块进行排序。" revision="1" />
+  <Message key="ProcessDescription" value="进程: {process}，块数: {blocks}，模块数: {modules}" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Open Process" value="打开进程" revision="1" />
+  <Message key="Set Colors…" value="设置颜色..." revision="1" />
+  <Message key="Display decimal values" value="显示十进制值" revision="1" />
+  <Message key="Logarithmic scale" value="对数刻度" revision="1" />
+  <Message key="Start:" value="开始地址:" revision="1" />
+  <Message key="End:" value="结束地址:" revision="1" />
+  <Message key="Size:" value="大小:" revision="1" />
+  <Message key="Show All Processes" value="显示所有进程" revision="1" />
+  <Message key="Refresh" value="刷新" revision="1" />
+  <Message key="Color Selection" value="颜色选择" revision="1" />
+  <Message key="No Access/Guard" value="禁止访问/保护:" revision="1" />
+  <Message key="Read Only/Execute" value="仅读取/执行:" revision="1" />
+  <Message key="Read/Write" value="读取/写入" revision="1" />
+  <Message key="Copy on Write" value="写入时复制:" revision="1" />
+  <Message key="Free" value="自由:" revision="1" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="打开进程(&amp;R)..." revision="1" />
+    <Item value="打开读取和写入的进程内存" revision="1" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="转到… (进程中)" revision="1" />
+    <Item value="跳转到编辑的进程内存中的给定节段" revision="1" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="未知" revision="1" />
+    <Item value="映像" revision="1" />
+    <Item value="已映射" revision="1" />
+    <Item value="私有" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="未知" revision="1" />
+    <Item value="已提交" revision="1" />
+    <Item value="自由" revision="1" />
+    <Item value="保留" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="禁止访问" revision="1" />
+    <Item value="只读" revision="1" />
+    <Item value="读取、写入" revision="1" />
+    <Item value="写入时复制" revision="1" />
+    <Item value="执行" revision="1" />
+    <Item value="执行、读取" revision="1" />
+    <Item value="执行、读取、写入" revision="1" />
+    <Item value="写入时执行、复制" revision="1" />
+    <Item value="保护(保护)" revision="1" />
+    <Item value="非缓存" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="打开进程" revision="1" />
+    <Item value="打开进程功能允许你打开一个所选的进程内存地址空间以便查看和编辑。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="打开进程" revision="1" />
+    <Item value="打开进程内存以便查看和修改" revision="1" />
+  </Enumeration>
+  <Enumeration key="DisplayNotification">
+    <Item value="有限的打开进程功能" revision="1" />
+    <Item value="警告： Hex Editor Neo 在你的系统上以不具备访问进程所需权限方式运行，它在你的计算机上只能连接到一个小的进程子集运行。请以具有管理访问方式提升用户权限运行 Hex Editor Neo 以便能够编辑任何进程内存地址空间。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Tabs">
+    <Item value="块" revision="1" />
+    <Item value="模块" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessColumns">
+    <Item value="ID" revision="1" />
+    <Item value="名称" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="地址" revision="1" />
+    <Item value="大小" revision="1" />
+    <Item value="类型" revision="1" />
+    <Item value="状态" revision="1" />
+    <Item value="标志" revision="1" />
+    <Item value="模块" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="名称" revision="1" />
+    <Item value="地址" revision="1" />
+    <Item value="大小" revision="1" />
+  </Enumeration>
+</Language>

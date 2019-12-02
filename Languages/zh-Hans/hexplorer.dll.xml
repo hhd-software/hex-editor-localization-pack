@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="资源管理 1 " revision="0" />
+  <Message key="Explorer 2" value="资源管理 2 " revision="0" />
+  <Message key="Invalid path specified" value="指定的路径无效" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(复制文件夹错误)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="复制下列文件错误:" revision="0" />
+  <Message key="Loading" value="正在载入资源管理器" revision="0" />
+  <Message key="Initializing" value="正在初始化资源管理器" revision="0" />
+  <Message key="Explorer settings" value="浏览器" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="上一个" revision="0" />
+    <Item value="转到上一个位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="下一个" revision="0" />
+    <Item value="转到下一个位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="向上一级" revision="0" />
+    <Item value="转到父目录" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="定位到当前已打开的活动文件所在位置" revision="0" />
+    <Item value="使当前已打开的活动文件所在的目录与浏览器同步" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="文件中查找" revision="0" />
+    <Item value="打开文件中查找对话框" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="显示或隐藏资源管理器中的导航窗格" revision="0" />
+    <Item value="切换资源管理浏览器窗口的显示方式" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="内置的资源管理器" revision="0" />
+    <Item value="内置的资源管理器工具窗口模仿 Windows 资源管理器并与 Hex Editor 无缝结合。标准版中只有一个资源管理器可用，专业版和旗舰版中可用两个资源管理器。" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 个内置的资源管理器" revision="0" />
+    <Item value="内置的资源管理器工具窗口模仿 Windows 资源管理器并与 Hex Editor 无缝结合。标准版中只有一个资源管理器可用，专业版和旗舰版中可用两个资源管理器。" revision="0" />
+  </Enumeration>
+</Language>
