@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Different" value="Diferente" revision="0" />
+  <Message key="Not Found" value="No encontrado" revision="0" />
+  <Message key="Matched blocks:" value="Bloques iguales:" revision="0" />
+  <Message key="Different blocks:" value="Bloques diferentes:" revision="0" />
+  <Message key="Not found blocks:" value="Bloques no encontrados:" revision="0" />
+  <Message key="Inserted blocks:" value="Bloques insertados:" revision="0" />
+  <Message key="Removed blocks:" value="Bloques Borrados:" revision="0" />
+  <Message key="IdenticalNotification" value="Comparación de Archivos: secuencias NTFS en archivos idénticos" revision="0" />
+  <Message key="File Comparison" value="Comparación de Archivos" revision="0" />
+  <Message key="Error opening both files" value="Error al abrir ambos archivos" revision="0" />
+  <Message key="Error opening one of files" value="Error al abrir uno de los archivos" revision="0" />
+  <Message key="Locked" value="Por lo menos uno de los documentos está bloqueado debido a una operación demasiado larga. Por favor espere a que sea terminada la operación." revision="0" />
+  <Message key="OpName" value="Comparación de Archivos" revision="0" />
+  <Message key="CompareError" value="Error al comparar los archivos." revision="0" />
+  <Message key="ConvertError" value="Error al crear la selección." revision="0" />
+  <Message key="DisplayStreams" value="Mostrar las secuencias para {file}" revision="0" />
+  <Message key="Convert Blocks To Selection" value="Convertir los Bloques a Selección" revision="0" />
+  <Message key="Matched blocks" value="Bloques iguales" revision="0" />
+  <Message key="Inserted blocks" value="Bloques insertados" revision="0" />
+  <Message key="Removed blocks" value="Bloques borrados" revision="0" />
+  <Message key="Modified blocks" value="Bloques modificados" revision="0" />
+  <Message key="Color Selection" value="Selección de Color" revision="0" />
+  <Message key="Compare Files" value="Comparar Archivos" revision="0" />
+  <Message key="First file:" value="Primer archivo:" revision="0" />
+  <Message key="Second file:" value="Segundo archivo:" revision="0" />
+  <Message key="Comparison method:" value="Método de comparación:" revision="0" />
+  <Message key="Align documents:" value="Alinear documentos:" revision="0" />
+  <Message key="Synchronize windows" value="Sincronizar ventanas" revision="0" />
+  <Message key="Colors…" value="Colores…" revision="0" />
+  <Message key="Swap" value="Intercambiar" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="Volver a comparar" revision="0" />
+    <Item value="Volver a comparar archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="Comparar Archivos…" revision="0" />
+    <Item value="Comparar archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="Convertir a Selección" revision="0" />
+    <Item value="Convertir los bloques a selección" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="Habilitar Coloreado" revision="0" />
+    <Item value="Habilitar Coloreado" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="Mostrar los valores Hex" revision="0" />
+    <Item value="Mostrar los datos de forma Decimal o Hexadecimal" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="Bloque Anterior" revision="0" />
+    <Item value="Ir al bloque anterior" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="Bloque Siguiente" revision="0" />
+    <Item value="Ir al bloque siguiente" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="Seleccionar Colores…" revision="0" />
+    <Item value="Seleccione los colores usados para destacar los bloques" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="Modo Combinar" revision="0" />
+    <Item value="Muestra al mismo tiempo los bloques de los dos archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="Algoritmo de comparación simple" revision="0" />
+    <Item value="Algoritmo diferencial" revision="0" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="No alinear" revision="0" />
+    <Item value="Alinear horizontalmente" revision="0" />
+    <Item value="Alinear verticalmente" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="Normal" revision="0" />
+    <Item value="Preciso" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="Comparación de archivos" revision="0" />
+    <Item value="Los archivos son idénticos, pero contienen secuencias adicionales. Hex Editor Neo no compara automáticamente el contenido de las secuencias adicionales. Puede hacerlo manualmente. Seleccione una de las opciones siguientes para continuar. " revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="Comparación de archivos" revision="0" />
+    <Item value="Los archivos son idénticos." revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Comparar archivos" revision="0" />
+    <Item value="Compare el contenido de dos archivos binarios" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="Comparación de Archivos" revision="0" />
+    <Item value="Menú de Comparación de Archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="Comparación de archivos" revision="0" />
+    <Item value="La característica de Comparación de Archivos le permite encontrar diferencias entre dos archivos. " revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="Igualado" revision="0" />
+    <Item value="Modificado" revision="0" />
+    <Item value="Insertado" revision="0" />
+    <Item value="Borrado" revision="0" />
+    <Item value="Movido" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Tipo" revision="0" />
+    <Item value="Offset (Fuente)" revision="0" />
+    <Item value="Offset (Destino)" revision="0" />
+    <Item value="Tamaño" revision="0" />
+  </Enumeration>
+</Language>

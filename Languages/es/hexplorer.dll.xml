@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Explorador 1" revision="0" />
+  <Message key="Explorer 2" value="Explorador 2" revision="0" />
+  <Message key="Invalid path specified" value="La ruta de acceso especificada es inválida" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(error al copiar carpetas)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Error al copiar los siguientes archivos:" revision="0" />
+  <Message key="Loading" value="Cargando el explorador" revision="0" />
+  <Message key="Initializing" value="inicializando el explorador" revision="0" />
+  <Message key="Explorer settings" value="Explorador" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Anterior" revision="0" />
+    <Item value="Ir a la Ubicación Anterior" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Siguiente" revision="0" />
+    <Item value="Ir a la ubicación Siguiente" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Arriba" revision="0" />
+    <Item value="Ir a la Carpeta Superior" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Localizar Actual" revision="0" />
+    <Item value="Sincronizar el Directorio Actual con el Explorador" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Buscar en Archivos" revision="0" />
+    <Item value="Abrir el diálogo de Buscar en Archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Carpetas" revision="0" />
+    <Item value="Alternar la ventana del Explorador" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Primer Explorador Integrado" revision="0" />
+    <Item value="La herramienta de Explorador Integrado imita al Explorador de Windows y está estrechamente integrada con el Hex Editor. Una ventana del Explorador está disonible en la Edición Estándard y Dos están disponibles en las Ediciones Profesional y Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="Segundo Explorador Integrado" revision="0" />
+    <Item value="La herramienta de Explorador Integrado imita al Explorador de Windows y está estrechamente integrada con el Hex Editor. Una ventana del Explorador está disonible en la Edición Estándard y Dos están disponibles en las Ediciones Profesional y Ultimate." revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="Abrir demasiados documentos puede causar muy bajo rendimiento. Por lo que no es recomendable continuar con la operación actual. ¿Quiere cancelar la operación?" revision="1" />
+  <Message key="Warning" value="Advertencia" revision="1" />
+  <Message key="Error" value="Error" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} incidentes)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Error {error_code} ({text_message}) {mode} {path}." revision="1" />
+  <Message key="Invalid folder or mask syntax." value="La sintáxis de la carpeta o máscara es inválida." revision="1" />
+  <Message key="Invalid folder list syntax." value="La sintáxis de la lista de carpetas es inválida." revision="1" />
+  <Message key="Find All" value="Buscar Todos" revision="1" />
+  <Message key="Replace All" value="Reemplazar Todos" revision="1" />
+  <Message key="Loading Find in Files" value="Cargando búsqueda en archivos" revision="1" />
+  <Message key="Initializing Find in Files" value="Inicializando búsqueda en archivos" revision="1" />
+  <Message key="Notifications" value="Notificaciones" revision="1" />
+  <Message key="Find in Files" value="Búsqueda en Archivos" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="¿Quiere cancelar la operación actual?" revision="1" />
+  <Message key="Operation cancelled." value="Operación Cancelada." revision="1" />
+  <Message key="Replace with:" value="Reemplazar con:" revision="1" />
+  <Message key="Progress message" value="{percent} % completado. {processed_files} de {total_files}{unfinished?}(…){?unfinished} archivos en {total_folders} carpetas han sido revisados. {matched} archivos que coinciden. {processed_size} de {total_size} procesados." revision="1" />
+  <Message key="ReplaceNotification" value="Reemplazar en archivos" revision="1" />
+  <Message key="TextFilesFilterString" value="Archivos de texto|*.txt|" revision="0" />
+  <Message key="Exporting" value="Exportando" revision="0" />
+  <Message key="Search in:" value="Buscar en:" revision="1" />
+  <Message key="File types:" value="Tipos de archivo:" revision="1" />
+  <Message key="Mode:" value="Modo:" revision="1" />
+  <Message key="Include sub-folders" value="Incluír sub-carpetas" revision="1" />
+  <Message key="Ignore case" value="Ignorar mayúsculas o minúsculas" revision="1" />
+  <Message key="Display errors" value="Mostrar errores" revision="1" />
+  <Message key="Include streams" value="Incluír secuencias" revision="1" />
+  <Message key="Find and replace mode" value="Modo de buscar y reemplazar" revision="1" />
+  <Message key="Find in Files Folder List" value="Lista de carpetas de búsqueda en archivos" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Escriba la dirección de la carpeta o haga click en el botón Explorar:" revision="1" />
+  <Message key="Move Up" value="Mover &amp;Arriba" revision="1" />
+  <Message key="Move Down" value="Mover &amp;Abajo" revision="1" />
+  <Message key="Folder list:" value="Lista de carpetas:" revision="1" />
+  <Message key="All opened documents" value="Todos los documentos abiertos" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="abriendo" revision="1" />
+    <Item value="salvando" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="Encontrar un caso al menos" revision="1" />
+    <Item value="Encontrar todos los casos (más lento)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="Reemplazar todos los casos y guardar" revision="1" />
+    <Item value="Reemplazar todos los casos y abrir" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="Búsqueda en archivos" revision="1" />
+    <Item value="Iniciar el módulo Búsuqeda de archivos/Reemplazar en archivos" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="&amp;Búsqueda en archivos" revision="0" />
+    <Item value="Menú de Búsqueda en archivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="Búsqueda en archivos" revision="1" />
+    <Item value="La característica de Búsqueda en archivos le permite encontrar rápidamente archivos que contengan un patrón especificado dentro de una o varias carpetas." revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="Reemplazar en archivos" revision="1" />
+    <Item value="La característica de Reemplazar en archivos le permite encontrar todos los casos donde se encuentre un patrón dentro de los archivos en una o varias carpetas y reemplazarlo con otro patrón (ó borrarlo)." revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="Habilitar la opción &quot;Siempre crear respaldos&quot; y continuar." revision="1" />
+    <Item value="Cambiar al modo &quot;reemplazar todos lso casos y abrir&quot; y continuar." revision="1" />
+    <Item value="Continuar en este modo (NO se recomienda)" revision="1" />
+    <Item value="Cancelar" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="Reemplazar en archivos" revision="1" />
+    <Item value="Aplicar la función &quot;Reemplazar en archivos&quot; en este modo con la opción &quot;Siempre crear respaldos&quot; desactivada podría causar la pérdida de datos ya que no se crean copias de respaldo durante el reemplazo de los datos. Se recomienda activar la opción &quot;Siempre crear respaldos&quot;.\r\n\r\n Seleccione una de las siguientes opciónes: " revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="Bus&amp;car en archivos…" revision="0" />
+    <Item value="Buscar (y opcionalmente reemplazar) un patrón en varios archivos." revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="Detener la búsqueda" revision="1" />
+    <Item value="Abortar la operación actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="Abrir archivo" revision="1" />
+    <Item value="Abrir el archivo seleccionado en el editor." revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="&amp;Borrar todo" revision="0" />
+    <Item value="Eliminar el contenido de la ventana" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="Modo de uso en segundo plano" revision="0" />
+    <Item value="Activar/Desactivar el modo de uso en segundo plano (reduce el uso de recursos del sistema)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="Exportar resultados…" revision="0" />
+    <Item value="Exporta la lista de los archivos encontrados" revision="0" />
+  </Enumeration>
+</Language>

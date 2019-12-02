@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="La aplicación no puede cerrarse hasta que la operación actual sea completada o cancelada." revision="0" />
+  <Message key="NTFS Streams" value="Secuencias NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Abrir la secuencia después de crearla" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Sintaxis inválida de carpeta o máscara." revision="0" />
+  <Message key="Invalid folder list syntax." value="Sintaxis inválida de lista de carpetas." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="El patrón excluído es una expresión regular inválida." revision="0" />
+  <Message key="InvalidStreamName" value="Nobre de secuencia inválido. El nombre no puede contener los siguientes caracteres: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="S&amp;ecuencias NTFS" revision="0" />
+  <Message key="CreateError" value="Error al crear la secuencia: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="El siguiente error ocurió al crear la secuencia:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="Esta operación no puede ser revertida. ¿Está seguro que quiere borrar la(s) secuencias seleccionadas?" revision="0" />
+  <Message key="DeleteError" value="Error al borrar la secuencia: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="El siguiente error acurrió al borrar la secuencia:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="El siguiente error(es) ocuerrieron al abrir la secuencia(s):\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Esta secuencia ya se encuentra abierta en el editor. ¿Quiere cerrala para poder realizar la operación solicitada?" revision="0" />
+  <Message key="RenameError" value="Error al renombrar la secuencia: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="El siguiente error ocurrió al renombrar la secuencia:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Buscando Finalizados.{|finished}Buscando Secuencias…{?finished} {found} secuencias encontradas ({files} archivos en {folders} carpetas revisadas)." revision="0" />
+  <Message key="StreamSize" value="Total: {size} bytes {size as text}" revision="0" />
+  <Message key="Size" value="{size} bytes {size as text}" revision="0" />
+  <Message key="Renaming" value="{percent} % completado." revision="0" />
+  <Message key="Find Streams Folder List" value="Lista de secuencias encontradas en carpetas" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Escriba la ruta de acceso a la carpeta o haga click en el botón explorar:" revision="0" />
+  <Message key="Folder list:" value="Lista de carpetas:" revision="0" />
+  <Message key="Move &amp;Up" value="Mover &amp;Arriba" revision="0" />
+  <Message key="Move &amp;Down" value="Mover A&amp;bajo" revision="0" />
+  <Message key="File Stream Name" value="Nombre de archivo de secuencia" revision="0" />
+  <Message key="Enter the stream name:" value="Escriba el nombre de la secuencia:" revision="0" />
+  <Message key="Find Streams" value="Buscar Secuencias" revision="0" />
+  <Message key="Search in:" value="Buscar en:" revision="0" />
+  <Message key="File types:" value="Tipos de archivo:" revision="0" />
+  <Message key="Larger than:" value="Más largo que:" revision="0" />
+  <Message key="Exclude:" value="Excluír:" revision="0" />
+  <Message key="(regular expression)" value="(expresión regular)" revision="0" />
+  <Message key="Include sub-folders" value="Incluír sub-carpetas" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="&amp;Crear Secuencia…" revision="0" />
+    <Item value="Crea un nuevo archivo de secuencia" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="&amp;Abrir Secuencia(s)" revision="0" />
+    <Item value="Abrir la secuencia(s) en el editor" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="&amp;Borrar Secuencia…" revision="0" />
+    <Item value="Borrar la secuencia(s)" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="&amp;Renombrar Secuencia…" revision="0" />
+    <Item value="Renombra la secuencia" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="C&amp;ancelar Operación Actual" revision="0" />
+    <Item value="Cancela la operación de secuancia actual" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Abrir A&amp;rchivo Superior" revision="0" />
+    <Item value="Abrir el archivo superior, es el que contiene esta secuencia." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Buscar secuencias…" revision="0" />
+    <Item value="Localizar todos los archivos secuencias alternativas en las ubicaciones seleccionadas." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Salir del &amp;Modo de Buscar Secuencias" revision="0" />
+    <Item value="Salir del modo de búsqueda de secuencias" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Nombre de la Secuencia" revision="0" />
+    <Item value="Tamaño" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="S&amp;ecuencias NTFS" revision="0" />
+    <Item value="Menú de secuencias NTFS" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Buscar secuencias" revision="0" />
+    <Item value="Iniciar el módulo de buscar secuencias" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Bytes" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="Secuencias NTFS" revision="0" />
+    <Item value="La característica de Secuencias NTFS le permite crear secuencias con nuevos nombres, renombrar secuencias y borrarlas." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="No hay secuencias, primero necesita guardar el archivo." revision="0" />
+    <Item value="Esta es una secuencia. Las secuencias anidadas no son soportadas por el sistema de archivos." revision="0" />
+    <Item value="No se encontraron secuencias" revision="0" />
+    <Item value="Las secuencias no son soportadas por el sistema de archivos." revision="0" />
+    <Item value="Error al buscar secuencias." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Buscar Secuencias" revision="0" />
+    <Item value="La característica de Buscar Secuencias le permite buscar secuencias con nombre en los archivos de su disco." revision="0" />
+  </Enumeration>
+</Language>
