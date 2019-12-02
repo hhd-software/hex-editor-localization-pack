@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Different" value="Різні" revision="0" />
+  <Message key="Not Found" value="Не знайдені" revision="0" />
+  <Message key="Matched blocks:" value="Однакові блоки:" revision="0" />
+  <Message key="Different blocks:" value="Відмінні блоки:" revision="0" />
+  <Message key="Not found blocks:" value="Не знайдені блоки:" revision="0" />
+  <Message key="Inserted blocks:" value="Вставлені блоки:" revision="0" />
+  <Message key="Removed blocks:" value="Видалені блоки:" revision="0" />
+  <Message key="IdenticalNotification" value="Порівняння файлів: NTFS потоки в однакових файлах" revision="0" />
+  <Message key="File Comparison" value="Порівняння файлів" revision="0" />
+  <Message key="Error opening both files" value="Помилка відкриття обох файлів" revision="0" />
+  <Message key="Error opening one of files" value="Помилка відкриття одного з файлів" revision="0" />
+  <Message key="Locked" value="Принаймні один документ заблокований через виконання тривалої операції. Дочекайтеся завершення." revision="0" />
+  <Message key="OpName" value="Порівняння файлів" revision="0" />
+  <Message key="CompareError" value="Помилка порівняння файлів." revision="0" />
+  <Message key="ConvertError" value="Помилка при створенні виділення." revision="0" />
+  <Message key="DisplayStreams" value="Відображати потоки для {file}" revision="0" />
+  <Message key="Convert Blocks To Selection" value="Перетворити блоки у виділення" revision="0" />
+  <Message key="Matched blocks" value="Однакові" revision="0" />
+  <Message key="Inserted blocks" value="Вставлені блоки" revision="0" />
+  <Message key="Removed blocks" value="Видалені блоки" revision="0" />
+  <Message key="Modified blocks" value="Змінені блоки" revision="0" />
+  <Message key="Color Selection" value="Вибір кольорів" revision="0" />
+  <Message key="Compare Files" value="Порівняння файлів" revision="0" />
+  <Message key="First file:" value="Перший файл:" revision="0" />
+  <Message key="Second file:" value="Другий файл:" revision="0" />
+  <Message key="Comparison method:" value="Метод порівняння:" revision="0" />
+  <Message key="Align documents:" value="Вирівняти документи:" revision="0" />
+  <Message key="Synchronize windows" value="Синхронізація вікон" revision="0" />
+  <Message key="Colors…" value="Кольори…" revision="0" />
+  <Message key="Swap" value="Поміняти" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="Порівняти заново" revision="0" />
+    <Item value="Порівняти файли заново" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="Порівняти файли…" revision="0" />
+    <Item value="Порівняти файли" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="Перетворити у виділення" revision="0" />
+    <Item value="Перетворити блоки у виділення" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="Увімкнути кольори" revision="0" />
+    <Item value="Увімкнути кольори" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="Відображати шістнадцяткові значення" revision="0" />
+    <Item value="Відображати дані в шістнадцятковому або десятковому форматі" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="Попередній блок" revision="0" />
+    <Item value="Перейти до попереднього блоку" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="Наступний блок" revision="0" />
+    <Item value="Перейти до наступного блоку" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="Вибрати кольори…" revision="0" />
+    <Item value="Вибрати кольори для підсвічування блоків" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="Режим об'єднання" revision="0" />
+    <Item value="Відображати блоки для обох файлів одночасно" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="Простий алгоритм порівняння" revision="0" />
+    <Item value="Алгоритм пошуку відмінностей" revision="0" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="Не вирівнювати" revision="0" />
+    <Item value="Вирівнювати по горизонталі" revision="0" />
+    <Item value="Вирівнювати по вертикалі" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="Нормальний" revision="0" />
+    <Item value="Точний" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="Порівняння файлів" revision="0" />
+    <Item value="Файли ідентичні, але містять потоки. Hex Editor Neo не порівнює вміст потоків в автоматичному режимі. Ви можете зробити це вручну. Виберіть варіант для продовження." revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="Порівняння файлів" revision="0" />
+    <Item value="Файли ідентичні." revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Порівняти файли" revision="0" />
+    <Item value="Порівняти вміст двох бінарних файлів" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="Порівняння файлів" revision="0" />
+    <Item value="Порівняння файлів" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="Порівняння файлів" revision="0" />
+    <Item value="Функція &quot;Порівняння файлів&quot; дозволяє знаходити відмінності між двома файлами." revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="Однакові" revision="0" />
+    <Item value="Змінені" revision="0" />
+    <Item value="Вставлені" revision="0" />
+    <Item value="Видалені" revision="0" />
+    <Item value="Перенесені" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Тип" revision="0" />
+    <Item value="Зміщеня (джерело)" revision="0" />
+    <Item value="Зміщеня (кінцеве)" revision="0" />
+    <Item value="Розмір" revision="0" />
+  </Enumeration>
+</Language>

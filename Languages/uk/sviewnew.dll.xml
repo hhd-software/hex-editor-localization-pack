@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Update" value="Оновити" revision="0" />
+  <Message key="Assertion Failed" value="Умова не виконана{has message?}: {message}{?has message}" revision="0" />
+  <Message key="CantEvaluate" value="Не можу оцінити пов'язані вираження." revision="0" />
+  <Message key="Structure Viewer" value="Оглядач структур" revision="0" />
+  <Message key="Initializing" value="Ініціалізація Оглядача структур" revision="0" />
+  <Message key="Structure Errors" value="Помилки структур" revision="0" />
+  <Message key="Error accessing Clipboard" value="Помилка доступу до буфера обміну" revision="0" />
+  <Message key="ModifiedSuffix" value="(змінено)" revision="0" />
+  <Message key="NotFoundSuffix" value="(не знайдено)" revision="0" />
+  <Message key="FileInUse" value="Цей файл використовується модулем &quot;Оглядач структур&quot;. Деякі типи будуть відв'язані. Продовжити?" revision="0" />
+  <Message key="ConfigurationLost" value="Поточна конфігурація буде втрачена. Продовжити?" revision="0" />
+  <Message key="FileColumn" value="Файл" revision="0" />
+  <Message key="Nothing selected" value="Нічого не вибрано" revision="0" />
+  <Message key="Enter file extension" value="Введіть розширення файлу" revision="0" />
+  <Message key="No schemes available. Create schemes in Structure Viewer first" value="Схем немає. Спочатку створіть схеми в Оглядачі структур" revision="0" />
+  <Message key="No scheme selected" value="Схеми не вибрані" revision="0" />
+  <Message key="This extension is already used" value="Таке розширення вже використовується" revision="0" />
+  <Message key="All associations will be lost. Do you want to continue?" value="Всі асоціації будуть втрачені. Продовжити?" revision="0" />
+  <Message key="N/A" value="N/A" revision="0" />
+  <Message key="Bind is disabled during lengthy operation. Try again later." value="Прив'язка неможлива під час тривалих операцій. Спробуйте пізніше." revision="0" />
+  <Message key="Do you want to continue and remove the selected structure?" value="Бажаєте продовжити та видалити вибрані структури?" revision="0" />
+  <Message key="SchemeNotFound" value="Асоційована схема &quot;{scheme}&quot; не знайдена для розширення {ext}." revision="0" />
+  <Message key="Structure Viewer: Load Scheme" value="Оглядач структур: Завантаження схеми" revision="0" />
+  <Message key="Edit Associations" value="Редагувати асоціації" revision="0" />
+  <Message key="Unable to create file" value="Неможливо створити файл" revision="0" />
+  <Message key="Error saving scheme" value="Помилка при збереженні схеми" revision="0" />
+  <Message key="LengthyOp" value="Ця дія неможлива під час тривалих операцій. Спробуйте пізніше." revision="0" />
+  <Message key="This scheme can not be removed." value="Ця схема не може бути видалена." revision="0" />
+  <Message key="TypeNotFound" value="{typename} (тип не знайдений)" revision="0" />
+  <Message key="noname" value="&lt;Без імені&gt;" revision="0" />
+  <Message key="The file has different version." value="Цей файл має іншу версію." revision="0" />
+  <Message key="UnknownType" value="Невідомий тип" revision="0" />
+  <Message key="ErrorLoading" value="Помилка при завантаженні структур:\r\n" revision="0" />
+  <Message key="Associated scheme can not be loaded" value="Асоційована схема не може бути завантажена" revision="0" />
+  <Message key="Locked" value="Оглядач структур зараз заблокован. Схема не буде завантажена. Повторіть пізніше." revision="0" />
+  <Message key="Modified" value="Наступні файли були змінені поза Hex Editor Neo (усього {n} файлів):\r\n{files}\r\nПерезавантажити їх?" revision="0" />
+  <Message key="CompileErrors" value="Помилки компіляції{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="BindErrors" value="Помилки прив'язки{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Binding Structure" value="Прив'язка структур" revision="0" />
+  <Message key="BindError" value="Hex Editor Neo не може виконати директиву $bind (переконайтеся, що тип оголошен як public)" revision="0" />
+  <Message key="Copy to clipboard" value="Копіювати в буфер обміну" revision="0" />
+  <Message key="Exporting to file" value="Експортування у файл" revision="0" />
+  <Message key="VariableUpdateError" value="Hex Editor Neo не може оновити значення змінної." revision="0" />
+  <Message key="VariableBindError" value="Hex Editor Neo не може прив'язати змінну." revision="0" />
+  <Message key="OnlyFirst" value="Тільки перші {n} рядків будуть {is copy?}скопійовані в буфер обміну{|is copy}експортовані{?is copy}. Продовжити?" revision="0" />
+  <Message key="SchemeExists" value="Схема вже існує. Перезаписати її?" revision="0" />
+  <Message key="Scheme already exists" value="Схема вже існує" revision="0" />
+  <Message key="External Editor" value="Зовнішній редактор" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="Налаштувати зовнішній редактор, який буде використовуватися Оглядачем структур:" revision="0" />
+  <Message key="Clear" value="Очистити" revision="0" />
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="Підказка: використовуйте наступний синтаксис:\n   » %path% - шлях до вихідного файлу\n   » %line% - рядок у вихідном файлі\n   » %pos% - положення у рядку" revision="0" />
+  <Message key="Library" value="Бібліотека" revision="0" />
+  <Message key="Add…" value="Додати…" revision="0" />
+  <Message key="Edit…" value="Редагувати…" revision="0" />
+  <Message key="Save Scheme" value="Зберегти схему" revision="0" />
+  <Message key="Name:" value="Ім'я:" revision="0" />
+  <Message key="Structure Viewer Page" value="Оглядач структур" revision="0" />
+  <Message key="Include directories" value="Папки включення" revision="0" />
+  <Message key="File associations" value="Асоціації файлів" revision="0" />
+  <Message key="Configure external editor…" value="Налаштувати зовнішній редактор…" revision="0" />
+  <Message key="Regular expression:" value="Регулярний вираз:" revision="0" />
+  <Message key="Associated scheme:" value="Асоційована схема:" revision="0" />
+  <Message key="Structure Coloring" value="Колірні схеми" revision="0" />
+  <Message key="Apply" value="Застосувати" revision="0" />
+  <Message key="Bind Structure" value="Прив'язати структуру" revision="0" />
+  <Message key="Address" value="Адреса" revision="0" />
+  <Message key="Hex:" value="Шістнадцяткове:" revision="0" />
+  <Message key="Decimal:" value="Десяткове:" revision="0" />
+  <Message key="Absolute address" value="Абсолютна адреса" revision="0" />
+  <Message key="Relative address" value="Відносна адреса" revision="0" />
+  <Message key="Cursor" value="Курсор" revision="0" />
+  <Message key="Expression" value="Вираз" revision="0" />
+  <Message key="Bind" value="Прив'язати" revision="0" />
+  <Message key="Definition:" value="Визначення:" revision="0" />
+  <Message key="Type:" value="Тип:" revision="0" />
+  <Message key="Data Inspector" value="Інспектор Даних" revision="0" />
+  <Message key="Available starting from Standard Edition" value="Доступно починаючи з редакції Standard" revision="0" />
+  <Message key="DataInspCompileError" value="Пояснення не додано:" revision="0" />
+  <Message key="CompileErrorFormat" value="Помилка компіляції в рядку {err_line}" revision="0" />
+  <Message key="BindTypeNotFound" value="Не знайдений тип {type}" revision="0" />
+  <Message key="AddInspectType" value="Додати новий тип" revision="0" />
+  <Message key="EditInspectType" value="Редагувати тип" revision="0" />
+  <Message key="StructureFormats" value="Файли структур (*.h)|*.h|" revision="0" />
+  <Message key="DeleteStructFile" value="Помилка видалення обраного файлу: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Помилка збереження файлу &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="FileNotSaved" value="Поточний документ був змінений. Зберегти?" revision="0" />
+  <Message key="Files" value="Файли" revision="0" />
+  <Message key="Structures" value="Структури" revision="0" />
+  <Message key="Data Inspector Color Selection" value="Вибір кольорів Інспектора Даних" revision="0" />
+  <Message key="Background color:" value="Колір фону:" revision="0" />
+  <Message key="Text color:" value="Колір тексту:" revision="0" />
+  <Message key="Outline color:" value="Колір контуру:" revision="0" />
+  <Message key="Default" value="За замовчуванням" revision="0" />
+  <Message key="Add Inspector Type" value="Додати тип" revision="0" />
+  <Message key="Change Time" value="Змінити час" revision="0" />
+  <Enumeration key="StructureViewerBind">
+    <Item value="Прив'язати…" revision="0" />
+    <Item value="Прив'язати нову структуру" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item value="Відв'язати все" revision="0" />
+    <Item value="Відв'язати всі прив'язані структури" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item value="Бібліотека" revision="1" />
+    <Item value="Відкрити бібліотеку структур" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item value="Відображати шістнадцяткові значення" revision="0" />
+    <Item value="Відображати у вигляді шістнадцяткових або десяткових" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item value="Зберегти схему…" revision="0" />
+    <Item value="Зберегти поточну схему" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item value="Видалити схему" revision="0" />
+    <Item value="Видалити поточну схему" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item value="Синхронізувати позицію з документом" revision="0" />
+    <Item value="Синхронізувати позицію з документом" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item value="Автооновлення" revision="0" />
+    <Item value="Структури будуть автоматично оновлені в разі зміни даних" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item value="Структури онлайн…" revision="0" />
+    <Item value="Відкрити онлайн сховище структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item value="Асоціації…" revision="0" />
+    <Item value="Показати Асоціації" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item value="Глобальні колірні схеми для структур…" revision="0" />
+    <Item value="Визначити глобальні колірні схеми для структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item value="Показувати підказки" revision="0" />
+    <Item value="Відображати в підказці докладну інформацію про дані під курсором" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item value="До закладок" revision="0" />
+    <Item value="Конвертувати обране поле в закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item value="NO_ERROR" revision="1" />
+    <Item value="CE001: Запитувана операція не дозволена або невірний тип даних" revision="1" />
+    <Item value="CE002: Поділ на нуль" revision="1" />
+    <Item value="CE003: Зазначений ідентифікатор не знайдено" revision="1" />
+    <Item value="CE004: Очікується скалярний тип даних" revision="1" />
+    <Item value="CE005: Очікується векторний тип даних" revision="1" />
+    <Item value="CE006: Індекс масиву виходить за межі діапазону" revision="1" />
+    <Item value="CE007: Ще не реалізовано" revision="1" />
+    <Item value="CE008: Невірний розмір бітового поля" revision="1" />
+    <Item value="CE009: Синтаксична помилка" revision="1" />
+    <Item value="CE010: Не знайдено опис для оголошеного типу" revision="1" />
+    <Item value="CE011: Операція не підтримується для динамічного типу" revision="1" />
+    <Item value="CE012: Тип перевизначений" revision="1" />
+    <Item value="CE013: Перевірочна умова не виконана" revision="1" />
+    <Item value="CE014: Очікується константний вираз" revision="1" />
+    <Item value="CE015: Очікується константний рядковий вираз" revision="1" />
+    <Item value="CE016: Помилкова кількість аргументів у виклику функції" revision="1" />
+    <Item value="CE017: Взяття елементу неіндексованого масиву (підказка: приберіть атрибут [noindex])" revision="1" />
+    <Item value="CE018: Помилка повернена від Javascript engine" revision="1" />
+    <Item value="CE019: Невірний аргумент" revision="1" />
+    <Item value="CE020: Досягнута максимальна глибина рекурсії" revision="1" />
+    <Item value="CE021: Очікується вираз іншого типу" revision="1" />
+    <Item value="CE022: Попередня обробка помилок" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item value="Оглядач структур" revision="0" />
+    <Item value="Оглядач структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item value="Файли" revision="0" />
+    <Item value="Структури" revision="0" />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item value="Регулярний вираз" revision="0" />
+    <Item value="Схема" revision="0" />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item value="Ім'я" revision="0" />
+    <Item value="Значення" revision="0" />
+    <Item value="Адреса" revision="0" />
+    <Item value="Розмір" revision="0" />
+    <Item value="Тип" revision="0" />
+    <Item value="Опис" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item value="Оглядач структур" revision="0" />
+    <Item value="Функція &quot;Оглядач структур&quot; дозволяє аналізувати дані файлу відповідно до структури, визначеною у файлах заголовків." revision="0" />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item value="Ім'я документа" revision="0" />
+    <Item value="Файл" revision="0" />
+    <Item value="Тип" revision="0" />
+    <Item value="Рядок" revision="0" />
+    <Item value="Опис" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item value="У виділення" revision="0" />
+    <Item value="Перетворити поле у виділення" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item value="Перейти в кінець поточного поля" revision="0" />
+    <Item value="Перейти в кінець поточного поля" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item value="Перейти до визначення типу" revision="0" />
+    <Item value="Перейти до визначення типу" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item value="Перейти до визначення поля" revision="0" />
+    <Item value="Перейти до визначення поля" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item value="Копіювати повне ім'я" revision="0" />
+    <Item value="Копіювати повне ім'я" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item value="Копіювати значення" revision="0" />
+    <Item value="Копіювати значення" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item value="Копіювати рядок" revision="0" />
+    <Item value="Копіювати рядок" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item value="Копіювати все" revision="0" />
+    <Item value="Копіювати все" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item value="Копіювати колонку" revision="0" />
+    <Item value="Копіювати колонку" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item value="Експортувати у CSV файл" revision="0" />
+    <Item value="Експортувати у CSV файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item value="Розгорнути все" revision="0" />
+    <Item value="Розгорнути все" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item value="Згорнути все" revision="0" />
+    <Item value="Згорнути все" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item value="Розгорнути піддерево" revision="0" />
+    <Item value="Розгорнути піддерево" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item value="Згорнути піддерево" revision="0" />
+    <Item value="Згорнути піддерево" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item value="Відв'язати" revision="0" />
+    <Item value="Відв'язати" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item value="Прив'язати…" revision="0" />
+    <Item value="Прив'язати нову структуру" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item value="Редагувати…" revision="0" />
+    <Item value="Редагувати поточне значення" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item value="Тип" revision="0" />
+    <Item value="Значення" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspHexMode">
+    <Item value="Відобразити шістнадцяткові значення" revision="0" />
+    <Item value="Відображати шістнадцяткові або десяткові значення" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item value="Увімкнути підсвітку" revision="0" />
+    <Item value="Увімкнути або вимкнути підсвітку поточного поля" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item value="Змінити кольори…" revision="0" />
+    <Item value="Змінити кольори підсвітки Інспектора Даних" revision="0" />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item value="Додати &amp;новий тип..." revision="0" />
+    <Item value="Додати нове визначення типу" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item value="Редагувати визначення..." revision="0" />
+    <Item value="Редагувати поточне визначення типу" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item value="Видалити визначення" revision="0" />
+    <Item value="Видалити обране визначення типу" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item value="&amp;Інспектор Даних" revision="0" />
+    <Item value="Інспектор Даних" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item value="Інспектор Даних" revision="0" />
+    <Item value="Функція Інспектор Даних відображає дані під курсором у різних форматах і підсвічує поля." revision="0" />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item value="Стандартні типи" revision="0" />
+    <Item value="Типи користувача" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNew">
+    <Item value="&amp;Новий файл структур..." revision="0" />
+    <Item value="Створити новий файл структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item value="&amp;Додати файл структур..." revision="0" />
+    <Item value="Додати існуючий файл структур в бібліотеку" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item value="Зберегти &amp;всі структури" revision="0" />
+    <Item value="Зберегти всі відкриті файли структур на диск" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item value="&amp;Компілювати" revision="0" />
+    <Item value="Компілювати структури" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item value="&amp;Редактор структур" revision="0" />
+    <Item value="Меню Редактора структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item value="&amp;Редагувати" revision="0" />
+    <Item value="Редагувати значення" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item value="Автоматична перекомпіляція" revision="0" />
+    <Item value="Автоматично перекомпілювати файли при змінах" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item value="Видалити файл структур" revision="1" />
+    <Item value="Видалити обраний файл структур" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item value="Відкрити папку структур" revision="0" />
+    <Item value="Відкрити папку з файлами структур" revision="0" />
+  </Enumeration>
+</Language>

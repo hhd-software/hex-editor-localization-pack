@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="Оновлення" revision="1" />
+  <Message key="ForegroundDownloading" value="Режим активного закачування" revision="1" />
+  <Message key="ProgressString" value="Виконано {percent} %" revision="1" />
+  <Message key="Unknown" value="Невідомо" revision="1" />
+  <Message key="PleaseWait" value="Будь ласка, почекайте…" revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="Це перезапустить всі поточні закачування заново. Бажаєте продовжити?" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="Хочете скасувати всі поточні закачування?" revision="1" />
+  <Message key="Proxy Page" value="Проксі" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Налаштування проксі, які використовуються при &quot;Пошук оновлень&quot;:" revision="0" />
+  <Message key="Default" value="За замовчанням" revision="0" />
+  <Message key="Autodetect proxy settings" value="Автоматичне визначення налаштувань" revision="0" />
+  <Message key="Do not use proxy" value="Не використовувати проксі" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="Використовувати вказаний проксі (HTTP):" revision="0" />
+  <Message key="Settings" value="Налаштування" revision="0" />
+  <Message key="Authentication" value="Аутентифікація" revision="0" />
+  <Message key="Authentication is not required" value="Аутентифікація не потрібна" revision="0" />
+  <Message key="Authenticate me as logged on user" value="Аутентифікувати як поточного користувача" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Аутентифікувати як користувача з обліковими даними:" revision="0" />
+  <Message key="User name:" value="Ім'я користувача:" revision="0" />
+  <Message key="Password:" value="Пароль:" revision="0" />
+  <Message key="Re-type password:" value="Повтор пароля:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo безпечно зберігає введенний пароль на вашому комп'ютері)" revision="0" />
+  <Message key="PasswordMismatch" value="Введені паролі повинні співпадати." revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="Оновлення" revision="0" />
+    <Item value="Оновлення" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="&amp;Скасувати всі завдання" revision="1" />
+    <Item value="Скасувати всі завдання по закачуванню" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="Режим &amp;активного закачування" revision="1" />
+    <Item value="Використовувати всю пропускну здатність каналу" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="Задача" revision="1" />
+    <Item value="Статус" revision="1" />
+    <Item value="Розмір" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="У черзі" revision="1" />
+    <Item value="З'єднання…" revision="1" />
+    <Item value="Передача…" revision="1" />
+    <Item value="Призупинено" revision="1" />
+    <Item value="Помилка" revision="1" />
+    <Item value="Помилка. Повтор через 10 секунд…" revision="1" />
+    <Item value="Завантажено" revision="1" />
+    <Item value="Підтверджено" revision="1" />
+    <Item value="Скасовано" revision="1" />
+  </Enumeration>
+</Language>

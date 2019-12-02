@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="Хочете скасувати операцію? Це зіпсує вміст файлу." revision="1" />
+  <Message key="OccFound" value="Знайдено {N} включень." revision="1" />
+  <Message key="CopiedFragmentName" value="Дані з HHD Hex Editor Neo 5" revision="1" />
+  <Message key="DefaultBranchName" value="За замовчуванням" revision="1" />
+  <Message key="Continue working with a file." value="Продовження роботи з файлом." revision="1" />
+  <Message key="Discard all changes and close the file." value="Скасувати зміни та закрити файл." revision="1" />
+  <Message key="SharedError" value="Помилка при оновленні файлу." revision="1" />
+  <Message key="InvalidChars" value="Клас регулярних виразів містить помилковий символ." revision="1" />
+  <Message key="ClassExists" value="Цей клас вже існує. Змініть ім'я класу." revision="1" />
+  <Message key="DeleteClasses?" value="Дійсно хочете видалити всі класи?" revision="1" />
+  <Message key="LoadError" value="Внутрішня помилка: {text} ({code})" revision="1" />
+  <Message key="Loading" value="Завантаження основних компонентів" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="Перевіряти вільне місце на диску перед операціями" revision="1" />
+  <Message key="IgnoreRenames" value="Не перейменовувати відкриті загальні файли" revision="1" />
+  <Message key="RemovedNotification" value="Загальний документ видалено" revision="1" />
+  <Message key="NewBranchName" value="Гілка" revision="1" />
+  <Message key="OldVersion" value="{name} (стара версія {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;: Помилка при створенні документа: {{ext} ({code})" revision="2" />
+  <Message key="LongTime" value="Відкриття файлу &quot;{path}&quot; в &quot;загальному&quot; режимі може зайняти багато часу. Хочете відкрити файл у звичайному режимі?" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Помилка при відкритті документа: {text} ({code})" revision="2" />
+  <Message key="LowDiskSpace" value="На диску {disk} мало вільного місця. Операція не може бути продовжена. Звільніть місце та спробуйте знову.\r\n\r\nЗауваження: більшість операцій Hex Editor Neo недоступно якщо на диску з тимчасовою папкою мало місця. Операція &quot;Зберегти як&quot; доступна, щоб ви могли записати змінений файл на інший том.\r\n\r\nЦю перевірку можна відключити в Інструменти » Налаштування » Загальне » Перевіряти вільне місце на диску перед операціями." revision="1" />
+  <Message key="Unknown Process" value="Не встановлений процес" revision="1" />
+  <Message key="Physical Memory" value="Фізична пам'ять" revision="1" />
+  <Message key="Shared File Conflict Detected" value="Помічені сторонні зміни в загальному файлі" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Файл був змінений поза Hex Editor Neo. Яку дію хочете виконати?" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="Зберегти всі зміни та не оновлювати файл" revision="1" />
+  <Message key="Discard all changes and close the file" value="Скинути всі зміни та закрити файл" revision="1" />
+  <Message key="Discard all changes and update the file" value="Скинути всі зміни та оновити файл" revision="1" />
+  <Message key="Retain all changes and update the file" value="Зберегти всі зміни та оновити файл" revision="1" />
+  <Message key="Highlight changes in the file" value="Підсвітити зміни у файлі" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="використовуючи простий алгоритм (швидко, менш точно)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="використовуючи алгоритм пошуку відмінностей (повільніше, точно)" revision="1" />
+  <Message key="Close older versions of the file" value="Закрити старішу версію файлу" revision="1" />
+  <Message key="Edit Class" value="Редагувати клас" revision="1" />
+  <Message key="Class name (must be unique):" value="Ім'я класу (унікальне)" revision="1" />
+  <Message key="Regular expression:" value="Регулярний вираз:" revision="1" />
+  <Message key="Regular Expressions" value="Регулярні вирази" revision="1" />
+  <Message key="Regular Expressions Page" value="Регулярні вирази" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Тут ви можете створювати класи для використання регулярних виразів. Клас може бути регулярним виразом, що посилається на інші класи." revision="1" />
+  <Message key="Add…" value="&amp;Додати…" revision="1" />
+  <Message key="Edit…" value="&amp;Правити…" revision="1" />
+  <Message key="Delete All" value="Видалити &amp;все" revision="1" />
+  <Message key="Global regular expression options:" value="Глобальні параметри виразів:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Крапка) метасимвол не збігається з символом нуль ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Крапка) метасимвол не збігається з символом нового рядка ('\\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="Не ескейп пробіл не значущий" revision="1" />
+  <Message key="Open Shared" value="Відкрити спільний" revision="1" />
+  <Enumeration key="ConflictOptions">
+    <Item value="Ігнорувати зміни" revision="1" />
+    <Item value="Закрити файл" revision="1" />
+    <Item value="Оновити файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item value="Помічені сторонні зміни в загальному файлі" revision="1" />
+    <Item value="Файл {name} був видалений іншою програмою. Яку дію вжити?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item value="Знайти все" revision="1" />
+    <Item value="Залити" revision="1" />
+    <Item value="Видалити" revision="1" />
+    <Item value="Зберегти" revision="1" />
+    <Item value="Знайти" revision="1" />
+    <Item value="Замінити все" revision="1" />
+    <Item value="Збір статистики" revision="1" />
+    <Item value="Зберегти як" revision="1" />
+    <Item value="Зберегти історію" revision="1" />
+    <Item value="Завантажити історію" revision="1" />
+    <Item value="Створити патч" revision="1" />
+    <Item value="Виділити зміни" revision="1" />
+    <Item value="Копіювати" revision="1" />
+    <Item value="Вставити" revision="1" />
+    <Item value="Склеїти історію" revision="1" />
+    <Item value="Статистика послідовностей" revision="1" />
+    <Item value="Експортувати" revision="1" />
+    <Item value="Шифрувати" revision="1" />
+    <Item value="Розшифрувати" revision="1" />
+    <Item value="Бітова операція" revision="1" />
+    <Item value="Арифметична операція" revision="1" />
+    <Item value="Операція зсуву" revision="1" />
+    <Item value="Операція звернення" revision="1" />
+    <Item value="Регістрова операція" revision="1" />
+    <Item value="Вставити Hex" revision="1" />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item value="Ім'я класу" revision="1" />
+    <Item value="Регулярний вираз" revision="1" />
+  </Enumeration>
+</Language>

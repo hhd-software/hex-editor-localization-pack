@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" value="Обчислення контрольних сум" revision="1" />
+  <Message key="8-bit sum" value="8-бітна сума" revision="1" />
+  <Message key="16-bit sum" value="16-бітна сума" revision="1" />
+  <Message key="32-bit sum" value="32-бітна сума" revision="1" />
+  <Message key="64-bit sum" value="64-бітна сума" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit values" value="Сума 16-бітових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="Сума 16-бітових значень зворотного порядку (Big-Endian)" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="Сума 32-бітових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="Сума 32-бітових значень зворотного порядку (Big-Endian)" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="Сума 64-бітових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="Сума 32-бітових значень зворотного порядку (Big-Endian)" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="Сума 8-бітних знакових значень" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="Сума 16-бітних знакових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="Сума 16-бітних знакових значень прямого порядку (Big-Endian)" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="Сума 32-бітних знакових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="Сума 32-бітних знакових значень прямого порядку (Big-Endian)" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="Сума 64-бітних знакових значень прямого порядку (Little-Endian)" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="Сума 64-бітних знакових значень прямого порядку (Big-Endian)" revision="1" />
+  <Message key="Custom CRC" value="Настроювана CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Деякі значення не вміщаються в 16 біт. Задайте 16-бітові значення від 0 до 0xFFFF (65535)." revision="1" />
+  <Message key="Loading checksums" value="Завантаження контрольних сум" revision="1" />
+  <Message key="Initializing checksums" value="Ініціалізація контрольних сум" revision="1" />
+  <Message key="Checksum" value="Контрольні суми" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Функція &quot;Контрольна сума&quot; обчислює значення сум вибраних даних або всього документа." revision="1" />
+  <Message key="N/A" value="Немає даних" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="Будь ласка, дочекайтеся закінчення виконуваних операцій." revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстові файли з табуляцією-роздільником (*.tsv)|*.tsv|Всі файли|*||" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Початкове={initial}, Поліном={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="Add Algorithm" value="Додати алгоритм" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="Виберіть алгоритм зі списку:" revision="1" />
+  <Message key="Custom CRC Parameters" value="Параметри настроюваної CRC" revision="1" />
+  <Message key="Initial Value:" value="Початкове значення:" revision="1" />
+  <Message key="Polynomial:" value="Поліном:" revision="1" />
+  <Message key="XOR Out:" value="XOR Out:" revision="1" />
+  <Message key="Hex" value="Hex:" revision="2" />
+  <Message key="Decimal" value="Десяткове:" revision="2" />
+  <Message key="Reflection In" value="Reflection In" revision="1" />
+  <Message key="Reflection Out" value="Reflection Out" revision="1" />
+  <Message key="Checksum Result" value="Результат" revision="1" />
+  <Message key="Copy" value="Копіювати" revision="1" />
+  <Message key="Size:" value="Розмір:" revision="1" />
+  <Message key="Separator:" value="Роздільник:" revision="1" />
+  <Enumeration key="Checksum result separators">
+    <Item value="Без роздільників" revision="1" />
+    <Item value="Пробіл (' ')" revision="1" />
+    <Item value="Кома (',')" revision="1" />
+    <Item value="Дефіс ('-')" revision="1" />
+    <Item value="Двокрапка (':')" revision="1" />
+    <Item value="Крапка з комою (';')" revision="1" />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item value="Прості суми" revision="1" />
+    <Item value="Додаткові суми" revision="1" />
+    <Item value="Контрольні суми" revision="1" />
+    <Item value="Хеши" revision="1" />
+    <Item value="Знакові суми" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item value="&amp;Контрольні суми" revision="0" />
+    <Item value="Контрольні суми" revision="0" />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item value="Тільки виділене" revision="1" />
+    <Item value="Весь документ" revision="1" />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item value="Алгоритм" revision="1" />
+    <Item value="Значення (Hex)" revision="1" />
+    <Item value="Значення (Dec)" revision="1" />
+    <Item value="Параметри" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item value="Відобразити результат" revision="0" />
+    <Item value="Відобразити результат вибраної контрольної суми" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item value="Оновити" revision="0" />
+    <Item value="Почати обчислення контрольних сум" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item value="Вибрати все" revision="1" />
+    <Item value="Вибрати всі алгоритми" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item value="Прибрати всі" revision="1" />
+    <Item value="Вимкнути всі алгоритми" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item value="Скопіювати" revision="1" />
+    <Item value="Скопіювати вибрані результати в буфер обміну" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item value="Скопіювати все" revision="1" />
+    <Item value="Скопіювати всі результати в буфер обміну" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item value="Експортувати…" revision="1" />
+    <Item value="Експортувати вибрані результати в текстовий файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item value="Параметри…" revision="1" />
+    <Item value="Налаштувати параметри алгоритму" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item value="Додати алгоритм…" revision="1" />
+    <Item value="Додати новий алгоритм" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item value="Видалити алгоритм" revision="1" />
+    <Item value="Видалити обраний алгоритм" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item value="Скинути список алгоритмів" revision="1" />
+    <Item value="Скинути список алгоритмів до установок за замовчуванням" revision="1" />
+  </Enumeration>
+</Language>

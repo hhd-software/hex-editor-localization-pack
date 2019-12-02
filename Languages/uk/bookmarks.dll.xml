@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Sample Text" value="Приклад тексту" revision="0" />
+  <Message key="Loading" value="Завантаження закладок" revision="0" />
+  <Message key="Initializing" value="Ініціалізація закладок" revision="0" />
+  <Message key="Bookmarks" value="Закладки" revision="0" />
+  <Message key="Progress" value="Поточна операція виконується, дочекайтеся її закінчення." revision="0" />
+  <Message key="GroupDelete" value="Група буде видалена (включаючи всі закладки в ній). Продовжити?" revision="0" />
+  <Message key="AllDelete" value="Всі групи будуть видалені. Продовжити?" revision="0" />
+  <Message key="BookmarkGroup" value="Група закладок {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Помилка при створенні групи закладок" revision="0" />
+  <Message key="SelWarning" value="Виділення містить множинні фрагменти, кожен буде доданий як окрема закладка. Продовжити?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Помилка при перетворенні виділення в закладку" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Помилка при перетворенні закладки у виділення" revision="0" />
+  <Message key="AllBookmarksDelete" value="Усі закладки будуть видалені. Продовжити?" revision="0" />
+  <Message key="Error loading from file" value="Помилка при завантаженні з файлу" revision="0" />
+  <Message key="File has different version" value="Файл має іншу версію" revision="0" />
+  <Message key="Error loading bookmarks" value="Помилка при завантаженні закладок" revision="0" />
+  <Message key="Select Action" value="Виберіть дію" revision="0" />
+  <Message key="New selection" value="Нове виділення" revision="0" />
+  <Message key="Add to selection" value="Додати до виділеного" revision="0" />
+  <Message key="Subtract from selection" value="Відняти з виділеного" revision="0" />
+  <Message key="Edit Group" value="Редагувати групу" revision="0" />
+  <Message key="Name:" value="Ім'я:" revision="0" />
+  <Message key="Text:" value="Текст:" revision="0" />
+  <Message key="Background:" value="Фон:" revision="0" />
+  <Message key="Outline:" value="Контур:" revision="0" />
+  <Message key="Round edges" value="Округлі кути" revision="0" />
+  <Message key="Default" value="За замовчуванням" revision="0" />
+  <Message key="BookmarksFilterString" value="Файли закладок (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="Файли виділень (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Показувати попередження конвертації виділення в закладки" revision="1" />
+  <Message key="MergeBookmarks" value="Об'єднати з існуючими закладками?" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Нова група закладок" revision="0" />
+    <Item value="Створити нову групу закладок" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Переключити закладку" revision="0" />
+    <Item value="Поставити або прибрати закладку на поточній позиції" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Попередня закладка" revision="0" />
+    <Item value="Перейти до попередньої закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Наступна закладка" revision="0" />
+    <Item value="Перейти до наступної закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Виділення в закладки" revision="0" />
+    <Item value="Перетворити виділення в закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Закладки у виділення…" revision="0" />
+    <Item value="Перетворити закладки у виділення" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Завантажити закладки…" revision="0" />
+    <Item value="Завантажити закладки з файлу" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Зберегти закладки…" revision="0" />
+    <Item value="Зберегти закладки у файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;Закладки" revision="0" />
+    <Item value="Меню Закладок" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Вибрати" revision="0" />
+    <Item value="Вибрати вказану групу" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Редагувати" revision="0" />
+    <Item value="Редагувати вказану групу" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="Видалити &amp;все" revision="0" />
+    <Item value="Видалити всі записи" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="&amp;Видалити" revision="0" />
+    <Item value="Видалити поточний запис" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Перейти до закладки" revision="0" />
+    <Item value="Перейти до обраної закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Скинути поточне виділення та перетворити групу закладок у нове виділення." revision="0" />
+    <Item value="Додати поточну групу закладок до існуючих виділень." revision="0" />
+    <Item value="Відняти поточну групу закладок з наявних виділень." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Видима" revision="0" />
+    <Item value="Приклеєна" revision="0" />
+    <Item value="Активна" revision="0" />
+    <Item value="Група закладок" revision="0" />
+    <Item value="Закладки" revision="0" />
+    <Item value="Колір" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="№" revision="0" />
+    <Item value="Адреса" revision="0" />
+    <Item value="Розмір" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Закладки" revision="0" />
+    <Item value="Функція &quot;закладки&quot; дозволяє позначати файл для зручних і швидких переходів по файлу." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Попередження конвертування виділення в закладки" revision="1" />
+    <Item value="Поточне виділення містить декілька фрагментів. Кожен буде доданий як окрема закладка. Ви хочете продовжити?" revision="1" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Offset" value="Зміщення" revision="1" />
+  <Message key="SchemeNameCue" value="Введіть ім'я схеми тут" revision="1" />
+  <Message key="Encrypt" value="Шифрувати" revision="1" />
+  <Message key="Decrypt" value="Розшифрувати" revision="1" />
+  <Message key="Navigate to Position" value="Перейти до зміщення" revision="1" />
+  <Message key="Add Position" value="Додати зміщення" revision="1" />
+  <Message key="Editor" value="Редактор" revision="1" />
+  <Message key="Printing" value="Друк" revision="1" />
+  <Message key="AutoDropSelection" value="Режим одиничного виділення" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="Пересувати виділення під час вставок" revision="1" />
+  <Message key="DigitGrouping" value="Групувати цифри в числах" revision="1" />
+  <Message key="ShowCurrentAddress" value="Відображати позицію курсора ліворуч" revision="1" />
+  <Message key="IgnoreColoring" value="Ігнорувати кольори" revision="1" />
+  <Message key="StandardHeader" value="Стандартний верхній колонтитул" revision="1" />
+  <Message key="StandardFooter" value="Стандартний нижній колонтитул" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="Пересувати курсор після вставок" revision="1" />
+  <Message key="FindAllNotification" value="Знайти все" revision="1" />
+  <Message key="PasteNotification" value="Вставити текст" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="Неправильний вираз, перевірте синтаксис." revision="1" />
+  <Message key="Connect to" value="Підключення до" revision="1" />
+  <Message key="ConnectToSuccess" value="Вікно було успішно з'єднане." revision="1" />
+  <Message key="ConnectToFailure" value="Обрано неправильне вікно, з ним не можна з'єднатися." revision="1" />
+  <Message key="Copying Selection Regions…" value="Копіювання виділених областей…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="Експортування виділених областей…" revision="1" />
+  <Message key="Open documentation section and continue" value="Відкрити розділ документації та продовжити" revision="1" />
+  <Message key="Just continue" value="Продовжити" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Авто{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="Завантаження редактора" revision="1" />
+  <Message key="Initializing" value="Ініціалізація редактора" revision="1" />
+  <Message key="Selection Tool Window" value="Виділення" revision="1" />
+  <Message key="Output" value="Вивод" revision="1" />
+  <Message key="Save As" value="Зберегти як" revision="1" />
+  <Message key="Do you want to override this scheme?" value="Хочуть перевизначити цю схему?" revision="1" />
+  <Message key="NoSel" value="Немає виділень" revision="1" />
+  <Message key="EncodingNotSupported" value="Обране кодування не підтримується операційною системою. Переконайтеся, що необхідні файли кодових сторінок і шрифти встановлені." revision="1" />
+  <Message key="NoEncoding" value="У вашій системі не вистачає компонентів для підтримки обраного кодування." revision="1" />
+  <Message key="SwitchSingleSel" value="Включити &quot;режим одиничного виділення&quot;\nЦе відключить функцію &quot;Множинне виділення&quot;. Ви можете поміняти цей параметр пізніше в &quot;Загальних&quot; настройках." revision="1" />
+  <Message key="Find" value="Знайти" revision="1" />
+  <Message key="A pattern was not found." value="Послідовність не знайдена." revision="1" />
+  <Message key="RegExpInSel" value="Пошук регулярних виразів у виділенні не підтримується." revision="1" />
+  <Message key="Find All" value="Знайти все" revision="1" />
+  <Message key="RegExpBackwards" value="Пошук регулярних виразів &quot;назад&quot; не підтримується." revision="1" />
+  <Message key="Replace All" value="Замінити все" revision="1" />
+  <Message key="Go to Offset" value="Перехід до зміщення" revision="1" />
+  <Message key="Invalid offset." value="Невірне зміщення." revision="1" />
+  <Message key="UnsupportedFunction" value="Функція не підтримується для такого типу документів." revision="1" />
+  <Message key="Change File Size" value="Змінити розмір файлу" revision="1" />
+  <Message key="Invalid file size." value="Невірний розмір файлу" revision="1" />
+  <Message key="Insert" value="Вставка" revision="1" />
+  <Message key="Invalid size." value="Невірний розмір." revision="1" />
+  <Message key="NFound" value="{isfound?}{n} включень знайдено.{|isfound}Послідовність не знайдено.{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n} включень знайдено та замінено.{|isfound}Послідовність не знайдено.{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="Обраний алгоритм шифрування не підтримується." revision="1" />
+  <Message key="Copy" value="Копіювання" revision="1" />
+  <Message key="Export" value="Експортування" revision="1" />
+  <Message key="SelectionFiles" value="Файли виділень (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="Текстові файли (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} бітів)" revision="1" />
+  <Message key="SetSize" value="Шістнадцятковий: \t{size}\r\nДесятковий: \t{size:2} ({size as text}){hasfree?}\r\n\r\nДоступно на цьому диску: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="Помилка в синтаксисі регулярного виразу: {error}." revision="1" />
+  <Message key="OffsetPane" value="Зміщення: {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="Розмір: {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="Обраний алгоритм вимагає розміру даних, кратного {bytes} байтам." revision="1" />
+  <Message key="EncryptFailed" value="Операцію спіткала невдача з кодом {code}" revision="1" />
+  <Message key="PrintedBy" value="Роздруковано за допомогою HHD Software {product}" revision="1" />
+  <Message key="PageNumber" value="Сторінка {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="Помилка при копіюванні виділених областей: {text} ({code})" revision="1" />
+  <Message key="ExportError" value="Помилка при створенні файлу: {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="Послідовність:" revision="1" />
+  <Message key="Replace with:" value="Замінити на:" revision="1" />
+  <Message key="Arithmetic Operation" value="Арифметична операція" revision="1" />
+  <Message key="Operation:" value="Операція:" revision="1" />
+  <Message key="Operand type:" value="Тип операнда:" revision="1" />
+  <Message key="Operand value:" value="Значення операнда:" revision="1" />
+  <Message key="Current cell" value="Поточна комірка" revision="1" />
+  <Message key="Selection" value="Виділення" revision="1" />
+  <Message key="Whole file" value="Весь файл" revision="1" />
+  <Message key="Hexadecimal" value="Шістнадцяткове" revision="1" />
+  <Message key="Decimal" value="Десяткове" revision="1" />
+  <Message key="Modify Bits" value="Змінити біти" revision="1" />
+  <Message key="1 Byte:" value="1 Байт:" revision="1" />
+  <Message key="2 Byte:" value="2 Байта:" revision="1" />
+  <Message key="3 Byte:" value="3 Байта:" revision="1" />
+  <Message key="4 Byte:" value="4 Байта:" revision="1" />
+  <Message key="5 Byte:" value="5 Байтів:" revision="1" />
+  <Message key="6 Byte:" value="6 Байтів:" revision="1" />
+  <Message key="7 Byte:" value="7 Байтів:" revision="1" />
+  <Message key="8 Byte:" value="8 Байтів:" revision="1" />
+  <Message key="Binary representation:" value="Двійкове подання:" revision="1" />
+  <Message key="Value:" value="Значення:" revision="1" />
+  <Message key="Hex" value="Шістнадцяткове" revision="1" />
+  <Message key="Octal" value="Вісімкове" revision="1" />
+  <Message key="Set All To Zero" value="Все в нуль" revision="1" />
+  <Message key="Set All To One" value="Все в одиницю" revision="1" />
+  <Message key="Invert" value="Інвертувати" revision="1" />
+  <Message key="Revert" value="Повернути" revision="1" />
+  <Message key="Bitwise Operation" value="Побітова операція" revision="1" />
+  <Message key="Set Columns" value="Встановити колонки" revision="0" />
+  <Message key="Enter number of columns per row:" value="Введіть число колонок у рядку:" revision="0" />
+  <Message key="Select the Window to Connect" value="Виберіть вікно для зв'язку" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Клацніть на іконку, потягнете її на вікно, з яким хочете зв'язати поточне та відпустіть кнопку." revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="Рух курсору в пов'язаних вікнах синхронний." revision="0" />
+  <Message key="Encrypt/Decrypt" value="Шифрування/Розшифрування" revision="0" />
+  <Message key="Algorithm:" value="Алгоритм:" revision="0" />
+  <Message key="Key length:" value="Довжина ключа:" revision="0" />
+  <Message key="bits" value="бітів" revision="0" />
+  <Message key="Status:" value="Статус:" revision="0" />
+  <Message key="Do not hide password" value="Не приховувати пароль" revision="0" />
+  <Message key="Password:" value="Пароль:" revision="0" />
+  <Message key="Re-type password:" value="Повторити пароль:" revision="0" />
+  <Message key="Fill" value="Заливка" revision="0" />
+  <Message key="Fill whole file" value="Залити всесь файл" revision="0" />
+  <Message key="Fill selection" value="Залити виділення" revision="0" />
+  <Message key="Transparent fill" value="Наскрізна заливка" revision="0" />
+  <Message key="Reverse pattern" value="Зворотня послідовність" revision="0" />
+  <Message key="&amp;Fill" value="&amp;Залити" revision="0" />
+  <Message key="&amp;Find" value="&amp;Знайти" revision="0" />
+  <Message key="Find &amp;All" value="Знайти &amp;все" revision="0" />
+  <Message key="Search whole file" value="По всьому файлу" revision="0" />
+  <Message key="Search selection" value="По виділенню" revision="0" />
+  <Message key="Search up" value="Шукати вверх" revision="0" />
+  <Message key="Search down" value="Шукати вниз" revision="0" />
+  <Message key="Ignore case" value="Ігнор. регістр" revision="0" />
+  <Message key="Offset (expressions supported):" value="Зміщення (підтримуються вираження):" revision="0" />
+  <Message key="Resulting offset:" value="Кінцеве зміщення" revision="0" />
+  <Message key="Selection:" value="Виділення:" revision="0" />
+  <Message key="Bookmark:" value="Закладка:" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Абсолютне зміщення" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Відносне зміщення" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Відсоток" revision="0" />
+  <Message key="&amp;Insert" value="&amp;Вставити" revision="0" />
+  <Message key="Size (expressions supported):" value="Розмір (підтримуються вираження):" revision="0" />
+  <Message key="Layout Page" value="Розмітка" revision="0" />
+  <Message key="Font:" value="Шрифт:" revision="0" />
+  <Message key="Size:" value="Розмір:" revision="0" />
+  <Message key="Visualization elements:" value="Візуальні фрагменти:" revision="0" />
+  <Message key="Color:" value="Колір:" revision="0" />
+  <Message key="Automatic" value="Авто" revision="0" />
+  <Message key="Do not interlace background" value="Без черезрядкового фону" revision="0" />
+  <Message key="Interlace columns" value="Черезрядкові колонки" revision="0" />
+  <Message key="Interlace rows" value="Черезрядкові рядки" revision="0" />
+  <Message key="Draw edit cursor frame" value="Рамка курсора" revision="0" />
+  <Message key="Smart indentation" value="Відступи" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Згладжування (повільніше)" revision="0" />
+  <Message key="Schemes…" value="Схеми…" revision="0" />
+  <Message key="Layout Schemes" value="Схеми розмітки" revision="0" />
+  <Message key="&amp;Save As…" value="Зберегти &amp;як" revision="0" />
+  <Message key="Load Selection" value="Завантаження виділення" revision="0" />
+  <Message key="Loading Mode" value="Режим завантаження" revision="0" />
+  <Message key="New selection" value="Нове виділення" revision="0" />
+  <Message key="Add to current" value="Додати до поточного" revision="0" />
+  <Message key="Subtract from current" value="Відняти з поточного" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="Зачекайте поки виконується поточна операція…" revision="0" />
+  <Message key="0 % done" value="0 % виконано" revision="0" />
+  <Message key="Elapsed time: " value="Минуло часу:" revision="0" />
+  <Message key="Remaining time:" value="Залишилось часу:" revision="0" />
+  <Message key="Speed:" value="Швидкість:" revision="0" />
+  <Message key="Replace" value="Заміна" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Знайти далі" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Замінити" revision="0" />
+  <Message key="Replace &amp;All" value="&amp;Замінити все" revision="0" />
+  <Message key="Reverse Operation" value="Операція звернення" revision="0" />
+  <Message key="Information" value="Інформація" revision="0" />
+  <Message key="Details" value="Детально" revision="0" />
+  <Message key="Select Range" value="Вибір діапазону" revision="0" />
+  <Message key="Offset:" value="Зміщення:" revision="0" />
+  <Message key="Add" value="Додати" revision="0" />
+  <Message key="Subtract" value="Відняти" revision="0" />
+  <Message key="Overlap" value="Перекрити" revision="0" />
+  <Message key="Specify new file size:" value="Новий розмір файлу:" revision="0" />
+  <Message key="Resulting file size:" value="Кінцевий розмір файлу:" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="Ви можете використовувати математичні вирази при введенні розміру. Докладніше в Довідці." revision="0" />
+  <Message key="Shift Operation" value="Операція зсуву" revision="0" />
+  <Message key="Shift by (bits):" value="Зрушити на (біт):" revision="0" />
+  <Message key="Editor Page" value="Редактор" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="Вікно редактора, вибрати параметри за замовчуванням:" revision="0" />
+  <Message key="Display as:" value="Відображати як:" revision="0" />
+  <Message key="Group by:" value="Групувати по:" revision="0" />
+  <Message key="Columns:" value="Колонки:" revision="0" />
+  <Message key="Byte order:" value="Порядок байтів:" revision="0" />
+  <Message key="Encoding:" value="Кодування:" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="Запам'ятовувати налаштування вікна для кожного відкритого документа" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="Якщо зазначено, Hex Editor Neo асоціює налаштування вікна редактора з кожним відкритим документом. Під час наступного відкриття цього документа, налаштування завантажаться автоматично." revision="0" />
+  <Message key="Code pane" value="Область коду" revision="0" />
+  <Message key="Text pane" value="Область тексту" revision="0" />
+  <Message key="Take from current window" value="Взяти з поточного вікна" revision="0" />
+  <Message key="Reset to Default" value="За замовчуванням" revision="0" />
+  <Message key="Clear Cache" value="Очистити кеш" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="Виділити &amp;все" revision="1" />
+    <Item value="Виділити всі дані у файлі" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="Ск&amp;инути виділення" revision="1" />
+    <Item value="Скинути поточне виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="Інвертувати виділення" revision="1" />
+    <Item value="Інвертувати поточне виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="Виділити змінені" revision="1" />
+    <Item value="Виділити змінені дані" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="Виділити &amp;діапазон…" revision="1" />
+    <Item value="Вкажіть діапазон даних і об'єднайие його з поточним виділенням" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="Завантажити виділення…" revision="1" />
+    <Item value="Завантажити нове виділення або об'єднати з поточним" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="&amp;Зберегти виділення…" revision="1" />
+    <Item value="Зберегти поточне виділення у файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="&amp;Редагувати комірку" revision="1" />
+    <Item value="Редагувати поточну комірку" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="Режим &amp;вставки" revision="1" />
+    <Item value="Перемикання режиму вставки" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="&amp;Знайти…" revision="1" />
+    <Item value="Знайти послідовність чи всі її включення" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="Знайти &amp;наступне" revision="1" />
+    <Item value="Знайти наступне включення" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="Знайти &amp;попереднє" revision="1" />
+    <Item value="Знайти попереднє включення" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="&amp;Замінити…" revision="1" />
+    <Item value="Замінити включення на інше" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="За&amp;лити…" revision="1" />
+    <Item value="Залити виділення байтами або послідовністю" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="&amp;Вставити…" revision="1" />
+    <Item value="Вставити байти або послідовність…" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="Перейти до з&amp;міщення…" revision="1" />
+    <Item value="Перейти до певного зміщення в документі" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="Змінити роз&amp;мір файлу…" revision="1" />
+    <Item value="Змінити розмір поточного файлу" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="Вставити &amp;файл…" revision="1" />
+    <Item value="Вставити вміст файлу з поточної позиції" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="&amp;Кодування" revision="1" />
+    <Item value="Кодування" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="&amp;З'єднати з…" revision="1" />
+    <Item value="З'єднати поточне вікно з іншим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="&amp;Шістнадцяткові" revision="1" />
+    <Item value="Шістнадцятковий режим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="&amp;Десяткові" revision="1" />
+    <Item value="Десятковий режим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="Ві&amp;сімкові" revision="1" />
+    <Item value="Вісімковий режим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="&amp;Бінарні" revision="1" />
+    <Item value="Бінарний режим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="Од&amp;инарна точність" revision="1" />
+    <Item value="Режим чисел з одинарною точністю" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="По&amp;Подвійна точність" revision="1" />
+    <Item value="Режим чисел з подвійною точністю" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="Байти" revision="1" />
+    <Item value="Групувати по байтам" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Слова" revision="1" />
+    <Item value="Групувати за словами" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Подвійні слова" revision="1" />
+    <Item value="Групувати за подвійними словами" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Четверні слова" revision="1" />
+    <Item value="Групувати за четверними словами" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="&amp;Текстова область" revision="1" />
+    <Item value="Увімкнути або вимкнути текстову (ASCII або UNICODE) область" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="&amp;Шістнадцятковий" revision="1" />
+    <Item value="Показувати адреси шістнадцятковим" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="&amp;Десятковий" revision="1" />
+    <Item value="Показувати адреси десятковими" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="В&amp;ісімковій" revision="1" />
+    <Item value="Показувати адреси вісімковими" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="&amp;Автоматично" revision="1" />
+    <Item value="Автоматично обчислювати кількість колонок" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="&amp;4 Колонки" revision="1" />
+    <Item value="Чотири колонки" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="&amp;8 Колонок" revision="1" />
+    <Item value="Вісім колонок" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="&amp;16 Колонок" revision="1" />
+    <Item value="Шістнадцять колонок" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="&amp;32 Колонки" revision="1" />
+    <Item value="Тридцять два колонки" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="&amp;Настроювані…" revision="1" />
+    <Item value="Вкажіть довільне число колонок" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="&amp;Прямий порядок (Little-Endian)" revision="1" />
+    <Item value="Прямий порядок байтів" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="&amp;Зворотний порядок (Big-Endian)" revision="1" />
+    <Item value="Зворотний порядок байтів" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="&amp;Порядок байтів" revision="0" />
+    <Item value="Порядок байтів" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="&amp;Шифрувати…" revision="1" />
+    <Item value="Шифрувати дані в документі" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="&amp;Розшифрувати…" revision="1" />
+    <Item value="Розшифрувати дані в документі" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="Змінити біти…" revision="1" />
+    <Item value="Змінити біти" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="Область &amp;коду" revision="1" />
+    <Item value="Показати або приховати область коду" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="Режим &amp;одиничного виділення" revision="1" />
+    <Item value="Увімкнути або вимкнути режим одиничного виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="Побітове &amp;НЕ (NOT)…" revision="1" />
+    <Item value="Виконати побітове НЕ" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="Побітове &amp;АБО (OR)…" revision="1" />
+    <Item value="Виконати побітове АБО" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="Побітове &amp;І (AND)…" revision="1" />
+    <Item value="Виконати побітове І" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="Побітове В&amp;иключне АБО (XOR)…" revision="1" />
+    <Item value="Виконати побітове Виключне АБО" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="Запере&amp;чення…" revision="1" />
+    <Item value="Виконати арифметичне заперечення" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="До&amp;давання…" revision="1" />
+    <Item value="Виконати арифметичне додавання" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="Від&amp;німання…" revision="1" />
+    <Item value="Виконати арифметичне віднімання" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="&amp;Множення…" revision="1" />
+    <Item value="Виконати арифметичне множення" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="&amp;Ділення…" revision="1" />
+    <Item value="Виконати арифметичне ділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="За&amp;лишок…" revision="1" />
+    <Item value="Виконати арифметичний залишок" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="Установити М&amp;інімум…" revision="1" />
+    <Item value="Виконати арифметичний мінімум" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="Установити М&amp;аксимум…" revision="1" />
+    <Item value="Виконати арифметичний максимум" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="Логічний &amp;лівий зсув…" revision="1" />
+    <Item value="Виконати логічний зсув уліво" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="Логічний &amp;правий зсув…" revision="1" />
+    <Item value="Виконати логічний зсув управо" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="Ари&amp;фметичний лівий зсув…" revision="1" />
+    <Item value="Виконати арифметичний зсув уліво" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="Ариф&amp;метичний правий зсув…" revision="1" />
+    <Item value="Виконати арифметичний зсув управо" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="&amp;Циклічний зсув уліво…" revision="1" />
+    <Item value="Виконати циклічний зсув уліво" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="Циклічни&amp;й зсув управо…" revision="1" />
+    <Item value="Виконати циклічний зсув управо" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="Ни&amp;жній регістр" revision="1" />
+    <Item value="Перетворити виділене в нижній регістр" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="Ве&amp;рхній регістр" revision="1" />
+    <Item value="Перетворити виділене у верхній регістр" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="Інвертува&amp;ти регістр" revision="1" />
+    <Item value="Виконати для виділеного зміну регістра" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="&amp;Реверсувати біти…" revision="1" />
+    <Item value="Виконати звернення бітів на протилежні" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="&amp;Поміняти місцями байти…" revision="1" />
+    <Item value="Виконати зміну місцями байтів" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="&amp;Оновити (Диск/Пам'ять)" revision="1" />
+    <Item value="Оновити поточне вікно з даними диска або пам'яті" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="Копіювати виділені області" revision="1" />
+    <Item value="Копіювати вміст виділених областей в буфер обміну" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="Експортувати виділені області…" revision="1" />
+    <Item value="Експортувати вміст виділених областей в буфер обміну" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="Очистити все" revision="1" />
+    <Item value="Очистити вміст поточного вікна &quot;Вивод&quot;" revision="1" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="Заперечення" revision="1" />
+    <Item value="Додавання" revision="1" />
+    <Item value="Віднімання" revision="1" />
+    <Item value="Множення" revision="1" />
+    <Item value="Ділення" revision="1" />
+    <Item value="Залишок" revision="1" />
+    <Item value="Установити Мінімум" revision="1" />
+    <Item value="Установити Максимум" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="Байти" revision="1" />
+    <Item value="Слова" revision="1" />
+    <Item value="Подвійні слова" revision="1" />
+    <Item value="Четверні слова" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="Побітове НЕ (NOT)" revision="1" />
+    <Item value="Побітове АБО (OR)" revision="1" />
+    <Item value="Побітове І (AND)" revision="1" />
+    <Item value="Побітове Виключне АБО (XOR)" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="Реверсувати біти" revision="1" />
+    <Item value="Поміняти місцями байти" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="Логічний зсув уліво" revision="1" />
+    <Item value="Логічний зсув управо" revision="1" />
+    <Item value="Арифметичний зсув уліво" revision="1" />
+    <Item value="Арифметичний зсув управо" revision="1" />
+    <Item value="Лівий поворот" revision="1" />
+    <Item value="Правий поворот" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="Не змінювати" revision="1" />
+    <Item value="Замінити виділення" revision="1" />
+    <Item value="Додати до виділення" revision="1" />
+    <Item value="Вилучити з виділення" revision="1" />
+    <Item value="Інвертувати виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="байтів" revision="1" />
+    <Item value="включень послідовності" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="Формат експорту діапазону виділення" revision="1" />
+    <Item value="Використовувати шістнадцяткові числа" revision="1" />
+    <Item value="Використовувати десяткові числа" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="Вставка тексту" revision="1" />
+    <Item value="Ви збираєтеся вставити текст з буфера обміну. Перш ніж продовжити, НАСТІЙНО рекомендується прочитати відповідний розділ у поданій документації до виконання цієї операції." revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="Знайти все" revision="1" />
+    <Item value="Функція &quot;Знайти все&quot; підтримує відображення результатів тільки в режимах &quot;Шістнадцяткові групи по байтам&quot; та &quot;Десяткові групи по байтам&quot;. Переключити?" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="Байти" revision="1" />
+    <Item value="КБ" revision="1" />
+    <Item value="МБ" revision="1" />
+    <Item value="ГБ" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="Вставка тексту" revision="1" />
+    <Item value="Функція вставки тексту дозволяє вставити текст з буфера обміну і, при необхідності, проаналізувати його, якщо він містить послідовність десяткових або шістнадцяткових чисел." revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="ЗАМ" revision="1" />
+    <Item value="ВСТ" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="Шістнадцяткові" revision="1" />
+    <Item value="Десяткові" revision="1" />
+    <Item value="Вісімкові" revision="1" />
+    <Item value="Бінарні" revision="1" />
+    <Item value="Одинарна точність" revision="1" />
+    <Item value="Подвійна точність" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="&amp;Виділення" revision="0" />
+    <Item value="Виділення" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="&amp;Операції" revision="0" />
+    <Item value="Операції" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="Від&amp;ображати як" revision="0" />
+    <Item value="Відображати як" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="Групувати по" revision="0" />
+    <Item value="Групувати по" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="&amp;Колонки" revision="0" />
+    <Item value="Колонки" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="&amp;Порядок байтів" revision="0" />
+    <Item value="Порядок байтів" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="Зміщення" revision="2" />
+    <Item value="Зміщення" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="Зміщення" revision="2" />
+    <Item value="Зміщення" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="Кодування" revision="1" />
+    <Item value="Функція &quot;Кодування&quot; дозволяє змінювати кодування в текстовій області будь-якого вікна програми." revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="Загальний розмір" revision="1" />
+    <Item value="Фрагментів" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="No." revision="1" />
+    <Item value="Адреса" revision="1" />
+    <Item value="Довжина" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="Множинне виділення" revision="1" />
+    <Item value="Функція &quot;Множинне виділення&quot; дозволяє виділяти множинні фрагменти та застосовувати до них команди редактора." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="Знайти всі включення" revision="1" />
+    <Item value="Функція &quot;Знайти всі включення&quot; дозволяє знайти всі включення послідовності в документі або його фрагменті та перетворити знайдене в список." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="Замінити всі включення" revision="1" />
+    <Item value="Функція &quot;Замінити всі включення&quot; знаходить всі включення послідовності в документі або його фрагментах і замінює їх зазначеною послідовністю." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="Зберегти виділення" revision="1" />
+    <Item value="Функція &quot;Зберегти виділення&quot; дозволяє зберегти його у файл." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="Завантажити виділення" revision="1" />
+    <Item value="Функція &quot;Завантажити виділення&quot; дозволяє завантажити виділення з файлу та об'єднати його з поточним або відняти від поточного." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="З'єднати з" revision="1" />
+    <Item value="Функція &quot;З'єднати з&quot; подволяет з'єднати вікна та синхронізувати в них рух курсора." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="Шифрувати/Розшифрувати" revision="1" />
+    <Item value="Функція &quot;Шифрувати/Розшифрувати&quot; дозволяє виконувати операції над даними з використанням наявних алгоритмів." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="&quot;Операції&quot; над даними" revision="1" />
+    <Item value="Функція &quot;Операції&quot; над даними дозволяє виконувати побітні, зсувні, реєстрові та операції звернення." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="Копіювати виділені області" revision="1" />
+    <Item value="Функція &quot;Копіювати виділені області&quot; дозволяє копіювати поточні виділення в буфер обміну." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="Експортувати виділені області" revision="1" />
+    <Item value="Функція &quot;Експортувати виділені області&quot; дозволяє експортувати поточні виділення в текстовий файл." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="ПОМИЛКА - Не обран алгоритм." revision="1" />
+    <Item value="OK" revision="1" />
+    <Item value="Паролі не збігаються." revision="1" />
+    <Item value="ПОМИЛКА - Порожній пароль." revision="1" />
+    <Item value="ПОМИЛКА - Довжина ключа повинна бути ступенем вісімки." revision="1" />
+    <Item value="ПОМИЛКА - Невірна довжина ключа." revision="1" />
+  </Enumeration>
+  <Enumeration key="ColorNames">
+    <Item value="Текст" revision="1" />
+    <Item value="Фон" revision="1" />
+    <Item value="Адреса" revision="1" />
+    <Item value="Фон адреси" revision="1" />
+    <Item value="Текст ASCII/UNICODE" revision="1" />
+    <Item value="Фон ASCII/UNICODE" revision="1" />
+    <Item value="Парні колонки/рядки (черезрядковий режим)" revision="1" />
+    <Item value="Непарні колонки/рядки (черезрядковий режим)" revision="1" />
+    <Item value="Текст без даних" revision="1" />
+    <Item value="Заливка курсора" revision="1" />
+    <Item value="Контур курсора" revision="1" />
+    <Item value="Текст поточного рядка/колонки" revision="1" />
+    <Item value="Фон поточного рядка/колонки" revision="1" />
+    <Item value="Змінений текст" revision="1" />
+    <Item value="Фон зміненого" revision="1" />
+    <Item value="Контур зміненого" revision="1" />
+    <Item value="Виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="Виділення" revision="1" />
+    <Item value="Курсор" revision="1" />
+    <Item value="Змінений текст" revision="1" />
+  </Enumeration>
+</Language>

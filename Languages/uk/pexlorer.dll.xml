@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrivilegeNotGained" value="Обмежений набір процесів у списку" revision="1" />
+  <Message key="RegionInfo" value="Початок регіону: {base} ({base:2})\rКінець регіону: {end} ({end:2})\rРозмір регіону: {size} ({size:2})\rТип: {type}\rСтатус: {state}\rПрапори: {flags}" revision="1" />
+  <Message key="Unknown" value="Невідомо" revision="1" />
+  <Message key="No process selected" value="Процес не вибрано" revision="1" />
+  <Message key="Specify a range using a list of blocks or a list of modules." value="Вкажіть діапазон використовуючи список блоків або список модулів" revision="1" />
+  <Message key="Either start or end is too big. Please enter correct values." value="Початкове або кінцеве значення некоректно. Введіть коректні значення." revision="1" />
+  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="Множинний вибір доступний тільки при сортуванні списку за адресою. Натисніть на заголовок першої колонки, щоб сортувати блоки." revision="1" />
+  <Message key="ProcessDescription" value="Процеси: {process}, Блоки: {blocks}, Модулі: {modules}" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Open Process" value="Відкрити процес" revision="1" />
+  <Message key="Set Colors…" value="Вибрати кольори…" revision="1" />
+  <Message key="Display decimal values" value="Відобразити десяткові значення" revision="1" />
+  <Message key="Logarithmic scale" value="Логарифмічна шкала" revision="1" />
+  <Message key="Start:" value="Початок:" revision="1" />
+  <Message key="End:" value="Кінець:" revision="1" />
+  <Message key="Size:" value="Розмір:" revision="1" />
+  <Message key="Show All Processes" value="Показати всі процеси" revision="1" />
+  <Message key="Refresh" value="Оновити" revision="1" />
+  <Message key="Color Selection" value="Вибір кольорів" revision="1" />
+  <Message key="No Access/Guard" value="Недоступно/Захищено:" revision="1" />
+  <Message key="Read Only/Execute" value="Тільки читання/Виконання:" revision="1" />
+  <Message key="Read/Write" value="Читання/Запис:" revision="1" />
+  <Message key="Copy on Write" value="Копіювання при записі:" revision="1" />
+  <Message key="Free" value="Вільно:" revision="1" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="Відкрити &amp;процес…" revision="1" />
+    <Item value="Відкрити пам'ять процесу для читання та редагування" revision="1" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="Перейти до… (В процесах)" revision="1" />
+    <Item value="Перейти до виділеного в пам'яті процесу регіону" revision="1" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="Unknown" revision="1" />
+    <Item value="Image" revision="1" />
+    <Item value="Mapped" revision="1" />
+    <Item value="Private" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="Невідомо" revision="1" />
+    <Item value="Виділено" revision="1" />
+    <Item value="Вільно" revision="1" />
+    <Item value="Резервований" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="Недоступно" revision="1" />
+    <Item value="Тільки читання" revision="1" />
+    <Item value="Читання, запис" revision="1" />
+    <Item value="Копіювання при записі" revision="1" />
+    <Item value="Виконання" revision="1" />
+    <Item value="Виконання, читання" revision="1" />
+    <Item value="Виконання, читання, запис" revision="1" />
+    <Item value="Виконання, Копіювання при записі" revision="1" />
+    <Item value="Захищено" revision="1" />
+    <Item value="Без кешу" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="Відкрити процес" revision="1" />
+    <Item value="Функція &quot;відкрити процес&quot; дозволяє відкривати для перегляду та редагування пам'ять процесів." revision="1" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Відкрити процес" revision="1" />
+    <Item value="Відкрити пам'ять процесу для перегляду та внесення змін" revision="1" />
+  </Enumeration>
+  <Enumeration key="DisplayNotification">
+    <Item value="Обмеження функції &quot;відкрити процес&quot;" revision="1" />
+    <Item value="Увага: продукту не вистачає прав для доступу до деяких процесів. У такому випадку для продукту доступна обмежена частина процесів. Щоб отримати доступ до решти процесів, запустіть продукт з правами адміністратора." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tabs">
+    <Item value="Блоки" revision="1" />
+    <Item value="Модулі" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessColumns">
+    <Item value="ID" revision="1" />
+    <Item value="Ім'я" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="Адреса" revision="1" />
+    <Item value="Розмір" revision="1" />
+    <Item value="Тип" revision="1" />
+    <Item value="Статус" revision="1" />
+    <Item value="Прапори" revision="1" />
+    <Item value="Модуль" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="Ім'я" revision="1" />
+    <Item value="Адреса" revision="1" />
+    <Item value="Розмір" revision="1" />
+  </Enumeration>
+</Language>

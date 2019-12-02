@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="Копіювання файлів" revision="0" />
+  <Message key="Volume Errors" value="Помилка тому" revision="0" />
+  <Message key="CantParse" value="Помилка розбору атрибутів" revision="0" />
+  <Message key="SequenceNumberError" value="Помилка номеру для файлового запису: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="Помилковий файловий запис: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="Невідомий тип атрибута: {type}" revision="0" />
+  <Message key="MagicMismatch" value="Помилка розбору індексного блока: невідповідність заголовка" revision="0" />
+  <Message key="IndexSNError" value="Помилка розбору номера індексного блока" revision="0" />
+  <Message key="NoFilenameStream" value="В індексному записі відсутній поток з ім'ям файла: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="Кластер перевищує межі" revision="0" />
+  <Message key="DataRunLengthError" value="Невірна довжина блока: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="Помилка розбору блока: розмір = {size}, зміщення = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="Помилка розбору блока: перевищення VCN " revision="0" />
+  <Message key="DataRunLCN" value="Помилка розбору блока: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="Невідомий файловий запис" revision="0" />
+  <Message key="FilenameAttributeError" value="Помилка розбору атрибутів файлу для запису {record}" revision="0" />
+  <Message key="CopyFileError" value="Помилка копіювання файлу &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="Помилка запису файлу: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="Недостатньо вільного місця на диску для копіювання &quot;{filename}&quot;. Звільніть як мінімум {filesize} для копіювання даного файлу." revision="0" />
+  <Message key="CopyWarning" value="Файл &quot;{filename}&quot; вже існує." revision="0" />
+  <Message key="CreateFileError" value="{error} Файл: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="Дана файлова система поки не підтримується" revision="0" />
+  <Message key="VolumeNavigator" value="Файлова система" revision="0" />
+  <Message key="CopyStats" value="Скопійовано файлів: {files}.\r\nСкопійовано папок: {folders}.\r\nСкопійовано байт: {bytes}.\r\nФайлів з помилкою: {failed}.\r\nПропущено файлів: {skipped}." revision="0" />
+  <Message key="Copy Files Report" value="Звіт про копіювання" revision="0" />
+  <Message key="Overwrite Warning" value="Перезапис існуючого файла" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="&amp;Для усіх конфліктів" revision="0" />
+  <Message key="&amp;Overwrite" value="&amp;Перезаписати" revision="0" />
+  <Message key="&amp;Skip" value="П&amp;ропустити" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="байт" revision="0" />
+    <Item value="КБ" revision="0" />
+    <Item value="МБ" revision="0" />
+    <Item value="ГБ" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="Ім'я" revision="0" />
+    <Item value="Розмір" revision="0" />
+    <Item value="Атрибути" revision="0" />
+    <Item value="Створений" revision="0" />
+    <Item value="Змінений" revision="0" />
+    <Item value="Доступ" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="&amp;Копіювати..." revision="0" />
+    <Item value="Копіювати файл або папку" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="Копіювати &amp;том..." revision="0" />
+    <Item value="Копіювати увесь зміст тому" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="&amp;Виділити поток" revision="0" />
+    <Item value="Виділити усі кластери, що містять дані цього потоку" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="&amp;Відкрити в редакторі" revision="0" />
+    <Item value="Відкрити обраний файл в Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="Відкрити &amp;папку" revision="0" />
+    <Item value="Відкрити папку в Windows Explorer" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="&amp;Вгору" revision="0" />
+    <Item value="До батьківської папки" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="&amp;Оновити" revision="0" />
+    <Item value="Оновити поточну директорію" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="Том" revision="0" />
+    <Item value="Помилка" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="Навігатор тому" revision="1" />
+    <Item value="Навігатор тому сканує і показує структуру файлової системи відкритого тому, допомогає знайти місцезнаходження файлів, а також відновити пошкоджені файли та папки." revision="1" />
+  </Enumeration>
+</Language>
