@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- Commands -->
+  <Enumeration key="HistoryClearHistory" description="History.Clear History">
+    <Item text="Clear History"/>
+    <Item text="Clear History"/>
+  </Enumeration>
+
+  <Enumeration key="HistoryPurge" description="History.Purge">
+    <Item text="Purge…"/>
+    <Item text="Purge History"/>
+  </Enumeration>
+
+  <Enumeration key="HistorySave" description="History.Save">
+    <Item text="Save Operation History…"/>
+    <Item text="Save Operation History to file"/>
+  </Enumeration>
+
+  <Enumeration key="HistoryLoad" description="History.Load">
+    <Item text="Load Operation History…"/>
+    <Item text="Load Operation History from a file"/>
+  </Enumeration>
+
+  <Enumeration key="HistoryCollapseSame" description="History.Collapse Same">
+    <Item text="Group Same Operations"/>
+    <Item text="Toggle Group Same Operations mode"/>
+  </Enumeration>
+  <Enumeration key="HistoryAutoCreateBranches" description="History.Auto Create Branches">
+    <Item text="Auto Create Branches"/>
+    <Item text="Toggle Auto Create Branches mode"/>
+  </Enumeration>
+  <Enumeration key="HistoryCreatePatch" description="History.Create Patch">
+    <Item text="Create Pa&amp;tch…"/>
+    <Item text="Create a patch with current changes"/>
+  </Enumeration>
+  <Enumeration key="ColoringNewRule" description="Coloring.New Rule">
+    <Item text="Add New Rule…"/>
+    <Item text="Define new pattern coloring rule"/>
+  </Enumeration>
+  <Enumeration key="ColoringSaveColoring" description="Coloring.Save">
+    <Item text="Save Scheme…"/>
+    <Item text="Save Pattern Coloring scheme"/>
+  </Enumeration>
+  <Enumeration key="ColoringLoadColoring" description="Coloring.Load">
+    <Item text="Load Scheme…"/>
+    <Item text="Load Pattern Coloring scheme"/>
+  </Enumeration>
+  <Enumeration key="ColoringClearColoring" description="Coloring.Clear">
+    <Item text="Clear Coloring Scheme"/>
+    <Item text="Clear all defined rules"/>
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges" description="Coloring.Apply Changes">
+    <Item text="Enable Pattern Coloring"/>
+    <Item text="Enable or disable all pattern coloring rules"/>
+  </Enumeration>
+  <Enumeration key="ToolsOpenCalc" description="Tools.Open Calc">
+    <Item text="Windows Calculator"/>
+    <Item text="Launch Windows Calculator"/>
+  </Enumeration>
+  <Enumeration key="StatisticsHistogramRefresh" description="Statistics.Histogram Refresh">
+    <Item text="Refresh"/>
+    <Item text="Recalculate statistics"/>
+  </Enumeration>
+  <Enumeration key="StatisticsTableMode" description="Statistics.Table Mode">
+    <Item text="Table View"/>
+    <Item text="Toggle between Table View and Histogram View"/>
+  </Enumeration>
+  <Enumeration key="StatisticsChangeColors" description="Statistics.Change Colors">
+    <Item text="Modify Colors…"/>
+    <Item text="Change histogram colors"/>
+  </Enumeration>
+  <Enumeration key="HistoryVisSelectColors" description="History.Select Colors">
+    <Item text="Select Colors…"/>
+    <Item text="Change window colors"/>
+  </Enumeration>
+  <Enumeration key="StatisticsHideMaximum" description="Statistics.Hide Maximum">
+    <Item text="Hide Peak Value"/>
+    <Item text="Do not show peak value on the plot"/>
+  </Enumeration>
+  <Enumeration key="StatisticsDefine" description="Statistics.Define">
+    <Item text="Define…"/>
+    <Item text="Define pattern"/>
+  </Enumeration>
+  <Enumeration key="HistoryCollapseAll" description="History.Collapse All">
+    <Item text="Collapse All"/>
+    <Item text="Collapse All nodes"/>
+  </Enumeration>
+  <Enumeration key="HistoryExpandAll" description="History.Expand All">
+    <Item text="Expand All"/>
+    <Item text="Expand All nodes"/>
+  </Enumeration>
+  <Enumeration key="MenuBranches" description="Command group: Branches">
+    <Item text="Branches"/>
+    <Item text="Branches"/>
+  </Enumeration>
+  <Enumeration key="HistoryVisMode" description="History.Forks Only">
+    <Item text="Forks Only"/>
+    <Item text="Toggle display only forks mode on/off"/>
+  </Enumeration>
+  <Enumeration key="HistoryVisZoomIn" description="History.ZoomIn">
+    <Item text="Zoom In"/>
+    <Item text="Zoom In"/>
+  </Enumeration>
+  <Enumeration key="HistoryVisZoomOut" description="History.Zoom Out">
+    <Item text="Zoom Out"/>
+    <Item text="Zoom Out"/>
+  </Enumeration>
+  <Enumeration key="HistoryVisFitToScreen" description="History.Fit to Screen">
+    <Item text="Fit to Screen"/>
+    <Item text="Fit history to screen"/>
+  </Enumeration>
+  <Enumeration key="HistoryOpenVisualizer" description="History.Open Visualizer">
+    <Item text="Full Operation History Tree…"/>
+    <Item text="Display a full operation history tree"/>
+  </Enumeration>
+  <Enumeration key="AttribSaveAttributes" description="Attributes.Save">
+    <Item text="Apply Changes"/>
+    <Item text="Apply changes"/>
+  </Enumeration>
+  <Enumeration key="AttribCancelAttributes" description="Attributes.Cancel">
+    <Item text="Cancel Attributes"/>
+    <Item text="Cancel attributes"/>
+  </Enumeration>
+  <Enumeration key="AttribResetAttributes" description="Attributes.Reset">
+    <Item text="Reset Attributes"/>
+    <Item text="Reset attributes"/>
+  </Enumeration>
+  
+  <Message key="No block selected" description="No block selected"/>
+
+  <Enumeration key="StatisticsPatternFromBlock" description="Command: Pattern From Current Block">
+    <Item text="Pattern from Block"/>
+    <Item text="Compute Pattern Statistics for selected block"/>    
+  </Enumeration>
+
+  <Enumeration key="StatisticsSelectBlock" description="Command: Select Block">
+    <Item text="Select Block"/>
+    <Item text="Select this block in document"/>
+  </Enumeration>
+  
+  <Message key="Copy Image to Clipboard" description="Menu item: Copy Image To Clipboard"/>
+  <Message key="Copy to Clipboard" description="Menu item: Copy to Clipboard"/>
+  <Message key="Export to CSV File" description="Menu item: Export to CSV File"/>
+
+  <Enumeration key="StatisticsSelectColumns" description="Command: Select Columns">
+    <Item text="Select Columns…"/>
+    <Item text="Select visible columns"/>
+  </Enumeration>
+  
+  <Message key="Select Columns" description="Menu item and window title: Select Columns"/>
+
+  <Message key="Generated by HHD Software Hex Editor Neo" description="Generated by HHD Software Hex Editor Neo"/>
+  <Message key="Pattern:" description="Pattern:"/>
+  <Message key="Blocks:" description="Blocks:"/>
+  <Message key="Valid number of blocks:" description="Valid number of blocks: N - M" value="Valid number of blocks: {from} - {to}">
+    <Param name="from" format="l"/>
+    <Param name="to" format="l"/>
+  </Message>
+  <Message key="Statistics" description="Statistics tool window title, message box title"/>
+  <Message key="Number of blocks is greater than the file/selection size." description="Number of blocks is greater than the file/selection size."/>
+  <Enumeration key="AttributesSizes" description="Size values for attributes">
+    <Item text="Streams"/>
+    <Item text="Total Size (with streams)"/>
+    <Item text="Total Size (without streams)"/>
+    <Item text="Total Streams Size"/>
+  </Enumeration>
+  
+  <Enumeration key="FileAttributes" description="File attributes">
+    <Item text="File Name"/>
+    <Item text="Archive"/>
+    <Item text="Hidden"/>
+    <Item text="System"/>
+    <Item text="Read-Only"/>
+    <Item text="Sparse"/>
+    <Item text="Temporary"/>
+    <Item text="Offline"/>
+    <Item text="Encrypted"/>
+    <Item text="Compressed"/>
+    <Item text="Has Reparse Point"/>
+    <Item text="Created"/>
+    <Item text="Last Access"/>
+    <Item text="Last Write"/>
+    <Item text="Hard Links"/>
+  </Enumeration>
+
+  <Enumeration key="ProcessAttributes" description="Process attributes">
+    <Item text="Process Name (ID)"/>
+    <Item text="File Path"/>
+    <Item text="Number of Blocks"/>
+    <Item text="Number of Modules"/>
+    <Item text="Start"/>
+    <Item text="Size"/>
+    <Item text="End"/>
+  </Enumeration>
+
+  <Enumeration key="AttribColumns" description="Attribute window columns">
+    <Item text="Attribute"/>
+    <Item text="Value"/>
+  </Enumeration>
+  <Message key="File Attributes" description="File Attributes tool window, message box title"/>
+  <Message key="These attributes can not be applied." description="These attributes can not be applied."/>
+  <Message key="Error setting file time." description="Error setting file time."/>
+
+  <Message key="Multiple" description="Multiple"/>
+  <Enumeration key="FeatureBaseConverter" description="Base Converter feature">
+    <Item text="Base Converter"/>
+    <Item text="Base Converter allows you to convert data into different formats."/>
+  </Enumeration>
+  <Message key="Sample Text" description="Sample Text"/>
+  <Enumeration key="HexDecimalCombo" description="Hex and decimal">
+    <Item text="Hex"/>
+    <Item text="Decimal"/>
+  </Enumeration>
+
+  <Enumeration key="Colors" description="Colors">
+    <Item text="Back color:"/>
+    <Item text="Text color:"/>
+    <Item text="Outline color:"/>
+    <Item text="Description"/>
+  </Enumeration>
+
+  <Enumeration key="Range" description="Range information (both strings must be the same!)">
+    <Item text="Range: {from} – {to} (Size: {size})">
+      <Param name="from" format="b016"/>
+      <Param name="to" format="b016"/>
+      <Param name="size" format="b016"/>
+    </Item>
+    <Item text="Range: {from} – {to} (Size: {size})">
+      <Param name="from" format="l"/>
+      <Param name="to" format="l"/>
+      <Param name="size" format="l"/>
+    </Item>
+  </Enumeration>
+  <Message key="RegExpPattern" description="Regular expression pattern" value="RE: {pattern}">
+    <Param name="pattern"/>
+  </Message>
+
+  <Message key="History" description="History tool window, message box title"/>
+  <Message key="Pattern Coloring" description="Pattern Coloring tool window, message box title"/>
+  <Message key="Base Converter" description="Base Converter tool window, message box title"/>
+  <Message key="Loading" description="Loading history &amp; coloring" value="Loading history &amp; coloring"/>
+  <Message key="Initializing" description="Initializing history &amp; coloring" value="Initializing history &amp; coloring"/>
+
+  <Message key="PatchFileFilter" description="Patch file filter" value="Patch Files (*.hexpatch)|*.hexpatch|Executable Files (*.exe)|*.exe|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Enumeration key="PurgeModes" description="Purge modes">
+    <Item text="Delete all undone operations. You won't be able to execute a Redo command."/>
+    <Item text="Delete all branches except the current one."/>
+    <Item text="Delete all operations and undo all document changes."/>
+    <Item text="Retain document changes but drop all history."/>
+  </Enumeration>
+
+  <Enumeration key="Operations" description="Operations">
+    <Item text="Unknown"/>
+    <Item text="New"/>
+    <Item text="Open"/>
+    <Item text="Write"/>
+    <Item text="Insert"/>
+    <Item text="Delete"/>
+    <Item text="Fill"/>
+    <Item text="Replace"/>
+    <Item text="Replace All"/>
+    <Item text="Set Size"/>
+    <Item text="Paste"/>
+    <Item text="Cut"/>
+    <Item text="Insert File"/>
+    <Item text="Encrypt"/>
+    <Item text="Decrypt"/>
+    <Item text="Open Process"/>
+    <Item text="Open Physical Memory"/>
+    <Item text="Open Volume"/>
+    <Item text="Open Physical Drive"/>
+    <Item text="Bitwise Operation"/>
+    <Item text="Arithmetic Operation"/>
+    <Item text="Shift Operation"/>
+    <Item text="Case Change Operation"/>
+    <Item text="Reverse Operation"/>
+  </Enumeration>
+
+  <Message key="Forks" description="Forks format string" value="{opname} ({items} items{has_forks?}, {forks} fork(s){?has_forks})">
+    <Param name="opname"/>
+    <Param name="items" format="l"/>
+    <Param name="has_forks" format="?"/>
+    <Param name="forks" format="l"/>
+  </Message>
+
+  <Enumeration key="FeatureHistoryBrowsing" description="History Browsing feature">
+    <Item text="History Browsing"/>
+    <Item text="History Browsing feature allows you to instantly jump to any operation in change history."/>
+  </Enumeration>
+  <Message key="Switch To" description="Menu item: Switch To"/>
+  <Message key="Purge Branches" description="Menu item: Purge Branches"/>
+  <Message key="Purge Tail" description="Menu item: Purge Tail"/>
+  <Enumeration key="FeatureHistoryPurge" description="History Purge feature">
+    <Item text="History Purge"/>
+    <Item text="History Purge feature allows you to purge either the whole change history, or parts of it, giving you a flexible control over change history complexity and size."/>
+  </Enumeration>
+  <Message key="CantUndone" description="This operation can not be undone. Do you want to continue?" value="This operation can not be undone. Do you want to continue?"/>
+  <Message key="HistoryInfo" description="History information" value="Items: {items}, Branches: {branches}, Forks: {forks}">
+    <Param name="items" format="l"/>
+    <Param name="branches" format="l"/>
+    <Param name="forks" format="l"/>
+  </Message>
+  <Enumeration key="DescriptiveStatistics" description="Descriptive statistics values">
+    <Item text="Mean"/>
+    <Item text="Sample Variance"/>
+    <Item text="Standard Deviation"/>
+    <Item text="Standard Error"/>
+    <Item text="Kurtosis"/>
+    <Item text="Skewness"/>
+    <Item text="Median"/>
+    <Item text="Range"/>
+    <Item text="Minimum"/>
+    <Item text="Maximum"/>
+    <Item text="Sum"/>
+    <Item text="Mode(s)"/>
+    <Item text="Entropy"/>
+
+    <!-- 13 -->
+    <Item text="Redundancy"/>
+    <Item text="Compression size limit"/>
+  </Enumeration>
+  <Message key="CompressionSizeLimit" description="Compression size limit value" value="{size} bytes ({size as text})">
+    <Param name="size" format="l"/>
+    <Param name="size as text"/>
+  </Message>
+  <Enumeration key="FeatureStatistics" description="Statistics feature">
+    <Item text="Statistics"/>
+    <Item text="Statistics feature gathers distribution statistics (either general or for specified pattern) and provides results in a table and histogram, as well as computes descriptive statistics for it."/>
+  </Enumeration>
+  <Message key="Descriptive Statistics" description="Descriptive Statistics"/>
+  <Message key="N/A" description="N/A"/>
+  <Message key="Entropy Analysis" description="Entropy Analysis"/>
+  <Message key="Entropy" description="Entropy string" value="{bits} bits ({percent}% of maximum)">
+    <Param name="bits" format="l"/>
+    <Param name="percent" format="l"/>
+  </Message>
+  <Message key="Error writing to the file" description="Error writing to the file"/>
+  <Message key="Error reading from the file" description="Error reading from the file"/>
+  <Enumeration key="Combo" description="Statistics variants">
+    <Item text="General Statistics"/>
+    <Item text="Pattern Statistics"/>
+  </Enumeration>
+  <Enumeration key="RangeCombo" description="Statistics calculation range">
+    <Item text="Whole Document"/>
+    <Item text="Selection"/>
+  </Enumeration>
+  <Message key="Select Colors" description="Menu item and window title: Select Colors"/>
+  <Enumeration key="ColorColumns" description="Pattern coloring columns">
+    <Item text="#"/>
+    <Item text="Pattern"/>
+    <Item text="Description"/>
+  </Enumeration>
+  <Enumeration key="FeatureColoring3" description="Coloring feature (3 rules)">
+    <Item text="Pattern Coloring"/>
+    <Item text="Pattern Coloring feature allows you to configure pattern hilighting. Standard Edition supports up to 3 different patterns, while Professional Edition supports an unlimited number of patterns."/>
+  </Enumeration>
+  <Enumeration key="FeatureColoringUnlim" description="Coloring feature (unlimited rules)">
+    <Item text="Pattern Coloring"/>
+    <Item text="Pattern Coloring feature allows you to configure pattern hilighting. Upgrade to Professional Edition to have unlimited number of patterns."/>
+  </Enumeration>
+
+  <Message key="PColFilter" description="Pattern coloring filter string" value="Pattern Coloring Scheme Files|*.pcs|" revision="1"/>
+  <Message key="The current scheme will be lost. Do you want to continue?" description="The current scheme will be lost. Do you want to continue?"/>
+  <Message key="The file has different version" description="The file has different version"/>
+
+  <Enumeration key="ColoringCheckAll" description="Command: Check All">
+    <Item text="Check All"/>
+    <Item text="Enable all rules"/>
+  </Enumeration>
+  <Enumeration key="ColoringUncheckAll" description="Command: Uncheck All">
+    <Item text="Uncheck All"/>
+    <Item text="Disable all rules"/>
+  </Enumeration>
+  <Enumeration key="ColoringEditRule" description="Command: Modify Rule…">
+    <Item text="Edit Rule…"/>
+    <Item text="Edit rule properties"/>
+  </Enumeration>
+  <Message key="Clear Coloring Scheme" description="Menu item: Clear Coloring Scheme"/>
+  <Message key="Current item will be removed. Do you want to continue?" description="Current item will be removed. Do you want to continue?"/>
+  <Message key="RuleFmt" description="Pattern Coloring Rule N" value="Pattern Coloring Rule {n}">
+    <Param name="n"/>
+  </Message>
+
+  <Enumeration key="ColumnsStd" description="General Statistics columns">
+    <Item text="Value (Dec)"/>
+    <Item text="Value (Hex)"/>
+    <Item text="Value (Char)"/>
+    <Item text="Quantity"/>
+    <Item text="Percent"/>
+  </Enumeration>
+
+  <Enumeration key="ColumnsPat" description="Pattern Statistics columns">
+    <Item text="Block"/>
+    <Item text="Range"/>
+    <Item text="Quantity"/>
+    <Item text="Percent"/>
+  </Enumeration>
+
+  <Enumeration key="MenuHistory" description="Command group: History">
+    <Item text="H&amp;istory"/>
+    <Item text="History menu"/>
+  </Enumeration>
+  <Enumeration key="MenuPatternColoring" description="Command group: Pattern Coloring">
+    <Item text="&amp;Pattern Coloring"/>
+    <Item text="Pattern Coloring menu"/>
+  </Enumeration>
+  <Enumeration key="MenuAttributes" description="Command group: Attributes">
+    <Item text="&amp;Attributes"/>
+    <Item text="Attributes menu"/>
+  </Enumeration>
+  <Enumeration key="MenuHistogram" description="Command group: Statistics">
+    <Item text="&amp;Statistics"/>
+    <Item text="Statistics menu"/>
+  </Enumeration>
+
+  <Message key="OperationName" description="Operation name" value="{opname}{has_1_p?} {pattern1}{has_more_p?} with {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} over{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} multiple selection{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}">
+    <Param name="has_1_p" format="?"/>
+    <Param name="has_more_p" format="?"/>
+    <Param name="has_location" format="?"/>
+    <Param name="ms" format="?"/>
+    <Param name="has_size" format="?"/>
+    <Param name="opname"/>
+    <Param name="offset" format="b016"/>
+    <Param name="offset_end" format="b016"/>
+    <Param name="pattern1"/>
+    <Param name="pattern2"/>
+  </Message>
+
+  <Message key="Tooltip" description="History tooltip" value="Name: {name}\r\n\r\nBranch: {branch}">
+    <Param name="name"/>
+    <Param name="branch"/>
+  </Message>
+
+  <Enumeration key="FeatureBranches" description="History branches feature">
+    <Item text="History Branching"/>
+    <Item text="History Branching feature allows you to retain undone operations in different history branch. You can then switch to that branch, copy data from it etc."/>
+  </Enumeration>
+
+  <Message key="NotSupported" description="This function is not supported for the current document type." value="This function is not supported for the current document type."/>
+
+  <Enumeration key="FeatureSaveHistory" description="Save History feature">
+    <Item text="Save History"/>
+    <Item text="Save History allows you to save entire command list so you can load it later and keep working with your file (undo-redo commands and branches will be available too)"/>
+  </Enumeration>
+  <Enumeration key="FeatureLoadHistory" description="Load History feature">
+    <Item text="Load History"/>
+    <Item text="Load History allows you to load entire history with undo-redo commands available just like you keep working with you document."/>
+  </Enumeration>
+
+  <Message key="Create Patch" description="Create Patch message box title and window title"/>
+  <Message key="Patch created successfully." description="Patch created successfully."/>
+  <Message key="Patch creation failed." description="Patch creation failed."/>
+  <Message key="PatchNotSupported" description="Patch creation not supported" value="Current version of the Hex Editor Neo does not support creating patches when you have data pasted from OTHER files or when bitwise, arithmetic, shift or case change operations were used on the file. See the included documentation for more information. This limitation will be removed in future versions of the product."/>
+  <Message key="All history will be lost. Do you want to continue?" description="All history will be lost. Do you want to continue?"/>
+  <Message key="HistoryFilter" description="History filter string" value="Hex Editor Neo History Files (*.hexhis)|*.hexhis|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+  <Message key="Operation History" description="Operation History message box title"/>
+  <Message key="Operation history has been saved successfully." description="Operation history has been saved successfully."/>
+  <Message key="There was an error saving operation history." description="There was an error saving operation history."/>
+  <Message key="HistoryLoadError" description="History loading error" value="Possible reasons for the error include:\r\n\r\n · This is not a Hex Editor Neo history file or file is damaged.\r\n · You are loading a history from a different file.\r\n · The original file has changed since the history was created.\r\n · History file contains external references to non-present or changed files."/>
+  <Message key="Rename Branch" description="Menu item: Rename Branch"/>
+  <Message key="Delete Branch" description="Menu item: Delete Branch"/>
+  <Message key="Unpin Branch" description="Tooltip text: Unpin Branch"/>
+  <Message key="Pin Branch" description="Tooltip text: Pin Branch"/>
+  <Message key="Double-click to rename branch" description="Tooltip text: Double-click to rename branch"/>
+  
+  <!-- Dialogs -->
+  <Message key="Decimal:" description="Field: Decimal"/>
+  <Message key="Hex:" description="Field: Hex"/>
+  <Message key="Octal:" description="Field: Octal"/>
+  <Message key="Binary:" description="Field: Binary"/>
+  <Message key="Float:" description="Field: Float"/>
+  <Message key="Double:" description="Field: Double"/>
+  <Message key="ASCII:" description="Field: ASCII"/>
+  <Message key="UNICODE:" description="Field: UNICODE"/>
+  <Message key="EBCDIC:" description="Field: EBCDIC"/>
+  
+  <!-- Histogram color -->
+  <Message key="Histogram Color Selection" description="Histogram Color Selection window title"/>
+  <Message key="First color:" description="Field: First color"/>
+  <Message key="Second color:" description="Field: Second color"/>
+  <Message key="Outline color:" description="Field: Outline color"/>
+  <Message key="Selected Color:" description="Field: Selected Color"/>
+  <Message key="Default" description="Button: Default"/>
+  
+  <!-- Select columns dialog -->
+  <Message key="Select All" description="Checkbox: Select All"/>
+  
+  <!-- Select Colors -->
+  <Message key="Item color:" description="Field: Item color"/>
+  <Message key="Text color:" description="Field: Text color"/>
+  <Message key="Background  color:" description="Field: Background  color"/>
+  <Message key="Line color:" description="Field: Line color"/>
+
+  <!-- Operation History Tree -->
+  <Message key="Operation History Tree" description="Operation History Tree window title"/>
+  
+  <!-- Load History -->
+  <Message key="Load History" description="Load History window title"/>
+  <Message key="This document already contains a non-empty history. Select an action to continue:" description="Field: This document already contains a non-empty history. Select an action to continue"/>
+  <Message key="Drop current history and replace it with a loaded one." description="Choice: Drop current history and replace it with a loaded one."/>
+  <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" description="Choice: Retain current history. Optionally add the following prefix to loaded history branches:"/>
+  <Message key="Prefix:" description="Field: Prefix"/>
+  
+  <!-- Color Selection -->
+  <Message key="Color Selection" description="Color Selection window title"/>
+  <Message key="Back color:" description="Field: Back color"/>
+  <Message key="Selection Color:" description="Field: Selection Color"/>
+  
+  <!-- Create Patch -->
+  <Message key="Patch file name:" description="Field: Patch file name"/>
+  <Message key="Patch creation options" description="Control group: Patch creation options"/>
+  <Message key="Patch packaging options" description="Control group: Patch packaging options"/>
+  <Message key="Save original file name" description="Checkbox: Save original file name"/>
+  <Message key="Calculate and save file hash (slower)" description="Checkbox: Calculate and save file hash (slower)"/>
+  <Message key="Remove references to other files (may create larger patch file)" description="Checkbox: Remove references to other files (may create larger patch file)"/>
+  <Message key="Self-installing patch" description="Checkbox: Self-installing patch"/>
+  <Message key="Target x86 platform" description="Choice: Target x86 platform"/>
+  <Message key="Target x64 platform" description="Choice: Target x64 platform"/>
+  
+  <!-- Edit Pattern -->
+  <Message key="Edit Pattern" description="Edit Pattern window title"/>
+  <Message key="Ignore case" description="Checkbox: Ignore case"/>
+  
+  <!-- Purge History -->
+  <Message key="Purge History" description="Purge History window title"/>
+  <Message key="Select operation to perform:" description="Field: Select operation to perform"/>
+  <Message key="Purge redo tail" description="Choice: Purge redo tail"/>
+  <Message key="Purge branches" description="Choice: Purge branches"/>
+  <Message key="Clear History" description="Choice: Clear History"/>
+  <Message key="Purge all" description="Choice: Purge all"/>
+  <Message key="Warning: History purge operation cannot be undone!" description="Warning: History purge operation cannot be undone!"/>
+  
+  <!-- Pattern Editor -->
+  <Message key="Pattern Editor" description="Pattern Editor window title"/>
+  <Message key="Standard rule:" description="Choice: Standard rule"/>
+  <Message key="Range rule:" description="Choice: Range rule"/>
+  <Message key="Offset:" description="Field: Offset"/>
+  <Message key="Size:" description="Field: Size"/>
+  <Message key="Round edges" description="Checkbox: Round edges"/>
+  
+  <!-- Change Time -->
+  <Message key="Change Time" description="Change Time window title"/>
+
+  <Message key="PatternColoring settings" description="Settings: Pattern Coloring" value="Pattern Coloring"/>
+</Definition>

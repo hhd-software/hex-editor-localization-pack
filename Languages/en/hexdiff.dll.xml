@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- Commands -->
+  <Enumeration key="DiffRecompare" description="Diff.Recompare">
+    <Item text="Recompare"/>
+    <Item text="Recompare files"/>
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles" description="Diff.Compare Files">
+    <Item text="Compare Files…"/>
+    <Item text="Compare files"/>
+  </Enumeration>
+  <Enumeration key="DiffToSelection" description="Diff.To Selection">
+    <Item text="Convert to Selection"/>
+    <Item text="Convert blocks to selection"/>
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring" description="Diff.Enable Coloring">
+    <Item text="Enable Coloring"/>
+    <Item text="Enable Coloring"/>
+  </Enumeration>
+  <Enumeration key="DiffHex" description="Diff.Hex">
+    <Item text="Display Hex Values"/>
+    <Item text="Display data in decimal or hexadecimal"/>
+  </Enumeration>
+  <Enumeration key="DiffPrev" description="Diff.Previous">
+    <Item text="Previous Block"/>
+    <Item text="Go to previous block"/>
+  </Enumeration>
+  <Enumeration key="DiffNext" description="Diff.Next">
+    <Item text="Next Block"/>
+    <Item text="Go to next block"/>
+  </Enumeration>
+  <Enumeration key="DiffColor" description="Diff.Color">
+    <Item text="Select Colors…"/>
+    <Item text="Select colors used to highlight blocks"/>
+  </Enumeration>
+  <Enumeration key="DiffCombine" description="Diff.Combine">
+    <Item text="Combine Mode"/>
+    <Item text="Display blocks for both files at once"/>
+  </Enumeration>
+
+  <Message key="Different" description="Different"/>
+  <Message key="Not Found" description="Not Found"/>
+
+  <Enumeration key="Algorithms" description="Algorithms">
+    <Item text="Simple comparison algorithm"/>
+    <Item text="Difference algorithm"/>
+  </Enumeration>
+
+  <Message key="Matched blocks:" description="Matched blocks"/>
+  <Message key="Different blocks:" description="Different blocks"/>
+  <Message key="Not found blocks:" description="Not found blocks"/>
+  <Message key="Inserted blocks:" description="Inserted blocks"/>
+  <Message key="Removed blocks:" description="Removed blocks:"/>
+
+  <Enumeration key="Alignment" description="Alignment">
+    <Item text="Do not align"/>
+    <Item text="Align horizontally"/>
+    <Item text="Align vertically"/>
+  </Enumeration>
+
+  <Enumeration key="DiffTypes" description="Difference algorithm operation types">
+    <Item text="Normal"/>
+    <Item text="Precise"/>
+  </Enumeration>
+
+  <Enumeration key="IdenticalWithStreams" description="Files are identical save for streams notification">
+    <Item text="File Comparison"/>
+    <Item text="The files are identical, but contain additional streams. Hex Editor Neo does not automatically compare the contents of additional streams. You may do it manually. Select an option below to continue."/>
+  </Enumeration>
+
+  <Enumeration key="Identical" description="Files are identical notification">
+    <Item text="File Comparison"/>
+    <Item text="The files are identical."/>
+  </Enumeration>
+
+  <Message key="IdenticalNotification" description="Option: File Comparison: NTFS streams in identical files" value="File Comparison: NTFS streams in identical files"/>
+  <Enumeration key="Task" description="Jump List Item: Compare files">
+    <Item text="Compare files"/>
+    <Item text="Compare contents of two binary files"/>
+  </Enumeration>
+  
+  <Message key="File Comparison" description="Command group and tool window: File Comparison"/>
+  
+  <Enumeration key="MenuCompareFiles" description="Command group: File Compare">
+    <Item text="File Comparison"/>
+    <Item text="File Comparison menu"/>
+  </Enumeration>
+  
+  <Enumeration key="FeatureCompare" description="Compare files feature">
+    <Item text="File Comparison"/>
+    <Item text="File Comparison feature allows you to find differences between two files."/>
+  </Enumeration>
+  <Enumeration key="BlockTypes" description="Block types">
+    <Item text="Matched"/>
+    <Item text="Modified"/>
+    <Item text="Inserted"/>
+    <Item text="Removed"/>
+    <Item text="Moved"/>
+  </Enumeration>
+  <Enumeration key="Columns" description="Columns">
+    <Item text="Type"/>
+    <Item text="Offset (Source)"/>
+    <Item text="Offset (Dest)"/>
+    <Item text="Size"/>
+  </Enumeration>
+
+  <Message key="Error opening both files" description="Error opening both files."/>
+  <Message key="Error opening one of files" description="Error opening one of files."/>
+  <Message key="Locked" description="File(s) are locked" value="At least one document is locked due to lengthy operation. Please wait until the operation is finished."/>
+  <Message key="OpName" description="Operation name" value="Comparing Files"/>
+  <Message key="CompareError" description="Comparison error" value="Error comparing files."/>
+  <Message key="ConvertError" description="Conversion error" value="Error creating selection."/>
+  <Message key="DisplayStreams" description="Display streams for file" value="Display streams for {file}">
+    <Param name="file"/>
+  </Message>
+  
+  <!-- dialogs -->
+  <Message key="Convert Blocks To Selection" description="Convert Blocks To Selection window title"/>
+  <Message key="Matched blocks" description="Choice: Matched blocks"/>
+  <Message key="Inserted blocks" description="Choice: Inserted blocks"/>
+  <Message key="Removed blocks" description="Choice: Removed blocks"/>
+  <Message key="Modified blocks" description="Choice: Modified blocks"/>
+
+  <Message key="Color Selection" description="Color Selection window title"/>
+
+  <Message key="Compare Files" description="Compare Files window title"/>
+  <Message key="First file:" description="Field: First file"/>
+  <Message key="Second file:" description="Field: Second file"/>
+  <Message key="Comparison method:" description="Field: Comparison method"/>
+  <Message key="Align documents:" description="Field: Align documents"/>
+  <Message key="Synchronize windows" description="Checkbox: Synchronize windows"/>
+  <Message key="Colors…" description="Button: Colors"/>
+  <Message key="Swap" description="Button: Swap"/>
+  
+</Definition>

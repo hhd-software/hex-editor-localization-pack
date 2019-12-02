@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="SizeSuffix" description="Size suffix">
+    <Item text="Bytes"/>
+    <Item text="KB"/>
+    <Item text="MB"/>
+    <Item text="GB"/>
+  </Enumeration>
+
+  <Enumeration key="VNColumns" description="Volume Navigator Columns">
+    <Item text="Name"/>
+    <Item text="Size"/>
+    <Item text="Attributes"/>
+    <Item text="Created"/>
+    <Item text="Modified"/>
+    <Item text="Accessed"/>
+  </Enumeration>
+
+  <Message key="ExportPromt" description="Copy to... operation" value="Copying files"/>
+
+  <Enumeration key="CopyTo" description="Command: Copy file or directory">
+    <Item text="&amp;Copy to…"/>
+    <Item text="Copy file or directory content to selected destination"/>
+  </Enumeration>
+
+  <Enumeration key="CopyVolume" description="Command: Copy volume content">
+    <Item text="Copy &amp;Volume…"/>
+    <Item text="Copy all volume content (files and directories) to selected destination"/>
+  </Enumeration>
+
+  <Enumeration key="SelectAllFileData" description="Command: Select all stream data">
+    <Item text="&amp;Select All Stream Data"/>
+    <Item text="Selects all clusters that store stream data"/>
+  </Enumeration>
+
+  <Enumeration key="OpenInHexEdior" description="Command: Open in Editor">
+    <Item text="&amp;Open File in Editor"/>
+    <Item text="Open file in Hex Editor Neo"/>
+  </Enumeration>
+
+  <Enumeration key="ShowInFolder" description="Command: Show File in Folder">
+    <Item text="Open Containing &amp;Folder"/>
+    <Item text="Open entry's containing folder"/>
+  </Enumeration>
+
+  <Enumeration key="LevelUp" description="Command: Up">
+    <Item text="&amp;Up to Parent"/>
+    <Item text="Up to parent"/>
+  </Enumeration>
+
+  <Enumeration key="UpdateFilesList" description="Command: Update Current View">
+    <Item text="Update Current &amp;View"/>
+    <Item text="Update current directory"/>
+  </Enumeration>
+
+  <Enumeration key="EditCustomVolume" description="Command: Edit custom volumes">
+    <Item text="Edit Custom &amp;Volumes"/>
+    <Item text="Open custom volume edit dialog"/>
+  </Enumeration>
+
+  <Message key="Volume Errors" description="Volume Errors Output window part" value="Volume Errors"/>
+
+  <Enumeration key="OutputColumns" description="Output window columns">
+    <Item text="Volume"/>
+    <Item text="Error"/>
+  </Enumeration>
+
+  <Message key="CantParse" description="Error parsing attributes" value="Error parsing attributes"/>
+  <Message key="SequenceNumberError" description="NTFS error: Sequence Number Error" value="Update sequence number error for file record: {number}">
+    <Param name="number" format="l"/>
+  </Message>
+  <Message key="InvalidFileRecord" description="NTFS error: Invalid File Record" value="Invalid file record: {record}">
+    <Param name="record" format="l"/>
+  </Message>
+  <Message key="UnknownAttribute" description="NTFS error: Unknown Attribute" value="Unknown attribute type: {type}">
+    <Param name="type"/>
+  </Message>
+  <Message key="MagicMismatch" description="NTFS error: Magic Mismatch" value="Error parsing index block: Magic mismatch"/>
+  <Message key="IndexSNError" description="NTFS error: Index Block Sequence Number Error" value="Error parsing index block sequence number"/>
+  <Message key="NoFilenameStream" description="NTFS error: No filename stream" value="Index entry has no filename stream: {record}">
+    <Param name="record"/>
+  </Message>
+  <Message key="ClusterOutOfBounds" description="NTFS error: Cluster exceeds bounds" value="Cluster exceeds datarun bounds"/>
+  <Message key="DataRunLengthError" description="NTFS error: Data Run Length Error" value="Data run length error: {length}">
+    <Param name="length"/>
+  </Message>
+  <Message key="DataRunDecodeError" description="NTFS error: Data Run Decode Error" value="Data run decode error: size = {size}, offset = {offset}">
+    <Param name="size"/>
+    <Param name="offset"/>
+  </Message>
+  <Message key="DataRunVCNBound" description="NTFS error: VCN out of bounds" value="Data run decode error: VCN exceeds bound"/>
+  <Message key="DataRunLCN" description="NTFS error: VCN out of bounds" value="Error decoding data run: LCN &lt; 0"/>
+  <Message key="FileNotParsed" description="Unknown File Entry" value="Unknown file entry"/>
+  <Message key="FilenameAttributeError" description="NTFS error: Error parsing file attributes for record" value="Error parsing file attributes for record {record}">
+    <Param name="record"/>
+  </Message>
+
+  <Message key="CopyFileError" description="NTFS error: File copy error" value="Error copying file &quot;{filename}&quot;">
+    <Param name="filename"/>
+  </Message>
+
+  <Message key="WriteFileError" description="NTFS error: File write error" value="Error writing file: &quot;{filename}&quot;">
+    <Param name="filename"/>
+  </Message>
+
+  <Message key="DiskFull" description="NTFS error: There is not enough space on target disk" value="There is not enough space on target disk to copy &quot;{filename}&quot;.  You need at least {filesize} of free space to copy this file.">
+    <Param name="filename"/>
+    <Param name="filesize" format="l"/>
+  </Message>
+
+  <Message key="CopyWarning" description="Copy overwrite warning" value="File &quot;{filename}&quot; already exists. Do you want to Overwrite or Skip it?">
+    <Param name="filename"/>
+  </Message>
+
+  <Message key="CreateFileError" description="File creation error" value="{error} File: {filename}">
+    <Param name="filename"/>
+    <Param name="error"/>
+  </Message>
+
+  <Message key="ParseVolumeWarning" description="Volume not parsed warning" value="This file system is not supported by Volume Navigator yet"/>
+  <Message key="VolumeNavigator" description="Volume Navigator title" value="Volume Navigator"/>
+
+  <Enumeration key="FeatureDiskEditor" description="Volume Navigator feature" revision="1">
+    <Item text="Volume Navigator"/>
+    <Item text="Volume Navigator scans and displays volume's file system structure, helps find file locations and recover damaged files or folders."/>
+  </Enumeration>
+  
+  <!-- Copy Stats window -->
+  <Message key="CopyStats" description="Copy operation statistics" value="{files} files copied.\r\n{folders} folders copied.\r\n{bytes} bytes copied.\r\n{failed} files failed.\r\n{skipped} files skipped.">
+    <Param name="files" format="l"/>
+    <Param name="failed" format="l"/>
+    <Param name="skipped" format="l"/>
+    <Param name="folders" format="l"/>
+    <Param name="bytes" format="l"/>
+  </Message>
+  <Message key="Copy Files Report" description="Window title: Copy Files Report"/>
+  
+  <!-- Copy warning window -->
+  <Message key="Overwrite Warning" description="Window title: Overwrite Warning"/>
+  <Message key="&amp;Do this for all conflicts" description="Field: Do this for all conflicts"/>
+  <Message key="&amp;Overwrite" description="Button: Overwrite"/>
+  <Message key="&amp;Skip" description="Button: Skip"/>
+
+  <Message key="OverwriteWarning" description="CV Scheme Overwrite warning" value="Scheme &quot;{schemename}&quot; already exists. Do you want to overwrite it?">
+    <Param name="schemename"/>
+  </Message>
+
+  <Message key="UnsavedWarning" description="CV Scheme Overwrite warning" value="The current scheme has not been saved. Do you want to save it now?">
+  </Message>
+
+  <Message key="DeleteWarning" description="CV Scheme delete warning" value="The current scheme will be deleted.">
+  </Message>
+
+  <Message key="CustomFilesFilter" description="Filter string: Custom volume scripts *.h" value="Custom Volume Parsers|*.h|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Message key="CSFileNameEmpty" description="(Custom Volume Configuration) Warning: Filename was not specified" value="Filename was not specified."/>
+  <Message key="CSRootEmpty" description="(Custom Volume Configuration) Warning: Filename was not specified" value="Root structure was not specified."/>
+  <Message key="CSCheckStructEmpty" description="(Custom Volume Configuration) Warning: Check structure was not specified" value="Check structure was not specified."/>
+  <Message key="CSCheckAddressError" description="(Custom Volume Configuration) Warning: Checking address is NaN" value="Checking address must be a number." revision="1"/>
+  <Message key="CSSchemeNameEmpty" description="(Custom Volume Configuration) Warning: Scheme name was not specified" value="Scheme name was not specified."/>
+  <Message key="CSFileNotFound" description="(Custom Volume Configuration) Warning: Structure file dosen't exist" value='Structure file "{filename}" not found.'>
+    <Param name="filename"/>
+  </Message>
+
+  <Message key="CSRootNotFound" description="(Custom Volume Configuration) Warning: Can't find root structure in delected file" value="Root structure {name} not found.">
+    <Param name="name"/>
+  </Message>
+
+  <Message key="CSBindVolumeError" description="Custom volume error message" value='Error occurred during parsing volume. Scheme "{name}", error: {error}'>
+    <Param name="name"/>
+    <Param name="error"/>
+  </Message>
+
+  <Message key="LDMParseErrorHeader" description="(Logical Disk Manager Parser) Error: Header mismatch" value="Invalid PrivHead header."/>
+  <Message key="LDMParseErrorTocHeader" description="(Logical Disk Manager Parser) Error: TocBlock header mismatch" value="Invalid TocBlock header."/>
+  <Message key="LDMParseErrorVmdbHeader" description="(Logical Disk Manager Parser) Error: Vmdb header mismatch" value="Invalid Vmdb header."/>
+  <Message key="LDMParseErrorVblkSize" description="(Logical Disk Manager Parser) Error: Wrong Vblk size" value="Size of Vblk is not multiple of sector size."/>
+
+  <Message key="OpenVolumeWarning" description="Open volume warning" value="Can't open selected volume"/>
+  <Message key="GPTParseErrorHeader" description="(GUID Partition table Parser) Error: Header mismatch" value="Invalid GUID Partition Table header."/>
+
+  <!-- Custom Editor dialog -->
+  <Message key="Custom Volume Editor" description="Custom Volume Editor Window Title"/>
+  <Message key="File:" description="Field: File"/>
+  <Message key="Checking structure:" description="Field: Checking structure"/>
+  <Message key="Checking address:" description="Field: Checking address"/>
+  <Message key="Root structure:" description="Field: Root structure"/>
+  <Message key="Directory entry structure:" description="Field: Directory entry structure"/>
+  <Message key="File entry structure:" description="Field: File entry structure"/>
+</Definition>

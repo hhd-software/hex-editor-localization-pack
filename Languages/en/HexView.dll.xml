@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="SelectAll" description="Command: Select.All" revision="1">
+    <Item text="Select &amp;All"/>
+    <Item text="Select all data in a file"/>
+  </Enumeration>
+  <Enumeration key="SelectNone" description="Command: Select.None" revision="1">
+    <Item text="Select &amp;None"/>
+    <Item text="Clear current selection"/>
+  </Enumeration>
+  <Enumeration key="SelectInvert" description="Command: Select.Invert" revision="1">
+    <Item text="Invert Selection"/>
+    <Item text="Invert current selection"/>
+  </Enumeration>
+  <Enumeration key="SelectModified" description="Command: Select.Modified" revision="1">
+    <Item text="Select Modified"/>
+    <Item text="Select modified data"/>
+  </Enumeration>
+  <Enumeration key="SelectRange" description="Command: Select.Range" revision="1">
+    <Item text="Select &amp;Range…"/>
+    <Item text="Specify data range and combine it with a current selection"/>
+  </Enumeration>
+  <Enumeration key="SelectLoad" description="Command: Select.Load" revision="1">
+    <Item text="&amp;Load Selection…"/>
+    <Item text="Load new selection or combine it with a current one"/>
+  </Enumeration>
+  <Enumeration key="SelectSave" description="Command: Select.Save" revision="1">
+    <Item text="&amp;Save Selection…"/>
+    <Item text="Save the current selection to a file"/>
+  </Enumeration>
+  <Enumeration key="EditEditCell" description="Command: Edit.Edit Cell" revision="1">
+    <Item text="&amp;Edit Cell"/>
+    <Item text="Edit the current cell"/>
+  </Enumeration>
+  <Enumeration key="EditInsertMode" description="Command: Edit.Insert Mode" revision="1">
+    <Item text="&amp;Insert Mode"/>
+    <Item text="Turn the Insert mode on or off"/>
+  </Enumeration>
+  <Enumeration key="EditFind" description="Command: Edit.Find" revision="1">
+    <Item text="&amp;Find…"/>
+    <Item text="Find pattern or all pattern occurrences"/>
+  </Enumeration>
+  <Enumeration key="EditFindNext" description="Command: Edit.Find Next" revision="1">
+    <Item text="Find &amp;Next"/>
+    <Item text="Find next pattern occurrence"/>
+  </Enumeration>
+  <Enumeration key="EditFindPrev" description="Command: Edit.Find Prev" revision="1">
+    <Item text="Find &amp;Previous"/>
+    <Item text="Find previous pattern occurrence"/>
+  </Enumeration>
+  <Enumeration key="EditReplace" description="Command: Edit.Replace" revision="1">
+    <Item text="&amp;Replace…"/>
+    <Item text="Replace pattern with another pattern"/>
+  </Enumeration>
+  <Enumeration key="EditFill" description="Command: Edit.Fill" revision="1">
+    <Item text="F&amp;ill…"/>
+    <Item text="Fill selection with byte or pattern"/>
+  </Enumeration>
+  <Enumeration key="EditInsert" description="Command: Edit.Insert" revision="1">
+    <Item text="&amp;Insert…"/>
+    <Item text="Insert byte or pattern"/>
+  </Enumeration>
+  <Enumeration key="EditGoto" description="Command: Edit.Goto" revision="1">
+    <Item text="&amp;Go to Offset…"/>
+    <Item text="Go to the specific offset in file"/>
+  </Enumeration>
+  <Enumeration key="EditSetSize" description="Command: Edit.Set Size" revision="1">
+    <Item text="Change File &amp;Size…"/>
+    <Item text="Change the size of the file"/>
+  </Enumeration>
+  <Enumeration key="EditInsertFile" description="Command: Edit.Insert File" revision="1">
+    <Item text="Insert Fi&amp;le…"/>
+    <Item text="Insert the contents of the disk file to the current position. Either puts or inserts data, depending on the current overwrite mode"/>
+  </Enumeration>
+  <Enumeration key="ViewEncoding" description="Command group: View.Encoding" revision="1">
+    <Item text="&amp;Encoding"/>
+    <Item text="Encodings"/>
+  </Enumeration>
+  <Enumeration key="ViewConnect" description="Command: View.Connect" revision="1">
+    <Item text="&amp;Connect to…"/>
+    <Item text="Connect this window with another"/>
+  </Enumeration>
+  <Enumeration key="ViewHex" description="Command: View.Hex" revision="1">
+    <Item text="&amp;Hex"/>
+    <Item text="Hexadecimal mode"/>
+  </Enumeration>
+  <Enumeration key="ViewDecimal" description="Command: View.Decimal" revision="1">
+    <Item text="&amp;Decimal"/>
+    <Item text="Decimal mode"/>
+  </Enumeration>
+  <Enumeration key="ViewOctal" description="Command: View.Octal" revision="1">
+    <Item text="&amp;Octal"/>
+    <Item text="Octal mode"/>
+  </Enumeration>
+  <Enumeration key="ViewBinary" description="Command: View.Binary" revision="1">
+    <Item text="&amp;Binary"/>
+    <Item text="Binary mode"/>
+  </Enumeration>
+  <Enumeration key="ViewFloat" description="Command: View.Float" revision="1">
+    <Item text="F&amp;loat"/>
+    <Item text="Single-precision floating-point number"/>
+  </Enumeration>
+  <Enumeration key="ViewDouble" description="Command: View.Double" revision="1">
+    <Item text="Doubl&amp;e"/>
+    <Item text="Double-precision floating-point number"/>
+  </Enumeration>
+  <Enumeration key="ViewGroupByte" description="Command: View.Group Byte" revision="1">
+    <Item text="Bytes"/>
+    <Item text="Group as bytes"/>
+  </Enumeration>
+  <Enumeration key="ViewGroupWord" description="Command: View.Group Word" revision="1">
+    <Item text="Words"/>
+    <Item text="Group as words"/>
+  </Enumeration>
+  <Enumeration key="ViewGroupDword" description="Command: View.Group Dword" revision="1">
+    <Item text="Double words"/>
+    <Item text="Group as double words"/>
+  </Enumeration>
+  <Enumeration key="ViewGroupQword" description="Command: View.Group Qword" revision="1">
+    <Item text="Quad words"/>
+    <Item text="Group as quad words"/>
+  </Enumeration>
+  <Enumeration key="ViewTextPane" description="Command: View.Text Pane" revision="1">
+    <Item text="&amp;Text Pane"/>
+    <Item text="Show or hide a text (ASCII or UNICODE) pane"/>
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex" description="Command: View.Offset Hex" revision="1">
+    <Item text="&amp;Hex"/>
+    <Item text="View address as hexadecimal"/>
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal" description="Command: View.Offset Decimal" revision="1">
+    <Item text="&amp;Decimal"/>
+    <Item text="View address as decimal"/>
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal" description="Command: View.Offset Octal" revision="1">
+    <Item text="&amp;Octal"/>
+    <Item text="View address as octal"/>
+  </Enumeration>
+  <Enumeration key="ViewAutoCols" description="Command: View.Auto Cols" revision="1">
+    <Item text="&amp;Auto"/>
+    <Item text="Automatically calculate the number of columns"/>
+  </Enumeration>
+  <Enumeration key="View4Cols" description="Command: View.4 Cols" revision="1">
+    <Item text="&amp;4 Columns"/>
+    <Item text="4 columns"/>
+  </Enumeration>
+  <Enumeration key="View8Cols" description="Command: View.8 Cols" revision="1">
+    <Item text="&amp;8 Columns"/>
+    <Item text="8 columns"/>
+  </Enumeration>
+  <Enumeration key="View16Cols" description="Command: View.16 Cols" revision="1">
+    <Item text="&amp;16 Columns"/>
+    <Item text="16 columns"/>
+  </Enumeration>
+  <Enumeration key="View32Cols" description="Command: View.32 Cols" revision="1">
+    <Item text="&amp;32 Columns"/>
+    <Item text="32 columns"/>
+  </Enumeration>
+  <Enumeration key="ViewCustomCols" description="Command: View.Custom Cols" revision="1">
+    <Item text="&amp;Custom…"/>
+    <Item text="Specify the number of columns"/>
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian" description="Command: View.Little Endian" revision="1">
+    <Item text="&amp;Little-Endian"/>
+    <Item text="Little-endian encoding"/>
+  </Enumeration>
+  <Enumeration key="ViewBigEndian" description="Command: View.Big Endian" revision="1">
+    <Item text="&amp;Big-Endian"/>
+    <Item text="Big-endian encoding"/>
+  </Enumeration>
+  <Enumeration key="EndianSwitch" description="Command: Endian Switch">
+    <Item text="Byte Order Switch"/>
+    <Item text="Switch byte order"/>
+  </Enumeration>
+  <Enumeration key="EditEncrypt" description="Command: Edit.Encrypt" revision="1">
+    <Item text="Encr&amp;ypt…"/>
+    <Item text="Encrypt document data"/>
+  </Enumeration>
+  <Enumeration key="EditDecrypt" description="Command: Edit.Decrypt" revision="1">
+    <Item text="Decry&amp;pt…"/>
+    <Item text="Decrypt document data"/>
+  </Enumeration>
+  <Enumeration key="EditModifyBits" description="Command: Edit.Modify Bits" revision="1">
+    <Item text="Modify Bits…"/>
+    <Item text="Modify Bits"/>
+  </Enumeration>
+  <Enumeration key="ViewCodePane" description="Command: View.Code Pane" revision="1">
+    <Item text="&amp;Code Pane"/>
+    <Item text="Show or hide a code pane"/>
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop" description="Command: Select.Auto Drop" revision="1">
+    <Item text="Si&amp;ngle Selection Mode"/>
+    <Item text="Toggle Single Selection mode on or off"/>
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT" description="Command: Operation.Bitwise NOT" revision="1">
+    <Item text="Bitwise &amp;NOT…"/>
+    <Item text="Perform a bitwise NOT operation"/>
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR" description="Command: Operation.Bitwise OR" revision="1">
+    <Item text="Bitwise &amp;OR…"/>
+    <Item text="Perform a bitwise OR operation"/>
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND" description="Command: Operation.Bitwise AND" revision="1">
+    <Item text="Bitwise &amp;AND…"/>
+    <Item text="Perform a bitwise AND operation"/>
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR" description="Command: Operation.Bitwise XOR" revision="1">
+    <Item text="Bitwise &amp;XOR…"/>
+    <Item text="Perform a bitwise XOR operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation" description="Command: Operation.Arithmetic Negation" revision="1">
+    <Item text="N&amp;egation…"/>
+    <Item text="Perform an arithmetic negation operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition" description="Command: Operation.Arithmetic Addition" revision="1">
+    <Item text="A&amp;ddition…"/>
+    <Item text="Perform an arithmetic addition operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction" description="Command: Operation.Arithmetic Subtraction" revision="1">
+    <Item text="&amp;Subtraction…"/>
+    <Item text="Perform an arithmetic subtraction operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication" description="Command: Operation.Arithmetic Multiplication" revision="1">
+    <Item text="&amp;Multiplication…"/>
+    <Item text="Perform an arithmetic multiplication operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision" description="Command: Operation.Arithmetic Division" revision="1">
+    <Item text="D&amp;ivision…"/>
+    <Item text="Perform an arithmetic division operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder" description="Command: Operation.Arithmetic Remainder" revision="1">
+    <Item text="&amp;Remainder…"/>
+    <Item text="Perform an arithmetic remainder operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum" description="Command: Operation.Arithmetic Set Minimum" revision="1">
+    <Item text="Set M&amp;inimum…"/>
+    <Item text="Perform a set minimum value operation"/>
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum" description="Command: Operation.Arithmetic Set Maximum" revision="1">
+    <Item text="Set Ma&amp;ximum…"/>
+    <Item text="Perform a set maximum value operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft" description="Command: Operation.Shift Logical Left" revision="1">
+    <Item text="Lo&amp;gical Shift Left…"/>
+    <Item text="Perform a logical left shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight" description="Command: Operation.Shift Logical Right" revision="1">
+    <Item text="Logi&amp;cal Shift Right…"/>
+    <Item text="Perform a logical right shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft" description="Command: Operation.Shift Arithmetic Left" revision="1">
+    <Item text="Arithmetic Shift &amp;Left…"/>
+    <Item text="Perform an arithmetic left shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight" description="Command: Operation.Shift Arithmetic Right" revision="1">
+    <Item text="Arith&amp;metic Shift Right…"/>
+    <Item text="Perform an arithmetic right shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft" description="Command: Operation.Shift Rotate Left" revision="1">
+    <Item text="Ro&amp;tate Left…"/>
+    <Item text="Perform a rotate left shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight" description="Command: Operation.Shift Rotate Right" revision="1">
+    <Item text="Rotate Rig&amp;ht…"/>
+    <Item text="Perform a rotate right shift operation"/>
+  </Enumeration>
+  <Enumeration key="OperationCaseLower" description="Command: Operation.Case Lower" revision="1">
+    <Item text="&amp;Lower Case"/>
+    <Item text="Make selection lower case"/>
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper" description="Command: Operation.Case Upper" revision="1">
+    <Item text="&amp;Upper Case"/>
+    <Item text="Make selection upper case"/>
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle" description="Command: Operation.Case Toggle" revision="1">
+    <Item text="&amp;Invert Case"/>
+    <Item text="Toggle selection case"/>
+  </Enumeration>
+  <Enumeration key="OperationReverseBits" description="Command: Operation.Reverse Bits" revision="1">
+    <Item text="&amp;Reverse Bits…"/>
+    <Item text="Perform a bit reverse operation"/>
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes" description="Command: Operation.Reverse Bytes" revision="1">
+    <Item text="Byte Swap…"/>
+    <Item text="Perform byte swap operation"/>
+  </Enumeration>
+  <Enumeration key="ViewRefresh" description="Command: View.Refresh" revision="1">
+    <Item text="&amp;Refresh (Disk/Memory)"/>
+    <Item text="Refresh the current window (for disk, process and memory)"/>
+  </Enumeration>
+  <Enumeration key="SelectCopy" description="Command: Select.Copy" revision="1">
+    <Item text="Copy Selection Regions"/>
+    <Item text="Copy the list of selection regions to the Clipboard"/>
+  </Enumeration>
+  <Enumeration key="SelectExport" description="Command: Select.Export" revision="1">
+    <Item text="Export Selection Regions…"/>
+    <Item text="Export the list of selection regions to the file"/>
+  </Enumeration>
+  <Enumeration key="OutputClear" description="Command: Output.Clear" revision="1">
+    <Item text="Clear All"/>
+    <Item text="Clear the contents of the current Output window"/>
+  </Enumeration>
+
+  <Enumeration key="ArithmeticOperations" description="Arithmetic operations" revision="1">
+    <Item text="Negation"/>
+    <Item text="Addition"/>
+    <Item text="Subtraction"/>
+    <Item text="Multiplication"/>
+    <Item text="Division"/>
+    <Item text="Remainder"/>
+    <Item text="Set Minimum"/>
+    <Item text="Set Maximum"/>
+  </Enumeration>
+
+  <Enumeration key="GroupingModes" description="Grouping modes" revision="1">
+    <Item text="Bytes"/>
+    <Item text="Words"/>
+    <Item text="Double words"/>
+    <Item text="Quad words"/>
+  </Enumeration>
+
+  <Enumeration key="BitwiseOperations" description="Bitwise operations" revision="1">
+    <Item text="Bitwise NOT"/>
+    <Item text="Bitwise OR"/>
+    <Item text="Bitwise AND"/>
+    <Item text="Bitwise XOR"/>
+  </Enumeration>
+
+  <Enumeration key="ReverseOperations" description="Reverse operations" revision="1">
+    <Item text="Reverse Bits"/>
+    <Item text="Swap Bytes"/>
+  </Enumeration>
+
+  <Enumeration key="ShiftOperations" description="Shift operations" revision="1">
+    <Item text="Logical Left"/>
+    <Item text="Logical Right"/>
+    <Item text="Arithmetic Left"/>
+    <Item text="Arithmetic Right"/>
+    <Item text="Rotate Left"/>
+    <Item text="Rotate Right"/>
+  </Enumeration>
+
+  <Enumeration key="GotoSelModes" description="Go to selection update modes" revision="1">
+    <Item text="No change"/>
+    <Item text="Replace selection"/>
+    <Item text="Add to selection"/>
+    <Item text="Remove from selection"/>
+    <Item text="Invert selection"/>
+  </Enumeration>
+  <Message key="Offset" description="Column name: Offset" revision="1"/>
+  <Enumeration key="InsertTypes" description="Insert dialog size types" revision="1">
+    <Item text="bytes"/>
+    <Item text="pattern occurrences"/>
+  </Enumeration>
+  <Message key="SchemeNameCue" description="Scheme's name cue text" revision="1" value=" Enter the scheme name here"/>
+
+  <!-- Encrypt dialog -->
+  <Message key="Encrypt" description="Encrypt window title" revision="1"/>
+  <Message key="Decrypt" description="Decrypt window title" revision="1"/>
+
+  <!-- -->
+  <Message key="Navigate to Position" description="Navigate to Position" revision="1"/>
+  <Message key="Add Position" description="Add Position" revision="1"/>
+  <Message key="Editor" description="Option group: Editor" revision="1"/>
+  <Message key="Printing" description="Option group: Printing" revision="1"/>
+
+  <!-- options -->
+  <Message key="AutoDropSelection" description="Option: Single selection mode" revision="1" value="Single selection mode"/>
+  <Message key="AdjustSelectionOnInsert" description="Option: Adjust selection on Insert operation" revision="1" value="Adjust selection on Insert operation"/>
+  <Message key="DigitGrouping" description="Option: Digit grouping" revision="1" value="Digit grouping"/>
+  <Message key="ShowCurrentAddress" description="Option: Display cursor address on the left" revision="1" value="Display cursor address on the left"/>
+  <Message key="IgnoreColoring" description="Option (printing): Ignore coloring" revision="1" value="Ignore coloring"/>
+  <Message key="StandardHeader" description="Option (printing): Standard header" revision="1" value="Standard header"/>
+  <Message key="StandardFooter" description="Option (printing): Standard footer" revision="1" value="Standard footer"/>
+
+  <Enumeration key="SelExport" description="Option: Selection range export type" revision="1">
+    <Item text="Selection range export type"/>
+    <Item text="Use hexadecimal numbers"/>
+    <Item text="Use decimal numbers"/>
+  </Enumeration>
+
+  <Message key="ShiftCursorOnPaste" description="Option: Move cursor after paste" revision="1" value="Move cursor after paste"/>
+  <Message key="FindAllNotification" description="Option (notification): Find All" revision="1" value="Find All"/>
+  <Message key="PasteNotification" description="Option (notification): Paste text" revision="1" value="Paste text"/>
+
+  <Enumeration key="PastingTextNotification" description="Text paste notification" revision="1">
+    <Item text="Pasting Text"/>
+    <Item text="You are about to paste a text from the Clipboard. It is STRONGLY recommended to read a corresponding section in an included documentation before performing this operation."/>
+  </Enumeration>
+
+  <Enumeration key="FindAllDispNotification" description="Find All notification" revision="1">
+    <Item text="Find All"/>
+    <Item text='Find All only supports displaying results when the view is in "Hex Bytes" or "Decimal Bytes" mode. Do you want to switch to this mode now?'/>
+  </Enumeration>
+
+  <Enumeration key="SetSizeOptions" description="Set Size dialog options" revision="1">
+    <Item text="Bytes"/>
+    <Item text="KB"/>
+    <Item text="MB"/>
+    <Item text="GB"/>
+  </Enumeration>
+
+  <Message key="InvalidExpressionSyntax" description="Invalid expression. Check the syntax." revision="1" value="Invalid expression. Check the syntax."/>
+
+  <Message key="Connect to" description='"Connect to" window title' revision="1"/>
+  <Message key="ConnectToSuccess" description="Windows have been successfully connected" revision="1" value="Windows have been successfully connected."/>
+  <Message key="ConnectToFailure" description="Invalid window selected. Cannot connect to selected window" revision="1" value="Invalid window selected. Cannot connect to selected window."/>
+
+  <Message key="Copying Selection Regions…" description="Copying Selection Regions" revision="1"/>
+  <Message key="Exporting Selection Regions…" description="Exporting Selection Regions" revision="1"/>
+  <Enumeration key="TextPasteFeature" description="Text pasting feature" revision="1">
+    <Item text="Pasting Text"/>
+    <Item text="Pasting Text feature allows you to paste a text from Clipboard and optionally parse it if it contains a sequence of decimal or hexadecimal numbers."/>
+  </Enumeration>
+  <Message key="Open documentation section and continue" description="Action: Open documentation section and continue" revision="1"/>
+  <Message key="Just continue" description="Action: Just continue" revision="1"/>
+  <Enumeration key="InsModeIndicator" description="Insert mode statusbar indicator" revision="1">
+    <Item text="OVR"/>
+    <Item text="INS"/>
+  </Enumeration>
+
+  <Enumeration key="ViewModes" description="View modes" revision="1">
+    <Item text="Hex"/>
+    <Item text="Decimal"/>
+    <Item text="Octal"/>
+    <Item text="Binary"/>
+    <Item text="Float"/>
+    <Item text="Double"/>
+  </Enumeration>
+
+  <Message key="InfoPane" description="Status bar mode string" revision="1" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}">
+    <Param name="mode"/>
+    <Param name="exmode" format="?"/>
+    <Param name="mode2"/>
+    <Param name="nocols" format="?"/>
+    <Param name="cols"/>
+    <Param name="isunicode" format="?"/>
+    <Param name="codepage"/>
+  </Message>
+
+  <Message key="Loading" description="Loading editor" revision="1" value="Loading editor"/>
+  <Message key="Initializing" description="Initializing editor" revision="1" value="Initializing editor"/>
+
+  <Enumeration key="MenuSelect" description="Command group: Select">
+    <Item text="&amp;Select"/>
+    <Item text="Select menu"/>
+  </Enumeration>
+  <Enumeration key="MenuOperations" description="Command group: Operations">
+    <Item text="&amp;Operations"/>
+    <Item text="Operations menu"/>
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs" description="Command group: Display As">
+    <Item text="Display &amp;As"/>
+    <Item text="Change cell number type"/>
+  </Enumeration>
+  <Enumeration key="MenuGroupBy" description="Command group: Group By">
+    <Item text="Group By"/>
+    <Item text="Change cell groupping mode"/>
+  </Enumeration>
+  <Enumeration key="MenuColumns" description="Command group: Columns">
+    <Item text="&amp;Columns"/>
+    <Item text="Change number of columns"/>
+  </Enumeration>
+  <Enumeration key="MenuEndian" description="Command group: Byte Order">
+    <Item text="&amp;Byte Order"/>
+    <Item text="Change byte order"/>
+  </Enumeration>
+  <Enumeration key="MenuOffset" description="Command group: Offset" revision="2">
+    <Item text="Offset"/>
+    <Item text="Change offset type"/>
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset" description="Command group: Column Offset" revision="2">
+    <Item text="Offset"/>
+    <Item text="Change offset type"/>
+  </Enumeration>
+
+  <Message key="Selection Tool Window" description="Tool window: Selection" revision="1" value="Selection"/>
+  <Message key="Output" description="Tool window: Output" revision="1"/>
+
+  <Enumeration key="FeatureEncodings" description="Encodings feature" revision="1">
+    <Item text="Encodings"/>
+    <Item text="Encodings feature allows you to change the character encoding of a text pane of any editor window."/>
+  </Enumeration>
+
+  <Message key="Save As" description="Message box title: Save As" revision="1"/>
+  <Message key="Do you want to override this scheme?" description="Do you want to override this scheme?" revision="1"/>
+
+  <Enumeration key="SelectionWindowInfo" description="Selection window information" revision="1">
+    <Item text="Total Size"/>
+    <Item text="Fragments"/>
+  </Enumeration>
+
+  <Message key="NoSel" description="No selection" revision="1" value="No selection"/>
+
+  <Enumeration key="SelectionColumns" description="Selection window columns" revision="1">
+    <Item text="No."/>
+    <Item text="Address"/>
+    <Item text="Length"/>
+  </Enumeration>
+  <Message key="EncodingNotSupported" description="Currently selected encoding is not supported by your operating system. Make sure the necessary code page files and fonts are installed" revision="1" value="Currently selected encoding is not supported by your operating system. Make sure the necessary code page files and fonts are installed."/>
+  <Message key="NoEncoding" description="Your system lacks the components required to support the selected encoding. Select another encoding." revision="1" value="Your system lacks the components required to support the selected encoding. Select another encoding."/>
+  <Message key="SwitchSingleSel" description='Action: Switch "Single Selection mode" option on' revision="1" value='Switch "Single Selection mode" option on\nThis will effectively turn Multiple Selection off. You can later switch this option back off on General Settings tab.'/>
+  <Enumeration key="FeatureMultiSel" description="Multiple selection feature" revision="1">
+    <Item text="Multiple Selection"/>
+    <Item text="Multiple Selection feature allows the view to have several selected blocks of data and apply editing commands on all of them."/>
+  </Enumeration>
+
+  <Message key="Find" description="Find window title/message box title" revision="1"/>
+  <Message key="A pattern was not found." description="A pattern was not found" revision="1"/>
+
+  <Enumeration key="FeatureFindAll" description="FindAll feature" revision="1">
+    <Item text="Find All Occurrences"/>
+    <Item text="Find All Occurrences feature quickly finds all occurrences of a pattern in a file (or within selection) and converts them to the selection."/>
+  </Enumeration>
+
+  <Message key="RegExpInSel" value="Searching for a regular expression within a selection is not supported." description="Searching for a regular expression within a selection is not supported" revision="1"/>
+  <Message key="Find All" description="Message box title: Find All" revision="1"/>
+  <Message key="RegExpBackwards" value="Searching for a regular expression backwards is not supported." description="Searching for a regular expression backwards is not supported" revision="1"/>
+  <Enumeration key="FeatureReplaceAll" description="Replace All feature" revision="1">
+    <Item text="Replace All Occurrences"/>
+    <Item text="Replace All Occurrences feature quickly finds all occurrences of a pattern and replaces them with another pattern. Patterns may be of differrent sizes and target pattern may be empty."/>
+  </Enumeration>
+  <Message key="Replace All" description="Message box title: Replace All" revision="1"/>
+
+  <Enumeration key="FeatureSaveSelection" description="Save Selection feature" revision="1">
+    <Item text="Save Selection"/>
+    <Item text="Save Selection feature allows you to save the current selection to file."/>
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection" description="Load Selection feature" revision="1">
+    <Item text="Load Selection"/>
+    <Item text="Load Selection feature allows you to load a selection from file. Loaded selection may optionally be added to the current one, or subtracted from it."/>
+  </Enumeration>
+
+  <Message key="Go to Offset" description="Go to Offset window title/message box title" revision="1"/>
+  <Message key="Invalid offset." description="Invalid offset" revision="1"/>
+
+  <Message key="UnsupportedFunction" description="This function is not supported for the current document type" revision="1" value="This function is not supported for the current document type."/>
+
+  <Message key="Change File Size" description="Change File Size window title/message box title" revision="1"/>
+  <Message key="Invalid file size." description="Invalid file size" revision="1"/>
+  <Enumeration key="FeatureConnectTo" description="Connect To feature" revision="1">
+    <Item text="Connect To"/>
+    <Item text="Connect To feature allows you to connect two windows, binding cursor movements in them."/>
+  </Enumeration>
+  <Message key="Insert" description="Insert window title/message box title" revision="1"/>
+  <Message key="Invalid size." description="Invalid size" revision="1"/>
+
+  <Message key="NFound" description="N occurrences found" revision="1" value="{isfound?}{n} occurrences found.{|isfound}A pattern was not found.{?isfound}">
+    <Param name="isfound" format="?"/>
+    <Param name="n" format="l"/>
+  </Message>
+  <Message key="NFoundAndReplaced" description="N occurrences found" revision="1" value="{isfound?}{n} occurrences found and replaced.{|isfound}A pattern was not found.{?isfound}">
+    <Param name="isfound" format="?"/>
+    <Param name="n" format="l"/>
+  </Message>
+
+  <Enumeration key="FeatureEncrypt/Decrypt" description="Encrypt/Decrypt feature" revision="1">
+    <Item text="Encrypt/Decrypt"/>
+    <Item text="Encrypt/Decrypt feature allows you to encrypt (and decrypt) the selected data, using any of installed stream or block ciphers."/>
+  </Enumeration>
+  <Message key="Selected encryption algorithm is unsupported." description="Selected encryption algorithm is unsupported" revision="1"/>
+
+  <Enumeration key="FeatureDataOperations" description="Data Operations feature" revision="1">
+    <Item text="Data Operations"/>
+    <Item text="Data Operations feature allows you to perform bitwise, arithmetic, shift, case change and inverse operations on selected data."/>
+  </Enumeration>
+
+  <Enumeration key="FeatureCopySelection" description="Copy Selection feature" revision="1">
+    <Item text="Copy Selection Regions"/>
+    <Item text="Copy Selection Regions feature allows you to copy the list of current selection regions to the Clipboard."/>
+  </Enumeration>
+
+  <Message key="Copy" description="Message box title: Copy" revision="1"/>
+  <Enumeration key="FeatureExportSelection" description="Export Selection feature" revision="1">
+    <Item text="Export Selection Regions"/>
+    <Item text="Export Selection Regions feature allows you to export the list of current selection regions to the text file."/>
+  </Enumeration>
+  <Message key="Export" description="Message box title: Export" revision="1"/>
+
+  <Enumeration key="KeyState" description="Key validation states" revision="1">
+    <Item text="ERROR - No encryption algorithm selected."/>
+    <Item text="OK"/>
+    <Item text="Entered passwords do not match."/>
+    <Item text="ERROR - A password is empty."/>
+    <Item text="ERROR - Key length must be a power of 8."/>
+    <Item text="ERROR - Invalid key length."/>
+  </Enumeration>
+  <Enumeration key="ColorNames" description="Visual element names" revision="1">
+    <Item text="Text"/>
+    <Item text="Background"/>
+    <Item text="Address"/>
+    <Item text="Address background"/>
+    <Item text="ASCII/UNICODE text"/>
+    <Item text="ASCII/UNICODE background"/>
+    <Item text="Even column/row (for interlaced modes)"/>
+    <Item text="Odd column/row (for interlaced modes)"/>
+    <Item text='"No data" text'/>
+    <Item text="Cursor fill"/>
+    <Item text="Cursor outline"/>
+    <Item text="Active row &amp; column hilight text"/>
+    <Item text="Active row &amp; column hilight background"/>
+    <Item text="Changed text"/>
+    <Item text="Changed background"/>
+    <Item text="Changed outline"/>
+    <Item text="Selection"/>
+  </Enumeration>
+  <Enumeration key="Tooltip" description="Layout dialog tooltips" revision="1">
+    <Item text="Selection"/>
+    <Item text="Cursor"/>
+    <Item text="Changed text"/>
+  </Enumeration>
+
+  <Message key="SelectionFiles" description="Selection files filter string" revision="1" value="Selection Files (*.hexsel)|*.hexsel|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+  <Message key="TextFiles" description="Text files filter string" revision="1" value="Text Files (*.txt)|*.txt|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Message key="AlgoDef" description="Algorithm description" revision="1" value="{name} ({bits}{more?} - {morebits}{?more} bits)">
+    <Param name="name"/>
+    <Param name="bits"/>
+    <Param name="more" format="?"/>
+    <Param name="morebits"/>
+  </Message>
+
+  <Message key="SetSize" description="Calculated size string" revision="1" value="Hex: \t{size}\r\nDecimal: \t{size:2} ({size as text}){hasfree?}\r\n\r\nFile disk free space: {free}\r\n{?hasfree}">
+    <Param name="size" format="b016"/>
+    <Param name="size:2" format="l"/>
+    <Param name="size as text"/>
+    <Param name="hasfree" format="?"/>
+    <Param name="free"/>
+  </Message>
+
+  <Message key="RegExpSyntaxError" description="Regular expression syntax error" revision="1" value="Regular expression syntax error: {error}.">
+    <Param name="error"/>
+  </Message>
+
+  <Message key="OffsetPane" description="Offset status bar string" revision="1" value="Offset: {offset} ({offset:2})">
+    <Param name="offset" format="b016p"/>
+    <Param name="offset:2" format="l"/>
+  </Message>
+
+  <Message key="SizePane" description="Size status bar string" revision="1" value="Size: {size} ({size:2}): {size as text}">
+    <Param name="size" format="b016p"/>
+    <Param name="size:2" format="l"/>
+    <Param name="size as text"/>
+  </Message>
+
+  <Message key="WrongSize" description="Selected algorithm requires data size to be multiple of N bytes" revision="1" value="Selected algorithm requires data size to be multiple of {bytes} bytes.">
+    <Param name="bytes"/>
+  </Message>
+
+  <Message key="EncryptFailed" description="Encryption/decryption failed" revision="1" value="Encryption/decryption failed with an error code {code}">
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="PrintedBy" description="Print job" revision="1" value="Printed by HHD Software {product}">
+    <Param name="product"/>
+  </Message>
+  <Message key="PageNumber" description="Page footer" revision="1" value="Page {n} / {pages}">
+    <Param name="n" format="l"/>
+    <Param name="pages" format="l"/>
+  </Message>
+
+  <Message key="CopyError" description="Selection copy error" revision="1" value="Error copying selection regions: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="ExportError" description="Selection export error" revision="1" value="Error creating file: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+
+  <Message key="Pattern:" description="Field: Pattern" revision="1"/>
+  <Message key="Replace with:" description="Field: Replace with" revision="1"/>
+
+  <!-- Dialogs -->
+  <!-- Arithmetic -->
+  <Message key="Arithmetic Operation" description="Arithmetic Operation window title" revision="1"/>
+  <Message key="Operation:" description="Field: Operation" revision="1"/>
+  <Message key="Operand type:" description="Field: Operand type" revision="1"/>
+  <Message key="Operand value:" description="Field: Operand value" revision="1"/>
+  <Message key="Current cell" description="Choice: Current cell" revision="1"/>
+  <Message key="Selection" description="Choice: Selection" revision="1"/>
+  <Message key="Whole file" description="Choice: Whole file" revision="1"/>
+  <Message key="Hexadecimal" description="Choice: Hexadecimal" revision="1"/>
+  <Message key="Decimal" description="Choice: Decimal" revision="1"/>
+
+  <!-- Modify Bits -->
+  <Message key="Modify Bits" description="Modify Bits window title" revision="1"/>
+  <Message key="1 Byte:" description="Field: 1 Byte" revision="2" value="1st byte:"/>
+  <Message key="2 Byte:" description="Field: 2 Byte" revision="2" value="2nd byte:"/>
+  <Message key="3 Byte:" description="Field: 3 Byte" revision="2" value="3rd byte:"/>
+  <Message key="4 Byte:" description="Field: 4 Byte" revision="2" value="4th byte:"/>
+  <Message key="5 Byte:" description="Field: 5 Byte" revision="2" value="5th byte:"/>
+  <Message key="6 Byte:" description="Field: 6 Byte" revision="2" value="6th byte:"/>
+  <Message key="7 Byte:" description="Field: 7 Byte" revision="2" value="7th byte:"/>
+  <Message key="8 Byte:" description="Field: 8 Byte" revision="2" value="8th byte:"/>
+  <Message key="Binary representation:" description="Field: Binary representation" revision="1"/>
+  <Message key="Value:" description="Field: Value" revision="1"/>
+  <Message key="Hex" description="Choice: Hex" revision="1"/>
+  <Message key="Octal" description="Choice: Octal" revision="1"/>
+  <Message key="Set All To Zero" description="Button: Set All To Zero" revision="1"/>
+  <Message key="Set All To One" description="Button: Set All To One" revision="1"/>
+  <Message key="Invert" description="Button: Invert" revision="1"/>
+  <Message key="Revert" description="Button: Revert" revision="1"/>
+
+  <!-- Bitwise -->
+  <Message key="Bitwise Operation" description="Bitwise Operation window title" revision="1"/>
+
+  <!-- Set Columns -->
+  <Message key="Set Columns" description="Set Columns window title"/>
+  <Message key="Enter number of columns per row:" description="Field: Enter number of columns per row"/>
+
+  <!-- Connect dialog -->
+  <Message key="Select the Window to Connect" description='"Select the Window to Connect" window title'/>
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." description="Field: Click on the icon below…"/>
+  <Message key="Cursor movement is synchornized in connected windows." description="Field: Cursor movement is synchornized in connected windows" value="Cursor movement is synchronized in connected windows."/>
+
+  <!-- Encrypt/Decrypt -->
+  <Message key="Encrypt/Decrypt" description="Encrypt/Decrypt window title"/>
+  <Message key="Algorithm:" description="Field: Algorithm"/>
+  <Message key="Key length:" description="Field: Key length"/>
+  <Message key="bits" description="Field: bits"/>
+  <Message key="Status:" description="Field: Status"/>
+  <Message key="Do not hide password" description="Checkbox: Do not hide password"/>
+  <Message key="Password:" description="Field: Password"/>
+  <Message key="Re-type password:" description="Field: Re-type password"/>
+
+  <!-- Fill -->
+  <Message key="Fill" description="Fill window title"/>
+  <Message key="Fill whole file" description="Choice: Fill whole file"/>
+  <Message key="Fill selection" description="Choice: Fill selection"/>
+  <Message key="Transparent fill" description="Checkbox: Transparent fill"/>
+  <Message key="Reverse pattern" description="Checkbox: Reverse pattern"/>
+  <Message key="&amp;Fill" description="Button: Fill"/>
+
+  <!-- Find -->
+  <Message key="&amp;Find" description="Button: Find"/>
+  <Message key="Find &amp;All" description="Button: Find All"/>
+  <Message key="Search whole file" description="Choice: Search whole file"/>
+  <Message key="Search selection" description="Choice: Search selection"/>
+  <Message key="Search up" description="Choice: Search up"/>
+  <Message key="Search down" description="Choice: Search down"/>
+  <Message key="Ignore case" description="Checkbox: Ignore case"/>
+
+  <!-- Go to -->
+  <Message key="Offset (expressions supported):" description="Field: Offset (expressions supported)"/>
+  <Message key="Resulting offset:" description="Field: Resulting offset"/>
+  <Message key="Selection:" description="Field: Selection"/>
+  <Message key="Bookmark:" description="Field: Bookmark"/>
+  <Message key="&amp;Absolute offset" description="Choice: Absolute offset"/>
+  <Message key="&amp;Relative offset" description="Choice: Relative offset"/>
+  <Message key="&amp;Percent" description="Choice: Percent"/>
+
+  <!-- Insert -->
+  <Message key="&amp;Insert" description="Button: Insert"/>
+  <Message key="Size (expressions supported):" description="Field: Size (expressions supported)"/>
+
+  <!-- Layout Page -->
+  <Message key="Layout Page" description="Layout Page title" value="Layout"/>
+  <Message key="Font:" description="Field: Font"/>
+  <Message key="Size:" description="Field: Size"/>
+  <Message key="Visualization elements:" description="Field: Visualization elements"/>
+  <Message key="Color:" description="Field: Color"/>
+  <Message key="Automatic" description="Choice: Automatic"/>
+  <Message key="Do not interlace background" description="Choice: Do not interlace background"/>
+  <Message key="Interlace columns" description="Choice: Interlace columns"/>
+  <Message key="Interlace rows" description="Choice: Interlace rows"/>
+  <Message key="Draw edit cursor frame" description="Checkbox: Draw edit cursor frame"/>
+  <Message key="Smart indentation" description="Checkbox: Smart indentation"/>
+  <Message key="Antialiased quality (slower)" description="Checkbox: Antialiased quality (slower)"/>
+  <Message key="Schemes…" description="Button: Schemes…"/>
+
+  <!-- Layout schemes -->
+  <Message key="Layout Schemes" description="Layout Schemes window title"/>
+  <Message key="&amp;Save As…" description="Button: Save As"/>
+
+  <!-- Load mode -->
+  <Message key="Load Selection" description="Load Selection window title"/>
+  <Message key="Loading Mode" description="Control group: Loading Mode"/>
+  <Message key="New selection" description="Choice: New selection"/>
+  <Message key="Add to current" description="Choice: Add to current"/>
+  <Message key="Subtract from current" description="Choice: Subtract from current"/>
+
+  <!-- Progress dialog -->
+  <Message key="Please wait while the current operation is being performed…" description="Field: Please wait while the current operation is being performed…"/>
+  <Message key="0 % done" description="Field: 0 % done"/>
+  <Message key="Elapsed time: " description="Field: Elapsed time"/>
+  <Message key="Remaining time:" description="Field: Remaining time"/>
+  <Message key="Speed:" description="Field: Speed"/>
+
+  <!-- Replace -->
+  <Message key="Replace" description="Replace window title"/>
+  <Message key="&amp;Find Next" description="Button: Find Next"/>
+  <Message key="&amp;Replace" description="Button: Replace"/>
+  <Message key="Replace &amp;All" description="Button: Replace All"/>
+
+  <!-- Reverse -->
+  <Message key="Reverse Operation" description="Reverse Operation window title"/>
+
+  <!-- Selection Root -->
+  <Message key="Information" description="Dialog group: Information"/>
+  <Message key="Details" description="Dialog group: Details"/>
+
+  <!-- Select Range -->
+  <Message key="Select Range" description="Select Range window title"/>
+  <Message key="Offset:" description="Field: Offset"/>
+  <Message key="Add" description="Choice: Add"/>
+  <Message key="Subtract" description="Choice: Subtract"/>
+  <Message key="Overlap" description="Choice: Overlap"/>
+
+  <!-- Change File Size -->
+  <Message key="Specify new file size:" description="Field: Specify new file size"/>
+  <Message key="Resulting file size:" description="Field: Resulting file size"/>
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." description="Field: You may use mathematic expression to enter new file size…"/>
+
+  <!-- Shift Operation -->
+  <Message key="Shift Operation" description="Shift Operation window title"/>
+  <Message key="Shift by (bits):" description="Field: Shift by (bits)"/>
+
+  <!-- Editor Page -->
+  <Message key="Editor Page" description="Editor Page title" value="Editor"/>
+  <Message key="Here you can select the default properties of the editor window:" description="Field: Here you can select the default properties of the editor window"/>
+  <Message key="Display as:" description="Field: Display as"/>
+  <Message key="Group by:" description="Field: Group by"/>
+  <Message key="Columns:" description="Field: Columns"/>
+  <Message key="Byte order:" description="Field: Byte order"/>
+  <Message key="Encoding:" description="Field: Encoding"/>
+  <Message key="Autosave editor window settings for each opened document" description="Checkbox: Autosave editor window settings for each opened document"/>
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." description="Field: Autosave description"/>
+  <Message key="Code pane" description="Checkbox: Code pane"/>
+  <Message key="Text pane" description="Checkbox: Text pane"/>
+  <Message key="Take from current window" description="Button: Take from current window"/>
+  <Message key="Reset to Default" description="Button: Reset to Default"/>
+  <Message key="Clear Cache" description="Button: Clear Cache"/>
+
+  <Message key="Layout settings" description="Settings: Layout settings" value="Editor Layout"/>
+  <Message key="Encoding settings" description="Settings: Encoding settings" value="Last Used Encodings"/>
+  <Message key="ViewSettingsDb settings" description="Settings: Editor Defaults" value="Editor Defaults"/>
+</Definition>

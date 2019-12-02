@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" description="Tool window title: Downloader" revision="1"/>
+
+  <Enumeration key="MenuDownloader" description="Command group: Downloader">
+    <Item text="&amp;Downloader"/>
+    <Item text="Downloader menu"/>
+  </Enumeration>
+  
+  <Enumeration key="ToolsCancelAll" description="Command: Tools.Cancel All Tasks" revision="1">
+    <Item text="&amp;Cancel All Download Tasks"/>
+    <Item text="Cancel all download tasks"/>
+  </Enumeration>
+
+  <Enumeration key="ToolsForeground" description="Command: Tools.Foreground" revision="1">
+    <Item text="&amp;Foreground Downloading"/>
+    <Item text="Use all available network bandwidth for download tasks"/>
+  </Enumeration>
+
+  <Enumeration key="DownloaderColumns" description="Downloader window columns" revision="1">
+    <Item text="Task"/>
+    <Item text="Status"/>
+    <Item text="Size"/>
+  </Enumeration>
+
+  <Enumeration key="DownloadStatus" description="Download statuses" revision="1">
+    <Item text="Queued"/>
+    <Item text="Connecting…"/>
+    <Item text="Transferring…"/>
+    <Item text="Suspended"/>
+    <Item text="Error"/>
+    <Item text="Error. Retrying in 10 seconds…"/>
+    <Item text="Transferred"/>
+    <Item text="Acknowledged"/>
+    <Item text="Cancelled"/>
+  </Enumeration>
+
+  <Message key="ForegroundDownloading" description="Option: Foreground downloading" revision="1" value="Foreground downloading"/>
+  <Message key="ProgressString" description="Progress string" revision="1" value="{percent} % done">
+    <Param name="percent" format="lp2"/>
+  </Message>
+
+  <Message key="Unknown" description="Size or state unknown" revision="1"/>
+  <Message key="PleaseWait" description="Please wait" value="Please wait…"/>
+  <Message key="This will restart all current download tasks. Do you want to continue?" description="This will restart all current download tasks. Do you want to continue?" revision="1"/>
+  <Message key="Do you want to cancel all active download tasks?" description="Do you want to cancel all active download tasks?" revision="1"/>
+
+  <!-- Proxy Page -->
+  <Message key="Proxy Page" description="Proxy Page title" value="Proxy"/>
+  <Message key='Select a proxy settings to be used by "Check For Updates":' description="Field: Select a proxy settings…" />
+  <Message key="Default" description="Choice: Default" />
+  <Message key="Autodetect proxy settings" description="Choice: Autodetect proxy settings" />
+  <Message key="Do not use proxy" description="Choice: Do not use proxy" />
+  <Message key="Use the following proxy (HTTP):" description="Choice: Use the following proxy (HTTP)" />
+  <Message key="Settings" description="Group box: Settings" />
+  <Message key="Authentication" description="Group box: Authentication" />
+  <Message key="Authentication is not required" description="Choice: Authentication is not required" />
+  <Message key="Authenticate me as logged on user" description="Choice: Authenticate me as logged on user" />
+  <Message key="Authenticate me with the following credentials:" description="Choice: Authenticate me with the following credentials:" />
+  <Message key="User name:" description="Field: User name" />
+  <Message key="Password:" description="Field: Password" />
+  <Message key="Re-type password:" description="Field: Re-type password" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" description="Password storage message"/>
+
+  <Message key="PasswordMismatch" value="Entered passwords must match." description="Entered passwords must match."/>
+
+  <Message key="Downloader settings" description="Settings: Downloader (Proxy)" value="Proxy Settings"/>
+</Definition>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="Opening too many documents may lead to very poor performance. It is therefore not recommended to continue the current operation. Do you want to cancel the operation?" description="Opening too many documents…" revision="1"/>
+  <Message key="Warning" description="Message Box Title: Warning" revision="1"/>
+  <Message key="Error" description="Message Box Title: Error" revision="1"/>
+
+  <Message key=" ({occurrences} occurrences)" description="Number of occurrences. Must start with space." revision="1">
+    <Validate rule="StartsWithSpace"/>
+    <Param name="occurrences" format="l"/>
+  </Message>
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." description="Error message" revision="1">
+    <Param name="error_code" format="b016"/>
+    <Param name="text_message"/>
+    <Param name="mode"/>
+    <Param name="path"/>
+  </Message>
+
+  <Enumeration key="opening/saving" description="Mode for error message" revision="1">
+    <Item text="opening" />
+    <Item text="saving" />
+  </Enumeration>
+
+  <Message key="Invalid folder or mask syntax." description="Error message: Invalid folder or mask syntax" revision="1"/>
+  <Message key="Invalid folder list syntax." description="Error message: Invalid folder list syntax" revision="1"/>
+
+  <Enumeration key="Find modes" description="Find in Files operation modes" revision="1">
+    <Item text="Find at least one occurrence"/>
+    <Item text="Find all occurrences (slower)"/>
+  </Enumeration>
+
+  <Enumeration key="Replace modes" description="Replace in Files operation modes" revision="1">
+    <Item text="Replace all occurrences and save"/>
+    <Item text="Replace all occurrences and open"/>
+  </Enumeration>
+
+  <Message key="Find All" description="Button: Find All" revision="1"/>
+  <Message key="Replace All" description="Button: Replace All" revision="1"/>
+
+  <Message key="Loading Find in Files" description="Loading Find in Files progress string" revision="1"/>
+  <Message key="Initializing Find in Files" description="Initializing Find in Files progress string" revision="1"/>
+  <Message key="Notifications" description="Notifications setting group name" revision="1"/>
+
+  <Enumeration key="Find in files task" description="Jump List Item: Find in files" revision="1">
+    <Item text="Find in files"/>
+    <Item text="Start the Find in Files/Replace in Files module"/>
+  </Enumeration>
+
+  <Enumeration key="MenuFIF" description="Command group: Find in Files">
+    <Item text="&amp;Find in Files"/>
+    <Item text="Find in Files menu"/>
+  </Enumeration>
+  
+  <Message key="Find in Files" description="Find in Files Tool Window title" revision="1"/>
+  <Message key="Do you want to cancel the current operation?" description="Prompt: Do you want to cancel the current operation?" revision="1"/>
+  <Message key="Operation cancelled." description="Operation cancelled" revision="1"/>
+
+  <Enumeration key="FindInFiles feature" description="Find in Files feature name &amp; description" revision="1">
+    <Item text="Find in Files" />
+    <Item text="Find in Files feature allows you to quickly find files containing specified pattern within a single or multiple folders." />
+  </Enumeration>
+
+  <Enumeration key="ReplaceInFiles feature" description="Replace in Files feature name &amp; description" revision="1">
+    <Item text="Replace in Files" />
+    <Item text="Replace in Files feature allows you to find all occurrences of the pattern in files whithin a single or multiple folders and replace it with another pattern (or delete)." />
+  </Enumeration>
+
+  <Enumeration key="Replace all and save options" description="Replace all and save mode options" revision="1">
+    <Item text='Enable "Always create backups" option and continue.'/>
+    <Item text='Switch to "replace all occurrences and open" mode and continue.'/>
+    <Item text="Continue in this mode (NOT recommended)"/>
+    <Item text="Cancel"/>
+  </Enumeration>
+
+  <Enumeration key="ReplaceAllAndSaveWarning" description="Replace all and save warning message" revision="1">
+    <Item text="Replace in Files"/>
+    <Item text='Running "Replace in Files" function in this mode with "Always create backups" option turned off may lead to data loses as no backup copies are created during data replacing. It is recommended to turn the "Always create backups" option on.\r\n\r\nSelect an action below:'/>
+  </Enumeration>
+
+  <Message key="Replace with:" description="Field: Replace with" revision="1"/>
+
+  <Message key="Progress message" value="{percent} % completed. {processed_files} of {total_files}{unfinished?}(…){?unfinished} files in {total_folders} folders have been checked. {matched} matched file(s) found. {processed_size} of {total_size} processed." description="Progress message" revision="1">
+    <Param name="percent"/>
+    <Param name="processed_files" format="l"/>
+    <Param name="total_files" format="l"/>
+    <Param name="unfinished" format="?"/>
+    <Param name="total_folders" format="l"/>
+    <Param name="matched" format="l"/>
+    <Param name="processed_size"/>
+    <Param name="total_size"/>
+  </Message>
+
+  <Message key="ReplaceNotification" description="Property: Replace in Files notification" value="Replace in Files" revision="1"/>
+  
+  <!-- Commands -->
+  <Enumeration key="EditFindInFiles" description="Command: Find in Files">
+    <Item text="Fin&amp;d in Files…"/>
+    <Item text="Find (and optionally replace) a pattern in several files."/>
+  </Enumeration>
+
+  <Enumeration key="EditFindInFilesStop" description="Command: Stop Find in Files" revision="1">
+    <Item text="Stop Searching" />
+    <Item text="Abort the current operation" />
+  </Enumeration>
+
+  <Enumeration key="EditGotoLocation" description="Command: Open File" revision="1">
+    <Item text="Open File" />
+    <Item text="Open the selected file in the editor." />
+  </Enumeration>
+
+  <Enumeration key="EditClearAll" description="Command: Clear All">
+    <Item text="&amp;Clear All"/>
+    <Item text="Clear the contents of the window"/>
+  </Enumeration>
+
+  <Enumeration key="FindInFilesBackgroundMode" description="Command: Background Mode Toggle">
+    <Item text="Background Mode" />
+    <Item text="Toggle background mode (reduce system resources usage)" />
+  </Enumeration>
+
+  <Enumeration key="FindInFilesExport" description="Command: Export Find in Files results">
+    <Item text="Export results…"/>
+    <Item text="Export the list of found files"/>
+  </Enumeration>
+
+  <Message key="TextFilesFilterString" description="Filter string: Text Files" value="Text files|*.txt|">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Message key="Exporting" description="Window title: Exporting" value="Exporting"/>
+  
+  <!-- Dialog strings -->
+  <!-- Find in Files dialog -->
+  <Message key="Search in:" description="Field: Search in" revision="1"/>
+  <Message key="File types:" description="Field: File types" revision="1"/>
+  <Message key="Mode:" description="Field: Find/Replace operation mode" revision="1"/>
+  <Message key="Include sub-folders" description="Field: Include sub-folders" revision="1"/>
+  <Message key="Ignore case" description="Field: Ignore case" revision="1"/>
+  <Message key="Display errors" description="Field: Display errors" revision="1"/>
+  <Message key="Include streams" description="Field: Include streams" revision="1"/>
+  <Message key="Find and replace mode" description="Field: Find and replace mode" revision="1"/>
+
+  <!-- Folder List Dialog -->
+  <Message key="Find in Files Folder List" description="Find in Files Folder List window title" revision="1"/>
+  <Message key="Enter the path to the folder or press the browse button:" description="Field: Enter the path to the folder…" revision="1"/>
+  <Message key="Move Up" value="Move &amp;Up" description="Button: Move Up" revision="1"/>
+  <Message key="Move Down" value="Move &amp;Down" description="Button: Move Down" revision="1"/>
+  <Message key="Folder list:" description="Field: Folder list" revision="1"/>
+
+  <Message key="All opened documents" description="All opened documents"/>
+</Definition>

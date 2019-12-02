@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- Commands -->
+  <Enumeration key="StructureViewerBind" description="Command: Structure Viewer.Bind">
+    <Item text="Bind…"/>
+    <Item text="Bind new structure"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerClear" description="Command: Structure Viewer.Clear">
+    <Item text="Unbind All"/>
+    <Item text="Unbind all bound structures"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary" description="Command: Structure Viewer.Library" revision="1">
+    <Item text="Library"/>
+    <Item text="Open the Structure Library"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode" description="Command: Structure Viewer.Hex Mode">
+    <Item text="Display Hex Values"/>
+    <Item text="Display data in decimal or hexadecimal"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme" description="Command: Structure Viewer.Save Scheme">
+    <Item text="Save Scheme…"/>
+    <Item text="Save a current structure scheme"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme" description="Command: Structure Viewer.Delete Scheme">
+    <Item text="Remove Scheme"/>
+    <Item text="Delete current scheme"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition" description="Command: Structure Viewer.Synchronize Position">
+    <Item text="Synchronize Position"/>
+    <Item text="Synchronize Position"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh" description="Command: Structure Viewer.Autorefresh">
+    <Item text="Autorefresh"/>
+    <Item text="Structures will be automatically refreshed if data is changed"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository" description="Command: Structure Viewer.Online Repository">
+    <Item text="On-line Repository…"/>
+    <Item text="Open on-line repository where you can download new structure definition files."/>
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations" description="Command: Structure Viewer.Associations">
+    <Item text="Associations…"/>
+    <Item text="Show Associations"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring" description="Command: Structure Viewer.Global Coloring">
+    <Item text="Global Structure Coloring Schemes…"/>
+    <Item text="Define global coloring schemes"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip" description="Command: Structure Viewer.Tooltip">
+    <Item text="Show Tooltips"/>
+    <Item text="Display detailed field information in tooltip for data under cursor"/>
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark" description="Command: Structure Viewer.Field To Bookmark">
+    <Item text="Field To Bookmark"/>
+    <Item text="Converts selected structure field to bookmark"/>
+  </Enumeration>
+  
+  <!-- -->
+
+  <Enumeration key="CompilerErrors" description="Compiler errors" revision="1">
+    <Item text="NO_ERROR"/>
+    <Item text="CE001: The requested operation is not allowed on the given data type or not expected here"/>
+    <Item text="CE002: Divison by zero"/>
+    <Item text="CE003: The specified identifier was not found"/>
+    <Item text="CE004: Scalar is expected"/>
+    <Item text="CE005: Vector is expected"/>
+    <Item text="CE006: Array index is out of range"/>
+    <Item text="CE007: Not implemented yet"/>
+    <Item text="CE008: Invalid bit field size"/>
+    <Item text="CE009: Syntax error"/>
+    <Item text="CE010: Type has only been forward-declared"/>
+    <Item text="CE011: Operation not supported for dynamic type"/>
+    <Item text="CE012: Type is redefined"/>
+    <Item text="CE013: Assertion failed"/>
+    <Item text="CE014: Constant expression is expected"/>
+    <Item text="CE015: Constant string expression is expected"/>
+    <Item text="CE016: Wrong number of arguments for a function call"/>
+    <Item text="CE017: Subscript operation for non-indexed array (hint: remove [noindex] attribute)"/>
+    <Item text="CE018: Error returned by Javascript engine"/>
+    <Item text="CE019: Invalid argument"/>
+    <Item text="CE020: Maximum allowed recursion depth is reached"/>
+    <Item text="CE021: Expression of another type is expected"/>
+    <Item text="CE022: Preprocessing error"/>
+  </Enumeration>
+
+  <Message key="Update" description="Button: Update"/>
+  <Message key="Assertion Failed" description="Assertion Failed" value="Assertion Failed{has message?}: {message}{?has message}">
+    <Param name="has message" format="?"/>
+    <Param name="message"/>
+  </Message>
+
+  <Message key="CantEvaluate" description="Can't evaluate bound expression." value="Can't evaluate bound expression."/>
+  <Message key="Structure Viewer" description="Structure Viewer window title"/>
+  <Enumeration key="MenuStructureViewer" description="Command group: Structure Viewer">
+    <Item text="Structure Viewer"/>
+    <Item text="Structure viewer menu"/>
+  </Enumeration>
+  <Message key="Initializing" description="Initializing Structure Viewer" value="Initializing Structure Viewer"/>
+  <Message key="Structure Errors" description="Structure Errors Output window part" value="Structure Errors"/>
+  <Message key="Error accessing Clipboard" description="Error accessing Clipboard"/>
+  <Enumeration key="LibraryColumns" description="Library dialog columns">
+    <Item text="Files"/>
+    <Item text="Structures"/>
+  </Enumeration>
+  <Message key="ModifiedSuffix" description="Modified file suffix" value="(modified)"/>
+  <Message key="NotFoundSuffix" description="Not found file suffix" value="(not found)"/>
+  <Message key="FileInUse" description="This file is used by Structure Viewer. Some types will be unbound. Do you want to continue?" value="This file is used by Structure Viewer. Some types will be unbound. Do you want to continue?"/>
+  <Message key="ConfigurationLost" description="Current configuration will be lost. Do you want to continue?" value="Current configuration will be lost. Do you want to continue?"/>
+
+  <Enumeration key="AssocColumns" description="Association window columns">
+    <Item text="Regular Expression"/>
+    <Item text="Scheme"/>
+  </Enumeration>
+
+  <Message key="FileColumn" description="File column" value="File"/>
+  <Message key="Nothing selected" description="Nothing selected"/>
+  <Message key="Enter file extension" description="Enter file extension"/>
+  <Message key="No schemes available. Create schemes in Structure Viewer first" description="No schemes available. Create schemes in Structure Viewer first"/>
+  <Message key="No scheme selected" description="No scheme selected"/>
+  <Message key="This extension is already used" description="This extension is already used"/>
+  <Message key="All associations will be lost. Do you want to continue?" description="All associations will be lost. Do you want to continue?"/>
+
+  <Enumeration key="SVColumns" description="Structure Viewer Columns">
+    <Item text="Name"/>
+    <Item text="Value"/>
+    <Item text="Address"/>
+    <Item text="Size"/>
+    <Item text="Type"/>
+    <Item text="Description"/>
+  </Enumeration>
+
+  <Message key="N/A" description="N/A"/>
+
+  <Enumeration key="FeatureOneStruct" description="Structure Viewer feature">
+    <Item text="Structure Viewer"/>
+    <Item text="Structure Viewer feature allows you to analyze file data according to the structure definition loaded from header files."/>
+  </Enumeration>
+
+  <Message key="Bind is disabled during lengthy operation. Try again later." description="Bind is disabled during lengthy operation. Try again later"/>
+  <Message key="Do you want to continue and remove the selected structure?" description="Do you want to continue and remove the selected structure?"/>
+  <Message key="SchemeNotFound" description="Associated scheme not found" value='Associated scheme "{scheme}" is not found for {ext} file extension.'>
+    <Param name="scheme"/>
+    <Param name="ext"/>
+  </Message>
+  <Message key="Structure Viewer: Load Scheme" description="Message box title: Structure Viewer: Load Scheme"/>
+  <Message key="Edit Associations" description="Button: Edit Associations"/>
+  
+  <Message key="Unable to create file" description="Error generating CSV file" value="Error exporting CSV file: {text} ({code})" revision="1">
+    <Param name="text"/>
+    <Param name="code" format="b016x"/>
+  </Message>
+  
+  <Message key="Error saving scheme" description="Error saving scheme"/>
+  <Message key="LengthyOp" value="This operation is not available during lengthy operation. Try again later." description="This operation is not available during lengthy operation. Try again later."/>
+  <Message key="This scheme can not be removed." description="This scheme can not be removed"/>
+
+  <Message key="TypeNotFound" description="Type not found" value="{typename} (the type is not found)">
+    <Param name="typename"/>
+  </Message>
+  <Message key="noname" description="No name" value="&lt;No name&gt;"/>
+  <Message key="The file has different version." description="The file has different version"/>
+  <Message key="UnknownType" description="Unknown Type" value="Unknown Type"/>
+  <Message key="ErrorLoading" description="Error loading structures" value="Error loading structure(s):\r\n"/>
+  <Message key="Associated scheme can not be loaded" description="Associated scheme can not be loaded"/>
+  <Message key="Locked" description="Structure Viewer is currently locked. Scheme will not be loaded. Please repeat the operation later" value="Structure Viewer is currently locked. Scheme will not be loaded. Please repeat the operation later."/>
+  <Message key="Modified" description="Following files have been modified outside of the Hex Editor Neo" value="Following files have been modified outside of the Hex Editor Neo (total {n} files):\r\n{files}\r\nDo you want to reload them?">
+    <Param name="n" format="l"/>
+    <Param name="files"/>
+  </Message>
+
+  <Message key="CompileErrors" description="Compile Errors group" value="Compile Errors{has_n?} ({n}){?has_n}">
+    <Param name="has_n" format="?"/>
+    <Param name="n"/>
+  </Message>
+
+  <Message key="BindErrors" description="Bind Errors group" value="Bind Errors{has_n?} ({n}){?has_n}">
+    <Param name="has_n" format="?"/>
+    <Param name="n"/>
+  </Message>
+
+  <Enumeration key="ErrorColumns" description="Error window columns">
+    <Item text="Document Name"/>
+    <Item text="File"/>
+    <Item text="Type"/>
+    <Item text="Line"/>
+    <Item text="Description"/>
+  </Enumeration>
+
+  <Message key="Binding Structure" description="Binding Structure operation" value="Binding Structure"/>
+  <Message key="BindError" description="Hex Editor Neo is unable to process the $bind directive (check if type is public)" value="Hex Editor Neo is unable to process the $bind directive (check if type is public)"/>
+  <Message key="Copy to clipboard" description="Copy to clipboard operation" value="Copy to Clipboard"/>
+  <Message key="Exporting to file" description="Exporting to file operation" value="Exporting to File"/>
+  <Message key="Copy/export speed" description="Copy and export operation speed" value="{lines} lines/s">
+    <Param name="lines" format="l"/>
+  </Message>
+  <Message key="VariableUpdateError" description="Hex Editor Neo is unable to update variable value." value="Hex Editor Neo is unable to update variable value."/>
+  <Message key="VariableBindError" description="Hex Editor Neo is unable to bind a variable." value="Hex Editor Neo is unable to bind a variable."/>
+  <Message key="OnlyFirst" description="Only first N lines will be copied…" value="Only first {n} lines will be {is copy?}copied to the Clipboard{|is copy}exported{?is copy}. Do you want to continue?">
+    <Param name="n" format="l"/>
+    <Param name="is copy" format="?"/>
+  </Message>
+  <Message key="SchemeExists" description="Scheme already exists. Do you want to overwite it?" value="Scheme already exists. Do you want to overwite it?"/>
+  <Message key="Scheme already exists" description="Scheme already exists"/>
+  
+  <!-- Dialogs -->
+  <!-- External editor -->
+  <Message key="External Editor" description="Extrenal Editor window title"/>
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" description="Field: Configure the external text file editor to be used by Structure Viewer:"/>
+  <Message key="Clear" description="Button: Clear"/>
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" description="Tip: placeholders"/>
+  <!-- Library -->
+  <Message key="Library" description="Library window title" value="Structure Library"/>
+  <Message key="Add…" description="Button: Add…"/>
+  <Message key="Edit…" description="Button: Edit…"/>
+  
+  <!-- Save scheme -->
+  <Message key="Save Scheme" description="Save Scheme window title"/>
+  <Message key="Name:" description="Field: Name"/>
+
+  <Message key="Structure Viewer Page" description="Structure Viewer Page" value="Structure Viewer"/>
+  <Message key="Include directories" description="Field: Include directories"/>
+  <Message key="File associations" description="Field: File associations"/>
+  <Message key="Configure external editor…" description="Button: Configure external editor…"/>
+  <Message key="Regular expression:" description="Field: Regular expression:"/>
+  <Message key="Associated scheme:" description="Field: Associated scheme"/>
+  
+  <!-- Structure Coloring -->
+  <Message key="Structure Coloring" description="Structure Coloring window title"/>
+  <Message key="Apply" description="Button: Apply"/>
+  
+  <!-- Bind Structure -->
+  <Message key="Bind Structure" description="Bind Structure window title"/>
+  <Message key="Address" description="Control group: Address"/>
+  <Message key="Hex:" description="Field: Hex"/>
+  <Message key="Decimal:" description="Field: Decimal"/>
+  <Message key="Absolute address" description="Choice: Absolute address"/>
+  <Message key="Relative address" description="Choice: Relative address"/>
+  <Message key="Cursor" description="Choice: Cursor"/>
+  <Message key="Expression" description="Control group: Expression"/>
+  <Message key="Bind" description="Button: Bind"/>
+
+  <!-- Type Definition dialog -->
+  <Message key="Definition:" description="Field: Definition"/>
+  <Message key="Type:" description="Field: Type"/>
+
+  <!-- Commands -->
+  <Enumeration key="StructureViewerToSelection" description="Command: Structure Viewer.To Selection">
+    <Item text="To Selection"/>
+    <Item text="Convert field to selection"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerGotoEnd" description="Command: Structure Viewer.Goto Field end" revision="1">
+    <Item text="Go to Current Field's End"/>
+    <Item text="Move cursor to the end of the current field"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerGotoTypeDef" description="Command: Structure Viewer.Go To Type Definition" revision="1">
+    <Item text="Go to Type Definition"/>
+    <Item text="Open structure definition file with current type definition"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerGotoFieldDef" description="Command: Structure Viewer.Go To Field Definition" revision="1">
+    <Item text="Go to Field Definition"/>
+    <Item text="Open structure definition file with current field definition"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCopyQName" description="Command: Structure Viewer.Copy Qualified Name" revision="1">
+    <Item text="Copy Qualified Name"/>
+    <Item text="Copy field qualified name to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCopyValue" description="Command: Structure Viewer.Copy Value" revision="1">
+    <Item text="Copy Value"/>
+    <Item text="Copy value to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCopyLine" description="Command: Structure Viewer.Copy Line" revision="1">
+    <Item text="Copy Line"/>
+    <Item text="Copy entire line to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCopyAll" description="Command: Structure Viewer.Copy All" revision="1">
+    <Item text="Copy All"/>
+    <Item text="Copy whole window contents to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCopyColumn" description="Command: Structure Viewer.Copy Column" revision="1">
+    <Item text="Copy Column"/>
+    <Item text="Copy current column to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerExportToCSV" description="Command: Structure Viewer.Export To CSV File" revision="1">
+    <Item text="Export to CSV File…"/>
+    <Item text="Export whole window contents into CSV file"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerExpandAll" description="Command: Structure Viewer.Expand All" revision="1">
+    <Item text="Expand All"/>
+    <Item text="Expand all items"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCollapseAll" description="Command: Structure Viewer.Collapse All" revision="1">
+    <Item text="Collapse All"/>
+    <Item text="Collapse all items"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerExpandSub" description="Command: Structure Viewer.Expand Sub-tree" revision="1">
+    <Item text="Expand Item"/>
+    <Item text="Expand item"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerCollapseSub" description="Command: Structure Viewer.Collapse Sub" revision="1">
+    <Item text="Collapse Item"/>
+    <Item text="Collapse item"/>
+  </Enumeration>
+
+  <Enumeration key="StructureViewerUnbind" description="Command: Structure Viewer.Unbind">
+    <Item text="Unbind"/>
+    <Item text="Unbind"/>
+  </Enumeration>
+
+  <Enumeration key="SViewMenuBind" description="Command: Structure Viewer.Bind">
+    <Item text="Bind…"/>
+    <Item text="Bind new structure"/>
+  </Enumeration>
+
+  <Enumeration key="SViewMenuEdit" description="Command: Structure Viewer.Edit">
+    <Item text="Edit…"/>
+    <Item text="Edit current value"/>
+  </Enumeration>
+
+  <Message key="Data Inspector" description="Data Inspector title"/>
+  <Message key="Available starting from Standard Edition" description="Available starting from Standard Edition"/>
+
+  <Enumeration key="InspectorColumns" description="Data Inspector Columns">
+    <Item text="Type"/>
+    <Item text="Value"/>
+  </Enumeration>
+
+  <Enumeration key="InspApplyColoring" description="Command: InspApplyColoring">
+    <Item text="Enable Hilighting"/>
+    <Item text="Enable or disable current field hilighting"/>
+  </Enumeration>
+  <Enumeration key="InspChooseColor" description="Command: Inspector.Choose Color">
+    <Item text="Modify Colors…"/>
+    <Item text="Change the Data Inspector hilight colors"/>
+  </Enumeration>
+
+  <Enumeration key="AddDefinition" description="Command: Inspector.Add Definition">
+    <Item text="Add &amp;New Type…"/>
+    <Item text="Add new type definition"/>
+  </Enumeration>
+
+  <Enumeration key="EditDefinition" description="Command: Inspector.Edit Definition">
+    <Item text="Edit Definition…"/>
+    <Item text="Edit current type definition"/>
+  </Enumeration>
+
+  <Enumeration key="RemoveDefinition" description="Command: Inspector.Remove Definition">
+    <Item text="Remove Definition"/>
+    <Item text="Remove selected type definition"/>
+  </Enumeration>
+
+  <Enumeration key="MenuInspectorNew" description="Command group: Data Inspector">
+    <Item text="&amp;Data Inspector"/>
+    <Item text="Data Inspector menu"/>
+  </Enumeration>
+
+  <Enumeration key="FeatureDataInspector" description="Data Inspector Feature">
+    <Item text="Data Inspector"/>
+    <Item text="Data Inspector feature displays data under cursor in various formats, highlighting currently selected field."/>
+  </Enumeration>
+
+  <Message key="DataInspCompileError" description="Data Inspector Compilation Error" value="Struct not added: ">
+  </Message>
+
+  <Message key="CompileErrorFormat" description="Compilation Error format string" value=" Compile error at line {err_line} ">
+    <Validate rule="StartsWithSpace" />
+    <Validate rule="EndsWithSpace" />
+    <Param name="err_line"/>
+  </Message>
+
+  <Message key="BindTypeNotFound" description="Bind type not found" value="Bind type {type} not found">
+    <Param name="type"/>
+  </Message>
+
+  <Message key="EmptyDefinition" description="Error: Definition text is empty" value="Definition text is empty"/>
+
+  <Message key="AddInspectType" description="Add Type Definition window header" value="Add Type Definition"/>
+  <Message key="EditInspectType" description="Edit Type Definition window header" value="Edit Type Definition"/>
+
+  <Enumeration key="DataIspectorGroups" description="Data ispector groups">
+    <Item text="Standard types"/>
+    <Item text="User types"/>
+  </Enumeration>
+
+  <Enumeration key="StructureNew" description="Command: StructureNew">
+    <Item text="&amp;New Structure File…"/>
+    <Item text="Create new structure definition file"/>
+  </Enumeration>
+  <Enumeration key="StructureAdd" description="Command: StructureAdd">
+    <Item text="&amp;Add Structure File…" />
+    <Item text="Append existing structure definition file to the library"/>
+  </Enumeration>
+  <Enumeration key="StructureSaveAll" description="Command: StructureSaveAll">
+    <Item text="Save &amp;All Structure Files"/>
+    <Item text="Save all opened structure definition files to disk"/>
+  </Enumeration>
+  <Enumeration key="StructureRecompile" description="Command: StructureRecompile">
+    <Item text="&amp;Recompile"/>
+    <Item text="Compile structures"/>
+  </Enumeration>
+  <Enumeration key="MenuEditor" description="Command group: Structure Editor">
+    <Item text="&amp;Structure Editor"/>
+    <Item text="Structure Editor menu"/>
+  </Enumeration>
+
+  <Enumeration key="EditValue" description="Command group: Edit datainspector value">
+    <Item text="&amp;Edit value"/>
+    <Item text="Edit current value"/>
+  </Enumeration>
+
+
+  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
+
+  <!--<Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
+    <Item text="&amp;Revert All"/>
+    <Item text="Revert all changes made to structure definition files"/>
+  </Enumeration>-->
+
+  <Enumeration key="StructureAutoRecompile" description="Command: StructureAutoRecompile">
+    <Item text="Auto Recompile"/>
+    <Item text="Auto recompile source files if changed"/>
+  </Enumeration>
+
+  <Enumeration key="StructureRemove" description="Command: StructureRemove" revision="1">
+    <Item text="Remove Structure File"/>
+    <Item text="Remove selected source file"/>
+  </Enumeration>
+
+  <Enumeration key="StructureOpenFolder" description="Command: StructureOpenFolder">
+    <Item text="Open Structures Folder"/>
+    <Item text="Open structures file folder"/>
+  </Enumeration>
+
+  <Message key="DeleteStructFile" description="Delete file error" value="Error deleting selected file: {error text} ({error})">
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="SaveProtocolFile" description="Save file error" value='Error saving file "{file}": {error text} ({error})'>
+    <Param name="file"/>
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="FileNotSaved" description="File not saved message" value="The current document has been modified. Do you want to save it?"/>
+  <Message key="Files" description="Files category title"/>
+  <Message key="Structures" description="Structures category title"/>
+
+  <!-- Dialogs -->
+  <!-- Colors -->
+  <Message key="Data Inspector Color Selection" description="Window title: Data Inspector Color Selection"/>
+  <Message key="Background color:" description="Field: Background color"/>
+  <Message key="Text color:" description="Field: Text color"/>
+  <Message key="Outline color:" description="Field: Outline color"/>
+  <Message key="Default" description="Button: Default"/>
+
+  <!-- Add Inspector Type -->
+  <Message key="Add Inspector Type" description="Window title: Add Inspector Type"/>
+  <Message key="Change Time" description="Window title: Change Time"/>
+
+  <!-- Data Inspector Notification Dialog -->
+  
+  <Message key="AssignNotification" description="Assign error text" value="Data modification is not enabled for this type. Click the Help button for detailed information on how to enable data modification for a type."/>
+  
+  <!-- Structure Viewer CSV separator -->
+  <Enumeration key="CsvSeparator" description="Option: CSV Separator type">
+    <Item text="CSV Export Separator"/>
+    <Item text="Auto"/>
+    <Item text="Comma"/>
+    <Item text="Tab"/>
+    <Item text="Semicolon"/>
+  </Enumeration>
+
+  <Message key="MaxExportStringSize" description="Option: Maximum string length" value="Maximum string length"/>
+  <Message key="MaxExportObjectFields" description="Option: Maximum number of inline fields or array items" value="Maximum number of inline fields or array items"/>
+
+  <Message key="CopyError" description="Copy error" revision="1" value="Error copying data: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016x"/>
+  </Message>
+
+  <Message key="FileExists" description="Structure definition file already added" value="This file has already been added to the library."/>
+  <Message key="ErrorStartingExternalEditor" description="Error starting external editor" value='There was an error starting external editor.\r\n\r\nCommand line: {path}\r\nError: {error text} ({error})'>
+    <Param name="path"/>
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="UntrustedEditor" description="Prompt to launch external editor" value="You are about to run the untrusted external editor application using the following command line:\r\n\r\n{path}\r\n\r\nDo you want to continue? If you press Yes, this application will be marked as trusted.">
+    <Param name="path"/>
+  </Message>
+
+  <Message key="TypeExists" description="User-defined Data Inspector type already exists" value="The type with the same name already exists."/>
+
+  <Message key="StructureFileNotFound" description="Open structure file error" value='File {file} is not found at location "{path}". Do you want remove it from the library?'>
+    <Param name="file"/>
+    <Param name="path"/>
+  </Message>
+
+</Definition>

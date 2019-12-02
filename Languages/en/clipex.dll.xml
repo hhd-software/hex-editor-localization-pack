@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" description="Option group: Copy&amp;Export" revision="1"/>
+  <Enumeration key="EditCopyAs" description="Command: Edit.Copy As" revision="1">
+    <Item text="Copy &amp;As…"/>
+    <Item text="Convert selection into one of supported formats and place into the Clipboard"/>
+  </Enumeration>
+  <Enumeration key="EditExport" description="Command: Edit.Export" revision="1">
+    <Item text="E&amp;xport…"/>
+    <Item text="Export selection"/>
+  </Enumeration>
+  <Enumeration key="EditPasteAs" description="Command: Edit.Paste As" revision="1">
+    <Item text="Paste A&amp;s…"/>
+    <Item text="Parse the data in Clipboard and paste it into the document"/>
+  </Enumeration>
+  <Enumeration key="EditInsertHex" description="Command: Edit.Insert Hex" revision="1">
+    <Item text="Insert &amp;Hex…"/>
+    <Item text="Insert ASCII-encoded binary file"/>
+  </Enumeration>
+  <Enumeration key="FileOpenHex" description="Command: File.Open Hex" revision="1">
+    <Item text="Open &amp;Hex…"/>
+    <Item text="Open ASCII-encoded binary file"/>
+  </Enumeration>
+  <Message key="BigSizeNotification" description="Option: Large text copy notification" revision="1" value="Large text copy notification"/>
+  <Message key="FloatingDigits" description="Option: Float copy/export number of digits" revision="1" value="Float copy/export number of digits"/>
+  <Message key="DoubleDigits" description="Option: Double copy/export number of digits" revision="1" value="Double copy/export number of digits"/>
+  <Message key="IntelHexColumns" description="Option: Bytes per row for Intel HEX and Motorola S formats" revision="1" value="Bytes per row for Intel HEX and Motorola S formats"/>
+  <Enumeration key="SupportedFormats" description="Encoded data algorithms" revision="1">
+    <Item text="base64-encode"/>
+    <Item text="UU-encode"/>
+    <Item text="Quoted-printable"/>
+    <Item text="Intel 8-bit HEX"/>
+    <Item text="Intel 16-bit HEX"/>
+    <Item text="Intel 32-bit HEX"/>
+    <Item text="Motorola S 19"/>
+    <Item text="Motorola S 28"/>
+    <Item text="Motorola S 37"/>
+  </Enumeration>
+  <Enumeration key="EncodedFeature" description="Feature: Encoded data" revision="1">
+    <Item text="Encoded Data Copy/Export"/>
+    <Item text="Encoded Data Copy/Export feature allows you to copy or export the current selection in Base64, UUEncode or Quoted-Printable format."/>
+  </Enumeration>
+  <Enumeration key="FormattedFeature" description="Feature: Formatted values" revision="1">
+    <Item text="Formatted Data Copy/Export"/>
+    <Item text="Formatted Data Copy/Export feature allows you to copy or export the contents of the code pane in a wide set of formats."/>
+  </Enumeration>
+  <Message key="EncodedFormat" description="Format name &amp; desc - encoded data" revision="1" value="&amp;Encoded Data"/>
+  <Message key="RawFilter" description="Filter string: raw text" revision="1" value="Text Files (*.txt)|*.txt|"/>
+  <Message key="Default" description="Default" revision="1"/>
+  <Message key="Little Endian" description="Little Endian" revision="1"/>
+  <Message key="Big Endian" description="Big Endian" revision="1"/>
+  <Message key="FormattedFormat" description="Format name &amp; desc - formatted values" revision="1" value="&amp;Formatted Values"/>
+  <Enumeration key="Encodings" description="Encodings" revision="1">
+    <Item text="Current"/>
+    <Item text="None"/>
+    <Item text="System default"/>
+    <Item text="OEM"/>
+    <Item text="UTF-7"/>
+    <Item text="UTF-8"/>
+    <Item text="Unicode (UTF-16)"/>
+  </Enumeration>
+
+  <Enumeration key="RawTextFeature" description="Raw text feature" revision="1">
+    <Item text="Raw Text Copy/Export"/>
+    <Item text="Raw Text Copy/Export feature allows you to copy or export the contents of the text pane in selected encoding."/>
+  </Enumeration>
+
+  <Enumeration key="RawTextFormat" description="Raw text format" revision="1">
+    <Item text="&amp;Raw Text"/>
+    <Item text="Converts to a simple ASCII or UNICODE character string"/>
+  </Enumeration>
+
+  <Message key="Loading" description="Loading clipboard support" revision="1" value="Loading Clipboard support"/>
+  <Message key="Initializing" description="Initializing clipboard support" revision="1" value="Initializing Clipboard support"/>
+  <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="1" value="Copy &amp;&amp; Export"/>
+
+  <Message key="Export" description="Button: Export" revision="1" value="E&amp;xport"/>
+  <Enumeration key="BigSize" description="Big size notification" revision="1">
+    <Item text="Large Text Copy"/>
+    <Item text="Although Hex Editor Neo supports copying large amounts of text into Clipboard, you may experience difficulties pasting this text into other applications. Do you want to continue?"/>
+  </Enumeration>
+  <Message key="BadFormat" description="Bad format" revision="1" value="Export format cannot handle selected data"/>
+
+  <Enumeration key="OpenHexFeature" description="Open Hex feature" revision="1">
+    <Item text="Open Hex/Insert Hex"/>
+    <Item text="Open Hex/Insert Hex feature allows you to decode Intel HEX or Motorola S-Records files and insert binary content as new document or inside the opened document."/>
+  </Enumeration>
+
+  <Message key="BadImportFormat" description="Bad import format" revision="1" value="Bad data format."/>
+
+  <Message key="ErrorExport" description="Error exporting" revision="1" value="There was an error creating an output file: {text}\r\n(Error code: {code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="ErrorExport2" description="Error exporting 2" revision="1" value="Error exporting data: {text}\r\n(Error code: {code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="ErrorImport" description="Error importing" revision="1" value="Error importing hex data: {text}\r\n(Error code: {code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+
+  <Enumeration key="HexFormats" description="Supported hex formats" revision="1">
+    <Item text="Intel HEX"/>
+    <Item text="Motorola S-Records"/>
+  </Enumeration>
+
+  <Message key="OpenHexTitle" description="Open Hex window title" revision="1" value="Open Hex"/>
+  <Message key="AllSupportedFormats" description="All supported formats (part of filter string)" revision="1" value="All supported formats"/>
+
+  <Enumeration key="FormattedSupportedTypes" description="Supported types" revision="1">
+    <Item text="Default"/>
+    <Item text="Hex"/>
+    <Item text="Decimal"/>
+    <Item text="Octal"/>
+    <Item text="Binary"/>
+    <Item text="Float"/>
+    <Item text="Double"/>
+  </Enumeration>
+
+  <Enumeration key="FormattedSupportedGroups" description="Supported groups" revision="1">
+    <Item text="Default"/>
+    <Item text="Bytes"/>
+    <Item text="Words"/>
+    <Item text="Double words"/>
+    <Item text="Quad words"/>
+  </Enumeration>
+
+  <Enumeration key="FormattedSupportedKinds" description="Supported modes" revision="1">
+    <Item text="Without separators"/>
+    <Item text="Space-separated text"/>
+    <Item text="Comma-separated text"/>
+    <Item text="C/C++ array"/>
+    <Item text="Java array"/>
+    <Item text="Javascript array"/>
+    <Item text="Delphi array"/>
+    <Item text="C# .NET array"/>
+    <Item text="Visual Basic .NET array"/>
+    <Item text="PHP array"/>
+    <Item text="Assembler array"/>
+  </Enumeration>
+  
+  <!-- Dialogs -->
+  <Message key="&amp;Copy to Clipboard" description="Copy to Clipboard group" revision="1"/>
+  <Message key="&amp;Export" description="Export group" revision="1"/>
+  <Message key="Format:" description="Field: Format" revision="1"/>
+  <Message key="Merge" description="Checkbox: Merge" revision="1"/>
+  <Message key="Algorithm:" description="Field: Algorithm" revision="1"/>
+  <Message key="Append" description="Checkbox: Append" revision="1"/>
+  <Message key="&amp;Elements:" description="Field: Elements" revision="1"/>
+  <Message key="&amp;Columns:" description="Field: Columns" revision="1"/>
+  <Message key="&amp;Type:" description="Field: Type" revision="1"/>
+  <Message key="Byte order:" description="Field: Byte order" revision="1"/>
+  <Message key="Group:" description="Field: Group" revision="1"/>
+  <Message key="&amp;Addresses" description="Checkbox: Addresses" revision="1"/>
+  <Message key="&amp;Text pane" description="Checkbox: Text pane" revision="1"/>
+
+  <Message key="Insert Hex" description="Insert Hex window title" revision="1"/>
+  <Message key="Insert from" description="Insert from control group" revision="1"/>
+  <Message key="Format" description="Format control group" revision="1"/>
+  <Message key="Put the data at" description='"Put the data at" control group' revision="1"/>
+  <Message key="Clipboard" description="Choice: Clipboard" revision="1"/>
+  <Message key="File:" description="Choice: File" revision="1"/>
+  <Message key="Start of the file" description="Choice: Start of the file" revision="1"/>
+  <Message key="Cursor location" description="Choice: Cursor location" revision="1"/>
+  <Message key="Insert mode" description="Checkbox: Insert mode" revision="1"/>
+  <Message key="Ignore data offset" description="Checkbox: Ignore data offset" revision="1"/>
+
+  <Message key="Encoding:" description="Field: Encoding" revision="1"/>
+</Definition>

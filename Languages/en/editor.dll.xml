@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="GotoLine" description="Goto line" value="{line} number {first} - {last}">
+    <Param name="line"/>
+    <Param name="first"/>
+    <Param name="last"/>
+  </Message>
+
+  <Message key="GoToHeader" description="Goto" value="Go to {v}">
+    <Param name="v"/>
+  </Message>
+
+  <Enumeration key="EditReplace" description="Command: EditReplace">
+    <Item text="Replace…"/>
+    <Item text="Replace text"/>
+  </Enumeration>
+
+  <Message key="FileNotSaved" description="File not saved message" value="The current document has been modified. Do you want to save it?"/>
+  <Message key="SaveProtocolFile" description="Save file error" value='Error saving file "{file}": {error text} ({error})'>
+    <Param name="file"/>
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+  <Message key="Error" description="Error title"/>
+  <Message key="Structure Editor" description="Editor Title"/>
+  <Message key="Line" description="Line"/>
+  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
+  <Message key="UnsavedScheme" description="Unsaved Scheme Title" value="&lt;Unsaved current scheme&gt;" />
+  <Message key="Default" description="Default Scheme Title" value="Default" />
+  <Message key="SchemeDelError" description="Scheme delete error" value="This scheme cannot be deleted" />
+  <Message key="Coloring" description="Coloring title" value="Coloring" />
+
+  <Message key="Structure Editor Page" value="Structure Editor" description="Settings page: Structure Editor"/>
+
+  <!-- Dialogs -->
+  <!-- Structure Editor Page -->
+  <Message key="Save" description="Button: Save"/>
+  <Message key="Delete" description="Button: Delete"/>
+  <Message key="Font:" description="Field: Font"/>
+  <Message key="Size:" description="Field: Size"/>
+  <Message key="Font color:" description="Field: Font color"/>
+  <Message key="Back color:" description="Field: Back color"/>
+  <Message key="Bold" description="Field: Bold"/>
+  <Message key="Italic" description="Field: Italic"/>
+  <Message key="Reset" description="Button: Reset"/>
+
+  <!-- Find -->
+  <Message key="Find" description="Window title: Find"/>
+  <Message key="Fi&amp;nd what:" description="Field: Find what"/>
+  <Message key="Options" description="Field group: Options"/>
+  <Message key="Find within" description="Field group: Find within"/>
+  <Message key="Match &amp;whole word only" description="Field: Match whole word only"/>
+  <Message key="Match &amp;case" description="Field: Match case"/>
+  <Message key="Whole window" description="Field: Whole window"/>
+  <Message key="Selection" description="Field: Selection"/>
+  <Message key="&amp;Find" description="Button: Find"/>
+  
+  <!-- Replace -->
+  <Message key="Replace" description="Window title: Replace"/>
+  <Message key="Replace with: " description="Field: Replace with: "/>
+  <Message key="&amp;Find Next" description="Button: Find Next"/>
+  <Message key="&amp;Replace" description="Button: Replace"/>
+  <Message key="Replace &amp;All" description="Button: Replace All"/>
+
+  <!-- Scintilla find -->
+  <Message key="A pattern was not found." description="A pattern was not found"/>
+
+  <Message key="InvalidColoringScheme" description="Invalid coloring scheme name" value="Invalid color scheme name."/>
+  <Message key="OverwriteColoringScheme" description="Coloring scheme already exists" value="Specified scheme exists. Do you want to override it?"/>
+</Definition>

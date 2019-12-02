@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" description="Checksum calculation operation name" revision="1"/>
+  <Enumeration key="Checksum result separators" description="Checksum result separators" revision="1">
+    <Item text="No separators"/>
+    <Item text="Space (' ')"/>
+    <Item text="Comma (',')"/>
+    <Item text="Dash ('-')"/>
+    <Item text="Colon (':')"/>
+    <Item text="Semicolon (';')"/>
+  </Enumeration>
+  <Enumeration key="Algorithm groups" description="Algorithm group names. End with minus to hide group" revision="1">
+    <Item text="Simple summators"/>
+    <Item text="More summators"/>
+    <Item text="Checksum"/>
+    <Item text="Hashes"/>
+    <Item text="Signed sums-"/>
+  </Enumeration>
+  <Message key="8-bit sum" description="Algorithm: 8-bit sum" revision="1"/>
+  <Message key="16-bit sum" description="Algorithm: 16-bit sum" revision="1"/>
+  <Message key="32-bit sum" description="Algorithm: 32-bit sum" revision="1"/>
+  <Message key="64-bit sum" description="Algorithm: 64-bit sum" revision="1"/>
+  <Message key="Zero bits" description="Algorithm: count zero bits"/>
+  <Message key="One bits" description="Algorithm: count one bits"/>
+  <Message key="Sum of Little-Endian 16-bit values" description="Algorithm: Sum of Little-Endian 16-bit values" revision="1"/>
+  <Message key="Sum of Big-Endian 16-bit values" description="Algorithm: Sum of Big-Endian 16-bit values" revision="1"/>
+  <Message key="Sum of Little-Endian 32-bit values" description="Algorithm: Sum of Little-Endian 32-bit values" revision="1"/>
+  <Message key="Sum of Big-Endian 32-bit values" description="Algorithm: Sum of Big-Endian 32-bit values" revision="1"/>
+  <Message key="Sum of Little-Endian 64-bit values" description="Algorithm: Sum of Little-Endian 64-bit values" revision="1"/>
+  <Message key="Sum of Big-Endian 64-bit values" description="Algorithm: Sum of Big-Endian 64-bit values" revision="1"/>
+  <Message key="Sum of 8-bit signed values" description="Algorithm: Sum of 8-bit signed values" revision="1"/>
+  <Message key="Sum of Little-Endian 16-bit signed values" description="Algorithm: Sum of Little-Endian 16-bit signed values" revision="1"/>
+  <Message key="Sum of Big-Endian 16-bit signed values" description="Algorithm: Sum of Big-Endian 16-bit signed values" revision="1"/>
+  <Message key="Sum of Little-Endian 32-bit signed values" description="Algorithm: Sum of Little-Endian 32-bit signed values" revision="1"/>
+  <Message key="Sum of Big-Endian 32-bit signed values" description="Algorithm: Sum of Big-Endian 32-bit signed values" revision="1"/>
+  <Message key="Sum of Little-Endian 64-bit signed values" description="Algorithm: Sum of Little-Endian 64-bit signed values" revision="1"/>
+  <Message key="Sum of Big-Endian 64-bit signed values" description="Algorithm: Sum of Big-Endian 64-bit signed values" revision="1"/>
+  <Message key="Custom CRC" description="Algorithm: Custom CRC" revision="1"/>
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." description="Custom CRC Parameters error message" revision="1"/>
+  <Message key="Loading checksums" description="Loading checksums progress string" revision="1"/>
+  <Message key="Initializing checksums" description="Initializing checksums progress string" revision="1"/>
+  <Message key="Checksum" description="Checksum Tool Window title" revision="1"/>
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." description="Checksum module description" revision="1"/>
+
+  <Enumeration key="MenuChecksum" description="Command group: Checksum">
+    <Item text="&amp;Checksum"/>
+    <Item text="Checksum menu"/>
+  </Enumeration>
+
+  <Enumeration key="Application range" description="Algorithm calculation (application) range" revision="1">
+    <Item text="Selection Only"/>
+    <Item text="Whole Document"/>
+  </Enumeration>
+  <Enumeration key="Checksum window columns" description="Checksum Tool Window columns" revision="1">
+    <Item text="Algorithm"/>
+    <Item text="Value (Hex)"/>
+    <Item text="Value (Dec)"/>
+    <Item text="Parameters"/>
+  </Enumeration>
+  <Message key="N/A" description="Not available" revision="1"/>
+  <Message key="Please wait until all pending operations are completed." description="Pending operations warning" revision="1"/>
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" description="File formats filter" revision="1">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" description="Custom CRC algorithm short description format" revision="1">
+    <Param name="nbit"/>
+    <Param name="initial" format="b016"/>
+    <Param name="polynom" format="b016"/>
+    <Param name="xor" format="b016"/>
+    <Param name="reflection_in"/>
+    <Param name="reflection_out"/>
+  </Message>
+
+  <!-- Commands -->
+  <Enumeration key="ChecksumDisplayResult" description="Command: Display">
+    <Item text="Display Result"/>
+    <Item text="Display the selected checksum result"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumRefresh" description="Command: Refresh">
+    <Item text="Refresh"/>
+    <Item text="Start checksums calculation"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumCheckAll" description="Command: Check All" revision="1">
+    <Item text="Check All"/>
+    <Item text="Turn all algorithms on"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumUncheckAll" description="Command: Uncheck All" revision="1">
+    <Item text="Uncheck All"/>
+    <Item text="Turn all algorithms off"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumCopy" description="Command: Copy" revision="1">
+    <Item text="Copy"/>
+    <Item text="Copy selected results to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumCopyAll" description="Command: Copy All" revision="1">
+    <Item text="Copy All"/>
+    <Item text="Copy all results to Clipboard"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumExport" description="Command: Export" revision="1">
+    <Item text="Export…"/>
+    <Item text="Export selected results to text file"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumConfigure" description="Command: Parameters" revision="1">
+    <Item text="Parameters…"/>
+    <Item text="Configure algorithm parameters"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumAddAlgorithm" description="Command: Add Algorithm" revision="1">
+    <Item text="Add Algorithm…"/>
+    <Item text="Add new algorithm"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumRemoveAlgorithm" description="Command: Remove Algorithm" revision="1">
+    <Item text="Remove Algorithm"/>
+    <Item text="Remove the currently selected algorithm"/>
+  </Enumeration>
+
+  <Enumeration key="ChecksumResetAlgorithms" description="Command: Reset Algorithms" revision="1">
+    <Item text="Reset Algorithm List"/>
+    <Item text="Reset the algorithm list to default"/>
+  </Enumeration>
+  
+  <!-- Dialogs -->
+  <Message key="Add Algorithm" description="Add Algorithm window title" revision="1"/>
+  <Message key="Select the algorithm to add from the list below:" description="Field: Select the algorithm to add from the list below:" revision="1"/>
+
+  <Message key="Custom CRC Parameters" description="Custom CRC Parameters window title" revision="1"/>
+  <Message key="Initial Value:" description="Field: Initial Value field" revision="1"/>
+  <Message key="Polynomial:" description="Field: Polynomial field" revision="1"/>
+  <Message key="XOR Out:" description="Field: XOR Out field" revision="1"/>
+
+  <Message key="Hex" description="Field: Hex field" revision="2" value="Hex:"/>
+  <Message key="Decimal" description="Field: Decimal field" revision="2" value="Decimal:"/>
+
+  <Message key="Reflection In" description="Field: Reflection In field" revision="1"/>
+  <Message key="Reflection Out" description="Field: Reflection Out field" revision="1"/>
+  <Message key="Name:" description="Field: Name"/>
+  
+  <!-- Checksum Dialog -->
+  <Message key="Checksum Result" description="Checksum Result window title" revision="1"/>
+  <Message key="Copy" description="Button: Copy" revision="1"/>
+  <Message key="Size:" description="Field: size" revision="1"/>
+  <Message key="Separator:" description="Field: separator" revision="1"/>
+
+  <Message key="Checksum settings" description="Settings: Checksum" value="Checksum"/>
+</Definition>

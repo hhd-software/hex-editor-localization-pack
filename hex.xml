@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizationPack xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" version="1.04.00.0001">
+  <ValidationRule name="EndsWithComma" regexp=".*\.$" message="A string must end with comma."/>
+  <ValidationRule name="OpenFileDialogFilter" regexp=".*|$" message="A string must conform to Open/Save dialog filter list."/>
+  <ValidationRule name="StartsWithSpace" regexp="^ .*$" message="A string must start with space."/>
+  <ValidationRule name="EndsWithSpace" regexp="^.* $" message="A string must end with space."/>
+</LocalizationPack>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- Commands -->
+  <Enumeration key="StreamCreate" description="Command: Stream.Create">
+    <Item text="&amp;Create Stream…"/>
+    <Item text="Create new file stream"/>
+  </Enumeration>
+  <Enumeration key="StreamOpen" description="Command: Stream.Open">
+    <Item text="&amp;Open Stream(s)"/>
+    <Item text="Open file stream(s) in the editor"/>
+  </Enumeration>
+  <Enumeration key="StreamDelete" description="Command: Stream.Delete">
+    <Item text="&amp;Delete Stream(s)…"/>
+    <Item text="Delete file stream(s)"/>
+  </Enumeration>
+  <Enumeration key="StreamRename" description="Command: Stream.Rename">
+    <Item text="&amp;Rename Stream…"/>
+    <Item text="Rename file stream"/>
+  </Enumeration>
+  <Enumeration key="StreamCancel" description="Command: Stream.Cancel">
+    <Item text="C&amp;ancel Current Operation"/>
+    <Item text="Cancel current stream operation"/>
+  </Enumeration>
+  <Enumeration key="StreamUp" description="Command: Stream.Up" revision="1">
+    <Item text="Open &amp;Parent File(s)"/>
+    <Item text="Open the parent file or files, that is files that contain selected streams."/>
+  </Enumeration>
+  <Enumeration key="StreamLocate" description="Command: Stream.Locate">
+    <Item text="Find Streams…"/>
+    <Item text="Locate all files with alternate data streams in selected locations."/>
+  </Enumeration>
+  <Enumeration key="StreamExitLocate" description="Command: Stream.Exit Locate">
+    <Item text="Exit Find Streams &amp;Mode"/>
+    <Item text="Exit the Find Streams mode"/>
+  </Enumeration>
+
+  <!-- -->
+  <Enumeration key="ColumnNames" description="Tool window column names">
+    <Item text="Stream Name"/>
+    <Item text="Size"/>
+  </Enumeration>
+
+  <Enumeration key="SearchColumnNames" description="Tool window column names in search mode">
+    <Item text="File"/>
+    <Item text="Stream"/>
+    <Item text="Size"/>
+  </Enumeration>
+
+  <Message key="StreamInProgress" description="Application cannot be closed until the current stream operation is completed or cancelled" value="Application cannot be close until the current stream operation is completed or cancelled."/>
+
+  <Message key="NTFS Streams" description="NTFS Streams window title"/>
+  <Enumeration key="MenuStreams" description="Command group: NTFS Streams">
+    <Item text="NTFS St&amp;reams"/>
+    <Item text="NTFS Streams menu"/>
+  </Enumeration>
+  <Message key="OpenOnCreate" description="Option: Open stream after creation" value="Open stream after creation"/>
+
+  <Enumeration key="FindStreamsTask" description="Jump List Item: Find streams">
+    <Item text="Find streams"/>
+    <Item text="Start Find Streams module"/>
+  </Enumeration>
+
+  <Message key="Invalid folder or mask syntax." description="Invalid folder or mask syntax"/>
+
+  <Enumeration key="SizeSuffix" description="Size suffix">
+    <Item text="Bytes"/>
+    <Item text="KB"/>
+    <Item text="MB"/>
+    <Item text="GB"/>
+  </Enumeration>
+
+  <Message key="Invalid folder list syntax." description="Invalid folder list syntax"/>
+  <Message key="Exclude pattern is an invalid regular expression." description="Exclude pattern is an invalid regular expression"/>
+  <Message key="InvalidStreamName" description="Invalid stream name" value="Invalid stream name. A name cannot contain the following characters: / \ : ? * &quot; &lt; &gt; |"/>
+
+  <Enumeration key="FeatureNTFSStreams" description="NTFS Streams Feature">
+    <Item text="NTFS Streams"/>
+    <Item text="NTFS Streams feature allows you to create new named streams, rename streams and delete them."/>
+  </Enumeration>
+
+  <Message key="NTFS St&amp;reams" description="Command Group: NTFS Streams"/>
+  <Message key="CreateError" description="Stream creation error format string" value="Error creating stream: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="CreateErrors" description="Error creating stream" value="The following error occured during stream creation:\r\n{errors}">
+    <Param name="errors"/>
+  </Message>
+  <Message key="AskDelete" description="The operation cannot be undone. Are you sure you want to continue deleting selected stream(s)?" value="The operation cannot be undone. Are you sure you want to continue deleting selected stream(s)?"/>
+  <Message key="DeleteError" description="Stream deletion error format string" value="Error deleting stream: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="DeleteErrors" description="Error deleting stream" value="The following error occured during stream deletion:\r\n{errors}">
+    <Param name="errors"/>
+  </Message>
+  <Message key="OpenErrors" description="Error opening streams" value="The following error(s) occured during opening streams:\r\n{errors}">
+    <Param name="errors"/>
+  </Message>
+  <Message key="StreamOpened" description="Stream is currently opened" value="This stream is currently opened in the editor. Do you want to close it in order to perform the requested operation?"/>
+  <Message key="RenameError" description="Stream renaming error format string" value="Error renaming stream: {text} ({code})">
+    <Param name="text"/>
+    <Param name="code" format="b016"/>
+  </Message>
+  <Message key="RenameErrors" description="Error renaming stream" value="The following error occured during renaming stream:\r\n{errors}">
+    <Param name="errors"/>
+  </Message>
+  <Enumeration key="Errors" description="Possible errors">
+    <Item text="No streams. You need to save the file first."/>
+    <Item text="This is a stream. Nested streams are not supported by the file system."/>
+    <Item text="Unable to locate streams."/>
+    <Item text="Streams are not supported by the file system."/>
+    <Item text="Error locating streams."/>
+  </Enumeration>
+
+  <Message key="SearchString" description="Search format string" value="{finished?}Searching finished.{|finished}Searching for streams…{?finished} {found} streams found ({files} files in {folders} folders checked).">
+    <Param name="finished" format="?"/>
+    <Param name="found" format="l"/>
+    <Param name="files" format="l"/>
+    <Param name="folders" format="l"/>
+  </Message>
+
+  <Message key="StreamSize" description="Stream size format string" value="Total: {size}" revision="1">
+    <Param name="size"/>
+  </Message>
+
+  <!--<Message key="Renaming" description="Renaming progress" value="{percent} % done.">
+    <Param name="percent"/>
+  </Message>-->
+
+  <Message key="RenameOperation" description="Rename operation title" value="Renaming stream"/>
+
+  <Enumeration key="FeatureFindStreams" description="Find Streams feature">
+    <Item text="Find Streams"/>
+    <Item text="Find Streams feature allows you to search for files with named streams on your disk."/>
+  </Enumeration>
+
+  <!-- Dialogs -->
+  <!-- Folder list -->
+  <Message key="Find Streams Folder List" description="Find Streams Folder List window title"/>
+  <Message key="Enter the path to the folder or press the browse button:" description="Field: Enter the path to the folder or press the browse button"/>
+  <Message key="Folder list:" description="Field: Folder list"/>
+  <Message key="Move &amp;Up" description="Button: Move Up"/>
+  <Message key="Move &amp;Down" description="Button: Move Down"/>
+
+  <!-- Name -->
+  <Message key="File Stream Name" description="File Stream Name window title"/>
+  <Message key="Enter the stream name:" description="Field: Enter the stream name"/>
+
+  <!-- Find Streams -->
+  <Message key="Find Streams" description="Find Streams window title"/>
+  <Message key="Search in:" description="Field: Search in"/>
+  <Message key="File types:" description="Field: File types"/>
+  <Message key="Larger than:" description="Field: Larger than"/>
+  <Message key="Exclude:" description="Field: Exclude"/>
+  <Message key="(regular expression)" description="Field: (regular expression)"/>
+  <Message key="Include sub-folders" description="Checkbox: Include sub-folders"/>
+</Definition>

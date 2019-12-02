@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  
+  <!-- Commands -->
+  <Enumeration key="ExpPrev" description="Command: Explorer.Previous">
+    <Item text="Previous"/>
+    <Item text="Go to Previous Location"/>
+  </Enumeration>
+  <Enumeration key="ExpNext" description="Command: Explorer.Next">
+    <Item text="Next"/>
+    <Item text="Go to Next Location"/>
+  </Enumeration>
+  <Enumeration key="ExpUp" description="Command: Explorer.Up">
+    <Item text="Up"/>
+    <Item text="Go to Parent Directory"/>
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr" description="Command: Explorer.Locate Current">
+    <Item text="Locate Current"/>
+    <Item text="Syncronize Current Directory with Browser"/>
+  </Enumeration>
+  <Enumeration key="ExpSearch" description="Command: Explorer.Search">
+    <Item text="Find in Files"/>
+    <Item text="Open Find in Files Dialog"/>
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible" description="Command: Explorer.Tree Visible">
+    <Item text="Folders"/>
+    <Item text="Toggle the Browser Window"/>
+  </Enumeration>
+
+  <!-- Features -->
+  <Enumeration key="FeatureExplorer1" description="Explorer 1 feature">
+    <Item text="Built-In Explorer"/>
+    <Item text="Built-In Explorer Tool Window mimics the Windows Explorer and is tightly integrated with Hex Editor. One explorer window is available in Standard Edition and two are available in Professional and Ultimate editions."/>
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2" description="Explorer 2 feature">
+    <Item text="2 Built-In Explorers"/>
+    <Item text="Built-In Explorer Tool Window mimics the Windows Explorer and is tightly integrated with Hex Editor. One explorer window is available in Standard Edition and two are available in Professional and Ultimate editions."/>
+  </Enumeration>
+
+  <Message key="Explorer 1" description="Explorer 1 Title"/>
+  <Message key="Explorer 2" description="Explorer 2 Title"/>
+
+  <Message key="Invalid path specified" description="Invalid path specified"/>
+  <Message key="ErrorCopyingFolders" description="Error copying folders" value="(error copying folders)"/>
+  <Message key="ErrorCopyingFiles" description="Error copying files" value="Error copying following files:"/>
+
+  <Message key="Loading" description="Loading explorer" value="Loading explorer"/>
+  <Message key="Initializing" description="Initializing explorer" value="Initializing explorer"/>
+
+  <Message key="Explorer settings" description="Settings: Explorer" value="Explorer"/>
+</Definition>
