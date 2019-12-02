@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} строка {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="Перейти к {v}" revision="0" />
+  <Message key="FileNotSaved" value="Текущий документ был изменён. Сохранить?" revision="0" />
+  <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="Structure Editor" value="Редактор структур" revision="0" />
+  <Message key="Line" value="Строка" revision="0" />
+  <Message key="StructureFormats" value="Файлы структур (*.h)|*.h|" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Несохранённая схема&gt;" revision="0" />
+  <Message key="Default" value="По-умаолчанию" revision="0" />
+  <Message key="SchemeDelError" value="Невозможно удалить данную схему" revision="0" />
+  <Message key="Coloring" value="Подсветка" revision="0" />
+  <Message key="Structure Editor Page" value="Редактор структур" revision="0" />
+  <Message key="Save" value="Сохранить" revision="0" />
+  <Message key="Delete" value="Удалить" revision="0" />
+  <Message key="Font:" value="Шрифт:" revision="0" />
+  <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="Font color:" value="Цвет текста:" revision="0" />
+  <Message key="Back color:" value="Цвет фона:" revision="0" />
+  <Message key="Bold" value="Полужирный" revision="0" />
+  <Message key="Italic" value="Курсив" revision="0" />
+  <Message key="Reset" value="Сбросить" revision="0" />
+  <Message key="Find" value="Поиск" revision="0" />
+  <Message key="Fi&amp;nd what:" value="&amp;Искать:" revision="0" />
+  <Message key="Options" value="Настройки" revision="0" />
+  <Message key="Find within" value="Искать в" revision="0" />
+  <Message key="Match &amp;whole word only" value="Только &amp;полное слово" revision="0" />
+  <Message key="Match &amp;case" value="Не игнорировать регистр" revision="0" />
+  <Message key="Whole window" value="Весь документ" revision="0" />
+  <Message key="Selection" value="Выделение" revision="0" />
+  <Message key="&amp;Find" value="&amp;Поиск" revision="0" />
+  <Message key="Replace" value="Замена" revision="0" />
+  <Message key="Replace with: " value="Заменить на:" revision="0" />
+  <Message key="&amp;Find Next" value="Следующее" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Заменить" revision="0" />
+  <Message key="Replace &amp;All" value="Заменить &amp;все" revision="0" />
+  <Message key="A pattern was not found." value="Искомый фрагмент не найден." revision="0" />
+  <Message key="InvalidColoringScheme" value="Неправильное имя схемы." revision="0" />
+  <Message key="OverwriteColoringScheme" value="Указанная схема уже существует. Вы хотите перезаписать её?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="Заменить…" revision="0" />
+    <Item value="Заменить текст" revision="0" />
+  </Enumeration>
+</Language>

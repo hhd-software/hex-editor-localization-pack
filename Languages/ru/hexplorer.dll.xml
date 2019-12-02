@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Проводник 1" revision="0" />
+  <Message key="Explorer 2" value="Проводник 2" revision="0" />
+  <Message key="Invalid path specified" value="Введен неверный путь" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(ошибка при копировании папок)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Ошибка при копировании следующих файлов:" revision="0" />
+  <Message key="Loading" value="Загрузка проводника" revision="0" />
+  <Message key="Initializing" value="Инициализация проводника" revision="0" />
+  <Message key="Explorer settings" value="Проводник" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Предыдущая" revision="0" />
+    <Item value="Переход к предыдущей позиции" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Следующая" revision="0" />
+    <Item value="Переход к следующей позиции" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Выше" revision="0" />
+    <Item value="Перейти к родительской папке" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Перейти к текущему" revision="0" />
+    <Item value="Перейти к текущему документу, открытому в приложении" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Поиск по файлам" revision="0" />
+    <Item value="Открывает диалог поиска по файлам" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Папки" revision="0" />
+    <Item value="Переключает окно обзора" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Встроенный проводник" revision="0" />
+    <Item value="Встроенный проводник повторяет функционал проводника Windows. Одно окно проводника доступно в редакции Standard, второе окно проводника доступно в редакциях Professional и Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="Второй встроенный проводник" revision="0" />
+    <Item value="Встроенный проводник повторяет функционал проводника Windows. Одно окно проводника доступно в редакции Standard, второе окно проводника доступно в редакциях Professional и Ultimate." revision="0" />
+  </Enumeration>
+</Language>

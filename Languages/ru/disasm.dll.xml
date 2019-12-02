@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="Общее назначение" revision="0" />
+  <Message key="Function name" value="Имя функции" revision="0" />
+  <Message key="Headers" value="Заголовки" revision="0" />
+  <Message key="InvalidAddress" value="Неверный адрес. Введите корректный адрес." revision="0" />
+  <Message key="InvalidLength" value="Неверный размер. Введите корректный размер." revision="0" />
+  <Message key="Invalid file name." value="Неверное имя файла" revision="0" />
+  <Message key="OpenError" value="Файл не может быть открыт: &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="Неверный размер файла" revision="0" />
+  <Message key="WrongAddress" value="Вводимый адрес выходит за пределы документа. Введите корректный адрес." revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo не может разобрать файл больше {max size}. {?is too big}Разобрать с {from} по {to} (size = {size})?" revision="0" />
+  <Message key="Locked" value="Этот документ сейчас заблокирован. Повторите позже." revision="0" />
+  <Message key="FormatString" value="Все исполняемые|*.exe;*.dll;*.sys;*.ocx|Исполняемые (*.exe)|*.exe|Динамические библиотеки(*.dll)|*.dll|ActiveX библиотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|" revision="0" />
+  <Message key="N/A" value="Не доступно" revision="0" />
+  <Message key="- No section selected -" value="- Ничего не выделено -" revision="0" />
+  <Message key="Can not retrieve file name" value="Невозможно получить имя файла" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="CLR Execution Engine не может быть запущен" revision="0" />
+  <Message key="Incorrect file format" value="Неверный формат файла" revision="0" />
+  <Message key="Error parsing metadata" value="Ошибка в разборе метаданных" revision="0" />
+  <Message key="Can not disassemble method" value="Невозможно разобрать метод: {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="Невозможно разобрать заголовок исключения" revision="0" />
+  <Message key="The document has been changed." value="Документ был изменен." revision="0" />
+  <Message key="Refresh" value="Обновить" revision="0" />
+  <Message key="Go" value="&gt;&gt;" revision="0" />
+  <Message key="Go To:" value="К:" revision="0" />
+  <Message key="Text" value="Текст" revision="0" />
+  <Message key="Loading" value="Загрузка дизассемблера" revision="0" />
+  <Message key="Disassembler" value="Дизассемблер" revision="0" />
+  <Message key="ShowImplicitOperands" value="Показывать неявные операнды" revision="0" />
+  <Message key="ShowPrefixes" value="Показывать префиксы" revision="0" />
+  <Message key="ShowDecimalValues" value="Показывать десятичные" revision="0" />
+  <Message key="ShowBytecode" value="Показывать необработанный код" revision="0" />
+  <Message key="ParseSymbols" value="Разбирать символы" revision="0" />
+  <Message key="IntelVisualization" value="Использовать синтаксис AT&amp;T" revision="0" />
+  <Message key="ShowVLines" value="Показывать сетку" revision="0" />
+  <Message key="ShowHardcodedOperands" value="Показывать &quot;hardcoded&quot; операнды" revision="0" />
+  <Message key="DisasmError" value="Ошибка открытия файла" revision="0" />
+  <Message key="DisasmError2" value="Ошибка разбора файла{has error?}: {error}{?has error}" revision="1" />
+  <Message key="OpName" value="Разбирается код" revision="0" />
+  <Message key="RefreshError" value="Ошибка обновления кода." revision="0" />
+  <Message key="RefreshErrorSize" value="Размер файла был изменен. Ошибка обновления кода." revision="0" />
+  <Message key="Unable to write to a file." value="Ошибка записи в файл." revision="0" />
+  <Message key="ClipboardError" value="Ошибка копирования данных." revision="0" />
+  <Message key="Searching" value="Поиск" revision="0" />
+  <Message key="NotFound" value="Последовательность не найдена" revision="0" />
+  <Message key="None" value="Нет данных" revision="0" />
+  <Message key="Find what:" value="Найти:" revision="0" />
+  <Message key="InAllColumns" value="--- По всем колонкам" revision="0" />
+  <Message key="Select" value="Выбрать" revision="0" />
+  <Message key="Symbol Format:" value="Формат символов:" revision="0" />
+  <Message key="Loaded Image Name:" value="Загруженное имя образа:" revision="0" />
+  <Message key="Loaded Pdb Name:" value="Загруженное имя Pdb:" revision="0" />
+  <Message key="Information matched:" value="Совпавшая информация:" revision="0" />
+  <Message key="Line numbers:" value="Номера строк:" revision="0" />
+  <Message key="Global symbols:" value="Глобальные символы:" revision="0" />
+  <Message key="Type information:" value="Информация о типе:" revision="0" />
+  <Message key="Source indexing:" value="Индексирование исходного:" revision="0" />
+  <Message key="Public symbols:" value="Публичные символы:" revision="0" />
+  <Message key="No symbol found." value="Символы не найдены." revision="0" />
+  <Message key="Select Columns" value="Выбор колонок" revision="0" />
+  <Message key="Select all" value="Выбрать все" revision="0" />
+  <Message key="Export to:" value="Экспортировать в:" revision="0" />
+  <Message key="Export headers" value="Экспортировать заголовки" revision="0" />
+  <Message key="File:" value="Файл:" revision="0" />
+  <Message key="Instr. set:" value="Наб. инстр:" revision="0" />
+  <Message key="Section:" value="Выделение:" revision="0" />
+  <Message key="Start:" value="Начало:" revision="0" />
+  <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="File size:" value="Размер файла:" revision="0" />
+  <Message key="Dual view" value="Двойной вид" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="Согласовывать курсор с Hex View" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="Согласовывать выделение с Hex View" revision="0" />
+  <Message key="Hexadecimal" value="Шестнадцатеричное" revision="0" />
+  <Message key="Decimal" value="Десятичное" revision="0" />
+  <Message key="Symbols…" value="Символы…" revision="0" />
+  <Message key="Find Window" value="Поиск" revision="0" />
+  <Message key="Find" value="&amp;Найти" revision="0" />
+  <Message key="Find All" value="Найти &amp;все" revision="0" />
+  <Message key="Search in:" value="Искать в:" revision="0" />
+  <Message key="Search up" value="Искать вверх" revision="0" />
+  <Message key="Search down" value="Искать вниз" revision="0" />
+  <Message key="Ignore case" value="Без регистра" revision="0" />
+  <Message key="Go To" value="Перейти к смещению:" revision="0" />
+  <Message key="Raw address" value="Адрес" revision="0" />
+  <Message key="Virtual address" value="Виртуальный адрес" revision="0" />
+  <Message key="Details" value="Детально" revision="0" />
+  <Message key="Data:" value="Данные:" revision="0" />
+  <Message key="Length:" value="Длинна:" revision="0" />
+  <Message key="Lowercase" value="Нижн. регистр" revision="0" />
+  <Message key="Show symbols" value="Показать символы" revision="0" />
+  <Message key="Symbols" value="Символы" revision="0" />
+  <Message key="Source files:" value="Исходные файлы:" revision="0" />
+  <Message key="Module details:" value="Детально:" revision="0" />
+  <Message key="Address:" value="Адрес:" revision="0" />
+  <Message key="Name:" value="Имя:" revision="0" />
+  <Message key="Search" value="Найти" revision="0" />
+  <Message key="Jump" value="Перейти" revision="0" />
+  <Message key="string" value="строка" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="Запустить дизассемблер…" revision="0" />
+    <Item value="Разобрать исполняемый файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="Экспортировать…" revision="0" />
+    <Item value="Экспортировать разобранное" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="Подробности…" revision="0" />
+    <Item value="Вывести инструкции с подробностями" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="Выбрать колонки…" revision="0" />
+    <Item value="Выбрать колонки дизассемблера" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="Символы…" revision="0" />
+    <Item value="Показать символы для текущего документа, перейти к символу." revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="Обновить" revision="0" />
+    <Item value="Обновить данные" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="Согласовать курсор" revision="0" />
+    <Item value="Согласовать курсор в обоих окнах" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="Согласовать выделение" revision="0" />
+    <Item value="Согласовать выделение в обоих окнах" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Or" revision="0" />
+    <Item value="Not Carry" revision="0" />
+    <Item value="Not Zero" revision="0" />
+    <Item value="Not Overflow" revision="0" />
+    <Item value="Not Dir" revision="0" />
+    <Item value="Not Sign" revision="0" />
+    <Item value="Not Parity" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="Функция" revision="0" />
+    <Item value="Данные" revision="0" />
+    <Item value="Публичный символ" revision="0" />
+    <Item value="Пользовательский тип" revision="0" />
+    <Item value="Перечисление" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="Буфер обмена" revision="0" />
+    <Item value="Файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="Поле" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Значение" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="x86 (32-бит, включая FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="MSIL (.NET)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="Дизассемблер" revision="0" />
+    <Item value="Функция &quot;Дизассемблер&quot; позволяет разбирать исполняемый код из файлов или памяти. Поддерживает различные наборы инструкций и символы." revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="Инструкция" revision="0" />
+    <Item value="Класс" revision="0" />
+    <Item value="Метод" revision="0" />
+    <Item value="Описание" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Адрес" revision="0" />
+    <Item value="Виртуальный адрес" revision="0" />
+    <Item value="Относительное смещение" revision="0" />
+    <Item value="Байткод" revision="0" />
+    <Item value="Мнемоника" revision="0" />
+    <Item value="Операнды" revision="0" />
+    <Item value="Неявные операнды" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="Проверяемые флаги" revision="0" />
+    <Item value="Изменяемый флаги" revision="0" />
+    <Item value="Описание" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="Адрес" revision="0" />
+    <Item value="Имя" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Базовый тип" revision="0" />
+    <Item value="Индекс типа" revision="0" />
+    <Item value="Тэг" revision="0" />
+    <Item value="Флаги" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="Метод" revision="0" />
+    <Item value="Функция" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="Дизассемблировать файл" revision="0" />
+    <Item value="Запустить дизассемблирование исполняемого файла" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="Неизвестный формат" revision="0" />
+    <Item value="Символы недоступны для этого модуля" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="CodeView (.dbg файл)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="Exports" revision="0" />
+    <Item value="Deferred" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="Virtual" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="Нет" revision="0" />
+    <Item value="Да" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="Не доступно" revision="0" />
+    <Item value="Доступно" revision="0" />
+  </Enumeration>
+</Language>

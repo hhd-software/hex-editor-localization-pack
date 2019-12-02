@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="Копирование файлов" revision="0" />
+  <Message key="Volume Errors" value="Ошибки тома" revision="0" />
+  <Message key="CantParse" value="Ошибка разбора атрибутов" revision="0" />
+  <Message key="SequenceNumberError" value="Ошибка номера для файловой записи: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="Ошибочная файловая запись: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="Неизвестный тип атрибута: {type}" revision="0" />
+  <Message key="MagicMismatch" value="Ошибка разбора индексного блока: несоответствие заголовка" revision="0" />
+  <Message key="IndexSNError" value="Ошибка разбора номера индексного блока" revision="0" />
+  <Message key="NoFilenameStream" value="У индексной записи отсутствует поток с именем файла: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="Кластер превышает пределы" revision="0" />
+  <Message key="DataRunLengthError" value="Неверная длина блока: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="Ошибка разбора блока: размер = {size}, смещение = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="Ошибка разбора блока: VCN превышен" revision="0" />
+  <Message key="DataRunLCN" value="Ошибка разбора блока: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="Неизвестная файловая запись" revision="0" />
+  <Message key="FilenameAttributeError" value="Ошибка разбора атрибутов файла для записи {record}" revision="0" />
+  <Message key="CopyFileError" value="Ошибка копирования файла &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="Ошибка записи файла: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="Недостаточно свободного места на диске для копирования &quot;{filename}&quot;. Освободите как минимум {filesize} для копирования данного файла." revision="0" />
+  <Message key="CopyWarning" value="Файл &quot;{filename}&quot; уже существует." revision="0" />
+  <Message key="CreateFileError" value="{error} Файл: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="Данная файловая система пока не поддерживается" revision="0" />
+  <Message key="VolumeNavigator" value="Файловая система" revision="0" />
+  <Message key="CopyStats" value="Скопировано файлов: {files}.\r\nСкопировано папок: {folders}.\r\nСкопировано байт: {bytes}.\r\nФайлов с ошибкой: {failed}.\r\nПропущено файлов: {skipped}." revision="0" />
+  <Message key="Copy Files Report" value="Отчёт о копировании" revision="0" />
+  <Message key="Overwrite Warning" value="Перезапись существующего файла" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="&amp;Для всех конфликтов" revision="0" />
+  <Message key="&amp;Overwrite" value="&amp;Перезаписать" revision="0" />
+  <Message key="&amp;Skip" value="П&amp;ропустить" revision="0" />
+  <Message key="OverwriteWarning" value="Схема &quot;{schemename}&quot; уже существует. Вы хотите перезаписать её?" revision="0" />
+  <Message key="UnsavedWarning" value="Текущая схема не сохранена. Вы хотите сохранить её?" revision="0" />
+  <Message key="DeleteWarning" value="Текущая схема будет удалена." revision="0" />
+  <Message key="CustomFilesFilter" value="Файлы с описанием структуры тома|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="Имя файла не указано." revision="0" />
+  <Message key="CSRootEmpty" value="Корневая структура не указана." revision="0" />
+  <Message key="CSCheckStructEmpty" value="Проверочная структура не указана." revision="0" />
+  <Message key="CSCheckAddressError" value="Адрес проверки должен быть числом." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="Имя схемы не указано." revision="0" />
+  <Message key="CSFileNotFound" value="Файл &quot;{filename}&quot; не найден." revision="0" />
+  <Message key="CSRootNotFound" value="Корневая структура {name} не найдена." revision="0" />
+  <Message key="CSBindVolumeError" value="Ошибка разбора тома. Схема &quot;{name}&quot;, ошибка: {error}" revision="0" />
+  <Message key="LDMParseErrorHeader" value="Неверный заголовок PrivHead." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="Неверный заголовок TocBlock." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Неверный заголовок Vmdb." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Размер Vblk не кратен размеру сектора." revision="0" />
+  <Message key="OpenVolumeWarning" value="Невозможно открыть выбранный том" revision="0" />
+  <Message key="GPTParseErrorHeader" value="Неверный заголовок GUID Partition Table." revision="0" />
+  <Message key="Custom Volume Editor" value="Редактор пользовательского тома" revision="0" />
+  <Message key="File:" value="Файл:" revision="0" />
+  <Message key="Checking structure:" value="Проверочная структура:" revision="0" />
+  <Message key="Checking address:" value="Проверочный адрес:" revision="0" />
+  <Message key="Root structure:" value="Корневая структура:" revision="0" />
+  <Message key="Directory entry structure:" value="Структура папки:" revision="0" />
+  <Message key="File entry structure:" value="Структура файла:" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="байт" revision="0" />
+    <Item value="КБ" revision="0" />
+    <Item value="МБ" revision="0" />
+    <Item value="ГБ" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="Имя" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Атрибуты" revision="0" />
+    <Item value="Создан" revision="0" />
+    <Item value="Изменён" revision="0" />
+    <Item value="Доступ" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="&amp;Копировать…" revision="0" />
+    <Item value="Копировать файл или папку" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="Копировать &amp;том…" revision="0" />
+    <Item value="Скопировать всё содержимое тома" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="&amp;Выделить поток" revision="0" />
+    <Item value="Выделить все кластеры, содержащие данные этого потока" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="&amp;Открыть в редакторе" revision="0" />
+    <Item value="Открыть выбранный файл в Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="Открыть &amp;папку" revision="0" />
+    <Item value="Открыть папку в Windows Explorer" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="&amp;Наверх" revision="0" />
+    <Item value="Перейти к родительской папке" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="&amp;Обновить" revision="0" />
+    <Item value="Обновить текущую директорию" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="Редактировать пользовательские тома" revision="0" />
+    <Item value="Открыть окно настроек пользовательского тома" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="Том" revision="0" />
+    <Item value="Ошибка" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="Файловая система" revision="1" />
+    <Item value="Модуль Файловая система сканирует и показывает структуру файловой системы открытого тома, помогает найти местоположение файлов, а также восстановить повреждённые файлы и папки." revision="1" />
+  </Enumeration>
+</Language>
