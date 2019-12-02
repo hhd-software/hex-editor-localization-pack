@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Sample Text" value="Texto de Exemplo" revision="0" />
+  <Message key="Loading" value="Carregando marcadores" revision="0" />
+  <Message key="Initializing" value="Inicializando marcadores" revision="0" />
+  <Message key="Bookmarks" value="Marcadores" revision="0" />
+  <Message key="Progress" value="Operação atual está em andamento. Por favor espere até que esteja terminado." revision="0" />
+  <Message key="GroupDelete" value="Grupo será excluído (incluindo todos os marcadores que ele contém). Você quer continuar?" revision="0" />
+  <Message key="AllDelete" value="Todos os grupos serão excluídos. Você quer continuar?" revision="0" />
+  <Message key="BookmarkGroup" value="Grupo de Marcadores {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Erro ao criar grupo de marcadores" revision="0" />
+  <Message key="SelWarning" value="Seleção atual contém múltiplos fragmentos. Cada um será adicionado como marcadores separados. Você quer continuar?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Erro ao converter a seleção para marcadores" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Erro ao converter marcadores para seleção" revision="0" />
+  <Message key="AllBookmarksDelete" value="Todos os marcadores serão excluídos. Você quer continuar?" revision="0" />
+  <Message key="Error loading from file" value="Erro ao carregar do arquivo" revision="0" />
+  <Message key="File has different version" value="Arquivo tem versão diferente" revision="0" />
+  <Message key="Error loading bookmarks" value="Erro ao carregar marcadores" revision="0" />
+  <Message key="Select Action" value="Selecionar Ação" revision="0" />
+  <Message key="New selection" value="Nova seleção" revision="0" />
+  <Message key="Add to selection" value="Adicionar a seleção" revision="0" />
+  <Message key="Subtract from selection" value="Subtrair da seleção" revision="0" />
+  <Message key="Edit Group" value="Editar Grupo" revision="0" />
+  <Message key="Name:" value="Nome:" revision="0" />
+  <Message key="Text:" value="Texto:" revision="0" />
+  <Message key="Background:" value="Fundo:" revision="0" />
+  <Message key="Outline:" value="Contorno:" revision="0" />
+  <Message key="Round edges" value="Bordas redondas" revision="0" />
+  <Message key="Default" value="Padrão" revision="0" />
+  <Message key="BookmarksFilterString" value="Arquivos de Marcadores (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="Arquivos de Seleção (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Exibir aviso ao converter seleção para marcadores" revision="1" />
+  <Message key="MergeBookmarks" value="Você quer mesclar com os marcadores existentes." revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Novo Grupo de Marcadores" revision="0" />
+    <Item value="Cria um novo grupo de marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Alternar Marcadores" revision="0" />
+    <Item value="Coloca ou remove um marcador na posição atual" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Marcador Anterior" revision="0" />
+    <Item value="Ir para o marcador anterior" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Próximo Marcador" revision="0" />
+    <Item value="Ir para o próximo marcador" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Seleção para Marcadores" revision="0" />
+    <Item value="Converte a seleção atual para marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Marcadores para Seleção…" revision="0" />
+    <Item value="Converte os marcadores atuais para seleção" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Carregar Marcadores…" revision="0" />
+    <Item value="Carrega marcadores de um arquivo" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Salvar Marcadores…" revision="0" />
+    <Item value="Salva marcadores em um arquivo" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;Marcadores" revision="0" />
+    <Item value="Menu de marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Selecionar" revision="0" />
+    <Item value="Selecione esse grupo de marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Editar" revision="0" />
+    <Item value="Edita grupo de marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="Remmover &amp;Todos" revision="0" />
+    <Item value="Remove todas as entradas" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="Remover" revision="0" />
+    <Item value="Remove a entrada atual" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Ir para Marcadores" revision="0" />
+    <Item value="Ir para marcador selecionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Soltar a seleção atual e converter o atual grupo de indicadores para uma nova seleção." revision="0" />
+    <Item value="Adicionar grupo de marcadores atuais para uma seleção." revision="0" />
+    <Item value="Subtrair grupo atual de marcadores de uma seleção." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Visível" revision="0" />
+    <Item value="Pegajoso" revision="0" />
+    <Item value="Ativo" revision="0" />
+    <Item value="Grupo de Marcadores" revision="0" />
+    <Item value="Marcadores" revision="0" />
+    <Item value="Cor" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="No." revision="0" />
+    <Item value="Endereço" revision="0" />
+    <Item value="Tamanho" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Marcadores" revision="0" />
+    <Item value="Recurso de marcadores permite que você coloque marcadores em um arquivo para navegação rápida." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Aviso de conversão de marcadores para seleção" revision="1" />
+    <Item value="Seleção atual contém vários fragmentos. Cada um será adicionado como marcadores separados. Você quer continuar?" revision="1" />
+  </Enumeration>
+</Language>
