@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="Programmet kan ikke lukkes før den aktuelle stream er fuldført eller annulleret." revision="0" />
+  <Message key="NTFS Streams" value="NTFS stream" revision="0" />
+  <Message key="OpenOnCreate" value="Åbn stream efter oprettelse" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Ugyldig mappe eller syntaks for maske." revision="0" />
+  <Message key="Invalid folder list syntax." value="Ugyldig syntaks for mappeliste." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Udelukkelsesmønster er ikke et gyldigt regulær udtryk." revision="0" />
+  <Message key="InvalidStreamName" value="Ugyldigt navn til stream. Et navn kan ikke indeholde følgende tegn: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="NTFS st&amp;ream" revision="0" />
+  <Message key="CreateError" value="Fejl ved oprettelse af stream: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Følgende fejl opstod ved oprettelse af stream: \r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="Handlingen kan ikke fortrydes. Er du sikker på du vil fortsætte med at slette markeret/markerede stream?" revision="0" />
+  <Message key="DeleteError" value="Fejl ved sletning af stream: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="Følgende fejl opstod ved sletning af stream:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="Følgende fejl opstod ved åbning af stream:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Denne stream er i øjeblikket åbnet i editoren. Ønsker du at lukke den for at kunne udføre den ønskede handling?" revision="0" />
+  <Message key="RenameError" value="Fejl ved omdøbning af stream: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Følgende fejl opstod ved omdøbning af stream:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Søgning afsluttet.{finished?}Søger efter stream…{?finished} {found} stream fundet ({files} filer i {folders} mapper undersøgt)." revision="0" />
+  <Message key="StreamSize" value="Samlet: {size}" revision="1" />
+  <Message key="RenameOperation" value="Omdøber stream" revision="0" />
+  <Message key="Find Streams Folder List" value="Søg stream mappeliste" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Indtast sti til mappen eller tryk på gennemse knappen:" revision="0" />
+  <Message key="Folder list:" value="Mappeliste:" revision="0" />
+  <Message key="Move &amp;Up" value="Flyt op" revision="0" />
+  <Message key="Move &amp;Down" value="Flyt ned" revision="0" />
+  <Message key="File Stream Name" value="Navn til filstream" revision="0" />
+  <Message key="Enter the stream name:" value="Indtast navn til stream:" revision="0" />
+  <Message key="Find Streams" value="Søg stream" revision="0" />
+  <Message key="Search in:" value="Søg i:" revision="0" />
+  <Message key="File types:" value="Filtyper:" revision="0" />
+  <Message key="Larger than:" value="Større end:" revision="0" />
+  <Message key="Exclude:" value="Udelad:" revision="0" />
+  <Message key="(regular expression)" value="(regulær udtryk)" revision="0" />
+  <Message key="Include sub-folders" value="Medtag undermapper" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="Opret steam…" revision="0" />
+    <Item value="Opret en ny filstream" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="Åbn stream" revision="0" />
+    <Item value="Åbn en eller flere filstream i editoren" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="Slet stream…" revision="0" />
+    <Item value="Slet en eller flere filstream" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="Omdøb stream…" revision="0" />
+    <Item value="Omdøb filstream" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="Annuller aktuelle handling" revision="0" />
+    <Item value="Annuller aktuelle streamhandling" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Åbn overordnet fil eller filer" revision="1" />
+    <Item value="Åbn den eller de overordnede filer. Det er filer som indeholder de markerede stream." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Søg stream…" revision="0" />
+    <Item value="Find alle filer med alternative datastream i de markerede placeringer." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Forlad søg stream tilstand" revision="0" />
+    <Item value="Forlad søg stream tilstanden" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Navn på stream" revision="0" />
+    <Item value="Størrelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Fil" revision="0" />
+    <Item value="Stream" revision="0" />
+    <Item value="Størrelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS st&amp;ream" revision="0" />
+    <Item value="NTFS streammenu" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Søg stream" revision="0" />
+    <Item value="Start modulet til Søg stream" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="byte" revision="0" />
+    <Item value="kB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="NTFS stream" revision="0" />
+    <Item value="Funktionen NTFS stream gør det muligt at oprette nye navngivne stream, omdøbe stream og slette dem." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Ingen stream. Du skal gemme filen først." revision="0" />
+    <Item value="Dette er en stream. Indlejrede stream er ikke understøttet af filsystemet." revision="0" />
+    <Item value="Stream blev ikke fundet." revision="0" />
+    <Item value="Stream er ikke understøttet af filsystemet." revision="0" />
+    <Item value="Fejl ved søgning af stream." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Søg stream" revision="0" />
+    <Item value="Funktionen Søg stream gør det muligt at søge efter filer med navngivne stream på disken." revision="0" />
+  </Enumeration>
+</Language>

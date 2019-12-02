@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrivilegeNotGained" value="Begrænset sæt af processer i listen over processer" revision="1" />
+  <Message key="RegionInfo" value="Område basis: {base} ({base:2})\rOmråde slut: {end} ({end:2})\rOmråde størrelse: {size} ({size:2})\rType: {type}\rTilstand: {state}\rFlag: {flags}" revision="1" />
+  <Message key="Unknown" value="Ukendt" revision="1" />
+  <Message key="No process selected" value="Ingen proces markeret" revision="1" />
+  <Message key="Specify a range using a list of blocks or a list of modules." value="Angiv et område ud fra en liste af blokke eller en liste af moduler." revision="1" />
+  <Message key="Either start or end is too big. Please enter correct values." value="Start- eller slutadressen er for stor. Angiv venligst korrekte værdier." revision="1" />
+  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="Flere markeringer er kun tilladt når der sorteres på adresse. Klik på første kolonnes overskrift for at sortere blokke." revision="1" />
+  <Message key="ProcessDescription" value="Proces: {process}, blokke: {blocks}, moduler: {modules}" revision="1" />
+  <Message key="N/A" value="(Ikke tilgængelig)" revision="1" />
+  <Message key="Open Process" value="Åbn proces" revision="1" />
+  <Message key="Set Colors…" value="Angiv farver…" revision="1" />
+  <Message key="Display decimal values" value="Vis decimale værdier" revision="1" />
+  <Message key="Logarithmic scale" value="Logaritmisk skala" revision="1" />
+  <Message key="Start:" value="Start:" revision="1" />
+  <Message key="End:" value="Slut:" revision="1" />
+  <Message key="Size:" value="Størrelse:" revision="1" />
+  <Message key="Show All Processes" value="Vis alle processer" revision="1" />
+  <Message key="Refresh" value="Opdater" revision="1" />
+  <Message key="Color Selection" value="Farvemarkering" revision="1" />
+  <Message key="No Access/Guard" value="Ingen adgang/Beskyttet:" revision="1" />
+  <Message key="Read Only/Execute" value="Skrivebeskyttet/Udfør:" revision="1" />
+  <Message key="Read/Write" value="Læse/Skrive:" revision="1" />
+  <Message key="Copy on Write" value="Kopiering under skrivning:" revision="1" />
+  <Message key="Free" value="Ledig:" revision="1" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="Åbn p&amp;roces…" revision="1" />
+    <Item value="Åbn hukommelse til proces for både læsning og skrivning" revision="1" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="Gå til… (i proces)" revision="1" />
+    <Item value="Gå til den angivne sektion i den redigerede hukommelse til processen" revision="1" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="Ukendt" revision="1" />
+    <Item value="Billede" revision="1" />
+    <Item value="Tilknyttet" revision="1" />
+    <Item value="Privat" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="Ukendt" revision="1" />
+    <Item value="Bundet" revision="1" />
+    <Item value="Ledig" revision="1" />
+    <Item value="Reserveret" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="Ingen adgang" revision="1" />
+    <Item value="Skrivebeskyttet" revision="1" />
+    <Item value="Læse og skrive" revision="1" />
+    <Item value="Kopiering ved skrivning" revision="1" />
+    <Item value="Udfør" revision="1" />
+    <Item value="Udfør og læse" revision="1" />
+    <Item value="Udfør, læse og skrive" revision="1" />
+    <Item value="Udfør og kopier ved skrivning" revision="1" />
+    <Item value="Beskyttet" revision="1" />
+    <Item value="Ingen cache" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="Åbn proces" revision="1" />
+    <Item value="Funktionen Åbn proces gør det muligt at åbne en markeret proces' område i hukommelsen for visning og redigering." revision="1" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Åbn proces" revision="1" />
+    <Item value="Åbn hukommelse til proces for visning og redigering" revision="1" />
+  </Enumeration>
+  <Enumeration key="DisplayNotification">
+    <Item value="Begrænset åben proces funktionalitet" revision="1" />
+    <Item value="Advarsel: Hex Editor Neo har ikke de nødvendige rettigheder for at få adgang til kørende processer i systemet. Det vil kun være muligt at danne forbindelse til et lille udvalg af kørende processer på computeren. Kør Hex Editor Neo med forhøjet brugertilstand, der har administratorrettigheder, for at kunne redigere en vilkårlig proces' område i hukommelsen." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tabs">
+    <Item value="Blokke" revision="1" />
+    <Item value="Moduler" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessColumns">
+    <Item value="Id" revision="1" />
+    <Item value="Navn" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="Adresse" revision="1" />
+    <Item value="Størrelse" revision="1" />
+    <Item value="Type" revision="1" />
+    <Item value="Tilstand" revision="1" />
+    <Item value="Flag" revision="1" />
+    <Item value="Modul" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="Navn" revision="1" />
+    <Item value="Adresse" revision="1" />
+    <Item value="Størrelse" revision="1" />
+  </Enumeration>
+</Language>

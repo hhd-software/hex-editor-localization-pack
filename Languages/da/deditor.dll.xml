@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="Kopierer filer" revision="0" />
+  <Message key="Volume Errors" value="Enhedsfejl" revision="0" />
+  <Message key="CantParse" value="Fejl ved parsing af attributter" revision="0" />
+  <Message key="SequenceNumberError" value="Fejl ved opdatering af sekvensnummer for filpost: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="Ugyldig filpost: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="Ukendt attributtype: {type}" revision="0" />
+  <Message key="MagicMismatch" value="Fejl ved parsing af indexblok: Magic værdier stemmer ikke overens" revision="0" />
+  <Message key="IndexSNError" value="Fejl ved parsing af sekvensnummer for indexblok" revision="0" />
+  <Message key="NoFilenameStream" value="Indexpost har ikke noget filnavnstream: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="Klynge overskrider grænser for datakørsel" revision="0" />
+  <Message key="DataRunLengthError" value="Datakørsel længdefejl: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="Datakørsel afkodningsfejl: størrelse = {size}, forskydning = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="Datakørsel afkodningsfejl: VCN grænseoverskridelse" revision="0" />
+  <Message key="DataRunLCN" value="Datakørsel afkodningsfejl: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="Ukendt filpost" revision="0" />
+  <Message key="FilenameAttributeError" value="Fejl ved parsing af filattributter for post {record}" revision="0" />
+  <Message key="CopyFileError" value="Fejl ved kopiering af filen &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="Fejl ved skrivning til fil: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="Der er ikke plads nok på destinationsdisketten til at kopiere &quot;{filename}&quot;. Der skal være mindst {filesize} af ledig plads til at kopiere denne fil." revision="0" />
+  <Message key="CopyWarning" value="Filen &quot;{filename}&quot; findes allerede. Ønsker du at Overskrive eller Spring over?" revision="0" />
+  <Message key="CreateFileError" value="{error} Fil: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="Dette filsystem er endnu ikke supporteret af Enhedsnavigator" revision="0" />
+  <Message key="VolumeNavigator" value="Enhedsnavigator" revision="0" />
+  <Message key="CopyStats" value="{files} filer kopieret.\r\n{folders} mapper kopieret.\r\n{bytes} byte kopieret.\r\n{failed} filer fejlede.\r\n{skipped} filer sprunget over." revision="0" />
+  <Message key="Copy Files Report" value="Filkopieringsrappport" revision="0" />
+  <Message key="Overwrite Warning" value="Overskrivningsadvarsel" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="&amp;Gør dette for alle konflikter" revision="0" />
+  <Message key="&amp;Overwrite" value="&amp;Overskriv" revision="0" />
+  <Message key="&amp;Skip" value="&amp;Spring over" revision="0" />
+  <Message key="OverwriteWarning" value="Skemaet &quot;{schemename}&quot; eksistere allerede. Ønsker du at overskrive det?" revision="0" />
+  <Message key="UnsavedWarning" value="Det aktuelle skema er ikke gemt. Ønsker du at gemme det nu?" revision="0" />
+  <Message key="DeleteWarning" value="Det aktuelle skema vil blive slettet." revision="0" />
+  <Message key="CustomFilesFilter" value="Brugerdefineret enhedsfortolker|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="Filnavnet blev ikke specificeret." revision="0" />
+  <Message key="CSRootEmpty" value="Rodstrukturen blev ikke specificeret." revision="0" />
+  <Message key="CSCheckStructEmpty" value="Kontrolstrukturen blev ikke specificeret." revision="0" />
+  <Message key="CSCheckAddressError" value="Kontroladressen skal være et nummer." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="Skemanavnet blev ikke specificeret." revision="0" />
+  <Message key="CSFileNotFound" value="Strukturfilen &quot;{filename}&quot; blev ikke fundet." revision="0" />
+  <Message key="CSRootNotFound" value="Rodstrukturen {name} blev ikke fundet." revision="0" />
+  <Message key="CSBindVolumeError" value="Der opstod fejl under parsing af enheden. Skema &quot;{name}&quot;, fejl: {error}" revision="0" />
+  <Message key="LDMParseErrorHeader" value="Ugyldigt PrivHead hoved." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="Ugyldigt TocBlock hoved." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Ugyldigt Vmdb hoved." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Størrelsen af Vblk er ikke multiplum af sektorstørrelsen." revision="0" />
+  <Message key="OpenVolumeWarning" value="Den markerede enhed kan ikke åbnes" revision="0" />
+  <Message key="GPTParseErrorHeader" value="Ugyldig GUID partitiontabelhoved." revision="0" />
+  <Message key="Custom Volume Editor" value="Brugerdefineret Enhedseditor" revision="0" />
+  <Message key="File:" value="Fil:" revision="0" />
+  <Message key="Checking structure:" value="Kontrolstruktur:" revision="0" />
+  <Message key="Checking address:" value="Kontroladresse:" revision="0" />
+  <Message key="Root structure:" value="Rodstruktur:" revision="0" />
+  <Message key="Directory entry structure:" value="Mappepoststruktur:" revision="0" />
+  <Message key="File entry structure:" value="Filpoststruktur:" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="Byte" revision="0" />
+    <Item value="kB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="Navn" revision="0" />
+    <Item value="Størrelse" revision="0" />
+    <Item value="Attributter" revision="0" />
+    <Item value="Oprettet" revision="0" />
+    <Item value="Ændret" revision="0" />
+    <Item value="Åbnet" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="&amp;Kopier til…" revision="0" />
+    <Item value="Kopier fil- eller mappeindhold til den markerede destination" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="Kopier enhed…" revision="0" />
+    <Item value="Kopier alt indhold fra enheden (filer og mapper) til den markerede destination" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="&amp;Marker alt streamdata" revision="0" />
+    <Item value="Markerer alle klynger der indeholder streamdata" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="&amp;Åbn fil i editor" revision="0" />
+    <Item value="Åben fil i Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="Åbn indholdsmappe" revision="0" />
+    <Item value="Åbn indholdsmappe for poster" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="&amp;Op til overordnet" revision="0" />
+    <Item value="Op til overordnet" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="Opdater aktuelle &amp;panel" revision="0" />
+    <Item value="Opdater aktuelle mappe" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="Editer brugerdefinerede &amp;enheder" revision="0" />
+    <Item value="Åbn redigeringsdialog til brugerdefineret enhed" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="Enhed" revision="0" />
+    <Item value="Fejl" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="Enhedsnavigator" revision="1" />
+    <Item value="Enhedsnavigator skanner og viser enhedens filsystemstruktur. Hjælper med at finde filplaceringer og gendanne beskadigede filer eller mapper." revision="1" />
+  </Enumeration>
+</Language>

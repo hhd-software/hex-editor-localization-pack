@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="Kopi og eksport" revision="1" />
+  <Message key="BigSizeNotification" value="Besked om stor tekst kopi" revision="1" />
+  <Message key="FloatingDigits" value="Antal cifre ved kopi/eksport af enkeltpræcisions reelt tal" revision="1" />
+  <Message key="DoubleDigits" value="Antal cifre ved kopi/eksport af dobbeltpræcisions reelt tal" revision="1" />
+  <Message key="IntelHexColumns" value="Byte pr. række for Intel HEX og Motorola S formater" revision="1" />
+  <Message key="EncodedFormat" value="&amp;Kodet data" revision="1" />
+  <Message key="RawFilter" value="Tekstfiler (*.txt)|*.txt|" revision="1" />
+  <Message key="Default" value="Standard" revision="1" />
+  <Message key="Little Endian" value="Little Endian" revision="1" />
+  <Message key="Big Endian" value="Big Endian" revision="1" />
+  <Message key="FormattedFormat" value="&amp;Formatterede værdier" revision="1" />
+  <Message key="Loading" value="Indlæser understøttelse til udklipsholder" revision="1" />
+  <Message key="Initializing" value="Initialiserer undersøttelse til udklipsholder" revision="1" />
+  <Message key="CopyExportLocalized" value="Kopi og eksport" revision="1" />
+  <Message key="Export" value="E&amp;ksport" revision="1" />
+  <Message key="BadFormat" value="Eksportformatet kan ikke håndtere det markerede data" revision="1" />
+  <Message key="BadImportFormat" value="Ugyldigt dataformat." revision="1" />
+  <Message key="ErrorExport" value="Der opstod en fejl ved dannelse af outputfil: {text}\r\n(Fejlkode: {code})" revision="1" />
+  <Message key="ErrorExport2" value="Fejl ved eksport af data: {text}\r\n(Fejlkode: {code})" revision="1" />
+  <Message key="ErrorImport" value="Fejl ved import af hexdata: {text}\r\n(Fejlkode: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="Åbn Hex" revision="1" />
+  <Message key="AllSupportedFormats" value="Alle understøttede formater" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="&amp;Kopi til udklipsholder" revision="1" />
+  <Message key="&amp;Export" value="&amp;Eksport" revision="1" />
+  <Message key="Format:" value="Format:" revision="1" />
+  <Message key="Merge" value="Flet" revision="1" />
+  <Message key="Algorithm:" value="Algoritme:" revision="1" />
+  <Message key="Append" value="Tilføj" revision="1" />
+  <Message key="&amp;Elements:" value="&amp;Elementer:" revision="1" />
+  <Message key="&amp;Columns:" value="&amp;Kolonner:" revision="1" />
+  <Message key="&amp;Type:" value="&amp;Type:" revision="1" />
+  <Message key="Byte order:" value="Byterækkefølge:" revision="1" />
+  <Message key="Group:" value="Gruppe:" revision="1" />
+  <Message key="&amp;Addresses" value="&amp;Adresser" revision="1" />
+  <Message key="&amp;Text pane" value="&amp;Tekstrude" revision="1" />
+  <Message key="Insert Hex" value="Indsæt Hex" revision="1" />
+  <Message key="Insert from" value="Indsæt fra" revision="1" />
+  <Message key="Format" value="Format" revision="1" />
+  <Message key="Put the data at" value="Anbring data ved" revision="1" />
+  <Message key="Clipboard" value="Udklipsholder" revision="1" />
+  <Message key="File:" value="Fil:" revision="1" />
+  <Message key="Start of the file" value="Start på filen" revision="1" />
+  <Message key="Cursor location" value="Markørplacering" revision="1" />
+  <Message key="Insert mode" value="Indsæt tilstand" revision="1" />
+  <Message key="Ignore data offset" value="Ignorer dataforskydning" revision="1" />
+  <Message key="Encoding:" value="Kodning:" revision="1" />
+  <Enumeration key="EditCopyAs">
+    <Item value="Kopier som…" revision="1" />
+    <Item value="Konverter markering til en af de understøttede formater og placer i udklipsholderen" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="Eksporter…" revision="1" />
+    <Item value="Ekporter markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="Indsæt som…" revision="1" />
+    <Item value="Opdel data i udklipsholder og indsæt det i dokumentet" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="Indsæt &amp;Hex…" revision="1" />
+    <Item value="Indsæt ASCII-kodet binær fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="Åbn &amp;Hex…" revision="1" />
+    <Item value="Åbn ASCII-kodet binær fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64-kode" revision="1" />
+    <Item value="UU-encode kode" revision="1" />
+    <Item value="Quoted-printable kode" revision="1" />
+    <Item value="Intel 8-bit HEX" revision="1" />
+    <Item value="Intel 16-bit HEX" revision="1" />
+    <Item value="Intel 32-bit HEX" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="Kodet data kopi/eksport" revision="1" />
+    <Item value="Kodet data kopi/eksport funktionen gør det muligt at kopiere eller eksportere den aktuelle markering i Base64, UUEncode eller Quoted-Printable format." revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="Formatteret data kopi/eksport" revision="1" />
+    <Item value="Formatteret data kopi/eksport funktionen gør det muligt at kopiere eller eksportere indholdet af koderuden til mange forskellige formater." revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="Aktuel" revision="1" />
+    <Item value="Ingen" revision="1" />
+    <Item value="Systemstandard" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="Uformatteret tekst kopi/eksport" revision="1" />
+    <Item value="Uformatteret tekst kopi/eksport funktionen gør det muligt at kopiere eller eksportere indholdet af tekstruden i den valgte kodning." revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="&amp;Uformatteret tekst" revision="1" />
+    <Item value="Konverterer til en simpel ASCII eller UNICODE tegnstreng" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="Kopiering af store tekstmængder " revision="1" />
+    <Item value="Selv om Hex Editor Neo understøtter kopiering af store tekstmængder til udklipsholderen kan det være vanskeligt at indsætte teksten i andre applikationer. Ønsker du at fortsætte?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="Åbn Hex/Indsæt Hex" revision="1" />
+    <Item value="Åbn Hex/Indsæt Hex funktionen gør det muligt at afkode Intel HEX eller Motorola S-Records og indsætte binært indhold som nyt dokument eller i det åbne dokument." revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="Intel HEX" revision="1" />
+    <Item value="Motorola S-Record format" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="Standard" revision="1" />
+    <Item value="Hex" revision="1" />
+    <Item value="Decimal" revision="1" />
+    <Item value="Oktal" revision="1" />
+    <Item value="Binær" revision="1" />
+    <Item value="Enkeltpræcisions reelt tal" revision="1" />
+    <Item value="Dobbeltpræcisions reelt tal" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="Standard" revision="1" />
+    <Item value="Byte (8-bit)" revision="1" />
+    <Item value="Ord (16-bit)" revision="1" />
+    <Item value="Dobbelte ord(32-bit)" revision="1" />
+    <Item value="Kvadruple ord (64-bit)" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="Uden separatorer" revision="1" />
+    <Item value="Mellemrumssepareret tekst" revision="1" />
+    <Item value="Kommasepareret tekst" revision="1" />
+    <Item value="C/C++ matrix" revision="1" />
+    <Item value="Java matrix" revision="1" />
+    <Item value="Javascript matrix" revision="1" />
+    <Item value="Delphi matrix" revision="1" />
+    <Item value="C# .NET matrix" revision="1" />
+    <Item value="Visual Basic .NET matrix" revision="1" />
+    <Item value="PHP matrix" revision="1" />
+    <Item value="Assembler matrix" revision="1" />
+  </Enumeration>
+</Language>

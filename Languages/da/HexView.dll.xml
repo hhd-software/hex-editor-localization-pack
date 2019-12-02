@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Offset" value="Forskydning" revision="1" />
+  <Message key="SchemeNameCue" value=" Angiv skemanavnet her" revision="1" />
+  <Message key="Encrypt" value="Krypter" revision="1" />
+  <Message key="Decrypt" value="Dekrypter" revision="1" />
+  <Message key="Navigate to Position" value="Naviger til placering" revision="1" />
+  <Message key="Add Position" value="Tilføj placering" revision="1" />
+  <Message key="Editor" value="Editor" revision="1" />
+  <Message key="Printing" value="Udskriver" revision="1" />
+  <Message key="AutoDropSelection" value="Enkelt markeringstilstand" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="Juster markering ved indsæt handling" revision="1" />
+  <Message key="DigitGrouping" value="Antal cifre i gruppe" revision="1" />
+  <Message key="ShowCurrentAddress" value="Vis adresse for markør til venstre" revision="1" />
+  <Message key="IgnoreColoring" value="Ignorer farvelægning" revision="1" />
+  <Message key="StandardHeader" value="Standard sidehoved" revision="1" />
+  <Message key="StandardFooter" value="Standard sidefod" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="Flyt markør efter indsæt" revision="1" />
+  <Message key="FindAllNotification" value="Søg alle" revision="1" />
+  <Message key="PasteNotification" value="Indsæt tekst" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="Ugyldigt udtryk. Kontroller syntaksen." revision="1" />
+  <Message key="Connect to" value="Forbind til" revision="1" />
+  <Message key="ConnectToSuccess" value="Vinduerne er blevet forbundet." revision="1" />
+  <Message key="ConnectToFailure" value="Ugyldigt vindue markeret. Der kan ikke forbindes til det markerede vindue." revision="1" />
+  <Message key="Copying Selection Regions…" value="Kopierer markeringsområder…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="Eksporterer markeringsområder…" revision="1" />
+  <Message key="Open documentation section and continue" value="Åbn dokumentationssektion og fortsæt" revision="1" />
+  <Message key="Just continue" value="Blot fortsæt" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Automatisk{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="Indlæser editor" revision="1" />
+  <Message key="Initializing" value="Initialiserer editor" revision="1" />
+  <Message key="Selection Tool Window" value="Markering" revision="1" />
+  <Message key="Output" value="Output" revision="1" />
+  <Message key="Save As" value="Gem som" revision="1" />
+  <Message key="Do you want to override this scheme?" value="Ønsker du at tilsidesætte dette skema?" revision="1" />
+  <Message key="NoSel" value="Ingen markering" revision="1" />
+  <Message key="EncodingNotSupported" value="Aktuelle markerede kodning er ikke understøttet af dit operativsystem. Vær sikker på at de nødvendige tegntabel filer og skrifttyper er installeret." revision="1" />
+  <Message key="NoEncoding" value="Dit system mangler de nødvendige komponenter for at understøtte den valgte kodning. Vælg en anden kodning." revision="1" />
+  <Message key="SwitchSingleSel" value="Skift til &quot;Enkelt markeringstilstand&quot;\nDette vil fravælge Markering af flere tilstand. Du kan ændre indstillingen tilbage i Generelle indstillinger fanen." revision="1" />
+  <Message key="Find" value="Søg" revision="1" />
+  <Message key="A pattern was not found." value="Et mønster blev ikke fundet." revision="1" />
+  <Message key="RegExpInSel" value="Søgning med regulær udtryk indenfor en markering er ikke understøttet." revision="1" />
+  <Message key="Find All" value="Søg alle" revision="1" />
+  <Message key="RegExpBackwards" value="Bagud søgning med regulær udtryk er ikke understøttet." revision="1" />
+  <Message key="Replace All" value="Erstat alle" revision="1" />
+  <Message key="Go to Offset" value="Gå til forskydning" revision="1" />
+  <Message key="Invalid offset." value="Ugyldig forskydning." revision="1" />
+  <Message key="UnsupportedFunction" value="Denne funktion er ikke understøttet for den aktuelle dokumenttype." revision="1" />
+  <Message key="Change File Size" value="Ændre filstørrelse" revision="1" />
+  <Message key="Invalid file size." value="Ugyldig filstørrelse." revision="1" />
+  <Message key="Insert" value="Indsæt" revision="1" />
+  <Message key="Invalid size." value="Ugyldig størrelse." revision="1" />
+  <Message key="NFound" value="{isfound?}{n} forekomster fundet.{|isfound}Et mønster blev ikke fundet.{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n} forekomster fundet og erstattet.{|isfound}Et mønster blev ikke fundet.{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="Markerede krypteringsalgoritme er ikke understøttet." revision="1" />
+  <Message key="Copy" value="Kopier" revision="1" />
+  <Message key="Export" value="Eksporter" revision="1" />
+  <Message key="SelectionFiles" value="Markeringsfiler (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="Tekstfiler (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} bit)" revision="1" />
+  <Message key="SetSize" value="Hex: \t{size}\r\nDecimal: \t{size:2} ({size as text}){hasfree?}\r\n\r\nLedig plads på disk: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="Regulær udtryk syntaksfejl: {error}." revision="1" />
+  <Message key="OffsetPane" value="Forskydning: {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="Størrelse: {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="Markeret algoritme kræver datastørrelse som er multipla af {bytes} byte." revision="1" />
+  <Message key="EncryptFailed" value="Kryptering/Dekryptering fejlede med en fejlkode {code}" revision="1" />
+  <Message key="PrintedBy" value="Udskrevet med HHD Software {product}" revision="1" />
+  <Message key="PageNumber" value="Side {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="Fejl ved kopiering af markerede områder: {text} ({code})" revision="1" />
+  <Message key="ExportError" value="Fejl ved oprettelse af fil: {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="Mønster:" revision="1" />
+  <Message key="Replace with:" value="Erstat med:" revision="1" />
+  <Message key="Arithmetic Operation" value="aritmetisk handling" revision="1" />
+  <Message key="Operation:" value="Handling:" revision="1" />
+  <Message key="Operand type:" value="Operandtype:" revision="1" />
+  <Message key="Operand value:" value="Operandværdi:" revision="1" />
+  <Message key="Current cell" value="Aktuel celle" revision="1" />
+  <Message key="Selection" value="Markering" revision="1" />
+  <Message key="Whole file" value="Hele filen" revision="1" />
+  <Message key="Hexadecimal" value="Hexadecimal" revision="1" />
+  <Message key="Decimal" value="Decimal" revision="1" />
+  <Message key="Modify Bits" value="Rediger bit" revision="1" />
+  <Message key="1 Byte:" value="1. byte:" revision="2" />
+  <Message key="2 Byte:" value="2. byte:" revision="2" />
+  <Message key="3 Byte:" value="3. byte:" revision="2" />
+  <Message key="4 Byte:" value="4. byte:" revision="2" />
+  <Message key="5 Byte:" value="5. byte:" revision="2" />
+  <Message key="6 Byte:" value="6. byte:" revision="2" />
+  <Message key="7 Byte:" value="7. byte:" revision="2" />
+  <Message key="8 Byte:" value="8. byte:" revision="2" />
+  <Message key="Binary representation:" value="Binær repræsentation:" revision="1" />
+  <Message key="Value:" value="Værdi:" revision="1" />
+  <Message key="Hex" value="Hex" revision="1" />
+  <Message key="Octal" value="Oktal" revision="1" />
+  <Message key="Set All To Zero" value="Sæt alle til nul (0)" revision="1" />
+  <Message key="Set All To One" value="Sæt alle til et (1)" revision="1" />
+  <Message key="Invert" value="Inverter" revision="1" />
+  <Message key="Revert" value="Gendan" revision="1" />
+  <Message key="Bitwise Operation" value="Bitvis handling" revision="1" />
+  <Message key="Set Columns" value="Sæt kolonner" revision="0" />
+  <Message key="Enter number of columns per row:" value="Angiv antal kolonner pr. række:" revision="0" />
+  <Message key="Select the Window to Connect" value="Vælg vindue til forbindelse" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Klik herunder på ikonet, træk det over det vindue du ønsker at forbinde og slip museknappen." revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="Markørbevægelser er synkroniseret med forbundne vinduer." revision="0" />
+  <Message key="Encrypt/Decrypt" value="Krypter/Dekrypter" revision="0" />
+  <Message key="Algorithm:" value="Algoritme:" revision="0" />
+  <Message key="Key length:" value="Nøglelængde:" revision="0" />
+  <Message key="bits" value="bit" revision="0" />
+  <Message key="Status:" value="Status:" revision="0" />
+  <Message key="Do not hide password" value="Skjul ikke adgangskode" revision="0" />
+  <Message key="Password:" value="Adgangskode:" revision="0" />
+  <Message key="Re-type password:" value="Indtast adgangskode igen:" revision="0" />
+  <Message key="Fill" value="Udfyld" revision="0" />
+  <Message key="Fill whole file" value="Udfyld hele filen" revision="0" />
+  <Message key="Fill selection" value="Udfyld markering" revision="0" />
+  <Message key="Transparent fill" value="Gennemsigtig udfyldning" revision="0" />
+  <Message key="Reverse pattern" value="Ombytningsmønster" revision="0" />
+  <Message key="&amp;Fill" value="Udfyld" revision="0" />
+  <Message key="&amp;Find" value="Søg" revision="0" />
+  <Message key="Find &amp;All" value="Søg alle" revision="0" />
+  <Message key="Search whole file" value="Søg i hele filen" revision="0" />
+  <Message key="Search selection" value="Søg markering" revision="0" />
+  <Message key="Search up" value="Tilbage" revision="0" />
+  <Message key="Search down" value="Fremad" revision="0" />
+  <Message key="Ignore case" value="Ignorer store/små bogstaver" revision="0" />
+  <Message key="Offset (expressions supported):" value="Forskydning (udtryk understøttes):" revision="0" />
+  <Message key="Resulting offset:" value="Endelig forskydning:" revision="0" />
+  <Message key="Selection:" value="Markering:" revision="0" />
+  <Message key="Bookmark:" value="Bogmærke:" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Absolut forskudning" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Relativ forskydning" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Procent" revision="0" />
+  <Message key="&amp;Insert" value="&amp;Indsæt" revision="0" />
+  <Message key="Size (expressions supported):" value="Størrelse (udtryk understøttes):" revision="0" />
+  <Message key="Layout Page" value="Layout" revision="0" />
+  <Message key="Font:" value="Skrifttype" revision="0" />
+  <Message key="Size:" value="Størrelse:" revision="0" />
+  <Message key="Visualization elements:" value="Visualiseringselementer:" revision="0" />
+  <Message key="Color:" value="Farve:" revision="0" />
+  <Message key="Automatic" value="Automatisk" revision="0" />
+  <Message key="Do not interlace background" value="Ingen baggrundsstriber" revision="0" />
+  <Message key="Interlace columns" value="Stribede kolonner" revision="0" />
+  <Message key="Interlace rows" value="Stribede rækker" revision="0" />
+  <Message key="Draw edit cursor frame" value="Tegn markørredigeringsramme" revision="0" />
+  <Message key="Smart indentation" value="Intelligent indrykning" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Anti-aliasingskvalitet (langsommere)" revision="0" />
+  <Message key="Schemes…" value="Skemaer…" revision="0" />
+  <Message key="Layout Schemes" value="Layoutskemaer" revision="0" />
+  <Message key="&amp;Save As…" value="Gem som…" revision="0" />
+  <Message key="Load Selection" value="Indlæs markering" revision="0" />
+  <Message key="Loading Mode" value="Tilstand for indlæsning" revision="0" />
+  <Message key="New selection" value="Ny markering" revision="0" />
+  <Message key="Add to current" value="Føj til aktuelle" revision="0" />
+  <Message key="Subtract from current" value="Træk fra aktuelle" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="Vent venligst mens aktuelle handling udføres…" revision="0" />
+  <Message key="0 % done" value="0 % færdig" revision="0" />
+  <Message key="Elapsed time: " value="Forløbet tid:" revision="0" />
+  <Message key="Remaining time:" value="Resterende tid:" revision="0" />
+  <Message key="Speed:" value="Hastighed:" revision="0" />
+  <Message key="Replace" value="Erstat" revision="0" />
+  <Message key="&amp;Find Next" value="Søg næste" revision="0" />
+  <Message key="&amp;Replace" value="Erstat" revision="0" />
+  <Message key="Replace &amp;All" value="Erstat &amp;alle" revision="0" />
+  <Message key="Reverse Operation" value="Ombytning" revision="0" />
+  <Message key="Information" value="Information" revision="0" />
+  <Message key="Details" value="Detaljer" revision="0" />
+  <Message key="Select Range" value="Marker område" revision="0" />
+  <Message key="Offset:" value="Forskydning:" revision="0" />
+  <Message key="Add" value="Tilføj" revision="0" />
+  <Message key="Subtract" value="Træk fra" revision="0" />
+  <Message key="Overlap" value="Overlap" revision="0" />
+  <Message key="Specify new file size:" value="Angiv ny filstørrelse:" revision="0" />
+  <Message key="Resulting file size:" value="Endelig filstørrelse:" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="Det er muligt at anvende matematiske udtryk ved indtastning af ny filstørrelse. Se Hjælp for flere detaljer." revision="0" />
+  <Message key="Shift Operation" value="Skift handling" revision="0" />
+  <Message key="Shift by (bits):" value="Forskydning i bit:" revision="0" />
+  <Message key="Editor Page" value="Editor" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="Det er muligt her at angive standard egenskaber for editor vinduet:" revision="0" />
+  <Message key="Display as:" value="Vis som:" revision="0" />
+  <Message key="Group by:" value="Grupper efter:" revision="0" />
+  <Message key="Columns:" value="Kolonner:" revision="0" />
+  <Message key="Byte order:" value="Byterækkefølge:" revision="0" />
+  <Message key="Encoding:" value="Kodning:" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="Gem automatisk egenskaber til editor vinduet for hvert åbent dokument" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="Når denne er valgt vil Hex Editor Neo gemme de konfigurerede egenskaber til editor vinduet for hvert åbent dokument. Næste gang det samme dokument åbnes indlæses de gemte egenskaber for editor vinduet, som er tilknyttet dokumentet." revision="0" />
+  <Message key="Code pane" value="Koderude" revision="0" />
+  <Message key="Text pane" value="Tekstrude" revision="0" />
+  <Message key="Take from current window" value="Tag fra aktuelle vindue" revision="0" />
+  <Message key="Reset to Default" value="Nulstil til standard" revision="0" />
+  <Message key="Clear Cache" value="Slet cache" revision="0" />
+  <Message key="Layout settings" value="Editorlayout" revision="0" />
+  <Message key="Encoding settings" value="Sidst brugte kodninger" revision="0" />
+  <Message key="ViewSettingsDb settings" value="Editorstandarder" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="Marker &amp;alt" revision="1" />
+    <Item value="Marker alle data i en fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="Marker intet" revision="1" />
+    <Item value="Ryd aktuelle markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="Inverter markering" revision="1" />
+    <Item value="Inverter aktuelle markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="Marker ændringer" revision="1" />
+    <Item value="Marker ændrede data" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="Marker område" revision="1" />
+    <Item value="Angiv et dataområde og kombiner det med en aktuel markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="Indlæs markering…" revision="1" />
+    <Item value="Indlæs ny markering eller kombiner det med en aktuel markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="Gem markering…" revision="1" />
+    <Item value="Gem den aktuelle markering til en fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="Rediger celle" revision="1" />
+    <Item value="Rediger den aktuelle celle" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="&amp;Indsættelsestilstand" revision="1" />
+    <Item value="Slå indsættelsestilstand til/fra" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="Søg…" revision="1" />
+    <Item value="Søg mønster eller alle forekomster af mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="Søg &amp;næste" revision="1" />
+    <Item value="Søg næste forekomst af mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="Søg forrige" revision="1" />
+    <Item value="Søg forrige forekomst af mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="&amp;Erstat…" revision="1" />
+    <Item value="Erstat mønster med et andet mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="Udfyld…" revision="1" />
+    <Item value="Udfyld markering med byte eller mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="&amp;Indsæt…" revision="1" />
+    <Item value="Indsæt byte eller mønster" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="&amp;Gå til forskydning…" revision="1" />
+    <Item value="Gå til den angivne forskydning i fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="Ret filstørrelse…" revision="1" />
+    <Item value="Ret størrelsen på filen" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="Indsæt fi&amp;l…" revision="1" />
+    <Item value="Indsæt indholdet af diskfilen ved den aktuelle position. Data overskrives eller indsættes alt efter den aktuelle overskriv tilstand." revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="Kodning" revision="1" />
+    <Item value="Kodninger" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="Forbind til…" revision="1" />
+    <Item value="Forbinder dette vindue med et andet" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="&amp;Hex" revision="1" />
+    <Item value="Hexadecimal tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="&amp;Decimal" revision="1" />
+    <Item value="Decimal tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="&amp;Octal" revision="1" />
+    <Item value="Oktal tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="&amp;Binary" revision="1" />
+    <Item value="Binær tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="F&amp;lydende" revision="1" />
+    <Item value="Enkeltpræcisions reelt tal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="Dobb&amp;el" revision="1" />
+    <Item value="Dobbeltpræcisions reelt tal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="Byte" revision="1" />
+    <Item value="Grupper af byte" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Ord" revision="1" />
+    <Item value="Grupper af ord" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Dobbeltord" revision="1" />
+    <Item value="Grupper af dobbeltord" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Kvadruple ord" revision="1" />
+    <Item value="Grupper som kvadruple ord" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="&amp;Tekstrude" revision="1" />
+    <Item value="Vis eller skjul en tekstrude (ASCII eller UNICODE)" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="&amp;Hex" revision="1" />
+    <Item value="Vis adresser som hexadecimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="&amp;Decimal" revision="1" />
+    <Item value="Vis adresser som decimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="&amp;Oktal" revision="1" />
+    <Item value="Vis adresser som oktal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="Udregn &amp;automatisk" revision="1" />
+    <Item value="Udregn automatisk antallet af kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="&amp;4 kolonner" revision="1" />
+    <Item value="4 kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="&amp;8 kolonner" revision="1" />
+    <Item value="8 kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="&amp;16 kolonner" revision="1" />
+    <Item value="16 kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="&amp;32 kolonner" revision="1" />
+    <Item value="32 kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="&amp;Brugerdefineret…" revision="1" />
+    <Item value="Angiv antallet af kolonner" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="&amp;Little-Endian" revision="1" />
+    <Item value="Little-endian kodning" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="&amp;Big-Endian" revision="1" />
+    <Item value="Big-endian kodning" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="Byterækkefølge " revision="0" />
+    <Item value="Skift rækkefølge af byte" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="Krypter…" revision="1" />
+    <Item value="Krypter data i dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="Dekry&amp;pter…" revision="1" />
+    <Item value="Dekrypter data i dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="Ændre bit…" revision="1" />
+    <Item value="Ændre bit" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="&amp;Koderude" revision="1" />
+    <Item value="Vis eller skjul en koderude" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="Enkeltmarkering tilstand" revision="1" />
+    <Item value="Slå enkeltmarkering tilstand til/fra" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="Bitvis &amp;NOT…" revision="1" />
+    <Item value="Udfør en bitvis NOT handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="Bitvis &amp;OR…" revision="1" />
+    <Item value="Udfør en bitvis OR handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="Bitvis &amp;AND…" revision="1" />
+    <Item value="Udfør en bitvis AND handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="Bitvis &amp;XOR…" revision="1" />
+    <Item value="Udfør en bitvis XOR handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="N&amp;egation…" revision="1" />
+    <Item value="Udfør en aritmetisk negationshandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="Addition…" revision="1" />
+    <Item value="Udfør en aritmetisk additionshandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="&amp;Subtraktion…" revision="1" />
+    <Item value="Udfør en aritmetisk subtraktionshandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="&amp;Multiplikation…" revision="1" />
+    <Item value="Udfør en aritmetisk multiplikationshandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="D&amp;ivision…" revision="1" />
+    <Item value="Udfør en aritmetisk divisionshandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="&amp;Rest…" revision="1" />
+    <Item value="Udfør en aritmetisk resthandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="Sæt m&amp;inimum…" revision="1" />
+    <Item value="Sæt en minumumsværdi" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="Sæt maksimum…" revision="1" />
+    <Item value="Sæt en maksimumværdi" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="Lo&amp;gisk skift til venstre…" revision="1" />
+    <Item value="Udfør logisk handling der skifter bit i positioner til venstre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="Logisk skift til højre…" revision="1" />
+    <Item value="Udfør logisk handling der skifter bit i positioner til højre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="Aritmetisk skift til venstre…" revision="1" />
+    <Item value="Udfør arimetisk handling der skifter bit i positioner til venstre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="Arimetisk skift til højre…" revision="1" />
+    <Item value="Udfør arimetisk handling der skifter bit i positioner til højre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="Ro&amp;ter til venstre…" revision="1" />
+    <Item value="Udfør handling der roterer bit til venstre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="Roter til højre…" revision="1" />
+    <Item value="Udfør handling der roterer bit til højre" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="&amp;Små bogstaver" revision="1" />
+    <Item value="Konverter til små bogstaver for den aktuelle markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="Store bogstaver" revision="1" />
+    <Item value="Konverter til store bogstaver for den aktuelle markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="&amp;Inverter store/små bogstaver" revision="1" />
+    <Item value="Skift mellem store/små bogstaver for aktuelle markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="Ombyt bit…" revision="1" />
+    <Item value="Udfører en ombytning af bit" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="Byteombygning…" revision="1" />
+    <Item value="Udfør ombyt byte handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="Opdater (disk/hukommelse)" revision="1" />
+    <Item value="Opdater det aktuelle vindue (for disk, proces og hukommelse)" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="Kopier markeringsområder" revision="1" />
+    <Item value="Kopier listen af markeringsområder til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="Eksporter markeringsområder…" revision="1" />
+    <Item value="Eksporter listen af markeringsområder til filen" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="Slet alt" revision="1" />
+    <Item value="Sletter alt indhold af det aktuelle output vindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="Negation" revision="1" />
+    <Item value="Addition" revision="1" />
+    <Item value="Subtraktion" revision="1" />
+    <Item value="Multiplikation" revision="1" />
+    <Item value="Division" revision="1" />
+    <Item value="Rest" revision="1" />
+    <Item value="Sæt minimum" revision="1" />
+    <Item value="Sæt maksimum" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="Byte" revision="1" />
+    <Item value="Ord" revision="1" />
+    <Item value="Dobbelord" revision="1" />
+    <Item value="Kvadruple ord" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="Bitvis NOT" revision="1" />
+    <Item value="Bitvis OR" revision="1" />
+    <Item value="Bitvis AND" revision="1" />
+    <Item value="Bitvis XOR" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="Ombyt bit" revision="1" />
+    <Item value="Ombyt byte" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="Logisk venstre" revision="1" />
+    <Item value="Logisk højre" revision="1" />
+    <Item value="Aritmetisk venstre" revision="1" />
+    <Item value="Aritmetisk højre" revision="1" />
+    <Item value="Roter venstre" revision="1" />
+    <Item value="Roter højre" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="Ingen ændring" revision="1" />
+    <Item value="Erstat markering" revision="1" />
+    <Item value="Føj til markering" revision="1" />
+    <Item value="Fjern fra markering" revision="1" />
+    <Item value="Inverter markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="byte" revision="1" />
+    <Item value="mønsterforekomster" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="Eksporttype for markeringsområde" revision="1" />
+    <Item value="Brug hexadecimale numre" revision="1" />
+    <Item value="Brug decimale numre" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="Indsættelse af tekst" revision="1" />
+    <Item value="Du er ved at indsætte en tekst fra Udklipsholder. Det anbefales KRAFTIGT at læse den tilsvarende sektion i en inkluderet dokumentation, før denne handling udføres." revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="Søg alle" revision="1" />
+    <Item value="Søg alle understøtter kun visning af resultater når vinduet er i &quot;Hexbyte&quot; eller &quot;Decimalbyte&quot; tilstand. Ønsker du at skifte til denne tilstand nu?" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="byte" revision="1" />
+    <Item value="KB" revision="1" />
+    <Item value="MB" revision="1" />
+    <Item value="GB" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="Indsæt tekst" revision="1" />
+    <Item value="Funktionen Indsæt tekst gør det muligt at indsætte en tekst fra Udklipsholder og eventuelt fortolke en sekvens af decimale eller hexadecimale numre." revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="OVS" revision="1" />
+    <Item value="IND" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="Hex" revision="1" />
+    <Item value="Decimal" revision="1" />
+    <Item value="Oktal" revision="1" />
+    <Item value="Binær" revision="1" />
+    <Item value="Enkeltpræcisions reelt tal" revision="1" />
+    <Item value="Dobbeltpræcisions reelt tal" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="Marker" revision="0" />
+    <Item value="Markeringsmenu" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="Handling" revision="0" />
+    <Item value="Handlingsmenu" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="Vis som" revision="0" />
+    <Item value="Ret nummertype for celle" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="Grupper" revision="0" />
+    <Item value="Ret gruppetilstand for celle" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="Kolonner" revision="0" />
+    <Item value="Ret antal af kolonner" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="&amp;Byterækkefølge" revision="0" />
+    <Item value="Ret byterækkefølge" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="Forskydning" revision="2" />
+    <Item value="Ret type af forskydning" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="Forskydning" revision="2" />
+    <Item value="Ret type af forskydning" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="Kodninger" revision="1" />
+    <Item value="Funktionen Kodninger gør det muligt at ændre tegnkodningen for en tekstrude for enhvert editor vindue." revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="Samlet størrelse" revision="1" />
+    <Item value="Fragmenter" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="Antal" revision="1" />
+    <Item value="Adresse" revision="1" />
+    <Item value="Længde" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="Flere markeringer" revision="1" />
+    <Item value="Funktionen Flere markeringer gør det muligt at have flere markerede blokke af data og anvende editeringskommandoer på dem alle." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="Søg alle forekomster" revision="1" />
+    <Item value="Funktionen Søg alle forekomster finder hurtigt alle forekomster efter et mønster i en fil (eller indenfor en markering) og konverterer dem til markeringen." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="Erstat alle forekomster" revision="1" />
+    <Item value="Funktionen Erstat alle forekomster finder hurtigt alle forekomster af et mønster og erstatter dem med et andet mønster. Møstrene kan være forskellige størrelser og erstatningsmønsteret kan være tomt." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="Gem markering" revision="1" />
+    <Item value="Funktionen Gem markering gør det muligt at gemme den aktuelle markering til fil." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="Indlæs markering" revision="1" />
+    <Item value="Funktionen Indlæs markering gør det muligt at indlæse en markering fra fil. Indlæste markeringer kan tilføjes den aktuelle markering eller fratrækkes den." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="Forbind til" revision="1" />
+    <Item value="Funktionen Forbind til gør det muligt at forbinde to vinduer. Forbundne vinduer binder markørbevægelser i dem." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="Krypter/Dekrypter" revision="1" />
+    <Item value="Funktionerne Krypter/Dekrypter gør det muligt at kryptere (og dekryptere) de markerede data, hvor enhver installeret stream eller blokkryptering kan bruges." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="Datahandlinger" revision="1" />
+    <Item value="Funktionen datahandlinger gør det muligt at udføre bitvise, aritmetiske, skiftede, store/små bogstavs- og inverterede handlinger på markeret data." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="Kopier markeringsområder" revision="1" />
+    <Item value="Funktionen Kopier markeringsområder gør det muligt at kopiere listen af aktuelle markeringsområder til Udklipsholder." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="Eksport markeringsområder" revision="1" />
+    <Item value="Funktionen Eksporter markeringsområder gør det muligt at eksportere listen af markeringsområder til tekstfilen." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="Fejl - Ingen krypteringsalgoritme valgt." revision="1" />
+    <Item value="Ok" revision="1" />
+    <Item value="De indtastede adgangskoder er ikke identiske." revision="1" />
+    <Item value="Fejl - Adgangskoden er ikke angivet." revision="1" />
+    <Item value="Fejl - Nøglelængde skal være i multipla af 8." revision="1" />
+    <Item value="Fejl - Ugyldig nøglelængde." revision="1" />
+  </Enumeration>
+  <Enumeration key="ColorNames">
+    <Item value="Tekst" revision="1" />
+    <Item value="Baggrund" revision="1" />
+    <Item value="Adresse" revision="1" />
+    <Item value="Adressebaggrund" revision="1" />
+    <Item value="ASCII/UNICODE tekst" revision="1" />
+    <Item value="ASCII/UNICODE baggrund" revision="1" />
+    <Item value="Lige kolonner/rækker (for stribede rækker/kolonner tilstand)" revision="1" />
+    <Item value="Ulige kolonner/rækker (for stribede rækker/kolonner tilstand)" revision="1" />
+    <Item value="&quot;Ingen data&quot; tekst" revision="1" />
+    <Item value="Markørudfylding" revision="1" />
+    <Item value="Markørkontur" revision="1" />
+    <Item value="Aktive række og kolonne fremhævtekst" revision="1" />
+    <Item value="Aktive række og kolonne fremhævbaggrund" revision="1" />
+    <Item value="Ændret tekst" revision="1" />
+    <Item value="Ændret baggrund" revision="1" />
+    <Item value="Ændret kontur" revision="1" />
+    <Item value="Markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="Markering" revision="1" />
+    <Item value="Markør" revision="1" />
+    <Item value="Ændret tekst" revision="1" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Stifinder 1" revision="0" />
+  <Message key="Explorer 2" value="Stifinder 2" revision="0" />
+  <Message key="Invalid path specified" value="Ugyldig sti angivet" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(fejl ved kopiering af mapper)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Fejl ved kopiering af filer:" revision="0" />
+  <Message key="Loading" value="Indlæser stifinder" revision="0" />
+  <Message key="Initializing" value="Initialiserer stifinder" revision="0" />
+  <Message key="Explorer settings" value="Stifinder" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Forrige" revision="0" />
+    <Item value="Gå til forrige placering" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Næste" revision="0" />
+    <Item value="Gå til næste placering" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Op" revision="0" />
+    <Item value="Gå til overordnet mappe" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Find aktuelle" revision="0" />
+    <Item value="Synkroniser aktuelle mappe med Browser" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Søg i filer" revision="0" />
+    <Item value="Åbn dialog til Søg i filer" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Mapper" revision="0" />
+    <Item value="Slå Browservindue til/fra" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Indbygget stifinder" revision="0" />
+    <Item value="Funktionsvindue til indbygget stifinder efterligner Windows Stifinder og er højt integreret i Hex Editor. Et stifinder vindue er tilgængeligt i Standard udgave og to er tilgængelige i Professional og Ultimate udgaverne. " revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 indbyggede stifindere" revision="0" />
+    <Item value="Funktionsvindue til indbygget stifinder efterligner Windows Stifinder og er højt integreret i Hex Editor. Et stifinder vindue er tilgængeligt i Standard udgave og to er tilgængelige i Professional og Ultimate udgaverne. " revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="CapYes" value="Ja" revision="1" />
+  <Message key="CapNo" value="Nej" revision="1" />
+  <Message key="DiskInfoFmt" value="Byte pr. sektor: {bps}\tSektorer i alt: {total sectors}\r\nSektorer pr. spor: {sectors per track}\tSpor i alt: {total tracks}\r\nSpor pr. cylinder: {tracks per cylinder}\tCylindere i alt: {total cylinders}\r\nHoveder i alt: {total heads}\r\n\r\nDiskpatitionstabel:\r\nPartitionstype: {partition type}\r\nAntal partitioner: {npartitions}\r\n" revision="1" />
+  <Message key="PartitionInfoFmt" value="\r\nPartition #{partition_n}:\r\n   Forskydning starter: {offset}\r\n   Længde: {length}\r\n" revision="1" />
+  <Message key="Unused" value="Ikke brugt" revision="1" />
+  <Message key="PartitionTypeMBRFmt" value="   Partitionstype: {type}\r\n   Bootstart: {bootable}\r\n   Genkendt: {recognized}\r\n   Skjulte sektorer: {hidden_sectors}\r\n" revision="1" />
+  <Message key="PartitionTypeGPTFmt" value="  Partitionstype: {type}\r\n   Partitions-id: {id}\r\n   Attributes: {attr}\r\n   Name: {name}\r\n" revision="1" />
+  <Message key="Disk: {disk}" value="Disk: {disk} ({serial number})" revision="2" />
+  <Message key="Open Disk" value="Åbn disk" revision="1" />
+  <Message key="Select a physical disk to open" value="Vælg en fysisk disk at åbne:" revision="1" />
+  <Message key="Disk information" value="Disk-information:" revision="1" />
+  <Message key="Open as Read-Only" value="Åben skrivebeskyttet" revision="1" />
+  <Message key="Create and open snapshot" value="Opret og åbn øjebliksbillede" revision="0" />
+  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Vent venligt mens Hex Editor Neo scanner fysiske diske…" revision="1" />
+  <Message key="General Page" value="Generelt" revision="1" />
+  <Message key="Using this product you are saving environment!" value="Du skåner miljøet ved at bruge dette produkt!" revision="1" />
+  <Message key="EcoMessage" value="\r\nHex Editor Neo's basis algoritmer er højt optimerede og omhyggeligt tunet til at spare dig tid og bruge meget mindre energi og resurser.\r\n\r\nVi tænker på fremtiden!" revision="1" />
+  <Message key="FeatureNotAvailableTitle" value="Funktionen er ikke tilgængelig (lukker om {seconds} sekunder…)" revision="1" />
+  <Message key="FeatureNotAvailable" value="Funktionen {feature}, som du prøver at bruge, er ikke tilgængelig i den aktuelle udgave og er en del af {edition} udgaven. Vælg en handling herunder for at fortsætte:" revision="1" />
+  <Message key="FeatureExpired" value="Funktionen {feature}, som du prøver at bruge, er udløbet og er en del af {edition} udgaven. Vælg en handling herunder for at fortsætte:" revision="1" />
+  <Message key="EditionStandard" value="Standard" revision="1" />
+  <Message key="EditionPro" value="Professional" revision="1" />
+  <Message key="EditionUltimate" value="Ultimate" revision="1" />
+  <Message key="Trial period started" value="Prøveperioden er startet. Du har nu 14 dage til at evaluere alle funktionerne i Hex Editor Neo. Efter prøveperioden er udløbet kan du enten fortsætte med funktionerne i Gratis udgaven eller opgradere til Standard, Professional eller Ultimate udgaven." revision="1" />
+  <Message key="Free started" value="Gratis Hex Editor Neo. Din kopi af Hex Editor Neo er nu konfigureret til at køre i GRATIS tilstand. Det er muligt at anvende en bred vifte af funktioner som er inkluderet i den gratis udgave.\r\n\r\nDet er også muligt på et hvilket som helst tidspunkt at starte evaluering af funktioner som er en del af Standard, Professional og Ultimate udgaverne. " revision="1" />
+  <Message key="R/O" value="Skrivebeskyttet" revision="1" />
+  <Message key="Continue in Read-Only mode" value="Fortsæt i skrivebeskyttet tilstand" revision="1" />
+  <Message key="Continue in Full mode" value="Forsæt i fuld tilstand" revision="0" />
+  <Message key="SavePastePrompt" value="Du har andre filer åbnet som gør brug af dele fra denne fil. Du kan ikke gemme ændringer foretaget i dokumentet før disse filer er lukket. Ønsker du at gemme filen under et andet navn?" revision="1" />
+  <Message key="SaveError" value="Fejl ved gem af fil: {text} ({code})" revision="1" />
+  <Message key="SaveErrors" value="Følgende fejl opstod ved gem:\r\n{errors}" revision="1" />
+  <Message key="DocumentChangePrompt" value="Det aktuelle dokument er ændret. Ønsker du at gemme det?\r\n\r\n{name}" revision="1" />
+  <Message key="AllFilesFilterString" value="Alle filer|*|" revision="1" />
+  <Message key="AllSupportedFormats" value="Alle understøttede dokumenter ({mask})|{mask}|" revision="1" />
+  <Message key="NoLoadHandlersRegistered" value="Programmet er ikke installeret korrekt. Installer venligst programmet igen." revision="1" />
+  <Message key="OldCommonControls" value="En gammel version af fælles kontrolelementer er fundet. Installer venligst de seneste servicepakker og Internet Explorer til dit operativsystem. Programmet afsluttes." revision="1" />
+  <Message key="Loading" value="Henter" revision="1" />
+  <Message key="Initializing user interface" value="Initialiserer brugergrænseflade" revision="1" />
+  <Message key="Finishing initialization" value="Færdigører initialiseringen" revision="1" />
+  <Message key="TooManyDocs" value="Det anbefales ikke at åbne mange dokumenter i editoren på samme tid, da det kan reducere hastigheden på computeren. Er du sikker på du fortsæt vil åbne disse dokumenter?" revision="1" />
+  <Message key="DocumentsBusy" value="Et eller flere dokumenter er optaget af en handling der tager lang tid, og programmet kan derfor ikke afsluttes. Afbryd handlingen først." revision="1" />
+  <Message key="Application Close" value="Programafslutning" revision="1" />
+  <Message key="DocumentsBusySaveAll" value="Et eller flere dokumenter er optaget af en handling der tager lang tid. Afbryd handlingen først." revision="1" />
+  <Message key="Save All" value="Gem alle" revision="1" />
+  <Message key="Open Shared File" value="Åbn delt fil" revision="1" />
+  <Message key="LoadErrors" value="Følgende fejl opstod ved indlæsning:\r\n{errors}" revision="1" />
+  <Message key="NoHandlersFoundError" value="Der blev ikke fundet nogle handlere som kunne åbne denne fil." revision="1" />
+  <Message key="VolumeOpenError" value="Fejl ved åbning af enhed: {text} ({code})" revision="1" />
+  <Message key="PhysMemError" value="Fejl ved åbning af fysisk hukommelse: {text} ({code})" revision="1" />
+  <Message key="EditorInitializationError" value="Editor vinduet kan ikke initialiseres" revision="1" />
+  <Message key="NoEditorsFoundError" value="Det var ikke muligt at finde en editor der understøtter denne fil." revision="1" />
+  <Message key="NoSupportForPhysMem" value="Fysisk hukommelse er ikke tilgængelig for programmer i brugertilstand i denne version af operativsystemet. Denne funktion er kun understøttet i Windows 2000 og Windows XP." revision="1" />
+  <Message key="ToolsFilter" value="Konfigurationsfiler til funktioner (*.hexdwc)|*.hexdwc|" revision="1" />
+  <Message key="Printing" value="Udskriver" revision="1" />
+  <Message key="ActivatePane" value="Aktiver {pane} rude" revision="1" />
+  <Message key="New Document N" value="Nyt dokument {ordinal}" revision="1" />
+  <Message key="AlreadyOpened" value="&quot;{path}&quot;: Dokumentet er allerede åbnet i editoren.\r\n" revision="1" />
+  <Message key="UnknownVolume" value="Unavngivet enhed {ordinal}" revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo kunne ikke få adgang til følgende dokumenter og har lukket dem. Du har muligvis mistet alle dine ændringer i dokumenterne:\r\n{document list}\r\n\r\nLuk dokumenter før du fjerner flytbare medier for at undgå tab af data i fremtiden." revision="1" />
+  <Message key="Activate this window" value="Aktiver dette vindue" revision="1" />
+  <Message key="Settings" value="Indstillinger" revision="1" />
+  <Message key="ElevationError" value="Kunne ikke elevere rettigheder. Fejlbesked: {error}" revision="1" />
+  <Message key="ElevationErrorTitle" value="Fejl ved elevering" revision="1" />
+  <Message key="This toolbar cannot be deleted." value="Denne værktøjslinje kan ikke slettes." revision="1" />
+  <Message key="Toolbar Deletion Failed" value="Sletning af værktøjslinje fejlede" revision="1" />
+  <Message key="Invalid toolbar name" value="Ugyldigt navn til værktøjslinje. Navne skal starte med et bogstav." revision="1" />
+  <Message key="Toolbar Creation Failed" value="Oprettelse af værktøjslinje fejlede" revision="1" />
+  <Message key="Toolbar already exists" value="Der findes allerede en værktøjslinje med det angivne navn." revision="1" />
+  <Message key="All commands" value="Alle kommandoer" revision="1" />
+  <Message key="Commands Page" value="Kommandoer" revision="1" />
+  <Message key="Toolbars" value="Værktøjslinjer:" revision="1" />
+  <Message key="New" value="&amp;Ny…" revision="1" />
+  <Message key="Delete" value="&amp;Slet" revision="1" />
+  <Message key="Button size" value="Knapstørrelse:" revision="1" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Marker en kommando for at få vist en beskrivelse, eller træk kommandoen til en værktøjslinje:" revision="1" />
+  <Message key="Keyboard" value="Tastatur" revision="1" />
+  <Message key="MaxShortcuts" value="Du kan ikke tildele mere end 5 genveje til en kommando." revision="1" />
+  <Message key="ShortcutExists" value="Denne genvej er allerede defineret for {command}. Ønsker du at omdefinere det?" revision="1" />
+  <Message key="Keyboard Page" value="Tastatur" revision="1" />
+  <Message key="Category" value="Kategori:" revision="1" />
+  <Message key="Commands" value="Kommandoer:" revision="1" />
+  <Message key="Current keys" value="Nuværende taster:" revision="1" />
+  <Message key="Press new shortcut key" value="Tryk på &amp;ny genvejstaste:" revision="1" />
+  <Message key="Description" value="Beskrivelse:" revision="1" />
+  <Message key="Currently assigned to" value="Nuværende tildeling:" revision="1" />
+  <Message key="Assign" value="&amp;Tildel" revision="1" />
+  <Message key="Keyboard Map" value="Tastatur&amp;oversigt" revision="1" />
+  <Message key="[unassigned]" value="[ikke tildelt]" revision="1" />
+  <Message key="Keyboard Map Dialog" value="Tastaturoversigt" revision="1" />
+  <Message key="Print" value="&amp;Udskriv" revision="1" />
+  <Message key="General" value="Generelt" revision="1" />
+  <Message key="DisplaySplashScreen" value="Vis velkomstbillede" revision="1" />
+  <Message key="AlwaysCreateBackups" value="Tag altid backup" revision="1" />
+  <Message key="LowercaseHex" value="Hexadecimal med små bogstaver" revision="1" />
+  <Message key="ConvertFloatingPoint" value="Ændring af byterækkefølge påvirker flydende komma typer." revision="1" />
+  <Message key="DocumentsToRemember" value="Antal til visning af senest anvendte dokumenter" revision="1" />
+  <Message key="ClosesCurrentOnly" value="Luk foretages kun på det aktuelle værktøjsvindue." revision="1" />
+  <Message key="RestoreWindowPosition" value="Gendan hovedvinduets position ved start" revision="1" />
+  <Message key="DisableVectorCaching" value="Deaktiver cachelagring af vektorgrafik" revision="1" />
+  <Message key="SkipNagScreen" value="Spring over nag-skærm" revision="1" />
+  <Message key="Notifications" value="Beskeder" revision="1" />
+  <Message key="SaveNotification" value="Dokument gemmes" revision="1" />
+  <Message key="OpenPhysicalMemory" value="Fysisk hukommelse åbnes" revision="1" />
+  <Message key="OpenDisk" value="Enhed/disk åbnes" revision="1" />
+  <Message key="Task" value="Opgave" revision="1" />
+  <Message key="Hex Editor Neo trial period has expired." value="Hex Editor Neo prøveperiode er udløbet." revision="1" />
+  <Message key="Continue in Free Mode" value="Fortsæt i gratis tilstand." revision="1" />
+  <Message key="Expired." value="Udløbet." revision="1" />
+  <Message key="{days} days left" value="{days} dage tilbage" revision="1" />
+  <Message key="ExpiresOn" value=", udløber {date}" revision="1" />
+  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
+  <Message key="OpenLicenseFilter" value="Licensfiler (*.hexlic)|*.hexlic|Alle filer|*.*|" revision="1" />
+  <Message key="License Installation" value="Installation af licens" revision="1" />
+  <Message key="LicenseInstallSuccess" value="Installation af licens lykkedes. Det anbefales at genstarte programmet. Mange tak for at du valgte Hex Editor Neo!" revision="1" />
+  <Message key="LicenseInstallFailure" value="Licensfilen har et ugyldigt format eller er udløbet. Log på din konto for at hente ny licens fil." revision="1" />
+  <Message key="LicenseInstallRemove" value="Fjernelse af licensen vil skifte programmet til gratis tilstand. Er du sikker på du ønsker at fortsætte?" revision="1" />
+  <Message key="VolumeInfo" value="Samlet plads:\t{total_space_kb} ({total_space})\r\nLedig plads:\t{free_space_kb} ({free_space})\r\nTilgængelig plads:\t{available_space_kb} ({available_space})" revision="1" />
+  <Message key="Volume #" value="Enhed: {name}" revision="1" />
+  <Message key="OK" value="Ok" revision="1" />
+  <Message key="Cancel" value="Annuller" revision="1" />
+  <Message key="Reset" value="&amp;Nulstil" revision="1" />
+  <Message key="Help" value="&amp;Hjælp" revision="1" />
+  <Message key="Yes" value="&amp;Ja" revision="1" />
+  <Message key="No" value="&amp;Nej" revision="1" />
+  <Message key="Close" value="Luk" revision="1" />
+  <Message key="Add" value="&amp;Tilføj" revision="1" />
+  <Message key="Edit" value="&amp;Rediger" revision="0" />
+  <Message key="Remove" value="&amp;Fjern" revision="1" />
+  <Message key="Remove All" value="Fjern a&amp;lle" revision="1" />
+  <Message key="Reset All" value="Nulstil a&amp;lle" revision="1" />
+  <Message key="Copy" value="&amp;Kopier" revision="1" />
+  <Message key="Continue" value="Fortsæt" revision="1" />
+  <Message key="KB" value="kB" revision="1" />
+  <Message key="MB" value="MB" revision="1" />
+  <Message key="GB" value="GB" revision="1" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="Regular expression" value="Regulær udtryk" revision="1" />
+  <Message key="Sub-match:" value="Sub-match:" revision="1" />
+  <Message key="Recent Patterns…" value="Seneste mønstre…" revision="1" />
+  <Message key="Type:" value="Type:" revision="1" />
+  <Message key="Find what:" value="Søg efter:" revision="1" />
+  <Message key="FREmpty" value="Tom" revision="1" />
+  <Message key="Custom colors:" value="Brugerdefinerede farver:" revision="1" />
+  <Message key="Default colors:" value="Standard farver:" revision="1" />
+  <Message key="Alpha" value="Alfa" revision="1" />
+  <Message key="Custom…" value="Tilpas…" revision="1" />
+  <Message key="Windows Title" value="Vindue" revision="1" />
+  <Message key="Save" value="Gem" revision="1" />
+  <Message key="Close Window(s)" value="Luk vindue(r)" revision="1" />
+  <Message key="x64edition" value="(x64 udgave)" revision="1" />
+  <Message key="AboutInfo" value="HDD Software {product}{x64?} (x64 udgave) {?x64}\n{edition}. Version {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nAlle rettigheder forbeholdes." revision="4" />
+  <Message key="AboutBoxDisclaimer" value="Advarsel: Dette computerprogram er beskyttet af ophavsretlige love og internationale traktater. Uautoriseret reproduktion eller distribution af dette program, eller dele heraf, kan få alvorlige civil- og strafferetslige følger og vil blive retsforfulgt i videst muligt omfang inden for den gældende lovgivning." revision="1" />
+  <Message key="About Hex Editor Neo" value="Om Hex Editor Neo" revision="1" />
+  <Message key="Choose Default User Interface Layout" value="Vælg standard brugergrænseflade layout" revision="1" />
+  <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Vælg en standard konfiguration til brugergrænseflade. Du kan altid vælge en anden konfiguration ved at vælge menuen &quot;Vindue - Forudvalgte brugergrænseflader&quot; " revision="1" />
+  <Message key="Novice user" value="Begynder bruger" revision="1" />
+  <Message key="Advanced user" value="Avanceret bruger" revision="1" />
+  <Message key="Expert user" value="Ekspert bruger" revision="1" />
+  <Message key="Select the icon set. You can later change it on General Settings Tab (Tools » Settings menu option)." value="Vælg et ikonsæt. Du kan ændre det senere under fanen Generelle indstillinger (menuindstilling under Funktioner - Indstillinger)." revision="1" />
+  <Message key="Neo 5 icon set" value="Neo 5 ikonsæt" revision="1" />
+  <Message key="Classic icon set" value="Klassisk ikonsæt" revision="1" />
+  <Message key="Application restart required." value="Genstart af programmet er nødvendigt." revision="1" />
+  <Message key="Configure color scheme after I close this window" value="Konfigurer farveskema efter jeg lukker dette vindue" revision="1" />
+  <Message key="Select the size of toolbar buttons:" value="Vælg størrelse på værktøjslinjeknapper:" revision="1" />
+  <Message key="Feature not Available" value="Funktion ikke tilgængelig" revision="1" />
+  <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="Funktionen du prøver at anvende, er ikke tilgængelig i den aktuelle version.\r\nVælg en anden handling herunder for at fortsætte:" revision="1" />
+  <Message key="New Toolbar" value="Ny værktøjslinje" revision="1" />
+  <Message key="Enter toolbar name" value="Angiv navn for værktøjslinjen" revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Til brug i hjem og skole. Se &lt;a&gt;politik vedrørende brug&lt;/a&gt; for mere information." revision="1" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Til kommerciel, offentlig eller milltær brug er &lt;a&gt;opgradering&lt;/a&gt; nødvendigt." revision="1" />
+  <Message key="Do not display this warning anymore" value="Vis ikke denne meddelelse igen" revision="1" />
+  <Message key="Save changes to selected documents" value="Gem ændringerne til de valgte dokumenter:" revision="1" />
+  <Message key="Special Offer" value="Særtilbud" revision="1" />
+  <Message key="Tasks Page" value="Opgaver" revision="1" />
+  <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Angiv hvilke opgaver der er tilgængelige på Hex Editor Neos ikon på proceslinjen" revision="1" />
+  <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo prøveperiode" revision="1" />
+  <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo arbejder i prøvetilstand. Alle funktioner er aktive." revision="1" />
+  <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="Når prøveperioden er udløbet vil Hex Editor Neo fortsat være funktionsdygtig. Det vil dog kun være funktioner til den gratis udgave, der vil være tilgængelige." revision="1" />
+  <Message key="Upgrade Now…" value="Opgrader nu…" revision="1" />
+  <Message key="Compare Editions…" value="Sammenlign udgaver…" revision="1" />
+  <Message key="Continue Trial" value="Fortsæt prøveversion" revision="1" />
+  <Message key="License Management and Upgrading" value="Administration af licenser og opgradering" revision="1" />
+  <Message key="Installed license" value="Installeret licens:" revision="1" />
+  <Message key="Start Trial now!" value="Start prøveperiode nu!" revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Vælg den udgave du ønsker at opgradere til. Vælg &quot;Mere information…&quot; linket for at få mere information om den valgte udgave og &quot;Sammenlign udgaver…&quot; linket for at få en sammenligningstabel over udgaverne." revision="1" />
+  <Message key="Standard Edition:" value="Standard udgave:" revision="1" />
+  <Message key="More Info…" value="Mere information…" revision="1" />
+  <Message key="Upgrade…" value="Opgrader…" revision="1" />
+  <Message key="Professional Edition:" value="Professional udgave:" revision="1" />
+  <Message key="Ultimate Edition:" value="Ultimate udgave:" revision="1" />
+  <Message key="Compare editions…" value="Sammenlign udgaver…" revision="1" />
+  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Har du allerede modtaget en licensfil, så klik på &quot;Installer licens…&quot; knappen." revision="1" />
+  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Har du brug for at forny en licens, så klik på &quot;Hent licens…&quot; knappen. (Kræver logon og adgangskode.)" revision="1" />
+  <Message key="Install License…" value="Installer licens…" revision="1" />
+  <Message key="Download License…" value="Hent licens…" revision="1" />
+  <Message key="Remove License" value="Fjern licens" revision="1" />
+  <Message key="Open Volume" value="Åbn enhed" revision="1" />
+  <Message key="Select a volume to open" value="Vælg en enhed til at åbne:" revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Vent venligst mens Hex Editor Neo skanner systemenheder…" revision="1" />
+  <Message key="File system capabilities" value="Egenskaber for filsystem:" revision="1" />
+  <Message key="Space" value="Plads:" revision="1" />
+  <Message key="ProgressPleaseWait" value="Vent venligst…" revision="1" />
+  <Message key="ProgressPerSec" value="{rate}/sek" revision="1" />
+  <Message key="ProgressCalculating" value="Beregner…" revision="1" />
+  <Message key="ProgressDone" value="{percent} % færdig." revision="1" />
+  <Message key="Error" value="Fejl" revision="0" />
+  <Message key="PredefinedDelete" value="Sletning af foruddefineret farveskema er ikke tilladt. Kun brugerdefinerede skemaer kan slettes." revision="0" />
+  <Message key="Round edges" value="Runde hjørner" revision="0" />
+  <Message key="Text" value="Tekst" revision="0" />
+  <Message key="Coloring" value="Farvelægning" revision="0" />
+  <Message key="Background" value="Baggrund" revision="0" />
+  <Message key="Outline" value="Kontur" revision="0" />
+  <Message key="Coloring Schemes" value="Farveskemaer" revision="0" />
+  <Message key="Scroll Left" value="Rul til venstre" revision="0" />
+  <Message key="Scroll Right" value="Rul til højre" revision="0" />
+  <Message key="RocketClose" value="Luk" revision="0" />
+  <Message key="Auto Hide" value="Skjul automatisk" revision="0" />
+  <Message key="Switch Window" value="Skift vindue" revision="0" />
+  <Message key="Active Tool Windows" value="Aktive værktøjsvinduer" revision="0" />
+  <Message key="Active Documents" value="Aktive dokumenter" revision="0" />
+  <Message key="Checking for new version" value="Søger efter seneste version" revision="1" />
+  <Message key="You are using the most recent version of the software." value="Du bruger den seneste version af Hex Editor Neo" revision="1" />
+  <Message key="Language Page" value="Sprog" revision="0" />
+  <Message key="Downloading language pack" value="Hent sprogpakke" revision="0" />
+  <Message key="Product language" value="Produktsprog" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Skift af produktsprog kræver genstart af Hex Editor Neo." revision="0" />
+  <Message key="Languages online" value="Sprog online" revision="0" />
+  <Message key="Refresh" value="&amp;Opdater" revision="0" />
+  <Message key="ButtonRefreshing" value="Opdaterer…" revision="0" />
+  <Message key="Download" value="&amp;Hent" revision="0" />
+  <Message key="Language pack" value="Sprogpakke: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Hvis du fjerner de valgte opdateringer vil Hex Editor Neo ikke længere give besked om dem. Du vil stadig få beskeder om fremtidige opdateringer.\r\n\r\nØnsker du stadig at fjerne de valgte opdateringer?" revision="0" />
+  <Message key="LangPackUpdated" value="Sprogpakke(r) opdateret. Du skal genstarte programmet for at genindlæse sprogpakken.\r\n\r\nØnsker du at genstarte nu?" revision="0" />
+  <Message key="SavingAll" value="Gemmer ændringerne" revision="0" />
+  <Message key="Component Updates" value="Komponentopdateringer" revision="0" />
+  <Message key="The following updates are found:" value="Følgende opdateringer er fundet:" revision="0" />
+  <Message key="Check for updates" value="Søg efter opdateringer" revision="0" />
+  <Message key="Start Download" value="Start hentning" revision="0" />
+  <Message key="View Changes…" value="Gennemse ændringer…" revision="0" />
+  <Message key="Discard" value="Fjern" revision="0" />
+  <Message key="ActionSelection" value="{name} er hentet. Hvad ønsker du at gøre med den?" revision="1" />
+  <Message key="CopyError" value="Der opstod en fejl ved kopieringen af den hentede fil ({code}). Kører installationsprogrammet fra standardplacering." revision="1" />
+  <Message key="LaunchError" value="Der opstod en fejl ({code}) ved kørsel af det hentede afbildning." revision="1" />
+  <Message key="File creation error" value="Der opstod en fejl {create?}ved oprettelse{|create}ved åbning{?create} af filen &quot;{name}&quot;: {text} ({code})" revision="1" />
+  <Message key="New Version Downloaded" value="Ny version hentet" revision="0" />
+  <Message key="Install now" value="Installer nu" revision="1" />
+  <Message key="Make a copy and install now" value="Lav en kopi og installer nu" revision="1" />
+  <Message key="LangChanged" value="Du skal genstarte Hex Editor Neo efter ændring af sproget. Ønsker du at genstarte nu?" revision="0" />
+  <Message key="ChangeLanguage" value="Ændring af sprog" revision="0" />
+  <Message key="AccessLangsOnline" value="Opret forbindelse til online lager" revision="0" />
+  <Message key="UseLanguage" value="Brug denne sprogpakke" revision="0" />
+  <Message key="I can't find my language in this list." value="Jeg kan ikke finde mit sprog i denne liste." revision="0" />
+  <Message key="Credits to" value="Tak til:" revision="0" />
+  <Message key="SignatureError" value="Hex Editor Neo har hentet en opdatering, men den fejlede på integritetskontroller. Dette kan indikere midlertidige eller permanente netværkskonfigurationsfejl. Prøv venligt at opdatere igen senere." revision="0" />
+  <Message key="ExecutablesFilter" value="Eksekverbare filer|*.exe|Alle filer|*.*||" revision="1" />
+  <Message key="YourLanguage" value="Brugerdefineret sprog tilgængelig online." revision="0" />
+  <Message key="NewBetaVersions" value="Der er fundet nye betaversioner" revision="0" />
+  <Message key="Language pack storage location" value="Lagerplacering for sprogpakker" revision="0" />
+  <Message key="License Upgrade Notification" value="Hex Editor Neo har fundet en licens fra den tidligere version. Licens kan ikke opdateres automatisk. Du skal logge på My Account sektionen for at hente en opgraderet licens (Der kan være yderligere omkostninger afhængigt af dine indledende købsmuligheder).\n\nØnsker du at gå til My Account sektionen nu?" revision="0" />
+  <Message key="CSVFiles" value="CSV filer (*.csv)|*.csv||" revision="0" />
+  <Message key="Rocket settings" value="Funktionsvinduelayout (inklusiv værktøjslinjer)" revision="0" />
+  <Message key="Bars settings" value="Værktøjslinjelayout" revision="0" />
+  <Message key="Windows settings" value="Dialogvinduepositioner" revision="0" />
+  <Message key="MRU settings" value="Senest brugte dokumenter" revision="0" />
+  <Message key="Props settings" value="Generelle indstillinger" revision="0" />
+  <Message key="Language settings" value="Sprogindstillinger" revision="0" />
+  <Message key="Setting files" value="Indstillinger (*.hexset)|*.hexset|Alle filer|*|" revision="0" />
+  <Message key="Export successful" value="Indstillinger er gemt i en fil." revision="0" />
+  <Message key="Import successful" value="Indstillinger er importeret." revision="0" />
+  <Message key="Settings Page" value="Indstillinger" revision="0" />
+  <Message key="Settings Storage Location" value="Lagerplacering for indstillinger" revision="0" />
+  <Message key="Settings Management" value="Administration for indstillinger" revision="0" />
+  <Message key="Export Settings…" value="Eksporter indstillinger…" revision="0" />
+  <Message key="Import Settings…" value="Importer indstillinger…" revision="0" />
+  <Message key="Reset Settings…" value="Nulstil indstillinger…" revision="0" />
+  <Message key="Ask to import settings" value="Den specificerede fil findes allerede. Ønsker du at importere dens indhold nu? Hvis du klikker Nej, vil filen blive overskrevet med de aktuelle indstillinger." revision="0" />
+  <Message key="Ask to reset settings" value="Programmet skal genstartes for at nulstille indstillinger. Ønsker du at fortsætte?" revision="0" />
+  <Message key="Ask to restart" value="Det anbefales at genstarte programmet for at anvende de importerede indstillinger. Ønsker du at genstarte nu?" revision="0" />
+  <Message key="Select Components" value="Vælg komponenter" revision="0" />
+  <Message key="Select components:" value="Vælg komponenter:" revision="0" />
+  <Message key="Select all" value="Vælg alle" revision="0" />
+  <Message key="Beta Page" value="Beta" revision="0" />
+  <Message key="Beta title info" value="Denne side gør det muligt at søge og hente valgfrie betakomponenter. Disse komponenter kan tilføje eksperimenterende funktioner eller rette rapporterede fejl. Markér de komponenter du ønsker at installere, fjern markeringen for de komponenter du ønsker at afinstallere og tryk på knappen Opdater." revision="1" />
+  <Message key="BetaUpdateButton" value="&amp;Opdater" revision="0" />
+  <Message key="Available beta modules:" value="Tilgængelige betamoduler:" revision="0" />
+  <Message key="There are no updates available." value="Der er ingen tilgængelige opdateringer." revision="0" />
+  <Message key="BetaInstalled" value="Konfigurationsopdatering af komponent lykkedes. Det er nødvendigt at genstarte Hex Editor Neo for, at ændringerne kan anvendes." revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}Følgende komponenter vil blive hentet og installeret:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}Følgende komponenter vil blive afinstalleret:\r\n\n{deleted components}{?has deleted}\r\n\nØnsker du at fortsætte?" revision="0" />
+  <Message key="BetaConflicts" value="Markerede komponenter er i konflikt med installerede komponenter eller med hinanden. Følgende komponenter skal fjernes for at kunne fortsætte:\r\n\n{components}\r\n\nØnsker du at fjerne disse og fortsætte?" revision="0" />
+  <Message key="BetaHeader" value="Betaversion" revision="0" />
+  <Message key="BetaDownloadError" value="Det opstod en fejl ved hentning af de markerede komponenter. Prøv venligst igen senere." revision="1" />
+  <Message key="BetaAdvanced" value="&amp;Avanceret…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="Indtast opdaterings-ID som du har modtaget fra HHD Softwares supportafdeling:" revision="0" />
+  <Message key="Manual Installation" value="Manuel installation" revision="0" />
+  <Message key="Crash Page" value="Rapportering om nedbrud" revision="0" />
+  <Message key="CrashIntro" value="Hvis du ønsker at få besked om status for din indsendte rapportering om nedbrud, og du ønsker at din rapportering bliver behandlet hurtigere, så angiv din emailadresse i feltet nedenfor. Din emailadresse vil ikke blive anvendt til andet ud over samtale vedrørende din indsendelse." revision="0" />
+  <Message key="Report Settings" value="Indstillinger" revision="0" />
+  <Message key="Send report automatically" value="&amp;Send raport automatisk" revision="0" />
+  <Message key="Report verbosity level" value="Detaljeringsgrad for rapport" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="&amp;Fuldt dump" revision="0" />
+  <Message key="Minidump description" value="Størrelsen på et minidump er normalt mindre end en megabyte og indeholder begrænsede oplysninger vedrørende nedbruddet. Nogle gange er et minidump nok til at diagnosticere problemet, men ofte mangler det nødvendige oplysninger for at kunne genskabe nedbruddet." revision="0" />
+  <Message key="Full dump description" value="Et fuldt dump indeholder en komprimeret visning af alle procesadresseområderne. Det er den bedste visning for, at udviklerne kan genskabe situationen der har forårsaget nedbruddet og rette det så tidligt som muligt. Størrelsen på et fuldt dump kan dog nemt overstige flere hundrede megabyte." revision="0" />
+  <Message key="Privacy Policy" value="Politik om beskyttelse af personlige oplysninger" revision="0" />
+  <Message key="Crash reporter" value="Rapportering om nedbrud" revision="0" />
+  <Enumeration key="Disk dialog columns">
+    <Item value="Fysisk disk" revision="2" />
+    <Item value="Størrelse" revision="2" />
+    <Item value="Drev-id" revision="2" />
+    <Item value="Enheder på disk" revision="2" />
+    <Item value="Type" revision="2" />
+    <Item value="Egenskaber" revision="2" />
+    <Item value="Serienummer" revision="2" />
+  </Enumeration>
+  <Enumeration key="Disk capabilities">
+    <Item value="Ukendt" revision="1" />
+    <Item value="Anden" revision="1" />
+    <Item value="Sekventiel adgang" revision="1" />
+    <Item value="Direkte adgang" revision="1" />
+    <Item value="Understøtter skrivning" revision="1" />
+    <Item value="Kryptering" revision="1" />
+    <Item value="Komprimering" revision="1" />
+    <Item value="Understøtter flytbare medier" revision="1" />
+    <Item value="Manuel oprydning" revision="1" />
+    <Item value="Automatisk oprydning" revision="1" />
+    <Item value="SMART beskeder" revision="1" />
+    <Item value="Understøtter dobbeltsidet medier" revision="1" />
+    <Item value="Udskubning før forbindelsen til drevet afbrydes anbefales ikke." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partition types">
+    <Item value="MBR (Master Boot Record)" revision="1" />
+    <Item value="GPT (Guid Partition Table)" revision="1" />
+    <Item value="RAW (Ingen eller ukendt partitionstabel)" revision="1" />
+  </Enumeration>
+  <Enumeration key="GPTAttributes">
+    <Item value="Obligatorisk" revision="1" />
+    <Item value="Intet drevbogstav" revision="1" />
+    <Item value="Skjult" revision="1" />
+    <Item value="Øjebliksbillede" revision="1" />
+    <Item value="Skrivebeskyttet" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionUpgrade">
+    <Item value="Opgrader nu…" revision="1" />
+    <Item value="Opgrader Hex Editor Neo for at få adgang til denne funktion" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionCompare">
+    <Item value="Sammenlign udgaver…" revision="1" />
+    <Item value="http://www.hhdsoftware.com/dispatch/hex/compare.html" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionStartTrial">
+    <Item value="Start 14-dages prøveperiode" revision="1" />
+    <Item value="Låser op for alle Hex Editor Neo funktioner i de næste 14 dage" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionClose">
+    <Item value="Luk" revision="1" />
+    <Item value="Lukker dette vindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="SaveNotificationMsg">
+    <Item value="Gem dokument" revision="1" />
+    <Item value="Alle historiske ændringer ryddes når dokumentet gemmes. Ønsker du at fortsætte?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenVolumeDiskWarning">
+    <Item value="Advarsel ved åbning af enhed/disk" revision="1" />
+    <Item value="Hex Editor Neo tillader ikke åbning af systemenheder, midlertidige enheder eller programenheder med skriveadgang. Vælg en handling herunder for at forsætte:" revision="1" />
+  </Enumeration>
+  <Enumeration key="New document task">
+    <Item value="Nyt dokument" revision="1" />
+    <Item value="Opret et nyt dokument i editoren" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open volume task">
+    <Item value="Åbn enhed" revision="1" />
+    <Item value="Åben en binær repræsentation af hele enheden" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open disk task">
+    <Item value="Åbn disk" revision="1" />
+    <Item value="Åben en binær repræsentation af den fysiske disk" revision="1" />
+  </Enumeration>
+  <Enumeration key="More tasks task">
+    <Item value="Flere opgaver…" revision="1" />
+    <Item value="Konfigurer opgavelisten" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item value="&amp;Fil" revision="0" />
+    <Item value="Fil menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOpen">
+    <Item value="&amp;Åbn" revision="0" />
+    <Item value="Åbn menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item value="&amp;Panel" revision="0" />
+    <Item value="Panel menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item value="&amp;Funktioner" revision="0" />
+    <Item value="Funktioner menugrupe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item value="&amp;Vindue" revision="0" />
+    <Item value="Vindue menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item value="&amp;Hjælp" revision="0" />
+    <Item value="Hjælp menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item value="&amp;Funktionsvinduer" revision="0" />
+    <Item value="Funktionsvindue menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item value="&amp;Rediger" revision="0" />
+    <Item value="Rediger menugruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenShared">
+    <Item value="Åbn delt" revision="1" />
+    <Item value="Funktionen Åben delt gør det muligt at dele åbne filer med andre programmer. Der tilbydes forskellige strategier for at flette data inklusiv mulighed for at sammenligne ændringer." revision="1" />
+  </Enumeration>
+  <Enumeration key="PhysMemNotification">
+    <Item value="Åbn fysisk hukommelse" revision="1" />
+    <Item value="Hex Editor Neo gør det muligt at få vist systemets fysiske hukommelse med skrivebeskyttet adgang. Du skal være medlem af den lokale administratorgruppe for at få adgang." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenMemory">
+    <Item value="Åbn fysisk hukommelse" revision="1" />
+    <Item value="Funktionen Åbn fysisk hukommelse gør det muligt at få vist systemets fysiske hukommelse med skrivebeskyttet adgang." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenVolume">
+    <Item value="Åbn enhed" revision="1" />
+    <Item value="Funktionen Åbn enhed gør det muligt at åbne en logisk disk (enhed) for visning og redigering." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenDisk">
+    <Item value="Åbn disk" revision="1" />
+    <Item value="Funktionen Åbn disk gør det muligt at åbne en fysisk disk for visning og redigering." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item value="Kommando" revision="1" />
+    <Item value="Genveje" revision="1" />
+    <Item value="Beskrivelse" revision="1" />
+  </Enumeration>
+  <Enumeration key="Endian">
+    <Item value="Standard byterækkefølge" revision="1" />
+    <Item value="Little-Endian" revision="1" />
+    <Item value="Big-Endian" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSwitching">
+    <Item value="Metode til skift af vinduer" revision="1" />
+    <Item value="Ældre" revision="1" />
+    <Item value="Sidste nylige brugte" revision="1" />
+    <Item value="Brug navigationsvindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="IconSet">
+    <Item value="Ikonsæt" revision="1" />
+    <Item value="Klassisk ikonsæt" revision="1" />
+    <Item value="Neo ikonsæt" revision="1" />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item value="Ukendt. Geninstaller programmet og/eller licens." revision="1" />
+    <Item value="Gratis. Prøveperiode er ikke begyndt endnu." revision="1" />
+    <Item value="Gratis. Prøveperiode udløber om {days} dage." revision="1" />
+    <Item value="Gratis. Prøveperiode er udløbet." revision="1" />
+    <Item value="Standard udgave licens" revision="1" />
+    <Item value="Professional udgave licens" revision="1" />
+    <Item value="Ultimate udgave licens" revision="1" />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item value="Ikke-kommerciel" revision="1" />
+    <Item value="Kommerciel" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogColumns">
+    <Item value="Tilslutningspunkt(er)" revision="2" />
+    <Item value="Navn" revision="2" />
+    <Item value="Type" revision="2" />
+    <Item value="Filsystem" revision="2" />
+    <Item value="Serienummer" revision="2" />
+    <Item value="Unik-id" revision="2" />
+    <Item value="Størrelse" revision="2" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogDriveType">
+    <Item value="Ukendt" revision="1" />
+    <Item value="Ugyldig" revision="1" />
+    <Item value="Flytbar" revision="1" />
+    <Item value="Fast" revision="1" />
+    <Item value="Eksternt" revision="1" />
+    <Item value="CDROM" revision="1" />
+    <Item value="RAMDISK" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeCapabilities">
+    <Item value="Store og små bogstaver bevares" revision="1" />
+    <Item value="Søgning med forskel på store og små bogstaver" revision="1" />
+    <Item value="Filkompression" revision="1" />
+    <Item value="Navngivne streams" revision="1" />
+    <Item value="Fil- og mappesikkerhed" revision="1" />
+    <Item value="Skrivebeskyttet" revision="1" />
+    <Item value="Enkelt sekventielt skrivning" revision="1" />
+    <Item value="Fil- og mappekryptering" revision="1" />
+    <Item value="Objekt-id'er" revision="1" />
+    <Item value="Genfortolkningspunkter" revision="1" />
+    <Item value="Sparsefiler" revision="1" />
+    <Item value="Transaktioner" revision="1" />
+    <Item value="Unicode" revision="1" />
+    <Item value="Komprimeret enhed" revision="1" />
+    <Item value="Kvotaer" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="Streng" revision="1" />
+    <Item value="Unicode streng" revision="1" />
+    <Item value="Hex" revision="1" />
+    <Item value="Decimal" revision="1" />
+    <Item value="Oktal" revision="1" />
+    <Item value="Binær" revision="1" />
+    <Item value="Flydende" revision="1" />
+    <Item value="Dobbelt" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item value="byte" revision="1" />
+    <Item value="Ord" revision="1" />
+    <Item value="Dobbelte ord" revision="1" />
+    <Item value="Kvadruple ord" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowsDlgColumns">
+    <Item value="Navn" revision="1" />
+    <Item value="Sti" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNew">
+    <Item value="&amp;Ny fil" revision="1" />
+    <Item value="Opret en ny tom fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item value="Åbn fil…" revision="1" />
+    <Item value="Åbn en eksisterende fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item value="Gem" revision="1" />
+    <Item value="Gem det aktive dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item value="Gem som…" revision="1" />
+    <Item value="Gem det aktive dokument med et nyt navn" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item value="Luk" revision="1" />
+    <Item value="Luk det aktive dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileCloseAll">
+    <Item value="Luk &amp;alle" revision="1" />
+    <Item value="Luk alle åbne dokumenter" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item value="Afslut" revision="1" />
+    <Item value="Afslut programmet" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item value="Fortryd" revision="1" />
+    <Item value="Fortryd seneste handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item value="Gentag" revision="1" />
+    <Item value="Annullerer den fortrudte handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item value="Klip" revision="1" />
+    <Item value="Klip markeringen ud, og indsæt den i Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="Kopier" revision="1" />
+    <Item value="Kopier markeringen, og placer den i Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCutMerged">
+    <Item value="Flet og klip" revision="1" />
+    <Item value="Klip markeringen, flet hver blok og placer resultatet i Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopyMerged">
+    <Item value="Flet og kopier" revision="1" />
+    <Item value="Kopier markeringen, flet hver blok og placer resultatet i Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item value="Sæt ind" revision="1" />
+    <Item value="Indsætter indholdet af Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item value="&amp;Importer konfiguration…" revision="1" />
+    <Item value="Funktionsvindue til importering af konfiguration" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item value="&amp;Eksporter konfiguration…" revision="1" />
+    <Item value="Funktionsvindue til eksport af konfiguration" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item value="Nulstil konfiguration" revision="1" />
+    <Item value="Funktionsvindue til at nulstille konfiguration" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item value="Foruddefinerede layout" revision="1" />
+    <Item value="Foruddefinerede layout" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsUpgrade">
+    <Item value="Opgrader…" revision="1" />
+    <Item value="Opgrader Hex Editor Neo til en anden udgave" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item value="Indstillinger…" revision="1" />
+    <Item value="Administrer programindstillinger" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNew">
+    <Item value="Nyt v&amp;indue" revision="1" />
+    <Item value="Åbner et nyt vindue for det aktuelle dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item value="Forrige" revision="1" />
+    <Item value="Skifter til det forrige vindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item value="&amp;Næste" revision="1" />
+    <Item value="Skifter til det næste vindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item value="Luk vindue" revision="1" />
+    <Item value="Lukker det aktive vindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item value="&amp;Næste rude" revision="1" />
+    <Item value="Næste funktionsvindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item value="Forrige rude" revision="1" />
+    <Item value="Forrige funktionsvindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item value="Ny &amp;vandret ramme" revision="1" />
+    <Item value="Ny vandret ramme" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item value="Ny &amp;lodret ramme" revision="1" />
+    <Item value="Ny lodret ramme" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item value="&amp;Annuller" revision="1" />
+    <Item value="Annuller" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSplit">
+    <Item value="&amp;Opdel" revision="1" />
+    <Item value="Opdeler det aktive vindue i ruder" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowOpenContainingFolder">
+    <Item value="Åbn overordnet &amp;mappe" revision="1" />
+    <Item value="Åbner Windows Stifinder med mappen, som indeholder den markerede fil." revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCopyFullPath">
+    <Item value="&amp;Kopier sti + filnavn" revision="1" />
+    <Item value="Kopierer sti + filnavn til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item value="&amp;Vinduer…" revision="1" />
+    <Item value="Vis listen af alle åbne dokumentvinduer" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item value="&amp;Indhold" revision="1" />
+    <Item value="Vis indhold i hjælpefilen" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpIndex">
+    <Item value="&amp;Indeks" revision="1" />
+    <Item value="Vis index i hjælpefilen" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpSearch">
+    <Item value="&amp;Søg" revision="1" />
+    <Item value="Vis søgerude i hjælpefilen" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item value="&amp;Feedback…" revision="1" />
+    <Item value="Send feedback vedrørende brug af produkt" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item value="&amp;Tastaturoversigt" revision="1" />
+    <Item value="Vis tastaturoversigt" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item value="&amp;Om Hex Editor Neo" revision="1" />
+    <Item value="Vis information om dette produkt" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenPhysMemory">
+    <Item value="Åbn fysisk hukommelse…" revision="1" />
+    <Item value="Åbner computerens fysiske hukommelse i skrivebeskyttet tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenVolume">
+    <Item value="Åbn &amp;enhed…" revision="1" />
+    <Item value="Åben en enhed (logisk disk)" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDisk">
+    <Item value="Åbn &amp;fysisk disk…" revision="1" />
+    <Item value="Åbn en fysisk disk" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item value="Gem a&amp;lle" revision="1" />
+    <Item value="Gem alle ændrede dokumenter" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePrint">
+    <Item value="&amp;Udskriv…" revision="1" />
+    <Item value="Udskriv det aktuelle dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePageSetup">
+    <Item value="&amp;Sideopsætning…" revision="1" />
+    <Item value="Åbn diaglog for sideopsætning" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item value="&amp;Slet" revision="1" />
+    <Item value="Slet markering" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewToggleFullScreen">
+    <Item value="&amp;Vis/Skjul funktionsvinduer" revision="1" />
+    <Item value="Viser eller skjuler alle funktionsvinduer" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpForum">
+    <Item value="&amp;Forum…" revision="1" />
+    <Item value="Åbn Hex Editor Neo forummet" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item value="&amp;Licensadministration…" revision="1" />
+    <Item value="Vis dialog til administration af licens" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item value="Forankringsmuligt funktionsvindue" revision="1" />
+    <Item value="Forankringsmuligt funktionsvindue" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item value="Dokumenter med faner" revision="1" />
+    <Item value="Dokumenter med faner" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewQuickUITweak">
+    <Item value="Hurtig tilpasning af brugergrænseflade…" revision="1" />
+    <Item value="Viser det indledende konfigurationsvindue til brugergrænseflade" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenNonLocked">
+    <Item value="Åben delt fil…" revision="1" />
+    <Item value="Åbn fil i delt tilstand" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditionList">
+    <Item value="Ukendt" revision="1" />
+    <Item value="Gratis udgave" revision="1" />
+    <Item value="Prøveperiode begyndt" revision="1" />
+    <Item value="Gratis udgave" revision="1" />
+    <Item value="Standard udgave" revision="1" />
+    <Item value="Professional udgave" revision="1" />
+    <Item value="Ultimate udgave" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpCheck">
+    <Item value="Søg efter opdateringer…" revision="1" />
+    <Item value="Søger efter nyere versioner af produktet eller dets komponenter" revision="1" />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item value="Komponent" revision="0" />
+    <Item value="Aktuel version" revision="0" />
+    <Item value="Opdateringsversion" revision="0" />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item value="Søg efter opdateringer" revision="1" />
+    <Item value="Ved hver programstart" revision="1" />
+    <Item value="Hver uge" revision="1" />
+    <Item value="Aldrig" revision="1" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item value="Andre sprog…" revision="0" />
+    <Item value="Søg efter andre sprog online" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item value="Online sproglager" revision="0" />
+    <Item value="Tag del i oprettelse af andre sprogpakker for Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item value="Skift sprog" revision="0" />
+    <Item value="Denne sprogpakke er oprettet af open source-fællesskabet. Vi kan ikke holdes ansvarlig for kvaliteten af denne oversættelse.\r\n\r\nHvis du har fundet en fejl i oversættelsen, er du velkommen til at oprette en henvendelse eller rette fejlen selv." revision="0" />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item value="Sprogpakke tilgængelig online" revision="0" />
+    <Item value="Hex Editor Neo sprogpakke for &quot;{language name}&quot; er tilgængelig online. Ønsker du at hente og bruge denne sprogpakke?" revision="0" />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item value="Registreringsdatabase" revision="0" />
+    <Item value="Standard lagerplacering for bruger." revision="0" />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item value="Flytbar tilstand" revision="0" />
+    <Item value="Gem programindstillinger i flytbar .hexset fil i start mappe." revision="0" />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item value="Ekstern fil:" revision="0" />
+    <Item value="Gem programindstillinger i ekstern fil. Angiv delt lokation (f.eks. OneDrive eller Dropbrox delt mappe) for at dele indstillingerne mellem enheder." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item value="Nye betaversioner tilgængelige" revision="1" />
+    <Item value="Der er nye betaversioner tilgængelige til hentning for din version af produktet." revision="1" />
+    <Item value="Ønsker du at gennemse listen af opdaterede komponenter og hente dem?" revision="1" />
+    <Item value="Denne anmodning forekommer kun én gang for hvert sæt af unikke on-line komponenter." revision="1" />
+    <Item value="Kontroller ikke for nye betaversioner" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="Kompatibilitetsindstillinger registreret!" revision="0" />
+    <Item value="Operativsystemet anvender kompatibilitetsindstillinger for Hex Editor Neo. Programmet kan måske ikke køre under nuværende indstillinger. Det kan også påvirke ydelsen og den visuelle kvalitet.\r\n\nMarkér hvad du gerne vil gøre nu:" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="Fortsæt udførelse" revision="0" />
+    <Item value="Fjern kompatibilitetsindstillingerne og genstart programmet" revision="0" />
+  </Enumeration>
+</Language>

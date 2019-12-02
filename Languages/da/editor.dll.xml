@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} nummer {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="Gå til {v}" revision="0" />
+  <Message key="FileNotSaved" value="Det aktuelle dokument er ændret. Ønsker du at gemme det?" revision="0" />
+  <Message key="SaveProtocolFile" value="Fejl ved gem af fil &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="Fejl" revision="0" />
+  <Message key="Structure Editor" value="Struktureditor" revision="0" />
+  <Message key="Line" value="Linje" revision="0" />
+  <Message key="StructureFormats" value="Struktur definitionsfiler (*.h)|*.h|" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Aktuelt skema ikke gemt&gt;" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="SchemeDelError" value="Dette skema kan ikke slettes" revision="0" />
+  <Message key="Coloring" value="Farvelægning" revision="0" />
+  <Message key="Structure Editor Page" value="Struktureditor" revision="0" />
+  <Message key="Save" value="Gem" revision="0" />
+  <Message key="Delete" value="Slet" revision="0" />
+  <Message key="Font:" value="Skrifttype:" revision="0" />
+  <Message key="Size:" value="Størrelse:" revision="0" />
+  <Message key="Font color:" value="Skrifttypefarve:" revision="0" />
+  <Message key="Back color:" value="Baggrundsfarve:" revision="0" />
+  <Message key="Bold" value="Fed" revision="0" />
+  <Message key="Italic" value="Kursiv" revision="0" />
+  <Message key="Reset" value="Nulstil" revision="0" />
+  <Message key="Find" value="Søg" revision="0" />
+  <Message key="Fi&amp;nd what:" value="Søg efter:" revision="0" />
+  <Message key="Options" value="Indstillinger" revision="0" />
+  <Message key="Find within" value="Søg inden for" revision="0" />
+  <Message key="Match &amp;whole word only" value="Kun hele ord" revision="0" />
+  <Message key="Match &amp;case" value="Forskel på store og små bogstaver" revision="0" />
+  <Message key="Whole window" value="Hele vinduet" revision="0" />
+  <Message key="Selection" value="Markering" revision="0" />
+  <Message key="&amp;Find" value="&amp;Søg" revision="0" />
+  <Message key="Replace" value="Erstat" revision="0" />
+  <Message key="Replace with: " value="Erstat med:" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Søg næste" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Erstat" revision="0" />
+  <Message key="Replace &amp;All" value="Erstat &amp;alle" revision="0" />
+  <Message key="A pattern was not found." value="Der blev ikke fundet nogen resultater." revision="0" />
+  <Message key="InvalidColoringScheme" value="Ugyldigt navn til farveskema." revision="0" />
+  <Message key="OverwriteColoringScheme" value="Det angivne skema eksistere i forvejen. Vil du tilsidesætte det?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="Erstat…" revision="0" />
+    <Item value="Udskift tekst" revision="0" />
+  </Enumeration>
+</Language>

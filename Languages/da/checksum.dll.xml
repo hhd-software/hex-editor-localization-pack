@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" value="Beregner kontrolsum" revision="1" />
+  <Message key="8-bit sum" value="8-bit sum" revision="1" />
+  <Message key="16-bit sum" value="16-bit sum" revision="1" />
+  <Message key="32-bit sum" value="32-bit sum" revision="1" />
+  <Message key="64-bit sum" value="64-bit sum" revision="1" />
+  <Message key="Zero bits" value="Nul bits" revision="0" />
+  <Message key="One bits" value="Et bits" revision="0" />
+  <Message key="Sum of Little-Endian 16-bit values" value="Sum af Little-Endian 16-bit værdier" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="Sum af Big-Endian 16-bit værdier" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="Sum af Little-Endian 32-bit værdier" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="Sum af Big-Endian 32-bit værdier" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="Sum af Little-Endian 64-bit værdier" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="Sum af Big-Endian 64-bit værdier" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="Sum af 8-bit signerede værdier" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="Sum af Little-Endian 16-bit signerede værdier" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="Sum af Big-Endian 16-bit signerede værdier" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="Sum af Little-Endian 32-bit signerede værdier" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="Sum af Big-Endian 32-bit signerede værdier" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="Sum af Little-Endian 64-bit signerede værdier" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="Sum af Big-Endian 64-bit signerede værdier" revision="1" />
+  <Message key="Custom CRC" value="Brugerdefineret CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Nogle værdier passer ikke til 16 bit. Angiv 16-bit værdier: Interval fra 0 til 0xFFFF (65535)." revision="1" />
+  <Message key="Loading checksums" value="Indlæser kontrolsummer" revision="1" />
+  <Message key="Initializing checksums" value="Initialiserer kontrolsummer" revision="1" />
+  <Message key="Checksum" value="Kontrolsum" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Kontrolsum funktionen beregner forskellige kontrolsummer for markerede data eller for hele dokumentet." revision="1" />
+  <Message key="N/A" value="Ikke tilgængelig" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="Vent venligst indtil alle ventende handlinger er blevet afsluttet." revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Tabulatorseparerede tekstfiler (*.tsv)|*.tsv|Alle filer|*||" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Start={initial}, Polynomi={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="Add Algorithm" value="Tilføj algoritme" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="Vælg algoritmen der skal tilføjes fra nedenstående liste:" revision="1" />
+  <Message key="Custom CRC Parameters" value="Brugerdefinerede CRC parametre" revision="1" />
+  <Message key="Initial Value:" value="Startværdi:" revision="1" />
+  <Message key="Polynomial:" value="Polynomium:" revision="1" />
+  <Message key="XOR Out:" value="XOR ud:" revision="1" />
+  <Message key="Hex" value="Hex:" revision="2" />
+  <Message key="Decimal" value="Decimal:" revision="2" />
+  <Message key="Reflection In" value="Spejling ind" revision="1" />
+  <Message key="Reflection Out" value="Spejling ud" revision="1" />
+  <Message key="Name:" value="Navn:" revision="0" />
+  <Message key="Checksum Result" value="Resultat af kontrolsum" revision="1" />
+  <Message key="Copy" value="Kopier" revision="1" />
+  <Message key="Size:" value="Størrelse:" revision="1" />
+  <Message key="Separator:" value="Separator:" revision="1" />
+  <Message key="Checksum settings" value="Kontrolsum" revision="0" />
+  <Enumeration key="Checksum result separators">
+    <Item value="Ingen separator" revision="1" />
+    <Item value="Mellemrum (' ')" revision="1" />
+    <Item value="Komma (',')" revision="1" />
+    <Item value="Bindestreg ('-')" revision="1" />
+    <Item value="Kolon (':')" revision="1" />
+    <Item value="Semikolon (';')" revision="1" />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item value="Simple sumtællere" revision="1" />
+    <Item value="Flere sumtællere" revision="1" />
+    <Item value="Kontrolsum" revision="1" />
+    <Item value="Hashværdier" revision="1" />
+    <Item value="Signerede summer-" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item value="&amp;Kontrolsum" revision="0" />
+    <Item value="Kontrolsum menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item value="Kun markering" revision="1" />
+    <Item value="Hele dokumentet" revision="1" />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item value="Algoritme" revision="1" />
+    <Item value="Værdi (Hex)" revision="1" />
+    <Item value="Værdi (Dec)" revision="1" />
+    <Item value="Parametre" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item value="Vis resultat" revision="0" />
+    <Item value="Vis resultatet af den markerede kontrolsum" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item value="Opdater" revision="0" />
+    <Item value="Start beregning af kontrolsum" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item value="Marker alle" revision="1" />
+    <Item value="Aktiver alle algoritmer" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item value="Fjern markering fra alle" revision="1" />
+    <Item value="Deaktiver alle algoritmer" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item value="Kopier" revision="1" />
+    <Item value="Kopier det markerede resultat til udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item value="Kopier alle" revision="1" />
+    <Item value="Kopier alle resultater til udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item value="Eksporter…" revision="1" />
+    <Item value="Eksporter markerede resultater til tekstfil" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item value="Parametre…" revision="1" />
+    <Item value="Konfigurer algoritmeparametre" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item value="Tilføj algoritme" revision="1" />
+    <Item value="Tilføj ny algoritme" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item value="Fjern algoritme" revision="1" />
+    <Item value="Fjern den aktuelt markerede algoritme" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item value="Nulstil algoritmeliste" revision="1" />
+    <Item value="Nulstil til standard algoritmeliste" revision="1" />
+  </Enumeration>
+</Language>

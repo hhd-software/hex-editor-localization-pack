@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="Generelle formål" revision="0" />
+  <Message key="Function name" value="Funktionsnavn" revision="0" />
+  <Message key="Headers" value="Headere" revision="0" />
+  <Message key="InvalidAddress" value="Ugyldig adresse. Indtast korrekt adresse." revision="0" />
+  <Message key="InvalidLength" value="Ugyldig længde. Indtast en gyldig længde." revision="0" />
+  <Message key="Invalid file name." value="Ugyldigt filnavn." revision="0" />
+  <Message key="OpenError" value="Filen kan ikke åbnes: &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="Forkert filstørrelse" revision="0" />
+  <Message key="WrongAddress" value="Den indtastede adresse er større end dokumentets størrelse. Indtast korrekt adresse." revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo er ikke i stand til at disassemblere filer, som er større end {max size}. {?is too big}Disassemblering starter fra {from} til {to} (størrelse = {size}). Fortsæt?" revision="0" />
+  <Message key="Locked" value="Dette dokument er i øjeblikket låst. Gentag venligst handlingen senere." revision="0" />
+  <Message key="FormatString" value="Alle eksekverbare|*.exe;*.dll;*.sys;*.ocx|Eksekverbare (*.exe)|*.exe|DLL-filer (*.dll)|*.dll|ActiveX biblioteker (*.ocx)|*.ocx|Drivere (*.sys)|*.sys|" revision="0" />
+  <Message key="N/A" value="Ikke tilgængelig" revision="0" />
+  <Message key="- No section selected -" value="- Ingen sektion markeret -" revision="0" />
+  <Message key="Can not retrieve file name" value="Kan ikke hente filnavn" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Programmet til CLR-udførelse kan ikke startes" revision="0" />
+  <Message key="Incorrect file format" value="Forkert filformat" revision="0" />
+  <Message key="Error parsing metadata" value="Fejl ved parsing af metadata" revision="0" />
+  <Message key="Can not disassemble method" value="Kan ikke disassemblere metode: {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="Kan ikke parse Exception Header" revision="0" />
+  <Message key="The document has been changed." value="Dokumentet er blevet ændret." revision="0" />
+  <Message key="Refresh" value="Opdater" revision="0" />
+  <Message key="Go" value="Gå" revision="0" />
+  <Message key="Go To:" value="Gå til:" revision="0" />
+  <Message key="Text" value="Tekst" revision="0" />
+  <Message key="Loading" value="Indlæser disassembler" revision="0" />
+  <Message key="Disassembler" value="Disassembler" revision="0" />
+  <Message key="ShowImplicitOperands" value="Vis implicitte operander" revision="0" />
+  <Message key="ShowPrefixes" value="Vis præfikser" revision="0" />
+  <Message key="ShowDecimalValues" value="Vis decimalværdier" revision="0" />
+  <Message key="ShowBytecode" value="Vis rå-kode" revision="0" />
+  <Message key="ParseSymbols" value="Symbolfortolkning" revision="0" />
+  <Message key="IntelVisualization" value="Brug AT&amp;T syntaks" revision="0" />
+  <Message key="ShowVLines" value="Vis gitterlinjer" revision="0" />
+  <Message key="ShowHardcodedOperands" value="Vis &quot;hardcoded&quot; operander" revision="0" />
+  <Message key="DisasmError" value="Fejl ved åbning af fil" revision="0" />
+  <Message key="DisasmError2" value="Fejl ved disassemblering af fil{has error?}: {error}{?has error}" revision="1" />
+  <Message key="OpName" value="Disassemblerer kode" revision="0" />
+  <Message key="RefreshError" value="Fejl ved opdatering af disassemblering." revision="0" />
+  <Message key="RefreshErrorSize" value="Filstørrelsen er blevet ændret. Kan ikke opdatere disassemblering." revision="0" />
+  <Message key="Unable to write to a file." value="Fejl ved skrivning af data til en fil." revision="0" />
+  <Message key="ClipboardError" value="Fejl ved kopiering af data." revision="0" />
+  <Message key="Searching" value="Søger" revision="0" />
+  <Message key="NotFound" value="Et mønster blev ikke fundet" revision="0" />
+  <Message key="None" value="Ingen" revision="0" />
+  <Message key="Find what:" value="Søg efter:" revision="0" />
+  <Message key="InAllColumns" value="--- I alle kolonner" revision="0" />
+  <Message key="Select" value="Vælg" revision="0" />
+  <Message key="Symbol Format:" value="Symbolformat:" revision="0" />
+  <Message key="Loaded Image Name:" value="Indlæst afbildningsnavn:" revision="0" />
+  <Message key="Loaded Pdb Name:" value="Indlæst Pdb-navn:" revision="0" />
+  <Message key="Information matched:" value="Overensstemmende information:" revision="0" />
+  <Message key="Line numbers:" value="Linjenumre:" revision="0" />
+  <Message key="Global symbols:" value="Globale symboler:" revision="0" />
+  <Message key="Type information:" value="Typeinformation:" revision="0" />
+  <Message key="Source indexing:" value="Kildeindeksering:" revision="0" />
+  <Message key="Public symbols:" value="Offentlige symboler:" revision="0" />
+  <Message key="No symbol found." value="Ingen symboler fundet." revision="0" />
+  <Message key="Select Columns" value="Marker kolonner" revision="0" />
+  <Message key="Select all" value="Marker alle" revision="0" />
+  <Message key="Export to:" value="Eksporter til:" revision="0" />
+  <Message key="Export headers" value="Eksporter headere" revision="0" />
+  <Message key="File:" value="Fil:" revision="0" />
+  <Message key="Instr. set:" value="Instruktionssæt:" revision="0" />
+  <Message key="Section:" value="Sektion:" revision="0" />
+  <Message key="Start:" value="Start:" revision="0" />
+  <Message key="Size:" value="Størrelse:" revision="0" />
+  <Message key="File size:" value="Filstørrelse:" revision="0" />
+  <Message key="Dual view" value="Dobbeltpanel" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="Synkroniser markør med Hex-panelet" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="Synkroniser markering med Hex-panelet" revision="0" />
+  <Message key="Hexadecimal" value="Hexadecimal" revision="0" />
+  <Message key="Decimal" value="Decimal" revision="0" />
+  <Message key="Symbols…" value="Symboler…" revision="0" />
+  <Message key="Find Window" value="Søg" revision="0" />
+  <Message key="Find" value="&amp;Søg" revision="0" />
+  <Message key="Find All" value="Søg &amp;alle" revision="0" />
+  <Message key="Search in:" value="Søg i:" revision="0" />
+  <Message key="Search up" value="Søg op" revision="0" />
+  <Message key="Search down" value="Søg ned" revision="0" />
+  <Message key="Ignore case" value="Ignorer store/små bogstaver" revision="0" />
+  <Message key="Go To" value="Gå til" revision="0" />
+  <Message key="Raw address" value="Rå-adresse" revision="0" />
+  <Message key="Virtual address" value="Virtuel adresse" revision="0" />
+  <Message key="Details" value="Detaljer" revision="0" />
+  <Message key="Data:" value="Data:" revision="0" />
+  <Message key="Length:" value="Længde:" revision="0" />
+  <Message key="Lowercase" value="Benyt kun små bogstaver" revision="0" />
+  <Message key="Show symbols" value="Vis symboler" revision="0" />
+  <Message key="Symbols" value="Symboler" revision="0" />
+  <Message key="Source files:" value="Kildefiler:" revision="0" />
+  <Message key="Module details:" value="Moduldetaljer:" revision="0" />
+  <Message key="Address:" value="Adresse:" revision="0" />
+  <Message key="Name:" value="Navn:" revision="0" />
+  <Message key="Search" value="Søg" revision="0" />
+  <Message key="Jump" value="Hop" revision="0" />
+  <Message key="string" value="streng" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="Kør disassembler…" revision="0" />
+    <Item value="Disassemblerer en eksekverbar fil" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="Eksport…" revision="0" />
+    <Item value="Eksporter disassemblering" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="Detaljer…" revision="0" />
+    <Item value="Vis instruktionsdetaljer" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="Marker kolonner…" revision="0" />
+    <Item value="Marker disassembleringskolonner" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="Symboler…" revision="0" />
+    <Item value="Vis symboler for dette dokument. Hop til et markeret symbol." revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="Opdater" revision="0" />
+    <Item value="Opdater disassemblering" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="Synkroniser markør" revision="0" />
+    <Item value="Synkroniser markøren i begge paneler" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="Synkroniser markering" revision="0" />
+    <Item value="Synkroniser markeringen i begge paneler" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Or" revision="0" />
+    <Item value="Not Carry" revision="0" />
+    <Item value="Not Zero" revision="0" />
+    <Item value="Not Overflow" revision="0" />
+    <Item value="Not Dir" revision="0" />
+    <Item value="Not Sign" revision="0" />
+    <Item value="Not Parity" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="Funktion" revision="0" />
+    <Item value="Data" revision="0" />
+    <Item value="Officiel symbol" revision="0" />
+    <Item value="Brugerdefineret type" revision="0" />
+    <Item value="Optælling" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="Udklipsholder" revision="0" />
+    <Item value="Fil" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="Felt" revision="0" />
+    <Item value="Størrelse" revision="0" />
+    <Item value="Værdi" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="x86 (32-bit inklusiv FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="MSIL (.NET)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="Disassembler" revision="0" />
+    <Item value="Disassemblermodulet gør det muligt at disassemblere eksekverbar kode i filer eller i hukommelsen. Det understøtter mange instruktionssæt og muliggør brug af symbolfiler." revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="Instruktion" revision="0" />
+    <Item value="Klasse" revision="0" />
+    <Item value="Metode" revision="0" />
+    <Item value="Beskrivelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Rå-adresse" revision="0" />
+    <Item value="Virtuel adresse" revision="0" />
+    <Item value="Relativ forskydning" revision="0" />
+    <Item value="Bytecode" revision="0" />
+    <Item value="Mnemonic" revision="0" />
+    <Item value="Operander" revision="0" />
+    <Item value="Implicitte operander" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="Flag sat" revision="0" />
+    <Item value="Flag ændret" revision="0" />
+    <Item value="Beskrivelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="Adresse" revision="0" />
+    <Item value="Navn" revision="0" />
+    <Item value="Størrelse" revision="0" />
+    <Item value="Basistype" revision="0" />
+    <Item value="Typeindeks" revision="0" />
+    <Item value="Mærke" revision="0" />
+    <Item value="Flag" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="Metode" revision="0" />
+    <Item value="Funktion" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="Disassembler fil" revision="0" />
+    <Item value="Start disassemblering af en eksekverbar fil" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="Ukendt format" revision="0" />
+    <Item value="Ingen symboler er tilgængelige for modulet" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="CodeView (.dbg file)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="Eksporteringer" revision="0" />
+    <Item value="Udskudt" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="Virtuel" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="Falsk" revision="0" />
+    <Item value="Sand" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="Ikke tilgængelig" revision="0" />
+    <Item value="Tilgængelig" revision="0" />
+  </Enumeration>
+</Language>

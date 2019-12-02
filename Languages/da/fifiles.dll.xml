@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="For mange åbne dokumenter kan medføre meget forringet ydeevne. Det kan derfor ikke anbefales at forsætte den aktuelle handling. Vil du annullere handlingen?" revision="1" />
+  <Message key="Warning" value="Advarsel" revision="1" />
+  <Message key="Error" value="Fejl" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} forekomster)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Fejl {error_code} ({text_message}) {mode} {path}." revision="1" />
+  <Message key="Invalid folder or mask syntax." value="Ugyldig mappe eller maske syntaks." revision="1" />
+  <Message key="Invalid folder list syntax." value="Ugyldig mappe liste syntaks." revision="1" />
+  <Message key="Find All" value="Søg alle" revision="1" />
+  <Message key="Replace All" value="Erstat alle" revision="1" />
+  <Message key="Loading Find in Files" value="Indlæser Søg i filer" revision="1" />
+  <Message key="Initializing Find in Files" value="Initialiserer Søg i filer" revision="1" />
+  <Message key="Notifications" value="Beskeder" revision="1" />
+  <Message key="Find in Files" value="Søg i filer" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="Ønsker du at annullere den aktuelle handling?" revision="1" />
+  <Message key="Operation cancelled." value="Handlingen blev annulleret." revision="1" />
+  <Message key="Replace with:" value="Erstat med:" revision="1" />
+  <Message key="Progress message" value="{percent} % afsluttet. {processed_files} af {total_files}{unfinished?}(…){?unfinished} filer i {total_folders} mapper blev kontrolleret. {matched} filer i overensstemmelse blev fundet. {processed_size} af {total_size} behandlet." revision="1" />
+  <Message key="ReplaceNotification" value="Erstat i filer" revision="1" />
+  <Message key="TextFilesFilterString" value="Tekstfiler|*.txt|" revision="0" />
+  <Message key="Exporting" value="Eksporterer" revision="0" />
+  <Message key="Search in:" value="Søg i:" revision="1" />
+  <Message key="File types:" value="Filtyper:" revision="1" />
+  <Message key="Mode:" value="Tilstand:" revision="1" />
+  <Message key="Include sub-folders" value="Medtag undermapper" revision="1" />
+  <Message key="Ignore case" value="Ignorer store og små bogstaver" revision="1" />
+  <Message key="Display errors" value="Vis fejl" revision="1" />
+  <Message key="Include streams" value="Medtag streams" revision="1" />
+  <Message key="Find and replace mode" value="Søg og erstat tilstand" revision="1" />
+  <Message key="Find in Files Folder List" value="Find i filer mappeliste" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Angiv en sti til mappen eller tryk på søg knappen:" revision="1" />
+  <Message key="Move Up" value="Flyt &amp;op" revision="1" />
+  <Message key="Move Down" value="Flyt &amp;ned" revision="1" />
+  <Message key="Folder list:" value="Mappeliste:" revision="1" />
+  <Message key="All opened documents" value="Alle åbne dokumenter" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="åbning" revision="1" />
+    <Item value="gem" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="Søg efter mindst én forekomst" revision="1" />
+    <Item value="Søg efter alle forekomster (langsommere)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="Erstat alle forekomster og gem" revision="1" />
+    <Item value="Erstat alle forekomster og åben" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="Søg i filer" revision="1" />
+    <Item value="Begynd Søg i filer/Erstat i filer modulet" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="&amp;Søg i filer" revision="0" />
+    <Item value="Søg i filer menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="Søg i filer" revision="1" />
+    <Item value="Søg i filer funktionen gør det muligt at søge hurtigt efter filer indeholdende specifikke mønstre inden for en enkelt eller flere mapper." revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="Erstat i filer" revision="1" />
+    <Item value="Erstat i filer funktionen gør det muligt at søge alle forekomster af mønsteret i filer inden for en enkelt eller flere mapper og erstatte det med et andet mønster (eller slette)." revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="Aktivér &quot;Tag altid backup&quot; indstillingen og fortsæt." revision="1" />
+    <Item value="Skift til &quot;Erstat alle forekomster og åben&quot; tilstand og fortsæt." revision="1" />
+    <Item value="Fortsæt i denne tilstand (IKKE anbefalet)" revision="1" />
+    <Item value="Annuller" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="Erstat i filer" revision="1" />
+    <Item value="Afvikling af &quot;Erstat i filer&quot; funktionen i denne tilstand med &quot;Tag altid sikkerhedskopi&quot; indstillingen slået fra kan resultere i tab af data eftersom der ikke tages sikkerhedskopi under data erstatning. Det er anbefalet at aktivere &quot;Tag altid sikkerhedskopi&quot; indstillingen. \r\n\r\nVælg en handling herunder:" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="Søg i filer…" revision="0" />
+    <Item value="Søg (og eventuelt erstat) et mønster i flere filer." revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="Afbryd søgning" revision="1" />
+    <Item value="Afbryd den aktuelle handling" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="Åben fil" revision="1" />
+    <Item value="Åben den markerede fil i editoren." revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="&amp;Ryd alt" revision="0" />
+    <Item value="Ryd indholdet af vinduet" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="Baggrundstilstand" revision="0" />
+    <Item value="Slå baggrundstilstand til/fra (reducerer brugen af system ressourcer)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="Eksporter søgeresultatet…" revision="0" />
+    <Item value="Eksporter listen af fundne filer" revision="0" />
+  </Enumeration>
+</Language>

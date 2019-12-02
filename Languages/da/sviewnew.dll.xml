@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Update" value="Opdater" revision="0" />
+  <Message key="Assertion Failed" value="Antagelsen mislykkedes{has message?}: {message}{?has message}" revision="0" />
+  <Message key="CantEvaluate" value="Kan ikke evaluere bundet udtryk." revision="0" />
+  <Message key="Structure Viewer" value="Strukturfremviser" revision="0" />
+  <Message key="Initializing" value="Initialiserer strukturfremviser" revision="0" />
+  <Message key="Structure Errors" value="Strukturfejl" revision="0" />
+  <Message key="Error accessing Clipboard" value="Fejl ved forsøg på at få adgang til Udklipsholder" revision="0" />
+  <Message key="ModifiedSuffix" value="(ændret)" revision="0" />
+  <Message key="NotFoundSuffix" value="(ikke fundet)" revision="0" />
+  <Message key="FileInUse" value="Denne fil bruges af strukturfremviser. Nogle typer vil ikke være bundet. Ønsker du at fortsætte?" revision="0" />
+  <Message key="ConfigurationLost" value="Aktuelle konfiguration vil ikke blive gemt. Ønsker du at fortsætte?" revision="0" />
+  <Message key="FileColumn" value="Fil" revision="0" />
+  <Message key="Nothing selected" value="Intet markeret" revision="0" />
+  <Message key="Enter file extension" value="Angiv filtype" revision="0" />
+  <Message key="No schemes available. Create schemes in Structure Viewer first" value="Ingen skemaer tilgængelige. Opret først skemaer i strukturfremviser" revision="0" />
+  <Message key="No scheme selected" value="Intet skema markeret" revision="0" />
+  <Message key="This extension is already used" value="Denne filtype er allerede anvendt" revision="0" />
+  <Message key="All associations will be lost. Do you want to continue?" value="Ingen tilknytninger vil blive gemt. Ønsker du at fortsætte?" revision="0" />
+  <Message key="N/A" value="Ikke tilgængelig" revision="0" />
+  <Message key="Bind is disabled during lengthy operation. Try again later." value="Binding er deaktiveret under langvarige handlinger. Prøv igen senere." revision="0" />
+  <Message key="Do you want to continue and remove the selected structure?" value="Ønsker du at fortsætte og fjerne den markerede struktur?" revision="0" />
+  <Message key="SchemeNotFound" value="Tilknyttet skema &quot;{scheme}&quot; er ikke fundet for {ext} filtype." revision="0" />
+  <Message key="Structure Viewer: Load Scheme" value="Strukturfremviser: Indlæs skema" revision="0" />
+  <Message key="Edit Associations" value="Rediger tilknytninger" revision="0" />
+  <Message key="Unable to create file" value="Fejl ved eksportering af CSV fil: {text} ({code})" revision="1" />
+  <Message key="Error saving scheme" value="Fejl ved lagring af skema" revision="0" />
+  <Message key="LengthyOp" value="Denne handling er ikke tilgængelig under langvarige handlinger. Prøv igen senere." revision="0" />
+  <Message key="This scheme can not be removed." value="Dette skema kan ikke fjernes." revision="0" />
+  <Message key="TypeNotFound" value="{typename} (filtypen er ikke fundet)" revision="0" />
+  <Message key="noname" value="&lt;Intet navn&gt;" revision="0" />
+  <Message key="The file has different version." value="Filen har en anden version." revision="0" />
+  <Message key="UnknownType" value="Ukendt filtype" revision="0" />
+  <Message key="ErrorLoading" value="Fejl ved indlæsning af struktur(er):\r\n" revision="0" />
+  <Message key="Associated scheme can not be loaded" value="Tilknyttet skema kan ikke indlæses" revision="0" />
+  <Message key="Locked" value="Strukturfremviser er i øjeblikket låst. Skema vil ikke blive indlæst. Gentag venligst handlingen senere." revision="0" />
+  <Message key="Modified" value="Følgende filer er blevet ændret uden for Hex Editor Neo (i alt {n} filer):\r\n{files}\r\nØnsker du at genindlæse dem?" revision="0" />
+  <Message key="CompileErrors" value="Kompileringsfejl{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="BindErrors" value="Bindingsfejl{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Binding Structure" value="Struktur til binding" revision="0" />
+  <Message key="BindError" value="Hex Editor Neo er ikke i stand til at behandle $bind-direktivet (undersøg om typen er offentlig)" revision="0" />
+  <Message key="Copy to clipboard" value="Kopier til Udklipsholder" revision="0" />
+  <Message key="Exporting to file" value="Eksporterer til fil" revision="0" />
+  <Message key="Copy/export speed" value="{lines} linjer/sek" revision="0" />
+  <Message key="VariableUpdateError" value="Hex Editor Neo er ikke i stand til at opdatere variabel værdi." revision="0" />
+  <Message key="VariableBindError" value="Hex Editor Neo er ikke i stand til at binde en variabel." revision="0" />
+  <Message key="OnlyFirst" value="Kun de første {n} linjer vil blive {is copy?}kopieret til Udklipsholder{|is copy}eksporteret{?is copy}." revision="0" />
+  <Message key="SchemeExists" value="Skema eksistere allerede. Ønsker du at overskrive skemaet?" revision="0" />
+  <Message key="Scheme already exists" value="Skema eksistere allerede" revision="0" />
+  <Message key="External Editor" value="Ekstern editor" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="Konfigurer den eksterne editor til tekstfiler, som strukturfremviser skal anvende:" revision="0" />
+  <Message key="Clear" value="Ryd" revision="0" />
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="Tip: Brug følgende pladsholdere:\n   » %path% - sti til kildefil\n   » %line% - linje i kildefil\n   » %pos% - position i linjen" revision="0" />
+  <Message key="Library" value="Strukturbibliotek" revision="0" />
+  <Message key="Add…" value="Tilføj…" revision="0" />
+  <Message key="Edit…" value="Rediger…" revision="0" />
+  <Message key="Save Scheme" value="Gem skema" revision="0" />
+  <Message key="Name:" value="Navn:" revision="0" />
+  <Message key="Structure Viewer Page" value="Strukturfremviser" revision="0" />
+  <Message key="Include directories" value="Medtag mapper" revision="0" />
+  <Message key="File associations" value="Filtilknytninger" revision="0" />
+  <Message key="Configure external editor…" value="Konfigurer ekstern editor…" revision="0" />
+  <Message key="Regular expression:" value="Regulær udtryk:" revision="0" />
+  <Message key="Associated scheme:" value="Tilknyttet skema:" revision="0" />
+  <Message key="Structure Coloring" value="Farver til struktur" revision="0" />
+  <Message key="Apply" value="Anvend" revision="0" />
+  <Message key="Bind Structure" value="Bind til struktur" revision="0" />
+  <Message key="Address" value="Adresse" revision="0" />
+  <Message key="Hex:" value="Hex:" revision="0" />
+  <Message key="Decimal:" value="Decimal:" revision="0" />
+  <Message key="Absolute address" value="Absolut adresse" revision="0" />
+  <Message key="Relative address" value="Relativ adresse" revision="0" />
+  <Message key="Cursor" value="Markør" revision="0" />
+  <Message key="Expression" value="Udtryk" revision="0" />
+  <Message key="Bind" value="Bind til" revision="0" />
+  <Message key="Definition:" value="Definition:" revision="0" />
+  <Message key="Type:" value="Type:" revision="0" />
+  <Message key="Data Inspector" value="Datainspektion" revision="0" />
+  <Message key="Available starting from Standard Edition" value="Tilgængelig i udgaver startende fra Standard udgave" revision="0" />
+  <Message key="DataInspCompileError" value="Struktur ikke tilføjet:" revision="0" />
+  <Message key="CompileErrorFormat" value=" Fejl ved kompilering i linje {err_line} " revision="0" />
+  <Message key="BindTypeNotFound" value="Bindingstype {type} blev ikke fundet" revision="0" />
+  <Message key="EmptyDefinition" value="Tekst for definition er tom" revision="0" />
+  <Message key="AddInspectType" value="Tilføj definition for type" revision="0" />
+  <Message key="EditInspectType" value="Rediger definition for type" revision="0" />
+  <Message key="StructureFormats" value="Definitionsfiler for strukturer (*.h)|*.h|" revision="0" />
+  <Message key="DeleteStructFile" value="Fejl ved sletning af markeret fil: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Fejl ved lagring af fil &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="FileNotSaved" value="Det aktuelle dokument er blevet ændret. Ønsker du at gemme dokumentet?" revision="0" />
+  <Message key="Files" value="Filer" revision="0" />
+  <Message key="Structures" value="Strukturer" revision="0" />
+  <Message key="Data Inspector Color Selection" value="Valg af farver for datainspektion" revision="0" />
+  <Message key="Background color:" value="Baggrundsfarve:" revision="0" />
+  <Message key="Text color:" value="Tekstfarve:" revision="0" />
+  <Message key="Outline color:" value="Konturfarve:" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="Add Inspector Type" value="Tilføj type for inspektion" revision="0" />
+  <Message key="Change Time" value="Ændre tid" revision="0" />
+  <Message key="AssignNotification" value="Ændring af data for denne type er ikke aktiveret. Klik på knappen Hjælp for, at få detaljeret information om hvordan ændring af data for en type aktiveres. " revision="0" />
+  <Message key="MaxExportStringSize" value="Maksimale længde på streng" revision="0" />
+  <Message key="MaxExportObjectFields" value="Maksimale antal indføjede felter eller matrikselementer" revision="0" />
+  <Message key="CopyError" value="Fejl ved kopiering af data: {text} ({code})" revision="1" />
+  <Message key="FileExists" value="Denne fil er allerede blevet føjet til biblioteket." revision="0" />
+  <Message key="ErrorStartingExternalEditor" value="Der opstod en fejl ved start af ekstern editor.\r\n\r\nKommandolinje: {path}\r\nFejl: {error text} ({error})" revision="0" />
+  <Message key="UntrustedEditor" value="Du er ved at køre et eksternt editorprogram, der ikke er tillid til, med følgende kommandolinje:\r\n\r\n{path}\r\n\r\nØnsker du at fortsætte? Hvis du trykker Ja, vil dette program blive markeret som et program, der er tillid til." revision="0" />
+  <Message key="TypeExists" value="Type med samme navn findes allerede." revision="0" />
+  <Message key="StructureFileNotFound" value="Fil {file} blev ikke fundet ved placering &quot;{path}&quot;. Ønsker du at fjerne filen fra biblioteket?" revision="0" />
+  <Enumeration key="StructureViewerBind">
+    <Item value="Bind til…" revision="0" />
+    <Item value="Bind ny struktur" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item value="Ophæv alle bindinger" revision="0" />
+    <Item value="Ophæv alle bundne strukturer" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item value="Bibliotek" revision="1" />
+    <Item value="Åbn bibliotek til stukturer" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item value="Vis Hexværdier" revision="0" />
+    <Item value="Vis data i decimal eller hexadecimal" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item value="Gem skema…" revision="0" />
+    <Item value="Gem et aktuel skema til struktur" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item value="Fjern skema" revision="0" />
+    <Item value="Slet aktuelle skema" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item value="Synkroniser placering" revision="0" />
+    <Item value="Synkroniser placering" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item value="Automatisk opdatering" revision="0" />
+    <Item value="Strukturer vil automatisk blive opdateret hvis data ændres." revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item value="On-line lager…" revision="0" />
+    <Item value="Åbn on-line lager hvor der kan hentes nye definitionsfiler for strukturer." revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item value="Tilknytninger…" revision="0" />
+    <Item value="Vis tilknytninger" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item value="Globale farveskemaer til strukturer" revision="0" />
+    <Item value="Definer globale farveskemaer til strukturer" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item value="Vis værktøjstip" revision="0" />
+    <Item value="Vis detaljeret felt-information i værktøjstip for data under markør" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item value="Felt til bogmærke" revision="0" />
+    <Item value="Konverterer markeret felt i struktur til bogmærke" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item value="INGEN_FEJL" revision="1" />
+    <Item value="CE001: Den ønskede handling er ikke tilladt på den angivne datatype eller er ikke forventet." revision="1" />
+    <Item value="CE002: Division med 0" revision="1" />
+    <Item value="CE003: Den angivne identifikator blev ikke fundet" revision="1" />
+    <Item value="CE004: Skalar er forventet" revision="1" />
+    <Item value="CE005: Vektor er forventet" revision="1" />
+    <Item value="CE006: Matrixindeks ligger uden for det gyldige område" revision="1" />
+    <Item value="CE007: Ikke implementeret endnu" revision="1" />
+    <Item value="CE008: Ugyldig bit-feltstørrelse" revision="1" />
+    <Item value="CE009: Syntaksfejl" revision="1" />
+    <Item value="CE010: Type er kun forward-erklæret" revision="1" />
+    <Item value="CE011: Handling ikke understøttet for dynamisk type" revision="1" />
+    <Item value="CE012: Type er omdefineret" revision="1" />
+    <Item value="CE013: Antagelsen mislykkedes" revision="1" />
+    <Item value="CE014: Konstant udtryk er forventet" revision="1" />
+    <Item value="CE015: Konstant streng-udtryk er forventet" revision="1" />
+    <Item value="CE016: Antallet af argumenter til et funktionskald er forkert." revision="1" />
+    <Item value="CE017: Under-script handling for ikke-indekseret matriks (tip: fjern [noindex] attribut)" revision="1" />
+    <Item value="CE018: Fejl retuneret fra Javascript motor" revision="1" />
+    <Item value="CE019: Ugyldigt argument" revision="1" />
+    <Item value="CE020: Maksimalt tilladte dybte for rekursion er nået" revision="1" />
+    <Item value="CE021: Udtryk for en anden type er forventet" revision="1" />
+    <Item value="CE022: Fejl ved forbehandling" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item value="Strukturfremviser" revision="0" />
+    <Item value="Strukturfremviser menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item value="Filer" revision="0" />
+    <Item value="Strukturer" revision="0" />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item value="Regulær udtryk" revision="0" />
+    <Item value="Skema" revision="0" />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item value="Navn" revision="0" />
+    <Item value="Værdi" revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Størrelse" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Beskrivelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item value="Strukturfremviser" revision="0" />
+    <Item value="Funktionen Strukturfremviser gør det muligt at analysere fildata ifølge strukturdefinitionen indlæst fra hoved-filer." revision="0" />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item value="Dokumentnavn" revision="0" />
+    <Item value="Fil" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Linje" revision="0" />
+    <Item value="Beskrivelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item value="Til markering" revision="0" />
+    <Item value="Konverter felt til markering" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item value="Gå til slut af aktuelle felt" revision="1" />
+    <Item value="Flyt markør til slut af det aktuelle felt" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item value="Gå til definition af type" revision="1" />
+    <Item value="Åbn definitionsfil for struktur med aktuelle definition af type" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item value="Gå til definition af felt" revision="1" />
+    <Item value="Åbn definitionsfil for struktur med aktuelle definition af felt" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item value="Kopier kvalificeret navn" revision="1" />
+    <Item value="Kopier kvalificeret navn fra felt til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item value="Kopier værdi" revision="1" />
+    <Item value="Kopier værdi til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item value="Kopier linje" revision="1" />
+    <Item value="Kopier komplet linje til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item value="Kopier alt" revision="1" />
+    <Item value="Kopier indhold fra hele vinduer til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item value="Kopier kolonne" revision="1" />
+    <Item value="Kopier aktuelle kolonne til Udklipsholder" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item value="Eksporter til CSV fil…" revision="1" />
+    <Item value="Eksporter indhold fra hele vinduer til CSV fil" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item value="Vis alle" revision="1" />
+    <Item value="Vis alle elementer" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item value="Skjul alle" revision="1" />
+    <Item value="Skjul alle elementer" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item value="Vis element" revision="1" />
+    <Item value="Vis element" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item value="Skjul element" revision="1" />
+    <Item value="Skjul element" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item value="Ophæv binding" revision="0" />
+    <Item value="Ophæv binding" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item value="Bind til…" revision="0" />
+    <Item value="Bind til ny struktur" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item value="Rediger…" revision="0" />
+    <Item value="Rediger aktuel værdi" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item value="Type" revision="0" />
+    <Item value="Værdi" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item value="Aktiver fremhævelse" revision="0" />
+    <Item value="Aktiver eller deaktiver fremhævning af felt" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item value="Ændre farver…" revision="0" />
+    <Item value="Skift farver til fremhævning af datainspektion" revision="0" />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item value="Tilføj &amp;ny type…" revision="0" />
+    <Item value="Tilføj ny definition for type" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item value="Rediger definition…" revision="0" />
+    <Item value="Rediger aktuelle definition af type" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item value="Fjern definition" revision="0" />
+    <Item value="Fjern markeret definition af type" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item value="&amp;Datainspektion" revision="0" />
+    <Item value="Datainspektion menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item value="Datainspektion" revision="0" />
+    <Item value="Funktionen Datainspektino gør det muligt at vise data under markør i forskellige formater, hvor aktuelt markeret felt er fremhævet." revision="0" />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item value="Standard typer" revision="0" />
+    <Item value="Brugerdefinerede typer" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNew">
+    <Item value="&amp;Ny struktur fil…" revision="0" />
+    <Item value="Opret ny defintionsfil til struktur" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item value="Tilføj struktur fil…" revision="0" />
+    <Item value="Føj eksisterende definitionsfil til struktur til biblioteket" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item value="Gem &amp;alle struktur filer" revision="0" />
+    <Item value="Gem alle åbne definitionsfiler til strukturer til disk" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item value="Omkompiler" revision="0" />
+    <Item value="Kompiler strukturer" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item value="Struktur editor" revision="0" />
+    <Item value="Struktur editor menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item value="Rediger værdi" revision="0" />
+    <Item value="Rediger aktuelle værdi" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item value="Automatisk omkompilering" revision="0" />
+    <Item value="Omkomiler automatisk kildefiler hvis de ændres" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item value="Fjern struktur fil" revision="1" />
+    <Item value="Fjern markeret kildefil" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item value="Åbn struktur fil" revision="0" />
+    <Item value="Åbn mappe til struktur filer" revision="0" />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item value="CSV eksport separator" revision="0" />
+    <Item value="Automatisk" revision="0" />
+    <Item value="Komma" revision="0" />
+    <Item value="Tabulator" revision="0" />
+    <Item value="Semikolon" revision="0" />
+  </Enumeration>
+</Language>

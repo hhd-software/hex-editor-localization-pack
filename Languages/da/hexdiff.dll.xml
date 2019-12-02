@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Different" value="Forskellig" revision="0" />
+  <Message key="Not Found" value="Ikke fundet" revision="0" />
+  <Message key="Matched blocks:" value="Tilsvarende blokke:" revision="0" />
+  <Message key="Different blocks:" value="Forskellige blokke:" revision="0" />
+  <Message key="Not found blocks:" value="Ikke fundne blokke:" revision="0" />
+  <Message key="Inserted blocks:" value="Indsatte blokke:" revision="0" />
+  <Message key="Removed blocks:" value="Fjernede blokke:" revision="0" />
+  <Message key="IdenticalNotification" value="Filsammenligning: NTFS stream i identiske filer" revision="0" />
+  <Message key="File Comparison" value="Filsammenligning" revision="0" />
+  <Message key="Error opening both files" value="Fejl ved åbning af begge filer" revision="0" />
+  <Message key="Error opening one of files" value="Fejl ved åbning af en af filerne" revision="0" />
+  <Message key="Locked" value="Mindst ét dokument er låst da en handling tager lang tid. Vent venligt indtil handlingen er fuldført." revision="0" />
+  <Message key="OpName" value="Sammenligner filer" revision="0" />
+  <Message key="CompareError" value="Fejl ved sammenligning af filer." revision="0" />
+  <Message key="ConvertError" value="Fejl ved oprettelse af markering." revision="0" />
+  <Message key="DisplayStreams" value="Vis stream for {file}" revision="0" />
+  <Message key="Convert Blocks To Selection" value="Konverter bokke til markering" revision="0" />
+  <Message key="Matched blocks" value="Tilsvarende blokke" revision="0" />
+  <Message key="Inserted blocks" value="Indsatte blokke" revision="0" />
+  <Message key="Removed blocks" value="Fjernede blokke" revision="0" />
+  <Message key="Modified blocks" value="Ændrede blokke" revision="0" />
+  <Message key="Color Selection" value="Farvemarkering" revision="0" />
+  <Message key="Compare Files" value="Sammenlign filer" revision="0" />
+  <Message key="First file:" value="Første fil:" revision="0" />
+  <Message key="Second file:" value="Anden fil:" revision="0" />
+  <Message key="Comparison method:" value="Metode for sammenligning:" revision="0" />
+  <Message key="Align documents:" value="Juster dokumenter:" revision="0" />
+  <Message key="Synchronize windows" value="Synkroniser vinduer" revision="0" />
+  <Message key="Colors…" value="Farver…" revision="0" />
+  <Message key="Swap" value="Byt om" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="Sammenlign igen" revision="0" />
+    <Item value="Sammenlign filer igen" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="Sammenlign filer…" revision="0" />
+    <Item value="Sammenligner filer" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="Konverter til markering" revision="0" />
+    <Item value="Konverter blokke til markering" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="Aktiver farver" revision="0" />
+    <Item value="Aktiver farver" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="Vis Hexværdier" revision="0" />
+    <Item value="Vis data i decimal eller hexadecimal" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="Forrige blok" revision="0" />
+    <Item value="Gå til forrige blok" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="Næste blok" revision="0" />
+    <Item value="Gå til næste blok" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="Vælg farver…" revision="0" />
+    <Item value="Vælg farver til brug ved fremhævede blokke" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="Kombinationstilstand" revision="0" />
+    <Item value="Vis blokke for begge filer på samme tid" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="Simpel algoritme for sammenligning" revision="0" />
+    <Item value="Differencealgoritme" revision="0" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="Juster ikke" revision="0" />
+    <Item value="Juster vandret" revision="0" />
+    <Item value="Juster lodret" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="Normal" revision="0" />
+    <Item value="Nøjagtig" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="Filsammenligning" revision="0" />
+    <Item value="Filerne er identiske men indeholder supplerende stream. Hex Editor Neo sammenligner ikke automatisk indholdet af supplerende stream. Dette kan gøres manuelt. Vælg en af mulighederne herunder for at fortsætte." revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="Filsammenligning" revision="0" />
+    <Item value="Filerne er identiske." revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Sammenlign filer" revision="0" />
+    <Item value="Sammenlign indhold af to binære filer" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="Filsammenligning" revision="0" />
+    <Item value="Menuen Filsammenligning" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="Filsammenligning" revision="0" />
+    <Item value="Funktionen Filsammenligning gør det muligt at finde forskelle mellem to filer." revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="Tilsvarende" revision="0" />
+    <Item value="Rettede" revision="0" />
+    <Item value="Indsatte" revision="0" />
+    <Item value="Fjernede" revision="0" />
+    <Item value="Flyttede" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Type" revision="0" />
+    <Item value="Forskydning (Kilde)" revision="0" />
+    <Item value="Forskydning (Destination)" revision="0" />
+    <Item value="Størrelse" revision="0" />
+  </Enumeration>
+</Language>

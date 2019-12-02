@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="Er du sikker på at du vil annullere denne handling? Dette vil resultere i at filen bliver beskadiget." revision="1" />
+  <Message key="OccFound" value="{N} forekomster fundet indtil nu." revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo 5 kopieret data" revision="1" />
+  <Message key="DefaultBranchName" value="Standard" revision="1" />
+  <Message key="Continue working with a file." value="Fortsæt arbejdet med en fil." revision="1" />
+  <Message key="Discard all changes and close the file." value="Fjern alle ændringer og luk filen." revision="1" />
+  <Message key="SharedError" value="Der opstod en fejl ved opdatering af en fil." revision="1" />
+  <Message key="InvalidChars" value="Regulær udtryk-klasse indeholder ugyldige tegn." revision="1" />
+  <Message key="ClassExists" value="Denne klasse eksistere allerede. Ret navnet på klassen." revision="1" />
+  <Message key="DeleteClasses?" value="Er du sikker på at du vil slette alle klasser?" revision="1" />
+  <Message key="LoadError" value="Intern fejl: {text} ({code})" revision="1" />
+  <Message key="Loading" value="Indlæser kernekomponenter" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="Kontroller for manglende diskplads før handlinger udføres" revision="1" />
+  <Message key="IgnoreRenames" value="Ignorer omdøbning af åbne filer der er delte" revision="1" />
+  <Message key="RemovedNotification" value="Delt dokument slettet" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="Forsøg på automatisk åbning med øjebliksbillede af disk" revision="0" />
+  <Message key="NewBranchName" value="Forgrening {n}" revision="1" />
+  <Message key="OldVersion" value="{name} (gammel version {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;: Fejl ved oprettelse af dokumentobjekt: {text} ({code})" revision="2" />
+  <Message key="LongTime" value="Åbning af filen &quot;{path}&quot; i delt tilstand kan tage lang tid. Ønsker du istedet at åbne filen i normal, låst tilstand?" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Fejl ved åbning af dokument: {text} ({code})" revision="2" />
+  <Message key="LowDiskSpace" value="Der er ikke tilstrækkelig diskplads på disk {disk}. Handlingen vil ikke blive udført. Slet nogle filer og forsøg igen.\r\n\r\nBemærk: De fleste Hex Editor Neo handlinger er deaktiverede sålænge der ikke er tilstrækkelig diskplads på disk indeholde midlertidig mappe. Handlingen Gem som er ikke deaktiveret og gør det muligt at gemme ændringer af filen til en anden enhed.\r\n\r\nDenne kontrol kan deaktiveres i Funktioner » Indstillinger, fanen Generelt. Fjern markeringen for afkrydsningsfeltet &quot;Kontroller for manglende diskplads før handlinger udføres&quot; for at deaktivere denne kontrol. " revision="1" />
+  <Message key="Unknown Process" value="Ukendt proces" revision="1" />
+  <Message key="Physical Memory" value="Fysisk hukommelse" revision="1" />
+  <Message key="Shared File Conflict Detected" value="Delt fil konflikt registreret" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Filen er blevet ændret udenfor Hex Editor Neo. Hvad ønsker du at gøre?" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="Bevar alle ændringer uden at opdatere filen" revision="1" />
+  <Message key="Discard all changes and close the file" value="Fjern alle ændringer og luk filen" revision="1" />
+  <Message key="Discard all changes and update the file" value="Fjern alle ændringer og opdater filen" revision="1" />
+  <Message key="Retain all changes and update the file" value="Bevar alle ændringer og opdater filen" revision="1" />
+  <Message key="Highlight changes in the file" value="Fremhæv ændringer i filen" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="bruger simpel algoritme (hurtigere, mindre præcis)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="bruger differencealgoritme (langsommere, mere præcis)" revision="1" />
+  <Message key="Close older versions of the file" value="Luk ældre versioner af filen" revision="1" />
+  <Message key="Edit Class" value="Rediger klasse" revision="1" />
+  <Message key="Class name (must be unique):" value="Klassenavn (skal være unikt):" revision="1" />
+  <Message key="Regular expression:" value="Regulær udtryk:" revision="1" />
+  <Message key="Regular Expressions" value="Regulære udtryk" revision="1" />
+  <Message key="Regular Expressions Page" value="Regulære udtryk" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Du kan oprette regulære udtryk, der kan genbruges på denne side. Enhver klasse bør være et gyldigt regulær udtryk og kan referere til andre klasser." revision="1" />
+  <Message key="Add…" value="&amp;Tilføj…" revision="1" />
+  <Message key="Edit…" value="&amp;Rediger…" revision="1" />
+  <Message key="Delete All" value="Slet alle" revision="1" />
+  <Message key="Global regular expression options:" value="Globale regulær udtryk indstillinger:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Punktum) metategn stemmer ikke overens med null-tegn ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Punktum) metategn stemmer ikke overens med linjeskifttegn ('\\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="Ikke-escape blanktegn er ikke væsentligt" revision="1" />
+  <Message key="Open Shared" value="Åbn delt" revision="1" />
+  <Message key="SnapshotTitle" value="Åbn fra øjebliksbillede" revision="0" />
+  <Message key="SnapshotDescription" value="Hex Editor Neo kunne ikke åbne &quot;{path}&quot; på grund af følgende fejl:\r\n    » {text} ({code})\r\n\r\nØnsker du at forsøge at oprette et enhedsøjebliksbillede og åbne filen fra dette øjebliksbillede? " revision="0" />
+  <Message key="RegExp settings" value="Regulær udtryk klasser" revision="0" />
+  <Enumeration key="ConflictOptions">
+    <Item value="Ignorer ændringer" revision="1" />
+    <Item value="Luk filen" revision="1" />
+    <Item value="Opdater filen" revision="1" />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item value="Delt fil konflikt registreret" revision="1" />
+    <Item value="Filen {name} er blevet fjernet af et andet program. Hvad ønsker du at gøre?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item value="Søg alle" revision="1" />
+    <Item value="Udfyld" revision="1" />
+    <Item value="Slet" revision="1" />
+    <Item value="Gem" revision="1" />
+    <Item value="Søg" revision="1" />
+    <Item value="Erstat alle" revision="1" />
+    <Item value="Opsamling af statistik" revision="1" />
+    <Item value="Gem som" revision="1" />
+    <Item value="Gem historik" revision="1" />
+    <Item value="Indlæs historik" revision="1" />
+    <Item value="Opretter rettelsesdata" revision="1" />
+    <Item value="Hent ændret markering" revision="1" />
+    <Item value="Kopier" revision="1" />
+    <Item value="Indsæt" revision="1" />
+    <Item value="Tøm historik" revision="1" />
+    <Item value="Mønsterstatistik" revision="1" />
+    <Item value="Eksport" revision="1" />
+    <Item value="Krypter" revision="1" />
+    <Item value="Dekrypter" revision="1" />
+    <Item value="Bitvis handling" revision="1" />
+    <Item value="Arimetisk handling" revision="1" />
+    <Item value="Forskydningshandling" revision="1" />
+    <Item value="Omvendt handling" revision="1" />
+    <Item value="Store/Små bogstaver handling" revision="1" />
+    <Item value="Indsæt Hex" revision="1" />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item value="Klassenavn" revision="1" />
+    <Item value="Regulær udtryk" revision="1" />
+  </Enumeration>
+</Language>

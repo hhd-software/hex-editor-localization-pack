@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="Overførsler" revision="1" />
+  <Message key="ForegroundDownloading" value="Forgrundsoverførsel" revision="1" />
+  <Message key="ProgressString" value="{percent} % udført" revision="1" />
+  <Message key="Unknown" value="Ukendt" revision="1" />
+  <Message key="PleaseWait" value="Vent venligst…" revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="Dette vil genstarte alle aktive overførsler. Ønsker du at fortsætte?" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="Ønsker du at annullere alle aktive overførsler?" revision="1" />
+  <Message key="Proxy Page" value="Proxy" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Vælg proxyindstillinger for &quot;Søg efter opdateringer&quot;;" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="Autodetect proxy settings" value="Automatisk genkendelse af proxyindstillinger" revision="0" />
+  <Message key="Do not use proxy" value="Bug ikke proxy" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="Brug følgende proxy (HTTP):" revision="0" />
+  <Message key="Settings" value="Indstillinger" revision="0" />
+  <Message key="Authentication" value="Godkendelse" revision="0" />
+  <Message key="Authentication is not required" value="Godkendelse er ikke påkrævet" revision="0" />
+  <Message key="Authenticate me as logged on user" value="Godkendt som bruger, der er logget på" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Godkend med følgende legitimationsoplysninger:" revision="0" />
+  <Message key="User name:" value="Brugernavn:" revision="0" />
+  <Message key="Password:" value="Adgangskode:" revision="0" />
+  <Message key="Re-type password:" value="Skriv adgangskoden igen:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo gemmer den indtastede adgangskode sikkert i din lokale brugerkonto)" revision="0" />
+  <Message key="PasswordMismatch" value="De indtastede adgangskoder skal stemme overens." revision="0" />
+  <Message key="Downloader settings" value="Proxyindstillinger" revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="Overførsler" revision="0" />
+    <Item value="Overførselsmenu" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="Annuller alle overførsler" revision="1" />
+    <Item value="Annullerer alle overførsler" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="Forgrundsoverførsel" revision="1" />
+    <Item value="Bruger al den tilgængelige netværksbåndbredde til overførsler" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="Overførsel" revision="1" />
+    <Item value="Status" revision="1" />
+    <Item value="Størrelse" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="Sat i kø" revision="1" />
+    <Item value="Forbinder…" revision="1" />
+    <Item value="Overfører…" revision="1" />
+    <Item value="Midlertidigt stoppet" revision="1" />
+    <Item value="Fejl" revision="1" />
+    <Item value="Fejl. Prøver igen om 10 sekunder…" revision="1" />
+    <Item value="Overført" revision="1" />
+    <Item value="Bekræftet" revision="1" />
+    <Item value="Annulleret" revision="1" />
+  </Enumeration>
+</Language>

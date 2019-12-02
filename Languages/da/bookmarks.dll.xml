@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Sample Text" value="Eks. tekst" revision="0" />
+  <Message key="Loading" value="Indlæser bogmærker" revision="0" />
+  <Message key="Initializing" value="Initialiserer bogmærker" revision="0" />
+  <Message key="Bookmarks" value="Bogmærker" revision="0" />
+  <Message key="Progress" value="Aktuel handling er i gang. Vent venligst indtil den er afsluttet." revision="0" />
+  <Message key="GroupDelete" value="Gruppe vil blive slettet (inklusiv alle bogmærker den indholder). Ønsker du at fortsætte?" revision="0" />
+  <Message key="AllDelete" value="Alle grupper vil blive slettet. Ønsker du at fortsætte?" revision="0" />
+  <Message key="BookmarkGroup" value="Bogmærkegruppe {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Fejl ved oprettelse af bogmærkegruppe" revision="0" />
+  <Message key="SelWarning" value="Aktuelle markering indeholder flere fragmenter. Hver vil blive tilføjet som separate bogmærker. Ønsker du at fortsætte?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Fejl ved konvertering af markering til bogmærker" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Fejl ved konvertering af bogmærker til markering" revision="0" />
+  <Message key="AllBookmarksDelete" value="Alle bogmærker vil blive slettet. Ønsker du at fortsætte?" revision="0" />
+  <Message key="Error loading from file" value="Fejl ved indlæsning fra fil" revision="0" />
+  <Message key="File has different version" value="Fil har forskellig version" revision="0" />
+  <Message key="Error loading bookmarks" value="Fejl ved indlæsning af bogmærker" revision="0" />
+  <Message key="Select Action" value="Vælg handling" revision="0" />
+  <Message key="New selection" value="Ny markering" revision="0" />
+  <Message key="Add to selection" value="Tilføj markering" revision="0" />
+  <Message key="Subtract from selection" value="Fratræk markering" revision="0" />
+  <Message key="Edit Group" value="Rediger gruppe" revision="0" />
+  <Message key="Name:" value="Navn:" revision="0" />
+  <Message key="Text:" value="Tekst:" revision="0" />
+  <Message key="Background:" value="Baggrund:" revision="0" />
+  <Message key="Outline:" value="Omrids:" revision="0" />
+  <Message key="Round edges" value="Afrundede hjørner" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="BookmarksFilterString" value="Bogmærkefiler (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="Markeringsfiler (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Vis markering til bogmærke konverteringsadvarsel" revision="1" />
+  <Message key="MergeBookmarks" value="Vil du flette med eksisterende bogmærker?" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Ny bogmærkegruppe" revision="0" />
+    <Item value="Opret en ny bogmærkegruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Tilføj/Fjern bogmærke" revision="0" />
+    <Item value="Tilføj eller fjern et bogmærke til den aktuelle position" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Forrige bogmærke" revision="0" />
+    <Item value="Gå til forrige bogmærke" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Næste bogmærke" revision="0" />
+    <Item value="Gå til næste bogmærke" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Markering til bogmærker" revision="0" />
+    <Item value="Konverter den aktuelle markering til bogmærker" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Bogmærker til markering…" revision="0" />
+    <Item value="Konverter de aktuelle bogmærker til markering" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Indlæs bogmærker…" revision="0" />
+    <Item value="Indlæser bogmærker fra en fil" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Gem bogmærker…" revision="0" />
+    <Item value="Gemmer bogmærker til en fil" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;Bogmærker" revision="0" />
+    <Item value="Bogmærker menu" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Vælg" revision="0" />
+    <Item value="Vælg denne bogmærkegruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Rediger" revision="0" />
+    <Item value="Rediger bogmærkegruppe" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="Fjern alle" revision="0" />
+    <Item value="Fjern alle poster" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="Fjern" revision="0" />
+    <Item value="Fjern aktuelle post" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Gå til bogmærke" revision="0" />
+    <Item value="Gå til det valgte bogmærke" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Fjern den aktuelle markering og konverter den aktuelle bogmærkegruppe til en ny markering." revision="0" />
+    <Item value="Tilføj den aktuelle bogmærkegruppe til en markering." revision="0" />
+    <Item value="Fratræk den aktuelle bogmærkegruppe fra en markering." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Synlig" revision="0" />
+    <Item value="Træg" revision="0" />
+    <Item value="Aktiv" revision="0" />
+    <Item value="Bogmærkegruppe" revision="0" />
+    <Item value="Bogmærker" revision="0" />
+    <Item value="Farve" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Nr." revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Størrelse" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Bogmærke" revision="0" />
+    <Item value="Bogmærker funktionen gør det muligt at anbringe bogmærker i en fil for hurtig gennemsyn." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Markering til bogmærke konverteringsadvarsel" revision="1" />
+    <Item value="Aktuelle markering indeholder flere fragmenter. Hver vil blive tilføjet som et separat bogmærke. Ønsker du at fortsætte?" revision="1" />
+  </Enumeration>
+</Language>
