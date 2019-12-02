@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Sample Text" value="Échantillon de texte" revision="0" />
+  <Message key="Loading" value="Chargement de  Signets" revision="0" />
+  <Message key="Initializing" value="Initialisation de Signets" revision="0" />
+  <Message key="Bookmarks" value="Signets" revision="0" />
+  <Message key="Progress" value=" Opération en cours. Veuillez patientez jusqu’à son achèvement." revision="0" />
+  <Message key="GroupDelete" value="Ce groupe va être supprimé, (y compris tous les signets qu’il contient). Voulez-vous continuer?" revision="0" />
+  <Message key="AllDelete" value="Tous les groupes seront supprimés. Voulez-vous continuer?" revision="0" />
+  <Message key="BookmarkGroup" value="Signets Groupe {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Erreur de création de groupe de signets" revision="0" />
+  <Message key="SelWarning" value="Sélection contient des fragments multiples. Tous seront ajoutés sous forme de signets distincts. Voulez-vous continuer?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Erreur de conversion aux favoris" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Erreur de conversion signet" revision="0" />
+  <Message key="AllBookmarksDelete" value="Tous les signets seront supprimés. Voulez-vous continuer?" revision="0" />
+  <Message key="Error loading from file" value="Erreur lors du chargement de fichiers" revision="0" />
+  <Message key="File has different version" value="Le fichier a version différente" revision="0" />
+  <Message key="Error loading bookmarks" value="Erreur lors du chargement des signets" revision="0" />
+  <Message key="Select Action" value=" Sélectionner une action" revision="0" />
+  <Message key="New selection" value="Démarrer une nouvelle sélection." revision="0" />
+  <Message key="Add to selection" value=" Ajouter à la sélection" revision="0" />
+  <Message key="Subtract from selection" value="Soustraire de la sélection" revision="0" />
+  <Message key="Edit Group" value="Modifier le groupe" revision="0" />
+  <Message key="Name:" value="Nom:" revision="0" />
+  <Message key="Text:" value="Texte:" revision="0" />
+  <Message key="Background:" value="Arrière-plan:" revision="0" />
+  <Message key="Outline:" value="Contour:" revision="0" />
+  <Message key="Round edges" value="Bords Arrondis" revision="0" />
+  <Message key="Default" value="Par défaut" revision="0" />
+  <Message key="BookmarksFilterString" value="Fichiers signets (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="Fichiers sélectionnés (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Afficher la sélection des alertes de conversion de signets" revision="1" />
+  <Message key="MergeBookmarks" value="Voulez-vous fusionner avec signets existants." revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Nouveau groupe de signets" revision="0" />
+    <Item value="Créer un nouveau groupe de favoris" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Basculer signets" revision="0" />
+    <Item value="Mettre ou supprimer un signet sur la position actuelle" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Signet précédent" revision="0" />
+    <Item value="Aller au signet précédent" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Signet suivant" revision="0" />
+    <Item value="Aller au signet suivant" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Sélection de signets" revision="0" />
+    <Item value="Convertir la sélection des favoris" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Signets à la sélection…" revision="0" />
+    <Item value="Convertir les signets actuels à la sélection" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Charger les signets…" revision="0" />
+    <Item value="Charge des signets dans un fichier" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Enregistrer des signets…" revision="0" />
+    <Item value="Enregistrer des signets dans un fichier" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp; Favoris" revision="0" />
+    <Item value="Menu favoris" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Sélectionnez" revision="0" />
+    <Item value="Sélectionnez ce groupe de signets" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Éditer" revision="0" />
+    <Item value="Modifier le groupe de signets" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="Retirez &amp; tous" revision="0" />
+    <Item value="Supprimez toutes les entrées" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="Supprimer" revision="0" />
+    <Item value="Retirer entrée actuelle" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Allez à vos favoris" revision="0" />
+    <Item value="Aller au favoris sélectionné" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Mettre la sélection actuelle et transformer le groupe de favoris actuelle vers une nouvelle sélection." revision="0" />
+    <Item value="Ajoutez le groupe de favoris actuelle à une sélection." revision="0" />
+    <Item value="Soustraire le groupe de favoris vers une sélection actuelle." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Visible" revision="0" />
+    <Item value="Post-it" revision="0" />
+    <Item value="Actif" revision="0" />
+    <Item value="Groupe favoris" revision="0" />
+    <Item value="Signets" revision="0" />
+    <Item value="Couleur" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Non." revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Taille" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Signets" revision="0" />
+    <Item value="La fonction signets vous permet de placer des signets dans un fichier pour une navigation rapide." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Sélection de conversion de signets" revision="1" />
+    <Item value="La sélection actuelle contient des fragments multiples. Tous seront ajoutés sous forme de signets distincts. Voulez-vous continuer?" revision="1" />
+  </Enumeration>
+</Language>

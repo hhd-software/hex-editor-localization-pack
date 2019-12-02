@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Update" value="Mise à Jour" revision="0" />
+  <Message key="Assertion Failed" value="Échec d'assertion{has message?}: {message}{?has message}" revision="0" />
+  <Message key="CantEvaluate" value="Impossible d'évaluer l'expression délimitée." revision="0" />
+  <Message key="Structure Viewer" value="Vue de Structure" revision="0" />
+  <Message key="Initializing" value="Initialisation de l'observateur de structure" revision="0" />
+  <Message key="Structure Errors" value="Erreurs de Structures" revision="0" />
+  <Message key="Error accessing Clipboard" value="Erreur d'accés au presse-papiers" revision="0" />
+  <Message key="ModifiedSuffix" value="(modifié)" revision="0" />
+  <Message key="NotFoundSuffix" value="(pas trouvé)" revision="0" />
+  <Message key="FileInUse" value="Ce fichier est utilisé par l'observateur de structure. Certains types ne seront pas délimités. Voulez-vous continuer?" revision="0" />
+  <Message key="ConfigurationLost" value="Configuration actives sera perdue. Voulez-vous continuer?" revision="0" />
+  <Message key="FileColumn" value="Fichier" revision="0" />
+  <Message key="Nothing selected" value="Aucun sélection" revision="0" />
+  <Message key="Enter file extension" value="Saisir l'extension du fichier" revision="0" />
+  <Message key="No schemes available. Create schemes in Structure Viewer first" value="Aucun schéma disponible. Créer un schéma dans l'Observateur de structure d'abords" revision="0" />
+  <Message key="No scheme selected" value="Aucun schéma sélectioné" revision="0" />
+  <Message key="This extension is already used" value="Cette extension est déjà utilisé" revision="0" />
+  <Message key="All associations will be lost. Do you want to continue?" value="Toutes les associations seront perdues. Voulez-vous continuer?" revision="0" />
+  <Message key="N/A" value="Non disponible" revision="0" />
+  <Message key="Bind is disabled during lengthy operation. Try again later." value="La liaison est désactivée pendant une opération de longue durée. Réessayez ultérieurement." revision="0" />
+  <Message key="Do you want to continue and remove the selected structure?" value="Voulez-vous continuer et enlever la structure sélectionnée?" revision="0" />
+  <Message key="SchemeNotFound" value="Schéma associé  &quot;{scheme}&quot; n'est pas trouvée pour {ext} file extension." revision="0" />
+  <Message key="Structure Viewer: Load Scheme" value="L'observateur de structure: Chargement de Schéma" revision="0" />
+  <Message key="Edit Associations" value="Editer les associations" revision="0" />
+  <Message key="Unable to create file" value="Erreur lors de l'exportation du fichier CSV:: {text} ({code})" revision="1" />
+  <Message key="Error saving scheme" value="Erreur lors de l'enregistrement du schéma" revision="0" />
+  <Message key="LengthyOp" value="Cette opération n'est pas disponible pendant les longues opérations. Réessayez ultérieurement." revision="0" />
+  <Message key="This scheme can not be removed." value="Ce schéma ne peut pas être supprimé." revision="0" />
+  <Message key="TypeNotFound" value="{typename} (the type is not found)" revision="0" />
+  <Message key="noname" value="&lt;Pas de Nom&gt;" revision="0" />
+  <Message key="The file has different version." value="Ce fichier a une version différente." revision="0" />
+  <Message key="UnknownType" value="Type inconnu" revision="0" />
+  <Message key="ErrorLoading" value="Erreur lors du chargement de structure(s):\r\n" revision="0" />
+  <Message key="Associated scheme can not be loaded" value="Le schéma associé ne peut pas être chargé" revision="0" />
+  <Message key="Locked" value="L'observateur de la structure est verrouillé" revision="0" />
+  <Message key="Modified" value="Les fichiers suivants ont été modifié en dehors de Hex Editor Neo (total {n} files):\r\n{files}\r\nVoulez-vous les recharger?" revision="0" />
+  <Message key="CompileErrors" value="Erreurs de compilation{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="BindErrors" value="Erreurs de liaison{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Binding Structure" value="Structure de liaison" revision="0" />
+  <Message key="BindError" value="Hex Editor Neo est incapable de traiter la directive $bind (vérifier si le type est public)" revision="0" />
+  <Message key="Copy to clipboard" value="Copier dans le Presse-papiers" revision="0" />
+  <Message key="Exporting to file" value="Exporter vers le fichier" revision="0" />
+  <Message key="Copy/export speed" value="{lines} lignes/s" revision="0" />
+  <Message key="VariableUpdateError" value="Hex Editor Neo est incapable de mettre à jour la valeur de la variable" revision="0" />
+  <Message key="VariableBindError" value="Hex Editor Neo est incapable de lier à la variable." revision="0" />
+  <Message key="OnlyFirst" value="Seuls les premiers {n} lignes seront {is copy?} copiés dans le Presse-papiers{|is copy}exporter{?is copy}. Voulez-vous continuer?" revision="0" />
+  <Message key="SchemeExists" value="Schéma existe déjà. Voulez-vous le remplacer?" revision="0" />
+  <Message key="Scheme already exists" value="Schéma existe déjà." revision="0" />
+  <Message key="External Editor" value="Erreur externe" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="Configurer l'éditeur de texte de fichier externe à être utilisé par l'observateur de structure:" revision="0" />
+  <Message key="Clear" value="Reinitialiser" revision="0" />
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="Astuce: utiliser les espaces réservés suivants:\n  » %path% - chemin vers le fichier source\n   » %line% - ligne\n   » %pos% - position dans la ligne" revision="0" />
+  <Message key="Library" value="Bibliothèque" revision="0" />
+  <Message key="Add…" value="Ajouter…" revision="0" />
+  <Message key="Edit…" value="Editer…" revision="0" />
+  <Message key="Save Scheme" value="Enregistrer Schéma" revision="0" />
+  <Message key="Name:" value="Nom:" revision="0" />
+  <Message key="Structure Viewer Page" value="Observateur de Structure" revision="0" />
+  <Message key="Include directories" value="Inclure les répertoires" revision="0" />
+  <Message key="File associations" value="Asociations de fichiers" revision="0" />
+  <Message key="Configure external editor…" value="Configurer éditeur externe…" revision="0" />
+  <Message key="Regular expression:" value="Expression régulière:" revision="0" />
+  <Message key="Associated scheme:" value="Schéma associé:" revision="0" />
+  <Message key="Structure Coloring" value="Coloriage des Structures" revision="0" />
+  <Message key="Apply" value="Appliquer" revision="0" />
+  <Message key="Bind Structure" value="Lier Structures" revision="0" />
+  <Message key="Address" value="Adresses" revision="0" />
+  <Message key="Hex:" value="Hexadécimale:" revision="0" />
+  <Message key="Decimal:" value="Décimale:" revision="0" />
+  <Message key="Absolute address" value="Adresse Absolue" revision="0" />
+  <Message key="Relative address" value="Addresses relatives" revision="0" />
+  <Message key="Cursor" value="Curseur" revision="0" />
+  <Message key="Expression" value="Expression" revision="0" />
+  <Message key="Bind" value="Lier" revision="0" />
+  <Message key="Definition:" value="Définition:" revision="0" />
+  <Message key="Type:" value="Type:" revision="0" />
+  <Message key="Data Inspector" value="Inspecteur de données" revision="0" />
+  <Message key="Available starting from Standard Edition" value="Commencement disponible de l'Édition Standard" revision="0" />
+  <Message key="DataInspCompileError" value="Structure pas ajouté:" revision="0" />
+  <Message key="CompileErrorFormat" value=" Erreur de compilation à la ligne {err_line} " revision="0" />
+  <Message key="BindTypeNotFound" value="Type lier {type} introuvable" revision="0" />
+  <Message key="EmptyDefinition" value="Le texte de définition est vide" revision="0" />
+  <Message key="AddInspectType" value="Ajoutez la définition du type" revision="0" />
+  <Message key="EditInspectType" value="Révisez la définition du type" revision="0" />
+  <Message key="StructureFormats" value="Dossiers de définition de structure (*.h)|*.h|" revision="0" />
+  <Message key="DeleteStructFile" value="Erreur suppression fichier sélectionné: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Fichier sauvegarde d'erreur &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="FileNotSaved" value="Le présent document a été modifié. Voulez-vous sauver?" revision="0" />
+  <Message key="Files" value="Fichiers" revision="0" />
+  <Message key="Structures" value="Structures" revision="0" />
+  <Message key="Data Inspector Color Selection" value="Inspecteur de données couleur" revision="0" />
+  <Message key="Background color:" value="Couleur de base:" revision="0" />
+  <Message key="Text color:" value="Couleur de texte:" revision="0" />
+  <Message key="Outline color:" value="Couleur de contour:" revision="0" />
+  <Message key="Default" value="Par défaut" revision="0" />
+  <Message key="Add Inspector Type" value="Ajouter inspecteur type" revision="0" />
+  <Message key="Change Time" value="Changer l'heure" revision="0" />
+  <Message key="AssignNotification" value="La modification des type de données n'est pas activé. Cliquez sur le bouton Aide pour obtenir des informations détaillées sur la façon de permettre de modifier les type de données." revision="0" />
+  <Message key="MaxExportStringSize" value="Longueur maximale de la chaîne" revision="0" />
+  <Message key="MaxExportObjectFields" value="Nombre maximal de champs en ligne ou d'éléments du tableau" revision="0" />
+  <Message key="CopyError" value="Erreur lors de la copie des données: {text} ({code})" revision="1" />
+  <Message key="FileExists" value="Ce fichier a déjà été ajouté à la bibliothèque." revision="0" />
+  <Message key="ErrorStartingExternalEditor" value="Une erreur s'est produite lors du démarrage de l'éditeur externe.\r\n\r\nLigne de commande: {path}\r\nErreur: {error text} ({error})" revision="0" />
+  <Message key="UntrustedEditor" value="Vous êtes sur le point d'exécuter l'application éditeur externe non fiable à l'aide de la ligne de commande suivante:\r\n\r\n{path}\r\n\r\nVoulez-vous continuer? Si vous appuyez sur Oui, cette application sera marquée comme approuvée." revision="0" />
+  <Message key="TypeExists" value="Le type avec le même nom existe déjà." revision="0" />
+  <Message key="StructureFileNotFound" value="Le fichier {file} ne se trouve pas à l'emplacement &quot;{path}&quot;. Voulez-vous l'enlever de la bibliothèque?" revision="0" />
+  <Enumeration key="StructureViewerBind">
+    <Item value="Lier…" revision="0" />
+    <Item value="Lier nouvelle structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item value="Délier Tout" revision="0" />
+    <Item value="Délier toutes les structures liées" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item value="Bibliothèque…." revision="1" />
+    <Item value="Ouvrez la bibliothèque des Structures" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item value="Afficher valeurs Hexadécimales" revision="0" />
+    <Item value="Afficher les données en décimales ou hexadécimales" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item value="Enregistrer Schéma…" revision="0" />
+    <Item value="Enregistrer un schéma de la structure active" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item value="Supprimer Schéma" revision="0" />
+    <Item value="Supprimer Schéma actuel" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item value="Synchroniser position" revision="0" />
+    <Item value="Synchroniser position" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item value="Rafraîchissement automatique" revision="0" />
+    <Item value="Structures seront rafraîchis automatiquement si les données changent" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item value="Dépôt en ligne…" revision="0" />
+    <Item value="Ouvrir dépôt en ligne où vous pouvez télécharger de nouveaux fichiers de définition de structures." revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item value="Associations…" revision="0" />
+    <Item value="Afficher Associations" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item value="Motifs globales de coloration de structure…" revision="0" />
+    <Item value="Definir les motifs globales de coloration de structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item value="Afficher Info-bulles" revision="0" />
+    <Item value="Afficher les informations détaillées sur les données sous le curseur dans des info-bulles" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item value="Champ pour marquer" revision="0" />
+    <Item value="Les convertis ont choisi le champ de structure pour marquer" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item value="Aucune erreur" revision="1" />
+    <Item value="CE001: L'opération demandée n'est pas autorisée sur le type de données ou ne devraient pas figuré ici" revision="1" />
+    <Item value="CE002: Division par zéro" revision="1" />
+    <Item value="CE003: L'identificateur spécifié est introuvable" revision="1" />
+    <Item value="CE004: Scalaire est attendu" revision="1" />
+    <Item value="CE005: Vecteur est attendu" revision="1" />
+    <Item value="CE006: Index du tableau hors limites" revision="1" />
+    <Item value="CE007: Pas encore implémenté" revision="1" />
+    <Item value="CE008: Champ de bits de taille invalide" revision="1" />
+    <Item value="CE009: Erreur de syntaxe" revision="1" />
+    <Item value="CE010: Type n'a été déclarée en avance" revision="1" />
+    <Item value="CE011: Opération non prises en charge pour des types dynamiques" revision="1" />
+    <Item value="CE012: Type est redéfini" revision="1" />
+    <Item value="CE013: Échec de l'assertion" revision="1" />
+    <Item value="CE014: Expression constante est attendue" revision="1" />
+    <Item value="CE015: Constante de type chaîne est attendu dans l'expression" revision="1" />
+    <Item value="CE016: Nombre d'arguments incorrect pour un appel de fonction" revision="1" />
+    <Item value="CE017: Opération index sur un tableau non-indexé a été déclenché (astuce: supprimer l'attribut [no index])" revision="1" />
+    <Item value="CE018: Erreur renvoyée par le moteur Javascript" revision="1" />
+    <Item value="CE019: Argument invalide" revision="1" />
+    <Item value="CE020: Profondeur maximum de récusions autorisés atteint" revision="1" />
+    <Item value="CE021: Expression d'un autre type est attendu" revision="1" />
+    <Item value="CE022: Prétraitement erreur" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item value="Afficheur de structure" revision="0" />
+    <Item value="Menu structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item value="Fichier" revision="0" />
+    <Item value="Structures" revision="0" />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item value="Expression régulière" revision="0" />
+    <Item value="Schéma" revision="0" />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item value="Nom" revision="0" />
+    <Item value="Valeur" revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Taille" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Description" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item value="Observateur de Structures" revision="0" />
+    <Item value="Observateur de Structures vous permet d'analyser les données des fichiers en fonction de la définition de la structure chargé à partir des fichier d'en-tête." revision="0" />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item value="Nom du Document" revision="0" />
+    <Item value="Fichier" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Ligne" revision="0" />
+    <Item value="Description" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item value="Vers sélection" revision="0" />
+    <Item value="Convertir cellule vers la sélection" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item value="Aller à la fin du champ actuel" revision="1" />
+    <Item value="Déplace le curseur à la fin du champ actuel" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item value="Aller à la définition du type" revision="1" />
+    <Item value="Fichier de définition de structure ouverte avec définition de type en cours" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item value="Aller à la définition de champ" revision="1" />
+    <Item value="Fichier de définition de structure ouverte avec définition de champ en cours" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item value="Copier le nom qualifié" revision="1" />
+    <Item value="Copier le nom qualifié du champ dans le Presse-papiers" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item value="Copier la valeur" revision="1" />
+    <Item value="Copier la valeur dans le Presse-papiers" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item value="Copier la ligne" revision="1" />
+    <Item value="Copier la ligne entière dans le presse-papiers" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item value="Copier tout" revision="1" />
+    <Item value="Copier le contenu de la fenêtre entière dans le presse-papiers" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item value="Copier la colonne" revision="1" />
+    <Item value="Copier la colonne actuelle dans le presse-papiers" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item value="Exporter vers un fichier CSV ..." revision="1" />
+    <Item value="Exporter le contenu de la fenêtre entière dans un fichier CSV" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item value="Afficher tout" revision="1" />
+    <Item value="Afficher tous les éléments" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item value="Tout réduire" revision="1" />
+    <Item value="Réduire tous les éléments" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item value="Développer l'élément" revision="1" />
+    <Item value="Développer l'élément" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item value="Réduire l'élément" revision="1" />
+    <Item value="Réduire l'élément" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item value="Délier" revision="0" />
+    <Item value="Délier" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item value="Lier…" revision="0" />
+    <Item value="Lier nouvelle structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item value="Editer…" revision="0" />
+    <Item value="Editer valuer en cours" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item value="Type" revision="0" />
+    <Item value="Valeur" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item value="Activer surbrillance" revision="0" />
+    <Item value="Activer ou désactiver l'actuel champ de sa mise en surbrillance" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item value="Modifier les Couleurs…" revision="0" />
+    <Item value="Modifier les Couleurs en surbrillance" revision="0" />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item value="Ajouter &amp;Nouveau Type…" revision="0" />
+    <Item value="Ajouter nouvelle définition de type" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item value="Modifier la définition…" revision="0" />
+    <Item value="Modifier la définition de type courant" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item value="Retirer Définition" revision="0" />
+    <Item value="Retirer le type de définition sélectionné" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item value="&amp;Inspecteur de données" revision="0" />
+    <Item value="Menu inspecteur de données" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item value="Inspecteur de données" revision="0" />
+    <Item value="L'Inspecteur de données affiche des données sous le curseur dans des formats différents, en accentuant le champ actuellement choisi" revision="0" />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item value="Types standard" revision="0" />
+    <Item value="Types d'utilisateur" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNew">
+    <Item value="&amp;Nouvelle structure du fichier…" revision="0" />
+    <Item value="Créer un nouveau fichier de structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item value="&amp;Ajouter un fichier structure…" revision="0" />
+    <Item value="Ajoute fichier de la structure existante à la bibliothèque" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item value="Enregistrer &amp;toute la structure des fichiers" revision="0" />
+    <Item value="Enregistrez tous les fichiers de la structure ouvertes sur le disque" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item value="&amp;Recompilation" revision="0" />
+    <Item value="Compiler structures" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item value="&amp;Editeur de structure" revision="0" />
+    <Item value="Menu éditeur de structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item value="&amp;Modifier la valeur" revision="0" />
+    <Item value="Modifier valeur actuelle" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item value="Auto recompilation" revision="0" />
+    <Item value="Fichiers source de recompilation automatique en cas de modification" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item value="Retirer Structure Fichier" revision="1" />
+    <Item value="Supprimer le fichier source sélectionné" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item value="Ouvrir Structures du dossier" revision="0" />
+    <Item value="Dossier de fichiers de structures ouvertes" revision="0" />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item value="Séparateur d'exportation CSV" revision="0" />
+    <Item value="Auto" revision="0" />
+    <Item value="Comma" revision="0" />
+    <Item value="Tab" revision="0" />
+    <Item value="Semicolon" revision="0" />
+  </Enumeration>
+</Language>
