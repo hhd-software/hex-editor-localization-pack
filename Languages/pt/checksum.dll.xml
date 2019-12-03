@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Calculating Checksums" value="Calculando Checksums" revision="1" />
+  <Message key="Calculating Checksums" value="Cálculo de somas de verificação" revision="1" />
   <Message key="8-bit sum" value="Soma de 8-bits" revision="1" />
   <Message key="16-bit sum" value="Soma de 16-bit" revision="1" />
   <Message key="32-bit sum" value="Soma de 32-bit" revision="1" />
@@ -22,10 +22,10 @@
   <Message key="Sum of Big-Endian 64-bit signed values" value="Soma de valores de 64-bits Big-Endian assinados" revision="1" />
   <Message key="Custom CRC" value="CRC Personalizado" revision="1" />
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Alguns valores não se encaixam em 16 bits. Por favor, forneça valores de 16-bits: varia entre 0 a 0xFFFF (65535)." revision="1" />
-  <Message key="Loading checksums" value="Carregando checksums" revision="1" />
-  <Message key="Initializing checksums" value="Inicializando checksums" revision="1" />
-  <Message key="Checksum" value="Checksum" revision="1" />
-  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Recurso checksum calcula várias somas de verificação de dados selecionados ou um documento inteiro." revision="1" />
+  <Message key="Loading checksums" value="Carregando somas de verificação" revision="1" />
+  <Message key="Initializing checksums" value="Inicializando somas de verificação" revision="1" />
+  <Message key="Checksum" value="Soma de verificação" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="O Recurso soma de verificação calcula várias somas de verificação para um dado selecionado ou um documento inteiro." revision="1" />
   <Message key="N/A" value="N/A" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Aguarde até que todas as operações pendentes sejam concluídas." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Arquivos de Texto Separado por Tabulação (*.tsv)|*.tsv|Todos os Arquivos|*||" revision="1" />
@@ -35,14 +35,17 @@
   <Message key="Custom CRC Parameters" value="Parâmetros CRC Personalizados" revision="1" />
   <Message key="Initial Value:" value="Valor Inicial:" revision="1" />
   <Message key="Polynomial:" value="Polinômio:" revision="1" />
+  <Message key="XOR Out:" value="Saída XOR:" revision="1" />
   <Message key="Hex" value="Hex:" revision="2" />
   <Message key="Decimal" value="Decimal:" revision="2" />
+  <Message key="Reflection In" value="Reflexão em" revision="1" />
+  <Message key="Reflection Out" value="Saída de Reflexão" revision="1" />
   <Message key="Name:" value="Nome:" revision="0" />
-  <Message key="Checksum Result" value="Resultado Checksum" revision="1" />
+  <Message key="Checksum Result" value="Resultado da soma de verificação" revision="1" />
   <Message key="Copy" value="Copiar" revision="1" />
   <Message key="Size:" value="Tamanho:" revision="1" />
   <Message key="Separator:" value="Separador:" revision="1" />
-  <Message key="Checksum settings" value="Checksum" revision="0" />
+  <Message key="Checksum settings" value="Soma de Verificação" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Sem separador" revision="1" />
     <Item value="Espaço (' ')" revision="1" />
@@ -54,13 +57,13 @@
   <Enumeration key="Algorithm groups">
     <Item value="Somador simples" revision="1" />
     <Item value="Mais somadores" revision="1" />
-    <Item value="Checksum" revision="1" />
+    <Item value="Soma de Verificação" revision="1" />
     <Item value="Hashes" revision="1" />
-    <Item value="Soma - assinada" revision="1" />
+    <Item value="Soma assinada-" revision="1" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
-    <Item value="&amp;Checksum" revision="0" />
-    <Item value="Menu checksum" revision="0" />
+    <Item value="&amp;Soma de Verificação" revision="0" />
+    <Item value="Menu Soma de Verificação" revision="0" />
   </Enumeration>
   <Enumeration key="Application range">
     <Item value="Seleção Apenas" revision="1" />
