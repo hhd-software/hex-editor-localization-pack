@@ -15,11 +15,12 @@ Complete language packs are available directly in Hex Editor Neo. Go to the **To
 
 Currently, the following language packs are complete for latest version of Hex Editor Neo:
 
-* Danish
+* Spanish
 * German
 * French
-* Spanish
 * Italian
+* Portuguese
+* Danish
 * Simplified Chinese
 * Russian
 * Ukrainian
