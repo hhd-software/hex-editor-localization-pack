@@ -294,6 +294,17 @@
   <Message key="BetaAdvanced" value="高级(&amp;A)..." revision="0" />
   <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="输入 HHD Software 支持人员发给你的升级 ID：" revision="0" />
   <Message key="Manual Installation" value="手工安装" revision="0" />
+  <Message key="Crash Page" value="碰撞报告" revision="0" />
+  <Message key="CrashIntro" value="如果您希望得到关于您的事故报告提交状态的通知，并希望您的报告得到更优先的处理，请在下面的方框中提供您的电子邮件地址。除了讨论您提交的报告外，您的电子邮件地址将不会被用于其他任何用途。" revision="0" />
+  <Message key="Report Settings" value="设置" revision="0" />
+  <Message key="Send report automatically" value="自动发报告 (&amp;S)" revision="0" />
+  <Message key="Report verbosity level" value="报告的言简意赅程度" revision="0" />
+  <Message key="Minidump" value="迷你垃圾场 (&amp;M)" revision="0" />
+  <Message key="Full dump" value="全内存转储 (&amp;F)" revision="0" />
+  <Message key="Minidump description" value="迷你转储的大小通常小于一兆字节，并且只包含有关崩溃的有限信息。有时迷你转储足以诊断问题，但往往缺乏重现崩溃所需的必要信息。" revision="0" />
+  <Message key="Full dump description" value="完整转储包含所有进程地址空间的压缩视图。它们最好是让开发人员能够重现导致崩溃的情况并尽快修复。然而，完整转储的大小可能很容易达到数百兆字节。" revision="0" />
+  <Message key="Privacy Policy" value="私隐政策" revision="0" />
+  <Message key="Crash reporter" value="碰撞报告" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理磁盘" revision="2" />
     <Item value="大小" revision="2" />
@@ -781,5 +792,13 @@
     <Item value="你想要浏览更新组件列表并下载他们吗？" revision="1" />
     <Item value="每组在线组件，这个提示仅出现一次。" revision="1" />
     <Item value="不再检查新的测试版本" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="兼容性设置检测到!" revision="0" />
+    <Item value="操作系统正在应用Hex Editor Neo的兼容性设置。当这些设置生效时，应用程序可能无法正常运行。此外，在兼容性设置下运行可能会影响性能和视觉质量。\r\n\n选择您现在想做的事情。" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="继续执行" revision="0" />
+    <Item value="删除兼容性设置并重新启动应用程序" revision="0" />
   </Enumeration>
 </Language>

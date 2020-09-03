@@ -18,9 +18,8 @@
   <Message key="RenameError" value="重命名流错误: {text} ({code})" revision="0" />
   <Message key="RenameErrors" value="重命名流时发生下面的错误:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}搜索已完成，{|finished}正在搜索流…{?finished} {found} 个流找到 (在 {folders} 文件夹已选择了 {files} 个文件)。" revision="0" />
-  <Message key="StreamSize" value="总共: {size} 字节 ({size as text})" revision="0" />
-  <Message key="Size" value="{size} 字节 ({size as text})" revision="0" />
-  <Message key="Renaming" value="已完成 {percent}%。" revision="0" />
+  <Message key="StreamSize" value="总共: {size}" revision="1" />
+  <Message key="RenameOperation" value="重命名NTFS备用数据流中…" revision="0" />
   <Message key="Find Streams Folder List" value="查找流文件夹列表" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="输入文件夹的路径或按浏览按钮:" revision="0" />
   <Message key="Folder list:" value="文件夹列表:" revision="0" />
@@ -56,8 +55,8 @@
     <Item value="取消当前流操作" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item value="打开父文件(&amp;P)" revision="0" />
-    <Item value="打开包含此流的父文件。" revision="0" />
+    <Item value="打开父文件(&amp;P)" revision="1" />
+    <Item value="打开包含此流的父文件。" revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
     <Item value="查找流..." revision="0" />
@@ -70,6 +69,11 @@
   <Enumeration key="ColumnNames">
     <Item value="流名" revision="0" />
     <Item value="大小" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="文件" revision="0" />
+    <Item value="可选数据流" revision="0" />
+    <Item value="文件大小" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">
     <Item value="NTFS 流(&amp;R)" revision="0" />
