@@ -18,9 +18,8 @@
   <Message key="RenameError" value="Erreur de renommage de Flux: {text} ({code})" revision="0" />
   <Message key="RenameErrors" value="L'erreur suivante est survenue lors du renommage du flux:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}Recherche terminée:{|finished} Recherche de flux…{?finished} {found} Flux trouvé(s)({files} fichiers dans {folders} folders checked).dossiers vérifiés)." revision="0" />
-  <Message key="StreamSize" value="Totale: {size} octets ({size as text})" revision="0" />
-  <Message key="Size" value="{size} bytes ({size as text})" revision="0" />
-  <Message key="Renaming" value="{percent} % accompli." revision="0" />
+  <Message key="StreamSize" value="Totale: {size}" revision="1" />
+  <Message key="RenameOperation" value="Renommer le flux" revision="0" />
   <Message key="Find Streams Folder List" value="Flux trouvé parmi la liste des dossiers" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="Entrez le chemin d'accès au dossier ou pressez le bouton Parcourir:" revision="0" />
   <Message key="Folder list:" value="Liste des dossiers:" revision="0" />
@@ -56,8 +55,8 @@
     <Item value="Annulez l'opération sur le flux actif" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item value="Ouvrir Fichier &amp;Parent" revision="0" />
-    <Item value="Ouvrez le fichier parent, qui est le fichier contenant ce flux." revision="0" />
+    <Item value="Ouvrir Fichier &amp;Parent" revision="1" />
+    <Item value="Ouvrez le ou les fichiers parents, c'est-à-dire les fichiers qui contiennent les flux sélectionnés." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
     <Item value="Trouver flux…" revision="0" />
@@ -69,6 +68,11 @@
   </Enumeration>
   <Enumeration key="ColumnNames">
     <Item value="Nom de Flux" revision="0" />
+    <Item value="Taille" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Fichier" revision="0" />
+    <Item value="Flux" revision="0" />
     <Item value="Taille" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">

@@ -294,6 +294,17 @@
   <Message key="BetaAdvanced" value="&amp;Avancement…" revision="0" />
   <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="Entrez l'ID de mise à jour que vous a envoyé le personnel de support du logiciel HHD:" revision="0" />
   <Message key="Manual Installation" value="Installation manuelle" revision="0" />
+  <Message key="Crash Page" value="Rapports d'accident" revision="0" />
+  <Message key="CrashIntro" value="Si vous souhaitez être informé de l'état d'avancement de la soumission de votre rapport d'accident et si vous souhaitez que vos rapports soient traités avec une priorité plus élevée, veuillez indiquer votre adresse électronique dans la case ci-dessous. Votre adresse électronique ne sera pas utilisée à d'autres fins que la discussion de votre soumission." revision="0" />
+  <Message key="Report Settings" value="Paramètres" revision="0" />
+  <Message key="Send report automatically" value="&amp;Envoyer le rapport automatiquement" revision="0" />
+  <Message key="Report verbosity level" value="Nniveau de verbosité du rapport" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="Vidage &amp;complet de la mémoire" revision="0" />
+  <Message key="Minidump description" value="Les minidumps ont généralement une taille inférieure à un mégaoctet et ne contiennent que des informations limitées sur un accident. Parfois, une minidompe suffit pour diagnostiquer le problème, mais souvent elle ne contient pas les informations nécessaires pour reproduire l'accident." revision="0" />
+  <Message key="Full dump description" value="Les décharges complètes contiennent la vue compressée de tout l'espace d'adresse du processus. Il est préférable de permettre aux développeurs de reproduire la situation qui a causé le crash et de la corriger dès que possible. Cependant, la taille d'un dump complet peut facilement atteindre des centaines de mégaoctets." revision="0" />
+  <Message key="Privacy Policy" value="Politique de confidentialité" revision="0" />
+  <Message key="Crash reporter" value="Rapports d'accident" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disque physique" revision="2" />
     <Item value="Taille" revision="2" />
@@ -781,5 +792,13 @@
     <Item value="Voulez-vous parcourir la liste des composants mis à jour et les télécharger?" revision="1" />
     <Item value="Cette invite n'apparaît qu'une seule fois pour chaque ensemble de composants en ligne uniques." revision="1" />
     <Item value="Ne pas vérifier les nouvelles versions bêta disponible" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="Réglages de compatibilité détectés !" revision="0" />
+    <Item value="Le système d'exploitation applique les paramètres de compatibilité pour Hex Editor Neo. L'application peut ne pas fonctionner correctement lorsque ces paramètres sont en vigueur. De plus, le fait de fonctionner avec des paramètres de compatibilité peut affecter les performances et la qualité visuelle.\r\n\nSélectionnez ce que vous souhaitez faire maintenant:" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="Poursuivre l'exécution" revision="0" />
+    <Item value="Supprimer les paramètres de compatibilité et relancer l'application" revision="0" />
   </Enumeration>
 </Language>
