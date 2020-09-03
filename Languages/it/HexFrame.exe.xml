@@ -150,7 +150,7 @@
   <Message key="Save" value="Salva" revision="1" />
   <Message key="Close Window(s)" value="Chiudi Finestra/e" revision="1" />
   <Message key="x64edition" value="(Edizione x64)" revision="1" />
-  <Message key="AboutInfo" value="HHD Software {product}{x64?} (Edizione x64) {?x64}\n{edition}. Versione {major}.{minor}.{revision}.{build}\n\n© 2015 HHD Software Ltd.\nTutti i Diritti Riservati." revision="3" />
+  <Message key="AboutInfo" value="HHD Software {product}{x64?} (Edizione x64) {?x64}\n{edition}. Versione {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nTutti i Diritti Riservati." revision="4" />
   <Message key="AboutBoxDisclaimer" value="Attenzione: Questo Programma è Tutelato da Copyright e dai Trattati Internazionali. la Riproduzione o Distribuzione di Questo Programma, o di Parte di Esso, Non Autorizzata, può Comportare Gravi Sanzioni Civili e Penali, e sarà Perseguita nella Misura Massima Consentita dalla Legge." revision="1" />
   <Message key="About Hex Editor Neo" value="Info su Hex Editor Neo" revision="1" />
   <Message key="Choose Default User Interface Layout" value="Scegli il Layout Interfaccia Utente Predefinito" revision="1" />
@@ -233,6 +233,7 @@
   <Message key="Language pack" value="Lingua Pack: {native name}" revision="0" />
   <Message key="DiscardWarning" value="Se si Rifiutano gli Aggiornamenti Selezionati, Hex Editor Neo Non Invierà più la Notifica di Essi. Ma avrai Sempre la Notifica di Aggiornamenti Futuri.\r\n\r\nVuoi Ancora Rifiutare gli Aggiornamenti Selezionati?" revision="0" />
   <Message key="LangPackUpdated" value="Lingua Pack Aggiornato/i. È Necessario Riavviare l'Applicazione per Ricaricare il Lingua Pack.\r\n\r\nVuoi Riavviare Ora?" revision="0" />
+  <Message key="SavingAll" value="Salvataggio delle modifiche" revision="0" />
   <Message key="Component Updates" value="Componente Aggiornamenti" revision="0" />
   <Message key="The following updates are found:" value="Sono Disponibili i Seguenti Aggiornamenti:" revision="0" />
   <Message key="Check for updates" value="Controlla se sono Disponibili Aggiornamenti" revision="0" />
@@ -255,6 +256,7 @@
   <Message key="SignatureError" value="Hex Editor Neo ha Scaricato un Aggiornamento, Ma sono Falliti i Controlli di Integrità. Ciò può Indicare Errori di Configurazione di Rete Temporanei o Permanenti. Provare ad Aggiornare Dopo." revision="0" />
   <Message key="ExecutablesFilter" value="Eseguibili|*.exe|Tutti i File|*.*||" revision="1" />
   <Message key="YourLanguage" value="Lingua Utente Disponibile On-Line" revision="0" />
+  <Message key="NewBetaVersions" value="Rilevate nuove versioni beta" revision="0" />
   <Message key="Language pack storage location" value="Percorso di Archiviazione Lingua Pack" revision="0" />
   <Message key="License Upgrade Notification" value="Hex Editor Neo ha Rilevato una Licenza della Versione Precedente. La Licenza Non può Essere Aggiornata Automaticamente. Devi Accedere alla Sezione My Account per Scaricare una Licenza Aggiornata (Potrebbero Essere Applicati Costi Aggiuntivi, a Seconda delle Opzioni di Acquisto Iniziale). \n\nVuoi Andare Ora alla Sezione Account?" revision="0" />
   <Message key="CSVFiles" value="i File CSV (*.csv)|*.csv||" revision="0" />
@@ -279,6 +281,30 @@
   <Message key="Select Components" value="Seleziona Componenti" revision="0" />
   <Message key="Select components:" value="Seleziona Componenti:" revision="0" />
   <Message key="Select all" value="Seleziona Tutto" revision="0" />
+  <Message key="Beta Page" value="Beta" revision="0" />
+  <Message key="Beta title info" value="Questa pagina permette di sfogliare e scaricare componenti beta opzionali. Questi componenti possono aggiungere caratteristiche sperimentali o correggere i bug segnalati. Controllare i componenti che si desidera installare e deselezionare i componenti che si desidera disinstallare e premere il pulsante Aggiorna." revision="1" />
+  <Message key="BetaUpdateButton" value="&amp;Aggiornamento" revision="0" />
+  <Message key="Available beta modules:" value="Moduli beta disponibili:" revision="0" />
+  <Message key="There are no updates available." value="Non ci sono aggiornamenti disponibili." revision="0" />
+  <Message key="BetaInstalled" value="La configurazione dei componenti è stata aggiornata con successo. È necessario riavviare Hex Editor Neo per applicare le modifiche." revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}I seguenti componenti saranno scaricati e installati:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}I seguenti componenti saranno disinstallati:\r\n\n{deleted components}{?has deleted}\r\n\nVuoi continuare?" revision="0" />
+  <Message key="BetaConflicts" value="I componenti selezionati sono in conflitto con i componenti installati o tra loro. I seguenti componenti devono essere rimossi per poter continuare:\r\n\n{components}\r\n\nVolete rimuoverli e continuare?" revision="0" />
+  <Message key="BetaHeader" value="Versione Beta" revision="0" />
+  <Message key="BetaDownloadError" value="Si è verificato un errore durante il download dei componenti selezionati. Si prega di riprovare più tardi." revision="1" />
+  <Message key="BetaAdvanced" value="&amp;Avanzato…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="Inserire l'ID di aggiornamento inviato dal personale di supporto di HHD Software:" revision="0" />
+  <Message key="Manual Installation" value="Installazione manuale" revision="0" />
+  <Message key="Crash Page" value="Segnalazione di crash" revision="0" />
+  <Message key="CrashIntro" value="Se desiderate essere informati sullo stato della presentazione del vostro rapporto di crash e desiderate che i vostri rapporti siano trattati con maggiore priorità, vi preghiamo di indicare il vostro indirizzo e-mail nella casella sottostante. Il vostro indirizzo e-mail non verrà utilizzato per altri scopi che non siano la discussione della vostra segnalazione." revision="0" />
+  <Message key="Report Settings" value="Impostazioni" revision="0" />
+  <Message key="Send report automatically" value="&amp;Invio automatico del rapporto" revision="0" />
+  <Message key="Report verbosity level" value="Livello di verbosità del rapporto" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="Memoria &amp;completa" revision="0" />
+  <Message key="Minidump description" value="I minidump di solito hanno una dimensione inferiore a un megabyte e contengono solo informazioni limitate su un crash. A volte un minidump è sufficiente per diagnosticare il problema, ma spesso mancano le informazioni necessarie per riprodurre l'incidente." revision="0" />
+  <Message key="Full dump description" value="I dump completi contengono la vista compressa di tutto lo spazio degli indirizzi di processo. La cosa migliore è permettere agli sviluppatori di riprodurre la situazione che ha causato il crash e di risolverlo il prima possibile. Tuttavia, la dimensione di un dump completo può facilmente raggiungere centinaia di megabyte." revision="0" />
+  <Message key="Privacy Policy" value="Informativa sulla privacy" revision="0" />
+  <Message key="Crash reporter" value="Segnalazione di crash" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Fisico" revision="2" />
     <Item value="Dimensione" revision="2" />
@@ -759,5 +785,20 @@
   <Enumeration key="External file:">
     <Item value="File Esterno:" revision="0" />
     <Item value="Conservare le Impostazioni dell'Applicazione in File Esterno. Specificare Percorso Condiviso (come cartella condivisa Microsoft Onedrive o Dropbox) per Condividere le Impostazioni tra i Dispositivi." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item value="Nuove versioni Beta disponibili" revision="1" />
+    <Item value="Ci sono nuove versioni beta disponibili per il download della vostra versione del prodotto." revision="1" />
+    <Item value="Volete sfogliare l'elenco dei componenti aggiornati e scaricarli?" revision="1" />
+    <Item value="Questo prompt appare una sola volta per ogni set di componenti on-line unici." revision="1" />
+    <Item value="Non controllare le nuove versioni beta" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="Impostazioni di compatibilità rilevate!" revision="0" />
+    <Item value="Il sistema operativo sta applicando le impostazioni di compatibilità per Hex Editor Neo. L'applicazione potrebbe non funzionare correttamente quando queste impostazioni sono in vigore. Inoltre, l'esecuzione con le impostazioni di compatibilità può influire sulle prestazioni e sulla qualità visiva.\r\n\nSelezionare cosa si desidera fare ora:" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="Continuare l'esecuzione" revision="0" />
+    <Item value="Rimuovere le impostazioni di compatibilità e riavviare l'applicazione" revision="0" />
   </Enumeration>
 </Language>

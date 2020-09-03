@@ -18,9 +18,8 @@
   <Message key="RenameError" value="Errore Ridenominazione Flusso: {text} ({code})" revision="0" />
   <Message key="RenameErrors" value="Si è Verificato il Seguente Errore Durante la Rinomina di Flusso:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}Ricerca Finita.{|finished}Ricerca per Flussi…{?finished} {found} Flussi Trovati ({files} File in {folders} Cartelle Controllate)." revision="0" />
-  <Message key="StreamSize" value="Totale: {size} Byte {size as text}" revision="0" />
-  <Message key="Size" value="{size} Byte {size as text}" revision="0" />
-  <Message key="Renaming" value="{percent} % Fatto." revision="0" />
+  <Message key="StreamSize" value="Totale: {size}" revision="1" />
+  <Message key="RenameOperation" value="Rinominare il flusso" revision="0" />
   <Message key="Find Streams Folder List" value="Trova Flussi Elenco Cartelle" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="Inserisci il Percorso della Cartella o Premi il Pulsante Sfoglia:" revision="0" />
   <Message key="Folder list:" value="Elenco Cartelle" revision="0" />
@@ -56,8 +55,8 @@
     <Item value="Annulla l'Operazione Flusso Corrente" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item value="Apri File &amp;Padre" revision="0" />
-    <Item value="Apri il File Padre, che è il File Contenente Questo Flusso." revision="0" />
+    <Item value="Apri File &amp;Padre" revision="1" />
+    <Item value="Aprire il file o i file padre, cioè i file che contengono i flussi selezionati." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
     <Item value="Trova Flussi…" revision="0" />
@@ -70,6 +69,11 @@
   <Enumeration key="ColumnNames">
     <Item value="Nome Flusso" revision="0" />
     <Item value="Dim." revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="File" revision="0" />
+    <Item value="Flusso" revision="0" />
+    <Item value="Dimensioni" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">
     <Item value="&amp;Flussi NTFS" revision="0" />

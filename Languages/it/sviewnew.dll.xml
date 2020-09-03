@@ -98,6 +98,8 @@
   <Message key="Add Inspector Type" value="Aggiungi Tipo Ispettore" revision="0" />
   <Message key="Change Time" value="Cambia Ora" revision="0" />
   <Message key="AssignNotification" value="La Modifica dei Dati Non è Abilitata per Questo Tipo. Clicca sul Pulsante Guida per Informazioni Dettagliate su come Abilitare la Modifica dei Dati di un Tipo." revision="0" />
+  <Message key="MaxExportStringSize" value="Lunghezza massima delle stringhe" revision="0" />
+  <Message key="MaxExportObjectFields" value="Numero massimo di campi in linea o di articoli in array" revision="0" />
   <Message key="CopyError" value="Errore Copiando i Dati: {text} ({code})" revision="1" />
   <Message key="FileExists" value="Questo File è Già stato Aggiunto alla Libreria." revision="0" />
   <Message key="ErrorStartingExternalEditor" value="Si è Verificato un Errore Avviando l'Editor Esterno.\r\n\r\nRiga di Comando: {path}\r\nErrore: {error text} ({error})" revision="0" />

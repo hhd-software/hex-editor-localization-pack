@@ -80,14 +80,14 @@
   <Message key="Hexadecimal" value="Esadecimale" revision="1" />
   <Message key="Decimal" value="Decimale" revision="1" />
   <Message key="Modify Bits" value="Modifica Bit" revision="1" />
-  <Message key="1 Byte:" value="1 Byte:" revision="1" />
-  <Message key="2 Byte:" value="2 Byte:" revision="1" />
-  <Message key="3 Byte:" value="3 Byte:" revision="1" />
-  <Message key="4 Byte:" value="4 Byte:" revision="1" />
-  <Message key="5 Byte:" value="5 Byte:" revision="1" />
-  <Message key="6 Byte:" value="6 Byte:" revision="1" />
-  <Message key="7 Byte:" value="7 Byte:" revision="1" />
-  <Message key="8 Byte:" value="8 Byte:" revision="1" />
+  <Message key="1 Byte:" value="1° Byte:" revision="2" />
+  <Message key="2 Byte:" value="2° Byte:" revision="2" />
+  <Message key="3 Byte:" value="3° Byte:" revision="2" />
+  <Message key="4 Byte:" value="4° Byte:" revision="2" />
+  <Message key="5 Byte:" value="5° Byte:" revision="2" />
+  <Message key="6 Byte:" value="6° Byte:" revision="2" />
+  <Message key="7 Byte:" value="7° Byte:" revision="2" />
+  <Message key="8 Byte:" value="8° Byte:" revision="2" />
   <Message key="Binary representation:" value="Rappresentazione Binaria" revision="1" />
   <Message key="Value:" value="Valore" revision="1" />
   <Message key="Hex" value="Hex" revision="1" />
