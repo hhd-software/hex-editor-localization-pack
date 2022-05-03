@@ -1246,4 +1246,13 @@
 	<Message key="Selected" description="Field: Selected (color)" />
 	<Message key="Automatic color is dependent on current operating system color theme." description="Field: Automatic color is dependent on current operating system color theme." />
 
+	<Message key="&amp;Open" description="Button: Open" />
+
+	<!-- Predefined layouts -->
+	<Message key="Novice User Layout" description="Predefined layout: Novice User Layout" />
+	<Message key="Advanced User Layout" description="Predefined layout: Advanced User Layout" />
+	<Message key="Expert User Layout" description="Predefined layout: Expert User Layout" />
+	<Message key="Free Hex Editor Layout" description="Predefined layout: Free Hex Editor Layout" />
+	<Message key="Default Working Space" description="Predefined layout: Default Working Space" />
+
 </Definition>
