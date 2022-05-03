@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Этот класс уже существует. Смените имя класса." revision="1" />
   <Message key="DeleteClasses?" value="Действительно хотите удалить все классы?" revision="1" />
   <Message key="LoadError" value="Внутренняя ошибка: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Загрузка основных компонентов" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Проверять свободное место на диске перед операциями" revision="1" />
   <Message key="IgnoreRenames" value="Не переименовывать открытые общие файлы" revision="1" />
   <Message key="RemovedNotification" value="Общий документ удалён" revision="1" />

@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Условие не выполено{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Ошибка вычисления выражения." revision="0" />
   <Message key="Structure Viewer" value="Структуры" revision="0" />
-  <Message key="Initializing" value="Инициализация структур" revision="0" />
   <Message key="Structure Errors" value="Ошибки структур" revision="0" />
   <Message key="Error accessing Clipboard" value="Ошибка в доступе к буферу обмена" revision="0" />
   <Message key="ModifiedSuffix" value="(изменено)" revision="0" />

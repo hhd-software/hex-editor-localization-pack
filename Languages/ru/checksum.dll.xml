@@ -22,8 +22,6 @@
   <Message key="Sum of Big-Endian 64-bit signed values" value="Сумма 64-битных Big-Endian знаковых значений" revision="1" />
   <Message key="Custom CRC" value="Настраиваемая CRC" revision="1" />
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Некоторые значения не умещаются в 16 бит. Задайте 16-битные значения от  0 до 0xFFFF (65535)." revision="1" />
-  <Message key="Loading checksums" value="Загрузка контрольных сумм" revision="1" />
-  <Message key="Initializing checksums" value="Инициализация контрольных сумм" revision="1" />
   <Message key="Checksum" value="Контрольные суммы" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Функция &quot;контрольная сумма&quot; вычисляет значения сумм выбранных данных или всего документа." revision="1" />
   <Message key="N/A" value="Нет данных" revision="1" />

@@ -20,8 +20,6 @@
   <Message key="History" value="История" revision="0" />
   <Message key="Pattern Coloring" value="Подсветка" revision="0" />
   <Message key="Base Converter" value="Конвертер" revision="0" />
-  <Message key="Loading" value="Загрузка истории и подстветки" revision="0" />
-  <Message key="Initializing" value="Инициализация истории и подсветки" revision="0" />
   <Message key="PatchFileFilter" value="Патч файлы (*.hexpatch)|*.hexpatch|Исполняемые файлы (*.exe)|*.exe|" revision="0" />
   <Message key="Forks" value="{opname} ({items} элементов{has_forks?}, {forks} ветвлений{?has_forks})" revision="0" />
   <Message key="Switch To" value="Активировать" revision="0" />

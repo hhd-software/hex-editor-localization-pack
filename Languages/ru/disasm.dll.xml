@@ -25,7 +25,6 @@
   <Message key="Go" value="&gt;&gt;" revision="0" />
   <Message key="Go To:" value="К:" revision="0" />
   <Message key="Text" value="Текст" revision="0" />
-  <Message key="Loading" value="Загрузка дизассемблера" revision="0" />
   <Message key="Disassembler" value="Дизассемблер" revision="0" />
   <Message key="ShowImplicitOperands" value="Показывать неявные операнды" revision="0" />
   <Message key="ShowPrefixes" value="Показывать префиксы" revision="0" />

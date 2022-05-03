@@ -11,8 +11,6 @@
   <Message key="Little Endian" value="Прямой порядок байтов" revision="1" />
   <Message key="Big Endian" value="Обратный порядок байтов" revision="1" />
   <Message key="FormattedFormat" value="&amp;Форматированные значения" revision="1" />
-  <Message key="Loading" value="Загрузка буфера обмена" revision="1" />
-  <Message key="Initializing" value="Инициализация буфера обмена" revision="1" />
   <Message key="CopyExportLocalized" value="Копирование и Экспорт" revision="2" />
   <Message key="Export" value="&amp;Экспорт" revision="1" />
   <Message key="BadFormat" value="Экспорт не может отформатировать выбранные данные" revision="1" />
