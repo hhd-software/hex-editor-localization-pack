@@ -69,11 +69,17 @@
   <Message key="Toolbar already exists" value="Панель инструментов с таким именем уже существует." revision="1" />
   <Message key="All commands" value="Все команды" revision="1" />
   <Message key="Commands Page" value="Команды" revision="1" />
-  <Message key="Toolbars" value="Панели инструментов:" revision="1" />
+  <Message key="Toolbars" value="Панель инструментов:" revision="2" />
   <Message key="New" value="&amp;Новая…" revision="1" />
   <Message key="Delete" value="У&amp;далить" revision="1" />
   <Message key="Button size" value="Размер кнопок:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду чтобы посмотреть описание или перетащите её на панель инструментов:" revision="1" />
+  <Message key="New Group" value="Новая &amp;группа" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Добавить" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Удалить &gt;" revision="0" />
+  <Message key="Move Up" value="&amp;Вверх" revision="0" />
+  <Message key="Move Down" value="Вни&amp;з" revision="0" />
+  <Message key="Clear" value="О&amp;чистить" revision="0" />
   <Message key="Keyboard" value="Клавиатура" revision="1" />
   <Message key="MaxShortcuts" value="Нельзя назначить более 5 горячих клавиш на команду." revision="1" />
   <Message key="ShortcutExists" value="Эта горячая клавиша уже определена для команды {command}. Переопределить?" revision="1" />
@@ -381,6 +387,12 @@
   <Message key="Colors Page" value="Темы" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введите имя схемы и нажмите кнопку Сохранить" revision="0" />
   <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Вы хотите перезаписать её?" revision="0" />
+  <Message key="Theme:" value="Тема:" revision="0" />
+  <Message key="Display elements:" value="Цветовые элементы:" revision="0" />
+  <Message key="Automatic" value="Автоматически" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="Selected" value="Выбранный" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Автоматический цвет зависит от текущей цветовой схемы ОС." revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />

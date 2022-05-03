@@ -36,7 +36,6 @@
   <Message key="NoSel" value="Нет выделений" revision="1" />
   <Message key="EncodingNotSupported" value="Выбранная кодировка не поддерживается вашей операционной системой. Убедитесь, что необходимые файлы кодовых страниц и шрифты установлены." revision="1" />
   <Message key="NoEncoding" value="В вашей системе не хватает компонентов для поддержки выбранной кодировки. " revision="1" />
-  <Message key="SwitchSingleSel" value="Включить &quot;режим единичного выделения&quot;\nЭто отключит функцию &quot;Множественное выделение&quot;.  Вы можете поменять этот параметр позднее в &quot;Общих&quot; настройках." revision="1" />
   <Message key="Find" value="Найти" revision="1" />
   <Message key="A pattern was not found." value="Последовательность не найдена." revision="1" />
   <Message key="RegExpInSel" value="Поиск регулярных выражений в выделении не поддерживается." revision="1" />
@@ -139,8 +138,6 @@
   <Message key="Color:" value="Цвет:" revision="0" />
   <Message key="Automatic" value="Авто" revision="0" />
   <Message key="Do not interlace background" value="Без чересстрочного фона" revision="0" />
-  <Message key="Interlace columns" value="Чересстрочные колонки" revision="0" />
-  <Message key="Interlace rows" value="Чересстрочные строки" revision="0" />
   <Message key="Draw edit cursor frame" value="Рамка курсора" revision="0" />
   <Message key="Smart indentation" value="Отступы" revision="0" />
   <Message key="Antialiased quality (slower)" value="Антиалиасинг (медленней)" revision="0" />
@@ -198,6 +195,22 @@
   <Enumeration key="SelectNone">
     <Item value="Сб&amp;росить выделение" revision="1" />
     <Item value="Сбросить выделение данных" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Обратить выделение" revision="1" />
@@ -491,6 +504,18 @@
     <Item value="Очистить все" revision="1" />
     <Item value="Очистить содержимое текущего окна" revision="1" />
   </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Отрицание" revision="1" />
     <Item value="Сложение" revision="1" />
@@ -616,6 +641,10 @@
     <Item value="Адрес" revision="1" />
     <Item value="Размер" revision="1" />
   </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Множественное выделение" revision="1" />
     <Item value="Функция &quot;множественное выделение&quot; позволяет выделять множественные фрагменты и применять к ним команды редактора." revision="1" />
@@ -664,28 +693,14 @@
     <Item value="ОШИБКА - Размер ключа должен быть степенью восьмерки." revision="1" />
     <Item value="ОШИБКА - Неверный размер ключа." revision="1" />
   </Enumeration>
-  <Enumeration key="ColorNames">
-    <Item value="Текст" revision="1" />
-    <Item value="Фон" revision="1" />
-    <Item value="Смещение" revision="1" />
-    <Item value="Фон смещения" revision="1" />
-    <Item value="Текст ASCII/UNICODE" revision="1" />
-    <Item value="Фон ASCII/UNICODE" revision="1" />
-    <Item value="Четные колонки/строки (чересстрочн. режим)" revision="1" />
-    <Item value="Нечетные колонки/строки (чересстрочн. режим)" revision="1" />
-    <Item value="Текст без данных" revision="1" />
-    <Item value="Заливка курсора" revision="1" />
-    <Item value="Контур курсора" revision="1" />
-    <Item value="Текст текущей строки/столбца" revision="1" />
-    <Item value="Фон текущей строки/столбца" revision="1" />
-    <Item value="Текст измененного" revision="1" />
-    <Item value="Фон измененного" revision="1" />
-    <Item value="Контур  измененного" revision="1" />
-    <Item value="Выделение" revision="1" />
-  </Enumeration>
   <Enumeration key="Tooltip">
     <Item value="Выделение" revision="1" />
     <Item value="Курсор" revision="1" />
     <Item value="Текст измененного" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>
