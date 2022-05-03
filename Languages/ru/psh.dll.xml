@@ -37,7 +37,7 @@
   <Message key="Error writing to the file" value="Ошибка при записи в файл" revision="0" />
   <Message key="Error reading from the file" value="Ошибка при чтении из файла" revision="0" />
   <Message key="Select Colors" value="Выбрать цвета" revision="0" />
-  <Message key="PColFilter" value="Файлы подсветки последовательностей|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="Файлы подсветки последовательностей|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Текущая схема будет утеряна. Продолжить?" revision="0" />
   <Message key="The file has different version" value="Файл имеет другую версию" revision="0" />
   <Message key="Clear Coloring Scheme" value="Очистить схему" revision="0" />
@@ -116,6 +116,11 @@
   <Message key="Round edges" value="Округлые углы" revision="0" />
   <Message key="Change Time" value="Смена времени" revision="0" />
   <Message key="PatternColoring settings" value="Подсветка последовательностей" revision="0" />
+  <Message key="toolbar.Attributes" value="Атрибуты" revision="0" />
+  <Message key="toolbar.Coloring" value="Подсветка" revision="0" />
+  <Message key="toolbar.Statistics" value="Статистика" revision="0" />
+  <Message key="toolbar.History" value="История" revision="0" />
+  <Message key="toolbar.History Window" value="Дерево истории" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Удалить историю" revision="0" />
     <Item value="Удалить историю" revision="0" />
@@ -428,13 +433,5 @@
   <Enumeration key="FeatureBranches">
     <Item value="Ветвление истории" revision="0" />
     <Item value="Функция &quot;Ветвление истории&quot; позволяет вести параллельно несколько редакций одного файла и выполнять для них операции, в т.ч. из разных ветвей." revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureSaveHistory">
-    <Item value="Сохранить историю" revision="0" />
-    <Item value="Функция &quot;Сохранить историю&quot; позволяет сохранить всю историю изменений в файл и загрузить её для документа позднее или передать кому либо (ветвления тоже сохраняются)" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureLoadHistory">
-    <Item value="Загрузить историю" revision="0" />
-    <Item value="Функция &quot;Загрузить историю&quot; позволяет загрузить историю всех изменений так, как будто вы работали с этим документом." revision="0" />
   </Enumeration>
 </Language>

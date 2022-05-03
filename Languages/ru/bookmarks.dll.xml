@@ -31,6 +31,7 @@
   <Message key="SelectionFilterString" value="Файлы выделений (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показывать предупреждение конвертации выделения в закладки" revision="1" />
   <Message key="MergeBookmarks" value="Объединить с существующими закладками?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="Закладки" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Новая группа закладок" revision="0" />
     <Item value="Создать новую группу закладок" revision="0" />

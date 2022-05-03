@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="FeatureAnnotations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -8,6 +8,7 @@
   <Message key="Loading" value="Загрузка проводника" revision="0" />
   <Message key="Initializing" value="Инициализация проводника" revision="0" />
   <Message key="Explorer settings" value="Проводник" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Предыдущая" revision="0" />
     <Item value="Переход к предыдущей позиции" revision="0" />

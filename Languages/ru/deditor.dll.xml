@@ -41,6 +41,7 @@
   <Message key="CSFileNotFound" value="Файл &quot;{filename}&quot; не найден." revision="0" />
   <Message key="CSRootNotFound" value="Корневая структура {name} не найдена." revision="0" />
   <Message key="CSBindVolumeError" value="Ошибка разбора тома. Схема &quot;{name}&quot;, ошибка: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Раздел[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Неверный заголовок PrivHead." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Неверный заголовок TocBlock." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Неверный заголовок Vmdb." revision="0" />
@@ -54,6 +55,7 @@
   <Message key="Root structure:" value="Корневая структура:" revision="0" />
   <Message key="Directory entry structure:" value="Структура папки:" revision="0" />
   <Message key="File entry structure:" value="Структура файла:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Файловая система" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="байт" revision="0" />
     <Item value="КБ" revision="0" />

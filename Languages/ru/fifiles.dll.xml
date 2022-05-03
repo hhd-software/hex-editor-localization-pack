@@ -34,6 +34,7 @@
   <Message key="Move Down" value="Ни&amp;же" revision="1" />
   <Message key="Folder list:" value="Список папок:" revision="1" />
   <Message key="All opened documents" value="Все открытые документы" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Поиск по файлам" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="при открытии" revision="1" />
     <Item value="при записи" revision="1" />

@@ -30,6 +30,7 @@
   <Message key="Please wait until all pending operations are completed." value="Пожалуйста, дождитесь окончания выполняемых операций." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстовые файлы с табуляцией-разделителем (*.tsv)|*.tsv|Все файлы|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Начальное={initial}, Полином={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="toolbar.Checksum" value="Контрольные суммы" revision="0" />
   <Message key="Add Algorithm" value="Добавка алгоритма" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Выберите алгоритм из списка:" revision="1" />
   <Message key="Custom CRC Parameters" value="Параметры настраиваемой CRC" revision="1" />

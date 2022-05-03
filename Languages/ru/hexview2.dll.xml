@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="SelectAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

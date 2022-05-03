@@ -84,7 +84,7 @@
   <Message key="EmptyDefinition" value="Определение отсутствует" revision="0" />
   <Message key="AddInspectType" value="Добавить новый тип" revision="0" />
   <Message key="EditInspectType" value="Редактировать тип" revision="0" />
-  <Message key="StructureFormats" value="Файлы структур (*.h)|*.h|" revision="0" />
+  <Message key="StructureFormats" value="Файлы структур (*.h)|*.h|Файлы Kaitai|*.ksy" revision="1" />
   <Message key="DeleteStructFile" value="Ошибка удаления выбранного файла: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Текущий документ был изменён. Сохранить?" revision="0" />
@@ -106,6 +106,7 @@
   <Message key="UntrustedEditor" value="Сейчас будет произведён запуск недоверенного внешнего редактора, используя следующую командную строку: \r\n\r\n{path}\r\n\r\nВы хотите продолжить? Если Вы нажмёте Да, данное приложение будет помечено как доверенное." revision="0" />
   <Message key="TypeExists" value="Пользовательский тип с указанным именем уже существует." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не найден в папке &quot;{path}&quot;. Вы хотите удалить его из библиотеки?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Структуры" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Привязать…" revision="0" />
     <Item value="Привязать новую структуру" revision="0" />
@@ -229,6 +230,10 @@
   <Enumeration key="StructureViewerGotoFieldDef">
     <Item value="Перейти к определению поля" revision="1" />
     <Item value="Перейти к определению поля" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="Переход по значению" revision="1" />
+    <Item value="Переход по адресу в текущей ячейке" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Копировать полное имя" revision="1" />
