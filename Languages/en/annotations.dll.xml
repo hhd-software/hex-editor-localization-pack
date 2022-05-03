@@ -8,8 +8,6 @@
 		<Param name="file"/>
 	</Message>
 
-	<Message key="Annotations settings" description="Settings: Annotations settings" value="Annotations settings"/>
-
 	<Message key="toolbar.Annotations" description="Toolbar: Annotations" value="Annotations" />
 
 	<Enumeration key="FeatureAnnotations" description="Annotations feature">
@@ -62,5 +60,10 @@
 
 	<Message key="Sample Text" description="Sample Text"/>
 	<Message key="ExtSuffixFilter" description="Extension suffix prompt message" value="Allowed symbols: 0-9A-Za-z_"/>
+
+	<!-- Annotate Range dialog -->
+	<Message key="Start:" description="Field: Start" />
+	<Message key="End:" description="Field: End" />
+	<Message key="Text:" description="Field: Text"/>
 
 </Definition>
