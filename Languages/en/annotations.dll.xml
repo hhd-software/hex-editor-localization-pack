@@ -4,8 +4,8 @@
 	<Message key="Data Annotations" description="Data Annotations tool window"/>
 	<!--<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="File data annotations has changed do you want to save it?"/>-->
 
-	<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="Data annotations have been changed for &quot;{File}&quot;. Do you want to save it?">
-		<Param name="File"/>
+	<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="Data annotations have been changed for &quot;{file}&quot;. Do you want to save updated annotations?">
+		<Param name="file"/>
 	</Message>
 
 	<Message key="Annotations settings" description="Settings: Annotations settings" value="Annotations settings"/>
@@ -23,11 +23,11 @@
 	</Enumeration>
 	<Enumeration key="AnnotationRemove" description="Command: Annotation.Remove">
 		<Item text="Remove Annotation"/>
-		<Item text="Remove Annotation"/>
+		<Item text="Remove annotation"/>
 	</Enumeration>
 	<Enumeration key="AnnotationClear" description="Command: Annotations.Clear">
 		<Item text="Clear Annotations"/>
-		<Item text="Remove All Annotations"/>
+		<Item text="Remove all annotations"/>
 	</Enumeration>
 	<Enumeration key="MenuAnnotations" description="Command group: Annotations">
 		<Item text="&amp;Annotations"/>
@@ -38,7 +38,7 @@
 		<Item text="Annotate data at cursor position"/>
 	</Enumeration>
 
-	<Enumeration key="AnnotationAnnotateSelection" description="Command: Annotations.Selection to Annotation">
+	<Enumeration key="AnnotationAnnotateSelection" description="Command: Annotations.Annotation Selection">
 		<Item text="Annotate Selection…"/>
 		<Item text="Add annotation to current selection"/>
 	</Enumeration>
