@@ -329,13 +329,19 @@
 	<Message key="Invalid toolbar name" description="Invalid toolbar name" revision="1" value="Invalid toolbar name. Valid name must start with a letter."/>
 	<Message key="Toolbar Creation Failed" description="Message box title: Toolbar Creation Failed" revision="1"/>
 	<Message key="Toolbar already exists" description="Toolbar already exists" revision="1" value="The toolbar with the name you specified already exists."/>
-	<Message key="All commands" description="All commands" revision="1"/>
+	<Message key="All commands" description="Field: All commands" revision="1"/>
 	<Message key="Commands Page" description="Commands Page window title" revision="1" value="Commands"/>
-	<Message key="Toolbars" description="Field: Toolbars" revision="1" value="Toolbars:"/>
+	<Message key="Toolbars" description="Field: Toolbars" revision="2" value="Toolbar:"/>
 	<Message key="New" description="Button: New…" revision="1" value="&amp;New…"/>
 	<Message key="Delete" description="Button: Delete" revision="1" value="&amp;Delete"/>
 	<Message key="Button size" description="Field: Button size" revision="1" value="Button size:"/>
 	<Message key="Select a command to view its description or drag it to a toolbar" description="Field: Select a command to view its description or drag it to a toolbar" revision="1" value="Select a command to view its description or drag it to a toolbar:"/>
+	<Message key="New Group" description="Field: New Group button" value="New &amp;Group"/>
+	<Message key="&lt; Add" description="Field: &lt; Add button" value="&lt; &amp;Add"/>
+	<Message key="Remove &gt;" description="Field: Remove &gt; button" value="&amp;Remove &gt;"/>
+	<Message key="Move Up" description="Field: Move Up button" value="Move &amp;Up"/>
+	<Message key="Move Down" description="Field: Move Down button" value="Move &amp;Down"/>
+	<Message key="Clear" description="Field: Clear button" value="&amp;Clear"/>
 
 	<!-- Keyboard page -->
 	<Message key="Keyboard" description="Message box title: Keyboard" revision="1"/>
@@ -1231,5 +1237,13 @@
 
 	<Message key="Enter the scheme name and press the Save button" description="Color scheme name banner" />
 	<Message key="ColorSchemeExists" description="Color scheme overwrite prompt" value="Color scheme already exists. Do you want to override it?"/>
+
+	<!-- Theme page -->
+	<Message key="Theme:" description="Field: Theme" />
+	<Message key="Display elements:" description="Field: Display elements" />
+	<Message key="Automatic" description="Field: Automatic" />
+	<Message key="Current" description="Field: Current (color)" />
+	<Message key="Selected" description="Field: Selected (color)" />
+	<Message key="Automatic color is dependent on current operating system color theme." description="Field: Automatic color is dependent on current operating system color theme." />
 
 </Definition>
