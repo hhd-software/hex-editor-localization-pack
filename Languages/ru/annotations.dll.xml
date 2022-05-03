@@ -5,6 +5,7 @@
   <Message key="toolbar.Annotations" value="Заметки" revision="0" />
   <Message key="Sample Text" value="Текст пример" revision="0" />
   <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Комментировать диапазон" revision="0" />
   <Message key="Start:" value="Начало:" revision="0" />
   <Message key="End:" value="Конец:" revision="0" />
   <Message key="Text:" value="Текст:" revision="0" />
