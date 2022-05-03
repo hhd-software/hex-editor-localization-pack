@@ -276,4 +276,9 @@
   <Message key="Search" description="Button: Search"/>
   <Message key="Jump" description="Button: Jump"/>
   <Message key="string" description="string"></Message>
+
+	<!-- Operations -->
+	<Message key="ExportOp" description="Exporting…"></Message>
+
+
 </Definition>

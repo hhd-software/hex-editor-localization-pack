@@ -25,7 +25,7 @@
   <Message key="Error" description="Error title"/>
   <Message key="Structure Editor" description="Editor Title"/>
   <Message key="Line" description="Line"/>
-  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
+  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|Kaitai definition files (*.ksy)|*.ksy"/>
   <Message key="UnsavedScheme" description="Unsaved Scheme Title" value="&lt;Unsaved current scheme&gt;" />
   <Message key="Default" description="Default Scheme Title" value="Default" />
   <Message key="SchemeDelError" description="Scheme delete error" value="This scheme cannot be deleted" />

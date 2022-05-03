@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<!--<Message key="FileNotFound" description="FileNotFound error" value="FileNotFound"/>-->
+
+	<Message key="MetaNotFound" description="No metadata found error" value="No metadata found"/>
+	<Message key="FileNotFound" description="FileNotFound error" value="File not found: {filename}">
+		<Param name="filename"/>
+	</Message>
+	<Message key="TypeNotFound" description="TypeNotFound error" value="Type not found: {type}">
+		<Param name="type"/>
+	</Message>
+	<Message key="IdNotFound" description="Id not found error" value="Id not found: {type}">
+		<Param name="type"/>
+	</Message>
+	<Message key="CastError" description="Cannot cast error" value="Cannot cast type {src_type} to {dst_type}">
+		<Param name="scr_type"/>
+		<Param name="dst_type"/>
+	</Message>
+	<Message key="BitwiseOpError" description="Bitwise illegal operand error" value="Illegal type for left operand of bitwise operation. Must be integer."/>
+	<Message key="MethodNotFound" description="Method not found" value="Method doesn't exist."/>
+	<Message key="ResultNotANumber" description="Result not a number error" value="Result of 'repeat-expr' is not a number"/>
+	<Message key="InvalidArgument" description="Invalid Argument error" value="Invalid Argument"/>
+	<Message key="ParamsNumMistmatch" description="Invalid arguments count error" value="Invalid number of arguments estimated: {est} received: {fact}">
+		<Param name="est"/>
+		<Param name="fact"/>
+	</Message>
+
+	<Message key="SizeConflictError" description="Size conflict error" value="Only one of 'size' or 'size-eos' must be specified"/>
+	<Message key="NoRepeatError" description="No 'repeat' expression error" value="No expression in 'repeat-expr' block"/>
+	<Message key="NoUntilError" description="No 'repeat-until' expression error" value="No expression in 'repeat-until' block"/>
+	<Message key="BracketsError" description="Unclosing brackets error" value="Bracket not closing properly"/>
+	<Message key="CannotMatch" description="Can not match count error" value="Value '{value}' cannot match values of type '{type}'">
+		<Param name="value"/>
+		<Param name="type"/>
+	</Message>
+	<Message key="ContentsError" description="Contents field parsing error" value="Must be array of bytes or string"/>
+	<Message key="ParsingError" description="Parsing error" value="Error! Expecting: {est} at {fact}">
+		<Param name="est"/>
+		<Param name="fact"/>
+	</Message>
+	<Message key="PathNotFound" description="Path not found error" value="Path not found: {path}">
+		<Param name="path"/>
+	</Message>
+	<Message key="NotAScope" description="Not a scope error" value="Not a scope"/>
+	<Message key="UnknownParam" description="Unknown parameter error" value="Unknown parameter type: {type}">
+		<Param name="type"/>
+	</Message>
+	<Message key="WrongEndian" description="Wrong endian error" value="Unknown endian type in meta field '{field}'. Must be 'be' or 'le'">
+		<Param name="field"/>
+	</Message>
+
+
+
+</Definition>

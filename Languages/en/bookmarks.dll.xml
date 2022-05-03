@@ -143,4 +143,6 @@
   <Message key="Sel2BookmarkWarning" description="Option: Show selection to bookmark conversion warning" revision="1" value="Show selection to bookmark conversion warning"/>
 
   <Message key="MergeBookmarks" description="Do you want to merge with existing bookmarks." value="Do you want to merge with existing bookmarks."/>
+
+	<Message key="toolbar.Bookmarks" description="Toolbar: Bookmarks" value="Bookmarks" />
 </Definition>
