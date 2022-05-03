@@ -238,8 +238,6 @@
   <Message key="History" description="History tool window, message box title"/>
   <Message key="Pattern Coloring" description="Pattern Coloring tool window, message box title"/>
   <Message key="Base Converter" description="Base Converter tool window, message box title"/>
-  <Message key="Loading" description="Loading history &amp; coloring" value="Loading history &amp; coloring"/>
-  <Message key="Initializing" description="Initializing history &amp; coloring" value="Initializing history &amp; coloring"/>
 
   <Message key="PatchFileFilter" description="Patch file filter" value="Patch Files (*.hexpatch)|*.hexpatch|Executable Files (*.exe)|*.exe|">
     <Validate rule="OpenFileDialogFilter"/>

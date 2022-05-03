@@ -25,8 +25,6 @@
     <Param name="code" format="b016"/>
   </Message>
 
-  <Message key="Loading" description="Loading" revision="1" value="Loading core components"/>
-
   <Message key="CheckForLowDiskSpace" description="Option: Check for low disk space before performing operations" revision="1" value="Check for low disk space before performing operations"/>
   <Message key="IgnoreRenames" description="Option: Ignore renames of shared opened files" revision="1" value="Ignore renames of shared opened files"/>
   <Message key="RemovedNotification" description="Notification: Shared document deleted" revision="1" value="Shared document deleted"/>

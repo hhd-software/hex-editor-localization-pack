@@ -94,7 +94,6 @@
     <Item text="Structure Viewer"/>
     <Item text="Structure viewer menu"/>
   </Enumeration>
-  <Message key="Initializing" description="Initializing Structure Viewer" value="Initializing Structure Viewer"/>
   <Message key="Structure Errors" description="Structure Errors Output window part" value="Structure Errors"/>
   <Message key="Error accessing Clipboard" description="Error accessing Clipboard"/>
   <Enumeration key="LibraryColumns" description="Library dialog columns">

@@ -68,8 +68,6 @@
     <Item text="Subtract the current bookmarks group from a selection."/>
   </Enumeration>
 
-  <Message key="Loading" description="Loading bookmarks" value="Loading bookmarks"/>
-  <Message key="Initializing" description="Initializing bookmarks" value="Initializing bookmarks"/>
   <Message key="Bookmarks" description="Bookmarks tool window"/>
 
   <Enumeration key="Columns" description="Columns">

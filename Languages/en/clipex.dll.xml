@@ -70,8 +70,6 @@
     <Item text="Converts to a simple ASCII or UNICODE character string"/>
   </Enumeration>
 
-  <Message key="Loading" description="Loading clipboard support" revision="1" value="Loading Clipboard support"/>
-  <Message key="Initializing" description="Initializing clipboard support" revision="1" value="Initializing Clipboard support"/>
   <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="2" value="Copy &amp; Export"/>
 
   <Message key="Export" description="Button: Export" revision="1" value="E&amp;xport"/>

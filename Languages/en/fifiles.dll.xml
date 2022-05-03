@@ -36,8 +36,6 @@
   <Message key="Find All" description="Button: Find All" revision="1"/>
   <Message key="Replace All" description="Button: Replace All" revision="1"/>
 
-  <Message key="Loading Find in Files" description="Loading Find in Files progress string" revision="1"/>
-  <Message key="Initializing Find in Files" description="Initializing Find in Files progress string" revision="1"/>
   <Message key="Notifications" description="Notifications setting group name" revision="1"/>
 
   <Enumeration key="Find in files task" description="Jump List Item: Find in files" revision="1">

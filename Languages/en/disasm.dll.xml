@@ -158,7 +158,6 @@
   <Message key="Go To:" description="Field: Go To"/>
   <Message key="Text" description="Button: Text"/>
 
-  <Message key="Loading" description="Loading disassembler" value="Loading disassembler"/>
   <Message key="Disassembler" description="Option group: Disassembler"/>
   <Message key="ShowImplicitOperands" description="Option: Display implicit operands" value="Display implicit operands"/>
   <Message key="ShowPrefixes" description="Option: Display prefixes" value="Display prefixes"/>
