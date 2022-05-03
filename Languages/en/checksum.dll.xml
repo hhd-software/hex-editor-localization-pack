@@ -37,8 +37,6 @@
   <Message key="Sum of Big-Endian 64-bit signed values" description="Algorithm: Sum of Big-Endian 64-bit signed values" revision="1"/>
   <Message key="Custom CRC" description="Algorithm: Custom CRC" revision="1"/>
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." description="Custom CRC Parameters error message" revision="1"/>
-  <Message key="Loading checksums" description="Loading checksums progress string" revision="1"/>
-  <Message key="Initializing checksums" description="Initializing checksums progress string" revision="1"/>
   <Message key="Checksum" description="Checksum Tool Window title" revision="1"/>
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." description="Checksum module description" revision="1"/>
 

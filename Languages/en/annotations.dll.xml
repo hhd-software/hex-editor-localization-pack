@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 	<!-- Commands -->
-	<Message key="Initializing" description="Initializing bookmarks" value="Initializing data annotations"/>
 	<Message key="Data Annotations" description="Data Annotations tool window"/>
 	<!--<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="File data annotations has changed do you want to save it?"/>-->
 
