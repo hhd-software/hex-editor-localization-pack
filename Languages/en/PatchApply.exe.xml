@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- About box -->
+  <Message key="x64edition" description="x64 edition suffix" revision="1" value="(x64 edition)"/>
+
+  <Message key="AboutInfo" description="About box information string" revision="4" value="HHD Software {product}{x64?} (x64 edition) {?x64}\n{edition}. Version {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nAll rights reserved.">
+    <Param name="product"/>
+    <Param name="x64" format="?"/>
+    <Param name="edition"/>
+    <Param name="major"/>
+    <Param name="minor" format="w2f0ar"/>
+    <Param name="revision" format="w2f0ar"/>
+    <Param name="build" format="w4f0ar"/>
+    <Param name="year"/>
+  </Message>
+
+  <Enumeration key="EditionList" description="Product edition list" revision="1">
+    <Item text="Unknown"/>
+    <Item text="Free Edition"/>
+    <Item text="Trial period started"/>
+    <Item text="Free Edition"/>
+    <Item text="Standard Edition"/>
+    <Item text="Professional Edition"/>
+    <Item text="Ultimate Edition"/>
+  </Enumeration>
+
+  <Message key="AboutBoxDisclaimer" description="About box disclaimer" revision="1" value="Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law."></Message>
+
+  <Message key="About Hex Editor Neo" description="About Hex Editor Neo window title" revision="1"/>
+</Definition>

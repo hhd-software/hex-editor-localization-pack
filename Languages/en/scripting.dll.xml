@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" description="Caption: Scripting"/>
+
+  <Enumeration key="MacroRecord" description="Command: Start macro recording">
+    <Item text="&amp;Start Recording"/>
+    <Item text="Start macro recording"/>
+  </Enumeration>
+  <Enumeration key="MacroStop" description="Command: Stop macro recording or playback">
+    <Item text="S&amp;top Recording/Playback"/>
+    <Item text="Stop macro recording or playback"/>
+  </Enumeration>
+	<Enumeration key="MacroRun" description="Command: Start macro playback">
+		<Item text="Start &amp;Playback"/>
+		<Item text="Start macro playback"/>
+	</Enumeration>
+	<Enumeration key="MacroDelete" description="Command: Delete selected macro">
+		<Item text="&amp;Delete Macro"/>
+		<Item text="Delete the currently selected macro"/>
+	</Enumeration>
+	<Enumeration key="MacroDeleteAll" description="Command: Delete all macros">
+		<Item text="Delete &amp;All Macros"/>
+		<Item text="Delete all macros"/>
+	</Enumeration>
+	<Enumeration key="MacroEdit" description="Command: Edit macro">
+		<Item text="&amp;Edit Macro…"/>
+		<Item text="Edit the selected macro"/>
+	</Enumeration>
+	<Enumeration key="MacroImport" description="Command: Import macros">
+		<Item text="&amp;Import Macros…"/>
+		<Item text="Import macros"/>
+	</Enumeration>
+	<Enumeration key="MacroExport" description="Command: Export macros">
+		<Item text="E&amp;xport Macros…"/>
+		<Item text="Export macros"/>
+	</Enumeration>
+	<Enumeration key="MenuMacro" description="Command group: Macro">
+    <Item text="Macros"/>
+    <Item text="Macros"/>
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript" description="Command: New Script">
+    <Item text="New Script"/>
+    <Item text="Create new empty script file"/>
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript" description="Command: Open Script">
+    <Item text="Open Script…"/>
+    <Item text="Open an existing script file"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingRun" description="Command: Run Script">
+    <Item text="&amp;Run Script"/>
+    <Item text="Start script execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStop" description="Command: Stop Script">
+    <Item text="&amp;Stop Script"/>
+    <Item text="Stop script execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingDebug" description="Command: Debug Script">
+    <Item text="&amp;Debug Script"/>
+    <Item text="Start script debugging"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingToggleBreakpoint" description="Command: ScriptingToggleBreakpoint">
+    <Item text="Toggle Breakpoint"/>
+    <Item text="Sets or removes an execution breakpoint"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingRemoveAllBreakpoints" description="Command: ScriptingRemoveAllBreakpoints">
+    <Item text="Remove All Breakpoints"/>
+    <Item text="Remove all breakpoints"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepIn" description="Command: ScriptingStepIn">
+    <Item text="Step In"/>
+    <Item text="Step in the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepOut" description="Command: ScriptingStepOut">
+    <Item text="Step Out"/>
+    <Item text="Step out from the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepOver" description="Command: ScriptingStepOver">
+    <Item text="Step Over"/>
+    <Item text="Step over the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepContinue" description="Command: ScriptingStepContinue">
+    <Item text="Continue"/>
+    <Item text="Continue execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingAsyncBreak" description="Command: ScriptingAsyncBreak">
+    <Item text="Break Execution"/>
+    <Item text="Break script execution"/>
+  </Enumeration>
+
+  <Enumeration key="WatchValueAdd" description="Command: WatchValueAdd">
+    <Item text="Add Watch"/>
+    <Item text="Add Watch"/>
+  </Enumeration>
+
+  <Enumeration key="WatchValueRemove" description="Command: WatchValueRemove">
+    <Item text="Remove Watch"/>
+    <Item text="Remove Watch"/>
+  </Enumeration>
+
+  <Enumeration key="WatchValueEdit" description="Command: WatchValueEdit">
+    <Item text="Edit Watch"/>
+    <Item text="Edit Watch"/>
+  </Enumeration>
+
+  <Enumeration key="MenuDebug" description="Command group: Debug">
+    <Item text="&amp;Debug"/>
+    <Item text="Debug menu"/>
+  </Enumeration>
+
+  <Message key="New Script" description="New script file name" value="New Script {ordinal}">
+    <Param name="ordinal" />
+  </Message>
+
+  <Message key="WatchTitle" description="Tool Window: Watch" value="Debug Watch"/>
+  <Message key="CallStackTitle" description="Tool Window: Call Stack" value="Debug Call Stack"/>
+	<Message key="Macros" description="Tool Window: Macros" />
+  <Message key="Console" description="Console output window title"/>
+	<Message key="MacroToolbar" description="Toolbar: Macros" value="Macros" />
+	<Message key="WatchToolbar" description="Toolbar: Watch" value="Watch" />
+
+	<Enumeration key="MacroWindowColumns" description="Macros list columns">
+		<Item text="Macro"/>
+		<Item text="Hot Key"/>
+	</Enumeration>
+
+  <Enumeration key="CallStackColumns" description="Call Stack Columns Names">
+    <Item text=" "/>
+    <Item text="Name"/>
+    <Item text="Line"/>
+  </Enumeration>
+
+  <Enumeration key="FeatureScripting" description="Scripting feature" revision="1">
+    <Item text="Scripting"/>
+    <Item text="Scripting feature allows you to control Hex Editor Neo using scripts, written in TypeScript."/>
+  </Enumeration>
+
+  <Message key="ScriptChanged" description="Script changed prompt" value="Your script has been modified. It is impossible to continue execution. Do you want to stop script execution?" />
+
+  <Message key="Compiling TypeScript" description="Compiling TypeScript" value="Compiling TypeScript…\n"/>
+  <Message key="Started Script" description="Script execution started" value="Script execution started: {name}\n">
+    <Param name="name"/>
+  </Message>
+  <Message key="Stopping Script" description="Stopping script execution" value="Stopping script execution…"/>
+  <Message key="Stopped Script" description="Script execution stopped" value="\nScript execution stopped.\n"/>
+
+  <Message key="ScrpitRunningClose" description="Closing currently running script" value="The script is currently running. Do you want to stop it in order to continue closing script window?"/>
+
+    <Message key="ScriptFormatString" description="Scripting format string" value="Script files|*.ts; *.js|">
+	    <Validate rule="OpenFileDialogFilter"/>
+    </Message>
+
+	<Message key="ScriptLoadError" description="Script loading error" value="Error loading file &quot;{file}&quot;: {error} ({code})">
+		<Param name="file"/>
+		<Param name="error"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="ScriptLoadErrors" description="Script loading errors" value="The following error(s) occured during loading selected file(s):\n\n{errors}">
+		<Param name="errors"/>
+	</Message>
+
+	<Message key="ScriptSaveError" description="Script saving error" value="Error saving file &quot;{file}&quot;: {error} ({code})">
+		<Param name="file"/>
+		<Param name="error"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="CloseUnsavedScriptPrompt" description="Close unsaved script prompt" value="Do you want to save changes you made to the current script?" />
+
+	<!-- Macro tool window and edit dialog -->
+	<Message key="NewMacroTitle" description="Window title: New Macro" value="New Macro" />
+	<Message key="EditMacroTitle" description="Window title: Edit Macro" value="Edit Macro" />
+
+	<Message key="Macro name:" description="Field: Macro name" />
+	<Message key="Macro hot key:" description="Field: Macro hot key"/>
+	<Message key="Edit Macro Script" description="Button: Edit Macro Script" />
+	<Message key="MacroDiscardPrompt" description="Macro discarding warning" value="This will discard the recorded macro. Do you want to discard the recorded macro?" />
+	<Message key="MacroNameExists" description="Macro with the same name already exists" value="Macro with the same name already exists. Do you want to override it?" />
+	<Message key="MacroDeleteAllPrompt" description="Delete all macros confirmation message" value="This will delete all macros. Are you sure you want to continue?" />
+	<Message key="MacroName" description="Macro document name format" value="Macro: {name}">
+		<Param name="name" />
+	</Message>
+	<Message key="MacroExportFormat" description="Macro export file format" value="Macro export files|*.neo-macro.json">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+</Definition>

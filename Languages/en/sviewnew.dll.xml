@@ -53,7 +53,7 @@
     <Item text="Field To Bookmark"/>
     <Item text="Converts selected structure field to bookmark"/>
   </Enumeration>
-  
+
   <!-- -->
 
   <Enumeration key="CompilerErrors" description="Compiler errors" revision="1">
@@ -143,12 +143,12 @@
   </Message>
   <Message key="Structure Viewer: Load Scheme" description="Message box title: Structure Viewer: Load Scheme"/>
   <Message key="Edit Associations" description="Button: Edit Associations"/>
-  
+
   <Message key="Unable to create file" description="Error generating CSV file" value="Error exporting CSV file: {text} ({code})" revision="1">
     <Param name="text"/>
     <Param name="code" format="b016x"/>
   </Message>
-  
+
   <Message key="Error saving scheme" description="Error saving scheme"/>
   <Message key="LengthyOp" value="This operation is not available during lengthy operation. Try again later." description="This operation is not available during lengthy operation. Try again later."/>
   <Message key="This scheme can not be removed." description="This scheme can not be removed"/>
@@ -200,7 +200,7 @@
   </Message>
   <Message key="SchemeExists" description="Scheme already exists. Do you want to overwite it?" value="Scheme already exists. Do you want to overwite it?"/>
   <Message key="Scheme already exists" description="Scheme already exists"/>
-  
+
   <!-- Dialogs -->
   <!-- External editor -->
   <Message key="External Editor" description="Extrenal Editor window title"/>
@@ -211,7 +211,7 @@
   <Message key="Library" description="Library window title" value="Structure Library"/>
   <Message key="Add…" description="Button: Add…"/>
   <Message key="Edit…" description="Button: Edit…"/>
-  
+
   <!-- Save scheme -->
   <Message key="Save Scheme" description="Save Scheme window title"/>
   <Message key="Name:" description="Field: Name"/>
@@ -222,11 +222,11 @@
   <Message key="Configure external editor…" description="Button: Configure external editor…"/>
   <Message key="Regular expression:" description="Field: Regular expression:"/>
   <Message key="Associated scheme:" description="Field: Associated scheme"/>
-  
+
   <!-- Structure Coloring -->
   <Message key="Structure Coloring" description="Structure Coloring window title"/>
   <Message key="Apply" description="Button: Apply"/>
-  
+
   <!-- Bind Structure -->
   <Message key="Bind Structure" description="Bind Structure window title"/>
   <Message key="Address" description="Control group: Address"/>
@@ -261,6 +261,11 @@
   <Enumeration key="StructureViewerGotoFieldDef" description="Command: Structure Viewer.Go To Field Definition" revision="1">
     <Item text="Go to Field Definition"/>
     <Item text="Open structure definition file with current field definition"/>
+  </Enumeration>
+
+	<Enumeration key="StructureViewerGotoValueDef" description="Command: Structure Viewer.Go To Value" revision="1">
+    <Item text="Go to Value"/>
+    <Item text="Go to offset defined by value"/>
   </Enumeration>
 
   <Enumeration key="StructureViewerCopyQName" description="Command: Structure Viewer.Copy Qualified Name" revision="1">
@@ -420,7 +425,9 @@
   </Enumeration>
 
 
-  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
+	<Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files|*.h|Kaitai definition files|*.ksy" revision="1">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
 
   <!--<Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
     <Item text="&amp;Revert All"/>
@@ -470,9 +477,9 @@
   <Message key="Change Time" description="Window title: Change Time"/>
 
   <!-- Data Inspector Notification Dialog -->
-  
+
   <Message key="AssignNotification" description="Assign error text" value="Data modification is not enabled for this type. Click the Help button for detailed information on how to enable data modification for a type."/>
-  
+
   <!-- Structure Viewer CSV separator -->
   <Enumeration key="CsvSeparator" description="Option: CSV Separator type">
     <Item text="CSV Export Separator"/>
@@ -508,4 +515,5 @@
     <Param name="path"/>
   </Message>
 
+	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
 </Definition>

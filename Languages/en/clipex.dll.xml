@@ -72,7 +72,7 @@
 
   <Message key="Loading" description="Loading clipboard support" revision="1" value="Loading Clipboard support"/>
   <Message key="Initializing" description="Initializing clipboard support" revision="1" value="Initializing Clipboard support"/>
-  <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="1" value="Copy &amp;&amp; Export"/>
+  <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="2" value="Copy &amp; Export"/>
 
   <Message key="Export" description="Button: Export" revision="1" value="E&amp;xport"/>
   <Enumeration key="BigSize" description="Big size notification" revision="1">
@@ -140,7 +140,7 @@
     <Item text="PHP array"/>
     <Item text="Assembler array"/>
   </Enumeration>
-  
+
   <!-- Dialogs -->
   <Message key="&amp;Copy to Clipboard" description="Copy to Clipboard group" revision="1"/>
   <Message key="&amp;Export" description="Export group" revision="1"/>

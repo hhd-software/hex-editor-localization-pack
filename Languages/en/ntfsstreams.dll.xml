@@ -155,4 +155,6 @@
   <Message key="Exclude:" description="Field: Exclude"/>
   <Message key="(regular expression)" description="Field: (regular expression)"/>
   <Message key="Include sub-folders" description="Checkbox: Include sub-folders"/>
+
+	<Message key="toolbar.NTFS Streams" description="Toolbar: NTFS Streams" value="NTFS Streams" />
 </Definition>

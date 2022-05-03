@@ -72,7 +72,9 @@
     <Param name="reflection_out"/>
   </Message>
 
-  <!-- Commands -->
+	<Message key="toolbar.Checksum" description="Toolbar: Checksum" value="Checksum"/>
+
+	<!-- Commands -->
   <Enumeration key="ChecksumDisplayResult" description="Command: Display">
     <Item text="Display Result"/>
     <Item text="Display the selected checksum result"/>

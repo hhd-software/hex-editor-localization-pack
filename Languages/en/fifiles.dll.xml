@@ -49,7 +49,7 @@
     <Item text="&amp;Find in Files"/>
     <Item text="Find in Files menu"/>
   </Enumeration>
-  
+
   <Message key="Find in Files" description="Find in Files Tool Window title" revision="1"/>
   <Message key="Do you want to cancel the current operation?" description="Prompt: Do you want to cancel the current operation?" revision="1"/>
   <Message key="Operation cancelled." description="Operation cancelled" revision="1"/>
@@ -90,7 +90,7 @@
   </Message>
 
   <Message key="ReplaceNotification" description="Property: Replace in Files notification" value="Replace in Files" revision="1"/>
-  
+
   <!-- Commands -->
   <Enumeration key="EditFindInFiles" description="Command: Find in Files">
     <Item text="Fin&amp;d in Files…"/>
@@ -127,7 +127,7 @@
   </Message>
 
   <Message key="Exporting" description="Window title: Exporting" value="Exporting"/>
-  
+
   <!-- Dialog strings -->
   <!-- Find in Files dialog -->
   <Message key="Search in:" description="Field: Search in" revision="1"/>
@@ -147,4 +147,5 @@
   <Message key="Folder list:" description="Field: Folder list" revision="1"/>
 
   <Message key="All opened documents" description="All opened documents"/>
+	<Message key="toolbar.FindInFiles" description="Toolbar: Find in Files" value="Find in Files"/>
 </Definition>

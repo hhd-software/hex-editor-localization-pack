@@ -48,4 +48,5 @@
   <Message key="Initializing" description="Initializing explorer" value="Initializing explorer"/>
 
   <Message key="Explorer settings" description="Settings: Explorer" value="Explorer"/>
+	<Message key="toolbar.Explorer" description="Toolbar: Explorer" value="Explorer"/>
 </Definition>

@@ -6,7 +6,7 @@
     <Item text="&amp;Downloader"/>
     <Item text="Downloader menu"/>
   </Enumeration>
-  
+
   <Enumeration key="ToolsCancelAll" description="Command: Tools.Cancel All Tasks" revision="1">
     <Item text="&amp;Cancel All Download Tasks"/>
     <Item text="Cancel all download tasks"/>
@@ -65,4 +65,6 @@
   <Message key="PasswordMismatch" value="Entered passwords must match." description="Entered passwords must match."/>
 
   <Message key="Downloader settings" description="Settings: Downloader (Proxy)" value="Proxy Settings"/>
+
+	<Message key="toolbar.Downloader" description="Toolbar: Downloader" value="Downloader" />
 </Definition>
