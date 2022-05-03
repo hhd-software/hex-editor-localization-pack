@@ -2,46 +2,52 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Data Annotations" value="Заметки" revision="0" />
   <Message key="SaveAnnotationsPrompt" value="Обновились заметки для файла &quot;{File}&quot;. Вы хотите сохранить их?" revision="0" />
+  <Message key="toolbar.Annotations" value="Заметки" revision="0" />
+  <Message key="Sample Text" value="Текст пример" revision="0" />
+  <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
+  <Message key="Start:" value="Начало:" revision="0" />
+  <Message key="End:" value="Конец:" revision="0" />
+  <Message key="Text:" value="Текст:" revision="0" />
   <Enumeration key="FeatureAnnotations">
-    <Item />
-    <Item />
+    <Item value="Заметки" revision="0" />
+    <Item value="Функция &quot;заметки&quot; позволяет вам добавлять заметки к различным частам файла." revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAdd">
-    <Item />
-    <Item />
+    <Item value="Добавить заметку…" revision="0" />
+    <Item value="Добавить новую заметку" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationRemove">
-    <Item />
-    <Item />
+    <Item value="Удалить заметку" revision="0" />
+    <Item value="Удалить заметку" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationClear">
-    <Item />
-    <Item />
+    <Item value="Очистить заметки" revision="0" />
+    <Item value="Удалить все заметки" revision="0" />
   </Enumeration>
   <Enumeration key="MenuAnnotations">
-    <Item />
-    <Item />
+    <Item value="&amp;Заметки" revision="0" />
+    <Item value="Меню заметок" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateCursor">
-    <Item />
-    <Item />
+    <Item value="Комментировать место…" revision="0" />
+    <Item value="Добавить новую заметку по месту курсора" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateSelection">
-    <Item />
-    <Item />
+    <Item value="Комментировать выделение…" revision="0" />
+    <Item value="Добавить заметку для текущего выделения" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item />
-    <Item />
+    <Item value="Редактировать заметку" revision="0" />
+    <Item value="Редактировать выбранную заметку" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
-    <Item />
-    <Item />
+    <Item value="Добавить" revision="0" />
+    <Item value="Редактировать" revision="0" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="№" revision="0" />
+    <Item value="Адрес" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Текст" revision="0" />
   </Enumeration>
 </Language>
