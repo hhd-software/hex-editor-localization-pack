@@ -62,6 +62,7 @@
 	<Message key="ExtSuffixFilter" description="Extension suffix prompt message" value="Allowed symbols: 0-9A-Za-z_"/>
 
 	<!-- Annotate Range dialog -->
+	<Message key="Annotate Range" description="Window title: Annotate Range" />
 	<Message key="Start:" description="Field: Start" />
 	<Message key="End:" description="Field: End" />
 	<Message key="Text:" description="Field: Text"/>
