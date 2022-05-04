@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="Навигация" revision="0" />
   <Message key="Offset" value="Смещение" revision="1" />
   <Message key="SchemeNameCue" value="Введите имя схемы здесь" revision="1" />
   <Message key="Encrypt" value="Шифровка" revision="1" />
@@ -188,6 +189,33 @@
   <Message key="Layout settings" value="Настройки редактора" revision="0" />
   <Message key="Encoding settings" value="Последние использованные кодировки" revision="0" />
   <Message key="ViewSettingsDb settings" value="Параметры редактора по-умолчанию" revision="0" />
+  <Message key="All documents" value="Все документы" revision="0" />
+  <Message key="New Pattern" value="Новый шаблон" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="Введите регулярное выражение для нового файла:" revision="0" />
+  <Message key="Pattern cue" value="Регулярное выражение, например .+?\.zip$" revision="0" />
+  <Message key="Pattern override prompt" value="Данный шаблон уже существует. Вы хотите перезаписать его?" revision="0" />
+  <Message key="clr.colors" value="Цвета редактора" revision="0" />
+  <Message key="clr.colors.Text" value="Текст" revision="0" />
+  <Message key="clr.colors.Background" value="Фон" revision="0" />
+  <Message key="clr.colors.AddressText" value="Текст адреса" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="Фон адреса" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Текст ASCII-панели" revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Фон ASCII-панели" revision="0" />
+  <Message key="clr.colors.Even" value="Четные" revision="0" />
+  <Message key="clr.colors.Odd" value="Нечетные" revision="0" />
+  <Message key="clr.colors.Empty" value="Пустой диапазон" revision="0" />
+  <Message key="clr.colors.CursorFill" value="Фон курсора" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="Обводка курсора" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="Фон дополнительного курсора" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="Текст подсветки" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="Фон подсветки" revision="0" />
+  <Message key="clr.colors.ChangedText" value="Изменённый текст" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="Изменённый фон" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="Изменённая обводка" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="Фон выделения" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="Обводка выделения" revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="Подчёркивание подсветки" revision="0" />
+  <Message key="toolbar.Selection" value="Выделение" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Выделить &amp;все" revision="1" />
     <Item value="Выделить все данные в файле" revision="1" />
@@ -197,20 +225,20 @@
     <Item value="Сбросить выделение данных" revision="1" />
   </Enumeration>
   <Enumeration key="SelectGoToStart">
-    <Item />
-    <Item />
+    <Item value="Переход к началу" revision="0" />
+    <Item value="Перейти к началу выделенного блока" revision="0" />
   </Enumeration>
   <Enumeration key="SelectGoToEnd">
-    <Item />
-    <Item />
+    <Item value="Переход к концу" revision="0" />
+    <Item value="Переход к концу выделенного блока" revision="0" />
   </Enumeration>
   <Enumeration key="SelectDeleteBlock">
-    <Item />
-    <Item />
+    <Item value="Удалить блок" revision="0" />
+    <Item value="Удалить блок из выделения" revision="0" />
   </Enumeration>
   <Enumeration key="SelectClearSelection">
-    <Item />
-    <Item />
+    <Item value="Очистить" revision="0" />
+    <Item value="Удалить все блоки" revision="0" />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Обратить выделение" revision="1" />
@@ -505,16 +533,16 @@
     <Item value="Очистить содержимое текущего окна" revision="1" />
   </Enumeration>
   <Enumeration key="GotoGoto">
-    <Item />
-    <Item />
+    <Item value="Переход" revision="0" />
+    <Item value="Перейти к указанному смещению" revision="0" />
   </Enumeration>
   <Enumeration key="GotoAdd">
-    <Item />
-    <Item />
+    <Item value="Добавить" revision="0" />
+    <Item value="Добавить смещение в список сохранённых" revision="0" />
   </Enumeration>
   <Enumeration key="GotoCopy">
-    <Item />
-    <Item />
+    <Item value="Копировать" revision="0" />
+    <Item value="Скопировать текущее смещение в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Отрицание" revision="1" />
@@ -642,8 +670,8 @@
     <Item value="Размер" revision="1" />
   </Enumeration>
   <Enumeration key="SwitchSingleSel">
-    <Item />
-    <Item />
+    <Item value="Включить опцию &quot;Одинарное выделение&quot;" revision="2" />
+    <Item value="Это выключит множественные выделения. Вы можете позднее включить эту опцию обратно в настройках." revision="2" />
   </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Множественное выделение" revision="1" />
@@ -699,8 +727,8 @@
     <Item value="Текст измененного" revision="1" />
   </Enumeration>
   <Enumeration key="InterlaceMode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Нет" revision="0" />
+    <Item value="Чередовать колонки" revision="0" />
+    <Item value="Чередовать ряды" revision="0" />
   </Enumeration>
 </Language>
