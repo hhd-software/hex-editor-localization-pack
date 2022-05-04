@@ -24,10 +24,16 @@
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Некоторые значения не умещаются в 16 бит. Задайте 16-битные значения от  0 до 0xFFFF (65535)." revision="1" />
   <Message key="Checksum" value="Контрольные суммы" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Функция &quot;контрольная сумма&quot; вычисляет значения сумм выбранных данных или всего документа." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32-бит" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32-бит" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64-бит" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64-бит" revision="0" />
+  <Message key="Custom FNV" value="Настраиваемый FNV-1" revision="0" />
   <Message key="N/A" value="Нет данных" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Пожалуйста, дождитесь окончания выполняемых операций." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстовые файлы с табуляцией-разделителем (*.tsv)|*.tsv|Все файлы|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Начальное={initial}, Полином={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64-бит{|is64bit}32-бит{?is64bit}: Простое={prime}, Начальное={basis}" revision="0" />
   <Message key="toolbar.Checksum" value="Контрольные суммы" revision="0" />
   <Message key="Add Algorithm" value="Добавка алгоритма" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Выберите алгоритм из списка:" revision="1" />
@@ -45,6 +51,12 @@
   <Message key="Size:" value="Размер:" revision="1" />
   <Message key="Separator:" value="Разделитель:" revision="1" />
   <Message key="Checksum settings" value="Контрольные суммы" revision="0" />
+  <Message key="Custom FNV Parameters" value="Параметры настраиваемого FNV-1" revision="0" />
+  <Message key="32-bit" value="32-бит" revision="0" />
+  <Message key="64-bit" value="64-бит" revision="0" />
+  <Message key="Prime:" value="Простое:" revision="0" />
+  <Message key="Offset basis:" value="Начальное:" revision="0" />
+  <Message key="Version:" value="Версия:" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Без разделителей" revision="1" />
     <Item value="Пробел" revision="1" />
@@ -54,11 +66,12 @@
     <Item value="Точка с запятой" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Простые суммы" revision="1" />
-    <Item value="Дополнительные суммы" revision="1" />
-    <Item value="Контрольные суммы" revision="1" />
-    <Item value="Хэши" revision="1" />
-    <Item value="Знаковые суммы-" revision="1" />
+    <Item value="Простые суммы" revision="2" />
+    <Item value="Дополнительные суммы" revision="2" />
+    <Item value="Контрольные суммы" revision="2" />
+    <Item value="Хэши Fowler–Noll–Vo (FNV)" revision="2" />
+    <Item value="Хэши" revision="2" />
+    <Item value="Знаковые суммы-" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Контрольные суммы" revision="0" />
