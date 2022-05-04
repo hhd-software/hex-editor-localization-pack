@@ -74,6 +74,5 @@
 	<Message key="File extension suffix:" description="Field: File extension suffix"/>
 	<Message key="Custom Folder:" description="Field: Custom Folder"/>
 	<Message key="Clear annotations cache" description="Button: Clear annotations cache"/>
-	<Message key="string" description="string"></Message>
 	
 </Definition>
