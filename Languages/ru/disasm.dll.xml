@@ -96,6 +96,7 @@
   <Message key="Search" value="Найти" revision="0" />
   <Message key="Jump" value="Перейти" revision="0" />
   <Message key="string" value="строка" revision="0" />
+  <Message key="ExportOp" value="Экспорт инструкций…" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Запустить дизассемблер…" revision="0" />
     <Item value="Разобрать исполняемый файл" revision="0" />
