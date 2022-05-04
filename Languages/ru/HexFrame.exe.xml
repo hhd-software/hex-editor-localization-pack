@@ -393,6 +393,12 @@
   <Message key="Current" value="Текущий" revision="0" />
   <Message key="Selected" value="Выбранный" revision="0" />
   <Message key="Automatic color is dependent on current operating system color theme." value="Автоматический цвет зависит от текущей цветовой схемы ОС." revision="0" />
+  <Message key="&amp;Open" value="&amp;Открыть" revision="0" />
+  <Message key="Novice User Layout" value="Профиль &quot;Новичок&quot;" revision="0" />
+  <Message key="Advanced User Layout" value="Продвинутый профиль" revision="0" />
+  <Message key="Expert User Layout" value="Экспертный профиль" revision="0" />
+  <Message key="Free Hex Editor Layout" value="Профиль бесплатной редакции" revision="0" />
+  <Message key="Default Working Space" value="Профиль по-умолчанию" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
