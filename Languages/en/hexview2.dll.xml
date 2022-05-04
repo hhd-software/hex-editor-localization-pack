@@ -785,7 +785,9 @@
   <Message key="Draw edit cursor frame" description="Checkbox: Draw edit cursor frame"/>
   <Message key="Smart indentation" description="Checkbox: Smart indentation"/>
   <Message key="Antialiased quality (slower)" description="Checkbox: Antialiased quality (slower)"/>
-  <Message key="Schemes…" description="Button: Schemes…"/>
+	<Message key="File pattern:" description="Field: File pattern" />
+	<Message key="Interlacing:" description="Field: Interlacing"/>
+
 
   <!-- Layout schemes -->
   <Message key="Layout Schemes" description="Layout Schemes window title"/>
