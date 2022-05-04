@@ -142,7 +142,8 @@
   <Message key="Draw edit cursor frame" value="Рамка курсора" revision="0" />
   <Message key="Smart indentation" value="Отступы" revision="0" />
   <Message key="Antialiased quality (slower)" value="Антиалиасинг (медленней)" revision="0" />
-  <Message key="Schemes…" value="Схемы…" revision="0" />
+  <Message key="File pattern:" value="Шаблон:" revision="0" />
+  <Message key="Interlacing:" value="Чередование:" revision="0" />
   <Message key="Layout Schemes" value="Схемы разметки" revision="0" />
   <Message key="&amp;Save As…" value="Сохранить &amp;как" revision="0" />
   <Message key="Load Selection" value="Загрузка выделения" revision="0" />
