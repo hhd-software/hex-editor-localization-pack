@@ -1,2 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" />
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="Метаданные не найдены" revision="0" />
+  <Message key="FileNotFound" value="Файл не найден: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Тип не найден: {type}" revision="0" />
+  <Message key="IdNotFound" value="Идентификатор не найден: {type}" revision="0" />
+  <Message key="CastError" value="Невозможно привести тип {src_type} к {dst_type}." revision="0" />
+  <Message key="BitwiseOpError" value="Неверный тип левого операнда битовой операции. Должен быть целочисленным." revision="0" />
+  <Message key="MethodNotFound" value="Метод не существует." revision="0" />
+  <Message key="ResultNotANumber" value="Результат 'repeat-expr' не является числом." revision="0" />
+  <Message key="InvalidArgument" value="Неверный аргумент" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Неверное число аргументов. Ожидается: {est}, получено: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="Можно указывать либо 'size', либо 'size-eos'." revision="0" />
+  <Message key="NoRepeatError" value="Отсутствует выражение в блоке 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="Отсутствует выражение в блоке 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="Скобка не закрыта." revision="0" />
+  <Message key="CannotMatch" value="Значение '{value}' не присутствует в значениях типа '{type}'." revision="0" />
+  <Message key="ContentsError" value="Должен быть массив байтов или строка." revision="0" />
+  <Message key="ParsingError" value="Ошибка разбора. Ожидается {est} в {fact}." revision="0" />
+  <Message key="PathNotFound" value="Путь не найден: {path}" revision="0" />
+  <Message key="NotAScope" value="Не является областью" revision="0" />
+  <Message key="UnknownParam" value="Неизвестный тип параметра: {type}" revision="0" />
+  <Message key="WrongEndian" value="Неизвестный тип endian в мета-поле '{field}'. Должно быть 'be' или 'le'" revision="0" />
+</Language>
