@@ -17,25 +17,25 @@
 		<Param name="scr_type"/>
 		<Param name="dst_type"/>
 	</Message>
-	<Message key="BitwiseOpError" description="Bitwise illegal operand error" value="Illegal type for left operand of bitwise operation. Must be integer."/>
+	<Message key="BitwiseOpError" description="Bitwise illegal operand error" value="Illegal type for left operand of bitwise operation. Must be an integer."/>
 	<Message key="MethodNotFound" description="Method not found" value="Method doesn't exist."/>
-	<Message key="ResultNotANumber" description="Result not a number error" value="Result of 'repeat-expr' is not a number"/>
+	<Message key="ResultNotANumber" description="Result not a number error" value="Result of 'repeat-expr' is not a number."/>
 	<Message key="InvalidArgument" description="Invalid Argument error" value="Invalid Argument"/>
-	<Message key="ParamsNumMistmatch" description="Invalid arguments count error" value="Invalid number of arguments estimated: {est} received: {fact}">
+	<Message key="ParamsNumMistmatch" description="Invalid arguments count error" value="Invalid number of arguments. Estimated: {est}, received: {fact}.">
 		<Param name="est"/>
 		<Param name="fact"/>
 	</Message>
 
-	<Message key="SizeConflictError" description="Size conflict error" value="Only one of 'size' or 'size-eos' must be specified"/>
-	<Message key="NoRepeatError" description="No 'repeat' expression error" value="No expression in 'repeat-expr' block"/>
-	<Message key="NoUntilError" description="No 'repeat-until' expression error" value="No expression in 'repeat-until' block"/>
-	<Message key="BracketsError" description="Unclosing brackets error" value="Bracket not closing properly"/>
+	<Message key="SizeConflictError" description="Size conflict error" value="Only one of 'size' or 'size-eos' must be specified."/>
+	<Message key="NoRepeatError" description="No 'repeat' expression error" value="No expression in 'repeat-expr' block."/>
+	<Message key="NoUntilError" description="No 'repeat-until' expression error" value="No expression in 'repeat-until' block."/>
+	<Message key="BracketsError" description="Unclosing brackets error" value="Bracket is not closed properly."/>
 	<Message key="CannotMatch" description="Can not match count error" value="Value '{value}' cannot match values of type '{type}'">
 		<Param name="value"/>
 		<Param name="type"/>
 	</Message>
 	<Message key="ContentsError" description="Contents field parsing error" value="Must be array of bytes or string"/>
-	<Message key="ParsingError" description="Parsing error" value="Error! Expecting: {est} at {fact}">
+	<Message key="ParsingError" description="Parsing error" value="Parsing error. Expecting: {est} at {fact}">
 		<Param name="est"/>
 		<Param name="fact"/>
 	</Message>
@@ -49,7 +49,6 @@
 	<Message key="WrongEndian" description="Wrong endian error" value="Unknown endian type in meta field '{field}'. Must be 'be' or 'le'">
 		<Param name="field"/>
 	</Message>
-
 
 
 </Definition>
