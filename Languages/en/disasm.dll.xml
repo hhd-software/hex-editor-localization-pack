@@ -151,7 +151,7 @@
     <Item text="Method"/>
     <Item text="Function"/>
   </Enumeration>
-  
+
   <Message key="The document has been changed." description="The document has been changed."/>
   <Message key="Refresh" description="Button: Refresh"/>
   <Message key="Go" description="Button: Go"/>
@@ -230,7 +230,7 @@
   <Message key="Select all" description="Checkbox: Select all"/>
   <Message key="Export to:" description="Field: Export to"/>
   <Message key="Export headers" description="Checkbox: Export headers"/>
-  
+
   <!-- Disasm dialog -->
   <Message key="File:" description="Field: File"/>
   <Message key="Instr. set:" description="Field: Instr. set"/>
@@ -244,7 +244,7 @@
   <Message key="Hexadecimal" description="Choice: Hexadecimal"/>
   <Message key="Decimal" description="Choice: Decimal"/>
   <Message key="Symbols…" description="Button: Symbols…"/>
-  
+
   <!-- Find -->
   <Message key="Find Window" description="Find window title" value="Find"/>
   <Message key="Find" description="Button: Find" value="&amp;Find"/>
@@ -258,14 +258,14 @@
   <Message key="Go To" description="Go To window title"/>
   <Message key="Raw address" description="Choice: Raw address"/>
   <Message key="Virtual address" description="Choice: Virtual address"/>
-  
+
   <!-- Details -->
   <Message key="Details" description="Details window title"/>
   <Message key="Data:" description="Field: Data"/>
   <Message key="Length:" description="Field: Length"/>
   <Message key="Lowercase" description="Choice: Lowercase"/>
   <Message key="Show symbols" description="Choice: Show symbols"/>
-  
+
   <!-- Symbols -->
   <Message key="Symbols" description="Symbols window title"/>
   <Message key="Source files:" description="Field: Source files"/>
@@ -277,7 +277,6 @@
   <Message key="string" description="string"></Message>
 
 	<!-- Operations -->
-	<Message key="ExportOp" description="Exporting…"></Message>
-
+	<Message key="ExportOp" description="Exporting…" value="Exporting disassembled instructions…" />
 
 </Definition>
