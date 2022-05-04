@@ -67,4 +67,13 @@
 	<Message key="End:" description="Field: End" />
 	<Message key="Text:" description="Field: Text"/>
 
+	<!-- Settings Page -->
+	<Message key="Annotations Storage Location" description="Group box: Annotations Storage Location"/>
+	<Message key="Auto Select" description="Option: Auto Select" />
+	<Message key="NTFS Stream" description="Option: NTFS Stream" />
+	<Message key="File extension suffix:" description="Field: File extension suffix"/>
+	<Message key="Custom Folder:" description="Field: Custom Folder"/>
+	<Message key="Clear annotations cache" description="Button: Clear annotations cache"/>
+	<Message key="string" description="string"></Message>
+	
 </Definition>
