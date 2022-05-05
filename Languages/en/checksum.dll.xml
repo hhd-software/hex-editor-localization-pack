@@ -168,7 +168,7 @@
 	<Message key="Checksum settings" description="Settings: Checksum" value="Checksum"/>
 
 	<!-- Custom FNV dialog -->
-	<Message key="Custom FNV Parameters" description="Window title: Custom FNV Parameters" />
+	<Message key="Custom FNV Parameters" description="Window title: Custom FNV Parameters" value="Custom FNV-1 Parameters"/>
 	<Message key="32-bit" description="Field: 32-bit" />
 	<Message key="64-bit" description="Field: 64-bit" />
 	<Message key="Prime:" description="Field: Prime" />

@@ -868,7 +868,7 @@
 
 	<Message key="New Pattern" description="Window title: New Pattern"/>
 	<Message key="Enter new file pattern regular expression:" description="Field: Enter new file pattern regular expression"/>
-	<Message key="Pattern cue" description="Regular expression banner" value="Regular expression, like .+?\.zip$" />
+	<Message key="Pattern cue" description="Regular expression banner" value="Regular expression, like .+\.zip$" revision="1"/>
 	<Message key="Pattern override prompt" description="Editor layout pattern override prompt" value="Such pattern already exists. Do you want to override it?" />
 
 	<!-- Color scheme -->
