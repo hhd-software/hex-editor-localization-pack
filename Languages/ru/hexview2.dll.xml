@@ -193,7 +193,7 @@
   <Message key="All documents" value="Все документы" revision="0" />
   <Message key="New Pattern" value="Новый шаблон" revision="0" />
   <Message key="Enter new file pattern regular expression:" value="Введите регулярное выражение для нового файла:" revision="0" />
-  <Message key="Pattern cue" value="Регулярное выражение, например .+?\.zip$" revision="0" />
+  <Message key="Pattern cue" value="Регулярное выражение, например .+\.zip$" revision="1" />
   <Message key="Pattern override prompt" value="Данный шаблон уже существует. Вы хотите перезаписать его?" revision="0" />
   <Message key="clr.colors" value="Цвета редактора" revision="0" />
   <Message key="clr.colors.Text" value="Текст" revision="0" />
