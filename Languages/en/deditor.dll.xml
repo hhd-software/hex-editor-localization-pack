@@ -195,5 +195,18 @@
   <Message key="Directory entry structure:" description="Field: Directory entry structure"/>
   <Message key="File entry structure:" description="Field: File entry structure"/>
 
-	<Message key="toolbar.VolumeNavigator" description="Toolbar: Volume Navigator" value="Volume Navigator" />
+  <Message key="toolbar.VolumeNavigator" description="Toolbar: Volume Navigator" value="Volume Navigator" />
+
+  <Enumeration key="Partitions" description="Known partitions names">
+	<Item text="Unknown"/>
+	<Item text="FAT12"/>
+	<Item text="Unallocated"/>
+	<Item text="FAT16"/>
+	<Item text="FAT32"/>
+	<Item text="NTFS/exFAT"/>
+    <Item text="Linux"/>
+	<Item text="LSWAP"/>
+	<Item text="GPT"/>
+  </Enumeration>
+
 </Definition>

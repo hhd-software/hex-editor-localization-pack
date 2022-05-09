@@ -904,11 +904,9 @@
 	<Message key="Outline" description="Field: Outline"/>
 	<Message key="Coloring Schemes" description="Control group: Coloring Schemes"/>
 
-	<!-- Rocket -->
-	<Message key="Scroll Left" description="Windows: Scroll Left"/>
-	<Message key="Scroll Right" description="Windows: Scroll Right"/>
-	<Message key="RocketClose" description="Windows: Close" value="Close"/>
+	<!-- Docframe (previously, rocket) -->
 	<Message key="Auto Hide" description="Windows: Auto Hide"/>
+	<Message key="Window list" description="Documents frame: window list" />
 	<Message key="Switch Window" description="Windows: Switch Window"/>
 	<Message key="Active Tool Windows" description="Windows: Active Tool Windows"/>
 	<Message key="Active Documents" description="Windows: Active Documents"/>
