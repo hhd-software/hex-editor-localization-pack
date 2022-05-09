@@ -213,10 +213,8 @@
   <Message key="Background" value="Фон" revision="0" />
   <Message key="Outline" value="Контур" revision="0" />
   <Message key="Coloring Schemes" value="Цветовые схемы" revision="0" />
-  <Message key="Scroll Left" value="Промотать влево" revision="0" />
-  <Message key="Scroll Right" value="Промотать вправо" revision="0" />
-  <Message key="RocketClose" value="Закрыть" revision="0" />
   <Message key="Auto Hide" value="Автоскрытие" revision="0" />
+  <Message key="Window list" value="Список окон" revision="0" />
   <Message key="Switch Window" value="Переключить окно" revision="0" />
   <Message key="Active Tool Windows" value="Активные инструментальные окна" revision="0" />
   <Message key="Active Documents" value="Активные документы" revision="0" />

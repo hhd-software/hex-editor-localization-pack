@@ -192,8 +192,8 @@
     <Item value="Не показывать пиковое значение на графике" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="#128;Задать…" revision="0" />
-    <Item value="Задать последовательность" revision="0" />
+    <Item value="Задать…" revision="1" />
+    <Item value="Задать последовательность" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Свернуть все" revision="0" />

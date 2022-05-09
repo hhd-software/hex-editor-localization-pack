@@ -110,4 +110,15 @@
     <Item value="Файловая система" revision="1" />
     <Item value="Модуль Файловая система сканирует и показывает структуру файловой системы открытого тома, помогает найти местоположение файлов, а также восстановить повреждённые файлы и папки." revision="1" />
   </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="Неизвестный" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Не распределено" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
+  </Enumeration>
 </Language>
