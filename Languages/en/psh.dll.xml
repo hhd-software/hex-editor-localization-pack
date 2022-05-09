@@ -77,7 +77,7 @@
     <Item text="Hide Peak Value"/>
     <Item text="Do not show peak value on the plot"/>
   </Enumeration>
-  <Enumeration key="StatisticsDefine" description="Statistics.Define">
+  <Enumeration key="StatisticsDefine" description="Statistics.Define" revision="1">
     <Item text="Define…"/>
     <Item text="Define pattern"/>
   </Enumeration>
