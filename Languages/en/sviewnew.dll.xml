@@ -397,13 +397,28 @@
     <Item text="User types"/>
   </Enumeration>
 
-  <Enumeration key="StructureNew" description="Command: StructureNew">
-    <Item text="&amp;New Structure File…"/>
-    <Item text="Create new structure definition file"/>
+	<Enumeration key="StructureNewDefinitionFile" description="Command: New structure definition file">
+		<Item text="New S&amp;tructure File" />
+		<Item text="Create empty structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureNewKaitaiFile" description="Command: New Kaitai definition file">
+		<Item text="New &amp;Kaitai File" />
+		<Item text="Create empty Kaitai definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureOpenDefinitionFile" description="Command: Open structure definition file">
+		<Item text="Open &amp;Structure File…" />
+		<Item text="Open structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureAddCurrent" description="Command: Add current structure">
+    <Item text="Add &amp;Current Structure File"/>
+    <Item text="Add active structure definition file to the library"/>
   </Enumeration>
-  <Enumeration key="StructureAdd" description="Command: StructureAdd">
-    <Item text="&amp;Add Structure File…" />
-    <Item text="Append existing structure definition file to the library"/>
+  <Enumeration key="StructureAdd" description="Command: StructureAdd" revision="1">
+    <Item text="&amp;Add Structure File(s)…" />
+    <Item text="Append existing structure definition file(s) to the library"/>
   </Enumeration>
   <Enumeration key="StructureSaveAll" description="Command: StructureSaveAll">
     <Item text="Save &amp;All Structure Files"/>
@@ -422,16 +437,6 @@
     <Item text="&amp;Edit value"/>
     <Item text="Edit current value"/>
   </Enumeration>
-
-
-	<Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files|*.h|Kaitai definition files|*.ksy" revision="1">
-		<Validate rule="OpenFileDialogFilter"/>
-	</Message>
-
-  <!--<Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
-    <Item text="&amp;Revert All"/>
-    <Item text="Revert all changes made to structure definition files"/>
-  </Enumeration>-->
 
   <Enumeration key="StructureAutoRecompile" description="Command: StructureAutoRecompile">
     <Item text="Auto Recompile"/>

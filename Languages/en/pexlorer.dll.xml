@@ -48,7 +48,7 @@
     <Item text="Open process memory for viewing and modification"/>
   </Enumeration>
 
-  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="1" value="Region base: {base} ({base:2})\rRegion end: {end} ({end:2})\rRegion size: {size} ({size:2})\rType: {type}\rState: {state}\rFlags: {flags}">
+  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="2" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}">
     <Param name="base" format="b016"/>
     <Param name="base:2" format="l"/>
     <Param name="end" format="b016"/>

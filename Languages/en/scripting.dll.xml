@@ -155,10 +155,6 @@
 
   <Message key="ScrpitRunningClose" description="Closing currently running script" value="The script is currently running. Do you want to stop it in order to continue closing script window?"/>
 
-    <Message key="ScriptFormatString" description="Scripting format string" value="Script files|*.ts; *.js|">
-	    <Validate rule="OpenFileDialogFilter"/>
-    </Message>
-
 	<Message key="ScriptLoadError" description="Script loading error" value="Error loading file &quot;{file}&quot;: {error} ({code})">
 		<Param name="file"/>
 		<Param name="error"/>
@@ -193,4 +189,5 @@
 	<Message key="MacroExportFormat" description="Macro export file format" value="Macro export files|*.neo-macro.json">
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
+	<Message key="Script files" description="Format string: Script files" />
 </Definition>

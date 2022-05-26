@@ -778,7 +778,9 @@
   <Message key="Layout Page" description="Layout Page title" value="Layout"/>
   <Message key="Font:" description="Field: Font"/>
   <Message key="Size:" description="Field: Size"/>
-  <Message key="Visualization elements:" description="Field: Visualization elements"/>
+	<Message key="Density:" description="Field: Font density" />
+	<Message key="Line spacing:" description="Field: Line spacing" />
+	<Message key="Visualization elements:" description="Field: Visualization elements"/>
   <Message key="Color:" description="Field: Color"/>
   <Message key="Automatic" description="Choice: Automatic"/>
   <Message key="Do not interlace background" description="Choice: Do not interlace background"/>
@@ -889,10 +891,12 @@
 	<Message key="clr.colors.ActiveHighlightBackground" description="Color: Active highlight background" value="Active highlight background" />
 	<Message key="clr.colors.ChangedText" description="Color: Changed text" value="Changed text" />
 	<Message key="clr.colors.ChangedBackground" description="Color: Changed background" value="Changed background" />
-	<Message key="clr.colors.ChangedOutline" description="Color: Changed outline" value="Chagned outline" />
+	<Message key="clr.colors.ChangedOutline" description="Color: Changed outline" value="Changed outline" />
 	<Message key="clr.colors.SelectionBackground" description="Color: Selection background" value="Selection background" />
 	<Message key="clr.colors.SelectionOutline" description="Color: Selection outline" value="Selection outline" />
 	<Message key="clr.colors.HoverUnderline" description="Color: Active field underline" value="Active field underline" />
+	<Message key="clr.colors.TooltipBackground" description="Color: Tooltip Background" value="Tooltip background" />
+	<Message key="clr.colors.TooltipText" description="Color: Tooltip Text" value="Tooltip text" />
 
 	<Message key="toolbar.Selection" description="Toolbar: Selection" value="Selection" />
 </Definition>

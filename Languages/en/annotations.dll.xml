@@ -8,6 +8,10 @@
 		<Param name="file"/>
 	</Message>
 
+	<Message key="MaxAnnotationsError" description="Max Annotations error message" value="You have reached the limit for the number of annotations ({number}) you can create for this document">
+		<Param name="number"/>
+	</Message>
+
 	<Message key="toolbar.Annotations" description="Toolbar: Annotations" value="Annotations" />
 
 	<Enumeration key="FeatureAnnotations" description="Annotations feature">
@@ -46,9 +50,9 @@
 		<Item text="Edit selected annotation item"/>
 	</Enumeration>
 
-	<Enumeration key="EditButtonText" description="Annotation edit form button texts">
+	<Enumeration key="EditButtonText" description="Annotation edit form button texts" revision="1">
 		<Item text="Add"/>
-		<Item text="Edit"/>
+		<Item text="Apply"/>
 	</Enumeration>
 
 	<Enumeration key="RightColumns" description="Annotations list columns">
@@ -58,14 +62,13 @@
 		<Item text="Text"/>
 	</Enumeration>
 
-	<Message key="Sample Text" description="Sample Text"/>
 	<Message key="ExtSuffixFilter" description="Extension suffix prompt message" value="Allowed symbols: 0-9A-Za-z_"/>
 
 	<!-- Annotate Range dialog -->
 	<Message key="Annotate Range" description="Window title: Annotate Range" />
 	<Message key="Start:" description="Field: Start" />
 	<Message key="End:" description="Field: End" />
-	<Message key="Text:" description="Field: Text"/>
+	<Message key="Text:" description="Field: Text" revision="1" value="Annotation text:"/>
 
 	<!-- Settings Page -->
 	<Message key="Annotations Storage Location" description="Group box: Annotations Storage Location"/>
