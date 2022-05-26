@@ -135,6 +135,8 @@
   <Message key="Layout Page" value="Разметка" revision="0" />
   <Message key="Font:" value="Шрифт:" revision="0" />
   <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="Density:" value="Плотность:" revision="0" />
+  <Message key="Line spacing:" value="Межстрочный интервал:" revision="0" />
   <Message key="Visualization elements:" value="Визуальные фрагменты:" revision="0" />
   <Message key="Color:" value="Цвет:" revision="0" />
   <Message key="Automatic" value="Авто" revision="0" />
@@ -216,6 +218,8 @@
   <Message key="clr.colors.SelectionBackground" value="Фон выделения" revision="0" />
   <Message key="clr.colors.SelectionOutline" value="Обводка выделения" revision="0" />
   <Message key="clr.colors.HoverUnderline" value="Подчёркивание подсветки" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="Фон всплывающей подсказки" revision="0" />
+  <Message key="clr.colors.TooltipText" value="Текст всплывающей подсказки" revision="0" />
   <Message key="toolbar.Selection" value="Выделение" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Выделить &amp;все" revision="1" />

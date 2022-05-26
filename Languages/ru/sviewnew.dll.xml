@@ -83,7 +83,6 @@
   <Message key="EmptyDefinition" value="Определение отсутствует" revision="0" />
   <Message key="AddInspectType" value="Добавить новый тип" revision="0" />
   <Message key="EditInspectType" value="Редактировать тип" revision="0" />
-  <Message key="StructureFormats" value="Файлы структур (*.h)|*.h|Файлы Kaitai|*.ksy" revision="1" />
   <Message key="DeleteStructFile" value="Ошибка удаления выбранного файла: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Текущий документ был изменён. Сохранить?" revision="0" />
@@ -322,13 +321,25 @@
     <Item value="Стандартные типы" revision="0" />
     <Item value="Пользовательские типы" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Новый файл структур…" revision="0" />
-    <Item value="Создать новый файл структур" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="Новый файл структур" revision="0" />
+    <Item value="Создать пустой файл определения структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="Новый файл Kaitai" revision="0" />
+    <Item value="Создать пустой файл определений Kaitai" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="Открыть файл структур…" revision="0" />
+    <Item value="Открыть файл определения структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="Добавить текущий файл" revision="0" />
+    <Item value="Добавить текущий файл определения структур к библиотеке" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Добавить файл структур…" revision="0" />
-    <Item value="Добавить существующий файл структур в библиотеку" revision="0" />
+    <Item value="&amp;Добавить файлы структур…" revision="1" />
+    <Item value="Добавить существующие файлы определения структур в библиотеку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Сохранить &amp;все структуры" revision="0" />

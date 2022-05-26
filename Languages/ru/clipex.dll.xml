@@ -19,7 +19,6 @@
   <Message key="ErrorExport2" value="Ошибка при экспорте данных: {text}\r\n(Код ошибки: {code})" revision="1" />
   <Message key="ErrorImport" value="Ошибка при импорте данных: {text}\r\n(Код ошибки: {code})" revision="1" />
   <Message key="OpenHexTitle" value="Открыть Hex" revision="1" />
-  <Message key="AllSupportedFormats" value="Все поддерживаемые форматы" revision="1" />
   <Message key="&amp;Copy to Clipboard" value="&amp;Копировать в буфер обмена" revision="1" />
   <Message key="&amp;Export" value="&amp;Экспорт" revision="1" />
   <Message key="Format:" value="Формат:" revision="1" />
@@ -44,6 +43,7 @@
   <Message key="Insert mode" value="Режим вставки" revision="1" />
   <Message key="Ignore data offset" value="Игнорировать смещение данных" revision="1" />
   <Message key="Encoding:" value="Кодировка:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка открытия файла HEX: {text} ({code})" revision="2" />
   <Enumeration key="EditCopyAs">
     <Item value="Копировать &amp;как…" revision="1" />
     <Item value="Перевести выбранное в один из поддерживаемых форматов и послать в буфер обмена" revision="1" />
@@ -63,6 +63,14 @@
   <Enumeration key="FileOpenHex">
     <Item value="Открыть &amp;Hex…" revision="1" />
     <Item value="Открыть закодированный в ASCII бинарный файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="Новый файл Intel Hex" revision="0" />
+    <Item value="Создать пустой файл Intel Hex" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="Новый файл Motorola S-Records" revision="0" />
+    <Item value="Создать пустой файл Motorola S-Records" revision="0" />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="base64-encode" revision="1" />

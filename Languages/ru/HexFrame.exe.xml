@@ -33,7 +33,7 @@
   <Message key="SaveErrors" value="Во время сохранения файла возникли ошибки:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Документ был изменен. Сохранить изменения?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Все файлы|*|" revision="1" />
-  <Message key="AllSupportedFormats" value="Все поддерживаемые ({mask})|{mask}|" revision="1" />
+  <Message key="AllSupportedFormats" value="Все поддерживаемые файлы" revision="2" />
   <Message key="NoLoadHandlersRegistered" value="Продукт установлен некорректно. Пожалуйста, переустановите продукт." revision="1" />
   <Message key="OldCommonControls" value="Устаревшая версия common controls. Установите последний service pack и Internet Explorer для вашей операционной системы. Приложение сейчас будет закрыто." revision="1" />
   <Message key="Loading" value="Загрузка" revision="1" />
@@ -272,6 +272,8 @@
   <Message key="toolbar.Standard" value="Стандартные" revision="0" />
   <Message key="toolbar.Edit" value="Редактирование" revision="0" />
   <Message key="toolbar.Language" value="Язык" revision="0" />
+  <Message key="toolbar.New" value="Создать" revision="0" />
+  <Message key="toolbar.Open" value="Открыть" revision="0" />
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Хранение настроек" revision="0" />
   <Message key="Settings Management" value="Управление настройками" revision="0" />
@@ -321,6 +323,7 @@
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
   <Message key="clr.default_colors.control_background" value="Фон окон" revision="0" />
   <Message key="clr.default_colors.text" value="Текст/рисунок" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Гиперссылка" revision="0" />
   <Message key="clr.default_colors.disabled" value="Недоступный текст" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Фон подсветки" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Обводка подсветки" revision="0" />
@@ -397,6 +400,10 @@
   <Message key="Expert User Layout" value="Экспертный профиль" revision="0" />
   <Message key="Free Hex Editor Layout" value="Профиль бесплатной редакции" revision="0" />
   <Message key="Default Working Space" value="Профиль по-умолчанию" revision="0" />
+  <Message key="Open as binary" value="Бинарные файлы" revision="0" />
+  <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
+  <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
+  <Message key="Sample Text" value="Образец" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
@@ -476,6 +483,10 @@
   <Enumeration key="MenuFile">
     <Item value="&amp;Файл" revision="0" />
     <Item value="Меню Файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item value="&amp;Создать" revision="0" />
+    <Item value="Коммандная грауппа &quot;Создать&quot;" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Открыть" revision="0" />

@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Хотите отменить операцию? Это испортит содержимое файла." revision="1" />
   <Message key="OccFound" value="Найдено {N} включений." revision="1" />
-  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo 5" revision="1" />
+  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo 7" revision="2" />
   <Message key="DefaultBranchName" value="По умолчанию" revision="1" />
   <Message key="Continue working with a file." value="Продолжение работы с файлом." revision="1" />
   <Message key="Discard all changes and close the file." value="Отменить изменения и закрыть файл." revision="1" />

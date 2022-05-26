@@ -14,7 +14,6 @@
   <Message key="Stopping Script" value="Остановка исполнения скрипта…" revision="0" />
   <Message key="Stopped Script" value="\nОстановлено исполнение скрипта.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="Скрипт исполняется. Вы хотите остановить его чтобы продолжить закрытие окна скрипта?" revision="0" />
-  <Message key="ScriptFormatString" value="Скрипты|*.ts; *.js|" revision="0" />
   <Message key="ScriptLoadError" value="Ошибка загрузки файла &quot;{file}&quot;: {error} ({code})" revision="0" />
   <Message key="ScriptLoadErrors" value="Произошли следующие ошибки во время загрузки выбранных файлов:\n\n{errors}" revision="0" />
   <Message key="ScriptSaveError" value="Ошибка сохранения файла &quot;{file}&quot;: {error} ({code})" revision="0" />
@@ -29,6 +28,7 @@
   <Message key="MacroDeleteAllPrompt" value="Вы уверены, что хотите удалить все макросы?" revision="0" />
   <Message key="MacroName" value="Макрос: {name}" revision="0" />
   <Message key="MacroExportFormat" value="Файлы экспорта макросов|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="Файлы скриптов" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="Начать &amp;запись" revision="0" />
     <Item value="Начать запись макроса" revision="0" />

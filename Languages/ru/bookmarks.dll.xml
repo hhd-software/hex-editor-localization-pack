@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Пример текста" revision="0" />
   <Message key="Bookmarks" value="Закладки" revision="0" />
   <Message key="Progress" value="Текущая операция выполняется, дождитесь её окончания." revision="0" />
   <Message key="GroupDelete" value="Группа будет удалена вместе с содержимым. Продолжить?" revision="0" />

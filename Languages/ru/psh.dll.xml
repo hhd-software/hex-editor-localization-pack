@@ -15,7 +15,6 @@
   <Message key="These attributes can not be applied." value="Такие атрибуты не могут быть назначены." revision="0" />
   <Message key="Error setting file time." value="Ошибка при установке времени." revision="0" />
   <Message key="Multiple" value="Множественное" revision="0" />
-  <Message key="Sample Text" value="Текст пример" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
   <Message key="History" value="История" revision="0" />
   <Message key="Pattern Coloring" value="Подсветка" revision="0" />

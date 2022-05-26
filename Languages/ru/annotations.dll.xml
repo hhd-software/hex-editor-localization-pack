@@ -2,13 +2,13 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Data Annotations" value="Заметки" revision="0" />
   <Message key="SaveAnnotationsPrompt" value="Обновились заметки для файла &quot;{File}&quot;. Вы хотите сохранить их?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Максимальное число аннотаций для файла ({number}) достигнуто." revision="0" />
   <Message key="toolbar.Annotations" value="Заметки" revision="0" />
-  <Message key="Sample Text" value="Текст пример" revision="0" />
   <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="Комментировать диапазон" revision="0" />
   <Message key="Start:" value="Начало:" revision="0" />
   <Message key="End:" value="Конец:" revision="0" />
-  <Message key="Text:" value="Текст:" revision="0" />
+  <Message key="Text:" value="Текст комментария:" revision="1" />
   <Message key="Annotations Storage Location" value="Место хранения заметок" revision="0" />
   <Message key="Auto Select" value="Автовыбор" revision="0" />
   <Message key="NTFS Stream" value="Поток NTFS" revision="0" />
@@ -48,8 +48,8 @@
     <Item value="Редактировать выбранную заметку" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
-    <Item value="Добавить" revision="0" />
-    <Item value="Редактировать" revision="0" />
+    <Item value="Добавить" revision="1" />
+    <Item value="Применить" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
     <Item value="№" revision="0" />

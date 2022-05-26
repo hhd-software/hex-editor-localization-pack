@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PrivilegeNotGained" value="Ограниченный набор процессов в списке" revision="1" />
-  <Message key="RegionInfo" value="Начало региона: {base} ({base:2})\rКонец региона: {end} ({end:2})\rРазмер региона: {size} ({size:2})\rТип: {type}\rСтатус: {state}\rФлаги: {flags}" revision="1" />
+  <Message key="RegionInfo" value="[[[uРегион памяти процесса]]]\r  [[[bНачало региона:]]] {base} ({base:2})\r  [[[bКонец региона:]]] {end} ({end:2})\r  [[[bРазмер региона:]]] {size} ({size:2})\r  [[[bТип:]]] {type}\r  [[[bСтатус:]]] {state}\r  [[[bФлаги:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Неизвестно" revision="1" />
   <Message key="No process selected" value="Процесс не выбран" revision="1" />
   <Message key="Specify a range using a list of blocks or a list of modules." value="Укажите диапазон используя спосок блоков или список модулей" revision="1" />
