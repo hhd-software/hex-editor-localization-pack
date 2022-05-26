@@ -60,8 +60,6 @@
     <Item text="Go to selected bookmark"/>
   </Enumeration>
 
-  <Message key="Sample Text" description="Sample Text"/>
-
   <Enumeration key="ModeDescription" description="Bookmarks to selection modes description">
     <Item text="Drop the current selection and convert the current bookmarks group to a new selection."/>
     <Item text="Add the current bookmarks group to a selection."/>

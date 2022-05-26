@@ -174,9 +174,7 @@
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
 
-	<Message key="AllSupportedFormats" description="Filter string: All supported" revision="1" value="All supported documents ({mask})|{mask}|">
-		<Validate rule="OpenFileDialogFilter"/>
-	</Message>
+	<Message key="AllSupportedFormats" description="Filter string: All supported" revision="2" value="All supported files" />
 
 	<Message key="NoLoadHandlersRegistered" description="No load handlers registered" revision="1" value="The application is not properly installed. Please reinstall the application."/>
 
@@ -219,6 +217,11 @@
 	<Enumeration key="MenuFile" description="Command group: File">
 		<Item text="&amp;File"/>
 		<Item text="File menu group"/>
+	</Enumeration>
+
+	<Enumeration key="MenuNew" description="Command group: New">
+		<Item text="&amp;New"/>
+		<Item text="New menu group"/>
 	</Enumeration>
 
 	<Enumeration key="MenuOpen" description="Command group: Open">
@@ -1052,6 +1055,8 @@
 	<Message key="toolbar.Standard" description="Toolbar: Standard" value="Standard"/>
 	<Message key="toolbar.Edit" description="Toolbar: Edit" value="Edit"/>
 	<Message key="toolbar.Language" description="Toolbar: Language" value="Language"/>
+	<Message key="toolbar.New" description="Toolbar: New" value="New" />
+	<Message key="toolbar.Open" description="Toolbar: Open" value="Open" />
 
 	<!-- Settings Page -->
 	<Message key="Settings Page" description="Settings page title" value="Settings"/>
@@ -1167,6 +1172,7 @@
 	<Message key="clr.default_colors.background" description="Color: Default UI Background Color" value="Background" />
 	<Message key="clr.default_colors.control_background" description="Color: Default UI Control Color" value="Control background" />
 	<Message key="clr.default_colors.text" description="Color: Default UI Text Color" value="Text/foreground" />
+	<Message key="clr.default_colors.hyperlink" description="Color: Default Hyperlink Color" value="Hyperlink" />
 	<Message key="clr.default_colors.disabled" description="Color: Default UI Disabled Color" value="Disabled text" />
 	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
 	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
@@ -1253,4 +1259,11 @@
 	<Message key="Free Hex Editor Layout" description="Predefined layout: Free Hex Editor Layout" />
 	<Message key="Default Working Space" description="Predefined layout: Default Working Space" />
 
+	<Message key="Open as binary" description="Binary format filter name" value="Binary files"/>
+	
+	<!-- Shared between several modules -->
+	
+	<Message key="Structure definition files" description="Structure definition files"/>
+	<Message key="Kaitai definition files" description="Kaitai definition files"/>
+	<Message key="Sample Text" description="Sample Text"/>
 </Definition>

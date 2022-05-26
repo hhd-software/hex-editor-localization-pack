@@ -206,7 +206,6 @@
     <Item text="Base Converter"/>
     <Item text="Base Converter allows you to convert data into different formats."/>
   </Enumeration>
-  <Message key="Sample Text" description="Sample Text"/>
   <Enumeration key="HexDecimalCombo" description="Hex and decimal">
     <Item text="Hex"/>
     <Item text="Decimal"/>
