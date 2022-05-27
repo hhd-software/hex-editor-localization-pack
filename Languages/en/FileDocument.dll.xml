@@ -5,7 +5,7 @@
   <Message key="OccFound" value="{N} occurrences found so far." description="N occurrences found so far" revision="1">
     <Param name="N" format="l"/>
   </Message>
-  <Message key="CopiedFragmentName" description="Name of fragment copied to Explorer" revision="2" value="HHD Hex Editor Neo 7 Copied Data"/>
+  <Message key="CopiedFragmentName" description="Name of fragment copied to Explorer" revision="3" value="HHD Hex Editor Neo Copied Data"/>
 
   <Message key="DefaultBranchName" description="Default branch name" revision="1" value="Default"/>
   <Enumeration key="ConflictOptions" description="File conflict options" revision="1">
@@ -142,5 +142,8 @@
   </Message>
 
   <Message key="RegExp settings" description="Settings: Regular Expression Classes" value="Regular Expression Classes"/>
+
+    <Message key="Shortcut files" description="Shortcut files" />
+
 </Definition>
 
