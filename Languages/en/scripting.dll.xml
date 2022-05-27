@@ -133,13 +133,19 @@
 		<Item text="Hot Key"/>
 	</Enumeration>
 
-  <Enumeration key="CallStackColumns" description="Call Stack Columns Names">
+  <Enumeration key="CallStackColumns" description="Call Stack Window Columns Names">
     <Item text=" "/>
     <Item text="Name"/>
     <Item text="Line"/>
   </Enumeration>
 
-  <Enumeration key="FeatureScripting" description="Scripting feature" revision="1">
+	<Enumeration key="WatchColumns" description="Watch Window Columns Names">
+		<Item text="Name"/>
+		<Item text="Value"/>
+		<Item text="Type"/>
+	</Enumeration>
+
+	<Enumeration key="FeatureScripting" description="Scripting feature" revision="1">
     <Item text="Scripting"/>
     <Item text="Scripting feature allows you to control Hex Editor Neo using scripts, written in TypeScript."/>
   </Enumeration>
