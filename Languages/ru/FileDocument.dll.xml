@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Хотите отменить операцию? Это испортит содержимое файла." revision="1" />
   <Message key="OccFound" value="Найдено {N} включений." revision="1" />
-  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo 7" revision="2" />
+  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo" revision="3" />
   <Message key="DefaultBranchName" value="По умолчанию" revision="1" />
   <Message key="Continue working with a file." value="Продолжение работы с файлом." revision="1" />
   <Message key="Discard all changes and close the file." value="Отменить изменения и закрыть файл." revision="1" />
@@ -50,6 +50,7 @@
   <Message key="SnapshotTitle" value="Открыть из образа" revision="0" />
   <Message key="SnapshotDescription" value="Hex Editor Neo не смог открыть &quot;{path}&quot; из-за следующей ошибки:\r\n    » {text} ({code})\r\n\r\nВы хотите попробовать создать образ диска и открыть файл из этого образа?" revision="0" />
   <Message key="RegExp settings" value="Классы регулярных выражений" revision="0" />
+  <Message key="Shortcut files" value="Ярлыки" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Игнорировать изменения" revision="1" />
     <Item value="Закрыть файл" revision="1" />

@@ -138,6 +138,11 @@
     <Item value="Имя" revision="0" />
     <Item value="Строка" revision="0" />
   </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="Имя" revision="0" />
+    <Item value="Значение" revision="0" />
+    <Item value="Тип" revision="0" />
+  </Enumeration>
   <Enumeration key="FeatureScripting">
     <Item value="Скрипты" revision="1" />
     <Item value="Функция &quot;скрипты&quot; позволяет контролировать Hex Editor Neo, используя скрипты, написанные на TypeScript." revision="1" />
