@@ -80,8 +80,8 @@
   <Message key="Move Up" value="&amp;Вверх" revision="0" />
   <Message key="Move Down" value="Вни&amp;з" revision="0" />
   <Message key="Clear" value="О&amp;чистить" revision="0" />
-  <Message key="Clip toolbars" value="&amp;Обрезать тулбары" revision="0" />
-  <Message key="Wrap toolbars" value="&amp;Переносить тулбары" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Обрезать панели инструментов" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Переносить панели инструментов" revision="0" />
   <Message key="Keyboard" value="Клавиатура" revision="1" />
   <Message key="MaxShortcuts" value="Нельзя назначить более 5 горячих клавиш на команду." revision="1" />
   <Message key="ShortcutExists" value="Эта горячая клавиша уже определена для команды {command}. Переопределить?" revision="1" />
