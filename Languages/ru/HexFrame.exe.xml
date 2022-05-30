@@ -80,6 +80,8 @@
   <Message key="Move Up" value="&amp;Вверх" revision="0" />
   <Message key="Move Down" value="Вни&amp;з" revision="0" />
   <Message key="Clear" value="О&amp;чистить" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Обрезать тулбары" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Переносить тулбары" revision="0" />
   <Message key="Keyboard" value="Клавиатура" revision="1" />
   <Message key="MaxShortcuts" value="Нельзя назначить более 5 горячих клавиш на команду." revision="1" />
   <Message key="ShortcutExists" value="Эта горячая клавиша уже определена для команды {command}. Переопределить?" revision="1" />
@@ -399,8 +401,8 @@
   <Message key="Advanced User Layout" value="Продвинутый профиль" revision="0" />
   <Message key="Expert User Layout" value="Экспертный профиль" revision="0" />
   <Message key="Free Hex Editor Layout" value="Профиль бесплатной редакции" revision="0" />
-  <Message key="Default Working Space" value="Профиль по-умолчанию" revision="0" />
   <Message key="Open as binary" value="Бинарные файлы" revision="0" />
+  <Message key="Open Recent" value="Открыть {item}" revision="0" />
   <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
   <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
   <Message key="Sample Text" value="Образец" revision="0" />
