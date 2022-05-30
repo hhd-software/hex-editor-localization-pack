@@ -50,7 +50,7 @@
 
   <Message key="Find in Files" description="Find in Files Tool Window title" revision="1"/>
   <Message key="Do you want to cancel the current operation?" description="Prompt: Do you want to cancel the current operation?" revision="1"/>
-  <Message key="Operation cancelled." description="Operation cancelled" revision="1"/>
+  <Message key="Operation cancelled." description="Operation cancelled" revision="1" value="Operation canceled."/>
 
   <Enumeration key="FindInFiles feature" description="Find in Files feature name &amp; description" revision="1">
     <Item text="Find in Files" />

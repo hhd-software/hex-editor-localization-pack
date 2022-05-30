@@ -377,7 +377,7 @@
   </Enumeration>
   <Message key="Clear Coloring Scheme" description="Menu item: Clear Coloring Scheme"/>
   <Message key="Current item will be removed. Do you want to continue?" description="Current item will be removed. Do you want to continue?"/>
-  <Message key="RuleFmt" description="Pattern Coloring Rule N" value="Pattern Coloring Rule {n}">
+  <Message key="RuleFmt" description="Pattern Coloring Rule N" value="[[[uPattern Coloring Rule {n}]]]" revision="1">
     <Param name="n"/>
   </Message>
 
