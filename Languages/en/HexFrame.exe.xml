@@ -345,6 +345,8 @@
 	<Message key="Move Up" description="Field: Move Up button" value="Move &amp;Up"/>
 	<Message key="Move Down" description="Field: Move Down button" value="Move &amp;Down"/>
 	<Message key="Clear" description="Field: Clear button" value="&amp;Clear"/>
+	<Message key="Clip toolbars" description="Field: Clip toolbars" value="&amp;Clip toolbars"/>
+	<Message key="Wrap toolbars" description="Field: Wrap toolbars" value="&amp;Wrap toolbars"/>
 
 	<!-- Keyboard page -->
 	<Message key="Keyboard" description="Message box title: Keyboard" revision="1"/>
@@ -1257,12 +1259,16 @@
 	<Message key="Advanced User Layout" description="Predefined layout: Advanced User Layout" />
 	<Message key="Expert User Layout" description="Predefined layout: Expert User Layout" />
 	<Message key="Free Hex Editor Layout" description="Predefined layout: Free Hex Editor Layout" />
-	<Message key="Default Working Space" description="Predefined layout: Default Working Space" />
 
 	<Message key="Open as binary" description="Binary format filter name" value="Binary files"/>
-	
+
+	<Message key="Open Recent" description="Open recent item" value="Open {item}">
+		<Param name="item" />
+	</Message>
+
+
 	<!-- Shared between several modules -->
-	
+
 	<Message key="Structure definition files" description="Structure definition files"/>
 	<Message key="Kaitai definition files" description="Kaitai definition files"/>
 	<Message key="Sample Text" description="Sample Text"/>
