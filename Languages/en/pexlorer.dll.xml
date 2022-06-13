@@ -120,10 +120,10 @@
   <Message key="Free" description="Field: Free" revision="1" value="Free:"/>
 
 	<!-- Color scheme -->
-	<Message key="clr.colors" description="Color: Open Process Colors" value="Open Process Colors"/>
-	<Message key="clr.colors.NoAccess" description="Color: No Access region" value="No Access region" />
-    <Message key="clr.colors.ReadOnly" description="Color: Read Only region" value="Read only region" />
-    <Message key="clr.colors.ReadWrite" description="Color: Read/Write region" value="Rear/Write region" />
-    <Message key="clr.colors.WriteCopy" description="Color: Write Copy region" value="Copy on write region" />
-    <Message key="clr.colors.Free" description="Color: Free region" value="Free region" />
+	<Message key="clr.pex_colors" description="Color: Open Process Colors" value="Open Process Colors"/>
+	<Message key="clr.pex_colors.NoAccess" description="Color: No Access region" value="No Access region" />
+    <Message key="clr.pex_colors.ReadOnly" description="Color: Read Only region" value="Read only region" />
+    <Message key="clr.pex_colors.ReadWrite" description="Color: Read/Write region" value="Rear/Write region" />
+    <Message key="clr.pex_colors.WriteCopy" description="Color: Write Copy region" value="Copy on write region" />
+    <Message key="clr.pex_colors.Free" description="Color: Free region" value="Free region" />
 </Definition>
