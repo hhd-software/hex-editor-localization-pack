@@ -48,7 +48,7 @@
     <Item text="Open process memory for viewing and modification"/>
   </Enumeration>
 
-  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="1" value="Region base: {base} ({base:2})\rRegion end: {end} ({end:2})\rRegion size: {size} ({size:2})\rType: {type}\rState: {state}\rFlags: {flags}">
+  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="2" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}">
     <Param name="base" format="b016"/>
     <Param name="base:2" format="l"/>
     <Param name="end" format="b016"/>
@@ -118,4 +118,12 @@
   <Message key="Read/Write" description="Field: Read/Write" revision="1" value="Read/Write:"/>
   <Message key="Copy on Write" description="Field: Copy on Write" revision="1" value="Copy on Write:"/>
   <Message key="Free" description="Field: Free" revision="1" value="Free:"/>
+
+	<!-- Color scheme -->
+	<Message key="clr.colors" description="Color: Open Process Colors" value="Open Process Colors"/>
+	<Message key="clr.colors.NoAccess" description="Color: No Access region" value="No Access region" />
+    <Message key="clr.colors.ReadOnly" description="Color: Read Only region" value="Read only region" />
+    <Message key="clr.colors.ReadWrite" description="Color: Read/Write region" value="Rear/Write region" />
+    <Message key="clr.colors.WriteCopy" description="Color: Write Copy region" value="Copy on write region" />
+    <Message key="clr.colors.Free" description="Color: Free region" value="Free region" />
 </Definition>

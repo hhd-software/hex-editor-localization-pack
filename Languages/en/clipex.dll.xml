@@ -21,7 +21,15 @@
     <Item text="Open &amp;Hex…"/>
     <Item text="Open ASCII-encoded binary file"/>
   </Enumeration>
-  <Message key="BigSizeNotification" description="Option: Large text copy notification" revision="1" value="Large text copy notification"/>
+	<Enumeration key="FileNewIntelHex" description="Command: File.New Intel Hex">
+		<Item text="New Intel Hex"/>
+		<Item text="Create empty Intel HEX File"/>
+	</Enumeration>
+	<Enumeration key="FileNewMotorolaHex" description="Command: File.New Motorola Hex">
+		<Item text="New Motorola S-Records"/>
+		<Item text="Create empty Motorola S-Records file"/>
+	</Enumeration>
+	<Message key="BigSizeNotification" description="Option: Large text copy notification" revision="1" value="Large text copy notification"/>
   <Message key="FloatingDigits" description="Option: Float copy/export number of digits" revision="1" value="Float copy/export number of digits"/>
   <Message key="DoubleDigits" description="Option: Double copy/export number of digits" revision="1" value="Double copy/export number of digits"/>
   <Message key="IntelHexColumns" description="Option: Bytes per row for Intel HEX and Motorola S formats" revision="1" value="Bytes per row for Intel HEX and Motorola S formats"/>
@@ -70,9 +78,7 @@
     <Item text="Converts to a simple ASCII or UNICODE character string"/>
   </Enumeration>
 
-  <Message key="Loading" description="Loading clipboard support" revision="1" value="Loading Clipboard support"/>
-  <Message key="Initializing" description="Initializing clipboard support" revision="1" value="Initializing Clipboard support"/>
-  <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="1" value="Copy &amp;&amp; Export"/>
+  <Message key="CopyExportLocalized" description="Copy &amp; Export Tool Window" revision="2" value="Copy &amp; Export"/>
 
   <Message key="Export" description="Button: Export" revision="1" value="E&amp;xport"/>
   <Enumeration key="BigSize" description="Big size notification" revision="1">
@@ -107,7 +113,6 @@
   </Enumeration>
 
   <Message key="OpenHexTitle" description="Open Hex window title" revision="1" value="Open Hex"/>
-  <Message key="AllSupportedFormats" description="All supported formats (part of filter string)" revision="1" value="All supported formats"/>
 
   <Enumeration key="FormattedSupportedTypes" description="Supported types" revision="1">
     <Item text="Default"/>
@@ -140,7 +145,7 @@
     <Item text="PHP array"/>
     <Item text="Assembler array"/>
   </Enumeration>
-  
+
   <!-- Dialogs -->
   <Message key="&amp;Copy to Clipboard" description="Copy to Clipboard group" revision="1"/>
   <Message key="&amp;Export" description="Export group" revision="1"/>
@@ -168,4 +173,11 @@
   <Message key="Ignore data offset" description="Checkbox: Ignore data offset" revision="1"/>
 
   <Message key="Encoding:" description="Field: Encoding" revision="1"/>
+
+	<Message key="OpenError" description="Error opening hex file" revision="2" value='"{path}": Error opening HEX file: {text} ({code})'>
+		<Param name="path"/>
+		<Param name="text"/>
+		<Param name="code" format="b016"/>
+	</Message>
+
 </Definition>

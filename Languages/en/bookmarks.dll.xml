@@ -60,16 +60,12 @@
     <Item text="Go to selected bookmark"/>
   </Enumeration>
 
-  <Message key="Sample Text" description="Sample Text"/>
-
   <Enumeration key="ModeDescription" description="Bookmarks to selection modes description">
     <Item text="Drop the current selection and convert the current bookmarks group to a new selection."/>
     <Item text="Add the current bookmarks group to a selection."/>
     <Item text="Subtract the current bookmarks group from a selection."/>
   </Enumeration>
 
-  <Message key="Loading" description="Loading bookmarks" value="Loading bookmarks"/>
-  <Message key="Initializing" description="Initializing bookmarks" value="Initializing bookmarks"/>
   <Message key="Bookmarks" description="Bookmarks tool window"/>
 
   <Enumeration key="Columns" description="Columns">
@@ -143,4 +139,6 @@
   <Message key="Sel2BookmarkWarning" description="Option: Show selection to bookmark conversion warning" revision="1" value="Show selection to bookmark conversion warning"/>
 
   <Message key="MergeBookmarks" description="Do you want to merge with existing bookmarks." value="Do you want to merge with existing bookmarks."/>
+
+	<Message key="toolbar.Bookmarks" description="Toolbar: Bookmarks" value="Bookmarks" />
 </Definition>
