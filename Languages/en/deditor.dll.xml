@@ -100,7 +100,7 @@
     <Param name="filename"/>
   </Message>
 
-  <Message key="NotImplementedFileError" description="NTFS error: Sparse/Compressed/Encrypted files copying is not implemented yet" value="Sparse/Compressed/Encrypted files copying is not implemented yet &quot;{filename}&quot;">
+  <Message key="NotImplementedFileError" description="NTFS error: Sparse/Compressed/Encrypted files copying is not implemented yet" value="Copying sparse, compressed or encrypted files is not implemented yet: &quot;{filename}&quot;">
     <Param name="filename"/>
   </Message>
 
