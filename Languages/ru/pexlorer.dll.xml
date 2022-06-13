@@ -24,6 +24,12 @@
   <Message key="Read/Write" value="Чтение/Запись:" revision="1" />
   <Message key="Copy on Write" value="Копирование при записи:" revision="1" />
   <Message key="Free" value="Свободно:" revision="1" />
+  <Message key="clr.colors" value="Цвета &quot;Открыть процесс&quot;" revision="0" />
+  <Message key="clr.colors.NoAccess" value="Регион &quot;Нет доступа&quot;" revision="0" />
+  <Message key="clr.colors.ReadOnly" value="Регион &quot;Только чтение&quot;" revision="0" />
+  <Message key="clr.colors.ReadWrite" value="Регион &quot;Чтение/запись&quot;" revision="0" />
+  <Message key="clr.colors.WriteCopy" value="Регион &quot;Копировать при записи&quot;" revision="0" />
+  <Message key="clr.colors.Free" value="Свободный регион" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="Открыть &amp;процесс…" revision="1" />
     <Item value="Открыть память процесса для чтения и правки" revision="1" />

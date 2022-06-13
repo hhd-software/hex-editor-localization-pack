@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Неизвестная файловая запись" revision="0" />
   <Message key="FilenameAttributeError" value="Ошибка разбора атрибутов файла для записи {record}" revision="0" />
   <Message key="CopyFileError" value="Ошибка копирования файла &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Копирование разреженного, сжатого или зашифрованного файла пока не реализовано: &quot;{filename}&quot;." revision="0" />
   <Message key="WriteFileError" value="Ошибка записи файла: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Недостаточно свободного места на диске для копирования &quot;{filename}&quot;. Освободите как минимум {filesize} для копирования данного файла." revision="0" />
   <Message key="CopyWarning" value="Файл &quot;{filename}&quot; уже существует." revision="0" />
