@@ -9,7 +9,23 @@
     <Item text="Select &amp;None"/>
     <Item text="Clear current selection"/>
   </Enumeration>
-  <Enumeration key="SelectInvert" description="Command: Select.Invert" revision="1">
+	<Enumeration key="SelectGoToStart" description="Command: Go to start (selection details window)">
+		<Item text="Go to Start"/>
+		<Item text="Navigate to the start of selected block"/>
+	</Enumeration>
+	<Enumeration key="SelectGoToEnd" description="Command: Go to end (selection details window)">
+		<Item text="Go to End"/>
+		<Item text="Navigate to the end of selected block"/>
+	</Enumeration>
+	<Enumeration key="SelectDeleteBlock" description="Command: Delete block (selection details window)">
+		<Item text="Delete Block"/>
+		<Item text="Delete selected block from selection"/>
+	</Enumeration>
+	<Enumeration key="SelectClearSelection" description="Command: Clear selection (selection details window)">
+		<Item text="Clear Selection"/>
+		<Item text="Delete all selection blocks"/>
+	</Enumeration>
+	<Enumeration key="SelectInvert" description="Command: Select.Invert" revision="1">
     <Item text="Invert Selection"/>
     <Item text="Invert current selection"/>
   </Enumeration>
@@ -301,6 +317,22 @@
     <Item text="Clear All"/>
     <Item text="Clear the contents of the current Output window"/>
   </Enumeration>
+	<Enumeration key="GotoGoto" description="Command: Nav bar goto">
+		<Item text="Navigate to Position" />
+		<Item text="Go to the specified offset" />
+	</Enumeration>
+
+	<Enumeration key="GotoAdd" description="Command: Nav bar add">
+		<Item text="Add Position" />
+		<Item text="Add the current offset to the list of stored positions" />
+	</Enumeration>
+
+	<Enumeration key="GotoCopy" description="Command: Nav bar copy">
+		<Item text="Copy Position" />
+		<Item text="Copy the current offset to the Clipboard" />
+	</Enumeration>
+
+	<Message key="toolbar.Goto" description="Toolbar: Navigation window" value="Navigation" />
 
   <Enumeration key="ArithmeticOperations" description="Arithmetic operations" revision="1">
     <Item text="Negation"/>
@@ -500,7 +532,10 @@
   </Enumeration>
   <Message key="EncodingNotSupported" description="Currently selected encoding is not supported by your operating system. Make sure the necessary code page files and fonts are installed" revision="1" value="Currently selected encoding is not supported by your operating system. Make sure the necessary code page files and fonts are installed."/>
   <Message key="NoEncoding" description="Your system lacks the components required to support the selected encoding. Select another encoding." revision="1" value="Your system lacks the components required to support the selected encoding. Select another encoding."/>
-  <Message key="SwitchSingleSel" description='Action: Switch "Single Selection mode" option on' revision="1" value='Switch "Single Selection mode" option on\nThis will effectively turn Multiple Selection off. You can later switch this option back off on General Settings tab.'/>
+	<Enumeration key="SwitchSingleSel" description='Action: Switch "Single Selection mode" option on' revision="2">
+		<Item text='Switch "Single Selection mode" option on' />
+		<Item text="This will effectively turn Multiple Selection off. You can later switch this option back off on General Settings tab." />
+	</Enumeration>
   <Enumeration key="FeatureMultiSel" description="Multiple selection feature" revision="1">
     <Item text="Multiple Selection"/>
     <Item text="Multiple Selection feature allows the view to have several selected blocks of data and apply editing commands on all of them."/>
@@ -585,25 +620,6 @@
     <Item text="ERROR - A password is empty."/>
     <Item text="ERROR - Key length must be a power of 8."/>
     <Item text="ERROR - Invalid key length."/>
-  </Enumeration>
-  <Enumeration key="ColorNames" description="Visual element names" revision="1">
-    <Item text="Text"/>
-    <Item text="Background"/>
-    <Item text="Address"/>
-    <Item text="Address background"/>
-    <Item text="ASCII/UNICODE text"/>
-    <Item text="ASCII/UNICODE background"/>
-    <Item text="Even column/row (for interlaced modes)"/>
-    <Item text="Odd column/row (for interlaced modes)"/>
-    <Item text='"No data" text'/>
-    <Item text="Cursor fill"/>
-    <Item text="Cursor outline"/>
-    <Item text="Active row &amp; column hilight text"/>
-    <Item text="Active row &amp; column hilight background"/>
-    <Item text="Changed text"/>
-    <Item text="Changed background"/>
-    <Item text="Changed outline"/>
-    <Item text="Selection"/>
   </Enumeration>
   <Enumeration key="Tooltip" description="Layout dialog tooltips" revision="1">
     <Item text="Selection"/>
@@ -762,16 +778,18 @@
   <Message key="Layout Page" description="Layout Page title" value="Layout"/>
   <Message key="Font:" description="Field: Font"/>
   <Message key="Size:" description="Field: Size"/>
-  <Message key="Visualization elements:" description="Field: Visualization elements"/>
+	<Message key="Density:" description="Field: Font density" />
+	<Message key="Line spacing:" description="Field: Line spacing" />
+	<Message key="Visualization elements:" description="Field: Visualization elements"/>
   <Message key="Color:" description="Field: Color"/>
   <Message key="Automatic" description="Choice: Automatic"/>
   <Message key="Do not interlace background" description="Choice: Do not interlace background"/>
-  <Message key="Interlace columns" description="Choice: Interlace columns"/>
-  <Message key="Interlace rows" description="Choice: Interlace rows"/>
   <Message key="Draw edit cursor frame" description="Checkbox: Draw edit cursor frame"/>
   <Message key="Smart indentation" description="Checkbox: Smart indentation"/>
   <Message key="Antialiased quality (slower)" description="Checkbox: Antialiased quality (slower)"/>
-  <Message key="Schemes…" description="Button: Schemes…"/>
+	<Message key="File pattern:" description="Field: File pattern" />
+	<Message key="Interlacing:" description="Field: Interlacing"/>
+
 
   <!-- Layout schemes -->
   <Message key="Layout Schemes" description="Layout Schemes window title"/>
@@ -839,4 +857,46 @@
   <Message key="Layout settings" description="Settings: Layout settings" value="Editor Layout"/>
   <Message key="Encoding settings" description="Settings: Encoding settings" value="Last Used Encodings"/>
   <Message key="ViewSettingsDb settings" description="Settings: Editor Defaults" value="Editor Defaults"/>
+
+	<Enumeration key="InterlaceMode" description="Interlacing mode">
+		<Item text="None"/>
+		<Item text="Interlace columns"/>
+		<Item text="Interlace rows" />
+	</Enumeration>
+
+	<Message key="All documents" description="Default editor layout" />
+
+	<!-- New layout RE dialog -->
+
+	<Message key="New Pattern" description="Window title: New Pattern"/>
+	<Message key="Enter new file pattern regular expression:" description="Field: Enter new file pattern regular expression"/>
+	<Message key="Pattern cue" description="Regular expression banner" value="Regular expression, like .+\.zip$" revision="1"/>
+	<Message key="Pattern override prompt" description="Editor layout pattern override prompt" value="Such pattern already exists. Do you want to override it?" />
+
+	<!-- Color scheme -->
+	<Message key="clr.colors" description="Color: Editor Colors" value="Editor Colors"/>
+	<Message key="clr.colors.Text" description="Color: Text Color" value="Text" />
+	<Message key="clr.colors.Background" description="Color: Background" value="Background" />
+	<Message key="clr.colors.AddressText" description="Color: Address Text Color" value="Address text" />
+	<Message key="clr.colors.AddressBackground" description="Color: Address Background Color" value="Address background" />
+	<Message key="clr.colors.AsciiText" description="Color: Ascii Text Color" value="Ascii text" />
+	<Message key="clr.colors.AsciiBackground" description="Color: Ascii Background Color" value="Ascii background" />
+	<Message key="clr.colors.Even" description="Color: Even Color" value="Even" />
+	<Message key="clr.colors.Odd" description="Color: Odd Color" value="Odd" />
+	<Message key="clr.colors.Empty" description="Color: Empty Range Color" value="Empty range" />
+	<Message key="clr.colors.CursorFill" description="Color: Cursor fill" value="Cursor fill" />
+	<Message key="clr.colors.CursorOutline" description="Color: Cursor stroke" value="Cursor stroke" />
+	<Message key="clr.colors.AltCursorFill" description="Color: Alt cursor fill" value="Alt cursor fill" />
+	<Message key="clr.colors.ActiveHighlightText" description="Color: Active highlight text" value="Active highlight text" />
+	<Message key="clr.colors.ActiveHighlightBackground" description="Color: Active highlight background" value="Active highlight background" />
+	<Message key="clr.colors.ChangedText" description="Color: Changed text" value="Changed text" />
+	<Message key="clr.colors.ChangedBackground" description="Color: Changed background" value="Changed background" />
+	<Message key="clr.colors.ChangedOutline" description="Color: Changed outline" value="Changed outline" />
+	<Message key="clr.colors.SelectionBackground" description="Color: Selection background" value="Selection background" />
+	<Message key="clr.colors.SelectionOutline" description="Color: Selection outline" value="Selection outline" />
+	<Message key="clr.colors.HoverUnderline" description="Color: Active field underline" value="Active field underline" />
+	<Message key="clr.colors.TooltipBackground" description="Color: Tooltip Background" value="Tooltip background" />
+	<Message key="clr.colors.TooltipText" description="Color: Tooltip Text" value="Tooltip text" />
+
+	<Message key="toolbar.Selection" description="Toolbar: Selection" value="Selection" />
 </Definition>

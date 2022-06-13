@@ -53,7 +53,7 @@
     <Item text="Field To Bookmark"/>
     <Item text="Converts selected structure field to bookmark"/>
   </Enumeration>
-  
+
   <!-- -->
 
   <Enumeration key="CompilerErrors" description="Compiler errors" revision="1">
@@ -94,7 +94,6 @@
     <Item text="Structure Viewer"/>
     <Item text="Structure viewer menu"/>
   </Enumeration>
-  <Message key="Initializing" description="Initializing Structure Viewer" value="Initializing Structure Viewer"/>
   <Message key="Structure Errors" description="Structure Errors Output window part" value="Structure Errors"/>
   <Message key="Error accessing Clipboard" description="Error accessing Clipboard"/>
   <Enumeration key="LibraryColumns" description="Library dialog columns">
@@ -143,12 +142,12 @@
   </Message>
   <Message key="Structure Viewer: Load Scheme" description="Message box title: Structure Viewer: Load Scheme"/>
   <Message key="Edit Associations" description="Button: Edit Associations"/>
-  
+
   <Message key="Unable to create file" description="Error generating CSV file" value="Error exporting CSV file: {text} ({code})" revision="1">
     <Param name="text"/>
     <Param name="code" format="b016x"/>
   </Message>
-  
+
   <Message key="Error saving scheme" description="Error saving scheme"/>
   <Message key="LengthyOp" value="This operation is not available during lengthy operation. Try again later." description="This operation is not available during lengthy operation. Try again later."/>
   <Message key="This scheme can not be removed." description="This scheme can not be removed"/>
@@ -200,7 +199,7 @@
   </Message>
   <Message key="SchemeExists" description="Scheme already exists. Do you want to overwite it?" value="Scheme already exists. Do you want to overwite it?"/>
   <Message key="Scheme already exists" description="Scheme already exists"/>
-  
+
   <!-- Dialogs -->
   <!-- External editor -->
   <Message key="External Editor" description="Extrenal Editor window title"/>
@@ -211,7 +210,7 @@
   <Message key="Library" description="Library window title" value="Structure Library"/>
   <Message key="Add…" description="Button: Add…"/>
   <Message key="Edit…" description="Button: Edit…"/>
-  
+
   <!-- Save scheme -->
   <Message key="Save Scheme" description="Save Scheme window title"/>
   <Message key="Name:" description="Field: Name"/>
@@ -222,11 +221,11 @@
   <Message key="Configure external editor…" description="Button: Configure external editor…"/>
   <Message key="Regular expression:" description="Field: Regular expression:"/>
   <Message key="Associated scheme:" description="Field: Associated scheme"/>
-  
+
   <!-- Structure Coloring -->
   <Message key="Structure Coloring" description="Structure Coloring window title"/>
   <Message key="Apply" description="Button: Apply"/>
-  
+
   <!-- Bind Structure -->
   <Message key="Bind Structure" description="Bind Structure window title"/>
   <Message key="Address" description="Control group: Address"/>
@@ -261,6 +260,11 @@
   <Enumeration key="StructureViewerGotoFieldDef" description="Command: Structure Viewer.Go To Field Definition" revision="1">
     <Item text="Go to Field Definition"/>
     <Item text="Open structure definition file with current field definition"/>
+  </Enumeration>
+
+	<Enumeration key="StructureViewerGotoValueDef" description="Command: Structure Viewer.Go To Value" revision="1">
+    <Item text="Go to Value"/>
+    <Item text="Go to offset defined by value"/>
   </Enumeration>
 
   <Enumeration key="StructureViewerCopyQName" description="Command: Structure Viewer.Copy Qualified Name" revision="1">
@@ -393,13 +397,28 @@
     <Item text="User types"/>
   </Enumeration>
 
-  <Enumeration key="StructureNew" description="Command: StructureNew">
-    <Item text="&amp;New Structure File…"/>
-    <Item text="Create new structure definition file"/>
+	<Enumeration key="StructureNewDefinitionFile" description="Command: New structure definition file">
+		<Item text="New S&amp;tructure File" />
+		<Item text="Create empty structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureNewKaitaiFile" description="Command: New Kaitai definition file">
+		<Item text="New &amp;Kaitai File" />
+		<Item text="Create empty Kaitai definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureOpenDefinitionFile" description="Command: Open structure definition file">
+		<Item text="Open &amp;Structure File…" />
+		<Item text="Open structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureAddCurrent" description="Command: Add current structure">
+    <Item text="Add &amp;Current Structure File"/>
+    <Item text="Add active structure definition file to the library"/>
   </Enumeration>
-  <Enumeration key="StructureAdd" description="Command: StructureAdd">
-    <Item text="&amp;Add Structure File…" />
-    <Item text="Append existing structure definition file to the library"/>
+  <Enumeration key="StructureAdd" description="Command: StructureAdd" revision="1">
+    <Item text="&amp;Add Structure File(s)…" />
+    <Item text="Append existing structure definition file(s) to the library"/>
   </Enumeration>
   <Enumeration key="StructureSaveAll" description="Command: StructureSaveAll">
     <Item text="Save &amp;All Structure Files"/>
@@ -418,14 +437,6 @@
     <Item text="&amp;Edit value"/>
     <Item text="Edit current value"/>
   </Enumeration>
-
-
-  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
-
-  <!--<Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
-    <Item text="&amp;Revert All"/>
-    <Item text="Revert all changes made to structure definition files"/>
-  </Enumeration>-->
 
   <Enumeration key="StructureAutoRecompile" description="Command: StructureAutoRecompile">
     <Item text="Auto Recompile"/>
@@ -470,9 +481,9 @@
   <Message key="Change Time" description="Window title: Change Time"/>
 
   <!-- Data Inspector Notification Dialog -->
-  
+
   <Message key="AssignNotification" description="Assign error text" value="Data modification is not enabled for this type. Click the Help button for detailed information on how to enable data modification for a type."/>
-  
+
   <!-- Structure Viewer CSV separator -->
   <Enumeration key="CsvSeparator" description="Option: CSV Separator type">
     <Item text="CSV Export Separator"/>
@@ -508,4 +519,5 @@
     <Param name="path"/>
   </Message>
 
+	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
 </Definition>
