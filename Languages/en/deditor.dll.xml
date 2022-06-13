@@ -100,7 +100,11 @@
     <Param name="filename"/>
   </Message>
 
-  <Message key="WriteFileError" description="NTFS error: File write error" value="Error writing file: &quot;{filename}&quot;">
+  <Message key="NotImplementedFileError" description="NTFS error: Sparse/Compressed/Encrypted files copying is not implemented yet" value="Sparse/Compressed/Encrypted files copying is not implemented yet &quot;{filename}&quot;">
+    <Param name="filename"/>
+  </Message>
+
+	<Message key="WriteFileError" description="NTFS error: File write error" value="Error writing file: &quot;{filename}&quot;">
     <Param name="filename"/>
   </Message>
 
