@@ -36,8 +36,6 @@
   <Message key="Find All" description="Button: Find All" revision="1"/>
   <Message key="Replace All" description="Button: Replace All" revision="1"/>
 
-  <Message key="Loading Find in Files" description="Loading Find in Files progress string" revision="1"/>
-  <Message key="Initializing Find in Files" description="Initializing Find in Files progress string" revision="1"/>
   <Message key="Notifications" description="Notifications setting group name" revision="1"/>
 
   <Enumeration key="Find in files task" description="Jump List Item: Find in files" revision="1">
@@ -49,10 +47,10 @@
     <Item text="&amp;Find in Files"/>
     <Item text="Find in Files menu"/>
   </Enumeration>
-  
+
   <Message key="Find in Files" description="Find in Files Tool Window title" revision="1"/>
   <Message key="Do you want to cancel the current operation?" description="Prompt: Do you want to cancel the current operation?" revision="1"/>
-  <Message key="Operation cancelled." description="Operation cancelled" revision="1"/>
+  <Message key="Operation cancelled." description="Operation cancelled" revision="1" value="Operation canceled."/>
 
   <Enumeration key="FindInFiles feature" description="Find in Files feature name &amp; description" revision="1">
     <Item text="Find in Files" />
@@ -90,7 +88,7 @@
   </Message>
 
   <Message key="ReplaceNotification" description="Property: Replace in Files notification" value="Replace in Files" revision="1"/>
-  
+
   <!-- Commands -->
   <Enumeration key="EditFindInFiles" description="Command: Find in Files">
     <Item text="Fin&amp;d in Files…"/>
@@ -127,7 +125,7 @@
   </Message>
 
   <Message key="Exporting" description="Window title: Exporting" value="Exporting"/>
-  
+
   <!-- Dialog strings -->
   <!-- Find in Files dialog -->
   <Message key="Search in:" description="Field: Search in" revision="1"/>
@@ -147,4 +145,5 @@
   <Message key="Folder list:" description="Field: Folder list" revision="1"/>
 
   <Message key="All opened documents" description="All opened documents"/>
+	<Message key="toolbar.FindInFiles" description="Toolbar: Find in Files" value="Find in Files"/>
 </Definition>
