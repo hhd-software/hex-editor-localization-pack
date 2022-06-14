@@ -7,12 +7,9 @@
   <Message key="IntelHexColumns" value="Bytes pro Zeile für Intel HEX und Motorola S Format" revision="1" />
   <Message key="EncodedFormat" value="Dat&amp;enformat Kodierung" revision="1" />
   <Message key="RawFilter" value="Textdateien (*.txt)|*.txt|" revision="1" />
-  <Message key="Default" value="Standard" revision="1" />
   <Message key="Little Endian" value="Little Endian" revision="1" />
   <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="&amp;Formatierungen" revision="1" />
-  <Message key="Loading" value="Zwischenablage-Unterstützung laden" revision="1" />
-  <Message key="Initializing" value="Zwischenablage-Unterstützung initialisieren" revision="1" />
   <Message key="CopyExportLocalized" value="Kopieren &amp; Exportieren" revision="1" />
   <Message key="Export" value="E&amp;xportieren" revision="1" />
   <Message key="BadFormat" value="Das Exportformat kann die ausgewählten Daten nicht handhaben" revision="1" />
@@ -21,7 +18,6 @@
   <Message key="ErrorExport2" value="Fehler beim Datenexportieren: {text}\r\n(Fehlerkode: {code})" revision="1" />
   <Message key="ErrorImport" value="Fehler beim Importieren von Hex-Daten: {text}\r\n(Fehlerkode: {code})" revision="1" />
   <Message key="OpenHexTitle" value="Hex öffnen" revision="1" />
-  <Message key="AllSupportedFormats" value="Alle unterstützten Formate" revision="1" />
   <Message key="&amp;Copy to Clipboard" value="In Zwischenablage &amp;kopieren" revision="1" />
   <Message key="&amp;Export" value="&amp;Exportieren" revision="1" />
   <Message key="Format:" value="Format:" revision="1" />
@@ -65,6 +61,14 @@
   <Enumeration key="FileOpenHex">
     <Item value="&amp;Hex öffnen…" revision="1" />
     <Item value="Öffnet ASCII-codierte Binärdatei" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="base64-codiert" revision="1" />

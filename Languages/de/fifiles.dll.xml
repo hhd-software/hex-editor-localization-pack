@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="Ungültige Ordnerlisten Syntax." revision="1" />
   <Message key="Find All" value="Alle suchen" revision="1" />
   <Message key="Replace All" value="Alle ersetzen" revision="1" />
-  <Message key="Loading Find in Files" value="Suche in Dateien laden" revision="1" />
-  <Message key="Initializing Find in Files" value="Suche in Dateien initialisieren" revision="1" />
   <Message key="Notifications" value="Benachrichtigungen" revision="1" />
   <Message key="Find in Files" value="Suche in Dateien" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Möchen Sie die aktuelle Operation abbrechen?" revision="1" />

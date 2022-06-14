@@ -108,4 +108,15 @@
     <Item value="Volume Navigator" revision="1" />
     <Item value="Volume Navigator durchsucht und zeigt die Volume Dateistruktur an; hilft den Speicherort von Dateien zu finden und beschädigte Dateien und Verzeichnisse wieder herzustellen." revision="1" />
   </Enumeration>
+  <Enumeration key="Partitions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

@@ -22,8 +22,6 @@
   <Message key="Sum of Big-Endian 64-bit signed values" value="Summe von Big-Endian 64-bit Vorzeichen-Werten" revision="1" />
   <Message key="Custom CRC" value="Benutzerdefiniertes CRC" revision="1" />
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Einige Werte passen nicht in 16 bits. Bitte geben Sie 16-bit Werte ein: Bereich von 0 bis 0xFFFF (65535)." revision="1" />
-  <Message key="Loading checksums" value="Prüfsummen laden" revision="1" />
-  <Message key="Initializing checksums" value="Prüfsummen initialisieren" revision="1" />
   <Message key="Checksum" value="Prüfsummen" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Die Prüfsummen Funktion berechnet verschiedene Prüfsummen für ausgewählte Daten oder das ganze Dokument." revision="1" />
   <Message key="N/A" value="N/A" revision="1" />
@@ -60,6 +58,7 @@
     <Item value="Prüfsummen" revision="1" />
     <Item value="Hashes" revision="1" />
     <Item value="Summen mit Vorzeichen" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Prüfsummen" revision="0" />

@@ -48,10 +48,8 @@
   <Message key="LoadErrors" value="Die folgenden Fehler traten während des Ladens auf:\r\n{errors}" revision="1" />
   <Message key="NoHandlersFoundError" value="Keine Anwendung wurde gefunden die diese Datei Öffnen konnte." revision="1" />
   <Message key="VolumeOpenError" value="Fehler beim Öffnen des Volumes: {text} ({code})" revision="1" />
-  <Message key="PhysMemError" value="Fehler beim Öffnen des physikalischen Speichers: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Editor-Fenster (Bearbeitungsfenster) kann nicht initialisiert werden." revision="1" />
   <Message key="NoEditorsFoundError" value="Es konnten keine Bearbeitungsprogramme für diese Datei gefunden werden." revision="1" />
-  <Message key="NoSupportForPhysMem" value="In dieser Version des Betriebsystems kann eine User-Mode Anwendung nicht auf den physikalischen Speicher zugreifen. Diese Funktion wird nur unter Windows 2000 und Windows XP unterstützt." revision="1" />
   <Message key="ToolsFilter" value="Konfigurationsdateien  (*.hexdwc)|*.hexdwc|" revision="1" />
   <Message key="Printing" value="Drucken" revision="1" />
   <Message key="ActivatePane" value="Aktiviere {pane} Fenster" revision="1" />
@@ -91,18 +89,15 @@
   <Message key="Keyboard Map Dialog" value="Tastaturbelegung" revision="1" />
   <Message key="Print" value="&amp;Drucken" revision="1" />
   <Message key="General" value="Allgemein" revision="1" />
-  <Message key="DisplaySplashScreen" value="Willkommens-Bildschirm anzeigen" revision="1" />
   <Message key="AlwaysCreateBackups" value="Immer Sicherungskopien machen" revision="1" />
   <Message key="LowercaseHex" value="Hexadezimal mit Kleinbuchstaben" revision="1" />
   <Message key="ConvertFloatingPoint" value="Wechsel der Byte Reihenfolge wirkt sich auf die Gleitkomma Typen aus" revision="1" />
   <Message key="DocumentsToRemember" value="Zuletzt benutzte Dokumente anzeigen" revision="1" />
   <Message key="ClosesCurrentOnly" value="Schließen betrifft nur das aktuelle Werkzeugfenster" revision="1" />
   <Message key="RestoreWindowPosition" value="Position des Hauptfensters beim Starten wiederherstellen" revision="1" />
-  <Message key="DisableVectorCaching" value="Vektorbild-Pufferspeicher abschalten" revision="1" />
   <Message key="SkipNagScreen" value="--Nag screen übersprinen" revision="1" />
   <Message key="Notifications" value="Benachrichtigungen" revision="1" />
   <Message key="SaveNotification" value="Dokument sichern" revision="1" />
-  <Message key="OpenPhysicalMemory" value="Physischer Speicher öffnen" revision="1" />
   <Message key="OpenDisk" value="Volume / Festplatte öffnen" revision="1" />
   <Message key="Task" value="Aufgabe" revision="1" />
   <Message key="Hex Editor Neo trial period has expired." value="Nex Editor Neo Probezeit ist abgelaufen." revision="1" />
@@ -149,7 +144,6 @@
   <Message key="Windows Title" value="Fenster" revision="1" />
   <Message key="Save" value="Sichern" revision="1" />
   <Message key="Close Window(s)" value="Fenster schließen" revision="1" />
-  <Message key="x64edition" value="(x64 Edition)" revision="1" />
   <Message key="AboutInfo" value="HHD Software {product}{x64?} (x64 edition) {?x64}\n{edition}. Version {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nAlle Rechte vorbehalten." revision="4" />
   <Message key="AboutBoxDisclaimer" value="Warnung: Dieses Computerprogramm ist durch Copyright Gesetze und internationale Abhandlungen geschützt. Nicht genehmigte Reproduktion oder Verteilung dieses Programmes, oder Teile davon, können zu schweren zivilen und strafrechtlichen Strafen führen und werden bis zum gesetzlichen Maximum verfolgt." revision="1" />
   <Message key="About Hex Editor Neo" value="Über Hex Editor Neo" revision="1" />
@@ -158,9 +152,6 @@
   <Message key="Novice user" value="Anfänger" revision="1" />
   <Message key="Advanced user" value="Fortgeschrittener" revision="1" />
   <Message key="Expert user" value="Experte" revision="1" />
-  <Message key="Select the icon set. You can later change it on General Settings Tab (Tools » Settings menu option)." value="Icon Satz auswählen. Sie können ihn später in 'Werkzeuge » Einstellungen, Reiter Allgemein, Icon Satz' ändern." revision="1" />
-  <Message key="Neo 5 icon set" value="Neo 5 Icon Satz" revision="1" />
-  <Message key="Classic icon set" value="Klassischer Icon Satz" revision="1" />
   <Message key="Application restart required." value="Neustart Applikation erforderlich." revision="1" />
   <Message key="Configure color scheme after I close this window" value="Konfiguriere das Farbschema Layout nach Schließen dieses Fensters" revision="1" />
   <Message key="Select the size of toolbar buttons:" value="Werkzeugleiste-Schaltflä.größe:" revision="1" />
@@ -172,7 +163,6 @@
   <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Für kommerzielle, militärische oder staatliche Verwendung ist ein &lt;a&gt;Upgrade&lt;/a&gt; notwendig." revision="1" />
   <Message key="Do not display this warning anymore" value="Diese Warnung nicht mehr anzeigen" revision="1" />
   <Message key="Save changes to selected documents" value="Speichere Änderungen in ausgewählten Dokumenten:" revision="1" />
-  <Message key="Special Offer" value="Spezielles Angebot" revision="1" />
   <Message key="Tasks Page" value="Aufgaben" revision="1" />
   <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Festlegen welche Aufgaben auf der Hex Editor Neo Aufgabenleiste-Icon verfügbar sind." revision="1" />
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Testzeitraum" revision="1" />
@@ -213,9 +203,6 @@
   <Message key="Background" value="Hintergrund" revision="0" />
   <Message key="Outline" value="Umrisslinie" revision="0" />
   <Message key="Coloring Schemes" value="Farbschema" revision="0" />
-  <Message key="Scroll Left" value="Links verschieben" revision="0" />
-  <Message key="Scroll Right" value="Rechts verschieben" revision="0" />
-  <Message key="RocketClose" value="Schließen" revision="0" />
   <Message key="Auto Hide" value="Automatisch ausblenden" revision="0" />
   <Message key="Switch Window" value="Fenster wechseln" revision="0" />
   <Message key="Active Tool Windows" value="Aktives Werkzeugfenster" revision="0" />
@@ -304,7 +291,6 @@
   <Message key="Minidump description" value="Minidumps haben normalerweise eine Größe von weniger als einem Megabyte und enthalten nur begrenzte Informationen über einen Absturz. Manchmal reicht ein Minidump aus, um das Problem zu diagnostizieren, aber häufig fehlen die erforderlichen Informationen, um den Absturz zu reproduzieren." revision="0" />
   <Message key="Full dump description" value="Vollständige Speicherauszüge enthalten die komprimierte Ansicht des gesamten Prozessadressraums. Sie sind am besten geeignet, um Entwicklern zu ermöglichen, die Situation, die den Absturz verursacht hat, zu reproduzieren und so schnell wie möglich zu beheben. Die Größe eines vollständigen Speicherauszugs kann jedoch leicht Hunderte von Megabyte erreichen." revision="0" />
   <Message key="Privacy Policy" value="Datenschutz-Bestimmungen" revision="0" />
-  <Message key="Crash reporter" value="Absturz-Berichterstattung" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Physikalische Festplatte" revision="2" />
     <Item value="Größe" revision="2" />
@@ -385,6 +371,10 @@
     <Item value="&amp;Datei" revision="0" />
     <Item value="Datei" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Öffnen" revision="0" />
     <Item value="Öffnen" revision="0" />
@@ -417,10 +407,6 @@
     <Item value="Öffnen mit gemeinsamen Zugriff" revision="1" />
     <Item value="Die Funktion Öffnen mit gemeinsamen Zugriff erlaubt es Dateien im  Modus für gemeinsamen Zugriff zu öffnen und sie mit anderen Anwendungen zu teilen. Verschiedene Zusammenführungsstrategien inclusive ''change comparison options'' werden bereitgestellt." revision="1" />
   </Enumeration>
-  <Enumeration key="PhysMemNotification">
-    <Item value="Physikalischen Speicher öffnen" revision="1" />
-    <Item value="Hex Editor Neo erlaubt es den physikalischen Speicher des Computers im schreibgeschützten Modus anzuzeigen. Sie müssen Mitglied der lokalen Administratorengruppe sein, um zugreifen zu können. Diese Operation wird nur von den Betriebsystemen Windows 2000 und Windows XP unterstützt." revision="1" />
-  </Enumeration>
   <Enumeration key="FeatureOpenMemory">
     <Item value="Physikalischen Speicher öffnen" revision="1" />
     <Item value="Die Funktion Physikalischen Speicher öffnen erlaubt es den physikalischen Speicher des Computers im schreibgeschützten Modus anzuzeigen." revision="1" />
@@ -448,11 +434,6 @@
     <Item value="Vorgängerversion" revision="1" />
     <Item value="Zuletzt benutzt" revision="1" />
     <Item value="Navigationsfenster benutzen" revision="1" />
-  </Enumeration>
-  <Enumeration key="IconSet">
-    <Item value="Icon Satz" revision="1" />
-    <Item value="Klassischer Icon Satz" revision="1" />
-    <Item value="Neo Icon Satz" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
     <Item value="Unbekannt, nochmalige Installation Produkt und/oder Lizenz" revision="1" />
@@ -678,10 +659,6 @@
     <Item value="Ü&amp;ber Hex Editor Neo" revision="1" />
     <Item value="Zeigt Informationen über dieses Produkt an" revision="1" />
   </Enumeration>
-  <Enumeration key="FileOpenPhysMemory">
-    <Item value="Physikalischen Speicher öffnen…" revision="1" />
-    <Item value="Öffnet den physikalischen Speicher des Computers (schreibgeschützt)" revision="1" />
-  </Enumeration>
   <Enumeration key="FileOpenVolume">
     <Item value="&amp;Volume öffnen…" revision="1" />
     <Item value="Öffnet ein Volume (logische Festplatte)" revision="1" />
@@ -689,6 +666,10 @@
   <Enumeration key="FileOpenDisk">
     <Item value="P&amp;hysikalische Festplatte öffnen…" revision="1" />
     <Item value="Öffnet eine physikalische Festplatte" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="A&amp;lle speichern" revision="1" />
@@ -709,10 +690,6 @@
   <Enumeration key="ViewToggleFullScreen">
     <Item value="&amp;Werkzeugfenster anzeigen" revision="1" />
     <Item value="Zeigt oder versteckt alle Werkzeugfenster" revision="1" />
-  </Enumeration>
-  <Enumeration key="HelpForum">
-    <Item value="&amp;Forum…" revision="1" />
-    <Item value="Öffnet das Hex Editor Neo Forum" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
     <Item value="&amp;Lizenz Management" revision="1" />

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Beispiel Text" revision="0" />
-  <Message key="Loading" value="Lesezeichen laden…" revision="0" />
-  <Message key="Initializing" value="Lesezeichen initialisieren" revision="0" />
   <Message key="Bookmarks" value="Lesezeichen" revision="0" />
   <Message key="Progress" value="Aktuelle Aufgabe ist in Bearbeitung. Bitte warten bis sie fertiggestellt ist." revision="0" />
   <Message key="GroupDelete" value="Gruppe wird gelöscht (inklusive aller enthaltener Lesezeichen). Wollen Sie fortfahren?" revision="0" />
@@ -26,7 +23,6 @@
   <Message key="Background:" value="Hintergrund:" revision="0" />
   <Message key="Outline:" value="Umrisslinie:" revision="0" />
   <Message key="Round edges" value="Runde Ecken" revision="0" />
-  <Message key="Default" value="Standard" revision="0" />
   <Message key="BookmarksFilterString" value="Lesezeichen Dateien (*.hexbook)|*.hexbookk|" revision="0" />
   <Message key="SelectionFilterString" value="Auswahl-Dateien (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Zeigt Konvertierungswarnung von Auswahl zu Lesezeichen " revision="1" />

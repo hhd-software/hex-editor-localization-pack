@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="MacroRecord">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

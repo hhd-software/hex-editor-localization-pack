@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Assertion fehlgeschlagen {has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Der verbundene Ausdruck kann nicht ausgewertet werden." revision="0" />
   <Message key="Structure Viewer" value="Struktur Betrachter" revision="0" />
-  <Message key="Initializing" value="Initialisiere Daten Inspektor" revision="0" />
   <Message key="Structure Errors" value="Struktur Fehler" revision="0" />
   <Message key="Error accessing Clipboard" value="Fehler beim Zugriff auf die Zwischenablage" revision="0" />
   <Message key="ModifiedSuffix" value="(geändert)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="Definitionstext ist leer" revision="0" />
   <Message key="AddInspectType" value="Typ Definition (Struktur) hinzufügen" revision="0" />
   <Message key="EditInspectType" value="Typ Definition (Struktur) bearbeiten" revision="0" />
-  <Message key="StructureFormats" value="Strukturdefinitions Dateien (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Fehler beim Löschen der Datei: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Fehler beim Speichern der Datei &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Das aktuelle Dokument wurde verändert. Wollen Sie es speichern?" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="Hintergrundfarbe:" revision="0" />
   <Message key="Text color:" value="Textfarbe:" revision="0" />
   <Message key="Outline color:" value="Farbe Umrisslinie:" revision="0" />
-  <Message key="Default" value="Vorgabe" revision="0" />
   <Message key="Add Inspector Type" value="Inspektor Typ hinzufügen" revision="0" />
   <Message key="Change Time" value="Änderung Zeit" revision="0" />
   <Message key="AssignNotification" value="Datenänderungen sind für diesen Typ nicht eingeschaltet. Für weitere Informationen, wie die Datenänderung für einen Typ eingeschaltet werden kann, klicken Sie auf Hilfe." revision="0" />
@@ -230,6 +227,10 @@
     <Item value="Gehe zu Felddefinition" revision="1" />
     <Item value="Öffnet die Strukturdefinitionsdatei mit der aktuellen Felddefinition" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Qualifizierter Name kopieren" revision="1" />
     <Item value="Kopiert den qualifizierten Namen in die Zwischenablage." revision="1" />
@@ -318,9 +319,21 @@
     <Item value="Standard Typen" revision="0" />
     <Item value="Benutzerdefinierte Typen" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Neue Strukturdatei…" revision="0" />
-    <Item value="Erzeugt eine neue Strukturdefinitions Datei" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="StructureAdd">
     <Item value="&amp;Strukturdatei hinzufügen…" revision="0" />

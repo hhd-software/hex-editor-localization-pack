@@ -25,7 +25,6 @@
   <Message key="Go" value="gehen" revision="0" />
   <Message key="Go To:" value="Gehe zu:" revision="0" />
   <Message key="Text" value="Text" revision="0" />
-  <Message key="Loading" value="Disassembler laden" revision="0" />
   <Message key="Disassembler" value="Disassembler" revision="0" />
   <Message key="ShowImplicitOperands" value="Implizite Operanden anzeigen" revision="0" />
   <Message key="ShowPrefixes" value="Präfix anzeigen" revision="0" />

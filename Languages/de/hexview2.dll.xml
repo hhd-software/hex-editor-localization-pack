@@ -36,7 +36,6 @@
   <Message key="NoSel" value="Keine Auswahl" revision="1" />
   <Message key="EncodingNotSupported" value="Aktuell ausgewählte Kodierung wird durch Ihr Betriebsystem nicht unterstützt. Stellen sie sicher, dass die benötigten Codepage- Dateien und Schriften installiert sind." revision="1" />
   <Message key="NoEncoding" value="Ihrem System fehlen die benötigten Komponenten, um die ausgewählte Kodierung zu unterstützen. Bitte wählen Sie eine andere Kodierung aus." revision="1" />
-  <Message key="SwitchSingleSel" value="Schaltet &quot;Einfache Auswahl Modus&quot; Option an \nDas schaltet &quot;Mehrfache Auswahl&quot; ab. Sie können im Reiter &quot;Generelle Optionen&quot; diese Option später wieder einschalten." revision="1" />
   <Message key="Find" value="Suchen" revision="1" />
   <Message key="A pattern was not found." value="Ein Muster wurde nicht gefunden." revision="1" />
   <Message key="RegExpInSel" value="Die Suche nach einem regulärem Ausdruck in einer Auswahl wird nicht unterstützt." revision="1" />
@@ -139,12 +138,9 @@
   <Message key="Color:" value="Farbe:" revision="0" />
   <Message key="Automatic" value="Automatisch" revision="0" />
   <Message key="Do not interlace background" value="Hintergrund nicht verschachteln" revision="0" />
-  <Message key="Interlace columns" value="Spalten verschachteln" revision="0" />
-  <Message key="Interlace rows" value="Zeilen verschachteln" revision="0" />
   <Message key="Draw edit cursor frame" value="Bearbeitungs-Rahmen" revision="0" />
   <Message key="Smart indentation" value="Intelligentes Einrücken" revision="0" />
   <Message key="Antialiased quality (slower)" value="Anti-Alias Qualität (langsamer)" revision="0" />
-  <Message key="Schemes…" value="Schematas…" revision="0" />
   <Message key="Layout Schemes" value="Layout Schematas" revision="0" />
   <Message key="&amp;Save As…" value="&amp;Sichern als…" revision="0" />
   <Message key="Load Selection" value="Lade Auswahl" revision="0" />
@@ -198,6 +194,22 @@
   <Enumeration key="SelectNone">
     <Item value="&amp;Nichts auswählen" revision="1" />
     <Item value="Löscht die aktuelle Auswahl" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Auswahl umkehren" revision="1" />
@@ -491,6 +503,18 @@
     <Item value="Alles löschen" revision="1" />
     <Item value="Löscht den Inhalt des aktuellen Ausgabefensters" revision="1" />
   </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Negation" revision="1" />
     <Item value="Addition" revision="1" />
@@ -616,6 +640,10 @@
     <Item value="Adresse" revision="1" />
     <Item value="Länge" revision="1" />
   </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Mehrfache Auswahl" revision="1" />
     <Item value="Mehrfache Auswahl erlaubt es mehrere ausgewählte Datenblöcke zu haben und Editieraufgaben auf alle anzuwenden." revision="1" />
@@ -664,28 +692,14 @@
     <Item value="FEHLER - Schlüssellänge muß eine Potenz von 8 sein." revision="1" />
     <Item value="FEHLER - Ungültige Schlüssellänge." revision="1" />
   </Enumeration>
-  <Enumeration key="ColorNames">
-    <Item value="Text" revision="1" />
-    <Item value="Hintergrund" revision="1" />
-    <Item value="Adresse" revision="1" />
-    <Item value="Adresse Hintergrund" revision="1" />
-    <Item value="ASCII/UNICODE Text" revision="1" />
-    <Item value="ASCII/UNICODE Hintergrund" revision="1" />
-    <Item value="Gerade Spalte/Zeile (für verschachtelte Moden)" revision="1" />
-    <Item value="Ungerade Spalte/Zeile (für verschachtelte Moden)" revision="1" />
-    <Item value="&quot;Keine Daten&quot; Text" revision="1" />
-    <Item value="Cursor Füllung" revision="1" />
-    <Item value="Cursor Umrisslinie" revision="1" />
-    <Item value="Aktive Zeile &amp; Spalte Hervorhebung Text" revision="1" />
-    <Item value="Aktive Zeile &amp; Spalte Hervorhebung Hintergrund" revision="1" />
-    <Item value="Veränderung Text" revision="1" />
-    <Item value="Veränderung Hintergrund" revision="1" />
-    <Item value="Veränderung Umrisslinie" revision="1" />
-    <Item value="Auswahl" revision="1" />
-  </Enumeration>
   <Enumeration key="Tooltip">
     <Item value="Auswahl" revision="1" />
     <Item value="Cursor" revision="1" />
     <Item value="Geänderter Text" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

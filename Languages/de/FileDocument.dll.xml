@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Diese Klasse existiert schon. Ändere den Namen der Klasse." revision="1" />
   <Message key="DeleteClasses?" value="Sind sie sicher, dass Sie alle Klassen löschen wollen?" revision="1" />
   <Message key="LoadError" value="Interner Fehler: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Laden der Kernkomponenten" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Prüfe auf geringen Plattenplatz bevor Operationen durchgeführt werden" revision="1" />
   <Message key="IgnoreRenames" value="Ignoriere das Umbenennen von gemeinsam geöffneten Dateien" revision="1" />
   <Message key="RemovedNotification" value="Gemeinsam genutzes Dokument gelöscht" revision="1" />
