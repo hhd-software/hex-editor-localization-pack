@@ -474,7 +474,6 @@
   <Message key="Background color:" description="Field: Background color"/>
   <Message key="Text color:" description="Field: Text color"/>
   <Message key="Outline color:" description="Field: Outline color"/>
-  <Message key="Default" description="Button: Default"/>
 
   <!-- Add Inspector Type -->
   <Message key="Add Inspector Type" description="Window title: Add Inspector Type"/>

@@ -473,7 +473,6 @@
   <Message key="Second color:" description="Field: Second color"/>
   <Message key="Outline color:" description="Field: Outline color"/>
   <Message key="Selected Color:" description="Field: Selected Color"/>
-  <Message key="Default" description="Button: Default"/>
 
   <!-- Select columns dialog -->
   <Message key="Select All" description="Checkbox: Select All"/>
