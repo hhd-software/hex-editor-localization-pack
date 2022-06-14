@@ -8,7 +8,6 @@
   <Message key="Structure Editor" value="Редактор структур" revision="0" />
   <Message key="Line" value="Строка" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Несохранённая схема&gt;" revision="0" />
-  <Message key="Default" value="По-умаолчанию" revision="0" />
   <Message key="SchemeDelError" value="Невозможно удалить данную схему" revision="0" />
   <Message key="Coloring" value="Подсветка" revision="0" />
   <Message key="Structure Editor Page" value="Редактор структур" revision="0" />

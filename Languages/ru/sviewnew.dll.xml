@@ -92,7 +92,6 @@
   <Message key="Background color:" value="Цвет фона:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
   <Message key="Outline color:" value="Цвет обводки:" revision="0" />
-  <Message key="Default" value="По-умолчанию" revision="0" />
   <Message key="Add Inspector Type" value="Добавить тип" revision="0" />
   <Message key="Change Time" value="Изменить время" revision="0" />
   <Message key="AssignNotification" value="Редактирование данных для данного типа невозможно. Нажмите кнопку Справка для детальной информации о том, как добавить поддержку модификации данных." revision="0" />

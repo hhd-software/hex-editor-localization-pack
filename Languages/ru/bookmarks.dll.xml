@@ -23,7 +23,6 @@
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Outline:" value="Контур:" revision="0" />
   <Message key="Round edges" value="Округлые углы" revision="0" />
-  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="BookmarksFilterString" value="Файлы закладок (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Файлы выделений (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показывать предупреждение конвертации выделения в закладки" revision="1" />

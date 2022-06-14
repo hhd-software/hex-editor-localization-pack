@@ -213,8 +213,8 @@
   <Message key="clr.colors.ActiveHighlightText" value="Текст подсветки" revision="0" />
   <Message key="clr.colors.ActiveHighlightBackground" value="Фон подсветки" revision="0" />
   <Message key="clr.colors.ChangedText" value="Изменённый текст" revision="0" />
-  <Message key="clr.colors.ChangedBackground" value="Изменённый фон" revision="0" />
-  <Message key="clr.colors.ChangedOutline" value="Изменённая обводка" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="Фон изменённых ячеек" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="Обводка изменённой ячейки" revision="0" />
   <Message key="clr.colors.SelectionBackground" value="Фон выделения" revision="0" />
   <Message key="clr.colors.SelectionOutline" value="Обводка выделения" revision="0" />
   <Message key="clr.colors.HoverUnderline" value="Подчёркивание подсветки" revision="0" />

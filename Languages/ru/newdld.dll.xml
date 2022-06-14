@@ -9,7 +9,6 @@
   <Message key="Do you want to cancel all active download tasks?" value="Хотите отменить все текущие закачки?" revision="1" />
   <Message key="Proxy Page" value="Прокси" revision="0" />
   <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Настройки прокси, используемые при &quot;Поиске обновлений&quot;:" revision="0" />
-  <Message key="Default" value="По-умолчанию" revision="0" />
   <Message key="Autodetect proxy settings" value="Автоматическое определение настроек" revision="0" />
   <Message key="Do not use proxy" value="Не использовать прокси" revision="0" />
   <Message key="Use the following proxy (HTTP):" value="Использовать указаный прокси (HTTP):" revision="0" />

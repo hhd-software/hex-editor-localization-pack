@@ -406,6 +406,7 @@
   <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
   <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
   <Message key="Sample Text" value="Образец" revision="0" />
+  <Message key="Default" value="По-умолчанию" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />

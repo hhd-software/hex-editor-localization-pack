@@ -72,7 +72,6 @@
   <Message key="Second color:" value="Второй цвет:" revision="0" />
   <Message key="Outline color:" value="Цвет контура:" revision="0" />
   <Message key="Selected Color:" value="Цвет выделения:" revision="0" />
-  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="Select All" value="Выбрать все" revision="0" />
   <Message key="Item color:" value="Цвет элемента:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
