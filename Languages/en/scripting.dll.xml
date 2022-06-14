@@ -167,7 +167,7 @@
 		<Param name="code" format="ub016x"/>
 	</Message>
 
-	<Message key="ScriptLoadErrors" description="Script loading errors" value="The following error(s) occured during loading selected file(s):\n\n{errors}">
+	<Message key="ScriptLoadErrors" description="Script loading errors" value="The following error(s) occurred during loading of selected file(s):\n\n{errors}">
 		<Param name="errors"/>
 	</Message>
 
