@@ -22,14 +22,19 @@
   <Message key="Sum of Big-Endian 64-bit signed values" value="Checksums big-endian des valeurs 64-bit signés" revision="1" />
   <Message key="Custom CRC" value="CRC personnalisé" revision="1" />
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Certaines valeurs ne correspondent pas à des valeurs 16 bits. Pourriez-vous fournir des valeurs 16 bits: varient de 0 à 0xFFFF (65535)." revision="1" />
-  <Message key="Loading checksums" value="Chargement des Checksums" revision="1" />
-  <Message key="Initializing checksums" value="Initialisation des Checksums" revision="1" />
   <Message key="Checksum" value="Checksum" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Fonction Checksum calcule différentes sommes de contrôle (Checksums) pour un ensemble de données sélectionnées ou un document entier." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32-bit" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32-bit" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64-bit" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64-bit" revision="0" />
+  <Message key="Custom FNV" value="FNV-1 personnalisé" revision="0" />
   <Message key="N/A" value="Pas disponible" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Veuillez attendre jusqu'à ce que toutes les opérations en attente soient terminées." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Fichiers texte séparé par des tabulations-horizontale (*.tsv)|*.tsv|All Files|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Valeur initiale={initial}, Polynôme = {polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{est1a?}FNV-1a{|est1a}FNV-1{?est1a} {est64bit?}64-bit{|est64bit}32-bit{?est64bit}: Prime={prime}, Base d'offset={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="Checksum" revision="0" />
   <Message key="Add Algorithm" value="Ajouter un Algorithme" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Sélectionnez l'algorithme d'ajout parmi la liste ci-dessous:" revision="1" />
   <Message key="Custom CRC Parameters" value="Paramètres CRC personnalisés " revision="1" />
@@ -46,6 +51,12 @@
   <Message key="Size:" value="Taille:" revision="1" />
   <Message key="Separator:" value="Séparateur de champ:" revision="1" />
   <Message key="Checksum settings" value="Checksum" revision="0" />
+  <Message key="Custom FNV Parameters" value="Paramètres personnalisés du FNV-1" revision="0" />
+  <Message key="32-bit" value="32-bit" revision="0" />
+  <Message key="64-bit" value="64-bit" revision="0" />
+  <Message key="Prime:" value="Prime:" revision="0" />
+  <Message key="Offset basis:" value="Base d'offset:" revision="0" />
+  <Message key="Version:" value="Version:" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Aucun Séparateur" revision="1" />
     <Item value="Espace (' ')" revision="1" />
@@ -55,11 +66,12 @@
     <Item value="Point-Virgule (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Sommateurs simple" revision="1" />
-    <Item value="Sommateurs supplémentaires" revision="1" />
-    <Item value="Checksum" revision="1" />
-    <Item value="Hachages" revision="1" />
-    <Item value="Sommes signés-" revision="1" />
+    <Item value="Sommateurs simple" revision="2" />
+    <Item value="Sommateurs supplémentaires" revision="2" />
+    <Item value="Checksum" revision="2" />
+    <Item value="Hachages Fowler-Noll-Vo (FNV)" revision="2" />
+    <Item value="Hachages " revision="2" />
+    <Item value="Sommes signés-" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Checksum" revision="0" />

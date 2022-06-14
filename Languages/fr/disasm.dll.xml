@@ -25,7 +25,6 @@
   <Message key="Go" value="Lancer" revision="0" />
   <Message key="Go To:" value="Aller à:" revision="0" />
   <Message key="Text" value="Texte" revision="0" />
-  <Message key="Loading" value="Chargement du désassembleur " revision="0" />
   <Message key="Disassembler" value="Désassembleur " revision="0" />
   <Message key="ShowImplicitOperands" value="Afficher opérandes implicites" revision="0" />
   <Message key="ShowPrefixes" value="Afficher préfixes" revision="0" />
@@ -97,6 +96,7 @@
   <Message key="Search" value="Rechercher" revision="0" />
   <Message key="Jump" value="Prochain" revision="0" />
   <Message key="string" value="string" revision="0" />
+  <Message key="ExportOp" value="Exportation d'instructions désassemblées…" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Lancer Désassembleur…" revision="0" />
     <Item value="Désassembler un fichier exécutable" revision="0" />

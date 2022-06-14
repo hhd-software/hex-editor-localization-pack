@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PrivilegeNotGained" value="Ensemble limité de processus dans la liste des processus" revision="1" />
-  <Message key="RegionInfo" value="Plage de base: {base} ({base:2})\r Fin de Plage:: {end} ({end:2})\rTaille de plage: {size} ({size:2})\rrType: {type}\rEtat: {state}\rDrapeaux: {flags}" revision="1" />
+  <Message key="RegionInfo" value="[[[uPlage mémoire du processus]]]\r  [[[bPlage de base:]]] {base} ({base:2})\r  [[[bTaille de plage:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bEtat:]]] {state}\r  [[[bDrapeaux:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Inconnu" revision="1" />
   <Message key="No process selected" value="Aucun processus sélectionnés" revision="1" />
   <Message key="Specify a range using a list of blocks or a list of modules." value="Spécifiez une plage à l'aide d'une liste de blocs ou d'une liste de modules." revision="1" />
@@ -24,6 +24,12 @@
   <Message key="Read/Write" value="Lecture / écriture:" revision="1" />
   <Message key="Copy on Write" value="Copier lors d'ecritures:" revision="1" />
   <Message key="Free" value="Libre:" revision="1" />
+  <Message key="clr.pex_colors" value="Couleurs du processus ouvert" revision="0" />
+  <Message key="clr.pex_colors.NoAccess" value="Région de non-accès" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Région de lecture seule" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Région de lecture/écriture" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Copie sur la région d'écriture" revision="0" />
+  <Message key="clr.pex_colors.Free" value="Région libre" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="Ouvrir P&amp;rocessus…" revision="1" />
     <Item value="Ouvrir le mémoire du processus pour lecture et écriture" revision="1" />

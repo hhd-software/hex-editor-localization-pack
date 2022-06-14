@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Entrée de fichier inconnu" revision="0" />
   <Message key="FilenameAttributeError" value="Erreur d'analyse des attributs de fichier pour l'enregistrement {record}" revision="0" />
   <Message key="CopyFileError" value="Erreur de copie de fichier &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="La copie de fichiers épars, compressés ou cryptés n'est pas encore implémentée: &quot;{filename}&quot;" revision="0" />
   <Message key="WriteFileError" value="Erreur ecriture du fichier: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Il n'y a pas assez d'espace sur le disque cible pour copier &quot;{filename}&quot;.  Vous devez avoir au moins {filesize} d'espace libre pour copier ce fichier." revision="0" />
   <Message key="CopyWarning" value="Fichier &quot;{filename}&quot; existe déjà. Voulez-vous le remplacer ou l'ignorer?" revision="0" />
@@ -41,6 +42,7 @@
   <Message key="CSFileNotFound" value="Structure du fichier &quot;{filename}&quot; introuvable." revision="0" />
   <Message key="CSRootNotFound" value="La structure de la racine {name} est introuvable." revision="0" />
   <Message key="CSBindVolumeError" value="Erreur produite lors de l'analyse du volume. Section &quot;{name}&quot;, erreur: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Partition[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Invalide en-tête PrivHead." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Invalide en-tête TocBlock." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Invalide en-tête Vmdb." revision="0" />
@@ -54,6 +56,7 @@
   <Message key="Root structure:" value="Structure de la racine:" revision="0" />
   <Message key="Directory entry structure:" value="Répertoire de la structure d'entrée:" revision="0" />
   <Message key="File entry structure:" value="Entrée dans le fichier de structure:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Navigateur de volume" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="Octets" revision="0" />
     <Item value="KO" revision="0" />
@@ -107,5 +110,16 @@
   <Enumeration key="FeatureDiskEditor">
     <Item value="Navigateur de volume" revision="1" />
     <Item value="Le navigateur de volume scanne et affiche le volume de la structure du fichiers, il permet de trouver des emplacements des fichiers et de récupérer des fichiers ou dossiers endommagés." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="Inconnu" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Non alloué" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

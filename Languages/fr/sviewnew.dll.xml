@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Échec d'assertion{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Impossible d'évaluer l'expression délimitée." revision="0" />
   <Message key="Structure Viewer" value="Vue de Structure" revision="0" />
-  <Message key="Initializing" value="Initialisation de l'observateur de structure" revision="0" />
   <Message key="Structure Errors" value="Erreurs de Structures" revision="0" />
   <Message key="Error accessing Clipboard" value="Erreur d'accés au presse-papiers" revision="0" />
   <Message key="ModifiedSuffix" value="(modifié)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="Le texte de définition est vide" revision="0" />
   <Message key="AddInspectType" value="Ajoutez la définition du type" revision="0" />
   <Message key="EditInspectType" value="Révisez la définition du type" revision="0" />
-  <Message key="StructureFormats" value="Dossiers de définition de structure (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Erreur suppression fichier sélectionné: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Fichier sauvegarde d'erreur &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Le présent document a été modifié. Voulez-vous sauver?" revision="0" />
@@ -106,6 +104,7 @@
   <Message key="UntrustedEditor" value="Vous êtes sur le point d'exécuter l'application éditeur externe non fiable à l'aide de la ligne de commande suivante:\r\n\r\n{path}\r\n\r\nVoulez-vous continuer? Si vous appuyez sur Oui, cette application sera marquée comme approuvée." revision="0" />
   <Message key="TypeExists" value="Le type avec le même nom existe déjà." revision="0" />
   <Message key="StructureFileNotFound" value="Le fichier {file} ne se trouve pas à l'emplacement &quot;{path}&quot;. Voulez-vous l'enlever de la bibliothèque?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Vue de Structure" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Lier…" revision="0" />
     <Item value="Lier nouvelle structure" revision="0" />
@@ -230,6 +229,10 @@
     <Item value="Aller à la définition de champ" revision="1" />
     <Item value="Fichier de définition de structure ouverte avec définition de champ en cours" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="Aller à la valeur " revision="1" />
+    <Item value="Aller à l'offset défini par la valeur" revision="1" />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Copier le nom qualifié" revision="1" />
     <Item value="Copier le nom qualifié du champ dans le Presse-papiers" revision="1" />
@@ -318,13 +321,25 @@
     <Item value="Types standard" revision="0" />
     <Item value="Types d'utilisateur" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Nouvelle structure du fichier…" revision="0" />
-    <Item value="Créer un nouveau fichier de structure" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="Nouveau Dossier de S&amp;tructure" revision="0" />
+    <Item value="Créer un fichier de définition de structure vide" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="Nouveau Dossier de &amp;Kaitai" revision="0" />
+    <Item value="Créer un fichier de définition Kaitai vide" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="Ouvrir un Fichier de &amp;Structure…" revision="0" />
+    <Item value="Ouvrir le fichier de définition de la structure" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="Ajouter le Fichier de la Structure Actuelle" revision="0" />
+    <Item value="Ajouter le fichier de définition de la structure active à la bibliothèque" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Ajouter un fichier structure…" revision="0" />
-    <Item value="Ajoute fichier de la structure existante à la bibliothèque" revision="0" />
+    <Item value="&amp;Ajouter un fichier structure…" revision="1" />
+    <Item value="Ajoute fichier de la structure existante à la bibliothèque" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Enregistrer &amp;toute la structure des fichiers" revision="0" />

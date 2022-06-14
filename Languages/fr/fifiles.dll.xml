@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="Liste de Répertoire invalides." revision="1" />
   <Message key="Find All" value="Rechercher tout" revision="1" />
   <Message key="Replace All" value="Remplacer tout" revision="1" />
-  <Message key="Loading Find in Files" value="Chargement: Recherche dans les fichiers" revision="1" />
-  <Message key="Initializing Find in Files" value="Initialisation du recherche dans les fichiers" revision="1" />
   <Message key="Notifications" value="Notifications" revision="1" />
   <Message key="Find in Files" value="Rechercher dans les Fichiers" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Voulez-vous vraiment annuler cette opération?" revision="1" />
@@ -34,6 +32,7 @@
   <Message key="Move Down" value="Descendre" revision="1" />
   <Message key="Folder list:" value="Liste de Répertoires:" revision="1" />
   <Message key="All opened documents" value="Tous les documents ouverts" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Trouver dans les fichier(s)" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="ouverture en cours" revision="1" />
     <Item value="enregistrement en cours" revision="1" />

@@ -11,9 +11,7 @@
   <Message key="Little Endian" value="Little Endian" revision="1" />
   <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="Valeurs &amp;Formatées" revision="1" />
-  <Message key="Loading" value="Chargement de l'utilisation du Presse-papiers" revision="1" />
-  <Message key="Initializing" value="Initialisation de l'utilisation du Presse-papiers" revision="1" />
-  <Message key="CopyExportLocalized" value="Copier et Exporter" revision="1" />
+  <Message key="CopyExportLocalized" value="Copier &amp; Exporter" revision="2" />
   <Message key="Export" value="Exporter" revision="1" />
   <Message key="BadFormat" value="Erreur d'exportation: Neo Hex Editeur ne peut pas traiter les données sélectionnées" revision="1" />
   <Message key="BadImportFormat" value="Mauvais format de données." revision="1" />
@@ -21,7 +19,6 @@
   <Message key="ErrorExport2" value="Erreur lors de l'exportation des données: {text}\r\n(Code d'erreur: {code})" revision="1" />
   <Message key="ErrorImport" value="Erreur d'importation de données hexadécimale: {text}\r\n(Code d'erreur: {code})" revision="1" />
   <Message key="OpenHexTitle" value="Ouvrir Hex" revision="1" />
-  <Message key="AllSupportedFormats" value="Tous les formats pris en charge" revision="1" />
   <Message key="&amp;Copy to Clipboard" value="&amp;Copier dans le Presse-papiers" revision="1" />
   <Message key="&amp;Export" value="&amp;Exporter" revision="1" />
   <Message key="Format:" value="Format:" revision="1" />
@@ -46,6 +43,7 @@
   <Message key="Insert mode" value="Mode Insertion" revision="1" />
   <Message key="Ignore data offset" value="Ignorer données de décalage(offset)" revision="1" />
   <Message key="Encoding:" value="Encodage:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier HEX: {text} ({code})" revision="2" />
   <Enumeration key="EditCopyAs">
     <Item value="Format du Copie…" revision="1" />
     <Item value="Convertir la sélection en un des formats pris en charge et les placer dans le Presse-papiers" revision="1" />
@@ -65,6 +63,14 @@
   <Enumeration key="FileOpenHex">
     <Item value="Ouvrir &amp;Hex…" revision="1" />
     <Item value="Ouvrir Fichier binaire codé en ASCII" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="Nouveau Intel Hex" revision="0" />
+    <Item value="Créer un fichier Intel HEX vide" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="Nouveau Motorola S-Records" revision="0" />
+    <Item value="Créer un fichier Motorola S-Records vide" revision="0" />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="encoder-base64-" revision="1" />

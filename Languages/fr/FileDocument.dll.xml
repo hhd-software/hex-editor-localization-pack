@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Etes-vous sûr de vouloir annuler cette opération? Cette action pourrait corrompre le fichier.  " revision="1" />
   <Message key="OccFound" value="{N} occurrences trouvée jusqu'à présent." revision="1" />
-  <Message key="CopiedFragmentName" value="Données copié de HHD Hex Editor Neo 5" revision="1" />
+  <Message key="CopiedFragmentName" value="Données copié de HHD Hex Editor Neo" revision="3" />
   <Message key="DefaultBranchName" value="Default" revision="1" />
   <Message key="Continue working with a file." value="Continuer a travaillé avec ce fichier" revision="1" />
   <Message key="Discard all changes and close the file." value="Ignorer toutes les modifications et fermez le fichier." revision="1" />
@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Cette classe existe déjà. Changer nom de la classe." revision="1" />
   <Message key="DeleteClasses?" value="Etes-vous sûr de vouloir supprimer toutes les classes?" revision="1" />
   <Message key="LoadError" value="Erreur interne: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Chargement de composants de base" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Vérifiez l'espace disque disponible avant de procéder à ces opérations" revision="1" />
   <Message key="IgnoreRenames" value="Ignorer les renommages des fichiers partagés ouverts" revision="1" />
   <Message key="RemovedNotification" value="Suppression de Document partagé" revision="1" />
@@ -51,6 +50,7 @@
   <Message key="SnapshotTitle" value="Ouvrir à partir de l'instantané" revision="0" />
   <Message key="SnapshotDescription" value="L'éditeur hexadécimal Neo n'a pas pu ouvrir &quot;{path}&quot; en raison de l'erreur suivante:\r\n    » {text} ({code})\r\n\r\nVoulez-vous essayer de créer un instantané de volume et ouvrir un fichier à partir de cet instantané?" revision="0" />
   <Message key="RegExp settings" value="Classes d'expression régulières" revision="0" />
+  <Message key="Shortcut files" value="Fichiers de raccourcis" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignorer la case" revision="1" />
     <Item value="Choisir le fichier" revision="1" />

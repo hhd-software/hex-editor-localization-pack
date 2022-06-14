@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="Navigation" revision="0" />
   <Message key="Offset" value="Décalage" revision="1" />
   <Message key="SchemeNameCue" value=" Entrez le nom de schéma ici" revision="1" />
   <Message key="Encrypt" value="Encrypter" revision="1" />
@@ -36,7 +37,6 @@
   <Message key="NoSel" value="Pas de sélection" revision="1" />
   <Message key="EncodingNotSupported" value="Encodage sélectionné n'est pas supporté par votre système d'exploitation. Assurez-vous que les fichiers nécessaires Codepage et les polices sont correctement installés." revision="1" />
   <Message key="NoEncoding" value="Votre système ne dispose pas des éléments nécessaires pour traiter l'encodage choisi. Sélectionnez un autre encodage." revision="1" />
-  <Message key="SwitchSingleSel" value="Activez l’option &quot;mode de sélection simple&quot;\ nCeci désactivera la &quot;Sélection multiple&quot;. Vous pouvez ensuite activer cette option dans le volet paramètres généraux." revision="1" />
   <Message key="Find" value="Rechercher" revision="1" />
   <Message key="A pattern was not found." value="La recherche n'a rien trouvé" revision="1" />
   <Message key="RegExpInSel" value="Rechercher une expression régulière dans une sélection n'est pas pris en charge" revision="1" />
@@ -135,16 +135,17 @@
   <Message key="Layout Page" value="Mise en page" revision="0" />
   <Message key="Font:" value="Police:" revision="0" />
   <Message key="Size:" value="Taille:" revision="0" />
+  <Message key="Density:" value="Densité:" revision="0" />
+  <Message key="Line spacing:" value="Interligne:" revision="0" />
   <Message key="Visualization elements:" value="Visualisation d'éléments " revision="0" />
   <Message key="Color:" value="Couleur:" revision="0" />
   <Message key="Automatic" value="Automatique" revision="0" />
   <Message key="Do not interlace background" value="Ne pas entrelacer l'arrière-plan" revision="0" />
-  <Message key="Interlace columns" value="Entrelacer les colonnes" revision="0" />
-  <Message key="Interlace rows" value="Entrelacer les lignes" revision="0" />
   <Message key="Draw edit cursor frame" value="Dessinez le cadre de curseur d'édition" revision="0" />
   <Message key="Smart indentation" value="Indentation intelligente" revision="0" />
   <Message key="Antialiased quality (slower)" value="Qualité anti-crénelage (plus lent)" revision="0" />
-  <Message key="Schemes…" value="Schémas…" revision="0" />
+  <Message key="File pattern:" value="Modèle de fichier:" revision="0" />
+  <Message key="Interlacing:" value="Entrelacement:" revision="0" />
   <Message key="Layout Schemes" value="Schémas de mises en page" revision="0" />
   <Message key="&amp;Save As…" value="Enregistrer sous…" revision="0" />
   <Message key="Load Selection" value="Charger sélection" revision="0" />
@@ -191,6 +192,35 @@
   <Message key="Layout settings" value="Mise en page de l'éditeur" revision="0" />
   <Message key="Encoding settings" value="Derniers encodages utilisés" revision="0" />
   <Message key="ViewSettingsDb settings" value="Paramètres par défaut de l'éditeur" revision="0" />
+  <Message key="All documents" value="Tous les documents" revision="0" />
+  <Message key="New Pattern" value="Nouveau modèle" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="Entrez l'expression régulière du nouveau modèle de fichier:" revision="0" />
+  <Message key="Pattern cue" value="Expression régulière, comme .+\.zip$" revision="1" />
+  <Message key="Pattern override prompt" value="Ce modèle existe déjà. Voulez-vous le remplacer?" revision="0" />
+  <Message key="clr.colors" value="Couleurs de l'éditeur" revision="0" />
+  <Message key="clr.colors.Text" value="Texte" revision="0" />
+  <Message key="clr.colors.Background" value="Arrière-plan" revision="0" />
+  <Message key="clr.colors.AddressText" value="Texte d'offset" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="Arrière-plan d'offset" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Texte Ascii " revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Arrière-plan d'Ascii" revision="0" />
+  <Message key="clr.colors.Even" value="Paire" revision="0" />
+  <Message key="clr.colors.Odd" value="Impaire" revision="0" />
+  <Message key="clr.colors.Empty" value="Plage vide" revision="0" />
+  <Message key="clr.colors.CursorFill" value="Remplissage du curseur" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="Course du curseur" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="Remplissage alternatif du curseur" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="Texte actif en surbrillance" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="Mise en évidence active de l'arrière-plan" revision="0" />
+  <Message key="clr.colors.ChangedText" value="Texte modifié" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="Arrière-plan du texte modifié " revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="Contour de la cellule changée" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="Arrière-plan de la sélection" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="Aperçu de la sélection " revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="Soulignement du champ actif" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="Arrière-plan de l'info-bulle" revision="0" />
+  <Message key="clr.colors.TooltipText" value="Texte de l'info-bulle" revision="0" />
+  <Message key="toolbar.Selection" value="Sélection" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Sélectionnez tout" revision="1" />
     <Item value="Sélectionnez toutes les données d'un fichier" revision="1" />
@@ -198,6 +228,22 @@
   <Enumeration key="SelectNone">
     <Item value="Désélectionner tout" revision="1" />
     <Item value="Désélectionner" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item value="Aller au début" revision="0" />
+    <Item value="Naviguer jusqu'au début du bloc sélectionné" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item value="Aller à la fin" revision="0" />
+    <Item value="Naviguer jusqu'à la fin du bloc sélectionné" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item value="Supprimer le bloc" revision="0" />
+    <Item value="Supprimer le bloc sélectionné de la sélection" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item value="Effacer la sélection" revision="0" />
+    <Item value="Supprimer tous les blocs de sélection" revision="0" />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Inverser la sélection" revision="1" />
@@ -491,6 +537,18 @@
     <Item value="Vider tous les contenus" revision="1" />
     <Item value="Video tous les contenus de la fenêtre Output" revision="1" />
   </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item value="Naviguer vers la position" revision="0" />
+    <Item value="Aller à l'offset spécifié" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item value="Ajouter une position" revision="0" />
+    <Item value="Ajouter le décalage actuel à la liste des positions mémorisées" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item value="Copier la position" revision="0" />
+    <Item value="Copier le décalage actuel dans le presse-papiers" revision="0" />
+  </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Négation (arithmétique)" revision="1" />
     <Item value="Addition (arithmétique)" revision="1" />
@@ -616,6 +674,10 @@
     <Item value="Adresses" revision="1" />
     <Item value="Longeur" revision="1" />
   </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item value="Activer l'option &quot;Mode de sélection unique&quot;" revision="2" />
+    <Item value="Cela aura pour effet de désactiver la sélection multiple. Vous pourrez ultérieurement réactiver cette option dans l'onglet Paramètres généraux." revision="2" />
+  </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Sélection multiple" revision="1" />
     <Item value="la fonctionnalité &quot;Sélection multiple&quot; permet à l'affichage du volet d'avoir plusieurs blocs de données sélectionnées et d'appliquer des commandes d'édition sur chacun d'entre elles." revision="1" />
@@ -664,28 +726,14 @@
     <Item value="ERREUR - La longueur de la clé de chiffrement doit être une puissance de 8." revision="1" />
     <Item value="ERREUR - longueur de clé invalide." revision="1" />
   </Enumeration>
-  <Enumeration key="ColorNames">
-    <Item value="Texte" revision="1" />
-    <Item value="Arrière plan" revision="1" />
-    <Item value="Adresses" revision="1" />
-    <Item value="Adresses (Arrière plan)" revision="1" />
-    <Item value="Texte ASCII/UNICODE" revision="1" />
-    <Item value="Arrière plan ASCII/UNICODE" revision="1" />
-    <Item value="Colonne / ligne paires (pour les modes entrelacés)" revision="1" />
-    <Item value="Colonne / ligne impair (pour les modes entrelacés)" revision="1" />
-    <Item value="texte &quot;No data&quot;" revision="1" />
-    <Item value="Couleur du curseur" revision="1" />
-    <Item value="Ccontour du curseur" revision="1" />
-    <Item value="Texte surlignés des colonnes &amp; lignes actives" revision="1" />
-    <Item value="Arrière plan des colonnes &amp; lignes actives et surlignés " revision="1" />
-    <Item value="Texte modifié" revision="1" />
-    <Item value="Arrière plan modifié" revision="1" />
-    <Item value="Contour modifié" revision="1" />
-    <Item value="Sélection" revision="1" />
-  </Enumeration>
   <Enumeration key="Tooltip">
     <Item value="Sélection" revision="1" />
     <Item value="Curseur" revision="1" />
     <Item value="Texte modifié" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item value="Aucun" revision="0" />
+    <Item value="Colonnes entrelacées" revision="0" />
+    <Item value="Lignes entrelacées" revision="0" />
   </Enumeration>
 </Language>

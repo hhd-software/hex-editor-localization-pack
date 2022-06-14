@@ -5,9 +5,8 @@
   <Message key="Invalid path specified" value="Chemin d'accès spécifié invalide" revision="0" />
   <Message key="ErrorCopyingFolders" value="(erreur de copie de dossiers)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Erreur de copie des fichiers suivants:" revision="0" />
-  <Message key="Loading" value="Chargement d'explorer" revision="0" />
-  <Message key="Initializing" value="Initialisation d'explorer" revision="0" />
   <Message key="Explorer settings" value="Explorer" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Précédent" revision="0" />
     <Item value="Aller à l'emplacement précédente" revision="0" />

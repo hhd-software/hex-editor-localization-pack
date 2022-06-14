@@ -7,7 +7,6 @@
   <Message key="Error" value="Erreur" revision="0" />
   <Message key="Structure Editor" value="Éditeur de structure" revision="0" />
   <Message key="Line" value="Ligne" revision="0" />
-  <Message key="StructureFormats" value="Définition de la structure des fichiers (*.h)|*.h|" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Unsaved current scheme&gt;" revision="0" />
   <Message key="Default" value="Par défaut" revision="0" />
   <Message key="SchemeDelError" value="Cette section ne peut pas être supprimé" revision="0" />

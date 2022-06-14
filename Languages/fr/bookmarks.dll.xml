@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Échantillon de texte" revision="0" />
-  <Message key="Loading" value="Chargement de  Signets" revision="0" />
-  <Message key="Initializing" value="Initialisation de Signets" revision="0" />
   <Message key="Bookmarks" value="Signets" revision="0" />
   <Message key="Progress" value=" Opération en cours. Veuillez patientez jusqu’à son achèvement." revision="0" />
   <Message key="GroupDelete" value="Ce groupe va être supprimé, (y compris tous les signets qu’il contient). Voulez-vous continuer?" revision="0" />
@@ -31,6 +28,7 @@
   <Message key="SelectionFilterString" value="Fichiers sélectionnés (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Afficher la sélection des alertes de conversion de signets" revision="1" />
   <Message key="MergeBookmarks" value="Voulez-vous fusionner avec signets existants." revision="0" />
+  <Message key="toolbar.Bookmarks" value="Signets" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nouveau groupe de signets" revision="0" />
     <Item value="Créer un nouveau groupe de favoris" revision="0" />
