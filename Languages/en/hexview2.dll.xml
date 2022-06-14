@@ -877,8 +877,8 @@
 	<Message key="clr.colors" description="Color: Editor Colors" value="Editor Colors"/>
 	<Message key="clr.colors.Text" description="Color: Text Color" value="Text" />
 	<Message key="clr.colors.Background" description="Color: Background" value="Background" />
-	<Message key="clr.colors.AddressText" description="Color: Address Text Color" value="Address text" />
-	<Message key="clr.colors.AddressBackground" description="Color: Address Background Color" value="Address background" />
+	<Message key="clr.colors.AddressText" description="Color: Address Text Color" value="Address area text" />
+	<Message key="clr.colors.AddressBackground" description="Color: Address Background Color" value="Address area background" />
 	<Message key="clr.colors.AsciiText" description="Color: Ascii Text Color" value="Ascii text" />
 	<Message key="clr.colors.AsciiBackground" description="Color: Ascii Background Color" value="Ascii background" />
 	<Message key="clr.colors.Even" description="Color: Even Color" value="Even" />
@@ -886,12 +886,12 @@
 	<Message key="clr.colors.Empty" description="Color: Empty Range Color" value="Empty range" />
 	<Message key="clr.colors.CursorFill" description="Color: Cursor fill" value="Cursor fill" />
 	<Message key="clr.colors.CursorOutline" description="Color: Cursor stroke" value="Cursor stroke" />
-	<Message key="clr.colors.AltCursorFill" description="Color: Alt cursor fill" value="Alt cursor fill" />
+	<Message key="clr.colors.AltCursorFill" description="Color: Alt cursor fill" value="Alternate cursor fill" />
 	<Message key="clr.colors.ActiveHighlightText" description="Color: Active highlight text" value="Active highlight text" />
 	<Message key="clr.colors.ActiveHighlightBackground" description="Color: Active highlight background" value="Active highlight background" />
-	<Message key="clr.colors.ChangedText" description="Color: Changed text" value="Changed text" />
-	<Message key="clr.colors.ChangedBackground" description="Color: Changed background" value="Changed background" />
-	<Message key="clr.colors.ChangedOutline" description="Color: Changed outline" value="Changed outline" />
+	<Message key="clr.colors.ChangedText" description="Color: Changed text" value="Changed cell text" />
+	<Message key="clr.colors.ChangedBackground" description="Color: Changed background" value="Changed cell background" />
+	<Message key="clr.colors.ChangedOutline" description="Color: Changed outline" value="Changed cell outline" />
 	<Message key="clr.colors.SelectionBackground" description="Color: Selection background" value="Selection background" />
 	<Message key="clr.colors.SelectionOutline" description="Color: Selection outline" value="Selection outline" />
 	<Message key="clr.colors.HoverUnderline" description="Color: Active field underline" value="Active field underline" />
