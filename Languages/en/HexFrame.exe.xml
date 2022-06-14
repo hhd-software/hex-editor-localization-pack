@@ -1179,22 +1179,22 @@
 	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
 	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
 	<Message key="clr.default_colors.hover.text" description="Color: Default UI Hover Text Color" value="Hover text" />
-	<Message key="clr.default_colors.selected.fill" description="Color: Default UI Selected Background Color" value="Selected background" />
-	<Message key="clr.default_colors.selected.stroke" description="Color: Default UI Selected Stroke Color" value="Selected stroke" />
+	<Message key="clr.default_colors.selected.fill" description="Color: Default UI Selected Background Color" value="Selection background" />
+	<Message key="clr.default_colors.selected.stroke" description="Color: Default UI Selected Stroke Color" value="Selection stroke" />
 	<Message key="clr.default_colors.selected.text" description="Color: Default UI Selected Text Color" value="Selected text" />
 	<Message key="clr.menu" description="Color: Menu Colors" value="Menu Colors" />
 	<Message key="clr.menu.background" description="Color: Menu Background Color" value="Background" />
 	<Message key="clr.menu.text" description="Color: Menu Text Color" value="Text" />
 	<Message key="clr.menu.separator" description="Color: Menu Separator Color" value="Separator" />
 	<Message key="clr.menu.disabled_text" description="Color: Menu Disabled Text Color" value="Disabled text" />
-	<Message key="clr.menu.checked" description="Color: Menu Checked Color" value="Checked background" />
-	<Message key="clr.menu.checked_disabled" description="Color: Menu Checked Disabled Color" value="Checked &amp; disabled background" />
+	<Message key="clr.menu.checked" description="Color: Menu Checked Color" value="Background of checked item" />
+	<Message key="clr.menu.checked_disabled" description="Color: Menu Checked Disabled Color" value="Background of checked &amp; disabled item" />
 	<Message key="clr.menu.hover.fill" description="Color: Menu Hover Background Color" value="Hover background" />
 	<Message key="clr.menu.hover.stroke" description="Color: Menu Hover Stroke Color" value="Hover stroke" />
 	<Message key="clr.menu.hover.text" description="Color: Menu Hover Text Color" value="Hover text" />
-	<Message key="clr.menu.disabled_hover.fill" description="Color: Menu Disabled Hover Background Color" value="Disabled hover background" />
-	<Message key="clr.menu.disabled_hover.stroke" description="Color: Menu Disabled Hover Stroke Color" value="Disabled hover stroke" />
-	<Message key="clr.menu.disabled_hover.text" description="Color: Menu Disabled Hover Text Color" value="Disabled hover text" />
+	<Message key="clr.menu.disabled_hover.fill" description="Color: Menu Disabled Hover Background Color" value="Disabled item hover background" />
+	<Message key="clr.menu.disabled_hover.stroke" description="Color: Menu Disabled Hover Stroke Color" value="Disabled item hover stroke" />
+	<Message key="clr.menu.disabled_hover.text" description="Color: Menu Disabled Hover Text Color" value="Disabled item hover text" />
 	<Message key="clr.rebar" description="Color: Rebar Colors" value="Rebar Colors" />
 	<Message key="clr.rebar.background" description="Color: Rebar Background Color" value="Background" />
 	<Message key="clr.rebar.chevron.fill" description="Color: Rebar Chevron Dot Fill Color" value="Chevron dot fill color" />
@@ -1207,11 +1207,11 @@
 	<Message key="clr.toolbar.hover.fill" description="Color: Toolbar Hover Background Color" value="Hover background" />
 	<Message key="clr.toolbar.hover.stroke" description="Color: Toolbar Hover Stroke Color" value="Hover stroke" />
 	<Message key="clr.toolbar.hover.text" description="Color: Toolbar Hover Text Color" value="Hover text" />
-	<Message key="clr.toolbar.pressed.fill" description="Color: Toolbar Pressed Background Color" value="Pressed background" />
-	<Message key="clr.toolbar.pressed.stroke" description="Color: Toolbar Pressed Stroke Color" value="Pressed stroke" />
-	<Message key="clr.toolbar.pressed.text" description="Color: Toolbar Pressed Text Color" value="Pressed text" />
-	<Message key="clr.toolbar.disabled_pressed.fill" description="Color: Toolbar Disabled Pressed Background Color" value="Disabled pressed background" />
-	<Message key="clr.toolbar.disabled_pressed.stroke" description="Color: Toolbar Disabled Pressed Stroke Color" value="Disabled pressed stroke" />
+	<Message key="clr.toolbar.pressed.fill" description="Color: Toolbar Pressed Background Color" value="Background of pressed item" />
+	<Message key="clr.toolbar.pressed.stroke" description="Color: Toolbar Pressed Stroke Color" value="Stroke of pressed item" />
+	<Message key="clr.toolbar.pressed.text" description="Color: Toolbar Pressed Text Color" value="Text of pressed item" />
+	<Message key="clr.toolbar.disabled_pressed.fill" description="Color: Toolbar Disabled Pressed Background Color" value="Background of pressed and disabled item" />
+	<Message key="clr.toolbar.disabled_pressed.stroke" description="Color: Toolbar Disabled Pressed Stroke Color" value="Stroke of pressed and disabled item" />
 	<Message key="clr.frame" description="Color: Frame Colors" value="Frame Colors" />
 	<Message key="clr.frame.frame.background" description="Color: Frame Background Color" value="Background" />
 	<Message key="clr.frame.frame.client_background" description="Color: Frame Client Background Color" value="Client background" />
@@ -1272,4 +1272,5 @@
 	<Message key="Structure definition files" description="Structure definition files"/>
 	<Message key="Kaitai definition files" description="Kaitai definition files"/>
 	<Message key="Sample Text" description="Sample Text"/>
+	<Message key="Default" description="Default (button, item, choice)" />
 </Definition>

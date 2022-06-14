@@ -26,7 +26,6 @@
   <Message key="Structure Editor" description="Editor Title"/>
   <Message key="Line" description="Line"/>
   <Message key="UnsavedScheme" description="Unsaved Scheme Title" value="&lt;Unsaved current scheme&gt;" />
-  <Message key="Default" description="Default Scheme Title" value="Default" />
   <Message key="SchemeDelError" description="Scheme delete error" value="This scheme cannot be deleted" />
   <Message key="Coloring" description="Coloring title" value="Coloring" />
 

@@ -121,7 +121,6 @@
   <Message key="Background:" description="Field: Background:"/>
   <Message key="Outline:" description="Field: Outline"/>
   <Message key="Round edges" description="Checkbox: Round edges"/>
-  <Message key="Default" description="Button: Default"/>
 
   <Message key="BookmarksFilterString" description="Bookmarks filter string" value="Bookmark Files (*.hexbook)|*.hexbook|">
     <Validate rule="OpenFileDialogFilter"/>
