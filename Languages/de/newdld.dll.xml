@@ -23,6 +23,7 @@
   <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo speichert das eingegebene Passwort sicher in Ihrem lokalen Benutzerkonto)" revision="0" />
   <Message key="PasswordMismatch" value="Beide eingegebenen Passwörter müssen übereinstimmen." revision="0" />
   <Message key="Downloader settings" value="Proxy Einstellungen" revision="0" />
+  <Message key="toolbar.Downloader" value="Downloader" revision="0" />
   <Enumeration key="MenuDownloader">
     <Item value="&amp;Downloader" revision="0" />
     <Item value="Downloader" revision="0" />

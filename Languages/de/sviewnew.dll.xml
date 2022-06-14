@@ -103,6 +103,7 @@
   <Message key="UntrustedEditor" value="Sie sind dabei die nicht vertrauenswürdige externe Editoranwendung mit folgendem Programmaufruf zu starten:\r\n\r\n{path}\r\n\r\nWollen Sie fortfahren? Wenn sie JA drücken wird diese Anwendung als vertrauenswürdig markiert." revision="0" />
   <Message key="TypeExists" value="Der Typ mit dem selben Namen besteht bereits." revision="0" />
   <Message key="StructureFileNotFound" value="Datei {file} wurde nicht gefunden unter &quot;{path}&quot;. Wollen Sie die Datei aus der Bibliothek löschen?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Struktur Betrachter" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Verknüpfen… " revision="0" />
     <Item value="Verknüpft (bzw. verbindet) eine neue Struktur" revision="0" />
@@ -228,8 +229,8 @@
     <Item value="Öffnet die Strukturdefinitionsdatei mit der aktuellen Felddefinition" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoValueDef">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Wert" revision="1" />
+    <Item value="Gehe zu dem durch den Wert definierten Offset" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Qualifizierter Name kopieren" revision="1" />
@@ -320,24 +321,24 @@
     <Item value="Benutzerdefinierte Typen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="Neue S&amp;trukturdatei" revision="0" />
+    <Item value="Leere Strukturdefinitionsdatei erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewKaitaiFile">
-    <Item />
-    <Item />
+    <Item value="Neue &amp;Kaitai Datei" revision="0" />
+    <Item value="Leere Kaitai Definitionsdatei erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Strukturdatei öffnen..." revision="0" />
+    <Item value="Strukturdefinitionsdatei öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">
-    <Item />
-    <Item />
+    <Item value="&amp;Aktuelle Strukturdatei hinzufügen" revision="0" />
+    <Item value="Hinzufügen der aktiven Strukturdefinitionsdatei zur Bibliothek" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Strukturdatei hinzufügen…" revision="0" />
-    <Item value="Fügt eine vorhandene Strukturdefinitions Datei der Bibliothek hinzu" revision="0" />
+    <Item value="&amp;Strukturdatei(en) hinzufügen…" revision="1" />
+    <Item value="Fügt eine vorhandene Strukturdefinitions Datei der Bibliothek hinzu" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="&amp;Alle Strukturdateien speichern" revision="0" />

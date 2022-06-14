@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PrivilegeNotGained" value="Begrenzter Satz von Prozessen in der Prozessliste" revision="1" />
-  <Message key="RegionInfo" value="Bereichsbasis: {base} ({base:2})\rBereichsende: {end} ({end:2})\rBereichsgröße: {size} ({size:2})\rTyp: {type}\rStatus: {state}\rFlags: {flags}" revision="1" />
+  <Message key="RegionInfo" value="[[[uProzessspeicherbereich]]]\r  [[[bBereichsbasis:]]] {base} ({base:2})\r  [[[bBereichsende:]]] {end} ({end:2})\r  [[[bBereichsgröße:]]] {size} ({size:2})\r  [[[bTyp:]]] {type}\r  [[[bStatus:]]] {state}\r  [[[bFlags:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Unbekannt" revision="1" />
   <Message key="No process selected" value="Kein Prozess ausgewählt" revision="1" />
   <Message key="Specify a range using a list of blocks or a list of modules." value="Gebe einen Bereich mit einer Liste von Blöcken oder einer Liste von Modulen an." revision="1" />
@@ -24,6 +24,12 @@
   <Message key="Read/Write" value="Lesen/Schreiben:" revision="1" />
   <Message key="Copy on Write" value="Kopieren beim Schreiben:" revision="1" />
   <Message key="Free" value="Frei:" revision="1" />
+  <Message key="clr.pex_colors" value="&quot;Offener Prozess&quot; Farben" revision="0" />
+  <Message key="clr.pex_colors.NoAccess" value="Region &quot;Kein Zugang&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Region &quot;Nur Lesen&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Region &quot;Lesen/Schreiben&quot;" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Kopieren im Schreibbereich" revision="0" />
+  <Message key="clr.pex_colors.Free" value="&quot;Freie&quot; Region" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="P&amp;rozess öffnen…" revision="1" />
     <Item value="Öffnet einen Prozessspeicher für Lesen und Schreiben" revision="1" />

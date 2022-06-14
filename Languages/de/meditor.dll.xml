@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="ScriptingGoToDefinition">
-    <Item />
-    <Item />
+    <Item value="Zur Definition" revision="0" />
+    <Item value="Öffnen Sie die Bezeichnerdefinition" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingPeekDefinition">
-    <Item />
-    <Item />
+    <Item value="Peek-Definition" revision="0" />
+    <Item value="Definition des Peek-Kennzeichens" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFindAllReferences">
-    <Item />
-    <Item />
+    <Item value="Alle Referenzen finden" revision="0" />
+    <Item value="Suche nach allen Verweisen auf einen Bezeichner" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Symbol..." revision="0" />
+    <Item value="Zur Symboldefinition navigieren" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">
-    <Item />
-    <Item />
+    <Item value="Alle Vorkommnisse ändern" revision="0" />
+    <Item value="Alle Vorkommen eines Symbols ändern" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFormatDocument">
-    <Item />
-    <Item />
+    <Item value="Dokument formatieren" revision="0" />
+    <Item value="Gesamtes Dokument formatieren" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingCommandPalette">
-    <Item />
-    <Item />
+    <Item value="Befehlspalette" revision="0" />
+    <Item value="Editor-Befehlspalette öffnen" revision="0" />
   </Enumeration>
 </Language>

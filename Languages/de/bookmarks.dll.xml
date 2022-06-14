@@ -27,6 +27,7 @@
   <Message key="SelectionFilterString" value="Auswahl-Dateien (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Zeigt Konvertierungswarnung von Auswahl zu Lesezeichen " revision="1" />
   <Message key="MergeBookmarks" value="Mit existierenden Lesezeichen zusammenführen?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="Lesezeichen" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Neue Lesezeichen Gruppe" revision="0" />
     <Item value="Erzeugt eine neue Lesezeichen Gruppe" revision="0" />

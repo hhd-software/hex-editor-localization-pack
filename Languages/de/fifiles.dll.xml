@@ -32,6 +32,7 @@
   <Message key="Move Down" value="Nach unten" revision="1" />
   <Message key="Folder list:" value="Ordnerliste:" revision="1" />
   <Message key="All opened documents" value="Alle geöffneten Dokumente" revision="0" />
+  <Message key="toolbar.FindInFiles" value="In Dateien suchen" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="öffnen" revision="1" />
     <Item value="speichern" revision="1" />

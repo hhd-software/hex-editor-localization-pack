@@ -1,2 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" />
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="Keine Metadaten gefunden" revision="0" />
+  <Message key="FileNotFound" value="Datei nicht gefunden: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Typ nicht gefunden: {type}" revision="0" />
+  <Message key="IdNotFound" value="Id nicht gefunden: {type}" revision="0" />
+  <Message key="CastError" value="Kann nicht Typ {src_type} bis {dst_type} werfen" revision="0" />
+  <Message key="BitwiseOpError" value="Unzulässiger Typ für den linken Operanden einer bitweisen Operation. Muss eine ganze Zahl sein." revision="0" />
+  <Message key="MethodNotFound" value="Die Methode gibt es nicht." revision="0" />
+  <Message key="ResultNotANumber" value="Das Ergebnis von 'repeat-expr' ist keine Zahl." revision="0" />
+  <Message key="InvalidArgument" value="Ungültiges Argument" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Ungültige Anzahl von Argumenten. Geschätzt: {est}, erhalten: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="Es darf nur eines von 'size' oder 'size-eos' angegeben werden." revision="0" />
+  <Message key="NoRepeatError" value="Kein Ausdruck im Block 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="Kein Ausdruck im Block 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="Die Halterung ist nicht richtig geschlossen." revision="0" />
+  <Message key="CannotMatch" value="Wert '{value}' kann nicht mit Werten des Typs '{type}' übereinstimmen" revision="0" />
+  <Message key="ContentsError" value="Muss ein Array von Bytes oder eine Zeichenkette sein" revision="0" />
+  <Message key="ParsingError" value="Parsing-Fehler. Erwartet: {est} bei {fact}" revision="0" />
+  <Message key="PathNotFound" value="Pfad nicht gefunden: {path}" revision="0" />
+  <Message key="NotAScope" value="Kein Bereich" revision="0" />
+  <Message key="UnknownParam" value="Unbekannter Parametertyp: {type}" revision="0" />
+  <Message key="WrongEndian" value="Unbekannter Endian-Typ im Meta-Feld '{field}'. Muss 'be' oder 'le' sein" revision="0" />
+</Language>

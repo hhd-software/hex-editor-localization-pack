@@ -33,7 +33,7 @@
   <Message key="SaveErrors" value="Folgende Fehler traten auf bei der Sicherung:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Das aktuelle Dokument wurde verändert. Wollen Sie es speichern?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Alle Dateien|*|" revision="1" />
-  <Message key="AllSupportedFormats" value="Alle unterstützten Dokumente ({mask})|{mask}|" revision="1" />
+  <Message key="AllSupportedFormats" value="Alle unterstützten Dokumente" revision="2" />
   <Message key="NoLoadHandlersRegistered" value="Die Anwendung ist nicht richtig installiert. Bitte installieren Sie die Anwendung erneut." revision="1" />
   <Message key="OldCommonControls" value="Alte versionen von Gemeinsamen Controls entdeckt. Bitte den aktuellen Service Pack und Internet Explorer für Ihr Betriebsystem installieren. Die Anwendung wird nun beendet." revision="1" />
   <Message key="Loading" value="Lade" revision="1" />
@@ -50,7 +50,7 @@
   <Message key="VolumeOpenError" value="Fehler beim Öffnen des Volumes: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Editor-Fenster (Bearbeitungsfenster) kann nicht initialisiert werden." revision="1" />
   <Message key="NoEditorsFoundError" value="Es konnten keine Bearbeitungsprogramme für diese Datei gefunden werden." revision="1" />
-  <Message key="ToolsFilter" value="Konfigurationsdateien  (*.hexdwc)|*.hexdwc|" revision="1" />
+  <Message key="ToolsFilter" value="Konfigurationsdateien (*.hexdwc7)|*.hexdwc7|" revision="2" />
   <Message key="Printing" value="Drucken" revision="1" />
   <Message key="ActivatePane" value="Aktiviere {pane} Fenster" revision="1" />
   <Message key="New Document N" value="Neues Dokument {ordinal}" revision="1" />
@@ -59,6 +59,7 @@
   <Message key="MediaRemoved" value="Hex Editor Neo konnte auf die folgenden Dokumente nicht zugreifen und musste sie schließen. Alle Änderungen dieser Dokumente können verlorengegangen sein:\r\n{document list}\r\n\r\nUm in der Zukunft Datenverlust zu vermeiden sollten die Dokumente geschlossen werden, bevor Wechselmedien entfernt werden." revision="1" />
   <Message key="Activate this window" value="Aktiviere dieses Fenster" revision="1" />
   <Message key="Settings" value="Einstellungen" revision="1" />
+  <Message key="Search settings" value="Sucheinstellungen" revision="0" />
   <Message key="ElevationError" value="Privilege konnten nicht angehoben werden. Fehlermeldung: {error}" revision="1" />
   <Message key="ElevationErrorTitle" value="Fehler bei Prozessanhebung" revision="1" />
   <Message key="This toolbar cannot be deleted." value="Diese Werkzeugleiste kann nicht gelöscht werden." revision="1" />
@@ -68,11 +69,19 @@
   <Message key="Toolbar already exists" value="Die Werkzeugleiste mit diesem Namen existiert bereits." revision="1" />
   <Message key="All commands" value="Alle Kommandos" revision="1" />
   <Message key="Commands Page" value="Kommandos/Werkzeugleisten" revision="1" />
-  <Message key="Toolbars" value="Werkzeugleiste:" revision="1" />
+  <Message key="Toolbars" value="Werkzeugleiste:" revision="2" />
   <Message key="New" value="&amp;Neu" revision="1" />
   <Message key="Delete" value="&amp;Löschen" revision="1" />
   <Message key="Button size" value="Schaltflächen Größe:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="Kommando wählen um seine Beschreibung anzuzeigen oder es auf eine Werkzeugleiste zu ziehen:" revision="1" />
+  <Message key="New Group" value="Neue &amp;Gruppe" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Hinzufügen" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Entfernen &gt;" revision="0" />
+  <Message key="Move Up" value="Bewegen Au&amp;fwärts" revision="0" />
+  <Message key="Move Down" value="Bewegen A&amp;bwärts" revision="0" />
+  <Message key="Clear" value="&amp;Löschen" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Clip Werkzeugleiste" revision="0" />
+  <Message key="Wrap toolbars" value="Werkzeugleiste &amp;Umbrechen" revision="0" />
   <Message key="Keyboard" value="Tastatur" revision="1" />
   <Message key="MaxShortcuts" value="Sie können nicht mehr als 5 Tastaturkürzel zu einem Kommando zuordnen." revision="1" />
   <Message key="ShortcutExists" value="Dieses Tastaturkürzel ist schon zugeordnet für {command}. Möchten Sie es neu definieren?" revision="1" />
@@ -89,6 +98,7 @@
   <Message key="Keyboard Map Dialog" value="Tastaturbelegung" revision="1" />
   <Message key="Print" value="&amp;Drucken" revision="1" />
   <Message key="General" value="Allgemein" revision="1" />
+  <Message key="HideToolWindows" value="Werkzeugfenster ausblenden" revision="0" />
   <Message key="AlwaysCreateBackups" value="Immer Sicherungskopien machen" revision="1" />
   <Message key="LowercaseHex" value="Hexadezimal mit Kleinbuchstaben" revision="1" />
   <Message key="ConvertFloatingPoint" value="Wechsel der Byte Reihenfolge wirkt sich auf die Gleitkomma Typen aus" revision="1" />
@@ -127,6 +137,8 @@
   <Message key="Reset All" value="A&amp;lles zurücksetzen" revision="1" />
   <Message key="Copy" value="&amp;Kopie" revision="1" />
   <Message key="Continue" value="&amp;Fortfahren" revision="1" />
+  <Message key="Import" value="&amp;Importieren…" revision="0" />
+  <Message key="Export" value="&amp;Exportieren..." revision="0" />
   <Message key="KB" value="KB" revision="1" />
   <Message key="MB" value="MB" revision="1" />
   <Message key="GB" value="GB" revision="1" />
@@ -144,9 +156,9 @@
   <Message key="Windows Title" value="Fenster" revision="1" />
   <Message key="Save" value="Sichern" revision="1" />
   <Message key="Close Window(s)" value="Fenster schließen" revision="1" />
-  <Message key="AboutInfo" value="HHD Software {product}{x64?} (x64 edition) {?x64}\n{edition}. Version {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nAlle Rechte vorbehalten." revision="4" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Version {major}.{minor}.{revision}.{build}]]]\n{registered?}Registriert für: [[[b{user}]]] ({commercial?}[[[hKommerziell/Gov/Mil]]]{|commercial}[[[hPrivat/Bildungswesen]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAlle Rechte vorbehalten.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
   <Message key="AboutBoxDisclaimer" value="Warnung: Dieses Computerprogramm ist durch Copyright Gesetze und internationale Abhandlungen geschützt. Nicht genehmigte Reproduktion oder Verteilung dieses Programmes, oder Teile davon, können zu schweren zivilen und strafrechtlichen Strafen führen und werden bis zum gesetzlichen Maximum verfolgt." revision="1" />
-  <Message key="About Hex Editor Neo" value="Über Hex Editor Neo" revision="1" />
+  <Message key="About Hex Editor Neo" value="Über {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Voreingestelltes Layout der Benutzerschnittstelle wählen" revision="1" />
   <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Voreinstellung der Benutzeroberfläche auswählen. Anpassen auch unter 'Ansicht » Vordefinierte Layouts'." revision="1" />
   <Message key="Novice user" value="Anfänger" revision="1" />
@@ -159,8 +171,8 @@
   <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="Die Funktion die Sie benutzen wollen ist in der aktuellen Edition nicht verfügbar.\r\nWählen Sie eine Aktion um fortzufahren:" revision="1" />
   <Message key="New Toolbar" value="Neue Werkzeugleiste" revision="1" />
   <Message key="Enter toolbar name" value="Werkzeugleistennamen eingeben:" revision="1" />
-  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Für nicht kommerzielle oder schulische Verwendung. Siehe &lt;a&gt;Usage Policy&lt;/a&gt; für weitere Informationen." revision="1" />
-  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Für kommerzielle, militärische oder staatliche Verwendung ist ein &lt;a&gt;Upgrade&lt;/a&gt; notwendig." revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Für nicht kommerzielle oder schulische Verwendung. Siehe [[[hUsage Policy]]] für weitere Informationen." revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Für kommerzielle, militärische oder staatliche Verwendung ist ein [[[hUpgrade]]] notwendig." revision="2" />
   <Message key="Do not display this warning anymore" value="Diese Warnung nicht mehr anzeigen" revision="1" />
   <Message key="Save changes to selected documents" value="Speichere Änderungen in ausgewählten Dokumenten:" revision="1" />
   <Message key="Tasks Page" value="Aufgaben" revision="1" />
@@ -204,6 +216,7 @@
   <Message key="Outline" value="Umrisslinie" revision="0" />
   <Message key="Coloring Schemes" value="Farbschema" revision="0" />
   <Message key="Auto Hide" value="Automatisch ausblenden" revision="0" />
+  <Message key="Window list" value="Fensterliste" revision="0" />
   <Message key="Switch Window" value="Fenster wechseln" revision="0" />
   <Message key="Active Tool Windows" value="Aktives Werkzeugfenster" revision="0" />
   <Message key="Active Documents" value="Aktive Dokumente" revision="0" />
@@ -247,15 +260,22 @@
   <Message key="Language pack storage location" value="Sprachpaket Speicherort" revision="0" />
   <Message key="License Upgrade Notification" value="Hex Editor Neo hat eine Lizenz einer früheren Version entdeckt. Die Lizenz kann nicht automatisch höhergestuft werden. Sie müssen sich in &quot;My Account&quot; einloggen, um eine Upgrade-Lizenz herunterzuladen (abhängig von Ihren anfänglichen Kaufoptionen können zusätzliche Kosten entstehen).\n\nWollen sie nun zu &quot;My Account&quot; wechseln?" revision="0" />
   <Message key="CSVFiles" value="CSV Dateien (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="Themen-Dateien (*.hextheme)|*.hextheme||" revision="0" />
   <Message key="Rocket settings" value="Werkzeugfenster Layout (incl. Werkzeugleisten)" revision="0" />
   <Message key="Bars settings" value="Werkzeugleisten Layout" revision="0" />
   <Message key="Windows settings" value="Fensterposition der Dialoge" revision="0" />
   <Message key="MRU settings" value="Am häufigsten verwendete Dokumente" revision="0" />
+  <Message key="Theme settings" value="Thema" revision="0" />
   <Message key="Props settings" value="Allgemeine Einstellungen" revision="0" />
   <Message key="Language settings" value="Spracheinstellungen" revision="0" />
-  <Message key="Setting files" value="Einstellungen (*.hexset)|*.hexset|Alle Dateien|*|" revision="0" />
+  <Message key="Setting files" value="Einstellungen (*.hexset7)|*.hexset7|" revision="1" />
   <Message key="Export successful" value="Einstellungen wurden erfolgreich in die Datei geschrieben." revision="0" />
   <Message key="Import successful" value="Einstellungen wurden erfolgreich importiert." revision="0" />
+  <Message key="toolbar.Standard" value="Standard" revision="0" />
+  <Message key="toolbar.Edit" value="Bearbeiten" revision="0" />
+  <Message key="toolbar.Language" value="Sprache" revision="0" />
+  <Message key="toolbar.New" value="Neu" revision="0" />
+  <Message key="toolbar.Open" value="Öffnen" revision="0" />
   <Message key="Settings Page" value="Einstellungen" revision="0" />
   <Message key="Settings Storage Location" value="Speicherort der Einstellungen" revision="0" />
   <Message key="Settings Management" value="Verwaltung der Einstellungen" revision="0" />
@@ -291,6 +311,102 @@
   <Message key="Minidump description" value="Minidumps haben normalerweise eine Größe von weniger als einem Megabyte und enthalten nur begrenzte Informationen über einen Absturz. Manchmal reicht ein Minidump aus, um das Problem zu diagnostizieren, aber häufig fehlen die erforderlichen Informationen, um den Absturz zu reproduzieren." revision="0" />
   <Message key="Full dump description" value="Vollständige Speicherauszüge enthalten die komprimierte Ansicht des gesamten Prozessadressraums. Sie sind am besten geeignet, um Entwicklern zu ermöglichen, die Situation, die den Absturz verursacht hat, zu reproduzieren und so schnell wie möglich zu beheben. Die Größe eines vollständigen Speicherauszugs kann jedoch leicht Hunderte von Megabyte erreichen." revision="0" />
   <Message key="Privacy Policy" value="Datenschutz-Bestimmungen" revision="0" />
+  <Message key="Volume access denied" value="Beim Versuch, Volume-Informationen abzufragen, wurde ein Fehler &quot;Zugriff verweigert&quot; festgestellt. Versuchen Sie, Hex Editor Neo als Administrator neu zu starten." revision="0" />
+  <Message key="NA" value="N/V" revision="0" />
+  <Message key="Open Device" value="Gerät öffnen" revision="0" />
+  <Message key="Enter the device path to open:" value="Geben Sie den Gerätepfad zum Öffnen ein:" revision="0" />
+  <Message key="Open device as:" value="Gerät öffnen als:" revision="0" />
+  <Message key="Auto" value="Auto" revision="0" />
+  <Message key="Physical disk" value="Physischen datenträger" revision="0" />
+  <Message key="Volume" value="Volume" revision="0" />
+  <Message key="Value is out of range" value="Der angegebene Wert liegt außerhalb des Bereichs" revision="0" />
+  <Message key="GenericError" value="Fehler bei der Ausführung der Operation: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="Standardfarben der Benutzeroberfläche" revision="0" />
+  <Message key="clr.default_colors.background" value="Hintergrund" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Hintergrund der Kontrolle" revision="0" />
+  <Message key="clr.default_colors.text" value="Text/vordergrund" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Hintergrund der Auswahl" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Auswahl Strich" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Ausgewählter Text" revision="0" />
+  <Message key="clr.menu" value="Menü Farben" revision="0" />
+  <Message key="clr.menu.background" value="Hintergrund" revision="0" />
+  <Message key="clr.menu.text" value="Text" revision="0" />
+  <Message key="clr.menu.separator" value="Trennlinie" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.menu.checked" value="Hintergrund des geprüften Artikels" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Hintergrund der geprüften und deaktivierten Artikel" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.menu.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Deaktivierter Element-Hover-Hintergrund" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Deaktivierter Element-Hover-Strich" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Deaktivierter Hover Text" revision="0" />
+  <Message key="clr.rebar" value="Infoleiste Farben" revision="0" />
+  <Message key="clr.rebar.background" value="Hintergrund" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Chevronpunkt-Füllfarbe" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Chevronpunkt-Strichfarbe" revision="0" />
+  <Message key="clr.toolbar" value="Farben der Werkzeugleiste" revision="0" />
+  <Message key="clr.toolbar.background" value="Hintergrund" revision="0" />
+  <Message key="clr.toolbar.text" value="Text" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.toolbar.separator" value="Trennlinie" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Hintergrund der Drucksache" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Strich des gedrückten Artikels" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Text des gedrückten Elements" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Hintergrund des gedrückten und deaktivierten Elements" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Strich des gedrückten und deaktivierten Elements" revision="0" />
+  <Message key="clr.frame" value="Rahmen Farben" revision="0" />
+  <Message key="clr.frame.frame.background" value="Hintergrund" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Hintergrund des Client" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Hintergrund des Dokumentenrahmens" revision="0" />
+  <Message key="clr.frame.frame.border" value="Rahmen" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Inaktiver Kopfzeilenhintergrund" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Inaktiver Kopfzeilentext/strich" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Aktiver Kopfzeilenhintergrund" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Aktiver Kopfzeilentext/strich" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.frame.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.frame.title_text" value="Text des Titels" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Schatten des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.background" value="Hintergrund des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Navigationssymbol hervorheben" revision="0" />
+  <Message key="clr.frame.nav.header" value="Kopfzeile des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Rahmen des Navigationssymbols" revision="0" />
+  <Message key="Settings group.Visual" value="Visuell" revision="0" />
+  <Message key="Settings group.User Interface" value="Benutzeroberfläche" revision="0" />
+  <Message key="Settings group.Network" value="Netzwerk &amp; Support" revision="0" />
+  <Message key="Settings group.Editor" value="Binärer Editor" revision="0" />
+  <Message key="Settings group.Misc" value="Sonstiges" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="Struktur Betrachter" revision="0" />
+  <Message key="Colors Page" value="Themen" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Geben Sie den Namen des Schemas ein und drücken Sie die Schaltfläche Speichern" revision="0" />
+  <Message key="ColorSchemeExists" value="Das Farbschema existiert bereits. Möchten Sie es außer Kraft setzen?" revision="0" />
+  <Message key="Theme:" value="Themen:" revision="0" />
+  <Message key="Display elements:" value="Elemente anzeigen:" revision="0" />
+  <Message key="Automatic" value="Automatisch" revision="0" />
+  <Message key="Current" value="Aktuell" revision="0" />
+  <Message key="Selected" value="Ausgewählt" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Die automatische Farbe ist abhängig vom aktuellen Farbschema des Betriebssystems." revision="0" />
+  <Message key="&amp;Open" value="&amp;Öffnen" revision="0" />
+  <Message key="Novice User Layout" value="Layout für Einsteiger" revision="0" />
+  <Message key="Advanced User Layout" value="Layout für Fortgeschrittener Benutzer" revision="0" />
+  <Message key="Expert User Layout" value="Layout für Experte Benutzer" revision="0" />
+  <Message key="Free Hex Editor Layout" value="Freies Hex Editor Layout" revision="0" />
+  <Message key="Open as binary" value="Binäre Dateien" revision="0" />
+  <Message key="Open Recent" value="Öffnen {item}" revision="0" />
+  <Message key="Structure definition files" value="Struktur-Definitionsdateien" revision="0" />
+  <Message key="Kaitai definition files" value="Kaitai-Definitionsdateien" revision="0" />
+  <Message key="Sample Text" value="Mustertext" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Physikalische Festplatte" revision="2" />
     <Item value="Größe" revision="2" />
@@ -372,8 +488,8 @@
     <Item value="Datei" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Neu" revision="0" />
+    <Item value="Neue Menügruppe" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Öffnen" revision="0" />
@@ -524,8 +640,8 @@
     <Item value="Schließt aktives Dokument" revision="1" />
   </Enumeration>
   <Enumeration key="FileCloseAll">
-    <Item value="&amp;Alle schließen" revision="1" />
-    <Item value="Schließt alle geöffneten Dokumente" revision="1" />
+    <Item value="&amp;Alle schließen" revision="2" />
+    <Item value="Schließt alle geöffneten Dokumente" revision="2" />
   </Enumeration>
   <Enumeration key="FileExit">
     <Item value="&amp;Beenden" revision="1" />
@@ -668,8 +784,8 @@
     <Item value="Öffnet eine physikalische Festplatte" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
-    <Item />
-    <Item />
+    <Item value="Öffnen &amp;Gerät..." revision="1" />
+    <Item value="Gerät über den vom Benutzer angegebenen Pfad öffnen" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="A&amp;lle speichern" revision="1" />
@@ -712,13 +828,13 @@
     <Item value="Öffnet Dateien im Mode für gemeinsamen Zugriff." revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Unbekannt" revision="1" />
-    <Item value="Freie Edition" revision="1" />
-    <Item value="Testzeitraum hat begonnen" revision="1" />
-    <Item value="Freie Edition" revision="1" />
-    <Item value="Standard Edition" revision="1" />
-    <Item value="Professional Edition" revision="1" />
-    <Item value="Ultimate Edition" revision="1" />
+    <Item value="Unbekannter Produktstatus" revision="2" />
+    <Item value="Freie Edition" revision="2" />
+    <Item value="Testzeitraum hat begonnen" revision="2" />
+    <Item value="Freie Edition" revision="2" />
+    <Item value="Standard Edition" revision="2" />
+    <Item value="Professional Edition" revision="2" />
+    <Item value="Ultimate Edition" revision="2" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Prüfung auf Updates…" revision="1" />

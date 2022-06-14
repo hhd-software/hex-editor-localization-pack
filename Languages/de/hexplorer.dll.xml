@@ -6,6 +6,7 @@
   <Message key="ErrorCopyingFolders" value="(Fehler beim Kopieren von Ordnern)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Fehler beim Kopieren folgender Dateien:" revision="0" />
   <Message key="Explorer settings" value="Explorer" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Zurück" revision="0" />
     <Item value="Gehe zu vorherigem Ordner zurück" revision="0" />

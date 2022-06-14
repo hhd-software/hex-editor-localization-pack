@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Unbekannter Dateieintrag" revision="0" />
   <Message key="FilenameAttributeError" value="Fehler beim Durchsuchen der Dateiattribute für Rekord {record}" revision="0" />
   <Message key="CopyFileError" value="Fehler beim Kopieren der Datei &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Das Kopieren von spärlichen, komprimierten oder verschlüsselten Dateien ist noch nicht implementiert: &quot;{filename}&quot;" revision="0" />
   <Message key="WriteFileError" value="Fehler beim Schreiben der Datei: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Nicht genügend Speicherplatz auf der Ziel-Festplatte um &quot;{filename}&quot; zu kopieren. Es wird mindestens {filesize} freier Speicherplatz benötigt." revision="0" />
   <Message key="CopyWarning" value="Datei &quot;{filename}&quot; existiert bereits. Wollen Sie sie überschreiben oder überspringen?" revision="0" />
@@ -41,6 +42,7 @@
   <Message key="CSFileNotFound" value="Strukturdatei &quot;{filename}&quot; nicht gefunden." revision="0" />
   <Message key="CSRootNotFound" value="Wurzelverzeichnis / Wurzelstruktur {name} nicht gefunden." revision="0" />
   <Message key="CSBindVolumeError" value="Fehler beim Durchsuchen des Volume. Schema &quot;{name}&quot;, Fehler: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Partition[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Ungültiger PrivHead Header." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Ungültiger TocBlock Header." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Ungültiger Vmdb Header." revision="0" />
@@ -54,6 +56,7 @@
   <Message key="Root structure:" value="Wurzelstruktur:" revision="0" />
   <Message key="Directory entry structure:" value="Verzeichniseintrag Struktur:" revision="0" />
   <Message key="File entry structure:" value="Dateieintrag Struktur:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Volumen-Navigator" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="Bytes" revision="0" />
     <Item value="KB" revision="0" />
@@ -109,14 +112,14 @@
     <Item value="Volume Navigator durchsucht und zeigt die Volume Dateistruktur an; hilft den Speicherort von Dateien zu finden und beschädigte Dateien und Verzeichnisse wieder herzustellen." revision="1" />
   </Enumeration>
   <Enumeration key="Partitions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unbekannt" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Nicht zugeordnet" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

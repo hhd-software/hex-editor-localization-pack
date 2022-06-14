@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Sind Sie sicher, dass Sie diese Operation abbrechen möchten? Das wird die Datei beschädigen." revision="1" />
   <Message key="OccFound" value="{N} Vorkommen bis jetzt gefunden." revision="1" />
-  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo 5 Kopiert Daten" revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo Kopiert Daten" revision="3" />
   <Message key="DefaultBranchName" value="Standard" revision="1" />
   <Message key="Continue working with a file." value="Fortfahren mit der Datei zu arbeiten." revision="1" />
   <Message key="Discard all changes and close the file." value="Alle Änderungen verwerfen und die Datei schließen." revision="1" />
@@ -50,6 +50,7 @@
   <Message key="SnapshotTitle" value="Von Schnappschuss öffnen" revision="0" />
   <Message key="SnapshotDescription" value="Hex Editor Neo kann &quot;{path}&quot; nicht öffnen wegen folgendem Fehler:\r\n    » {text} ({code})\r\n\r\nWollen Sie einen Volume Schnappschuss erzeugen und die Datei aus dem Schnappschuss öffnen?" revision="0" />
   <Message key="RegExp settings" value="Reguläre Ausdrücke" revision="0" />
+  <Message key="Shortcut files" value="Verknüpfte Dateien" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignoriere Änderungen" revision="1" />
     <Item value="Schließe die Datei" revision="1" />

@@ -96,6 +96,7 @@
   <Message key="Search" value="Suchen" revision="0" />
   <Message key="Jump" value="Springen" revision="0" />
   <Message key="string" value="Zeichenkette" revision="0" />
+  <Message key="ExportOp" value="Exportieren disassemblierter Anweisungen…" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Disassembler starten…" revision="0" />
     <Item value="Disassembliert eine ausführbare Datei" revision="0" />

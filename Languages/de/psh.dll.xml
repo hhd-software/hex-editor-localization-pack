@@ -34,12 +34,12 @@
   <Message key="Error writing to the file" value="Fehler beim Schreiben in die Datei" revision="0" />
   <Message key="Error reading from the file" value="Fehler beim Lesen aus der Datei" revision="0" />
   <Message key="Select Colors" value="Farben auswählen" revision="0" />
-  <Message key="PColFilter" value="Muster Farbschema Dateien (.*pcs)|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="Muster Farbschema Dateien|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Das aktuelle Schema wird verloren gehen. Wollen Sie fortfahren?" revision="0" />
   <Message key="The file has different version" value="Die Datei hat verschiedene Versionen" revision="0" />
   <Message key="Clear Coloring Scheme" value="Farbschema löschen" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="Aktuelles Element wird entfernt. Wollen Sie fortfahren?" revision="0" />
-  <Message key="RuleFmt" value="Muster Einfärberegel  {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[uMuster Einfärberegel {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} mit {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} über{|has_more_p}{has_1_p?}{ms?} in{|ms} bei{?ms}{?has_1_p}{?has_more_p}{ms?} merhfache Auswahl {|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Name: {name}\r\n\r\nVerzweigung: {branch}" revision="0" />
   <Message key="NotSupported" value="Diese Funktion wird für den aktuellen Dokumententyp nicht unterstützt." revision="0" />
@@ -112,6 +112,11 @@
   <Message key="Round edges" value="Runde Ecken" revision="0" />
   <Message key="Change Time" value="Zeit Änderung" revision="0" />
   <Message key="PatternColoring settings" value="Mustereinfärbung" revision="0" />
+  <Message key="toolbar.Attributes" value="Attribute" revision="0" />
+  <Message key="toolbar.Coloring" value="Muster Färbung" revision="0" />
+  <Message key="toolbar.Statistics" value="Statistik" revision="0" />
+  <Message key="toolbar.History" value="Geschichte" revision="0" />
+  <Message key="toolbar.History Window" value="Fenster Verlaufsbaum" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Historie löschen" revision="0" />
     <Item value="Löschet die Operationen Historie" revision="0" />
@@ -185,8 +190,8 @@
     <Item value="Zeigt keine Spitzenwerte (Maximalwerte) in der graphischen Darstellung" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="Definieren…" revision="0" />
-    <Item value="Muster definieren" revision="0" />
+    <Item value="Definieren…" revision="1" />
+    <Item value="Muster definieren" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Alle einklappen" revision="0" />

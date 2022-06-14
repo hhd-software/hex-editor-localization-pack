@@ -24,10 +24,17 @@
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Einige Werte passen nicht in 16 bits. Bitte geben Sie 16-bit Werte ein: Bereich von 0 bis 0xFFFF (65535)." revision="1" />
   <Message key="Checksum" value="Prüfsummen" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Die Prüfsummen Funktion berechnet verschiedene Prüfsummen für ausgewählte Daten oder das ganze Dokument." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32 Bit" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32 Bit" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64 Bit" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64 Bit" revision="0" />
+  <Message key="Custom FNV" value="Benutzerdefiniert FNV-1" revision="0" />
   <Message key="N/A" value="N/A" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Bitte warten Sie bis alle anstehenden Operationen fertiggestellt sind." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Tabulator-getrennte Text Datei (*.tsv)|*.tsv|All Files|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Anfang={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64 Bit{|is64bit}32-bit{?is64bit}: Prime={prime}, Offset-Basis={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="Prüfsumme" revision="0" />
   <Message key="Add Algorithm" value="Algorithmus hinzufügen" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Hinzuzufügenden Algorithmus auswählen:" revision="1" />
   <Message key="Custom CRC Parameters" value="Benutzerdefinierte CRC Parameter" revision="1" />
@@ -44,6 +51,12 @@
   <Message key="Size:" value="Größe:" revision="1" />
   <Message key="Separator:" value="Trennung:" revision="1" />
   <Message key="Checksum settings" value="Prüfsummen" revision="0" />
+  <Message key="Custom FNV Parameters" value="Benutzerdefinierte FNV-1-Parameter" revision="0" />
+  <Message key="32-bit" value="32 Bit" revision="0" />
+  <Message key="64-bit" value="64 Bit" revision="0" />
+  <Message key="Prime:" value="Prime:" revision="0" />
+  <Message key="Offset basis:" value="Offset-Basis:" revision="0" />
+  <Message key="Version:" value="Version:" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Keine Trennungen" revision="1" />
     <Item value="Leerzeichen(' ')" revision="1" />
@@ -53,12 +66,12 @@
     <Item value="Strichpunkt (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Einfache Summen" revision="1" />
-    <Item value="Mehr Summen" revision="1" />
-    <Item value="Prüfsummen" revision="1" />
-    <Item value="Hashes" revision="1" />
-    <Item value="Summen mit Vorzeichen" revision="1" />
-    <Item />
+    <Item value="Einfache Summen" revision="2" />
+    <Item value="Mehr Summen" revision="2" />
+    <Item value="Prüfsummen" revision="2" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="2" />
+    <Item value="Hashes" revision="2" />
+    <Item value="Summen mit Vorzeichen" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Prüfsummen" revision="0" />
