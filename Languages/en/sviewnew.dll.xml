@@ -519,4 +519,14 @@
   </Message>
 
 	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
+
+	<!-- Color scheme -->
+	<Message key="clr.sview_colors" description="Color: Structure Viewer Colors" value="Structure Viewer Colors"/>
+	<Message key="clr.sview_colors.boundData.fill" description="Color: Bound Data Background Color" value="Bound data background" />
+	<Message key="clr.sview_colors.boundData.stroke" description="Color: Bound Data Stroke Color" value="Bound data stroke" />
+	<Message key="clr.sview_colors.boundData.text" description="Color: Bound Data Text Color" value="Bound data text" />
+	<Message key="clr.sview_colors.selectedField.fill" description="Color: Selected Field Background Color" value="Selected field background" />
+	<Message key="clr.sview_colors.selectedField.stroke" description="Color: Selected Field Stroke Color" value="Selected field stroke" />
+	<Message key="clr.sview_colors.selectedField.text" description="Color: Selected Field Text Color" value="Selected field text" />
+
 </Definition>

@@ -157,7 +157,7 @@
 		<Param name="code" format="ub016"/>
 	</Message>
 
-	<Message key="SaveErrors" description="Save error message title" revision="1" value="The following errors occured during saving:\r\n{errors}">
+	<Message key="SaveErrors" description="Save error message title" revision="1" value="The following errors occurred during saving:\r\n{errors}">
 		<Param name="errors"/>
 	</Message>
 
@@ -255,7 +255,7 @@
 
 	<Message key="Open Shared File" description="Window title: Open Shared File" revision="1"/>
 
-	<Message key="LoadErrors" description="Load errors" revision="1" value="The following errors occured during loading:\r\n{errors}">
+	<Message key="LoadErrors" description="Load errors" revision="1" value="The following errors occurred during loading:\r\n{errors}">
 		<Param name="errors"/>
 	</Message>
 
@@ -969,7 +969,7 @@
 		<Param name="name"/>
 	</Message>
 
-	<Message key="CopyError" description="Copy error string" revision="1" value="An error occured during copying the downloaded file ({code}). Running Setup from default location.">
+	<Message key="CopyError" description="Copy error string" revision="1" value="An error occurred during copying the downloaded file ({code}). Running Setup from default location.">
 		<Param name="code" format="b016"/>
 	</Message>
 
