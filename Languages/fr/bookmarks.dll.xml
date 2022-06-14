@@ -23,7 +23,6 @@
   <Message key="Background:" value="Arrière-plan:" revision="0" />
   <Message key="Outline:" value="Contour:" revision="0" />
   <Message key="Round edges" value="Bords Arrondis" revision="0" />
-  <Message key="Default" value="Par défaut" revision="0" />
   <Message key="BookmarksFilterString" value="Fichiers signets (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Fichiers sélectionnés (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Afficher la sélection des alertes de conversion de signets" revision="1" />

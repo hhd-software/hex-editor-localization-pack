@@ -9,7 +9,6 @@
   <Message key="Do you want to cancel all active download tasks?" value="Souhaitez-vous annuler toutes les tâches de téléchargement actifs?" revision="1" />
   <Message key="Proxy Page" value="Proxy" revision="0" />
   <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Sélectionner les paramètres de proxy pour être utilisés pour les &quot;Mises à Jour&quot;:" revision="0" />
-  <Message key="Default" value="Default" revision="0" />
   <Message key="Autodetect proxy settings" value="Détecter automatiquement les paramètres de proxy" revision="0" />
   <Message key="Do not use proxy" value="Ne pas utiliser de proxy" revision="0" />
   <Message key="Use the following proxy (HTTP):" value="Utiliser le proxy suivant (HTTP):" revision="0" />

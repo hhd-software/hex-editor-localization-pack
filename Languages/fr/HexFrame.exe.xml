@@ -406,6 +406,7 @@
   <Message key="Structure definition files" value="Fichiers de définition de structure" revision="0" />
   <Message key="Kaitai definition files" value="Fichiers de définition des Kaitai" revision="0" />
   <Message key="Sample Text" value="Texte d’exemple" revision="0" />
+  <Message key="Default" value="Par défaut" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disque physique" revision="2" />
     <Item value="Taille" revision="2" />

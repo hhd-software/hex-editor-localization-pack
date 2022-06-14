@@ -7,7 +7,6 @@
   <Message key="IntelHexColumns" value="Octets par ligne pour Intel HEX et les formats Motorola S" revision="1" />
   <Message key="EncodedFormat" value="&amp;Données encodées" revision="1" />
   <Message key="RawFilter" value="Fichiers Textes (*.txt)|*.txt|" revision="1" />
-  <Message key="Default" value="Par défaut" revision="1" />
   <Message key="Little Endian" value="Little Endian" revision="1" />
   <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="Valeurs &amp;Formatées" revision="1" />
