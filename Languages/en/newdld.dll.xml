@@ -48,7 +48,6 @@
   <!-- Proxy Page -->
   <Message key="Proxy Page" description="Proxy Page title" value="Proxy"/>
   <Message key='Select a proxy settings to be used by "Check For Updates":' description="Field: Select a proxy settings…" />
-  <Message key="Default" description="Choice: Default" />
   <Message key="Autodetect proxy settings" description="Choice: Autodetect proxy settings" />
   <Message key="Do not use proxy" description="Choice: Do not use proxy" />
   <Message key="Use the following proxy (HTTP):" description="Choice: Use the following proxy (HTTP)" />
