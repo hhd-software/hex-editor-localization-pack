@@ -161,10 +161,10 @@
 
   <Message key="ScrpitRunningClose" description="Closing currently running script" value="The script is currently running. Do you want to stop it in order to continue closing script window?"/>
 
-	<Message key="ScriptLoadError" description="Script loading error" value="Error loading file &quot;{file}&quot;: {error} ({code})">
-		<Param name="file"/>
+	<Message key="ScriptLoadError" description="Script loading error" value="Error loading file &quot;{file}&quot;: {error} ({code})" revision="1">
 		<Param name="error"/>
 		<Param name="code" format="ub016x"/>
+		<Param name="file"/>
 	</Message>
 
 	<Message key="ScriptLoadErrors" description="Script loading errors" value="The following error(s) occurred during loading of selected file(s):\n\n{errors}">

@@ -91,10 +91,10 @@
     <Param name="path"/>
   </Message>
 
-  <Message key="OpenError" description="Error opening document" revision="2" value='"{path}": Error opening document: {text} ({code})'>
-    <Param name="path"/>
-    <Param name="text"/>
-    <Param name="code" format="b016"/>
+  <Message key="OpenError" description="Error opening document" revision="3" value='"{path}": Error opening document: {text} ({code})'>
+	  <Param name="text"/>
+	  <Param name="code" format="ub016"/>
+	  <Param name="path"/>
   </Message>
 
   <Message key="LowDiskSpace" description="Low disk space to perform this operation" revision="1" value='Free disk space on disk {disk} is too low. The operation will not be performed. Delete some files and try again.\r\n\r\nNote: most Hex Editor Neo operations are disabled when there is low space on disk containing temporary folder. The Save As operation is not disabled allowing you to save the changes made to the file to another volume.\r\n\r\nYou can disable this check in the Tools » Settings, General Tab. Uncheck the "Check for low disk space before performing operations" option to disable this check.'>
