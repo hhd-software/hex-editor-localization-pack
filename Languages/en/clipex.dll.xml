@@ -173,10 +173,10 @@
 
   <Message key="Encoding:" description="Field: Encoding" revision="1"/>
 
-	<Message key="OpenError" description="Error opening hex file" revision="2" value='"{path}": Error opening HEX file: {text} ({code})'>
-		<Param name="path"/>
+	<Message key="OpenError" description="Error opening hex file" revision="3" value='"{path}": Error opening HEX file: {text} ({code})'>
 		<Param name="text"/>
-		<Param name="code" format="b016"/>
+		<Param name="code" format="ub016"/>
+		<Param name="path"/>
 	</Message>
 
 </Definition>
