@@ -14,7 +14,7 @@
   <Message key="Stopping Script" value="Stoppen der Skriptausführung..." revision="0" />
   <Message key="Stopped Script" value="\nSkriptausführung gestoppt.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="Das Skript wird gerade ausgeführt. Möchten Sie es stoppen, um mit dem Schließen des Skriptfensters fortzufahren?" revision="0" />
-  <Message key="ScriptLoadError" value="Fehler beim Laden der Datei &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="ScriptLoadError" value="Fehler beim Laden der Datei &quot;{file}&quot;: {error} ({code})" revision="1" />
   <Message key="ScriptLoadErrors" value="Beim Laden der ausgewählten Datei(en) sind folgende Fehler aufgetreten:\n\n{errors}" revision="0" />
   <Message key="ScriptSaveError" value="Fehler beim Speichern der Datei &quot;{file}&quot;: {error} ({code})" revision="0" />
   <Message key="CloseUnsavedScriptPrompt" value="Möchten Sie die Änderungen, die Sie am aktuellen Skript vorgenommen haben, speichern?" revision="0" />

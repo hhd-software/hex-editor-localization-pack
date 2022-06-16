@@ -19,7 +19,7 @@
   <Message key="OldVersion" value="{name} (alte Version {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Fehler beim Erzeugen von Dokument-Objekt: {text} ({code})" revision="2" />
   <Message key="LongTime" value="Das Öffnen der &quot;{path}&quot; Datei im Modus zur gemeinsamen Benutzung kann lange dauern. Möchten Sie die Datei im normalen, gesperrten Modus öffnen?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Fehler beim Öffnen des Dokuments: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Fehler beim Öffnen des Dokuments: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="Freier Plattenplatz {disk} ist zu gering. Die Operation wird nicht ausgeführt. Löschen Sie einige Dateien und versuchen Sie es dann wieder.\r\n\r\nAnmerkung: Die meisten Hex Editor Neo Operationen sind abgeschaltet wenn zu wenig Plattenplatz für temporäre Ordner zur Verfügung steht Die Speichern Als Operation ist nicht abgeschaltet, damit Sie Ihre Änderungen in der Datei auf ein anderes Volume speichern können.\r\n\r\nSie können diese Überprüfung abschalten in » Einstellungen, Allgemein Registerkarte. Enthaken Sie die &quot;Prüfe auf geringen Plattenplatz bevor Operationen durchgeführt werden&quot; Option, um diese Überprüfung abzuschalten." revision="1" />
   <Message key="Unknown Process" value="Unbekannter Prozess" revision="1" />
   <Message key="Physical Memory" value="Physikalischer Speicher" revision="1" />

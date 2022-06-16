@@ -42,7 +42,7 @@
   <Message key="Insert mode" value="Einfügen Modus" revision="1" />
   <Message key="Ignore data offset" value="Ignoriere Daten-Offset" revision="1" />
   <Message key="Encoding:" value="Kodierung:" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Fehler beim Öffnen einer HEX-Datei: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Fehler beim Öffnen einer HEX-Datei: {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
     <Item value="Kopieren &amp;als…" revision="1" />
     <Item value="Konvertiert die Auswahl in ein unterstütztes Format und plaziert es in die Zwischenablage" revision="1" />
