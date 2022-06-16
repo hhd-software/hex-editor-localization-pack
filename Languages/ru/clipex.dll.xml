@@ -42,7 +42,7 @@
   <Message key="Insert mode" value="Режим вставки" revision="1" />
   <Message key="Ignore data offset" value="Игнорировать смещение данных" revision="1" />
   <Message key="Encoding:" value="Кодировка:" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка открытия файла HEX: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка открытия файла HEX: {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
     <Item value="Копировать &amp;как…" revision="1" />
     <Item value="Перевести выбранное в один из поддерживаемых форматов и послать в буфер обмена" revision="1" />

@@ -19,7 +19,7 @@
   <Message key="OldVersion" value="{name} (старая версия {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Ошибка при создании документа: {text} ({code})" revision="2" />
   <Message key="LongTime" value="Открытие файла &quot;{path}&quot; в &quot;общем&quot; режиме может занять много времени. Хотите открыть файл в обычном режиме?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка при открытии документа: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка при открытии документа: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="На диске {disk} мало свободного места. Операция не может быть продолжена. Освободите место и попытайтесь снова.\r\n\r\nЗамечание: большинство операций Hex Editor Neo недоступно если на диске с временной папкой мало места. Операция &quot;Сохранить как&quot; доступна, чтобы вы могли записать измененный файл на другой том.\r\n\r\nЭту проверку можно отключить в Инструменты » Настройки » Общие »  Проверять свободное место на диске перед операциями." revision="1" />
   <Message key="Unknown Process" value="Не установленный процесс" revision="1" />
   <Message key="Physical Memory" value="Физическая память" revision="1" />

@@ -14,7 +14,7 @@
   <Message key="Stopping Script" value="Остановка исполнения скрипта…" revision="0" />
   <Message key="Stopped Script" value="\nОстановлено исполнение скрипта.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="Скрипт исполняется. Вы хотите остановить его чтобы продолжить закрытие окна скрипта?" revision="0" />
-  <Message key="ScriptLoadError" value="Ошибка загрузки файла &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="ScriptLoadError" value="Ошибка загрузки файла &quot;{file}&quot;: {error} ({code})" revision="1" />
   <Message key="ScriptLoadErrors" value="Произошли следующие ошибки во время загрузки выбранных файлов:\n\n{errors}" revision="0" />
   <Message key="ScriptSaveError" value="Ошибка сохранения файла &quot;{file}&quot;: {error} ({code})" revision="0" />
   <Message key="CloseUnsavedScriptPrompt" value="Вы хотите сохранить изменения, сделанные в текущем скрипте?" revision="0" />

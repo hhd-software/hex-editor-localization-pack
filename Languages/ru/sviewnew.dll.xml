@@ -104,6 +104,13 @@
   <Message key="TypeExists" value="Пользовательский тип с указанным именем уже существует." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не найден в папке &quot;{path}&quot;. Вы хотите удалить его из библиотеки?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Структуры" revision="0" />
+  <Message key="clr.sview_colors" value="Цвета модуля &quot;Структуры&quot;" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Фон привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Обводка привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Текст привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Фон выделенного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Обводка выделенного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Текст выделенного поля" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Привязать…" revision="0" />
     <Item value="Привязать новую структуру" revision="0" />
