@@ -66,8 +66,8 @@
 
 	<!-- Annotate Range dialog -->
 	<Message key="Annotate Range" description="Window title: Annotate Range" />
-	<Message key="Start:" description="Field: Start" />
-	<Message key="End:" description="Field: End" />
+	<Message key="Start:" description="Field: Start Offset" />
+	<Message key="End:" description="Field: End Offset" />
 	<Message key="Text:" description="Field: Text" revision="1" value="Annotation text:"/>
 
 	<!-- Settings Page -->
