@@ -104,6 +104,13 @@
   <Message key="TypeExists" value="Le type avec le même nom existe déjà." revision="0" />
   <Message key="StructureFileNotFound" value="Le fichier {file} ne se trouve pas à l'emplacement &quot;{path}&quot;. Voulez-vous l'enlever de la bibliothèque?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Vue de Structure" revision="0" />
+  <Message key="clr.sview_colors" value="Couleurs de la observateur de structures" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Arrière-plan de la données liées" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Course de données liées" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Texte des données liées" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Arrière plan du champ sélectionné" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Course de champ sélectionnée" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Texte du champ sélectionné" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Lier…" revision="0" />
     <Item value="Lier nouvelle structure" revision="0" />

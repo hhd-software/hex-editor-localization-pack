@@ -42,7 +42,7 @@
   <Message key="Insert mode" value="Mode Insertion" revision="1" />
   <Message key="Ignore data offset" value="Ignorer données de décalage(offset)" revision="1" />
   <Message key="Encoding:" value="Encodage:" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier HEX: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier HEX: {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
     <Item value="Format du Copie…" revision="1" />
     <Item value="Convertir la sélection en un des formats pris en charge et les placer dans le Presse-papiers" revision="1" />

@@ -19,7 +19,7 @@
   <Message key="OldVersion" value="{name} (old version {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;:Erreur lors de la création du document: {{text} ({{code})" revision="2" />
   <Message key="LongTime" value="L'ouverture du&quot;{path}&quot; fichier en mode partagé peut prendre beaucoup de temps. Voulez-vous ouvrir le fichier en mode normal, verrouillé à la place?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier: {{text} ({{code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier: {{text} ({{code})" revision="3" />
   <Message key="LowDiskSpace" value="L'espace disque libre sur le disque {disque} est trop faible. L'opération ne sera pas exécutée. Veuillez libérer de l'espace disque avant de réessayer..\r\n\r\nNotez: Les opérations de l'éditeur Hex Neo sont désactivées plus lorsque l'espace est faible sur le disque contenant le dossier temporaire. Les opération Enregistrer sous n'est pas désactivé: vous permettant d'enregistrer les modifications apportées au fichier vers un autre volume.\r\n\r\nVous pouvez désactiver cette vérification dans le menu Outils »Paramètres, sous l'onglet Général. Décochez la case &quot;Vérifier l'espace disque disponible avant d'effectuer des opérations&quot; l'option pour désactiver cette vérification." revision="1" />
   <Message key="Unknown Process" value="Process inconnu" revision="1" />
   <Message key="Physical Memory" value="Mémoire physique" revision="1" />

@@ -14,7 +14,7 @@
   <Message key="Stopping Script" value="Arrêter l'exécution du script…" revision="0" />
   <Message key="Stopped Script" value="\nL'exécution du script s'est arrêtée.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="Le script est en cours d'exécution. Voulez-vous l'arrêter afin de continuer à fermer la fenêtre du script?" revision="0" />
-  <Message key="ScriptLoadError" value="Erreur de chargement du fichier &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="ScriptLoadError" value="Erreur de chargement du fichier &quot;{file}&quot;: {error} ({code})" revision="1" />
   <Message key="ScriptLoadErrors" value="La ou les erreurs suivantes se sont produites lors du chargement du ou des fichiers sélectionnés:\n\n{errors}" revision="0" />
   <Message key="ScriptSaveError" value="Erreur de sauvegarde du fichier &quot;{file}&quot;: {error} ({code})" revision="0" />
   <Message key="CloseUnsavedScriptPrompt" value="Voulez-vous sauvegarder les modifications apportées au script actuel?" revision="0" />
