@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Anotaciones de datos" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Las anotaciones de datos han sido modificadas para &quot;{file}&quot;. Desea guardar las anotaciones actualizadas?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Ha alcanzado el límite del número de anotaciones ({number}) que puede crear para este documento" revision="0" />
+  <Message key="toolbar.Annotations" value="Anotaciones" revision="0" />
+  <Message key="ExtSuffixFilter" value="Símbolos permitidos: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Anotar el rango" revision="0" />
+  <Message key="Start:" value="Posición inicial:" revision="0" />
+  <Message key="End:" value="Posición final:" revision="0" />
+  <Message key="Text:" value="Texto de anotación:" revision="1" />
+  <Message key="Annotations Storage Location" value="Ubicación de las anotaciones" revision="0" />
+  <Message key="Auto Select" value="Auto Selección" revision="0" />
+  <Message key="NTFS Stream" value="Secuencias NTFS" revision="0" />
+  <Message key="File extension suffix:" value="Sufijo de la extensión del archivo:" revision="0" />
+  <Message key="Custom Folder:" value="Carpeta personalizada:" revision="0" />
+  <Message key="Clear annotations cache" value="Borrar la caché de anotaciones" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="Anotaciones" revision="0" />
+    <Item value="La función de anotaciones permite añadir anotaciones al rango de datos." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="Añadir anotación..." revision="0" />
+    <Item value="Crear una nueva anotación" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="Eliminar anotación" revision="0" />
+    <Item value="Eliminar anotación" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="Borrar anotaciones" revision="0" />
+    <Item value="Eliminar todas las anotaciones" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="&amp;Anotaciones" revision="0" />
+    <Item value="Menú de anotaciones" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="Anotar Cursor..." revision="0" />
+    <Item value="Anotar datos en la posición del cursor" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="Anotar selección..." revision="0" />
+    <Item value="Añadir anotación a la selección actual" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="Editar el texto de la anotación" revision="0" />
+    <Item value="Editar el elemento de anotación seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="Añadir" revision="1" />
+    <Item value="Aplicar" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="N." revision="0" />
+    <Item value="Dirección" revision="0" />
+    <Item value="Tamaño" revision="0" />
+    <Item value="Texto" revision="0" />
+  </Enumeration>
+</Language>

@@ -25,7 +25,6 @@
   <Message key="Go" value="Ir" revision="0" />
   <Message key="Go To:" value="Ir A:" revision="0" />
   <Message key="Text" value="Texto" revision="0" />
-  <Message key="Loading" value="Cargando el desensamblador" revision="0" />
   <Message key="Disassembler" value="Desensamblador" revision="0" />
   <Message key="ShowImplicitOperands" value="Mostrar los operandos implícitos" revision="0" />
   <Message key="ShowPrefixes" value="Mostrar los prefijos" revision="0" />
@@ -97,6 +96,7 @@
   <Message key="Search" value="Buscar" revision="0" />
   <Message key="Jump" value="Ir" revision="0" />
   <Message key="string" value="cadena" revision="0" />
+  <Message key="ExportOp" value="Exportación de instrucciones desmontadas..." revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Iniciar el desensamblador…" revision="0" />
     <Item value="Desensamblar un archivo ejecutable" revision="0" />

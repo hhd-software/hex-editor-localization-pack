@@ -18,9 +18,8 @@
   <Message key="RenameError" value="Error al renombrar la secuencia: {text} ({code})" revision="0" />
   <Message key="RenameErrors" value="El siguiente error ocurrió al renombrar la secuencia:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}Buscando Finalizados.{|finished}Buscando Secuencias…{?finished} {found} secuencias encontradas ({files} archivos en {folders} carpetas revisadas)." revision="0" />
-  <Message key="StreamSize" value="Total: {size} bytes {size as text}" revision="0" />
-  <Message key="Size" value="{size} bytes {size as text}" revision="0" />
-  <Message key="Renaming" value="{percent} % completado." revision="0" />
+  <Message key="StreamSize" value="Total: {size}" revision="1" />
+  <Message key="RenameOperation" value="Renombrar el secuencia" revision="0" />
   <Message key="Find Streams Folder List" value="Lista de secuencias encontradas en carpetas" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="Escriba la ruta de acceso a la carpeta o haga click en el botón explorar:" revision="0" />
   <Message key="Folder list:" value="Lista de carpetas:" revision="0" />
@@ -35,6 +34,7 @@
   <Message key="Exclude:" value="Excluír:" revision="0" />
   <Message key="(regular expression)" value="(expresión regular)" revision="0" />
   <Message key="Include sub-folders" value="Incluír sub-carpetas" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Secuencias NTFS" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="&amp;Crear Secuencia…" revision="0" />
     <Item value="Crea un nuevo archivo de secuencia" revision="0" />
@@ -56,8 +56,8 @@
     <Item value="Cancela la operación de secuancia actual" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item value="Abrir A&amp;rchivo Superior" revision="0" />
-    <Item value="Abrir el archivo superior, es el que contiene esta secuencia." revision="0" />
+    <Item value="Abrir Archivo(s) Su&amp;perior" revision="1" />
+    <Item value="Abrir el archivo superior, es el que contiene esta secuencia." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
     <Item value="Buscar secuencias…" revision="0" />
@@ -69,6 +69,11 @@
   </Enumeration>
   <Enumeration key="ColumnNames">
     <Item value="Nombre de la Secuencia" revision="0" />
+    <Item value="Tamaño" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Archivo" revision="0" />
+    <Item value="Secuencia" revision="0" />
     <Item value="Tamaño" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">

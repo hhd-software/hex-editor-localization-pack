@@ -5,9 +5,8 @@
   <Message key="Invalid path specified" value="La ruta de acceso especificada es inválida" revision="0" />
   <Message key="ErrorCopyingFolders" value="(error al copiar carpetas)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Error al copiar los siguientes archivos:" revision="0" />
-  <Message key="Loading" value="Cargando el explorador" revision="0" />
-  <Message key="Initializing" value="inicializando el explorador" revision="0" />
   <Message key="Explorer settings" value="Explorador" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorador" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Anterior" revision="0" />
     <Item value="Ir a la Ubicación Anterior" revision="0" />

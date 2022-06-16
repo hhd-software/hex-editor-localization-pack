@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="¿Está seguro que quiere cancelar esta operación? Esto causará que se dañe el archivo." revision="1" />
   <Message key="OccFound" value="{N} casos encontrados hasta el momento." revision="1" />
-  <Message key="CopiedFragmentName" value="Datos copiados al HHD Hex Editor Neo" revision="1" />
+  <Message key="CopiedFragmentName" value="Datos copiados al HHD Hex Editor Neo" revision="3" />
   <Message key="DefaultBranchName" value="Por defecto" revision="1" />
   <Message key="Continue working with a file." value="Continuar trabajando con el archivo." revision="1" />
   <Message key="Discard all changes and close the file." value="Descartar todos los cambios y cerrar el archivo." revision="1" />
@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Esta clase ya existe. Cambie el nombre de la clase." revision="1" />
   <Message key="DeleteClasses?" value="¿Está seguro que quiere borrar todas las clases?" revision="1" />
   <Message key="LoadError" value="Error Interno: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Cargando los componentes principales" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Revise si cuenta con el espacio suficiente en el disco antes de realizar las operaciones" revision="1" />
   <Message key="IgnoreRenames" value="Ignorar los cambios de nombre de los archivos compartidos abiertos" revision="1" />
   <Message key="RemovedNotification" value="Documento compartido borrado" revision="1" />
@@ -20,7 +19,7 @@
   <Message key="OldVersion" value="{name} (versión antigua {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Error al crear el objeto del documento: {text} ({code})" revision="2" />
   <Message key="LongTime" value="Abrir el archivo &quot;{path}&quot; en modo compartido podría tardar mucho tiempo. ¿Quiere abrir el archivo en modo normal, modo bloqueado en su lugar?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Error al abrir el documento: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Error al abrir el documento: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="El espacio libre en el disco {disk} es demasiado bajo. La operación no será realizada. Borre algunos archivos y pruebe de nuevo.\r\n\r\nNota: La mayoría de operaciones del Hex Editor Neo son desactivadas cuando queda poco espacio libre en el disco que contiene la carpeta temporal de trabajo. La operación &quot;Salvar Como&quot; no es desactivada, de esta manera le permite guardar los cambios realizados a un archivo en otro volumen.\r\n\r\nUsted puede desactivar esta revisión en la pestaña Herramientas » Ajustes, General. Desmarque la opción &quot;Revisar el espacio en disco antes de realizar las operaciones&quot;." revision="1" />
   <Message key="Unknown Process" value="Proceso Desconocido" revision="1" />
   <Message key="Physical Memory" value="Memoria Física" revision="1" />
@@ -51,6 +50,7 @@
   <Message key="SnapshotTitle" value="Abrir desde Instantánea" revision="0" />
   <Message key="SnapshotDescription" value="Hex Editor Neo no puede abrir &quot;{path}&quot; debido al siguiente error:\r\n    » {text} ({code})\r\n\r\n¿Quiere intentar crear una instantánea del volumen y abrir el archivo desde esta? " revision="0" />
   <Message key="RegExp settings" value="Clases de Expresión Regular" revision="0" />
+  <Message key="Shortcut files" value="Archivos de acceso directo" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignorar los cambios" revision="1" />
     <Item value="Cerrar el archivo" revision="1" />

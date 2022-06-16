@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Texto de Muestra" revision="0" />
-  <Message key="Loading" value="Cargando marcadores" revision="0" />
-  <Message key="Initializing" value="Inicializando marcadores" revision="0" />
   <Message key="Bookmarks" value="Marcadores" revision="0" />
   <Message key="Progress" value="La operación actual está en progreso. Por favor espere a que finalice." revision="0" />
   <Message key="GroupDelete" value="El grupo será borrado (incluyendo todos los marcadores que contiene). ¿Quiere continuar?" revision="0" />
@@ -26,11 +23,11 @@
   <Message key="Background:" value="Fondo:" revision="0" />
   <Message key="Outline:" value="Contorno:" revision="0" />
   <Message key="Round edges" value="Esquinas en curva" revision="0" />
-  <Message key="Default" value="Por defecto" revision="0" />
   <Message key="BookmarksFilterString" value="Archivos de marcadores (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Selección de Archivos (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Mostrar la advertencia de conversión de Seleccción a Marcadores" revision="1" />
   <Message key="MergeBookmarks" value="¿Quiere combinarlo con los marcadores existentes?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="Marcadores" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nuevo Grupo de Marcadores" revision="0" />
     <Item value="Crear un nuevo Grupo de Marcadores" revision="0" />

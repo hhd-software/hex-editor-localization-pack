@@ -7,13 +7,10 @@
   <Message key="IntelHexColumns" value="Número de Bytes por columna para los formatos Intel HEX y Motorola S" revision="1" />
   <Message key="EncodedFormat" value="&amp;Datos Codificados" revision="1" />
   <Message key="RawFilter" value="Archivos de Texto (*.txt)|*.txt|" revision="1" />
-  <Message key="Default" value="Por Defecto" revision="1" />
   <Message key="Little Endian" value="Formarto Little Endian" revision="1" />
   <Message key="Big Endian" value="Fotmato Big Endian" revision="1" />
   <Message key="FormattedFormat" value="&amp;Valores con Formato" revision="1" />
-  <Message key="Loading" value="Cargando soporte para el Portapapeles" revision="1" />
-  <Message key="Initializing" value="Inicializando soporte para el Portapapeles" revision="1" />
-  <Message key="CopyExportLocalized" value="Copiar &amp;&amp; Exportar" revision="1" />
+  <Message key="CopyExportLocalized" value="Copiar &amp; Exportar" revision="2" />
   <Message key="Export" value="E&amp;xportar" revision="1" />
   <Message key="BadFormat" value="El formato para exportar no puede utilizar los datos seleccionados" revision="1" />
   <Message key="BadImportFormat" value="Formato de datos incorrecto." revision="1" />
@@ -21,7 +18,6 @@
   <Message key="ErrorExport2" value="Error al exportar los datos: {text}\r\n(Código de error: {code})" revision="1" />
   <Message key="ErrorImport" value="Error al importar los datos HEX: {text}\r\n(Código de error: {code})" revision="1" />
   <Message key="OpenHexTitle" value="Abrir archivo Hex" revision="1" />
-  <Message key="AllSupportedFormats" value="Formatos soportados " revision="1" />
   <Message key="&amp;Copy to Clipboard" value="&amp;Copiar al Portapapeles" revision="1" />
   <Message key="&amp;Export" value="&amp;Exportar" revision="1" />
   <Message key="Format:" value="Formato:" revision="1" />
@@ -46,6 +42,7 @@
   <Message key="Insert mode" value="Modo de insertar" revision="1" />
   <Message key="Ignore data offset" value="Ignorar los datos del Offset" revision="1" />
   <Message key="Encoding:" value="Codificación:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Error al abrir un archivo HEX: {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
     <Item value="Copiar &amp;Como…" revision="1" />
     <Item value="Convierte la selección a uno de los formatos soportados y lo coloca en el Portapapeles" revision="1" />
@@ -65,6 +62,14 @@
   <Enumeration key="FileOpenHex">
     <Item value="Abrir &amp;Hex…" revision="1" />
     <Item value="Abre un archivo binario con codificación ASCII" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="Nuevo Intel Hex" revision="0" />
+    <Item value="Crear un archivo Intel HEX vacío" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="Nuevo Motorola S-Records" revision="0" />
+    <Item value="Crear un archivo vacío de Motorola S-Records" revision="0" />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="Codificación base-64" revision="1" />

@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Falló la Afirmación{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="No puede evaluarse la expresión unida" revision="0" />
   <Message key="Structure Viewer" value="Visor de Estructura" revision="0" />
-  <Message key="Initializing" value="Inicializando el Visor de Estructura" revision="0" />
   <Message key="Structure Errors" value="Errores de Estructura" revision="0" />
   <Message key="Error accessing Clipboard" value="Error al acceder al Portapapeles" revision="0" />
   <Message key="ModifiedSuffix" value="(modificado)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="El texto de definición está vacío" revision="0" />
   <Message key="AddInspectType" value="Añadir Tipo de Definición" revision="0" />
   <Message key="EditInspectType" value="Editar Tipo de Definición" revision="0" />
-  <Message key="StructureFormats" value="Archivos de definición de estructuras (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Error al borrar el archivo seleccionado: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Error al guardar el archivo &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="El documento actual ha sido modificado. ¿Quiere salvarlo?" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="Color de fondo:" revision="0" />
   <Message key="Text color:" value="Color del texto:" revision="0" />
   <Message key="Outline color:" value="Color del contorno:" revision="0" />
-  <Message key="Default" value="Predeterminado" revision="0" />
   <Message key="Add Inspector Type" value="Añadir un Tipo de Inspector" revision="0" />
   <Message key="Change Time" value="Cambiar la Hora" revision="0" />
   <Message key="AssignNotification" value="La modificación de datos no está habilitada para este tipo. Haga Click en el botón de Ayuda para obtener información detallada sobre cómo habilitar la modificación de datos para un tipo." revision="0" />
@@ -106,6 +103,14 @@
   <Message key="UntrustedEditor" value="Está a punto de iniciar el inseguro editor externo usando la siguiente línea de comandos:\r\n\r\n{path}\r\n\r\n¿Quiere contuniar? Si hace click en SI, el programa será marcado como confiable." revision="0" />
   <Message key="TypeExists" value="Ya existe un tipo con el mismo nombre." revision="0" />
   <Message key="StructureFileNotFound" value="El archivo {file} no se encontró en la ruta de acceso &quot;{path}&quot;. ¿Quiere eliminarlo de la librería?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Visor de Estructura" revision="0" />
+  <Message key="clr.sview_colors" value="Colores del visor de estructuras" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Fondo de los datos ligados" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Trazo de los datos ligados" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Texto de los datos ligados" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Fondo de campo seleccionado" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Trazo de campo seleccionado" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Texto del campo seleccionado" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Unir…" revision="0" />
     <Item value="Unir una nueva estructura" revision="0" />
@@ -230,6 +235,10 @@
     <Item value="Ir a la Definición del Campo" revision="1" />
     <Item value="Abre el archivo de definición de estructuras con ladefinición de campo actual" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="Ir al valor" revision="1" />
+    <Item value="Ir al desplazamiento definido por el valor" revision="1" />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Copiar el Nombre Calificado" revision="1" />
     <Item value="Copia el nombre calificado al Portapapeles" revision="1" />
@@ -318,13 +327,25 @@
     <Item value="Tipos Estándar" revision="0" />
     <Item value="Tipos de Usuario" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Nuevo archivo de Estructura…" revision="0" />
-    <Item value="Crear un nuevo archivo de definición de estructura" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="Nuevo archivo de E&amp;structura" revision="0" />
+    <Item value="Crear un archivo de definición de estructura vacío" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="Nuevo archivo &amp;Kaitai" revision="0" />
+    <Item value="Crear un archivo de definición de Kaitai vacío" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="Abre el archivo E&amp;structura..." revision="0" />
+    <Item value="Abre el archivo de definición de la estructura" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="Añadir archivo de estructura A&amp;ctual" revision="0" />
+    <Item value="Añadir el archivo de definición de la estructura activa a la biblioteca" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Añadir un archivo de Estructura…" revision="0" />
-    <Item value="Añade un archivo de definición de estructura existente a la librería" revision="0" />
+    <Item value="&amp;Añadir un archivo(s) de Estructura…" revision="1" />
+    <Item value="Añade un archivo(s) de definición de estructura existente a la librería" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Guardar &amp;Todos los Archivos de Estructura" revision="0" />

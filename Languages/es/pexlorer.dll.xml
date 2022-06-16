@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PrivilegeNotGained" value="Conjunto de procesos limitado en la lista de procesos" revision="1" />
-  <Message key="RegionInfo" value="Base de la Región: {base} ({base:2})\rFinal de la Región: {end} ({end:2})\rTamaño de la Región: {size} ({size:2})\rTipo: {type}\rEstado: {state}\rIndicadores: {flags}" revision="1" />
+  <Message key="RegionInfo" value="[[[uRango de memoria de proceso]]]\r  [[[bBase de la región:]]] {base} ({base:2})\r  [[[bFinal de la región:]]] {end} ({end:2})\r  [[[bTamaño de la región:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bIndicadores:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Desconocido" revision="1" />
   <Message key="No process selected" value="Ningún proceso seleccionado" revision="1" />
   <Message key="Specify a range using a list of blocks or a list of modules." value="Especifique un rango usando una lista de bloques o una lista de módulos." revision="1" />
@@ -24,6 +24,12 @@
   <Message key="Read/Write" value="Leer/Escribir:" revision="1" />
   <Message key="Copy on Write" value="Copiar al Escribir:" revision="1" />
   <Message key="Free" value="Libre:" revision="1" />
+  <Message key="clr.pex_colors" value="Colores del  &quot;Abrir Proceso/Ir a Proceso&quot;" revision="0" />
+  <Message key="clr.pex_colors.NoAccess" value="Región &quot;sin acceso&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Región de &quot;sólo lectura&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Región de &quot;Lectura/Escritura&quot;" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Copia en la región de escritura" revision="0" />
+  <Message key="clr.pex_colors.Free" value="Región libre" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="Abrir P&amp;roceso…" revision="1" />
     <Item value="Abrir un proceso de la memoria para lectura o escritura" revision="1" />

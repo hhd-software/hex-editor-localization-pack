@@ -15,13 +15,10 @@
   <Message key="These attributes can not be applied." value="Estos atributos no pueden ser aplicados." revision="0" />
   <Message key="Error setting file time." value="Error al guardar la hora del archivo." revision="0" />
   <Message key="Multiple" value="Múltiple" revision="0" />
-  <Message key="Sample Text" value="Texto de Muestra" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
   <Message key="History" value="Historial" revision="0" />
   <Message key="Pattern Coloring" value="Color de los Patrones" revision="0" />
   <Message key="Base Converter" value="Convertidor de Base" revision="0" />
-  <Message key="Loading" value="Cargando historial y colores" revision="0" />
-  <Message key="Initializing" value="Inicializando historial y colores" revision="0" />
   <Message key="PatchFileFilter" value="Archivos de parcheo (*.hexpatch)|*.hexpatch|Archivos Ejecutables (*.exe)|*.exe|" revision="0" />
   <Message key="Forks" value="{opname} ({items} artículos{has_forks?}, {forks} fork(s){?has_forks})" revision="0" />
   <Message key="Switch To" value="Cambiar a" revision="0" />
@@ -37,12 +34,12 @@
   <Message key="Error writing to the file" value="Error al escribir el archivo" revision="0" />
   <Message key="Error reading from the file" value="Error al leer el archivo" revision="0" />
   <Message key="Select Colors" value="Seleccione los Colores" revision="0" />
-  <Message key="PColFilter" value="Archivo de Esquema de Patrón de Colores|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="Archivo de Esquema de Patrón de Colores|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="El esquema actual se perderá. ¿Quiere continuar?" revision="0" />
   <Message key="The file has different version" value="El archivo es de una versión diferente" revision="0" />
   <Message key="Clear Coloring Scheme" value="Borrar el Esquema de Color" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="El objeto actual será borrado. ¿Desea continuar?" revision="0" />
-  <Message key="RuleFmt" value="Regla de Patrón de Color {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[uRegla de Patrón de Color {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} with {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} over{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} selección múltiple {|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Nombre: {name}\r\n\r\Ramificación: {branch}" revision="0" />
   <Message key="NotSupported" value="Esta función no es soportada por el tipo de documento actual." revision="0" />
@@ -75,7 +72,6 @@
   <Message key="Second color:" value="Segundo color:" revision="0" />
   <Message key="Outline color:" value="Color del contorno:" revision="0" />
   <Message key="Selected Color:" value="Color seleccionado:" revision="0" />
-  <Message key="Default" value="Predeterminado" revision="0" />
   <Message key="Select All" value="Seleccionar Todo" revision="0" />
   <Message key="Item color:" value="Color del objeto:" revision="0" />
   <Message key="Text color:" value="Color del texto:" revision="0" />
@@ -116,6 +112,11 @@
   <Message key="Round edges" value="Esquinas redondeadas" revision="0" />
   <Message key="Change Time" value="Cambiar Hora" revision="0" />
   <Message key="PatternColoring settings" value="Patrón de Coloreado" revision="0" />
+  <Message key="toolbar.Attributes" value="Atributos" revision="0" />
+  <Message key="toolbar.Coloring" value="Coloreado de patrones" revision="0" />
+  <Message key="toolbar.Statistics" value="Estadísticas" revision="0" />
+  <Message key="toolbar.History" value="Historia" revision="0" />
+  <Message key="toolbar.History Window" value="Ventana del árbol de la historia" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Borrar el Historial" revision="0" />
     <Item value="Borrar el Historial" revision="0" />
@@ -189,8 +190,8 @@
     <Item value="No mostrar el valor pico en el gráfico" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="Definir…" revision="0" />
-    <Item value="Definir un patrón" revision="0" />
+    <Item value="Definir…" revision="1" />
+    <Item value="Definir un patrón" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Plegar Todo" revision="0" />
@@ -428,13 +429,5 @@
   <Enumeration key="FeatureBranches">
     <Item value="Historial de Ramificaciones" revision="0" />
     <Item value="La característica del Historial de Ramificaciones le permite mantener operaciones sin aplicar en diferentes historiales. entonces puede cambiar a otra ramificación y copiar datos de ella, etc." revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureSaveHistory">
-    <Item value="Guardar Historial" revision="0" />
-    <Item value="Guardar Historial le permite guardar la lista completa de comandos para que pueda cargarlos después y seguir trabajando con su archivo (los comandos hacer-deshacer y las ramificaciones estarán disponibles también)" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureLoadHistory">
-    <Item value="Cargar Historial" revision="0" />
-    <Item value="Cargar Historial le permite cargar el historial completo con los comando de hacer-deshacer disponibles para que siga trabajando en su documento." revision="0" />
   </Enumeration>
 </Language>

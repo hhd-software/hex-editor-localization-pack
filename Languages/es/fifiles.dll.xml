@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="La sintáxis de la lista de carpetas es inválida." revision="1" />
   <Message key="Find All" value="Buscar Todos" revision="1" />
   <Message key="Replace All" value="Reemplazar Todos" revision="1" />
-  <Message key="Loading Find in Files" value="Cargando búsqueda en archivos" revision="1" />
-  <Message key="Initializing Find in Files" value="Inicializando búsqueda en archivos" revision="1" />
   <Message key="Notifications" value="Notificaciones" revision="1" />
   <Message key="Find in Files" value="Búsqueda en Archivos" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="¿Quiere cancelar la operación actual?" revision="1" />
@@ -34,6 +32,7 @@
   <Message key="Move Down" value="Mover &amp;Abajo" revision="1" />
   <Message key="Folder list:" value="Lista de carpetas:" revision="1" />
   <Message key="All opened documents" value="Todos los documentos abiertos" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Búsqueda en archivos" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="abriendo" revision="1" />
     <Item value="salvando" revision="1" />

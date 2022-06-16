@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="No se han encontrado metadatos" revision="0" />
+  <Message key="FileNotFound" value="Archivo no encontrado: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Tipo no encontrado: {type}" revision="0" />
+  <Message key="IdNotFound" value="Id no encontrado: {type}" revision="0" />
+  <Message key="CastError" value="No se puede convertir el tipo {src_type} en {dst_type}" revision="0" />
+  <Message key="BitwiseOpError" value="Tipo ilegal para el operando izquierdo de la operación a nivel de bits. Debe ser un entero." revision="0" />
+  <Message key="MethodNotFound" value="El método no existe." revision="0" />
+  <Message key="ResultNotANumber" value="El resultado de 'repeat-expr' no es un número." revision="0" />
+  <Message key="InvalidArgument" value="Argumento inválido" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Número de argumentos no válido. Estimado: {est}, recibido: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="Sólo debe especificarse una de las opciones 'size' o 'size-eos'." revision="0" />
+  <Message key="NoRepeatError" value="No hay expresión en el bloque 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="No hay expresión en el bloque 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="El soporte no está bien cerrado." revision="0" />
+  <Message key="CannotMatch" value="El valor '{value}' no puede coincidir con valores del tipo '{type}'" revision="0" />
+  <Message key="ContentsError" value="Debe ser una matriz de bytes o una cadena" revision="0" />
+  <Message key="ParsingError" value="Error de análisis. Esperando: {est} en {fact}" revision="0" />
+  <Message key="PathNotFound" value="Ruta no encontrada: {path}" revision="0" />
+  <Message key="NotAScope" value="No es un ámbito" revision="0" />
+  <Message key="UnknownParam" value="Tipo de parámetro desconocido: {type}" revision="0" />
+  <Message key="WrongEndian" value="Tipo endiano desconocido en el meta campo '{field}'. Debe ser 'be' o 'le'" revision="0" />
+</Language>
