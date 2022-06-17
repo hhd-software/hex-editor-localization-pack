@@ -20,7 +20,7 @@
     <Item value="La función de anotaciones permite añadir anotaciones al rango de datos." revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAdd">
-    <Item value="Añadir anotación..." revision="0" />
+    <Item value="Añadir anotación…" revision="0" />
     <Item value="Crear una nueva anotación" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationRemove">
@@ -36,11 +36,11 @@
     <Item value="Menú de anotaciones" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateCursor">
-    <Item value="Anotar Cursor..." revision="0" />
+    <Item value="Anotar Cursor…" revision="0" />
     <Item value="Anotar datos en la posición del cursor" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateSelection">
-    <Item value="Anotar selección..." revision="0" />
+    <Item value="Anotar selección…" revision="0" />
     <Item value="Añadir anotación a la selección actual" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">

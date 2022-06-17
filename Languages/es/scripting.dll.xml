@@ -9,9 +9,9 @@
   <Message key="MacroToolbar" value="Macros" revision="0" />
   <Message key="WatchToolbar" value="Inspección" revision="0" />
   <Message key="ScriptChanged" value="Su script ha sido modificado. Es imposible continuar la ejecución. ¿Desea detener la ejecución del script?" revision="0" />
-  <Message key="Compiling TypeScript" value="Compilando TypeScript...\n" revision="0" />
+  <Message key="Compiling TypeScript" value="Compilando TypeScript…\n" revision="0" />
   <Message key="Started Script" value="Se ha iniciado la ejecución del script: {name}\n" revision="0" />
-  <Message key="Stopping Script" value="Detener la ejecución del script..." revision="0" />
+  <Message key="Stopping Script" value="Detener la ejecución del script…" revision="0" />
   <Message key="Stopped Script" value="\nLa ejecución del script se ha detenido\n" revision="0" />
   <Message key="ScrpitRunningClose" value="El script se está ejecutando actualmente. ¿Desea detenerlo para continuar cerrando la ventana del script?" revision="0" />
   <Message key="ScriptLoadError" value="Error al cargar el archivo &quot;{file}&quot;: {error} ({code})" revision="1" />
@@ -50,15 +50,15 @@
     <Item value="Borrar todas las macros" revision="0" />
   </Enumeration>
   <Enumeration key="MacroEdit">
-    <Item value="&amp;Editar macro..." revision="0" />
+    <Item value="&amp;Editar macro…" revision="0" />
     <Item value="Editar la macro seleccionada" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
-    <Item value="&amp;Importar macros..." revision="0" />
+    <Item value="&amp;Importar macros…" revision="0" />
     <Item value="Import macros" revision="0" />
   </Enumeration>
   <Enumeration key="MacroExport">
-    <Item value="E&amp;xportar macros..." revision="0" />
+    <Item value="E&amp;xportar macros…" revision="0" />
     <Item value="Exportar macros" revision="0" />
   </Enumeration>
   <Enumeration key="MenuMacro">
@@ -70,7 +70,7 @@
     <Item value="Crear un nuevo archivo de script vacío" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingOpenScript">
-    <Item value="Abre Script..." revision="0" />
+    <Item value="Abrir Script…" revision="0" />
     <Item value="Abrir un archivo de script existente" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">
