@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Entrada de arquivo desconhecida" revision="0" />
   <Message key="FilenameAttributeError" value="Erro ao analisar os atributos de arquivo para gravação {record}" revision="0" />
   <Message key="CopyFileError" value="Erro ao copiar arquivo &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="A cópia de ficheiros esparsos, comprimidos ou encriptados ainda não está implementada: &quot;{filename}&quot;" revision="0" />
   <Message key="WriteFileError" value="Erro ao gravar arquivo: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Não há espaço suficiente no disco destino para copiar &quot;{filename}&quot;. Você precisa de pelo menos {filesize} de espaço livre para copiar esse arquivo." revision="0" />
   <Message key="CopyWarning" value="Arquivo &quot;{filename}&quot; já existe. Você quer substituir ou ignorar?" revision="0" />
@@ -41,6 +42,7 @@
   <Message key="CSFileNotFound" value="Estrutura de arquivo &quot;{filename}&quot; não foi encontrado." revision="0" />
   <Message key="CSRootNotFound" value="Estrutura raiz {name} não foi encontrado." revision="0" />
   <Message key="CSBindVolumeError" value="Erro ocorrido durante a análise do volume. Esquema &quot;{name}&quot;, erro: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Partição[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Cabeçalho PrivHead inválido." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Cabeçalho TocBlock inválido." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Cabeçalho Vmdb inválido." revision="0" />
@@ -54,6 +56,7 @@
   <Message key="Root structure:" value="Estrutura Raiz:" revision="0" />
   <Message key="Directory entry structure:" value="Estrutura de entrada de diretório:" revision="0" />
   <Message key="File entry structure:" value="Estrutura de entrada de arquivo:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Navegador de Volume" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="Bytes" revision="0" />
     <Item value="KB" revision="0" />
@@ -107,5 +110,16 @@
   <Enumeration key="FeatureDiskEditor">
     <Item value="Navegador de Volume" revision="1" />
     <Item value="Navegador de Volume escaneia e exibe a estrutura do sistema de arquivos do volume, ajuda a encontrar locais de arquivos e recuperar arquivos ou pastas danificadas." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="Desconhecido" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Não atribuído" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

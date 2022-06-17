@@ -5,9 +5,8 @@
   <Message key="Invalid path specified" value="Caminho especificado é inválido" revision="0" />
   <Message key="ErrorCopyingFolders" value="(erro ao copiar pastas)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Erro ao copiar os seguintes arquivos:" revision="0" />
-  <Message key="Loading" value="Carregando explorador" revision="0" />
-  <Message key="Initializing" value="Inicializando explorador" revision="0" />
   <Message key="Explorer settings" value="Explorador" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorador" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Anterior" revision="0" />
     <Item value="Ir para o local anterior" revision="0" />

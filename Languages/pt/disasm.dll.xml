@@ -25,7 +25,6 @@
   <Message key="Go" value="Ir" revision="0" />
   <Message key="Go To:" value="Ir Para:" revision="0" />
   <Message key="Text" value="Texto" revision="0" />
-  <Message key="Loading" value="Carregando disassembler" revision="0" />
   <Message key="Disassembler" value="Disassembler" revision="0" />
   <Message key="ShowImplicitOperands" value="Exibir operandos implícitos" revision="0" />
   <Message key="ShowPrefixes" value="Prefixos de exibição" revision="0" />
@@ -63,6 +62,7 @@
   <Message key="Export to:" value="Exportar para:" revision="0" />
   <Message key="Export headers" value="Exportar cabeçalhos" revision="0" />
   <Message key="File:" value="Arquivo:" revision="0" />
+  <Message key="Instr. set:" value="Instr.:" revision="0" />
   <Message key="Section:" value="Seção:" revision="0" />
   <Message key="Start:" value="Início:" revision="0" />
   <Message key="Size:" value="Tamanho:" revision="0" />
@@ -96,6 +96,7 @@
   <Message key="Search" value="Procurar" revision="0" />
   <Message key="Jump" value="Saltar" revision="0" />
   <Message key="string" value="Sequencia" revision="0" />
+  <Message key="ExportOp" value="Exportar instruções desmontadas..." revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Executar Disassembler…" revision="0" />
     <Item value="Disassemble um arquivo executável" revision="0" />

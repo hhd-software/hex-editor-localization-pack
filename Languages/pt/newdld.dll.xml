@@ -9,7 +9,6 @@
   <Message key="Do you want to cancel all active download tasks?" value="Você quer cancelar todas as tarefas de download ativas?" revision="1" />
   <Message key="Proxy Page" value="Proxy" revision="0" />
   <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Selecione uma configuração de proxy para ser usada por &quot;Verificar Atualizações&quot;:" revision="0" />
-  <Message key="Default" value="Padrão" revision="0" />
   <Message key="Autodetect proxy settings" value="Auto detectar as configurações proxy" revision="0" />
   <Message key="Do not use proxy" value="Não usar proxy" revision="0" />
   <Message key="Use the following proxy (HTTP):" value="Usar a seguinte proxy (HTTP):" revision="0" />
@@ -24,6 +23,7 @@
   <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo armazena a senha digitada em sua conta de usuário localmente)" revision="0" />
   <Message key="PasswordMismatch" value="Senhas digitadas devem ser idênticas." revision="0" />
   <Message key="Downloader settings" value="Configurações de proxy" revision="0" />
+  <Message key="toolbar.Downloader" value="Downloader" revision="0" />
   <Enumeration key="MenuDownloader">
     <Item value="&amp;Downloader" revision="0" />
     <Item value="Menu de Downloader" revision="0" />

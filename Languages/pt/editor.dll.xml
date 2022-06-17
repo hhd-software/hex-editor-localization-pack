@@ -7,9 +7,7 @@
   <Message key="Error" value="Erro" revision="0" />
   <Message key="Structure Editor" value="Editor de Estrutura" revision="0" />
   <Message key="Line" value="Linha" revision="0" />
-  <Message key="StructureFormats" value="Arquivos de Definição de Estrutura (*.h)|*.h|" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Esquema atual não foi salvo&gt;" revision="0" />
-  <Message key="Default" value="Padrão" revision="0" />
   <Message key="SchemeDelError" value="Esse esquema não pode ser excluído" revision="0" />
   <Message key="Coloring" value="Colorindo" revision="0" />
   <Message key="Structure Editor Page" value="Editor de Estrutura" revision="0" />

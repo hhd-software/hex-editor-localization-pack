@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Falha de Declaração{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Não é possível avaliar a expressão ligada." revision="0" />
   <Message key="Structure Viewer" value="Visualizador de Estrutura" revision="0" />
-  <Message key="Initializing" value="Inicializando Estrutura de Exibição" revision="0" />
   <Message key="Structure Errors" value="Erros de Estrutura" revision="0" />
   <Message key="Error accessing Clipboard" value="Erro ao acessar a área de transferência" revision="0" />
   <Message key="ModifiedSuffix" value="(modificado)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="Definições de texto está vazia" revision="0" />
   <Message key="AddInspectType" value="Adicionar Tipo de Definição" revision="0" />
   <Message key="EditInspectType" value="Editar Tipo de Definição" revision="0" />
-  <Message key="StructureFormats" value="Arquivos de definição de estrutura (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Erro ao excluir arquivo selecionado: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Erro ao salvar arquivo &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="O documento atual foi modificado. Você quer salvá-lo?" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="Cor de fundo:" revision="0" />
   <Message key="Text color:" value="Cor do texto:" revision="0" />
   <Message key="Outline color:" value="Cor do contorno:" revision="0" />
-  <Message key="Default" value="Padrão" revision="0" />
   <Message key="Add Inspector Type" value="Adicionar Tipo de Inspetor" revision="0" />
   <Message key="Change Time" value="Alterar Tempo" revision="0" />
   <Message key="AssignNotification" value="Modificação de dados não está habilitado para esse tipo. Clique no botão Ajuda para obter informações detalhadas sobre como ativar a modificação de dados para um tipo." revision="0" />
@@ -106,6 +103,14 @@
   <Message key="UntrustedEditor" value="Você está prestes a executar o aplicativo de edição externo não confiável usando a seguinte linha de comando:\r\n\r\n{path}\r\n\r\nQuer continuar? Se você pressionar Sim, essa aplicação será marcada como confiável." revision="0" />
   <Message key="TypeExists" value="O tipo com o mesmo nome já existe." revision="0" />
   <Message key="StructureFileNotFound" value="O arquivo {file} não foi encontrado no local &quot;{path}&quot;. Você quer removê-lo da biblioteca?" revision="0" />
+  <Message key="toolbar.StructureViewer" value=" Visualizador de Estrutura" revision="0" />
+  <Message key="clr.sview_colors" value="Cores do Visualizador de Estruturas" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Fundo de dados encadernados" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Traço de dados encadernados" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Texto de dados encadernados" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Fundo de campo seleccionado" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Curso de campo seleccionado" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Texto de campo seleccionado" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Vincular…" revision="0" />
     <Item value="Vincular a nova estrutura" revision="0" />
@@ -230,6 +235,10 @@
     <Item value="Ir para Campo de Definição" revision="1" />
     <Item value="Abre o arquivo de definição de estrutura com a definição do campo atual" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="Ir para Valor" revision="1" />
+    <Item value="Ir para a compensação definida por valor" revision="1" />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Copiar Nome Qualificado" revision="1" />
     <Item value="Copia o nome do campo qualificado para área de transferência" revision="1" />
@@ -318,13 +327,25 @@
     <Item value="Tipos de padrão" revision="0" />
     <Item value="Tipos do usuário" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Nova Estrutura de Arquivo…" revision="0" />
-    <Item value="Criar novo arquivo de definição de estrutura" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="Novo Ficheiro de Es&amp;trutura" revision="0" />
+    <Item value="Criar ficheiro de definição de estrutura vazio" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="Novo ficheiro &amp;Kaitai" revision="0" />
+    <Item value="Criar ficheiro de definição Kaitai vazio" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="Abrir Ficheiro de &amp;Estrutura..." revision="0" />
+    <Item value="Ficheiro de definição de estrutura aberta" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="Adicionar Ficheiro de Estrutura A&amp;ctual" revision="0" />
+    <Item value="Adicionar ficheiro de definição de estrutura activa à biblioteca" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="Adicionar Estrutura de Arquivo…" revision="0" />
-    <Item value="Anexar arquivo de definição de estrutura existente para a biblioteca" revision="0" />
+    <Item value="&amp;Adicionar Estrutura de Arquivo(s)…" revision="1" />
+    <Item value="Anexar arquivo(s) de definição de estrutura existente para a biblioteca" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Salvar &amp;Toda a Estrutura de Arquivos" revision="0" />

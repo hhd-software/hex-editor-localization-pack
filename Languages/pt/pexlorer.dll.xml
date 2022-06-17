@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PrivilegeNotGained" value="Definir limite de processos na lista de processos" revision="1" />
-  <Message key="RegionInfo" value="Região de base: {base} ({base:2})\rRegião final: {end} ({end:2})\rTamanho da região: {size} ({size:2})\rTipo: {type}\rEstado: {state}\rFlags: {flags}" revision="1" />
+  <Message key="RegionInfo" value="[[[uRegião de Memória de Processo]]]\r  [[[bRegião de base:]]] {base} ({base:2})\r  [[[bRegião final:]]] {end} ({end:2})\r  [[[bTamanho da região:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bFlags:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Desconhecido" revision="1" />
   <Message key="No process selected" value="Nenhum processo selecionado" revision="1" />
   <Message key="Specify a range using a list of blocks or a list of modules." value="Especifique um intervalo usando uma lista de blocos ou uma lista de módulos." revision="1" />
@@ -24,6 +24,12 @@
   <Message key="Read/Write" value="Leitura/Gravação:" revision="1" />
   <Message key="Copy on Write" value="Copiar na Gravação:" revision="1" />
   <Message key="Free" value="Livre" revision="1" />
+  <Message key="clr.pex_colors" value="Cores da &quot;Abrir processo/Ir para o processo&quot; " revision="0" />
+  <Message key="clr.pex_colors.NoAccess" value="Cores da região Sem Acesso" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Cores da região Read Only" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Cores da região de Leitura/Escrita" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Cópia na região de escrita" revision="0" />
+  <Message key="clr.pex_colors.Free" value="Região livre" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="Abrir P&amp;rocesso…" revision="1" />
     <Item value="Abre processo da memória para ler e gravar" revision="1" />
