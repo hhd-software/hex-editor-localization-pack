@@ -33,7 +33,7 @@
   <Message key="Please wait until all pending operations are completed." value="Veuillez attendre jusqu'à ce que toutes les opérations en attente soient terminées." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Fichiers texte séparé par des tabulations-horizontale (*.tsv)|*.tsv|All Files|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Valeur initiale={initial}, Polynôme = {polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
-  <Message key="CustomFNVTemplate" value="{est1a?}FNV-1a{|est1a}FNV-1{?est1a} {est64bit?}64-bit{|est64bit}32-bit{?est64bit}: Prime={prime}, Base d'offset={basis}" revision="0" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64-bit{|is64bit}32-bit{?is64bit}: Prime={prime}, Base d'offset={basis}" revision="0" />
   <Message key="toolbar.Checksum" value="Checksum" revision="0" />
   <Message key="Add Algorithm" value="Ajouter un Algorithme" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Sélectionnez l'algorithme d'ajout parmi la liste ci-dessous:" revision="1" />
