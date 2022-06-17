@@ -145,7 +145,7 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="Expression régulière" revision="1" />
   <Message key="Sub-match:" value="Correspondance de sous-motif" revision="1" />
-  <Message key="Recent Patterns…" value="Modèles récents..." revision="1" />
+  <Message key="Recent Patterns…" value="Modèles récents…" revision="1" />
   <Message key="Type:" value="Type:" revision="1" />
   <Message key="Find what:" value="Rechercher:" revision="1" />
   <Message key="FREmpty" value="Vide" revision="1" />
@@ -279,9 +279,9 @@
   <Message key="Settings Page" value="Paramètres" revision="0" />
   <Message key="Settings Storage Location" value="Paramètres emplacement de stockage" revision="0" />
   <Message key="Settings Management" value="Gestion des paramètres" revision="0" />
-  <Message key="Export Settings…" value="Paramètres d'exportation..." revision="0" />
-  <Message key="Import Settings…" value="Paramètres d'importation..." revision="0" />
-  <Message key="Reset Settings…" value="Réinitialiser les paramètres..." revision="0" />
+  <Message key="Export Settings…" value="Paramètres d'exportation…" revision="0" />
+  <Message key="Import Settings…" value="Paramètres d'importation…" revision="0" />
+  <Message key="Reset Settings…" value="Réinitialiser les paramètres…" revision="0" />
   <Message key="Ask to import settings" value="Le fichier spécifié existe déjà. Voulez-vous importer son contenu maintenant? Si vous cliquez sur Non, le fichier sera remplacé par les paramètres actuels." revision="0" />
   <Message key="Ask to reset settings" value="L'application doit être redémarrée pour réinitialiser les paramètres. Voulez-vous continuer?" revision="0" />
   <Message key="Ask to restart" value="Il est recommandé de redémarrer l'application pour appliquer les paramètres importés. Voulez-vous redémarrer maintenant?" revision="0" />

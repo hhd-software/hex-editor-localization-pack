@@ -260,7 +260,7 @@
     <Item value="Copier la colonne actuelle dans le presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExportToCSV">
-    <Item value="Exporter vers un fichier CSV ..." revision="1" />
+    <Item value="Exporter vers un fichier CSV …" revision="1" />
     <Item value="Exporter le contenu de la fenêtre entière dans un fichier CSV" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExpandAll">
