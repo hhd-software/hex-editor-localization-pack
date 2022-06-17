@@ -11,7 +11,7 @@
   <Message key="ScriptChanged" value="O seu guião foi modificado. É impossível continuar a execução. Quer interromper a execução do guião?" revision="0" />
   <Message key="Compiling TypeScript" value="Compilação TypeScript…\n" revision="0" />
   <Message key="Started Script" value="Início da execução do script: {name}\n" revision="0" />
-  <Message key="Stopping Script" value="Parar a execução do script..." revision="0" />
+  <Message key="Stopping Script" value="Parar a execução do script…" revision="0" />
   <Message key="Stopped Script" value="\nA execução do script parou.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="O script está actualmente em execução. Quer pará-lo a fim de continuar a fechar a janela do guião?" revision="0" />
   <Message key="ScriptLoadError" value="Arquivo &quot;{file}&quot; de carregamento de erros: {error} ({code})" revision="1" />

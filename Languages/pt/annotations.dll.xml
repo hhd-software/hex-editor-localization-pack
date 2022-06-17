@@ -20,7 +20,7 @@
     <Item value="A funcionalidade de anotações permite-lhe adicionar anotações à gama de dados." revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAdd">
-    <Item value="Adicionar Anotação..." revision="0" />
+    <Item value="Adicionar Anotação…" revision="0" />
     <Item value="Criar uma nova anotação" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationRemove">

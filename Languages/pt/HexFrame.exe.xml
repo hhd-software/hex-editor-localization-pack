@@ -137,8 +137,8 @@
   <Message key="Reset All" value="Restaurar &amp;Todos" revision="1" />
   <Message key="Copy" value="&amp;Copiar" revision="1" />
   <Message key="Continue" value="Continuar" revision="1" />
-  <Message key="Import" value="&amp;Importar..." revision="0" />
-  <Message key="Export" value="&amp;Exportar..." revision="0" />
+  <Message key="Import" value="&amp;Importar…" revision="0" />
+  <Message key="Export" value="&amp;Exportar…" revision="0" />
   <Message key="KB" value="KB" revision="1" />
   <Message key="MB" value="MB" revision="1" />
   <Message key="GB" value="GB" revision="1" />
@@ -186,7 +186,7 @@
   <Message key="License Management and Upgrading" value="Gerenciamento de Licenças e Atualização" revision="1" />
   <Message key="Installed license" value="Licença instalada:" revision="1" />
   <Message key="Start Trial now!" value="Iniciar Avaliação agora!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Escolha a edição que você deseja atualizar. Use o link de &quot;Mais Informação…&quot; para obter mais informações sobre a edição selecionada e &quot;Comparar Edição...&quot; para obter a tabela de comparação de edição." revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Escolha a edição que você deseja atualizar. Use o link de &quot;Mais Informação…&quot; para obter mais informações sobre a edição selecionada e &quot;Comparar Edição…&quot; para obter a tabela de comparação de edição." revision="1" />
   <Message key="Standard Edition:" value="Edição Padrão:" revision="1" />
   <Message key="More Info…" value="Mais Informação…" revision="1" />
   <Message key="Upgrade…" value="Atualizar…" revision="1" />
@@ -480,7 +480,7 @@
     <Item value="Abre uma representação binária de um disco físico" revision="1" />
   </Enumeration>
   <Enumeration key="More tasks task">
-    <Item value="Mais tarefas..." revision="1" />
+    <Item value="Mais tarefas…" revision="1" />
     <Item value="Configura a lista de tarefas" revision="1" />
   </Enumeration>
   <Enumeration key="MenuFile">
@@ -784,7 +784,7 @@
     <Item value="Abre um disco físico" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
-    <Item value="Abrir &amp;Dispositivo..." revision="1" />
+    <Item value="Abrir &amp;Dispositivo…" revision="1" />
     <Item value="Dispositivo aberto usando caminho fornecido pelo utilizador" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">

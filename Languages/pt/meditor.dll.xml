@@ -13,7 +13,7 @@
     <Item value="Pesquisa de todas as referências de um identificador" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item value="Ir para Símbolo..." revision="0" />
+    <Item value="Ir para Símbolo…" revision="0" />
     <Item value="Navegar até à definição do símbolo" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">

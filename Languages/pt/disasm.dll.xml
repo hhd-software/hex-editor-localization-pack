@@ -96,7 +96,7 @@
   <Message key="Search" value="Procurar" revision="0" />
   <Message key="Jump" value="Saltar" revision="0" />
   <Message key="string" value="Sequencia" revision="0" />
-  <Message key="ExportOp" value="Exportar instruções desmontadas..." revision="0" />
+  <Message key="ExportOp" value="Exportar instruções desmontadas…" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Executar Disassembler…" revision="0" />
     <Item value="Disassemble um arquivo executável" revision="0" />
