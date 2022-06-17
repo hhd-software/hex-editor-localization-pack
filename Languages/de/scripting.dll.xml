@@ -11,7 +11,7 @@
   <Message key="ScriptChanged" value="Ihr Skript wurde geändert. Es ist nicht möglich, die Ausführung fortzusetzen. Möchten Sie die Ausführung des Skripts beenden?" revision="0" />
   <Message key="Compiling TypeScript" value="TypeScript kompilieren…\n" revision="0" />
   <Message key="Started Script" value="Skriptausführung gestartet: {name}\n" revision="0" />
-  <Message key="Stopping Script" value="Stoppen der Skriptausführung..." revision="0" />
+  <Message key="Stopping Script" value="Stoppen der Skriptausführung…" revision="0" />
   <Message key="Stopped Script" value="\nSkriptausführung gestoppt.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="Das Skript wird gerade ausgeführt. Möchten Sie es stoppen, um mit dem Schließen des Skriptfensters fortzufahren?" revision="0" />
   <Message key="ScriptLoadError" value="Fehler beim Laden der Datei &quot;{file}&quot;: {error} ({code})" revision="1" />
@@ -50,15 +50,15 @@
     <Item value="Alle Makros löschen" revision="0" />
   </Enumeration>
   <Enumeration key="MacroEdit">
-    <Item value="&amp;Bearbeiten Makro..." revision="0" />
+    <Item value="&amp;Bearbeiten Makro…" revision="0" />
     <Item value="Bearbeiten Sie das ausgewählte Makro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
-    <Item value="Makros &amp;Importieren..." revision="0" />
+    <Item value="Makros &amp;Importieren…" revision="0" />
     <Item value="Makros importieren" revision="0" />
   </Enumeration>
   <Enumeration key="MacroExport">
-    <Item value="Makros E&amp;xportieren..." revision="0" />
+    <Item value="Makros E&amp;xportieren…" revision="0" />
     <Item value="Makros exportieren" revision="0" />
   </Enumeration>
   <Enumeration key="MenuMacro">
@@ -70,7 +70,7 @@
     <Item value="Neue leere Skriptdatei erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingOpenScript">
-    <Item value="Skript öffnen..." revision="0" />
+    <Item value="Skript öffnen…" revision="0" />
     <Item value="Öffnen einer vorhandenen Skriptdatei" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">

@@ -336,7 +336,7 @@
     <Item value="Leere Kaitai Definitionsdatei erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item value="&amp;Strukturdatei öffnen..." revision="0" />
+    <Item value="&amp;Strukturdatei öffnen…" revision="0" />
     <Item value="Strukturdefinitionsdatei öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">

@@ -138,7 +138,7 @@
   <Message key="Copy" value="&amp;Kopie" revision="1" />
   <Message key="Continue" value="&amp;Fortfahren" revision="1" />
   <Message key="Import" value="&amp;Importieren…" revision="0" />
-  <Message key="Export" value="&amp;Exportieren..." revision="0" />
+  <Message key="Export" value="&amp;Exportieren…" revision="0" />
   <Message key="KB" value="KB" revision="1" />
   <Message key="MB" value="MB" revision="1" />
   <Message key="GB" value="GB" revision="1" />
@@ -313,7 +313,7 @@
   <Message key="Privacy Policy" value="Datenschutz-Bestimmungen" revision="0" />
   <Message key="Volume access denied" value="Beim Versuch, Volume-Informationen abzufragen, wurde ein Fehler &quot;Zugriff verweigert&quot; festgestellt. Versuchen Sie, Hex Editor Neo als Administrator neu zu starten." revision="0" />
   <Message key="NA" value="N/V" revision="0" />
-  <Message key="Open Device" value="Gerät öffnen" revision="0" />
+  <Message key="Open Device" value="Öffnen Gerät" revision="0" />
   <Message key="Enter the device path to open:" value="Geben Sie den Gerätepfad zum Öffnen ein:" revision="0" />
   <Message key="Open device as:" value="Gerät öffnen als:" revision="0" />
   <Message key="Auto" value="Auto" revision="0" />
@@ -784,7 +784,7 @@
     <Item value="Öffnet eine physikalische Festplatte" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
-    <Item value="Öffnen &amp;Gerät..." revision="1" />
+    <Item value="Öffnen &amp;Gerät…" revision="1" />
     <Item value="Gerät über den vom Benutzer angegebenen Pfad öffnen" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
