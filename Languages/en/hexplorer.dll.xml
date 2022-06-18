@@ -44,8 +44,6 @@
   <Message key="ErrorCopyingFolders" description="Error copying folders" value="(error copying folders)"/>
   <Message key="ErrorCopyingFiles" description="Error copying files" value="Error copying following files:"/>
 
-  <Message key="Loading" description="Loading explorer" value="Loading explorer"/>
-  <Message key="Initializing" description="Initializing explorer" value="Initializing explorer"/>
-
   <Message key="Explorer settings" description="Settings: Explorer" value="Explorer"/>
+	<Message key="toolbar.Explorer" description="Toolbar: Explorer" value="Explorer"/>
 </Definition>
