@@ -25,7 +25,6 @@
   <Message key="Go" value="Vai" revision="0" />
   <Message key="Go To:" value="Vai a:" revision="0" />
   <Message key="Text" value="Testo" revision="0" />
-  <Message key="Loading" value="Caricando Disassembler" revision="0" />
   <Message key="Disassembler" value="Disassembler" revision="0" />
   <Message key="ShowImplicitOperands" value="Mostra Operandi Impliciti" revision="0" />
   <Message key="ShowPrefixes" value="Mostra Prefissi" revision="0" />

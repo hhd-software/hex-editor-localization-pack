@@ -7,9 +7,7 @@
   <Message key="Error" value="Errore" revision="0" />
   <Message key="Structure Editor" value="Struttura Editor" revision="0" />
   <Message key="Line" value="Riga" revision="0" />
-  <Message key="StructureFormats" value="File di Definizione Struttura (*.h)|*.h|" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Schema Corrente non Salvato&gt;" revision="0" />
-  <Message key="Default" value="Predefinito" revision="0" />
   <Message key="SchemeDelError" value="Questo Schema non può Essere Cancellata" revision="0" />
   <Message key="Coloring" value="Colorazione" revision="0" />
   <Message key="Structure Editor Page" value="Struttura Editor" revision="0" />

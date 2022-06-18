@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Testo Samplice" revision="0" />
-  <Message key="Loading" value="Caricamento Segnalibri" revision="0" />
-  <Message key="Initializing" value="Inizializzazione Segnalibri" revision="0" />
   <Message key="Bookmarks" value="Segnalibri" revision="0" />
   <Message key="Progress" value="L'Operazione Corrente è in Corso.  Attendere che sia Finito." revision="0" />
   <Message key="GroupDelete" value="Il Gruppo sarà Cancellato (inclusi tutti i segnalibri in esso contenuti). Vuoi Continuare?" revision="0" />
@@ -26,7 +23,6 @@
   <Message key="Background:" value="Sfondo:" revision="0" />
   <Message key="Outline:" value="Contorno:" revision="0" />
   <Message key="Round edges" value="Bordi Arrotondati" revision="0" />
-  <Message key="Default" value="Predefinito" revision="0" />
   <Message key="BookmarksFilterString" value="Segnalibro File (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Selezione File (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Mostra Selezione di Avviso Conversione Segnalibro" revision="1" />

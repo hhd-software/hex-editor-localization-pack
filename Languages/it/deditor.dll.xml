@@ -108,4 +108,15 @@
     <Item value="Volume Navigatore" revision="1" />
     <Item value="Volume Navigatore Scansiona e Mostra la Struttura del File System del Volume, Aiuta a Trovare Percorsi dei File e Recuperare File o Cartelle Danneggiate." revision="1" />
   </Enumeration>
+  <Enumeration key="Partitions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

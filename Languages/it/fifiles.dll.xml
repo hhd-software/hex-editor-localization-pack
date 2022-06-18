@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="Cartella non Valida Lista Sintassi." revision="1" />
   <Message key="Find All" value="Trova Tutto" revision="1" />
   <Message key="Replace All" value="Sostituisci Tutto" revision="1" />
-  <Message key="Loading Find in Files" value="Caricamento Trova in File" revision="1" />
-  <Message key="Initializing Find in Files" value="Inizializzazione Trova in File" revision="1" />
   <Message key="Notifications" value="Notifiche" revision="1" />
   <Message key="Find in Files" value="Trova nei file" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Vuoi Annullare l'Operazione in Corso?" revision="1" />

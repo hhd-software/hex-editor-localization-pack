@@ -5,8 +5,6 @@
   <Message key="Invalid path specified" value="Percorso Specificato Non Valido" revision="0" />
   <Message key="ErrorCopyingFolders" value="(errore copiando cartelle)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Errore Copiando i File Seguenti:" revision="0" />
-  <Message key="Loading" value="Caricando Esplora" revision="0" />
-  <Message key="Initializing" value="Inizializzando Esplora" revision="0" />
   <Message key="Explorer settings" value="Esplora" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Precedente" revision="0" />

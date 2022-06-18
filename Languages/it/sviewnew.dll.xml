@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Asserzione Fallita{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Impossibile Valutare l'Espressione Limite." revision="0" />
   <Message key="Structure Viewer" value="Visualizzatore Struttura" revision="0" />
-  <Message key="Initializing" value="Inizializzazione Visualizzatore Struttura" revision="0" />
   <Message key="Structure Errors" value="Errori Struttura" revision="0" />
   <Message key="Error accessing Clipboard" value="Errore di Accesso Appunti" revision="0" />
   <Message key="ModifiedSuffix" value="(Modificato)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="La Definizione Testo è Vuota" revision="0" />
   <Message key="AddInspectType" value="Aggiungi Tipo Definizione" revision="0" />
   <Message key="EditInspectType" value="Modifica Tipo Definizione" revision="0" />
-  <Message key="StructureFormats" value="File Definizione Struttura (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Errore Eliminando il File Selezionato: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Errore Salvando il File &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Il Documento Corrente è stato Modificato. Vuoi Salvarlo?" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="Colore di Sfondo:" revision="0" />
   <Message key="Text color:" value="Colore Testo:" revision="0" />
   <Message key="Outline color:" value="Colore Contorno:" revision="0" />
-  <Message key="Default" value="Predefinito" revision="0" />
   <Message key="Add Inspector Type" value="Aggiungi Tipo Ispettore" revision="0" />
   <Message key="Change Time" value="Cambia Ora" revision="0" />
   <Message key="AssignNotification" value="La Modifica dei Dati Non è Abilitata per Questo Tipo. Clicca sul Pulsante Guida per Informazioni Dettagliate su come Abilitare la Modifica dei Dati di un Tipo." revision="0" />
@@ -230,6 +227,10 @@
     <Item value="Vai a DefinizioneVai Campo" revision="1" />
     <Item value="Apri File di Definizione Struttura con Definizione Campo Corrente" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Copia Nome Qualificato" revision="1" />
     <Item value="Copia Campo Nome Qualificato negli Appunti" revision="1" />
@@ -318,9 +319,21 @@
     <Item value="Tipi Standard" revision="0" />
     <Item value="Tipi Utente" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Nuova Struttura File…" revision="0" />
-    <Item value="Crea Nuovo File Definizione Struttura" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="StructureAdd">
     <Item value="&amp;Aggiungi Struttura File…" revision="0" />

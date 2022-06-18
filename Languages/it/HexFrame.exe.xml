@@ -48,10 +48,8 @@
   <Message key="LoadErrors" value="Si sono Verificati i Seguenti Errori Durante il Caricamento:\r\n{errors}" revision="1" />
   <Message key="NoHandlersFoundError" value="Non sono stati Trovati Gestori che Potrebbero Aprire il File." revision="1" />
   <Message key="VolumeOpenError" value="Errore Apertura Volume: {text} ({code})" revision="1" />
-  <Message key="PhysMemError" value="Errore Aprendo la Memoria Fisica: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Impossibile Inizializzare la Finestra dell'Editor." revision="1" />
   <Message key="NoEditorsFoundError" value="Impossibile Trovare un Editor che Supporti Questo File." revision="1" />
-  <Message key="NoSupportForPhysMem" value="La Memoria Fisica Non è Disponibile per le Applicazioni in Modalità Utente in Questa Versione del Sistema Operativo. Questa Funzione è Supportata Solo su Windows 2000 e Windows XP." revision="1" />
   <Message key="ToolsFilter" value="Strumenti di Configurazione File(*.hexdwc)|*.hexdwc|" revision="1" />
   <Message key="Printing" value="Stampa" revision="1" />
   <Message key="ActivatePane" value="Attiva Pannello {pane}" revision="1" />
@@ -91,18 +89,15 @@
   <Message key="Keyboard Map Dialog" value="Mappa Tastiera" revision="1" />
   <Message key="Print" value="&amp;Stampa" revision="1" />
   <Message key="General" value="Generale" revision="1" />
-  <Message key="DisplaySplashScreen" value="Mostra Schermata Iniziale" revision="1" />
   <Message key="AlwaysCreateBackups" value="Crea Sempre Backup" revision="1" />
   <Message key="LowercaseHex" value="Esadecimale Minuscolo" revision="1" />
   <Message key="ConvertFloatingPoint" value="La Modifica dell'Ordine dei Byte Riguarda i Tipi in Virgola Mobile" revision="1" />
   <Message key="DocumentsToRemember" value="Ultimi Documenti Usati di Recente da Visualizzare" revision="1" />
   <Message key="ClosesCurrentOnly" value="La Chiusura Riguarda Solo lo Strumento Finestra Corrente" revision="1" />
   <Message key="RestoreWindowPosition" value="Ripristina la Posizione della Finestra Principale all'Avvio" revision="1" />
-  <Message key="DisableVectorCaching" value="Disabilita Immagine Vettoriale di Cache" revision="1" />
   <Message key="SkipNagScreen" value="Salta Ronzio dello Schermo" revision="1" />
   <Message key="Notifications" value="Notifiche" revision="1" />
   <Message key="SaveNotification" value="Salva Documento" revision="1" />
-  <Message key="OpenPhysicalMemory" value="Apri Memoria Fisica" revision="1" />
   <Message key="OpenDisk" value="Apri Volume/Disco" revision="1" />
   <Message key="Task" value="Attività" revision="1" />
   <Message key="Hex Editor Neo trial period has expired." value="Il Periodo Prova di Hex Editor Neo è Scaduto." revision="1" />
@@ -149,7 +144,6 @@
   <Message key="Windows Title" value="Finestre" revision="1" />
   <Message key="Save" value="Salva" revision="1" />
   <Message key="Close Window(s)" value="Chiudi Finestra/e" revision="1" />
-  <Message key="x64edition" value="(Edizione x64)" revision="1" />
   <Message key="AboutInfo" value="HHD Software {product}{x64?} (Edizione x64) {?x64}\n{edition}. Versione {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nTutti i Diritti Riservati." revision="4" />
   <Message key="AboutBoxDisclaimer" value="Attenzione: Questo Programma è Tutelato da Copyright e dai Trattati Internazionali. la Riproduzione o Distribuzione di Questo Programma, o di Parte di Esso, Non Autorizzata, può Comportare Gravi Sanzioni Civili e Penali, e sarà Perseguita nella Misura Massima Consentita dalla Legge." revision="1" />
   <Message key="About Hex Editor Neo" value="Info su Hex Editor Neo" revision="1" />
@@ -158,9 +152,6 @@
   <Message key="Novice user" value="Utente Inesperto" revision="1" />
   <Message key="Advanced user" value="Utente Avanzato" revision="1" />
   <Message key="Expert user" value="Utente Esperto" revision="1" />
-  <Message key="Select the icon set. You can later change it on General Settings Tab (Tools » Settings menu option)." value="Seleziona l'Icona Imposta. Poi, si può Cambiare su Impostazioni Scheda Generale (Strumenti » Opzioni Menu Impostazioni)." revision="1" />
-  <Message key="Neo 5 icon set" value="Neo Imposta 5 Icone" revision="1" />
-  <Message key="Classic icon set" value="Imposta Icona Classica" revision="1" />
   <Message key="Application restart required." value="Riavvio dell'Applicazione Richiesta." revision="1" />
   <Message key="Configure color scheme after I close this window" value="Configura Combinazione di Colori Dopo aver Chiuso Questa Finestra" revision="1" />
   <Message key="Select the size of toolbar buttons:" value="Seleziona la Dimensione dei Pulsanti della Barra Strumenti:" revision="1" />
@@ -172,7 +163,6 @@
   <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Per Uso Commerciale, Governativo o Militare è Richiesto l'&lt;a&gt;aggiornamento&lt;/a&gt; ." revision="1" />
   <Message key="Do not display this warning anymore" value="Non Visualizzare più Questo Avviso" revision="1" />
   <Message key="Save changes to selected documents" value="Salva le Modifiche ai Documenti Selezionati:" revision="1" />
-  <Message key="Special Offer" value="Offerta Speciale" revision="1" />
   <Message key="Tasks Page" value="Attività" revision="1" />
   <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Specifica Quali Attività sono Disponibili sul Barra Applicazioni di Hex Editor Neo:" revision="1" />
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo Periodo di Prova" revision="1" />
@@ -213,9 +203,6 @@
   <Message key="Background" value="Sfondo" revision="0" />
   <Message key="Outline" value="Contorno" revision="0" />
   <Message key="Coloring Schemes" value="Schemi Coloranti" revision="0" />
-  <Message key="Scroll Left" value="Scorri a Sinistra" revision="0" />
-  <Message key="Scroll Right" value="Scorri a Destra" revision="0" />
-  <Message key="RocketClose" value="Chiudi" revision="0" />
   <Message key="Auto Hide" value="Nascondi Automaticamente" revision="0" />
   <Message key="Switch Window" value="Cambia Finestra" revision="0" />
   <Message key="Active Tool Windows" value="Attiva Finestre Strumenti" revision="0" />
@@ -304,7 +291,6 @@
   <Message key="Minidump description" value="I minidump di solito hanno una dimensione inferiore a un megabyte e contengono solo informazioni limitate su un crash. A volte un minidump è sufficiente per diagnosticare il problema, ma spesso mancano le informazioni necessarie per riprodurre l'incidente." revision="0" />
   <Message key="Full dump description" value="I dump completi contengono la vista compressa di tutto lo spazio degli indirizzi di processo. La cosa migliore è permettere agli sviluppatori di riprodurre la situazione che ha causato il crash e di risolverlo il prima possibile. Tuttavia, la dimensione di un dump completo può facilmente raggiungere centinaia di megabyte." revision="0" />
   <Message key="Privacy Policy" value="Informativa sulla privacy" revision="0" />
-  <Message key="Crash reporter" value="Segnalazione di crash" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Fisico" revision="2" />
     <Item value="Dimensione" revision="2" />
@@ -385,6 +371,10 @@
     <Item value="&amp;File" revision="0" />
     <Item value="Menu Gruppo File" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Apri" revision="0" />
     <Item value="Apri Menu Gruppo" revision="0" />
@@ -417,10 +407,6 @@
     <Item value="Aprire Condiviso" revision="1" />
     <Item value="Aprire la Funzione Condivisa: Consente di Condividere i File Aperti con Altre Applicazioni. Sono Previste Diverse Strategie di Unione tra cui Opzioni di Confronto Cambiamento." revision="1" />
   </Enumeration>
-  <Enumeration key="PhysMemNotification">
-    <Item value="Aprire la Memoria Fisica" revision="1" />
-    <Item value="Hex Editor Neo Permette di Avere una Visione di Sola Lettura nella Memoria Fisica del Sistema. Devi Essere un Membro del Gruppo Amministratori Locale, al Fine di Essere in Grado di Accedervi. Questa Operazione è Supportata su Windows 2000 e Solo i Sistemi Operativi Windows XP." revision="1" />
-  </Enumeration>
   <Enumeration key="FeatureOpenMemory">
     <Item value="Aprire la Memoria Fisica" revision="1" />
     <Item value="Aprire la Funzione Memoria Fisica Consente di Avere una Visione di Sola Lettura nella Memoria Fisica del Computer." revision="1" />
@@ -448,11 +434,6 @@
     <Item value="Eredità" revision="1" />
     <Item value="Ultima, Appena Usata" revision="1" />
     <Item value="Utilizzando la Finestra di Navigazione" revision="1" />
-  </Enumeration>
-  <Enumeration key="IconSet">
-    <Item value="Imposta Icona" revision="1" />
-    <Item value="Imposta Icona Classica" revision="1" />
-    <Item value="Imposta Icona Neo" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
     <Item value="Sconosciuto, Reinstallare l'Applicazione e/o Licenza." revision="1" />
@@ -678,10 +659,6 @@
     <Item value="&amp;Info su Hex Editor Neo" revision="1" />
     <Item value="Visualizza Informazioni su Questo Prodotto" revision="1" />
   </Enumeration>
-  <Enumeration key="FileOpenPhysMemory">
-    <Item value="Aprire Memoria Fisica…" revision="1" />
-    <Item value="Aprire la Memoria Fisica del Computer (Sola Lettura)" revision="1" />
-  </Enumeration>
   <Enumeration key="FileOpenVolume">
     <Item value="Apri &amp;Volume…" revision="1" />
     <Item value="Apri un Volume (Disco Logico)" revision="1" />
@@ -689,6 +666,10 @@
   <Enumeration key="FileOpenDisk">
     <Item value="Apri Disco &amp;Fisico…" revision="1" />
     <Item value="Apri un Disco Fisico" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="Salva &amp;Tutto" revision="1" />
@@ -709,10 +690,6 @@
   <Enumeration key="ViewToggleFullScreen">
     <Item value="&amp;Alterna Finestre Strumenti" revision="1" />
     <Item value="Mosta o Nascondi Tutte le Finestre Strumenti" revision="1" />
-  </Enumeration>
-  <Enumeration key="HelpForum">
-    <Item value="&amp;Forum…" revision="1" />
-    <Item value="Apri il Forum di Hex Editor Neo" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
     <Item value="&amp;Gestione Licenza…" revision="1" />

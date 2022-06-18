@@ -7,12 +7,9 @@
   <Message key="IntelHexColumns" value="Byte per Riga per i Formati Intel HEX e Motorola S" revision="1" />
   <Message key="EncodedFormat" value="&amp;Dati Codificati" revision="1" />
   <Message key="RawFilter" value="File di Testo (*.txt)|*.txt|" revision="1" />
-  <Message key="Default" value="Predefinito" revision="1" />
   <Message key="Little Endian" value="Little Endian" revision="1" />
   <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="Valori &amp;Formattati" revision="1" />
-  <Message key="Loading" value="Caricamento Supporto Appunti" revision="1" />
-  <Message key="Initializing" value="Inizializzazione Supporto Appunti" revision="1" />
   <Message key="CopyExportLocalized" value="Copia &amp;&amp; Esporta" revision="1" />
   <Message key="Export" value="E&amp;sporta" revision="1" />
   <Message key="BadFormat" value="Il Formato di Esportazione non è in Grado di Gestire i Dati Selezionati" revision="1" />
@@ -21,7 +18,6 @@
   <Message key="ErrorExport2" value="Errore Esportando dati di: {text} \ r \ n (Codice Errore: {code})" revision="1" />
   <Message key="ErrorImport" value="Errore Importando Dati Esadecimali: {text}\r\n(Codice Errore: {code})" revision="1" />
   <Message key="OpenHexTitle" value="Apri Hex" revision="1" />
-  <Message key="AllSupportedFormats" value="Tutti i Formati Supportati" revision="1" />
   <Message key="&amp;Copy to Clipboard" value="&amp;Copia negli Appunti" revision="1" />
   <Message key="&amp;Export" value="&amp;Esporta" revision="1" />
   <Message key="Format:" value="Formato:" revision="1" />
@@ -65,6 +61,14 @@
   <Enumeration key="FileOpenHex">
     <Item value="Apri &amp;Hex…" revision="1" />
     <Item value="Apri File ASCII-Codificato Binario" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="base64-Codifica" revision="1" />

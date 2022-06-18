@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Questa Classe Esiste Già. Cambiare il Nome della Classe." revision="1" />
   <Message key="DeleteClasses?" value="Sicuro di Voler Eliminare Tutte le Classi?" revision="1" />
   <Message key="LoadError" value="Errore Interno: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Caricamento Componenti di Base" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Verifica lo Spazio su Disco Prima di Intervenire" revision="1" />
   <Message key="IgnoreRenames" value="Ignora la Rinomina dei File Aperti Condivisi" revision="1" />
   <Message key="RemovedNotification" value="Documento Condiviso Eliminato" revision="1" />
