@@ -15,13 +15,10 @@
   <Message key="These attributes can not be applied." value="Ці атрибути не можуть бути застосовані." revision="0" />
   <Message key="Error setting file time." value="Помилка при встановленні часу." revision="0" />
   <Message key="Multiple" value="Множинне" revision="0" />
-  <Message key="Sample Text" value="Зразок тексту" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
   <Message key="History" value="Історія" revision="0" />
   <Message key="Pattern Coloring" value="Забарвлення послідовності" revision="0" />
   <Message key="Base Converter" value="Базовий конвертер" revision="0" />
-  <Message key="Loading" value="Завантаження історії та забарвлення" revision="0" />
-  <Message key="Initializing" value="Ініціалізація історії та забарвлення" revision="0" />
   <Message key="PatchFileFilter" value="Патч файли (*.hexpatch)|*.hexpatch|Виконувані файли (*.exe)|*.exe|" revision="0" />
   <Message key="Forks" value="{opname} ({items} елементів{has_forks?}, {forks} розвилок{?has_forks})" revision="0" />
   <Message key="Switch To" value="Переключитися" revision="0" />
@@ -75,7 +72,6 @@
   <Message key="Second color:" value="Другий колір:" revision="0" />
   <Message key="Outline color:" value="Колір контуру:" revision="0" />
   <Message key="Selected Color:" value="Колір виділення:" revision="0" />
-  <Message key="Default" value="За замовчуванням" revision="0" />
   <Message key="Select All" value="Вибрати все" revision="0" />
   <Message key="Item color:" value="Колір елементу:" revision="0" />
   <Message key="Text color:" value="Колір тексту:" revision="0" />
@@ -427,13 +423,5 @@
   <Enumeration key="FeatureBranches">
     <Item value="Історія розгалужень" revision="0" />
     <Item value="Функція &quot;Історія розгалужень&quot; дозволяє вести паралельно кілька редакцій одного файлу та виконувати для них операції, в т.ч. з різних гілок." revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureSaveHistory">
-    <Item value="Зберегти історію" revision="0" />
-    <Item value="Функція &quot;Зберегти історію&quot; дозволяє зберегти всю історію змін у файл та завантажити її для документа пізніше або передати кому-небудь (розгалуження теж зберігаються)" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureLoadHistory">
-    <Item value="Завантажити історію" revision="0" />
-    <Item value="Функція &quot;Завантажити історію&quot; дозволяє завантажити історію всіх змін так, як ніби ви працювали з цим документом." revision="0" />
   </Enumeration>
 </Language>

@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Умова не виконана{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Не можу оцінити пов'язані вираження." revision="0" />
   <Message key="Structure Viewer" value="Оглядач структур" revision="0" />
-  <Message key="Initializing" value="Ініціалізація Оглядача структур" revision="0" />
   <Message key="Structure Errors" value="Помилки структур" revision="0" />
   <Message key="Error accessing Clipboard" value="Помилка доступу до буфера обміну" revision="0" />
   <Message key="ModifiedSuffix" value="(змінено)" revision="0" />
@@ -82,7 +81,6 @@
   <Message key="BindTypeNotFound" value="Не знайдений тип {type}" revision="0" />
   <Message key="AddInspectType" value="Додати новий тип" revision="0" />
   <Message key="EditInspectType" value="Редагувати тип" revision="0" />
-  <Message key="StructureFormats" value="Файли структур (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Помилка видалення обраного файлу: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Помилка збереження файлу &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Поточний документ був змінений. Зберегти?" revision="0" />
@@ -92,7 +90,6 @@
   <Message key="Background color:" value="Колір фону:" revision="0" />
   <Message key="Text color:" value="Колір тексту:" revision="0" />
   <Message key="Outline color:" value="Колір контуру:" revision="0" />
-  <Message key="Default" value="За замовчуванням" revision="0" />
   <Message key="Add Inspector Type" value="Додати тип" revision="0" />
   <Message key="Change Time" value="Змінити час" revision="0" />
   <Enumeration key="StructureViewerBind">
@@ -219,6 +216,10 @@
     <Item value="Перейти до визначення поля" revision="0" />
     <Item value="Перейти до визначення поля" revision="0" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Копіювати повне ім'я" revision="0" />
     <Item value="Копіювати повне ім'я" revision="0" />
@@ -275,10 +276,6 @@
     <Item value="Тип" revision="0" />
     <Item value="Значення" revision="0" />
   </Enumeration>
-  <Enumeration key="InspHexMode">
-    <Item value="Відобразити шістнадцяткові значення" revision="0" />
-    <Item value="Відображати шістнадцяткові або десяткові значення" revision="0" />
-  </Enumeration>
   <Enumeration key="InspApplyColoring">
     <Item value="Увімкнути підсвітку" revision="0" />
     <Item value="Увімкнути або вимкнути підсвітку поточного поля" revision="0" />
@@ -311,9 +308,21 @@
     <Item value="Стандартні типи" revision="0" />
     <Item value="Типи користувача" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Новий файл структур..." revision="0" />
-    <Item value="Створити новий файл структур" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="StructureAdd">
     <Item value="&amp;Додати файл структур..." revision="0" />
@@ -346,5 +355,12 @@
   <Enumeration key="StructureOpenFolder">
     <Item value="Відкрити папку структур" revision="0" />
     <Item value="Відкрити папку з файлами структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Цей клас вже існує. Змініть ім'я класу." revision="1" />
   <Message key="DeleteClasses?" value="Дійсно хочете видалити всі класи?" revision="1" />
   <Message key="LoadError" value="Внутрішня помилка: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Завантаження основних компонентів" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Перевіряти вільне місце на диску перед операціями" revision="1" />
   <Message key="IgnoreRenames" value="Не перейменовувати відкриті загальні файли" revision="1" />
   <Message key="RemovedNotification" value="Загальний документ видалено" revision="1" />

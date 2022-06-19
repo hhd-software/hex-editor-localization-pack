@@ -7,9 +7,7 @@
   <Message key="Error" value="Помилка" revision="0" />
   <Message key="Structure Editor" value="Редактор структур" revision="0" />
   <Message key="Line" value="Рядок" revision="0" />
-  <Message key="StructureFormats" value="Файли структур (*.h)|*.h|" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Незбережена схема&gt;" revision="0" />
-  <Message key="Default" value="За замовчанням" revision="0" />
   <Message key="SchemeDelError" value="Неможливо видалити дану схему" revision="0" />
   <Message key="Coloring" value="Фарбування" revision="0" />
   <Message key="Structure Editor Page" value="Редактор структур" revision="0" />

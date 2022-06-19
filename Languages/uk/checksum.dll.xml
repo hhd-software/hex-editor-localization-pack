@@ -20,8 +20,6 @@
   <Message key="Sum of Big-Endian 64-bit signed values" value="Сума 64-бітних знакових значень прямого порядку (Big-Endian)" revision="1" />
   <Message key="Custom CRC" value="Настроювана CRC" revision="1" />
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Деякі значення не вміщаються в 16 біт. Задайте 16-бітові значення від 0 до 0xFFFF (65535)." revision="1" />
-  <Message key="Loading checksums" value="Завантаження контрольних сум" revision="1" />
-  <Message key="Initializing checksums" value="Ініціалізація контрольних сум" revision="1" />
   <Message key="Checksum" value="Контрольні суми" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Функція &quot;Контрольна сума&quot; обчислює значення сум вибраних даних або всього документа." revision="1" />
   <Message key="N/A" value="Немає даних" revision="1" />
@@ -56,6 +54,7 @@
     <Item value="Контрольні суми" revision="1" />
     <Item value="Хеши" revision="1" />
     <Item value="Знакові суми" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Контрольні суми" revision="0" />

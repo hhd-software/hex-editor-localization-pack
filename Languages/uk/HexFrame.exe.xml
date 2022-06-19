@@ -47,10 +47,8 @@
   <Message key="LoadErrors" value="Під час завантаження виникли помилки:\r\n{errors}" revision="1" />
   <Message key="NoHandlersFoundError" value="Не знайдені обробники, що відкривають цей файл." revision="1" />
   <Message key="VolumeOpenError" value="Помилка при відкритті тому: {text} ({code})" revision="1" />
-  <Message key="PhysMemError" value="Помилка при відкритті пам'яті: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Неможливо ініціалізувати вікно редактора." revision="1" />
   <Message key="NoEditorsFoundError" value="Неможливо знайти підтримку для цього файлу." revision="1" />
-  <Message key="NoSupportForPhysMem" value="У вашій операційній системі користувальницьким програмам обмежен доступ до пам'яті. Функція підтримується тільки на Windows 2000 та Windows XP." revision="1" />
   <Message key="ToolsFilter" value="Налаштування інструментальних вікон (*.hexdwc)|*.hexdwc|" revision="1" />
   <Message key="Printing" value="Друк" revision="1" />
   <Message key="ActivatePane" value="Активувати інструментальне вікно {pane}" revision="1" />
@@ -90,18 +88,15 @@
   <Message key="Keyboard Map Dialog" value="Карта клавіш" revision="1" />
   <Message key="Print" value="&amp;Друкувати" revision="1" />
   <Message key="General" value="Загальні" revision="1" />
-  <Message key="DisplaySplashScreen" value="Відображати вікно заставки (splash screen)" revision="1" />
   <Message key="AlwaysCreateBackups" value="Завжди створювати бекапи" revision="1" />
   <Message key="LowercaseHex" value="Шістнадцяткові числа в нижньому регістрі" revision="1" />
   <Message key="ConvertFloatingPoint" value="Порядок байт впливає також на числа з плаваючою крапкою" revision="1" />
   <Message key="DocumentsToRemember" value="Показувати останніх документів" revision="1" />
   <Message key="ClosesCurrentOnly" value="&quot;Закрити&quot; впливає тільки на поточне інструментальне вікно." revision="1" />
   <Message key="RestoreWindowPosition" value="Відновлювати позицію вікна при запуску" revision="1" />
-  <Message key="DisableVectorCaching" value="Вимкнути кеш векторних іконок" revision="1" />
   <Message key="SkipNagScreen" value="Пропускати &quot;nag screen&quot;" revision="1" />
   <Message key="Notifications" value="Повідомлення" revision="1" />
   <Message key="SaveNotification" value="Збереження документа" revision="1" />
-  <Message key="OpenPhysicalMemory" value="Відкриття фізичної пам'яті" revision="1" />
   <Message key="OpenDisk" value="Відкриття диска/тому" revision="1" />
   <Message key="Task" value="Завдання" revision="1" />
   <Message key="Hex Editor Neo trial period has expired." value="Пробний період закінчився." revision="1" />
@@ -147,7 +142,6 @@
   <Message key="Windows Title" value="Вікна" revision="1" />
   <Message key="Save" value="Зберегти" revision="1" />
   <Message key="Close Window(s)" value="Закрити вікна" revision="1" />
-  <Message key="x64edition" value="(версія x64)" revision="1" />
   <Message key="AboutInfo" value="HHD Software {product}{x64?} (x64) {?x64}\n{edition}. Версія {major}.{minor}.{revision}.{build}\n\n© 2014 HHD Software Ltd.\nВсі права захищені." revision="2" />
   <Message key="AboutBoxDisclaimer" value="Увага: Ця програма захищена законом про авторське право. Незаконне відтворення та поширення цієї програми або її частин може призвести до кримінального переслідування в рамках чинного законодавства." revision="1" />
   <Message key="About Hex Editor Neo" value="Про Hex Editor Neo" revision="1" />
@@ -156,9 +150,6 @@
   <Message key="Novice user" value="Новачок" revision="1" />
   <Message key="Advanced user" value="Просунутий" revision="1" />
   <Message key="Expert user" value="Експерт" revision="1" />
-  <Message key="Select the icon set. You can later change it on General Settings Tab (Tools » Settings menu option)." value="Виберіть набір іконок. Ви можете потім змінити цю настройку в меню Інструменти » Налаштування" revision="1" />
-  <Message key="Neo 5 icon set" value="Набір 5-ої версії" revision="1" />
-  <Message key="Classic icon set" value="Класичний набір" revision="1" />
   <Message key="Application restart required." value="Потрібен перезапуск програми." revision="1" />
   <Message key="Configure color scheme after I close this window" value="Налаштувати колірну схему програми після закриття вікна" revision="1" />
   <Message key="Select the size of toolbar buttons:" value="Розмір іконок на панелях:" revision="1" />
@@ -170,7 +161,6 @@
   <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Для комерційного, військового або урядового користування потрібен &lt;a&gt;апгрейд&lt;/a&gt;." revision="1" />
   <Message key="Do not display this warning anymore" value="Не показувати більше це попередження" revision="1" />
   <Message key="Save changes to selected documents" value="Зберегти зміни в документах:" revision="1" />
-  <Message key="Special Offer" value="Спеціальна пропозиція" revision="1" />
   <Message key="Tasks Page" value="Завдання" revision="1" />
   <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Вкажіть завдання, доступні зі списку переходів іконки Hex Editor Neo:" revision="1" />
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo пробний період" revision="1" />
@@ -211,9 +201,6 @@
   <Message key="Background" value="Фон" revision="0" />
   <Message key="Outline" value="Контур" revision="0" />
   <Message key="Coloring Schemes" value="Колірні схеми" revision="0" />
-  <Message key="Scroll Left" value="Прокрутити вліво" revision="0" />
-  <Message key="Scroll Right" value="Прокрутити вправо" revision="0" />
-  <Message key="RocketClose" value="Закрити" revision="0" />
   <Message key="Auto Hide" value="Автоматичне приховування" revision="0" />
   <Message key="Switch Window" value="Переключити вікно" revision="0" />
   <Message key="Active Tool Windows" value="Активні інструментальні вікна" revision="0" />
@@ -261,6 +248,7 @@
     <Item value="Томів на диску" revision="1" />
     <Item value="Тип" revision="1" />
     <Item value="Можливості" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="Disk capabilities">
     <Item value="Невідомо" revision="1" />
@@ -333,6 +321,10 @@
     <Item value="&amp;Файл" revision="0" />
     <Item value="Файл" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Відкрити" revision="0" />
     <Item value="Відкрити" revision="0" />
@@ -365,10 +357,6 @@
     <Item value="Відкрити спільний" revision="1" />
     <Item value="Функція дозволяє відкривати файли спільно з іншими прогамами, відстежувати зміни, порівнювати дані та управляти ними." revision="1" />
   </Enumeration>
-  <Enumeration key="PhysMemNotification">
-    <Item value="Відкрити фізичну пам'ять" revision="1" />
-    <Item value="Hex Editor Neo дозволяє отримати доступ у режимі &quot;тільки для читання&quot; до вмісту фізичної пам'яті. Щоб отримати доступ, ви повинні володіти правами Адміністратора. Функція доступна тільки на Windows 2000 та Windows XP." revision="1" />
-  </Enumeration>
   <Enumeration key="FeatureOpenMemory">
     <Item value="Відкрити фізичну пам'ять" revision="1" />
     <Item value="Функція &quot;Відкрити фізичну пам'ять&quot; надає доступ до пам'яті комп'ютера в режимі &quot;тільки для читання&quot;." revision="1" />
@@ -397,11 +385,6 @@
     <Item value="Як останнє використане" revision="1" />
     <Item value="З використанням вікна навігації" revision="1" />
   </Enumeration>
-  <Enumeration key="IconSet">
-    <Item value="Набір іконок" revision="1" />
-    <Item value="Класичний набір" revision="1" />
-    <Item value="Новий набір" revision="1" />
-  </Enumeration>
   <Enumeration key="LicenseState">
     <Item value="Невідома. Перевстановіть продукт і/або ліцензію." revision="1" />
     <Item value="Безкоштовна. Пробний період не розпочато." revision="1" />
@@ -422,6 +405,7 @@
     <Item value="Файлова система" revision="1" />
     <Item value="Серійний номер" revision="1" />
     <Item value="Унікальний ID" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="VolumeDialogDriveType">
     <Item value="Невідомий" revision="1" />
@@ -625,10 +609,6 @@
     <Item value="&amp;Про Hex Editor Neo" revision="1" />
     <Item value="Відобразити інформацію про продукт" revision="1" />
   </Enumeration>
-  <Enumeration key="FileOpenPhysMemory">
-    <Item value="Відкрити фізичну пам'ять…" revision="1" />
-    <Item value="Відкрити фізичну пам'ять комп'ютера (Тільки для читання)" revision="1" />
-  </Enumeration>
   <Enumeration key="FileOpenVolume">
     <Item value="Відкрити &amp;том…" revision="1" />
     <Item value="Відкрити том (логічний диск)" revision="1" />
@@ -636,6 +616,10 @@
   <Enumeration key="FileOpenDisk">
     <Item value="Відкрити &amp;фізичний диск…" revision="1" />
     <Item value="Відкриває фізичний диск" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="Зберегти &amp;все" revision="1" />
@@ -656,10 +640,6 @@
   <Enumeration key="ViewToggleFullScreen">
     <Item value="&amp;На весь екран" revision="1" />
     <Item value="Приховати або показати всі інструментальні вікна" revision="1" />
-  </Enumeration>
-  <Enumeration key="HelpForum">
-    <Item value="&amp;Форум…" revision="1" />
-    <Item value="Відкрити форум про Hex Editor Neo" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
     <Item value="Управління &amp;ліцензіями…" revision="1" />
@@ -720,5 +700,32 @@
   <Enumeration key="YourLanguageAvailable">
     <Item value="Мовний пакет доступний on-line" revision="0" />
     <Item value="Мовний пакет для &quot;{language name}&quot; доступний для завантаження. Ви бажаєте завантажити и використати даний мовний пакет?" revision="0" />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

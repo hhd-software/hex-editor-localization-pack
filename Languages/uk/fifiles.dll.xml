@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="Невірний синтаксис списку папок." revision="1" />
   <Message key="Find All" value="Знайти все" revision="1" />
   <Message key="Replace All" value="Замінити все" revision="1" />
-  <Message key="Loading Find in Files" value="Завантаження пошуку у файлах" revision="1" />
-  <Message key="Initializing Find in Files" value="Ініціалізація пошуку у файлах" revision="1" />
   <Message key="Notifications" value="Повідомлення" revision="1" />
   <Message key="Find in Files" value="Пошук у файлах" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Хочете скасувати поточну операцію?" revision="1" />

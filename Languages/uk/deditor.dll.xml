@@ -83,4 +83,15 @@
     <Item value="Навігатор тому" revision="1" />
     <Item value="Навігатор тому сканує і показує структуру файлової системи відкритого тому, допомогає знайти місцезнаходження файлів, а також відновити пошкоджені файли та папки." revision="1" />
   </Enumeration>
+  <Enumeration key="Partitions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

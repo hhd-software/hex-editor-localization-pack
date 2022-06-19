@@ -36,7 +36,6 @@
   <Message key="NoSel" value="Немає виділень" revision="1" />
   <Message key="EncodingNotSupported" value="Обране кодування не підтримується операційною системою. Переконайтеся, що необхідні файли кодових сторінок і шрифти встановлені." revision="1" />
   <Message key="NoEncoding" value="У вашій системі не вистачає компонентів для підтримки обраного кодування." revision="1" />
-  <Message key="SwitchSingleSel" value="Включити &quot;режим одиничного виділення&quot;\nЦе відключить функцію &quot;Множинне виділення&quot;. Ви можете поміняти цей параметр пізніше в &quot;Загальних&quot; настройках." revision="1" />
   <Message key="Find" value="Знайти" revision="1" />
   <Message key="A pattern was not found." value="Послідовність не знайдена." revision="1" />
   <Message key="RegExpInSel" value="Пошук регулярних виразів у виділенні не підтримується." revision="1" />
@@ -139,12 +138,9 @@
   <Message key="Color:" value="Колір:" revision="0" />
   <Message key="Automatic" value="Авто" revision="0" />
   <Message key="Do not interlace background" value="Без черезрядкового фону" revision="0" />
-  <Message key="Interlace columns" value="Черезрядкові колонки" revision="0" />
-  <Message key="Interlace rows" value="Черезрядкові рядки" revision="0" />
   <Message key="Draw edit cursor frame" value="Рамка курсора" revision="0" />
   <Message key="Smart indentation" value="Відступи" revision="0" />
   <Message key="Antialiased quality (slower)" value="Згладжування (повільніше)" revision="0" />
-  <Message key="Schemes…" value="Схеми…" revision="0" />
   <Message key="Layout Schemes" value="Схеми розмітки" revision="0" />
   <Message key="&amp;Save As…" value="Зберегти &amp;як" revision="0" />
   <Message key="Load Selection" value="Завантаження виділення" revision="0" />
@@ -195,6 +191,22 @@
   <Enumeration key="SelectNone">
     <Item value="Ск&amp;инути виділення" revision="1" />
     <Item value="Скинути поточне виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Інвертувати виділення" revision="1" />
@@ -488,6 +500,18 @@
     <Item value="Очистити все" revision="1" />
     <Item value="Очистити вміст поточного вікна &quot;Вивод&quot;" revision="1" />
   </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Заперечення" revision="1" />
     <Item value="Додавання" revision="1" />
@@ -613,6 +637,10 @@
     <Item value="Адреса" revision="1" />
     <Item value="Довжина" revision="1" />
   </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Множинне виділення" revision="1" />
     <Item value="Функція &quot;Множинне виділення&quot; дозволяє виділяти множинні фрагменти та застосовувати до них команди редактора." revision="1" />
@@ -661,28 +689,14 @@
     <Item value="ПОМИЛКА - Довжина ключа повинна бути ступенем вісімки." revision="1" />
     <Item value="ПОМИЛКА - Невірна довжина ключа." revision="1" />
   </Enumeration>
-  <Enumeration key="ColorNames">
-    <Item value="Текст" revision="1" />
-    <Item value="Фон" revision="1" />
-    <Item value="Адреса" revision="1" />
-    <Item value="Фон адреси" revision="1" />
-    <Item value="Текст ASCII/UNICODE" revision="1" />
-    <Item value="Фон ASCII/UNICODE" revision="1" />
-    <Item value="Парні колонки/рядки (черезрядковий режим)" revision="1" />
-    <Item value="Непарні колонки/рядки (черезрядковий режим)" revision="1" />
-    <Item value="Текст без даних" revision="1" />
-    <Item value="Заливка курсора" revision="1" />
-    <Item value="Контур курсора" revision="1" />
-    <Item value="Текст поточного рядка/колонки" revision="1" />
-    <Item value="Фон поточного рядка/колонки" revision="1" />
-    <Item value="Змінений текст" revision="1" />
-    <Item value="Фон зміненого" revision="1" />
-    <Item value="Контур зміненого" revision="1" />
-    <Item value="Виділення" revision="1" />
-  </Enumeration>
   <Enumeration key="Tooltip">
     <Item value="Виділення" revision="1" />
     <Item value="Курсор" revision="1" />
     <Item value="Змінений текст" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

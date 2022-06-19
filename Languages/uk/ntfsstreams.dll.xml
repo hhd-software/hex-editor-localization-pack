@@ -19,8 +19,6 @@
   <Message key="RenameErrors" value="Виникла помилка при перейменуванні потоку:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}Пошук закінчено.{|finished}Пошук потоків…{?finished} {found} потоків знайдено ({files} файлів у {folders} папках перевірено)." revision="0" />
   <Message key="StreamSize" value="Всього: {size} байтів ({size as text})" revision="0" />
-  <Message key="Size" value="{size} байтів ({size as text})" revision="0" />
-  <Message key="Renaming" value="{percent} % виконано." revision="0" />
   <Message key="Find Streams Folder List" value="Пошук у потоках, список папок" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="Введіть шлях до папки або натисніть кнопку огляду:" revision="0" />
   <Message key="Folder list:" value="Список папок:" revision="0" />
@@ -70,6 +68,11 @@
   <Enumeration key="ColumnNames">
     <Item value="Ім'я потоку" revision="0" />
     <Item value="Розмір" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuStreams">
     <Item value="&amp;Потоки NTFS" revision="0" />
