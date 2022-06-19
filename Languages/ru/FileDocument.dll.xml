@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Хотите отменить операцию? Это испортит содержимое файла." revision="1" />
   <Message key="OccFound" value="Найдено {N} включений." revision="1" />
-  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo 5" revision="1" />
+  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo" revision="3" />
   <Message key="DefaultBranchName" value="По умолчанию" revision="1" />
   <Message key="Continue working with a file." value="Продолжение работы с файлом." revision="1" />
   <Message key="Discard all changes and close the file." value="Отменить изменения и закрыть файл." revision="1" />
@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="Этот класс уже существует. Смените имя класса." revision="1" />
   <Message key="DeleteClasses?" value="Действительно хотите удалить все классы?" revision="1" />
   <Message key="LoadError" value="Внутренняя ошибка: {text} ({code})" revision="1" />
-  <Message key="Loading" value="Загрузка основных компонентов" revision="1" />
   <Message key="CheckForLowDiskSpace" value="Проверять свободное место на диске перед операциями" revision="1" />
   <Message key="IgnoreRenames" value="Не переименовывать открытые общие файлы" revision="1" />
   <Message key="RemovedNotification" value="Общий документ удалён" revision="1" />
@@ -20,7 +19,7 @@
   <Message key="OldVersion" value="{name} (старая версия {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Ошибка при создании документа: {text} ({code})" revision="2" />
   <Message key="LongTime" value="Открытие файла &quot;{path}&quot; в &quot;общем&quot; режиме может занять много времени. Хотите открыть файл в обычном режиме?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка при открытии документа: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка при открытии документа: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="На диске {disk} мало свободного места. Операция не может быть продолжена. Освободите место и попытайтесь снова.\r\n\r\nЗамечание: большинство операций Hex Editor Neo недоступно если на диске с временной папкой мало места. Операция &quot;Сохранить как&quot; доступна, чтобы вы могли записать измененный файл на другой том.\r\n\r\nЭту проверку можно отключить в Инструменты » Настройки » Общие »  Проверять свободное место на диске перед операциями." revision="1" />
   <Message key="Unknown Process" value="Не установленный процесс" revision="1" />
   <Message key="Physical Memory" value="Физическая память" revision="1" />
@@ -51,6 +50,7 @@
   <Message key="SnapshotTitle" value="Открыть из образа" revision="0" />
   <Message key="SnapshotDescription" value="Hex Editor Neo не смог открыть &quot;{path}&quot; из-за следующей ошибки:\r\n    » {text} ({code})\r\n\r\nВы хотите попробовать создать образ диска и открыть файл из этого образа?" revision="0" />
   <Message key="RegExp settings" value="Классы регулярных выражений" revision="0" />
+  <Message key="Shortcut files" value="Ярлыки" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Игнорировать изменения" revision="1" />
     <Item value="Закрыть файл" revision="1" />

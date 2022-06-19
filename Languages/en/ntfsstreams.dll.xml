@@ -83,7 +83,7 @@
     <Param name="text"/>
     <Param name="code" format="b016"/>
   </Message>
-  <Message key="CreateErrors" description="Error creating stream" value="The following error occured during stream creation:\r\n{errors}">
+  <Message key="CreateErrors" description="Error creating stream" value="The following error occurred during stream creation:\r\n{errors}">
     <Param name="errors"/>
   </Message>
   <Message key="AskDelete" description="The operation cannot be undone. Are you sure you want to continue deleting selected stream(s)?" value="The operation cannot be undone. Are you sure you want to continue deleting selected stream(s)?"/>
@@ -91,10 +91,10 @@
     <Param name="text"/>
     <Param name="code" format="b016"/>
   </Message>
-  <Message key="DeleteErrors" description="Error deleting stream" value="The following error occured during stream deletion:\r\n{errors}">
+  <Message key="DeleteErrors" description="Error deleting stream" value="The following error occurred during stream deletion:\r\n{errors}">
     <Param name="errors"/>
   </Message>
-  <Message key="OpenErrors" description="Error opening streams" value="The following error(s) occured during opening streams:\r\n{errors}">
+  <Message key="OpenErrors" description="Error opening streams" value="The following error(s) occurred during streams opening:\r\n{errors}">
     <Param name="errors"/>
   </Message>
   <Message key="StreamOpened" description="Stream is currently opened" value="This stream is currently opened in the editor. Do you want to close it in order to perform the requested operation?"/>
@@ -102,7 +102,7 @@
     <Param name="text"/>
     <Param name="code" format="b016"/>
   </Message>
-  <Message key="RenameErrors" description="Error renaming stream" value="The following error occured during renaming stream:\r\n{errors}">
+  <Message key="RenameErrors" description="Error renaming stream" value="The following error occurred during stream renaming:\r\n{errors}">
     <Param name="errors"/>
   </Message>
   <Enumeration key="Errors" description="Possible errors">
@@ -155,4 +155,6 @@
   <Message key="Exclude:" description="Field: Exclude"/>
   <Message key="(regular expression)" description="Field: (regular expression)"/>
   <Message key="Include sub-folders" description="Checkbox: Include sub-folders"/>
+
+	<Message key="toolbar.NTFS Streams" description="Toolbar: NTFS Streams" value="NTFS Streams" />
 </Definition>

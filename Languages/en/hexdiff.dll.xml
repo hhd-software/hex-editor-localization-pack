@@ -78,14 +78,14 @@
     <Item text="Compare files"/>
     <Item text="Compare contents of two binary files"/>
   </Enumeration>
-  
+
   <Message key="File Comparison" description="Command group and tool window: File Comparison"/>
-  
+
   <Enumeration key="MenuCompareFiles" description="Command group: File Compare">
     <Item text="File Comparison"/>
     <Item text="File Comparison menu"/>
   </Enumeration>
-  
+
   <Enumeration key="FeatureCompare" description="Compare files feature">
     <Item text="File Comparison"/>
     <Item text="File Comparison feature allows you to find differences between two files."/>
@@ -113,7 +113,7 @@
   <Message key="DisplayStreams" description="Display streams for file" value="Display streams for {file}">
     <Param name="file"/>
   </Message>
-  
+
   <!-- dialogs -->
   <Message key="Convert Blocks To Selection" description="Convert Blocks To Selection window title"/>
   <Message key="Matched blocks" description="Choice: Matched blocks"/>
@@ -131,5 +131,6 @@
   <Message key="Synchronize windows" description="Checkbox: Synchronize windows"/>
   <Message key="Colors…" description="Button: Colors"/>
   <Message key="Swap" description="Button: Swap"/>
-  
+
+	<Message key="toolbar.Compare Files" description="Toolbar: Compare Files" value="Compare Files" />
 </Definition>

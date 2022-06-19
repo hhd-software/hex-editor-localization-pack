@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Неизвестная файловая запись" revision="0" />
   <Message key="FilenameAttributeError" value="Ошибка разбора атрибутов файла для записи {record}" revision="0" />
   <Message key="CopyFileError" value="Ошибка копирования файла &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Копирование разреженного, сжатого или зашифрованного файла пока не реализовано: &quot;{filename}&quot;." revision="0" />
   <Message key="WriteFileError" value="Ошибка записи файла: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Недостаточно свободного места на диске для копирования &quot;{filename}&quot;. Освободите как минимум {filesize} для копирования данного файла." revision="0" />
   <Message key="CopyWarning" value="Файл &quot;{filename}&quot; уже существует." revision="0" />
@@ -41,6 +42,7 @@
   <Message key="CSFileNotFound" value="Файл &quot;{filename}&quot; не найден." revision="0" />
   <Message key="CSRootNotFound" value="Корневая структура {name} не найдена." revision="0" />
   <Message key="CSBindVolumeError" value="Ошибка разбора тома. Схема &quot;{name}&quot;, ошибка: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Раздел[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Неверный заголовок PrivHead." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Неверный заголовок TocBlock." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Неверный заголовок Vmdb." revision="0" />
@@ -54,6 +56,7 @@
   <Message key="Root structure:" value="Корневая структура:" revision="0" />
   <Message key="Directory entry structure:" value="Структура папки:" revision="0" />
   <Message key="File entry structure:" value="Структура файла:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Файловая система" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="байт" revision="0" />
     <Item value="КБ" revision="0" />
@@ -107,5 +110,16 @@
   <Enumeration key="FeatureDiskEditor">
     <Item value="Файловая система" revision="1" />
     <Item value="Модуль Файловая система сканирует и показывает структуру файловой системы открытого тома, помогает найти местоположение файлов, а также восстановить повреждённые файлы и папки." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="Неизвестный" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Не распределено" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Скрипты" revision="0" />
+  <Message key="New Script" value="Новый скрипт {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="Контрольные значения" revision="0" />
+  <Message key="CallStackTitle" value="Стек вызова" revision="0" />
+  <Message key="Macros" value="Макросы" revision="0" />
+  <Message key="Console" value="Консоль" revision="0" />
+  <Message key="MacroToolbar" value="Макросы" revision="0" />
+  <Message key="WatchToolbar" value="Контрольные значения" revision="0" />
+  <Message key="ScriptChanged" value="Скрипт был изменён и его дальнейшее исполнение невозможно. Вы хотите остановить исполнение скрипта?" revision="0" />
+  <Message key="Compiling TypeScript" value="Компиляция TypeScript…\n" revision="0" />
+  <Message key="Started Script" value="Начато исполнение скрипта: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="Остановка исполнения скрипта…" revision="0" />
+  <Message key="Stopped Script" value="\nОстановлено исполнение скрипта.\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="Скрипт исполняется. Вы хотите остановить его чтобы продолжить закрытие окна скрипта?" revision="0" />
+  <Message key="ScriptLoadError" value="Ошибка загрузки файла &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="Произошли следующие ошибки во время загрузки выбранных файлов:\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="Ошибка сохранения файла &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="Вы хотите сохранить изменения, сделанные в текущем скрипте?" revision="0" />
+  <Message key="NewMacroTitle" value="Новый макрос" revision="0" />
+  <Message key="EditMacroTitle" value="Редактирование макроса" revision="0" />
+  <Message key="Macro name:" value="Имя макроса:" revision="0" />
+  <Message key="Macro hot key:" value="Сочетание клавиш:" revision="0" />
+  <Message key="Edit Macro Script" value="Редактировать скрипт" revision="0" />
+  <Message key="MacroDiscardPrompt" value="Это приведёт к отмене записи макроса. Вы уверены, что хотите продолжить?" revision="0" />
+  <Message key="MacroNameExists" value="Макрос с указанным именем уже существует. Вы хотите перезаписать его?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="Вы уверены, что хотите удалить все макросы?" revision="0" />
+  <Message key="MacroName" value="Макрос: {name}" revision="0" />
+  <Message key="MacroExportFormat" value="Файлы экспорта макросов|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="Файлы скриптов" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="Начать &amp;запись" revision="0" />
+    <Item value="Начать запись макроса" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="Останов записи/воспроизведения" revision="0" />
+    <Item value="Остановить запись или воспроизведение макроса" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="Запустить макрос" revision="0" />
+    <Item value="Запустить воспроизведение макроса" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="&amp;Удалить макрос" revision="0" />
+    <Item value="Удалить выделенный макрос" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="Удалить &amp;все макросы" revision="0" />
+    <Item value="Удалить все макросы" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="&amp;Редактировать макрос…" revision="0" />
+    <Item value="Редактировать выбранный макрос" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="&amp;Импорт макросов" revision="0" />
+    <Item value="Импорт макросов" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="&amp;Экспорт макросов" revision="0" />
+    <Item value="Экспорт макросов" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="Макросы" revision="0" />
+    <Item value="Макросы" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="Новый &amp;скрипт" revision="0" />
+    <Item value="Создать новый пустой скрипт" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="Открыть &amp;скрипт…" revision="0" />
+    <Item value="Открыть существующий файл скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="&amp;Запустить скрипт" revision="0" />
+    <Item value="Начать исполнение скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="&amp;Остановить скрипт" revision="0" />
+    <Item value="Остановить исполнение скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="&amp;Отладка скрипта" revision="0" />
+    <Item value="Начать отладку скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="Переключить точку останова" revision="0" />
+    <Item value="Переключить точку останова" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="Удалить все точки останова" revision="0" />
+    <Item value="Удалить все точки останова" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="Шаг с заходом" revision="0" />
+    <Item value="Шаг с заходом в вызываемую функцию" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="Шаг с выходом" revision="0" />
+    <Item value="Шаг с выходом из текущей функции" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="Шаг с обходом" revision="0" />
+    <Item value="Шаг с обходом вызываемой функции" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="Продолжить" revision="0" />
+    <Item value="Продолжить исполнение скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="Остановка исполнения" revision="0" />
+    <Item value="Остановка исполнения скрипта" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="Добавить контрольное значение" revision="0" />
+    <Item value="Добавить контрольное значение" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="Удалить контрольное значение" revision="0" />
+    <Item value="Удалить контрольное значение" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="Редактировать контрольное значение" revision="0" />
+    <Item value="Редактировать контрольное значение" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="&amp;Отладка" revision="0" />
+    <Item value="Меню отладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="Макрос" revision="0" />
+    <Item value="Сочетание клавиш" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="Имя" revision="0" />
+    <Item value="Строка" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="Имя" revision="0" />
+    <Item value="Значение" revision="0" />
+    <Item value="Тип" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="Скрипты" revision="1" />
+    <Item value="Функция &quot;скрипты&quot; позволяет контролировать Hex Editor Neo, используя скрипты, написанные на TypeScript." revision="1" />
+  </Enumeration>
+</Language>

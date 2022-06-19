@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item value="Перейти к определению" revision="0" />
+    <Item value="Открыть место определения идентификатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item value="Посмотреть определение" revision="0" />
+    <Item value="Посмотреть определение идентификатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item value="Найти все ссылки" revision="0" />
+    <Item value="Поиск всех ссылок на идентификатор" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item value="Перейти к символу…" revision="0" />
+    <Item value="Перейти к определению символа" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item value="Поменять все вхождения" revision="0" />
+    <Item value="Поменять все вхождения символа" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item value="Форматировать" revision="0" />
+    <Item value="Форматировать документ" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item value="Палитра команд" revision="0" />
+    <Item value="Открыть палитру команд" revision="0" />
+  </Enumeration>
+</Language>

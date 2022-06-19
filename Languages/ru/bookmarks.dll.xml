@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Sample Text" value="Пример текста" revision="0" />
-  <Message key="Loading" value="Загрузка закладок" revision="0" />
-  <Message key="Initializing" value="Инициализация закладок" revision="0" />
   <Message key="Bookmarks" value="Закладки" revision="0" />
   <Message key="Progress" value="Текущая операция выполняется, дождитесь её окончания." revision="0" />
   <Message key="GroupDelete" value="Группа будет удалена вместе с содержимым. Продолжить?" revision="0" />
@@ -26,11 +23,11 @@
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Outline:" value="Контур:" revision="0" />
   <Message key="Round edges" value="Округлые углы" revision="0" />
-  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="BookmarksFilterString" value="Файлы закладок (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Файлы выделений (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показывать предупреждение конвертации выделения в закладки" revision="1" />
   <Message key="MergeBookmarks" value="Объединить с существующими закладками?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="Закладки" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Новая группа закладок" revision="0" />
     <Item value="Создать новую группу закладок" revision="0" />

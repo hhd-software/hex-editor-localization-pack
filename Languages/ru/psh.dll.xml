@@ -15,13 +15,10 @@
   <Message key="These attributes can not be applied." value="Такие атрибуты не могут быть назначены." revision="0" />
   <Message key="Error setting file time." value="Ошибка при установке времени." revision="0" />
   <Message key="Multiple" value="Множественное" revision="0" />
-  <Message key="Sample Text" value="Текст пример" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
   <Message key="History" value="История" revision="0" />
   <Message key="Pattern Coloring" value="Подсветка" revision="0" />
   <Message key="Base Converter" value="Конвертер" revision="0" />
-  <Message key="Loading" value="Загрузка истории и подстветки" revision="0" />
-  <Message key="Initializing" value="Инициализация истории и подсветки" revision="0" />
   <Message key="PatchFileFilter" value="Патч файлы (*.hexpatch)|*.hexpatch|Исполняемые файлы (*.exe)|*.exe|" revision="0" />
   <Message key="Forks" value="{opname} ({items} элементов{has_forks?}, {forks} ветвлений{?has_forks})" revision="0" />
   <Message key="Switch To" value="Активировать" revision="0" />
@@ -37,12 +34,12 @@
   <Message key="Error writing to the file" value="Ошибка при записи в файл" revision="0" />
   <Message key="Error reading from the file" value="Ошибка при чтении из файла" revision="0" />
   <Message key="Select Colors" value="Выбрать цвета" revision="0" />
-  <Message key="PColFilter" value="Файлы подсветки последовательностей|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="Файлы подсветки последовательностей|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Текущая схема будет утеряна. Продолжить?" revision="0" />
   <Message key="The file has different version" value="Файл имеет другую версию" revision="0" />
   <Message key="Clear Coloring Scheme" value="Очистить схему" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="Текущий эелемент будет удален. Продолжить?" revision="0" />
-  <Message key="RuleFmt" value="Правило подсветки {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[uПравило подсветки {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} с {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} по{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} множественным выделением{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Имя: {name}\r\n\r\nВетвление: {branch}" revision="0" />
   <Message key="NotSupported" value="Функция не поддерживается для текущего типа документа." revision="0" />
@@ -75,7 +72,6 @@
   <Message key="Second color:" value="Второй цвет:" revision="0" />
   <Message key="Outline color:" value="Цвет контура:" revision="0" />
   <Message key="Selected Color:" value="Цвет выделения:" revision="0" />
-  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="Select All" value="Выбрать все" revision="0" />
   <Message key="Item color:" value="Цвет элемента:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
@@ -116,6 +112,11 @@
   <Message key="Round edges" value="Округлые углы" revision="0" />
   <Message key="Change Time" value="Смена времени" revision="0" />
   <Message key="PatternColoring settings" value="Подсветка последовательностей" revision="0" />
+  <Message key="toolbar.Attributes" value="Атрибуты" revision="0" />
+  <Message key="toolbar.Coloring" value="Подсветка" revision="0" />
+  <Message key="toolbar.Statistics" value="Статистика" revision="0" />
+  <Message key="toolbar.History" value="История" revision="0" />
+  <Message key="toolbar.History Window" value="Дерево истории" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Удалить историю" revision="0" />
     <Item value="Удалить историю" revision="0" />
@@ -189,8 +190,8 @@
     <Item value="Не показывать пиковое значение на графике" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="#128;Задать…" revision="0" />
-    <Item value="Задать последовательность" revision="0" />
+    <Item value="Задать…" revision="1" />
+    <Item value="Задать последовательность" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Свернуть все" revision="0" />
@@ -428,13 +429,5 @@
   <Enumeration key="FeatureBranches">
     <Item value="Ветвление истории" revision="0" />
     <Item value="Функция &quot;Ветвление истории&quot; позволяет вести параллельно несколько редакций одного файла и выполнять для них операции, в т.ч. из разных ветвей." revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureSaveHistory">
-    <Item value="Сохранить историю" revision="0" />
-    <Item value="Функция &quot;Сохранить историю&quot; позволяет сохранить всю историю изменений в файл и загрузить её для документа позднее или передать кому либо (ветвления тоже сохраняются)" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureLoadHistory">
-    <Item value="Загрузить историю" revision="0" />
-    <Item value="Функция &quot;Загрузить историю&quot; позволяет загрузить историю всех изменений так, как будто вы работали с этим документом." revision="0" />
   </Enumeration>
 </Language>

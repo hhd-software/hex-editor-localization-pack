@@ -33,7 +33,7 @@
   <Message key="SaveErrors" value="Во время сохранения файла возникли ошибки:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Документ был изменен. Сохранить изменения?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Все файлы|*|" revision="1" />
-  <Message key="AllSupportedFormats" value="Все поддерживаемые ({mask})|{mask}|" revision="1" />
+  <Message key="AllSupportedFormats" value="Все поддерживаемые файлы" revision="2" />
   <Message key="NoLoadHandlersRegistered" value="Продукт установлен некорректно. Пожалуйста, переустановите продукт." revision="1" />
   <Message key="OldCommonControls" value="Устаревшая версия common controls. Установите последний service pack и Internet Explorer для вашей операционной системы. Приложение сейчас будет закрыто." revision="1" />
   <Message key="Loading" value="Загрузка" revision="1" />
@@ -48,11 +48,9 @@
   <Message key="LoadErrors" value="Во время загрузки возникли ошибки:\r\n{errors}" revision="1" />
   <Message key="NoHandlersFoundError" value="Не найдены обработчики, открывающие этот файл." revision="1" />
   <Message key="VolumeOpenError" value="Ошибка при открытии тома: {text} ({code})" revision="1" />
-  <Message key="PhysMemError" value="Ошибка при открытии памяти: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Невозможно инициализировать окно редактора." revision="1" />
   <Message key="NoEditorsFoundError" value="Невозможно найти поддержку для этого файла." revision="1" />
-  <Message key="NoSupportForPhysMem" value="В вашей операционной системе пользовательским приложениям ограничен доступ к памяти. Функция поддерживается только на Windows 2000 и Windows XP." revision="1" />
-  <Message key="ToolsFilter" value="Настройки инструментальных окон (*.hexdwc)|*.hexdwc|" revision="1" />
+  <Message key="ToolsFilter" value="Настройки инструментальных окон (*.hexdwc7)|*.hexdwc7|" revision="2" />
   <Message key="Printing" value="Печать" revision="1" />
   <Message key="ActivatePane" value="Активировать инструментальное окно {pane}" revision="1" />
   <Message key="New Document N" value="Новый документ {ordinal}" revision="1" />
@@ -61,6 +59,7 @@
   <Message key="MediaRemoved" value="Hex Editor Neo ограничен в доступе к некоторым документам и вынужден их закрыть. Изменения могут быть потеряны в следующих документах:\r\n{document list}\r\n\r\nВо избежание потерь данных, не вынимайте съёмные носители во время работы с документами." revision="1" />
   <Message key="Activate this window" value="Активировать это окно" revision="1" />
   <Message key="Settings" value="Настройки" revision="1" />
+  <Message key="Search settings" value="Поиск настроек" revision="0" />
   <Message key="ElevationError" value="Невозможно повысить привилегии. Ошибка: {error}" revision="1" />
   <Message key="ElevationErrorTitle" value="Ошибка повышения привилегий" revision="1" />
   <Message key="This toolbar cannot be deleted." value="Эта панель инструментов не может быть удалена." revision="1" />
@@ -70,11 +69,19 @@
   <Message key="Toolbar already exists" value="Панель инструментов с таким именем уже существует." revision="1" />
   <Message key="All commands" value="Все команды" revision="1" />
   <Message key="Commands Page" value="Команды" revision="1" />
-  <Message key="Toolbars" value="Панели инструментов:" revision="1" />
+  <Message key="Toolbars" value="Панель инструментов:" revision="2" />
   <Message key="New" value="&amp;Новая…" revision="1" />
   <Message key="Delete" value="У&amp;далить" revision="1" />
   <Message key="Button size" value="Размер кнопок:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду чтобы посмотреть описание или перетащите её на панель инструментов:" revision="1" />
+  <Message key="New Group" value="Новая &amp;группа" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Добавить" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Удалить &gt;" revision="0" />
+  <Message key="Move Up" value="&amp;Вверх" revision="0" />
+  <Message key="Move Down" value="Вни&amp;з" revision="0" />
+  <Message key="Clear" value="О&amp;чистить" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Обрезать панели инструментов" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Переносить панели инструментов" revision="0" />
   <Message key="Keyboard" value="Клавиатура" revision="1" />
   <Message key="MaxShortcuts" value="Нельзя назначить более 5 горячих клавиш на команду." revision="1" />
   <Message key="ShortcutExists" value="Эта горячая клавиша уже определена для команды {command}. Переопределить?" revision="1" />
@@ -91,18 +98,16 @@
   <Message key="Keyboard Map Dialog" value="Карта клавиш" revision="1" />
   <Message key="Print" value="&amp;Печатать" revision="1" />
   <Message key="General" value="Общие" revision="1" />
-  <Message key="DisplaySplashScreen" value="Показывать сплеш скрин" revision="1" />
+  <Message key="HideToolWindows" value="Скрыть управляющие окна" revision="0" />
   <Message key="AlwaysCreateBackups" value="Всегда создавать бэкапы" revision="1" />
   <Message key="LowercaseHex" value="Шестнадцатеричные числа в нижнем регистре" revision="1" />
   <Message key="ConvertFloatingPoint" value="Порядок байт влияет также на числа с плавающей точкой" revision="1" />
   <Message key="DocumentsToRemember" value="Показывать последних документов" revision="1" />
   <Message key="ClosesCurrentOnly" value="&quot;Закрыть&quot; влияет только на текущее инструментальное окно." revision="1" />
   <Message key="RestoreWindowPosition" value="Восстанавливать позицию окна при запуске" revision="1" />
-  <Message key="DisableVectorCaching" value="Отключить кэш векторных иконок" revision="1" />
   <Message key="SkipNagScreen" value="Пропускать &quot;nag screen&quot;" revision="1" />
   <Message key="Notifications" value="Уведомления" revision="1" />
   <Message key="SaveNotification" value="Сохранение документа" revision="1" />
-  <Message key="OpenPhysicalMemory" value="Открытие памяти" revision="1" />
   <Message key="OpenDisk" value="Открытие диска/тома" revision="1" />
   <Message key="Task" value="Задача" revision="1" />
   <Message key="Hex Editor Neo trial period has expired." value="Пробный период истёк." revision="1" />
@@ -132,6 +137,8 @@
   <Message key="Reset All" value="Сбросить в&amp;се" revision="1" />
   <Message key="Copy" value="Ко&amp;пировать" revision="1" />
   <Message key="Continue" value="Продолжить" revision="1" />
+  <Message key="Import" value="&amp;Импорт…" revision="0" />
+  <Message key="Export" value="&amp;Экспорт…" revision="0" />
   <Message key="KB" value="КБ" revision="1" />
   <Message key="MB" value="МБ" revision="1" />
   <Message key="GB" value="ГБ" revision="1" />
@@ -149,18 +156,14 @@
   <Message key="Windows Title" value="Окна" revision="1" />
   <Message key="Save" value="Сохранить" revision="1" />
   <Message key="Close Window(s)" value="Закрыть окна" revision="1" />
-  <Message key="x64edition" value="(версия x64)" revision="1" />
-  <Message key="AboutInfo" value="HHD Software {product}{x64?} (x64) {?x64}\n{edition}. Версия {major}.{minor}.{revision}.{build}\n\n© {year} HHD Software Ltd.\nВсе права защищены." revision="4" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Версия {major}.{minor}.{revision}.{build}]]]\n{registered?}Зарегистрировано на [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
   <Message key="AboutBoxDisclaimer" value="Внимание: Эта программа защищена законом об авторском праве. Незаконное воспроизведение и распространение этой программы или её частей может привести к уголовному преследованию в рамках действующего законодательства." revision="1" />
-  <Message key="About Hex Editor Neo" value="О программе" revision="1" />
+  <Message key="About Hex Editor Neo" value="О {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Настройка интерфейса" revision="1" />
   <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Выберите настройку интерфейса. Вы также можете её изменить в меню Вид » Предопределённые профили." revision="1" />
   <Message key="Novice user" value="Новичок" revision="1" />
   <Message key="Advanced user" value="Продвинутый" revision="1" />
   <Message key="Expert user" value="Эксперт" revision="1" />
-  <Message key="Select the icon set. You can later change it on General Settings Tab (Tools » Settings menu option)." value="Выберите набор иконок. Вы можете потом изменить эту настройку в меню Инструменты » Настройки" revision="1" />
-  <Message key="Neo 5 icon set" value="Набор 5-ой версии" revision="1" />
-  <Message key="Classic icon set" value="Классический набор" revision="1" />
   <Message key="Application restart required." value="Требуется перезапуск приложения." revision="1" />
   <Message key="Configure color scheme after I close this window" value="Настроить цветовую схему приложения после закрытия окна" revision="1" />
   <Message key="Select the size of toolbar buttons:" value="Размер иконок на панелях инструментов:" revision="1" />
@@ -168,14 +171,13 @@
   <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="Эта функция недоступна в используемой редакции продукта.\r\nВыбирете дальнейшее действие:" revision="1" />
   <Message key="New Toolbar" value="Новая панель инструментов" revision="1" />
   <Message key="Enter toolbar name" value="Введите имя панели инструментов:" revision="1" />
-  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Только для домашнего и обучающего использования. Подробнее в &lt;a&gt;Условиях использования&lt;/a&gt;." revision="1" />
-  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Для коммерческого, военного или правительственного использования требуется &lt;a&gt;апгрейд&lt;/a&gt;." revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Только для домашнего и обучающего использования. Подробнее в [[[hУсловиях использования]]]." revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Для коммерческого, военного или правительственного использования требуется [[[hапгрейд]]]." revision="2" />
   <Message key="Do not display this warning anymore" value="Не показывать больше это предупреждение" revision="1" />
   <Message key="Save changes to selected documents" value="Сохранить изменения в документах:" revision="1" />
-  <Message key="Special Offer" value="Специальное предложение" revision="1" />
   <Message key="Tasks Page" value="Задачи" revision="1" />
   <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Укажите задачи, доступные из списка переходов иконки Hex Editor Neo:" revision="1" />
-  <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo пробный период " revision="1" />
+  <Message key="Hex Editor Neo Trial Period" value="Пробный период Hex Editor Neo" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Пробный режим. Все функции продукта доступны." revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="После окончания пробного периода продукт продолжит работу в бесплатном режиме. Вам будут доступны все функции бесплатной версии." revision="1" />
   <Message key="Upgrade Now…" value="Купить…" revision="1" />
@@ -213,10 +215,8 @@
   <Message key="Background" value="Фон" revision="0" />
   <Message key="Outline" value="Контур" revision="0" />
   <Message key="Coloring Schemes" value="Цветовые схемы" revision="0" />
-  <Message key="Scroll Left" value="Промотать влево" revision="0" />
-  <Message key="Scroll Right" value="Промотать вправо" revision="0" />
-  <Message key="RocketClose" value="Закрыть" revision="0" />
   <Message key="Auto Hide" value="Автоскрытие" revision="0" />
+  <Message key="Window list" value="Список окон" revision="0" />
   <Message key="Switch Window" value="Переключить окно" revision="0" />
   <Message key="Active Tool Windows" value="Активные инструментальные окна" revision="0" />
   <Message key="Active Documents" value="Активные документы" revision="0" />
@@ -260,15 +260,22 @@
   <Message key="Language pack storage location" value="Путь для хранения локализаций" revision="0" />
   <Message key="License Upgrade Notification" value="Обнаружена лицензия от предыдущей версии. Невозможно автоматически обновить лицензию. Вам необходимо зайти в раздел My Account на нашем веб-сайте и скачать обновлённую лицензию (может потребоваться дополнительная оплата, в зависимости от первоначальных опций покупки).\n\nПерейти в раздел My Account сейчас?" revision="0" />
   <Message key="CSVFiles" value="Файлы CSV (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="Файлы цветовых схем (*.hextheme)|*.hextheme||" revision="0" />
   <Message key="Rocket settings" value="Настройки окон" revision="0" />
   <Message key="Bars settings" value="Панели инструментов" revision="0" />
   <Message key="Windows settings" value="Позиции окон" revision="0" />
   <Message key="MRU settings" value="Последние открытые документы" revision="0" />
+  <Message key="Theme settings" value="Темы" revision="0" />
   <Message key="Props settings" value="Общие" revision="0" />
   <Message key="Language settings" value="Язык" revision="0" />
-  <Message key="Setting files" value="Файлы настроек|*.hexset|Все файлы|*|" revision="0" />
+  <Message key="Setting files" value="Файлы настроек|*.hexset7|Все файлы|*|" revision="1" />
   <Message key="Export successful" value="Настройки успешно записаны в файл." revision="0" />
   <Message key="Import successful" value="Настройки успешно загружены из файла. Рекомендуем вам перезагрузить приложения для их применения." revision="0" />
+  <Message key="toolbar.Standard" value="Стандартные" revision="0" />
+  <Message key="toolbar.Edit" value="Редактирование" revision="0" />
+  <Message key="toolbar.Language" value="Язык" revision="0" />
+  <Message key="toolbar.New" value="Создать" revision="0" />
+  <Message key="toolbar.Open" value="Открыть" revision="0" />
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Хранение настроек" revision="0" />
   <Message key="Settings Management" value="Управление настройками" revision="0" />
@@ -304,7 +311,102 @@
   <Message key="Minidump description" value="Размер минидампа обычно менее мегабайта, однако он содержит ограниченную информацию об ошибке. В некоторых случаях этой информации достаточно, но чаще всего нет." revision="0" />
   <Message key="Full dump description" value="Полный дамп содержит сжатую копию адресного пространства процесса. Это идеальный вариант для разработчиков для воспроизведения и исправления ошибки в кратчайшие сроки. Однако, размер полного дампа может достигать сотен мегабайт." revision="0" />
   <Message key="Privacy Policy" value="Политика приватности" revision="0" />
-  <Message key="Crash reporter" value="Отчёт о сбоях" revision="0" />
+  <Message key="Volume access denied" value="Во время чтения информации о томе получена ошибка &quot;отказано в доступе&quot;. Попробуйте перезапустить Hex Editor Neo от имени администратора." revision="0" />
+  <Message key="NA" value="Н/Д" revision="0" />
+  <Message key="Open Device" value="Открыть устройство" revision="0" />
+  <Message key="Enter the device path to open:" value="Введите путь к устройству:" revision="0" />
+  <Message key="Open device as:" value="Открыть устройство как:" revision="0" />
+  <Message key="Auto" value="Автоматически" revision="0" />
+  <Message key="Physical disk" value="Физический диск" revision="0" />
+  <Message key="Volume" value="Том" revision="0" />
+  <Message key="Value is out of range" value="Указанное значение находится вне разрешенного диапазона" revision="0" />
+  <Message key="GenericError" value="Ошибка выполнения операции: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="Цвета по-умолчанию" revision="0" />
+  <Message key="clr.default_colors.background" value="Фон" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Фон окон" revision="0" />
+  <Message key="clr.default_colors.text" value="Текст/рисунок" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Гиперссылка" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Недоступный текст" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Фон подсветки" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Обводка подсветки" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Текст подсветки" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Фон выделенного" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Обводка выделенного" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Выделенный текст" revision="0" />
+  <Message key="clr.menu" value="Цвета меню" revision="0" />
+  <Message key="clr.menu.background" value="Фон" revision="0" />
+  <Message key="clr.menu.text" value="Текст" revision="0" />
+  <Message key="clr.menu.separator" value="Разделитель" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Недоступный текст" revision="0" />
+  <Message key="clr.menu.checked" value="Фон включенного элемента" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Фон включенного и недоступного элемента" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Фон подсветки" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Обводка подсветки" revision="0" />
+  <Message key="clr.menu.hover.text" value="Текст подсветки" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Фон недоступной подсветки" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Обводка недоступной подсветки" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Текст недоступной подсветки" revision="0" />
+  <Message key="clr.rebar" value="Цвет ребара" revision="0" />
+  <Message key="clr.rebar.background" value="Фон" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Фон шеврона" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Обводка шеврона" revision="0" />
+  <Message key="clr.toolbar" value="Цвета тулбаров" revision="0" />
+  <Message key="clr.toolbar.background" value="Фон" revision="0" />
+  <Message key="clr.toolbar.text" value="Текст" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Недоступный текст" revision="0" />
+  <Message key="clr.toolbar.separator" value="Разделитель" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Фон подсветки" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Обводка подсветки" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Текст подсветки" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Фон нажатого элемента" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Обводка нажатого элемента" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Текст нажатого элемента" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Фон недоступного нажатого элемента" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Обводка недоступного нажатого элемента" revision="0" />
+  <Message key="clr.frame" value="Цвета оболчки" revision="0" />
+  <Message key="clr.frame.frame.background" value="Фон" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Фон клиентской области" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Цвет фрейма" revision="0" />
+  <Message key="clr.frame.frame.border" value="Рамка" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Фон неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Текст/обводка неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Фон активного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Текст/обводка активного заголовка" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Фон подсветки" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Обводка подсветки" revision="0" />
+  <Message key="clr.frame.hover.text" value="Текст подсветки" revision="0" />
+  <Message key="clr.frame.title_text" value="Текст наименования" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Тень навигационных иконок" revision="0" />
+  <Message key="clr.frame.nav.background" value="Фон навигационных иконок" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Подсветка навигационных иконок" revision="0" />
+  <Message key="clr.frame.nav.header" value="Заголовок навигационных иконок" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Рамка навигационных иконок" revision="0" />
+  <Message key="Settings group.Visual" value="Представление" revision="0" />
+  <Message key="Settings group.User Interface" value="Пользовательский интерфейс" revision="0" />
+  <Message key="Settings group.Network" value="Сеть и поддержка" revision="0" />
+  <Message key="Settings group.Editor" value="Редактор" revision="0" />
+  <Message key="Settings group.Misc" value="Другое" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="Редактор структур" revision="0" />
+  <Message key="Colors Page" value="Темы" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Введите имя схемы и нажмите кнопку Сохранить" revision="0" />
+  <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Вы хотите перезаписать её?" revision="0" />
+  <Message key="Theme:" value="Тема:" revision="0" />
+  <Message key="Display elements:" value="Цветовые элементы:" revision="0" />
+  <Message key="Automatic" value="Автоматически" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="Selected" value="Выбранный" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Автоматический цвет зависит от текущей цветовой схемы ОС." revision="0" />
+  <Message key="&amp;Open" value="&amp;Открыть" revision="0" />
+  <Message key="Novice User Layout" value="Профиль &quot;Новичок&quot;" revision="0" />
+  <Message key="Advanced User Layout" value="Продвинутый профиль" revision="0" />
+  <Message key="Expert User Layout" value="Экспертный профиль" revision="0" />
+  <Message key="Free Hex Editor Layout" value="Профиль бесплатной редакции" revision="0" />
+  <Message key="Open as binary" value="Бинарные файлы" revision="0" />
+  <Message key="Open Recent" value="Открыть {item}" revision="0" />
+  <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
+  <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
+  <Message key="Sample Text" value="Образец" revision="0" />
+  <Message key="Default" value="По-умолчанию" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
@@ -385,6 +487,10 @@
     <Item value="&amp;Файл" revision="0" />
     <Item value="Меню Файл" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item value="&amp;Создать" revision="0" />
+    <Item value="Коммандная грауппа &quot;Создать&quot;" revision="0" />
+  </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Открыть" revision="0" />
     <Item value="Меню Открыть" revision="0" />
@@ -417,10 +523,6 @@
     <Item value="Открыть общий" revision="1" />
     <Item value="Функция позволяет открывать файлы совместно с другими приложениями, отслеживать изменения, сравнивать данные и управлять ими." revision="1" />
   </Enumeration>
-  <Enumeration key="PhysMemNotification">
-    <Item value="Открыть память" revision="1" />
-    <Item value="Hex Editor Neo позволяет получить доступ в режиме &quot;только для чтения&quot; к содержимому физической памяти. Чтобы получить доступ, вы должны обладать правами Администратора. Функция доступна только на Windows 2000 и Windows XP." revision="1" />
-  </Enumeration>
   <Enumeration key="FeatureOpenMemory">
     <Item value="Открыть память" revision="1" />
     <Item value="Функция &quot;открыть память&quot; предоставляет доступ к памяти компьютера в режиме &quot;только для чтения&quot;." revision="1" />
@@ -448,11 +550,6 @@
     <Item value="Традиционный" revision="1" />
     <Item value="На последнее" revision="1" />
     <Item value="С использованием окна навигации" revision="1" />
-  </Enumeration>
-  <Enumeration key="IconSet">
-    <Item value="Набор иконок" revision="1" />
-    <Item value="Классический набор" revision="1" />
-    <Item value="Новый набор" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
     <Item value="Неизвестная. Переустановите продукт и лицензию." revision="1" />
@@ -543,8 +640,8 @@
     <Item value="Закрыть текущий документ" revision="1" />
   </Enumeration>
   <Enumeration key="FileCloseAll">
-    <Item value="Закры&amp;ть все" revision="1" />
-    <Item value="Зкрыть все открытые документы" revision="1" />
+    <Item value="Закры&amp;ть все" revision="2" />
+    <Item value="Зкрыть все открытые документы" revision="2" />
   </Enumeration>
   <Enumeration key="FileExit">
     <Item value="В&amp;ыйти" revision="1" />
@@ -678,10 +775,6 @@
     <Item value="&amp;О продукте" revision="1" />
     <Item value="Вывести информацию о продукте" revision="1" />
   </Enumeration>
-  <Enumeration key="FileOpenPhysMemory">
-    <Item value="Открыть память…" revision="1" />
-    <Item value="Открыть физическую память компьютера (Только для чтения)" revision="1" />
-  </Enumeration>
   <Enumeration key="FileOpenVolume">
     <Item value="Открыть &amp;том…" revision="1" />
     <Item value="Открыть том (логический диск)" revision="1" />
@@ -689,6 +782,10 @@
   <Enumeration key="FileOpenDisk">
     <Item value="Открыть &amp;диск…" revision="1" />
     <Item value="Открыть диск (физический)" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item value="Открыть &amp;устройство…" revision="1" />
+    <Item value="Открыть устройство, используя заданный пользователем путь" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="Сохранить &amp;все" revision="1" />
@@ -709,10 +806,6 @@
   <Enumeration key="ViewToggleFullScreen">
     <Item value="&amp;Полноэкранный режим" revision="1" />
     <Item value="Скрыть или показать все инструментальные окна" revision="1" />
-  </Enumeration>
-  <Enumeration key="HelpForum">
-    <Item value="&amp;Форум…" revision="1" />
-    <Item value="Открыть форум по продукту" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
     <Item value="Управление &amp;лицензиями…" revision="1" />
@@ -735,13 +828,13 @@
     <Item value="Открыть файл в режиме совместного использования с другими приложениями" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Неизвестная" revision="1" />
-    <Item value="Бесплатная редакция" revision="1" />
-    <Item value="Начат пробный период" revision="1" />
-    <Item value="Бесплатная редакция" revision="1" />
-    <Item value="Редакция Standard" revision="1" />
-    <Item value="Редакция Professional" revision="1" />
-    <Item value="Редакция Ultimate" revision="1" />
+    <Item value="Неизвестное состояние продукта" revision="2" />
+    <Item value="Бесплатная редакция" revision="2" />
+    <Item value="Начат пробный период" revision="2" />
+    <Item value="Бесплатная редакция" revision="2" />
+    <Item value="Редакция Standard" revision="2" />
+    <Item value="Редакция Professional" revision="2" />
+    <Item value="Редакция Ultimate" revision="2" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Поиск обновлений…" revision="1" />

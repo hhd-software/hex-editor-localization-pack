@@ -34,6 +34,7 @@
   <Message key="Exclude:" value="Исключить:" revision="0" />
   <Message key="(regular expression)" value="(регулярное выражение)" revision="0" />
   <Message key="Include sub-folders" value="Влючая вложенные папки" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Потоки NTFS" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="&amp;Создать поток…" revision="0" />
     <Item value="Создать новый поток" revision="0" />

@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="Условие не выполено{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Ошибка вычисления выражения." revision="0" />
   <Message key="Structure Viewer" value="Структуры" revision="0" />
-  <Message key="Initializing" value="Инициализация структур" revision="0" />
   <Message key="Structure Errors" value="Ошибки структур" revision="0" />
   <Message key="Error accessing Clipboard" value="Ошибка в доступе к буферу обмена" revision="0" />
   <Message key="ModifiedSuffix" value="(изменено)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="Определение отсутствует" revision="0" />
   <Message key="AddInspectType" value="Добавить новый тип" revision="0" />
   <Message key="EditInspectType" value="Редактировать тип" revision="0" />
-  <Message key="StructureFormats" value="Файлы структур (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="Ошибка удаления выбранного файла: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="Текущий документ был изменён. Сохранить?" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="Цвет фона:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
   <Message key="Outline color:" value="Цвет обводки:" revision="0" />
-  <Message key="Default" value="По-умолчанию" revision="0" />
   <Message key="Add Inspector Type" value="Добавить тип" revision="0" />
   <Message key="Change Time" value="Изменить время" revision="0" />
   <Message key="AssignNotification" value="Редактирование данных для данного типа невозможно. Нажмите кнопку Справка для детальной информации о том, как добавить поддержку модификации данных." revision="0" />
@@ -106,6 +103,14 @@
   <Message key="UntrustedEditor" value="Сейчас будет произведён запуск недоверенного внешнего редактора, используя следующую командную строку: \r\n\r\n{path}\r\n\r\nВы хотите продолжить? Если Вы нажмёте Да, данное приложение будет помечено как доверенное." revision="0" />
   <Message key="TypeExists" value="Пользовательский тип с указанным именем уже существует." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не найден в папке &quot;{path}&quot;. Вы хотите удалить его из библиотеки?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Структуры" revision="0" />
+  <Message key="clr.sview_colors" value="Цвета модуля &quot;Структуры&quot;" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Фон привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Обводка привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Текст привязанных данных" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Фон выделенного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Обводка выделенного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Текст выделенного поля" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Привязать…" revision="0" />
     <Item value="Привязать новую структуру" revision="0" />
@@ -230,6 +235,10 @@
     <Item value="Перейти к определению поля" revision="1" />
     <Item value="Перейти к определению поля" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="Переход по значению" revision="1" />
+    <Item value="Переход по адресу в текущей ячейке" revision="1" />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Копировать полное имя" revision="1" />
     <Item value="Копировать полное имя" revision="1" />
@@ -318,13 +327,25 @@
     <Item value="Стандартные типы" revision="0" />
     <Item value="Пользовательские типы" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="&amp;Новый файл структур…" revision="0" />
-    <Item value="Создать новый файл структур" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="Новый файл структур" revision="0" />
+    <Item value="Создать пустой файл определения структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="Новый файл Kaitai" revision="0" />
+    <Item value="Создать пустой файл определений Kaitai" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="Открыть файл структур…" revision="0" />
+    <Item value="Открыть файл определения структур" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="Добавить текущий файл" revision="0" />
+    <Item value="Добавить текущий файл определения структур к библиотеке" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Добавить файл структур…" revision="0" />
-    <Item value="Добавить существующий файл структур в библиотеку" revision="0" />
+    <Item value="&amp;Добавить файлы структур…" revision="1" />
+    <Item value="Добавить существующие файлы определения структур в библиотеку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Сохранить &amp;все структуры" revision="0" />
