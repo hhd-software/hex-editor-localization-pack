@@ -32,6 +32,7 @@
   <Message key="Move Down" value="Sposta &amp;Giù" revision="1" />
   <Message key="Folder list:" value="Elenco Cartelle:" revision="1" />
   <Message key="All opened documents" value="Tutti i Documenti Aperti" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Trova nei File" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="Apertura" revision="1" />
     <Item value="Salvataggio" revision="1" />

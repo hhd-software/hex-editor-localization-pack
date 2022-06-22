@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="Navigazione" revision="0" />
   <Message key="Offset" value="Offset" revision="1" />
   <Message key="SchemeNameCue" value=" Inserisci il Nome dello Schema Qui" revision="1" />
   <Message key="Encrypt" value="Crittografa" revision="1" />
@@ -134,6 +135,8 @@
   <Message key="Layout Page" value="Layout" revision="0" />
   <Message key="Font:" value="Carattere" revision="0" />
   <Message key="Size:" value="Dim.:" revision="0" />
+  <Message key="Density:" value="Densità:" revision="0" />
+  <Message key="Line spacing:" value="Interlinea:" revision="0" />
   <Message key="Visualization elements:" value="Elementi di Visualizzazione:" revision="0" />
   <Message key="Color:" value="Colore:" revision="0" />
   <Message key="Automatic" value="Automatico" revision="0" />
@@ -141,6 +144,8 @@
   <Message key="Draw edit cursor frame" value="Modifica Disegno Cornice Cursore" revision="0" />
   <Message key="Smart indentation" value="Indentazione Intelligente " revision="0" />
   <Message key="Antialiased quality (slower)" value="Qualità Antialias (più lento)" revision="0" />
+  <Message key="File pattern:" value="Modello di file:" revision="0" />
+  <Message key="Interlacing:" value="Interlacciamento:" revision="0" />
   <Message key="Layout Schemes" value="Layout Schemi" revision="0" />
   <Message key="&amp;Save As…" value="&amp;Salva Come" revision="0" />
   <Message key="Load Selection" value="Carica Selezione" revision="0" />
@@ -187,6 +192,35 @@
   <Message key="Layout settings" value="Layout Editore" revision="0" />
   <Message key="Encoding settings" value="Le Ultime Codifiche Usate" revision="0" />
   <Message key="ViewSettingsDb settings" value="Impostazioni Predefinite Editore" revision="0" />
+  <Message key="All documents" value="Tutti i documenti" revision="0" />
+  <Message key="New Pattern" value="Nuovo Modello" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="Immettere la nuova espressione regolare del modello di file:" revision="0" />
+  <Message key="Pattern cue" value="Espressione regolare, come .+\.zip$" revision="1" />
+  <Message key="Pattern override prompt" value="Questo schema esiste già. Si vuole sovrascrivere?" revision="0" />
+  <Message key="clr.colors" value="Colori dell'editore" revision="0" />
+  <Message key="clr.colors.Text" value="Testo" revision="0" />
+  <Message key="clr.colors.Background" value="Sfondo" revision="0" />
+  <Message key="clr.colors.AddressText" value="Testo dell'area indirizzi" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="Sfondo dell'area indirizzi" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Testo Ascii" revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Sfondo Ascii" revision="0" />
+  <Message key="clr.colors.Even" value="Pari" revision="0" />
+  <Message key="clr.colors.Odd" value="Dispari" revision="0" />
+  <Message key="clr.colors.Empty" value="Gamma vuota" revision="0" />
+  <Message key="clr.colors.CursorFill" value="Riempimento del cursore" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="Tratto del cursore" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="Riempimento alternativo del cursore" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="Evidenziazione attiva del testo" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="Sfondo di evidenziazione attivo" revision="0" />
+  <Message key="clr.colors.ChangedText" value="Testo della cella modificato" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="Sfondo della cella modificato" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="Contorno delle celle modificato" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="Sfondo della selezione" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="Contorno della selezione" revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="Sottolineatura del campo attivo" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="Sfondo del tooltip" revision="0" />
+  <Message key="clr.colors.TooltipText" value="Testo del tooltip" revision="0" />
+  <Message key="toolbar.Selection" value="Selezione" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Seleziona &amp;Tutto" revision="1" />
     <Item value="Seleziona Tutti i Dati in un File" revision="1" />
@@ -196,20 +230,20 @@
     <Item value="Cancella la Selezione Corrente" revision="1" />
   </Enumeration>
   <Enumeration key="SelectGoToStart">
-    <Item />
-    <Item />
+    <Item value="Vai a Start" revision="0" />
+    <Item value="Navigare all'inizio del blocco selezionato" revision="0" />
   </Enumeration>
   <Enumeration key="SelectGoToEnd">
-    <Item />
-    <Item />
+    <Item value="Vai a Fine" revision="0" />
+    <Item value="Navigare fino alla fine del blocco selezionato" revision="0" />
   </Enumeration>
   <Enumeration key="SelectDeleteBlock">
-    <Item />
-    <Item />
+    <Item value="Elimina Blocco" revision="0" />
+    <Item value="Elimina il blocco selezionato dalla selezione" revision="0" />
   </Enumeration>
   <Enumeration key="SelectClearSelection">
-    <Item />
-    <Item />
+    <Item value="Cancella Selezione" revision="0" />
+    <Item value="Cancellare tutti i blocchi di selezione" revision="0" />
   </Enumeration>
   <Enumeration key="SelectInvert">
     <Item value="Inverti Selezione" revision="1" />
@@ -504,16 +538,16 @@
     <Item value="Cancella il Contenuto della Finestra Output Corrente" revision="1" />
   </Enumeration>
   <Enumeration key="GotoGoto">
-    <Item />
-    <Item />
+    <Item value="Navigare verso la Posizione" revision="0" />
+    <Item value="Passa all'offset specificato" revision="0" />
   </Enumeration>
   <Enumeration key="GotoAdd">
-    <Item />
-    <Item />
+    <Item value="Aggiungi Posizione" revision="0" />
+    <Item value="Aggiungere l'offset corrente all'elenco delle posizioni memorizzate" revision="0" />
   </Enumeration>
   <Enumeration key="GotoCopy">
-    <Item />
-    <Item />
+    <Item value="Copia della Posizione" revision="0" />
+    <Item value="Copia l'offset corrente negli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="ArithmeticOperations">
     <Item value="Negazione" revision="1" />
@@ -641,8 +675,8 @@
     <Item value="Lunghezza" revision="1" />
   </Enumeration>
   <Enumeration key="SwitchSingleSel">
-    <Item />
-    <Item />
+    <Item value="Attivare l'opzione &quot;Modalità di selezione singola&quot;" revision="2" />
+    <Item value="In questo modo si disattiva la selezione multipla. È possibile disattivare nuovamente l'opzione in un secondo momento nella scheda Impostazioni generali." revision="2" />
   </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Selezione Multipla" revision="1" />
@@ -698,8 +732,8 @@
     <Item value="Testo Modificato" revision="1" />
   </Enumeration>
   <Enumeration key="InterlaceMode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nessuno" revision="0" />
+    <Item value="Interlacciamento delle colonne" revision="0" />
+    <Item value="Interlacciamento di linee" revision="0" />
   </Enumeration>
 </Language>

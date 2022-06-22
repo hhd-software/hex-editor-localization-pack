@@ -34,6 +34,7 @@
   <Message key="Exclude:" value="Escludi:" revision="0" />
   <Message key="(regular expression)" value="(Espressione Regolare)" revision="0" />
   <Message key="Include sub-folders" value="Includi Sottocartelle" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Flussi NTFS" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="&amp;Crea Flusso…" revision="0" />
     <Item value="Crea Nuovo File di Flusso" revision="0" />

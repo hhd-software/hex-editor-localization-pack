@@ -10,7 +10,7 @@
   <Message key="Little Endian" value="Little Endian" revision="1" />
   <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="Valori &amp;Formattati" revision="1" />
-  <Message key="CopyExportLocalized" value="Copia &amp;&amp; Esporta" revision="1" />
+  <Message key="CopyExportLocalized" value="Copia &amp; Esporta" revision="2" />
   <Message key="Export" value="E&amp;sporta" revision="1" />
   <Message key="BadFormat" value="Il Formato di Esportazione non è in Grado di Gestire i Dati Selezionati" revision="1" />
   <Message key="BadImportFormat" value="Formato Dati Sbagliati." revision="1" />
@@ -42,6 +42,7 @@
   <Message key="Insert mode" value="Modalità Inserimento" revision="1" />
   <Message key="Ignore data offset" value="Ignora Dati di Correzione" revision="1" />
   <Message key="Encoding:" value="Codifica:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Errore nell'apertura del file HEX: {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
     <Item value="Copia &amp;Come…" revision="1" />
     <Item value="Converti Selezione in Uno dei Formati Supportati e Inserirli in Appunti" revision="1" />
@@ -63,12 +64,12 @@
     <Item value="Apri File ASCII-Codificato Binario" revision="1" />
   </Enumeration>
   <Enumeration key="FileNewIntelHex">
-    <Item />
-    <Item />
+    <Item value="Nuovo Intel Hex" revision="0" />
+    <Item value="Creare un file Intel HEX vuoto" revision="0" />
   </Enumeration>
   <Enumeration key="FileNewMotorolaHex">
-    <Item />
-    <Item />
+    <Item value="Nuovo Motorola S-Records" revision="0" />
+    <Item value="Creare un file S-Records Motorola vuoto" revision="0" />
   </Enumeration>
   <Enumeration key="SupportedFormats">
     <Item value="base64-Codifica" revision="1" />

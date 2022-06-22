@@ -96,6 +96,7 @@
   <Message key="Search" value="Cerca" revision="0" />
   <Message key="Jump" value="Salto" revision="0" />
   <Message key="string" value="Stringa" revision="0" />
+  <Message key="ExportOp" value="Esportazione di istruzioni disassemblate…" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Esegui Disassembler…" revision="0" />
     <Item value="Disassembla un File Eseguibile" revision="0" />

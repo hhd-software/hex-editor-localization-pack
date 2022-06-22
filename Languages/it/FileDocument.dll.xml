@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Sicuro di Voler Annullare Questa Operazione?. Ciò Potrà Danneggiare il File." revision="1" />
   <Message key="OccFound" value="{N} Occorrenze Trovate Finora." revision="1" />
-  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo 5 Copiato Dati" revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo Copiato Dati" revision="3" />
   <Message key="DefaultBranchName" value="Predefinito" revision="1" />
   <Message key="Continue working with a file." value="Continua a Lavorare con un File." revision="1" />
   <Message key="Discard all changes and close the file." value="Rifiuta le modifiche e Chiudi il File." revision="1" />
@@ -19,7 +19,7 @@
   <Message key="OldVersion" value="{name} (Versione Vecchia {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Errore Creando il Documento Oggetto: {text} ({code})" revision="2" />
   <Message key="LongTime" value="L'Apertura del File &quot;{path}&quot; nella Modalità Condivisa può Richiedere Molto Tempo. Aprire il File in Modalità Normale, Invece di Modalità Bloccata?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Errore Apertura Documento: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Errore Apertura Documento: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="Lo Spazio Libero su Disco {disk} è Minimo. L'Operazione Non Viene Eseguita. Eliminare Alcuni File e Riprovare.\r\n\r\nnNota: la Maggior Parte delle Operazioni in Hex Editor Neo, sono Disattivate Quando c'è Poco Spazio sul Disco Contenente la Cartella Temporanea. L'Operazione Salva Come non è Disattivata Consentendo di Salvare le Modifiche Apportate al File in un Altro Volume.\r\n\r\nnÈ Possibile Disattivare Questo Controllo in Strumenti »Impostazioni, Scheda Generale. Deseleziona l'Opzione &quot;Controlla lo Spazio su Disco Prima di Eseguire Qualunque Operazione&quot; per Disattivare Questo Controllo." revision="1" />
   <Message key="Unknown Process" value="Processo Sconosciuto" revision="1" />
   <Message key="Physical Memory" value="Memoria Fisica" revision="1" />
@@ -50,6 +50,7 @@
   <Message key="SnapshotTitle" value="Aperto da Snapshot" revision="0" />
   <Message key="SnapshotDescription" value="Impossibile Aprire Hex Editor Neo &quot;{path}&quot; a Causa del Seguente Errore:\r\n    » {text} ({code})\r\n\r\nVuoi Provare a Creare uno Snapshot del Volume e Apri il File da Questa Istantanea?" revision="0" />
   <Message key="RegExp settings" value="Classi Espressioni Regolari" revision="0" />
+  <Message key="Shortcut files" value="File di collegamento" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignora le Modifiche" revision="1" />
     <Item value="Chiudi il File" revision="1" />

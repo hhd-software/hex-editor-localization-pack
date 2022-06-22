@@ -6,6 +6,7 @@
   <Message key="ErrorCopyingFolders" value="(errore copiando cartelle)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Errore Copiando i File Seguenti:" revision="0" />
   <Message key="Explorer settings" value="Esplora" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Precedente" revision="0" />
     <Item value="Vai alla Posizione Precedente" revision="0" />

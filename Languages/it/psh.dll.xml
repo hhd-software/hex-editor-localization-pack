@@ -34,12 +34,12 @@
   <Message key="Error writing to the file" value="Errore Scrittura nel File" revision="0" />
   <Message key="Error reading from the file" value="Errore Lettura dal File" revision="0" />
   <Message key="Select Colors" value="Seleziona Colori" revision="0" />
-  <Message key="PColFilter" value="Modello Colorazione File Schema|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="Modello Colorazione File Schema|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Lo Schema Attuale Andrà Perso. Vuoi Continuare?" revision="0" />
   <Message key="The file has different version" value="Il File ha Versione Diversa" revision="0" />
   <Message key="Clear Coloring Scheme" value="Cancella Schema Colorazione" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="La Voce Corrente verrà Rimossa. Vuoi Continuare?" revision="0" />
-  <Message key="RuleFmt" value="Regola Colorazione Modello {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[uRegola Colorazione Modello {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} con {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} over{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} Selezione Multipla{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Nome: {name}\r\n\r\nRamo: {branch}" revision="0" />
   <Message key="NotSupported" value="Questa Funzione Non è Supportata per il Tipo di Documento Corrente." revision="0" />
@@ -112,6 +112,11 @@
   <Message key="Round edges" value="Bordi Arrotondati" revision="0" />
   <Message key="Change Time" value="Cambia Ora" revision="0" />
   <Message key="PatternColoring settings" value="Colorazione Modello" revision="0" />
+  <Message key="toolbar.Attributes" value="Attributi" revision="0" />
+  <Message key="toolbar.Coloring" value="Modello Colorazione" revision="0" />
+  <Message key="toolbar.Statistics" value="Statistiche" revision="0" />
+  <Message key="toolbar.History" value="Cronologia" revision="0" />
+  <Message key="toolbar.History Window" value="Finestra dell'albero della cronologia" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Cancella Cronologia" revision="0" />
     <Item value="Cancella Cronologia" revision="0" />
@@ -185,8 +190,8 @@
     <Item value="Non Mostrare Valore di Picco sulla Trama" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="Definisci…" revision="0" />
-    <Item value="Definisci Modello" revision="0" />
+    <Item value="Definisci…" revision="1" />
+    <Item value="Definisci Modello" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Comprimi Tutto" revision="0" />

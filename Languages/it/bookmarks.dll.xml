@@ -27,6 +27,7 @@
   <Message key="SelectionFilterString" value="Selezione File (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Mostra Selezione di Avviso Conversione Segnalibro" revision="1" />
   <Message key="MergeBookmarks" value="Vuoi Fondere con i Segnalibri Esistenti." revision="0" />
+  <Message key="toolbar.Bookmarks" value="Segnalibri" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nuovo Gruppo Segnalibri" revision="0" />
     <Item value="Crea Nuovo Gruppo Segnalibri" revision="0" />

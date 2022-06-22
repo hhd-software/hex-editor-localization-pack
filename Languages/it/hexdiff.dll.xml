@@ -30,6 +30,7 @@
   <Message key="Synchronize windows" value="Sincronizza Finestre" revision="0" />
   <Message key="Colors…" value="Colori…" revision="0" />
   <Message key="Swap" value="Scambia" revision="0" />
+  <Message key="toolbar.Compare Files" value="Confronta i File" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Riconfronto" revision="0" />
     <Item value="Riconfronto File" revision="0" />

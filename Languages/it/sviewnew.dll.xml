@@ -103,6 +103,14 @@
   <Message key="UntrustedEditor" value="Si sta per Eseguire l'Applicazione Non Attendibile nell'Editor Esterno Utilizzando la Seguente Riga di Comando:\r\n\r\n{path}\r\n\r\nVuoi Continuare? Se si Preme Sì, Questa Applicazione sarà Contrassegnato come Attendibile." revision="0" />
   <Message key="TypeExists" value="Il Tipo con lo Stesso Nome Esiste Già." revision="0" />
   <Message key="StructureFileNotFound" value="File {file} Non si Trova alla Posizione&quot;{path}&quot;. Vuoi Rimuoverlo dalla Libreria?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Visualizzatore Struttura" revision="0" />
+  <Message key="clr.sview_colors" value="Colori del Visualizzatore di Strutture" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Sfondo dei dati vincolati" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Tratto di dati vincolato" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Testo dei dati vincolati" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Sfondo del campo selezionato" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Tratto di campo selezionato" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Testo del campo selezionato" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Associa…" revision="0" />
     <Item value="Associa Nuova Struttura" revision="0" />
@@ -228,8 +236,8 @@
     <Item value="Apri File di Definizione Struttura con Definizione Campo Corrente" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoValueDef">
-    <Item />
-    <Item />
+    <Item value="Vai al Valore" revision="1" />
+    <Item value="Vai all'offset definito dal valore" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="Copia Nome Qualificato" revision="1" />
@@ -320,24 +328,24 @@
     <Item value="Tipi Utente" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="Nuovo File di S&amp;truttura" revision="0" />
+    <Item value="Creare un file di definizione della struttura vuoto" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewKaitaiFile">
-    <Item />
-    <Item />
+    <Item value="Nuovo File &amp;Kaitai" revision="0" />
+    <Item value="Creare un file di definizione Kaitai vuoto" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="Apri &amp;Struttura File…" revision="0" />
+    <Item value="Aprire il file di definizione della struttura" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">
-    <Item />
-    <Item />
+    <Item value="Aggiungi il File della Struttura &amp;Corrente" revision="0" />
+    <Item value="Aggiungere il file di definizione della struttura attiva alla libreria" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Aggiungi Struttura File…" revision="0" />
-    <Item value="Aggiungi File Definizione Struttura Esistente in Libreria" revision="0" />
+    <Item value="&amp;Aggiungi Struttura File…" revision="1" />
+    <Item value="Aggiungi File Definizione Struttura Esistente in Libreria" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Salva &amp;Tutti i File Struttura" revision="0" />
