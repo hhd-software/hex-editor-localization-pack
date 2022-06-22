@@ -274,9 +274,16 @@
   <Message key="Name:" description="Field: Name"/>
   <Message key="Search" description="Button: Search"/>
   <Message key="Jump" description="Button: Jump"/>
-  <Message key="string" description="string"></Message>
 
 	<!-- Operations -->
 	<Message key="ExportOp" description="Exporting…" value="Exporting disassembled instructions…" />
+
+	<Enumeration key="MsilNotification" description="Notification: MSIL Installation Warning">
+		<Item text="MSIL Installation Warning"/>
+		<Item text="Using this feature requires .NET 2.0 to be installed. Click the following link to download it:"/>
+	</Enumeration>
+
+	<Message key="MsilWarning" description="Option: Show msil installation warning" value="Show MSIL installation warning"/>
+	<Message key="DownloadNetButton" description="Download .NET Runtime button text" value="Download .NET 2.0 Runtime"/>
 
 </Definition>
