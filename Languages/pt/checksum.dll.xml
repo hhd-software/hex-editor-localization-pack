@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Calculating Checksums" value="Calculando Checksums" revision="1" />
+  <Message key="Calculating Checksums" value="Cálculo de somas de verificação" revision="1" />
   <Message key="8-bit sum" value="Soma de 8-bits" revision="1" />
   <Message key="16-bit sum" value="Soma de 16-bit" revision="1" />
   <Message key="32-bit sum" value="Soma de 32-bit" revision="1" />
@@ -46,7 +46,7 @@
   <Message key="Reflection In" value="Reflexão Em" revision="1" />
   <Message key="Reflection Out" value="Reflexão Fora" revision="1" />
   <Message key="Name:" value="Nome:" revision="0" />
-  <Message key="Checksum Result" value="Resultado Checksum" revision="1" />
+  <Message key="Checksum Result" value="Resultado da soma de verificação" revision="1" />
   <Message key="Copy" value="Copiar" revision="1" />
   <Message key="Size:" value="Tamanho:" revision="1" />
   <Message key="Separator:" value="Separador:" revision="1" />
@@ -74,8 +74,8 @@
     <Item value="Soma - assinada" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
-    <Item value="&amp;Checksum" revision="0" />
-    <Item value="Menu checksum" revision="0" />
+    <Item value="&amp;Soma de Verificação" revision="0" />
+    <Item value="Menu Soma de Verificação" revision="0" />
   </Enumeration>
   <Enumeration key="Application range">
     <Item value="Seleção Apenas" revision="1" />
