@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="Хочете скасувати операцію? Це зіпсує вміст файлу." revision="1" />
   <Message key="OccFound" value="Знайдено {N} включень." revision="1" />
-  <Message key="CopiedFragmentName" value="Дані з HHD Hex Editor Neo 5" revision="1" />
+  <Message key="CopiedFragmentName" value="Дані з HHD Hex Editor Neo" revision="3" />
   <Message key="DefaultBranchName" value="За замовчуванням" revision="1" />
   <Message key="Continue working with a file." value="Продовження роботи з файлом." revision="1" />
   <Message key="Discard all changes and close the file." value="Скасувати зміни та закрити файл." revision="1" />
@@ -14,11 +14,12 @@
   <Message key="CheckForLowDiskSpace" value="Перевіряти вільне місце на диску перед операціями" revision="1" />
   <Message key="IgnoreRenames" value="Не перейменовувати відкриті загальні файли" revision="1" />
   <Message key="RemovedNotification" value="Загальний документ видалено" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="Автоматичні спроби відкрити через образ диска" revision="0" />
   <Message key="NewBranchName" value="Гілка" revision="1" />
   <Message key="OldVersion" value="{name} (стара версія {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: Помилка при створенні документа: {{ext} ({code})" revision="2" />
   <Message key="LongTime" value="Відкриття файлу &quot;{path}&quot; в &quot;загальному&quot; режимі може зайняти багато часу. Хочете відкрити файл у звичайному режимі?" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: Помилка при відкритті документа: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Помилка при відкритті документа: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="На диску {disk} мало вільного місця. Операція не може бути продовжена. Звільніть місце та спробуйте знову.\r\n\r\nЗауваження: більшість операцій Hex Editor Neo недоступно якщо на диску з тимчасовою папкою мало місця. Операція &quot;Зберегти як&quot; доступна, щоб ви могли записати змінений файл на інший том.\r\n\r\nЦю перевірку можна відключити в Інструменти » Налаштування » Загальне » Перевіряти вільне місце на диску перед операціями." revision="1" />
   <Message key="Unknown Process" value="Не встановлений процес" revision="1" />
   <Message key="Physical Memory" value="Фізична пам'ять" revision="1" />
@@ -46,6 +47,10 @@
   <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Крапка) метасимвол не збігається з символом нового рядка ('\\n')" revision="1" />
   <Message key="Non-escaped white-space is not significant" value="Не ескейп пробіл не значущий" revision="1" />
   <Message key="Open Shared" value="Відкрити спільний" revision="1" />
+  <Message key="SnapshotTitle" value="Відкрити з образу" revision="0" />
+  <Message key="SnapshotDescription" value="Hex Editor Neo не зміг відкрити &quot;{path}&quot; через таку помилку:\r\n    » {text} ({code})\r\n\r\nВи хочете спробувати створити образ диска та відкрити файл із цього образу?" revision="0" />
+  <Message key="RegExp settings" value="Класи регулярних виразів" revision="0" />
+  <Message key="Shortcut files" value="Ярлики" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ігнорувати зміни" revision="1" />
     <Item value="Закрити файл" revision="1" />

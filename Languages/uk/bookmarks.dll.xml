@@ -27,6 +27,7 @@
   <Message key="SelectionFilterString" value="Файли виділень (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показувати попередження конвертації виділення в закладки" revision="1" />
   <Message key="MergeBookmarks" value="Об'єднати з існуючими закладками?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="Закладки" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Нова група закладок" revision="0" />
     <Item value="Створити нову групу закладок" revision="0" />

@@ -7,11 +7,12 @@
   <Message key="Unused" value="Не використовується" revision="1" />
   <Message key="PartitionTypeMBRFmt" value="   Тип розділу: {type}\r\n   Завантажувальний: {bootable}\r\n   Розпізнано: {recognized}\r\n   Приховані сектора: {hidden_sectors}\r\n" revision="1" />
   <Message key="PartitionTypeGPTFmt" value="  Тип розділу: {type}\r\n   ID розділу: {id}\r\n   Атрибути: {attr}\r\n   Ім'я: {name}\r\n" revision="1" />
-  <Message key="Disk: {disk}" value="Диск: {disk}" revision="1" />
+  <Message key="Disk: {disk}" value="Диск: {disk} ({serial number})" revision="2" />
   <Message key="Open Disk" value="Відкрити диск" revision="1" />
   <Message key="Select a physical disk to open" value="Виберіть фізичний диск для відкриття:" revision="1" />
   <Message key="Disk information" value="Інформація про диск:" revision="1" />
   <Message key="Open as Read-Only" value="Тільки для читання" revision="1" />
+  <Message key="Create and open snapshot" value="Створити та відкрити образ" revision="0" />
   <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Зачекайте поки Hex Editor Neo сканує диски…" revision="1" />
   <Message key="General Page" value="Загальні" revision="1" />
   <Message key="Using this product you are saving environment!" value="Використовуючи цей продукт ви бережете навколишнє середовище!" revision="1" />
@@ -32,7 +33,7 @@
   <Message key="SaveErrors" value="Під час збереження файлу виникли помилки:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Документ був змінений. Зберегти зміни?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Всі файли*|" revision="1" />
-  <Message key="AllSupportedFormats" value="Всі підтримувані ({mask})|{mask}|" revision="1" />
+  <Message key="AllSupportedFormats" value="Всі підтримувані" revision="2" />
   <Message key="NoLoadHandlersRegistered" value="Продукт встановлений некоректно. Будь ласка, перевстановіть продукт." revision="1" />
   <Message key="OldCommonControls" value="Застаріла версія common controls. Встановіть останній service pack і Internet Explorer для вашої операційної системи. Програма зараз буде закрита." revision="1" />
   <Message key="Loading" value="Завантаження" revision="1" />
@@ -49,7 +50,7 @@
   <Message key="VolumeOpenError" value="Помилка при відкритті тому: {text} ({code})" revision="1" />
   <Message key="EditorInitializationError" value="Неможливо ініціалізувати вікно редактора." revision="1" />
   <Message key="NoEditorsFoundError" value="Неможливо знайти підтримку для цього файлу." revision="1" />
-  <Message key="ToolsFilter" value="Налаштування інструментальних вікон (*.hexdwc)|*.hexdwc|" revision="1" />
+  <Message key="ToolsFilter" value="Налаштування інструментальних вікон (*.hexdwc7)|*.hexdwc7|" revision="2" />
   <Message key="Printing" value="Друк" revision="1" />
   <Message key="ActivatePane" value="Активувати інструментальне вікно {pane}" revision="1" />
   <Message key="New Document N" value="Новий документ {ordinal}" revision="1" />
@@ -58,6 +59,7 @@
   <Message key="MediaRemoved" value="Hex Editor Neo обмежений у доступі до деяких документів і змушений їх закрити. Зміни можуть бути втрачені в наступних документах:\r\n{document list}\r\n\r\nЩоб уникнути втрат даних, не виймайте з'ємні носії під час роботи з документами." revision="1" />
   <Message key="Activate this window" value="Активувати це вікно" revision="1" />
   <Message key="Settings" value="Налаштування" revision="1" />
+  <Message key="Search settings" value="Пошук налаштувань" revision="0" />
   <Message key="ElevationError" value="Неможливо підвищити привілеї. Помилка: {error}" revision="1" />
   <Message key="ElevationErrorTitle" value="Помилка підвищення привілеїв" revision="1" />
   <Message key="This toolbar cannot be deleted." value="Ця панель інструментів не може бути вилучена." revision="1" />
@@ -67,11 +69,19 @@
   <Message key="Toolbar already exists" value="Панель інструментів з таким ім'ям вже існує." revision="1" />
   <Message key="All commands" value="Усі команди" revision="1" />
   <Message key="Commands Page" value="Команди" revision="1" />
-  <Message key="Toolbars" value="Панелі інструментів:" revision="1" />
+  <Message key="Toolbars" value="Панель інструментів:" revision="2" />
   <Message key="New" value="&amp;Нова…" revision="1" />
   <Message key="Delete" value="В&amp;идалити" revision="1" />
   <Message key="Button size" value="Розмір кнопок:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="Виберіть команду щоб подивитися опис або перетягніть її на панель інструментів:" revision="1" />
+  <Message key="New Group" value="Нова &amp;група" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Додати" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Вилучити &gt;" revision="0" />
+  <Message key="Move Up" value="&amp;Вгору" revision="0" />
+  <Message key="Move Down" value="Вни&amp;з" revision="0" />
+  <Message key="Clear" value="О&amp;чистити" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Обрізати панелі інструментів" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Переносити панелі інструментів" revision="0" />
   <Message key="Keyboard" value="Клавіатура" revision="1" />
   <Message key="MaxShortcuts" value="Не можна призначити більше 5 гарячих клавіш на команду." revision="1" />
   <Message key="ShortcutExists" value="Ця гаряча клавіша вже визначена для команди {command}. Перевизначити?" revision="1" />
@@ -88,6 +98,7 @@
   <Message key="Keyboard Map Dialog" value="Карта клавіш" revision="1" />
   <Message key="Print" value="&amp;Друкувати" revision="1" />
   <Message key="General" value="Загальні" revision="1" />
+  <Message key="HideToolWindows" value="Приховати вікна, що управляють" revision="0" />
   <Message key="AlwaysCreateBackups" value="Завжди створювати бекапи" revision="1" />
   <Message key="LowercaseHex" value="Шістнадцяткові числа в нижньому регістрі" revision="1" />
   <Message key="ConvertFloatingPoint" value="Порядок байт впливає також на числа з плаваючою крапкою" revision="1" />
@@ -126,9 +137,12 @@
   <Message key="Reset All" value="Скинути в&amp;се" revision="1" />
   <Message key="Copy" value="Ко&amp;піювати" revision="1" />
   <Message key="Continue" value="Продовжити" revision="1" />
+  <Message key="Import" value="&amp;Імпорт…" revision="0" />
+  <Message key="Export" value="&amp;Експорт…" revision="0" />
   <Message key="KB" value="КБ" revision="1" />
   <Message key="MB" value="МБ" revision="1" />
   <Message key="GB" value="ГБ" revision="1" />
+  <Message key="TB" value="ТБ" revision="0" />
   <Message key="Regular expression" value="Регулярний вираз" revision="1" />
   <Message key="Sub-match:" value="Підгрупа:" revision="1" />
   <Message key="Recent Patterns…" value="Останні послідовності…" revision="1" />
@@ -142,9 +156,9 @@
   <Message key="Windows Title" value="Вікна" revision="1" />
   <Message key="Save" value="Зберегти" revision="1" />
   <Message key="Close Window(s)" value="Закрити вікна" revision="1" />
-  <Message key="AboutInfo" value="HHD Software {product}{x64?} (x64) {?x64}\n{edition}. Версія {major}.{minor}.{revision}.{build}\n\n© 2014 HHD Software Ltd.\nВсі права захищені." revision="2" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Версія {major}.{minor}.{revision}.{build}]]]\n{registered?}Зареєстровано на[[[b{user}]]] ({commercial?}[[[hКомерційна/Урядова/Військова]]]{|commercial}[[[hДомашня/Освітня]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nВсі права захищені.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
   <Message key="AboutBoxDisclaimer" value="Увага: Ця програма захищена законом про авторське право. Незаконне відтворення та поширення цієї програми або її частин може призвести до кримінального переслідування в рамках чинного законодавства." revision="1" />
-  <Message key="About Hex Editor Neo" value="Про Hex Editor Neo" revision="1" />
+  <Message key="About Hex Editor Neo" value="Про {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Налаштування інтерфейсу" revision="1" />
   <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Виберіть конфігурацію інтерфейсу за замовчуванням. Ви завжди можете її змінити в меню Вигляд » Зумовлені профілі." revision="1" />
   <Message key="Novice user" value="Новачок" revision="1" />
@@ -157,8 +171,8 @@
   <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="Ця функція недоступна у поточній редакції продукту.\r\nОберіть подальшу дію:" revision="1" />
   <Message key="New Toolbar" value="Нова панель інструментів" revision="1" />
   <Message key="Enter toolbar name" value="Введіть ім'я панелі інструментів:" revision="1" />
-  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Тільки для домашнього та навчальнього користування. Детальніше в &lt;a&gt;Умовах використання&lt;/a&gt;" revision="1" />
-  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Для комерційного, військового або урядового користування потрібен &lt;a&gt;апгрейд&lt;/a&gt;." revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="Тільки для домашнього та навчальнього користування. Детальніше в [[[hУмовах використання]]]." revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="Для комерційного, військового або урядового користування потрібен [[[hапгрейд]]]." revision="2" />
   <Message key="Do not display this warning anymore" value="Не показувати більше це попередження" revision="1" />
   <Message key="Save changes to selected documents" value="Зберегти зміни в документах:" revision="1" />
   <Message key="Tasks Page" value="Завдання" revision="1" />
@@ -202,6 +216,7 @@
   <Message key="Outline" value="Контур" revision="0" />
   <Message key="Coloring Schemes" value="Колірні схеми" revision="0" />
   <Message key="Auto Hide" value="Автоматичне приховування" revision="0" />
+  <Message key="Window list" value="Список вікон" revision="0" />
   <Message key="Switch Window" value="Переключити вікно" revision="0" />
   <Message key="Active Tool Windows" value="Активні інструментальні вікна" revision="0" />
   <Message key="Active Documents" value="Активні документи" revision="0" />
@@ -218,6 +233,7 @@
   <Message key="Language pack" value="Мовний пакет: {native name}" revision="0" />
   <Message key="DiscardWarning" value="Якщо ви скасуєте перевірку цих оновлень, Hex Editor Neo більше не буде про них повідомляти. При цьому ви як і раніше будете отримувати повідомлення про майбутні оновлення.\r\n\r\nСкасувати перевірку обраних оновлень?" revision="0" />
   <Message key="LangPackUpdated" value="Мовні пакети оновлені. Для перезавантаження мовних пакетів потрібно перезапуск програми.\r\n\r\nВиконати перезапуск зараз?" revision="0" />
+  <Message key="SavingAll" value="Збереження змін" revision="0" />
   <Message key="Component Updates" value="Оновлення компонентів" revision="0" />
   <Message key="The following updates are found:" value="Знайдено наступні оновлення:" revision="0" />
   <Message key="Check for updates" value="Перевірити наявність оновлень" revision="0" />
@@ -227,6 +243,7 @@
   <Message key="ActionSelection" value="{name} був успішно завантажений. Яку дію виконати?" revision="1" />
   <Message key="CopyError" value="Виникла помилка при копіюванні завантаженого файлу ({code}). Запускається установка з папки за замовчуванням." revision="1" />
   <Message key="LaunchError" value="Виникла помилка ({code}) при запуску завантаженої копії." revision="1" />
+  <Message key="File creation error" value="Помилка {create?}творення{|create}відкриття{?create} файлу &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="New Version Downloaded" value="Нова версія завантажена" revision="0" />
   <Message key="Install now" value="Встановити зараз" revision="1" />
   <Message key="Make a copy and install now" value="Зберегти та потім встановити" revision="1" />
@@ -239,16 +256,165 @@
   <Message key="SignatureError" value="Hex Editor Neo скачав оновлення, але воно не пройшло перевірку на цілісність. Це може бути результатом помилок мережі. Спробуйте ще раз пізніше." revision="0" />
   <Message key="ExecutablesFilter" value="Виконувані файли|*.exe|Усі файли|*.*||" revision="1" />
   <Message key="YourLanguage" value="Доступні мови on-line" revision="0" />
+  <Message key="NewBetaVersions" value="Виявлено нові бета-версії" revision="0" />
   <Message key="Language pack storage location" value="Шлях для зберігання локалізацій" revision="0" />
   <Message key="License Upgrade Notification" value="Виявлена ліцензія від колишньої версії. Неможливо автоматично оновити ліцензію. Вам необхідно зайти в розділ My Account на нашому веб-сайті і викачати оновлену ліцензію (може потребувати додаткової оплати, залежно від первинних опцій покупки).\n\nПерейти у розділ My Account зараз?" revision="0" />
+  <Message key="CSVFiles" value="Файли CSV (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="Файли кольорових схем (*.hextheme)|*.hextheme||" revision="0" />
+  <Message key="Rocket settings" value="Налаштування вікон" revision="0" />
+  <Message key="Bars settings" value="Панелі інструментів" revision="0" />
+  <Message key="Windows settings" value="Позиції вікон" revision="0" />
+  <Message key="MRU settings" value="Останні відкриті документи" revision="0" />
+  <Message key="Theme settings" value="Теми" revision="0" />
+  <Message key="Props settings" value="Загальні" revision="0" />
+  <Message key="Language settings" value="Мова" revision="0" />
+  <Message key="Setting files" value="Файли налаштувань|*.hexset7|Все файлы|*|" revision="1" />
+  <Message key="Export successful" value="Установки успішно записані у файл." revision="0" />
+  <Message key="Import successful" value="Параметри успішно завантажені з файлу. Рекомендуємо вам перезавантажити програми для їх застосування." revision="0" />
+  <Message key="toolbar.Standard" value="Стандартні" revision="0" />
+  <Message key="toolbar.Edit" value="Редагування" revision="0" />
+  <Message key="toolbar.Language" value="Мова" revision="0" />
+  <Message key="toolbar.New" value="Створити" revision="0" />
+  <Message key="toolbar.Open" value="Відкрити" revision="0" />
+  <Message key="Settings Page" value="Налаштування" revision="0" />
+  <Message key="Settings Storage Location" value="Зберігання налаштувань" revision="0" />
+  <Message key="Settings Management" value="Керування налаштуваннями" revision="0" />
+  <Message key="Export Settings…" value="Експорт налаштувань…" revision="0" />
+  <Message key="Import Settings…" value="Імпорт налаштувань…" revision="0" />
+  <Message key="Reset Settings…" value="Скидання налаштувань…" revision="0" />
+  <Message key="Ask to import settings" value="Зазначений файл вже існує. Ви хочете імпортувати його зараз? Якщо виберіть &quot;Ні&quot;, він буде перезаписаний поточними налаштуваннями." revision="0" />
+  <Message key="Ask to reset settings" value="Програма має бути перезапущена для скидання налаштувань. Ви хочете продовжити?" revision="0" />
+  <Message key="Ask to restart" value="Рекомендується перезапустити програму для прийняття завантажених налаштувань. Перезапустити зараз?" revision="0" />
+  <Message key="Select Components" value="Вибір компонентів" revision="0" />
+  <Message key="Select components:" value="Виберіть компоненти:" revision="0" />
+  <Message key="Select all" value="Обрати все" revision="0" />
+  <Message key="Beta Page" value="Бета-версії" revision="0" />
+  <Message key="Beta title info" value="На цій сторінці перелічені доступні для завантаження необов'язкові компоненти. Ці компоненти можуть додавати експериментальні можливості або редагувати помилки. Позначте компоненти, які ви бажаєте встановити та зніміть позначки з тих компонентів, які ви бажаєте видалити. Потім натисніть кнопку Редагувати." revision="1" />
+  <Message key="BetaUpdateButton" value="&amp;Змінити" revision="0" />
+  <Message key="Available beta modules:" value="Доступні компоненти:" revision="0" />
+  <Message key="There are no updates available." value="Доступних компонентів не виявлено." revision="0" />
+  <Message key="BetaInstalled" value="Успішна зміна конфігурації компонентів. Вам потрібно перезапустити Hex Editor Neo для прийняття змін." revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}Наступні компоненти будуть завантажені та встановлені:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}Наступні компоненти будуть видалені:\r\n\n{deleted components}{?has deleted}\r\n\nПродовжити?" revision="0" />
+  <Message key="BetaConflicts" value="Вибрані компоненти конфліктують із встановленими або один з одним. Наступні компоненти повинні бути прибрані для продовження:\r\n\n{components}\r\n\nВы хотите убрать их и продолжить?" revision="0" />
+  <Message key="BetaHeader" value="Бета-версія" revision="0" />
+  <Message key="BetaDownloadError" value="Помилка завантаження вибраних компонентів. Будь ласка, спробуйте пізніше." revision="1" />
+  <Message key="BetaAdvanced" value="&amp;Додатково…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="Введіть ідентифікатор оновлення, надісланий вам співробітником служби підтримки HHD Software:" revision="0" />
+  <Message key="Manual Installation" value="Ручне встановлення" revision="0" />
+  <Message key="Crash Page" value="Звітність про збої" revision="0" />
+  <Message key="CrashIntro" value="Якщо ви хочете отримувати сповіщення про аналіз ваших звітів, будь ласка, вкажіть вашу адресу електронної пошти нижче. Ваша електронна пошта не буде використана для жодних інших цілей." revision="0" />
+  <Message key="Report Settings" value="Налаштування" revision="0" />
+  <Message key="Send report automatically" value="&amp;Автоматично надсилати звіт" revision="0" />
+  <Message key="Report verbosity level" value="Детальність звіту" revision="0" />
+  <Message key="Minidump" value="&amp;Мінідамп" revision="0" />
+  <Message key="Full dump" value="&amp;Повний дамп" revision="0" />
+  <Message key="Minidump description" value="Розмір мінідампа зазвичай менший за мегабайт, проте він містить обмежену інформацію про помилку. У деяких випадках цієї інформації достатньо, але найчастіше немає." revision="0" />
+  <Message key="Full dump description" value="Повний дамп містить стиснуту копію адресного простору процесу. Це ідеальний варіант для розробників для відтворення та виправлення помилки у найкоротший термін. Однак розмір повного дампа може досягати сотень мегабайт." revision="0" />
+  <Message key="Privacy Policy" value="Політика приватності" revision="0" />
+  <Message key="Volume access denied" value="Під час читання інформації про том отримано помилку &quot;відмовлено в доступі&quot;. Спробуйте перезапустити Hex Editor Neo від імені адміністратора." revision="0" />
+  <Message key="NA" value="Н/Д" revision="0" />
+  <Message key="Open Device" value="Відкрити пристрій" revision="0" />
+  <Message key="Enter the device path to open:" value="Введіть шлях до пристрою:" revision="0" />
+  <Message key="Open device as:" value="Відкрити пристрій як:" revision="0" />
+  <Message key="Auto" value="Автоматично" revision="0" />
+  <Message key="Physical disk" value="Фізичний диск" revision="0" />
+  <Message key="Volume" value="Том" revision="0" />
+  <Message key="Value is out of range" value="Зазначене значення знаходиться поза дозволеним діапазоном" revision="0" />
+  <Message key="GenericError" value="Помилка виконання операції: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="Кольори за замовчуванням" revision="0" />
+  <Message key="clr.default_colors.background" value="Фон" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Фон вікон" revision="0" />
+  <Message key="clr.default_colors.text" value="Текст/передній план" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Гіперпосилання" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Недоступний текст" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Фон підсвічування" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Обведення підсвічування" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Текст підсвічування" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Фон виділеного" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Обведення виділеного" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Виділений текст" revision="0" />
+  <Message key="clr.menu" value="Кольори меню" revision="0" />
+  <Message key="clr.menu.background" value="Фон" revision="0" />
+  <Message key="clr.menu.text" value="Текст" revision="0" />
+  <Message key="clr.menu.separator" value="Роздільник" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Недоступний текст" revision="0" />
+  <Message key="clr.menu.checked" value="Фон включеного елемента" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Фон позначеного та вимкненого елемента" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Фон підсвічування" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Обведення підсвічування" revision="0" />
+  <Message key="clr.menu.hover.text" value="Текст підсвічування" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Фон недоступного підсвічування" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Обведення недоступного підсвічування" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Текст недоступного підсвічування" revision="0" />
+  <Message key="clr.rebar" value="Колір ребара" revision="0" />
+  <Message key="clr.rebar.background" value="Фон" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Фон шеврона" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Обведення шеврону" revision="0" />
+  <Message key="clr.toolbar" value="Кольори тулбарів" revision="0" />
+  <Message key="clr.toolbar.background" value="Фон" revision="0" />
+  <Message key="clr.toolbar.text" value="Текст" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Недоступний текст" revision="0" />
+  <Message key="clr.toolbar.separator" value="Роздільник" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Фон підсвічування" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Обведення підсвічування" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Текст підсвічування" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Фон натиснутого елемента" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Обведення натиснутого елемента" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Текст натиснутого елемента" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Фон недоступного натиснутого елемента" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Обведення недоступного натиснутого елемента" revision="0" />
+  <Message key="clr.frame" value="Кольори кадру" revision="0" />
+  <Message key="clr.frame.frame.background" value="Фон" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Фон клієнтської області" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Колір кадру" revision="0" />
+  <Message key="clr.frame.frame.border" value="Рамка" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Фон неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Текст/обведення неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Фон активного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Текст/обведення активного заголовка" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Фон підсвічування" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Обведення підсвічування" revision="0" />
+  <Message key="clr.frame.hover.text" value="Текст підсвічування" revision="0" />
+  <Message key="clr.frame.title_text" value="Текст найменування" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Тінь навігаційних іконок" revision="0" />
+  <Message key="clr.frame.nav.background" value="Фон навігаційних іконок" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Підсвічування навігаційних іконок" revision="0" />
+  <Message key="clr.frame.nav.header" value="Заголовок навігаційних іконок" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Рамка навігаційних іконок" revision="0" />
+  <Message key="Settings group.Visual" value="Подання" revision="0" />
+  <Message key="Settings group.User Interface" value="Користувальницький інтерфейс" revision="0" />
+  <Message key="Settings group.Network" value="Мережа та підтримка" revision="0" />
+  <Message key="Settings group.Editor" value="Редактор" revision="0" />
+  <Message key="Settings group.Misc" value="Інше" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="Редактор структур" revision="0" />
+  <Message key="Colors Page" value="Теми" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Введіть назву схеми та натисніть кнопку Зберегти" revision="0" />
+  <Message key="ColorSchemeExists" value="Колірна схема вже існує. Ви хочете її перезаписати?" revision="0" />
+  <Message key="Theme:" value="Тема:" revision="0" />
+  <Message key="Display elements:" value="Колірні елементи:" revision="0" />
+  <Message key="Automatic" value="Автоматично" revision="0" />
+  <Message key="Current" value="Поточний" revision="0" />
+  <Message key="Selected" value="Вибраний" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Автоматичний колір залежить від поточної колірної теми операційної системи." revision="0" />
+  <Message key="&amp;Open" value="&amp;Відкрити" revision="0" />
+  <Message key="Novice User Layout" value="Профіль &quot;Новичок&quot;" revision="0" />
+  <Message key="Advanced User Layout" value="Розширений профіль" revision="0" />
+  <Message key="Expert User Layout" value="Експертний профіль" revision="0" />
+  <Message key="Free Hex Editor Layout" value="Профіль безкоштовної редакції" revision="0" />
+  <Message key="Open as binary" value="Бінарні файли" revision="0" />
+  <Message key="Open Recent" value="Відкрити {item}" revision="0" />
+  <Message key="Structure definition files" value="Файли визначення структур" revision="0" />
+  <Message key="Kaitai definition files" value="Файли визначення Kaitai" revision="0" />
+  <Message key="Sample Text" value="Зразок тексту" revision="0" />
+  <Message key="Default" value="За замовчуванням" revision="0" />
   <Enumeration key="Disk dialog columns">
-    <Item value="Диск" revision="1" />
-    <Item value="Розмір" revision="1" />
-    <Item value="ID пристрою" revision="1" />
-    <Item value="Томів на диску" revision="1" />
-    <Item value="Тип" revision="1" />
-    <Item value="Можливості" revision="1" />
-    <Item />
+    <Item value="Диск" revision="2" />
+    <Item value="Розмір" revision="2" />
+    <Item value="ID пристрою" revision="2" />
+    <Item value="Томів на диску" revision="2" />
+    <Item value="Тип" revision="2" />
+    <Item value="Можливості" revision="2" />
+    <Item value="Серійний номер" revision="2" />
   </Enumeration>
   <Enumeration key="Disk capabilities">
     <Item value="Невідомо" revision="1" />
@@ -322,8 +488,8 @@
     <Item value="Файл" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Створити" revision="0" />
+    <Item value="Командна група &quot;Створити&quot;" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOpen">
     <Item value="&amp;Відкрити" revision="0" />
@@ -399,13 +565,13 @@
     <Item value="Комерційна" revision="1" />
   </Enumeration>
   <Enumeration key="VolumeDialogColumns">
-    <Item value="Точка підключення" revision="1" />
-    <Item value="Мітка" revision="1" />
-    <Item value="Тип" revision="1" />
-    <Item value="Файлова система" revision="1" />
-    <Item value="Серійний номер" revision="1" />
-    <Item value="Унікальний ID" revision="1" />
-    <Item />
+    <Item value="Точка підключення" revision="2" />
+    <Item value="Мітка" revision="2" />
+    <Item value="Тип" revision="2" />
+    <Item value="Файлова система" revision="2" />
+    <Item value="Серійний номер" revision="2" />
+    <Item value="Унікальний ID" revision="2" />
+    <Item value="Розмір" revision="2" />
   </Enumeration>
   <Enumeration key="VolumeDialogDriveType">
     <Item value="Невідомий" revision="1" />
@@ -474,8 +640,8 @@
     <Item value="Закрити поточний документ" revision="1" />
   </Enumeration>
   <Enumeration key="FileCloseAll">
-    <Item value="Закри&amp;ти все" revision="1" />
-    <Item value="Закрити всі відкриті документи" revision="1" />
+    <Item value="Закри&amp;ти все" revision="2" />
+    <Item value="Закрити всі відкриті документи" revision="2" />
   </Enumeration>
   <Enumeration key="FileExit">
     <Item value="Вихід" revision="1" />
@@ -618,8 +784,8 @@
     <Item value="Відкриває фізичний диск" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
-    <Item />
-    <Item />
+    <Item value="Відкрити &amp;пристрій…" revision="1" />
+    <Item value="Відкрити пристрій, використовуючи заданий користувачем шлях" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="Зберегти &amp;все" revision="1" />
@@ -662,13 +828,13 @@
     <Item value="Відкрити файл у режимі спільного використання з іншими програмами" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Невідома" revision="1" />
-    <Item value="Безкоштовна редакція" revision="1" />
-    <Item value="Розпочато пробний період" revision="1" />
-    <Item value="Безкоштовна редакція" revision="1" />
-    <Item value="Редакція Standard" revision="1" />
-    <Item value="Редакція Professional" revision="1" />
-    <Item value="Редакція Ultimate" revision="1" />
+    <Item value="Невідома" revision="2" />
+    <Item value="Безкоштовна редакція" revision="2" />
+    <Item value="Розпочато пробний період" revision="2" />
+    <Item value="Безкоштовна редакція" revision="2" />
+    <Item value="Редакція Standard" revision="2" />
+    <Item value="Редакція Professional" revision="2" />
+    <Item value="Редакція Ultimate" revision="2" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Перевірити наявність оновлень…" revision="1" />
@@ -702,30 +868,30 @@
     <Item value="Мовний пакет для &quot;{language name}&quot; доступний для завантаження. Ви бажаєте завантажити и використати даний мовний пакет?" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Реєстр" revision="0" />
+    <Item value="Користувальницький ключ у системному реєстрі. Значення за замовчуванням" revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Портативний режим" revision="0" />
+    <Item value="Параметри програми зберігаються у файлі portable.hexset у папці запуску програми." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Зовнішній файл:" revision="0" />
+    <Item value="Установки програми зберігаються у вказаному файлі. Використовуйте спільну папку (спільну папку OneDrive або DropBox), щоб використовувати однакові установки на різних пристроях." revision="0" />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Доступні нові бета-версії" revision="1" />
+    <Item value="Для вашої версії продукту є нові бета-компоненти." revision="1" />
+    <Item value="Ви хочете переглянути список доступних компонентів та завантажити їх?" revision="1" />
+    <Item value="Це повідомлення відображається один раз для нових компонентів." revision="1" />
+    <Item value="Чи не перевіряти більше наявність бета-версій" revision="1" />
   </Enumeration>
   <Enumeration key="CompatActive">
-    <Item />
-    <Item />
+    <Item value="Виявлено налаштування сумісності!" revision="0" />
+    <Item value="Операційна система зараз застосовує деякі налаштування сумісності для Hex Editor Neo. Програма може працювати некоректно поки ці налаштування застосовуються. Також це може погіршити продуктивність та візуальну якість.\r\n\nВиберіть дію:" revision="0" />
   </Enumeration>
   <Enumeration key="CompatActiveActions">
-    <Item />
-    <Item />
+    <Item value="Продовжити" revision="0" />
+    <Item value="Вимкнути налаштування сумісності та перезапустити програму" revision="0" />
   </Enumeration>
 </Language>

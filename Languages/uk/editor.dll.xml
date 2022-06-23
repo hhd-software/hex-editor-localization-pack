@@ -34,6 +34,9 @@
   <Message key="&amp;Find Next" value="&amp;Знайти далі" revision="0" />
   <Message key="&amp;Replace" value="&amp;Замінити" revision="0" />
   <Message key="Replace &amp;All" value="Замінити все" revision="0" />
+  <Message key="A pattern was not found." value="Шуканий фрагмент не знайдено." revision="0" />
+  <Message key="InvalidColoringScheme" value="Неправильна назва схеми." revision="0" />
+  <Message key="OverwriteColoringScheme" value="Вказана схема вже існує. Ви хочете її перезаписати?" revision="0" />
   <Enumeration key="EditReplace">
     <Item value="Замінити..." revision="0" />
     <Item value="Замінити текст" revision="0" />

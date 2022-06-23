@@ -5,6 +5,8 @@
   <Message key="16-bit sum" value="16-бітна сума" revision="1" />
   <Message key="32-bit sum" value="32-бітна сума" revision="1" />
   <Message key="64-bit sum" value="64-бітна сума" revision="1" />
+  <Message key="Zero bits" value="Нульові біти" revision="0" />
+  <Message key="One bits" value="Поодинокі біти" revision="0" />
   <Message key="Sum of Little-Endian 16-bit values" value="Сума 16-бітових значень прямого порядку (Little-Endian)" revision="1" />
   <Message key="Sum of Big-Endian 16-bit values" value="Сума 16-бітових значень зворотного порядку (Big-Endian)" revision="1" />
   <Message key="Sum of Little-Endian 32-bit values" value="Сума 32-бітових значень прямого порядку (Little-Endian)" revision="1" />
@@ -22,10 +24,17 @@
   <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Деякі значення не вміщаються в 16 біт. Задайте 16-бітові значення від 0 до 0xFFFF (65535)." revision="1" />
   <Message key="Checksum" value="Контрольні суми" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Функція &quot;Контрольна сума&quot; обчислює значення сум вибраних даних або всього документа." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32 біти" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32 біти" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64 біти" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64 біти" revision="0" />
+  <Message key="Custom FNV" value="Настроювана FNV-1" revision="0" />
   <Message key="N/A" value="Немає даних" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Будь ласка, дочекайтеся закінчення виконуваних операцій." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстові файли з табуляцією-роздільником (*.tsv)|*.tsv|Всі файли|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Початкове={initial}, Поліном={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64-біти{|is64bit}32-біти{?is64bit}: Просте={prime}, Початкове={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="Контрольні суми" revision="0" />
   <Message key="Add Algorithm" value="Додати алгоритм" revision="1" />
   <Message key="Select the algorithm to add from the list below:" value="Виберіть алгоритм зі списку:" revision="1" />
   <Message key="Custom CRC Parameters" value="Параметри настроюваної CRC" revision="1" />
@@ -36,10 +45,18 @@
   <Message key="Decimal" value="Десяткове:" revision="2" />
   <Message key="Reflection In" value="Reflection In" revision="1" />
   <Message key="Reflection Out" value="Reflection Out" revision="1" />
+  <Message key="Name:" value="Ім'я:" revision="0" />
   <Message key="Checksum Result" value="Результат" revision="1" />
   <Message key="Copy" value="Копіювати" revision="1" />
   <Message key="Size:" value="Розмір:" revision="1" />
   <Message key="Separator:" value="Роздільник:" revision="1" />
+  <Message key="Checksum settings" value="Контрольні суми" revision="0" />
+  <Message key="Custom FNV Parameters" value="Параметри настроюваного FNV-1" revision="0" />
+  <Message key="32-bit" value="32 біти" revision="0" />
+  <Message key="64-bit" value="64 біти" revision="0" />
+  <Message key="Prime:" value="Просте:" revision="0" />
+  <Message key="Offset basis:" value="Початкове:" revision="0" />
+  <Message key="Version:" value="Версія:" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Без роздільників" revision="1" />
     <Item value="Пробіл (' ')" revision="1" />
@@ -49,12 +66,12 @@
     <Item value="Крапка з комою (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Прості суми" revision="1" />
-    <Item value="Додаткові суми" revision="1" />
-    <Item value="Контрольні суми" revision="1" />
-    <Item value="Хеши" revision="1" />
-    <Item value="Знакові суми" revision="1" />
-    <Item />
+    <Item value="Прості суми" revision="2" />
+    <Item value="Додаткові суми" revision="2" />
+    <Item value="Контрольні суми" revision="2" />
+    <Item value="Хеши Fowler–Noll–Vo (FNV)" revision="2" />
+    <Item value="Хеши" revision="2" />
+    <Item value="Знакові суми" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Контрольні суми" revision="0" />

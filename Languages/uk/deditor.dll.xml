@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="Невідомий файловий запис" revision="0" />
   <Message key="FilenameAttributeError" value="Помилка розбору атрибутів файлу для запису {record}" revision="0" />
   <Message key="CopyFileError" value="Помилка копіювання файлу &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Копіювання розріджених, стиснутих або зашифрованих файлів ще не реалізовано: &quot;{filename}&quot;." revision="0" />
   <Message key="WriteFileError" value="Помилка запису файлу: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="Недостатньо вільного місця на диску для копіювання &quot;{filename}&quot;. Звільніть як мінімум {filesize} для копіювання даного файлу." revision="0" />
   <Message key="CopyWarning" value="Файл &quot;{filename}&quot; вже існує." revision="0" />
@@ -29,6 +30,33 @@
   <Message key="&amp;Do this for all conflicts" value="&amp;Для усіх конфліктів" revision="0" />
   <Message key="&amp;Overwrite" value="&amp;Перезаписати" revision="0" />
   <Message key="&amp;Skip" value="П&amp;ропустити" revision="0" />
+  <Message key="OverwriteWarning" value="Схема &quot;{schemename}&quot; вже існує. Ви хочете її перезаписати?" revision="0" />
+  <Message key="UnsavedWarning" value="Поточна схема не збережена. Ви бажаєте зберегти її?" revision="0" />
+  <Message key="DeleteWarning" value="Поточна схема буде видалена." revision="0" />
+  <Message key="CustomFilesFilter" value="Файли з описом структури тома|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="Ім'я файлу не вказано." revision="0" />
+  <Message key="CSRootEmpty" value="Коренева структура не вказана." revision="0" />
+  <Message key="CSCheckStructEmpty" value="Перевірна структура не вказана." revision="0" />
+  <Message key="CSCheckAddressError" value="Адреса перевірки має бути числом." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="Ім'я схеми не вказано." revision="0" />
+  <Message key="CSFileNotFound" value="Файл &quot;{filename}&quot; не знайдено." revision="0" />
+  <Message key="CSRootNotFound" value="Коренева структура {name} не знайдено." revision="0" />
+  <Message key="CSBindVolumeError" value="Помилка аналізу тома. Схема &quot;{name}&quot;, помилка: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Розділ[{index}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="Неправильний заголовок PrivHead." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="Неправильний заголовок TocBlock." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Неправильний заголовок Vmdb." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Розмір Vblk не кратний розміру сектора." revision="0" />
+  <Message key="OpenVolumeWarning" value="Неможливо відкрити вибраний том" revision="0" />
+  <Message key="GPTParseErrorHeader" value="Неправильний заголовок GUID Partition Table." revision="0" />
+  <Message key="Custom Volume Editor" value="Редактор теми користувача" revision="0" />
+  <Message key="File:" value="Файл:" revision="0" />
+  <Message key="Checking structure:" value="Перевірна структура:" revision="0" />
+  <Message key="Checking address:" value="Перевірочна адреса:" revision="0" />
+  <Message key="Root structure:" value="Коренева структура:" revision="0" />
+  <Message key="Directory entry structure:" value="Структура папки:" revision="0" />
+  <Message key="File entry structure:" value="Структура файла:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Файлова система" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="байт" revision="0" />
     <Item value="КБ" revision="0" />
@@ -72,8 +100,8 @@
     <Item value="Оновити поточну директорію" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustomVolume">
-    <Item />
-    <Item />
+    <Item value="Редагувати власні томи" revision="0" />
+    <Item value="Відкрити вікно налаштувань тома користувача" revision="0" />
   </Enumeration>
   <Enumeration key="OutputColumns">
     <Item value="Том" revision="0" />
@@ -84,14 +112,14 @@
     <Item value="Навігатор тому сканує і показує структуру файлової системи відкритого тому, допомогає знайти місцезнаходження файлів, а також відновити пошкоджені файли та папки." revision="1" />
   </Enumeration>
   <Enumeration key="Partitions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Невідомий" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Не розподілено" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

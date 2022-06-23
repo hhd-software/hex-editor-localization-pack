@@ -1,45 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Нотатки" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Оновилися нотатки для файлу &quot;{File}&quot;. Ви хочете зберегти їх?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Максимальна кількість анотацій для файлу ({number}) досягнуто." revision="0" />
+  <Message key="toolbar.Annotations" value="Нотатки" revision="0" />
+  <Message key="ExtSuffixFilter" value="Дозволені символи: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Коментувати діапазон" revision="0" />
+  <Message key="Start:" value="Початок:" revision="0" />
+  <Message key="End:" value="Кінець:" revision="0" />
+  <Message key="Text:" value="Текст нотатки:" revision="1" />
+  <Message key="Annotations Storage Location" value="Місце зберігання нотаток" revision="0" />
+  <Message key="Auto Select" value="Автовибір" revision="0" />
+  <Message key="NTFS Stream" value="Потік NTFS" revision="0" />
+  <Message key="File extension suffix:" value="Суфікс розширення файлу:" revision="0" />
+  <Message key="Custom Folder:" value="Папка:" revision="0" />
+  <Message key="Clear annotations cache" value="Очистити кеш нотаток" revision="0" />
   <Enumeration key="FeatureAnnotations">
-    <Item />
-    <Item />
+    <Item value="Нотатки" revision="0" />
+    <Item value="Функція &quot;нотатки&quot; дозволяє додавати нотатки до різних часток файлу." revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAdd">
-    <Item />
-    <Item />
+    <Item value="Додати замітку…" revision="0" />
+    <Item value="Додати новий запис" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationRemove">
-    <Item />
-    <Item />
+    <Item value="Видалити нотатку" revision="0" />
+    <Item value="Видалити нотатку" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationClear">
-    <Item />
-    <Item />
+    <Item value="Очистити нотатки" revision="0" />
+    <Item value="Видалити всі нотатки" revision="0" />
   </Enumeration>
   <Enumeration key="MenuAnnotations">
-    <Item />
-    <Item />
+    <Item value="&amp;Нотатки" revision="0" />
+    <Item value="Меню нотаток" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateCursor">
-    <Item />
-    <Item />
+    <Item value="Коментувати місце…" revision="0" />
+    <Item value="Додати нову замітку за місцем курсору" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateSelection">
-    <Item />
-    <Item />
+    <Item value="Коментувати виділення…" revision="0" />
+    <Item value="Додати нотатку для поточного виділення" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item />
-    <Item />
+    <Item value="Редагувати замітку" revision="0" />
+    <Item value="Редагувати вибрану нотатку" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
-    <Item />
-    <Item />
+    <Item value="Додати" revision="1" />
+    <Item value="Застосувати" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="N" revision="0" />
+    <Item value="Адреса" revision="0" />
+    <Item value="Розмір" revision="0" />
+    <Item value="Текст" revision="0" />
   </Enumeration>
 </Language>

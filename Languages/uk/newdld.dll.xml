@@ -22,6 +22,8 @@
   <Message key="Re-type password:" value="Повтор пароля:" revision="0" />
   <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo безпечно зберігає введенний пароль на вашому комп'ютері)" revision="0" />
   <Message key="PasswordMismatch" value="Введені паролі повинні співпадати." revision="0" />
+  <Message key="Downloader settings" value="Налаштування Proxy" revision="0" />
+  <Message key="toolbar.Downloader" value="Оновлення" revision="0" />
   <Enumeration key="MenuDownloader">
     <Item value="Оновлення" revision="0" />
     <Item value="Оновлення" revision="0" />

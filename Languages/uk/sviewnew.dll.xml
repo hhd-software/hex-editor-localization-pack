@@ -23,7 +23,7 @@
   <Message key="SchemeNotFound" value="Асоційована схема &quot;{scheme}&quot; не знайдена для розширення {ext}." revision="0" />
   <Message key="Structure Viewer: Load Scheme" value="Оглядач структур: Завантаження схеми" revision="0" />
   <Message key="Edit Associations" value="Редагувати асоціації" revision="0" />
-  <Message key="Unable to create file" value="Неможливо створити файл" revision="0" />
+  <Message key="Unable to create file" value="Неможливо створити файл: {text} ({code})" revision="1" />
   <Message key="Error saving scheme" value="Помилка при збереженні схеми" revision="0" />
   <Message key="LengthyOp" value="Ця дія неможлива під час тривалих операцій. Спробуйте пізніше." revision="0" />
   <Message key="This scheme can not be removed." value="Ця схема не може бути видалена." revision="0" />
@@ -41,6 +41,7 @@
   <Message key="BindError" value="Hex Editor Neo не може виконати директиву $bind (переконайтеся, що тип оголошен як public)" revision="0" />
   <Message key="Copy to clipboard" value="Копіювати в буфер обміну" revision="0" />
   <Message key="Exporting to file" value="Експортування у файл" revision="0" />
+  <Message key="Copy/export speed" value="{lines} рядків/с" revision="0" />
   <Message key="VariableUpdateError" value="Hex Editor Neo не може оновити значення змінної." revision="0" />
   <Message key="VariableBindError" value="Hex Editor Neo не може прив'язати змінну." revision="0" />
   <Message key="OnlyFirst" value="Тільки перші {n} рядків будуть {is copy?}скопійовані в буфер обміну{|is copy}експортовані{?is copy}. Продовжити?" revision="0" />
@@ -79,6 +80,7 @@
   <Message key="DataInspCompileError" value="Пояснення не додано:" revision="0" />
   <Message key="CompileErrorFormat" value="Помилка компіляції в рядку {err_line}" revision="0" />
   <Message key="BindTypeNotFound" value="Не знайдений тип {type}" revision="0" />
+  <Message key="EmptyDefinition" value="Визначення відсутнє" revision="0" />
   <Message key="AddInspectType" value="Додати новий тип" revision="0" />
   <Message key="EditInspectType" value="Редагувати тип" revision="0" />
   <Message key="DeleteStructFile" value="Помилка видалення обраного файлу: {error text} ({error})" revision="0" />
@@ -92,6 +94,23 @@
   <Message key="Outline color:" value="Колір контуру:" revision="0" />
   <Message key="Add Inspector Type" value="Додати тип" revision="0" />
   <Message key="Change Time" value="Змінити час" revision="0" />
+  <Message key="AssignNotification" value="Редагування даних для цього типу неможливо. Натисніть кнопку Довідка, щоб дізнатися, як додати підтримку модифікації даних." revision="0" />
+  <Message key="MaxExportStringSize" value="Максимальна довжина рядка" revision="0" />
+  <Message key="MaxExportObjectFields" value="Максимальна кількість полів або елементів масиву" revision="0" />
+  <Message key="CopyError" value="Помилка копіювання: {text} ({code})" revision="1" />
+  <Message key="FileExists" value="Цей файл вже додано до бібліотеки." revision="0" />
+  <Message key="ErrorStartingExternalEditor" value="Сталася помилка під час запуску зовнішнього редактора.\r\n\r\nКомандний рядок: {path}\r\nПомилка: {error text} ({error})" revision="0" />
+  <Message key="UntrustedEditor" value="Зараз буде здійснено запуск недовіреного зовнішнього редактора, використовуючи наступний командний рядок: \r\n\r\n{path}\r\n\r\nВи хочете продовжити? Якщо Ви натиснете Так, ця програма буде позначена як довірена." revision="0" />
+  <Message key="TypeExists" value="Тип користувача з вказаним ім'ям вже існує." revision="0" />
+  <Message key="StructureFileNotFound" value="Файл {file} не знайдено у папці &quot;{path}&quot;. Ви бажаєте видалити його з бібліотеки?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="Оглядач структур" revision="0" />
+  <Message key="clr.sview_colors" value="Кольори модуля &quot;Оглядач структур&quot;" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="Фон прив'язаних даних" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="Обведення прив'язаних даних" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="Текст прив'язаних даних" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="Фон виділеного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="Обведення виділеного поля" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="Текст виділеного поля" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Прив'язати…" revision="0" />
     <Item value="Прив'язати нову структуру" revision="0" />
@@ -205,60 +224,60 @@
     <Item value="Перетворити поле у виділення" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoEnd">
-    <Item value="Перейти в кінець поточного поля" revision="0" />
-    <Item value="Перейти в кінець поточного поля" revision="0" />
+    <Item value="Перейти в кінець поточного поля" revision="1" />
+    <Item value="Перейти в кінець поточного поля" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoTypeDef">
-    <Item value="Перейти до визначення типу" revision="0" />
-    <Item value="Перейти до визначення типу" revision="0" />
+    <Item value="Перейти до визначення типу" revision="1" />
+    <Item value="Перейти до визначення типу" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoFieldDef">
-    <Item value="Перейти до визначення поля" revision="0" />
-    <Item value="Перейти до визначення поля" revision="0" />
+    <Item value="Перейти до визначення поля" revision="1" />
+    <Item value="Перейти до визначення поля" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerGotoValueDef">
-    <Item />
-    <Item />
+    <Item value="Перехід за значенням" revision="1" />
+    <Item value="Перехід за адресою у поточному осередку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
-    <Item value="Копіювати повне ім'я" revision="0" />
-    <Item value="Копіювати повне ім'я" revision="0" />
+    <Item value="Копіювати повне ім'я" revision="1" />
+    <Item value="Копіювати повне ім'я" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyValue">
-    <Item value="Копіювати значення" revision="0" />
-    <Item value="Копіювати значення" revision="0" />
+    <Item value="Копіювати значення" revision="1" />
+    <Item value="Копіювати значення" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyLine">
-    <Item value="Копіювати рядок" revision="0" />
-    <Item value="Копіювати рядок" revision="0" />
+    <Item value="Копіювати рядок" revision="1" />
+    <Item value="Копіювати рядок" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyAll">
-    <Item value="Копіювати все" revision="0" />
-    <Item value="Копіювати все" revision="0" />
+    <Item value="Копіювати все" revision="1" />
+    <Item value="Копіювати все" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCopyColumn">
-    <Item value="Копіювати колонку" revision="0" />
-    <Item value="Копіювати колонку" revision="0" />
+    <Item value="Копіювати колонку" revision="1" />
+    <Item value="Копіювати колонку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExportToCSV">
-    <Item value="Експортувати у CSV файл" revision="0" />
-    <Item value="Експортувати у CSV файл" revision="0" />
+    <Item value="Експортувати у CSV файл" revision="1" />
+    <Item value="Експортувати у CSV файл" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExpandAll">
-    <Item value="Розгорнути все" revision="0" />
-    <Item value="Розгорнути все" revision="0" />
+    <Item value="Розгорнути все" revision="1" />
+    <Item value="Розгорнути все" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCollapseAll">
-    <Item value="Згорнути все" revision="0" />
-    <Item value="Згорнути все" revision="0" />
+    <Item value="Згорнути все" revision="1" />
+    <Item value="Згорнути все" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExpandSub">
-    <Item value="Розгорнути піддерево" revision="0" />
-    <Item value="Розгорнути піддерево" revision="0" />
+    <Item value="Розгорнути піддерево" revision="1" />
+    <Item value="Розгорнути піддерево" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerCollapseSub">
-    <Item value="Згорнути піддерево" revision="0" />
-    <Item value="Згорнути піддерево" revision="0" />
+    <Item value="Згорнути піддерево" revision="1" />
+    <Item value="Згорнути піддерево" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerUnbind">
     <Item value="Відв'язати" revision="0" />
@@ -309,24 +328,24 @@
     <Item value="Типи користувача" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="Новий файл структур" revision="0" />
+    <Item value="Створити порожній файл визначення структур" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewKaitaiFile">
-    <Item />
-    <Item />
+    <Item value="Новий файл Kaitai" revision="0" />
+    <Item value="Створити порожній файл визначень Kaitai" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item />
-    <Item />
+    <Item value="Відкрити файл структур…" revision="0" />
+    <Item value="Відкрити файл визначення структур" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">
-    <Item />
-    <Item />
+    <Item value="Додати поточний файл" revision="0" />
+    <Item value="Додати поточний файл визначення структур до бібліотеки" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Додати файл структур..." revision="0" />
-    <Item value="Додати існуючий файл структур в бібліотеку" revision="0" />
+    <Item value="&amp;Додати файл структур..." revision="1" />
+    <Item value="Додати існуючий файл структур в бібліотеку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="Зберегти &amp;всі структури" revision="0" />
@@ -357,10 +376,10 @@
     <Item value="Відкрити папку з файлами структур" revision="0" />
   </Enumeration>
   <Enumeration key="CsvSeparator">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Розділювач колонок CSV" revision="0" />
+    <Item value="Автоматично" revision="0" />
+    <Item value="Кома" revision="0" />
+    <Item value="Табуляція" revision="0" />
+    <Item value="Крапка з комою" revision="0" />
   </Enumeration>
 </Language>

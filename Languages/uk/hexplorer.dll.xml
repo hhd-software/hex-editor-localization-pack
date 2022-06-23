@@ -5,6 +5,8 @@
   <Message key="Invalid path specified" value="Введено невірний шлях" revision="0" />
   <Message key="ErrorCopyingFolders" value="(помилка при копіюванні папок)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Помилка при копіюванні наступних файлів:" revision="0" />
+  <Message key="Explorer settings" value="Провідник" revision="0" />
+  <Message key="toolbar.Explorer" value="Провідник" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Попередня" revision="0" />
     <Item value="Перехід до попередньої позиції" revision="0" />

@@ -34,12 +34,12 @@
   <Message key="Error writing to the file" value="Помилка при записі у файл" revision="0" />
   <Message key="Error reading from the file" value="Помилка при читанні з файлу" revision="0" />
   <Message key="Select Colors" value="Вибрати кольори" revision="0" />
-  <Message key="PColFilter" value="Файли колірних схем послідовностей (.*pcs)|*.pcs|" revision="0" />
+  <Message key="PColFilter" value="Файли колірних схем послідовностей |*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Поточна схема буде загублена. Продовжити?" revision="0" />
   <Message key="The file has different version" value="Файл має іншу версію" revision="0" />
   <Message key="Clear Coloring Scheme" value="Очистити колірну схему" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="Поточний елемент буде видалено. Продовжити?" revision="0" />
-  <Message key="RuleFmt" value="Правило забарвлення послідовності {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[uПравило забарвлення послідовності {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} с {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} по{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} множинним виділенням{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Ім'я: {name}\r\n\r\nГалуження: {branch}" revision="0" />
   <Message key="NotSupported" value="Функція не підтримується для поточного типу документа." revision="0" />
@@ -111,6 +111,12 @@
   <Message key="Size:" value="Розмір:" revision="0" />
   <Message key="Round edges" value="Округлі кути" revision="0" />
   <Message key="Change Time" value="Зміна часу" revision="0" />
+  <Message key="PatternColoring settings" value="Підсвічування послідовностей" revision="0" />
+  <Message key="toolbar.Attributes" value="Атрибути" revision="0" />
+  <Message key="toolbar.Coloring" value="Забарвлення послідовності" revision="0" />
+  <Message key="toolbar.Statistics" value="Статистика" revision="0" />
+  <Message key="toolbar.History" value="Історія" revision="0" />
+  <Message key="toolbar.History Window" value="Дерево історії" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Видалити історію" revision="0" />
     <Item value="Видалити історію" revision="0" />
@@ -184,8 +190,8 @@
     <Item value="Не показувати пікове значення на графіку" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="#128;Визначати…" revision="0" />
-    <Item value="Визначати послідовність" revision="0" />
+    <Item value="Визначати…" revision="1" />
+    <Item value="Визначати послідовність" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="Згорнути все" revision="0" />

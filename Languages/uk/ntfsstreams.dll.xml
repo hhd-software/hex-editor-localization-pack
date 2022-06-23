@@ -18,7 +18,8 @@
   <Message key="RenameError" value="Помилка при перейменуванні потоку: {text} ({code})" revision="0" />
   <Message key="RenameErrors" value="Виникла помилка при перейменуванні потоку:\r\n{errors}" revision="0" />
   <Message key="SearchString" value="{finished?}Пошук закінчено.{|finished}Пошук потоків…{?finished} {found} потоків знайдено ({files} файлів у {folders} папках перевірено)." revision="0" />
-  <Message key="StreamSize" value="Всього: {size} байтів ({size as text})" revision="0" />
+  <Message key="StreamSize" value="Всього: {size}" revision="1" />
+  <Message key="RenameOperation" value="Перейменування потоку" revision="0" />
   <Message key="Find Streams Folder List" value="Пошук у потоках, список папок" revision="0" />
   <Message key="Enter the path to the folder or press the browse button:" value="Введіть шлях до папки або натисніть кнопку огляду:" revision="0" />
   <Message key="Folder list:" value="Список папок:" revision="0" />
@@ -33,6 +34,7 @@
   <Message key="Exclude:" value="Виключити:" revision="0" />
   <Message key="(regular expression)" value="(регулярний вираз)" revision="0" />
   <Message key="Include sub-folders" value="Включаючи підпапки" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Потоки NTFS" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="&amp;Створити потік…" revision="0" />
     <Item value="Створити новий потік" revision="0" />
@@ -54,8 +56,8 @@
     <Item value="Скасувати поточну операцію з потоками" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item value="Відкрити &amp;батьківський файл" revision="0" />
-    <Item value="Відкрити батьківський файл, тобто файл, що містить цей потік." revision="0" />
+    <Item value="Відкрити &amp;батьківський файл" revision="1" />
+    <Item value="Відкрити батьківський файл, тобто файл, що містить цей потік." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
     <Item value="Знайти потоки…" revision="0" />
@@ -70,9 +72,9 @@
     <Item value="Розмір" revision="0" />
   </Enumeration>
   <Enumeration key="SearchColumnNames">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Файл" revision="0" />
+    <Item value="Потік" revision="0" />
+    <Item value="Розмір" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">
     <Item value="&amp;Потоки NTFS" revision="0" />
