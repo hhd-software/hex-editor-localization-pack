@@ -246,7 +246,7 @@
     <Item value="Вибрати цей блок в документі" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsSelectColumns">
-    <Item value="Вибрати колонки..." revision="0" />
+    <Item value="Вибрати колонки…" revision="0" />
     <Item value="Задати видимі колонки" revision="0" />
   </Enumeration>
   <Enumeration key="AttributesSizes">

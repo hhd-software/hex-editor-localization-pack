@@ -304,11 +304,11 @@
     <Item value="Змінити кольори підсвітки Інспектора Даних" revision="0" />
   </Enumeration>
   <Enumeration key="AddDefinition">
-    <Item value="Додати &amp;новий тип..." revision="0" />
+    <Item value="Додати &amp;новий тип…" revision="0" />
     <Item value="Додати нове визначення типу" revision="0" />
   </Enumeration>
   <Enumeration key="EditDefinition">
-    <Item value="Редагувати визначення..." revision="0" />
+    <Item value="Редагувати визначення…" revision="0" />
     <Item value="Редагувати поточне визначення типу" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveDefinition">
@@ -344,7 +344,7 @@
     <Item value="Додати поточний файл визначення структур до бібліотеки" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;Додати файл структур..." revision="1" />
+    <Item value="&amp;Додати файл структур…" revision="1" />
     <Item value="Додати існуючий файл структур в бібліотеку" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">

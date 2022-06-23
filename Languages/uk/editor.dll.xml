@@ -38,7 +38,7 @@
   <Message key="InvalidColoringScheme" value="Неправильна назва схеми." revision="0" />
   <Message key="OverwriteColoringScheme" value="Вказана схема вже існує. Ви хочете її перезаписати?" revision="0" />
   <Enumeration key="EditReplace">
-    <Item value="Замінити..." revision="0" />
+    <Item value="Замінити…" revision="0" />
     <Item value="Замінити текст" revision="0" />
   </Enumeration>
 </Language>

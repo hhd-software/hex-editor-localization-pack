@@ -238,7 +238,7 @@
   <Message key="The following updates are found:" value="Знайдено наступні оновлення:" revision="0" />
   <Message key="Check for updates" value="Перевірити наявність оновлень" revision="0" />
   <Message key="Start Download" value="Завантажити" revision="0" />
-  <Message key="View Changes…" value="Показати зміни ..." revision="0" />
+  <Message key="View Changes…" value="Показати зміни …" revision="0" />
   <Message key="Discard" value="Відмовитись" revision="0" />
   <Message key="ActionSelection" value="{name} був успішно завантажений. Яку дію виконати?" revision="1" />
   <Message key="CopyError" value="Виникла помилка при копіюванні завантаженого файлу ({code}). Запускається установка з папки за замовчуванням." revision="1" />
