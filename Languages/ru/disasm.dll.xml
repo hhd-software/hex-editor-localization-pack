@@ -95,8 +95,9 @@
   <Message key="Name:" value="Имя:" revision="0" />
   <Message key="Search" value="Найти" revision="0" />
   <Message key="Jump" value="Перейти" revision="0" />
-  <Message key="string" value="строка" revision="0" />
   <Message key="ExportOp" value="Экспорт инструкций…" revision="0" />
+  <Message key="MsilWarning" value="Показывать предупреждение об установке MSIL" revision="0" />
+  <Message key="DownloadNetButton" value="Скачать .NET 2.0 Runtime" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Запустить дизассемблер…" revision="0" />
     <Item value="Разобрать исполняемый файл" revision="0" />
@@ -226,5 +227,9 @@
   <Enumeration key="Availability">
     <Item value="Не доступно" revision="0" />
     <Item value="Доступно" revision="0" />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item value="Предупреждение об установке MSIL" revision="0" />
+    <Item value="Использование этой функции требует установки .NET 2.0. Щелкните по следующей ссылке, чтобы загрузить его:" revision="0" />
   </Enumeration>
 </Language>
