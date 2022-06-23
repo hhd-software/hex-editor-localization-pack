@@ -78,7 +78,7 @@
   <Message key="Data Inspector" value="Інспектор Даних" revision="0" />
   <Message key="Available starting from Standard Edition" value="Доступно починаючи з редакції Standard" revision="0" />
   <Message key="DataInspCompileError" value="Пояснення не додано:" revision="0" />
-  <Message key="CompileErrorFormat" value=" Помилка компіляції в рядку {err_line}" revision="0" />
+  <Message key="CompileErrorFormat" value=" Помилка компіляції в рядку {err_line} " revision="0" />
   <Message key="BindTypeNotFound" value="Не знайдений тип {type}" revision="0" />
   <Message key="EmptyDefinition" value="Визначення відсутнє" revision="0" />
   <Message key="AddInspectType" value="Додати новий тип" revision="0" />
