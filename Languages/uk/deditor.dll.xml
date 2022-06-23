@@ -72,11 +72,11 @@
     <Item value="Доступ" revision="0" />
   </Enumeration>
   <Enumeration key="CopyTo">
-    <Item value="&amp;Копіювати..." revision="0" />
+    <Item value="&amp;Копіювати… revision="0" />
     <Item value="Копіювати файл або папку" revision="0" />
   </Enumeration>
   <Enumeration key="CopyVolume">
-    <Item value="Копіювати &amp;том..." revision="0" />
+    <Item value="Копіювати &amp;том…" revision="0" />
     <Item value="Копіювати увесь зміст тому" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAllFileData">
