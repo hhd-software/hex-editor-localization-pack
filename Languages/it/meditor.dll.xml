@@ -5,8 +5,8 @@
     <Item value="Aprire la definizione dell'identificatore" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingPeekDefinition">
-    <Item value="Visualizza la definizione" revision="0" />
-    <Item value="Definizione dell'identificatore Peek" revision="0" />
+    <Item value="Definizione" revision="0" />
+    <Item value="Definizione dell'identificatore" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFindAllReferences">
     <Item value="Trova Tutti i Riferimenti" revision="0" />
