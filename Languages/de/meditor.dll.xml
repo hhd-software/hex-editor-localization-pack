@@ -6,7 +6,7 @@
   </Enumeration>
   <Enumeration key="ScriptingPeekDefinition">
     <Item value="Peek-Definition" revision="0" />
-    <Item value="Definition des Peek-Kennzeichens" revision="0" />
+    <Item value="Peek-definition" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFindAllReferences">
     <Item value="Alle Referenzen finden" revision="0" />
