@@ -59,7 +59,7 @@
   <Message key="MediaRemoved" value="Hex Editor Neo n'était pas en mesure d'accéder à des documents suivants et a dû les fermer. Vous avez peut être perdu toutes les modifications effectuées à ces documents:\r\n{document list}\r\n\r\nPour éviter toute perte de données dans l'avenir, ne retirer pas de media amovible sans fermer les documents d’abord." revision="1" />
   <Message key="Activate this window" value="Activer cette fenêtre " revision="1" />
   <Message key="Settings" value="Paramètres" revision="1" />
-  <Message key="Search settings" value="Paramètres de recherche" revision="0" />
+  <Message key="Search settings" value="Rechercher dans les paramètres" revision="0" />
   <Message key="ElevationError" value="Impossible d'élévation des privilèges. Message d'Erreur: {error}" revision="1" />
   <Message key="ElevationErrorTitle" value="Erreur d'élévation des privilèges" revision="1" />
   <Message key="This toolbar cannot be deleted." value="Cette barre d'outils ne peut pas être supprimé." revision="1" />
