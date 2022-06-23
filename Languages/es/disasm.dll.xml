@@ -95,8 +95,9 @@
   <Message key="Name:" value="Nombre:" revision="0" />
   <Message key="Search" value="Buscar" revision="0" />
   <Message key="Jump" value="Ir" revision="0" />
-  <Message key="string" value="cadena" revision="0" />
   <Message key="ExportOp" value="Exportación de instrucciones desmontadas…" revision="0" />
+  <Message key="MsilWarning" value="Mostrar la advertencia de instalación de MSIL" revision="0" />
+  <Message key="DownloadNetButton" value="Descargar el tiempo de ejecución de .NET 2.0" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Iniciar el desensamblador…" revision="0" />
     <Item value="Desensamblar un archivo ejecutable" revision="0" />
@@ -226,5 +227,9 @@
   <Enumeration key="Availability">
     <Item value="No disponible" revision="0" />
     <Item value="Disponible" revision="0" />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item value="Aviso de instalación de MSIL" revision="0" />
+    <Item value="El uso de esta función requiere la instalación de .NET 2.0. Haga clic en el siguiente enlace para descargarlo:" revision="0" />
   </Enumeration>
 </Language>
