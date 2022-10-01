@@ -91,7 +91,7 @@
 		<Item text="Value"/>
 	</Enumeration>
 
-	<Enumeration key="DisasmTypes" description="Supported disassemblers" version="1">
+	<Enumeration key="DisasmTypes" description="Supported disassemblers" revision="2">
 		<Item text="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)"/>
 		<Item text="x64"/>
 		<Item text="MSIL (.NET)"/>
