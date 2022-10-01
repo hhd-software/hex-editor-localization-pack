@@ -69,6 +69,8 @@
 	<Message key="Start:" description="Field: Start Offset" />
 	<Message key="End:" description="Field: End Offset" />
 	<Message key="Text:" description="Field: Text" revision="1" value="Annotation text:"/>
+	<Message key="IncorrectInputTitle" description="Error text: Incorrect offset error title" value="Incorrect input" />
+	<Message key="IncorrectInputText" description="Error text: Incorrect offset error text" value="Must be hexadecimal value"/>
 
 	<!-- Settings Page -->
 	<Message key="Annotations Storage Location" description="Group box: Annotations Storage Location"/>
@@ -77,4 +79,10 @@
 	<Message key="File extension suffix:" description="Field: File extension suffix"/>
 	<Message key="Custom Folder:" description="Field: Custom Folder"/>
 	<Message key="Clear annotations cache" description="Button: Clear annotations cache"/>
+
+	<!-- Color scheme -->
+	<Message key="clr.ann_colors" description="Color: Annotations Colors" value="Annotations Colors"/>
+	<Message key="clr.ann_colors.def.fill" description="Color: Annotations background" value="Annotations background" />
+	<Message key="clr.ann_colors.def.stroke" description="Color: Matched region text" value="Annotations outline" />
+	<Message key="clr.ann_colors.def.text" description="Color: Different region background" value="Annotations text" />
 </Definition>
