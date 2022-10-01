@@ -268,7 +268,7 @@
 
 	<Message key="VolumeOpenError" description="Volume opening error" revision="1" value="Error opening volume: {text} ({code})">
 		<Param name="text"/>
-		<Param name="code" format="b016"/>
+		<Param name="code" format="ub016"/>
 	</Message>
 
 	<Message key="EditorInitializationError" description="Error initializing editor window" revision="1" value="Unable to initialize editor window."/>

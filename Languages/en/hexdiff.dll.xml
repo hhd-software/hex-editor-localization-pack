@@ -46,12 +46,6 @@
     <Item text="Difference algorithm"/>
   </Enumeration>
 
-  <Message key="Matched blocks:" description="Matched blocks"/>
-  <Message key="Different blocks:" description="Different blocks"/>
-  <Message key="Not found blocks:" description="Not found blocks"/>
-  <Message key="Inserted blocks:" description="Inserted blocks"/>
-  <Message key="Removed blocks:" description="Removed blocks:"/>
-
   <Enumeration key="Alignment" description="Alignment">
     <Item text="Do not align"/>
     <Item text="Align horizontally"/>
@@ -133,4 +127,17 @@
   <Message key="Swap" description="Button: Swap"/>
 
 	<Message key="toolbar.Compare Files" description="Toolbar: Compare Files" value="Compare Files" />
+
+	<!-- Color scheme -->
+	<Message key="clr.fc_colors" description="Color: File Comparison Colors" value="File Comparison Colors"/>
+	<Message key="clr.fc_colors.matched.fill" description="Color: Matched region background" value="Matched region background" />
+	<Message key="clr.fc_colors.matched.stroke" description="Color: Matched region text" value="Matched region text" />
+	<Message key="clr.fc_colors.different.fill" description="Color: Different region background" value="Different region background" />
+	<Message key="clr.fc_colors.different.stroke" description="Color: Different region text" value="Different region text" />
+	<Message key="clr.fc_colors.notFound.fill" description="Color: Not found region background" value="Not found region background" />
+	<Message key="clr.fc_colors.notFound.stroke" description="Color: Not found region text" value="Not found region text" />
+	<Message key="clr.fc_colors.inserted.fill" description="Color: Inserted region background" value="Inserted region background" />
+	<Message key="clr.fc_colors.inserted.stroke" description="Color: Inserted region text" value="Inserted region text" />
+	<Message key="clr.fc_colors.removed.fill" description="Color: Removed region background" value="Removed region background" />
+	<Message key="clr.fc_colors.removed.stroke" description="Color: Removed region text" value="Removed region text" />
 </Definition>
