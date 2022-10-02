@@ -104,6 +104,12 @@
   <Message key="TypeExists" value="Ya existe un tipo con el mismo nombre." revision="0" />
   <Message key="StructureFileNotFound" value="El archivo {file} no se encontró en la ruta de acceso &quot;{path}&quot;. ¿Quiere eliminarlo de la librería?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Visor de Estructura" revision="0" />
+  <Message key="OpenStructureViewer" value="Mostrar el mensaje &quot;Mostrar el visor de estructura&quot;" revision="0" />
+  <Message key="Open Structure Viewer" value="Abrir el Visor de Estructura" revision="0" />
+  <Message key="Open Online Repository" value="Encuentre más definiciones de estructuras en el repositorio en línea" revision="0" />
+  <Message key="Skip" value="Einstellungen" revision="0" />
+  <Message key="NoDefinitionText" value="Actualmente no hay ninguna definición de estructura disponible para este tipo de archivo. Puede [[[hcrear fácilmente la suya]]] propia y empezar a utilizarla inmediatamente." revision="0" />
+  <Message key="ConfirmResetAll" value="Esto restaurará todos los archivos de definición de estructura enviados, los esquemas predefinidos y las asociaciones de archivos. Es posible que se pierdan algunas o todas las personalizaciones.\n\n¿Estás seguro de que quieres continuar?" revision="0" />
   <Message key="clr.sview_colors" value="Colores del visor de estructuras" revision="0" />
   <Message key="clr.sview_colors.boundData.fill" value="Fondo de los datos ligados" revision="0" />
   <Message key="clr.sview_colors.boundData.stroke" value="Trazo de los datos ligados" revision="0" />
@@ -111,6 +117,11 @@
   <Message key="clr.sview_colors.selectedField.fill" value="Fondo de campo seleccionado" revision="0" />
   <Message key="clr.sview_colors.selectedField.stroke" value="Trazo de campo seleccionado" revision="0" />
   <Message key="clr.sview_colors.selectedField.text" value="Texto del campo seleccionado" revision="0" />
+  <Message key="Structure Definition Library Update" value="Actualizar la biblioteca de definición de estructuras " revision="0" />
+  <Message key="DefLibrary Title Text" value="Se ha encontrado en línea una actualización de la biblioteca de definiciones de Structure Viewer. Puede ver la lista de cambios ocurridos desde la versión que tiene actualmente. Pulse el botón Actualizar para descargar la actualización." revision="0" />
+  <Message key="&amp;Update Now" value="&amp;Actualizar " revision="0" />
+  <Message key="Settings" value="&amp;Ajustes…" revision="0" />
+  <Message key="Online Repository" value="Repositorio online…" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Unir…" revision="0" />
     <Item value="Unir una nueva estructura" revision="0" />
@@ -142,6 +153,10 @@
   <Enumeration key="StructureViewerAutorefresh">
     <Item value="Auto-Actualizar" revision="0" />
     <Item value="Las estructuras serán actualizadas automáticamente si cambian los datos" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="Biblioteca de definiciones online" revision="0" />
+    <Item value="Abrir el repositorio de la biblioteca de definiciones online" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
     <Item value="Repositorio en Línea" revision="0" />
@@ -381,5 +396,9 @@
     <Item value="Coma" revision="0" />
     <Item value="Tabulador" revision="0" />
     <Item value="Punto y Coma" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="Abrir el Visor de Estructura" revision="0" />
+    <Item value="Hex Editor Neo contiene una definición de estructura para este tipo de archivo y ya ha analizado su estructura. ¿Desea abrir una ventana de la herramienta Visor de Estructura para ver los datos analizados?" revision="0" />
   </Enumeration>
 </Language>
