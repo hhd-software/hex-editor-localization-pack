@@ -2,11 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Different" value="Различающиеся" revision="0" />
   <Message key="Not Found" value="Не найденные" revision="0" />
-  <Message key="Matched blocks:" value="Совпадающие блоки:" revision="0" />
-  <Message key="Different blocks:" value="Отличающиеся блоки:" revision="0" />
-  <Message key="Not found blocks:" value="Не найденные блоки:" revision="0" />
-  <Message key="Inserted blocks:" value="Вставленные блоки:" revision="0" />
-  <Message key="Removed blocks:" value="Удаленные блоки:" revision="0" />
   <Message key="IdenticalNotification" value="Сравнение файлов: NTFS потоки в одинаковых файлах" revision="0" />
   <Message key="File Comparison" value="Сравнение файлов" revision="0" />
   <Message key="Error opening both files" value="Ошибка открытия обоих файлов" revision="0" />
@@ -31,6 +26,17 @@
   <Message key="Colors…" value="Цвета…" revision="0" />
   <Message key="Swap" value="Поменять" revision="0" />
   <Message key="toolbar.Compare Files" value="Сравнение файлов" revision="0" />
+  <Message key="clr.fc_colors" value="Цвета сравнения файлов" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="Фон совпадающих" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="Текст совпадающих" revision="0" />
+  <Message key="clr.fc_colors.different.fill" value="Фон отличающихся" revision="0" />
+  <Message key="clr.fc_colors.different.stroke" value="Текст отличающихся" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="Фон не найденных" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="Текст не найденных" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="Фон вставленных" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="Текст вставленных" revision="0" />
+  <Message key="clr.fc_colors.removed.fill" value="Фон удалённых" revision="0" />
+  <Message key="clr.fc_colors.removed.stroke" value="Текст удалённых" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Сравнить заново" revision="0" />
     <Item value="Сравнить файлы заново" revision="0" />
