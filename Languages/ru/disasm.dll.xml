@@ -11,7 +11,7 @@
   <Message key="WrongAddress" value="Вводимый адрес выходит за пределы документа. Введите корректный адрес." revision="0" />
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo не может разобрать файл больше {max size}. {?is too big}Разобрать с {from} по {to} (size = {size})?" revision="0" />
   <Message key="Locked" value="Этот документ сейчас заблокирован. Повторите позже." revision="0" />
-  <Message key="FormatString" value="Все исполняемые|*.exe;*.dll;*.sys;*.ocx|Исполняемые (*.exe)|*.exe|Динамические библиотеки(*.dll)|*.dll|ActiveX библиотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|" revision="0" />
+  <Message key="FormatString" value="Все исполняемые|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Исполняемые (*.exe)|*.exe|Динамические библиотеки (*.dll)|*.dll|ActiveX библиотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|Исполняемый и ссылочный формат|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="Не доступно" revision="0" />
   <Message key="- No section selected -" value="- Ничего не выделено -" revision="0" />
   <Message key="Can not retrieve file name" value="Невозможно получить имя файла" revision="0" />
@@ -147,6 +147,20 @@
     <Item value="SFEQOF" revision="0" />
     <Item value="SFNEOF" revision="0" />
   </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="SymTags">
     <Item value="Функция" revision="0" />
     <Item value="Данные" revision="0" />
@@ -164,9 +178,82 @@
     <Item value="Значение" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmTypes">
-    <Item value="x86 (32-бит, включая FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
-    <Item value="x64" revision="0" />
-    <Item value="MSIL (.NET)" revision="0" />
+    <Item value="x86 (32-бит, включая FPO/MMX/SSE/SSE2/3DNow!)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM (включая Thumb, Thumb-2)" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="Sparc" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (включая MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="DefaultModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
     <Item value="Дизассемблер" revision="0" />
@@ -231,5 +318,9 @@
   <Enumeration key="MsilNotification">
     <Item value="Предупреждение об установке MSIL" revision="0" />
     <Item value="Использование этой функции требует установки .NET 2.0. Щелкните по следующей ссылке, чтобы загрузить его:" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="Строка" revision="0" />
+    <Item value="Строка UNICODE" revision="0" />
   </Enumeration>
 </Language>

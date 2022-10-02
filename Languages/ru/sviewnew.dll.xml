@@ -104,6 +104,12 @@
   <Message key="TypeExists" value="Пользовательский тип с указанным именем уже существует." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не найден в папке &quot;{path}&quot;. Вы хотите удалить его из библиотеки?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Структуры" revision="0" />
+  <Message key="OpenStructureViewer" value="Показ сообщения &quot;Показать модуль Структуры&quot;" revision="0" />
+  <Message key="Open Structure Viewer" value="Открыть &quot;Структуры&quot;" revision="0" />
+  <Message key="Open Online Repository" value="Найти больше определений структур в он-лайн репозитории" revision="0" />
+  <Message key="Skip" value="Пропустить" revision="0" />
+  <Message key="NoDefinitionText" value="Для этого типа файлов пока не существует определения структуры. Вы можете легко [[[hсоздать своё]]] и немедленно начать его использовать." revision="0" />
+  <Message key="ConfirmResetAll" value="Это действие восстановит все определения структур, схемы и привязки по умолчанию. Не сохранённые изменения могут быть потеряны.\n\nВы уверены, что хотите продолжить?" revision="0" />
   <Message key="clr.sview_colors" value="Цвета модуля &quot;Структуры&quot;" revision="0" />
   <Message key="clr.sview_colors.boundData.fill" value="Фон привязанных данных" revision="0" />
   <Message key="clr.sview_colors.boundData.stroke" value="Обводка привязанных данных" revision="0" />
@@ -111,6 +117,11 @@
   <Message key="clr.sview_colors.selectedField.fill" value="Фон выделенного поля" revision="0" />
   <Message key="clr.sview_colors.selectedField.stroke" value="Обводка выделенного поля" revision="0" />
   <Message key="clr.sview_colors.selectedField.text" value="Текст выделенного поля" revision="0" />
+  <Message key="Structure Definition Library Update" value="Обновление библиотеки структур" revision="0" />
+  <Message key="DefLibrary Title Text" value="В Интернете появилось обновление библиотеки определений для модуля &quot;Структуры&quot;. Вы можете просмотреть список изменений, произошедших с вашей текущей версии. Нажмите кнопку Обновить, чтобы загрузить обновление." revision="0" />
+  <Message key="&amp;Update Now" value="&amp;Обновить" revision="0" />
+  <Message key="Settings" value="&amp;Настройки…" revision="0" />
+  <Message key="Online Repository" value="Онлайн-репозиторий…" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Привязать…" revision="0" />
     <Item value="Привязать новую структуру" revision="0" />
@@ -142,6 +153,10 @@
   <Enumeration key="StructureViewerAutorefresh">
     <Item value="Автообновление" revision="0" />
     <Item value="Стукруры будут автоматически перепривязаны в случае изменений данных" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="Онлайн библиотека определений" revision="0" />
+    <Item value="Открыть онлайн библиотеку определений" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
     <Item value="Структуры онлайн…" revision="0" />
@@ -381,5 +396,9 @@
     <Item value="Запятая" revision="0" />
     <Item value="Табуляция" revision="0" />
     <Item value="Точка с запятой" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="Открыть &quot;Структуры&quot;" revision="0" />
+    <Item value="Hex Editor Neo имеет встроенную структуру для этого типа файлов и уже разобрал его данные. Хотите ли вы открыть окно модуля &quot;Структуры&quot; для просмотра разобранных данных?" revision="0" />
   </Enumeration>
 </Language>

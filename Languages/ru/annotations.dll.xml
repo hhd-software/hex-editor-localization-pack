@@ -9,12 +9,18 @@
   <Message key="Start:" value="Начало:" revision="0" />
   <Message key="End:" value="Конец:" revision="0" />
   <Message key="Text:" value="Текст комментария:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
+  <Message key="IncorrectInputText" value="Должно быть шестнадцатеричное значение" revision="0" />
   <Message key="Annotations Storage Location" value="Место хранения заметок" revision="0" />
   <Message key="Auto Select" value="Автовыбор" revision="0" />
   <Message key="NTFS Stream" value="Поток NTFS" revision="0" />
   <Message key="File extension suffix:" value="Суффикс расширения файла:" revision="0" />
   <Message key="Custom Folder:" value="Папка:" revision="0" />
   <Message key="Clear annotations cache" value="Очистить кэш заметок" revision="0" />
+  <Message key="clr.ann_colors" value="Цвета заметок" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Фон заметок" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Обводка заметок" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Текст заметок" revision="0" />
   <Enumeration key="FeatureAnnotations">
     <Item value="Заметки" revision="0" />
     <Item value="Функция &quot;заметки&quot; позволяет вам добавлять заметки к различным частам файла." revision="0" />

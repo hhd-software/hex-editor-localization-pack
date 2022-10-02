@@ -33,6 +33,10 @@
     <Item text="Autorefresh"/>
     <Item text="Structures will be automatically refreshed if data is changed"/>
   </Enumeration>
+	<Enumeration key="StructureViewerOnline" description="Command: Structure Viewer Definition Library Online Repository">
+		<Item text="Online Definition Library"/>
+		<Item text="Open online definition library repository"/>
+	</Enumeration>
   <Enumeration key="StructureViewerOnlineRepository" description="Command: Structure Viewer.Online Repository">
     <Item text="On-line Repository…"/>
     <Item text="Open on-line repository where you can download new structure definition files."/>
@@ -519,6 +523,18 @@
   </Message>
 
 	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
+	<Message key="OpenStructureViewer" description="Notification option: Show &quot;Open Structure Viewer&quot; message" value="Show &quot;Display Structure Viewer&quot; message" />
+	<Enumeration key="ShowSVNotification" description="Notification: Open Structure Viewer message">
+		<Item text="Open Structure Viewer"/>
+		<Item text="Hex Editor Neo contains a structure definition for this file type and has already parsed its structure. Do you want to open a Structure Viewer tool window to see the parsed data?"/>
+	</Enumeration>
+	<Message key="Open Structure Viewer" description="Notification option: Open Structure Viewer" />
+	<Message key="Open Online Repository" description="Notification option: Find more structure definitions in on-line repository" value="Find more structure definitions in on-line repository" />
+	<Message key="Skip" description="Notification option: Skip" />
+
+	<Message key="NoDefinitionText" description="Notification text: No structure definition available for a current file" value="There is currently no structure definition available for this file type. You can easily [[[hcreate your own]]] and start using it immediately." />
+
+	<Message key="ConfirmResetAll" description="Structure Viewer reset confirmation" value="This will restore all shipped structure definition files, predefined schemes and file associations. Some or all customizations may be lost.\n\nAre you sure you want to continue?" />
 
 	<!-- Color scheme -->
 	<Message key="clr.sview_colors" description="Color: Structure Viewer Colors" value="Structure Viewer Colors"/>
@@ -529,4 +545,10 @@
 	<Message key="clr.sview_colors.selectedField.stroke" description="Color: Selected Field Stroke Color" value="Selected field stroke" />
 	<Message key="clr.sview_colors.selectedField.text" description="Color: Selected Field Text Color" value="Selected field text" />
 
+	<!-- Definition Library Update Dialog -->
+	<Message key="Structure Definition Library Update" description="Window title: Structure Definition Library Update" />
+	<Message key="DefLibrary Title Text" description="Structure Definition Library Update title text" value="An update to the Structure Viewer's definition library has been found online. You can view the list of changes occurred since the version you currently have. Press the Update Now button to download update."/>
+	<Message key="&amp;Update Now" description="Button: Update Now" />
+	<Message key="Settings" description="Button: Settings…" value="&amp;Settings…" />
+	<Message key="Online Repository" description="Button: Online Repository" value="Online repository…"></Message>
 </Definition>
