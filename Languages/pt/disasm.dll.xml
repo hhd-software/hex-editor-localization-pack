@@ -2,6 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="Propósito Geral" revision="0" />
   <Message key="Function name" value="Nome da função" revision="0" />
+  <Message key="Little endian" value="Little endian" revision="0" />
+  <Message key="Big endian" value="Big endian" revision="0" />
   <Message key="Headers" value="Cabeçalhos" revision="0" />
   <Message key="InvalidAddress" value="Endereço inválido. Digite o endereço correto." revision="0" />
   <Message key="InvalidLength" value="Comprimento inválido. Digite um comprimento válido." revision="0" />
@@ -73,6 +75,7 @@
   <Message key="Hexadecimal" value="Hexadecimal" revision="0" />
   <Message key="Decimal" value="Decimal" revision="0" />
   <Message key="Symbols…" value="Símbolos…" revision="0" />
+  <Message key="Mode:" value="Modo:" revision="0" />
   <Message key="Find Window" value="Localizar" revision="0" />
   <Message key="Find" value="&amp;Localizar" revision="0" />
   <Message key="Find All" value="Localizar &amp;Tudo" revision="0" />
@@ -148,18 +151,18 @@
     <Item value="SFNEOF" revision="0" />
   </Enumeration>
   <Enumeration key="FlagsX86">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Nested Task" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Resume" revision="0" />
+    <Item value="Interrupt" revision="0" />
+    <Item value="Trap" revision="0" />
+    <Item value="Auxiliary Carry" revision="0" />
   </Enumeration>
   <Enumeration key="SymTags">
     <Item value="Função" revision="0" />
@@ -194,66 +197,62 @@
     <Item value="MOS65XX (incluindo MOS6502)" revision="2" />
     <Item value="RISC-V" revision="2" />
   </Enumeration>
-  <Enumeration key="DefaultModes">
-    <Item />
-    <Item />
-  </Enumeration>
   <Enumeration key="Mos65XModes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="MOS 6502" revision="0" />
+    <Item value="WDC 65c02" revision="0" />
+    <Item value="WDC W65c02" revision="0" />
+    <Item value="WDC 65816, 8-bit m/x" revision="0" />
+    <Item value="WDC 65816, 16-bit m, 8-bit x" revision="0" />
+    <Item value="WDC 65816, 8-bit m, 16-bit x" revision="0" />
+    <Item value="WDC 65816, m/x" revision="0" />
   </Enumeration>
   <Enumeration key="RiscvModes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="RV32G" revision="0" />
+    <Item value="RV64G" revision="0" />
+    <Item value="Compressed Instruction" revision="0" />
   </Enumeration>
   <Enumeration key="68kModes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="M68K 68000" revision="0" />
+    <Item value="M68K 68010" revision="0" />
+    <Item value="M68K 68020" revision="0" />
+    <Item value="M68K 68030" revision="0" />
+    <Item value="M68K 68040" revision="0" />
+    <Item value="M68K 68060" revision="0" />
   </Enumeration>
   <Enumeration key="680kModes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="M680X Hitachi 6301,6303" revision="0" />
+    <Item value="M680X Hitachi 6309" revision="0" />
+    <Item value="M680X Motorola 6800,6802" revision="0" />
+    <Item value="M680X Motorola 6801,6803" revision="0" />
+    <Item value="M680X Motorola/Freescale 6805" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC08" revision="0" />
+    <Item value="M680X Motorola 6809" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC11" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP CPU12" revision="0" />
+    <Item value="M680X Freescale/NXP HCS08" revision="0" />
   </Enumeration>
   <Enumeration key="PowerPcModes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="64-bit" revision="0" />
+    <Item value="Quad Processing eXtensions" revision="0" />
+    <Item value="Signal Processing Engine" revision="0" />
+    <Item value="Book-E" revision="0" />
   </Enumeration>
   <Enumeration key="SparcModes">
-    <Item />
-    <Item />
+    <Item value="Sparc V8" revision="0" />
+    <Item value="Sparc V9" revision="0" />
   </Enumeration>
   <Enumeration key="MipsModes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Mips 32-bit" revision="0" />
+    <Item value="Mips 64-bit" revision="0" />
+    <Item value="MicroMips" revision="0" />
+    <Item value="Mips III" revision="0" />
+    <Item value="Mips32r6" revision="0" />
+    <Item value="Mips II" revision="0" />
   </Enumeration>
   <Enumeration key="ArmModes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Thumb/Thumb-2" revision="0" />
+    <Item value="Cortex-M" revision="0" />
+    <Item value="ARMv8" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
     <Item value="Disassembler" revision="0" />
