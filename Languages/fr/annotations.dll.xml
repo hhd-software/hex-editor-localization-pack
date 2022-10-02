@@ -9,12 +9,18 @@
   <Message key="Start:" value="Démarrer:" revision="0" />
   <Message key="End:" value="Terminer:" revision="0" />
   <Message key="Text:" value="Texte d'annotation:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
+  <Message key="IncorrectInputText" value="Doit être une valeur hexadécimale" revision="0" />
   <Message key="Annotations Storage Location" value="Emplacement du stockage des annotations" revision="0" />
   <Message key="Auto Select" value="Sélection automatique" revision="0" />
   <Message key="NTFS Stream" value="Flux NTFS" revision="0" />
   <Message key="File extension suffix:" value="Suffixe d'extension de fichier:" revision="0" />
   <Message key="Custom Folder:" value="Dossier personnalisé:" revision="0" />
   <Message key="Clear annotations cache" value="Vider le cache des annotations" revision="0" />
+  <Message key="clr.ann_colors" value="Couleurs des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Arrière-plan des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Contour des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Texte des annotations" revision="0" />
   <Enumeration key="FeatureAnnotations">
     <Item value="Annotations" revision="0" />
     <Item value="La fonction Annotations vous permet d'ajouter des annotations à la plage de données." revision="0" />
