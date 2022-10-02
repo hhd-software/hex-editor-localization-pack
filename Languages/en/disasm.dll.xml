@@ -139,7 +139,7 @@
 		<Item text="M68K 68040"/>
 		<Item text="M68K 68060"/>
 	</Enumeration>
-	
+
 	<Enumeration key="680kModes" description="M680k architecture instructions disassembly modes">
 		<Item text="M680X Hitachi 6301,6303"/>
 		<Item text="M680X Hitachi 6309"/>
