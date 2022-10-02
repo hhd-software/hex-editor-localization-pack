@@ -110,10 +110,8 @@
 		<Item text="RISC-V"/>
 	</Enumeration>
 
-	<Enumeration key="DefaultModes" description="Default disassembly modes">
-		<Item text="Little Endian"/>
-		<Item text="Big Endian"/>
-	</Enumeration>
+	<Message key="Little endian" description="Choice: Little endian"/>
+	<Message key="Big endian" description="Choice: Big endian"/>
 
 	<Enumeration key="Mos65XModes" description="MOS 65xx architecture instructions disassembly modes">
 		<Item text="MOS 6502"/>
@@ -344,6 +342,7 @@
 	<Message key="Hexadecimal" description="Choice: Hexadecimal"/>
 	<Message key="Decimal" description="Choice: Decimal"/>
 	<Message key="Symbols…" description="Button: Symbols…"/>
+	<Message key="Mode:" description="Field: Mode"/>
 
 	<!-- Find -->
 	<Message key="Find Window" description="Find window title" value="Find"/>
