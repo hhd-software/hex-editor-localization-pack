@@ -104,6 +104,12 @@
   <Message key="TypeExists" value="Der Typ mit dem selben Namen besteht bereits." revision="0" />
   <Message key="StructureFileNotFound" value="Datei {file} wurde nicht gefunden unter &quot;{path}&quot;. Wollen Sie die Datei aus der Bibliothek löschen?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Struktur Betrachter" revision="0" />
+  <Message key="OpenStructureViewer" value="Meldung &quot;Struktur Betrachter anzeigen&quot; anzeigen" revision="0" />
+  <Message key="Open Structure Viewer" value="Struktur Betrachter öffnen" revision="0" />
+  <Message key="Open Online Repository" value="Weitere Strukturdefinitionen finden Sie im Online-Repository" revision="0" />
+  <Message key="Skip" value="Überspringen" revision="0" />
+  <Message key="NoDefinitionText" value="Derzeit gibt es keine Strukturdefinition für diesen Dateityp. Sie können ganz einfach [[[hIhre eigene]]] erstellen und sie sofort verwenden." revision="0" />
+  <Message key="ConfirmResetAll" value="Dadurch werden alle ausgelieferten Strukturdefinitionsdateien, vordefinierten Schemata und Dateizuordnungen wiederhergestellt. Einige oder alle Anpassungen können dabei verloren gehen.\n\nSind Sie sicher, dass Sie fortfahren möchten?" revision="0" />
   <Message key="clr.sview_colors" value="Struktur Betrachter Farben" revision="0" />
   <Message key="clr.sview_colors.boundData.fill" value="Gebundene Daten Hintergrund" revision="0" />
   <Message key="clr.sview_colors.boundData.stroke" value="Gebundene Daten Strich" revision="0" />
@@ -111,6 +117,11 @@
   <Message key="clr.sview_colors.selectedField.fill" value="Ausgewähltes Feld Hintergrund" revision="0" />
   <Message key="clr.sview_colors.selectedField.stroke" value="Ausgewähltes Feld Strich" revision="0" />
   <Message key="clr.sview_colors.selectedField.text" value="Ausgewähltes Feld Text" revision="0" />
+  <Message key="Structure Definition Library Update" value="Aktualisierung der Strukturdefinitionsbibliothek" revision="0" />
+  <Message key="DefLibrary Title Text" value="Eine Aktualisierung der Definitionsbibliothek des Strukturbetrachters wurde online gefunden. Sie können die Liste der Änderungen anzeigen, die seit der aktuellen Version vorgenommen wurden. Klicken Sie auf die Schaltfläche Aktualisieren, um das Update herunterzuladen." revision="0" />
+  <Message key="&amp;Update Now" value="Jetzt &amp;Aktualisieren" revision="0" />
+  <Message key="Settings" value="&amp;Einstellungen…" revision="0" />
+  <Message key="Online Repository" value="Online-Repositorium…" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Verknüpfen… " revision="0" />
     <Item value="Verknüpft (bzw. verbindet) eine neue Struktur" revision="0" />
@@ -142,6 +153,10 @@
   <Enumeration key="StructureViewerAutorefresh">
     <Item value="Automatische Aktualsierung" revision="0" />
     <Item value="Strukturen werden automatisch aktualisiert, sobald Daten sich ändern" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="Online-Definitionsbibliothek" revision="0" />
+    <Item value="Offenes Online-Repository der Definitionsbibliothek" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
     <Item value="Online Repository…" revision="0" />
@@ -381,5 +396,9 @@
     <Item value="Komma" revision="0" />
     <Item value="Tabulator" revision="0" />
     <Item value="Strichpunkt" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="Struktur Betrachter öffnen" revision="0" />
+    <Item value="Hex Editor Neo enthält eine Strukturdefinition für diesen Dateityp und hat seine Struktur bereits geparst. Möchten Sie ein Strukturbetrachtungsfenster öffnen, um die geparsten Daten zu sehen?" revision="0" />
   </Enumeration>
 </Language>

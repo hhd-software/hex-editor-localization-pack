@@ -9,12 +9,18 @@
   <Message key="Start:" value="Start Offset:" revision="0" />
   <Message key="End:" value="Ende Offset:" revision="0" />
   <Message key="Text:" value="Anmerkungstext:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Falsche Eingabe" revision="0" />
+  <Message key="IncorrectInputText" value="Muss ein hexadezimaler Wert sein" revision="0" />
   <Message key="Annotations Storage Location" value="Anmerkungen Speicherort" revision="0" />
   <Message key="Auto Select" value="Automatische Auswahl" revision="0" />
   <Message key="NTFS Stream" value="NTFS Stream" revision="0" />
   <Message key="File extension suffix:" value="Suffix der Dateierweiterung:" revision="0" />
   <Message key="Custom Folder:" value="Benutzerdefinierte Mappe:" revision="0" />
   <Message key="Clear annotations cache" value="Anmerkungen-Cache löschen" revision="0" />
+  <Message key="clr.ann_colors" value="Anmerkungen Farben" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Anmerkungen Hintergrund" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Umrisslinie der Anmerkungen" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Umrisslinie der Text" revision="0" />
   <Enumeration key="FeatureAnnotations">
     <Item value="Anmerkungen" revision="0" />
     <Item value="Mit der Anmerkungsfunktion können Sie Anmerkungen zu Datenbereichen hinzufügen." revision="0" />

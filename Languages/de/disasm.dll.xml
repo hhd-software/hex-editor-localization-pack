@@ -11,7 +11,7 @@
   <Message key="WrongAddress" value="Eingegebene Adresse ist größer als die Dateigröße. Geben Sie eine richtige Adresse ein." revision="0" />
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo kann keine Dateien disassemblieren die größer sind als {max size}. {?is too big}Disassemblierung starten von {from} bis {to} (size = {size}). Fortfahren?" revision="0" />
   <Message key="Locked" value="Dieses Dokument ist zur Zeit gesperrt. Bitte wiederholen Sie die Operation später." revision="0" />
-  <Message key="FormatString" value="Alle ausführbaren Dateien|*.exe;*.dll;*.sys;*.ocx|Ausführbare Dateien (*.exe)|*.exe|Dynamische Link Bibliotheken (*.dll)|*.dll|ActiveX Bibliotheken(*.ocx)|*.ocx|Treiber(*.sys)|*.sys|" revision="0" />
+  <Message key="FormatString" value="Alle ausführbaren Dateien|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Ausführbare Dateien (*.exe)|*.exe|Dynamische Link Bibliotheken (*.dll)|*.dll|ActiveX Bibliotheken (*.ocx)|*.ocx|Treiber (*.sys)|*.sys|Ausführbares und verknüpfbares Format|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="Nicht Verfügbar" revision="0" />
   <Message key="- No section selected -" value="- Kein Abschnitt ausgewählt -" revision="0" />
   <Message key="Can not retrieve file name" value="Kann Dateinamen nicht abrufen" revision="0" />
@@ -147,6 +147,20 @@
     <Item value="SFEQOF" revision="0" />
     <Item value="SFNEOF" revision="0" />
   </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="SymTags">
     <Item value="Funktion" revision="0" />
     <Item value="Daten" revision="0" />
@@ -164,9 +178,82 @@
     <Item value="Wert" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmTypes">
-    <Item value="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
-    <Item value="x64" revision="0" />
-    <Item value="MSIL (.NET)" revision="0" />
+    <Item value="x86 (32-bit einschließlich FPO/MMX/SSE/SSE2/3DNow!)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM (einschließlich Thumb, Thumb-2)" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="SPARC" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (einschließlich MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="DefaultModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
     <Item value="Disassembler" revision="0" />
@@ -231,5 +318,9 @@
   <Enumeration key="MsilNotification">
     <Item value="MSIL-Installationswarnung" revision="0" />
     <Item value="Für die Nutzung dieser Funktion muss .NET 2.0 installiert sein. Klicken Sie auf den folgenden Link, um es herunterzuladen:" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="Zeichenkette" revision="0" />
+    <Item value="UNICODE Zeichenketter" revision="0" />
   </Enumeration>
 </Language>

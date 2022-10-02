@@ -2,11 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Different" value="Verschieden" revision="0" />
   <Message key="Not Found" value="Nicht gefunden" revision="0" />
-  <Message key="Matched blocks:" value="Übereinstimmende Blöcke:" revision="0" />
-  <Message key="Different blocks:" value="Verschiedene Blöcke:" revision="0" />
-  <Message key="Not found blocks:" value="Nicht gefundene Blöcke:" revision="0" />
-  <Message key="Inserted blocks:" value="Eingefügte Blöcke:" revision="0" />
-  <Message key="Removed blocks:" value="Entfernte Blöcke:" revision="0" />
   <Message key="IdenticalNotification" value="Dateivergleich: NTFS Streams in identischen Dateien" revision="0" />
   <Message key="File Comparison" value="Dateivergleich" revision="0" />
   <Message key="Error opening both files" value="Fehler beim öffnen beider Dateien" revision="0" />
@@ -31,6 +26,17 @@
   <Message key="Colors…" value="Farben…" revision="0" />
   <Message key="Swap" value="Tauschen" revision="0" />
   <Message key="toolbar.Compare Files" value="Vergleiche Dateien" revision="0" />
+  <Message key="clr.fc_colors" value="Dateivergleich Farben" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="&quot;Abgestimmte&quot; Region Hintergrund" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="Text der Region Abgestimmt" revision="0" />
+  <Message key="clr.fc_colors.different.fill" value="Hintergrund der Region Anders" revision="0" />
+  <Message key="clr.fc_colors.different.stroke" value="Text der Region Anders" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="&quot;Nicht gefunden&quot; Region Hintergrund" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="Text der Region &quot;Nicht gefunden&quot;" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="Hintergrund der &quot;eingefügten&quot; Region" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="Text der Region &quot;eingefügt&quot;" revision="0" />
+  <Message key="clr.fc_colors.removed.fill" value="Hintergrund der Region &quot;Entfernt&quot;" revision="0" />
+  <Message key="clr.fc_colors.removed.stroke" value="Text der Region &quot;Entfernt&quot;" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Wiedervergleichen" revision="0" />
     <Item value="Dateien wiedervergleichen" revision="0" />
