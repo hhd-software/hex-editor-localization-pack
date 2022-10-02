@@ -2,11 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Different" value="Diferente" revision="0" />
   <Message key="Not Found" value="Não encontrado" revision="0" />
-  <Message key="Matched blocks:" value="Blocos idênticos:" revision="0" />
-  <Message key="Different blocks:" value="Blocos diferente:" revision="0" />
-  <Message key="Not found blocks:" value="Blocos não encontrados:" revision="0" />
-  <Message key="Inserted blocks:" value="Blocos inseridos:" revision="0" />
-  <Message key="Removed blocks:" value="Blocos removidos:" revision="0" />
   <Message key="IdenticalNotification" value="Comparação de Arquivos: Fluxos NTFS de arquivos idênticos" revision="0" />
   <Message key="File Comparison" value="Comparação de Arquivo" revision="0" />
   <Message key="Error opening both files" value="Erro ao abrir os dois arquivos" revision="0" />
@@ -31,6 +26,17 @@
   <Message key="Colors…" value="Cores…" revision="0" />
   <Message key="Swap" value="Trocar" revision="0" />
   <Message key="toolbar.Compare Files" value="Comparar ficheiros" revision="0" />
+  <Message key="clr.fc_colors" value="Cores de comparação de ficheiros" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="Fundo da região correspondido" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="Texto da região correspondido" revision="0" />
+  <Message key="clr.fc_colors.different.fill" value="Fundo de região diferente" revision="0" />
+  <Message key="clr.fc_colors.different.stroke" value="Texto de região diferente" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="Fundo da região Não encontrado" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="Texto da região Não encontrado" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="Fundo da região inserida" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="Texto da região inserida" revision="0" />
+  <Message key="clr.fc_colors.removed.fill" value="Fundo da região removido" revision="0" />
+  <Message key="clr.fc_colors.removed.stroke" value="Texto da região removido" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Recomparar" revision="0" />
     <Item value="Recomparar arquivos" revision="0" />

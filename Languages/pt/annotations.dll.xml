@@ -9,12 +9,18 @@
   <Message key="Start:" value="Iniciar offset:" revision="0" />
   <Message key="End:" value="Offset final:" revision="0" />
   <Message key="Text:" value="Texto de anotação:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Entrada incorrecta" revision="0" />
+  <Message key="IncorrectInputText" value="Deve ter um valor hexadecimal" revision="0" />
   <Message key="Annotations Storage Location" value="Anotações Local de armazenamento" revision="0" />
   <Message key="Auto Select" value="Selecção automática" revision="0" />
   <Message key="NTFS Stream" value="Fluxo NTFS" revision="0" />
   <Message key="File extension suffix:" value="Sufixo de extensão do ficheiro:" revision="0" />
   <Message key="Custom Folder:" value="Pasta Personalizada:" revision="0" />
   <Message key="Clear annotations cache" value="Cache de anotações claras" revision="0" />
+  <Message key="clr.ann_colors" value="Cores das Anotações " revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Fundo de Anotações" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Contorno de Anotações" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Texto de Anotações" revision="0" />
   <Enumeration key="FeatureAnnotations">
     <Item value="Anotações" revision="0" />
     <Item value="A funcionalidade de anotações permite-lhe adicionar anotações à gama de dados." revision="0" />
