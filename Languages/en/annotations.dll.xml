@@ -83,6 +83,6 @@
 	<!-- Color scheme -->
 	<Message key="clr.ann_colors" description="Color: Annotations Colors" value="Annotations Colors"/>
 	<Message key="clr.ann_colors.def.fill" description="Color: Annotations background" value="Annotations background" />
-	<Message key="clr.ann_colors.def.stroke" description="Color: Matched region text" value="Annotations outline" />
-	<Message key="clr.ann_colors.def.text" description="Color: Different region background" value="Annotations text" />
+	<Message key="clr.ann_colors.def.stroke" description="Color: Annotations outline" value="Annotations outline" />
+	<Message key="clr.ann_colors.def.text" description="Color: Annotations text" value="Annotations text" />
 </Definition>
