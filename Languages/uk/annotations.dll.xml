@@ -9,12 +9,18 @@
   <Message key="Start:" value="Початок:" revision="0" />
   <Message key="End:" value="Кінець:" revision="0" />
   <Message key="Text:" value="Текст нотатки:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Некоректне введення" revision="0" />
+  <Message key="IncorrectInputText" value="Має бути шістнадцятиричне значення" revision="0" />
   <Message key="Annotations Storage Location" value="Місце зберігання нотаток" revision="0" />
   <Message key="Auto Select" value="Автовибір" revision="0" />
   <Message key="NTFS Stream" value="Потік NTFS" revision="0" />
   <Message key="File extension suffix:" value="Суфікс розширення файлу:" revision="0" />
   <Message key="Custom Folder:" value="Папка:" revision="0" />
   <Message key="Clear annotations cache" value="Очистити кеш нотаток" revision="0" />
+  <Message key="clr.ann_colors" value="Кольори нотаток" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Фон нотаток" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Обведення нотаток" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Текст нотаток" revision="0" />
   <Enumeration key="FeatureAnnotations">
     <Item value="Нотатки" revision="0" />
     <Item value="Функція &quot;нотатки&quot; дозволяє додавати нотатки до різних часток файлу." revision="0" />

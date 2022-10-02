@@ -11,7 +11,7 @@
   <Message key="WrongAddress" value="Зазначена адреса більше ніж розмір документа. Введіть коректну адресу." revision="0" />
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo не може дизасемблювати файли більші за {max size}. {?is too big}Дизасемблювання почнеться з {from} по {to} (size = {size}). Продовжити?" revision="0" />
   <Message key="Locked" value="Цей документ зараз заблокований. Повторіть пізніше." revision="0" />
-  <Message key="FormatString" value="Всі виконувані|*.exe;*.dll;*.sys;*.ocx|Виконувані (*.exe)|*.exe|Динамічні бібліотеки(*.dll)|*.dll|ActiveX бібліотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|" revision="0" />
+  <Message key="FormatString" value="Всі виконувані|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Виконувані (*.exe)|*.exe|Динамічні бібліотеки (*.dll)|*.dll|ActiveX бібліотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|Виконуваний і посилальний формат|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="Не доступно" revision="0" />
   <Message key="- No section selected -" value="- Нічого не виділено -" revision="0" />
   <Message key="Can not retrieve file name" value="Неможливо отримати ім'я файлу" revision="0" />
@@ -147,6 +147,20 @@
     <Item value="SFEQOF" revision="0" />
     <Item value="SFNEOF" revision="0" />
   </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="SymTags">
     <Item value="Функція" revision="0" />
     <Item value="Дані" revision="0" />
@@ -164,9 +178,82 @@
     <Item value="Значення" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmTypes">
-    <Item value="x86 (32-бит влючая FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
-    <Item value="x64" revision="0" />
-    <Item value="MSIL (.NET)" revision="0" />
+    <Item value="x86 (32-бит влючая FPO/MMX/SSE/SSE2/3DNow!)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM (влючая Thumb, Thumb-2)" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="Sparc" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (влючая MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="DefaultModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
     <Item value="Дизасемблер" revision="0" />
@@ -231,5 +318,9 @@
   <Enumeration key="MsilNotification">
     <Item value="Попередження про встановлення MSIL" revision="0" />
     <Item value="Для використання цієї функції потрібно встановити .NET 2.0. Натисніть на наступне посилання, щоб завантажити його:" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="Рядок" revision="0" />
+    <Item value="UNICODE Рядок" revision="0" />
   </Enumeration>
 </Language>
