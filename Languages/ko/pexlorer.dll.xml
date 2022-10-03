@@ -10,7 +10,7 @@
   <Message key="ProcessDescription" value="프로세스: {process}, 블럭: {blocks}, 모듈: {modules}" revision="1" />
   <Message key="N/A" value="없음" revision="1" />
   <Message key="Open Process" value="프로세스 열기" revision="1" />
-  <Message key="Set Colors…" value="색상 설정..." revision="1" />
+  <Message key="Set Colors…" value="색상 설정…" revision="1" />
   <Message key="Display decimal values" value="10진수 값 표시" revision="1" />
   <Message key="Logarithmic scale" value="로그 척도" revision="1" />
   <Message key="Start:" value="시작:" revision="1" />

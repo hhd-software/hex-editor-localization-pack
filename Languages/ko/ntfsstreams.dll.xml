@@ -60,7 +60,7 @@
     <Item value="상위 파일, 즉 선택한 스트림이 포함된 파일을 엽니다." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
-    <Item value="스트림 찾기..." revision="0" />
+    <Item value="스트림 찾기…" revision="0" />
     <Item value="선택한 위치에서 대체 데이터 스트림이 있는 모든 파일을 찾습니다." revision="0" />
   </Enumeration>
   <Enumeration key="StreamExitLocate">

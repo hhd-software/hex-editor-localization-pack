@@ -9,9 +9,9 @@
   <Message key="MacroToolbar" value="매크로" revision="0" />
   <Message key="WatchToolbar" value="주시" revision="0" />
   <Message key="ScriptChanged" value="스크립트가 수정되었습니다. 실행을 계속할 수 없습니다. 스크립트 실행을 중지하시겠습니까?" revision="0" />
-  <Message key="Compiling TypeScript" value="TypeScript를 컴파일하는 중...\n" revision="0" />
+  <Message key="Compiling TypeScript" value="TypeScript를 컴파일하는 중…\n" revision="0" />
   <Message key="Started Script" value="스크립트 실행 시작: {name}\n" revision="0" />
-  <Message key="Stopping Script" value="스크립트 실행을 중지하는 중..." revision="0" />
+  <Message key="Stopping Script" value="스크립트 실행을 중지하는 중…" revision="0" />
   <Message key="Stopped Script" value="\n스크립트 실행이 중지되었습니다.\n" revision="0" />
   <Message key="ScrpitRunningClose" value="스크립트가 현재 실행 중입니다. 스크립트 창을 계속 닫으려면 중지하시겠습니까?" revision="0" />
   <Message key="ScriptLoadError" value="파일 불러오는 중 오류 &quot;{file}&quot;: {error} ({code})" revision="1" />

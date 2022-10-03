@@ -116,11 +116,11 @@
     <Item value="선택한 결과를 텍스트 파일로 내보내기" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumConfigure">
-    <Item value="매개 변수..." revision="1" />
+    <Item value="매개 변수…" revision="1" />
     <Item value="알고리즘 매개 변수 구성" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumAddAlgorithm">
-    <Item value="알고리즘 추가..." revision="1" />
+    <Item value="알고리즘 추가…" revision="1" />
     <Item value="새 알고리즘 추가" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumRemoveAlgorithm">
