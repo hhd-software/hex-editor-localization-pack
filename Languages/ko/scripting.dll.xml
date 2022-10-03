@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="스크립팅" revision="0" />
+  <Message key="New Script" value="새 스크립트 {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="디버그 주시" revision="0" />
+  <Message key="CallStackTitle" value="디버그 호출 스택" revision="0" />
+  <Message key="Macros" value="매크로" revision="0" />
+  <Message key="Console" value="콘솔" revision="0" />
+  <Message key="MacroToolbar" value="매크로" revision="0" />
+  <Message key="WatchToolbar" value="주시" revision="0" />
+  <Message key="ScriptChanged" value="스크립트가 수정되었습니다. 실행을 계속할 수 없습니다. 스크립트 실행을 중지하시겠습니까?" revision="0" />
+  <Message key="Compiling TypeScript" value="TypeScript를 컴파일하는 중...\n" revision="0" />
+  <Message key="Started Script" value="스크립트 실행 시작: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="스크립트 실행을 중지하는 중..." revision="0" />
+  <Message key="Stopped Script" value="\n스크립트 실행이 중지되었습니다.\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="스크립트가 현재 실행 중입니다. 스크립트 창을 계속 닫으려면 중지하시겠습니까?" revision="0" />
+  <Message key="ScriptLoadError" value="파일 불러오는 중 오류 &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="선택한 파일을 불러오는 동안 다음 오류가 발생했습니다:\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="파일 저장 오류 &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="현재 스크립트의 변경 내용을 저장하시겠습니까?" revision="0" />
+  <Message key="NewMacroTitle" value="새 매크로" revision="0" />
+  <Message key="EditMacroTitle" value="매크로 편집" revision="0" />
+  <Message key="Macro name:" value="매크로 이름:" revision="0" />
+  <Message key="Macro hot key:" value="매크로 단축키:" revision="0" />
+  <Message key="Edit Macro Script" value="매크로 스크립트 편집" revision="0" />
+  <Message key="MacroDiscardPrompt" value="이렇게 하면 기록된 매크로가 삭제됩니다. 기록된 매크로를 삭제하시겠습니까?" revision="0" />
+  <Message key="MacroNameExists" value="같은 이름의 매크로가 이미 있습니다. 재정의하시겠습니까?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="모든 매크로가 삭제됩니다. 계속하시겠습니까?" revision="0" />
+  <Message key="MacroName" value="매크로: {name}" revision="0" />
+  <Message key="MacroExportFormat" value="매크로 내보내기 파일|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="스크립트 파일" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="기록 시작(&amp;S)" revision="0" />
+    <Item value="매크로 기록 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="기록/재생 중지(&amp;T)" revision="0" />
+    <Item value="매크로 기록 또는 재생 중지" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="재생 시작(&amp;P)" revision="0" />
+    <Item value="매크로 재생 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="매크로 삭제(&amp;D)" revision="0" />
+    <Item value="현재 선택한 매크로 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="모든 매크로 삭제(&amp;A)" revision="0" />
+    <Item value="모든 매크로 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="매크로 편집(&amp;E)" revision="0" />
+    <Item value="선택한 매크로 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="매크로 가져오기(&amp;I)" revision="0" />
+    <Item value="매크로 가져오기" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="매크로 내보내기(&amp;X)" revision="0" />
+    <Item value="매크로 내보내기" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="매크로" revision="0" />
+    <Item value="매크로" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="새 스크립트" revision="0" />
+    <Item value="빈 스크립트 파일 새로 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="스크립트 열기…" revision="0" />
+    <Item value="기존 스크립트 파일 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="스크립트 실행(&amp;R)" revision="0" />
+    <Item value="스크립트 실행 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="스크립트 중지(&amp;S)" revision="0" />
+    <Item value="스크립트 실행 중지" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="디버그 스크립트(&amp;D)" revision="0" />
+    <Item value="스크립트 디버깅 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="중단점 전환" revision="0" />
+    <Item value="실행 중단점을 설정하거나 제거" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="모든 중단점 제거" revision="0" />
+    <Item value="모든 중단점 제거" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="단계" revision="0" />
+    <Item value="호출된 함수의 단계" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="단계 중지" revision="0" />
+    <Item value="호출된 함수를 단계 중지" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="단계 수행" revision="0" />
+    <Item value="호출된 함수를 단계 수행" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="계속" revision="0" />
+    <Item value="실행 계속" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="실행 중단" revision="0" />
+    <Item value="스크립트 실행 중단" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="주시 추가" revision="0" />
+    <Item value="주시 추가" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="주시 제거" revision="0" />
+    <Item value="주시 제거" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="주시 편집" revision="0" />
+    <Item value="주시 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="디버그(&amp;D)" revision="0" />
+    <Item value="디버그 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="매크로" revision="0" />
+    <Item value="단축키" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="이름" revision="0" />
+    <Item value="줄" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="이름" revision="0" />
+    <Item value="값" revision="0" />
+    <Item value="유형" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="스크립팅" revision="1" />
+    <Item value="스크립트 기능을 사용하면 TypeScript로 작성된 스크립트를 사용하여 Hex Editor Neo를 제어할 수 있습니다." revision="1" />
+  </Enumeration>
+</Language>

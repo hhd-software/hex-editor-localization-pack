@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item value="정의로 가기" revision="0" />
+    <Item value="식별자 정의를 엽니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item value="엿보기 정의" revision="0" />
+    <Item value="엿보기 식별자 정의" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item value="모든 참조 찾기" revision="0" />
+    <Item value="식별자의 모든 참조 검색" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item value="기호로 가기..." revision="0" />
+    <Item value="기호 정의로 이동합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item value="모든 발생 변경" revision="0" />
+    <Item value="기호의 모든 발생을 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item value="문서 형식" revision="0" />
+    <Item value="전체 문서 형식" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item value="명령 팔레트" revision="0" />
+    <Item value="편집기 명령 팔레트 열기" revision="0" />
+  </Enumeration>
+</Language>

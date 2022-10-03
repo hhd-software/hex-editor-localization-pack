@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="탐색" revision="0" />
+  <Message key="Offset" value="오프셋" revision="1" />
+  <Message key="SchemeNameCue" value=" 구성표 이름을 여기에 입력" revision="1" />
+  <Message key="Encrypt" value="암호화" revision="1" />
+  <Message key="Decrypt" value="복호화" revision="1" />
+  <Message key="Navigate to Position" value="위치로 이동" revision="1" />
+  <Message key="Add Position" value="위치 추가" revision="1" />
+  <Message key="Editor" value="편집기" revision="1" />
+  <Message key="Printing" value="인쇄" revision="1" />
+  <Message key="AutoDropSelection" value="단일 선택 모드" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="삽입 작업 시 선택 조정" revision="1" />
+  <Message key="DigitGrouping" value="숫자 그룹화" revision="1" />
+  <Message key="ShowCurrentAddress" value="왼쪽에 커서 주소 표시" revision="1" />
+  <Message key="IgnoreColoring" value="색칠 무시" revision="1" />
+  <Message key="StandardHeader" value="표준 머리글" revision="1" />
+  <Message key="StandardFooter" value="표준 바닥글" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="붙여넣기 후 커서 이동" revision="1" />
+  <Message key="FindAllNotification" value="모두 찾기" revision="1" />
+  <Message key="PasteNotification" value="텍스트 붙여넣기" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="잘못된 식입니다. 구문을 확인합니다." revision="1" />
+  <Message key="Connect to" value="연결 위치" revision="1" />
+  <Message key="ConnectToSuccess" value="Windows가 성공적으로 연결되었습니다." revision="1" />
+  <Message key="ConnectToFailure" value="잘못된 창을 선택했습니다. 선택한 창에 연결할 수 없습니다." revision="1" />
+  <Message key="Copying Selection Regions…" value="선택 영역 복사 중..." revision="1" />
+  <Message key="Exporting Selection Regions…" value="선택 영역을 내보내는 중..." revision="1" />
+  <Message key="Open documentation section and continue" value="설명서 섹션을 열고 계속합니다" revision="1" />
+  <Message key="Just continue" value="그냥 계속" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="편집기 불러오는 중" revision="1" />
+  <Message key="Initializing" value="편집기 초기화 중" revision="1" />
+  <Message key="Selection Tool Window" value="선택" revision="1" />
+  <Message key="Output" value="출력" revision="1" />
+  <Message key="Save As" value="다른 이름으로 저장" revision="1" />
+  <Message key="Do you want to override this scheme?" value="이 체계를 재정의하시겠습니까?" revision="1" />
+  <Message key="NoSel" value="선택 없음" revision="1" />
+  <Message key="EncodingNotSupported" value="현재 선택한 인코딩은 운영 체제에서 지원되지 않습니다. 필요한 코드 페이지 파일과 글꼴이 설치되어 있는지 확인합니다." revision="1" />
+  <Message key="NoEncoding" value="선택한 인코딩을 지원하는 데 필요한 구성 요소가 시스템에 없습니다. 다른 인코딩을 선택하십시오." revision="1" />
+  <Message key="Find" value="찾기" revision="1" />
+  <Message key="A pattern was not found." value="패턴을 찾을 수 없습니다." revision="1" />
+  <Message key="RegExpInSel" value="선택 항목 내에서 정규식을 검색할 수 없습니다." revision="1" />
+  <Message key="Find All" value="모두 찾기" revision="1" />
+  <Message key="RegExpBackwards" value="정규식을 거꾸로 검색할 수 없습니다." revision="1" />
+  <Message key="Replace All" value="모두 바꾸기" revision="1" />
+  <Message key="Go to Offset" value="오프셋으로 이동" revision="1" />
+  <Message key="Invalid offset." value="잘못된 오프셋입니다." revision="1" />
+  <Message key="UnsupportedFunction" value="이 기능은 현재 문서 유형에서 지원되지 않습니다." revision="1" />
+  <Message key="Change File Size" value="파일 크기 변경" revision="1" />
+  <Message key="Invalid file size." value="파일 크기가 잘못되었습니다." revision="1" />
+  <Message key="Insert" value="삽입" revision="1" />
+  <Message key="Invalid size." value="크기가 잘못되었습니다." revision="1" />
+  <Message key="NFound" value="개의 항목을 찾았습니다.{|isfound} 패턴을 찾을 수 없습니다.{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n}개의 항목이 발견되어 대체되었습니다.{|isfound} 패턴을 찾을 수 없습니다.{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="선택한 암호화 알고리즘이 지원되지 않습니다." revision="1" />
+  <Message key="Copy" value="복사" revision="1" />
+  <Message key="Export" value="내보내기" revision="1" />
+  <Message key="SelectionFiles" value="선택 파일 (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="텍스트 파일 (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} bits)" revision="1" />
+  <Message key="SetSize" value="16진수: \t{size}\r\n10진수: \t{size:2} ({size as text}){hasfree?}\r\n\r\n파일 디스크 여유 공간: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="정규식 구문 오류: {error}." revision="1" />
+  <Message key="OffsetPane" value="오프셋: {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="크기: {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="선택한 알고리즘을 사용하려면 데이터 크기가 {bytes}바이트의 배수여야 합니다." revision="1" />
+  <Message key="EncryptFailed" value="오류 코드와 함께 암호화/복호화에 실패했습니다 {code}" revision="1" />
+  <Message key="PrintedBy" value="HHD 소프트웨어에서 인쇄 {product}" revision="1" />
+  <Message key="PageNumber" value="페이지 {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="선택 영역을 복사하는 중 오류 발생: {text} ({code})" revision="1" />
+  <Message key="ExportError" value="파일 생성 중 오류 발생: {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="패턴:" revision="1" />
+  <Message key="Replace with:" value="바꿀 대상:" revision="1" />
+  <Message key="Arithmetic Operation" value="산술 연산" revision="1" />
+  <Message key="Operation:" value="연산:" revision="1" />
+  <Message key="Operand type:" value="피연산자 유형:" revision="1" />
+  <Message key="Operand value:" value="피연산자 값:" revision="1" />
+  <Message key="Current cell" value="현재 셀" revision="1" />
+  <Message key="Selection" value="선택" revision="1" />
+  <Message key="Whole file" value="전체 파일" revision="1" />
+  <Message key="Hexadecimal" value="16진수" revision="1" />
+  <Message key="Decimal" value="10진수" revision="1" />
+  <Message key="Modify Bits" value="비트 수정" revision="1" />
+  <Message key="1 Byte:" value="1번 바이트:" revision="2" />
+  <Message key="2 Byte:" value="2번 바이트:" revision="2" />
+  <Message key="3 Byte:" value="3번 바이트:" revision="2" />
+  <Message key="4 Byte:" value="4번 바이트:" revision="2" />
+  <Message key="5 Byte:" value="5번 바이트:" revision="2" />
+  <Message key="6 Byte:" value="6번 바이트:" revision="2" />
+  <Message key="7 Byte:" value="7번 바이트:" revision="2" />
+  <Message key="8 Byte:" value="8번 바이트:" revision="2" />
+  <Message key="Binary representation:" value="이진 표현:" revision="1" />
+  <Message key="Value:" value="값:" revision="1" />
+  <Message key="Hex" value="16진수" revision="1" />
+  <Message key="Octal" value="8진수" revision="1" />
+  <Message key="Set All To Zero" value="모두 0으로 설정" revision="1" />
+  <Message key="Set All To One" value="모두 하나로 설정" revision="1" />
+  <Message key="Invert" value="반전" revision="1" />
+  <Message key="Revert" value="역전" revision="1" />
+  <Message key="Bitwise Operation" value="비트 연산" revision="1" />
+  <Message key="Set Columns" value="열 설정" revision="0" />
+  <Message key="Enter number of columns per row:" value="행 당 열 수 입력:" revision="0" />
+  <Message key="Select the Window to Connect" value="연결할 창 선택" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="아래 아이콘을 클릭하고 연결하려는 창 위로 끌어다 놓은 다음 마우스 버튼을 놓습니다." revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="연결된 창에서 커서 이동이 동기화됩니다." revision="0" />
+  <Message key="Encrypt/Decrypt" value="암호화/복호화" revision="0" />
+  <Message key="Algorithm:" value="알고리즘:" revision="0" />
+  <Message key="Key length:" value="키 길이:" revision="0" />
+  <Message key="bits" value="비트" revision="0" />
+  <Message key="Status:" value="상태:" revision="0" />
+  <Message key="Do not hide password" value="암호 숨기지 않음" revision="0" />
+  <Message key="Password:" value="암호" revision="0" />
+  <Message key="Re-type password:" value="암호 다시 입력:" revision="0" />
+  <Message key="Fill" value="채우기" revision="0" />
+  <Message key="Fill whole file" value="전체 파일 채우기" revision="0" />
+  <Message key="Fill selection" value="선택 항목 채우기" revision="0" />
+  <Message key="Transparent fill" value="투명 채우기" revision="0" />
+  <Message key="Reverse pattern" value="역패턴" revision="0" />
+  <Message key="&amp;Fill" value="채우기(&amp;F)" revision="0" />
+  <Message key="&amp;Find" value="찾기(&amp;F)" revision="0" />
+  <Message key="Find &amp;All" value="모두 찾기(&amp;A)" revision="0" />
+  <Message key="Search whole file" value="전체 파일 검색" revision="0" />
+  <Message key="Search selection" value="검색 선택" revision="0" />
+  <Message key="Search up" value="위로 검색" revision="0" />
+  <Message key="Search down" value="아래로 검색" revision="0" />
+  <Message key="Ignore case" value="대소문자 무시" revision="0" />
+  <Message key="Offset (expressions supported):" value="오프셋 (지원되는 식):" revision="0" />
+  <Message key="Resulting offset:" value="결과 오프셋:" revision="0" />
+  <Message key="Selection:" value="선택:" revision="0" />
+  <Message key="Bookmark:" value="북마크" revision="0" />
+  <Message key="&amp;Absolute offset" value="절대 오프셋(&amp;A)" revision="0" />
+  <Message key="&amp;Relative offset" value="상대 오프셋(&amp;R)" revision="0" />
+  <Message key="&amp;Percent" value="퍼센트(&amp;P)" revision="0" />
+  <Message key="&amp;Insert" value="삽입(&amp;A)" revision="0" />
+  <Message key="Size (expressions supported):" value="크기 (지원되는 식):" revision="0" />
+  <Message key="Layout Page" value="레이아웃" revision="0" />
+  <Message key="Font:" value="글꼴:" revision="0" />
+  <Message key="Size:" value="크기:" revision="0" />
+  <Message key="Density:" value="밀도" revision="0" />
+  <Message key="Line spacing:" value="줄 간격:" revision="0" />
+  <Message key="Visualization elements:" value="시각화 요소:" revision="0" />
+  <Message key="Color:" value="색상:" revision="0" />
+  <Message key="Automatic" value="자동" revision="0" />
+  <Message key="Do not interlace background" value="배경을 교차시키지 않음" revision="0" />
+  <Message key="Draw edit cursor frame" value="편집 커서 프레임 그리기" revision="0" />
+  <Message key="Smart indentation" value="스마트 들여쓰기" revision="0" />
+  <Message key="Antialiased quality (slower)" value="안티에이리어스 품질 (느림)" revision="0" />
+  <Message key="File pattern:" value="파일 패턴:" revision="0" />
+  <Message key="Interlacing:" value="인터레이싱:" revision="0" />
+  <Message key="Layout Schemes" value="레이아웃 구성표" revision="0" />
+  <Message key="&amp;Save As…" value="다른 이름으로 저장(&amp;S)..." revision="0" />
+  <Message key="Load Selection" value="불러오기 선택" revision="0" />
+  <Message key="Loading Mode" value="불러오기 모드" revision="0" />
+  <Message key="New selection" value="새 선택" revision="0" />
+  <Message key="Add to current" value="현재에 더하기" revision="0" />
+  <Message key="Subtract from current" value="현재에서 빼기" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주십시오..." revision="0" />
+  <Message key="0 % done" value="0 % 완료" revision="0" />
+  <Message key="Elapsed time: " value="경과 시간:" revision="0" />
+  <Message key="Remaining time:" value="남은 시간:" revision="0" />
+  <Message key="Speed:" value="속도:" revision="0" />
+  <Message key="Replace" value="바꾸기" revision="0" />
+  <Message key="&amp;Find Next" value="다음 찾기(&amp;F)" revision="0" />
+  <Message key="&amp;Replace" value="바꾸기(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="모두 바꾸기(&amp;A)" revision="0" />
+  <Message key="Reverse Operation" value="역방향 작업" revision="0" />
+  <Message key="Information" value="정보" revision="0" />
+  <Message key="Details" value="세부 사항" revision="0" />
+  <Message key="Select Range" value="범위 선택" revision="0" />
+  <Message key="Offset:" value="오프셋" revision="0" />
+  <Message key="Add" value="더하기" revision="0" />
+  <Message key="Subtract" value="빼기" revision="0" />
+  <Message key="Overlap" value="겹침" revision="0" />
+  <Message key="Specify new file size:" value="새 파일 크기 지정:" revision="0" />
+  <Message key="Resulting file size:" value="결과 파일 크기:" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="수학식을 사용하여 새 파일 크기를 입력할 수 있습니다. 자세한 내용은 도움말을 참조하십시오." revision="0" />
+  <Message key="Shift Operation" value="이동 작업" revision="0" />
+  <Message key="Shift by (bits):" value="이동 기준 (비트):" revision="0" />
+  <Message key="Editor Page" value="편집기" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="여기서 편집기 창의 기본 속성을 선택할 수 있습니다:" revision="0" />
+  <Message key="Display as:" value="표시 방법:" revision="0" />
+  <Message key="Group by:" value="그룹 기준:" revision="0" />
+  <Message key="Columns:" value="열:" revision="0" />
+  <Message key="Byte order:" value="바이트 순서:" revision="0" />
+  <Message key="Encoding:" value="인코딩:" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="열려 있는 각 문서에 대한 편집기 창 설정 자동 저장" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="이 옵션을 선택하면, Hex Editor Neo는 사용자가 구성한 편집기 창 설정을 열려 있는 모든 문서와 연결합니다. 다음에 편집기에서 동일한 문서를 열 때, 편집기 창 설정이 자동으로 로드됩니다." revision="0" />
+  <Message key="Code pane" value="코드 창" revision="0" />
+  <Message key="Text pane" value="텍스트 창" revision="0" />
+  <Message key="Take from current window" value="현재 창에서 가져오기" revision="0" />
+  <Message key="Reset to Default" value="기본값으로 재설정" revision="0" />
+  <Message key="Clear Cache" value="캐시 지우기" revision="0" />
+  <Message key="Layout settings" value="편집기 레이아웃" revision="0" />
+  <Message key="Encoding settings" value="마지막으로 사용한 인코딩" revision="0" />
+  <Message key="ViewSettingsDb settings" value="편집기 기본값" revision="0" />
+  <Message key="All documents" value="모든 문서" revision="0" />
+  <Message key="New Pattern" value="새 패턴" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="새 파일 패턴 정규식 입력:" revision="0" />
+  <Message key="Pattern cue" value=".+\.zip$와 같은 정규식" revision="1" />
+  <Message key="Pattern override prompt" value="이러한 패턴이 이미 있습니다. 재정의하시겠습니까?" revision="0" />
+  <Message key="clr.colors" value="편집기 색상" revision="0" />
+  <Message key="clr.colors.Text" value="텍스트" revision="0" />
+  <Message key="clr.colors.Background" value="배경" revision="0" />
+  <Message key="clr.colors.AddressText" value="주소 영역 텍스트" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="주소 영역 배경" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Ascii 텍스트" revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Ascii 배경" revision="0" />
+  <Message key="clr.colors.Even" value="짝수" revision="0" />
+  <Message key="clr.colors.Odd" value="홀수" revision="0" />
+  <Message key="clr.colors.Empty" value="빈 범위" revision="0" />
+  <Message key="clr.colors.CursorFill" value="커서 채우기" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="커서 스트로크" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="대체 커서 채우기" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="활성 강조 텍스트" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="활성 강조 배경" revision="0" />
+  <Message key="clr.colors.ChangedText" value="변경된 셀 텍스트" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="변경된 셀 배경" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="변경된 셀 외곽선" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="선택 항목 배경" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="선택 항목 윤곽선" revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="활성 필드 밑줄" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="도구 설명 배경" revision="0" />
+  <Message key="clr.colors.TooltipText" value="도구 설명 텍스트" revision="0" />
+  <Message key="toolbar.Selection" value="선택 항목" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="모두 선택(&amp;A)" revision="1" />
+    <Item value="파일의 모든 데이터 선택" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="없음 선택(&amp;N)" revision="1" />
+    <Item value="현재 선택 지우기" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item value="시작으로 가기" revision="0" />
+    <Item value="선택한 블록의 시작 부분으로 이동합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item value="끝으로 가기" revision="0" />
+    <Item value="선택한 블록의 끝으로 이동합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item value="블록 삭제" revision="0" />
+    <Item value="선택한 블록을 선택에서 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item value="선택 항목 지우기" revision="0" />
+    <Item value="모든 선택 블록 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="선택 반전" revision="1" />
+    <Item value="현재 선택 반전" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="수정됨 선택" revision="1" />
+    <Item value="수정된 데이터 선택" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="범위 선택(R)..." revision="1" />
+    <Item value="데이터 범위를 지정하고 현재 선택 항목과 결합합니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="선택 항목 불러오기(&amp;L)" revision="1" />
+    <Item value="새 선택 항목을 불러오거나 현재 선택 항목과 결합" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="선택 항목 저장(&amp;A)" revision="1" />
+    <Item value="현재 선택 항목을 파일에 저장" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="셀 편집(&amp;E)" revision="1" />
+    <Item value="현재 셀 편집" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="삽입 모드(&amp;I)" revision="1" />
+    <Item value="삽입 모드 켜기 또는 끄기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="찾기(&amp;F)..." revision="1" />
+    <Item value="패턴 또는 모든 패턴 발생 찾기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="다음 찾기(&amp;N)" revision="1" />
+    <Item value="다음 패턴 발생 찾기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="이전 찾기(&amp;P)" revision="1" />
+    <Item value="이전 패턴 발생 찾기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="바꾸기(&amp;R)..." revision="1" />
+    <Item value="패턴을 다른 패턴으로 바꾸기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="채우기(&amp;I)" revision="1" />
+    <Item value="바이트 또는 패턴으로 선택 항목 채우기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="삽입(&amp;I)" revision="1" />
+    <Item value="바이트 또는 패턴 삽입" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="오프셋으로 가기(&amp;G)" revision="1" />
+    <Item value="파일의 특정 간격띄우기로 가기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="파일 크기 변경(&amp;S)..." revision="1" />
+    <Item value="파일의 크기 변경" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="파일 삽입(&amp;L)" revision="1" />
+    <Item value="디스크 파일의 내용을 현재 위치에 삽입합니다. 현재 덮어쓰기 모드에 따라 데이터를 넣거나 삽입합니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="인코딩(&amp;E)" revision="1" />
+    <Item value="인코딩" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="연결 대상(&amp;C)..." revision="1" />
+    <Item value="이 창을 다른 창과 연결" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="16진수(&amp;H)" revision="1" />
+    <Item value="16진수 모드" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="10진수(&amp;D)" revision="1" />
+    <Item value="10진수 모드" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="8진수(&amp;O)" revision="1" />
+    <Item value="8진수 모드" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="2진수(&amp;B)" revision="1" />
+    <Item value="2진수 모드" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="부동(&amp;F)" revision="1" />
+    <Item value="단일 정밀 부동소수점수" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="이중(&amp;E)" revision="1" />
+    <Item value="이중 정밀 부동소수점수 " revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="바이트" revision="1" />
+    <Item value="바이트별 그룹" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="단어" revision="1" />
+    <Item value="단어별 그룹" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="이중 단어" revision="1" />
+    <Item value="이중 단어별 그룹" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="사중 단어" revision="1" />
+    <Item value="사중 단어별 그룹" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="텍스트 창(&amp;A)" revision="1" />
+    <Item value="텍스트 표시 또는 숨기기 (ASCII 또는 UNICODE) 창" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="16진수(&amp;H)" revision="1" />
+    <Item value="주소를 16진수로 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="10진수(&amp;D)" revision="1" />
+    <Item value="주소를 10진수로 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="8진수(&amp;8)" revision="1" />
+    <Item value="주소를 8진수로 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="자동(&amp;A)" revision="1" />
+    <Item value="열의 수 자동 계산" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="4열(&amp;4)" revision="1" />
+    <Item value="4열" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="8열(&amp;8)" revision="1" />
+    <Item value="8열" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="16열(&amp;1)" revision="1" />
+    <Item value="16열" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="32열(&amp;3)" revision="1" />
+    <Item value="32열" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="사용자 지정(&amp;C)" revision="1" />
+    <Item value="열의 수 지정" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="리틀-엔디안(&amp;L)" revision="1" />
+    <Item value="리틀-엔디안 인코딩" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="빅-엔디안(&amp;B)" revision="1" />
+    <Item value="빅-엔디안 인코딩" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="바이트 순서 전환" revision="0" />
+    <Item value="바이트 순서 전환" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="암호화(&amp;Y)..." revision="1" />
+    <Item value="문서 데이터 암호화" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="복호화(&amp;P)" revision="1" />
+    <Item value="문서 데이터 암호 해독" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="비트 수정..." revision="1" />
+    <Item value="비트 수정" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="코드 창(&amp;C)" revision="1" />
+    <Item value="코드 창 표시 또는 숨기기" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="단일 선택 모드(&amp;N)" revision="1" />
+    <Item value="단일 선택 모드 켜기 또는 끄기" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="비트 NOT(&amp;N)..." revision="1" />
+    <Item value="비트로 NOT 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="비트 OR(&amp;O)..." revision="1" />
+    <Item value="비트로 OR 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="비트 AND(&amp;A)…" revision="1" />
+    <Item value="비트로 AND 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="비트 XOR(&amp;X)…" revision="1" />
+    <Item value="비트로 XOR 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="부정(&amp;E)..." revision="1" />
+    <Item value="산술 부정 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="더하기&amp;D)…" revision="1" />
+    <Item value="산술 덧셈 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="빼기(&amp;S)" revision="1" />
+    <Item value="산술 뺄셈 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="곱하기(&amp;M)" revision="1" />
+    <Item value="산술 곱셈 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="나누기(&amp;I)…" revision="1" />
+    <Item value="산술 나눗셈 작업 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="나머지(&amp;A)..." revision="1" />
+    <Item value="나머지 산술 연산 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="최소 설정.(&amp;I).." revision="1" />
+    <Item value="최소값 설정 작업 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="최대 설정(&amp;A)" revision="1" />
+    <Item value="최대값 설정 작업 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="논리적 왼쪽 이동(&amp;G)..." revision="1" />
+    <Item value="논리적 왼쪽 시프트 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="논리적 오른쪽 이동(&amp;C)..." revision="1" />
+    <Item value="논리적 오른쪽 시프트 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="산술적 왼쪽 이동(&amp;L)..." revision="1" />
+    <Item value="산술적 왼쪽 시프트 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="산술적 오른쪽 이동(&amp;M)..." revision="1" />
+    <Item value="산술적 오른쪽 시프트 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="왼쪽으로 회전(&amp;T)..." revision="1" />
+    <Item value="왼쪽 시프트 회전 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="오른쪽으로 회전(&amp;H)..." revision="1" />
+    <Item value="오른쪽 시프트 회전 작업을 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="소문자(&amp;L)" revision="1" />
+    <Item value="선택 항목을 소문자를 만듭니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="대문자(&amp;U)" revision="1" />
+    <Item value="선택 항목을 대문자를 만듭니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="대소문자 반전(&amp;I)" revision="1" />
+    <Item value="대소문자 반전 전환" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="역 비트(&amp;R)..." revision="1" />
+    <Item value="비트 역방향 작업 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="바이트 교환..." revision="1" />
+    <Item value="바이트 교환 작업 수행" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="새로 고침 (디스크/메모리)(&amp;R)" revision="1" />
+    <Item value="현재 창 새로 고침 (디스크, 프로세스 및 메모리용)" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="선택 영역 복사" revision="1" />
+    <Item value="선택 영역 목록을 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="선택 영역 내보내기..." revision="1" />
+    <Item value="선택 영역 목록을 파일로 내보냅니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="모두 지우기" revision="1" />
+    <Item value="현재 출력 창의 내용을 지웁니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item value="위치로 이동" revision="0" />
+    <Item value="지정된 간격띄우기로 이동" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item value="위치 추가" revision="0" />
+    <Item value="저장된 위치 목록에 현재 오프셋 추가" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item value="위치 복사" revision="0" />
+    <Item value="현재 오프셋을 클립보드에 복사" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="정반대" revision="1" />
+    <Item value="더하기" revision="1" />
+    <Item value="빼기" revision="1" />
+    <Item value="곱하기" revision="1" />
+    <Item value="나누기" revision="1" />
+    <Item value="나머지" revision="1" />
+    <Item value="최소값 설정" revision="1" />
+    <Item value="최대값 설정" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="바이트" revision="1" />
+    <Item value="단어" revision="1" />
+    <Item value="이중 단어" revision="1" />
+    <Item value="사중 단어" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="비트 NOT" revision="1" />
+    <Item value="비트 OR" revision="1" />
+    <Item value="비트 AND" revision="1" />
+    <Item value="비트 XOR" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="비트 반전" revision="1" />
+    <Item value="바이트 교환" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="논리적 왼쪽" revision="1" />
+    <Item value="논리적 오른쪽" revision="1" />
+    <Item value="산술 왼쪽" revision="1" />
+    <Item value="산술 오른쪽" revision="1" />
+    <Item value="왼쪽 회전" revision="1" />
+    <Item value="오른쪽으로 회전" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="변경 없음" revision="1" />
+    <Item value="선택 항목 바꾸기" revision="1" />
+    <Item value="선택 항목에 추가" revision="1" />
+    <Item value="선택 항목에서 제거" revision="1" />
+    <Item value="선택 반전" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="바이트" revision="1" />
+    <Item value="패턴 발생" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="선택범위 내보내기 유형" revision="1" />
+    <Item value="16진수 사용" revision="1" />
+    <Item value="십진수 사용" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="텍스트 붙여넣기" revision="1" />
+    <Item value="클립보드에서 텍스트를 붙여넣으려고 합니다. 이 작업을 수행하기 전에 포함된 설명서의 해당 섹션을 읽는 것이 좋습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="모두 찾기" revision="1" />
+    <Item value="모두 찾기는 보기가 &quot;16진수 바이트&quot; 또는 &quot;10진수 바이트&quot; 모드일 때만 결과 표시를 지원합니다. 지금 이 모드로 전환하시겠습니까?" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="바이트" revision="1" />
+    <Item value="KB" revision="1" />
+    <Item value="MB" revision="1" />
+    <Item value="GB" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="텍스트 붙여넣기" revision="1" />
+    <Item value="텍스트 붙여넣기 기능을 사용하면 클립보드에서 텍스트를 붙여넣고 10진수 또는 16진수 시퀀스가 포함된 경우 선택적으로 텍스트를 구문 분석할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="OVR" revision="1" />
+    <Item value="INS" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="16진수" revision="1" />
+    <Item value="10진수" revision="1" />
+    <Item value="8진수" revision="1" />
+    <Item value="2진수" revision="1" />
+    <Item value="부동" revision="1" />
+    <Item value="이중" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="선택(&amp;S)" revision="0" />
+    <Item value="선택 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="작업(&amp;O)" revision="0" />
+    <Item value="작업 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="다른 이름으로 표시(&amp;A)" revision="0" />
+    <Item value="셀 번호 유형 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="그룹화 기준" revision="0" />
+    <Item value="셀 그룹화 모드 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="열(&amp;C)" revision="0" />
+    <Item value="열 수 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="바이트 순서(&amp;B)" revision="0" />
+    <Item value="바이트 순서 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="오프셋" revision="2" />
+    <Item value="오프셋 유형 변경" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="오프셋" revision="2" />
+    <Item value="오프셋 유형 변경" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="인코딩" revision="1" />
+    <Item value="인코딩 기능을 사용하면 편집기 창의 텍스트 창의 문자 인코딩을 변경할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="전체 크기" revision="1" />
+    <Item value="조각" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="번호" revision="1" />
+    <Item value="주소" revision="1" />
+    <Item value="길이" revision="1" />
+  </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item value="&quot;단일 선택 모드&quot; 옵션 켜기" revision="2" />
+    <Item value="이렇게 하면 다중 선택이 효과적으로 해제됩니다. 나중에 일반 설정 탭에서 이 옵션을 다시 끌 수 있습니다." revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="다중 선택" revision="1" />
+    <Item value="다중 선택 기능을 사용하면 보기에서 여러 개의 선택된 데이터 블록을 가지고 모든 블록에 편집 명령을 적용할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="모든 발생 항목 찾기" revision="1" />
+    <Item value="모든 발생 항목 찾기 기능은 파일에서 또는 선택 항목 내에서 패턴의 모든 항목을 빠르게 찾아 선택 항목으로 변환합니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="모든 발생 항목 바꾸기" revision="1" />
+    <Item value="모든 발생 항목 바꾸기 기능은 패턴의 모든 발생 항목을 빠르게 찾아 다른 패턴으로 대체합니다. 패턴의 크기가 서로 다를 수 있으며 대상 패턴이 비어 있을 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="선택 항목 저장" revision="1" />
+    <Item value="선택 항목 저장 기능을 사용하여 현재 선택 항목을 파일에 저장할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="선택 항목 불러오기" revision="1" />
+    <Item value="선택 항목 불러오기 기능을 사용하면 파일에서 선택 항목을 로드할 수 있습니다. 로드된 선택 항목은 선택적으로 현재 선택 항목에 추가하거나 이 항목에서 뺄 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="연결 대상" revision="1" />
+    <Item value="연결 대상 기능을 사용하면 두 개의 창을 연결하여 해당 창에서 커서 이동을 바인딩할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="암호화/복호화" revision="1" />
+    <Item value="암호화/암호 해독 기능을 사용하면 설치된 스트림 또는 블록 암호를 사용하여 선택한 데이터를 암호화 (및 암호 해독)할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="데이터 작업" revision="1" />
+    <Item value="데이터 작업 기능을 사용하면 선택한 데이터에 대해 비트별, 산술, 시프트, 대소문자 변경 및 역연산을 수행할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="선택 영역 복사" revision="1" />
+    <Item value="선택 영역 복사 기능을 사용하여 현재 선택 영역의 목록을 클립보드에 복사할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="선택 영역 내보내기" revision="1" />
+    <Item value="선택 영역 내보내기 기능을 사용하여 현재 선택 영역의 목록을 텍스트 파일로 내보낼 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="오류 - 암호화 알고리즘을 선택하지 않았습니다." revision="1" />
+    <Item value="확인" revision="1" />
+    <Item value="입력한 암호가 일치하지 않습니다." revision="1" />
+    <Item value="오류 - 암호가 비어 있습니다." revision="1" />
+    <Item value="오류 - 키 길이는 8의 거듭제곱이어야 합니다." revision="1" />
+    <Item value="오류 - 키 길이가 잘못되었습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="선택" revision="1" />
+    <Item value="커서" revision="1" />
+    <Item value="변경된 텍스트" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item value="없음" revision="0" />
+    <Item value="인터레이스 열" revision="0" />
+    <Item value="인터레이스 행" revision="0" />
+  </Enumeration>
+</Language>

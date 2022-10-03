@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="일반 용도" revision="0" />
+  <Message key="Function name" value="함수명" revision="0" />
+  <Message key="Little endian" value="리틀 에디안" revision="0" />
+  <Message key="Big endian" value="빅 에디안" revision="0" />
+  <Message key="Headers" value="머리글" revision="0" />
+  <Message key="InvalidAddress" value="주소가 잘못되었습니다. 올바른 주소를 입력하십시오." revision="0" />
+  <Message key="InvalidLength" value="길이가 잘못되었습니다. 올바른 길이를 입력하십시오." revision="0" />
+  <Message key="Invalid file name." value="파일 이름이 잘못되었습니다." revision="0" />
+  <Message key="OpenError" value="파일을 열 수 없습니다. &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="잘못된 파일 크기" revision="0" />
+  <Message key="WrongAddress" value="입력한 주소가 문서 크기보다 큽니다. 올바른 주소를 입력하십시오." revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo에서 {max size}보다 큰 파일을 분해할 수 없습니다. {?is too big}{from}에서 {to} (size = {size})로 시작하여 분해합니다. 계속하시겠습니까?" revision="0" />
+  <Message key="Locked" value="이 문서는 현재 잠겨 있습니다. 나중에 작업을 반복하십시오." revision="0" />
+  <Message key="FormatString" value="모든 실행 파일 |*.exe;*.dll;*.sys;*.ocx|실행 파일 (*.exe)|*.exe|다이나믹 링크 라이브러리 (*.dll)|*.dll|ActiveX 라이브러리 (*.ocx)|*.ocx|드라이버 (*.sys)|*.sys|실행 및 연결 가능한 형식|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
+  <Message key="N/A" value="사용할 수 없음" revision="0" />
+  <Message key="- No section selected -" value="- 선택한 섹션 없음 -" revision="0" />
+  <Message key="Can not retrieve file name" value="파일 이름을 검색할 수 없습니다" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="CLR 실행 엔진을 시작할 수 없음" revision="0" />
+  <Message key="Incorrect file format" value="잘못된 파일 형식" revision="0" />
+  <Message key="Error parsing metadata" value="메타데이터 구문 분석 중 오류 발생" revision="0" />
+  <Message key="Can not disassemble method" value="메서드를 분해할 수 없습니다: {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="예외 헤더를 구문 분석할 수 없습니다" revision="0" />
+  <Message key="The document has been changed." value="문서가 변경되었습니다." revision="0" />
+  <Message key="Refresh" value="새로 고침" revision="0" />
+  <Message key="Go" value="가기" revision="0" />
+  <Message key="Go To:" value="가기:" revision="0" />
+  <Message key="Text" value="텍스트" revision="0" />
+  <Message key="Disassembler" value="디어셈블러" revision="0" />
+  <Message key="ShowImplicitOperands" value="암시적 피연산자 표시" revision="0" />
+  <Message key="ShowPrefixes" value="접두사 표시" revision="0" />
+  <Message key="ShowDecimalValues" value="10진수 값 표시" revision="0" />
+  <Message key="ShowBytecode" value="원시 코드 표시" revision="0" />
+  <Message key="ParseSymbols" value="기호 구문 분석" revision="0" />
+  <Message key="IntelVisualization" value="AT&amp;T syntax 사용" revision="0" />
+  <Message key="ShowVLines" value="격자선 표시" revision="0" />
+  <Message key="ShowHardcodedOperands" value="&quot;하드 코딩된&quot; 피연산자 표시" revision="0" />
+  <Message key="DisasmError" value="파일 열기 오류" revision="0" />
+  <Message key="DisasmError2" value="파일 분해 중 오류{has error?}: {error}{?has error}" revision="1" />
+  <Message key="OpName" value="코드 분해 중" revision="0" />
+  <Message key="RefreshError" value="분해를 새로 고치는 중 오류가 발생했습니다." revision="0" />
+  <Message key="RefreshErrorSize" value="파일 크기가 변경되었습니다. 분해를 새로 고칠 수 없습니다." revision="0" />
+  <Message key="Unable to write to a file." value="파일에 데이터를 쓰는 동안 오류가 발생했습니다." revision="0" />
+  <Message key="ClipboardError" value="데이터를 복사하는 중 오류가 발생했습니다." revision="0" />
+  <Message key="Searching" value="검색 중" revision="0" />
+  <Message key="NotFound" value="패턴을 찾을 수 없습니다" revision="0" />
+  <Message key="None" value="없음" revision="0" />
+  <Message key="Find what:" value="찾을 대상:" revision="0" />
+  <Message key="InAllColumns" value="--- 모든 열에서" revision="0" />
+  <Message key="Select" value="선택" revision="0" />
+  <Message key="Symbol Format:" value="기호 형식:" revision="0" />
+  <Message key="Loaded Image Name:" value="불러온 이미지 이름:" revision="0" />
+  <Message key="Loaded Pdb Name:" value="불러온 Pdb 이름:" revision="0" />
+  <Message key="Information matched:" value="일치하는 정보:" revision="0" />
+  <Message key="Line numbers:" value="줄 번호:" revision="0" />
+  <Message key="Global symbols:" value="전역 기호:" revision="0" />
+  <Message key="Type information:" value="정보 유형:" revision="0" />
+  <Message key="Source indexing:" value="소스 인덱싱:" revision="0" />
+  <Message key="Public symbols:" value="공용 기호:" revision="0" />
+  <Message key="No symbol found." value="기호를 찾을 수 없습니다." revision="0" />
+  <Message key="Select Columns" value="열 선택" revision="0" />
+  <Message key="Select all" value="모두 선택" revision="0" />
+  <Message key="Export to:" value="내보낼 위치:" revision="0" />
+  <Message key="Export headers" value="헤더 내보내기" revision="0" />
+  <Message key="File:" value="파일:" revision="0" />
+  <Message key="Instr. set:" value="개요 설정:" revision="0" />
+  <Message key="Section:" value="섹션:" revision="0" />
+  <Message key="Start:" value="시작:" revision="0" />
+  <Message key="Size:" value="크기:" revision="0" />
+  <Message key="File size:" value="파일 크기:" revision="0" />
+  <Message key="Dual view" value="이중 보기" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="16진수 보기와 커서 동기화" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="선택 영역을 16진수 보기로 동기화" revision="0" />
+  <Message key="Hexadecimal" value="16진수" revision="0" />
+  <Message key="Decimal" value="10진수" revision="0" />
+  <Message key="Symbols…" value="기호..." revision="0" />
+  <Message key="Mode:" value="모드:" revision="0" />
+  <Message key="Find Window" value="찾기" revision="0" />
+  <Message key="Find" value="찾기(&amp;F)" revision="0" />
+  <Message key="Find All" value="모두 찾기(&amp;A)" revision="0" />
+  <Message key="Search in:" value="검색 위치:" revision="0" />
+  <Message key="Search up" value="위로 검색" revision="0" />
+  <Message key="Search down" value="아래로 검색" revision="0" />
+  <Message key="Ignore case" value="대소문자 무시" revision="0" />
+  <Message key="Go To" value="가기" revision="0" />
+  <Message key="Raw address" value="원시 주소" revision="0" />
+  <Message key="Virtual address" value="가상 주소" revision="0" />
+  <Message key="Details" value="세부 사항" revision="0" />
+  <Message key="Data:" value="데이터:" revision="0" />
+  <Message key="Length:" value="길이:" revision="0" />
+  <Message key="Lowercase" value="소문자" revision="0" />
+  <Message key="Show symbols" value="기호 표시" revision="0" />
+  <Message key="Symbols" value="기호" revision="0" />
+  <Message key="Source files:" value="원본 파일:" revision="0" />
+  <Message key="Module details:" value="모듈 세부 사항:" revision="0" />
+  <Message key="Address:" value="주소:" revision="0" />
+  <Message key="Name:" value="이름:" revision="0" />
+  <Message key="Search" value="검색" revision="0" />
+  <Message key="Jump" value="이동" revision="0" />
+  <Message key="ExportOp" value="분해된 개요를 내보내는 중..." revision="0" />
+  <Message key="MsilWarning" value="MSIL 설치 경고 표시" revision="0" />
+  <Message key="DownloadNetButton" value="Download .NET 2.0 런타임 다운로드" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="디어셈블러 실행..." revision="0" />
+    <Item value="실행 파일 디어셈블러" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="내보내기..." revision="0" />
+    <Item value="디스어셈블리 내보내기" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="세부 사항..." revision="0" />
+    <Item value="개요 세부 사항 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="열 선택..." revision="0" />
+    <Item value="디어셈블러 열 선택" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="기호..." revision="0" />
+    <Item value="이 문서에 대한 기호를 표시합니다. 선택한 기호로 이동합니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="새로 고침" revision="0" />
+    <Item value="디어셈블리 새로 고침" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="커서 동기화" revision="0" />
+    <Item value="두 보기에서 커서 동기화" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="선택 항목 동기화" revision="0" />
+    <Item value="두 보기에서 선택 항목 동기화" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="운반" revision="0" />
+    <Item value="제로/동일" revision="0" />
+    <Item value="오버 플로" revision="0" />
+    <Item value="방향" revision="0" />
+    <Item value="네거티브" revision="0" />
+    <Item value="페리티" revision="0" />
+    <Item value="또는" revision="0" />
+    <Item value="운반 안 함" revision="0" />
+    <Item value="제로 아님" revision="0" />
+    <Item value="오버 플로 아님" revision="0" />
+    <Item value="방향 아님" revision="0" />
+    <Item value="사인 아님" revision="0" />
+    <Item value="페리티 아님" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item value="캐리" revision="0" />
+    <Item value="0/같음" revision="0" />
+    <Item value="오버플로" revision="0" />
+    <Item value="방향" revision="0" />
+    <Item value="네거티브" revision="0" />
+    <Item value="페리티" revision="0" />
+    <Item value="중첩된 작업" revision="0" />
+    <Item value="방향" revision="0" />
+    <Item value="재개" revision="0" />
+    <Item value="인터럽트" revision="0" />
+    <Item value="트랩" revision="0" />
+    <Item value="보조 캐리" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="함수" revision="0" />
+    <Item value="데이터" revision="0" />
+    <Item value="공용 기호" revision="0" />
+    <Item value="사용자 정의 유형" revision="0" />
+    <Item value="계산" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="클립보드" revision="0" />
+    <Item value="파일" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="필드" revision="0" />
+    <Item value="크기" revision="0" />
+    <Item value="값" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="X86 (FPO/MMX/SSE/SSE2/3DNow!를 포함한 32비트)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM (including Thumb, Thumb-2)" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="Sparc" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (including MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item value="x64" revision="0" />
+    <Item value="WDC 65c02" revision="0" />
+    <Item value="WDC W65c02" revision="0" />
+    <Item value="WDC 65816, 8비트 m/x" revision="0" />
+    <Item value="WDC 65816, 16비트 m, 8비트 x" revision="0" />
+    <Item value="WDC 65816, 8비트 m, 16비트 x" revision="0" />
+    <Item value="WDC 65816, m/x" revision="0" />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item value="RV32G" revision="0" />
+    <Item value="RV64G" revision="0" />
+    <Item value="압축된 명령" revision="0" />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item value="M68K 68000" revision="0" />
+    <Item value="M68K 68010" revision="0" />
+    <Item value="M68K 68020" revision="0" />
+    <Item value="M68K 68030" revision="0" />
+    <Item value="M68K 68040" revision="0" />
+    <Item value="M68K 68060" revision="0" />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item value="M680X Hitachi 6301,6303" revision="0" />
+    <Item value="M680X Hitachi 6309" revision="0" />
+    <Item value="M680X Motorola 6800,6802" revision="0" />
+    <Item value="M680X Motorola 6801,6803" revision="0" />
+    <Item value="M680X Motorola/Freescale 6805" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC08" revision="0" />
+    <Item value="M680X Motorola 6809" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC11" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP CPU12" revision="0" />
+    <Item value="M680X Freescale/NXP HCS08" revision="0" />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item value="64비트" revision="0" />
+    <Item value="쿼드 처리 확장" revision="0" />
+    <Item value="신호 처리 엔진" revision="0" />
+    <Item value="Book-E" revision="0" />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item value="Sparc V8" revision="0" />
+    <Item value="Sparc V9" revision="0" />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item value="Mips 32비트" revision="0" />
+    <Item value="Mips 64비트" revision="0" />
+    <Item value="MicroMips" revision="0" />
+    <Item value="Mips III" revision="0" />
+    <Item value="Mips32r6" revision="0" />
+    <Item value="Mips II" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item value="Thumb/Thumb-2" revision="0" />
+    <Item value="Cortex-M" revision="0" />
+    <Item value="ARMv8" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="디어셈블러" revision="0" />
+    <Item value="디스어셈블러 모듈을 사용하면 파일이나 메모리의 실행 코드를 디스어셈블할 수 있습니다. 여러 명령 집합을 지원하며 기호 파일을 사용할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="개요" revision="0" />
+    <Item value="클래스" revision="0" />
+    <Item value="방식" revision="0" />
+    <Item value="설명" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="원시 주소" revision="0" />
+    <Item value="가상 주소" revision="0" />
+    <Item value="상대 오프셋" revision="0" />
+    <Item value="바이트코드" revision="0" />
+    <Item value="연상 기호" revision="0" />
+    <Item value="피연산자" revision="0" />
+    <Item value="암시적 피연산자" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="플래그 확인됨" revision="0" />
+    <Item value="플래그 수정됨" revision="0" />
+    <Item value="설명" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="주소" revision="0" />
+    <Item value="이름" revision="0" />
+    <Item value="크기" revision="0" />
+    <Item value="기본 유형" revision="0" />
+    <Item value="유형 색인" revision="0" />
+    <Item value="태그" revision="0" />
+    <Item value="플래그" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="방식" revision="0" />
+    <Item value="함수" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="파일 디어셈블" revision="0" />
+    <Item value="실행 파일 분해 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="알 수 없는 형식" revision="0" />
+    <Item value="모듈에 사용할 수 있는 기호가 없음" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="코드보기 (.dbg 파일)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="내보내기" revision="0" />
+    <Item value="연기됨" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="가상" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="거짓" revision="0" />
+    <Item value="참" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="사용 불가능" revision="0" />
+    <Item value="사용 가능" revision="0" />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item value="MSIL 설치 경고" revision="0" />
+    <Item value="이 기능을 사용하려면 .NET 2.0을 설치해야 합니다. 다운로드하려면 다음 링크를 클릭하십시오" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="문자열" revision="0" />
+    <Item value="UNICODE 문자열" revision="0" />
+  </Enumeration>
+</Language>

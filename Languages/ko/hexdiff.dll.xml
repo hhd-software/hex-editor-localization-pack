@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Different" value="Different" revision="0" />
+  <Message key="Not Found" value="찾을 수 없음" revision="0" />
+  <Message key="IdenticalNotification" value="파일 비교: 동일한 파일의 NTFS 스트림" revision="0" />
+  <Message key="File Comparison" value="파일 비교" revision="0" />
+  <Message key="Error opening both files" value="두 파일 모두 여는 중 오류 발생" revision="0" />
+  <Message key="Error opening one of files" value="파일 중 하나를 여는 중 오류 발생" revision="0" />
+  <Message key="Locked" value="긴 작업으로 인해 하나 이상의 문서가 잠겨 있습니다. 작업이 완료될 때까지 기다려 주십시오." revision="0" />
+  <Message key="OpName" value="파일 비교" revision="0" />
+  <Message key="CompareError" value="파일을 비교하는 중 오류가 발생했습니다." revision="0" />
+  <Message key="ConvertError" value="선택 항목을 만드는 동안 오류가 발생했습니다." revision="0" />
+  <Message key="DisplayStreams" value="{file}에 대한 스트림 표시" revision="0" />
+  <Message key="Convert Blocks To Selection" value="블럭을 선택으로 변환" revision="0" />
+  <Message key="Matched blocks" value="일치하는 블록" revision="0" />
+  <Message key="Inserted blocks" value="삽입된 블록" revision="0" />
+  <Message key="Removed blocks" value="제거된 블록" revision="0" />
+  <Message key="Modified blocks" value="수정된 블록" revision="0" />
+  <Message key="Color Selection" value="색상 선택" revision="0" />
+  <Message key="Compare Files" value="파일 비교" revision="0" />
+  <Message key="First file:" value="첫 번째 파일:" revision="0" />
+  <Message key="Second file:" value="두 번째 파일:" revision="0" />
+  <Message key="Comparison method:" value="비교 방법:" revision="0" />
+  <Message key="Align documents:" value="문서 정렬:" revision="0" />
+  <Message key="Synchronize windows" value="창 동기화" revision="0" />
+  <Message key="Colors…" value="색상..." revision="0" />
+  <Message key="Swap" value="교환" revision="0" />
+  <Message key="toolbar.Compare Files" value="파일 비교" revision="0" />
+  <Message key="clr.fc_colors" value="파일 비교 색상" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="일치 영역 배경" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="일치 영역 텍스트" revision="0" />
+  <Message key="clr.fc_colors.different.fill" value="다른 영역 배경" revision="0" />
+  <Message key="clr.fc_colors.different.stroke" value="다른 영역 텍스트" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="영역 배경을 찾을 수 없습니다" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="영역 텍스트를 찾을 수 없습니다" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="삽입된 영역 배경" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="삽입 영역 텍스트" revision="0" />
+  <Message key="clr.fc_colors.removed.fill" value="제거된 영역 배경" revision="0" />
+  <Message key="clr.fc_colors.removed.stroke" value="제거된 영역 텍스트" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="다시 비교" revision="0" />
+    <Item value="파일 다시 비교" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="파일 비교..." revision="0" />
+    <Item value="파일 비교" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="선택으로 변환" revision="0" />
+    <Item value="블럭을 선택으로 변환" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="색칠 사용" revision="0" />
+    <Item value="색칠 사용" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="16진수 값 표시" revision="0" />
+    <Item value="데이터를 10진수 또는 16진수로 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="이전 블록" revision="0" />
+    <Item value="이전 블록으로 가기" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="다음 블록" revision="0" />
+    <Item value="다음 블록으로 가기" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="색상 선택..." revision="0" />
+    <Item value="블록을 강조 표시하는 데 사용되는 색상 선택" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="결합 모드" revision="0" />
+    <Item value="두 파일의 블록을 동시에 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="단순 비교 알고리즘" revision="0" />
+    <Item value="차분 알고리즘" revision="0" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="정렬 안 함" revision="0" />
+    <Item value="수평 정렬" revision="0" />
+    <Item value="수직 정렬" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="보통" revision="0" />
+    <Item value="정밀" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="파일 비교" revision="0" />
+    <Item value="파일은 동일하지만 추가 스트림이 포함되어 있습니다. Hex Editor Neo는 추가 스트림의 내용을 자동으로 비교하지 않습니다. 수동으로 할 수 있습니다. 계속하려면 아래 옵션을 선택하십시오." revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="파일 비교" revision="0" />
+    <Item value="파일이 동일합니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="파일 비교" revision="0" />
+    <Item value="두 이진 파일의 내용 비교" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="파일 비교" revision="0" />
+    <Item value="파일 비교 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="파일 비교" revision="0" />
+    <Item value="파일 비교 기능을 사용하면 두 파일 간의 차이를 찾을 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="일치된" revision="0" />
+    <Item value="수정된" revision="0" />
+    <Item value="삽입된" revision="0" />
+    <Item value="제거된" revision="0" />
+    <Item value="이동된" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="유형" revision="0" />
+    <Item value="오프셋 (원본)" revision="0" />
+    <Item value="오프셋 (대상)" revision="0" />
+    <Item value="크기" revision="0" />
+  </Enumeration>
+</Language>

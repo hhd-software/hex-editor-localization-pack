@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrivilegeNotGained" value="프로세스 목록의 제한된 프로세스 집합" revision="1" />
+  <Message key="RegionInfo" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}" revision="2" />
+  <Message key="Unknown" value="알 수 없음" revision="1" />
+  <Message key="No process selected" value="선택된 프로세스가 없습니다" revision="1" />
+  <Message key="Specify a range using a list of blocks or a list of modules." value="블록 목록 또는 모듈 목록을 사용하여 범위를 지정합니다." revision="1" />
+  <Message key="Either start or end is too big. Please enter correct values." value="시작 또는 끝 중 하나가 너무 큽니다. 올바른 값을 입력하십시오." revision="1" />
+  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="주소별로 정렬할 때만 다중 선택이 허용됩니다. 블록을 정렬하려면 첫 번째 열의 헤더를 클릭하십시오." revision="1" />
+  <Message key="ProcessDescription" value="프로세스: {process}, 블럭: {blocks}, 모듈: {modules}" revision="1" />
+  <Message key="N/A" value="없음" revision="1" />
+  <Message key="Open Process" value="프로세스 열기" revision="1" />
+  <Message key="Set Colors…" value="색상 설정..." revision="1" />
+  <Message key="Display decimal values" value="10진수 값 표시" revision="1" />
+  <Message key="Logarithmic scale" value="로그 척도" revision="1" />
+  <Message key="Start:" value="시작:" revision="1" />
+  <Message key="End:" value="끝:" revision="1" />
+  <Message key="Size:" value="크기:" revision="1" />
+  <Message key="Show All Processes" value="모든 프로세스 표시" revision="1" />
+  <Message key="Refresh" value="새로 고침" revision="1" />
+  <Message key="Color Selection" value="색상 선택" revision="1" />
+  <Message key="No Access/Guard" value="액세스/보호 없음:" revision="1" />
+  <Message key="Read Only/Execute" value="읽기 전용/실행:" revision="1" />
+  <Message key="Read/Write" value="읽기/쓰기:" revision="1" />
+  <Message key="Copy on Write" value="쓰기 시 복사:" revision="1" />
+  <Message key="Free" value="남음:" revision="1" />
+  <Message key="clr.pex_colors" value="&quot;프로세스 열기/프로세스로 이동&quot; 색상" revision="0" />
+  <Message key="clr.pex_colors.NoAccess" value="액세스 금지 영역" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="읽기 전용 영역" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="읽기/쓰기 영역" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="쓰기 영역에 복사" revision="0" />
+  <Message key="clr.pex_colors.Free" value="남은 영역" revision="0" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="프로세스 열기(&amp;R)…" revision="1" />
+    <Item value="읽기 및 쓰기를 위한 프로세스 메모리 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="이동… (프로세스에서)" revision="1" />
+    <Item value="편집된 프로세스 메모리의 지정된 섹션으로 이동" revision="1" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="알 수 없음" revision="1" />
+    <Item value="이미지" revision="1" />
+    <Item value="매핑된" revision="1" />
+    <Item value="사적인" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="알 수 없음" revision="1" />
+    <Item value="커밋된" revision="1" />
+    <Item value="남음" revision="1" />
+    <Item value="예약됨" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="액세스 없음" revision="1" />
+    <Item value="읽기 전용" revision="1" />
+    <Item value="읽기, 쓰기" revision="1" />
+    <Item value="쓰기 시 복사" revision="1" />
+    <Item value="실행" revision="1" />
+    <Item value="실행, 읽기" revision="1" />
+    <Item value="실행, 읽기, 쓰기" revision="1" />
+    <Item value="실행, 쓰기 시 복사" revision="1" />
+    <Item value="보호됨 (감시됨)" revision="1" />
+    <Item value="캐시 없음" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="프로세스 열기" revision="1" />
+    <Item value="프로세스 열기 기능을 사용하면 선택한 프로세스의 메모리 주소 공간을 열어 보고 편집할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="프로세스 열기" revision="1" />
+    <Item value="보기 및 수정을 위한 프로세스 메모리 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="DisplayNotification">
+    <Item value="제한된 개방형 프로세스 기능" revision="1" />
+    <Item value="경고: Hex Editor Neo에는 시스템에서 실행 중인 프로세스에 액세스하는 데 필요한 권한이 없습니다. 컴퓨터에서 실행 중인 프로세스의 작은 하위 집합에만 연결할 수 있습니다. Hex Editor Neo를 관리자 권한이 있는 상위 사용자로 실행하여 프로세스의 메모리 주소 공간을 편집할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tabs">
+    <Item value="블럭" revision="1" />
+    <Item value="모듈" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessColumns">
+    <Item value="ID" revision="1" />
+    <Item value="이름" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="주소" revision="1" />
+    <Item value="크기" revision="1" />
+    <Item value="유형" revision="1" />
+    <Item value="상태" revision="1" />
+    <Item value="플래그" revision="1" />
+    <Item value="모듈" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="이름" revision="1" />
+    <Item value="주소" revision="1" />
+    <Item value="크기" revision="1" />
+  </Enumeration>
+</Language>

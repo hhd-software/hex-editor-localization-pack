@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="다운로더" revision="1" />
+  <Message key="ForegroundDownloading" value="전경 다운로드" revision="1" />
+  <Message key="ProgressString" value="{percent}% 완료" revision="1" />
+  <Message key="Unknown" value="알 수 없음" revision="1" />
+  <Message key="PleaseWait" value="기다려 주십시오..." revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="현재 다운로드 작업이 모두 다시 시작됩니다. 계속하시겠습니까?" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="활성 다운로드 작업을 모두 취소하시겠습니까?" revision="1" />
+  <Message key="Proxy Page" value="프록시" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="&quot;업데이트 확인&quot;에서 사용할 프록시 설정 선택:" revision="0" />
+  <Message key="Autodetect proxy settings" value="프록시 설정 자동 검색" revision="0" />
+  <Message key="Do not use proxy" value="프록시 사용 안 함" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="다음 프록시 (HTTP)를 사용:" revision="0" />
+  <Message key="Settings" value="설정" revision="0" />
+  <Message key="Authentication" value="인증" revision="0" />
+  <Message key="Authentication is not required" value="인증이 필요하지 않습니다" revision="0" />
+  <Message key="Authenticate me as logged on user" value="로그온한 사용자로 인증" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="다음 자격 증명을 사용하여 인증:" revision="0" />
+  <Message key="User name:" value="사용자 이름:" revision="0" />
+  <Message key="Password:" value="암호:" revision="0" />
+  <Message key="Re-type password:" value="암호 다시 입력:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo는 입력한 암호를 로컬 사용자 계정에 안전하게 저장합니다)" revision="0" />
+  <Message key="PasswordMismatch" value="입력한 암호가 일치해야 합니다." revision="0" />
+  <Message key="Downloader settings" value="프록시 설정" revision="0" />
+  <Message key="toolbar.Downloader" value="다운로더" revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="다운로더(&amp;D)" revision="0" />
+    <Item value="다운로더 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="모든 다운로드 작업 취소(&amp;C)" revision="1" />
+    <Item value="모든 다운로드 작업 취소" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="전경 다운로드(&amp;F)" revision="1" />
+    <Item value="다운로드 작업에 사용 가능한 모든 네트워크 대역폭 사용" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="작업" revision="1" />
+    <Item value="상태" revision="1" />
+    <Item value="크기" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="대기 중" revision="1" />
+    <Item value="연결 중..." revision="1" />
+    <Item value="전송 중..." revision="1" />
+    <Item value="일시 중단" revision="1" />
+    <Item value="오류" revision="1" />
+    <Item value="오류. 10초 후에 다시 시도하는 중..." revision="1" />
+    <Item value="전송됨" revision="1" />
+    <Item value="인증됨" revision="1" />
+    <Item value="취소됨" revision="1" />
+  </Enumeration>
+</Language>
