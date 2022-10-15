@@ -30,7 +30,7 @@
   <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
   <Message key="Loading" value="Chargement de l'éditeur" revision="1" />
   <Message key="Initializing" value="Initialisation de l'éditeur" revision="1" />
-  <Message key="Selection Tool Window" value="&amp;Sélection" revision="1" />
+  <Message key="Selection Tool Window" value="Sélection" revision="1" />
   <Message key="Output" value="Sortir" revision="1" />
   <Message key="Save As" value="Enregistrer sous" revision="1" />
   <Message key="Do you want to override this scheme?" value="Voulez-vous remplacer ce schéma?" revision="1" />
@@ -62,7 +62,7 @@
   <Message key="RegExpSyntaxError" value="Erreur de syntaxe dans l'expression régulière: {error}." revision="1" />
   <Message key="OffsetPane" value="Décalage: {offset} ({offset:2})" revision="1" />
   <Message key="SizePane" value="Taille: {size} ({size:2}): {size as text}" revision="1" />
-  <Message key="WrongSize" value="L'algorithme sélectionné nécessite la taille des données est un multiple de {bytes} octets" revision="1" />
+  <Message key="WrongSize" value="L'algorithme sélectionné nécessite que la taille des données soit un multiple de {bytes} octets." revision="1" />
   <Message key="EncryptFailed" value="Chiffrement/Déchiffrement a échoué avec le code d'erreur {code}" revision="1" />
   <Message key="PrintedBy" value="Imprimer par HHD Software {product}" revision="1" />
   <Message key="PageNumber" value="Page {n} / {pages}" revision="1" />
@@ -77,8 +77,8 @@
   <Message key="Current cell" value="Cellule courante" revision="1" />
   <Message key="Selection" value="Sélection" revision="1" />
   <Message key="Whole file" value="Fichier entier" revision="1" />
-  <Message key="Hexadecimal" value="Hexacécimale" revision="1" />
-  <Message key="Decimal" value="Décimale" revision="1" />
+  <Message key="Hexadecimal" value="Hexadécimal" revision="1" />
+  <Message key="Decimal" value="Décimal" revision="1" />
   <Message key="Modify Bits" value="Modifier les Bits:" revision="1" />
   <Message key="1 Byte:" value="1er octet:" revision="2" />
   <Message key="2 Byte:" value="2ème octet" revision="2" />
@@ -90,8 +90,8 @@
   <Message key="8 Byte:" value="8e octet:" revision="2" />
   <Message key="Binary representation:" value="Représentation Binaire:" revision="1" />
   <Message key="Value:" value="Valeur:" revision="1" />
-  <Message key="Hex" value="Hexadécimale" revision="1" />
-  <Message key="Octal" value="Octale" revision="1" />
+  <Message key="Hex" value="Hexadécimal" revision="1" />
+  <Message key="Octal" value="Octal" revision="1" />
   <Message key="Set All To Zero" value="Mettez tous les bits à zéro" revision="1" />
   <Message key="Set All To One" value="Mettez tous les bits à 1" revision="1" />
   <Message key="Invert" value="Inverser" revision="1" />
@@ -148,10 +148,10 @@
   <Message key="Interlacing:" value="Entrelacement:" revision="0" />
   <Message key="Layout Schemes" value="Schémas de mises en page" revision="0" />
   <Message key="&amp;Save As…" value="Enregistrer sous…" revision="0" />
-  <Message key="Load Selection" value="Charger sélection" revision="0" />
+  <Message key="Load Selection" value="Charger la sélection" revision="0" />
   <Message key="Loading Mode" value="Mode: Chargement" revision="0" />
   <Message key="New selection" value="Nouvelle sélection" revision="0" />
-  <Message key="Add to current" value="Ajouter à la sélection courant" revision="0" />
+  <Message key="Add to current" value="Ajouter à la sélection courante" revision="0" />
   <Message key="Subtract from current" value="Soustraire à la sélection courant" revision="0" />
   <Message key="Please wait while the current operation is being performed…" value="Veuillez patienter pendant que l'opération en cours est effectuée…" revision="0" />
   <Message key="0 % done" value="0 % effectuée" revision="0" />
@@ -175,7 +175,7 @@
   <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="Vous pouvez utiliser des expressions mathématiques pour définir la taille du nouveau fichier. Consultez l'Aide pour plus de détails." revision="0" />
   <Message key="Shift Operation" value="Opération de décalage" revision="0" />
   <Message key="Shift by (bits):" value="Décaler par (bits)" revision="0" />
-  <Message key="Editor Page" value="Editeur" revision="0" />
+  <Message key="Editor Page" value="Éditeur" revision="0" />
   <Message key="Here you can select the default properties of the editor window:" value="Vous pouvez sélectionner les propriétés par défaut des fenêtres d'éditions ici:" revision="0" />
   <Message key="Display as:" value="Afficher comme:" revision="0" />
   <Message key="Group by:" value="Grouper par:" revision="0" />
@@ -250,16 +250,16 @@
     <Item value="Inverser la sélection actuelle" revision="1" />
   </Enumeration>
   <Enumeration key="SelectModified">
-    <Item value="Sélectionnez les  modifications" revision="1" />
-    <Item value="Sélectionnez les données modifiées" revision="1" />
+    <Item value="Sélectionner les modifications" revision="1" />
+    <Item value="Sélectionner les données modifiées" revision="1" />
   </Enumeration>
   <Enumeration key="SelectRange">
-    <Item value="Sélectionnez Intervalle…" revision="1" />
-    <Item value="Sélectionnez l'intervalle et fusionner avec la sélection actuelle" revision="1" />
+    <Item value="Sélectionner Intervalle…" revision="1" />
+    <Item value="Sélectionner l'intervalle et fusionner avec la sélection actuelle" revision="1" />
   </Enumeration>
   <Enumeration key="SelectLoad">
-    <Item value="Chargez sélection…" revision="1" />
-    <Item value="Chargez la nouvelle sélection ou le combiner avec une sélection en cours" revision="1" />
+    <Item value="Charger sélection…" revision="1" />
+    <Item value="Charger la nouvelle sélection ou le combiner avec une sélection en cours" revision="1" />
   </Enumeration>
   <Enumeration key="SelectSave">
     <Item value="Enregistrer la sélection…" revision="1" />
@@ -319,14 +319,14 @@
   </Enumeration>
   <Enumeration key="ViewHex">
     <Item value="&amp;Hex" revision="1" />
-    <Item value="Mode Hexadécimale" revision="1" />
+    <Item value="Mode Hexadécimal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item value="&amp;Décimale" revision="1" />
-    <Item value="Mode Décimale" revision="1" />
+    <Item value="&amp;Décimal" revision="1" />
+    <Item value="Mode Décimal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item value="&amp;Octale" revision="1" />
+    <Item value="&amp;Octal" revision="1" />
     <Item value="Mode Octal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewBinary">
@@ -354,7 +354,7 @@
     <Item value="Regrouper par mots doubles" revision="1" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item value="Mots Quad" revision="1" />
+    <Item value="Mots Quads" revision="1" />
     <Item value="Regrouper par mots quads" revision="1" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
@@ -363,15 +363,15 @@
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />
-    <Item value="Afficher adresses en hexadécimale" revision="1" />
+    <Item value="Afficher adresses en hexadécimal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item value="&amp;Décimale" revision="1" />
-    <Item value="Afficher adresses en décimale" revision="1" />
+    <Item value="&amp;Décimal" revision="1" />
+    <Item value="Afficher adresses en décimal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
     <Item value="&amp;Octal" revision="1" />
-    <Item value="Afficher adresses en octets" revision="1" />
+    <Item value="Afficher adresses en octal" revision="1" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
     <Item value="&amp;Auto" revision="1" />
@@ -406,8 +406,8 @@
     <Item value="Encodage Big-Endian" revision="1" />
   </Enumeration>
   <Enumeration key="EndianSwitch">
-    <Item value="Commande octets" revision="0" />
-    <Item value="Ordre d'octet" revision="0" />
+    <Item value="Bascule d'ordre d'octets" revision="0" />
+    <Item value="Basculer l'ordre d'octets" revision="0" />
   </Enumeration>
   <Enumeration key="EditEncrypt">
     <Item value="Chiffrer…" revision="1" />
@@ -438,7 +438,7 @@
     <Item value="Effectuer une opération bit à bit: OR" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseAND">
-    <Item value="Opération bit à bit: And…" revision="1" />
+    <Item value="Opération bit à bit: AND…" revision="1" />
     <Item value="Effectuer une opération bit à bit: AND" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseXOR">
@@ -446,8 +446,8 @@
     <Item value="Effectuer une opération bit à bit: XOR" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticNegation">
-    <Item value="Opération bit à bit: Négation…" revision="1" />
-    <Item value="Effectuer une opération bit à bit: Négation" revision="1" />
+    <Item value="Négation arithmétique…" revision="1" />
+    <Item value="Effectuer une opération de négation arithmétique" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticAddition">
     <Item value="Addition arithmétique…" revision="1" />
@@ -470,16 +470,16 @@
     <Item value="Effectuer une opération de reste arithmétique" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMinimum">
-    <Item value="Fixé M&amp;inimum…" revision="1" />
-    <Item value="Effectuer une opération de fixé le minimum" revision="1" />
+    <Item value="Fixer M&amp;inimum…" revision="1" />
+    <Item value="Effectuer une opération de fixer la valeur minimale" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMaximum">
-    <Item value="Fixé Maximum…" revision="1" />
-    <Item value="Effectuer une opération de fixé le maximum" revision="1" />
+    <Item value="Fixer Maximum…" revision="1" />
+    <Item value="Effectuer une opération de fixer la valeur maximale" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalLeft">
-    <Item value="Décalage à gauge logique…" revision="1" />
-    <Item value="Effectuer une opération de décalage à gauge logique" revision="1" />
+    <Item value="Décalage à gauche logique…" revision="1" />
+    <Item value="Effectuer une opération de décalage à gauche logique" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalRight">
     <Item value="Décalage à droite logique…" revision="1" />
@@ -502,7 +502,7 @@
     <Item value="Effectuer une opération de décalage par rotation à droite bits à bits" revision="1" />
   </Enumeration>
   <Enumeration key="OperationCaseLower">
-    <Item value="&amp;Case miniscule" revision="1" />
+    <Item value="&amp;Minuscules" revision="1" />
     <Item value="Convertir la sélection en minuscules" revision="1" />
   </Enumeration>
   <Enumeration key="OperationCaseUpper">
@@ -566,10 +566,10 @@
     <Item value="Mots Quads" revision="1" />
   </Enumeration>
   <Enumeration key="BitwiseOperations">
-    <Item value="Not (bit à Bit)" revision="1" />
-    <Item value="OR (bit à Bit)" revision="1" />
-    <Item value="AND (bit à Bit)" revision="1" />
-    <Item value="XOR (bit à Bit)" revision="1" />
+    <Item value="NOT (bit à bit)" revision="1" />
+    <Item value="OR (bit à bit)" revision="1" />
+    <Item value="AND (bit à bit)" revision="1" />
+    <Item value="XOR (bit à bit)" revision="1" />
   </Enumeration>
   <Enumeration key="ReverseOperations">
     <Item value="Inverser l'order des Bits" revision="1" />
@@ -587,7 +587,7 @@
     <Item value="Pas de changement" revision="1" />
     <Item value="Remplacer sélection" revision="1" />
     <Item value="Ajouter à la sélection" revision="1" />
-    <Item value="Soustraire à la sélection" revision="1" />
+    <Item value="Soustraire de la sélection" revision="1" />
     <Item value="Inverser la sélection" revision="1" />
   </Enumeration>
   <Enumeration key="InsertTypes">
@@ -595,17 +595,17 @@
     <Item value="occurrences du modèle" revision="1" />
   </Enumeration>
   <Enumeration key="SelExport">
-    <Item value="Exporter l'intervalle sélectionnez comme type" revision="1" />
+    <Item value="Type de l'export de l'intervalle de sélection" revision="1" />
     <Item value="Utiliser des chiffres hexadécimaux" revision="1" />
     <Item value="Utiliser des chiffres décimaux" revision="1" />
   </Enumeration>
   <Enumeration key="PastingTextNotification">
     <Item value="Coller texte" revision="1" />
-    <Item value="Vous êtes sur le point de coller un texte du Presse-papiers. Il est fortement recommandé de lire une section correspondant dans une documentation fournie avant d'effectuer cette opération." revision="1" />
+    <Item value="Vous êtes sur le point de coller un texte du Presse-papiers. Il est FORTEMENT recommandé de lire une section correspondante dans une documentation fournie avant d'effectuer cette opération." revision="1" />
   </Enumeration>
   <Enumeration key="FindAllDispNotification">
-    <Item value="Collage de texte" revision="1" />
-    <Item value="Vous êtes sur le point de coller un texte à partir du Presse-papiers. Il est fortement recommandé de lire la section correspondante dans la documentation livrée avant d'exécuter cette opération." revision="1" />
+    <Item value="Rechercher tout" revision="1" />
+    <Item value="Rechercher tout supporte uniquement l'affichage des résultats quand l'affichage est dans le mode &quot;Octets Héxadécimaux&quot; ou &quot;Octets Décimaux&quot;. Voulez vous basculer vers ce mode maintenant?" revision="1" />
   </Enumeration>
   <Enumeration key="SetSizeOptions">
     <Item value="Octets" revision="1" />
@@ -615,7 +615,7 @@
   </Enumeration>
   <Enumeration key="TextPasteFeature">
     <Item value="Coller texte" revision="1" />
-    <Item value="La fonction &quot;Coller texte&quot; vous permet de coller un texte du Presse-papiers et éventuellement de l'analyser seulement si le texte contient une séquence d'Octets hexadécimal&quot; ou décimal." revision="1" />
+    <Item value="La fonction &quot;Coller texte&quot; vous permet de coller un texte du Presse-papiers et optionellement de l'analyser seulement si le texte contient une séquence de nombres décimaux ou hexadécimaux." revision="1" />
   </Enumeration>
   <Enumeration key="InsModeIndicator">
     <Item value="OVR" revision="1" />
@@ -630,15 +630,15 @@
     <Item value="Double" revision="1" />
   </Enumeration>
   <Enumeration key="MenuSelect">
-    <Item value="&amp;Sélectionnez" revision="0" />
-    <Item value="Sélectionnez le menu" revision="0" />
+    <Item value="&amp;Sélectionner" revision="0" />
+    <Item value="Menu Sélectionner" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOperations">
     <Item value="&amp;Opérations" revision="0" />
     <Item value="Menu des opérations" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
-    <Item value="Afficher &amp; comme" revision="0" />
+    <Item value="Afficher &amp;comme" revision="0" />
     <Item value="Changer le type de numéro de cellules" revision="0" />
   </Enumeration>
   <Enumeration key="MenuGroupBy">
@@ -680,11 +680,11 @@
   </Enumeration>
   <Enumeration key="FeatureMultiSel">
     <Item value="Sélection multiple" revision="1" />
-    <Item value="la fonctionnalité &quot;Sélection multiple&quot; permet à l'affichage du volet d'avoir plusieurs blocs de données sélectionnées et d'appliquer des commandes d'édition sur chacun d'entre elles." revision="1" />
+    <Item value="la fonctionnalité &quot;Sélection multiple&quot; permet à l'affichage du volet d'avoir plusieurs blocs de données sélectionnées et d'appliquer des commandes d'édition sur chacune d'entre elles." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureFindAll">
     <Item value="Rechercher toutes les occurrences" revision="1" />
-    <Item value="La fonctionnalité &quot;Rechercher toutes les occurrences&quot; trouve rapidement toutes les occurrences d'un modèle dans un fichier (ou dans une ou  plusieurs sélection(s)) et les convertit à la sélection courante." revision="1" />
+    <Item value="La fonctionnalité &quot;Rechercher toutes les occurrences&quot; trouve rapidement toutes les occurrences d'un modèle dans un fichier (ou dans une ou plusieurs sélection(s)) et les convertit à la sélection courante." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureReplaceAll">
     <Item value="Remplacer toutes les occurrences" revision="1" />
@@ -704,11 +704,11 @@
   </Enumeration>
   <Enumeration key="FeatureEncrypt/Decrypt">
     <Item value="Chiffrer/Déchiffrer" revision="1" />
-    <Item value="La fonctionnalité &quot;Chiffrer/Déchiffrer&quot; vous permet de crypter (et décrypter) les données sélectionnées, en utilisant n'importe quel des chiffrements de flux ou d'un bloc installés." revision="1" />
+    <Item value="La fonctionnalité &quot;Chiffrer/Déchiffrer&quot; vous permet de crypter (et décrypter) les données sélectionnées, en utilisant n'importe quel des chiffrements de flux ou par bloc installés." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureDataOperations">
-    <Item value="Operations sur des Données" revision="1" />
-    <Item value="La fonctionnalité des &quot;Operations sur des Données&quot; vous permet d'effectuer au niveau du bit, l'arithmétique, le décalage, changements de cases ainsi que les opérations d'inversement sur les données sélectionnées." revision="1" />
+    <Item value="Opérations sur des Données" revision="1" />
+    <Item value="La fonctionnalité des &quot;Opérations sur des Données&quot; vous permet d'effectuer au niveau du bit, l'arithmétique, le décalage, les changements de cases ainsi que les opérations d'inversement sur les données sélectionnées." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureCopySelection">
     <Item value="Copier les zones de sélection" revision="1" />
