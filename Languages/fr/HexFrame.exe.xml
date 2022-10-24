@@ -640,7 +640,7 @@
     <Item value="Fermer le document actif" revision="1" />
   </Enumeration>
   <Enumeration key="FileCloseAll">
-    <Item value="Ferm&amp;ez tout" revision="2" />
+    <Item value="Ferm&amp;er tout" revision="2" />
     <Item value="Fermer tous les documents ouverts" revision="2" />
   </Enumeration>
   <Enumeration key="FileExit">
@@ -873,7 +873,7 @@
   </Enumeration>
   <Enumeration key="Portable mode">
     <Item value="Mode portable" revision="0" />
-    <Item value="Stocker les paramètres d'application dans le fichier HexSet dans le dossier de démarrage." revision="0" />
+    <Item value="Stocker les paramètres d'application dans le fichier portable.hexset7 dans le dossier de démarrage." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
     <Item value="Fichier externe:" revision="0" />

@@ -20,8 +20,8 @@
   <Message key="FindAllNotification" value="Rechercher tout" revision="1" />
   <Message key="PasteNotification" value="Coller texte" revision="1" />
   <Message key="InvalidExpressionSyntax" value="Expression Invalide. Vérifier votre syntaxe" revision="1" />
-  <Message key="Connect to" value="Connecter" revision="1" />
-  <Message key="ConnectToSuccess" value="Les fenêtres ont été connecté avec succès." revision="1" />
+  <Message key="Connect to" value="Connecter à" revision="1" />
+  <Message key="ConnectToSuccess" value="Les fenêtres ont été connectés avec succès." revision="1" />
   <Message key="ConnectToFailure" value="La fenêtre sélectionnée est invalide. Impossible de se connecter à la fenêtre sélectionnée." revision="1" />
   <Message key="Copying Selection Regions…" value="Copie régions de sélection…" revision="1" />
   <Message key="Exporting Selection Regions…" value="Exportation des régions de sélection…" revision="1" />
@@ -92,14 +92,14 @@
   <Message key="Value:" value="Valeur:" revision="1" />
   <Message key="Hex" value="Hexadécimal" revision="1" />
   <Message key="Octal" value="Octal" revision="1" />
-  <Message key="Set All To Zero" value="Mettez tous les bits à zéro" revision="1" />
-  <Message key="Set All To One" value="Mettez tous les bits à 1" revision="1" />
+  <Message key="Set All To Zero" value="Mettre tous les bits à zéro" revision="1" />
+  <Message key="Set All To One" value="Mettre tous les bits à 1" revision="1" />
   <Message key="Invert" value="Inverser" revision="1" />
   <Message key="Revert" value="Rétablir" revision="1" />
   <Message key="Bitwise Operation" value="Opération bit à bit" revision="1" />
-  <Message key="Set Columns" value="Entrez le nombre de colonnes:" revision="0" />
+  <Message key="Set Columns" value="Configurer les colonnes:" revision="0" />
   <Message key="Enter number of columns per row:" value="Entrez le nombre de colonnes par ligne:" revision="0" />
-  <Message key="Select the Window to Connect" value="Sélectionner la fenêtre avec lequel établir une connexion" revision="0" />
+  <Message key="Select the Window to Connect" value="Sélectionner la fenêtre avec laquelle établir une connexion" revision="0" />
   <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Cliquez sur l'icône ci-dessous, faites-le glisser sur la fenêtre que vous voulez connecter et relâchez le bouton de la souris." revision="0" />
   <Message key="Cursor movement is synchornized in connected windows." value="Le mouvement du curseur est synchronisé dans les fenêtres connectés." revision="0" />
   <Message key="Encrypt/Decrypt" value="Chiffrer/Déchiffrer " revision="0" />
@@ -314,8 +314,8 @@
     <Item value="Enodages" revision="1" />
   </Enumeration>
   <Enumeration key="ViewConnect">
-    <Item value="&amp;Connectez à…" revision="1" />
-    <Item value="Connectez cette fenêtre avec un autre" revision="1" />
+    <Item value="&amp;Connecter à…" revision="1" />
+    <Item value="Connecter cette fenêtre avec un autre" revision="1" />
   </Enumeration>
   <Enumeration key="ViewHex">
     <Item value="&amp;Hex" revision="1" />
@@ -700,7 +700,7 @@
   </Enumeration>
   <Enumeration key="FeatureConnectTo">
     <Item value="Connecter à" revision="1" />
-    <Item value="La fonctionnalité &quot;Connecter à&quot; vous permet de connecter deux fenêtres,ainsi que la liaison des mouvements du curseur en eux." revision="1" />
+    <Item value="La fonctionnalité &quot;Connecter à&quot; vous permet de connecter deux fenêtres, ainsi que la liaison des mouvements du curseur en eux." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureEncrypt/Decrypt">
     <Item value="Chiffrer/Déchiffrer" revision="1" />
