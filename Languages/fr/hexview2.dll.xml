@@ -99,7 +99,7 @@
   <Message key="Bitwise Operation" value="Opération bit à bit" revision="1" />
   <Message key="Set Columns" value="Entrez le nombre de colonnes:" revision="0" />
   <Message key="Enter number of columns per row:" value="Entrez le nombre de colonnes par ligne:" revision="0" />
-  <Message key="Select the Window to Connect" value="Sélectionnez la fenêtre avec lequel établir une connexion" revision="0" />
+  <Message key="Select the Window to Connect" value="Sélectionner la fenêtre avec lequel établir une connexion" revision="0" />
   <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Cliquez sur l'icône ci-dessous, faites-le glisser sur la fenêtre que vous voulez connecter et relâchez le bouton de la souris." revision="0" />
   <Message key="Cursor movement is synchornized in connected windows." value="Le mouvement du curseur est synchronisé dans les fenêtres connectés." revision="0" />
   <Message key="Encrypt/Decrypt" value="Chiffrer/Déchiffrer " revision="0" />
@@ -222,8 +222,8 @@
   <Message key="clr.colors.TooltipText" value="Texte de l'info-bulle" revision="0" />
   <Message key="toolbar.Selection" value="Sélection" revision="0" />
   <Enumeration key="SelectAll">
-    <Item value="Sélectionnez tout" revision="1" />
-    <Item value="Sélectionnez toutes les données d'un fichier" revision="1" />
+    <Item value="Sélectionner tout" revision="1" />
+    <Item value="Sélectionner toutes les données d'un fichier" revision="1" />
   </Enumeration>
   <Enumeration key="SelectNone">
     <Item value="Désélectionner tout" revision="1" />
