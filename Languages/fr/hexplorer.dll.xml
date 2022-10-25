@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Explorer 1" value="Explorer 1" revision="0" />
-  <Message key="Explorer 2" value="Explorer 2" revision="0" />
+  <Message key="Explorer 1" value="Explorateur 1" revision="0" />
+  <Message key="Explorer 2" value="Explorateur 2" revision="0" />
   <Message key="Invalid path specified" value="Chemin d'accès spécifié invalide" revision="0" />
   <Message key="ErrorCopyingFolders" value="(erreur de copie de dossiers)" revision="0" />
   <Message key="ErrorCopyingFiles" value="Erreur de copie des fichiers suivants:" revision="0" />
-  <Message key="Explorer settings" value="Explorer" revision="0" />
-  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
+  <Message key="Explorer settings" value="Explorateur" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorateur" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Précédent" revision="0" />
     <Item value="Aller à l'emplacement précédente" revision="0" />
@@ -32,11 +32,11 @@
     <Item value="Activer / désactiver la fenêtre du navigateur" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureExplorer1">
-    <Item value="l'Explorateur intégré" revision="0" />
-    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l' édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
+    <Item value="Explorateur intégré" revision="0" />
+    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l'Édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
   </Enumeration>
   <Enumeration key="FeatureExplorer2">
     <Item value="2 Explorateurs intégrés" revision="0" />
-    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l' édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
+    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l'Édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
   </Enumeration>
 </Language>
