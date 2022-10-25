@@ -74,8 +74,8 @@
     <Item value="Sommes signés-" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
-    <Item value="&amp;Checksum" revision="0" />
-    <Item value="Menu checksum" revision="0" />
+    <Item value="&amp;Somme de contrôle" revision="0" />
+    <Item value="Menu somme de contrôle" revision="0" />
   </Enumeration>
   <Enumeration key="Application range">
     <Item value="Sélection Seulement" revision="1" />
