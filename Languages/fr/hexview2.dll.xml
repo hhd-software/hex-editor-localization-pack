@@ -35,7 +35,7 @@
   <Message key="Save As" value="Enregistrer sous" revision="1" />
   <Message key="Do you want to override this scheme?" value="Voulez-vous remplacer ce schéma?" revision="1" />
   <Message key="NoSel" value="Pas de sélection" revision="1" />
-  <Message key="EncodingNotSupported" value="l'encodage sélectionné n'est pas supporté par votre système d'exploitation. Assurez-vous que les fichiers nécessaires Codepage et les polices sont correctement installés." revision="1" />
+  <Message key="EncodingNotSupported" value="l'Encodage sélectionné n'est pas supporté par votre système d'exploitation. Assurez-vous que les fichiers nécessaires Codepage et les polices sont correctement installés." revision="1" />
   <Message key="NoEncoding" value="Votre système ne dispose pas des éléments nécessaires pour traiter l'encodage choisi. Sélectionnez un autre encodage." revision="1" />
   <Message key="Find" value="Rechercher" revision="1" />
   <Message key="A pattern was not found." value="La recherche n'a rien trouvé" revision="1" />
