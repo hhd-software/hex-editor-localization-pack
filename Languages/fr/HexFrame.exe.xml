@@ -56,16 +56,16 @@
   <Message key="New Document N" value="Nouveau Document {ordinal}" revision="1" />
   <Message key="AlreadyOpened" value="&quot;{path}&quot;: Le document est déjà ouvert dans l'éditeur. \r\ n" revision="1" />
   <Message key="UnknownVolume" value="Volume sans nom {ordinal}" revision="1" />
-  <Message key="MediaRemoved" value="Hex Editor Neo n'était pas en mesure d'accéder à des documents suivants et a dû les fermer. Vous avez peut être perdu toutes les modifications effectuées à ces documents:\r\n{document list}\r\n\r\nPour éviter toute perte de données dans l'avenir, ne retirer pas de media amovible sans fermer les documents d’abord." revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo n'était pas en mesure d'accéder aux documents suivants et a dû les fermer. Vous avez peut être perdu toutes les modifications effectuées à ces documents:\r\n{document list}\r\n\r\nPour éviter toute perte de données dans l'avenir, ne retirez pas de media amovible sans fermer les documents d’abord." revision="1" />
   <Message key="Activate this window" value="Activer cette fenêtre " revision="1" />
   <Message key="Settings" value="Paramètres" revision="1" />
   <Message key="Search settings" value="Rechercher dans les paramètres" revision="0" />
   <Message key="ElevationError" value="Impossible d'élévation des privilèges. Message d'Erreur: {error}" revision="1" />
   <Message key="ElevationErrorTitle" value="Erreur d'élévation des privilèges" revision="1" />
   <Message key="This toolbar cannot be deleted." value="Cette barre d'outils ne peut pas être supprimé." revision="1" />
-  <Message key="Toolbar Deletion Failed" value="Suppression de la barre d'outils à échouer." revision="1" />
+  <Message key="Toolbar Deletion Failed" value="Suppression de la barre d'outils a échoué." revision="1" />
   <Message key="Invalid toolbar name" value="Nom de la barre d'outils invalide. Les noms valides doivent commencer par une lettre." revision="1" />
-  <Message key="Toolbar Creation Failed" value="Création de la barre d'outil à échouer" revision="1" />
+  <Message key="Toolbar Creation Failed" value="Création de la barre d'outils a échoué" revision="1" />
   <Message key="Toolbar already exists" value="La barre d'outils avec le nom que vous avez spécifié existe déjà." revision="1" />
   <Message key="All commands" value="Toutes les commandes" revision="1" />
   <Message key="Commands Page" value="Commandes" revision="1" />
@@ -74,14 +74,14 @@
   <Message key="Delete" value="&amp;Supprimer" revision="1" />
   <Message key="Button size" value="Taille des boutons:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="Sélectionnez une commande pour afficher sa description ou le faire glisser vers une barre d'outils:" revision="1" />
-  <Message key="New Group" value="Nouveau  &amp;Groupe" revision="0" />
+  <Message key="New Group" value="Nouveau &amp;Groupe" revision="0" />
   <Message key="&lt; Add" value="&lt; &amp;Ajouter" revision="0" />
   <Message key="Remove &gt;" value="&amp;Supprimer &gt;" revision="0" />
   <Message key="Move Up" value="&amp;Monter" revision="0" />
   <Message key="Move Down" value="&amp;Descendre" revision="0" />
   <Message key="Clear" value="&amp;Effacer" revision="0" />
-  <Message key="Clip toolbars" value="&amp;Détourer barre d'outils" revision="0" />
-  <Message key="Wrap toolbars" value="&amp;Envelopper barre d'outils" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Détourer les barres d'outils" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Envelopper les barres d'outils" revision="0" />
   <Message key="Keyboard" value="Clavier" revision="1" />
   <Message key="MaxShortcuts" value="Vous ne pouvez pas attribuer plus de 5 raccourcis à une commande." revision="1" />
   <Message key="ShortcutExists" value="Ce raccourci est déjà défini pour {command}. Voulez-vous le redéfinir?" revision="1" />
@@ -98,12 +98,12 @@
   <Message key="Keyboard Map Dialog" value="Disposition du clavier" revision="1" />
   <Message key="Print" value="&amp;Imprimer" revision="1" />
   <Message key="General" value="Générale" revision="1" />
-  <Message key="HideToolWindows" value="Masquer le fenêtres d’outils" revision="0" />
+  <Message key="HideToolWindows" value="Masquer les fenêtres d’outils" revision="0" />
   <Message key="AlwaysCreateBackups" value="Toujours créer des sauvegardes automatiques" revision="1" />
   <Message key="LowercaseHex" value="Hexadécimal en minuscules" revision="1" />
   <Message key="ConvertFloatingPoint" value="Changement d'ordre des octets affecte les types flottants" revision="1" />
   <Message key="DocumentsToRemember" value="Afficher les documents récemment utilisés" revision="1" />
-  <Message key="ClosesCurrentOnly" value="Fermer affecte la fenêtre actuelle de l'outil seulement" revision="1" />
+  <Message key="ClosesCurrentOnly" value="Fermer affecte la fenêtre d'outil actuelle seulement" revision="1" />
   <Message key="RestoreWindowPosition" value="Restaurer la position la fenêtre principale au démarrage" revision="1" />
   <Message key="SkipNagScreen" value="Passer &quot;nag screen&quot;" revision="1" />
   <Message key="Notifications" value="Notifications:" revision="1" />
@@ -160,13 +160,13 @@
   <Message key="AboutBoxDisclaimer" value="Avertissement: ce logiciel est protégé par la loi relative aux droits d'auteur et par les conventions internationales. Toute reproduction ou distribution partielle ou totale du logiciel, par quelque moyen que ce soit, est strictement interdite. Toute personne ne respectant pas ces dispositions se rendra coupable du délit de contrefaçon et sera passible des sanctions pénales prévues par la loi." revision="1" />
   <Message key="About Hex Editor Neo" value="À propos de {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Choisissez la disposition d'interface utilisateur par défaut." revision="1" />
-  <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Choisissez une configuration de disposition d'interface utilisateur. Vous pouvez toujours choisir une autre configuration" revision="1" />
+  <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Choisissez une configuration de disposition d'interface utilisateur par défaut. Vous pouvez toujours choisir une autre configuration en utilisant le menu Affichage » Dispositions préconfigurées." revision="1" />
   <Message key="Novice user" value="Utilisateur débutant" revision="1" />
   <Message key="Advanced user" value="Utilisateur avancé" revision="1" />
   <Message key="Expert user" value="Utilisateur expert" revision="1" />
   <Message key="Application restart required." value="Redémarrage de l'application requise." revision="1" />
   <Message key="Configure color scheme after I close this window" value="Configurer les couleurs après que j'ai fermé cette fenêtre" revision="1" />
-  <Message key="Select the size of toolbar buttons:" value="Sélectionnez la taille des boutons de barre d'outils:" revision="1" />
+  <Message key="Select the size of toolbar buttons:" value="Sélectionnez la taille des boutons de la barre d'outils:" revision="1" />
   <Message key="Feature not Available" value="Cette fonctionnalité n’est pas disponible." revision="1" />
   <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="Cette fonctionnalité n’est pas disponible dans cette édition.\r\nSélectionnez une action parmi les suivantes pour continuer: " revision="1" />
   <Message key="New Toolbar" value="Nouvelle barre d'outils" revision="1" />
@@ -261,7 +261,7 @@
   <Message key="License Upgrade Notification" value="Hex Editor Neo a détecté une licence de la version précédente. La licence ne peut pas être automatiquement mis à niveau. Vous devez vous connecter dans la section Mon compte pour télécharger une licence mise à niveau (des frais supplémentaires peuvent si appliquer, selon vos options d'achat initiale). \ N \ nVoulez-vous aller à la section Mon compte maintenant?" revision="0" />
   <Message key="CSVFiles" value="Fichiers CSV (*.csv)|*.csv||" revision="0" />
   <Message key="ThemeFiles" value="Fichiers de thème (*.hextheme)|*.hextheme||" revision="0" />
-  <Message key="Rocket settings" value="Disposition de la fenêtre d'outils (inclut les barres d'outils)" revision="0" />
+  <Message key="Rocket settings" value="Disposition de la fenêtre d'outil (inclut les barres d'outils)" revision="0" />
   <Message key="Bars settings" value="Disposition de la barre d'outils" revision="0" />
   <Message key="Windows settings" value="Positions de la fenêtre de dialogue" revision="0" />
   <Message key="MRU settings" value="Documents les plus récemment utilisés" revision="0" />
@@ -285,7 +285,7 @@
   <Message key="Ask to import settings" value="Le fichier spécifié existe déjà. Voulez-vous importer son contenu maintenant? Si vous cliquez sur Non, le fichier sera remplacé par les paramètres actuels." revision="0" />
   <Message key="Ask to reset settings" value="L'application doit être redémarrée pour réinitialiser les paramètres. Voulez-vous continuer?" revision="0" />
   <Message key="Ask to restart" value="Il est recommandé de redémarrer l'application pour appliquer les paramètres importés. Voulez-vous redémarrer maintenant?" revision="0" />
-  <Message key="Select Components" value="Sélectionner composants" revision="0" />
+  <Message key="Select Components" value="Sélectionner Composants" revision="0" />
   <Message key="Select components:" value="Sélectionner composants:" revision="0" />
   <Message key="Select all" value="Tout sélectionner" revision="0" />
   <Message key="Beta Page" value="Bêta" revision="0" />
@@ -512,8 +512,8 @@
     <Item value="Groupe de menu Aide" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item value="&amp; Outils Fenêtres" revision="0" />
-    <Item value="Groupe de menu outils fenêtres" revision="0" />
+    <Item value="&amp;Fenêtres d'Outils" revision="0" />
+    <Item value="Groupe de menu Fenêtres d'Outils" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
     <Item value="&amp;Édition" revision="0" />
@@ -621,7 +621,7 @@
   </Enumeration>
   <Enumeration key="FileNew">
     <Item value="&amp;Nouveau Fichier" revision="1" />
-    <Item value="Créé un fichier vide" revision="1" />
+    <Item value="Créer un nouveau fichier vide" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpen">
     <Item value="&amp;Ouvrir fichier…" revision="1" />
@@ -640,7 +640,7 @@
     <Item value="Fermer le document actif" revision="1" />
   </Enumeration>
   <Enumeration key="FileCloseAll">
-    <Item value="Ferm&amp;ez tout" revision="2" />
+    <Item value="Ferm&amp;er tout" revision="2" />
     <Item value="Fermer tous les documents ouverts" revision="2" />
   </Enumeration>
   <Enumeration key="FileExit">
@@ -653,38 +653,38 @@
   </Enumeration>
   <Enumeration key="EditRedo">
     <Item value="&amp;Rétablir" revision="1" />
-    <Item value="Rétablir l'action précédente" revision="1" />
+    <Item value="Rétablir l'action précédemment annulée" revision="1" />
   </Enumeration>
   <Enumeration key="EditCut">
     <Item value="Couper" revision="1" />
-    <Item value="Couper la sélection et le placer dans le presse-papiers" revision="1" />
+    <Item value="Couper la sélection et la placer dans le presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="EditCopy">
     <Item value="&amp;Copier" revision="1" />
-    <Item value="Copier la sélection et la placer dans le presse-papiers" revision="1" />
+    <Item value="Copier la sélection et la placer dans le Presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="EditCutMerged">
     <Item value="Fusionner et Couper" revision="1" />
-    <Item value="Couper la sélection et fusionner chaque bloc avant de le placé dans le presse-papiers" revision="1" />
+    <Item value="Couper la sélection et fusionner chaque bloc avant de le placer dans le Presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="EditCopyMerged">
     <Item value="Fusionner et Copier" revision="1" />
-    <Item value="Copier la sélection et fusionner chaque bloc avant de le placé dans le presse-papiers" revision="1" />
+    <Item value="Copier la sélection et fusionner chaque bloc avant de le placer dans le Presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="EditPaste">
     <Item value="Coller" revision="1" />
-    <Item value="Insérer dans le presse-papiers" revision="1" />
+    <Item value="Insérer le contenu du presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item value="&amp;Importer Configuration…" revision="1" />
+    <Item value="&amp;Importer la Configuration…" revision="1" />
     <Item value="Importer la configuration des fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item value="&amp;Exporter Configuration…" revision="1" />
+    <Item value="&amp;Exporter la Configuration…" revision="1" />
     <Item value="Exporter la configuration des fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item value="Réinitialiser la configuration" revision="1" />
+    <Item value="Réinitialiser la Configuration" revision="1" />
     <Item value="Réinitialiser la configuration des fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLayouts">
@@ -717,11 +717,11 @@
   </Enumeration>
   <Enumeration key="WindowNextPane">
     <Item value="Volet Suivant" revision="1" />
-    <Item value="Fenêtre d'outils suivant" revision="1" />
+    <Item value="Fenêtre d'outil suivante" revision="1" />
   </Enumeration>
   <Enumeration key="WindowPrevPane">
-    <Item value="Volet Précédente" revision="1" />
-    <Item value="Fenêtre d'outils précédente" revision="1" />
+    <Item value="Volet Précédent" revision="1" />
+    <Item value="Fenêtre d'outil précédente" revision="1" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
     <Item value="Nouveau Cadre &amp;Horizontal" revision="1" />
@@ -737,15 +737,15 @@
   </Enumeration>
   <Enumeration key="WindowSplit">
     <Item value="Fractionner" revision="1" />
-    <Item value="Fractionner la fenêtre en volets" revision="1" />
+    <Item value="Fractionner la fenêtre active en volets" revision="1" />
   </Enumeration>
   <Enumeration key="WindowOpenContainingFolder">
-    <Item value="Ouvrir le repertoire parent" revision="1" />
+    <Item value="Ouvrir le répertoire parent" revision="1" />
     <Item value="Lancez l'Explorateur Windows et naviguez vers le fichier sélectionné" revision="1" />
   </Enumeration>
   <Enumeration key="WindowCopyFullPath">
     <Item value="&amp;Copier le Chemin Complet" revision="1" />
-    <Item value="Copier le Chemin Complet du fichier vers le Presse-Papiers" revision="1" />
+    <Item value="Copier le chemin complet du fichier vers le Presse-Papiers" revision="1" />
   </Enumeration>
   <Enumeration key="WindowWindows">
     <Item value="Fenêtres…" revision="1" />
@@ -769,7 +769,7 @@
   </Enumeration>
   <Enumeration key="HelpKeyboard">
     <Item value="Disposition du clavier" revision="1" />
-    <Item value="Afficher disposition du clavier" revision="1" />
+    <Item value="Afficher la disposition du clavier" revision="1" />
   </Enumeration>
   <Enumeration key="HelpAbout">
     <Item value="&amp;À propos de Hex Editor Neo" revision="1" />
@@ -777,19 +777,19 @@
   </Enumeration>
   <Enumeration key="FileOpenVolume">
     <Item value="Ouvrir &amp;Volume…" revision="1" />
-    <Item value="Ouvrez un volume (disque logique)" revision="1" />
+    <Item value="Ouvrir un volume (disque logique)" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDisk">
-    <Item value="Ouvrir disque physique…" revision="1" />
-    <Item value="Ouvrir une disque physique" revision="1" />
+    <Item value="Ouvrir Disque Physique…" revision="1" />
+    <Item value="Ouvrir un disque physique" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
-    <Item value="Ouvrir des &amp;appareil" revision="1" />
+    <Item value="Ouvrir &amp;Appareil" revision="1" />
     <Item value="Ouvrir le dispositif en utilisant le chemin fourni par l'utilisateur" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="Enregistrer tout" revision="1" />
-    <Item value="Enregistrer tout les documents modifiés" revision="1" />
+    <Item value="Enregistrer tous les documents modifiés" revision="1" />
   </Enumeration>
   <Enumeration key="FilePrint">
     <Item value="Im&amp;primer…" revision="1" />
@@ -797,15 +797,15 @@
   </Enumeration>
   <Enumeration key="FilePageSetup">
     <Item value="Paramètres d'Impression…" revision="1" />
-    <Item value="Ouvrez la boîte de dialogue de mise en page" revision="1" />
+    <Item value="Ouvrir la boîte de dialogue de mise en page" revision="1" />
   </Enumeration>
   <Enumeration key="EditClear">
     <Item value="&amp;Supprimer" revision="1" />
-    <Item value="Supprimer la  sélection" revision="1" />
+    <Item value="Supprimer la sélection" revision="1" />
   </Enumeration>
   <Enumeration key="ViewToggleFullScreen">
     <Item value="&amp;Activer/Désactiver les fenêtres d'outils" revision="1" />
-    <Item value="Afficher tous les fenêtres d'outils" revision="1" />
+    <Item value="Afficher toutes les fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
     <Item value="&amp;Gestion de License…" revision="1" />
@@ -816,8 +816,8 @@
     <Item value="Fenêtre d'outil Ancrable" revision="1" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item value="Document à onglets" revision="1" />
-    <Item value="Document à onglets" revision="1" />
+    <Item value="Document à onglet" revision="1" />
+    <Item value="Document à onglet" revision="1" />
   </Enumeration>
   <Enumeration key="ViewQuickUITweak">
     <Item value="Modification rapide d’interface utilisateurs…" revision="1" />
@@ -825,7 +825,7 @@
   </Enumeration>
   <Enumeration key="FileOpenNonLocked">
     <Item value="Ouvrir fichier partagé…" revision="1" />
-    <Item value="Ouvrir ficher en mode partagé" revision="1" />
+    <Item value="Ouvrir fichier en mode partagé" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
     <Item value="État du produit inconnu" revision="2" />
@@ -873,7 +873,7 @@
   </Enumeration>
   <Enumeration key="Portable mode">
     <Item value="Mode portable" revision="0" />
-    <Item value="Stocker les paramètres d'application dans le fichier HexSet dans le dossier de démarrage." revision="0" />
+    <Item value="Stocker les paramètres d'application dans le fichier portable.hexset7 dans le dossier de démarrage." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
     <Item value="Fichier externe:" revision="0" />

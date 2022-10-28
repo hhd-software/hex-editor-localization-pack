@@ -7,7 +7,7 @@
   <Message key="Decrypt" value="Décrypter" revision="1" />
   <Message key="Navigate to Position" value="Naviguer à la Position" revision="1" />
   <Message key="Add Position" value="Ajouter une position" revision="1" />
-  <Message key="Editor" value="Editeur" revision="1" />
+  <Message key="Editor" value="Éditeur" revision="1" />
   <Message key="Printing" value="Impression" revision="1" />
   <Message key="AutoDropSelection" value="Mode de sélection simple" revision="1" />
   <Message key="AdjustSelectionOnInsert" value="Ajuster la sélection lors d’une opération d’insertion " revision="1" />
@@ -20,8 +20,8 @@
   <Message key="FindAllNotification" value="Rechercher tout" revision="1" />
   <Message key="PasteNotification" value="Coller texte" revision="1" />
   <Message key="InvalidExpressionSyntax" value="Expression Invalide. Vérifier votre syntaxe" revision="1" />
-  <Message key="Connect to" value="Connecter" revision="1" />
-  <Message key="ConnectToSuccess" value="Les fenêtres ont été connecté avec succès." revision="1" />
+  <Message key="Connect to" value="Connecter à" revision="1" />
+  <Message key="ConnectToSuccess" value="Les fenêtres ont été connectés avec succès." revision="1" />
   <Message key="ConnectToFailure" value="La fenêtre sélectionnée est invalide. Impossible de se connecter à la fenêtre sélectionnée." revision="1" />
   <Message key="Copying Selection Regions…" value="Copie régions de sélection…" revision="1" />
   <Message key="Exporting Selection Regions…" value="Exportation des régions de sélection…" revision="1" />
@@ -31,11 +31,11 @@
   <Message key="Loading" value="Chargement de l'éditeur" revision="1" />
   <Message key="Initializing" value="Initialisation de l'éditeur" revision="1" />
   <Message key="Selection Tool Window" value="Sélection" revision="1" />
-  <Message key="Output" value="Sortir" revision="1" />
+  <Message key="Output" value="Sortie" revision="1" />
   <Message key="Save As" value="Enregistrer sous" revision="1" />
   <Message key="Do you want to override this scheme?" value="Voulez-vous remplacer ce schéma?" revision="1" />
   <Message key="NoSel" value="Pas de sélection" revision="1" />
-  <Message key="EncodingNotSupported" value="Encodage sélectionné n'est pas supporté par votre système d'exploitation. Assurez-vous que les fichiers nécessaires Codepage et les polices sont correctement installés." revision="1" />
+  <Message key="EncodingNotSupported" value="l'Encodage sélectionné n'est pas supporté par votre système d'exploitation. Assurez-vous que les fichiers nécessaires Codepage et les polices sont correctement installés." revision="1" />
   <Message key="NoEncoding" value="Votre système ne dispose pas des éléments nécessaires pour traiter l'encodage choisi. Sélectionnez un autre encodage." revision="1" />
   <Message key="Find" value="Rechercher" revision="1" />
   <Message key="A pattern was not found." value="La recherche n'a rien trouvé" revision="1" />
@@ -92,14 +92,14 @@
   <Message key="Value:" value="Valeur:" revision="1" />
   <Message key="Hex" value="Hexadécimal" revision="1" />
   <Message key="Octal" value="Octal" revision="1" />
-  <Message key="Set All To Zero" value="Mettez tous les bits à zéro" revision="1" />
-  <Message key="Set All To One" value="Mettez tous les bits à 1" revision="1" />
+  <Message key="Set All To Zero" value="Mettre tous les bits à zéro" revision="1" />
+  <Message key="Set All To One" value="Mettre tous les bits à 1" revision="1" />
   <Message key="Invert" value="Inverser" revision="1" />
   <Message key="Revert" value="Rétablir" revision="1" />
   <Message key="Bitwise Operation" value="Opération bit à bit" revision="1" />
-  <Message key="Set Columns" value="Entrez le nombre de colonnes:" revision="0" />
+  <Message key="Set Columns" value="Configurer les colonnes:" revision="0" />
   <Message key="Enter number of columns per row:" value="Entrez le nombre de colonnes par ligne:" revision="0" />
-  <Message key="Select the Window to Connect" value="Sélectionnez la fenêtre avec lequel établir une connexion" revision="0" />
+  <Message key="Select the Window to Connect" value="Sélectionner la fenêtre avec laquelle établir une connexion" revision="0" />
   <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Cliquez sur l'icône ci-dessous, faites-le glisser sur la fenêtre que vous voulez connecter et relâchez le bouton de la souris." revision="0" />
   <Message key="Cursor movement is synchornized in connected windows." value="Le mouvement du curseur est synchronisé dans les fenêtres connectés." revision="0" />
   <Message key="Encrypt/Decrypt" value="Chiffrer/Déchiffrer " revision="0" />
@@ -222,8 +222,8 @@
   <Message key="clr.colors.TooltipText" value="Texte de l'info-bulle" revision="0" />
   <Message key="toolbar.Selection" value="Sélection" revision="0" />
   <Enumeration key="SelectAll">
-    <Item value="Sélectionnez tout" revision="1" />
-    <Item value="Sélectionnez toutes les données d'un fichier" revision="1" />
+    <Item value="Sélectionner tout" revision="1" />
+    <Item value="Sélectionner toutes les données d'un fichier" revision="1" />
   </Enumeration>
   <Enumeration key="SelectNone">
     <Item value="Désélectionner tout" revision="1" />
@@ -254,11 +254,11 @@
     <Item value="Sélectionner les données modifiées" revision="1" />
   </Enumeration>
   <Enumeration key="SelectRange">
-    <Item value="Sélectionner Intervalle…" revision="1" />
+    <Item value="Sélectionner l'Intervalle…" revision="1" />
     <Item value="Sélectionner l'intervalle et fusionner avec la sélection actuelle" revision="1" />
   </Enumeration>
   <Enumeration key="SelectLoad">
-    <Item value="Charger sélection…" revision="1" />
+    <Item value="Charger la sélection…" revision="1" />
     <Item value="Charger la nouvelle sélection ou le combiner avec une sélection en cours" revision="1" />
   </Enumeration>
   <Enumeration key="SelectSave">
@@ -266,7 +266,7 @@
     <Item value="Enregistrer la sélection dans un fichier" revision="1" />
   </Enumeration>
   <Enumeration key="EditEditCell">
-    <Item value="Modifier c&amp;ellule" revision="1" />
+    <Item value="Modifier la c&amp;ellule" revision="1" />
     <Item value="Modifier la cellule active" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertMode">
@@ -314,8 +314,8 @@
     <Item value="Enodages" revision="1" />
   </Enumeration>
   <Enumeration key="ViewConnect">
-    <Item value="&amp;Connectez à…" revision="1" />
-    <Item value="Connectez cette fenêtre avec un autre" revision="1" />
+    <Item value="&amp;Connecter à…" revision="1" />
+    <Item value="Connecter cette fenêtre avec une autre" revision="1" />
   </Enumeration>
   <Enumeration key="ViewHex">
     <Item value="&amp;Hex" revision="1" />
@@ -526,16 +526,16 @@
     <Item value="Actualisez la fenêtre courante (pour le disque, le processus et mémoire)" revision="1" />
   </Enumeration>
   <Enumeration key="SelectCopy">
-    <Item value="Copier les régions de sélections" revision="1" />
-    <Item value="Copier la liste des régions sélectionnées vers le presse-papiers " revision="1" />
+    <Item value="Copier les régions de sélection" revision="1" />
+    <Item value="Copier la liste des régions de sélection vers le Presse-papiers " revision="1" />
   </Enumeration>
   <Enumeration key="SelectExport">
     <Item value="Exporter les régions de sélections…" revision="1" />
-    <Item value="Expoter la liste des régions sélectionnées vers un fichier" revision="1" />
+    <Item value="Expoter la liste des régions de sélection vers le fichier" revision="1" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item value="Vider tous les contenus" revision="1" />
-    <Item value="Video tous les contenus de la fenêtre Output" revision="1" />
+    <Item value="Vider tout" revision="1" />
+    <Item value="Vider tous les contenus de la fenêtre Sortie" revision="1" />
   </Enumeration>
   <Enumeration key="GotoGoto">
     <Item value="Naviguer vers la position" revision="0" />
@@ -546,7 +546,7 @@
     <Item value="Ajouter le décalage actuel à la liste des positions mémorisées" revision="0" />
   </Enumeration>
   <Enumeration key="GotoCopy">
-    <Item value="Copier la position" revision="0" />
+    <Item value="Copier la Position" revision="0" />
     <Item value="Copier le décalage actuel dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="ArithmeticOperations">
@@ -600,7 +600,7 @@
     <Item value="Utiliser des chiffres décimaux" revision="1" />
   </Enumeration>
   <Enumeration key="PastingTextNotification">
-    <Item value="Coller texte" revision="1" />
+    <Item value="Coller Texte" revision="1" />
     <Item value="Vous êtes sur le point de coller un texte du Presse-papiers. Il est FORTEMENT recommandé de lire une section correspondante dans une documentation fournie avant d'effectuer cette opération." revision="1" />
   </Enumeration>
   <Enumeration key="FindAllDispNotification">
@@ -630,8 +630,8 @@
     <Item value="Double" revision="1" />
   </Enumeration>
   <Enumeration key="MenuSelect">
-    <Item value="&amp;Sélectionner" revision="0" />
-    <Item value="Menu Sélectionner" revision="0" />
+    <Item value="&amp;Sélection" revision="0" />
+    <Item value="Menu Sélection" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOperations">
     <Item value="&amp;Opérations" revision="0" />
@@ -650,8 +650,8 @@
     <Item value="Changer le nombre de colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndian">
-    <Item value="Ordre &amp;Octets" revision="0" />
-    <Item value="Changement Ordre d'octets" revision="0" />
+    <Item value="Ordre d'&amp;Octets" revision="0" />
+    <Item value="Changement d'Ordre d'Octets" revision="0" />
   </Enumeration>
   <Enumeration key="MenuOffset">
     <Item value="Décalage" revision="2" />
@@ -700,7 +700,7 @@
   </Enumeration>
   <Enumeration key="FeatureConnectTo">
     <Item value="Connecter à" revision="1" />
-    <Item value="La fonctionnalité &quot;Connecter à&quot; vous permet de connecter deux fenêtres,ainsi que la liaison des mouvements du curseur en eux." revision="1" />
+    <Item value="La fonctionnalité &quot;Connecter à&quot; vous permet de connecter deux fenêtres, ainsi que la liaison des mouvements du curseur en eux." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureEncrypt/Decrypt">
     <Item value="Chiffrer/Déchiffrer" revision="1" />
@@ -712,7 +712,7 @@
   </Enumeration>
   <Enumeration key="FeatureCopySelection">
     <Item value="Copier les zones de sélection" revision="1" />
-    <Item value="La fonctionnalité &quot;Copier les zones de sélection&quot; vous permet de copier la liste des zones sélectionnées actives vers le Presse-papier." revision="1" />
+    <Item value="La fonctionnalité &quot;Copier les zones de sélection&quot; vous permet de copier la liste des zones de sélection actives vers le Presse-papier." revision="1" />
   </Enumeration>
   <Enumeration key="FeatureExportSelection">
     <Item value="Exporter les zones de sélections" revision="1" />

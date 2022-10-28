@@ -6,8 +6,8 @@
   <Message key="toolbar.Annotations" value="Annotations" revision="0" />
   <Message key="ExtSuffixFilter" value="Symboles autorisés: 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="Annoter la plage" revision="0" />
-  <Message key="Start:" value="Démarrer:" revision="0" />
-  <Message key="End:" value="Terminer:" revision="0" />
+  <Message key="Start:" value="Début:" revision="0" />
+  <Message key="End:" value="Fin:" revision="0" />
   <Message key="Text:" value="Texte d'annotation:" revision="1" />
   <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
   <Message key="IncorrectInputText" value="Doit être une valeur hexadécimale" revision="0" />
