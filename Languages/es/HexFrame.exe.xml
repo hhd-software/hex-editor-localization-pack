@@ -160,7 +160,7 @@
   <Message key="AboutBoxDisclaimer" value="Advertencia: Este programa para computadora está protegido por las leyes de copyright y por tratados internacionales. La reproducción ó distribución no autorizada de este programa, ó cualquier parte de éste, puede resultar en severas penas civiles y criminales, y serán perseguidas al máximo posible dentro del marco legal." revision="1" />
   <Message key="About Hex Editor Neo" value="Acerca de {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Escoger la Interfaz de Usuario Por Defecto" revision="1" />
-  <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Seleccione una interfaz de configuración por defecto. Siempre podrá escoger otra configuración usando el menú Ver » Menú de diseños predefinidos. " revision="1" />
+  <Message key="Select default interface configuration" value="Seleccione una interfaz de configuración por defecto. Siempre podrá escoger otra configuración usando el menú Ver » Menú de diseños predefinidos." revision="0" />
   <Message key="Novice user" value="Usuario Principiante" revision="1" />
   <Message key="Advanced user" value="Usuario Avanzado" revision="1" />
   <Message key="Expert user" value="Usuario Experto" revision="1" />

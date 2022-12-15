@@ -73,9 +73,18 @@
     <Item value="Modo Combinar" revision="0" />
     <Item value="Muestra al mismo tiempo los bloques de los dos archivos" revision="0" />
   </Enumeration>
+  <Enumeration key="DiffFilter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffReport">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="Algoritmo de comparación simple" revision="0" />
     <Item value="Algoritmo diferencial" revision="0" />
+    <Item />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="No alinear" revision="0" />
@@ -85,6 +94,11 @@
   <Enumeration key="DiffTypes">
     <Item value="Normal" revision="0" />
     <Item value="Preciso" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReportColumns">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="Comparación de archivos" revision="0" />
@@ -118,5 +132,43 @@
     <Item value="Offset (Fuente)" revision="0" />
     <Item value="Offset (Destino)" revision="0" />
     <Item value="Tamaño" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterSchemeColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterReset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterSwitch">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>
