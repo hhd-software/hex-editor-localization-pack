@@ -38,12 +38,24 @@
     <Item text="Display blocks for both files at once"/>
   </Enumeration>
 
+  <Enumeration key="DiffFilter" description="Diff.Filter">
+    <Item text="Configure Filter…"/>
+    <Item text="Filter comparison results by given criteria"/>
+  </Enumeration>
+
+  <Enumeration key="DiffReport" description="Diff.Report">
+	<Item text="Show Comparison Report"/>
+	<Item text="Display comparison results statistics"/>
+  </Enumeration>
+
+  <Message key="FilterOperationName" description="Operation name for filtering process" value="Filtering file comparison results"/>
   <Message key="Different" description="Different"/>
   <Message key="Not Found" description="Not Found"/>
 
-  <Enumeration key="Algorithms" description="Algorithms">
+  <Enumeration key="Algorithms" description="Algorithms" revision="1">
     <Item text="Simple comparison algorithm"/>
     <Item text="Difference algorithm"/>
+    <Item text="Difference algorithm (alternate)"/>
   </Enumeration>
 
   <Enumeration key="Alignment" description="Alignment">
@@ -56,6 +68,12 @@
     <Item text="Normal"/>
     <Item text="Precise"/>
   </Enumeration>
+
+	<Enumeration key="ReportColumns" description="Comparison report column names">
+		<Item text="Type"/>
+		<Item text="Blocks"/>
+		<Item text="Size, bytes"/>
+	</Enumeration>
 
   <Enumeration key="IdenticalWithStreams" description="Files are identical save for streams notification">
     <Item text="File Comparison"/>
@@ -98,6 +116,52 @@
     <Item text="Size"/>
   </Enumeration>
 
+  <Enumeration key="FilterOperations" description="Filter operations">
+	  <Item text="equal to"/>
+	  <Item text="less than"/>
+	  <Item text="greater than"/>
+	  <Item text="less than or equal to"/>
+	  <Item text="greater than or equal to"/>
+  </Enumeration>
+
+  <Enumeration key="FilterType" description="Filter type">
+	  <Item text="Include"/>
+	  <Item text="Exclude"/>
+  </Enumeration>
+
+  <Enumeration key="FilterSchemeColumns" description="Filter scheme columns">
+	  <Item text="Active"/>
+	  <Item text="Column"/>
+	  <Item text="Operation"/>
+	  <Item text="Value"/>
+	  <Item text="Action"/>
+  </Enumeration>
+
+  <Enumeration key="DiffFilterAdd" description="Diff.FilterAdd">
+  	<Item text="Add Filter Rule"/>
+  	<Item text="Add filter rule to current scheme"/>
+  </Enumeration>
+
+  <Enumeration key="DiffFilterEdit" description="Diff.FilterEdit">
+  	<Item text="Edit Filter Rule"/>
+  	<Item text="Edit filter rule in current scheme"/>
+  </Enumeration>
+
+  <Enumeration key="DiffFilterRemove" description="Diff.FilterRemove">
+  	<Item text="Remove Filter Rule"/>
+  	<Item text="Remove filter rule from current scheme"/>
+  </Enumeration>
+
+  <Enumeration key="DiffFilterReset" description="Diff.FilterReset">
+  	<Item text="Rollback All Filter Scheme Changes"/>
+  	<Item text="Rollback all scheme changes"/>
+  </Enumeration>
+
+  <Enumeration key="DiffFilterSwitch" description="Diff.FilterSwitch">
+  	<Item text="Enable/Disable Filtering"/>
+  	<Item text="Enable/Disable filtering"/>
+  </Enumeration>
+
   <Message key="Error opening both files" description="Error opening both files."/>
   <Message key="Error opening one of files" description="Error opening one of files."/>
   <Message key="Locked" description="File(s) are locked" value="At least one document is locked due to lengthy operation. Please wait until the operation is finished."/>
@@ -116,6 +180,8 @@
   <Message key="Modified blocks" description="Choice: Modified blocks"/>
 
   <Message key="Color Selection" description="Color Selection window title"/>
+  <Message key="Compare Results Filter" description="Window title: Comparison Results Filters" value="Comparison Results Filters"/>
+  <Message key="Edit Filter Condition" description="Edit Filter Condition window title"/>
 
   <Message key="Compare Files" description="Compare Files window title"/>
   <Message key="First file:" description="Field: First file"/>
@@ -140,4 +206,10 @@
 	<Message key="clr.fc_colors.inserted.stroke" description="Color: Inserted region text" value="Inserted region text" />
 	<Message key="clr.fc_colors.removed.fill" description="Color: Removed region background" value="Removed region background" />
 	<Message key="clr.fc_colors.removed.stroke" description="Color: Removed region text" value="Removed region text" />
+
+	<Message key="Compare Files Report" description="Window title: Comparison Report" value="Comparison Report"/>
+	<Message key="Total" description="Field name: Total"/>
+
+	<Message key="Condition:" description="Field: Condition" />
+	<Message key="then" description="Field: then" />
 </Definition>

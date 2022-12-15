@@ -825,7 +825,7 @@
 
 	<!-- Quick UI Tweak (Layout dialog)-->
 	<Message key="Choose Default User Interface Layout" description="Quick UI Tweak window title" revision="1"/>
-	<Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." description="Field: Select a default interfac configuration…" revision="1"/>
+	<Message key="Select default interface configuration" description="Field: Select a default interface configuration…" value="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." />
 	<Message key="Novice user" description="Choice: Novice user" revision="1"/>
 	<Message key="Advanced user" description="Choice: Advanced user" revision="1"/>
 	<Message key="Expert user" description="Choice: Expert user" revision="1"/>

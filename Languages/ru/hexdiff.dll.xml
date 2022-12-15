@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FilterOperationName" value="Фильтрация результатов" revision="0" />
   <Message key="Different" value="Различающиеся" revision="0" />
   <Message key="Not Found" value="Не найденные" revision="0" />
   <Message key="IdenticalNotification" value="Сравнение файлов: NTFS потоки в одинаковых файлах" revision="0" />
@@ -17,6 +18,8 @@
   <Message key="Removed blocks" value="Удаленные" revision="0" />
   <Message key="Modified blocks" value="Измененные" revision="0" />
   <Message key="Color Selection" value="Выбор цветов" revision="0" />
+  <Message key="Compare Results Filter" value="Фильтры" revision="0" />
+  <Message key="Edit Filter Condition" value="Редактировать правило" revision="0" />
   <Message key="Compare Files" value="Сравнение файлов" revision="0" />
   <Message key="First file:" value="Первый файл:" revision="0" />
   <Message key="Second file:" value="Второй файл:" revision="0" />
@@ -37,6 +40,10 @@
   <Message key="clr.fc_colors.inserted.stroke" value="Текст вставленных" revision="0" />
   <Message key="clr.fc_colors.removed.fill" value="Фон удалённых" revision="0" />
   <Message key="clr.fc_colors.removed.stroke" value="Текст удалённых" revision="0" />
+  <Message key="Compare Files Report" value="Отчёт" revision="0" />
+  <Message key="Total" value="Всего" revision="0" />
+  <Message key="Condition:" value="Условие:" revision="0" />
+  <Message key="then" value="то" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Сравнить заново" revision="0" />
     <Item value="Сравнить файлы заново" revision="0" />
@@ -73,9 +80,18 @@
     <Item value="Режим объединения" revision="0" />
     <Item value="Показывать блоки для каждого файла по отдельности или объединять для обоих" revision="0" />
   </Enumeration>
+  <Enumeration key="DiffFilter">
+    <Item value="Настроить фильтр…" revision="0" />
+    <Item value="Фильтровать результаты в соответствии с правилом" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffReport">
+    <Item value="Показать отчёт" revision="0" />
+    <Item value="Показать статистику сравнения" revision="0" />
+  </Enumeration>
   <Enumeration key="Algorithms">
-    <Item value="Простой алгоритм сравнения" revision="0" />
-    <Item value="Алгоритм поиска различий" revision="0" />
+    <Item value="Простой алгоритм сравнения" revision="1" />
+    <Item value="Алгоритм поиска различий" revision="1" />
+    <Item value="Алгоритм поиска различий (альтернативный)" revision="1" />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="Не выравнивать" revision="0" />
@@ -85,6 +101,11 @@
   <Enumeration key="DiffTypes">
     <Item value="Нормальный" revision="0" />
     <Item value="Точный" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReportColumns">
+    <Item value="Тип" revision="0" />
+    <Item value="Блоки" revision="0" />
+    <Item value="Размер, байты" revision="0" />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="Сравнение файлов" revision="0" />
@@ -118,5 +139,43 @@
     <Item value="Смещение (исходн)" revision="0" />
     <Item value="Смещение (конечн)" revision="0" />
     <Item value="Размер" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterOperations">
+    <Item value="равно" revision="0" />
+    <Item value="меньше, чем" revision="0" />
+    <Item value="больше, чем" revision="0" />
+    <Item value="меньше или равно, чем" revision="0" />
+    <Item value="больше или равно, чем" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterType">
+    <Item value="Включить" revision="0" />
+    <Item value="Исключить" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterSchemeColumns">
+    <Item value="Активно" revision="0" />
+    <Item value="Столбец" revision="0" />
+    <Item value="Операция" revision="0" />
+    <Item value="Значение" revision="0" />
+    <Item value="Действие" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterAdd">
+    <Item value="Добавить правило" revision="0" />
+    <Item value="Добавить правило в текущую схему" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterEdit">
+    <Item value="Изменить правило" revision="0" />
+    <Item value="Изменить правило в текущей схеме" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterRemove">
+    <Item value="Удалить правило" revision="0" />
+    <Item value="Удалить правило из текущей схемы" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterReset">
+    <Item value="Откатить изменения" revision="0" />
+    <Item value="Откатить изменения" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterSwitch">
+    <Item value="Включить/Выключить фильтрацию" revision="0" />
+    <Item value="Включить/Выключить фильтрацию" revision="0" />
   </Enumeration>
 </Language>

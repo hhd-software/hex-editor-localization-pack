@@ -104,6 +104,7 @@
   <Message key="TypeExists" value="Пользовательский тип с указанным именем уже существует." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не найден в папке &quot;{path}&quot;. Вы хотите удалить его из библиотеки?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Структуры" revision="0" />
+  <Message key="toolbar.DataInspector" value="Исследователь" revision="0" />
   <Message key="OpenStructureViewer" value="Показ сообщения &quot;Показать модуль Структуры&quot;" revision="0" />
   <Message key="Open Structure Viewer" value="Открыть &quot;Структуры&quot;" revision="0" />
   <Message key="Open Online Repository" value="Найти больше определений структур в он-лайн репозитории" revision="0" />
