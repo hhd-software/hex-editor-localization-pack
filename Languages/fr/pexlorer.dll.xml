@@ -1,29 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="PrivilegeNotGained" value="Ensemble limité de processus dans la liste des processus" revision="1" />
   <Message key="RegionInfo" value="[[[uPlage mémoire du processus]]]\r  [[[bPlage de base:]]] {base} ({base:2})\r  [[[bTaille de plage:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bEtat:]]] {state}\r  [[[bDrapeaux:]]] {flags}" revision="2" />
   <Message key="Unknown" value="Inconnu" revision="1" />
-  <Message key="No process selected" value="Aucun processus sélectionnés" revision="1" />
-  <Message key="Specify a range using a list of blocks or a list of modules." value="Spécifiez une plage à l'aide d'une liste de blocs ou d'une liste de modules." revision="1" />
-  <Message key="Either start or end is too big. Please enter correct values." value="Soit début ou la fin est trop grand. Veuillez entrez les valeurs correctes." revision="1" />
-  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." value="La sélection multiple est autorisée uniquement lorsque le tri par adresse est actif. Cliquez sur l'entête de la première colonne de blocs de tri." revision="1" />
-  <Message key="ProcessDescription" value="Processus: {process}, Blocs: {blocks}, Modules: {modules}" revision="1" />
   <Message key="N/A" value="Non disponible" revision="1" />
-  <Message key="Open Process" value="Ouvrir processus" revision="1" />
-  <Message key="Set Colors…" value="Définir les couleurs…" revision="1" />
-  <Message key="Display decimal values" value="Afficher les valeurs décimales" revision="1" />
-  <Message key="Logarithmic scale" value="Echelle logarithmique" revision="1" />
   <Message key="Start:" value="Début:" revision="1" />
   <Message key="End:" value="Fin:" revision="1" />
   <Message key="Size:" value="Taille:" revision="1" />
-  <Message key="Show All Processes" value="Afficher tous les processus" revision="1" />
-  <Message key="Refresh" value="Rafraîchir" revision="1" />
-  <Message key="Color Selection" value="Sélection des couleurs" revision="1" />
-  <Message key="No Access/Guard" value="Pas d'accès / Garde:" revision="1" />
-  <Message key="Read Only/Execute" value="Lecture seule / Exécuter:" revision="1" />
-  <Message key="Read/Write" value="Lecture / écriture:" revision="1" />
-  <Message key="Copy on Write" value="Copier lors d'ecritures:" revision="1" />
-  <Message key="Free" value="Libre:" revision="1" />
   <Message key="clr.pex_colors" value="Couleurs du processus ouvert" revision="0" />
   <Message key="clr.pex_colors.NoAccess" value="Région de non-accès" revision="0" />
   <Message key="clr.pex_colors.ReadOnly" value="Région de lecture seule" revision="0" />
@@ -34,9 +16,89 @@
     <Item value="Ouvrir P&amp;rocessus…" revision="1" />
     <Item value="Ouvrir le mémoire du processus pour lecture et écriture" revision="1" />
   </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="GoToProcess">
     <Item value="Allez à… (dans le processus)" revision="1" />
     <Item value="Aller à la section donnée dans la mémoire du processus sélectioné" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="BlockType">
     <Item value="Inconnu" revision="1" />
@@ -61,26 +123,21 @@
     <Item value="Exécuter, Copier sur écriture" revision="1" />
     <Item value="Protégé (surveillé)" revision="1" />
     <Item value="Aucun cache" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="FeatureDesc">
     <Item value="Ouvrir Processus" revision="1" />
     <Item value="La fonctionnalité &quot;Ouvrir Processus&quot; vous permet d'ouvrir le processus sélectionné pour la visualisation et l'édition de son espace mémoire." revision="1" />
   </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="Task">
     <Item value="Ouvrir processus" revision="1" />
     <Item value="Ouvrir mémoire du processus pour lecture et modification" revision="1" />
-  </Enumeration>
-  <Enumeration key="DisplayNotification">
-    <Item value="Fonctionnalité limitée ouverture de processus " revision="1" />
-    <Item value="Attention: Hex Editor Neo n'a pas les privilèges requis pour accéder aux processus en cours d'exécution sur votre système.Il ne sera en mesure de se connecter à un petit sous-ensemble des processus qui s'exécutent sur votre ordinateur. Exécuter Hex Editor Neo en tant qu'utilisateur élevée avec un accès administratif pour pouvoir être en mesure de modifier n'importe quel adressse de mémoire du processus" revision="1" />
-  </Enumeration>
-  <Enumeration key="Tabs">
-    <Item value="Blocs" revision="1" />
-    <Item value="Modules" revision="1" />
-  </Enumeration>
-  <Enumeration key="ProcessColumns">
-    <Item value="Id" revision="1" />
-    <Item value="Nom" revision="1" />
   </Enumeration>
   <Enumeration key="HeapColumns">
     <Item value="Adresse" revision="1" />
@@ -94,5 +151,25 @@
     <Item value="Nom" revision="1" />
     <Item value="Adresse" revision="1" />
     <Item value="Taille" revision="1" />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

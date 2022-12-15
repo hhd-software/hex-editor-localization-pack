@@ -73,9 +73,18 @@
     <Item value="Mode Fusionner" revision="0" />
     <Item value="Afficher les blocs dans les deux fichiers" revision="0" />
   </Enumeration>
+  <Enumeration key="DiffFilter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffReport">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="Algorithme de comparaison simple" revision="0" />
     <Item value="Algorithme de comparaison par différence" revision="0" />
+    <Item />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="Ne pas Aligner" revision="0" />
@@ -85,6 +94,11 @@
   <Enumeration key="DiffTypes">
     <Item value="Normal" revision="0" />
     <Item value="Précis" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReportColumns">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="Comparaison de Fichiers" revision="0" />
@@ -118,5 +132,43 @@
     <Item value="Décalage(Source)" revision="0" />
     <Item value="Décalage(Dest.)" revision="0" />
     <Item value="Taille" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterSchemeColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterReset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterSwitch">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>
