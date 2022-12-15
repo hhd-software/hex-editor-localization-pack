@@ -22,6 +22,7 @@ Currently, the following language packs are complete for latest version of Hex E
 * Portuguese
 * Russian
 * Ukrainian
+* Korean
 
 And the following language packs are complete for Hex Editor Neo 5.x or 6.x:
 
@@ -64,3 +65,23 @@ Where `<path-to-corrections-file` should be replaced with a full path of the cor
 To edit a title of a window, hold `Ctrl` and `Shift` keys and click on a window title. To edit a text label, a button, a checkbox or a radio button, hold `Ctrl` and `Shift` keys and click on a control. After finishing editing, press the `Enter` key. For multi-line controls, press `Ctrl+Enter`. Press `Esc` to discard your changes.
 
 Please note that not all strings can be localized using authoring mode.
+
+## Acknowledgements
+
+We would like to thank the following persons for their contributions to localizations:
+
+* Spanish
+   * Orlando Patiño Arciga
+
+* Italian
+   * Sabino Boccaforno
+
+* Portuguese
+   * Nylsinho Santos
+   * Wenes Gomes Aquino
+
+* Ukrainian
+   * Олексій Храпач
+
+* Korean
+   * VenusGirl (비너스걸)
