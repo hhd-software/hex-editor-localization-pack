@@ -42,6 +42,8 @@
   <Message key="clr.fc_colors.removed.stroke" value="Текст удалённых" revision="0" />
   <Message key="Compare Files Report" value="Отчёт" revision="0" />
   <Message key="Total" value="Всего" revision="0" />
+  <Message key="Condition:" value="Условие:" revision="0" />
+  <Message key="then" value="то" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Сравнить заново" revision="0" />
     <Item value="Сравнить файлы заново" revision="0" />
