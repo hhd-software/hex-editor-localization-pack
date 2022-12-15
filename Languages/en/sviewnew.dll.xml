@@ -523,6 +523,7 @@
   </Message>
 
 	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
+	<Message key="toolbar.DataInspector" description="Toolbar: Data Inspector" value="Data Inspector" />
 	<Message key="OpenStructureViewer" description="Notification option: Show &quot;Open Structure Viewer&quot; message" value="Show &quot;Display Structure Viewer&quot; message" />
 	<Enumeration key="ShowSVNotification" description="Notification: Open Structure Viewer message">
 		<Item text="Open Structure Viewer"/>
