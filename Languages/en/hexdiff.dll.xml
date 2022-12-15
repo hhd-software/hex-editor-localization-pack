@@ -74,7 +74,7 @@
 		<Item text="Blocks"/>
 		<Item text="Size, bytes"/>
 	</Enumeration>
-	
+
   <Enumeration key="IdenticalWithStreams" description="Files are identical save for streams notification">
     <Item text="File Comparison"/>
     <Item text="The files are identical, but contain additional streams. Hex Editor Neo does not automatically compare the contents of additional streams. You may do it manually. Select an option below to continue."/>
@@ -210,4 +210,6 @@
 	<Message key="Compare Files Report" description="Window title: Comparison Report" value="Comparison Report"/>
 	<Message key="Total" description="Field name: Total"/>
 
+	<Message key="Condition:" description="Field: Condition" />
+	<Message key="then" description="Field: then" />
 </Definition>
