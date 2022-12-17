@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FilterOperationName" value="Filtrar resultados" revision="0" />
   <Message key="Different" value="Diferente" revision="0" />
   <Message key="Not Found" value="No encontrado" revision="0" />
   <Message key="IdenticalNotification" value="Comparación de Archivos: secuencias NTFS en archivos idénticos" revision="0" />
@@ -17,6 +18,8 @@
   <Message key="Removed blocks" value="Bloques borrados" revision="0" />
   <Message key="Modified blocks" value="Bloques modificados" revision="0" />
   <Message key="Color Selection" value="Selección de Color" revision="0" />
+  <Message key="Compare Results Filter" value="Filtros" revision="0" />
+  <Message key="Edit Filter Condition" value="Editar la regla" revision="0" />
   <Message key="Compare Files" value="Comparar Archivos" revision="0" />
   <Message key="First file:" value="Primer archivo:" revision="0" />
   <Message key="Second file:" value="Segundo archivo:" revision="0" />
@@ -37,6 +40,10 @@
   <Message key="clr.fc_colors.inserted.stroke" value="Texto de la región Insertada" revision="0" />
   <Message key="clr.fc_colors.removed.fill" value="Fondo de la región Eliminado" revision="0" />
   <Message key="clr.fc_colors.removed.stroke" value="Texto de  la región Eliminado" revision="0" />
+  <Message key="Compare Files Report" value="Informe" revision="0" />
+  <Message key="Total" value="Total" revision="0" />
+  <Message key="Condition:" value="Condición:" revision="0" />
+  <Message key="then" value="entonces" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Volver a comparar" revision="0" />
     <Item value="Volver a comparar archivos" revision="0" />
@@ -74,17 +81,17 @@
     <Item value="Muestra al mismo tiempo los bloques de los dos archivos" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilter">
-    <Item />
-    <Item />
+    <Item value="Configurar el filtro…" revision="0" />
+    <Item value="Filtrar los resultados según la regla" revision="0" />
   </Enumeration>
   <Enumeration key="DiffReport">
-    <Item />
-    <Item />
+    <Item value="Mostrar informe" revision="0" />
+    <Item value="Mostrar informe" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
-    <Item value="Algoritmo de comparación simple" revision="0" />
-    <Item value="Algoritmo diferencial" revision="0" />
-    <Item />
+    <Item value="Algoritmo de comparación simple" revision="1" />
+    <Item value="Algoritmo diferencial" revision="1" />
+    <Item value="Algoritmo diferencial (alternativo)" revision="1" />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="No alinear" revision="0" />
@@ -96,9 +103,9 @@
     <Item value="Preciso" revision="0" />
   </Enumeration>
   <Enumeration key="ReportColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Tipo" revision="0" />
+    <Item value="Bloques" revision="0" />
+    <Item value="Tamaño, bytes" revision="0" />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="Comparación de archivos" revision="0" />
@@ -134,41 +141,41 @@
     <Item value="Tamaño" revision="0" />
   </Enumeration>
   <Enumeration key="FilterOperations">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="igual a" revision="0" />
+    <Item value="menos de" revision="0" />
+    <Item value="mayor que" revision="0" />
+    <Item value="inferior o igual a" revision="0" />
+    <Item value="mayor o igual que" revision="0" />
   </Enumeration>
   <Enumeration key="FilterType">
-    <Item />
-    <Item />
+    <Item value="Incluir" revision="0" />
+    <Item value="Excluir" revision="0" />
   </Enumeration>
   <Enumeration key="FilterSchemeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Activo" revision="0" />
+    <Item value="Columna" revision="0" />
+    <Item value="Operación" revision="0" />
+    <Item value="Valor" revision="0" />
+    <Item value="Acción" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterAdd">
-    <Item />
-    <Item />
+    <Item value="Añadir una regla" revision="0" />
+    <Item value="Añadir una regla al esquema actual" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterEdit">
-    <Item />
-    <Item />
+    <Item value="Cambiar la regla" revision="0" />
+    <Item value="Cambiar la regla del régimen actual" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterRemove">
-    <Item />
-    <Item />
+    <Item value="Borrar regla" revision="0" />
+    <Item value="Eliminar la regla del esquema actual" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterReset">
-    <Item />
-    <Item />
+    <Item value="Revierta los cambios" revision="0" />
+    <Item value="Revierta los cambios" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterSwitch">
-    <Item />
-    <Item />
+    <Item value="Activar/desactivar filtrado" revision="0" />
+    <Item value="Activar/desactivar filtrado" revision="0" />
   </Enumeration>
 </Language>
