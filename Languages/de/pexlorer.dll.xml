@@ -1,104 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="RegionInfo" value="[[[uProzessspeicherbereich]]]\r  [[[bBereichsbasis:]]] {base} ({base:2})\r  [[[bBereichsende:]]] {end} ({end:2})\r  [[[bBereichsgröße:]]] {size} ({size:2})\r  [[[bTyp:]]] {type}\r  [[[bStatus:]]] {state}\r  [[[bFlags:]]] {flags}" revision="2" />
+  <Message key="ProcessCat" value="Prozess" revision="0" />
+  <Message key="RegionInfo" value="[[[uProzessspeicherbereich]]]\r  [[[bBereichsbasis:]]] {base} ({base:2})\r  [[[bBereichsende:]]] {end} ({end:2})\r  [[[bBereichsgröße:]]] {size} ({size:2})\r  [[[bTyp:]]] {type}\r  [[[bStatus:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="Unbekannt" revision="1" />
   <Message key="N/A" value="N/A" revision="1" />
   <Message key="Start:" value="Beginn:" revision="1" />
   <Message key="End:" value="Ende:" revision="1" />
   <Message key="Size:" value="Größe:" revision="1" />
-  <Message key="clr.pex_colors" value="&quot;Offener Prozess&quot; Farben" revision="0" />
+  <Message key="Snapshots" value="Momentaufnahmen" revision="0" />
+  <Message key="clr.pex_colors" value="Prozess-Fenster Farben" revision="1" />
   <Message key="clr.pex_colors.NoAccess" value="Region &quot;Kein Zugang&quot;" revision="0" />
   <Message key="clr.pex_colors.ReadOnly" value="Region &quot;Nur Lesen&quot;" revision="0" />
   <Message key="clr.pex_colors.ReadWrite" value="Region &quot;Lesen/Schreiben&quot;" revision="0" />
   <Message key="clr.pex_colors.WriteCopy" value="Kopieren im Schreibbereich" revision="0" />
   <Message key="clr.pex_colors.Free" value="&quot;Freie&quot; Region" revision="0" />
+  <Message key="Processes" value="Prozesse" revision="0" />
+  <Message key="ProcessToolbar" value="Prozesse" revision="0" />
+  <Message key="Process filter" value="Suchen…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="Beim Öffnen des ausgewählten Prozesses ist der folgende Fehler aufgetreten:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="Der Prozessabbruch ist mit folgendem Fehler fehlgeschlagen:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="Beim Speichern des Prozessabbilds ist ein Fehler aufgetreten:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="Es gab einen Fehler beim Auffinden oder Ausführen des externen Debuggers:\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="Name: {name}\nPID: {id}\nArchitektur: {arch}\nBenutzer: {user}\nStatus: {status}\nPfad: {path}\nBefehlszeile: {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bBenutzer:]]] {user}, [[[bArchitektur:]]] {arch}\n[[[bPfad:]]] {path}\n[[[bBefehlszeile:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="Abgeschlossen {error}" revision="0" />
+  <Message key="Snapshot creation error" value="Fehler beim Erstellen des Momentaufnahmens: {text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [Momentaufnahmens]" revision="0" />
+  <Message key="AskClearSnapshots" value="Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="Voller Speicher beim Debuggen von Momentaufnahmen" revision="0" />
+  <Message key="DumpCreation" value="Momentaufnahme für Debugging vorbereiten" revision="0" />
+  <Message key="NoSnapshotting" value="Windows 7 unterstützt die Prozess-Snapshot-Technologie nicht. Diese Technologie ist ab Windows 8 verfügbar." revision="0" />
+  <Message key="DumpFileFilter" value="Dumpdateien|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="P&amp;rozess öffnen…" revision="1" />
     <Item value="Öffnet einen Prozessspeicher für Lesen und Schreiben" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
-    <Item />
-    <Item />
+    <Item value="P&amp;rozess öffnen…" revision="0" />
+    <Item value="Öffnet einen Prozessspeicher für Lesen und Schreiben" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenSnapshot">
-    <Item />
-    <Item />
+    <Item value="Öffnen Sie das &amp;Momentaufnahmen" revision="0" />
+    <Item value="Erstellen Sie einen Momentaufnahme eines Prozesses und öffnen Sie seinen Speicher" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAllProcesses">
-    <Item />
-    <Item />
+    <Item value="Alle Prozesse anzeigen" revision="0" />
+    <Item value="Prozesse für alle Benutzer anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAutoRefresh">
-    <Item />
-    <Item />
+    <Item value="Automatisch aktualisieren" revision="0" />
+    <Item value="Automatisches Aktualisieren der Liste der laufenden Prozesse" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessRefresh">
-    <Item />
-    <Item />
+    <Item value="Prozessliste aktualisieren" revision="0" />
+    <Item value="Aktualisieren Sie die Liste der laufenden Prozesse" revision="0" />
   </Enumeration>
   <Enumeration key="GoToProcess">
     <Item value="Gehe zu… (im Prozess)" revision="1" />
     <Item value="Springt zu einem Segment im bearbeiteten Prozessspeicher" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessCreateSnapshot">
-    <Item />
-    <Item />
+    <Item value="Momentaufnahme erstellen" revision="0" />
+    <Item value="Momentaufnahme erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDeleteSnapshot">
-    <Item />
-    <Item />
+    <Item value="Momentaufnahme löschen" revision="0" />
+    <Item value="Momentaufnahme löschen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessCompareSnapshots">
-    <Item />
-    <Item />
+    <Item value="Ausgewählte Momentaufnahmen vergleichen (zwei auswählen)" revision="0" />
+    <Item value="Wählen Sie zwei Momentaufnahmen aus, um sie zu vergleichen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessClearSnapshots">
-    <Item />
-    <Item />
+    <Item value="Alle Momentaufnahmen löschen" revision="0" />
+    <Item value="Alle Momentaufnahmen löschen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessBlocksMode">
-    <Item />
-    <Item />
+    <Item value="Blöcke" revision="0" />
+    <Item value="Prozessspeicherblöcke anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessModulesMode">
-    <Item />
-    <Item />
+    <Item value="Module" revision="0" />
+    <Item value="Display process mapped modules" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessModeSwitch">
-    <Item />
-    <Item />
+    <Item value="Modus der Prozessliste" revision="0" />
+    <Item value="Ändern Sie den Modus für die Prozessliste" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenRegion">
-    <Item />
-    <Item />
+    <Item value="Öffnen (Schreibgeschützter)" revision="0" />
+    <Item value="Ausgewählten Speicherbereich als schreibgeschützt öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenRegionForWrite">
-    <Item />
-    <Item />
+    <Item value="Öffnen (Lese/Schreib)" revision="0" />
+    <Item value="Ausgewählten Speicherbereich für Lese-/Schreibzugriff öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessRefreshRegions">
-    <Item />
-    <Item />
+    <Item value="Speicher auffrischen" revision="0" />
+    <Item value="Speicher auffrischen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDisasm">
-    <Item />
-    <Item />
+    <Item value="Disassembler ausführen" revision="0" />
+    <Item value="Disassembler für das ausgewählte Modul ausführen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDebug">
-    <Item />
-    <Item />
+    <Item value="Debuggen Prozess/Momentaufnahme" revision="0" />
+    <Item value="Den externen Debugger für den ausgewählten Prozess oder die Momentaufnahme ausführen" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessSaveDump">
-    <Item />
-    <Item />
+    <Item value="Dump speichern…" revision="0" />
+    <Item value="Speichern des Dumps des aktuellen Zustands eines Prozesses oder eines ausgewählten Momentaufnahme in einer Datei" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessKill">
-    <Item />
-    <Item />
+    <Item value="Prozess beenden" revision="0" />
+    <Item value="Prozess beenden" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessChangeColors">
-    <Item />
-    <Item />
+    <Item value="Farben ändern…" revision="0" />
+    <Item value="Gehen Sie zu &quot;Thema&quot;, um die Farben zu ändern" revision="0" />
   </Enumeration>
   <Enumeration key="BlockType">
     <Item value="Unbekannt" revision="1" />
@@ -113,16 +132,16 @@
     <Item value="Reserviert" revision="1" />
   </Enumeration>
   <Enumeration key="PageAccess">
-    <Item value="Kein Zugriff" revision="1" />
-    <Item value="Nur Lesen" revision="1" />
-    <Item value="Lesen, Schreiben" revision="1" />
-    <Item value="Kopieren beim Schreiben" revision="1" />
-    <Item value="Ausführen" revision="1" />
-    <Item value="Ausführen, Lesen" revision="1" />
-    <Item value="Ausführen, Lesen, Schreiben" revision="1" />
-    <Item value="Ausführen, Kopieren beim Schreiben" revision="1" />
-    <Item value="Geschützt (zurückhaltend)" revision="1" />
-    <Item value="Kein Cache" revision="1" />
+    <Item value="Kein Zugriff" revision="2" />
+    <Item value="Nur Lesen" revision="2" />
+    <Item value="Lesen, Schreiben" revision="2" />
+    <Item value="Kopieren beim Schreiben" revision="2" />
+    <Item value="Ausführen" revision="2" />
+    <Item value="Ausführen, Lesen" revision="2" />
+    <Item value="Ausführen, Lesen, Schreiben" revision="2" />
+    <Item value="Ausführen, Kopieren beim Schreiben" revision="2" />
+    <Item value="Geschützt (zurückhaltend)" revision="2" />
+    <Item value="Kein Cache" revision="2" />
     <Item />
   </Enumeration>
   <Enumeration key="FeatureDesc">
@@ -130,10 +149,10 @@
     <Item value="Die Prozess Öffnen Funktion erlaubt es Ihnen die Speicheradresse eines ausgewählten Prozesses für Anzeige und Bearbeitung zu öffnen." revision="1" />
   </Enumeration>
   <Enumeration key="debuggerType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bevorzugter externer Debugger" revision="0" />
+    <Item value="Registrierter JIT-Debugger" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
   </Enumeration>
   <Enumeration key="Task">
     <Item value="Prozess öffnen" revision="1" />
@@ -148,28 +167,28 @@
     <Item value="Module" revision="1" />
   </Enumeration>
   <Enumeration key="ModulesColumns">
-    <Item value="Name" revision="1" />
-    <Item value="Adresse" revision="1" />
-    <Item value="Größe" revision="1" />
-    <Item />
+    <Item value="Name" revision="2" />
+    <Item value="Adresse" revision="2" />
+    <Item value="Größe" revision="2" />
+    <Item value="Pfad" revision="2" />
   </Enumeration>
   <Enumeration key="ProcessListColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Name" revision="0" />
+    <Item value="PID" revision="0" />
+    <Item value="Architektur" revision="0" />
+    <Item value="Benutzer" revision="0" />
+    <Item value="Private Bytes" revision="0" />
+    <Item value="Threads" revision="0" />
+    <Item value="Befehlszeile" revision="0" />
   </Enumeration>
   <Enumeration key="MachineTypes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unbekannt" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
   </Enumeration>
   <Enumeration key="Running">
-    <Item />
-    <Item />
+    <Item value="Aktiv" revision="0" />
+    <Item value="Abgeschlossen" revision="0" />
   </Enumeration>
 </Language>
