@@ -160,7 +160,7 @@
   <Message key="AboutBoxDisclaimer" value="Увага: Ця програма захищена законом про авторське право. Незаконне відтворення та поширення цієї програми або її частин може призвести до кримінального переслідування в рамках чинного законодавства." revision="1" />
   <Message key="About Hex Editor Neo" value="Про {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Налаштування інтерфейсу" revision="1" />
-  <Message key="Select a default interface configuration. You can always choose another configuration using the View » Predefined Layouts menu." value="Виберіть конфігурацію інтерфейсу за замовчуванням. Ви завжди можете її змінити в меню Вигляд » Зумовлені профілі." revision="1" />
+  <Message key="Select default interface configuration" value="Виберіть конфігурацію інтерфейсу за замовчуванням. Ви завжди можете її змінити в меню Вигляд » Зумовлені профілі." revision="0" />
   <Message key="Novice user" value="Новачок" revision="1" />
   <Message key="Advanced user" value="Просунутий" revision="1" />
   <Message key="Expert user" value="Експерт" revision="1" />

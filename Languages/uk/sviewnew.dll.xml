@@ -104,6 +104,7 @@
   <Message key="TypeExists" value="Тип користувача з вказаним ім'ям вже існує." revision="0" />
   <Message key="StructureFileNotFound" value="Файл {file} не знайдено у папці &quot;{path}&quot;. Ви бажаєте видалити його з бібліотеки?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Оглядач структур" revision="0" />
+  <Message key="toolbar.DataInspector" value="Інспектор Даних" revision="0" />
   <Message key="OpenStructureViewer" value="Показ повідомлення &quot;Показати Оглядач Структур&quot;" revision="0" />
   <Message key="Open Structure Viewer" value="Відкрити оглядач структур" revision="0" />
   <Message key="Open Online Repository" value="Знайти більше визначень структур в он-лайн репозиторії" revision="0" />
