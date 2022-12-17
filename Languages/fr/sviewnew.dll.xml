@@ -104,6 +104,7 @@
   <Message key="TypeExists" value="Le type avec le même nom existe déjà." revision="0" />
   <Message key="StructureFileNotFound" value="Le fichier {file} ne se trouve pas à l'emplacement &quot;{path}&quot;. Voulez-vous l'enlever de la bibliothèque?" revision="0" />
   <Message key="toolbar.StructureViewer" value="Vue de Structure" revision="0" />
+  <Message key="toolbar.DataInspector" value="Inspecteur de données" revision="0" />
   <Message key="OpenStructureViewer" value="Afficher le message &quot;Display Structure Viewer" revision="0" />
   <Message key="Open Structure Viewer" value="Ouvrir le visualiseur de structure" revision="0" />
   <Message key="Open Online Repository" value="Trouvez d'autres définitions de structures dans le référentiel en ligne" revision="0" />
