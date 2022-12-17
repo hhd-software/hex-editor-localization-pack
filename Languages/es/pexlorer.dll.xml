@@ -142,7 +142,7 @@
     <Item value="Ejecutar, Copiar al Escribir" revision="2" />
     <Item value="Protegido (Bloqueado)" revision="2" />
     <Item value="Sin Cache" revision="2" />
-    <Item />
+    <Item value="Write Combine" revision="2" />
   </Enumeration>
   <Enumeration key="FeatureDesc">
     <Item value="Abrir Proceso" revision="1" />
