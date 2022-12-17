@@ -142,7 +142,7 @@
     <Item value="Ausführen, Kopieren beim Schreiben" revision="2" />
     <Item value="Geschützt (zurückhaltend)" revision="2" />
     <Item value="Kein Cache" revision="2" />
-    <Item />
+    <Item value="Write Combine" revision="2" />
   </Enumeration>
   <Enumeration key="FeatureDesc">
     <Item value="Prozess öffnen" revision="1" />
