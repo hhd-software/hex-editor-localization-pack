@@ -17,8 +17,8 @@
   <Message key="N/A" value="Не доступно" revision="0" />
   <Message key="- No section selected -" value="- Ничего не выделено -" revision="0" />
   <Message key="Can not retrieve file name" value="Невозможно получить имя файла" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="CLR Execution Engine не может быть запущен" revision="0" />
-  <Message key="Incorrect file format" value="Неверный формат файла" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Ошибка запуска исполнительного механизма CLR: {reason} (Код ошибки: {code})" revision="1" />
+  <Message key="Incorrect file format" value="Ошибка при извлечении интерфейса метаданных {interface} из CLR (код ошибки: {code}) Для использования этой функции требуется .NET {version}" revision="1" />
   <Message key="Error parsing metadata" value="Ошибка в разборе метаданных" revision="0" />
   <Message key="Can not disassemble method" value="Невозможно разобрать метод: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="Невозможно разобрать заголовок исключения" revision="0" />
@@ -76,6 +76,7 @@
   <Message key="Decimal" value="Десятичное" revision="0" />
   <Message key="Symbols…" value="Символы…" revision="0" />
   <Message key="Mode:" value="Режим:" revision="0" />
+  <Message key="Remember used settings" value="Запомнить набор команд и режим" revision="0" />
   <Message key="Find Window" value="Поиск" revision="0" />
   <Message key="Find" value="&amp;Найти" revision="0" />
   <Message key="Find All" value="Найти &amp;все" revision="0" />
@@ -98,9 +99,23 @@
   <Message key="Name:" value="Имя:" revision="0" />
   <Message key="Search" value="Найти" revision="0" />
   <Message key="Jump" value="Перейти" revision="0" />
+  <Message key="Custom" value="Пользовательский…" revision="0" />
+  <Message key="Custom Section" value="Пользовательский раздел" revision="0" />
+  <Message key="Physical address" value="Физический адрес:" revision="0" />
+  <Message key="Virtual size" value="Виртуальный адрес:" revision="0" />
+  <Message key="Pointer to raw data" value="Указатель на необработанные данные:" revision="0" />
+  <Message key="Size of raw data" value="Размер необработанных данных:" revision="0" />
+  <Message key="Image base" value="База:" revision="0" />
   <Message key="ExportOp" value="Экспорт инструкций…" revision="0" />
   <Message key="MsilWarning" value="Показывать предупреждение об установке MSIL" revision="0" />
   <Message key="DownloadNetButton" value="Скачать .NET 2.0 Runtime" revision="0" />
+  <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
+  <Message key="IncorrectInputText" value="Должно быть шестнадцатеричное значение" revision="0" />
+  <Message key="OffsetFormatTip" value="шестнадцатеричное значение" revision="0" />
+  <Message key="UserDefinedSection" value="Определено пользователем" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="Дизассемблирование модулей MSIL в настоящее время не поддерживается. Пожалуйста, дизассемблируйте модуль из файловой системы." revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="Дизассемблирование несохраненных модулей MSIL  не поддерживается. Пожалуйста, сначала сохраните файл." revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;текущий несохраненный файл&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Запустить дизассемблер…" revision="0" />
     <Item value="Разобрать исполняемый файл" revision="0" />
@@ -321,5 +336,10 @@
   <Enumeration key="FRTypeListDisasm">
     <Item value="Строка" revision="0" />
     <Item value="Строка UNICODE" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="Мета-хост не был инициализирован" revision="0" />
+    <Item value="Невозможно восстановить исходную версию .NET Framework" revision="0" />
+    <Item value="Невозможно загрузить среду выполнения CLR. Для использования этой функции требуется .NET {version}. Установите недостающие компоненты и повторите попытку." revision="0" />
   </Enumeration>
 </Language>

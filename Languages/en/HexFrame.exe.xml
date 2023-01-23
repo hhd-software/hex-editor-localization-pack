@@ -1068,7 +1068,7 @@
 		<Item text="Registry"/>
 		<Item text="Default per-user storage location."/>
 	</Enumeration>
-	<Enumeration key="Portable mode" description="Radio button: Portable mode" version="1">
+	<Enumeration key="Portable mode" description="Radio button: Portable mode">
 		<Item text="Portable mode"/>
 		<Item text="Store application settings in portable.hexset7 file in startup folder."/>
 	</Enumeration>

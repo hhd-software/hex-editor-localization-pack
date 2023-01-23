@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="Это навсегда удалит все снимки без возможности восстановления. Продолжить?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Включить память полностью при отладке снимков" revision="0" />
   <Message key="DumpCreation" value="Подготовка снимка к отладке" revision="0" />
+  <Message key="highlightRegions" value="Подсвечивать регионы памяти в редакторе" revision="0" />
   <Message key="NoSnapshotting" value="Windows 7 не поддерживает технологию снимков для процесса. Эта технология доступна начиная с Windows 8." revision="0" />
   <Message key="DumpFileFilter" value="Файлы дампов|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
