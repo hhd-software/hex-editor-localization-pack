@@ -17,8 +17,8 @@
   <Message key="N/A" value="Не доступно" revision="0" />
   <Message key="- No section selected -" value="- Нічого не виділено -" revision="0" />
   <Message key="Can not retrieve file name" value="Неможливо отримати ім'я файлу" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="CLR Execution Engine не може бути запущений" revision="0" />
-  <Message key="Incorrect file format" value="Невірний формат файлу" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Помилка запуску виконавчого механізму CLR: {reason} (Код помилки: {code})" revision="1" />
+  <Message key="Incorrect file format" value="Помилка під час вилучення інтерфейсу метаданих {interface} з CLR (код помилки: {code}) Для використання цієї функції потрібно .NET {version}" revision="1" />
   <Message key="Error parsing metadata" value="Помилка аналізу метаданих" revision="0" />
   <Message key="Can not disassemble method" value="Неможливо розібрати метод: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="Неможливо проаналізувати заголовок винятку" revision="0" />
@@ -76,6 +76,7 @@
   <Message key="Decimal" value="Десяткове" revision="0" />
   <Message key="Symbols…" value="Символи…" revision="0" />
   <Message key="Mode:" value="Режим:" revision="0" />
+  <Message key="Remember used settings" value="Запам'ятати набір команд та режим" revision="0" />
   <Message key="Find Window" value="Знайти" revision="0" />
   <Message key="Find" value="&amp;Знайти" revision="0" />
   <Message key="Find All" value="Знайти &amp;все" revision="0" />
@@ -98,9 +99,23 @@
   <Message key="Name:" value="Ім'я:" revision="0" />
   <Message key="Search" value="Знайти" revision="0" />
   <Message key="Jump" value="Перейти" revision="0" />
+  <Message key="Custom" value="Користувацький…" revision="0" />
+  <Message key="Custom Section" value="Користувацький розділ" revision="0" />
+  <Message key="Physical address" value="Фізична адреса:" revision="0" />
+  <Message key="Virtual size" value="Віртуальна адреса:" revision="0" />
+  <Message key="Pointer to raw data" value="Вказівник на необроблені дані:" revision="0" />
+  <Message key="Size of raw data" value="Розмір необроблених даних:" revision="0" />
+  <Message key="Image base" value="База:" revision="0" />
   <Message key="ExportOp" value="Експорт інструкцій…" revision="0" />
   <Message key="MsilWarning" value="Показати попередження про встановлення MSIL" revision="0" />
   <Message key="DownloadNetButton" value="Завантажте .NET 2.0 Runtime" revision="0" />
+  <Message key="IncorrectInputTitle" value="Некоректне введення" revision="0" />
+  <Message key="IncorrectInputText" value="Має бути шістнадцяткове значення" revision="0" />
+  <Message key="OffsetFormatTip" value="шістнадцяткове значення" revision="0" />
+  <Message key="UserDefinedSection" value="Визначено користувачем" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="Дизасемблювання модулів MSIL наразі не підтримується. Будь ласка, дизасемблюйте модуль із файлової системи." revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="Дизасемблювання незбережених модулів MSIL не підтримується. Будь ласка, спочатку збережіть файл." revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;нинішній незбережений файл&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Запустити Дизасемблер…" revision="0" />
     <Item value="Дизасемблювати виконуваний файл" revision="0" />
@@ -321,5 +336,10 @@
   <Enumeration key="FRTypeListDisasm">
     <Item value="Рядок" revision="0" />
     <Item value="UNICODE Рядок" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="Мета-хост не був ініціалізований" revision="0" />
+    <Item value="Неможливо відновити вихідну версію .NET Framework" revision="0" />
+    <Item value="Неможливо завантажити середовище виконання CLR. Для використання цієї функції потрібен .NET {version}. Встановіть компоненти, яких бракує, і повторіть спробу." revision="0" />
   </Enumeration>
 </Language>
