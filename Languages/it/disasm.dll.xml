@@ -17,8 +17,8 @@
   <Message key="N/A" value="Non Disponibile" revision="0" />
   <Message key="- No section selected -" value="- Nessuna Sezione Selezionata -" revision="0" />
   <Message key="Can not retrieve file name" value="Impossibile Recuperare Nome File" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="CLR Execution Engine Non può Avviarsi" revision="0" />
-  <Message key="Incorrect file format" value="Formato File Non Corretto" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Errore nell'avvio del motore di esecuzione CLR: {reason} (Codice di errore: {code})" revision="1" />
+  <Message key="Incorrect file format" value="Errore nel recupero dell'interfaccia {interface}  dei metadati dal CLR (Codice di errore: {code}) Per utilizzare questa funzione è necessario .NET {version}." revision="1" />
   <Message key="Error parsing metadata" value="Analisi Errore Metadati" revision="0" />
   <Message key="Can not disassemble method" value="Impossibile Smontare Metodo: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="Impossibile Analizzare Eccezione Intestazione" revision="0" />
@@ -76,6 +76,7 @@
   <Message key="Decimal" value="Decimale" revision="0" />
   <Message key="Symbols…" value="Simboli" revision="0" />
   <Message key="Mode:" value="Modalità:" revision="0" />
+  <Message key="Remember used settings" value="Ricordare il set di istruzioni e la modalità" revision="0" />
   <Message key="Find Window" value="Find" revision="0" />
   <Message key="Find" value="&amp;Trova" revision="0" />
   <Message key="Find All" value="Trova &amp;Tutto" revision="0" />
@@ -98,9 +99,23 @@
   <Message key="Name:" value="Nome:" revision="0" />
   <Message key="Search" value="Cerca" revision="0" />
   <Message key="Jump" value="Salto" revision="0" />
+  <Message key="Custom" value="Personalizzato…" revision="0" />
+  <Message key="Custom Section" value="Sezione personalizzata" revision="0" />
+  <Message key="Physical address" value="Indirizzo fisico:" revision="0" />
+  <Message key="Virtual size" value="Dimensione virtuale:" revision="0" />
+  <Message key="Pointer to raw data" value="Puntatore ai dati grezzi:" revision="0" />
+  <Message key="Size of raw data" value="Dimensione dei dati grezzi:" revision="0" />
+  <Message key="Image base" value="Base:" revision="0" />
   <Message key="ExportOp" value="Esportazione di istruzioni disassemblate…" revision="0" />
   <Message key="MsilWarning" value="Mostra l'avviso di installazione di MSIL" revision="0" />
   <Message key="DownloadNetButton" value="Scarica il Runtime .NET 2.0" revision="0" />
+  <Message key="IncorrectInputTitle" value="Ingresso non corretto" revision="0" />
+  <Message key="IncorrectInputText" value="Deve essere un valore esadecimale" revision="0" />
+  <Message key="OffsetFormatTip" value="valore esadecimale" revision="0" />
+  <Message key="UserDefinedSection" value="Definito dall'utente" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="Il disassemblaggio dei moduli MSIL mappati non è attualmente supportato. Si prega di smontare il modulo dal file system." revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="Il disassemblaggio di moduli MSIL non salvati non è attualmente supportato. Si prega di salvare prima il file." revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;file attuale non salvato&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Esegui Disassembler…" revision="0" />
     <Item value="Disassembla un File Eseguibile" revision="0" />
@@ -321,5 +336,10 @@
   <Enumeration key="FRTypeListDisasm">
     <Item value="Stringa" revision="0" />
     <Item value="Stringa UNICODE" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="Il meta host non è stato inizializzato" revision="0" />
+    <Item value="Impossibile recuperare la versione di compilazione originale di un assembly di .NET Framework" revision="0" />
+    <Item value="Impossibile caricare il Common Language Runtime (CLR). Per utilizzare questa funzione è necessario .NET {version}. Installare i componenti mancanti e riprovare." revision="0" />
   </Enumeration>
 </Language>

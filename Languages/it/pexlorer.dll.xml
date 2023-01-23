@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="In questo modo si eliminano definitivamente tutte le istantanee senza la possibilità di ripristinarle. Devo continuare?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Includere completamente la memoria durante il debug delle istantanee" revision="0" />
   <Message key="DumpCreation" value="Preparazione dell'istantanea per il debug" revision="0" />
+  <Message key="highlightRegions" value="Evidenziare le regioni di memoria nelle finestre dell'editor" revision="0" />
   <Message key="NoSnapshotting" value="Windows 7 non supporta la tecnologia di istantanea dei processi. Questa tecnologia è disponibile a partire da Windows 8." revision="0" />
   <Message key="DumpFileFilter" value="File dump|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
