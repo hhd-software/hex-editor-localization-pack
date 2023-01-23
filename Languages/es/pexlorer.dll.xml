@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="Esto borrará permanentemente todas las instantáneas sin posibilidad de restaurarlas. ¿Continúo?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Incluir la memoria completa al depurar instantáneas" revision="0" />
   <Message key="DumpCreation" value="Preparación de instantáneas para depuración" revision="0" />
+  <Message key="highlightRegions" value="Resaltar las regiones de memoria en las ventanas del editor" revision="0" />
   <Message key="NoSnapshotting" value="Windows 7 no es compatible con la tecnología de instantáneas de proceso. Esta tecnología está disponible a partir de Windows 8." revision="0" />
   <Message key="DumpFileFilter" value="Archivos de volcado de memoria|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
