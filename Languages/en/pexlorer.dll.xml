@@ -274,7 +274,7 @@
 		<Item text="Exited" />
 	</Enumeration>
 
-	<Message key="Snapshot creation error" description="Snapshot creation error" value="Error creating snapsot: {text} ({code})">
+	<Message key="Snapshot creation error" description="Snapshot creation error" value="Error creating snapshot: {text} ({code})">
 		<Param name="text"/>
 		<Param name="code" format="ub016x"/>
 	</Message>
@@ -287,6 +287,7 @@
 
 	<Message key="includeFullMemoryInSnapshotDebug" description="Option: Include full memory when debugging snapshots" value="Include full memory when debugging snapshots"/>
 	<Message key="DumpCreation" description="Title: Preparing Snapshot for Debugging" value="Preparing Snapshot for Debugging"/>
+	<Message key="highlightRegions" description="Option: Highlight regions" value="Highlight memory regions in editor windows" />
 
 	<Message key="NoSnapshotting" description="No snapshotting support on Windows 7" value="Windows 7 does not support process snapshotting technology. This technology is supported on Windows 8 or later OS versions."/>
 
