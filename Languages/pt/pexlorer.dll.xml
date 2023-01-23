@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="Isto irá apagar permanentemente todas as instantâneos sem possibilidade de as restaurar. Devo continuar?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Incluir totalmente a memória ao depurar instantâneos" revision="0" />
   <Message key="DumpCreation" value="Preparando instantâneo para a depuração" revision="0" />
+  <Message key="highlightRegions" value="Destacar regiões de memória nas janelas do editor" revision="0" />
   <Message key="NoSnapshotting" value="O Windows 7 não suporta a tecnologia de instantâneos de processos. Esta tecnologia está disponível a partir do Windows 8." revision="0" />
   <Message key="DumpFileFilter" value="Ficheiros de captura|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
