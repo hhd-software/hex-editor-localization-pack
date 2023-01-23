@@ -17,8 +17,8 @@
   <Message key="N/A" value="Pas disponible" revision="0" />
   <Message key="- No section selected -" value="- Pas de section sélectionnée -" revision="0" />
   <Message key="Can not retrieve file name" value="Impossible de récupérer le nom du fichier" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="Moteur d'exécution CLR ne peut pas démarrer" revision="0" />
-  <Message key="Incorrect file format" value="Format de fichier incorrect. " revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Erreur de démarrage du moteur d'exécution du CLR : {reason} (Code d'erreur :  {code})" revision="1" />
+  <Message key="Incorrect file format" value="Erreur de récupération de l'interface {interface} de métadonnées du CLR (Code d'erreur : {code}) .NET {version} est nécessaire pour utiliser cette fonction." revision="1" />
   <Message key="Error parsing metadata" value="Erreur d'analyse des meta-données" revision="0" />
   <Message key="Can not disassemble method" value="Impossible de désassembler fonction: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="Impossible d'analyser l'en-tête d'Exception" revision="0" />
@@ -76,6 +76,7 @@
   <Message key="Decimal" value="Décimale" revision="0" />
   <Message key="Symbols…" value="Symboles…" revision="0" />
   <Message key="Mode:" value="Mode:" revision="0" />
+  <Message key="Remember used settings" value="Se souvenir du jeu d'instructions et du mode" revision="0" />
   <Message key="Find Window" value="Rechercher" revision="0" />
   <Message key="Find" value="Rechercher" revision="0" />
   <Message key="Find All" value="Rechercher tout" revision="0" />
@@ -98,9 +99,23 @@
   <Message key="Name:" value="Nom:" revision="0" />
   <Message key="Search" value="Rechercher" revision="0" />
   <Message key="Jump" value="Prochain" revision="0" />
+  <Message key="Custom" value="Personnalisé…" revision="0" />
+  <Message key="Custom Section" value="Section personnalisée" revision="0" />
+  <Message key="Physical address" value="Physical address:" revision="0" />
+  <Message key="Virtual size" value="Adresse physique :" revision="0" />
+  <Message key="Pointer to raw data" value="Pointeur vers les données brutes :" revision="0" />
+  <Message key="Size of raw data" value="Taille des données brutes :" revision="0" />
+  <Message key="Image base" value="Base :" revision="0" />
   <Message key="ExportOp" value="Exportation d'instructions désassemblées…" revision="0" />
   <Message key="MsilWarning" value="Afficher l'avertissement d'installation de MSIL" revision="0" />
   <Message key="DownloadNetButton" value="Télécharger .NET 2.0 Runtime" revision="0" />
+  <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
+  <Message key="IncorrectInputText" value="Doit être une valeur hexadécimale" revision="0" />
+  <Message key="OffsetFormatTip" value="valeur hexadécimale" revision="0" />
+  <Message key="UserDefinedSection" value="Défini par l'utilisateur" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="Le désassemblage des modules MSIL mappés n'est pas pris en charge actuellement. Veuillez désassembler le module à partir du système de fichiers." revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="Le désassemblage des modules MSIL non sauvegardés n'est pas pris en charge actuellement. Veuillez d'abord enregistrer le fichier." revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;fichier courant non sauvegardé&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Lancer Désassembleur…" revision="0" />
     <Item value="Désassembler un fichier exécutable" revision="0" />
@@ -321,5 +336,10 @@
   <Enumeration key="FRTypeListDisasm">
     <Item value="Chaines de caractères" revision="0" />
     <Item value="Chaines de caractères UNICODE" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="Le méta-hôte n'a pas été initialisé" revision="0" />
+    <Item value="Impossible de récupérer la version de compilation originale de .NET Framework d'un assemblage" revision="0" />
+    <Item value="Impossible de charger le Common Language Runtime (CLR). .NET {version} est nécessaire pour utiliser cette fonctionnalité. Installez les composants manquants et réessayez." revision="0" />
   </Enumeration>
 </Language>

@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="Cela supprimera définitivement tous les instantanés de processus sans possibilité de récupération. Dois-je continuer ?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Inclure la mémoire complète lors du débogage des instantanés" revision="0" />
   <Message key="DumpCreation" value="Préparation du snapshot pour le débogage" revision="0" />
+  <Message key="highlightRegions" value="Mettre en évidence les régions de mémoire dans les fenêtres de l'éditeur" revision="0" />
   <Message key="NoSnapshotting" value="Windows 7 ne prend pas en charge la technologie des instantanés de processus. Cette technologie est disponible à partir de Windows 8." revision="0" />
   <Message key="DumpFileFilter" value="Fichiers dump|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
