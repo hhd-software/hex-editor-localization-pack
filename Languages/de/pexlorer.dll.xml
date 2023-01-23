@@ -29,6 +29,7 @@
   <Message key="AskClearSnapshots" value="Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?" revision="0" />
   <Message key="includeFullMemoryInSnapshotDebug" value="Voller Speicher beim Debuggen von Momentaufnahmen" revision="0" />
   <Message key="DumpCreation" value="Momentaufnahme für Debugging vorbereiten" revision="0" />
+  <Message key="highlightRegions" value="Speicherbereiche in Editorfenstern hervorheben" revision="0" />
   <Message key="NoSnapshotting" value="Windows 7 unterstützt die Prozess-Snapshot-Technologie nicht. Diese Technologie ist ab Windows 8 verfügbar." revision="0" />
   <Message key="DumpFileFilter" value="Dumpdateien|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">

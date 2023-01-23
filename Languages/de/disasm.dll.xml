@@ -17,8 +17,8 @@
   <Message key="N/A" value="Nicht Verfügbar" revision="0" />
   <Message key="- No section selected -" value="- Kein Abschnitt ausgewählt -" revision="0" />
   <Message key="Can not retrieve file name" value="Kann Dateinamen nicht abrufen" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="CLR Ausführungseinheit kann nicht gestartet werden" revision="0" />
-  <Message key="Incorrect file format" value="Falsches Dateiformat" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="Fehler beim Starten der CLR-Ausführungsengine: {reason} (Fehlercode: {code})" revision="1" />
+  <Message key="Incorrect file format" value="Fehler beim Abrufen der Metadatenschnittstelle {interface} aus der CLR (Fehlercode: {code}) .NET {version} ist erforderlich, um diese Funktion zu nutzen" revision="1" />
   <Message key="Error parsing metadata" value="Fehler beim Durchsuchen der Metadaten" revision="0" />
   <Message key="Can not disassemble method" value="Kann Methode nicht disassemblieren: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="Kann Ausnahme-Überschrift nicht durchsuchen" revision="0" />
@@ -76,6 +76,7 @@
   <Message key="Decimal" value="Dezimal" revision="0" />
   <Message key="Symbols…" value="Symbole…" revision="0" />
   <Message key="Mode:" value="Modus:" revision="0" />
+  <Message key="Remember used settings" value="Befehlssatz und Modus merken" revision="0" />
   <Message key="Find Window" value="Suchen" revision="0" />
   <Message key="Find" value="&amp;Suchen" revision="0" />
   <Message key="Find All" value="&amp;Alle suchen" revision="0" />
@@ -98,9 +99,23 @@
   <Message key="Name:" value="Namen:" revision="0" />
   <Message key="Search" value="Suchen" revision="0" />
   <Message key="Jump" value="Springen" revision="0" />
+  <Message key="Custom" value="Benutzerdefiniert…" revision="0" />
+  <Message key="Custom Section" value="Benutzerdefinierter Abschnitt" revision="0" />
+  <Message key="Physical address" value="Physische Adresse:" revision="0" />
+  <Message key="Virtual size" value="Virtuelle Größe:" revision="0" />
+  <Message key="Pointer to raw data" value="Zeiger auf Rohdaten:" revision="0" />
+  <Message key="Size of raw data" value="Größe der Rohdaten:" revision="0" />
+  <Message key="Image base" value="Basis:" revision="0" />
   <Message key="ExportOp" value="Exportieren disassemblierter Anweisungen…" revision="0" />
   <Message key="MsilWarning" value="MSIL-Installationswarnung anzeigen" revision="0" />
   <Message key="DownloadNetButton" value=".NET 2.0 Laufzeit herunterladen" revision="0" />
+  <Message key="IncorrectInputTitle" value="Falsche Eingabe" revision="0" />
+  <Message key="IncorrectInputText" value="Muss ein hexadezimaler Wert sein" revision="0" />
+  <Message key="OffsetFormatTip" value="hexadezimaler Wert" revision="0" />
+  <Message key="UserDefinedSection" value="Benutzer definiert" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="Das Disassemblieren von gemappten MSIL-Modulen wird derzeit nicht unterstützt. Bitte disassemblieren Sie das Modul aus dem Dateisystem." revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="Die Disassemblierung ungespeicherter MSIL-Module wird derzeit nicht unterstützt. Bitte speichern Sie die Datei zuerst." revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;ungespeicherte aktuelle Datei&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Disassembler starten…" revision="0" />
     <Item value="Disassembliert eine ausführbare Datei" revision="0" />
@@ -321,5 +336,10 @@
   <Enumeration key="FRTypeListDisasm">
     <Item value="Zeichenkette" revision="0" />
     <Item value="UNICODE Zeichenketter" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="Meta-Host wurde nicht initialisiert" revision="0" />
+    <Item value="Die ursprüngliche .NET Framework-Kompilierungsversion einer Assembly kann nicht abgerufen werden" revision="0" />
+    <Item value="Die Common Language Runtime (CLR) kann nicht geladen werden. .NET {version} ist erforderlich, um diese Funktion zu verwenden. Installieren Sie die fehlenden Komponenten und versuchen Sie es erneut." revision="0" />
   </Enumeration>
 </Language>
