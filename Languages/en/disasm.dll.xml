@@ -206,8 +206,18 @@
 	<Message key="N/A" description="Not Available" value="Not Available"/>
 	<Message key="- No section selected -" description="- No section selected -"/>
 	<Message key="Can not retrieve file name" description="Can not retrieve file name"/>
-	<Message key="CLR Execution Engine can not start" description="CLR Execution Engine can not start"/>
-	<Message key="Incorrect file format" description="Incorrect file format"/>
+
+	<Message key="CLR Execution Engine can not start" value="Error starting CLR Execution Engine: {reason} (Error code: {code})" description="CLR Execution Engine can not start" revision="1">
+		<Param name="reason"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="Incorrect file format" value="Error retrieving metadata interface {interface} from CLR (Error code: {code}) .NET {version} is required to use this feature" description="Incorrect file format" revision="1">
+		<Param name="interface"/>
+		<Param name="code" format="ub016x"/>
+		<Param name="version"/>
+	</Message>
+
 	<Message key="Error parsing metadata" description="Error parsing metadata"/>
 	<Message key="Can not disassemble method" description="Can not disassemble method" value="Can not disassemble method: {method}">
 		<Param name="method"/>
@@ -343,6 +353,7 @@
 	<Message key="Decimal" description="Choice: Decimal"/>
 	<Message key="Symbols…" description="Button: Symbols…"/>
 	<Message key="Mode:" description="Field: Mode"/>
+	<Message key="Remember used settings" description="Checkbox: Remember instruction set and mode" value="Remember Instructution Set and Mode"/>
 
 	<!-- Find -->
 	<Message key="Find Window" description="Find window title" value="Find"/>
@@ -356,7 +367,7 @@
 	<!-- Go To -->
 	<Message key="Go To" description="Go To window title"/>
 	<Message key="Raw address" description="Choice: Raw address"/>
-	<Message key="Virtual address" description="Choice: Virtual address"/>
+	<Message key="Virtual address" description="Choice or field: Virtual address"/>
 
 	<!-- Details -->
 	<Message key="Details" description="Details window title"/>
@@ -374,6 +385,15 @@
 	<Message key="Search" description="Button: Search"/>
 	<Message key="Jump" description="Button: Jump"/>
 
+	<Message key="Custom" description="Button: Custom" value="Custom…"/>
+	<!-- Sections -->
+	<Message key="Custom Section" description="Window Title: Custom Section"/>
+	<Message key="Physical address" description="Field: Physical Address" value="Physical address:"/>
+	<Message key="Virtual size" description="Field: Virtual Size" value="Virtual size:"/>
+	<Message key="Pointer to raw data" description="Field: Pointer to Raw Data" value="Pointer to raw data:"/>
+	<Message key="Size of raw data" description="Field: Size of Raw Data" value="Size of raw data:"/>
+	<Message key="Image base" description="User defined section name" value="Image base:"/>
+
 	<!-- Operations -->
 	<Message key="ExportOp" description="Exporting…" value="Exporting disassembled instructions…" />
 
@@ -390,5 +410,20 @@
 		<Item text="UNICODE String"/>
 	</Enumeration>
 
+	<Message key="IncorrectInputTitle" description="Error text: Incorrect offset error title" value="Incorrect input" />
+	<Message key="IncorrectInputText" description="Error text: Incorrect offset error text" value="Must be hexadecimal value"/>
+	<Message key="OffsetFormatTip" description="Offset format tip text" value="hexadecimal value"/>
+	<Message key="UserDefinedSection" description="User defined section name" value="User defined"/>
 
+	<Message key="MsilFeatureNotAvailable" description="Feature not available for MSIL" value="Disassembling mapped MSIL modules is not currently supported. Please disassemble the module from the file system."/>
+	<Message key="MsilFeatureNotAvailable2" description="Usaved file disassembly is not available for MSIL" value="Unsaved MSIL modules disassembly is not currently supported. Please save file first."/>
+	<Message key="UnsavedCurrentFile" description="Unnsaved file title" value="&lt;unsaved current file&gt;"/>
+
+	<Enumeration key="CLRErrorReasons" description="List of CLR errors">
+		<Item text="Meta host was not initialized"/>
+		<Item text="Unable to retrieve an assembly's original .NET Framework compilation version"/>
+		<Item text="Unable to load common language runtime (CLR). .NET {version} is required to use this feature. Install missing components and try again.">
+			<Param name="version"/>
+		</Item>
+	</Enumeration>
 </Definition>
