@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="ScriptingGoToDefinition">
     <Item value="정의로 가기" revision="0" />
@@ -13,7 +13,7 @@
     <Item value="식별자의 모든 참조 검색" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item value="기호로 가기…" revision="0" />
+    <Item value="기호로 가기..." revision="0" />
     <Item value="기호 정의로 이동합니다" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">
