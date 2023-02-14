@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="GotoLine" value="{line} 번호 {first} - {last}" revision="0" />
   <Message key="GoToHeader" value="{v}(으)로 가기" revision="0" />
@@ -38,7 +38,7 @@
   <Message key="InvalidColoringScheme" value="색 구성표 이름이 잘못되었습니다." revision="0" />
   <Message key="OverwriteColoringScheme" value="지정된 구성표가 있습니다. 재정의하시겠습니까?" revision="0" />
   <Enumeration key="EditReplace">
-    <Item value="바꾸기…" revision="0" />
+    <Item value="바꾸기..." revision="0" />
     <Item value="바꿀 텍스트" revision="0" />
   </Enumeration>
 </Language>
