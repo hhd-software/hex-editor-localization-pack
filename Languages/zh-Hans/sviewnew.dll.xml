@@ -4,7 +4,6 @@
   <Message key="Assertion Failed" value="声明失败{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="无法估算界定表达式" revision="0" />
   <Message key="Structure Viewer" value="结构查看器" revision="0" />
-  <Message key="Initializing" value="正在初始化数据检查器" revision="0" />
   <Message key="Structure Errors" value="结构错误" revision="0" />
   <Message key="Error accessing Clipboard" value="访问剪贴板错误" revision="0" />
   <Message key="ModifiedSuffix" value="(已修改)" revision="0" />
@@ -84,7 +83,6 @@
   <Message key="EmptyDefinition" value="定义文本为空" revision="0" />
   <Message key="AddInspectType" value="增加类型定义" revision="0" />
   <Message key="EditInspectType" value="编辑类型定义" revision="0" />
-  <Message key="StructureFormats" value="结构定义文件 (*.h)|*.h|" revision="0" />
   <Message key="DeleteStructFile" value="删除选择的文件错误: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="保存文件错误 &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Message key="FileNotSaved" value="当前文档已经被修改。你想要保存吗？" revision="0" />
@@ -94,7 +92,6 @@
   <Message key="Background color:" value="背景色:" revision="0" />
   <Message key="Text color:" value="文本颜色:" revision="0" />
   <Message key="Outline color:" value="轮廓颜色" revision="0" />
-  <Message key="Default" value="默认" revision="0" />
   <Message key="Add Inspector Type" value="添加检查器类型" revision="0" />
   <Message key="Change Time" value="更改时间" revision="0" />
   <Message key="AssignNotification" value="此类型不允许数据修改.点击帮助按钮获取如何为此类型启用数据编辑的详细信息." revision="0" />
@@ -106,6 +103,26 @@
   <Message key="UntrustedEditor" value="你正在使用如下命令行尝试启动未信任的外部编辑器:\r\n\r\n{path}\r\n\r\n确定要继续? 如果按下是，这个程序会被标记为可信任的。" revision="0" />
   <Message key="TypeExists" value="使用相同名称的类型已经存在。" revision="0" />
   <Message key="StructureFileNotFound" value="位置 &quot;{path}&quot; 中没有发现文件 {file} 。你想要从库中移除它吗？" revision="0" />
+  <Message key="toolbar.StructureViewer" value="结构查看器" revision="0" />
+  <Message key="toolbar.DataInspector" value="数据检查器" revision="0" />
+  <Message key="OpenStructureViewer" value="显示 &quot;显示结构浏览器 &quot;信息" revision="0" />
+  <Message key="Open Structure Viewer" value="打开结构浏览器" revision="0" />
+  <Message key="Open Online Repository" value="在在线资源库中查找更多的结构定义" revision="0" />
+  <Message key="Skip" value="跳过" revision="0" />
+  <Message key="NoDefinitionText" value="目前，这种文件类型还没有可用的结构定义。你可以轻松地[[[hcreate your own]]]并立即开始使用它。" revision="0" />
+  <Message key="ConfirmResetAll" value="这将恢复所有运送的结构定义文件、预定义方案和文件关联。一些或所有的定制可能会丢失。\n\n你确定要继续吗？" revision="0" />
+  <Message key="clr.sview_colors" value="结构查看器的颜色" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="绑定的数据背景" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="绑定数据笔划" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="绑定数据文本" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="所选字段背景" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="所选数据笔划" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="所选字段文本" revision="0" />
+  <Message key="Structure Definition Library Update" value="结构定义库更新" revision="0" />
+  <Message key="DefLibrary Title Text" value="已在线找到结构查看器定义库的更新。您可以查看自当前版本以来发生的更改列表。按“立即更新”按钮下载更新。" revision="0" />
+  <Message key="&amp;Update Now" value="&amp;立即更新" revision="0" />
+  <Message key="Settings" value="&amp;设置…" revision="0" />
+  <Message key="Online Repository" value="联机存储库…" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="绑定..." revision="0" />
     <Item value="绑定新结构" revision="0" />
@@ -137,6 +154,10 @@
   <Enumeration key="StructureViewerAutorefresh">
     <Item value="自动刷新" revision="0" />
     <Item value="如果更改了数据，将自动刷新结构。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="在线定义库" revision="0" />
+    <Item value="打开在线定义库存储库" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
     <Item value="在线资源库..." revision="0" />
@@ -230,6 +251,10 @@
     <Item value="转到域定义" revision="1" />
     <Item value="打开包含当前域定义的结构定义文件" revision="1" />
   </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="转到值" revision="1" />
+    <Item value="转到由数值定义的偏移量" revision="1" />
+  </Enumeration>
   <Enumeration key="StructureViewerCopyQName">
     <Item value="复制限定名" revision="1" />
     <Item value="复制域限定名到剪贴板" revision="1" />
@@ -318,13 +343,25 @@
     <Item value="标准类型" revision="0" />
     <Item value="用户类型" revision="0" />
   </Enumeration>
-  <Enumeration key="StructureNew">
-    <Item value="新结构文件(&amp;N)..." revision="0" />
-    <Item value="创建新结构定义文件" revision="0" />
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="新&amp;结构文件" revision="0" />
+    <Item value="创建空的结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="新建&amp;Kaitai 文件" revision="0" />
+    <Item value="创建空的Kaitai定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="打开&amp;结构文件..." revision="0" />
+    <Item value="打开结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="添加&amp;当前结构文件" revision="0" />
+    <Item value="在库中添加活动结构定义文件" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="添加结构文件(&amp;A)..." revision="0" />
-    <Item value="向库中附加已经存在的结构定义文件" revision="0" />
+    <Item value="&amp;添加结构文件..." revision="1" />
+    <Item value="将现有的结构定义文件追加到库中" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
     <Item value="保存全部结构文件(&amp;A)" revision="0" />
@@ -360,5 +397,9 @@
     <Item value="逗号" revision="0" />
     <Item value="制表符" revision="0" />
     <Item value=" 分号 " revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="打开结构浏览器" revision="0" />
+    <Item value="Hex Editor Neo包含该文件类型的结构定义，并且已经解析了其结构。您想打开结构查看器工具窗口来查看解析后的数据吗？" revision="0" />
   </Enumeration>
 </Language>

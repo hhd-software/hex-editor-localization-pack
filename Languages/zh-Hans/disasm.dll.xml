@@ -2,6 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="通用" revision="0" />
   <Message key="Function name" value="函数名称" revision="0" />
+  <Message key="Little endian" value="小端" revision="0" />
+  <Message key="Big endian" value="大端" revision="0" />
   <Message key="Headers" value="PE 文件头" revision="0" />
   <Message key="InvalidAddress" value="无效的地址，请输入正确的地址。" revision="0" />
   <Message key="InvalidLength" value="无效的长度，请输入一个有效的长度。" revision="0" />
@@ -11,12 +13,12 @@
   <Message key="WrongAddress" value="输入的地址大于此文档的大小，请输入正确的地址。" revision="0" />
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo 无法反汇编大于 {max size} 大小的文件，{?is too big}反汇编开始自 {from} 到 {to} (大小 = {size})，要继续吗？" revision="0" />
   <Message key="Locked" value="此文档目前被锁定，请以后重复操作。" revision="0" />
-  <Message key="FormatString" value="所有可执行文件|*.exe;*.dll;*.sys;*.ocx|可执行文件 (*.exe)|*.exe|动态链接库文件 (*.dll)|*.dll|ActiveX 库文件 (*.ocx)|*.ocx|驱动程序文件 (*.sys)|*.sys|" revision="0" />
+  <Message key="FormatString" value="所有可执行文件|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|可执行文件 (*.exe)|*.exe|动态链接库(*.dll)|*.dll|ActiveX库 (*.ocx)|*.ocx|驱动程序 (*.sys)|*.sys|可执行和可链接格式|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="不可用" revision="0" />
   <Message key="- No section selected -" value="- 未选择节 -" revision="0" />
   <Message key="Can not retrieve file name" value="无法获取文件名" revision="0" />
-  <Message key="CLR Execution Engine can not start" value="无法启动 CLR 执行引擎" revision="0" />
-  <Message key="Incorrect file format" value="不正确的文件格式" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="启动CLR执行引擎时出错:{reason}(错误代码:{code})" revision="1" />
+  <Message key="Incorrect file format" value="从CLR中检索元数据接口{interface}时出错(错误代码:{code})。需要使用. NET {version}才能使用此功能" revision="1" />
   <Message key="Error parsing metadata" value="解析媒体数据错误" revision="0" />
   <Message key="Can not disassemble method" value="无法反汇编方法: {method}" revision="0" />
   <Message key="Can not parse Exception Header" value="无法解析异常的 PE  文件头" revision="0" />
@@ -25,7 +27,6 @@
   <Message key="Go" value="转到" revision="0" />
   <Message key="Go To:" value="转到:" revision="0" />
   <Message key="Text" value="文本" revision="0" />
-  <Message key="Loading" value="正在载入反汇编器" revision="0" />
   <Message key="Disassembler" value="反汇编器" revision="0" />
   <Message key="ShowImplicitOperands" value="显示隐式操作数" revision="0" />
   <Message key="ShowPrefixes" value="显示前缀" revision="0" />
@@ -74,6 +75,8 @@
   <Message key="Hexadecimal" value="十六进制" revision="0" />
   <Message key="Decimal" value="十进制" revision="0" />
   <Message key="Symbols…" value="符号..." revision="0" />
+  <Message key="Mode:" value="模式：" revision="0" />
+  <Message key="Remember used settings" value="记住指令集和模式" revision="0" />
   <Message key="Find Window" value="查找" revision="0" />
   <Message key="Find" value="查找(&amp;F)" revision="0" />
   <Message key="Find All" value="全部查找(&amp;A)" revision="0" />
@@ -96,7 +99,23 @@
   <Message key="Name:" value="名称:" revision="0" />
   <Message key="Search" value="搜索" revision="0" />
   <Message key="Jump" value="跳转" revision="0" />
-  <Message key="string" value="字符串" revision="0" />
+  <Message key="Custom" value="自定义…" revision="0" />
+  <Message key="Custom Section" value="自定义部分" revision="0" />
+  <Message key="Physical address" value="物理地址：" revision="0" />
+  <Message key="Virtual size" value="虚拟大小：" revision="0" />
+  <Message key="Pointer to raw data" value="指向原始数据的指针：" revision="0" />
+  <Message key="Size of raw data" value="原始数据大小：" revision="0" />
+  <Message key="Image base" value="映像地址" revision="0" />
+  <Message key="ExportOp" value="导出反汇编指令…" revision="0" />
+  <Message key="MsilWarning" value="显示MSIL安装警告" revision="0" />
+  <Message key="DownloadNetButton" value="下载.NET 2.0运行时" revision="0" />
+  <Message key="IncorrectInputTitle" value="输入不正确" revision="0" />
+  <Message key="IncorrectInputText" value="必须是十六进制的数值" revision="0" />
+  <Message key="OffsetFormatTip" value="十六进制值" revision="0" />
+  <Message key="UserDefinedSection" value="用户自定义" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="目前不支持反汇编映射的MSIL模块。请从文件系统中反汇编模块。" revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="当前不支持未保存的MSIL模块反汇编。请先保存文件。" revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;unsaved current file&gt;" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="运行反汇编器..." revision="0" />
     <Item value="反汇编一个可执行文件" revision="0" />
@@ -146,6 +165,20 @@
     <Item value="SFEQOF" revision="0" />
     <Item value="SFNEOF" revision="0" />
   </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="溢出" revision="0" />
+    <Item value="方向" revision="0" />
+    <Item value="负的" revision="0" />
+    <Item value="相等" revision="0" />
+    <Item value="嵌套任务" revision="0" />
+    <Item value="方向" revision="0" />
+    <Item value="继续" revision="0" />
+    <Item value="中断" revision="0" />
+    <Item value="捕捉" revision="0" />
+    <Item value="辅助进位" revision="0" />
+  </Enumeration>
   <Enumeration key="SymTags">
     <Item value="函数" revision="0" />
     <Item value="数据" revision="0" />
@@ -163,9 +196,78 @@
     <Item value="值" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmTypes">
-    <Item value="x86 (32 位包括 FPO/MMX/SSE/SSE2/3DNow!)" revision="0" />
-    <Item value="x64" revision="0" />
-    <Item value="MSIL (.NET)" revision="0" />
+    <Item value="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM（包括Thumb、Thumb-2）" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="Sparc" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (including MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item value="MOS 6502" revision="0" />
+    <Item value="WDC 65c02" revision="0" />
+    <Item value="WDC W65c02" revision="0" />
+    <Item value="WDC 65816, 8-bit m/x" revision="0" />
+    <Item value="WDC 65816, 16-bit m, 8-bit x" revision="0" />
+    <Item value="WDC 65816, 8-bit m, 16-bit x" revision="0" />
+    <Item value="WDC 65816, m/x" revision="0" />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item value="RV32G" revision="0" />
+    <Item value="RV64G" revision="0" />
+    <Item value="压缩指令" revision="0" />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item value="M68K 68000" revision="0" />
+    <Item value="M68K 68010" revision="0" />
+    <Item value="M68K 68020" revision="0" />
+    <Item value="M68K 68030" revision="0" />
+    <Item value="M68K 68040" revision="0" />
+    <Item value="M68K 68060" revision="0" />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item value="M680X Hitachi 6301,6303" revision="0" />
+    <Item value="M680X Hitachi 6309" revision="0" />
+    <Item value="M680X Motorola 6800,6802" revision="0" />
+    <Item value="M680X Motorola 6801,6803" revision="0" />
+    <Item value="M680X Motorola/Freescale 6805" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC08" revision="0" />
+    <Item value="M680X Motorola 6809" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC11" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP CPU12" revision="0" />
+    <Item value="M680X Freescale/NXP HCS08" revision="0" />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item value="64位" revision="0" />
+    <Item value="四元处理扩展" revision="0" />
+    <Item value="Signal处理引擎" revision="0" />
+    <Item value="Book-E" revision="0" />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item value="Sparc V8" revision="0" />
+    <Item value="Sparc V9" revision="0" />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item value="Mips32位" revision="0" />
+    <Item value="Mips64位" revision="0" />
+    <Item value="MicroMips" revision="0" />
+    <Item value="Mips III" revision="0" />
+    <Item value="Mips32r6" revision="0" />
+    <Item value="Mips II" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item value="Thumb/Thumb-2" revision="0" />
+    <Item value="Cortex-M" revision="0" />
+    <Item value="ARMv8" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
     <Item value="反汇编器" revision="0" />
@@ -226,5 +328,18 @@
   <Enumeration key="Availability">
     <Item value="不可用" revision="0" />
     <Item value="可用" revision="0" />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item value="MSIL安装警告" revision="0" />
+    <Item value="使用此功能需要安装.NET 2.0。单击以下链接下载：" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="字符串" revision="0" />
+    <Item value="UNICODE字符串" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="元宿主机未被初始化" revision="0" />
+    <Item value="无法检索一个程序集的原始.NET框架编译版本" revision="0" />
+    <Item value="无法加载通用语言运行时（CLR）。使用此功能需要.NET {版本}。安装缺失的组件并重试。" revision="0" />
   </Enumeration>
 </Language>

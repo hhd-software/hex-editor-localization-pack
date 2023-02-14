@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="找不到元数据" revision="0" />
+  <Message key="FileNotFound" value="找不到文件:{filename}" revision="0" />
+  <Message key="TypeNotFound" value="找不到类型:{type}" revision="0" />
+  <Message key="IdNotFound" value="找不到id:{ type }" revision="0" />
+  <Message key="CastError" value="无法将类型{src_type}转换为{dst_type}" revision="0" />
+  <Message key="BitwiseOpError" value="位运算的左边操作数类型不合法。必须是一个整数。" revision="0" />
+  <Message key="MethodNotFound" value="方法不存在。" revision="0" />
+  <Message key="ResultNotANumber" value=" 'repeat-expr' 的结果不是一个数字。" revision="0" />
+  <Message key="InvalidArgument" value="无效的参数" revision="0" />
+  <Message key="ParamsNumMistmatch" value="无效的参数数。估计：{est}，收到：{fact}。" revision="0" />
+  <Message key="SizeConflictError" value="必须指定'size'或'size-eos'中的一种。" revision="0" />
+  <Message key="NoRepeatError" value="'repeat-expr'块中没有表达式。" revision="0" />
+  <Message key="NoUntilError" value="在'repeat-until'块中没有表达式。" revision="0" />
+  <Message key="BracketsError" value="Bracket未正确关闭。" revision="0" />
+  <Message key="CannotMatch" value="值'{value}'无法匹配类型'{type}'的值" revision="0" />
+  <Message key="ContentsError" value="必须是字节或字符串数组" revision="0" />
+  <Message key="ParsingError" value="解析错误。期望:{est}在{fact}处" revision="0" />
+  <Message key="PathNotFound" value="找不到路径:{path}" revision="0" />
+  <Message key="NotAScope" value="并非是一个范围" revision="0" />
+  <Message key="UnknownParam" value="未知参数类型：{类型}" revision="0" />
+  <Message key="WrongEndian" value="元字段'{field}'中未知的endian类型。必须是'be'或'le'。" revision="0" />
+</Language>

@@ -17,6 +17,7 @@
   <Message key="FileNotParsed" value="未知文件节点" revision="0" />
   <Message key="FilenameAttributeError" value="解析文件属性错误在记录 {record}" revision="0" />
   <Message key="CopyFileError" value="复制文件错误 &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="复制sparse、压缩或加密文件尚未实现: &quot;{filename}&quot;" revision="0" />
   <Message key="WriteFileError" value="写文件错误: &quot;{filename}&quot;" revision="0" />
   <Message key="DiskFull" value="没有足够的磁盘空间来复制文件 &quot;{filename}&quot;.  最少需要 {filesize} 空闲空间。" revision="0" />
   <Message key="CopyWarning" value="文件 &quot;{filename}&quot; 已存在。你想要覆盖或跳过？" revision="0" />
@@ -41,6 +42,7 @@
   <Message key="CSFileNotFound" value="结构文件 &quot;{filename}&quot; 未找到。" revision="0" />
   <Message key="CSRootNotFound" value="根结构 {name} 未找到。" revision="0" />
   <Message key="CSBindVolumeError" value="解析卷时发生错误。方案 &quot;{name}&quot;, 错误: {error}" revision="0" />
+  <Message key="UnknownPartition" value="分割[{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="无效的 PrivHead 头。" revision="0" />
   <Message key="LDMParseErrorTocHeader" value="无效的 TocBlock 头。" revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="无效的 Vmdb 头。" revision="0" />
@@ -54,6 +56,7 @@
   <Message key="Root structure:" value="根结构:" revision="0" />
   <Message key="Directory entry structure:" value="目录项结构:" revision="0" />
   <Message key="File entry structure:" value="文件节点结构:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="卷导航仪" revision="0" />
   <Enumeration key="SizeSuffix">
     <Item value="字节" revision="0" />
     <Item value="KB" revision="0" />
@@ -107,5 +110,16 @@
   <Enumeration key="FeatureDiskEditor">
     <Item value="卷导航器" revision="1" />
     <Item value="卷导航器扫描和显示卷的文件系统结构，帮助查找文件位置和恢复受损的文件或文件夹。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="未知" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="未分配的" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>

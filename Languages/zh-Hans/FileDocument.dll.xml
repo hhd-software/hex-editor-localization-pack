@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="你确实想取消此操作吗？这将损坏此文件。" revision="1" />
   <Message key="OccFound" value="截止目前已找到 {N} 个匹配项。" revision="1" />
-  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo 5 复制的数据" revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo复制数据" revision="3" />
   <Message key="DefaultBranchName" value="默认" revision="1" />
   <Message key="Continue working with a file." value="继续执行与一个文件相关的操作。" revision="1" />
   <Message key="Discard all changes and close the file." value="放弃所有更改并关闭此文件。" revision="1" />
@@ -11,7 +11,6 @@
   <Message key="ClassExists" value="此类已存在，请更改类名。" revision="1" />
   <Message key="DeleteClasses?" value="你确实想删除所有类吗？" revision="1" />
   <Message key="LoadError" value="内部错误: {text} ({code})" revision="1" />
-  <Message key="Loading" value="正在载入核心组件" revision="1" />
   <Message key="CheckForLowDiskSpace" value="执行操作前检查最低磁盘空间需求" revision="1" />
   <Message key="IgnoreRenames" value="忽略重命名共享打开的文件" revision="1" />
   <Message key="RemovedNotification" value="共享文档已删除" revision="1" />
@@ -20,7 +19,7 @@
   <Message key="OldVersion" value="{name} (旧版本 {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: 创建文档对象错误: {text} ({code})" revision="2" />
   <Message key="LongTime" value="以共享方式打开 &quot;{path}&quot; 文件可能花费很长的时间，你想以正常、锁定方式替代打开此文件吗？" revision="1" />
-  <Message key="OpenError" value="&quot;{path}&quot;: 打开文档错误: {text} ({code})" revision="2" />
+  <Message key="OpenError" value="&quot;{path}&quot;: 打开文档时出错: {text} ({code})" revision="3" />
   <Message key="LowDiskSpace" value="磁盘 {disk} 上的可用空间太小，将无法执行此操作，请先删除一些文件后重试。\r\n\r\n注意： 当包含临时文件的磁盘可用空间太小时，将禁用大多数的 Hex Editor Neo 操作，但 不会禁用 &quot;另存为&quot;操作，以便允许你保存对此文件的更改到其它卷中。\r\n\r\n你可以通过菜单 &quot;工具-&gt;设置-&gt;常规选项卡&quot; 禁用此勾选，取消勾选 &quot;执行操作前检查最低磁盘空间需求&quot; 禁用此选项。" revision="1" />
   <Message key="Unknown Process" value="未知的进程" revision="1" />
   <Message key="Physical Memory" value="物理内存" revision="1" />
@@ -51,6 +50,7 @@
   <Message key="SnapshotTitle" value="从快照打开" revision="0" />
   <Message key="SnapshotDescription" value="Hex Editor Neo 打开 &quot;{path}&quot; 发生如下错误:\r\n    » {text} ({code})\r\n\r\n你要尝试创建一个卷快照并从快照中打开文件吗？" revision="0" />
   <Message key="RegExp settings" value="正则表达式类 " revision="0" />
+  <Message key="Shortcut files" value="快捷方式文件" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="忽略更改" revision="1" />
     <Item value="关闭此文件" revision="1" />

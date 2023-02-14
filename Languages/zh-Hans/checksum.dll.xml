@@ -1,103 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Calculating Checksums" value="正在计算校验和" revision="1" />
-  <Message key="8-bit sum" value="8 位校验和" revision="1" />
-  <Message key="16-bit sum" value="16 位校验和" revision="1" />
-  <Message key="32-bit sum" value="32 位校验和" revision="1" />
-  <Message key="64-bit sum" value="64 位校验和" revision="1" />
-  <Message key="Zero bits" value="0位" revision="0" />
+  <Message key="Calculating Checksums" value="计算校验码" revision="1" />
+  <Message key="8-bit sum" value="8位校验码" revision="1" />
+  <Message key="16-bit sum" value="16位校验码" revision="1" />
+  <Message key="32-bit sum" value="32位校验码" revision="1" />
+  <Message key="64-bit sum" value="64位校验码" revision="1" />
+  <Message key="Zero bits" value="零位" revision="0" />
   <Message key="One bits" value="1位" revision="0" />
-  <Message key="Sum of Little-Endian 16-bit values" value="小端序 16 位值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 16-bit values" value="大端序 16 位值的校验和" revision="1" />
-  <Message key="Sum of Little-Endian 32-bit values" value="小端序 32 位值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 32-bit values" value="大端序 32 位值的校验和" revision="1" />
-  <Message key="Sum of Little-Endian 64-bit values" value="小端序 64 位值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 64-bit values" value="大端序 64 位值的校验和" revision="1" />
-  <Message key="Sum of 8-bit signed values" value="8 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Little-Endian 16-bit signed values" value="小端序 16 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 16-bit signed values" value="大端序 16 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Little-Endian 32-bit signed values" value="小端序 32 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 32-bit signed values" value="大端序 32 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Little-Endian 64-bit signed values" value="小端序 64 位有符号值的校验和" revision="1" />
-  <Message key="Sum of Big-Endian 64-bit signed values" value="大端序 64 位有符号值的校验和" revision="1" />
-  <Message key="Custom CRC" value="自定义 CRC" revision="1" />
-  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="某些值不适合 16 位，请提供 16 位值：范围从 0 到 0xFFFF(65536)。" revision="1" />
-  <Message key="Loading checksums" value="正在载入校验和" revision="1" />
-  <Message key="Initializing checksums" value="正在初始化校验和" revision="1" />
-  <Message key="Checksum" value="校验和" revision="1" />
-  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="校验和功能计算一个选定的数据或整个文档的各种校验和。" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit values" value="小端16位值的校验码值" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="大端16位值的校验码值" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="小端32位值的校验码值" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="大端32位值的校验码值" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="小端64位值的校验码值" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="大端64位值的校验码值" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="8 位有符号的校验码值" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="小端16位值校验码有符号的值" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="大端16位值校验码有符号的值" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="小端32位值校验码有符号的值" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="大端32位值校验码有符号的值" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="小端64位值校验码有符号的值" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="大端64位值校验码有符号的值" revision="1" />
+  <Message key="Custom CRC" value="自定义CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="有些值不适合16位。请提供16位值：范围从0到0xFFFF（65535）。" revision="1" />
+  <Message key="Checksum" value="校验码" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="校验和功能计算所选数据或整个文档的各种校验码。" revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32位" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32位" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64位" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64位" revision="0" />
+  <Message key="Custom FNV" value="自定义FNV-1" revision="0" />
   <Message key="N/A" value="N/A" revision="1" />
-  <Message key="Please wait until all pending operations are completed." value="请稍侯，直到完成所有挂起的操作。" revision="1" />
-  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="制表符分隔的文本文件 (*.tsv)|*.tsv|所有文件|*||" revision="1" />
-  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: 初始值={initial}，多项式={polynom}, XOR 结果={xor}，{reflection_in}{reflection_out}" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="请等待，直到所有待处理的操作都完成。" revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="以制表符分隔的文本文件 (*.tsv)|*.tsv|All Files|*||" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Initial={initial}, 多项式={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64位t{|is64bit}32位{?is64bit}: 最初的={prime}, 偏移基准={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="校验码" revision="0" />
   <Message key="Add Algorithm" value="添加算法" revision="1" />
-  <Message key="Select the algorithm to add from the list below:" value="从下面的列表中选择要添加的算法:" revision="1" />
-  <Message key="Custom CRC Parameters" value="自定义 CRC 参数" revision="1" />
-  <Message key="Initial Value:" value="初始值:" revision="1" />
-  <Message key="Polynomial:" value="多项式:" revision="1" />
-  <Message key="XOR Out:" value="XOR 结果:" revision="1" />
-  <Message key="Hex" value="十六进制:" revision="2" />
-  <Message key="Decimal" value="十进制:" revision="2" />
-  <Message key="Reflection In" value="反转输入" revision="1" />
-  <Message key="Reflection Out" value="反转输出" revision="1" />
-  <Message key="Name:" value="名字:" revision="0" />
-  <Message key="Checksum Result" value="校验和结果" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="从下面的列表中选择要添加的算法：" revision="1" />
+  <Message key="Custom CRC Parameters" value="自定义CRC参数" revision="1" />
+  <Message key="Initial Value:" value="初始值：" revision="1" />
+  <Message key="Polynomial:" value="多项式的：" revision="1" />
+  <Message key="XOR Out:" value="XOR输出：" revision="1" />
+  <Message key="Hex" value="十六进制：" revision="2" />
+  <Message key="Decimal" value="十进制：" revision="2" />
+  <Message key="Reflection In" value="反射在" revision="1" />
+  <Message key="Reflection Out" value="反射输出" revision="1" />
+  <Message key="Name:" value="名称：" revision="0" />
+  <Message key="Checksum Result" value="校验码结果" revision="1" />
   <Message key="Copy" value="复制" revision="1" />
-  <Message key="Size:" value="大小:" revision="1" />
-  <Message key="Separator:" value="分隔符:" revision="1" />
-  <Message key="Checksum settings" value="校验和" revision="0" />
+  <Message key="Size:" value="大小：" revision="1" />
+  <Message key="Separator:" value="分隔符：" revision="1" />
+  <Message key="Checksum settings" value="校验值" revision="0" />
+  <Message key="Custom FNV Parameters" value="自定义FNV-1参数" revision="0" />
+  <Message key="32-bit" value="32-bit" revision="0" />
+  <Message key="64-bit" value="64-bit" revision="0" />
+  <Message key="Prime:" value="最初的：" revision="0" />
+  <Message key="Offset basis:" value="偏移基准：" revision="0" />
+  <Message key="Version:" value="版本:" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="无分隔符" revision="1" />
     <Item value="空格 (' ')" revision="1" />
     <Item value="逗号 (',')" revision="1" />
     <Item value="破折号 ('-')" revision="1" />
-    <Item value="冒号 (':')" revision="1" />
+    <Item value="冒号(':')" revision="1" />
     <Item value="分号 (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="简易功能求和器" revision="1" />
-    <Item value="多功能求和器" revision="1" />
-    <Item value="校验和" revision="1" />
-    <Item value="哈希" revision="1" />
-    <Item value="有符号的和" revision="1" />
+    <Item value="简单的求和器" revision="2" />
+    <Item value="更多的求和器" revision="2" />
+    <Item value="校验码" revision="2" />
+    <Item value="Fowler–Noll–Vo (FNV) 哈希值" revision="2" />
+    <Item value="哈希值" revision="2" />
+    <Item value="有符号的和" revision="2" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
-    <Item value="校验和(&amp;C)" revision="0" />
-    <Item value="校验和" revision="0" />
+    <Item value="&amp;校验码" revision="0" />
+    <Item value="校验码菜单" revision="0" />
   </Enumeration>
   <Enumeration key="Application range">
-    <Item value="仅选择" revision="1" />
+    <Item value="仅限选择" revision="1" />
     <Item value="整个文档" revision="1" />
   </Enumeration>
   <Enumeration key="Checksum window columns">
     <Item value="算法" revision="1" />
-    <Item value="值 (十六进制)" revision="1" />
-    <Item value="值 (十进制)" revision="1" />
+    <Item value="值(十六进制)" revision="1" />
+    <Item value="值(十进制)" revision="1" />
     <Item value="参数" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumDisplayResult">
     <Item value="显示结果" revision="0" />
-    <Item value="显示选定的校验和结果" revision="0" />
+    <Item value="显示选定的校验码结果" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
     <Item value="刷新" revision="0" />
-    <Item value="开始计算校验和" revision="0" />
+    <Item value="开始校验码计算" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
-    <Item value="全部勾选" revision="1" />
-    <Item value="勾选所有算法" revision="1" />
+    <Item value="检查所有" revision="1" />
+    <Item value="开启所有算法" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumUncheckAll">
-    <Item value="取消全部勾选" revision="1" />
-    <Item value="取消勾选所有算法" revision="1" />
+    <Item value="取消全选" revision="1" />
+    <Item value="关闭所有算法" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCopy">
     <Item value="复制" revision="1" />
     <Item value="复制选定的结果到剪贴板中" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCopyAll">
-    <Item value="全部复制" revision="1" />
-    <Item value="复制所有结果到剪贴板中" revision="1" />
+    <Item value="复制全部" revision="1" />
+    <Item value="将所有结果复制到剪贴板上" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumExport">
     <Item value="导出..." revision="1" />
@@ -108,12 +120,12 @@
     <Item value="配置算法参数" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumAddAlgorithm">
-    <Item value="添加算法..." revision="1" />
+    <Item value="添加算法…" revision="1" />
     <Item value="添加新算法" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumRemoveAlgorithm">
-    <Item value="移除算法" revision="1" />
-    <Item value="移除当前选定的算法" revision="1" />
+    <Item value="删除算法" revision="1" />
+    <Item value="删除当前选定的算法" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumResetAlgorithms">
     <Item value="重置算法列表" revision="1" />

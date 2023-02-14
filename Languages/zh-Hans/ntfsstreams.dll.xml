@@ -34,6 +34,7 @@
   <Message key="Exclude:" value="排除:" revision="0" />
   <Message key="(regular expression)" value="(正则表达式)" revision="0" />
   <Message key="Include sub-folders" value="包含子文件夹" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="NTFS数据流" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="创建流(&amp;C)..." revision="0" />
     <Item value="创建新文件流" revision="0" />

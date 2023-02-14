@@ -5,9 +5,8 @@
   <Message key="Invalid path specified" value="指定的路径无效" revision="0" />
   <Message key="ErrorCopyingFolders" value="(复制文件夹错误)" revision="0" />
   <Message key="ErrorCopyingFiles" value="复制下列文件错误:" revision="0" />
-  <Message key="Loading" value="正在载入资源管理器" revision="0" />
-  <Message key="Initializing" value="正在初始化资源管理器" revision="0" />
   <Message key="Explorer settings" value="浏览器" revision="0" />
+  <Message key="toolbar.Explorer" value="资源管理器" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="上一个" revision="0" />
     <Item value="转到上一个位置" revision="0" />

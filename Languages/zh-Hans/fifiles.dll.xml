@@ -9,8 +9,6 @@
   <Message key="Invalid folder list syntax." value="无效的文件夹列表语法。" revision="1" />
   <Message key="Find All" value="查找全部" revision="1" />
   <Message key="Replace All" value="替换全部" revision="1" />
-  <Message key="Loading Find in Files" value="正在载入文件中查找" revision="1" />
-  <Message key="Initializing Find in Files" value="正在初始化文件中查找" revision="1" />
   <Message key="Notifications" value="通知" revision="1" />
   <Message key="Find in Files" value="文件中查找" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="你想取消当前操作吗？" revision="1" />
@@ -34,6 +32,7 @@
   <Message key="Move Down" value="下移(&amp;D)" revision="1" />
   <Message key="Folder list:" value="文件夹列表:" revision="1" />
   <Message key="All opened documents" value="所有已打开的文档" revision="0" />
+  <Message key="toolbar.FindInFiles" value="在文件中查找" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="正在打开" revision="1" />
     <Item value="正在保存" revision="1" />

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item value="转至定义" revision="0" />
+    <Item value="打开标识符定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item value="窥视定义" revision="0" />
+    <Item value="窥视标识符的定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item value="查找所有参考资料" revision="0" />
+    <Item value="搜索一个标识符的所有引用" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item value="转到符号..." revision="0" />
+    <Item value="导航到符号定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item value="改变所有发生的情况" revision="0" />
+    <Item value="改变一个符号的所有出现方式" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item value="格式文件" revision="0" />
+    <Item value="整个文件的格式" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item value="指令调色板" revision="0" />
+    <Item value="打开编辑器指令调色板" revision="0" />
+  </Enumeration>
+</Language>

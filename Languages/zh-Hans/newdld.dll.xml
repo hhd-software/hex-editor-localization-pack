@@ -9,7 +9,6 @@
   <Message key="Do you want to cancel all active download tasks?" value="你想取消所有活动的下载任务吗？" revision="1" />
   <Message key="Proxy Page" value="代理" revision="0" />
   <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="选择一个用于 &quot;检查更新&quot; 的代理设置:" revision="0" />
-  <Message key="Default" value="默认" revision="0" />
   <Message key="Autodetect proxy settings" value="自动检测代理设置" revision="0" />
   <Message key="Do not use proxy" value="不使用代理" revision="0" />
   <Message key="Use the following proxy (HTTP):" value="使用下面的代理(HTTP):" revision="0" />
@@ -24,6 +23,7 @@
   <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo 安全地存储输入的密码到你的本地用户账户中)" revision="0" />
   <Message key="PasswordMismatch" value="输入的密码必须匹配。" revision="0" />
   <Message key="Downloader settings" value="代理设置" revision="0" />
+  <Message key="toolbar.Downloader" value="下载" revision="0" />
   <Enumeration key="MenuDownloader">
     <Item value="下载器" revision="0" />
     <Item value="下载器" revision="0" />

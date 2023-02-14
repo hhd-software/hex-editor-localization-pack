@@ -15,13 +15,10 @@
   <Message key="These attributes can not be applied." value="无法应用这些属性。" revision="0" />
   <Message key="Error setting file time." value="设置文件时间错误。" revision="0" />
   <Message key="Multiple" value="多个" revision="0" />
-  <Message key="Sample Text" value="示例文本" revision="0" />
   <Message key="RegExpPattern" value="正则表达式: {pattern}" revision="0" />
   <Message key="History" value="历史" revision="0" />
   <Message key="Pattern Coloring" value="模式颜色" revision="0" />
   <Message key="Base Converter" value="基数转换器" revision="0" />
-  <Message key="Loading" value="正在载入历史和颜色" revision="0" />
-  <Message key="Initializing" value="正在初始化历史和颜色" revision="0" />
   <Message key="PatchFileFilter" value="补丁文件 (*.hexpatch)|*.hexpatch|可执行文件 (*.exe)|*.exe|" revision="0" />
   <Message key="Forks" value="{opname} ({items} items{has_forks?}, {forks} fork(s){?has_forks})" revision="0" />
   <Message key="Switch To" value="切换到" revision="0" />
@@ -37,12 +34,12 @@
   <Message key="Error writing to the file" value="写入到文件错误" revision="0" />
   <Message key="Error reading from the file" value="从文件读取错误" revision="0" />
   <Message key="Select Colors" value="选择颜色" revision="0" />
-  <Message key="PColFilter" value="模式颜色方案文件 (.*pcs)|*.pcs|" revision="1" />
+  <Message key="PColFilter" value="图案着色方案文件|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="当前方案将被丢失，你想继续吗？" revision="0" />
   <Message key="The file has different version" value="此文件有不同的版本" revision="0" />
   <Message key="Clear Coloring Scheme" value="清除颜色方案" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="当前项将被移除，你想继续吗？" revision="0" />
-  <Message key="RuleFmt" value="模式颜色规则 {n}" revision="0" />
+  <Message key="RuleFmt" value="[[[u图案着色规则 {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} 用 {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} 超过{|has_more_p}{has_1_p?}{ms?} 在{|ms} 在{?ms}{?has_1_p}{?has_more_p}{ms?} 多项选择{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="名称: {name}\r\n\r\n分支: {branch}" revision="0" />
   <Message key="NotSupported" value="此函数不支当前的文档类型。" revision="0" />
@@ -75,7 +72,6 @@
   <Message key="Second color:" value="第二个颜色:" revision="0" />
   <Message key="Outline color:" value="轮廓颜色:" revision="0" />
   <Message key="Selected Color:" value="选择的颜色" revision="0" />
-  <Message key="Default" value="默认" revision="0" />
   <Message key="Select All" value="全选" revision="0" />
   <Message key="Item color:" value="项颜色:" revision="0" />
   <Message key="Text color:" value="文本颜色:" revision="0" />
@@ -116,6 +112,11 @@
   <Message key="Round edges" value="圆角边" revision="0" />
   <Message key="Change Time" value="更改时间" revision="0" />
   <Message key="PatternColoring settings" value="模式颜色" revision="0" />
+  <Message key="toolbar.Attributes" value="属性" revision="0" />
+  <Message key="toolbar.Coloring" value="图案着色" revision="0" />
+  <Message key="toolbar.Statistics" value="统计数字" revision="0" />
+  <Message key="toolbar.History" value="历史" revision="0" />
+  <Message key="toolbar.History Window" value="历史记录树窗口" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="清除历史" revision="0" />
     <Item value="清除历史" revision="0" />
@@ -189,8 +190,8 @@
     <Item value="在图中不显示峰值" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="#128;定义…" revision="0" />
-    <Item value="定义模式" revision="0" />
+    <Item value="设定…" revision="1" />
+    <Item value="设定图案" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
     <Item value="全部折叠" revision="0" />
@@ -428,13 +429,5 @@
   <Enumeration key="FeatureBranches">
     <Item value="历史分支" revision="0" />
     <Item value="历史分支功能允许你在不同的历史分支中保留撤销操作，你可以切换到那个分支，然后从那个分支复制数据等等。" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureSaveHistory">
-    <Item value="保存历史" revision="0" />
-    <Item value="保存历史功能允许你保存整个命令列表，因此，你可以在以后载入它并保留与你的文件相关的操作(撤销-重做以及分支都将可用)" revision="0" />
-  </Enumeration>
-  <Enumeration key="FeatureLoadHistory">
-    <Item value="载入历史" revision="0" />
-    <Item value="载入历史功能允许你载入带有可用的撤销-重做命令的整个历史，就像你保留了与文档相关的操作一样。" revision="0" />
   </Enumeration>
 </Language>
