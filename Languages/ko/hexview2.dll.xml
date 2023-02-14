@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="탐색" revision="0" />
   <Message key="Offset" value="오프셋" revision="1" />
@@ -23,8 +23,8 @@
   <Message key="Connect to" value="연결 위치" revision="1" />
   <Message key="ConnectToSuccess" value="Windows가 성공적으로 연결되었습니다." revision="1" />
   <Message key="ConnectToFailure" value="잘못된 창을 선택했습니다. 선택한 창에 연결할 수 없습니다." revision="1" />
-  <Message key="Copying Selection Regions…" value="선택 영역 복사 중…" revision="1" />
-  <Message key="Exporting Selection Regions…" value="선택 영역을 내보내는 중…" revision="1" />
+  <Message key="Copying Selection Regions…" value="선택 영역 복사 중..." revision="1" />
+  <Message key="Exporting Selection Regions…" value="선택 영역을 내보내는 중..." revision="1" />
   <Message key="Open documentation section and continue" value="설명서 섹션을 열고 계속합니다" revision="1" />
   <Message key="Just continue" value="그냥 계속" revision="1" />
   <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
@@ -147,13 +147,13 @@
   <Message key="File pattern:" value="파일 패턴:" revision="0" />
   <Message key="Interlacing:" value="인터레이싱:" revision="0" />
   <Message key="Layout Schemes" value="레이아웃 구성표" revision="0" />
-  <Message key="&amp;Save As…" value="다른 이름으로 저장(&amp;S)…" revision="0" />
+  <Message key="&amp;Save As…" value="다른 이름으로 저장(&amp;S)..." revision="0" />
   <Message key="Load Selection" value="불러오기 선택" revision="0" />
   <Message key="Loading Mode" value="불러오기 모드" revision="0" />
   <Message key="New selection" value="새 선택" revision="0" />
   <Message key="Add to current" value="현재에 더하기" revision="0" />
   <Message key="Subtract from current" value="현재에서 빼기" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주십시오…" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주십시오..." revision="0" />
   <Message key="0 % done" value="0 % 완료" revision="0" />
   <Message key="Elapsed time: " value="경과 시간:" revision="0" />
   <Message key="Remaining time:" value="남은 시간:" revision="0" />
@@ -254,7 +254,7 @@
     <Item value="수정된 데이터 선택" revision="1" />
   </Enumeration>
   <Enumeration key="SelectRange">
-    <Item value="범위 선택(R)…" revision="1" />
+    <Item value="범위 선택(R)..." revision="1" />
     <Item value="데이터 범위를 지정하고 현재 선택 항목과 결합합니다" revision="1" />
   </Enumeration>
   <Enumeration key="SelectLoad">
@@ -274,7 +274,7 @@
     <Item value="삽입 모드 켜기 또는 끄기" revision="1" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item value="찾기(&amp;F)…" revision="1" />
+    <Item value="찾기(&amp;F)..." revision="1" />
     <Item value="패턴 또는 모든 패턴 발생 찾기" revision="1" />
   </Enumeration>
   <Enumeration key="EditFindNext">
@@ -286,7 +286,7 @@
     <Item value="이전 패턴 발생 찾기" revision="1" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item value="바꾸기(&amp;R)…" revision="1" />
+    <Item value="바꾸기(&amp;R)..." revision="1" />
     <Item value="패턴을 다른 패턴으로 바꾸기" revision="1" />
   </Enumeration>
   <Enumeration key="EditFill">
@@ -302,7 +302,7 @@
     <Item value="파일의 특정 간격띄우기로 가기" revision="1" />
   </Enumeration>
   <Enumeration key="EditSetSize">
-    <Item value="파일 크기 변경(&amp;S)…" revision="1" />
+    <Item value="파일 크기 변경(&amp;S)..." revision="1" />
     <Item value="파일의 크기 변경" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertFile">
@@ -314,7 +314,7 @@
     <Item value="인코딩" revision="1" />
   </Enumeration>
   <Enumeration key="ViewConnect">
-    <Item value="연결 대상(&amp;C)…" revision="1" />
+    <Item value="연결 대상(&amp;C)..." revision="1" />
     <Item value="이 창을 다른 창과 연결" revision="1" />
   </Enumeration>
   <Enumeration key="ViewHex">
@@ -410,7 +410,7 @@
     <Item value="바이트 순서 전환" revision="0" />
   </Enumeration>
   <Enumeration key="EditEncrypt">
-    <Item value="암호화(&amp;Y)…" revision="1" />
+    <Item value="암호화(&amp;Y)..." revision="1" />
     <Item value="문서 데이터 암호화" revision="1" />
   </Enumeration>
   <Enumeration key="EditDecrypt">
@@ -418,7 +418,7 @@
     <Item value="문서 데이터 암호 해독" revision="1" />
   </Enumeration>
   <Enumeration key="EditModifyBits">
-    <Item value="비트 수정…" revision="1" />
+    <Item value="비트 수정..." revision="1" />
     <Item value="비트 수정" revision="1" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
@@ -430,11 +430,11 @@
     <Item value="단일 선택 모드 켜기 또는 끄기" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseNOT">
-    <Item value="비트 NOT(&amp;N)…" revision="1" />
+    <Item value="비트 NOT(&amp;N)..." revision="1" />
     <Item value="비트로 NOT 연산 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseOR">
-    <Item value="비트 OR(&amp;O)…" revision="1" />
+    <Item value="비트 OR(&amp;O)..." revision="1" />
     <Item value="비트로 OR 연산 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseAND">
@@ -446,7 +446,7 @@
     <Item value="비트로 XOR 연산 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticNegation">
-    <Item value="부정(&amp;E)…" revision="1" />
+    <Item value="부정(&amp;E)..." revision="1" />
     <Item value="산술 부정 연산 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticAddition">
@@ -466,7 +466,7 @@
     <Item value="산술 나눗셈 작업 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticRemainder">
-    <Item value="나머지(&amp;A)…" revision="1" />
+    <Item value="나머지(&amp;A)..." revision="1" />
     <Item value="나머지 산술 연산 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMinimum">
@@ -478,27 +478,27 @@
     <Item value="최대값 설정 작업 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalLeft">
-    <Item value="논리적 왼쪽 이동(&amp;G)…" revision="1" />
+    <Item value="논리적 왼쪽 이동(&amp;G)..." revision="1" />
     <Item value="논리적 왼쪽 시프트 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalRight">
-    <Item value="논리적 오른쪽 이동(&amp;C)…" revision="1" />
+    <Item value="논리적 오른쪽 이동(&amp;C)..." revision="1" />
     <Item value="논리적 오른쪽 시프트 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftArithmeticLeft">
-    <Item value="산술적 왼쪽 이동(&amp;L)…" revision="1" />
+    <Item value="산술적 왼쪽 이동(&amp;L)..." revision="1" />
     <Item value="산술적 왼쪽 시프트 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftArithmeticRight">
-    <Item value="산술적 오른쪽 이동(&amp;M)…" revision="1" />
+    <Item value="산술적 오른쪽 이동(&amp;M)..." revision="1" />
     <Item value="산술적 오른쪽 시프트 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftRotateLeft">
-    <Item value="왼쪽으로 회전(&amp;T)…" revision="1" />
+    <Item value="왼쪽으로 회전(&amp;T)..." revision="1" />
     <Item value="왼쪽 시프트 회전 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftRotateRight">
-    <Item value="오른쪽으로 회전(&amp;H)…" revision="1" />
+    <Item value="오른쪽으로 회전(&amp;H)..." revision="1" />
     <Item value="오른쪽 시프트 회전 작업을 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationCaseLower">
@@ -514,11 +514,11 @@
     <Item value="대소문자 반전 전환" revision="1" />
   </Enumeration>
   <Enumeration key="OperationReverseBits">
-    <Item value="역 비트(&amp;R)…" revision="1" />
+    <Item value="역 비트(&amp;R)..." revision="1" />
     <Item value="비트 역방향 작업 수행" revision="1" />
   </Enumeration>
   <Enumeration key="OperationReverseBytes">
-    <Item value="바이트 교환…" revision="1" />
+    <Item value="바이트 교환..." revision="1" />
     <Item value="바이트 교환 작업 수행" revision="1" />
   </Enumeration>
   <Enumeration key="ViewRefresh">
@@ -530,7 +530,7 @@
     <Item value="선택 영역 목록을 클립보드에 복사" revision="1" />
   </Enumeration>
   <Enumeration key="SelectExport">
-    <Item value="선택 영역 내보내기…" revision="1" />
+    <Item value="선택 영역 내보내기..." revision="1" />
     <Item value="선택 영역 목록을 파일로 내보냅니다" revision="1" />
   </Enumeration>
   <Enumeration key="OutputClear">
