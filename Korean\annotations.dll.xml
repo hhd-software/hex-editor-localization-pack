@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="데이터 주석" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="&quot;{file}&quot;에 대한 데이터 주석이 변경되었습니다. 업데이트된 주석을 저장하시겠습니까?" revision="0" />
+  <Message key="MaxAnnotationsError" value="이 문서에 대해 작성할 수 있는 주석 수({number})의 제한에 도달했습니다." revision="0" />
+  <Message key="toolbar.Annotations" value="주석" revision="0" />
+  <Message key="ExtSuffixFilter" value="허용 기호: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="주석 범위" revision="0" />
+  <Message key="Start:" value="시작:" revision="0" />
+  <Message key="End:" value="끝:" revision="0" />
+  <Message key="Text:" value="Annotation text:" revision="1" />
+  <Message key="IncorrectInputTitle" value="잘못된 입력" revision="0" />
+  <Message key="IncorrectInputText" value="16진수 값이어야 합니다" revision="0" />
+  <Message key="Annotations Storage Location" value="주석 저장 위치" revision="0" />
+  <Message key="Auto Select" value="자동 선택" revision="0" />
+  <Message key="NTFS Stream" value="NTFS 스트림" revision="0" />
+  <Message key="File extension suffix:" value="파일 확장자 접미사:" revision="0" />
+  <Message key="Custom Folder:" value="사용자 지정 폴더:" revision="0" />
+  <Message key="Clear annotations cache" value="주석 캐시 지우기" revision="0" />
+  <Message key="clr.ann_colors" value="주석 색상" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="주석 배경" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="주석 윤곽선" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="주석 텍스트" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="주석" revision="0" />
+    <Item value="주석 기능을 사용하면 데이터 범위에 주석을 추가할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="주석 추가..." revision="0" />
+    <Item value="새 주석 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="주석 제거" revision="0" />
+    <Item value="주석 제거" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="주석 지우기" revision="0" />
+    <Item value="모든 주석 제거" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="주석(&amp;A)" revision="0" />
+    <Item value="주석 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="커서 주석..." revision="0" />
+    <Item value="커서 위치에 데이터 주석 달기" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="선택 항목에 주석..." revision="0" />
+    <Item value="현재 선택 항목에 주석 추가" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="주석 텍스트 편집" revision="0" />
+    <Item value="선택한 주석 항목 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="추가" revision="1" />
+    <Item value="적용" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="번호" revision="0" />
+    <Item value="주소" revision="0" />
+    <Item value="크기" revision="0" />
+    <Item value="텍스트" revision="0" />
+  </Enumeration>
+</Language>
