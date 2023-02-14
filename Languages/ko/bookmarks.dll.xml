@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Bookmarks" value="북마크" revision="0" />
   <Message key="Progress" value="현재 작업이 진행 중입니다. 완료될 때까지 기다려 주십시오." revision="0" />
@@ -49,7 +49,7 @@
     <Item value="현재 선택 영역을 북마크로 변환" revision="0" />
   </Enumeration>
   <Enumeration key="BookBookmarkToSelection">
-    <Item value="선택할 북마크…" revision="0" />
+    <Item value="선택할 북마크..." revision="0" />
     <Item value="현재 북마크를 선택 항목으로 변환" revision="0" />
   </Enumeration>
   <Enumeration key="BookLoad">
@@ -57,7 +57,7 @@
     <Item value="파일에서 책갈피 불러오기" revision="0" />
   </Enumeration>
   <Enumeration key="BookSave">
-    <Item value="북마크 저장…" revision="0" />
+    <Item value="북마크 저장..." revision="0" />
     <Item value="북마크를 파일에 저장" revision="0" />
   </Enumeration>
   <Enumeration key="MenuBookmarks">
