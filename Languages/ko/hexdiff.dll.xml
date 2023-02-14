@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Different" value="Different" revision="0" />
+  <Message key="FilterOperationName" value="파일 비교 결과 필터링" revision="0" />
+  <Message key="Different" value="차이" revision="0" />
   <Message key="Not Found" value="찾을 수 없음" revision="0" />
   <Message key="IdenticalNotification" value="파일 비교: 동일한 파일의 NTFS 스트림" revision="0" />
   <Message key="File Comparison" value="파일 비교" revision="0" />
@@ -17,13 +18,15 @@
   <Message key="Removed blocks" value="제거된 블록" revision="0" />
   <Message key="Modified blocks" value="수정된 블록" revision="0" />
   <Message key="Color Selection" value="색상 선택" revision="0" />
+  <Message key="Compare Results Filter" value="비교 결과 필터" revision="0" />
+  <Message key="Edit Filter Condition" value="필터 조건 편집" revision="0" />
   <Message key="Compare Files" value="파일 비교" revision="0" />
   <Message key="First file:" value="첫 번째 파일:" revision="0" />
   <Message key="Second file:" value="두 번째 파일:" revision="0" />
   <Message key="Comparison method:" value="비교 방법:" revision="0" />
   <Message key="Align documents:" value="문서 정렬:" revision="0" />
   <Message key="Synchronize windows" value="창 동기화" revision="0" />
-  <Message key="Colors…" value="색상…" revision="0" />
+  <Message key="Colors…" value="색상..." revision="0" />
   <Message key="Swap" value="교환" revision="0" />
   <Message key="toolbar.Compare Files" value="파일 비교" revision="0" />
   <Message key="clr.fc_colors" value="파일 비교 색상" revision="0" />
@@ -37,12 +40,16 @@
   <Message key="clr.fc_colors.inserted.stroke" value="삽입 영역 텍스트" revision="0" />
   <Message key="clr.fc_colors.removed.fill" value="제거된 영역 배경" revision="0" />
   <Message key="clr.fc_colors.removed.stroke" value="제거된 영역 텍스트" revision="0" />
+  <Message key="Compare Files Report" value="비교 보고서" revision="0" />
+  <Message key="Total" value="전체" revision="0" />
+  <Message key="Condition:" value="상태:" revision="0" />
+  <Message key="then" value="그 다음에" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="다시 비교" revision="0" />
     <Item value="파일 다시 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCompareFiles">
-    <Item value="파일 비교…" revision="0" />
+    <Item value="파일 비교..." revision="0" />
     <Item value="파일 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
@@ -66,7 +73,7 @@
     <Item value="다음 블록으로 가기" revision="0" />
   </Enumeration>
   <Enumeration key="DiffColor">
-    <Item value="색상 선택…" revision="0" />
+    <Item value="색상 선택..." revision="0" />
     <Item value="블록을 강조 표시하는 데 사용되는 색상 선택" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCombine">
@@ -74,17 +81,17 @@
     <Item value="두 파일의 블록을 동시에 표시" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilter">
-    <Item />
-    <Item />
+    <Item value="필터 구성..." revision="0" />
+    <Item value="지정된 기준에 따라 비교 결과 필터링" revision="0" />
   </Enumeration>
   <Enumeration key="DiffReport">
-    <Item />
-    <Item />
+    <Item value="비교 보고서 표시" revision="0" />
+    <Item value="비교 결과 통계 표시" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
-    <Item value="단순 비교 알고리즘" revision="0" />
-    <Item value="차분 알고리즘" revision="0" />
-    <Item />
+    <Item value="단순 비교 알고리즘" revision="1" />
+    <Item value="차이 알고리즘" revision="1" />
+    <Item value="차이 알고리즘(대체)" revision="1" />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="정렬 안 함" revision="0" />
@@ -96,9 +103,9 @@
     <Item value="정밀" revision="0" />
   </Enumeration>
   <Enumeration key="ReportColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="유형" revision="0" />
+    <Item value="블록" revision="0" />
+    <Item value="크기, 바이트" revision="0" />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="파일 비교" revision="0" />
@@ -134,41 +141,41 @@
     <Item value="크기" revision="0" />
   </Enumeration>
   <Enumeration key="FilterOperations">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="같음" revision="0" />
+    <Item value="보다 적은" revision="0" />
+    <Item value="보다 큰" revision="0" />
+    <Item value="작거나 같음" revision="0" />
+    <Item value="크거나 같음" revision="0" />
   </Enumeration>
   <Enumeration key="FilterType">
-    <Item />
-    <Item />
+    <Item value="포함" revision="0" />
+    <Item value="제외" revision="0" />
   </Enumeration>
   <Enumeration key="FilterSchemeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="활동" revision="0" />
+    <Item value="열" revision="0" />
+    <Item value="작업" revision="0" />
+    <Item value="값" revision="0" />
+    <Item value="행동" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterAdd">
-    <Item />
-    <Item />
+    <Item value="필터 규칙 추가" revision="0" />
+    <Item value="현재 구성표에 필터 규칙 추가" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterEdit">
-    <Item />
-    <Item />
+    <Item value="필터 규칙 편집" revision="0" />
+    <Item value="현재 구성표에서 필터 규칙 편집" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterRemove">
-    <Item />
-    <Item />
+    <Item value="필터 규칙 제거" revision="0" />
+    <Item value="현재 구성표에서 필터 규칙 제거" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterReset">
-    <Item />
-    <Item />
+    <Item value="모든 필터 구성표 변경 사항 롤백" revision="0" />
+    <Item value="모든 구성표 변경사항 롤백" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterSwitch">
-    <Item />
-    <Item />
+    <Item value="필터링 사용/사용 안 함" revision="0" />
+    <Item value="필터링 사용/사용 안 함" revision="0" />
   </Enumeration>
 </Language>
