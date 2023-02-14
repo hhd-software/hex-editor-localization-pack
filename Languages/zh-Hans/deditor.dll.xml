@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="复制文件" revision="0" />
+  <Message key="Volume Errors" value="卷错误" revision="0" />
+  <Message key="CantParse" value="解析属性错误" revision="0" />
+  <Message key="SequenceNumberError" value="更新文件记录 {number} 的序列号时发生错误" revision="0" />
+  <Message key="InvalidFileRecord" value="无效的文件记录: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="未知属性类型: {type}" revision="0" />
+  <Message key="MagicMismatch" value="解析索引块错误: Magic不匹配" revision="0" />
+  <Message key="IndexSNError" value="解析索引块序列号错误" revision="0" />
+  <Message key="NoFilenameStream" value="索引节点不存在文件名流: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="簇超出 DataRun 边界" revision="0" />
+  <Message key="DataRunLengthError" value="DataRun 长度错误: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="DataRun 解码错误: 大小 = {size}, 偏移 = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="DataRun 解码错误: VCN 超出边界" revision="0" />
+  <Message key="DataRunLCN" value="解码 DataRun 错误: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="未知文件节点" revision="0" />
+  <Message key="FilenameAttributeError" value="解析文件属性错误在记录 {record}" revision="0" />
+  <Message key="CopyFileError" value="复制文件错误 &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="复制sparse、压缩或加密文件尚未实现: &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="写文件错误: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="没有足够的磁盘空间来复制文件 &quot;{filename}&quot;.  最少需要 {filesize} 空闲空间。" revision="0" />
+  <Message key="CopyWarning" value="文件 &quot;{filename}&quot; 已存在。你想要覆盖或跳过？" revision="0" />
+  <Message key="CreateFileError" value="{error} 文件: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="卷导航器不支持这个文件系统" revision="0" />
+  <Message key="VolumeNavigator" value="卷导航器" revision="0" />
+  <Message key="CopyStats" value="{files} 文件已复制.\r\n{folders} 文件夹已复制.\r\n{bytes} 字节已复制.\r\n{failed} 文件失败\r\n{skipped} 文件跳过." revision="0" />
+  <Message key="Copy Files Report" value="复制文件报告" revision="0" />
+  <Message key="Overwrite Warning" value="覆盖警告" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="在所有冲突中执行同样操作(&amp;D)" revision="0" />
+  <Message key="&amp;Overwrite" value="覆盖(&amp;O)" revision="0" />
+  <Message key="&amp;Skip" value="跳过(&amp;S)" revision="0" />
+  <Message key="OverwriteWarning" value="方案 &quot;{schemename}&quot; 已经存在。你想要覆盖它吗?" revision="0" />
+  <Message key="UnsavedWarning" value="当前的方案还没有保存。你想现在就保存吗？" revision="0" />
+  <Message key="DeleteWarning" value="当前方案将会被删除。" revision="0" />
+  <Message key="CustomFilesFilter" value="自定义卷解析器" revision="0" />
+  <Message key="CSFileNameEmpty" value="文件名未指定。" revision="0" />
+  <Message key="CSRootEmpty" value="根结构未指定。" revision="0" />
+  <Message key="CSCheckStructEmpty" value="检查未指定的结构。" revision="0" />
+  <Message key="CSCheckAddressError" value="检查地址必须是数字" revision="1" />
+  <Message key="CSSchemeNameEmpty" value="方案名未指定" revision="0" />
+  <Message key="CSFileNotFound" value="结构文件 &quot;{filename}&quot; 未找到。" revision="0" />
+  <Message key="CSRootNotFound" value="根结构 {name} 未找到。" revision="0" />
+  <Message key="CSBindVolumeError" value="解析卷时发生错误。方案 &quot;{name}&quot;, 错误: {error}" revision="0" />
+  <Message key="UnknownPartition" value="分割[{index}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="无效的 PrivHead 头。" revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="无效的 TocBlock 头。" revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="无效的 Vmdb 头。" revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Vblk 的大小不是扇区大小的倍数。" revision="0" />
+  <Message key="OpenVolumeWarning" value="无法打开选择的卷" revision="0" />
+  <Message key="GPTParseErrorHeader" value="无效的 GUID 分区表头。" revision="0" />
+  <Message key="Custom Volume Editor" value="自定义卷编辑器" revision="0" />
+  <Message key="File:" value="文件:" revision="0" />
+  <Message key="Checking structure:" value="检查结构:" revision="0" />
+  <Message key="Checking address:" value="检查地址:" revision="0" />
+  <Message key="Root structure:" value="根结构:" revision="0" />
+  <Message key="Directory entry structure:" value="目录项结构:" revision="0" />
+  <Message key="File entry structure:" value="文件节点结构:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="卷导航仪" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="字节" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="名称" revision="0" />
+    <Item value="大小" revision="0" />
+    <Item value="属性" revision="0" />
+    <Item value="创建时间" revision="0" />
+    <Item value="修改时间" revision="0" />
+    <Item value="访问时间" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="复制到(&amp;C)..." revision="0" />
+    <Item value="复制文件或目录到指定位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="复制卷(&amp;V)" revision="0" />
+    <Item value="复制所有卷内容(文件和目录)到指定位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="选择所有流数据(&amp;S)" revision="0" />
+    <Item value="选择存储流数据的所有簇" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="在编辑器中打开(&amp;O)" revision="0" />
+    <Item value="在 Hex Editor Neo 中打开" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="打开包含的文件夹(&amp;F)" revision="0" />
+    <Item value="打开节点包含的文件夹" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="上一级(&amp;U)" revision="0" />
+    <Item value="上一级" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="更新当前视图(&amp;V)" revision="0" />
+    <Item value="更新当前目录" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="编辑自定义卷(&amp;V)" revision="0" />
+    <Item value="打开自定义卷编辑对话框" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="卷" revision="0" />
+    <Item value="错误" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="卷导航器" revision="1" />
+    <Item value="卷导航器扫描和显示卷的文件系统结构，帮助查找文件位置和恢复受损的文件或文件夹。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="未知" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="未分配的" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Update" value="更新" revision="0" />
+  <Message key="Assertion Failed" value="声明失败{has message?}: {message}{?has message}" revision="0" />
+  <Message key="CantEvaluate" value="无法估算界定表达式" revision="0" />
+  <Message key="Structure Viewer" value="结构查看器" revision="0" />
+  <Message key="Structure Errors" value="结构错误" revision="0" />
+  <Message key="Error accessing Clipboard" value="访问剪贴板错误" revision="0" />
+  <Message key="ModifiedSuffix" value="(已修改)" revision="0" />
+  <Message key="NotFoundSuffix" value="(未找到)" revision="0" />
+  <Message key="FileInUse" value="此文件由结构查看器使用，某些类型将被解除绑定，你想继续吗？" revision="0" />
+  <Message key="ConfigurationLost" value="当前配置将被丢失，你想继续吗？" revision="0" />
+  <Message key="FileColumn" value="文件" revision="0" />
+  <Message key="Nothing selected" value="什么也未选择" revision="0" />
+  <Message key="Enter file extension" value="输入文件扩展名" revision="0" />
+  <Message key="No schemes available. Create schemes in Structure Viewer first" value="无方案可用，请先在结构查看器中创建方案" revision="0" />
+  <Message key="No scheme selected" value="未选择方案" revision="0" />
+  <Message key="This extension is already used" value="此扩展名已被使用" revision="0" />
+  <Message key="All associations will be lost. Do you want to continue?" value="所有关联将被丢失，你想继续吗？" revision="0" />
+  <Message key="N/A" value="N/A" revision="0" />
+  <Message key="Bind is disabled during lengthy operation. Try again later." value="漫长操作期间绑定被禁用，请稍后重试。" revision="0" />
+  <Message key="Do you want to continue and remove the selected structure?" value="你想继续并移除选定的结构吗？" revision="0" />
+  <Message key="SchemeNotFound" value="未找到 {ext} 文件扩展名的关联方案 &quot;{scheme}&quot;。" revision="0" />
+  <Message key="Structure Viewer: Load Scheme" value="结构查看器: 载入方案" revision="0" />
+  <Message key="Edit Associations" value="编辑关联" revision="0" />
+  <Message key="Unable to create file" value="导出 CSV 文件错误: {text} ({code})" revision="1" />
+  <Message key="Error saving scheme" value="保存方案错误" revision="0" />
+  <Message key="LengthyOp" value="漫长操作期间此操作不可用，请稍后重试。" revision="0" />
+  <Message key="This scheme can not be removed." value="无法移除此方案。" revision="0" />
+  <Message key="TypeNotFound" value="{typename} (未找到此类型)" revision="0" />
+  <Message key="noname" value="&lt;无名称&gt;" revision="0" />
+  <Message key="The file has different version." value="此文件有不同的版本。" revision="0" />
+  <Message key="UnknownType" value="未知的类型" revision="0" />
+  <Message key="ErrorLoading" value="载入结构错误:\r\n" revision="0" />
+  <Message key="Associated scheme can not be loaded" value="无法载入关联的方案" revision="0" />
+  <Message key="Locked" value="结构查看器目前被锁定，将无法载入方案，请以后重复此操作。" revision="0" />
+  <Message key="Modified" value="下面的文件已在 Hex Editor Neo 的外部被修改(总共 {n} 个文件):\r\n{files}\r\n，你想重载它们吗？" revision="0" />
+  <Message key="CompileErrors" value="编译错误{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="BindErrors" value="绑定错误{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Binding Structure" value="绑定结构" revision="0" />
+  <Message key="BindError" value="Hex Editor Neo 无法处理 $bind 指示符(请检查类型是否为 public)" revision="0" />
+  <Message key="Copy to clipboard" value="复制到剪贴板中" revision="0" />
+  <Message key="Exporting to file" value="导出到文件中" revision="0" />
+  <Message key="Copy/export speed" value="{lines} 行/秒" revision="0" />
+  <Message key="VariableUpdateError" value="Hex Editor Neo 无法更新变量的值" revision="0" />
+  <Message key="VariableBindError" value="Hex Editor Neo 无法绑定一个变量。" revision="0" />
+  <Message key="OnlyFirst" value="仅第一个 {n} 行将被 {is copy?}复制到剪贴板中{|is copy}导出{?is copy}，你想继续吗？" revision="0" />
+  <Message key="SchemeExists" value="方案已经存在，你想覆盖它吗？" revision="0" />
+  <Message key="Scheme already exists" value="方案已经存在" revision="0" />
+  <Message key="External Editor" value="外部编辑器" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="配置由结构查看器使用的外部文本文件编辑器:" revision="0" />
+  <Message key="Clear" value="清除" revision="0" />
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="提示：使用下面的占位符:\n   » %path% - 源文件路径\n   » %line% - 源文件中的行\n   » %pos% - 行中的位置" revision="0" />
+  <Message key="Library" value="库" revision="0" />
+  <Message key="Add…" value="添加..." revision="0" />
+  <Message key="Edit…" value="编辑..." revision="0" />
+  <Message key="Save Scheme" value="保存方案" revision="0" />
+  <Message key="Name:" value="名称:" revision="0" />
+  <Message key="Structure Viewer Page" value="结构查看器" revision="0" />
+  <Message key="Include directories" value="包括目录" revision="0" />
+  <Message key="File associations" value="文件关联" revision="0" />
+  <Message key="Configure external editor…" value="配置外部编辑器..." revision="0" />
+  <Message key="Regular expression:" value="正则表达式..." revision="0" />
+  <Message key="Associated scheme:" value="关联的方案:" revision="0" />
+  <Message key="Structure Coloring" value="结构颜色" revision="0" />
+  <Message key="Apply" value="应用" revision="0" />
+  <Message key="Bind Structure" value="绑定结构" revision="0" />
+  <Message key="Address" value="地址" revision="0" />
+  <Message key="Hex:" value="十六进制:" revision="0" />
+  <Message key="Decimal:" value="十进制:" revision="0" />
+  <Message key="Absolute address" value="绝对地址" revision="0" />
+  <Message key="Relative address" value="相对地址" revision="0" />
+  <Message key="Cursor" value="光标" revision="0" />
+  <Message key="Expression" value="表达式" revision="0" />
+  <Message key="Bind" value="绑定" revision="0" />
+  <Message key="Definition:" value="定义:" revision="0" />
+  <Message key="Type:" value="类型:" revision="0" />
+  <Message key="Data Inspector" value="数据检查器" revision="0" />
+  <Message key="Available starting from Standard Edition" value="从标准版开始可用" revision="0" />
+  <Message key="DataInspCompileError" value="未添加的结构" revision="0" />
+  <Message key="CompileErrorFormat" value=" 行 {err_line} 编译错误 " revision="0" />
+  <Message key="BindTypeNotFound" value="为找到绑定类型 {type}" revision="0" />
+  <Message key="EmptyDefinition" value="定义文本为空" revision="0" />
+  <Message key="AddInspectType" value="增加类型定义" revision="0" />
+  <Message key="EditInspectType" value="编辑类型定义" revision="0" />
+  <Message key="DeleteStructFile" value="删除选择的文件错误: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="保存文件错误 &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="FileNotSaved" value="当前文档已经被修改。你想要保存吗？" revision="0" />
+  <Message key="Files" value="文件" revision="0" />
+  <Message key="Structures" value="结构" revision="0" />
+  <Message key="Data Inspector Color Selection" value="数据检查器颜色选择" revision="0" />
+  <Message key="Background color:" value="背景色:" revision="0" />
+  <Message key="Text color:" value="文本颜色:" revision="0" />
+  <Message key="Outline color:" value="轮廓颜色" revision="0" />
+  <Message key="Add Inspector Type" value="添加检查器类型" revision="0" />
+  <Message key="Change Time" value="更改时间" revision="0" />
+  <Message key="AssignNotification" value="此类型不允许数据修改.点击帮助按钮获取如何为此类型启用数据编辑的详细信息." revision="0" />
+  <Message key="MaxExportStringSize" value="最大字符串长度" revision="0" />
+  <Message key="MaxExportObjectFields" value="内嵌域或数组项的最大数量" revision="0" />
+  <Message key="CopyError" value="复制数据发生错误: {text} ({code})" revision="1" />
+  <Message key="FileExists" value="这个文件已经添加到库中。" revision="0" />
+  <Message key="ErrorStartingExternalEditor" value="启动外部编辑器时发生错误.\r\n\r\n命令行: {path}\r\n错误: {error text} ({error})" revision="0" />
+  <Message key="UntrustedEditor" value="你正在使用如下命令行尝试启动未信任的外部编辑器:\r\n\r\n{path}\r\n\r\n确定要继续? 如果按下是，这个程序会被标记为可信任的。" revision="0" />
+  <Message key="TypeExists" value="使用相同名称的类型已经存在。" revision="0" />
+  <Message key="StructureFileNotFound" value="位置 &quot;{path}&quot; 中没有发现文件 {file} 。你想要从库中移除它吗？" revision="0" />
+  <Message key="toolbar.StructureViewer" value="结构查看器" revision="0" />
+  <Message key="toolbar.DataInspector" value="数据检查器" revision="0" />
+  <Message key="OpenStructureViewer" value="显示 &quot;显示结构浏览器 &quot;信息" revision="0" />
+  <Message key="Open Structure Viewer" value="打开结构浏览器" revision="0" />
+  <Message key="Open Online Repository" value="在在线资源库中查找更多的结构定义" revision="0" />
+  <Message key="Skip" value="跳过" revision="0" />
+  <Message key="NoDefinitionText" value="目前，这种文件类型还没有可用的结构定义。你可以轻松地[[[hcreate your own]]]并立即开始使用它。" revision="0" />
+  <Message key="ConfirmResetAll" value="这将恢复所有运送的结构定义文件、预定义方案和文件关联。一些或所有的定制可能会丢失。\n\n你确定要继续吗？" revision="0" />
+  <Message key="clr.sview_colors" value="结构查看器的颜色" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="绑定的数据背景" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="绑定数据笔划" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="绑定数据文本" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="所选字段背景" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="所选数据笔划" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="所选字段文本" revision="0" />
+  <Message key="Structure Definition Library Update" value="结构定义库更新" revision="0" />
+  <Message key="DefLibrary Title Text" value="已在线找到结构查看器定义库的更新。您可以查看自当前版本以来发生的更改列表。按“立即更新”按钮下载更新。" revision="0" />
+  <Message key="&amp;Update Now" value="&amp;立即更新" revision="0" />
+  <Message key="Settings" value="&amp;设置…" revision="0" />
+  <Message key="Online Repository" value="联机存储库…" revision="0" />
+  <Enumeration key="StructureViewerBind">
+    <Item value="绑定..." revision="0" />
+    <Item value="绑定新结构" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item value="解除全部绑定" revision="0" />
+    <Item value="解除对所有结构的全部绑定" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item value="库" revision="1" />
+    <Item value="打开结构库" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item value="显示十六进制值" revision="0" />
+    <Item value="以十进制或十六进制方式显示数据" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item value="保存方案..." revision="0" />
+    <Item value="保存当前的结构方案" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item value="移除方案" revision="0" />
+    <Item value="删除当前方案" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item value="同步位置" revision="0" />
+    <Item value="同步位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item value="自动刷新" revision="0" />
+    <Item value="如果更改了数据，将自动刷新结构。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="在线定义库" revision="0" />
+    <Item value="打开在线定义库存储库" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item value="在线资源库..." revision="0" />
+    <Item value="打开在线资源库，你可以从那里下载新结构定义文件。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item value="关联..." revision="0" />
+    <Item value="显示关联" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item value="全局结构颜色方案..." revision="0" />
+    <Item value="定义全局颜色方案" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item value="显示工具提示" revision="0" />
+    <Item value="在工具提示中显示光标下数据的详细域信息" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item value="字段转换为书签" revision="0" />
+    <Item value="转换选择的字段到书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item value="NO_ERROR" revision="1" />
+    <Item value="CE001: 在给定的数据类型或非预期的类型上不允许请求的操作" revision="1" />
+    <Item value="CE002: 被零除" revision="1" />
+    <Item value="CE003: 未找到指定的标识符" revision="1" />
+    <Item value="CE004: 需要标量" revision="1" />
+    <Item value="CE005: 需要向量" revision="1" />
+    <Item value="CE006: 数组索引越界" revision="1" />
+    <Item value="CE007: 尚未实现" revision="1" />
+    <Item value="CE008: 无效的位域大小" revision="1" />
+    <Item value="CE009: 语法错误" revision="1" />
+    <Item value="CE010: 类型只能向前声明" revision="1" />
+    <Item value="CE011: 不支持动态类型操作" revision="1" />
+    <Item value="CE012: 类型被重定义" revision="1" />
+    <Item value="CE013: 声明失败" revision="1" />
+    <Item value="CE014: 需要常量表达式" revision="1" />
+    <Item value="CE015: 需要常量字符串表达式" revision="1" />
+    <Item value="CE016: 函数调用的参数个数错误" revision="1" />
+    <Item value="CE017: 非索引的数组下标操作(提示：移除 [noindex] 属性)" revision="1" />
+    <Item value="CE018: 通过 Javascript 引擎返回错误" revision="1" />
+    <Item value="CE019: 无效的参数" revision="1" />
+    <Item value="CE020: 已达到允许的最大递归深度" revision="1" />
+    <Item value="CE021: 需要其它类型的表达式" revision="1" />
+    <Item value="CE022: Preprocessing error" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item value="结构查看器" revision="0" />
+    <Item value="结构查看器" revision="0" />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item value="文件" revision="0" />
+    <Item value="结构" revision="0" />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item value="正则表达式" revision="0" />
+    <Item value="方案" revision="0" />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item value="名称" revision="0" />
+    <Item value="值" revision="0" />
+    <Item value="地址" revision="0" />
+    <Item value="大小" revision="0" />
+    <Item value="类型" revision="0" />
+    <Item value="描述" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item value="结构查看器" revision="0" />
+    <Item value="结构查看器功能允许你根据从头文件载入的结构定义分析文件数据。" revision="0" />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item value="文档名" revision="0" />
+    <Item value="文件" revision="0" />
+    <Item value="类型" revision="0" />
+    <Item value="行" revision="0" />
+    <Item value="描述" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item value="转换为选择" revision="0" />
+    <Item value="将域转换为选择" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item value="转到当前域末尾" revision="1" />
+    <Item value="移动光标到到当前域末尾" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item value="转到类型定义" revision="1" />
+    <Item value="打开包含当前类型定义的结构定义文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item value="转到域定义" revision="1" />
+    <Item value="打开包含当前域定义的结构定义文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="转到值" revision="1" />
+    <Item value="转到由数值定义的偏移量" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item value="复制限定名" revision="1" />
+    <Item value="复制域限定名到剪贴板" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item value="复制值" revision="1" />
+    <Item value="复制值到剪贴板" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item value="复制行" revision="1" />
+    <Item value="复制整行到剪贴板" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item value="全部复制" revision="1" />
+    <Item value="复制整个窗口内容到剪贴板" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item value="复制列" revision="1" />
+    <Item value="复制当前列到剪贴板" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item value="导出到逗号分隔的(CSV) 文件中" revision="1" />
+    <Item value="导出整个窗口内容到逗号分隔的(CSV) 文件中" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item value="全部展开" revision="1" />
+    <Item value="展开全部项" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item value="全部折叠" revision="1" />
+    <Item value="折叠全部项" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item value="展开项" revision="1" />
+    <Item value="展开项" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item value="折叠项" revision="1" />
+    <Item value="折叠项" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item value="解除绑定" revision="0" />
+    <Item value="解除绑定" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item value="绑定..." revision="0" />
+    <Item value="绑定新结构" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item value="编辑..." revision="0" />
+    <Item value="编辑当前值" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item value="类型" revision="0" />
+    <Item value="值" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item value="启用高亮" revision="0" />
+    <Item value="启用或禁用当前域高亮" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item value="修改颜色..." revision="0" />
+    <Item value="更改数据检查器高亮的颜色" revision="0" />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item value="添加新类型(&amp;N)..." revision="0" />
+    <Item value="添加新类型定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item value="编辑定义..." revision="0" />
+    <Item value="编辑当前类型定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item value="移除定义" revision="0" />
+    <Item value="移除选择的类型定义" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item value="数据检查器" revision="0" />
+    <Item value="数据检查器" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item value="数据检查器" revision="0" />
+    <Item value="数据检查器功能以各种格式显示光标下的数据，高亮当前所选的域。" revision="0" />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item value="标准类型" revision="0" />
+    <Item value="用户类型" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="新&amp;结构文件" revision="0" />
+    <Item value="创建空的结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="新建&amp;Kaitai 文件" revision="0" />
+    <Item value="创建空的Kaitai定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="打开&amp;结构文件..." revision="0" />
+    <Item value="打开结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="添加&amp;当前结构文件" revision="0" />
+    <Item value="在库中添加活动结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item value="&amp;添加结构文件..." revision="1" />
+    <Item value="将现有的结构定义文件追加到库中" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item value="保存全部结构文件(&amp;A)" revision="0" />
+    <Item value="保存所有已打开的结构定义文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item value="重新编译(&amp;R)" revision="0" />
+    <Item value="编译结构" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item value="结构编辑器(&amp;S)" revision="0" />
+    <Item value="结构编辑器菜单" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item value="编辑值(&amp;E)" revision="0" />
+    <Item value="编辑当前值" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item value="自动重新编译" revision="0" />
+    <Item value="如果源文件发生更改则自动重新编译" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item value="移除结构文件" revision="1" />
+    <Item value="移除选择的源文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item value="打开结构文件夹" revision="0" />
+    <Item value="打开结构文件文件夹" revision="0" />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item value="CSV 导出分隔符" revision="0" />
+    <Item value="自动" revision="0" />
+    <Item value="逗号" revision="0" />
+    <Item value="制表符" revision="0" />
+    <Item value=" 分号 " revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="打开结构浏览器" revision="0" />
+    <Item value="Hex Editor Neo包含该文件类型的结构定义，并且已经解析了其结构。您想打开结构查看器工具窗口来查看解析后的数据吗？" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="CapYes" value="是" revision="1" />
+  <Message key="CapNo" value="否" revision="1" />
+  <Message key="DiskInfoFmt" value="字节数/扇区: {bps}\t扇区总数: {total sectors}\r\n扇区数/磁道: {sectors per track}\t总磁道数: {total tracks}\r\n磁道数/柱面: {tracks per cylinder}\t柱面总数: {total cylinders}\r\n磁头总数: {total heads}\r\n\r\n磁盘分区表:\r\n分区类型: {partition type}\r\n分区数: {npartitions}\r\n" revision="1" />
+  <Message key="PartitionInfoFmt" value="\r\n分区 #{partition_n}:\r\n   起始偏移: {offset}\r\n   长度: {length}\r\n" revision="1" />
+  <Message key="Unused" value="未用" revision="1" />
+  <Message key="PartitionTypeMBRFmt" value="   分区类型: {type}\r\n   可引导: {bootable}\r\n   已识别: {recognized}\r\n   隐藏扇区: {hidden_sectors}\r\n" revision="1" />
+  <Message key="PartitionTypeGPTFmt" value="  分区类型: {type}\r\n   分区 ID: {id}\r\n   属性: {attr}\r\n   名称: {name}\r\n" revision="1" />
+  <Message key="Disk: {disk}" value="磁盘: {disk} ({serial number})" revision="2" />
+  <Message key="Open Disk" value="打开磁盘" revision="1" />
+  <Message key="Select a physical disk to open" value="选择一个要打开的物理磁盘:" revision="1" />
+  <Message key="Disk information" value="磁盘信息:" revision="1" />
+  <Message key="Open as Read-Only" value="以只读方式打开" revision="1" />
+  <Message key="Create and open snapshot" value="创建和打开快照" revision="0" />
+  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Hex Editor Neo 正在扫描物理磁盘，请稍候..." revision="1" />
+  <Message key="General Page" value="常规" revision="1" />
+  <Message key="Using this product you are saving environment!" value="使用本产品保存你的环境！" revision="1" />
+  <Message key="EcoMessage" value="\r\nHex Editor Neo 高度优化了基本算法并仔细调节保存你的工作时间，尽力减少了能源和资源的耗费，\r\n\r\n我们在乎未来！" revision="1" />
+  <Message key="FeatureNotAvailableTitle" value="功能不可用 ({seconds} 秒内关闭…)" revision="1" />
+  <Message key="FeatureNotAvailable" value="你试图使用的{feature}功能在当前版本中不可用，它是{edition}版的一部分，选择下面的一个操作并继续:" revision="1" />
+  <Message key="FeatureExpired" value="你试图使用的{feature}功能已过期，它是{edition}版的一部分，选择下面的一个操作并继续:" revision="1" />
+  <Message key="EditionStandard" value="标准" revision="1" />
+  <Message key="EditionPro" value="专业" revision="1" />
+  <Message key="EditionUltimate" value="旗舰" revision="1" />
+  <Message key="Trial period started" value="该试用期已开始，目前你有 14 天的  Hex Editor Neo 全功能评估期。试用期满后，你或者使用免费版的功能或升级到标准版、专业版或旗舰版。" revision="1" />
+  <Message key="Free started" value="欢迎使用 HHD Software Free Hex Editor Neo，你的 Hex Editor Neo 副本目前配置为以免费模式运行，能够使用包含在免费版中的广泛的功能套，\r\n\r\n你也可以在任何时候启动作为标准版、专业版以及旗舰版部分的评估功能。" revision="1" />
+  <Message key="R/O" value="R/O" revision="1" />
+  <Message key="Continue in Read-Only mode" value="继续处于只读模式" revision="1" />
+  <Message key="Continue in Full mode" value="继续处于完全模式" revision="0" />
+  <Message key="SavePastePrompt" value="你已经用其它文件打开了此文件的一部分，在关闭那些文件前你无法保存更改到此文档中，你想用其它名称保存此文件吗？" revision="1" />
+  <Message key="SaveError" value="保存文件错误: {text} ({code})" revision="1" />
+  <Message key="SaveErrors" value="保存文件时发生如下的错误:\r\n{errors}" revision="1" />
+  <Message key="DocumentChangePrompt" value="当前文档已更改，你想保存它吗？\r\n\r\n{name}" revision="1" />
+  <Message key="AllFilesFilterString" value="所有文件|*|" revision="1" />
+  <Message key="AllSupportedFormats" value="所有受支持的文件" revision="2" />
+  <Message key="NoLoadHandlersRegistered" value="本应用程序安装不正确，请重新安装本应用程序。" revision="1" />
+  <Message key="OldCommonControls" value="检测到旧版本的公用控件，请安装最新版本的操作系统服务包以及 Internet Explorer，应用程序将立即关闭。" revision="1" />
+  <Message key="Loading" value="正在载入" revision="1" />
+  <Message key="Initializing user interface" value="正在初始化用户界面" revision="1" />
+  <Message key="Finishing initialization" value="正在完成初始化" revision="1" />
+  <Message key="TooManyDocs" value="不推荐在编辑器中同时打开很多文档，因为你的计算机可能会变慢，你确实想继续打开这些文档吗？" revision="1" />
+  <Message key="DocumentsBusy" value="一个或多个文档正在忙于处理漫长的操作，应用程序无法被关闭，请先取消此操作。" revision="1" />
+  <Message key="Application Close" value="应用程序关闭" revision="1" />
+  <Message key="DocumentsBusySaveAll" value="一个或多个文档正在忙于处理漫长的操作，应用程序无法被关闭，请先取消此操作。" revision="1" />
+  <Message key="Save All" value="全部保存" revision="1" />
+  <Message key="Open Shared File" value="打开共享文件" revision="1" />
+  <Message key="LoadErrors" value="载入时发生如下的错误:\r\n{errors}" revision="1" />
+  <Message key="NoHandlersFoundError" value="未找到能打开此文件的处理程序。" revision="1" />
+  <Message key="VolumeOpenError" value="打开卷错误: {text} ({code})" revision="1" />
+  <Message key="EditorInitializationError" value="无法初始化编辑器窗口。" revision="1" />
+  <Message key="NoEditorsFoundError" value="无法找到任何支持此文件的编辑器。" revision="1" />
+  <Message key="ToolsFilter" value="工具配置文件 (*.hexdwc7)|*.hexdwc7|" revision="2" />
+  <Message key="Printing" value="正在打印" revision="1" />
+  <Message key="ActivatePane" value="激活{pane}窗格" revision="1" />
+  <Message key="New Document N" value="新建文档 {ordinal}" revision="1" />
+  <Message key="AlreadyOpened" value="&quot;{path}&quot;: 此文档已在编辑器中打开。\r\n" revision="1" />
+  <Message key="UnknownVolume" value="未命名的卷 {ordinal}" revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo 不能访问下面的文档，必须先关闭这些文档，你可能丢失对这些文档的所有更改:\r\n{document list}\r\n\r\n为了防止在以后丢失数据，请在关闭文当前不要移除可移动介质。" revision="1" />
+  <Message key="Activate this window" value="激活此窗口" revision="1" />
+  <Message key="Settings" value="设置" revision="1" />
+  <Message key="Search settings" value="搜索设置" revision="0" />
+  <Message key="ElevationError" value="无法提升权限，错误消息: {error}" revision="1" />
+  <Message key="ElevationErrorTitle" value="提升权限错误" revision="1" />
+  <Message key="This toolbar cannot be deleted." value="无法删除此工具栏。" revision="1" />
+  <Message key="Toolbar Deletion Failed" value="删除工具栏失败" revision="1" />
+  <Message key="Invalid toolbar name" value="无效的工具栏名称，有效的名称必须以一个字母开头。" revision="1" />
+  <Message key="Toolbar Creation Failed" value="创建工具栏失败" revision="1" />
+  <Message key="Toolbar already exists" value="你指定的工具栏名称已经存在。" revision="1" />
+  <Message key="All commands" value="所有命令" revision="1" />
+  <Message key="Commands Page" value="命令" revision="1" />
+  <Message key="Toolbars" value="工具栏：" revision="2" />
+  <Message key="New" value="新建(&amp;N)..." revision="1" />
+  <Message key="Delete" value="删除(&amp;D)" revision="1" />
+  <Message key="Button size" value="按钮大小:" revision="1" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="选择一个命令查看其描述或将其拖曳到工具栏上:" revision="1" />
+  <Message key="New Group" value="新建组" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;添加" revision="0" />
+  <Message key="Remove &gt;" value="&amp;删除 &gt;" revision="0" />
+  <Message key="Move Up" value="上移" revision="0" />
+  <Message key="Move Down" value="下移" revision="0" />
+  <Message key="Clear" value="&amp;清除" revision="0" />
+  <Message key="Clip toolbars" value="&amp;剪辑工具栏" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;换行工具栏" revision="0" />
+  <Message key="Keyboard" value="键盘" revision="1" />
+  <Message key="MaxShortcuts" value="对一个命令至多只能指派 5 个快捷键。" revision="1" />
+  <Message key="ShortcutExists" value="此快捷键已定义给 {command}，你想重定义此命令的快捷键吗？" revision="1" />
+  <Message key="Keyboard Page" value="键盘" revision="1" />
+  <Message key="Category" value="类别:" revision="1" />
+  <Message key="Commands" value="命令:" revision="1" />
+  <Message key="Current keys" value="当前键:" revision="1" />
+  <Message key="Press new shortcut key" value="按下新快捷键(&amp;N):" revision="1" />
+  <Message key="Description" value="描述:" revision="1" />
+  <Message key="Currently assigned to" value="目前已指派给：" revision="1" />
+  <Message key="Assign" value="指派(&amp;A)" revision="1" />
+  <Message key="Keyboard Map" value="键盘映射(&amp;M)" revision="1" />
+  <Message key="[unassigned]" value="[未指派]" revision="1" />
+  <Message key="Keyboard Map Dialog" value="键盘映射" revision="1" />
+  <Message key="Print" value="打印(&amp;P)" revision="1" />
+  <Message key="General" value="常规" revision="1" />
+  <Message key="HideToolWindows" value="隐藏工具窗口" revision="0" />
+  <Message key="AlwaysCreateBackups" value="始终创建备份" revision="1" />
+  <Message key="LowercaseHex" value="小写十六进制" revision="1" />
+  <Message key="ConvertFloatingPoint" value="更改字节序影响浮点数类型" revision="1" />
+  <Message key="DocumentsToRemember" value="显示最近最后一次用过的文档" revision="1" />
+  <Message key="ClosesCurrentOnly" value="关闭仅影响当前工具窗口" revision="1" />
+  <Message key="RestoreWindowPosition" value="启动时恢复主窗口位置" revision="1" />
+  <Message key="SkipNagScreen" value="跳过 Nag 屏幕" revision="1" />
+  <Message key="Notifications" value="通知" revision="1" />
+  <Message key="SaveNotification" value="保存文档" revision="1" />
+  <Message key="OpenDisk" value="打开卷/磁盘" revision="1" />
+  <Message key="Task" value="任务" revision="1" />
+  <Message key="Hex Editor Neo trial period has expired." value="Hex Editor Neo 试用期已过期。" revision="1" />
+  <Message key="Continue in Free Mode" value="继续处于免费模式" revision="1" />
+  <Message key="Expired." value="过期。" revision="1" />
+  <Message key="{days} days left" value="剩余 {days} 天" revision="1" />
+  <Message key="ExpiresOn" value="，到期时间 {date}" revision="1" />
+  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
+  <Message key="OpenLicenseFilter" value="授权文件 (*.hexlic)|*.hexlic|All Files|*.*|" revision="1" />
+  <Message key="License Installation" value="安装授权" revision="1" />
+  <Message key="LicenseInstallSuccess" value="安装授权成功，推荐重启应用程序，非常感谢你选择 Hex Editor Neo！" revision="1" />
+  <Message key="LicenseInstallFailure" value="无效的授权文件格式或过期的授权文件，请用你的账户登录下载新授权文件。" revision="1" />
+  <Message key="LicenseInstallRemove" value="移除此授权将使本产品切换到免费版模式，你确实想继续吗？" revision="1" />
+  <Message key="VolumeInfo" value="总空间:\t{total_space_kb} ({total_space})\r\n自由空间:\t{free_space_kb} ({free_space})\r\n可用空间:\t{available_space_kb} ({available_space})" revision="1" />
+  <Message key="Volume #" value="卷: {name}" revision="1" />
+  <Message key="OK" value="确定" revision="1" />
+  <Message key="Cancel" value="取消" revision="1" />
+  <Message key="Reset" value="重置(&amp;R)" revision="1" />
+  <Message key="Help" value="帮助(&amp;H)" revision="1" />
+  <Message key="Yes" value="是(&amp;Y)" revision="1" />
+  <Message key="No" value="否(&amp;N)" revision="1" />
+  <Message key="Close" value="关闭" revision="1" />
+  <Message key="Add" value="添加(&amp;A)" revision="1" />
+  <Message key="Edit" value="编辑(&amp;E)" revision="0" />
+  <Message key="Remove" value="移除(&amp;R)" revision="1" />
+  <Message key="Remove All" value="全部移除(&amp;L)" revision="1" />
+  <Message key="Reset All" value="全部重置(&amp;L)" revision="1" />
+  <Message key="Copy" value="复制(&amp;C)" revision="1" />
+  <Message key="Continue" value="继续" revision="1" />
+  <Message key="Import" value="&amp;导入…" revision="0" />
+  <Message key="Export" value="&amp;导出…" revision="0" />
+  <Message key="KB" value="KB" revision="1" />
+  <Message key="MB" value="MB" revision="1" />
+  <Message key="GB" value="GB" revision="1" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="Regular expression" value="正则表达式" revision="1" />
+  <Message key="Sub-match:" value="子匹配:" revision="1" />
+  <Message key="Recent Patterns…" value="最近用过的模式..." revision="1" />
+  <Message key="Type:" value="类型:" revision="1" />
+  <Message key="Find what:" value="查找内容:" revision="1" />
+  <Message key="FREmpty" value="空" revision="1" />
+  <Message key="Custom colors:" value="自定义颜色:" revision="1" />
+  <Message key="Default colors:" value="默认颜色:" revision="1" />
+  <Message key="Alpha" value="Alpha" revision="1" />
+  <Message key="Custom…" value="自定义..." revision="1" />
+  <Message key="Windows Title" value="Windows" revision="1" />
+  <Message key="Save" value="保存" revision="1" />
+  <Message key="Close Window(s)" value="关闭窗口" revision="1" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. 版本 {major}.{minor}.{revision}.{build}]]]\n{registered?}注册给 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\n版权所有.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutBoxDisclaimer" value="警告：本计算机程序受版权法和国际公约的保护，未经授权擅自复制或传播本程序的全部或部分，可能受到严厉的民事及刑事制裁，并在法律许可的范围内受到最大可能的起诉。\n\n简体中文化：网络浪子(netprodiag@163.com) Chyanbo(Chyanbo@msn.com)" revision="1" />
+  <Message key="About Hex Editor Neo" value="关于 {product}" revision="2" />
+  <Message key="Choose Default User Interface Layout" value="选择默认用户界面布局" revision="1" />
+  <Message key="Select default interface configuration" value="选择默认接口配置。您始终可以使用视图»预定义布局菜单选择其他配置。" revision="0" />
+  <Message key="Novice user" value="初级用户" revision="1" />
+  <Message key="Advanced user" value="高级用户" revision="1" />
+  <Message key="Expert user" value="专家级用户" revision="1" />
+  <Message key="Application restart required." value="需要重启应用程序。" revision="1" />
+  <Message key="Configure color scheme after I close this window" value="关闭此窗口后我想配置颜色方案" revision="1" />
+  <Message key="Select the size of toolbar buttons:" value="选择工具栏按钮的大小:" revision="1" />
+  <Message key="Feature not Available" value="功能不可用" revision="1" />
+  <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="你试图使用的功能在当前版中不可用，\r\n选择下面的一个操作后继续：" revision="1" />
+  <Message key="New Toolbar" value="新建工具栏" revision="1" />
+  <Message key="Enter toolbar name" value="输入工具栏名称:" revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="用于家庭和教育用途。请参阅 [[[hUsage Policy]]] 了解更多信息。" revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="对于商业、政府或军事用途， [[[hupgrade]]]是必需的。" revision="2" />
+  <Message key="Do not display this warning anymore" value="不再显示此警告" revision="1" />
+  <Message key="Save changes to selected documents" value="保存更改到选定的文档中:" revision="1" />
+  <Message key="Tasks Page" value="任务" revision="1" />
+  <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="指定 Hex Editor Neo 工具栏图标上的哪一个任务可用:" revision="1" />
+  <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo 试用期" revision="1" />
+  <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo 运行在试用模式中，所有功能被激活。" revision="1" />
+  <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="试用期满后， Hex Editor Neo 将保留功能，但仅免费版的功能可用。" revision="1" />
+  <Message key="Upgrade Now…" value="立即升级..." revision="1" />
+  <Message key="Compare Editions…" value="比较版本..." revision="1" />
+  <Message key="Continue Trial" value="继续试用" revision="1" />
+  <Message key="License Management and Upgrading" value="授权管理和升级" revision="1" />
+  <Message key="Installed license" value="已安装的授权:" revision="1" />
+  <Message key="Start Trial now!" value="立即开始试用！" revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="选择一个你想升级的版本，使用 &quot;更多信息…&quot; 链接获取有关选定版本的更多信息，使用 &quot;比较版本…&quot; 链接获取对各种版本所授权的功能比较表。" revision="1" />
+  <Message key="Standard Edition:" value="标准版:" revision="1" />
+  <Message key="More Info…" value="更多信息..." revision="1" />
+  <Message key="Upgrade…" value="升级..." revision="1" />
+  <Message key="Professional Edition:" value="专业版" revision="1" />
+  <Message key="Ultimate Edition:" value="旗舰版:" revision="1" />
+  <Message key="Compare editions…" value="比较版本..." revision="1" />
+  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="如果你已经收到一个授权文件，点击 &quot;安装授权…&quot; 按钮。" revision="1" />
+  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="如果你需要更新授权，点击 &quot;下载授权…&quot; 按钮 (需要登录名和密码)。" revision="1" />
+  <Message key="Install License…" value="安装授权..." revision="1" />
+  <Message key="Download License…" value="下载授权..." revision="1" />
+  <Message key="Remove License" value="移除授权" revision="1" />
+  <Message key="Open Volume" value="打开卷" revision="1" />
+  <Message key="Select a volume to open" value="选择一个要打开的卷:" revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo 正在扫描系统卷，请稍候..." revision="1" />
+  <Message key="File system capabilities" value="文件系统性能" revision="1" />
+  <Message key="Space" value="空间:" revision="1" />
+  <Message key="ProgressPleaseWait" value="请稍候..." revision="1" />
+  <Message key="ProgressPerSec" value="{rate}/秒" revision="1" />
+  <Message key="ProgressCalculating" value="正在计算..." revision="1" />
+  <Message key="ProgressDone" value="已完成 {percent}%。" revision="1" />
+  <Message key="Error" value="错误" revision="0" />
+  <Message key="PredefinedDelete" value="禁止删除预定义颜色方案，只能删除用户方案" revision="0" />
+  <Message key="Round edges" value="圆角边" revision="0" />
+  <Message key="Text" value="文本" revision="0" />
+  <Message key="Coloring" value="颜色" revision="0" />
+  <Message key="Background" value="背景" revision="0" />
+  <Message key="Outline" value="轮廓" revision="0" />
+  <Message key="Coloring Schemes" value="颜色方案" revision="0" />
+  <Message key="Auto Hide" value="自动隐藏" revision="0" />
+  <Message key="Window list" value="窗口列表" revision="0" />
+  <Message key="Switch Window" value="切换窗口" revision="0" />
+  <Message key="Active Tool Windows" value="激活工具窗口" revision="0" />
+  <Message key="Active Documents" value="激活文档" revision="0" />
+  <Message key="Checking for new version" value="正在检查新版本" revision="1" />
+  <Message key="You are using the most recent version of the software." value="你使用的是最新版本的 Hex Editor Neo" revision="1" />
+  <Message key="Language Page" value="语言" revision="0" />
+  <Message key="Downloading language pack" value="正在下载语言包" revision="0" />
+  <Message key="Product language" value="产品语言" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="更改产品语言需要重启 Hex Editor Neo。" revision="0" />
+  <Message key="Languages online" value="语言在线" revision="0" />
+  <Message key="Refresh" value="刷新(&amp;R)" revision="0" />
+  <Message key="ButtonRefreshing" value="正在刷新..." revision="0" />
+  <Message key="Download" value="下载(&amp;D)" revision="0" />
+  <Message key="Language pack" value="语言包: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="如果你放弃选择更新, 虽然 Hex Editor Neo 将不再提示与此有关的更新，但仍然会向你提示将来的更新，\r\n\r\n你仍然想放弃选定的更新吗？" revision="0" />
+  <Message key="LangPackUpdated" value="语言包已更新，你必须重启本应用程序以便重载本语言包，\r\n\r\n你想立即重启吗？" revision="0" />
+  <Message key="SavingAll" value="保存更改" revision="0" />
+  <Message key="Component Updates" value="组件更新" revision="0" />
+  <Message key="The following updates are found:" value="找到下列更新:" revision="0" />
+  <Message key="Check for updates" value="检查更新" revision="0" />
+  <Message key="Start Download" value="开始下载" revision="0" />
+  <Message key="View Changes…" value="查看更改..." revision="0" />
+  <Message key="Discard" value="放弃" revision="0" />
+  <Message key="ActionSelection" value="已成功下载 {name}，你想用它做什么？" revision="1" />
+  <Message key="CopyError" value="复制下载的文件 ({code}) 时发生了一个错误，从默认位置运行安装程序。" revision="1" />
+  <Message key="LaunchError" value="运行下载的镜像时有一个错误 ({code})。" revision="1" />
+  <Message key="File creation error" value="{create?}创建{|create}打开{?create} 文件 &quot;{name}&quot;: {text} ({code})发生错误" revision="1" />
+  <Message key="New Version Downloaded" value="新版本已下载" revision="0" />
+  <Message key="Install now" value="立即安装" revision="1" />
+  <Message key="Make a copy and install now" value="立即创建一份副本并安装" revision="1" />
+  <Message key="LangChanged" value="更改语言后你必须重启 Hex Editor Neo，你想立即重启吗？" revision="0" />
+  <Message key="ChangeLanguage" value="语言更改" revision="0" />
+  <Message key="AccessLangsOnline" value="访问在线资源库" revision="0" />
+  <Message key="UseLanguage" value="使用此语言包" revision="0" />
+  <Message key="I can't find my language in this list." value="在语言在线列表中找不到我想要的语言。" revision="0" />
+  <Message key="Credits to" value="Credits to:" revision="0" />
+  <Message key="SignatureError" value="Hex Editor Neo 已经下载了一个更新，但完整性检查失败。这可能表明临时或永久的网络配置错误，请在以后尝试更新。" revision="0" />
+  <Message key="ExecutablesFilter" value="可执行文件|*.exe| 所有文件|*.*||" revision="1" />
+  <Message key="YourLanguage" value="有在线的用户语言可用" revision="0" />
+  <Message key="NewBetaVersions" value="检测到新的测试版本" revision="0" />
+  <Message key="Language pack storage location" value="语言包存储位置" revision="0" />
+  <Message key="License Upgrade Notification" value="Hex Editor Neo 检测到上一个版本的授权。授权不能自动升级。你需要登录到我的账户去下载升级的授权文件（根据你开始的购买选择，可以需要额外的付款）。\n\n现在就要转到我的账户吗？" revision="0" />
+  <Message key="CSVFiles" value="CSV 文件 (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="主题文件 (*.hextheme)|*.hextheme||" revision="0" />
+  <Message key="Rocket settings" value="工具窗口布局（包含工具栏）" revision="0" />
+  <Message key="Bars settings" value="工具栏布局" revision="0" />
+  <Message key="Windows settings" value="对话框窗口位置" revision="0" />
+  <Message key="MRU settings" value="最近使用的文档" revision="0" />
+  <Message key="Theme settings" value="主题" revision="0" />
+  <Message key="Props settings" value="常规设置" revision="0" />
+  <Message key="Language settings" value="语言设置" revision="0" />
+  <Message key="Setting files" value="设置 (*.hexset7)|*.hexset7|" revision="1" />
+  <Message key="Export successful" value="已经成功保存设置到文件中" revision="0" />
+  <Message key="Import successful" value="设置已经被成功导入。" revision="0" />
+  <Message key="toolbar.Standard" value="标准" revision="0" />
+  <Message key="toolbar.Edit" value="编辑" revision="0" />
+  <Message key="toolbar.Language" value="于洋" revision="0" />
+  <Message key="toolbar.New" value="新建" revision="0" />
+  <Message key="toolbar.Open" value="打开" revision="0" />
+  <Message key="Settings Page" value="设置" revision="0" />
+  <Message key="Settings Storage Location" value="设置存储位置" revision="0" />
+  <Message key="Settings Management" value="设置管理" revision="0" />
+  <Message key="Export Settings…" value="导出设置.." revision="0" />
+  <Message key="Import Settings…" value="导入设置..." revision="0" />
+  <Message key="Reset Settings…" value="复位设置..." revision="0" />
+  <Message key="Ask to import settings" value="指定文件已经存在。你要想立刻导入它的内容吗？点击是，文件会被当前设置覆盖。" revision="0" />
+  <Message key="Ask to reset settings" value="必须重启程序来复位设置。你要想继续？" revision="0" />
+  <Message key="Ask to restart" value="推荐重启程序来启用导入的设置。你要想想在重启吗？" revision="0" />
+  <Message key="Select Components" value="选择组件" revision="0" />
+  <Message key="Select components:" value="选择组件：" revision="0" />
+  <Message key="Select all" value="全部选择" revision="0" />
+  <Message key="Beta Page" value="测试" revision="0" />
+  <Message key="Beta title info" value="当前页允许你浏览和下载可选的测试组件。这些组件可能带来附加特定或修复报告的bug。选中要安装的组件，反选要卸载的组件，然后按更新按钮。" revision="1" />
+  <Message key="BetaUpdateButton" value="更新(&amp;U)" revision="0" />
+  <Message key="Available beta modules:" value="可用的测试模组：" revision="0" />
+  <Message key="There are no updates available." value="当前没有可用更新" revision="0" />
+  <Message key="BetaInstalled" value="已经程序更新组件配置。你需要重启 Hex Editor Neo来使更改生效。" revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}下列组件将会被下载和安装:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}下列组件将会被卸载:\r\n\n{deleted components}{?has deleted}\r\n\n你要继续吗？" revision="0" />
+  <Message key="BetaConflicts" value="选定的组件于已安装的或其他组件冲突。 要继续，下列组件必须被移除：\r\n\n{components}\r\n\n你想要移除并继续吗？" revision="0" />
+  <Message key="BetaHeader" value="测试版本" revision="0" />
+  <Message key="BetaDownloadError" value="下载选定的组件时发生错误。请稍后重试。" revision="1" />
+  <Message key="BetaAdvanced" value="高级(&amp;A)..." revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="输入 HHD Software 支持人员发给你的升级 ID：" revision="0" />
+  <Message key="Manual Installation" value="手工安装" revision="0" />
+  <Message key="Crash Page" value="碰撞报告" revision="0" />
+  <Message key="CrashIntro" value="如果您希望得到关于您的事故报告提交状态的通知，并希望您的报告得到更优先的处理，请在下面的方框中提供您的电子邮件地址。除了讨论您提交的报告外，您的电子邮件地址将不会被用于其他任何用途。" revision="0" />
+  <Message key="Report Settings" value="设置" revision="0" />
+  <Message key="Send report automatically" value="自动发报告 (&amp;S)" revision="0" />
+  <Message key="Report verbosity level" value="报告的言简意赅程度" revision="0" />
+  <Message key="Minidump" value="迷你垃圾场 (&amp;M)" revision="0" />
+  <Message key="Full dump" value="全内存转储 (&amp;F)" revision="0" />
+  <Message key="Minidump description" value="迷你转储的大小通常小于一兆字节，并且只包含有关崩溃的有限信息。有时迷你转储足以诊断问题，但往往缺乏重现崩溃所需的必要信息。" revision="0" />
+  <Message key="Full dump description" value="完整转储包含所有进程地址空间的压缩视图。它们最好是让开发人员能够重现导致崩溃的情况并尽快修复。然而，完整转储的大小可能很容易达到数百兆字节。" revision="0" />
+  <Message key="Privacy Policy" value="私隐政策" revision="0" />
+  <Message key="Volume access denied" value="尝试查询卷信息时收到拒绝访问错误。尝试以管理员身份重新启动Hex Editor Neo。" revision="0" />
+  <Message key="NA" value="N/A" revision="0" />
+  <Message key="Open Device" value="打开设备" revision="0" />
+  <Message key="Enter the device path to open:" value="输入要打开的设备路径：" revision="0" />
+  <Message key="Open device as:" value="打开设备为：" revision="0" />
+  <Message key="Auto" value="自动" revision="0" />
+  <Message key="Physical disk" value="物理磁盘" revision="0" />
+  <Message key="Volume" value="卷" revision="0" />
+  <Message key="Value is out of range" value="指定值超出范围" revision="0" />
+  <Message key="GenericError" value="执行操作时出错： {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="默认UI颜色" revision="0" />
+  <Message key="clr.default_colors.background" value="背景" revision="0" />
+  <Message key="clr.default_colors.control_background" value="控制背景" revision="0" />
+  <Message key="clr.default_colors.text" value="文本/前景" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="超链接" revision="0" />
+  <Message key="clr.default_colors.disabled" value="失效文字" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="悬停背景" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="悬停笔划" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="悬停文本" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="选择背景" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="选择笔划" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="选定文本" revision="0" />
+  <Message key="clr.menu" value="菜单颜色" revision="0" />
+  <Message key="clr.menu.background" value="背景" revision="0" />
+  <Message key="clr.menu.text" value="文本" revision="0" />
+  <Message key="clr.menu.separator" value="分隔符" revision="0" />
+  <Message key="clr.menu.disabled_text" value="禁用的文本" revision="0" />
+  <Message key="clr.menu.checked" value="选中项目的背景" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="选中和禁用项目的背景" revision="0" />
+  <Message key="clr.menu.hover.fill" value="悬停背景" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="悬停笔划" revision="0" />
+  <Message key="clr.menu.hover.text" value="悬停文本" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="禁用的项目悬停背景" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="禁用项目悬停笔划" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="禁用的项目悬停文本" revision="0" />
+  <Message key="clr.rebar" value="螺纹钢颜色" revision="0" />
+  <Message key="clr.rebar.background" value="背景" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="V形圆点填充颜色" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="V形点笔划颜色" revision="0" />
+  <Message key="clr.toolbar" value="工具栏颜色" revision="0" />
+  <Message key="clr.toolbar.background" value="背景" revision="0" />
+  <Message key="clr.toolbar.text" value="文本" revision="0" />
+  <Message key="clr.toolbar.disabled" value="禁用的文本" revision="0" />
+  <Message key="clr.toolbar.separator" value="分隔符" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="悬停背景" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="悬停笔划" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="悬停文本" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="按下项目的背景" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="按下的项目的笔划" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="按下项目的文本" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="按下和禁用项目的背景" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="按下和禁用项目的笔划" revision="0" />
+  <Message key="clr.frame" value="框架颜色" revision="0" />
+  <Message key="clr.frame.frame.background" value="背景" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="客户端背景" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="文档框架背景" revision="0" />
+  <Message key="clr.frame.frame.border" value="边框" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="非活动标题背景" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="非活动页眉文本/笔划" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="活动页眉背景" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="活动页眉文本/笔划" revision="0" />
+  <Message key="clr.frame.hover.fill" value="悬停背景" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="悬停笔划" revision="0" />
+  <Message key="clr.frame.hover.text" value="悬停文本" revision="0" />
+  <Message key="clr.frame.title_text" value="标题文本" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="导航图标阴影" revision="0" />
+  <Message key="clr.frame.nav.background" value="导航图标背景" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="导航图标高亮显示" revision="0" />
+  <Message key="clr.frame.nav.header" value="导航图标标题" revision="0" />
+  <Message key="clr.frame.nav.frame" value="导航图标边框" revision="0" />
+  <Message key="Settings group.Visual" value="可视化" revision="0" />
+  <Message key="Settings group.User Interface" value="用户界面" revision="0" />
+  <Message key="Settings group.Network" value="网络支持" revision="0" />
+  <Message key="Settings group.Editor" value="二进制编辑器" revision="0" />
+  <Message key="Settings group.Misc" value="其它" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="结构查看器" revision="0" />
+  <Message key="Colors Page" value="主题" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="输入方案名称，然后按保存按钮" revision="0" />
+  <Message key="ColorSchemeExists" value="配色方案已经存在。您想覆盖它吗？" revision="0" />
+  <Message key="Theme:" value="主题:" revision="0" />
+  <Message key="Display elements:" value="显示元素:" revision="0" />
+  <Message key="Automatic" value="自动的" revision="0" />
+  <Message key="Current" value="当前的" revision="0" />
+  <Message key="Selected" value="选中" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="自动选择颜色取决于当前操作系统的颜色主题。" revision="0" />
+  <Message key="&amp;Open" value="&amp;打开" revision="0" />
+  <Message key="Novice User Layout" value="新手用户布局" revision="0" />
+  <Message key="Advanced User Layout" value="高级用户布局" revision="0" />
+  <Message key="Expert User Layout" value="专家用户布局" revision="0" />
+  <Message key="Free Hex Editor Layout" value="免费的十六进制编辑器布局" revision="0" />
+  <Message key="Open as binary" value="二进制文件" revision="0" />
+  <Message key="Open Recent" value="打开 {item}" revision="0" />
+  <Message key="Structure definition files" value="结构定义文件" revision="0" />
+  <Message key="Kaitai definition files" value="Kaitai定义文件" revision="0" />
+  <Message key="Sample Text" value="示例文本" revision="0" />
+  <Message key="Default" value="默认" revision="0" />
+  <Enumeration key="Disk dialog columns">
+    <Item value="物理磁盘" revision="2" />
+    <Item value="大小" revision="2" />
+    <Item value="设备 ID" revision="2" />
+    <Item value="磁盘卷" revision="2" />
+    <Item value="类型" revision="2" />
+    <Item value="性能" revision="2" />
+    <Item value="序列号" revision="2" />
+  </Enumeration>
+  <Enumeration key="Disk capabilities">
+    <Item value="未知" revision="1" />
+    <Item value="其它" revision="1" />
+    <Item value="顺序存取" revision="1" />
+    <Item value="随机存取" revision="1" />
+    <Item value="支持写入" revision="1" />
+    <Item value="加密" revision="1" />
+    <Item value="压缩" revision="1" />
+    <Item value="支持可移动介质" revision="1" />
+    <Item value="手动清除" revision="1" />
+    <Item value="自动清除" revision="1" />
+    <Item value="SMART 通知" revision="1" />
+    <Item value="支持双面介质" revision="1" />
+    <Item value="弹出前驱动器不需要解除挂接" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partition types">
+    <Item value="MBR (主引导记录)" revision="1" />
+    <Item value="GPT (Guid 分区表)" revision="1" />
+    <Item value="RAW (无或未知的分区表)" revision="1" />
+  </Enumeration>
+  <Enumeration key="GPTAttributes">
+    <Item value="必需" revision="1" />
+    <Item value="无驱动器字母" revision="1" />
+    <Item value="隐藏" revision="1" />
+    <Item value="卷影副本" revision="1" />
+    <Item value="只读" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionUpgrade">
+    <Item value="立即升级..." revision="1" />
+    <Item value="将 Hex Editor Neo 升级到获取此功能的访问" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionCompare">
+    <Item value="比较版本..." revision="1" />
+    <Item value="http://www.hhdsoftware.com/dispatch/hex/compare.html" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionStartTrial">
+    <Item value="开始 14 天试用期" revision="1" />
+    <Item value="接下来 14 天中将解锁 Hex Editor Neo 的所有功能" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionClose">
+    <Item value="关闭" revision="1" />
+    <Item value="关闭此窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="SaveNotificationMsg">
+    <Item value="保存文档" revision="1" />
+    <Item value="保存此文档将清除所有更改历史，你想继续吗？" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenVolumeDiskWarning">
+    <Item value="打开卷/磁盘警告" revision="1" />
+    <Item value="Hex Editor Neo 禁止以写入访问方式打开系统、临时或应用程序卷，选择下面的一个操作后继续:" revision="1" />
+  </Enumeration>
+  <Enumeration key="New document task">
+    <Item value="新建文档" revision="1" />
+    <Item value="在编辑器中创建一个空文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open volume task">
+    <Item value="打开卷" revision="1" />
+    <Item value="打开一个以二进制表示的整个卷" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open disk task">
+    <Item value="打开磁盘" revision="1" />
+    <Item value="打开一个以二进制表示的物理磁盘" revision="1" />
+  </Enumeration>
+  <Enumeration key="More tasks task">
+    <Item value="更多任务..." revision="1" />
+    <Item value="配置此任务列表" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item value="文件(&amp;F)" revision="0" />
+    <Item value="文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item value="&amp;新建" revision="0" />
+    <Item value="新建菜单组" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOpen">
+    <Item value="打开(&amp;O)" revision="0" />
+    <Item value="打开" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item value="视图(&amp;V)" revision="0" />
+    <Item value="视图" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item value="工具(&amp;V)" revision="0" />
+    <Item value="工具" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item value="窗口(&amp;W)" revision="0" />
+    <Item value="窗口" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item value="帮助(&amp;V)" revision="0" />
+    <Item value="帮助" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item value="工具窗口(&amp;T)" revision="0" />
+    <Item value="工具窗口" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item value="编辑(&amp;V)" revision="0" />
+    <Item value="编辑" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenShared">
+    <Item value="打开共享" revision="1" />
+    <Item value="打开共享功能允许你共享用其它应用程序打开的文件。差异合并策略包括提供更改比较选项。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenMemory">
+    <Item value="打开物理内存" revision="1" />
+    <Item value="打开物理内存功能允许你获取一份只读的视图进入本计算机的物理内存中。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenVolume">
+    <Item value="打开卷" revision="1" />
+    <Item value="打开卷功能允许你打开一个逻辑磁盘(卷)以便查看和编辑。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenDisk">
+    <Item value="打开磁盘" revision="1" />
+    <Item value="打开磁盘功能允许你打开一个物理磁盘以便查看和编辑。" revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item value="命令" revision="1" />
+    <Item value="快捷键" revision="1" />
+    <Item value="描述" revision="1" />
+  </Enumeration>
+  <Enumeration key="Endian">
+    <Item value="默认字节序" revision="1" />
+    <Item value="小端序" revision="1" />
+    <Item value="大端序" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSwitching">
+    <Item value="窗口切换风格" revision="1" />
+    <Item value="传统" revision="1" />
+    <Item value="最近最后一次用过的" revision="1" />
+    <Item value="使用导航窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item value="未知，重新安装本应用程序和/或授权。" revision="1" />
+    <Item value="免费，试用期尚未开始。" revision="1" />
+    <Item value="免费，试用期在 {days} 天后到期。" revision="1" />
+    <Item value="免费，试用期已到期。" revision="1" />
+    <Item value="标准版授权" revision="1" />
+    <Item value="专业版授权" revision="1" />
+    <Item value="旗舰版授权" revision="1" />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item value="非商业" revision="1" />
+    <Item value="商业" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogColumns">
+    <Item value="挂接点" revision="2" />
+    <Item value="卷标" revision="2" />
+    <Item value="类型" revision="2" />
+    <Item value="文件系统" revision="2" />
+    <Item value="序列号" revision="2" />
+    <Item value="唯一 ID" revision="2" />
+    <Item value="大小" revision="2" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogDriveType">
+    <Item value="未知" revision="1" />
+    <Item value="无效" revision="1" />
+    <Item value="可移动" revision="1" />
+    <Item value="固定" revision="1" />
+    <Item value="远程" revision="1" />
+    <Item value="CDROM" revision="1" />
+    <Item value="RAMDISK" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeCapabilities">
+    <Item value="保持大小写" revision="1" />
+    <Item value="区分大小写搜索" revision="1" />
+    <Item value="文件压缩" revision="1" />
+    <Item value="命名流" revision="1" />
+    <Item value="文件和目录安全" revision="1" />
+    <Item value="只读" revision="1" />
+    <Item value="单一顺序写入" revision="1" />
+    <Item value="文件和目录加密" revision="1" />
+    <Item value="对象标识符" revision="1" />
+    <Item value="重解析点" revision="1" />
+    <Item value="稀疏文件" revision="1" />
+    <Item value="处理" revision="1" />
+    <Item value="Unicode" revision="1" />
+    <Item value="压缩卷" revision="1" />
+    <Item value="配额" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="字符串" revision="1" />
+    <Item value="UNICODE 字符串" revision="1" />
+    <Item value="十六进制" revision="1" />
+    <Item value="十进制" revision="1" />
+    <Item value="八进制" revision="1" />
+    <Item value="二进制" revision="1" />
+    <Item value="单精度浮点数" revision="1" />
+    <Item value="双精度浮点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item value="字节" revision="1" />
+    <Item value="字" revision="1" />
+    <Item value="双字" revision="1" />
+    <Item value="四字" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowsDlgColumns">
+    <Item value="名称" revision="1" />
+    <Item value="路径" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNew">
+    <Item value="新建文件(&amp;N)" revision="1" />
+    <Item value="创建一个新的空文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item value="打开文件(&amp;O)..." revision="1" />
+    <Item value="打开一个现有的文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item value="保存(&amp;S)" revision="1" />
+    <Item value="保存此活动文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item value="另存为(&amp;A)..." revision="1" />
+    <Item value="用新文件名保存此活动文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item value="关闭(&amp;C)" revision="1" />
+    <Item value="关闭此活动文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileCloseAll">
+    <Item value="全部关闭" revision="2" />
+    <Item value="关闭所有打开的文档" revision="2" />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item value="退出(&amp;X)" revision="1" />
+    <Item value="退出应用程序" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item value="撤销(&amp;U)" revision="1" />
+    <Item value="撤销最后一次操作" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item value="重做(&amp;R)" revision="1" />
+    <Item value="重做先前撤销的操作" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item value="剪切(&amp;T)" revision="1" />
+    <Item value="将选定的对象剪切并放置到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="复制(&amp;C)" revision="1" />
+    <Item value="将选定的对象复制并放置到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCutMerged">
+    <Item value="合并并剪贴(&amp;E)" revision="1" />
+    <Item value="剪切选定的对象并将每个选块合并后的结果放置到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopyMerged">
+    <Item value="合并并复制(&amp;M)" revision="1" />
+    <Item value="复制选定的对象并将每个选块合的结果放置到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item value="粘贴(&amp;P)" revision="1" />
+    <Item value="插入剪贴板内容" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item value="导入配置(&amp;I)..." revision="1" />
+    <Item value="导入工具窗口配置" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item value="导出配置(&amp;E)..." revision="1" />
+    <Item value="导出工具窗口配置" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item value="重置配置(&amp;R)" revision="1" />
+    <Item value="重置工具窗口配置" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item value="预定义布局" revision="1" />
+    <Item value="预定义布局" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsUpgrade">
+    <Item value="升级(&amp;U)..." revision="1" />
+    <Item value="将  Hex Editor Neo 升级为其它版本" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item value="设置(&amp;S)..." revision="1" />
+    <Item value="管理程序设置" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNew">
+    <Item value="新建窗口(&amp;I)" revision="1" />
+    <Item value="在其它窗口中打开此活动文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item value="上一个(&amp;P)" revision="1" />
+    <Item value="切换到上一个窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item value="下一个(&amp;N)" revision="1" />
+    <Item value="切换到下一个窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item value="关闭窗口(&amp;C)" revision="1" />
+    <Item value="关闭此活动窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item value="下一个窗格(&amp;N)" revision="1" />
+    <Item value="下一个工具窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item value="上一个窗格" revision="1" />
+    <Item value="上一个工具窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item value="新建横向框架(&amp;H)" revision="1" />
+    <Item value="新建横向框架" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item value="新建纵向框架(&amp;V)" revision="1" />
+    <Item value="新建纵向框架" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item value="取消(&amp;C)" revision="1" />
+    <Item value="取消" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSplit">
+    <Item value="拆分(&amp;S)" revision="1" />
+    <Item value="将活动窗口拆分为窗格" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowOpenContainingFolder">
+    <Item value="打开所在的文件夹(&amp;F)" revision="1" />
+    <Item value="启动 Windows 资源管理器并导航到选定的文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCopyFullPath">
+    <Item value="复制完整路径(&amp;C)" revision="1" />
+    <Item value="复制文件的完整路径到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item value="窗口(&amp;W)..." revision="1" />
+    <Item value="显示所有已打开文档窗口的列表" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item value="内容(&amp;C)" revision="1" />
+    <Item value="显示帮助文件内容" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpIndex">
+    <Item value="索引(&amp;I)" revision="1" />
+    <Item value="显示帮助文件索引" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpSearch">
+    <Item value="搜索(&amp;S)" revision="1" />
+    <Item value="查看帮助文件的搜索窗格" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item value="反馈(&amp;F)..." revision="1" />
+    <Item value="发送产品使用反馈" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item value="键盘映射(&amp;K)" revision="1" />
+    <Item value="显示键盘映射" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item value="关于 Hex Editor Neo(&amp;A)" revision="1" />
+    <Item value="显示有关本产品的信息" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenVolume">
+    <Item value="打开卷(&amp;V)..." revision="1" />
+    <Item value="打开一个卷(逻辑磁盘)" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDisk">
+    <Item value="打开物理磁盘(&amp;H)..." revision="1" />
+    <Item value="打开物理磁盘" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item value="打开设备…" revision="1" />
+    <Item value="使用用户提供的路径打开设备" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item value="全部保存(&amp;L)" revision="1" />
+    <Item value="保存所有已修改的文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePrint">
+    <Item value="打印(&amp;P)..." revision="1" />
+    <Item value="打印当前文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePageSetup">
+    <Item value="页面设置(&amp;G)..." revision="1" />
+    <Item value="打开页面设置对话框" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item value="删除(&amp;D)" revision="1" />
+    <Item value="删除选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewToggleFullScreen">
+    <Item value="切换工具窗口" revision="1" />
+    <Item value="显示或隐藏工具窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item value="授权管理(&amp;L)..." revision="1" />
+    <Item value="显示授权管理对话框" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item value="可停靠工具窗口" revision="1" />
+    <Item value="可停靠工具窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item value="选项卡式文档" revision="1" />
+    <Item value="选项卡式文档" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewQuickUITweak">
+    <Item value="快速用户界面配置..." revision="1" />
+    <Item value="显示初始的用户配置窗口" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenNonLocked">
+    <Item value="打开共享文件..." revision="1" />
+    <Item value="以共享方式打开文件" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditionList">
+    <Item value="未知产品状态" revision="2" />
+    <Item value="免费版" revision="2" />
+    <Item value="试用期已开始" revision="2" />
+    <Item value="免费版" revision="2" />
+    <Item value="标准版" revision="2" />
+    <Item value="专业版" revision="2" />
+    <Item value="终极版" revision="2" />
+  </Enumeration>
+  <Enumeration key="HelpCheck">
+    <Item value="检查更新..." revision="1" />
+    <Item value="检查本产品是否有新版本或可用的组件" revision="1" />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item value="组件" revision="0" />
+    <Item value="当前版本" revision="0" />
+    <Item value="更新版本" revision="0" />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item value="检查更新" revision="1" />
+    <Item value="每次启动时" revision="1" />
+    <Item value="每周" revision="1" />
+    <Item value="从不" revision="1" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item value="更多语言..." revision="0" />
+    <Item value="在线检查更多的语言" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item value="在线语言资源库" revision="0" />
+    <Item value="参与创建更多的 Hex Editor Neo 语言包" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item value="更改语言" revision="0" />
+    <Item value="本语言包由开源社区成员网络浪子(netprodiag@163.com)创建, Chyanbo(chyanbo@msn.com)更新，我们对翻译质量不承担任何责任。\r\n\r\n如果你发现翻译错误，可以提交一个表单或自行修正错误。" revision="0" />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item value="在线有在线的语言包可用" revision="0" />
+    <Item value="目前有在线的 Hex Editor Neo &quot;{language name}&quot; 语言包可用，你想下载并使用此语言包吗？" revision="0" />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item value="注册表" revision="0" />
+    <Item value="默认单用户存储位置" revision="0" />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item value="便携模式" revision="0" />
+    <Item value="存储程序设置到启动文件夹中 portable.hexset 文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item value="外部文件：" revision="0" />
+    <Item value="存储程序设置到外部文件。指定共享的位置（比如OneDrive）在不同设备间共享你的设置。" revision="0" />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item value="新的测试版可用" revision="1" />
+    <Item value="相对于当前版本，有一个新的测试版本可以下载。" revision="1" />
+    <Item value="你想要浏览更新组件列表并下载他们吗？" revision="1" />
+    <Item value="每组在线组件，这个提示仅出现一次。" revision="1" />
+    <Item value="不再检查新的测试版本" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="兼容性设置检测到!" revision="0" />
+    <Item value="操作系统正在应用Hex Editor Neo的兼容性设置。当这些设置生效时，应用程序可能无法正常运行。此外，在兼容性设置下运行可能会影响性能和视觉质量。\r\n\n选择您现在想做的事情。" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="继续执行" revision="0" />
+    <Item value="删除兼容性设置并重新启动应用程序" revision="0" />
+  </Enumeration>
+</Language>

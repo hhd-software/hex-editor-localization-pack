@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="下载器" revision="1" />
+  <Message key="ForegroundDownloading" value="前台下载" revision="1" />
+  <Message key="ProgressString" value="已完成 {percent}%" revision="1" />
+  <Message key="Unknown" value="未知" revision="1" />
+  <Message key="PleaseWait" value="请稍候..." revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="这将重新开始所有当前下载的任务，你想继续吗？" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="你想取消所有活动的下载任务吗？" revision="1" />
+  <Message key="Proxy Page" value="代理" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="选择一个用于 &quot;检查更新&quot; 的代理设置:" revision="0" />
+  <Message key="Autodetect proxy settings" value="自动检测代理设置" revision="0" />
+  <Message key="Do not use proxy" value="不使用代理" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="使用下面的代理(HTTP):" revision="0" />
+  <Message key="Settings" value="设置" revision="0" />
+  <Message key="Authentication" value="身份验证" revision="0" />
+  <Message key="Authentication is not required" value="身份验证不是必需的" revision="0" />
+  <Message key="Authenticate me as logged on user" value="以登录用户身份的方式验证我" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="用下面的凭证验证我" revision="0" />
+  <Message key="User name:" value="用户名:" revision="0" />
+  <Message key="Password:" value="密码:" revision="0" />
+  <Message key="Re-type password:" value="再次输入密码:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo 安全地存储输入的密码到你的本地用户账户中)" revision="0" />
+  <Message key="PasswordMismatch" value="输入的密码必须匹配。" revision="0" />
+  <Message key="Downloader settings" value="代理设置" revision="0" />
+  <Message key="toolbar.Downloader" value="下载" revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="下载器" revision="0" />
+    <Item value="下载器" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="取消所有下载任务(&amp;C)" revision="1" />
+    <Item value="取消所有下载任务" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="前台下载(&amp;F)" revision="1" />
+    <Item value="使用全部可用的网络带宽给下载任务" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="任务" revision="1" />
+    <Item value="状态" revision="1" />
+    <Item value="大小" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="队列" revision="1" />
+    <Item value="正在连接..." revision="1" />
+    <Item value="正在传输..." revision="1" />
+    <Item value="已挂起" revision="1" />
+    <Item value="错误" revision="1" />
+    <Item value="错误，10 秒内重试..." revision="1" />
+    <Item value="已传输" revision="1" />
+    <Item value="响应" revision="1" />
+    <Item value="已取消" revision="1" />
+  </Enumeration>
+</Language>

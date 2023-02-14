@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="编写脚本" revision="0" />
+  <Message key="New Script" value="新脚本 {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="调试监视" revision="0" />
+  <Message key="CallStackTitle" value="调试调用堆栈" revision="0" />
+  <Message key="Macros" value="宏" revision="0" />
+  <Message key="Console" value="控制台" revision="0" />
+  <Message key="MacroToolbar" value="宏" revision="0" />
+  <Message key="WatchToolbar" value="监视" revision="0" />
+  <Message key="ScriptChanged" value="您的脚本已被修改。不可能继续执行。您想停止脚本执行吗？" revision="0" />
+  <Message key="Compiling TypeScript" value="正在编译类型脚本…\n" revision="0" />
+  <Message key="Started Script" value="脚本执行已开始: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="正在停止脚本执行…" revision="0" />
+  <Message key="Stopped Script" value="\n脚本执行已停止。\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="脚本当前正在运行。您想停止它以便继续关闭脚本窗口吗？" revision="0" />
+  <Message key="ScriptLoadError" value="加载文件错误 &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="加载所选文件时出现以下错误:\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="保存文件错误 &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="您要保存对当前脚本所做的更改吗？" revision="0" />
+  <Message key="NewMacroTitle" value="新建宏" revision="0" />
+  <Message key="EditMacroTitle" value="编辑宏" revision="0" />
+  <Message key="Macro name:" value="宏名称：" revision="0" />
+  <Message key="Macro hot key:" value="宏热键：" revision="0" />
+  <Message key="Edit Macro Script" value="编辑宏脚本" revision="0" />
+  <Message key="MacroDiscardPrompt" value="这将丢弃录制的宏。是否要放弃录制的宏？" revision="0" />
+  <Message key="MacroNameExists" value="同名的宏已经存在。您想覆盖它吗？" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="这将删除所有宏。您确定要继续吗？" revision="0" />
+  <Message key="MacroName" value="宏: {name}" revision="0" />
+  <Message key="MacroExportFormat" value="宏导出文件|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="脚本文件" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="&amp;开始录制" revision="0" />
+    <Item value="开始宏记录" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="停止录制/回放" revision="0" />
+    <Item value="停止宏录制或回放" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="开始和播放" revision="0" />
+    <Item value="开始宏回放" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="删除宏" revision="0" />
+    <Item value="删除当前选定的宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="删除&amp;所有宏" revision="0" />
+    <Item value="删除所有宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="&amp;编辑宏…" revision="0" />
+    <Item value="编辑所选宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="&amp;导入宏…" revision="0" />
+    <Item value="导入宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="导出宏…" revision="0" />
+    <Item value="导出宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="宏" revision="0" />
+    <Item value="宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="新建脚本" revision="0" />
+    <Item value="创建新的空脚本文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="打开脚本…" revision="0" />
+    <Item value="打开现有的脚本文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="&amp;运行脚本" revision="0" />
+    <Item value="开始脚本执行" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="&amp;停止脚本" revision="0" />
+    <Item value="停止脚本执行" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="&amp;调试脚本" revision="0" />
+    <Item value="启动脚本调试" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="切换断点" revision="0" />
+    <Item value="设置或移除执行断点" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="移除所有断点" revision="0" />
+    <Item value="移除所有断点" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="单步进入 " revision="0" />
+    <Item value="单步执行被调用的函数" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="单步跳出" revision="0" />
+    <Item value="单步跳出被调用的函数" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="步进" revision="0" />
+    <Item value="步进调用的函数" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="继续" revision="0" />
+    <Item value="继续执行" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="中断执行" revision="0" />
+    <Item value="中断脚本执行" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="添加监测" revision="0" />
+    <Item value="添加监测" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="移除监视" revision="0" />
+    <Item value="移除监视" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="编辑监视" revision="0" />
+    <Item value="编辑监视" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="&amp;调试" revision="0" />
+    <Item value="调试菜单" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="宏" revision="0" />
+    <Item value="热键" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="名称" revision="0" />
+    <Item value="行" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="名称" revision="0" />
+    <Item value="值" revision="0" />
+    <Item value="类型" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="脚本" revision="1" />
+    <Item value="脚本功能允许您使用TypeScript编写的脚本控制Hex Editor Neo。" revision="1" />
+  </Enumeration>
+</Language>
