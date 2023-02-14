@@ -13,7 +13,7 @@
     <Item value="搜索一个标识符的所有引用" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item value="转到符号..." revision="0" />
+    <Item value="转到符号…" revision="0" />
     <Item value="导航到符号定义" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">

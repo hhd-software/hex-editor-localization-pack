@@ -40,7 +40,7 @@
   <Message key="Regular Expressions Page" value="正则表达式" revision="1" />
   <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="在此页中你可以创建可重用的正则表达式类，每个类应当是一个有效的正则表达式并可以引用其它类。" revision="1" />
   <Message key="Add…" value="添加(&amp;A).." revision="1" />
-  <Message key="Edit…" value="编辑(&amp;E)..." revision="1" />
+  <Message key="Edit…" value="编辑(&amp;E)…" revision="1" />
   <Message key="Delete All" value="全部删除(&amp;T)" revision="1" />
   <Message key="Global regular expression options:" value="全局正则表达式选项:" revision="1" />
   <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Dot) 元字符不匹配 null 字符 ('\\0')" revision="1" />

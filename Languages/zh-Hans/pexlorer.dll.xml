@@ -33,7 +33,7 @@
   <Message key="NoSnapshotting" value="Windows 7不支持进程快照技术。Windows 8或更高版本的操作系统支持这项技术。" revision="0" />
   <Message key="DumpFileFilter" value="转储文件|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
-    <Item value="打开进程(&amp;R)..." revision="1" />
+    <Item value="打开进程(&amp;R)…" revision="1" />
     <Item value="打开读取和写入的进程内存" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
@@ -109,7 +109,7 @@
     <Item value="启动外部调试器来调试选定的进程快照或运行中的进程" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessSaveDump">
-    <Item value="保存进程/快照转储..." revision="0" />
+    <Item value="保存进程/快照转储…" revision="0" />
     <Item value="将进程的当前状态或选定的快照转储到一个文件中。" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessKill">
@@ -117,7 +117,7 @@
     <Item value="终止运行中的进程" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessChangeColors">
-    <Item value="改变颜色..." revision="0" />
+    <Item value="改变颜色…" revision="0" />
     <Item value="进入主题页面，改变进程窗口的颜色" revision="0" />
   </Enumeration>
   <Enumeration key="BlockType">

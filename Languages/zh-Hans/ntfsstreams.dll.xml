@@ -36,7 +36,7 @@
   <Message key="Include sub-folders" value="包含子文件夹" revision="0" />
   <Message key="toolbar.NTFS Streams" value="NTFS数据流" revision="0" />
   <Enumeration key="StreamCreate">
-    <Item value="创建流(&amp;C)..." revision="0" />
+    <Item value="创建流(&amp;C)…" revision="0" />
     <Item value="创建新文件流" revision="0" />
   </Enumeration>
   <Enumeration key="StreamOpen">
@@ -44,11 +44,11 @@
     <Item value="在编辑器中打开文件流" revision="0" />
   </Enumeration>
   <Enumeration key="StreamDelete">
-    <Item value="删除流(&amp;D)..." revision="0" />
+    <Item value="删除流(&amp;D)…" revision="0" />
     <Item value="删除文件流" revision="0" />
   </Enumeration>
   <Enumeration key="StreamRename">
-    <Item value="重命名流(&amp;R)..." revision="0" />
+    <Item value="重命名流(&amp;R)…" revision="0" />
     <Item value="重命名文件流" revision="0" />
   </Enumeration>
   <Enumeration key="StreamCancel">
@@ -60,7 +60,7 @@
     <Item value="打开包含此流的父文件。" revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
-    <Item value="查找流..." revision="0" />
+    <Item value="查找流…" revision="0" />
     <Item value="在选定的位置定位所有具有交换数据流的文件。" revision="0" />
   </Enumeration>
   <Enumeration key="StreamExitLocate">

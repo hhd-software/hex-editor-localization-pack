@@ -23,8 +23,8 @@
   <Message key="Connect to" value="连接到" revision="1" />
   <Message key="ConnectToSuccess" value="Windows 已连接成功。" revision="1" />
   <Message key="ConnectToFailure" value="选择的窗口无效，无法连接到选择的窗口。" revision="1" />
-  <Message key="Copying Selection Regions…" value="正在复制选区..." revision="1" />
-  <Message key="Exporting Selection Regions…" value="正在导出选区..." revision="1" />
+  <Message key="Copying Selection Regions…" value="正在复制选区…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="正在导出选区…" revision="1" />
   <Message key="Open documentation section and continue" value="打开文档资料章节并继续" revision="1" />
   <Message key="Just continue" value="仅继续" revision="1" />
   <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}自动{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
@@ -147,13 +147,13 @@
   <Message key="File pattern:" value="文件样式" revision="0" />
   <Message key="Interlacing:" value="交错：" revision="0" />
   <Message key="Layout Schemes" value="布局方案" revision="0" />
-  <Message key="&amp;Save As…" value="另存为(&amp;S)..." revision="0" />
+  <Message key="&amp;Save As…" value="另存为(&amp;S)…" revision="0" />
   <Message key="Load Selection" value="载入选择" revision="0" />
   <Message key="Loading Mode" value="载入模式" revision="0" />
   <Message key="New selection" value="新建选择" revision="0" />
   <Message key="Add to current" value="添加到当前" revision="0" />
   <Message key="Subtract from current" value="从当前减除" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="正在执行当前操作，请稍候..." revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="正在执行当前操作，请稍候…" revision="0" />
   <Message key="0 % done" value="已完成 0%" revision="0" />
   <Message key="Elapsed time: " value="已用时间:" revision="0" />
   <Message key="Remaining time:" value="剩余时间:" revision="0" />
@@ -254,15 +254,15 @@
     <Item value="选择已修改的数据" revision="1" />
   </Enumeration>
   <Enumeration key="SelectRange">
-    <Item value="选择范围(&amp;R)..." revision="1" />
+    <Item value="选择范围(&amp;R)…" revision="1" />
     <Item value="指定数据范围并与一个当前选择组合" revision="1" />
   </Enumeration>
   <Enumeration key="SelectLoad">
-    <Item value="载入选择(&amp;L)..." revision="1" />
+    <Item value="载入选择(&amp;L)…" revision="1" />
     <Item value="载入新选择或与当前选择之一组合" revision="1" />
   </Enumeration>
   <Enumeration key="SelectSave">
-    <Item value="保存选择(&amp;S)..." revision="1" />
+    <Item value="保存选择(&amp;S)…" revision="1" />
     <Item value="保存当前选择到一个文件中" revision="1" />
   </Enumeration>
   <Enumeration key="EditEditCell">
@@ -274,7 +274,7 @@
     <Item value="打开或关闭插入模式" revision="1" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item value="查找(&amp;F)..." revision="1" />
+    <Item value="查找(&amp;F)…" revision="1" />
     <Item value="查找匹配或所有匹配项" revision="1" />
   </Enumeration>
   <Enumeration key="EditFindNext">
@@ -286,27 +286,27 @@
     <Item value="查找上一个匹配项" revision="1" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item value="替换(&amp;R)..." revision="1" />
+    <Item value="替换(&amp;R)…" revision="1" />
     <Item value="用其它模式替换" revision="1" />
   </Enumeration>
   <Enumeration key="EditFill">
-    <Item value="填充(&amp;I)..." revision="1" />
+    <Item value="填充(&amp;I)…" revision="1" />
     <Item value="用字节或模式填充所选" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsert">
-    <Item value="插入(&amp;I)..." revision="1" />
+    <Item value="插入(&amp;I)…" revision="1" />
     <Item value="插入字节或模式" revision="1" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item value="转到偏移(&amp;G)..." revision="1" />
+    <Item value="转到偏移(&amp;G)…" revision="1" />
     <Item value="转到文件中的指定偏移" revision="1" />
   </Enumeration>
   <Enumeration key="EditSetSize">
-    <Item value="更改文件大小(&amp;Z)..." revision="1" />
+    <Item value="更改文件大小(&amp;Z)…" revision="1" />
     <Item value="更改文件的大小" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertFile">
-    <Item value="插入文件(&amp;L)..." revision="1" />
+    <Item value="插入文件(&amp;L)…" revision="1" />
     <Item value="将磁盘文件的内容插入到当前位置，或者改写或插入数据，取决于当前的覆盖模式。" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
@@ -314,7 +314,7 @@
     <Item value="编码" revision="1" />
   </Enumeration>
   <Enumeration key="ViewConnect">
-    <Item value="连接到(&amp;C)..." revision="1" />
+    <Item value="连接到(&amp;C)…" revision="1" />
     <Item value="此窗口与其它窗口连接" revision="1" />
   </Enumeration>
   <Enumeration key="ViewHex">
@@ -394,7 +394,7 @@
     <Item value="32 列" revision="1" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item value="自定义(&amp;C)..." revision="1" />
+    <Item value="自定义(&amp;C)…" revision="1" />
     <Item value="指定列数" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
@@ -410,15 +410,15 @@
     <Item value="字节序" revision="0" />
   </Enumeration>
   <Enumeration key="EditEncrypt">
-    <Item value="加密(&amp;Y)..." revision="1" />
+    <Item value="加密(&amp;Y)…" revision="1" />
     <Item value="加密文档数据" revision="1" />
   </Enumeration>
   <Enumeration key="EditDecrypt">
-    <Item value="解密(&amp;P)..." revision="1" />
+    <Item value="解密(&amp;P)…" revision="1" />
     <Item value="解密文档数据" revision="1" />
   </Enumeration>
   <Enumeration key="EditModifyBits">
-    <Item value="修改位..." revision="1" />
+    <Item value="修改位…" revision="1" />
     <Item value="修改位" revision="1" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
@@ -430,19 +430,19 @@
     <Item value="打开或关闭单项选择模式" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseNOT">
-    <Item value="逐位非(&amp;N)..." revision="1" />
+    <Item value="逐位非(&amp;N)…" revision="1" />
     <Item value="执行一个逐位非运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseOR">
-    <Item value="逐位或(&amp;O)..." revision="1" />
+    <Item value="逐位或(&amp;O)…" revision="1" />
     <Item value="执行一个逐位或运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseAND">
-    <Item value="逐位与(&amp;A)..." revision="1" />
+    <Item value="逐位与(&amp;A)…" revision="1" />
     <Item value="执行一个逐位与运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseXOR">
-    <Item value="逐位异或(&amp;X)..." revision="1" />
+    <Item value="逐位异或(&amp;X)…" revision="1" />
     <Item value="执行一个逐位异或运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticNegation">
@@ -450,55 +450,55 @@
     <Item value="执行一个算数取反运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticAddition">
-    <Item value="加(&amp;D)..." revision="1" />
+    <Item value="加(&amp;D)…" revision="1" />
     <Item value="执行一个算数加法运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSubtraction">
-    <Item value="减(&amp;S)..." revision="1" />
+    <Item value="减(&amp;S)…" revision="1" />
     <Item value="执行一个算数减法运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticMultiplication">
-    <Item value="乘(&amp;M)..." revision="1" />
+    <Item value="乘(&amp;M)…" revision="1" />
     <Item value="执行一个算数乘法运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticDivision">
-    <Item value="除(&amp;I)..." revision="1" />
+    <Item value="除(&amp;I)…" revision="1" />
     <Item value="执行一个算数除法运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticRemainder">
-    <Item value="求模(&amp;R)..." revision="1" />
+    <Item value="求模(&amp;R)…" revision="1" />
     <Item value="执行一个算数求余数运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMinimum">
-    <Item value="设置最小值(&amp;I)..." revision="1" />
+    <Item value="设置最小值(&amp;I)…" revision="1" />
     <Item value="执行一个设置最小值的运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMaximum">
-    <Item value="设置最大值(&amp;X)..." revision="1" />
+    <Item value="设置最大值(&amp;X)…" revision="1" />
     <Item value="执行一个设置最大值的运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalLeft">
-    <Item value="逻辑左移(&amp;G)..." revision="1" />
+    <Item value="逻辑左移(&amp;G)…" revision="1" />
     <Item value="执行一个逻辑左移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalRight">
-    <Item value="逻辑右移(&amp;C)..." revision="1" />
+    <Item value="逻辑右移(&amp;C)…" revision="1" />
     <Item value="执行一个逻辑右移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftArithmeticLeft">
-    <Item value="算数左移(&amp;L)..." revision="1" />
+    <Item value="算数左移(&amp;L)…" revision="1" />
     <Item value="执行一个算数左移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftArithmeticRight">
-    <Item value="算数右移(&amp;M)..." revision="1" />
+    <Item value="算数右移(&amp;M)…" revision="1" />
     <Item value="执行一个算数右移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftRotateLeft">
-    <Item value="循环左移(&amp;T)..." revision="1" />
+    <Item value="循环左移(&amp;T)…" revision="1" />
     <Item value="执行一个循环左移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftRotateRight">
-    <Item value="循环右移(&amp;H)..." revision="1" />
+    <Item value="循环右移(&amp;H)…" revision="1" />
     <Item value="执行一个循环右移运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationCaseLower">
@@ -514,11 +514,11 @@
     <Item value="切换大小写" revision="1" />
   </Enumeration>
   <Enumeration key="OperationReverseBits">
-    <Item value="反转位(&amp;R)..." revision="1" />
+    <Item value="反转位(&amp;R)…" revision="1" />
     <Item value="执行一个位反转运算" revision="1" />
   </Enumeration>
   <Enumeration key="OperationReverseBytes">
-    <Item value="字节交换..." revision="1" />
+    <Item value="字节交换…" revision="1" />
     <Item value="执行字节交换运算" revision="1" />
   </Enumeration>
   <Enumeration key="ViewRefresh">
@@ -530,7 +530,7 @@
     <Item value="复制选区列表到剪贴板中" revision="1" />
   </Enumeration>
   <Enumeration key="SelectExport">
-    <Item value="导出选择..." revision="1" />
+    <Item value="导出选择…" revision="1" />
     <Item value="导出选区列表到此文件中" revision="1" />
   </Enumeration>
   <Enumeration key="OutputClear">

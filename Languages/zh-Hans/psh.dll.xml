@@ -122,15 +122,15 @@
     <Item value="清除历史" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryPurge">
-    <Item value="清除..." revision="0" />
+    <Item value="清除…" revision="0" />
     <Item value="清除历史" revision="0" />
   </Enumeration>
   <Enumeration key="HistorySave">
-    <Item value="保存操作历史..." revision="0" />
+    <Item value="保存操作历史…" revision="0" />
     <Item value="保存操作历史到文件中" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryLoad">
-    <Item value="载入操作历史..." revision="0" />
+    <Item value="载入操作历史…" revision="0" />
     <Item value="从一个文件载入操作历史" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCollapseSame">
@@ -142,19 +142,19 @@
     <Item value="切换自动创建分支模式" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCreatePatch">
-    <Item value="创建补丁(&amp;T)..." revision="0" />
+    <Item value="创建补丁(&amp;T)…" revision="0" />
     <Item value="用当前更改创建一个补丁" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item value="添加新规则..." revision="0" />
+    <Item value="添加新规则…" revision="0" />
     <Item value="定义新模式颜色规则" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item value="保存方案..." revision="0" />
+    <Item value="保存方案…" revision="0" />
     <Item value="保存模式颜色方案" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item value="载入方案..." revision="0" />
+    <Item value="载入方案…" revision="0" />
     <Item value="载入模式颜色方案" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
@@ -162,7 +162,7 @@
     <Item value="清除所有定义规则" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringApplyChanges">
-    <Item value="启用模式颜色..." revision="0" />
+    <Item value="启用模式颜色…" revision="0" />
     <Item value="启用或禁用所有模式颜色规则" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsOpenCalc">
@@ -178,11 +178,11 @@
     <Item value="在表视图和柱状图视图间切换" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsChangeColors">
-    <Item value="修改颜色..." revision="0" />
+    <Item value="修改颜色…" revision="0" />
     <Item value="更改柱状图颜色" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryVisSelectColors">
-    <Item value="选择颜色..." revision="0" />
+    <Item value="选择颜色…" revision="0" />
     <Item value="更改窗口颜色" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsHideMaximum">
@@ -222,7 +222,7 @@
     <Item value="历史适合屏幕" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryOpenVisualizer">
-    <Item value="完整操作历史树..." revision="0" />
+    <Item value="完整操作历史树…" revision="0" />
     <Item value="显示一个完整的操作历史树" revision="0" />
   </Enumeration>
   <Enumeration key="AttribSaveAttributes">
@@ -246,7 +246,7 @@
     <Item value="在文档中选择此块" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsSelectColumns">
-    <Item value="选择列..." revision="0" />
+    <Item value="选择列…" revision="0" />
     <Item value="选择可见列" revision="0" />
   </Enumeration>
   <Enumeration key="AttributesSizes">
@@ -394,7 +394,7 @@
     <Item value="取消全部勾选" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
-    <Item value="修改规则..." revision="0" />
+    <Item value="修改规则…" revision="0" />
     <Item value="修改规则" revision="0" />
   </Enumeration>
   <Enumeration key="ColumnsStd">

@@ -72,7 +72,7 @@
     <Item value="访问时间" revision="0" />
   </Enumeration>
   <Enumeration key="CopyTo">
-    <Item value="复制到(&amp;C)..." revision="0" />
+    <Item value="复制到(&amp;C)…" revision="0" />
     <Item value="复制文件或目录到指定位置" revision="0" />
   </Enumeration>
   <Enumeration key="CopyVolume">

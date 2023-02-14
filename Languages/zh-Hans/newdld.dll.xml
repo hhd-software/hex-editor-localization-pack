@@ -4,7 +4,7 @@
   <Message key="ForegroundDownloading" value="前台下载" revision="1" />
   <Message key="ProgressString" value="已完成 {percent}%" revision="1" />
   <Message key="Unknown" value="未知" revision="1" />
-  <Message key="PleaseWait" value="请稍候..." revision="0" />
+  <Message key="PleaseWait" value="请稍候…" revision="0" />
   <Message key="This will restart all current download tasks. Do you want to continue?" value="这将重新开始所有当前下载的任务，你想继续吗？" revision="1" />
   <Message key="Do you want to cancel all active download tasks?" value="你想取消所有活动的下载任务吗？" revision="1" />
   <Message key="Proxy Page" value="代理" revision="0" />
@@ -43,11 +43,11 @@
   </Enumeration>
   <Enumeration key="DownloadStatus">
     <Item value="队列" revision="1" />
-    <Item value="正在连接..." revision="1" />
-    <Item value="正在传输..." revision="1" />
+    <Item value="正在连接…" revision="1" />
+    <Item value="正在传输…" revision="1" />
     <Item value="已挂起" revision="1" />
     <Item value="错误" revision="1" />
-    <Item value="错误，10 秒内重试..." revision="1" />
+    <Item value="错误，10 秒内重试…" revision="1" />
     <Item value="已传输" revision="1" />
     <Item value="响应" revision="1" />
     <Item value="已取消" revision="1" />
