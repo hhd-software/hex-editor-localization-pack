@@ -186,7 +186,7 @@
   <Message key="License Management and Upgrading" value="라이선스 관리 및 업그레이드" revision="1" />
   <Message key="Installed license" value="설치된 라이선스:" revision="1" />
   <Message key="Start Trial now!" value="지금 평가판 시작!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="업그레이드하려는 버전을 선택합니다. 선택한 버전에 대한 자세한 정보를 보려면 &quot;더 많은 정보...&quot; 링크를 사용하고, 버전 비교 표를 보려면 &quot;에디션 비교...&quot; 링크를 사용하십시오." revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="업그레이드하려는 버전을 선택합니다. 선택한 버전에 대한 자세한 정보를 보려면 &quot;더 많은 정보…&quot; 링크를 사용하고, 버전 비교 표를 보려면 &quot;에디션 비교…&quot; 링크를 사용하십시오." revision="1" />
   <Message key="Standard Edition:" value="Standard 에디션:" revision="1" />
   <Message key="More Info…" value="더 많은 정보…" revision="1" />
   <Message key="Upgrade…" value="업그레이드…" revision="1" />
