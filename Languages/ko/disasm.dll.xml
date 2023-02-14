@@ -74,7 +74,7 @@
   <Message key="Synchronize selection with Hex View" value="선택 영역을 16진수 보기로 동기화" revision="0" />
   <Message key="Hexadecimal" value="16진수" revision="0" />
   <Message key="Decimal" value="10진수" revision="0" />
-  <Message key="Symbols…" value="기호..." revision="0" />
+  <Message key="Symbols…" value="기호…" revision="0" />
   <Message key="Mode:" value="모드:" revision="0" />
   <Message key="Remember used settings" value="명령 집합 및 모드 기억" revision="0" />
   <Message key="Find Window" value="찾기" revision="0" />
