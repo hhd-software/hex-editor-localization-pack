@@ -1,104 +1,124 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="RegionInfo" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}" revision="2" />
+  <Message key="ProcessCat" value="프로세스" revision="0" />
+  <Message key="RegionInfo" value="[[[u프로세스 메모리 범위]]]\r  [[[b지역 기반:]]] {base} ({base:2})\r  [[[b지역 끝:]]] {end} ({end:2})\r  [[[b지역 크기:]]] {size} ({size:2})\r  [[[b유형:]]] {type}\r  [[[b상태:]]] {state}\r  [[[b플래그:]]] {flags}" revision="3" />
   <Message key="Unknown" value="알 수 없음" revision="1" />
   <Message key="N/A" value="없음" revision="1" />
   <Message key="Start:" value="시작:" revision="1" />
   <Message key="End:" value="끝:" revision="1" />
   <Message key="Size:" value="크기:" revision="1" />
-  <Message key="clr.pex_colors" value="&quot;프로세스 열기/프로세스로 이동&quot; 색상" revision="0" />
+  <Message key="Snapshots" value="스냅샷" revision="0" />
+  <Message key="clr.pex_colors" value="프로세스 창 색상" revision="1" />
   <Message key="clr.pex_colors.NoAccess" value="액세스 금지 영역" revision="0" />
   <Message key="clr.pex_colors.ReadOnly" value="읽기 전용 영역" revision="0" />
   <Message key="clr.pex_colors.ReadWrite" value="읽기/쓰기 영역" revision="0" />
   <Message key="clr.pex_colors.WriteCopy" value="쓰기 영역에 복사" revision="0" />
   <Message key="clr.pex_colors.Free" value="남은 영역" revision="0" />
+  <Message key="Processes" value="프로세스" revision="0" />
+  <Message key="ProcessToolbar" value="프로세스" revision="0" />
+  <Message key="Process filter" value="검색 프로세스…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="선택한 프로세스를 여는 동안 다음 오류가 발생했습니다:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="다음 오류로 인해 프로세스가 종료되지 않았습니다.\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="프로세스 덤프를 저장하는 동안 오류가 발생했습니다.\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="외부 디버거를 찾거나 실행하는 동안 오류가 발생했습니다:\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="프로세스 이름: {name}\n프로세스 ID: {id}\n아키텍처: {arch}\n사용자: {user}\n상태: {status}\n전체 이미지 경로: {path}\n명령줄: {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[b전체 이미지 경로:]]] {path}\n[[[b명령줄:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="{error}(으)로 종료되었습니다" revision="0" />
+  <Message key="Snapshot creation error" value="스냅샷 생성 중 오류 발생: {text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [스냅샷]" revision="0" />
+  <Message key="AskClearSnapshots" value="모든 프로세스 스냅샷 제거 작업은 취소할 수 없습니다. 계속하시겠습니까?" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="스냅샷 디버깅 시 전체 메모리 포함" revision="0" />
+  <Message key="DumpCreation" value="디버깅을 위한 스냅샷 준비" revision="0" />
+  <Message key="highlightRegions" value="편집기 창에서 메모리 영역 강조 표시" revision="0" />
+  <Message key="NoSnapshotting" value="Windows 7은 프로세스 스냅샷 기술을 지원하지 않습니다. 이 기술은 Windows 8 이상 OS 버전에서 지원됩니다." revision="0" />
+  <Message key="DumpFileFilter" value="덤프 파일|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
     <Item value="프로세스 열기(&amp;R)…" revision="1" />
     <Item value="읽기 및 쓰기를 위한 프로세스 메모리 열기" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
-    <Item />
-    <Item />
+    <Item value="프로세스 열기(&amp;R)…" revision="0" />
+    <Item value="읽기 및 쓰기를 위한 프로세스 메모리 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenSnapshot">
-    <Item />
-    <Item />
+    <Item value="프로세스 스냅샷 열기(&amp;R)…" revision="0" />
+    <Item value="프로세스 스냅샷 생성 및 메모리 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAllProcesses">
-    <Item />
-    <Item />
+    <Item value="모든 프로세스 표시" revision="0" />
+    <Item value="모든 사용자에 대한 프로세스 표시" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAutoRefresh">
-    <Item />
-    <Item />
+    <Item value="자동 새로 고침" revision="0" />
+    <Item value="실행 중인 프로세스 목록 자동 새로 고침" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessRefresh">
-    <Item />
-    <Item />
+    <Item value="프로세스 목록 새로 고침" revision="0" />
+    <Item value="실행 중인 프로세스 목록 새로 고침" revision="0" />
   </Enumeration>
   <Enumeration key="GoToProcess">
     <Item value="이동… (프로세스에서)" revision="1" />
     <Item value="편집된 프로세스 메모리의 지정된 섹션으로 이동" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessCreateSnapshot">
-    <Item />
-    <Item />
+    <Item value="스냅샷 생성" revision="0" />
+    <Item value="프로세스 스냅샷 생성" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDeleteSnapshot">
-    <Item />
-    <Item />
+    <Item value="스냅샷 삭제" revision="0" />
+    <Item value="선택한 스냅샷 삭제" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessCompareSnapshots">
-    <Item />
-    <Item />
+    <Item value="선택한 스냅샷 비교(두 개 선택)" revision="0" />
+    <Item value="비교할 스냅샷 두 개 선택" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessClearSnapshots">
-    <Item />
-    <Item />
+    <Item value="스냅샷 지우기" revision="0" />
+    <Item value="모든 프로세스 스냅샷 삭제" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessBlocksMode">
-    <Item />
-    <Item />
+    <Item value="블록" revision="0" />
+    <Item value="프로세스 메모리 블록 표시" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessModulesMode">
-    <Item />
-    <Item />
+    <Item value="모듈" revision="0" />
+    <Item value="프로세스 매핑 모듈 표시" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessModeSwitch">
-    <Item />
-    <Item />
+    <Item value="프로세스 영역 목록 모드" revision="0" />
+    <Item value="영역 목록에 표시되는 데이터 유형 변경" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenRegion">
-    <Item />
-    <Item />
+    <Item value="열기 (읽기 전용)" revision="0" />
+    <Item value="선택한 메모리 영역을 읽기 전용으로 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenRegionForWrite">
-    <Item />
-    <Item />
+    <Item value="열기 (읽기/쓰기)" revision="0" />
+    <Item value="읽기/쓰기 액세스를 위해 선택한 메모리 영역 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessRefreshRegions">
-    <Item />
-    <Item />
+    <Item value="메모리 새로 고침" revision="0" />
+    <Item value="메모리 새로 고침" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDisasm">
-    <Item />
-    <Item />
+    <Item value="역어셈블러 실행" revision="0" />
+    <Item value="선택한 모듈 역어셈블러" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessDebug">
-    <Item />
-    <Item />
+    <Item value="디버그 프로세스/스냅샷" revision="0" />
+    <Item value="선택한 프로세스 스냅샷 또는 실행 중인 프로세스를 디버그하기 위해 외부 디버거 실행" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessSaveDump">
-    <Item />
-    <Item />
+    <Item value="프로세스/스냅샷 덤프 저장…" revision="0" />
+    <Item value="프로세스 또는 선택한 스냅샷의 현재 상태 덤프를 파일에 저장" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessKill">
-    <Item />
-    <Item />
+    <Item value="프로세스 종료" revision="0" />
+    <Item value="실행 중인 프로세스 종료" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessChangeColors">
-    <Item />
-    <Item />
+    <Item value="색상 변경…" revision="0" />
+    <Item value="프로세스 창 색상을 변경하려면 테마 페이지로 이동" revision="0" />
   </Enumeration>
   <Enumeration key="BlockType">
     <Item value="알 수 없음" revision="1" />
@@ -113,27 +133,27 @@
     <Item value="예약됨" revision="1" />
   </Enumeration>
   <Enumeration key="PageAccess">
-    <Item value="액세스 없음" revision="1" />
-    <Item value="읽기 전용" revision="1" />
-    <Item value="읽기, 쓰기" revision="1" />
-    <Item value="쓰기 시 복사" revision="1" />
-    <Item value="실행" revision="1" />
-    <Item value="실행, 읽기" revision="1" />
-    <Item value="실행, 읽기, 쓰기" revision="1" />
-    <Item value="실행, 쓰기 시 복사" revision="1" />
-    <Item value="보호됨 (감시됨)" revision="1" />
-    <Item value="캐시 없음" revision="1" />
-    <Item />
+    <Item value="액세스 없음 " revision="2" />
+    <Item value="읽기 전용 " revision="2" />
+    <Item value="읽기, 쓰기 " revision="2" />
+    <Item value="쓰기 시 복사 " revision="2" />
+    <Item value="실행 " revision="2" />
+    <Item value="실행, 읽기 " revision="2" />
+    <Item value="실행, 읽기, 쓰기 " revision="2" />
+    <Item value="실행, 쓰기 시 복사 " revision="2" />
+    <Item value="보호됨 (감시됨) " revision="2" />
+    <Item value="캐시 없음" revision="2" />
+    <Item value="쓰기 조합" revision="2" />
   </Enumeration>
   <Enumeration key="FeatureDesc">
     <Item value="프로세스 열기" revision="1" />
     <Item value="프로세스 열기 기능을 사용하면 선택한 프로세스의 메모리 주소 공간을 열어 보고 편집할 수 있습니다." revision="1" />
   </Enumeration>
   <Enumeration key="debuggerType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="선호하는 외부 디버거" revision="0" />
+    <Item value="등록된 JIT 디버거" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
   </Enumeration>
   <Enumeration key="Task">
     <Item value="프로세스 열기" revision="1" />
@@ -148,28 +168,28 @@
     <Item value="모듈" revision="1" />
   </Enumeration>
   <Enumeration key="ModulesColumns">
-    <Item value="이름" revision="1" />
-    <Item value="주소" revision="1" />
-    <Item value="크기" revision="1" />
-    <Item />
+    <Item value="이름 " revision="2" />
+    <Item value="주소" revision="2" />
+    <Item value="크기" revision="2" />
+    <Item value="경로" revision="2" />
   </Enumeration>
   <Enumeration key="ProcessListColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="이름" revision="0" />
+    <Item value="프로세스 ID" revision="0" />
+    <Item value="아키텍쳐" revision="0" />
+    <Item value="사용자" revision="0" />
+    <Item value="개인 바이트" revision="0" />
+    <Item value="스레드" revision="0" />
+    <Item value="명령줄" revision="0" />
   </Enumeration>
   <Enumeration key="MachineTypes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="알 수 없음" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
   </Enumeration>
   <Enumeration key="Running">
-    <Item />
-    <Item />
+    <Item value="실행" revision="0" />
+    <Item value="종료" revision="0" />
   </Enumeration>
 </Language>

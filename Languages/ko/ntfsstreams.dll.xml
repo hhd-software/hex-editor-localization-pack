@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="StreamInProgress" value="현재 스트림 작업이 완료되거나 취소될 때까지 응용 프로그램을 닫을 수 없습니다." revision="0" />
   <Message key="NTFS Streams" value="NTFS 스트림" revision="0" />

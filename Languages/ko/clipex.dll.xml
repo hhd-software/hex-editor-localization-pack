@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Copy&amp;Export" value="내보내기 복사(&amp;E)" revision="1" />
   <Message key="BigSizeNotification" value="큰 텍스트 복사 알림" revision="1" />

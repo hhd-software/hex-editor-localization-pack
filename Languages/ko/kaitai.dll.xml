@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="MetaNotFound" value="메타데이터를 찾을 수 없음" revision="0" />
   <Message key="FileNotFound" value="파일을 찾을 수 없음: {filename}" revision="0" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Update" value="업데이트" revision="0" />
   <Message key="Assertion Failed" value="주장 실패{has message?}: {message}{?has message}" revision="0" />
@@ -104,6 +104,7 @@
   <Message key="TypeExists" value="이름이 같은 형식이 이미 있습니다." revision="0" />
   <Message key="StructureFileNotFound" value="{file} 파일이 &quot;{path}&quot; 위치에 없습니다. 라이브러리에서 제거하시겠습니까?" revision="0" />
   <Message key="toolbar.StructureViewer" value="구조 뷰어" revision="0" />
+  <Message key="toolbar.DataInspector" value="데이터 검사기" revision="0" />
   <Message key="OpenStructureViewer" value="&quot;구조 뷰어 표시&quot; 메시지 표시" revision="0" />
   <Message key="Open Structure Viewer" value="구조 뷰어 열기" revision="0" />
   <Message key="Open Online Repository" value="온라인 리포지토리에서 추가 구조 정의 찾기" revision="0" />
@@ -393,7 +394,7 @@
   <Enumeration key="CsvSeparator">
     <Item value="CSV 내보내기 구분자" revision="0" />
     <Item value="자동" revision="0" />
-    <Item value="콤마" revision="0" />
+    <Item value="쉼표" revision="0" />
     <Item value="탭" revision="0" />
     <Item value="세미콜론" revision="0" />
   </Enumeration>
