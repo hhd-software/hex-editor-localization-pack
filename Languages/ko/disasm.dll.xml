@@ -99,14 +99,14 @@
   <Message key="Name:" value="이름:" revision="0" />
   <Message key="Search" value="검색" revision="0" />
   <Message key="Jump" value="이동" revision="0" />
-  <Message key="Custom" value="사용자 지정..." revision="0" />
+  <Message key="Custom" value="사용자 지정…" revision="0" />
   <Message key="Custom Section" value="사용자 지정 섹션" revision="0" />
   <Message key="Physical address" value="물리적 주소:" revision="0" />
   <Message key="Virtual size" value="가상 크기:" revision="0" />
   <Message key="Pointer to raw data" value="원시 데이터에 대한 포인터:" revision="0" />
   <Message key="Size of raw data" value="원시 데이터 크기:" revision="0" />
   <Message key="Image base" value="이미지 기반:" revision="0" />
-  <Message key="ExportOp" value="분해된 개요를 내보내는 중..." revision="0" />
+  <Message key="ExportOp" value="분해된 개요를 내보내는 중…" revision="0" />
   <Message key="MsilWarning" value="MSIL 설치 경고 표시" revision="0" />
   <Message key="DownloadNetButton" value="Download .NET 2.0 런타임 다운로드" revision="0" />
   <Message key="IncorrectInputTitle" value="잘못된 입력" revision="0" />
@@ -117,23 +117,23 @@
   <Message key="MsilFeatureNotAvailable2" value="저장되지 않은 MSIL 모듈 분해는 현재 지원되지 않습니다. 먼저 파일을 저장하십시오." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;현재 파일 삭제&gt;" revision="0" />
   <Enumeration key="DisasmRun">
-    <Item value="디어셈블러 실행..." revision="0" />
+    <Item value="디어셈블러 실행…" revision="0" />
     <Item value="실행 파일 디어셈블러" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmExport">
-    <Item value="내보내기..." revision="0" />
+    <Item value="내보내기…" revision="0" />
     <Item value="디스어셈블리 내보내기" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmDetails">
-    <Item value="세부 사항..." revision="0" />
+    <Item value="세부 사항…" revision="0" />
     <Item value="개요 세부 사항 표시" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmSelectColumns">
-    <Item value="열 선택..." revision="0" />
+    <Item value="열 선택…" revision="0" />
     <Item value="디어셈블러 열 선택" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmShowSymbols">
-    <Item value="기호..." revision="0" />
+    <Item value="기호…" revision="0" />
     <Item value="이 문서에 대한 기호를 표시합니다. 선택한 기호로 이동합니다." revision="0" />
   </Enumeration>
   <Enumeration key="DisasmRefresh">

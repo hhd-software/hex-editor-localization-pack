@@ -92,7 +92,7 @@
     <Item value="백그라운드 모드 전환 (시스템 리소스 사용 감소)" revision="0" />
   </Enumeration>
   <Enumeration key="FindInFilesExport">
-    <Item value="내보내기 결과..." revision="0" />
+    <Item value="내보내기 결과…" revision="0" />
     <Item value="찾은 파일 목록 내보내기" revision="0" />
   </Enumeration>
 </Language>

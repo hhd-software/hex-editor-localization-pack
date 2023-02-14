@@ -16,7 +16,7 @@
   <Message key="clr.pex_colors.Free" value="남은 영역" revision="0" />
   <Message key="Processes" value="프로세스" revision="0" />
   <Message key="ProcessToolbar" value="프로세스" revision="0" />
-  <Message key="Process filter" value="검색 프로세스..." revision="0" />
+  <Message key="Process filter" value="검색 프로세스…" revision="0" />
   <Message key="ErrorOpeningProcess" value="선택한 프로세스를 여는 동안 다음 오류가 발생했습니다:\n\n{text} ({code})" revision="0" />
   <Message key="ErrorTerminatingProcess" value="다음 오류로 인해 프로세스가 종료되지 않았습니다.\n\n{text} ({code})" revision="0" />
   <Message key="ErrorSavingDump" value="프로세스 덤프를 저장하는 동안 오류가 발생했습니다.\n\n{text} ({code})" revision="0" />
@@ -37,11 +37,11 @@
     <Item value="읽기 및 쓰기를 위한 프로세스 메모리 열기" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
-    <Item value="프로세스 열기(&amp;R)..." revision="0" />
+    <Item value="프로세스 열기(&amp;R)…" revision="0" />
     <Item value="읽기 및 쓰기를 위한 프로세스 메모리 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenSnapshot">
-    <Item value="프로세스 스냅샷 열기(&amp;R)..." revision="0" />
+    <Item value="프로세스 스냅샷 열기(&amp;R)…" revision="0" />
     <Item value="프로세스 스냅샷 생성 및 메모리 열기" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAllProcesses">
@@ -109,7 +109,7 @@
     <Item value="선택한 프로세스 스냅샷 또는 실행 중인 프로세스를 디버그하기 위해 외부 디버거 실행" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessSaveDump">
-    <Item value="프로세스/스냅샷 덤프 저장..." revision="0" />
+    <Item value="프로세스/스냅샷 덤프 저장…" revision="0" />
     <Item value="프로세스 또는 선택한 스냅샷의 현재 상태 덤프를 파일에 저장" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessKill">
@@ -117,7 +117,7 @@
     <Item value="실행 중인 프로세스 종료" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessChangeColors">
-    <Item value="색상 변경..." revision="0" />
+    <Item value="색상 변경…" revision="0" />
     <Item value="프로세스 창 색상을 변경하려면 테마 페이지로 이동" revision="0" />
   </Enumeration>
   <Enumeration key="BlockType">

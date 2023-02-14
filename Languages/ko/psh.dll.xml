@@ -122,15 +122,15 @@
     <Item value="내역 지우기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryPurge">
-    <Item value="정리..." revision="0" />
+    <Item value="정리…" revision="0" />
     <Item value="내역 정리" revision="0" />
   </Enumeration>
   <Enumeration key="HistorySave">
-    <Item value="작업 내역 저장..." revision="0" />
+    <Item value="작업 내역 저장…" revision="0" />
     <Item value="파일에 작업 내역 저장" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryLoad">
-    <Item value="작업 내역 불러오기..." revision="0" />
+    <Item value="작업 내역 불러오기…" revision="0" />
     <Item value="파일에서 작업 기록 불러오기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCollapseSame">
@@ -146,15 +146,15 @@
     <Item value="현재 변경 사항이 있는 패치 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item value="새 규칙 추가..." revision="0" />
+    <Item value="새 규칙 추가…" revision="0" />
     <Item value="새 패턴 색칠 규칙 정의" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item value="구성표 저장..." revision="0" />
+    <Item value="구성표 저장…" revision="0" />
     <Item value="패턴 색상 구성표 저장" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item value="구성표 불러오기..." revision="0" />
+    <Item value="구성표 불러오기…" revision="0" />
     <Item value="패턴 색상 구성표 불러오기" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
@@ -178,11 +178,11 @@
     <Item value="표 보기와 히스토그램 보기 간 전환" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsChangeColors">
-    <Item value="색상 수정..." revision="0" />
+    <Item value="색상 수정…" revision="0" />
     <Item value="히스토그램 색상 변경" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryVisSelectColors">
-    <Item value="색상 선택..." revision="0" />
+    <Item value="색상 선택…" revision="0" />
     <Item value="창 색상 변경" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsHideMaximum">
@@ -190,7 +190,7 @@
     <Item value="그림에 피크 값 표시 안 함" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="재정의..." revision="1" />
+    <Item value="재정의…" revision="1" />
     <Item value="패턴 재정의" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
@@ -222,7 +222,7 @@
     <Item value="화면에 내역 맞추기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryOpenVisualizer">
-    <Item value="전체 작업 내역 트리..." revision="0" />
+    <Item value="전체 작업 내역 트리…" revision="0" />
     <Item value="전체 작업 내역 트리 표시" revision="0" />
   </Enumeration>
   <Enumeration key="AttribSaveAttributes">
@@ -246,7 +246,7 @@
     <Item value="문서에서 이 블록 선택" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsSelectColumns">
-    <Item value="열 선택..." revision="0" />
+    <Item value="열 선택…" revision="0" />
     <Item value="표시되는 열 선택" revision="0" />
   </Enumeration>
   <Enumeration key="AttributesSizes">

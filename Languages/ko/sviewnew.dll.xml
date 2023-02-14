@@ -52,14 +52,14 @@
   <Message key="Clear" value="지우기" revision="0" />
   <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="팁: 다음 자리 표시자 사용:\   » %path% - 원본 파일에 대한 경로\n   » %line% - 원본 파일에 있는 줄 \   » %pos% - 줄에 위치" revision="0" />
   <Message key="Library" value="구조 라이브러리" revision="0" />
-  <Message key="Add…" value="추가..." revision="0" />
-  <Message key="Edit…" value="편집..." revision="0" />
+  <Message key="Add…" value="추가…" revision="0" />
+  <Message key="Edit…" value="편집…" revision="0" />
   <Message key="Save Scheme" value="구성표 저장" revision="0" />
   <Message key="Name:" value="이름:" revision="0" />
   <Message key="Structure Viewer Page" value="구조 뷰어" revision="0" />
   <Message key="Include directories" value="디렉터리 포함" revision="0" />
   <Message key="File associations" value="파일 연결" revision="0" />
-  <Message key="Configure external editor…" value="외부 편집기 구성..." revision="0" />
+  <Message key="Configure external editor…" value="외부 편집기 구성…" revision="0" />
   <Message key="Regular expression:" value="정규식:" revision="0" />
   <Message key="Associated scheme:" value="연결된 구성표:" revision="0" />
   <Message key="Structure Coloring" value="구조 배색" revision="0" />
@@ -122,9 +122,9 @@
   <Message key="DefLibrary Title Text" value="구조 뷰어의 정의 라이브러리에 대한 업데이트가 온라인에서 발견되었습니다. 현재 사용 중인 버전 이후 변경된 목록을 볼 수 있습니다. 지금 업데이트 버튼을 눌러 업데이트를 다운로드합니다." revision="0" />
   <Message key="&amp;Update Now" value="지금 업데이트(&amp;U)" revision="0" />
   <Message key="Settings" value="설정(&amp;S)" revision="0" />
-  <Message key="Online Repository" value="온라인 리포지토리..." revision="0" />
+  <Message key="Online Repository" value="온라인 리포지토리…" revision="0" />
   <Enumeration key="StructureViewerBind">
-    <Item value="바인드..." revision="0" />
+    <Item value="바인드…" revision="0" />
     <Item value="새 구조 바인드" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerClear">
@@ -140,7 +140,7 @@
     <Item value="데이터를 10진수 또는 16진수로 표시" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerSaveScheme">
-    <Item value="구성표 저장..." revision="0" />
+    <Item value="구성표 저장…" revision="0" />
     <Item value="현재 구조 구성표 저장" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerDeleteScheme">
@@ -160,11 +160,11 @@
     <Item value="온라인 정의 라이브러리 리포지토리 열기" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
-    <Item value="온라인 리포지토리..." revision="0" />
+    <Item value="온라인 리포지토리…" revision="0" />
     <Item value="새 구조 정의 파일을 다운로드할 수 있는 온라인 리포지토리를 엽니다." revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerAssociations">
-    <Item value="연결..." revision="0" />
+    <Item value="연결…" revision="0" />
     <Item value="연결 표시" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerGlobalColoring">
@@ -276,7 +276,7 @@
     <Item value="현재 열을 클립보드에 복사" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExportToCSV">
-    <Item value="CSV 파일로 내보내기..." revision="1" />
+    <Item value="CSV 파일로 내보내기…" revision="1" />
     <Item value="전체 창 내용을 CSV 파일로 내보내기" revision="1" />
   </Enumeration>
   <Enumeration key="StructureViewerExpandAll">
@@ -300,11 +300,11 @@
     <Item value="바인딩 해제" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuBind">
-    <Item value="바인드..." revision="0" />
+    <Item value="바인드…" revision="0" />
     <Item value="새 구조 바인드" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuEdit">
-    <Item value="편집..." revision="0" />
+    <Item value="편집…" revision="0" />
     <Item value="현재 값 편집" revision="0" />
   </Enumeration>
   <Enumeration key="InspectorColumns">
@@ -316,15 +316,15 @@
     <Item value="현재 필드 강조 활성화 또는 비활성화" revision="0" />
   </Enumeration>
   <Enumeration key="InspChooseColor">
-    <Item value="색상 수정..." revision="0" />
+    <Item value="색상 수정…" revision="0" />
     <Item value="데이터 검사기 강조 표시 색상 변경" revision="0" />
   </Enumeration>
   <Enumeration key="AddDefinition">
-    <Item value="새 유형 추가(&amp;N)..." revision="0" />
+    <Item value="새 유형 추가(&amp;N)…" revision="0" />
     <Item value="새 유형 정의 추가" revision="0" />
   </Enumeration>
   <Enumeration key="EditDefinition">
-    <Item value="정의 편집..." revision="0" />
+    <Item value="정의 편집…" revision="0" />
     <Item value="현재 유형 정의 편집" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveDefinition">

@@ -72,11 +72,11 @@
     <Item value="접근 날짜" revision="0" />
   </Enumeration>
   <Enumeration key="CopyTo">
-    <Item value="복사 위치(&amp;C)..." revision="0" />
+    <Item value="복사 위치(&amp;C)…" revision="0" />
     <Item value="선택한 대상에 파일 또는 디렉터리 내용 복사" revision="0" />
   </Enumeration>
   <Enumeration key="CopyVolume">
-    <Item value="볼륨 복사(&amp;C)..." revision="0" />
+    <Item value="볼륨 복사(&amp;C)…" revision="0" />
     <Item value="선택한 대상에 모든 볼륨 콘텐츠(파일 및 디렉터리) 복사" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAllFileData">

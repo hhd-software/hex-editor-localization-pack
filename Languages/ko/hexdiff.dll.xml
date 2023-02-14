@@ -26,7 +26,7 @@
   <Message key="Comparison method:" value="비교 방법:" revision="0" />
   <Message key="Align documents:" value="문서 정렬:" revision="0" />
   <Message key="Synchronize windows" value="창 동기화" revision="0" />
-  <Message key="Colors…" value="색상..." revision="0" />
+  <Message key="Colors…" value="색상…" revision="0" />
   <Message key="Swap" value="교환" revision="0" />
   <Message key="toolbar.Compare Files" value="파일 비교" revision="0" />
   <Message key="clr.fc_colors" value="파일 비교 색상" revision="0" />
@@ -49,7 +49,7 @@
     <Item value="파일 다시 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCompareFiles">
-    <Item value="파일 비교..." revision="0" />
+    <Item value="파일 비교…" revision="0" />
     <Item value="파일 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
@@ -73,7 +73,7 @@
     <Item value="다음 블록으로 가기" revision="0" />
   </Enumeration>
   <Enumeration key="DiffColor">
-    <Item value="색상 선택..." revision="0" />
+    <Item value="색상 선택…" revision="0" />
     <Item value="블록을 강조 표시하는 데 사용되는 색상 선택" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCombine">
@@ -81,7 +81,7 @@
     <Item value="두 파일의 블록을 동시에 표시" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilter">
-    <Item value="필터 구성..." revision="0" />
+    <Item value="필터 구성…" revision="0" />
     <Item value="지정된 기준에 따라 비교 결과 필터링" revision="0" />
   </Enumeration>
   <Enumeration key="DiffReport">
