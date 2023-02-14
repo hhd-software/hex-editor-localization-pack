@@ -394,7 +394,7 @@
   <Enumeration key="CsvSeparator">
     <Item value="CSV 내보내기 구분자" revision="0" />
     <Item value="자동" revision="0" />
-    <Item value="콤마" revision="0" />
+    <Item value="쉼표" revision="0" />
     <Item value="탭" revision="0" />
     <Item value="세미콜론" revision="0" />
   </Enumeration>
