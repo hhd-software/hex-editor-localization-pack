@@ -33,6 +33,10 @@
     <Item text="Autorefresh"/>
     <Item text="Structures will be automatically refreshed if data is changed"/>
   </Enumeration>
+	<Enumeration key="StructureViewerOnline" description="Command: Structure Viewer Definition Library Online Repository">
+		<Item text="Online Definition Library"/>
+		<Item text="Open online definition library repository"/>
+	</Enumeration>
   <Enumeration key="StructureViewerOnlineRepository" description="Command: Structure Viewer.Online Repository">
     <Item text="On-line Repository…"/>
     <Item text="Open on-line repository where you can download new structure definition files."/>
@@ -53,7 +57,7 @@
     <Item text="Field To Bookmark"/>
     <Item text="Converts selected structure field to bookmark"/>
   </Enumeration>
-  
+
   <!-- -->
 
   <Enumeration key="CompilerErrors" description="Compiler errors" revision="1">
@@ -94,7 +98,6 @@
     <Item text="Structure Viewer"/>
     <Item text="Structure viewer menu"/>
   </Enumeration>
-  <Message key="Initializing" description="Initializing Structure Viewer" value="Initializing Structure Viewer"/>
   <Message key="Structure Errors" description="Structure Errors Output window part" value="Structure Errors"/>
   <Message key="Error accessing Clipboard" description="Error accessing Clipboard"/>
   <Enumeration key="LibraryColumns" description="Library dialog columns">
@@ -143,12 +146,12 @@
   </Message>
   <Message key="Structure Viewer: Load Scheme" description="Message box title: Structure Viewer: Load Scheme"/>
   <Message key="Edit Associations" description="Button: Edit Associations"/>
-  
+
   <Message key="Unable to create file" description="Error generating CSV file" value="Error exporting CSV file: {text} ({code})" revision="1">
     <Param name="text"/>
     <Param name="code" format="b016x"/>
   </Message>
-  
+
   <Message key="Error saving scheme" description="Error saving scheme"/>
   <Message key="LengthyOp" value="This operation is not available during lengthy operation. Try again later." description="This operation is not available during lengthy operation. Try again later."/>
   <Message key="This scheme can not be removed." description="This scheme can not be removed"/>
@@ -200,7 +203,7 @@
   </Message>
   <Message key="SchemeExists" description="Scheme already exists. Do you want to overwite it?" value="Scheme already exists. Do you want to overwite it?"/>
   <Message key="Scheme already exists" description="Scheme already exists"/>
-  
+
   <!-- Dialogs -->
   <!-- External editor -->
   <Message key="External Editor" description="Extrenal Editor window title"/>
@@ -211,7 +214,7 @@
   <Message key="Library" description="Library window title" value="Structure Library"/>
   <Message key="Add…" description="Button: Add…"/>
   <Message key="Edit…" description="Button: Edit…"/>
-  
+
   <!-- Save scheme -->
   <Message key="Save Scheme" description="Save Scheme window title"/>
   <Message key="Name:" description="Field: Name"/>
@@ -222,11 +225,11 @@
   <Message key="Configure external editor…" description="Button: Configure external editor…"/>
   <Message key="Regular expression:" description="Field: Regular expression:"/>
   <Message key="Associated scheme:" description="Field: Associated scheme"/>
-  
+
   <!-- Structure Coloring -->
   <Message key="Structure Coloring" description="Structure Coloring window title"/>
   <Message key="Apply" description="Button: Apply"/>
-  
+
   <!-- Bind Structure -->
   <Message key="Bind Structure" description="Bind Structure window title"/>
   <Message key="Address" description="Control group: Address"/>
@@ -261,6 +264,11 @@
   <Enumeration key="StructureViewerGotoFieldDef" description="Command: Structure Viewer.Go To Field Definition" revision="1">
     <Item text="Go to Field Definition"/>
     <Item text="Open structure definition file with current field definition"/>
+  </Enumeration>
+
+	<Enumeration key="StructureViewerGotoValueDef" description="Command: Structure Viewer.Go To Value" revision="1">
+    <Item text="Go to Value"/>
+    <Item text="Go to offset defined by value"/>
   </Enumeration>
 
   <Enumeration key="StructureViewerCopyQName" description="Command: Structure Viewer.Copy Qualified Name" revision="1">
@@ -393,13 +401,28 @@
     <Item text="User types"/>
   </Enumeration>
 
-  <Enumeration key="StructureNew" description="Command: StructureNew">
-    <Item text="&amp;New Structure File…"/>
-    <Item text="Create new structure definition file"/>
+	<Enumeration key="StructureNewDefinitionFile" description="Command: New structure definition file">
+		<Item text="New S&amp;tructure File" />
+		<Item text="Create empty structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureNewKaitaiFile" description="Command: New Kaitai definition file">
+		<Item text="New &amp;Kaitai File" />
+		<Item text="Create empty Kaitai definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureOpenDefinitionFile" description="Command: Open structure definition file">
+		<Item text="Open &amp;Structure File…" />
+		<Item text="Open structure definition file" />
+	</Enumeration>
+
+	<Enumeration key="StructureAddCurrent" description="Command: Add current structure">
+    <Item text="Add &amp;Current Structure File"/>
+    <Item text="Add active structure definition file to the library"/>
   </Enumeration>
-  <Enumeration key="StructureAdd" description="Command: StructureAdd">
-    <Item text="&amp;Add Structure File…" />
-    <Item text="Append existing structure definition file to the library"/>
+  <Enumeration key="StructureAdd" description="Command: StructureAdd" revision="1">
+    <Item text="&amp;Add Structure File(s)…" />
+    <Item text="Append existing structure definition file(s) to the library"/>
   </Enumeration>
   <Enumeration key="StructureSaveAll" description="Command: StructureSaveAll">
     <Item text="Save &amp;All Structure Files"/>
@@ -418,14 +441,6 @@
     <Item text="&amp;Edit value"/>
     <Item text="Edit current value"/>
   </Enumeration>
-
-
-  <Message key="StructureFormats" description="Supported structure file formats" value="Structure definition files (*.h)|*.h|"/>
-
-  <!--<Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
-    <Item text="&amp;Revert All"/>
-    <Item text="Revert all changes made to structure definition files"/>
-  </Enumeration>-->
 
   <Enumeration key="StructureAutoRecompile" description="Command: StructureAutoRecompile">
     <Item text="Auto Recompile"/>
@@ -463,16 +478,15 @@
   <Message key="Background color:" description="Field: Background color"/>
   <Message key="Text color:" description="Field: Text color"/>
   <Message key="Outline color:" description="Field: Outline color"/>
-  <Message key="Default" description="Button: Default"/>
 
   <!-- Add Inspector Type -->
   <Message key="Add Inspector Type" description="Window title: Add Inspector Type"/>
   <Message key="Change Time" description="Window title: Change Time"/>
 
   <!-- Data Inspector Notification Dialog -->
-  
+
   <Message key="AssignNotification" description="Assign error text" value="Data modification is not enabled for this type. Click the Help button for detailed information on how to enable data modification for a type."/>
-  
+
   <!-- Structure Viewer CSV separator -->
   <Enumeration key="CsvSeparator" description="Option: CSV Separator type">
     <Item text="CSV Export Separator"/>
@@ -508,4 +522,34 @@
     <Param name="path"/>
   </Message>
 
+	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />
+	<Message key="toolbar.DataInspector" description="Toolbar: Data Inspector" value="Data Inspector" />
+	<Message key="OpenStructureViewer" description="Notification option: Show &quot;Open Structure Viewer&quot; message" value="Show &quot;Display Structure Viewer&quot; message" />
+	<Enumeration key="ShowSVNotification" description="Notification: Open Structure Viewer message">
+		<Item text="Open Structure Viewer"/>
+		<Item text="Hex Editor Neo contains a structure definition for this file type and has already parsed its structure. Do you want to open a Structure Viewer tool window to see the parsed data?"/>
+	</Enumeration>
+	<Message key="Open Structure Viewer" description="Notification option: Open Structure Viewer" />
+	<Message key="Open Online Repository" description="Notification option: Find more structure definitions in on-line repository" value="Find more structure definitions in on-line repository" />
+	<Message key="Skip" description="Notification option: Skip" />
+
+	<Message key="NoDefinitionText" description="Notification text: No structure definition available for a current file" value="There is currently no structure definition available for this file type. You can easily [[[hcreate your own]]] and start using it immediately." />
+
+	<Message key="ConfirmResetAll" description="Structure Viewer reset confirmation" value="This will restore all shipped structure definition files, predefined schemes and file associations. Some or all customizations may be lost.\n\nAre you sure you want to continue?" />
+
+	<!-- Color scheme -->
+	<Message key="clr.sview_colors" description="Color: Structure Viewer Colors" value="Structure Viewer Colors"/>
+	<Message key="clr.sview_colors.boundData.fill" description="Color: Bound Data Background Color" value="Bound data background" />
+	<Message key="clr.sview_colors.boundData.stroke" description="Color: Bound Data Stroke Color" value="Bound data stroke" />
+	<Message key="clr.sview_colors.boundData.text" description="Color: Bound Data Text Color" value="Bound data text" />
+	<Message key="clr.sview_colors.selectedField.fill" description="Color: Selected Field Background Color" value="Selected field background" />
+	<Message key="clr.sview_colors.selectedField.stroke" description="Color: Selected Field Stroke Color" value="Selected field stroke" />
+	<Message key="clr.sview_colors.selectedField.text" description="Color: Selected Field Text Color" value="Selected field text" />
+
+	<!-- Definition Library Update Dialog -->
+	<Message key="Structure Definition Library Update" description="Window title: Structure Definition Library Update" />
+	<Message key="DefLibrary Title Text" description="Structure Definition Library Update title text" value="An update to the Structure Viewer's definition library has been found online. You can view the list of changes occurred since the version you currently have. Press the Update Now button to download update."/>
+	<Message key="&amp;Update Now" description="Button: Update Now" />
+	<Message key="Settings" description="Button: Settings…" value="&amp;Settings…" />
+	<Message key="Online Repository" description="Button: Online Repository" value="Online repository…"></Message>
 </Definition>

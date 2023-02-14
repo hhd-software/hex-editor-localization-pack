@@ -1,279 +1,429 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <!-- Commands -->
-  <Enumeration key="DisasmRun" description="Disassembler.Run">
-    <Item text="Run Disassembler…"/>
-    <Item text="Disassemble an executable file"/>
-  </Enumeration>
-  <Enumeration key="DisasmExport" description="Disassembler.Export">
-    <Item text="Export…"/>
-    <Item text="Export disassembly"/>
-  </Enumeration>
-  <Enumeration key="DisasmDetails" description="Disassembler.Details">
-    <Item text="Details…"/>
-    <Item text="Display instruction details"/>
-  </Enumeration>
-  <Enumeration key="DisasmSelectColumns" description="Disassembler.Select Columns">
-    <Item text="Select Columns…"/>
-    <Item text="Select disassembler columns"/>
-  </Enumeration>
-  <Enumeration key="DisasmShowSymbols" description="Disassembler.Show Symbols">
-    <Item text="Symbols…"/>
-    <Item text="Display symbols for this document. Jump to a selected symbol."/>
-  </Enumeration>
-  <Enumeration key="DisasmRefresh" description="Disassembler.Refresh">
-    <Item text="Refresh"/>
-    <Item text="Refresh disassembly"/>
-  </Enumeration>
-  <Enumeration key="DisasmSyncCursor" description="Disassembler.Synchronize Cursor">
-    <Item text="Synchronize Cursor"/>
-    <Item text="Synchronize cursor in both views"/>
-  </Enumeration>
-  <Enumeration key="DisasmSyncSelection" description="Disassembler.Synchronize Selection">
-    <Item text="Synchronize Selection"/>
-    <Item text="Synchronize selection in both views"/>
-  </Enumeration>
+	<!-- Commands -->
+	<Enumeration key="DisasmRun" description="Disassembler.Run">
+		<Item text="Run Disassembler…"/>
+		<Item text="Disassemble an executable file"/>
+	</Enumeration>
+	<Enumeration key="DisasmExport" description="Disassembler.Export">
+		<Item text="Export…"/>
+		<Item text="Export disassembly"/>
+	</Enumeration>
+	<Enumeration key="DisasmDetails" description="Disassembler.Details">
+		<Item text="Details…"/>
+		<Item text="Display instruction details"/>
+	</Enumeration>
+	<Enumeration key="DisasmSelectColumns" description="Disassembler.Select Columns">
+		<Item text="Select Columns…"/>
+		<Item text="Select disassembler columns"/>
+	</Enumeration>
+	<Enumeration key="DisasmShowSymbols" description="Disassembler.Show Symbols">
+		<Item text="Symbols…"/>
+		<Item text="Display symbols for this document. Jump to a selected symbol."/>
+	</Enumeration>
+	<Enumeration key="DisasmRefresh" description="Disassembler.Refresh">
+		<Item text="Refresh"/>
+		<Item text="Refresh disassembly"/>
+	</Enumeration>
+	<Enumeration key="DisasmSyncCursor" description="Disassembler.Synchronize Cursor">
+		<Item text="Synchronize Cursor"/>
+		<Item text="Synchronize cursor in both views"/>
+	</Enumeration>
+	<Enumeration key="DisasmSyncSelection" description="Disassembler.Synchronize Selection">
+		<Item text="Synchronize Selection"/>
+		<Item text="Synchronize selection in both views"/>
+	</Enumeration>
 
-  <Enumeration key="Flags" description="Flags">
-    <Item text="Carry"/>
-    <Item text="Zero/Equal"/>
-    <Item text="Overflow"/>
-    <Item text="Direction"/>
-    <Item text="Negative"/>
-    <Item text="Parity"/>
-    <Item text="Or"/>
-    <Item text="Not Carry"/>
-    <Item text="Not Zero"/>
-    <Item text="Not Overflow"/>
-    <Item text="Not Dir"/>
-    <Item text="Not Sign"/>
-    <Item text="Not Parity"/>
-    <Item text="SFEQOF"/>
-    <Item text="SFNEOF"/>
-  </Enumeration>
+	<Enumeration key="Flags" description="Flags">
+		<Item text="Carry"/>
+		<Item text="Zero/Equal"/>
+		<Item text="Overflow"/>
+		<Item text="Direction"/>
+		<Item text="Negative"/>
+		<Item text="Parity"/>
+		<Item text="Or"/>
+		<Item text="Not Carry"/>
+		<Item text="Not Zero"/>
+		<Item text="Not Overflow"/>
+		<Item text="Not Dir"/>
+		<Item text="Not Sign"/>
+		<Item text="Not Parity"/>
+		<Item text="SFEQOF"/>
+		<Item text="SFNEOF"/>
+	</Enumeration>
 
-  <Message key="General Purpose" description="General Purpose (CPU)"/>
+	<Enumeration key="FlagsX86" description="Flags">
+		<Item text="Carry"/>
+		<Item text="Zero/Equal"/>
+		<Item text="Overflow"/>
+		<Item text="Direction"/>
+		<Item text="Negative"/>
+		<Item text="Parity"/>
+		<Item text="Nested Task"/>
+		<Item text="Direction"/>
+		<Item text="Resume"/>
+		<Item text="Interrupt"/>
+		<Item text="Trap"/>
+		<Item text="Auxiliary Carry"/>
 
-  <Message key="Function name" description="Function name"/>
+	</Enumeration>
 
-  <Enumeration key="SymTags" description="Symbol tags">
-    <Item text="Function"/>
-    <Item text="Data"/>
-    <Item text="Public Symbol"/>
-    <Item text="User Defined Type"/>
-    <Item text="Enumeration"/>
-  </Enumeration>
+	<Message key="General Purpose" description="General Purpose (CPU)"/>
 
-  <Enumeration key="ColumnDialogCombo" description="Column dialog combo">
-    <Item text="Clipboard"/>
-    <Item text="File"/>
-  </Enumeration>
+	<Message key="Function name" description="Function name"/>
 
-  <Enumeration key="PeColumns" description="PE columns">
-    <Item text="Field"/>
-    <Item text="Size"/>
-    <Item text="Value"/>
-  </Enumeration>
+	<Enumeration key="SymTags" description="Symbol tags">
+		<Item text="Function"/>
+		<Item text="Data"/>
+		<Item text="Public Symbol"/>
+		<Item text="User Defined Type"/>
+		<Item text="Enumeration"/>
+	</Enumeration>
 
-  <Enumeration key="DisasmTypes" description="Supported disassemblers">
-    <Item text="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)"/>
-    <Item text="x64"/>
-    <Item text="MSIL (.NET)"/>
-  </Enumeration>
+	<Enumeration key="ColumnDialogCombo" description="Column dialog combo">
+		<Item text="Clipboard"/>
+		<Item text="File"/>
+	</Enumeration>
 
-  <Message key="Headers" description="Headers"/>
-  <Message key="InvalidAddress" description="Invalid address" value="Invalid address. Enter correct address."/>
-  <Message key="InvalidLength" description="Invalid length" value="Invalid length. Enter a valid length."/>
-  <Enumeration key="FeatureDisasm" description="Disassembler feature">
-    <Item text="Disassembler"/>
-    <Item text="Disassembler module allows you to disassemble executable code in files or in memory. It supports several instruction sets and is capable of using symbol files."/>
-  </Enumeration>
-  <Message key="Invalid file name." description="Invalid file name."/>
-  <Message key="OpenError" description="File can not be opened" value='File can not be opened: "{error}"'>
-    <Param name="error"/>
-  </Message>
-  <Message key="Wrong file size" description="Wrong file size"/>
-  <Message key="WrongAddress" description="Entered address is bigger than the size of the document. Enter the correct address." value="Entered address is bigger than the size of the document. Enter the correct address."/>
-  <Message key="MaxSize" description="Size is too big" value="{is too big?}Hex Editor Neo is unable to disassemble files that are larger than {max size}. {?is too big}Disassembling starting from {from} to {to} (size = {size}). Continue?">
-    <Param name="is too big" format="?"/>
-    <Param name="from"/>
-    <Param name="to"/>
-    <Param name="size"/>
-    <Param name="max size"/>
-  </Message>
-  <Message key="Locked" description="This document is currently locked. Please repeat operation later." value="This document is currently locked. Please repeat operation later."/>
-  <Message key="FormatString" description="Format string" value="All executables|*.exe;*.dll;*.sys;*.ocx|Executables (*.exe)|*.exe|Dynamic-link libraries (*.dll)|*.dll|ActiveX libraries (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|">
-    <Validate rule="OpenFileDialogFilter"/>
-  </Message>
-  <Message key="N/A" description="Not Available" value="Not Available"/>
-  <Message key="- No section selected -" description="- No section selected -"/>
-  <Message key="Can not retrieve file name" description="Can not retrieve file name"/>
-  <Message key="CLR Execution Engine can not start" description="CLR Execution Engine can not start"/>
-  <Message key="Incorrect file format" description="Incorrect file format"/>
-  <Message key="Error parsing metadata" description="Error parsing metadata"/>
-  <Message key="Can not disassemble method" description="Can not disassemble method" value="Can not disassemble method: {method}">
-    <Param name="method"/>
-  </Message>
-  <Message key="Can not parse Exception Header" description="Can not parse Exception Header"/>
+	<Enumeration key="PeColumns" description="PE columns">
+		<Item text="Field"/>
+		<Item text="Size"/>
+		<Item text="Value"/>
+	</Enumeration>
 
-  <Enumeration key="MSILDesc" description="MSIL instruction details">
-    <Item text="Instruction"/>
-    <Item text="Class"/>
-    <Item text="Method"/>
-    <Item text="Description"/>
-  </Enumeration>
+	<Enumeration key="DisasmTypes" description="Supported disassemblers" revision="2">
+		<Item text="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)"/>
+		<Item text="x64"/>
+		<Item text="MSIL (.NET)"/>
 
-  <Enumeration key="Columns" description="Columns">
-    <Item text="Raw Address"/>
-    <Item text="Virtual Address"/>
-    <Item text="Relative Offset"/>
-    <Item text="Bytecode"/>
-    <Item text="Mnemonic"/>
-    <Item text="Operands"/>
-    <Item text="Implicit Operands"/>
-    <Item text="CPU"/>
-    <Item text="Flags Checked"/>
-    <Item text="Flags Modified"/>
-    <Item text="Description"/>
-  </Enumeration>
+		<Item text="ARM (including Thumb, Thumb-2)"/>
+		<Item text="ARM-64 (AArch64)"/>
+		<Item text="MIPS"/>
+		<Item text="PowerPC"/>
+		<Item text="Sparc"/>
+		<Item text="SystemZ"/>
+		<Item text="XCore"/>
+		<Item text="68K"/>
+		<Item text="TMS320C64x"/>
+		<Item text="680X"/>
+		<Item text="MOS65XX (including MOS6502)"/>
+		<Item text="RISC-V"/>
+	</Enumeration>
 
-  <Enumeration key="SymbolsColumns" description="Symbols columns">
-    <Item text="Address"/>
-    <Item text="Name"/>
-    <Item text="Size"/>
-    <Item text="Base Type"/>
-    <Item text="Type Index"/>
-    <Item text="Tag"/>
-    <Item text="Flags"/>
-  </Enumeration>
+	<Message key="Little endian" description="Choice: Little endian"/>
+	<Message key="Big endian" description="Choice: Big endian"/>
 
-  <Enumeration key="MethodFunction" description="Method and function">
-    <Item text="Method"/>
-    <Item text="Function"/>
-  </Enumeration>
-  
-  <Message key="The document has been changed." description="The document has been changed."/>
-  <Message key="Refresh" description="Button: Refresh"/>
-  <Message key="Go" description="Button: Go"/>
-  <Message key="Go To:" description="Field: Go To"/>
-  <Message key="Text" description="Button: Text"/>
+	<Enumeration key="Mos65XModes" description="MOS 65xx architecture instructions disassembly modes">
+		<Item text="MOS 6502"/>
+		<Item text="WDC 65c02"/>
+		<Item text="WDC W65c02"/>
+		<Item text="WDC 65816, 8-bit m/x"/>
+		<Item text="WDC 65816, 16-bit m, 8-bit x"/>
+		<Item text="WDC 65816, 8-bit m, 16-bit x"/>
+		<Item text="WDC 65816, m/x"/>
+	</Enumeration>
 
-  <Message key="Loading" description="Loading disassembler" value="Loading disassembler"/>
-  <Message key="Disassembler" description="Option group: Disassembler"/>
-  <Message key="ShowImplicitOperands" description="Option: Display implicit operands" value="Display implicit operands"/>
-  <Message key="ShowPrefixes" description="Option: Display prefixes" value="Display prefixes"/>
-  <Message key="ShowDecimalValues" description="Option: Display decimal values" value="Display decimal values"/>
-  <Message key="ShowBytecode" description="Option: Show raw code" value="Show raw code"/>
-  <Message key="ParseSymbols" description="Option: Parse symbols" value="Parse symbols"/>
-  <Message key="IntelVisualization" description="Option: Use AT&amp;T syntax" value="Use AT&amp;T syntax"/>
-  <Message key="ShowVLines" description="Option: Show grid lines" value="Show grid lines"/>
-  <Message key="ShowHardcodedOperands" description='Option: Display "hardcoded" operands' value='Display "hardcoded" operands'/>
+	<Enumeration key="RiscvModes" description="RISC-V architecture instructions disassembly modes">
+		<Item text="RV32G"/>
+		<Item text="RV64G"/>
+		<Item text="Compressed Instruction"/>
+	</Enumeration>
 
-  <Enumeration key="DisasmTask" description="Jump List Item: Disassembler">
-    <Item text="Disassemble file"/>
-    <Item text="Start disassembling an executable"/>
-  </Enumeration>
+	<Enumeration key="68kModes" description="M68k architecture instructions disassembly modes">
+		<Item text="M68K 68000"/>
+		<Item text="M68K 68010"/>
+		<Item text="M68K 68020"/>
+		<Item text="M68K 68030"/>
+		<Item text="M68K 68040"/>
+		<Item text="M68K 68060"/>
+	</Enumeration>
 
-  <Message key="DisasmError" description="Error opening file" value="Error opening file"/>
-  <Message key="DisasmError2" description="Error disassembling file" value="Error disassembling file{has error?}: {error}{?has error}" revision="1">
-    <Param name="has error" format="?"/>
-    <Param name="error"/>
-  </Message>
+	<Enumeration key="680kModes" description="M680k architecture instructions disassembly modes">
+		<Item text="M680X Hitachi 6301,6303"/>
+		<Item text="M680X Hitachi 6309"/>
+		<Item text="M680X Motorola 6800,6802"/>
+		<Item text="M680X Motorola 6801,6803"/>
+		<Item text="M680X Motorola/Freescale 6805"/>
+		<Item text="M680X Motorola/Freescale/NXP 68HC08"/>
+		<Item text="M680X Motorola 6809"/>
+		<Item text="M680X Motorola/Freescale/NXP 68HC11"/>
+		<Item text="M680X Motorola/Freescale/NXP CPU12"/>
+		<Item text="M680X Freescale/NXP HCS08"/>
+	</Enumeration>
 
-  <Message key="OpName" description="Operation: Disassembling code" value="Disassembling code"/>
-  <Message key="RefreshError" description="Error refreshing disassembly." value="Error refreshing disassembly."/>
-  <Message key="RefreshErrorSize" description="File size has been changed. Can not refresh disassembly." value="File size has been changed. Can not refresh disassembly."/>
-  <Message key="Unable to write to a file." description="Unable to write to a file." value="Error writing data to a file."/>
-  <Message key="ClipboardError" description="Error copying data." value="Error copying data."/>
-  <Message key="Searching" description="Operation: Searching" value="Searching"/>
-  <Message key="NotFound" description="A pattern was not found" value="A pattern was not found"/>
-  <Message key="None" description="None"/>
-  <Message key="Find what:" description="Field: Find what"/>
-  <Message key="InAllColumns" description="--- In All Columns" value="--- In All Columns"/>
+	<Enumeration key="PowerPcModes" description="PowerPC architecture instructions disassembly modes">
+		<Item text="64-bit"/>
+		<Item text="Quad Processing eXtensions"/>
+		<Item text="Signal Processing Engine"/>
+		<Item text="Book-E"/>
+	</Enumeration>
 
-  <Message key="Select" description="Button: Select"/>
+	<Enumeration key="SparcModes" description="Sparc architecture instructions disassembly modes">
+		<Item text="Sparc V8"/>
+		<Item text="Sparc V9"/>
+	</Enumeration>
+
+	<Enumeration key="MipsModes" description="MIPS architecture instructions disassembly modes">
+		<Item text="Mips 32-bit"/>
+		<Item text="Mips 64-bit"/>
+		<Item text="MicroMips"/>
+		<Item text="Mips III"/>
+		<Item text="Mips32r6"/>
+		<Item text="Mips II"/>
+	</Enumeration>
+
+	<Enumeration key="ArmModes" description="ARM architecture instructions disassembly modes">
+		<Item text="Thumb/Thumb-2"/>
+		<Item text="Cortex-M"/>
+		<Item text="ARMv8"/>
+	</Enumeration>
 
 
-  <Enumeration key="SymbolsType" description="Symbols type">
-    <Item text="Unknown format"/>
-    <Item text="No symbols available for the module"/>
-    <Item text="COFF"/>
-    <Item text="CodeView (.dbg file)"/>
-    <Item text="PDB"/>
-    <Item text="Exports"/>
-    <Item text="Deferred"/>
-    <Item text="SYM"/>
-    <Item text="DIA"/>
-    <Item text="Virtual"/>
-  </Enumeration>
+	<Message key="Headers" description="Headers"/>
+	<Message key="InvalidAddress" description="Invalid address" value="Invalid address. Enter correct address."/>
+	<Message key="InvalidLength" description="Invalid length" value="Invalid length. Enter a valid length."/>
+	<Enumeration key="FeatureDisasm" description="Disassembler feature">
+		<Item text="Disassembler"/>
+		<Item text="Disassembler module allows you to disassemble executable code in files or in memory. It supports several instruction sets and is capable of using symbol files."/>
+	</Enumeration>
+	<Message key="Invalid file name." description="Invalid file name."/>
+	<Message key="OpenError" description="File can not be opened" value='File can not be opened: "{error}"'>
+		<Param name="error"/>
+	</Message>
+	<Message key="Wrong file size" description="Wrong file size"/>
+	<Message key="WrongAddress" description="Entered address is bigger than the size of the document. Enter the correct address." value="Entered address is bigger than the size of the document. Enter the correct address."/>
+	<Message key="MaxSize" description="Size is too big" value="{is too big?}Hex Editor Neo is unable to disassemble files that are larger than {max size}. {?is too big}Disassembling starting from {from} to {to} (size = {size}). Continue?">
+		<Param name="is too big" format="?"/>
+		<Param name="from"/>
+		<Param name="to"/>
+		<Param name="size"/>
+		<Param name="max size"/>
+	</Message>
+	<Message key="Locked" description="This document is currently locked. Please repeat operation later." value="This document is currently locked. Please repeat operation later."/>
+	<Message key="FormatString" description="Format string" value="All executables|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Executables (*.exe)|*.exe|Dynamic-link libraries (*.dll)|*.dll|ActiveX libraries (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|Executable and Linkable Format|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	<Message key="N/A" description="Not Available" value="Not Available"/>
+	<Message key="- No section selected -" description="- No section selected -"/>
+	<Message key="Can not retrieve file name" description="Can not retrieve file name"/>
 
-  <Message key="Symbol Format:" description="Symbol Format:"/>
-  <Message key="Loaded Image Name:" description="Loaded Image Name:"/>
-  <Message key="Loaded Pdb Name:" description="Loaded Pdb Name:"/>
-  <Message key="Information matched:" description="Information matched:"/>
-  <Enumeration key="Boolean" description="Boolean value">
-    <Item text="FALSE"/>
-    <Item text="TRUE"/>
-  </Enumeration>
-  <Message key="Line numbers:" description="Line numbers:"/>
-  <Enumeration key="Availability" description="Availability">
-    <Item text="Not available"/>
-    <Item text="Available"/>
-  </Enumeration>
-  <Message key="Global symbols:" description="Global symbols:"/>
-  <Message key="Type information:" description="Type information:"/>
-  <Message key="Source indexing:" description="Source indexing:"/>
-  <Message key="Public symbols:" description="Public symbols:"/>
-  <Message key="No symbol found." description="No symbol found."/>
+	<Message key="CLR Execution Engine can not start" value="Error starting CLR Execution Engine: {reason} (Error code: {code})" description="CLR Execution Engine can not start" revision="1">
+		<Param name="reason"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
 
-  <!-- Dialogs -->
-  <Message key="Select Columns" description="Select Columns window title"/>
-  <Message key="Select all" description="Checkbox: Select all"/>
-  <Message key="Export to:" description="Field: Export to"/>
-  <Message key="Export headers" description="Checkbox: Export headers"/>
-  
-  <!-- Disasm dialog -->
-  <Message key="File:" description="Field: File"/>
-  <Message key="Instr. set:" description="Field: Instr. set"/>
-  <Message key="Section:" description="Field: Section"/>
-  <Message key="Start:" description="Field: Start"/>
-  <Message key="Size:" description="Field: Size"/>
-  <Message key="File size:" description="Field: File size"/>
-  <Message key="Dual view" description="Checkbox: Dual view"/>
-  <Message key="Synchronize cursor with Hex View" description="Checkbox: Synchronize cursor with Hex View"/>
-  <Message key="Synchronize selection with Hex View" description="Checkbox: Synchronize selection with Hex View"/>
-  <Message key="Hexadecimal" description="Choice: Hexadecimal"/>
-  <Message key="Decimal" description="Choice: Decimal"/>
-  <Message key="Symbols…" description="Button: Symbols…"/>
-  
-  <!-- Find -->
-  <Message key="Find Window" description="Find window title" value="Find"/>
-  <Message key="Find" description="Button: Find" value="&amp;Find"/>
-  <Message key="Find All" description="Button: Find All" value="Find &amp;All"/>
-  <Message key="Search in:" description="Field: Search in:"/>
-  <Message key="Search up" description="Choice: Search up"/>
-  <Message key="Search down" description="Choice: Search down"/>
-  <Message key="Ignore case" description="Checkbox: Ignore case"/>
+	<Message key="Incorrect file format" value="Error retrieving metadata interface {interface} from CLR (Error code: {code}) .NET {version} is required to use this feature" description="Incorrect file format" revision="1">
+		<Param name="interface"/>
+		<Param name="code" format="ub016x"/>
+		<Param name="version"/>
+	</Message>
 
-  <!-- Go To -->
-  <Message key="Go To" description="Go To window title"/>
-  <Message key="Raw address" description="Choice: Raw address"/>
-  <Message key="Virtual address" description="Choice: Virtual address"/>
-  
-  <!-- Details -->
-  <Message key="Details" description="Details window title"/>
-  <Message key="Data:" description="Field: Data"/>
-  <Message key="Length:" description="Field: Length"/>
-  <Message key="Lowercase" description="Choice: Lowercase"/>
-  <Message key="Show symbols" description="Choice: Show symbols"/>
-  
-  <!-- Symbols -->
-  <Message key="Symbols" description="Symbols window title"/>
-  <Message key="Source files:" description="Field: Source files"/>
-  <Message key="Module details:" description="Field: Module details"/>
-  <Message key="Address:" description="Field: Address"/>
-  <Message key="Name:" description="Field: Name"/>
-  <Message key="Search" description="Button: Search"/>
-  <Message key="Jump" description="Button: Jump"/>
-  <Message key="string" description="string"></Message>
+	<Message key="Error parsing metadata" description="Error parsing metadata"/>
+	<Message key="Can not disassemble method" description="Can not disassemble method" value="Can not disassemble method: {method}">
+		<Param name="method"/>
+	</Message>
+	<Message key="Can not parse Exception Header" description="Can not parse Exception Header"/>
+
+	<Enumeration key="MSILDesc" description="MSIL instruction details">
+		<Item text="Instruction"/>
+		<Item text="Class"/>
+		<Item text="Method"/>
+		<Item text="Description"/>
+	</Enumeration>
+
+	<Enumeration key="Columns" description="Columns">
+		<Item text="Raw Address"/>
+		<Item text="Virtual Address"/>
+		<Item text="Relative Offset"/>
+		<Item text="Bytecode"/>
+		<Item text="Mnemonic"/>
+		<Item text="Operands"/>
+		<Item text="Implicit Operands"/>
+		<Item text="CPU"/>
+		<Item text="Flags Checked"/>
+		<Item text="Flags Modified"/>
+		<Item text="Description"/>
+	</Enumeration>
+
+	<Enumeration key="SymbolsColumns" description="Symbols columns">
+		<Item text="Address"/>
+		<Item text="Name"/>
+		<Item text="Size"/>
+		<Item text="Base Type"/>
+		<Item text="Type Index"/>
+		<Item text="Tag"/>
+		<Item text="Flags"/>
+	</Enumeration>
+
+	<Enumeration key="MethodFunction" description="Method and function">
+		<Item text="Method"/>
+		<Item text="Function"/>
+	</Enumeration>
+
+	<Message key="The document has been changed." description="The document has been changed."/>
+	<Message key="Refresh" description="Button: Refresh"/>
+	<Message key="Go" description="Button: Go"/>
+	<Message key="Go To:" description="Field: Go To"/>
+	<Message key="Text" description="Button: Text"/>
+
+	<Message key="Disassembler" description="Option group: Disassembler"/>
+	<Message key="ShowImplicitOperands" description="Option: Display implicit operands" value="Display implicit operands"/>
+	<Message key="ShowPrefixes" description="Option: Display prefixes" value="Display prefixes"/>
+	<Message key="ShowDecimalValues" description="Option: Display decimal values" value="Display decimal values"/>
+	<Message key="ShowBytecode" description="Option: Show raw code" value="Show raw code"/>
+	<Message key="ParseSymbols" description="Option: Parse symbols" value="Parse symbols"/>
+	<Message key="IntelVisualization" description="Option: Use AT&amp;T syntax" value="Use AT&amp;T syntax"/>
+	<Message key="ShowVLines" description="Option: Show grid lines" value="Show grid lines"/>
+	<Message key="ShowHardcodedOperands" description='Option: Display "hardcoded" operands' value='Display "hardcoded" operands'/>
+
+	<Enumeration key="DisasmTask" description="Jump List Item: Disassembler">
+		<Item text="Disassemble file"/>
+		<Item text="Start disassembling an executable"/>
+	</Enumeration>
+
+	<Message key="DisasmError" description="Error opening file" value="Error opening file"/>
+	<Message key="DisasmError2" description="Error disassembling file" value="Error disassembling file{has error?}: {error}{?has error}" revision="1">
+		<Param name="has error" format="?"/>
+		<Param name="error"/>
+	</Message>
+
+	<Message key="OpName" description="Operation: Disassembling code" value="Disassembling code"/>
+	<Message key="RefreshError" description="Error refreshing disassembly." value="Error refreshing disassembly."/>
+	<Message key="RefreshErrorSize" description="File size has been changed. Can not refresh disassembly." value="File size has been changed. Can not refresh disassembly."/>
+	<Message key="Unable to write to a file." description="Unable to write to a file." value="Error writing data to a file."/>
+	<Message key="ClipboardError" description="Error copying data." value="Error copying data."/>
+	<Message key="Searching" description="Operation: Searching" value="Searching"/>
+	<Message key="NotFound" description="A pattern was not found" value="A pattern was not found"/>
+	<Message key="None" description="None"/>
+	<Message key="Find what:" description="Field: Find what"/>
+	<Message key="InAllColumns" description="--- In All Columns" value="--- In All Columns"/>
+
+	<Message key="Select" description="Button: Select"/>
+
+
+	<Enumeration key="SymbolsType" description="Symbols type">
+		<Item text="Unknown format"/>
+		<Item text="No symbols available for the module"/>
+		<Item text="COFF"/>
+		<Item text="CodeView (.dbg file)"/>
+		<Item text="PDB"/>
+		<Item text="Exports"/>
+		<Item text="Deferred"/>
+		<Item text="SYM"/>
+		<Item text="DIA"/>
+		<Item text="Virtual"/>
+	</Enumeration>
+
+	<Message key="Symbol Format:" description="Symbol Format:"/>
+	<Message key="Loaded Image Name:" description="Loaded Image Name:"/>
+	<Message key="Loaded Pdb Name:" description="Loaded Pdb Name:"/>
+	<Message key="Information matched:" description="Information matched:"/>
+	<Enumeration key="Boolean" description="Boolean value">
+		<Item text="FALSE"/>
+		<Item text="TRUE"/>
+	</Enumeration>
+	<Message key="Line numbers:" description="Line numbers:"/>
+	<Enumeration key="Availability" description="Availability">
+		<Item text="Not available"/>
+		<Item text="Available"/>
+	</Enumeration>
+	<Message key="Global symbols:" description="Global symbols:"/>
+	<Message key="Type information:" description="Type information:"/>
+	<Message key="Source indexing:" description="Source indexing:"/>
+	<Message key="Public symbols:" description="Public symbols:"/>
+	<Message key="No symbol found." description="No symbol found."/>
+
+	<!-- Dialogs -->
+	<Message key="Select Columns" description="Select Columns window title"/>
+	<Message key="Select all" description="Checkbox: Select all"/>
+	<Message key="Export to:" description="Field: Export to"/>
+	<Message key="Export headers" description="Checkbox: Export headers"/>
+
+	<!-- Disasm dialog -->
+	<Message key="File:" description="Field: File"/>
+	<Message key="Instr. set:" description="Field: Instr. set"/>
+	<Message key="Section:" description="Field: Section"/>
+	<Message key="Start:" description="Field: Start"/>
+	<Message key="Size:" description="Field: Size"/>
+	<Message key="File size:" description="Field: File size"/>
+	<Message key="Dual view" description="Checkbox: Dual view"/>
+	<Message key="Synchronize cursor with Hex View" description="Checkbox: Synchronize cursor with Hex View"/>
+	<Message key="Synchronize selection with Hex View" description="Checkbox: Synchronize selection with Hex View"/>
+	<Message key="Hexadecimal" description="Choice: Hexadecimal"/>
+	<Message key="Decimal" description="Choice: Decimal"/>
+	<Message key="Symbols…" description="Button: Symbols…"/>
+	<Message key="Mode:" description="Field: Mode"/>
+	<Message key="Remember used settings" description="Checkbox: Remember instruction set and mode" value="Remember Instructution Set and Mode"/>
+
+	<!-- Find -->
+	<Message key="Find Window" description="Find window title" value="Find"/>
+	<Message key="Find" description="Button: Find" value="&amp;Find"/>
+	<Message key="Find All" description="Button: Find All" value="Find &amp;All"/>
+	<Message key="Search in:" description="Field: Search in:"/>
+	<Message key="Search up" description="Choice: Search up"/>
+	<Message key="Search down" description="Choice: Search down"/>
+	<Message key="Ignore case" description="Checkbox: Ignore case"/>
+
+	<!-- Go To -->
+	<Message key="Go To" description="Go To window title"/>
+	<Message key="Raw address" description="Choice: Raw address"/>
+	<Message key="Virtual address" description="Choice or field: Virtual address"/>
+
+	<!-- Details -->
+	<Message key="Details" description="Details window title"/>
+	<Message key="Data:" description="Field: Data"/>
+	<Message key="Length:" description="Field: Length"/>
+	<Message key="Lowercase" description="Choice: Lowercase"/>
+	<Message key="Show symbols" description="Choice: Show symbols"/>
+
+	<!-- Symbols -->
+	<Message key="Symbols" description="Symbols window title"/>
+	<Message key="Source files:" description="Field: Source files"/>
+	<Message key="Module details:" description="Field: Module details"/>
+	<Message key="Address:" description="Field: Address"/>
+	<Message key="Name:" description="Field: Name"/>
+	<Message key="Search" description="Button: Search"/>
+	<Message key="Jump" description="Button: Jump"/>
+
+	<Message key="Custom" description="Button: Custom" value="Custom…"/>
+	<!-- Sections -->
+	<Message key="Custom Section" description="Window Title: Custom Section"/>
+	<Message key="Physical address" description="Field: Physical Address" value="Physical address:"/>
+	<Message key="Virtual size" description="Field: Virtual Size" value="Virtual size:"/>
+	<Message key="Pointer to raw data" description="Field: Pointer to Raw Data" value="Pointer to raw data:"/>
+	<Message key="Size of raw data" description="Field: Size of Raw Data" value="Size of raw data:"/>
+	<Message key="Image base" description="User defined section name" value="Image base:"/>
+
+	<!-- Operations -->
+	<Message key="ExportOp" description="Exporting…" value="Exporting disassembled instructions…" />
+
+	<Enumeration key="MsilNotification" description="Notification: MSIL Installation Warning">
+		<Item text="MSIL Installation Warning"/>
+		<Item text="Using this feature requires .NET 2.0 to be installed. Click the following link to download it:"/>
+	</Enumeration>
+
+	<Message key="MsilWarning" description="Option: Show msil installation warning" value="Show MSIL installation warning"/>
+	<Message key="DownloadNetButton" description="Download .NET Runtime button text" value="Download .NET 2.0 Runtime"/>
+
+	<Enumeration key="FRTypeListDisasm" description="Disassembler Find/Replace type list">
+		<Item text="String"/>
+		<Item text="UNICODE String"/>
+	</Enumeration>
+
+	<Message key="IncorrectInputTitle" description="Error text: Incorrect offset error title" value="Incorrect input" />
+	<Message key="IncorrectInputText" description="Error text: Incorrect offset error text" value="Must be hexadecimal value"/>
+	<Message key="OffsetFormatTip" description="Offset format tip text" value="hexadecimal value"/>
+	<Message key="UserDefinedSection" description="User defined section name" value="User defined"/>
+
+	<Message key="MsilFeatureNotAvailable" description="Feature not available for MSIL" value="Disassembling mapped MSIL modules is not currently supported. Please disassemble the module from the file system."/>
+	<Message key="MsilFeatureNotAvailable2" description="Usaved file disassembly is not available for MSIL" value="Unsaved MSIL modules disassembly is not currently supported. Please save file first."/>
+	<Message key="UnsavedCurrentFile" description="Unnsaved file title" value="&lt;unsaved current file&gt;"/>
+
+	<Enumeration key="CLRErrorReasons" description="List of CLR errors">
+		<Item text="Meta host was not initialized"/>
+		<Item text="Unable to retrieve an assembly's original .NET Framework compilation version"/>
+		<Item text="Unable to load common language runtime (CLR). .NET {version} is required to use this feature. Install missing components and try again.">
+			<Param name="version"/>
+		</Item>
+	</Enumeration>
 </Definition>

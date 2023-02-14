@@ -100,7 +100,11 @@
     <Param name="filename"/>
   </Message>
 
-  <Message key="WriteFileError" description="NTFS error: File write error" value="Error writing file: &quot;{filename}&quot;">
+  <Message key="NotImplementedFileError" description="NTFS error: Sparse/Compressed/Encrypted files copying is not implemented yet" value="Copying sparse, compressed or encrypted files is not implemented yet: &quot;{filename}&quot;">
+    <Param name="filename"/>
+  </Message>
+
+	<Message key="WriteFileError" description="NTFS error: File write error" value="Error writing file: &quot;{filename}&quot;">
     <Param name="filename"/>
   </Message>
 
@@ -125,7 +129,7 @@
     <Item text="Volume Navigator"/>
     <Item text="Volume Navigator scans and displays volume's file system structure, helps find file locations and recover damaged files or folders."/>
   </Enumeration>
-  
+
   <!-- Copy Stats window -->
   <Message key="CopyStats" description="Copy operation statistics" value="{files} files copied.\r\n{folders} folders copied.\r\n{bytes} bytes copied.\r\n{failed} files failed.\r\n{skipped} files skipped.">
     <Param name="files" format="l"/>
@@ -135,7 +139,7 @@
     <Param name="bytes" format="l"/>
   </Message>
   <Message key="Copy Files Report" description="Window title: Copy Files Report"/>
-  
+
   <!-- Copy warning window -->
   <Message key="Overwrite Warning" description="Window title: Overwrite Warning"/>
   <Message key="&amp;Do this for all conflicts" description="Field: Do this for all conflicts"/>
@@ -174,7 +178,11 @@
     <Param name="error"/>
   </Message>
 
-  <Message key="LDMParseErrorHeader" description="(Logical Disk Manager Parser) Error: Header mismatch" value="Invalid PrivHead header."/>
+  <Message key="UnknownPartition" description="Name for unknown partition" value="Partition[{index}]">
+  	<Param name="index"/>
+  </Message>
+
+	<Message key="LDMParseErrorHeader" description="(Logical Disk Manager Parser) Error: Header mismatch" value="Invalid PrivHead header."/>
   <Message key="LDMParseErrorTocHeader" description="(Logical Disk Manager Parser) Error: TocBlock header mismatch" value="Invalid TocBlock header."/>
   <Message key="LDMParseErrorVmdbHeader" description="(Logical Disk Manager Parser) Error: Vmdb header mismatch" value="Invalid Vmdb header."/>
   <Message key="LDMParseErrorVblkSize" description="(Logical Disk Manager Parser) Error: Wrong Vblk size" value="Size of Vblk is not multiple of sector size."/>
@@ -190,4 +198,19 @@
   <Message key="Root structure:" description="Field: Root structure"/>
   <Message key="Directory entry structure:" description="Field: Directory entry structure"/>
   <Message key="File entry structure:" description="Field: File entry structure"/>
+
+  <Message key="toolbar.VolumeNavigator" description="Toolbar: Volume Navigator" value="Volume Navigator" />
+
+  <Enumeration key="Partitions" description="Known partitions names">
+	<Item text="Unknown"/>
+	<Item text="FAT12"/>
+	<Item text="Unallocated"/>
+	<Item text="FAT16"/>
+	<Item text="FAT32"/>
+	<Item text="NTFS/exFAT"/>
+    <Item text="Linux"/>
+	<Item text="LSWAP"/>
+	<Item text="GPT"/>
+  </Enumeration>
+
 </Definition>

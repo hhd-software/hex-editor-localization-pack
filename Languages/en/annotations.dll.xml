@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<!-- Commands -->
+	<Message key="Data Annotations" description="Data Annotations tool window"/>
+	<!--<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="File data annotations has changed do you want to save it?"/>-->
+
+	<Message key="SaveAnnotationsPrompt" description="Save Annotations prompt" value="Data annotations have been changed for &quot;{file}&quot;. Do you want to save updated annotations?">
+		<Param name="file"/>
+	</Message>
+
+	<Message key="MaxAnnotationsError" description="Max Annotations error message" value="You have reached the limit for the number of annotations ({number}) you can create for this document">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="toolbar.Annotations" description="Toolbar: Annotations" value="Annotations" />
+
+	<Enumeration key="FeatureAnnotations" description="Annotations feature">
+		<Item text="Annotations"/>
+		<Item text="Annotations feature allows you to add annotations to data range."/>
+	</Enumeration>
+
+	<Enumeration key="AnnotationAdd" description="Command: Annotation.Add">
+		<Item text="Add Annotation…"/>
+		<Item text="Create a new annotation"/>
+	</Enumeration>
+	<Enumeration key="AnnotationRemove" description="Command: Annotation.Remove">
+		<Item text="Remove Annotation"/>
+		<Item text="Remove annotation"/>
+	</Enumeration>
+	<Enumeration key="AnnotationClear" description="Command: Annotations.Clear">
+		<Item text="Clear Annotations"/>
+		<Item text="Remove all annotations"/>
+	</Enumeration>
+	<Enumeration key="MenuAnnotations" description="Command group: Annotations">
+		<Item text="&amp;Annotations"/>
+		<Item text="Annotations menu"/>
+	</Enumeration>
+	<Enumeration key="AnnotationAnnotateCursor" description="Command group: Annotations.Cursor">
+		<Item text="Annotate Cursor…"/>
+		<Item text="Annotate data at cursor position"/>
+	</Enumeration>
+
+	<Enumeration key="AnnotationAnnotateSelection" description="Command: Annotations.Annotation Selection">
+		<Item text="Annotate Selection…"/>
+		<Item text="Add annotation to current selection"/>
+	</Enumeration>
+
+	<Enumeration key="AnnotationEdit" description="Command: Annotations.Edit">
+		<Item text="Edit Annotation Text"/>
+		<Item text="Edit selected annotation item"/>
+	</Enumeration>
+
+	<Enumeration key="EditButtonText" description="Annotation edit form button texts" revision="1">
+		<Item text="Add"/>
+		<Item text="Apply"/>
+	</Enumeration>
+
+	<Enumeration key="RightColumns" description="Annotations list columns">
+		<Item text="No."/>
+		<Item text="Address"/>
+		<Item text="Size"/>
+		<Item text="Text"/>
+	</Enumeration>
+
+	<Message key="ExtSuffixFilter" description="Extension suffix prompt message" value="Allowed symbols: 0-9A-Za-z_"/>
+
+	<!-- Annotate Range dialog -->
+	<Message key="Annotate Range" description="Window title: Annotate Range" />
+	<Message key="Start:" description="Field: Start Offset" />
+	<Message key="End:" description="Field: End Offset" />
+	<Message key="Text:" description="Field: Text" revision="1" value="Annotation text:"/>
+	<Message key="IncorrectInputTitle" description="Error text: Incorrect offset error title" value="Incorrect input" />
+	<Message key="IncorrectInputText" description="Error text: Incorrect offset error text" value="Must be hexadecimal value"/>
+
+	<!-- Settings Page -->
+	<Message key="Annotations Storage Location" description="Group box: Annotations Storage Location"/>
+	<Message key="Auto Select" description="Option: Auto Select" />
+	<Message key="NTFS Stream" description="Option: NTFS Stream" />
+	<Message key="File extension suffix:" description="Field: File extension suffix"/>
+	<Message key="Custom Folder:" description="Field: Custom Folder"/>
+	<Message key="Clear annotations cache" description="Button: Clear annotations cache"/>
+
+	<!-- Color scheme -->
+	<Message key="clr.ann_colors" description="Color: Annotations Colors" value="Annotations Colors"/>
+	<Message key="clr.ann_colors.def.fill" description="Color: Annotations background" value="Annotations background" />
+	<Message key="clr.ann_colors.def.stroke" description="Color: Annotations outline" value="Annotations outline" />
+	<Message key="clr.ann_colors.def.text" description="Color: Annotations text" value="Annotations text" />
+</Definition>

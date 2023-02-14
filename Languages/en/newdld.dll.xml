@@ -6,7 +6,7 @@
     <Item text="&amp;Downloader"/>
     <Item text="Downloader menu"/>
   </Enumeration>
-  
+
   <Enumeration key="ToolsCancelAll" description="Command: Tools.Cancel All Tasks" revision="1">
     <Item text="&amp;Cancel All Download Tasks"/>
     <Item text="Cancel all download tasks"/>
@@ -48,7 +48,6 @@
   <!-- Proxy Page -->
   <Message key="Proxy Page" description="Proxy Page title" value="Proxy"/>
   <Message key='Select a proxy settings to be used by "Check For Updates":' description="Field: Select a proxy settings…" />
-  <Message key="Default" description="Choice: Default" />
   <Message key="Autodetect proxy settings" description="Choice: Autodetect proxy settings" />
   <Message key="Do not use proxy" description="Choice: Do not use proxy" />
   <Message key="Use the following proxy (HTTP):" description="Choice: Use the following proxy (HTTP)" />
@@ -65,4 +64,6 @@
   <Message key="PasswordMismatch" value="Entered passwords must match." description="Entered passwords must match."/>
 
   <Message key="Downloader settings" description="Settings: Downloader (Proxy)" value="Proxy Settings"/>
+
+	<Message key="toolbar.Downloader" description="Toolbar: Downloader" value="Downloader" />
 </Definition>

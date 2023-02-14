@@ -5,12 +5,109 @@
     <Item text="Open process memory for reading and writing"/>
   </Enumeration>
 
-  <Enumeration key="GoToProcess" description="Command: Edit.Goto process" revision="1">
+	<Enumeration key="ProcessOpen" description="Command: Open selected process">
+		<Item text="Open P&amp;rocess…"/>
+		<Item text="Open process memory for reading and writing"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessOpenSnapshot" description="Command: Open selected process snapshot">
+		<Item text="Open P&amp;rocess Snapshot…"/>
+		<Item text="Create a process snapshot and open its memory"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessAllProcesses" description="Command: All Processes">
+		<Item text="Show All Processes"/>
+		<Item text="Show processes for all users"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessAutoRefresh" description="Command: Auto refresh process list">
+		<Item text="Auto Refresh"/>
+		<Item text="Automatically refresh the list of running processes"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessRefresh" description="Command: Refresh process list">
+		<Item text="Refresh Process List"/>
+		<Item text="Refresh the list of running processes"/>
+	</Enumeration>
+
+	<Enumeration key="GoToProcess" description="Command: Edit.Goto process" revision="1">
     <Item text="Go to… (in Process)"/>
     <Item text="Jump to the given section in the edited process memory"/>
   </Enumeration>
 
-  <Enumeration key="BlockType" description="Memory block types" revision="1">
+	<Enumeration key="ProcessCreateSnapshot" description="Command: Process Create Snapshot">
+		<Item text="Create Snapshot" />
+		<Item text="Create process snapshot" />
+	</Enumeration>
+
+	<Enumeration key="ProcessDeleteSnapshot" description="Command: Process Delete Snapshot">
+		<Item text="Delete Snapshot" />
+		<Item text="Delete selected snapshot" />
+	</Enumeration>
+	<Enumeration key="ProcessCompareSnapshots" description="Command: Process Compare Snapshots">
+		<Item text="Compare Selected Snapshots (select two)" />
+		<Item text="Select two snapshots to compare them" />
+	</Enumeration>
+	<Enumeration key="ProcessClearSnapshots" description="Command: Process Clear Snapshots">
+		<Item text="Clear Snapshots" />
+		<Item text="Delete all process snapshots" />
+	</Enumeration>
+
+	<Enumeration key="ProcessBlocksMode" description="Command: Process Blocks Mode">
+		<Item text="Blocks" />
+		<Item text="Display process memory blocks" />
+	</Enumeration>
+	<Enumeration key="ProcessModulesMode" description="Command: Process Modules Mode">
+		<Item text="Modules" />
+		<Item text="Display process mapped modules" />
+	</Enumeration>
+
+	<Enumeration key="ProcessModeSwitch" description="Command radio: Process region list mode">
+		<Item text="Process Region List Mode"/>
+		<Item text="Change the type of data displayed in region list"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessOpenRegion" description="Command: Process Open Region (Read-Only)">
+		<Item text="Open (Read-Only)" />
+		<Item text="Open selected memory region as read-only" />
+	</Enumeration>
+
+	<Enumeration key="ProcessOpenRegionForWrite" description="Command: Process Open Region (Read-Write)">
+		<Item text="Open (Read/Write)" />
+		<Item text="Open selected memory region for read/write access" />
+	</Enumeration>
+
+	<Enumeration key="ProcessRefreshRegions" description="Command: Process Refresh Memory Regions">
+		<Item text="Refresh Memory" />
+		<Item text="Refresh Memory" />
+	</Enumeration>
+
+	<Enumeration key="ProcessDisasm" description="Command: Process Disassemble Selected Module">
+		<Item text="Run Disassembler" />
+		<Item text="Disassemble selected module" />
+	</Enumeration>
+
+	<Enumeration key="ProcessDebug" description="Command: Debug Process/Snapshot">
+		<Item text="Debug Process/Snapshot"/>
+		<Item text="Launch external debugger to debug selected process snapshot or a running process"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessSaveDump" description="Command: Save Process Dump">
+		<Item text="Save Process/Snapshot Dump…"/>
+		<Item text="Save the dump of the current state of a process or selected snapshot to a file"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessKill" description="Command: Terminate Process">
+		<Item text="Terminate Process"/>
+		<Item text="Terminate running process"/>
+	</Enumeration>
+
+	<Enumeration key="ProcessChangeColors" description="Command: Change process colors">
+		<Item text="Change Colors…"/>
+		<Item text="Go to the Themes page to change the process window colors"/>
+	</Enumeration>
+
+	<Enumeration key="BlockType" description="Memory block types" revision="1">
     <Item text="Unknown"/>
     <Item text="Image"/>
     <Item text="Mapped"/>
@@ -24,7 +121,7 @@
     <Item text="Reserved"/>
   </Enumeration>
 
-  <Enumeration key="PageAccess" description="Memory block access" revision="1">
+  <Enumeration key="PageAccess" description="Memory block access" revision="2">
     <Item text="No Access"/>
     <Item text="Read Only"/>
     <Item text="Read, Write"/>
@@ -35,6 +132,7 @@
     <Item text="Execute, Copy on Write"/>
     <Item text="Protected (Guarded)"/>
     <Item text="No Cache"/>
+	  <Item text="Write Combine"/>
   </Enumeration>
 
   <Enumeration key="FeatureDesc" description="Open Process feature" revision="1">
@@ -42,13 +140,21 @@
     <Item text="Open Process feature allows you to open a selected process' memory address space for viewing and editing."/>
   </Enumeration>
 
-  <Message key="PrivilegeNotGained" description="Option: Limited set of processes in processes list" revision="1" value="Limited set of processes in processes list"/>
+	<Message key="ProcessCat" description="Option group: Process" value="Process"/>
+
+	<Enumeration key="debuggerType" description="Option: Preferred external debugger">
+		<Item text="Preferred external debugger"/>
+		<Item text="Registered JIT-debugger"/>
+		<Item text="Visual Studio"/>
+		<Item text="WinDBG"/>
+	</Enumeration>
+
   <Enumeration key="Task" description="Jump List Item: Open Process" revision="1">
     <Item text="Open process"/>
     <Item text="Open process memory for viewing and modification"/>
   </Enumeration>
 
-  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="1" value="Region base: {base} ({base:2})\rRegion end: {end} ({end:2})\rRegion size: {size} ({size:2})\rType: {type}\rState: {state}\rFlags: {flags}">
+  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="3" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]]  {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}">
     <Param name="base" format="b016"/>
     <Param name="base:2" format="l"/>
     <Param name="end" format="b016"/>
@@ -58,26 +164,11 @@
     <Param name="type"/>
     <Param name="state"/>
     <Param name="flags"/>
+	  <Param name="is module" format="?"/>
+	  <Param name="module"/>
   </Message>
 
   <Message key="Unknown" description="Unknown" revision="1"/>
-  <Enumeration key="DisplayNotification" description="Notification: Limited Open Process Functionality" revision="1">
-    <Item text="Limited Open Process Functionality"/>
-    <Item text="Warning: Hex Editor Neo lacks the required privileges to access processes running on your system. It will only be able to connect to a small subset of processes running on your computer. Run Hex Editor Neo as an elevated user with administrative access to be able to edit any process' memory address space."/>
-  </Enumeration>
-
-  <Enumeration key="Tabs" description="Open Process window tabs" revision="1">
-    <Item text="Blocks"/>
-    <Item text="Modules"/>
-  </Enumeration>
-  <Message key="No process selected" description="No process selected" revision="1"/>
-  <Message key="Specify a range using a list of blocks or a list of modules." description="Specify a range using a list of blocks or a list of modules" revision="1"/>
-  <Message key="Either start or end is too big. Please enter correct values." description="Either start or end is too big. Please enter correct values" revision="1"/>
-
-  <Enumeration key="ProcessColumns" description="Process list columns" revision="1">
-    <Item text="ID"/>
-    <Item text="Name"/>
-  </Enumeration>
 
   <Enumeration key="HeapColumns" description="Heap columns" revision="1">
     <Item text="Address"/>
@@ -87,35 +178,120 @@
     <Item text="Flags"/>
     <Item text="Module"/>
   </Enumeration>
-  <Enumeration key="ModulesColumns" description="Modules columns" revision="1">
+
+	<Enumeration key="ModulesColumns" description="Modules columns" revision="2">
     <Item text="Name"/>
     <Item text="Address"/>
     <Item text="Size"/>
+	  <Item text="Path"/>
   </Enumeration>
-  <Message key="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks." description="Multiple selection is allowed only when sorting by Address. Click on first column's header to sort blocks" revision="1"/>
-  <Message key="ProcessDescription" description="Process description" revision="1" value="Process: {process}, Blocks: {blocks}, Modules: {modules}">
-    <Param name="process"/>
-    <Param name="blocks" format="l"/>
-    <Param name="modules" format="l"/>
-  </Message>
+
   <Message key="N/A" description="Process name is unknown" revision="1"/>
 
   <!-- Dialog boxes -->
-  <Message key="Open Process" description="Open Process Window title" revision="1"/>
-  <Message key="Set Colors…" description="Button: Set Colors…" revision="1"/>
-  <Message key="Display decimal values" description="Checkbox: Display decimal values" revision="1"/>
-  <Message key="Logarithmic scale" description="Checkbox: Logarithmic scale" revision="1"/>
   <Message key="Start:" description="Field: Start" revision="1"/>
   <Message key="End:" description="Field: End" revision="1"/>
   <Message key="Size:" description="Field: Size" revision="1"/>
-  <Message key="Show All Processes" description="Button: Show All Processes" revision="1"/>
-  <Message key="Refresh" description="Button: Refresh" revision="1"/>
+	<Message key="Snapshots" description="Text field: Snapshots"/>
 
-  <!-- Color dialog -->
-  <Message key="Color Selection" description="Color Selection window title" revision="1"/>
-  <Message key="No Access/Guard" description="Field: No Access/Guard" revision="1" value="No Access/Guard:"/>
-  <Message key="Read Only/Execute" description="Field: Read Only/Execute" revision="1" value="Read Only/Execute:"/>
-  <Message key="Read/Write" description="Field: Read/Write" revision="1" value="Read/Write:"/>
-  <Message key="Copy on Write" description="Field: Copy on Write" revision="1" value="Copy on Write:"/>
-  <Message key="Free" description="Field: Free" revision="1" value="Free:"/>
+	<!-- Color scheme -->
+	<Message key="clr.pex_colors" description="Color Group: Process Window Colors" value="Process Window Colors" revision="1"/>
+	<Message key="clr.pex_colors.NoAccess" description="Color: No Access region" value="No Access region" />
+    <Message key="clr.pex_colors.ReadOnly" description="Color: Read Only region" value="Read only region" />
+    <Message key="clr.pex_colors.ReadWrite" description="Color: Read/Write region" value="Read/Write region" />
+    <Message key="clr.pex_colors.WriteCopy" description="Color: Write Copy region" value="Copy on write region" />
+    <Message key="clr.pex_colors.Free" description="Color: Free region" value="Free region" />
+
+
+	<Message key="Processes" description="Tool window: Processes" />
+	<Message key="ProcessToolbar" description="Toolbar: Processes" value="Processes" />
+
+	<Enumeration key="ProcessListColumns" description="Process list columns">
+		<Item text="Name"/>
+		<Item text="Process ID"/>
+		<Item text="Architecture"/>
+		<Item text="User"/>
+		<Item text="Private Bytes"/>
+		<Item text="Threads"/>
+		<Item text="Command line"/>
+	</Enumeration>
+
+	<Enumeration key="MachineTypes" description="Supported architecture types">
+		<Item text="Unknown"/>
+		<Item text="x86"/>
+		<Item text="x64"/>
+		<Item text="ARM64"/>
+	</Enumeration>
+
+	<Message key="Process filter" description="Process filter banner list" value="Search processes…"/>
+
+    <Message key="ErrorOpeningProcess" description="Process opening error" value="The following error has occurred during opening selected process:\n\n{text} ({code})">
+	    <Param name="text"/>
+        <Param name="code" format="ub016x"/>
+    </Message>
+
+	<Message key="ErrorTerminatingProcess" description="Process termination error" value="Process termination failed with the following error:\n\n{text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="ErrorSavingDump" description="Error saving dump" value="There was an error during saving process dump:\n\n{text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="ErrorRunningDebugger" description="Error running debugger" value="There was an error locating or running external debugger:\n\n{text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="Process tooltip" description="Process tooltip template" value="Process name: {name}\nProcess ID: {id}\nArchitecture: {arch}\nUser: {user}\nStatus: {status}\nFull image path: {path}\nCommand line: {cmdline}">
+		<Param name="name"/>
+		<Param name="id"/>
+		<Param name="arch"/>
+		<Param name="user"/>
+		<Param name="status"/>
+		<Param name="path"/>
+		<Param name="cmdline"/>
+	</Message>
+
+	<Message key="Process header" description="Process window header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[bFull image path:]]] {path}\n[[[bCommand line:]]] {cmdline}">
+		<Param name="name"/>
+		<Param name="id"/>
+		<Param name="arch"/>
+		<Param name="user"/>
+		<Param name="status"/>
+		<Param name="path"/>
+		<Param name="cmdline"/>
+	</Message>
+
+	<Message key="Exited with" description="Exited with error code" value="Exited with {error}">
+		<Param name="error" format="b016x"/>
+	</Message>
+
+	<Enumeration key="Running" description="Process status: running/exited">
+		<Item text="Running" />
+		<Item text="Exited" />
+	</Enumeration>
+
+	<Message key="Snapshot creation error" description="Snapshot creation error" value="Error creating snapshot: {text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+	<Message key="Process snapshot template" description="Process snapshot template (to be shown in the process list window)" value="{name} [snapshot]">
+		<Param name="name"/>
+	</Message>
+
+	<Message key="AskClearSnapshots" description="Clear snapshots warning prompt" value="Removing all process snapshots action cannot be undone. Are you sure you want to continue?"/>
+
+	<Message key="includeFullMemoryInSnapshotDebug" description="Option: Include full memory when debugging snapshots" value="Include full memory when debugging snapshots"/>
+	<Message key="DumpCreation" description="Title: Preparing Snapshot for Debugging" value="Preparing Snapshot for Debugging"/>
+	<Message key="highlightRegions" description="Option: Highlight regions" value="Highlight memory regions in editor windows" />
+
+	<Message key="NoSnapshotting" description="No snapshotting support on Windows 7" value="Windows 7 does not support process snapshotting technology. This technology is supported on Windows 8 or later OS versions."/>
+
+	<Message key="DumpFileFilter" description="Filter string: Dump files" value="Dump files|*.dmp|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
 </Definition>

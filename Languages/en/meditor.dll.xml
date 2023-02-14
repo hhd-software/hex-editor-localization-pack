@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+
+  <Enumeration key="ScriptingGoToDefinition" description="Command: ScriptGoToDefinition">
+    <Item text="Go to Definition"/>
+    <Item text="Open the identifier definition"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingPeekDefinition" description="Command: ScriptPeekDefinition">
+    <Item text="Peek Definition"/>
+    <Item text="Peek identifier definition"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingFindAllReferences" description="Command: ScriptFindAllReferences">
+    <Item text="Find All References"/>
+    <Item text="Search for all references of an identifier"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingGoToSymbol" description="Command: ScriptGoToSymbol">
+    <Item text="Go to Symbol…"/>
+    <Item text="Navigate to symbol definition"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingChangeAllOccurrences" description="Command: ScriptChangeAllOccurrences">
+    <Item text="Change All Occurrences"/>
+    <Item text="Change all occurrences of a symbol"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingFormatDocument" description="Command: ScriptFormatDocument">
+    <Item text="Format Document"/>
+    <Item text="Format entire document"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingCommandPalette" description="Command: ScriptingCommandPalette">
+    <Item text="Command Palette"/>
+    <Item text="Open editor command palette"/>
+  </Enumeration>
+
+
+
+</Definition>
