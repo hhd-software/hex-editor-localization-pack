@@ -156,8 +156,8 @@
   <Message key="Windows Title" value="Windows" revision="1" />
   <Message key="Save" value="保存" revision="1" />
   <Message key="Close Window(s)" value="关闭窗口" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. 版本 {major}.{minor}.{revision}.{build}]]]\n{registered?}注册给 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\n版权所有.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
-  <Message key="AboutBoxDisclaimer" value="警告：本计算机程序受版权法和国际公约的保护，未经授权擅自复制或传播本程序的全部或部分，可能受到严厉的民事及刑事制裁，并在法律许可的范围内受到最大可能的起诉。\n\n简体中文化：网络浪子(netprodiag@163.com) Chyanbo(Chyanbo@msn.com)" revision="1" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. 版本 {major}.{minor}.{revision}.{build}]]]\n{registered?}注册给 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\n保留所有权利.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutBoxDisclaimer" value="警告：本计算机程序受版权法和国际条约的保护。未经授权复制或分发本程序或其任何部分，可能导致严重的民事和刑事处罚，并将在法律允许的最大范围内受到起诉。" revision="1" />
   <Message key="About Hex Editor Neo" value="关于 {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="选择默认用户界面布局" revision="1" />
   <Message key="Select default interface configuration" value="选择默认接口配置。您始终可以使用视图»预定义布局菜单选择其他配置。" revision="0" />
