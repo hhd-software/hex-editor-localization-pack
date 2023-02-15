@@ -74,7 +74,7 @@
   <Message key="Synchronize selection with Hex View" value="选择与十六进制视图同步" revision="0" />
   <Message key="Hexadecimal" value="十六进制" revision="0" />
   <Message key="Decimal" value="十进制" revision="0" />
-  <Message key="Symbols…" value="符号..." revision="0" />
+  <Message key="Symbols…" value="符号…" revision="0" />
   <Message key="Mode:" value="模式：" revision="0" />
   <Message key="Remember used settings" value="记住指令集和模式" revision="0" />
   <Message key="Find Window" value="查找" revision="0" />
@@ -117,7 +117,7 @@
   <Message key="MsilFeatureNotAvailable2" value="当前不支持未保存的MSIL模块反汇编。请先保存文件。" revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;unsaved current file&gt;" revision="0" />
   <Enumeration key="DisasmRun">
-    <Item value="运行反汇编器..." revision="0" />
+    <Item value="运行反汇编器…" revision="0" />
     <Item value="反汇编一个可执行文件" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmExport">
@@ -125,15 +125,15 @@
     <Item value="导出反汇编" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmDetails">
-    <Item value="详细信息..." revision="0" />
+    <Item value="详细信息…" revision="0" />
     <Item value="显示指令的详细信息" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmSelectColumns">
-    <Item value="选择列..." revision="0" />
+    <Item value="选择列…" revision="0" />
     <Item value="选择反汇编器列" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmShowSymbols">
-    <Item value="符号..." revision="0" />
+    <Item value="符号…" revision="0" />
     <Item value="显示此文档的符号，跳转到一个选定的符号。" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmRefresh">

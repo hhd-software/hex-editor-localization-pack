@@ -112,11 +112,11 @@
     <Item value="将所有结果复制到剪贴板上" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumExport">
-    <Item value="导出..." revision="1" />
+    <Item value="导出…" revision="1" />
     <Item value="将选定的结果导出到一个文本文件中" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumConfigure">
-    <Item value="参数..." revision="1" />
+    <Item value="参数…" revision="1" />
     <Item value="配置算法参数" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumAddAlgorithm">

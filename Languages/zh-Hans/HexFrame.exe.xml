@@ -13,7 +13,7 @@
   <Message key="Disk information" value="磁盘信息:" revision="1" />
   <Message key="Open as Read-Only" value="以只读方式打开" revision="1" />
   <Message key="Create and open snapshot" value="创建和打开快照" revision="0" />
-  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Hex Editor Neo 正在扫描物理磁盘，请稍候..." revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Hex Editor Neo 正在扫描物理磁盘，请稍候…" revision="1" />
   <Message key="General Page" value="常规" revision="1" />
   <Message key="Using this product you are saving environment!" value="使用本产品保存你的环境！" revision="1" />
   <Message key="EcoMessage" value="\r\nHex Editor Neo 高度优化了基本算法并仔细调节保存你的工作时间，尽力减少了能源和资源的耗费，\r\n\r\n我们在乎未来！" revision="1" />
@@ -70,7 +70,7 @@
   <Message key="All commands" value="所有命令" revision="1" />
   <Message key="Commands Page" value="命令" revision="1" />
   <Message key="Toolbars" value="工具栏：" revision="2" />
-  <Message key="New" value="新建(&amp;N)..." revision="1" />
+  <Message key="New" value="新建(&amp;N)…" revision="1" />
   <Message key="Delete" value="删除(&amp;D)" revision="1" />
   <Message key="Button size" value="按钮大小:" revision="1" />
   <Message key="Select a command to view its description or drag it to a toolbar" value="选择一个命令查看其描述或将其拖曳到工具栏上:" revision="1" />
@@ -145,14 +145,14 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="正则表达式" revision="1" />
   <Message key="Sub-match:" value="子匹配:" revision="1" />
-  <Message key="Recent Patterns…" value="最近用过的模式..." revision="1" />
+  <Message key="Recent Patterns…" value="最近用过的模式…" revision="1" />
   <Message key="Type:" value="类型:" revision="1" />
   <Message key="Find what:" value="查找内容:" revision="1" />
   <Message key="FREmpty" value="空" revision="1" />
   <Message key="Custom colors:" value="自定义颜色:" revision="1" />
   <Message key="Default colors:" value="默认颜色:" revision="1" />
   <Message key="Alpha" value="Alpha" revision="1" />
-  <Message key="Custom…" value="自定义..." revision="1" />
+  <Message key="Custom…" value="自定义…" revision="1" />
   <Message key="Windows Title" value="Windows" revision="1" />
   <Message key="Save" value="保存" revision="1" />
   <Message key="Close Window(s)" value="关闭窗口" revision="1" />
@@ -180,32 +180,32 @@
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo 试用期" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo 运行在试用模式中，所有功能被激活。" revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="试用期满后， Hex Editor Neo 将保留功能，但仅免费版的功能可用。" revision="1" />
-  <Message key="Upgrade Now…" value="立即升级..." revision="1" />
-  <Message key="Compare Editions…" value="比较版本..." revision="1" />
+  <Message key="Upgrade Now…" value="立即升级…" revision="1" />
+  <Message key="Compare Editions…" value="比较版本…" revision="1" />
   <Message key="Continue Trial" value="继续试用" revision="1" />
   <Message key="License Management and Upgrading" value="授权管理和升级" revision="1" />
   <Message key="Installed license" value="已安装的授权:" revision="1" />
   <Message key="Start Trial now!" value="立即开始试用！" revision="1" />
   <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="选择一个你想升级的版本，使用 &quot;更多信息…&quot; 链接获取有关选定版本的更多信息，使用 &quot;比较版本…&quot; 链接获取对各种版本所授权的功能比较表。" revision="1" />
   <Message key="Standard Edition:" value="标准版:" revision="1" />
-  <Message key="More Info…" value="更多信息..." revision="1" />
-  <Message key="Upgrade…" value="升级..." revision="1" />
+  <Message key="More Info…" value="更多信息…" revision="1" />
+  <Message key="Upgrade…" value="升级…" revision="1" />
   <Message key="Professional Edition:" value="专业版" revision="1" />
   <Message key="Ultimate Edition:" value="旗舰版:" revision="1" />
-  <Message key="Compare editions…" value="比较版本..." revision="1" />
+  <Message key="Compare editions…" value="比较版本…" revision="1" />
   <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="如果你已经收到一个授权文件，点击 &quot;安装授权…&quot; 按钮。" revision="1" />
   <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="如果你需要更新授权，点击 &quot;下载授权…&quot; 按钮 (需要登录名和密码)。" revision="1" />
-  <Message key="Install License…" value="安装授权..." revision="1" />
-  <Message key="Download License…" value="下载授权..." revision="1" />
+  <Message key="Install License…" value="安装授权…" revision="1" />
+  <Message key="Download License…" value="下载授权…" revision="1" />
   <Message key="Remove License" value="移除授权" revision="1" />
   <Message key="Open Volume" value="打开卷" revision="1" />
   <Message key="Select a volume to open" value="选择一个要打开的卷:" revision="1" />
-  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo 正在扫描系统卷，请稍候..." revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo 正在扫描系统卷，请稍候…" revision="1" />
   <Message key="File system capabilities" value="文件系统性能" revision="1" />
   <Message key="Space" value="空间:" revision="1" />
-  <Message key="ProgressPleaseWait" value="请稍候..." revision="1" />
+  <Message key="ProgressPleaseWait" value="请稍候…" revision="1" />
   <Message key="ProgressPerSec" value="{rate}/秒" revision="1" />
-  <Message key="ProgressCalculating" value="正在计算..." revision="1" />
+  <Message key="ProgressCalculating" value="正在计算…" revision="1" />
   <Message key="ProgressDone" value="已完成 {percent}%。" revision="1" />
   <Message key="Error" value="错误" revision="0" />
   <Message key="PredefinedDelete" value="禁止删除预定义颜色方案，只能删除用户方案" revision="0" />
@@ -228,7 +228,7 @@
   <Message key="Changing product language requires restart of Hex Editor Neo." value="更改产品语言需要重启 Hex Editor Neo。" revision="0" />
   <Message key="Languages online" value="语言在线" revision="0" />
   <Message key="Refresh" value="刷新(&amp;R)" revision="0" />
-  <Message key="ButtonRefreshing" value="正在刷新..." revision="0" />
+  <Message key="ButtonRefreshing" value="正在刷新…" revision="0" />
   <Message key="Download" value="下载(&amp;D)" revision="0" />
   <Message key="Language pack" value="语言包: {native name}" revision="0" />
   <Message key="DiscardWarning" value="如果你放弃选择更新, 虽然 Hex Editor Neo 将不再提示与此有关的更新，但仍然会向你提示将来的更新，\r\n\r\n你仍然想放弃选定的更新吗？" revision="0" />
@@ -238,7 +238,7 @@
   <Message key="The following updates are found:" value="找到下列更新:" revision="0" />
   <Message key="Check for updates" value="检查更新" revision="0" />
   <Message key="Start Download" value="开始下载" revision="0" />
-  <Message key="View Changes…" value="查看更改..." revision="0" />
+  <Message key="View Changes…" value="查看更改…" revision="0" />
   <Message key="Discard" value="放弃" revision="0" />
   <Message key="ActionSelection" value="已成功下载 {name}，你想用它做什么？" revision="1" />
   <Message key="CopyError" value="复制下载的文件 ({code}) 时发生了一个错误，从默认位置运行安装程序。" revision="1" />
@@ -280,8 +280,8 @@
   <Message key="Settings Storage Location" value="设置存储位置" revision="0" />
   <Message key="Settings Management" value="设置管理" revision="0" />
   <Message key="Export Settings…" value="导出设置.." revision="0" />
-  <Message key="Import Settings…" value="导入设置..." revision="0" />
-  <Message key="Reset Settings…" value="复位设置..." revision="0" />
+  <Message key="Import Settings…" value="导入设置…" revision="0" />
+  <Message key="Reset Settings…" value="复位设置…" revision="0" />
   <Message key="Ask to import settings" value="指定文件已经存在。你要想立刻导入它的内容吗？点击是，文件会被当前设置覆盖。" revision="0" />
   <Message key="Ask to reset settings" value="必须重启程序来复位设置。你要想继续？" revision="0" />
   <Message key="Ask to restart" value="推荐重启程序来启用导入的设置。你要想想在重启吗？" revision="0" />
@@ -298,7 +298,7 @@
   <Message key="BetaConflicts" value="选定的组件于已安装的或其他组件冲突。 要继续，下列组件必须被移除：\r\n\n{components}\r\n\n你想要移除并继续吗？" revision="0" />
   <Message key="BetaHeader" value="测试版本" revision="0" />
   <Message key="BetaDownloadError" value="下载选定的组件时发生错误。请稍后重试。" revision="1" />
-  <Message key="BetaAdvanced" value="高级(&amp;A)..." revision="0" />
+  <Message key="BetaAdvanced" value="高级(&amp;A)…" revision="0" />
   <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="输入 HHD Software 支持人员发给你的升级 ID：" revision="0" />
   <Message key="Manual Installation" value="手工安装" revision="0" />
   <Message key="Crash Page" value="碰撞报告" revision="0" />
@@ -444,11 +444,11 @@
     <Item value="只读" revision="1" />
   </Enumeration>
   <Enumeration key="ActionUpgrade">
-    <Item value="立即升级..." revision="1" />
+    <Item value="立即升级…" revision="1" />
     <Item value="将 Hex Editor Neo 升级到获取此功能的访问" revision="1" />
   </Enumeration>
   <Enumeration key="ActionCompare">
-    <Item value="比较版本..." revision="1" />
+    <Item value="比较版本…" revision="1" />
     <Item value="http://www.hhdsoftware.com/dispatch/hex/compare.html" revision="1" />
   </Enumeration>
   <Enumeration key="ActionStartTrial">
@@ -480,7 +480,7 @@
     <Item value="打开一个以二进制表示的物理磁盘" revision="1" />
   </Enumeration>
   <Enumeration key="More tasks task">
-    <Item value="更多任务..." revision="1" />
+    <Item value="更多任务…" revision="1" />
     <Item value="配置此任务列表" revision="1" />
   </Enumeration>
   <Enumeration key="MenuFile">
@@ -624,7 +624,7 @@
     <Item value="创建一个新的空文件" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpen">
-    <Item value="打开文件(&amp;O)..." revision="1" />
+    <Item value="打开文件(&amp;O)…" revision="1" />
     <Item value="打开一个现有的文件" revision="1" />
   </Enumeration>
   <Enumeration key="FileSave">
@@ -632,7 +632,7 @@
     <Item value="保存此活动文档" revision="1" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item value="另存为(&amp;A)..." revision="1" />
+    <Item value="另存为(&amp;A)…" revision="1" />
     <Item value="用新文件名保存此活动文档" revision="1" />
   </Enumeration>
   <Enumeration key="FileClose">
@@ -676,11 +676,11 @@
     <Item value="插入剪贴板内容" revision="1" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item value="导入配置(&amp;I)..." revision="1" />
+    <Item value="导入配置(&amp;I)…" revision="1" />
     <Item value="导入工具窗口配置" revision="1" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item value="导出配置(&amp;E)..." revision="1" />
+    <Item value="导出配置(&amp;E)…" revision="1" />
     <Item value="导出工具窗口配置" revision="1" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
@@ -692,11 +692,11 @@
     <Item value="预定义布局" revision="1" />
   </Enumeration>
   <Enumeration key="ToolsUpgrade">
-    <Item value="升级(&amp;U)..." revision="1" />
+    <Item value="升级(&amp;U)…" revision="1" />
     <Item value="将  Hex Editor Neo 升级为其它版本" revision="1" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item value="设置(&amp;S)..." revision="1" />
+    <Item value="设置(&amp;S)…" revision="1" />
     <Item value="管理程序设置" revision="1" />
   </Enumeration>
   <Enumeration key="WindowNew">
@@ -748,7 +748,7 @@
     <Item value="复制文件的完整路径到剪贴板中" revision="1" />
   </Enumeration>
   <Enumeration key="WindowWindows">
-    <Item value="窗口(&amp;W)..." revision="1" />
+    <Item value="窗口(&amp;W)…" revision="1" />
     <Item value="显示所有已打开文档窗口的列表" revision="1" />
   </Enumeration>
   <Enumeration key="HelpContents">
@@ -764,7 +764,7 @@
     <Item value="查看帮助文件的搜索窗格" revision="1" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item value="反馈(&amp;F)..." revision="1" />
+    <Item value="反馈(&amp;F)…" revision="1" />
     <Item value="发送产品使用反馈" revision="1" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
@@ -776,11 +776,11 @@
     <Item value="显示有关本产品的信息" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenVolume">
-    <Item value="打开卷(&amp;V)..." revision="1" />
+    <Item value="打开卷(&amp;V)…" revision="1" />
     <Item value="打开一个卷(逻辑磁盘)" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDisk">
-    <Item value="打开物理磁盘(&amp;H)..." revision="1" />
+    <Item value="打开物理磁盘(&amp;H)…" revision="1" />
     <Item value="打开物理磁盘" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenDevice">
@@ -792,11 +792,11 @@
     <Item value="保存所有已修改的文档" revision="1" />
   </Enumeration>
   <Enumeration key="FilePrint">
-    <Item value="打印(&amp;P)..." revision="1" />
+    <Item value="打印(&amp;P)…" revision="1" />
     <Item value="打印当前文档" revision="1" />
   </Enumeration>
   <Enumeration key="FilePageSetup">
-    <Item value="页面设置(&amp;G)..." revision="1" />
+    <Item value="页面设置(&amp;G)…" revision="1" />
     <Item value="打开页面设置对话框" revision="1" />
   </Enumeration>
   <Enumeration key="EditClear">
@@ -808,7 +808,7 @@
     <Item value="显示或隐藏工具窗口" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
-    <Item value="授权管理(&amp;L)..." revision="1" />
+    <Item value="授权管理(&amp;L)…" revision="1" />
     <Item value="显示授权管理对话框" revision="1" />
   </Enumeration>
   <Enumeration key="WindowDockable">
@@ -820,11 +820,11 @@
     <Item value="选项卡式文档" revision="1" />
   </Enumeration>
   <Enumeration key="ViewQuickUITweak">
-    <Item value="快速用户界面配置..." revision="1" />
+    <Item value="快速用户界面配置…" revision="1" />
     <Item value="显示初始的用户配置窗口" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenNonLocked">
-    <Item value="打开共享文件..." revision="1" />
+    <Item value="打开共享文件…" revision="1" />
     <Item value="以共享方式打开文件" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
@@ -837,7 +837,7 @@
     <Item value="终极版" revision="2" />
   </Enumeration>
   <Enumeration key="HelpCheck">
-    <Item value="检查更新..." revision="1" />
+    <Item value="检查更新…" revision="1" />
     <Item value="检查本产品是否有新版本或可用的组件" revision="1" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">
@@ -852,7 +852,7 @@
     <Item value="从不" revision="1" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item value="更多语言..." revision="0" />
+    <Item value="更多语言…" revision="0" />
     <Item value="在线检查更多的语言" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">

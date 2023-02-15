@@ -26,7 +26,7 @@
   <Message key="Comparison method:" value="比较方式:" revision="0" />
   <Message key="Align documents:" value="对齐文档:" revision="0" />
   <Message key="Synchronize windows" value="同步窗口" revision="0" />
-  <Message key="Colors…" value="颜色..." revision="0" />
+  <Message key="Colors…" value="颜色…" revision="0" />
   <Message key="Swap" value="交换" revision="0" />
   <Message key="toolbar.Compare Files" value="比较文件" revision="0" />
   <Message key="clr.fc_colors" value="文件比较颜色" revision="0" />
@@ -49,7 +49,7 @@
     <Item value="重新比较文件" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCompareFiles">
-    <Item value="比较文件..." revision="0" />
+    <Item value="比较文件…" revision="0" />
     <Item value="比较文件" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
@@ -73,7 +73,7 @@
     <Item value="转到下一个块" revision="0" />
   </Enumeration>
   <Enumeration key="DiffColor">
-    <Item value="选择颜色..." revision="0" />
+    <Item value="选择颜色…" revision="0" />
     <Item value="选择用于高亮块的颜色" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCombine">

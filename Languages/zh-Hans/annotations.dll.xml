@@ -26,7 +26,7 @@
     <Item value="注释功能允许你向数据范围添加注释。" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAdd">
-    <Item value="添加注释..." revision="0" />
+    <Item value="添加注释…" revision="0" />
     <Item value="创建一个新的注释" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationRemove">
@@ -42,11 +42,11 @@
     <Item value="注释菜单" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateCursor">
-    <Item value="注释光标..." revision="0" />
+    <Item value="注释光标…" revision="0" />
     <Item value="在光标位置注释数据" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateSelection">
-    <Item value="注释选择..." revision="0" />
+    <Item value="注释选择…" revision="0" />
     <Item value="为当前选择添加注释" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">

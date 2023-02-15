@@ -38,7 +38,7 @@
   <Message key="InvalidColoringScheme" value="无效的颜色方案名称。" revision="0" />
   <Message key="OverwriteColoringScheme" value="指定的方案已存在。你想要覆盖它吗？" revision="0" />
   <Enumeration key="EditReplace">
-    <Item value="替换..." revision="0" />
+    <Item value="替换…" revision="0" />
     <Item value="替换文本" revision="0" />
   </Enumeration>
 </Language>

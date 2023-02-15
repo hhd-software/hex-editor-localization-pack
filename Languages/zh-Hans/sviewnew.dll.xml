@@ -52,15 +52,15 @@
   <Message key="Clear" value="清除" revision="0" />
   <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="提示：使用下面的占位符:\n   » %path% - 源文件路径\n   » %line% - 源文件中的行\n   » %pos% - 行中的位置" revision="0" />
   <Message key="Library" value="库" revision="0" />
-  <Message key="Add…" value="添加..." revision="0" />
-  <Message key="Edit…" value="编辑..." revision="0" />
+  <Message key="Add…" value="添加…" revision="0" />
+  <Message key="Edit…" value="编辑…" revision="0" />
   <Message key="Save Scheme" value="保存方案" revision="0" />
   <Message key="Name:" value="名称:" revision="0" />
   <Message key="Structure Viewer Page" value="结构查看器" revision="0" />
   <Message key="Include directories" value="包括目录" revision="0" />
   <Message key="File associations" value="文件关联" revision="0" />
-  <Message key="Configure external editor…" value="配置外部编辑器..." revision="0" />
-  <Message key="Regular expression:" value="正则表达式..." revision="0" />
+  <Message key="Configure external editor…" value="配置外部编辑器…" revision="0" />
+  <Message key="Regular expression:" value="正则表达式…" revision="0" />
   <Message key="Associated scheme:" value="关联的方案:" revision="0" />
   <Message key="Structure Coloring" value="结构颜色" revision="0" />
   <Message key="Apply" value="应用" revision="0" />
@@ -124,7 +124,7 @@
   <Message key="Settings" value="&amp;设置…" revision="0" />
   <Message key="Online Repository" value="联机存储库…" revision="0" />
   <Enumeration key="StructureViewerBind">
-    <Item value="绑定..." revision="0" />
+    <Item value="绑定…" revision="0" />
     <Item value="绑定新结构" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerClear">
@@ -140,7 +140,7 @@
     <Item value="以十进制或十六进制方式显示数据" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerSaveScheme">
-    <Item value="保存方案..." revision="0" />
+    <Item value="保存方案…" revision="0" />
     <Item value="保存当前的结构方案" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerDeleteScheme">
@@ -160,15 +160,15 @@
     <Item value="打开在线定义库存储库" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerOnlineRepository">
-    <Item value="在线资源库..." revision="0" />
+    <Item value="在线资源库…" revision="0" />
     <Item value="打开在线资源库，你可以从那里下载新结构定义文件。" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerAssociations">
-    <Item value="关联..." revision="0" />
+    <Item value="关联…" revision="0" />
     <Item value="显示关联" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerGlobalColoring">
-    <Item value="全局结构颜色方案..." revision="0" />
+    <Item value="全局结构颜色方案…" revision="0" />
     <Item value="定义全局颜色方案" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerTooltip">
@@ -300,11 +300,11 @@
     <Item value="解除绑定" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuBind">
-    <Item value="绑定..." revision="0" />
+    <Item value="绑定…" revision="0" />
     <Item value="绑定新结构" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuEdit">
-    <Item value="编辑..." revision="0" />
+    <Item value="编辑…" revision="0" />
     <Item value="编辑当前值" revision="0" />
   </Enumeration>
   <Enumeration key="InspectorColumns">
@@ -316,15 +316,15 @@
     <Item value="启用或禁用当前域高亮" revision="0" />
   </Enumeration>
   <Enumeration key="InspChooseColor">
-    <Item value="修改颜色..." revision="0" />
+    <Item value="修改颜色…" revision="0" />
     <Item value="更改数据检查器高亮的颜色" revision="0" />
   </Enumeration>
   <Enumeration key="AddDefinition">
-    <Item value="添加新类型(&amp;N)..." revision="0" />
+    <Item value="添加新类型(&amp;N)…" revision="0" />
     <Item value="添加新类型定义" revision="0" />
   </Enumeration>
   <Enumeration key="EditDefinition">
-    <Item value="编辑定义..." revision="0" />
+    <Item value="编辑定义…" revision="0" />
     <Item value="编辑当前类型定义" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveDefinition">
@@ -352,7 +352,7 @@
     <Item value="创建空的Kaitai定义文件" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item value="打开&amp;结构文件..." revision="0" />
+    <Item value="打开&amp;结构文件…" revision="0" />
     <Item value="打开结构定义文件" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">
@@ -360,7 +360,7 @@
     <Item value="在库中添加活动结构定义文件" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
-    <Item value="&amp;添加结构文件..." revision="1" />
+    <Item value="&amp;添加结构文件…" revision="1" />
     <Item value="将现有的结构定义文件追加到库中" revision="1" />
   </Enumeration>
   <Enumeration key="StructureSaveAll">
