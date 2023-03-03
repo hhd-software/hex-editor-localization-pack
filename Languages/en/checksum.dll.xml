@@ -162,6 +162,7 @@
 	<!-- Checksum Dialog -->
 	<Message key="Checksum Result" description="Checksum Result window title" revision="1"/>
 	<Message key="Copy" description="Button: Copy" revision="1"/>
+	<Message key="Copy as Big-Endian" description="Button: Copy as Big-Endian"/>
 	<Message key="Size:" description="Field: size" revision="1"/>
 	<Message key="Separator:" description="Field: separator" revision="1"/>
 
