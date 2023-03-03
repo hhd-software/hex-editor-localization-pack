@@ -353,7 +353,7 @@
 	<Message key="Decimal" description="Choice: Decimal"/>
 	<Message key="Symbols…" description="Button: Symbols…"/>
 	<Message key="Mode:" description="Field: Mode"/>
-	<Message key="Remember used settings" description="Checkbox: Remember instruction set and mode" value="Remember Instructution Set and Mode"/>
+	<Message key="Remember used settings" description="Checkbox: Remember instruction set and mode" value="Remember Instruction Set and Mode"/>
 
 	<!-- Find -->
 	<Message key="Find Window" description="Find window title" value="Find"/>
