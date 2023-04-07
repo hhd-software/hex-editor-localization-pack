@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="DisasmRun">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

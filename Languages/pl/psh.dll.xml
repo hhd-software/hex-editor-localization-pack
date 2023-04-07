@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="HistoryClearHistory">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryPurge">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistorySave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryLoad">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryCollapseSame">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryAutoCreateBranches">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryCreatePatch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringSaveColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringLoadColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringClearColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsOpenCalc">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsHistogramRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsTableMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsChangeColors">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryVisSelectColors">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsHideMaximum">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsDefine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryCollapseAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryExpandAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuBranches">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryVisMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryVisZoomIn">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryVisZoomOut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryVisFitToScreen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HistoryOpenVisualizer">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AttribSaveAttributes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AttribCancelAttributes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AttribResetAttributes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsPatternFromBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsSelectBlock">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsSelectColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AttributesSizes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileAttributes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessAttributes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AttribColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureBaseConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HexDecimalCombo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Colors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Range">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PurgeModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Operations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureHistoryBrowsing">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureHistoryPurge">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DescriptiveStatistics">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureStatistics">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Combo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RangeCombo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColorColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureColoring3">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureColoringUnlim">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringCheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringUncheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringEditRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColumnsStd">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColumnsPat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHistory">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuPatternColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuAttributes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHistogram">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureBranches">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

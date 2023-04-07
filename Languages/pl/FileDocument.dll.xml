@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ConflictOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

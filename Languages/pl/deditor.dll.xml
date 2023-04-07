@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="SizeSuffix">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

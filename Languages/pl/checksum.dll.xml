@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="Checksum result separators">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="FileOpenProcess">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

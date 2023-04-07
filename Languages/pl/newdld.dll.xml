@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="MenuDownloader">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

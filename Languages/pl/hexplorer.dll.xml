@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ExpPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

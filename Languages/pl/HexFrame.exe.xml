@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="Disk dialog columns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Disk capabilities">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Partition types">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GPTAttributes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ActionUpgrade">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ActionCompare">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ActionStartTrial">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ActionClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SaveNotificationMsg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OpenVolumeDiskWarning">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="New document task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Open volume task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Open disk task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="More tasks task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureOpenShared">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureOpenMemory">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureOpenVolume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureOpenDisk">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Endian">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowSwitching">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VolumeDialogColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VolumeDialogDriveType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VolumeCapabilities">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowsDlgColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCloseAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCutMerged">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopyMerged">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsUpgrade">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowSplit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowOpenContainingFolder">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowCopyFullPath">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpIndex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpSearch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpenVolume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpenDisk">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilePrint">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilePageSetup">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewToggleFullScreen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewQuickUITweak">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpenNonLocked">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditionList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpCheck">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

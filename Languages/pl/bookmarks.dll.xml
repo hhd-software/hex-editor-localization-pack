@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="BookNewGroup">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

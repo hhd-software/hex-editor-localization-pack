@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

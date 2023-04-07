@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="StructureViewerBind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="EditCopyAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="opening/saving">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

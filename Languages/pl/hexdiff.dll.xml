@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="DiffRecompare">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffReport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ReportColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterOperations">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterSchemeColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterReset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DiffFilterSwitch">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
