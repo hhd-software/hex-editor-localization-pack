@@ -11,7 +11,7 @@
   <Message key="OpenError" value="Nie można otworzyć pliku: &quot;{error}&quot;" revision="0" />
   <Message key="Wrong file size" value="Nieprawidłowy rozmiar pliku" revision="0" />
   <Message key="WrongAddress" value="Wprowadzony adres jest większy niż rozmiar dokumentu. Wprowadź poprawny adres." revision="0" />
-  <Message key="MaxSize" value="{jest za duży?}Hex Editor Neo nie może zdemontować plików, które są większe niż {maksymalny rozmiar}. {?it's too big} Demontaż zaczynając od {from} do {to} (size = {size}). Kontynuować?" revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo nie może zdemontować plików, które są większe niż {max size}. {?is too big} Demontaż zaczynając od {from} do {to} (size = {size}). Kontynuować?" revision="0" />
   <Message key="Locked" value="Ten dokument jest obecnie zablokowany. Powtórz operację później." revision="0" />
   <Message key="FormatString" value="Wszystkie wykonywalne|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Wykonywalne (*.exe)|*.exe|Dynamic-link libraries (*.dll)|*.dll|ActiveX libraries (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|Format wykonywalny i powiązany|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="Nie dostępne" revision="0" />
@@ -37,7 +37,7 @@
   <Message key="ShowVLines" value="Pokaż linie siatki" revision="0" />
   <Message key="ShowHardcodedOperands" value="Wyświetl operandy &quot;hardcoded&quot; " revision="0" />
   <Message key="DisasmError" value="Błąd otwarcia pliku" revision="0" />
-  <Message key="DisasmError2" value="Błąd rozmontowania pliku{ma błąd?}: {błąd}{?has error}" revision="1" />
+  <Message key="DisasmError2" value="Błąd rozmontowania pliku{has error?}: {błąd}{?has error}" revision="1" />
   <Message key="OpName" value="Kod dezasemblacyjny (rozmontowania)" revision="0" />
   <Message key="RefreshError" value="Błąd odświeżania demontażu." revision="0" />
   <Message key="RefreshErrorSize" value="Rozmiar pliku został zmieniony. Nie można odświeżyć demontażu." revision="0" />
@@ -335,11 +335,11 @@
   </Enumeration>
   <Enumeration key="FRTypeListDisasm">
     <Item value="Ciąg" revision="0" />
-    <Item value="Ciąg UNICODE " revision="0" />
+    <Item value="Ciąg UNICODE" revision="0" />
   </Enumeration>
   <Enumeration key="CLRErrorReasons">
     <Item value="Meta host nie został zainicjowany" revision="0" />
     <Item value="Nie można pobrać oryginalnej wersji kompilacji zestawu .NET Framework" revision="0" />
-    <Item value="Nie można załadować ogólnego języka runtime (CLR). .NET {wersja} jest wymagana do korzystania z tej funkcji. Zainstaluj brakujące komponenty i spróbuj ponownie." revision="0" />
+    <Item value="Nie można załadować ogólnego języka runtime (CLR). .NET {version} jest wymagana do korzystania z tej funkcji. Zainstaluj brakujące komponenty i spróbuj ponownie." revision="0" />
   </Enumeration>
 </Language>

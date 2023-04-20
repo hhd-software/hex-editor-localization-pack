@@ -42,7 +42,7 @@
   <Message key="CSFileNotFound" value="Pliku strukturalnego &quot;{filename}&quot; nie znaleziono." revision="0" />
   <Message key="CSRootNotFound" value="Nie znaleziono struktury głównej {name}." revision="0" />
   <Message key="CSBindVolumeError" value="Wystąpił błąd podczas analizowania woluminu. Schemat &quot;{name}”, błąd: {error}" revision="0" />
-  <Message key="UnknownPartition" value="Partycja [{indekx}]" revision="0" />
+  <Message key="UnknownPartition" value="Partycja [{index}]" revision="0" />
   <Message key="LDMParseErrorHeader" value="Nieprawidłowy nagłówek PrivHead." revision="0" />
   <Message key="LDMParseErrorTocHeader" value="Nieprawidłowy nagłówek TocBlock." revision="0" />
   <Message key="LDMParseErrorVmdbHeader" value="Nieprawidłowy nagłówek Vmdb." revision="0" />

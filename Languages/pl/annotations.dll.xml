@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Data Annotations" value="Adnotacje danych" revision="0" />
-  <Message key="SaveAnnotationsPrompt" value="Adnotacje danych zostały zmienione dla &quot;{pliku}&quot;. Czy chcesz zapisać zaktualizowane adnotacje?" revision="0" />
-  <Message key="MaxAnnotationsError" value="Osiągnąłeś limit liczby adnotacji ({liczba}), które możesz utworzyć dla tego dokumentu" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Adnotacje danych zostały zmienione dla &quot;{file}&quot;. Czy chcesz zapisać zaktualizowane adnotacje?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Osiągnąłeś limit liczby adnotacji ({number}), które możesz utworzyć dla tego dokumentu" revision="0" />
   <Message key="toolbar.Annotations" value="Adnotacje" revision="0" />
   <Message key="ExtSuffixFilter" value="Dozwolone symbole: 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="Zakres adnotacji" revision="0" />

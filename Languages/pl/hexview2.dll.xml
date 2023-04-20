@@ -61,11 +61,11 @@
   <Message key="SetSize" value="Hex: \t{size}\r\nDecimal: \t{size:2} ({size as text}){hasfree?}\r\n\r\nWolne miejsce na dysku z plikami: {free}\r\n{?hasfree}" revision="1" />
   <Message key="RegExpSyntaxError" value="Błąd składni wyrażenia regularnego: {error}." revision="1" />
   <Message key="OffsetPane" value="Offset: {offset} ({offset:2})" revision="1" />
-  <Message key="SizePane" value="Rozmiar: {size} ({size:2}): {rozmiar jako tekst}" revision="1" />
+  <Message key="SizePane" value="Rozmiar: {size} ({size:2}): {size as text}" revision="1" />
   <Message key="WrongSize" value="Wybrany algorytm wymaga, aby rozmiar danych był wielokrotnością {bytes} bajtów." revision="1" />
   <Message key="EncryptFailed" value="Szyfrowanie/deszyfrowanie nie powiodło się z kodem błędu {code}" revision="1" />
-  <Message key="PrintedBy" value="Wydrukowany przez HHD Software {produkt}" revision="1" />
-  <Message key="PageNumber" value="Strona {n} / {strony}" revision="1" />
+  <Message key="PrintedBy" value="Wydrukowany przez HHD Software {product}" revision="1" />
+  <Message key="PageNumber" value="Strona {n} / {pages}" revision="1" />
   <Message key="CopyError" value="Błąd podczas kopiowania wybranych regionów: {text} ({code})" revision="1" />
   <Message key="ExportError" value="Błąd tworzenia pliku: {text} ({code})" revision="1" />
   <Message key="Pattern:" value="Wzór:" revision="1" />

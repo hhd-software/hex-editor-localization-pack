@@ -2,12 +2,12 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="CapYes" value="Tak" revision="1" />
   <Message key="CapNo" value="Nie" revision="1" />
-  <Message key="DiskInfoFmt" value="Bajty na sektor: {bps}\tOgółem sektorów: {całkowita liczba sektorów}\r\nSektory na ścieżkę: {sektory na ścieżkę}\tCałkowita liczba ścieżek: {całkowita liczba ścieżek}\r\nŚcieżek na cylinder: {ścieżki na cylinder}\tOgółem cylindrów : {ogółem cylindrów}\r\nOgółem głowic: {całkowita liczba głowic}\r\n\r\nTabela partycji dysku:\r\nTyp partycji: {typ partycji}\r\nLiczba partycji: {npartycje}\r\n" revision="1" />
+  <Message key="DiskInfoFmt" value="Bajty na sektor: {bps}\tOgółem sektorów: {total sectors}\r\nSektory na ścieżkę: {sectors per track}\tCałkowita liczba ścieżek: {total tracks}\r\nŚcieżek na cylinder: {tracks per cylinder}\tOgółem cylindrów : {total cylinders}\r\nOgółem głowic: {total heads}\r\n\r\nTabela partycji dysku:\r\nTyp partycji: {partition type}\r\nLiczba partycji: {npartitions}\r\n" revision="1" />
   <Message key="PartitionInfoFmt" value="\r\nPartycja #{partition_n}:\r\n Początkowe przesunięcie: {offset}\r\n Długość: {length}\r\n" revision="1" />
   <Message key="Unused" value="Nie używane" revision="1" />
   <Message key="PartitionTypeMBRFmt" value="   Typ partycji: {type}\r\n Bootable: {bootable}\r\n Rozpoznano: {recognized}\r\n Ukryte sektory: {hidden_sectors}\r\n" revision="1" />
   <Message key="PartitionTypeGPTFmt" value="  Typ partycji: {type}\r\n Identyfikator partycji: {id}\r\n Atrybuty: {attr}\r\n Nazwa: {name}\r\n" revision="1" />
-  <Message key="Disk: {disk}" value="Dysk: {disk} ({numer seryjny})" revision="2" />
+  <Message key="Disk: {disk}" value="Dysk: {disk} ({serial number})" revision="2" />
   <Message key="Open Disk" value="Otwórz dysk" revision="1" />
   <Message key="Select a physical disk to open" value="Wybierz dysk fizyczny do otwarcia:" revision="1" />
   <Message key="Disk information" value="Informacje o dysku:" revision="1" />
@@ -56,7 +56,7 @@
   <Message key="New Document N" value="Nowy dokument {ordinal}" revision="1" />
   <Message key="AlreadyOpened" value="&quot;{path}&quot;: dokument jest już otwarty w edytorze.\r\n" revision="1" />
   <Message key="UnknownVolume" value="Nienazwany wolumin {ordinal}" revision="1" />
-  <Message key="MediaRemoved" value="Hex Editor Neo nie mógł uzyskać dostępu do następujących dokumentów i musiał je zamknąć. Być może utraciłeś wszystkie zmiany wprowadzone w tych dokumentach:\r\n{lista dokumentów}\r\n\r\nAby zapobiec utracie danych w przyszłości, nie wyjmuj nośników wymiennych bez uprzedniego zamknięcia dokumentów." revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo nie mógł uzyskać dostępu do następujących dokumentów i musiał je zamknąć. Być może utraciłeś wszystkie zmiany wprowadzone w tych dokumentach:\r\n{document list}\r\n\r\nAby zapobiec utracie danych w przyszłości, nie wyjmuj nośników wymiennych bez uprzedniego zamknięcia dokumentów." revision="1" />
   <Message key="Activate this window" value="Aktywuj to okno" revision="1" />
   <Message key="Settings" value="Ustawienia" revision="1" />
   <Message key="Search settings" value="Ustawienia wyszukiwania" revision="0" />
@@ -156,7 +156,7 @@
   <Message key="Windows Title" value="Okno" revision="1" />
   <Message key="Save" value="Zapisz" revision="1" />
   <Message key="Close Window(s)" value="Zamknij okno(a)" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[s:150:HHD Software {produkt}]]]]]]\n[[[i{edition}. Wersja {major}.{minor}.{revision}.{build}]]]\n{registered?}Zarejestrowany na [[[b{user}]] ({commercial?}[[hCommercial/Gov/Mil]]]{|commercial}[[hHome/Educational]]]\n[?commercial})\N{registered?}\n©2001 - {rok} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[hhttps://www.hhdsoftware.com]]" revision="5" />
+  <Message key="AboutInfo" description="About box information string" revision="5" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Wersja {major}.{minor}.{revision}.{build}]]]\n{registered?}Zarejestrowany na [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[[hhttps://www.hhdsoftware.com]]]"/>
   <Message key="AboutBoxDisclaimer" value="Ostrzeżenie: Ten program komputerowy jest chroniony przez prawo autorskie i traktaty międzynarodowe. Nieuprawnione powielanie lub rozpowszechnianie tego programu lub jego części może skutkować poważnymi sankcjami cywilnymi i karnymi i będzie ścigane w maksymalnym zakresie przewidzianym przez prawo." revision="1" />
   <Message key="About Hex Editor Neo" value="O {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Wybierz domyślny układ interfejsu użytkownika" revision="1" />
@@ -294,7 +294,7 @@
   <Message key="Available beta modules:" value="Dostępne moduły beta:" revision="0" />
   <Message key="There are no updates available." value="Brak dostępnych aktualizacji." revision="0" />
   <Message key="BetaInstalled" value="Konfiguracja komponentu została pomyślnie zaktualizowana. Musisz ponownie uruchomić Hex Editor Neo, aby zastosować zmiany." revision="1" />
-  <Message key="BetaDownloadConfirmation" value="{has new?}Następujące komponenty zostaną pobrane i zainstalowane:\r\n\n{nowe komponenty}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}Następujące komponent(y) zostanie odinstalowany:\r\n\n{usunięte komponenty}{?has deleted}\r\n\nCzy chcesz kontynuować?" revision="0" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}Następujące komponenty zostaną pobrane i zainstalowane:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}Następujące komponent(y) zostanie odinstalowany:\r\n\n{deleted components}{?has deleted}\r\n\nCzy chcesz kontynuować?" revision="0" />
   <Message key="BetaConflicts" value="Wybrane komponenty powodują konflikt z zainstalowanymi komponentami lub ze sobą. Aby kontynuować, należy usunąć następujące komponenty:\r\n\n{components}\r\n\nCzy chcesz je usunąć i kontynuować?" revision="0" />
   <Message key="BetaHeader" value="Wersja Beta" revision="0" />
   <Message key="BetaDownloadError" value="Podczas pobierania wybranych składników wystąpił błąd. Spróbuj ponownie później." revision="1" />
