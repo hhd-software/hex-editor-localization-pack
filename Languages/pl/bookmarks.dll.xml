@@ -49,7 +49,7 @@
     <Item value="Konwertowanie bieżącego wyboru do zakładek" revision="0" />
   </Enumeration>
   <Enumeration key="BookBookmarkToSelection">
-    <Item value="Zakładki do wyboru..." revision="0" />
+    <Item value="Zakładki do wyboru…" revision="0" />
     <Item value="Konwertuj bieżące zakładki wyboru" revision="0" />
   </Enumeration>
   <Enumeration key="BookLoad">

@@ -33,15 +33,15 @@
   <Message key="NoSnapshotting" value="Windows 7 nie obsługuje technologii tworzenia migawek procesów. Ta technologia jest obsługiwana w systemie operacyjnym Windows 8 lub nowszym." revision="0" />
   <Message key="DumpFileFilter" value="Pliki zrzutu|*.dmp|" revision="0" />
   <Enumeration key="FileOpenProcess">
-    <Item value="Otwórz P&amp;roces..." revision="1" />
+    <Item value="Otwórz P&amp;roces…" revision="1" />
     <Item value="Otwarta pamięć procesowa do odczytu i zapisu" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
-    <Item value="Otwórz P&amp;roces..." revision="0" />
+    <Item value="Otwórz P&amp;roces…" revision="0" />
     <Item value="Otwarta pamięć procesowa do odczytu i zapisu" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenSnapshot">
-    <Item value="Otwórz migawkę procesu..." revision="0" />
+    <Item value="Otwórz migawkę procesu…" revision="0" />
     <Item value="Utwórz migawkę procesu i otwórz jego pamięć" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAllProcesses">
@@ -109,7 +109,7 @@
     <Item value="Uruchom zewnętrzny debuger, aby debugować wybraną migawkę procesu lub uruchomiony proces" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessSaveDump">
-    <Item value="Zapisz zrzut procesu/migawki..." revision="0" />
+    <Item value="Zapisz zrzut procesu/migawki…" revision="0" />
     <Item value="Zapisz zrzut bieżącego stanu procesu lub wybranej migawki do pliku" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessKill">

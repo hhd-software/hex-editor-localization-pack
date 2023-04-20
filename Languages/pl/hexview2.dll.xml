@@ -23,8 +23,8 @@
   <Message key="Connect to" value="Połącz z" revision="1" />
   <Message key="ConnectToSuccess" value="Windows został pomyślnie podłączony." revision="1" />
   <Message key="ConnectToFailure" value="Wybrano nieprawidłowe okno. Nie można połączyć się z wybranym oknem." revision="1" />
-  <Message key="Copying Selection Regions…" value="Kopiowanie wybranych regionów..." revision="1" />
-  <Message key="Exporting Selection Regions…" value="Eksportowanie wybranych regionów..." revision="1" />
+  <Message key="Copying Selection Regions…" value="Kopiowanie wybranych regionów…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="Eksportowanie wybranych regionów…" revision="1" />
   <Message key="Open documentation section and continue" value="Otwórz sekcję dokumentacji i kontynuuj" revision="1" />
   <Message key="Just continue" value="Tylko kontynuuj" revision="1" />
   <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
@@ -153,7 +153,7 @@
   <Message key="New selection" value="Nowy wybór" revision="0" />
   <Message key="Add to current" value="Dodaj do bieżącego" revision="0" />
   <Message key="Subtract from current" value="Odejmij od bieżącego" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="Proszę czekać, aż bieżąca operacja zostanie wykonana..." revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="Proszę czekać, aż bieżąca operacja zostanie wykonana…" revision="0" />
   <Message key="0 % done" value="0% zrobione" revision="0" />
   <Message key="Elapsed time: " value="Upłynął czas:" revision="0" />
   <Message key="Remaining time:" value="Pozostały czas:" revision="0" />
@@ -254,7 +254,7 @@
     <Item value="Wybierz zmodyfikowane dane" revision="1" />
   </Enumeration>
   <Enumeration key="SelectRange">
-    <Item value="Wybierz &amp;Zakres..." revision="1" />
+    <Item value="Wybierz &amp;Zakres…" revision="1" />
     <Item value="Określ zakres danych i połącz go z bieżącym wyborem" revision="1" />
   </Enumeration>
   <Enumeration key="SelectLoad">
@@ -274,7 +274,7 @@
     <Item value="Włącz lub wyłącz tryb wstawiania" revision="1" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item value="&amp;Znajdź..." revision="1" />
+    <Item value="&amp;Znajdź…" revision="1" />
     <Item value="Znajdź wzór lub wszystkie wystąpienia wzoru" revision="1" />
   </Enumeration>
   <Enumeration key="EditFindNext">
@@ -286,11 +286,11 @@
     <Item value="Znajdź poprzednie wystąpienie wzorca" revision="1" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item value="&amp;Zastąp..." revision="1" />
+    <Item value="&amp;Zastąp…" revision="1" />
     <Item value="Zastąp wzór innym wzorem" revision="1" />
   </Enumeration>
   <Enumeration key="EditFill">
-    <Item value="W&amp;ypełnij..." revision="1" />
+    <Item value="W&amp;ypełnij…" revision="1" />
     <Item value="Wypełnij wybór bajtem lub wzorem" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsert">
@@ -306,7 +306,7 @@
     <Item value="Zmień rozmiar pliku" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertFile">
-    <Item value="Wstaw &amp;plik..." revision="1" />
+    <Item value="Wstaw &amp;plik…" revision="1" />
     <Item value="Wstaw zawartość pliku dysku do bieżącej pozycji. Umieszcza lub wstawia dane, w zależności od bieżącego trybu nadpisywania" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
@@ -394,7 +394,7 @@
     <Item value="32 kolumny" revision="1" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item value="&amp;Niestandardowe..." revision="1" />
+    <Item value="&amp;Niestandardowe…" revision="1" />
     <Item value="Określ liczbę kolumn" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
@@ -410,7 +410,7 @@
     <Item value="Zmień kolejność bajtów" revision="0" />
   </Enumeration>
   <Enumeration key="EditEncrypt">
-    <Item value="Szyf&amp;ruj..." revision="1" />
+    <Item value="Szyf&amp;ruj…" revision="1" />
     <Item value="Szyfruj dane dokumentu" revision="1" />
   </Enumeration>
   <Enumeration key="EditDecrypt">
@@ -430,7 +430,7 @@
     <Item value="Włącz lub wyłącz tryb pojedynczego wyboru" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseNOT">
-    <Item value="Bitwise &amp;NOT..." revision="1" />
+    <Item value="Bitwise &amp;NOT…" revision="1" />
     <Item value="Wykonuj operację bitową NOT" revision="1" />
   </Enumeration>
   <Enumeration key="OperationBitwiseOR">
@@ -446,23 +446,23 @@
     <Item value="Wykonaj bitową operację XOR" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticNegation">
-    <Item value="N&amp;egacja..." revision="1" />
+    <Item value="N&amp;egacja…" revision="1" />
     <Item value="Wykonaj arytmetyczną operację negacji" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticAddition">
-    <Item value="D&amp;odatek..." revision="1" />
+    <Item value="D&amp;odatek…" revision="1" />
     <Item value="Wykonaj arytmetyczną operację dodawania" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSubtraction">
-    <Item value="&amp;Odejmowanie..." revision="1" />
+    <Item value="&amp;Odejmowanie…" revision="1" />
     <Item value="Wykonaj arytmetyczną operację odejmowania" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticMultiplication">
-    <Item value="&amp;Mnożenie..." revision="1" />
+    <Item value="&amp;Mnożenie…" revision="1" />
     <Item value="Wykonaj arytmetyczną operację mnożenia" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticDivision">
-    <Item value="D&amp;zielenie..." revision="1" />
+    <Item value="D&amp;zielenie…" revision="1" />
     <Item value="Wykonaj operację arytmetycznego dzielenia" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticRemainder">
@@ -470,11 +470,11 @@
     <Item value="Wykonaj operację na arytmetycznej reszcie" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMinimum">
-    <Item value="Ustaw M&amp;inimum..." revision="1" />
+    <Item value="Ustaw M&amp;inimum…" revision="1" />
     <Item value="Wykonaj operację ustawienia wartości minimalnej" revision="1" />
   </Enumeration>
   <Enumeration key="OperationArithmeticSetMaximum">
-    <Item value="Ustaw M&amp;aksimum..." revision="1" />
+    <Item value="Ustaw M&amp;aksimum…" revision="1" />
     <Item value="Wykonać operację ustawiania wartości maksymalnej" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftLogicalLeft">
@@ -490,7 +490,7 @@
     <Item value="Wykonaj arytmetyczną operację przesunięcia w lewo" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftArithmeticRight">
-    <Item value="Arytmi&amp;czne i przesunięcie w prawo..." revision="1" />
+    <Item value="Arytmi&amp;czne i przesunięcie w prawo…" revision="1" />
     <Item value="Wykonaj arytmetyczną operację przesunięcia w prawo" revision="1" />
   </Enumeration>
   <Enumeration key="OperationShiftRotateLeft">
@@ -518,7 +518,7 @@
     <Item value="Wykonuje operację odwrócenia bitu" revision="1" />
   </Enumeration>
   <Enumeration key="OperationReverseBytes">
-    <Item value="Zamiana bajtów..." revision="1" />
+    <Item value="Zamiana bajtów…" revision="1" />
     <Item value="Wykonaj operację zamiany bajtów" revision="1" />
   </Enumeration>
   <Enumeration key="ViewRefresh">

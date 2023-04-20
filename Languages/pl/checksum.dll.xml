@@ -113,7 +113,7 @@
     <Item value="Skopiuj wszystkie wyniki do schowka" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumExport">
-    <Item value="Eksport..." revision="1" />
+    <Item value="Eksport…" revision="1" />
     <Item value="Eksportuj wybrane wyniki do pliku tekstowego" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumConfigure">

@@ -46,7 +46,7 @@
     <Item value="Adnotuj dane w pozycji kursora" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationAnnotateSelection">
-    <Item value="Adnotacje wyboru..." revision="0" />
+    <Item value="Adnotacje wyboru…" revision="0" />
     <Item value="Dodaj adnotację do bieżącego wyboru" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">

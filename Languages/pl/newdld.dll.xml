@@ -43,7 +43,7 @@
   </Enumeration>
   <Enumeration key="DownloadStatus">
     <Item value="W kolejce" revision="1" />
-    <Item value="Łączenie..." revision="1" />
+    <Item value="Łączenie…" revision="1" />
     <Item value="Przesyłanie…" revision="1" />
     <Item value="Zawieszenie" revision="1" />
     <Item value="Błąd" revision="1" />

@@ -52,8 +52,8 @@
   <Message key="Clear" value="Czyść" revision="0" />
   <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="Rada: użyj następujących symboli zastępczych:\n » %path% - ścieżka do pliku źródłowego\n » %line% - linia w pliku źródłowym\n » %pos% - pozycja w linii" revision="0" />
   <Message key="Library" value="Biblioteka struktur" revision="0" />
-  <Message key="Add…" value="Dodaj..." revision="0" />
-  <Message key="Edit…" value="Edytuj..." revision="0" />
+  <Message key="Add…" value="Dodaj…" revision="0" />
+  <Message key="Edit…" value="Edytuj…" revision="0" />
   <Message key="Save Scheme" value="Zapisz schemat" revision="0" />
   <Message key="Name:" value="Nazwa:" revision="0" />
   <Message key="Structure Viewer Page" value="Przeglądarka struktury" revision="0" />
@@ -122,9 +122,9 @@
   <Message key="DefLibrary Title Text" value="Aktualizacja biblioteki definicji Przeglądarki struktury została znaleziona online. Możesz wyświetlić listę zmian, które nastąpiły od aktualnej wersji. Naciśnij przycisk Aktualizuj teraz, aby pobrać aktualizację." revision="0" />
   <Message key="&amp;Update Now" value="&amp;Aktualizuj teraz" revision="0" />
   <Message key="Settings" value="&amp;Ustawienia…" revision="0" />
-  <Message key="Online Repository" value="Repozytorium online..." revision="0" />
+  <Message key="Online Repository" value="Repozytorium online…" revision="0" />
   <Enumeration key="StructureViewerBind">
-    <Item value="Powiąż..." revision="0" />
+    <Item value="Powiąż…" revision="0" />
     <Item value="Powiąż nową strukturę" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerClear">
@@ -164,11 +164,11 @@
     <Item value="Otwórz repozytorium on-line, z którego można pobrać nowe pliki definicji konstrukcji." revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerAssociations">
-    <Item value="Skojarzenia..." revision="0" />
+    <Item value="Skojarzenia…" revision="0" />
     <Item value="Pokaż skojarzenia" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerGlobalColoring">
-    <Item value="Globalne schematy kolorowania struktur..." revision="0" />
+    <Item value="Globalne schematy kolorowania struktur…" revision="0" />
     <Item value="Zdefiniuj globalne schematy kolorowania" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerTooltip">
@@ -300,11 +300,11 @@
     <Item value="Rozwiąż" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuBind">
-    <Item value="Wiąż..." revision="0" />
+    <Item value="Wiąż…" revision="0" />
     <Item value="Powiąż nową strukturę" revision="0" />
   </Enumeration>
   <Enumeration key="SViewMenuEdit">
-    <Item value="Edytuj..." revision="0" />
+    <Item value="Edytuj…" revision="0" />
     <Item value="Edytuj bieżącą wartość" revision="0" />
   </Enumeration>
   <Enumeration key="InspectorColumns">
@@ -352,7 +352,7 @@
     <Item value="Tworzenie pustego pliku definicji Kaitai" revision="0" />
   </Enumeration>
   <Enumeration key="StructureOpenDefinitionFile">
-    <Item value="Otwórz plik &amp;struktury..." revision="0" />
+    <Item value="Otwórz plik &amp;struktury…" revision="0" />
     <Item value="Otwórz plik definicji struktury" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAddCurrent">

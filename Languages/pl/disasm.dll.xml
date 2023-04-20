@@ -74,7 +74,7 @@
   <Message key="Synchronize selection with Hex View" value="Synchronizuj wybór z Widokiem Hex" revision="0" />
   <Message key="Hexadecimal" value="Szesnastkowy" revision="0" />
   <Message key="Decimal" value="Dziesiętny" revision="0" />
-  <Message key="Symbols…" value="Symbole..." revision="0" />
+  <Message key="Symbols…" value="Symbole…" revision="0" />
   <Message key="Mode:" value="Tryb:" revision="0" />
   <Message key="Remember used settings" value="Zapamiętaj zestaw instrukcji i tryb" revision="0" />
   <Message key="Find Window" value="Znajdź" revision="0" />
@@ -99,7 +99,7 @@
   <Message key="Name:" value="Nazwa:" revision="0" />
   <Message key="Search" value="Szukaj" revision="0" />
   <Message key="Jump" value="Przeskocz" revision="0" />
-  <Message key="Custom" value="Niestandardowe..." revision="0" />
+  <Message key="Custom" value="Niestandardowe…" revision="0" />
   <Message key="Custom Section" value="Sekcja niestandardowa" revision="0" />
   <Message key="Physical address" value="Adres fizyczny:" revision="0" />
   <Message key="Virtual size" value="Rozmiar wirtualny:" revision="0" />
@@ -121,11 +121,11 @@
     <Item value="Rozmontowanie pliku wykonywalnego" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmExport">
-    <Item value="Eksport..." revision="0" />
+    <Item value="Eksport…" revision="0" />
     <Item value="Eksport demontażu" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmDetails">
-    <Item value="Szczegóły..." revision="0" />
+    <Item value="Szczegóły…" revision="0" />
     <Item value="Wyświetl szczegóły instrukcji" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmSelectColumns">
@@ -133,7 +133,7 @@
     <Item value="Wybierz kolumny demontażu" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmShowSymbols">
-    <Item value="Symbole..." revision="0" />
+    <Item value="Symbole…" revision="0" />
     <Item value="Wyświetl symbole dla tego dokumentu. Przejdź do wybranego symbolu." revision="0" />
   </Enumeration>
   <Enumeration key="DisasmRefresh">

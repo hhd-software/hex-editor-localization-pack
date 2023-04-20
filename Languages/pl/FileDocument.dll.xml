@@ -39,8 +39,8 @@
   <Message key="Regular Expressions" value="Wyrażenia regularne" revision="1" />
   <Message key="Regular Expressions Page" value="Wyrażenia regularne" revision="1" />
   <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Na tej stronie możesz tworzyć klasy wyrażeń regularnych wielokrotnego użytku. Każda klasa powinna być prawidłowym wyrażeniem regularnym i może odwoływać się do innych klas." revision="1" />
-  <Message key="Add…" value="&amp;Dodaj..." revision="1" />
-  <Message key="Edit…" value="&amp;Edytuj..." revision="1" />
+  <Message key="Add…" value="&amp;Dodaj…" revision="1" />
+  <Message key="Edit…" value="&amp;Edytuj…" revision="1" />
   <Message key="Delete All" value="U&amp;suń wszystko" revision="1" />
   <Message key="Global regular expression options:" value="Globalne opcje wyrażeń regularnych:" revision="1" />
   <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Kropka) metaznak nie pasuje do znaku null ('\\0')" revision="1" />

@@ -48,19 +48,19 @@
     <Item value="Przekonwertuj zaznaczenie na jeden z obsługiwanych formatów i umieść je w Schowku" revision="1" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item value="E&amp;ksport..." revision="1" />
+    <Item value="E&amp;ksport…" revision="1" />
     <Item value="Wybór eksportu" revision="1" />
   </Enumeration>
   <Enumeration key="EditPasteAs">
-    <Item value="Wklej j&amp;ako..." revision="1" />
+    <Item value="Wklej j&amp;ako…" revision="1" />
     <Item value="Przeanalizuj dane ze Schowka i wklej je do dokumentu" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertHex">
-    <Item value="Wstaw &amp;Hex..." revision="1" />
+    <Item value="Wstaw &amp;Hex…" revision="1" />
     <Item value="Wstaw plik binarny zakodowany w ASCII" revision="1" />
   </Enumeration>
   <Enumeration key="FileOpenHex">
-    <Item value="Otwórz &amp;Hex..." revision="1" />
+    <Item value="Otwórz &amp;Hex…" revision="1" />
     <Item value="Otwórz plik binarny zakodowany w ASCII" revision="1" />
   </Enumeration>
   <Enumeration key="FileNewIntelHex">

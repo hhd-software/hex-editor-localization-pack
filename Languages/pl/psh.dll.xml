@@ -122,15 +122,15 @@
     <Item value="Czyść historię" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryPurge">
-    <Item value="Oczyszczenie..." revision="0" />
+    <Item value="Oczyszczenie…" revision="0" />
     <Item value="Oczyszczanie historii" revision="0" />
   </Enumeration>
   <Enumeration key="HistorySave">
-    <Item value="Zapisz historię operacji..." revision="0" />
+    <Item value="Zapisz historię operacji…" revision="0" />
     <Item value="Zapisywanie historii operacji do pliku" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryLoad">
-    <Item value="Załaduj historię operacji..." revision="0" />
+    <Item value="Załaduj historię operacji…" revision="0" />
     <Item value="Załaduj historię operacji z pliku" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCollapseSame">
@@ -190,7 +190,7 @@
     <Item value="Nie pokazuj wartości szczytowej na wykresie" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsDefine">
-    <Item value="Zdefiniuj..." revision="1" />
+    <Item value="Zdefiniuj…" revision="1" />
     <Item value="Zdefiniuj wzór" revision="1" />
   </Enumeration>
   <Enumeration key="HistoryCollapseAll">
@@ -222,7 +222,7 @@
     <Item value="Dopasuj historię do ekranu" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryOpenVisualizer">
-    <Item value="Pełne drzewo historii operacji..." revision="0" />
+    <Item value="Pełne drzewo historii operacji…" revision="0" />
     <Item value="Wyświetlanie pełnego drzewa historii operacji" revision="0" />
   </Enumeration>
   <Enumeration key="AttribSaveAttributes">
@@ -246,7 +246,7 @@
     <Item value="Wybierz ten blok w dokumencie" revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsSelectColumns">
-    <Item value="Wybierz kolumny..." revision="0" />
+    <Item value="Wybierz kolumny…" revision="0" />
     <Item value="Wybierz widoczne kolumny" revision="0" />
   </Enumeration>
   <Enumeration key="AttributesSizes">

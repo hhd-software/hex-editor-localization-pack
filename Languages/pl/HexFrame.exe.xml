@@ -17,7 +17,7 @@
   <Message key="General Page" value="Ogólny" revision="1" />
   <Message key="Using this product you are saving environment!" value="Używając tego produktu oszczędzasz środowisko!" revision="1" />
   <Message key="EcoMessage" value="\r\nPodstawowe algorytmy Hex Editor Neo są wysoce zoptymalizowane i starannie dostrojone, aby oszczędzać Twój czas pracy i zużywać znacznie mniej energii i zasobów.\r\n\r\nDbamy o przyszłość!" revision="1" />
-  <Message key="FeatureNotAvailableTitle" value="Funkcja niedostępna (zamknięcie za {seconds} sekund...)" revision="1" />
+  <Message key="FeatureNotAvailableTitle" value="Funkcja niedostępna (zamknięcie za {seconds} sekund…)" revision="1" />
   <Message key="FeatureNotAvailable" value="Funkcja {feature}, której próbujesz użyć, jest niedostępna w bieżącym wydaniu i jest częścią wydania {edition}. Wybierz działanie poniżej, aby kontynuować:" revision="1" />
   <Message key="FeatureExpired" value="Funkcja {feature}, której próbujesz użyć, wygasła i jest częścią wersji {edition}. Wybierz działanie poniżej, aby kontynuować:" revision="1" />
   <Message key="EditionStandard" value="Standard" revision="1" />
@@ -152,7 +152,7 @@
   <Message key="Custom colors:" value="Kolory niestandardowe:" revision="1" />
   <Message key="Default colors:" value="Domyślne kolory:" revision="1" />
   <Message key="Alpha" value="Alpha" revision="1" />
-  <Message key="Custom…" value="Niestandardowe..." revision="1" />
+  <Message key="Custom…" value="Niestandardowe…" revision="1" />
   <Message key="Windows Title" value="Okno" revision="1" />
   <Message key="Save" value="Zapisz" revision="1" />
   <Message key="Close Window(s)" value="Zamknij okno(a)" revision="1" />
@@ -180,27 +180,27 @@
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo Okres Trial" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo działa w trybie Trial. Wszystkie funkcje są aktywne." revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="Po zakończeniu okresu próbnego Hex Editor Neo nadal będzie działał, chociaż dostępne będą tylko funkcje wersji bezpłatnej." revision="1" />
-  <Message key="Upgrade Now…" value="Uaktualnij teraz..." revision="1" />
-  <Message key="Compare Editions…" value="Porównaj wersje..." revision="1" />
+  <Message key="Upgrade Now…" value="Uaktualnij teraz…" revision="1" />
+  <Message key="Compare Editions…" value="Porównaj wersje…" revision="1" />
   <Message key="Continue Trial" value="Kontynuuj wersję próbną" revision="1" />
   <Message key="License Management and Upgrading" value="Zarządzanie licencjami i aktualizacja" revision="1" />
   <Message key="Installed license" value="Zainstalowana licencja:" revision="1" />
   <Message key="Start Trial now!" value="Rozpocznij wersję próbną teraz!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Wybierz wersję, do której chcesz uaktualnić. Użyj opcji &quot;Więcej informacji...&quot; link do uzyskania dodatkowych informacji o wybranej edycji i &quot;Porównaj edycję...&quot; link do uzyskania tabely porównawczej wersji." revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Wybierz wersję, do której chcesz uaktualnić. Użyj opcji &quot;Więcej informacji…&quot; link do uzyskania dodatkowych informacji o wybranej edycji i &quot;Porównaj edycję...&quot; link do uzyskania tabely porównawczej wersji." revision="1" />
   <Message key="Standard Edition:" value="Edycja Standardowa:" revision="1" />
-  <Message key="More Info…" value="Więcej informacji..." revision="1" />
+  <Message key="More Info…" value="Więcej informacji…" revision="1" />
   <Message key="Upgrade…" value="Aktualizacja…" revision="1" />
   <Message key="Professional Edition:" value="Profesjonalna Edycja:" revision="1" />
   <Message key="Ultimate Edition:" value="Edycja Ultimate:" revision="1" />
-  <Message key="Compare editions…" value="Porównaj wersje..." revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Jeśli otrzymałeś już plik licencyjny, kliknij przycisk &quot;Zainstaluj licencję...&quot;." revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Jeśli chcesz odnowić licencję, kliknij &quot;Pobierz licencję...&quot;. (Wymaga loginu i hasła)." revision="1" />
-  <Message key="Install License…" value="Zainstaluj licencję..." revision="1" />
-  <Message key="Download License…" value="Pobierz licencję..." revision="1" />
+  <Message key="Compare editions…" value="Porównaj wersje…" revision="1" />
+  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Jeśli otrzymałeś już plik licencyjny, kliknij przycisk &quot;Zainstaluj licencję…&quot;." revision="1" />
+  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Jeśli chcesz odnowić licencję, kliknij &quot;Pobierz licencję…&quot;. (Wymaga loginu i hasła)." revision="1" />
+  <Message key="Install License…" value="Zainstaluj licencję…" revision="1" />
+  <Message key="Download License…" value="Pobierz licencję…" revision="1" />
   <Message key="Remove License" value="Usuń licencję" revision="1" />
   <Message key="Open Volume" value="Otwórz wolumin" revision="1" />
   <Message key="Select a volume to open" value="Wybierz wolumin do otwarcia:" revision="1" />
-  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Proszę czekać, aż Hex Editor Neo skanuje woluminy systemowe..." revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Proszę czekać, aż Hex Editor Neo skanuje woluminy systemowe…" revision="1" />
   <Message key="File system capabilities" value="Możliwości systemu plików:" revision="1" />
   <Message key="Space" value="Przestrzeń:" revision="1" />
   <Message key="ProgressPleaseWait" value="Proszę czekać…" revision="1" />
@@ -228,7 +228,7 @@
   <Message key="Changing product language requires restart of Hex Editor Neo." value="Zmiana języka produktu wymaga ponownego uruchomienia Hex Editor Neo." revision="0" />
   <Message key="Languages online" value="Języki online" revision="0" />
   <Message key="Refresh" value="&amp;Odśwież" revision="0" />
-  <Message key="ButtonRefreshing" value="Odświeżanie..." revision="0" />
+  <Message key="ButtonRefreshing" value="Odświeżanie…" revision="0" />
   <Message key="Download" value="&amp;Pobierz" revision="0" />
   <Message key="Language pack" value="Pakiet językowy: {native name}" revision="0" />
   <Message key="DiscardWarning" value="Jeśli odrzucisz wybrane aktualizacje, Hex Editor Neo nie będzie Cię już o nich powiadamiać. Nadal będziesz otrzymywać powiadomienia o przyszłych aktualizacjach.\r\n\r\nCzy nadal chcesz odrzucić wybrane aktualizacje?" revision="0" />
@@ -444,7 +444,7 @@
     <Item value="Tylko do odczytu" revision="1" />
   </Enumeration>
   <Enumeration key="ActionUpgrade">
-    <Item value="Uaktualnij teraz..." revision="1" />
+    <Item value="Uaktualnij teraz…" revision="1" />
     <Item value="Uaktualnij Hex Editor Neo do uzyskania dostępu do tej funkcji." revision="1" />
   </Enumeration>
   <Enumeration key="ActionCompare">
@@ -480,7 +480,7 @@
     <Item value="Otwórz binarną reprezentację dysku fizycznego" revision="1" />
   </Enumeration>
   <Enumeration key="More tasks task">
-    <Item value="Więcej zadań..." revision="1" />
+    <Item value="Więcej zadań…" revision="1" />
     <Item value="Konfigurowanie listy zadań" revision="1" />
   </Enumeration>
   <Enumeration key="MenuFile">
@@ -764,7 +764,7 @@
     <Item value="Wyświetl okienko wyszukiwania plików pomocy" revision="1" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item value="&amp;Opinia..." revision="1" />
+    <Item value="&amp;Opinia…" revision="1" />
     <Item value="Wyślij opinię o użytkowaniu produktu" revision="1" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
@@ -792,7 +792,7 @@
     <Item value="Zapisz wszystkie zmodyfikowane dokumenty" revision="1" />
   </Enumeration>
   <Enumeration key="FilePrint">
-    <Item value="&amp;Drukuj..." revision="1" />
+    <Item value="&amp;Drukuj…" revision="1" />
     <Item value="Wydrukuj bieżący dokument" revision="1" />
   </Enumeration>
   <Enumeration key="FilePageSetup">
@@ -837,7 +837,7 @@
     <Item value="Edycja Ultimate" revision="2" />
   </Enumeration>
   <Enumeration key="HelpCheck">
-    <Item value="Sprawdź aktualizacje..." revision="1" />
+    <Item value="Sprawdź aktualizacje…" revision="1" />
     <Item value="Sprawdź, czy dostępna jest nowsza wersja produktu lub jego komponentów" revision="1" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">

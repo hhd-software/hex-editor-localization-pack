@@ -76,7 +76,7 @@
     <Item value="Skopiuj zawartość pliku lub katalogu do wybranego miejsca docelowego" revision="0" />
   </Enumeration>
   <Enumeration key="CopyVolume">
-    <Item value="Kopiuj &amp;wolumen..." revision="0" />
+    <Item value="Kopiuj &amp;wolumen…" revision="0" />
     <Item value="Skopiuj całą zawartość woluminu (pliki i katalogi) do wybranego miejsca docelowego" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAllFileData">

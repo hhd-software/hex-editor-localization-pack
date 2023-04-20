@@ -72,7 +72,7 @@
     <Item value="Uruchomienie funkcji &quot;Zamień w plikach&quot; w tym trybie z wyłączoną opcją &quot;Zawsze twórz kopie zapasowe&quot; może prowadzić do utraty danych, ponieważ podczas wymiany danych nie są tworzone kopie zapasowe. Zaleca się włączenie opcji &quot;Zawsze twórz kopie zapasowe&quot;.\r\n\r\nWybierz akcję poniżej:" revision="1" />
   </Enumeration>
   <Enumeration key="EditFindInFiles">
-    <Item value="Znaj&amp;dź w plikach..." revision="0" />
+    <Item value="Znaj&amp;dź w plikach…" revision="0" />
     <Item value="Znajdź (i opcjonalnie zastąp) wzorzec w kilku plikach." revision="0" />
   </Enumeration>
   <Enumeration key="EditFindInFilesStop">
@@ -92,7 +92,7 @@
     <Item value="Przełączanie trybu tła (zmniejszenie zużycia zasobów systemowych)" revision="0" />
   </Enumeration>
   <Enumeration key="FindInFilesExport">
-    <Item value="Wyniki eksportu..." revision="0" />
+    <Item value="Wyniki eksportu…" revision="0" />
     <Item value="Eksportowanie listy znalezionych plików" revision="0" />
   </Enumeration>
 </Language>

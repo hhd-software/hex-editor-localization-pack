@@ -36,7 +36,7 @@
   <Message key="Include sub-folders" value="Uwzględnij podfoldery" revision="0" />
   <Message key="toolbar.NTFS Streams" value="Strumienie NTFS" revision="0" />
   <Enumeration key="StreamCreate">
-    <Item value="&amp;Utwórz strumień..." revision="0" />
+    <Item value="&amp;Utwórz strumień…" revision="0" />
     <Item value="Tworzenie nowego strumienia plików" revision="0" />
   </Enumeration>
   <Enumeration key="StreamOpen">

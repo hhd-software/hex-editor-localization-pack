@@ -38,7 +38,7 @@
   <Message key="InvalidColoringScheme" value="Nieprawidłowa nazwa schematu kolorów." revision="0" />
   <Message key="OverwriteColoringScheme" value="Istnieje określony schemat. Czy chcesz to zastąpić?" revision="0" />
   <Enumeration key="EditReplace">
-    <Item value="Zastąp..." revision="0" />
+    <Item value="Zastąp…" revision="0" />
     <Item value="Zastąp tekst" revision="0" />
   </Enumeration>
 </Language>
