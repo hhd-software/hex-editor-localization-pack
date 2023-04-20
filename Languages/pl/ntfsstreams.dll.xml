@@ -1,73 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="Aplikacji nie można zamknąć, dopóki bieżąca operacja strumienia nie zostanie zakończona lub anulowana." revision="0" />
+  <Message key="NTFS Streams" value="Strumienie NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Otwórz strumień po utworzeniu" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Nieprawidłowa składnia folderu lub maski." revision="0" />
+  <Message key="Invalid folder list syntax." value="Nieprawidłowa składnia listy folderów." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Wzorzec wykluczenia jest nieprawidłowym wyrażeniem regularnym." revision="0" />
+  <Message key="InvalidStreamName" value="Nieprawidłowa nazwa strumienia. Nazwa nie może zawierać następujących znaków: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="S&amp;trumienie NTFS" revision="0" />
+  <Message key="CreateError" value="Błąd tworzenia strumienia: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Podczas tworzenia strumienia wystąpił następujący błąd:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="Operacji nie można cofnąć. Czy na pewno chcesz kontynuować usuwanie wybranych strumieni?" revision="0" />
+  <Message key="DeleteError" value="Błąd podczas usuwania strumienia: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="Podczas usuwania strumienia wystąpił następujący błąd:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="Podczas otwierania strumieni wystąpiły następujące błędy:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Ten strumień jest obecnie otwarty w edytorze. Czy chcesz go zamknąć, aby wykonać żądaną operację?" revision="0" />
+  <Message key="RenameError" value="Błąd zmiany nazwy strumienia: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Podczas zmiany nazwy strumienia wystąpił następujący błąd:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Wyszukiwanie zakończone.{|finished}Wyszukiwanie strumieni…{?finished} Znaleziono {found} strumieni (zaznaczono {files} plików w {folders} folderach)." revision="0" />
+  <Message key="StreamSize" value="Razem: {size}" revision="1" />
+  <Message key="RenameOperation" value="Zmiana nazwy strumienia" revision="0" />
+  <Message key="Find Streams Folder List" value="Znajdź listę folderów strumieni" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Wprowadź ścieżkę do folderu lub naciśnij przycisk przeglądania:" revision="0" />
+  <Message key="Folder list:" value="Lista folderów:" revision="0" />
+  <Message key="Move &amp;Up" value="Przenieś w górę" revision="0" />
+  <Message key="Move &amp;Down" value="Przenieś na dół" revision="0" />
+  <Message key="File Stream Name" value="Nazwa strumienia plików" revision="0" />
+  <Message key="Enter the stream name:" value="Wpisz nazwę strumienia:" revision="0" />
+  <Message key="Find Streams" value="Znajdź strumienie" revision="0" />
+  <Message key="Search in:" value="Szukaj w:" revision="0" />
+  <Message key="File types:" value="Typy plików:" revision="0" />
+  <Message key="Larger than:" value="Większe niż:" revision="0" />
+  <Message key="Exclude:" value="Wyklucz:" revision="0" />
+  <Message key="(regular expression)" value="(wyrażenie regularne)" revision="0" />
+  <Message key="Include sub-folders" value="Uwzględnij podfoldery" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Strumienie NTFS" revision="0" />
   <Enumeration key="StreamCreate">
-    <Item />
-    <Item />
+    <Item value="&amp;Utwórz strumień..." revision="0" />
+    <Item value="Tworzenie nowego strumienia plików" revision="0" />
   </Enumeration>
   <Enumeration key="StreamOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Otwórz strumienie" revision="0" />
+    <Item value="Otwórz strumienie plików w edytorze" revision="0" />
   </Enumeration>
   <Enumeration key="StreamDelete">
-    <Item />
-    <Item />
+    <Item value="&amp;Usuń strumienie…" revision="0" />
+    <Item value="Usuń strumienie plików" revision="0" />
   </Enumeration>
   <Enumeration key="StreamRename">
-    <Item />
-    <Item />
+    <Item value="&amp;Zmień nazwę strumienia…" revision="0" />
+    <Item value="Zmień nazwę strumienia plików" revision="0" />
   </Enumeration>
   <Enumeration key="StreamCancel">
-    <Item />
-    <Item />
+    <Item value="A&amp;nuluj bieżącą operację" revision="0" />
+    <Item value="Anuluj bieżącą operację przesyłania strumieniowego" revision="0" />
   </Enumeration>
   <Enumeration key="StreamUp">
-    <Item />
-    <Item />
+    <Item value="Otwórz &amp;pliki nadrzędne" revision="1" />
+    <Item value="Otwórz plik lub pliki nadrzędne, czyli pliki zawierające wybrane strumienie." revision="1" />
   </Enumeration>
   <Enumeration key="StreamLocate">
-    <Item />
-    <Item />
+    <Item value="Znajdź strumienie…" revision="0" />
+    <Item value="Zlokalizuj wszystkie pliki z alternatywnymi strumieniami danych w wybranych lokalizacjach." revision="0" />
   </Enumeration>
   <Enumeration key="StreamExitLocate">
-    <Item />
-    <Item />
+    <Item value="Wyjdź z &amp;Trybu wyszukiwania strumieni" revision="0" />
+    <Item value="Wyjdź z trybu Znajdź strumienie" revision="0" />
   </Enumeration>
   <Enumeration key="ColumnNames">
-    <Item />
-    <Item />
+    <Item value="Nazwa strumienia" revision="0" />
+    <Item value="Rozmiar" revision="0" />
   </Enumeration>
   <Enumeration key="SearchColumnNames">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Plik" revision="0" />
+    <Item value="Strumień" revision="0" />
+    <Item value="Rozmiar" revision="0" />
   </Enumeration>
   <Enumeration key="MenuStreams">
-    <Item />
-    <Item />
+    <Item value="S&amp;trumienie NTFS" revision="0" />
+    <Item value="Menu Strumieni NTFS" revision="0" />
   </Enumeration>
   <Enumeration key="FindStreamsTask">
-    <Item />
-    <Item />
+    <Item value="Znajdź strumienie" revision="0" />
+    <Item value="Uruchom moduł Znajdź strumienie" revision="0" />
   </Enumeration>
   <Enumeration key="SizeSuffix">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bajty" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureNTFSStreams">
-    <Item />
-    <Item />
+    <Item value="Strumienie NTFS" revision="0" />
+    <Item value="Funkcja strumieni NTFS umożliwia tworzenie nowych nazwanych strumieni, zmianę ich nazw i usuwanie." revision="0" />
   </Enumeration>
   <Enumeration key="Errors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Brak strumieni. Najpierw musisz zapisać plik." revision="0" />
+    <Item value="To jest strumień. Strumienie zagnieżdżone nie są obsługiwane przez system plików." revision="0" />
+    <Item value="Nie można zlokalizować strumieni." revision="0" />
+    <Item value="Strumienie nie są obsługiwane przez system plików." revision="0" />
+    <Item value="Błąd lokalizowania strumieni." revision="0" />
   </Enumeration>
   <Enumeration key="FeatureFindStreams">
-    <Item />
-    <Item />
+    <Item value="Znajdź strumienie" revision="0" />
+    <Item value="Funkcja Znajdź strumienie umożliwia wyszukiwanie plików z nazwanymi strumieniami na dysku." revision="0" />
   </Enumeration>
 </Language>

@@ -1,43 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="Czy na pewno chcesz anulować tę operację? Spowoduje to uszkodzenie pliku." revision="1" />
+  <Message key="OccFound" value="{N} wystąpień znalezionych do tej pory." revision="1" />
+  <Message key="CopiedFragmentName" value="HHD Hex Editor Neo Skopiowane Dane" revision="3" />
+  <Message key="DefaultBranchName" value="Domyślnie" revision="1" />
+  <Message key="Continue working with a file." value="Kontynuuj pracę z plikiem." revision="1" />
+  <Message key="Discard all changes and close the file." value="Odrzuć wszystkie zmiany i zamknij plik." revision="1" />
+  <Message key="SharedError" value="Wystąpił błąd aktualizacji pliku." revision="1" />
+  <Message key="InvalidChars" value="Klasa wyrażeń regularnych zawiera nieprawidłowe znaki." revision="1" />
+  <Message key="ClassExists" value="Ta klasa już istnieje. Zmień nazwę klasy." revision="1" />
+  <Message key="DeleteClasses?" value="Czy na pewno chcesz usunąć wszystkie klasy?" revision="1" />
+  <Message key="LoadError" value="Błąd wewnętrzny: {text} ({code})" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="Przed wykonaniem operacji sprawdź, czy nie ma zbyt mało miejsca na dysku" revision="1" />
+  <Message key="IgnoreRenames" value="Ignoruj ​​zmiany nazw udostępnionych otwartych plików" revision="1" />
+  <Message key="RemovedNotification" value="Udostępniony dokument został usunięty" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="Automatyczna próba otwarcia przy użyciu migawki dysku" revision="0" />
+  <Message key="NewBranchName" value="Gałąź {n}" revision="1" />
+  <Message key="OldVersion" value="{name} (stara wersja {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;: Błąd podczas tworzenia obiektu dokumentu: {text} ({code})" revision="2" />
+  <Message key="LongTime" value="Otwarcie pliku &quot;{path}&quot; w trybie współdzielonym może zająć dużo czasu. Czy zamiast tego chcesz otworzyć plik w normalnym, zablokowanym trybie?" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: błąd otwierania dokumentu: {text} ({code})" revision="3" />
+  <Message key="LowDiskSpace" value="Wolne miejsce na dysku {disk} jest za małe. Operacja nie zostanie wykonana. Usuń niektóre pliki i spróbuj ponownie.\r\n\r\nUwaga: większość operacji Hex Editor Neo jest wyłączona, gdy na dysku zawierającym folder tymczasowy jest mało miejsca. Operacja Zapisz jako nie jest wyłączona, umożliwiając zapisywanie zmian wprowadzonych w pliku na innym woluminie.\r\n\r\nMożesz wyłączyć to odznaczenie na karcie Narzędzia » Ustawienia, Ogólne Karta. Odznacz opcję &quot;Sprawdź, czy na dysku jest mało miejsca przed wykonaniem operacji&quot;, aby wyłączyć tę kontrolę." revision="1" />
+  <Message key="Unknown Process" value="Nieznany proces" revision="1" />
+  <Message key="Physical Memory" value="Pamięć fizyczna" revision="1" />
+  <Message key="Shared File Conflict Detected" value="Wykryto konflikt udostępnionego pliku" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Plik został zmodyfikowany poza Hex Editor Neo. Co chcesz robić?" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="Zachowaj wszystkie zmiany i nie aktualizuj pliku" revision="1" />
+  <Message key="Discard all changes and close the file" value="Odrzuć wszystkie zmiany i zamknij plik" revision="1" />
+  <Message key="Discard all changes and update the file" value="Odrzuć wszystkie zmiany i zaktualizuj plik" revision="1" />
+  <Message key="Retain all changes and update the file" value="Zachowaj wszystkie zmiany i zaktualizuj plik" revision="1" />
+  <Message key="Highlight changes in the file" value="Podświetlanie zmian w pliku" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="użycie prostego algorytmu (szybszy, mniej dokładny)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="użycie algorytmu różnicowego (wolniejszy, dokładniejszy)" revision="1" />
+  <Message key="Close older versions of the file" value="Zamknij starsze wersje pliku" revision="1" />
+  <Message key="Edit Class" value="Edytuj klasę" revision="1" />
+  <Message key="Class name (must be unique):" value="Nazwa klasy (musi być unikalna):" revision="1" />
+  <Message key="Regular expression:" value="Wyrażenie regularne:" revision="1" />
+  <Message key="Regular Expressions" value="Wyrażenia regularne" revision="1" />
+  <Message key="Regular Expressions Page" value="Wyrażenia regularne" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Na tej stronie możesz tworzyć klasy wyrażeń regularnych wielokrotnego użytku. Każda klasa powinna być prawidłowym wyrażeniem regularnym i może odwoływać się do innych klas." revision="1" />
+  <Message key="Add…" value="&amp;Dodaj..." revision="1" />
+  <Message key="Edit…" value="&amp;Edytuj..." revision="1" />
+  <Message key="Delete All" value="U&amp;suń wszystko" revision="1" />
+  <Message key="Global regular expression options:" value="Globalne opcje wyrażeń regularnych:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Kropka) metaznak nie pasuje do znaku null ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Kropka) metaznak nie pasuje do znaku nowej linii ('\\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="Nieakapitowane białe spacje nie są istotne" revision="1" />
+  <Message key="Open Shared" value="Otwórz udostępnione" revision="1" />
+  <Message key="SnapshotTitle" value="Otwórz z migawki" revision="0" />
+  <Message key="SnapshotDescription" value="Hex Editor Neo nie może otworzyć &quot;{path}&quot; z powodu następującego błędu:\r\n   » {text} ({code})\r\n\r\nCzy chcesz spróbować utworzyć migawkę woluminu i otworzyć plik z tej migawki?" revision="0" />
+  <Message key="RegExp settings" value="Klasy wyrażeń regularnych" revision="0" />
+  <Message key="Shortcut files" value="Pliki skrótów" revision="0" />
   <Enumeration key="ConflictOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ignoruj ​​zmiany" revision="1" />
+    <Item value="Zamknij plik" revision="1" />
+    <Item value="Zaktualizuj plik" revision="1" />
   </Enumeration>
   <Enumeration key="SharedRemoved">
-    <Item />
-    <Item />
+    <Item value="Wykryto konflikt udostępnionego pliku" revision="1" />
+    <Item value="Plik {name} został usunięty przez inną aplikację. Co chcesz robić?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Znajdź wszystko" revision="1" />
+    <Item value="Wypełnij" revision="1" />
+    <Item value="Usuń" revision="1" />
+    <Item value="Zapisz" revision="1" />
+    <Item value="Znajdź" revision="1" />
+    <Item value="Zamień wszystko" revision="1" />
+    <Item value="Zbieraj statystyki" revision="1" />
+    <Item value="Zapisz jako" revision="1" />
+    <Item value="Zapisz historię" revision="1" />
+    <Item value="Załaduj historię" revision="1" />
+    <Item value="Tworzenie łatki" revision="1" />
+    <Item value="Pobierz zmodyfikowany wybór" revision="1" />
+    <Item value="Kopiuj" revision="1" />
+    <Item value="Wklej" revision="1" />
+    <Item value="Oczyszczanie historii" revision="1" />
+    <Item value="Statystyka wzorów" revision="1" />
+    <Item value="Eksport" revision="1" />
+    <Item value="Szyfruj" revision="1" />
+    <Item value="Odszyfruj" revision="1" />
+    <Item value="Operacja bitowa" revision="1" />
+    <Item value="Operacja arytmetyczna" revision="1" />
+    <Item value="Operacja zmian (Shift)" revision="1" />
+    <Item value="Operacja odwrotna" revision="1" />
+    <Item value="Operacja wielkość liter" revision="1" />
+    <Item value="Wstaw Hex" revision="1" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
-    <Item />
-    <Item />
+    <Item value="Nazwa klasy" revision="1" />
+    <Item value="Wyrażenie regularne" revision="1" />
   </Enumeration>
 </Language>

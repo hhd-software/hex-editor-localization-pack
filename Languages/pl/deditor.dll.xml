@@ -1,68 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="Kopiowanie plików" revision="0" />
+  <Message key="Volume Errors" value="Błędy woluminu" revision="0" />
+  <Message key="CantParse" value="Analizowanie atrybutów błędów" revision="0" />
+  <Message key="SequenceNumberError" value="Zaktualizuj błąd numeru sekwencyjnego dla zapisu pliku: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="Nieprawidłowy zapis pliku: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="Nieznany typ atrybutu: {type}" revision="0" />
+  <Message key="MagicMismatch" value="Blok indeksu analizowania błędów: Magiczne niedopasowanie" revision="0" />
+  <Message key="IndexSNError" value="Numer sekwencyjny bloku indeksu analizowania błędu" revision="0" />
+  <Message key="NoFilenameStream" value="Wpis indeksu nie ma strumienia nazw plików: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="Klaster przekracza granice uruchamiania danych" revision="0" />
+  <Message key="DataRunLengthError" value="Błąd długości przebiegu danych: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="Błąd dekodowania danych: rozmiar = {size}, offset = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="Błąd dekodowania przebiegu danych: VCN przekracza granicę" revision="0" />
+  <Message key="DataRunLCN" value="Błąd dekodowania danych przebiegu: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="Nieznany wpis pliku" revision="0" />
+  <Message key="FilenameAttributeError" value="Błąd podczas analizowania atrybutów pliku zapisu {record}" revision="0" />
+  <Message key="CopyFileError" value="Błąd podczas kopiowania pliku &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Kopiowanie rzadkich, skompresowanych lub zaszyfrowanych plików nie jest jeszcze zaimplementowane: &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="Błąd podczas zapisywania pliku: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="Na dysku docelowym nie ma wystarczającej ilości miejsca do skopiowania &quot;{filename}&quot;. Potrzebujesz co najmniej {filesize} wolnego miejsca, aby skopiować ten plik." revision="0" />
+  <Message key="CopyWarning" value="Plik &quot;{filename}&quot; już istnieje. Czy chcesz go nadpisać lub pominąć?" revision="0" />
+  <Message key="CreateFileError" value="{error} Plik: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="Ten system plików nie jest jeszcze obsługiwany przez Nawigator woluminu." revision="0" />
+  <Message key="VolumeNavigator" value="Nawigator woluminu" revision="0" />
+  <Message key="CopyStats" value="{files} skopiowane pliki.\r\n{folders} foldery skopiowane.\r\n{bytes} bajty skopiowane.\r\n{failed} pliki nie powiodły się.\r\n{skipped} pliki pominięte." revision="0" />
+  <Message key="Copy Files Report" value="Raport kopiowania plików" revision="0" />
+  <Message key="Overwrite Warning" value="Ostrzeżenie o nadpisaniu" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="&amp;Zrób to dla wszystkich konfliktów" revision="0" />
+  <Message key="&amp;Overwrite" value="&amp;Nadpisz" revision="0" />
+  <Message key="&amp;Skip" value="&amp;Pomiń" revision="0" />
+  <Message key="OverwriteWarning" value="Schemat &quot;{schemename}” już istnieje. Czy chcesz to nadpisać?" revision="0" />
+  <Message key="UnsavedWarning" value="Bieżący schemat nie został zapisany. Czy chcesz go teraz zapisać?" revision="0" />
+  <Message key="DeleteWarning" value="Bieżący schemat zostanie usunięty." revision="0" />
+  <Message key="CustomFilesFilter" value="Niestandardowe parsery woluminów|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="Nazwa pliku nie została określona." revision="0" />
+  <Message key="CSRootEmpty" value="Struktura korzeni nie została określona." revision="0" />
+  <Message key="CSCheckStructEmpty" value="Struktura kontroli nie została określona." revision="0" />
+  <Message key="CSCheckAddressError" value="Adres sprawdzania musi być liczbą." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="Nazwa schematu nie została określona." revision="0" />
+  <Message key="CSFileNotFound" value="Pliku strukturalnego &quot;{filename}&quot; nie znaleziono." revision="0" />
+  <Message key="CSRootNotFound" value="Nie znaleziono struktury głównej {name}." revision="0" />
+  <Message key="CSBindVolumeError" value="Wystąpił błąd podczas analizowania woluminu. Schemat &quot;{name}”, błąd: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Partycja [{indekx}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="Nieprawidłowy nagłówek PrivHead." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="Nieprawidłowy nagłówek TocBlock." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Nieprawidłowy nagłówek Vmdb." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Rozmiar Vblk nie jest wielokrotnością rozmiaru sektora." revision="0" />
+  <Message key="OpenVolumeWarning" value="Nie można otworzyć wybranego woluminu" revision="0" />
+  <Message key="GPTParseErrorHeader" value="Nieprawidłowy nagłówek tabeli partycji GUID." revision="0" />
+  <Message key="Custom Volume Editor" value="Niestandardowy edytor woluminów" revision="0" />
+  <Message key="File:" value="Plik:" revision="0" />
+  <Message key="Checking structure:" value="Sprawdzanie struktury:" revision="0" />
+  <Message key="Checking address:" value="Sprawdzanie adresu:" revision="0" />
+  <Message key="Root structure:" value="Struktura korzenia:" revision="0" />
+  <Message key="Directory entry structure:" value="Struktura wpisu w katalogu:" revision="0" />
+  <Message key="File entry structure:" value="Struktura wpisu pliku:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Nawigator woluminu" revision="0" />
   <Enumeration key="SizeSuffix">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bajty" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
   </Enumeration>
   <Enumeration key="VNColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nazwa" revision="0" />
+    <Item value="Rozmiar" revision="0" />
+    <Item value="Atrybuty" revision="0" />
+    <Item value="Utworzony" revision="0" />
+    <Item value="Zmodyfikowany" revision="0" />
+    <Item value="Dostępny" revision="0" />
   </Enumeration>
   <Enumeration key="CopyTo">
-    <Item />
-    <Item />
+    <Item value="&amp;Kopiuj do…" revision="0" />
+    <Item value="Skopiuj zawartość pliku lub katalogu do wybranego miejsca docelowego" revision="0" />
   </Enumeration>
   <Enumeration key="CopyVolume">
-    <Item />
-    <Item />
+    <Item value="Kopiuj &amp;wolumen..." revision="0" />
+    <Item value="Skopiuj całą zawartość woluminu (pliki i katalogi) do wybranego miejsca docelowego" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAllFileData">
-    <Item />
-    <Item />
+    <Item value="&amp;Wybierz wszystkie dane strumienia" revision="0" />
+    <Item value="Wybiera wszystkie klastry przechowujące dane strumieniowe" revision="0" />
   </Enumeration>
   <Enumeration key="OpenInHexEdior">
-    <Item />
-    <Item />
+    <Item value="&amp;Otwórz plik w edytorze" revision="0" />
+    <Item value="Otwórz plik w Hex Editor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="ShowInFolder">
-    <Item />
-    <Item />
+    <Item value="Otwórz folder zawierający" revision="0" />
+    <Item value="Otwórz folder zawierający wpis" revision="0" />
   </Enumeration>
   <Enumeration key="LevelUp">
-    <Item />
-    <Item />
+    <Item value="&amp;Aktualizuj do źródła" revision="0" />
+    <Item value="Aktualizuj do źródła" revision="0" />
   </Enumeration>
   <Enumeration key="UpdateFilesList">
-    <Item />
-    <Item />
+    <Item value="Zaktualizuj bieżący &amp;widok" revision="0" />
+    <Item value="Zaktualizuj bieżący katalog" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustomVolume">
-    <Item />
-    <Item />
+    <Item value="Edytuj niestandardowe &amp;wolumeny" revision="0" />
+    <Item value="Otwórz niestandardowe okno dialogowe edycji woluminu" revision="0" />
   </Enumeration>
   <Enumeration key="OutputColumns">
-    <Item />
-    <Item />
+    <Item value="Wolumen" revision="0" />
+    <Item value="Błąd" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureDiskEditor">
-    <Item />
-    <Item />
+    <Item value="Nawigator woluminu" revision="1" />
+    <Item value="Nawigator woluminu skanuje i wyświetla strukturę systemu plików woluminu, pomaga znaleźć lokalizację plików i odzyskać uszkodzone pliki lub foldery." revision="1" />
   </Enumeration>
   <Enumeration key="Partitions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nieznany" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Nieprzydzielone" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
   </Enumeration>
 </Language>
