@@ -19,6 +19,7 @@ Currently, the following language packs are complete for latest version of Hex E
 * German
 * French
 * Italian
+* Polish
 * Portuguese
 * Russian
 * Ukrainian
@@ -28,7 +29,6 @@ Currently, the following language packs are complete for latest version of Hex E
 And the following language packs are complete for Hex Editor Neo 5.x or 6.x:
 
 * Danish
-* Polish
 * Indonesian
 
 ## Manually Building Language Packs
@@ -79,6 +79,9 @@ We would like to thank the following persons for their contributions to localiza
 * Portuguese
    * Nylsinho Santos
    * Wenes Gomes Aquino
+
+* Polish
+   * Fresta
 
 * Ukrainian
    * Олексій Храпач
