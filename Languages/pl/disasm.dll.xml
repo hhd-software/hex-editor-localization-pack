@@ -37,7 +37,7 @@
   <Message key="ShowVLines" value="Pokaż linie siatki" revision="0" />
   <Message key="ShowHardcodedOperands" value="Wyświetl operandy &quot;hardcoded&quot; " revision="0" />
   <Message key="DisasmError" value="Błąd otwarcia pliku" revision="0" />
-  <Message key="DisasmError2" value="Błąd rozmontowania pliku{has error?}: {błąd}{?has error}" revision="1" />
+  <Message key="DisasmError2" value="Błąd rozmontowania pliku{has error?}: {error}{?has error}" revision="1" />
   <Message key="OpName" value="Kod dezasemblacyjny (rozmontowania)" revision="0" />
   <Message key="RefreshError" value="Błąd odświeżania demontażu." revision="0" />
   <Message key="RefreshErrorSize" value="Rozmiar pliku został zmieniony. Nie można odświeżyć demontażu." revision="0" />

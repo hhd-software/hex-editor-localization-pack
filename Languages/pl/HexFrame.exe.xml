@@ -156,7 +156,7 @@
   <Message key="Windows Title" value="Okno" revision="1" />
   <Message key="Save" value="Zapisz" revision="1" />
   <Message key="Close Window(s)" value="Zamknij okno(a)" revision="1" />
-  <Message key="AboutInfo" description="About box information string" revision="5" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Wersja {major}.{minor}.{revision}.{build}]]]\n{registered?}Zarejestrowany na [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[[hhttps://www.hhdsoftware.com]]]"/>
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Wersja {major}.{minor}.{revision}.{build}]]]\n{registered?}Zarejestrowany na [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
   <Message key="AboutBoxDisclaimer" value="Ostrzeżenie: Ten program komputerowy jest chroniony przez prawo autorskie i traktaty międzynarodowe. Nieuprawnione powielanie lub rozpowszechnianie tego programu lub jego części może skutkować poważnymi sankcjami cywilnymi i karnymi i będzie ścigane w maksymalnym zakresie przewidzianym przez prawo." revision="1" />
   <Message key="About Hex Editor Neo" value="O {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Wybierz domyślny układ interfejsu użytkownika" revision="1" />
