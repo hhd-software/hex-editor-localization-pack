@@ -542,8 +542,8 @@
   </Enumeration>
   <Enumeration key="Endian">
     <Item value="Порядок байтов по умолчанию" revision="1" />
-    <Item value="Прямой порядок байтов" revision="1" />
-    <Item value="Обратный порядок байтов" revision="1" />
+    <Item value="От младшего к старшему" revision="1" />
+    <Item value="От старшего к младшему" revision="1" />
   </Enumeration>
   <Enumeration key="WindowSwitching">
     <Item value="Стиль переключения окон" revision="1" />

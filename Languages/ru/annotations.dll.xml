@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Data Annotations" value="Заметки" revision="0" />
-  <Message key="SaveAnnotationsPrompt" value="Обновились заметки для файла &quot;{File}&quot;. Вы хотите сохранить их?" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Обновились заметки для файла &quot;{file}&quot;. Вы хотите сохранить их?" revision="0" />
   <Message key="MaxAnnotationsError" value="Максимальное число аннотаций для файла ({number}) достигнуто." revision="0" />
   <Message key="toolbar.Annotations" value="Заметки" revision="0" />
   <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
