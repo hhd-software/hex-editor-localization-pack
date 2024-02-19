@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ProcessCat" value="Processo" revision="0" />
+  <Message key="RegionInfo" value="[[[uRegião de Memória de Processo]]]\r  [[[bRegião de base:]]] {base} ({base:2})\r  [[[bRegião final:]]] {end} ({end:2})\r  [[[bTamanho da região:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="Unknown" value="Desconhecido" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Start:" value="Início" revision="1" />
+  <Message key="End:" value="Fim" revision="1" />
+  <Message key="Size:" value="Tamanho:" revision="1" />
+  <Message key="Snapshots" value="Instantâneos" revision="0" />
+  <Message key="clr.pex_colors" value="Cores da Janela de Processo" revision="1" />
+  <Message key="clr.pex_colors.NoAccess" value="Cores da região Sem Acesso" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Cores da região Read Only" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Cores da região de Leitura/Escrita" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Cópia na região de escrita" revision="0" />
+  <Message key="clr.pex_colors.Free" value="Região livre" revision="0" />
+  <Message key="Processes" value="Processos" revision="0" />
+  <Message key="ProcessToolbar" value="Processos" revision="0" />
+  <Message key="Process filter" value="Pesquisar…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="Ocorreu o seguinte erro durante a abertura do processo seleccionado:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="O encerramento do processo falhou com o seguinte erro:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="Houve um erro durante o processo de salvamento do despejo:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="Houve um erro de localização ou de funcionamento de um depurador externo:\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="Nome: {name}\nPID: {id}\nArquitetura: {arch}\nUtilizador: {user}\nEstado: {status}\nCaminho: {path}\nLinha de comando: {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUtilizador:]]] {user}, [[[bArquitetura:]]] {arch}\n[[[bCaminho:]]] {path}\n[[[bLinha de comando:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="Terminado {error}" revision="0" />
+  <Message key="Snapshot creation error" value="Erro de criação de instantâneos: {text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [instantâneo]" revision="0" />
+  <Message key="AskClearSnapshots" value="Isto irá apagar permanentemente todas as instantâneos sem possibilidade de as restaurar. Devo continuar?" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="Incluir totalmente a memória ao depurar instantâneos" revision="0" />
+  <Message key="DumpCreation" value="Preparando instantâneo para a depuração" revision="0" />
+  <Message key="highlightRegions" value="Destacar regiões de memória nas janelas do editor" revision="0" />
+  <Message key="NoSnapshotting" value="O Windows 7 não suporta a tecnologia de instantâneos de processos. Esta tecnologia está disponível a partir do Windows 8." revision="0" />
+  <Message key="DumpFileFilter" value="Ficheiros de captura|*.dmp|" revision="0" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="Abrir P&amp;rocesso…" revision="1" />
+    <Item value="Abre processo da memória para ler e gravar" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item value="Abrir P&amp;rocesso…" revision="0" />
+    <Item value="Memória de processo aberto para leitura e escrita" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item value="Abrir I&amp;nstantâneo de Processo…" revision="0" />
+    <Item value="Criar um instantâneo do processo e abrir a sua memória" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item value="Mostrar todos os processos" revision="0" />
+    <Item value="Mostrar processos para todos os utilizadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item value="Atualização Automática" revision="0" />
+    <Item value="Actualizar automaticamente a lista de processos em curso" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item value="Actualizar a lista de processos" revision="0" />
+    <Item value="Actualizar a lista de processos em curso" revision="0" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="Ir para… (no processo)" revision="1" />
+    <Item value="Pular para a seção determinada na memória do processo editado" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item value="Criar Instantâneo" revision="0" />
+    <Item value="Criar instantâneo do processo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item value="Eliminar Instantâneo" revision="0" />
+    <Item value="Eliminar instantâneo seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item value="Comparar instantâneos seleccionados (seleccionar dois)" revision="0" />
+    <Item value="Seleccione dois instantâneos para os comparar" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item value="Eliminar todos os instantâneos" revision="0" />
+    <Item value="Eliminar todos os instantâneos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item value="Blocos" revision="0" />
+    <Item value="Visualizar blocos de memória de processo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item value="Módulos" revision="0" />
+    <Item value="Mostrar módulos mapeados do processo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item value="Modo de Lista de Regiões de Processo" revision="0" />
+    <Item value="Alterar o tipo de dados apresentados na lista de regiões" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item value="Abrir (Só de leitura)" revision="0" />
+    <Item value="Abrir região de memória seleccionada como apenas de leitura" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item value="Abrir (Leitura/Escrita)" revision="0" />
+    <Item value="Abrir região de memória seleccionada para acesso de leitura/escrita" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item value="Actualizar a memória" revision="0" />
+    <Item value="Actualizar a memória" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item value="Executar Desassembler" revision="0" />
+    <Item value="Executar Desassembler para módulo seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item value="Depuração do processo ou instantâneo" revision="0" />
+    <Item value="Lançar o depurador externo para depurar a imagem do processo seleccionado ou um processo em execução" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item value="Salvar Dump of Process ou Instantâneo…" revision="0" />
+    <Item value="Guardar o despejo do estado actual de um processo ou instantâneo seleccionado para um ficheiro" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item value="Terminar o processo" revision="0" />
+    <Item value="Terminar o processo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item value="Mudar as cores" revision="0" />
+    <Item value="Ir para &quot;Tema&quot; para mudar as cores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="Desconhecido" revision="1" />
+    <Item value="Imagem" revision="1" />
+    <Item value="Mapeado" revision="1" />
+    <Item value="Privado" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="Desconhecido" revision="1" />
+    <Item value="Comprometido" revision="1" />
+    <Item value="Livre" revision="1" />
+    <Item value="Reservado" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="Sem Acesso" revision="2" />
+    <Item value="Somente Leitura" revision="2" />
+    <Item value="Leitura, Gravação" revision="2" />
+    <Item value="Copie na gravação" revision="2" />
+    <Item value="Executar" revision="2" />
+    <Item value="Executar, Ler" revision="2" />
+    <Item value="Executar, Ler, Gravação" revision="2" />
+    <Item value="Executar, Copiar na gravação" revision="2" />
+    <Item value="Protegido (guardado)" revision="2" />
+    <Item value="Sem Cache" revision="2" />
+    <Item value="Write Combine" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="Abrir Processo" revision="1" />
+    <Item value="Abre o recurso processo permite que você abra um endereço de espaço selecionado na memória do processo para exibir e editar." revision="1" />
+  </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item value="Depurador externo de preferência" revision="0" />
+    <Item value="Depurador JIT registado" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Abrir processo" revision="1" />
+    <Item value="Abre processo da memória para exibir e modificação" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="Endereço" revision="1" />
+    <Item value="Tamanho" revision="1" />
+    <Item value="Tipo" revision="1" />
+    <Item value="Estado" revision="1" />
+    <Item value="Flags" revision="1" />
+    <Item value="Módulo" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="Nome" revision="2" />
+    <Item value="Endereço" revision="2" />
+    <Item value="Tamanho" revision="2" />
+    <Item value="Caminho" revision="2" />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item value="Nome" revision="0" />
+    <Item value="PID" revision="0" />
+    <Item value="Arquitetura" revision="0" />
+    <Item value="Utilizador" revision="0" />
+    <Item value="Bytes privados" revision="0" />
+    <Item value="Threads" revision="0" />
+    <Item value="Linha de comando" revision="0" />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item value="Desconhecido" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item value="Em execução" revision="0" />
+    <Item value="Terminado" revision="0" />
+  </Enumeration>
+</Language>

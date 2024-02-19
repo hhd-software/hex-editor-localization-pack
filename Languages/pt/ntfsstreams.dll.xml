@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="Aplicativo não pode ser fechado até que a operação fluxo atual seja concluída ou cancelada." revision="0" />
+  <Message key="NTFS Streams" value="Fluxos NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Abrir fluxo após a criação" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Pasta inválida ou sintaxe de máscara." revision="0" />
+  <Message key="Invalid folder list syntax." value="Sintaxe de lista de pasta inválida." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Excluir padrão é uma expressão regular inválida." revision="0" />
+  <Message key="InvalidStreamName" value="Nome de fluxo inválido. Um nome não pode conter os seguintes caracteres: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="Fluxo &amp;NTFS" revision="0" />
+  <Message key="CreateError" value="Erro ao criar fluxo: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Ocorreu o seguinte erro durante a criação do fluxo:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="A operação não pode ser desfeita. Tem certeza de que quer continuar e excluir fluxo(s) selecionado?" revision="0" />
+  <Message key="DeleteError" value="Erro ao excluir fluxo: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="O seguinte erro ocorreu durante a exclusão de fluxo:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="O seguinte erro(s) ocorreu durante a abertura do fluxo:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Atualmente, esse fluxo está aberto no editor. Você quer fechá-lo para executar a operação solicitada?" revision="0" />
+  <Message key="RenameError" value="Erro ao renomear fluxo: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Ocorreu o seguinte erro durante a renomeação do fluxo:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Pesquisa concluída.{|finished}Pesquisar por fluxos…{?finished} {found} fluxos encontrados ({files} arquivos em {folders} pastas verificadas)." revision="0" />
+  <Message key="StreamSize" value="Total: {size}" revision="1" />
+  <Message key="RenameOperation" value="Renomeando fluxo" revision="0" />
+  <Message key="Find Streams Folder List" value="Localizar Lista de Pastas com Fluxos" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Digite o caminho para a pasta ou pressione o botão Procurar:" revision="0" />
+  <Message key="Folder list:" value="Lista de pastas:" revision="0" />
+  <Message key="Move &amp;Up" value="Mover &amp;Acima" revision="0" />
+  <Message key="Move &amp;Down" value="Mover A&amp;baixo" revision="0" />
+  <Message key="File Stream Name" value="Nome do Arquivo de Fluxo" revision="0" />
+  <Message key="Enter the stream name:" value="Digite o nome fluxo:" revision="0" />
+  <Message key="Find Streams" value="Localizar Fluxos" revision="0" />
+  <Message key="Search in:" value="Pesquisar em:" revision="0" />
+  <Message key="File types:" value="Tipos de Arquivo:" revision="0" />
+  <Message key="Larger than:" value="Maior que:" revision="0" />
+  <Message key="Exclude:" value="Excluir:" revision="0" />
+  <Message key="(regular expression)" value="(expressão regular)" revision="0" />
+  <Message key="Include sub-folders" value="Incluir subpastas" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Fluxos NTFS" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="&amp;Criar Fluxo…" revision="0" />
+    <Item value="Cria um novo arquivo de fluxo" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="&amp;Abrir  Fluxo(s)" revision="0" />
+    <Item value="Abre arquivo(s) de fluxo(s) no editor" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="&amp;Excluir Fluxo(s)…" revision="0" />
+    <Item value="Exclui o arquivo de fluxo(s)" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="&amp;Renomear Fluxo…" revision="0" />
+    <Item value="Renomeia o arquivo de fluxo" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="C&amp;ancelar Operação Atual" revision="0" />
+    <Item value="Cancele a operação de fluxo atual" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Abrir Arquivo(s) &amp;Pai" revision="1" />
+    <Item value="Abre o arquivo pai, que é o arquivo que contém esse fluxo." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Localizar Fluxos…" revision="0" />
+    <Item value="Localiza todos os arquivos com fluxos de dados alternativos em locais selecionados." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Sair do &amp;Modo Localizar Fluxos" revision="0" />
+    <Item value="Sai do modo de localizar fluxo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Nome do Fluxo" revision="0" />
+    <Item value="Tamanho" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Arquivo" revision="0" />
+    <Item value="Fluxo" revision="0" />
+    <Item value="Tamanho" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="Fluxos &amp;NTFS" revision="0" />
+    <Item value="Menu Fluxos NTFS" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Localizar fluxos" revision="0" />
+    <Item value="Inicia o módulo Localizar Fluxos" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Bytes" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="Fluxos NTFS" revision="0" />
+    <Item value="O recurso Fluxos NTFS permite que você crie novos fluxos nomeados, renomear fluxos e excluir." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Não há fluxos. Você precisa salvar o arquivo em primeiro." revision="0" />
+    <Item value="Esse é um fluxo. Fluxos aninhadas não são suportadas pelo sistema de arquivos." revision="0" />
+    <Item value="Não foi possível localizar o fluxo." revision="0" />
+    <Item value="Fluxos não são suportadas pelo sistema de arquivos." revision="0" />
+    <Item value="Erro ao localizar o fluxo." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Localizar Fluxos" revision="0" />
+    <Item value="O recurso Localizar Fluxos permite procurar arquivos com fluxo nomeados em seu disco. " revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Explorador 1" revision="0" />
+  <Message key="Explorer 2" value="Explorador 2" revision="0" />
+  <Message key="Invalid path specified" value="Caminho especificado é inválido" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(erro ao copiar pastas)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Erro ao copiar os seguintes arquivos:" revision="0" />
+  <Message key="Explorer settings" value="Explorador" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorador" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Anterior" revision="0" />
+    <Item value="Ir para o local anterior" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Próximo" revision="0" />
+    <Item value="Ir para próxima localização" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Acima" revision="0" />
+    <Item value="Ir para o diretório pai" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Local Atual" revision="0" />
+    <Item value="Sincronize o diretório atual com o navegador" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Localizar nos Arquivos" revision="0" />
+    <Item value="Abre o diálogo Localize nos Arquivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Pastas" revision="0" />
+    <Item value="Alternar a janela do navegador" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Built-In Explorer" revision="0" />
+    <Item value="Built-in ferramenta de janela que imita o Windows Explorer e está totalmente integrado com o Editor Hex. Uma janela do Explorer está disponível na Edição Padrão e duas estão disponíveis nas edições Professional e Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 Built-In Explorers" revision="0" />
+    <Item value="Built-in Explorer ferramenta de janela que imita o Windows Explorer e está totalmente integrada com o Hex Editor. Uma janela do Explorer está disponível na Edição Padrão e duas estão disponíveis nas edições Professional e Ultimate." revision="0" />
+  </Enumeration>
+</Language>
