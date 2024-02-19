@@ -48,6 +48,7 @@
   <Message key="Name:" value="Имя:" revision="0" />
   <Message key="Checksum Result" value="Результат" revision="1" />
   <Message key="Copy" value="Копировать" revision="1" />
+  <Message key="Copy as Big-Endian" value="Копировать с порядком байтов от старшего к младшему" revision="0" />
   <Message key="Size:" value="Размер:" revision="1" />
   <Message key="Separator:" value="Разделитель:" revision="1" />
   <Message key="Checksum settings" value="Контрольные суммы" revision="0" />

@@ -398,12 +398,12 @@
     <Item value="Укажите произвольное число столбцов" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item value="&amp;Прямой порядок" revision="1" />
-    <Item value="Прямой порядок байтов" revision="1" />
+    <Item value="От младшего к старшему" revision="1" />
+    <Item value="Порядок байтов от младшего к старшему" revision="1" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item value="&amp;Обратный порядок" revision="1" />
-    <Item value="Обратный порядок байтов" revision="1" />
+    <Item value="От старшего к младшему" revision="1" />
+    <Item value="Порядок байтов от старшего к младшему" revision="1" />
   </Enumeration>
   <Enumeration key="EndianSwitch">
     <Item value="&amp;Порядок байтов" revision="0" />
