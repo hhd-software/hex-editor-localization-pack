@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="탐색기 1" revision="0" />
+  <Message key="Explorer 2" value="탐색기 2" revision="0" />
+  <Message key="Invalid path specified" value="잘못된 경로가 지정됨" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(폴더 복사 오류)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="다음 파일을 복사하는 중 오류:" revision="0" />
+  <Message key="Explorer settings" value="탐색기" revision="0" />
+  <Message key="toolbar.Explorer" value="탐색기" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="이전" revision="0" />
+    <Item value="이전 위치로 가기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="다음" revision="0" />
+    <Item value="다음 위치로 가기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="위로" revision="0" />
+    <Item value="상의 디렉토리로 가기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="현재 위치" revision="0" />
+    <Item value="현재 디렉토리를 브라우저와 동기화" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="파일에서 찾기" revision="0" />
+    <Item value="파일에서 찾기 대화 상자 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="폴더" revision="0" />
+    <Item value="브라우저 창 전환" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="내장된 탐색기" revision="0" />
+    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard Edition에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="내장된 탐색기 2개" revision="0" />
+    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard Edition에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
+  </Enumeration>
+</Language>

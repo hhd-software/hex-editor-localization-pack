@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="파일 복사" revision="0" />
+  <Message key="Volume Errors" value="볼륨 오류" revision="0" />
+  <Message key="CantParse" value="특성 구문 분석 중 오류 발생" revision="0" />
+  <Message key="SequenceNumberError" value="파일 레코드에 대한 업데이트 시퀀스 번호 오류: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="잘못된 파일 레코드: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="알 수 없는 특성 유형: {type}" revision="0" />
+  <Message key="MagicMismatch" value="인덱스 블록을 구문 분석하는 중 오류 발생: 매직 불일치" revision="0" />
+  <Message key="IndexSNError" value="인덱스 블록 시퀀스 번호 구문 분석 중 오류 발생" revision="0" />
+  <Message key="NoFilenameStream" value="인덱스 항목에 파일 이름 스트림이 없습니다: {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="클러스터가 데이터 실행 제한을 초과합니다" revision="0" />
+  <Message key="DataRunLengthError" value="데이터 실행 길이 오류: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="데이터 실행 디코딩 오류: 크기 = {size}, 오프셋 = {filename}" revision="0" />
+  <Message key="DataRunVCNBound" value="데이터 실행 디코딩 오류: VCN이 경계를 초과합니다" revision="0" />
+  <Message key="DataRunLCN" value="데이터 실행 디코딩 오류: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="알 수 없는 파일 항목" revision="0" />
+  <Message key="FilenameAttributeError" value="{record} 레코드에 대한 파일 특성을 구문 분석하는 중 오류 발생" revision="0" />
+  <Message key="CopyFileError" value="&quot;{filename}&quot; 파일을 복사하는 동안 오류" revision="0" />
+  <Message key="NotImplementedFileError" value="드문, 압축 또는 암호화된 파일 복사가 아직 구현되지 않았습니다: &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="파일 쓰기 오류: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="대상 디스크에 공간이 부족하여 &quot;{filename}&quot;을(를) 복사할 수 없습니다. 이 파일을 복사하려면 사용 가능한 공간이 {filesize}개 이상 필요합니다." revision="0" />
+  <Message key="CopyWarning" value="파일 &quot;{filename}&quot;이(가) 이미 있습니다. 덮어쓰시겠습니까, 건너뜁니까?" revision="0" />
+  <Message key="CreateFileError" value="{error} 파일: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="이 파일 시스템은 볼륨 네비게이터에서 아직 지원되지 않습니다" revision="0" />
+  <Message key="VolumeNavigator" value="볼륨 네비게이터" revision="0" />
+  <Message key="CopyStats" value="{files}개의 파일이 복사되었습니다.\r\n{folders}개의 폴더가 복사되었습니다.\r\n{bytes}바이트가 복사되었습니다.\r\n{filename} 파일에 실패했습니다.\r\n{filename}개의 파일을 건너뛰었습니다." revision="0" />
+  <Message key="Copy Files Report" value="파일 복사 보고서" revision="0" />
+  <Message key="Overwrite Warning" value="덮어쓰기 경고" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="모든 충돌에 대해 이 작업 수행(&amp;D)" revision="0" />
+  <Message key="&amp;Overwrite" value="덮어쓰기(&amp;O)" revision="0" />
+  <Message key="&amp;Skip" value="건너뛰기(&amp;S)" revision="0" />
+  <Message key="OverwriteWarning" value="&quot;{schemename}&quot; 구성표가 이미 있습니다. 덮어쓰시겠습니까?" revision="0" />
+  <Message key="UnsavedWarning" value="현재 구성표가 저장되지 않았습니다. 지금 저장하시겠습니까?" revision="0" />
+  <Message key="DeleteWarning" value="현재 구성표가 삭제됩니다." revision="0" />
+  <Message key="CustomFilesFilter" value="사용자 지정 볼륨 구문 분석기|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="파일 이름을 지정하지 않았습니다." revision="0" />
+  <Message key="CSRootEmpty" value="루트 구조를 지정하지 않았습니다." revision="0" />
+  <Message key="CSCheckStructEmpty" value="검사 구조를 지정하지 않았습니다." revision="0" />
+  <Message key="CSCheckAddressError" value="검사 주소는 숫자여야 합니다." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="구성표 이름을 지정하지 않았습니다." revision="0" />
+  <Message key="CSFileNotFound" value="구조 파일 &quot;{filename}&quot;을(를) 찾을 수 없습니다." revision="0" />
+  <Message key="CSRootNotFound" value="루트 구조 {name}을(를) 찾을 수 없습니다." revision="0" />
+  <Message key="CSBindVolumeError" value="볼륨을 구문 분석하는 동안 오류가 발생했습니다. 구성표 &quot;{name}&quot;, 오류: {error}" revision="0" />
+  <Message key="UnknownPartition" value="파티션 [{index}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="PrivHead 헤더가 잘못되었습니다." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="TocBlock 헤더가 잘못되었습니다." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Vmdb 헤더가 잘못되었습니다." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Vblk의 크기가 섹터 크기의 배수가 아닙니다." revision="0" />
+  <Message key="OpenVolumeWarning" value="선택한 볼륨을 열 수 없습니다" revision="0" />
+  <Message key="GPTParseErrorHeader" value="GUID 파티션 테이블 헤더가 잘못되었습니다." revision="0" />
+  <Message key="Custom Volume Editor" value="사용자 지정 볼륨 편집기" revision="0" />
+  <Message key="File:" value="파일:" revision="0" />
+  <Message key="Checking structure:" value="구조 확인:" revision="0" />
+  <Message key="Checking address:" value="주소 확인:" revision="0" />
+  <Message key="Root structure:" value="루트 구조:" revision="0" />
+  <Message key="Directory entry structure:" value="디렉토리 항목 구조:" revision="0" />
+  <Message key="File entry structure:" value="파일 항목 구조:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="볼륨 네비게이터" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="바이트" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="이름" revision="0" />
+    <Item value="크기" revision="0" />
+    <Item value="속성" revision="0" />
+    <Item value="생성 날짜" revision="0" />
+    <Item value="수정 날짜" revision="0" />
+    <Item value="접근 날짜" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="복사 위치(&amp;C)…" revision="0" />
+    <Item value="선택한 대상에 파일 또는 디렉터리 내용 복사" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="볼륨 복사(&amp;C)…" revision="0" />
+    <Item value="선택한 대상에 모든 볼륨 콘텐츠(파일 및 디렉터리) 복사" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="모든 스트림 데이터 선택(&amp;S)" revision="0" />
+    <Item value="스트림 데이터를 저장하는 모든 클러스터를 선택" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="편집기에서 파일 열기(&amp;O)" revision="0" />
+    <Item value="16진수 편집기 Neo에서 파일 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="포함된 폴더 열기(&amp;F)" revision="0" />
+    <Item value="항목의 포함 폴더 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="상위 항목까지(&amp;U)" revision="0" />
+    <Item value="상위 항목까지" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="현재 보기 업데이트(&amp;V)" revision="0" />
+    <Item value="현재 디렉터리 업데이트" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="사용자 지정 볼륨 편집(&amp;V)" revision="0" />
+    <Item value="사용자 지정 볼륨 편집 대화 상자 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="볼륨" revision="0" />
+    <Item value="오류" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="볼륨 네비게이터" revision="1" />
+    <Item value="볼륨 네비게이터는 볼륨의 파일 시스템 구조를 검색하고 표시하며, 파일 위치를 찾고 손상된 파일이나 폴더를 복구하는 데 도움이 됩니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="알 수 없음" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="할당되지 않음" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="메타데이터를 찾을 수 없음" revision="0" />
+  <Message key="FileNotFound" value="파일을 찾을 수 없음: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="유형을 찾을 수 없음: {type}" revision="0" />
+  <Message key="IdNotFound" value="ID를 찾을 수 없음: {type}" revision="0" />
+  <Message key="CastError" value="유형 {src_type}을(를) {dst_type}(으)로 캐스팅할 수 없음" revision="0" />
+  <Message key="BitwiseOpError" value="비트 연산 왼쪽 피연산자의 형식이 잘못되었습니다. 정수여야 합니다." revision="0" />
+  <Message key="MethodNotFound" value="메서드가 없습니다." revision="0" />
+  <Message key="ResultNotANumber" value="'repeat-expr'의 결과가 숫자가 아닙니다." revision="0" />
+  <Message key="InvalidArgument" value="잘못된 인수" revision="0" />
+  <Message key="ParamsNumMistmatch" value="잘못된 인수 수입니다. 예상됨: {est}, 수신됨: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="'size' 또는 'size-eos' 중 하나만 지정해야 합니다." revision="0" />
+  <Message key="NoRepeatError" value="'repeat-expr' 블록에 식이 없습니다." revision="0" />
+  <Message key="NoUntilError" value="'repeat-til' 블록에 식이 없습니다." revision="0" />
+  <Message key="BracketsError" value="괄호가 제대로 닫히지 않았습니다." revision="0" />
+  <Message key="CannotMatch" value="'{value}' 값은 '{type}' 유형의 값과 일치할 수 없습니다" revision="0" />
+  <Message key="ContentsError" value="바이트 또는 문자열 배열이어야 합니다" revision="0" />
+  <Message key="ParsingError" value="구문 분석 오류입니다. 예상: {fact}에서 {est}" revision="0" />
+  <Message key="PathNotFound" value="경로를 찾을 수 없음: {path}" revision="0" />
+  <Message key="NotAScope" value="범위가 아님" revision="0" />
+  <Message key="UnknownParam" value="알 수 없는 매개 변수 유형: {type}" revision="0" />
+  <Message key="WrongEndian" value="메타 필드 '{field}'에 알 수 없는 엔디언 유형이 있습니다. 'be' 또는 'le'이어야 합니다" revision="0" />
+</Language>

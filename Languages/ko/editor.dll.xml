@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} 번호 {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="{v}(으)로 가기" revision="0" />
+  <Message key="FileNotSaved" value="현재 문서가 수정되었습니다. 저장하시겠습니까?" revision="0" />
+  <Message key="SaveProtocolFile" value="파일 &quot;{file}&quot; 저장 중 오류 발생: {error text}({error})" revision="0" />
+  <Message key="Error" value="오류" revision="0" />
+  <Message key="Structure Editor" value="구조 편집기" revision="0" />
+  <Message key="Line" value="줄" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;저장되지 않은 현재 구성표&gt;" revision="0" />
+  <Message key="SchemeDelError" value="이 구성표를 삭제할 수 없습니다" revision="0" />
+  <Message key="Coloring" value="채색" revision="0" />
+  <Message key="Structure Editor Page" value="구조 편집기" revision="0" />
+  <Message key="Save" value="저장" revision="0" />
+  <Message key="Delete" value="삭제" revision="0" />
+  <Message key="Font:" value="긂꼴" revision="0" />
+  <Message key="Size:" value="크기:" revision="0" />
+  <Message key="Font color:" value="글꼴 색상:" revision="0" />
+  <Message key="Back color:" value="배경 색상:" revision="0" />
+  <Message key="Bold" value="굵게" revision="0" />
+  <Message key="Italic" value="기울임꼴" revision="0" />
+  <Message key="Reset" value="재설정" revision="0" />
+  <Message key="Find" value="찾기" revision="0" />
+  <Message key="Fi&amp;nd what:" value="찾을 대상(&amp;N)" revision="0" />
+  <Message key="Options" value="옵션" revision="0" />
+  <Message key="Find within" value="찾을 위치" revision="0" />
+  <Message key="Match &amp;whole word only" value="전체 단어만 일치(&amp;W)" revision="0" />
+  <Message key="Match &amp;case" value="대소문자(&amp;C)" revision="0" />
+  <Message key="Whole window" value="전체 창" revision="0" />
+  <Message key="Selection" value="선택 항목" revision="0" />
+  <Message key="&amp;Find" value="찾기(&amp;F)" revision="0" />
+  <Message key="Replace" value="바꾸기" revision="0" />
+  <Message key="Replace with: " value="바꿀 대상:" revision="0" />
+  <Message key="&amp;Find Next" value="다음 찾기(&amp;N)" revision="0" />
+  <Message key="&amp;Replace" value="바꾸기(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="모두 바꾸기(&amp;A)" revision="0" />
+  <Message key="A pattern was not found." value="패턴을 찾을 수 없습니다." revision="0" />
+  <Message key="InvalidColoringScheme" value="색 구성표 이름이 잘못되었습니다." revision="0" />
+  <Message key="OverwriteColoringScheme" value="지정된 구성표가 있습니다. 재정의하시겠습니까?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="바꾸기…" revision="0" />
+    <Item value="바꿀 텍스트" revision="0" />
+  </Enumeration>
+</Language>

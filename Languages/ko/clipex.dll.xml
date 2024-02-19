@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="내보내기 복사(&amp;E)" revision="1" />
+  <Message key="BigSizeNotification" value="큰 텍스트 복사 알림" revision="1" />
+  <Message key="FloatingDigits" value="복사/내보내기 자릿수 이동" revision="1" />
+  <Message key="DoubleDigits" value="이중 복사/내보내기 자릿 수" revision="1" />
+  <Message key="IntelHexColumns" value="Intel HEX 및 Motorola S 형식의 행당 바이트 수" revision="1" />
+  <Message key="EncodedFormat" value="인코딩된 데이터(&amp;E)" revision="1" />
+  <Message key="RawFilter" value="테스트 파일 (*.txt)|*.txt|" revision="1" />
+  <Message key="Little Endian" value="리틀 엔디언" revision="1" />
+  <Message key="Big Endian" value="빅 엔디언" revision="1" />
+  <Message key="FormattedFormat" value="형식화된 값(&amp;F)" revision="1" />
+  <Message key="CopyExportLocalized" value="복사 및 내보내기" revision="2" />
+  <Message key="Export" value="내보내기(&amp;X)" revision="1" />
+  <Message key="BadFormat" value="내보내기 형식은 선택한 데이터를 처리할 수 없습니다" revision="1" />
+  <Message key="BadImportFormat" value="잘못된 데이터 형식입니다." revision="1" />
+  <Message key="ErrorExport" value="출력 파일을 만드는 동안 오류: {text}\r\n(Error code: {code})" revision="1" />
+  <Message key="ErrorExport2" value="데이터 내보내기 오류: {text}\r\n(Error code: {code})" revision="1" />
+  <Message key="ErrorImport" value="16진수 데이터를 가져오는 중 오류: {text}\r\n(Error code: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="16진수 열기" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="클립보드에 복사(&amp;C)" revision="1" />
+  <Message key="&amp;Export" value="내보내기(&amp;E)" revision="1" />
+  <Message key="Format:" value="형식:" revision="1" />
+  <Message key="Merge" value="병합" revision="1" />
+  <Message key="Algorithm:" value="알고리즘:" revision="1" />
+  <Message key="Append" value="첨부" revision="1" />
+  <Message key="&amp;Elements:" value="요소(&amp;E):" revision="1" />
+  <Message key="&amp;Columns:" value="열(&amp;C):" revision="1" />
+  <Message key="&amp;Type:" value="유형(&amp;T):" revision="1" />
+  <Message key="Byte order:" value="바이트 순서:" revision="1" />
+  <Message key="Group:" value="그룹:" revision="1" />
+  <Message key="&amp;Addresses" value="주소(&amp;A)" revision="1" />
+  <Message key="&amp;Text pane" value="텍스트 창(&amp;T)" revision="1" />
+  <Message key="Insert Hex" value="16진수 삽입" revision="1" />
+  <Message key="Insert from" value="삽입 위치" revision="1" />
+  <Message key="Format" value="형식" revision="1" />
+  <Message key="Put the data at" value="데이터를 놓을 위치" revision="1" />
+  <Message key="Clipboard" value="클립보드" revision="1" />
+  <Message key="File:" value="파일:" revision="1" />
+  <Message key="Start of the file" value="파일의 시작" revision="1" />
+  <Message key="Cursor location" value="커서 위치" revision="1" />
+  <Message key="Insert mode" value="삽입 모드" revision="1" />
+  <Message key="Ignore data offset" value="데이터 오프셋 무시" revision="1" />
+  <Message key="Encoding:" value="인코딩:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: HEX 파일을 여는 중 오류: {text} ({code})" revision="3" />
+  <Enumeration key="EditCopyAs">
+    <Item value="다른 이름으로 복사(&amp;A)…" revision="1" />
+    <Item value="선택 항목을 지원되는 형식 중 하나로 변환하여 클립보드에 배치" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="내보내기(&amp;X)…" revision="1" />
+    <Item value="선택 항목 내보내기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="다른 이름으로 붙여넣기(&amp;S)…" revision="1" />
+    <Item value="클립보드의 데이터를 구문 분석하여 문서에 붙여넣기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="16진수 삽입(&amp;H)…" revision="1" />
+    <Item value="ASCII 인코딩 이진 파일 삽입" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="16진수 열기(&amp;H)…" revision="1" />
+    <Item value="ASCII 인코딩 이진 파일 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="새 Intel Hex" revision="0" />
+    <Item value="빈 Intel HEX 파일 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="새 모토로라 S-레코드" revision="0" />
+    <Item value="빈 Motorola S-레코드 파일 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64-인코드" revision="1" />
+    <Item value="UU-인코드" revision="1" />
+    <Item value="인용 인쇄 가능" revision="1" />
+    <Item value="Intel 8비트 HEX" revision="1" />
+    <Item value="Intel 16비트 HEX" revision="1" />
+    <Item value="Intel 32비트 HEX" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="인코딩된 데이터 복사/내보내기" revision="1" />
+    <Item value="인코딩된 데이터 복사/내보내기 기능을 사용하면 현재 선택한 항목을 Base64, UEEncode 또는 따옴표로 묶은 인쇄 가능 형식으로 복사하거나 내보낼 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="포맷된 데이터 복사/내보내기" revision="1" />
+    <Item value="포맷된 데이터 복사/내보내기 기능을 사용하면 코드 창의 내용을 다양한 형식으로 복사하거나 내보낼 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="현재" revision="1" />
+    <Item value="없음" revision="1" />
+    <Item value="시스템 기본값" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="원시 텍스트 복사/내보내기" revision="1" />
+    <Item value="원시 텍스트 복사/내보내기 기능을 사용하면 선택한 인코딩으로 텍스트 창의 내용을 복사하거나 내보낼 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="원시 텍스트(&amp;R)" revision="1" />
+    <Item value="단순 ASCII 또는 UNICODE 문자열로 변환" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="큰 텍스트 복사" revision="1" />
+    <Item value="16진수 편집기 Neo는 많은 양의 텍스트를 클립보드로 복사할 수 있지만 이 텍스트를 다른 응용 프로그램에 붙여넣는 데 문제가 있을 수 있습니다. 계속하시겠습니까?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="16진수 열기/16진수 삽입" revision="1" />
+    <Item value="16진수 열기/16진수 삽입 기능을 사용하면 Intel HEX 또는 Motorola S-레코드 파일을 디코딩하고 이진 콘텐츠를 새 문서 또는 열린 문서 안에 삽입할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="Intel HEX" revision="1" />
+    <Item value="Motorola S-레코드" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="기본값" revision="1" />
+    <Item value="16진수" revision="1" />
+    <Item value="10진수" revision="1" />
+    <Item value="8진수" revision="1" />
+    <Item value="2진수" revision="1" />
+    <Item value="부동" revision="1" />
+    <Item value="이중" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="기본값" revision="1" />
+    <Item value="바이트" revision="1" />
+    <Item value="단어" revision="1" />
+    <Item value="이중 단어" revision="1" />
+    <Item value="사중 단어" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="구분자 없음" revision="1" />
+    <Item value="공백으로 구분된 텍스트" revision="1" />
+    <Item value="쉼표로 구분된 텍스트" revision="1" />
+    <Item value="C/C++ 배열" revision="1" />
+    <Item value="Java 배열" revision="1" />
+    <Item value="Javascript 배열" revision="1" />
+    <Item value="Delphi 배열" revision="1" />
+    <Item value="C# .NET 배열" revision="1" />
+    <Item value="Visual Basic .NET 배열" revision="1" />
+    <Item value="PHP 배열" revision="1" />
+    <Item value="어셈블러 배열" revision="1" />
+  </Enumeration>
+</Language>

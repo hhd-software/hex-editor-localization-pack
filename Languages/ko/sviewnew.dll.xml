@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Update" value="업데이트" revision="0" />
+  <Message key="Assertion Failed" value="주장 실패{has message?}: {message}{?has message}" revision="0" />
+  <Message key="CantEvaluate" value="바인딩 식을 계산할 수 없습니다." revision="0" />
+  <Message key="Structure Viewer" value="구조 뷰어" revision="0" />
+  <Message key="Structure Errors" value="구조 오류" revision="0" />
+  <Message key="Error accessing Clipboard" value="클립보드에 액세스하는 중 오류 발생" revision="0" />
+  <Message key="ModifiedSuffix" value="(수정됨)" revision="0" />
+  <Message key="NotFoundSuffix" value="(찾을 수 없음)" revision="0" />
+  <Message key="FileInUse" value="이 파일은 구조 뷰어에서 사용됩니다. 일부 유형은 바인딩되지 않습니다. 계속하시겠습니까?" revision="0" />
+  <Message key="ConfigurationLost" value="현재 구성이 손실됩니다. 계속하시겠습니까?" revision="0" />
+  <Message key="FileColumn" value="파일" revision="0" />
+  <Message key="Nothing selected" value="아무것도 선택되지 않았습니다" revision="0" />
+  <Message key="Enter file extension" value="파일 확장자 입력" revision="0" />
+  <Message key="No schemes available. Create schemes in Structure Viewer first" value="사용 가능한 계획이 없습니다. 구조 뷰어에서 구성표 먼저 만들기" revision="0" />
+  <Message key="No scheme selected" value="선택된 구성표 없음" revision="0" />
+  <Message key="This extension is already used" value="이 확장은 이미 사용되고 있습니다" revision="0" />
+  <Message key="All associations will be lost. Do you want to continue?" value="모든 연결이 손실됩니다. 계속하시겠습니까?" revision="0" />
+  <Message key="N/A" value="없음" revision="0" />
+  <Message key="Bind is disabled during lengthy operation. Try again later." value="긴 작업 중에는 바인드를 사용할 수 없습니다. 나중에 다시 시도하십시오." revision="0" />
+  <Message key="Do you want to continue and remove the selected structure?" value="계속하여 선택한 구조를 제거하시겠습니까?" revision="0" />
+  <Message key="SchemeNotFound" value="{ext} 파일 확장명에 연결된 구성표 &quot;{scheme}&quot;을(를) 찾을 수 없습니다." revision="0" />
+  <Message key="Structure Viewer: Load Scheme" value="구조물 뷰어: 구성표 불러오기" revision="0" />
+  <Message key="Edit Associations" value="연결 편집" revision="0" />
+  <Message key="Unable to create file" value="CSV 파일을 내보내는 중 오류 발생: {text} ({code})" revision="1" />
+  <Message key="Error saving scheme" value="구성표 저장 오류" revision="0" />
+  <Message key="LengthyOp" value="장시간 작업 중에는 이 작업을 사용할 수 없습니다. 나중에 다시 시도하십시오." revision="0" />
+  <Message key="This scheme can not be removed." value="이 구성표를 제거할 수 없습니다." revision="0" />
+  <Message key="TypeNotFound" value="{typename} (유형을 찾을 수 없음)" revision="0" />
+  <Message key="noname" value="&lt;이름 없음&gt;" revision="0" />
+  <Message key="The file has different version." value="파일의 버전이 다릅니다." revision="0" />
+  <Message key="UnknownType" value="알 수 없는 유형" revision="0" />
+  <Message key="ErrorLoading" value="구조를 불러오는 중 오류:\r\n" revision="0" />
+  <Message key="Associated scheme can not be loaded" value="연결된 구성표를 불러올 수 없습니다." revision="0" />
+  <Message key="Locked" value="구조 뷰어가 현재 잠겨 있습니다. 구성표가 로드되지 않습니다. 나중에 작업을 반복하십시오." revision="0" />
+  <Message key="Modified" value="다음 파일이 Hex Editor Neo 외부에서 수정되었습니다 (총 {n}개 파일):\r\n{files}\r\n다시 불러오시겠습니까?" revision="0" />
+  <Message key="CompileErrors" value="컴파일 오류{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="BindErrors" value="바인드 오류{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Binding Structure" value="구조 바인딩" revision="0" />
+  <Message key="BindError" value="Hex Editor Neo가 $bind 지시문을 처리할 수 없습니다 (유형이 공용인지 확인)." revision="0" />
+  <Message key="Copy to clipboard" value="클립보드에 복사" revision="0" />
+  <Message key="Exporting to file" value="파일로 내보내기" revision="0" />
+  <Message key="Copy/export speed" value="{lines} 줄/s" revision="0" />
+  <Message key="VariableUpdateError" value="Hex Editor Neo는 변수 값을 업데이트할 수 없습니다." revision="0" />
+  <Message key="VariableBindError" value="Hex Editor Neo는 변수를 바인딩할 수 없습니다." revision="0" />
+  <Message key="OnlyFirst" value="첫 번째 { {n} 줄만 is copy?} 클립보드{|is copy}에 복사됩니다{?is copy}. 계속하시겠습니까?" revision="0" />
+  <Message key="SchemeExists" value="구성표가 이미 있습니다. 덮어쓰시겠습니까?" revision="0" />
+  <Message key="Scheme already exists" value="구성표가 이미 있습니다" revision="0" />
+  <Message key="External Editor" value="외부 편집기" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="구조 뷰어에서 사용할 외부 텍스트 파일 편집기를 구성합니다:" revision="0" />
+  <Message key="Clear" value="지우기" revision="0" />
+  <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="팁: 다음 자리 표시자 사용:\   » %path% - 원본 파일에 대한 경로\n   » %line% - 원본 파일에 있는 줄 \   » %pos% - 줄에 위치" revision="0" />
+  <Message key="Library" value="구조 라이브러리" revision="0" />
+  <Message key="Add…" value="추가…" revision="0" />
+  <Message key="Edit…" value="편집…" revision="0" />
+  <Message key="Save Scheme" value="구성표 저장" revision="0" />
+  <Message key="Name:" value="이름:" revision="0" />
+  <Message key="Structure Viewer Page" value="구조 뷰어" revision="0" />
+  <Message key="Include directories" value="디렉터리 포함" revision="0" />
+  <Message key="File associations" value="파일 연결" revision="0" />
+  <Message key="Configure external editor…" value="외부 편집기 구성…" revision="0" />
+  <Message key="Regular expression:" value="정규식:" revision="0" />
+  <Message key="Associated scheme:" value="연결된 구성표:" revision="0" />
+  <Message key="Structure Coloring" value="구조 배색" revision="0" />
+  <Message key="Apply" value="적용" revision="0" />
+  <Message key="Bind Structure" value="바인딩 구조" revision="0" />
+  <Message key="Address" value="주소" revision="0" />
+  <Message key="Hex:" value="16진수:" revision="0" />
+  <Message key="Decimal:" value="10진수:" revision="0" />
+  <Message key="Absolute address" value="절대 주소" revision="0" />
+  <Message key="Relative address" value="상대 주소" revision="0" />
+  <Message key="Cursor" value="커서" revision="0" />
+  <Message key="Expression" value="표현식" revision="0" />
+  <Message key="Bind" value="바인드" revision="0" />
+  <Message key="Definition:" value="정의:" revision="0" />
+  <Message key="Type:" value="유형:" revision="0" />
+  <Message key="Data Inspector" value="데이터 검사기" revision="0" />
+  <Message key="Available starting from Standard Edition" value="Standard Edition부터 사용 가능" revision="0" />
+  <Message key="DataInspCompileError" value="구조가 추가되지 않음:" revision="0" />
+  <Message key="CompileErrorFormat" value=" 줄의 컴파일 오류 {err_line} " revision="0" />
+  <Message key="BindTypeNotFound" value="바인딩 유형 {type}을(를) 찾을 수 없음" revision="0" />
+  <Message key="EmptyDefinition" value="정의 텍스트가 비어 있습니다" revision="0" />
+  <Message key="AddInspectType" value="유형 정의 추가" revision="0" />
+  <Message key="EditInspectType" value="유형 정의 편집" revision="0" />
+  <Message key="DeleteStructFile" value="선택한 파일을 삭제하는 중 오류 발생: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="파일 저장 오류 &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="FileNotSaved" value="현재 문서가 수정되었습니다. 저장하시겠습니까?" revision="0" />
+  <Message key="Files" value="파일" revision="0" />
+  <Message key="Structures" value="구조" revision="0" />
+  <Message key="Data Inspector Color Selection" value="데이터 검사기 색상 선택" revision="0" />
+  <Message key="Background color:" value="배경 색상:" revision="0" />
+  <Message key="Text color:" value="텍스트 색상:" revision="0" />
+  <Message key="Outline color:" value="윤곽선 색상:" revision="0" />
+  <Message key="Add Inspector Type" value="검사기 유형 추가" revision="0" />
+  <Message key="Change Time" value="시간 변경" revision="0" />
+  <Message key="AssignNotification" value="이 유형에 대해 데이터 수정을 사용할 수 없습니다. 유형에 대한 데이터 수정을 활성화하는 방법에 대한 자세한 내용을 보려면 도움말 단추를 클릭하십시오." revision="0" />
+  <Message key="MaxExportStringSize" value="최대 문자열 길이" revision="0" />
+  <Message key="MaxExportObjectFields" value="최대 인라인 필드 또는 배열 항목 수" revision="0" />
+  <Message key="CopyError" value="데이터 복사 오류: {text} ({code})" revision="1" />
+  <Message key="FileExists" value="이 파일은 이미 라이브러리에 추가되었습니다." revision="0" />
+  <Message key="ErrorStartingExternalEditor" value="외부 편집기를 시작하는 동안 오류가 발생했습니다.\r\n\r\n명령 줄: {path}\r\n오류: {error text} ({error})" revision="0" />
+  <Message key="UntrustedEditor" value="다음 명령줄을 사용하여 신뢰할 수 없는 외부 편집기 응용 프로그램을 실행하려고 합니다:\r\n\r\n{path}\r\n\r\n계속하시겠습니까? 예를 누르면 이 응용프로그램이 신뢰할 수 있는 응용프로그램으로 표시됩니다." revision="0" />
+  <Message key="TypeExists" value="이름이 같은 형식이 이미 있습니다." revision="0" />
+  <Message key="StructureFileNotFound" value="{file} 파일이 &quot;{path}&quot; 위치에 없습니다. 라이브러리에서 제거하시겠습니까?" revision="0" />
+  <Message key="toolbar.StructureViewer" value="구조 뷰어" revision="0" />
+  <Message key="toolbar.DataInspector" value="데이터 검사기" revision="0" />
+  <Message key="OpenStructureViewer" value="&quot;구조 뷰어 표시&quot; 메시지 표시" revision="0" />
+  <Message key="Open Structure Viewer" value="구조 뷰어 열기" revision="0" />
+  <Message key="Open Online Repository" value="온라인 리포지토리에서 추가 구조 정의 찾기" revision="0" />
+  <Message key="Skip" value="건너뛰기" revision="0" />
+  <Message key="NoDefinitionText" value="현재 이 파일 형식에 사용할 수 있는 구조 정의가 없습니다. 쉽게 [[[hcreate your own]]]하고 즉시 사용할 수 있습니다." revision="0" />
+  <Message key="ConfirmResetAll" value="이렇게 하면 제공된 모든 구조 정의 파일, 미리 정의된 구성표 및 파일 연결이 복원됩니다. 일부 또는 모든 사용자 지정이 손실될 수 있습니다.\n\n계속하시겠습니까?" revision="0" />
+  <Message key="clr.sview_colors" value="구조 뷰어 색상" revision="0" />
+  <Message key="clr.sview_colors.boundData.fill" value="바인딩된 데이터 배경" revision="0" />
+  <Message key="clr.sview_colors.boundData.stroke" value="바인딩된 데이터 스트로크" revision="0" />
+  <Message key="clr.sview_colors.boundData.text" value="바인딩된 데이터 텍스트" revision="0" />
+  <Message key="clr.sview_colors.selectedField.fill" value="선택한 필드 배경" revision="0" />
+  <Message key="clr.sview_colors.selectedField.stroke" value="선택한 필드 스트로크" revision="0" />
+  <Message key="clr.sview_colors.selectedField.text" value="선택한 필드 텍스트" revision="0" />
+  <Message key="Structure Definition Library Update" value="구조 정의 라이브러리 업데이트" revision="0" />
+  <Message key="DefLibrary Title Text" value="구조 뷰어의 정의 라이브러리에 대한 업데이트가 온라인에서 발견되었습니다. 현재 사용 중인 버전 이후 변경된 목록을 볼 수 있습니다. 지금 업데이트 버튼을 눌러 업데이트를 다운로드합니다." revision="0" />
+  <Message key="&amp;Update Now" value="지금 업데이트(&amp;U)" revision="0" />
+  <Message key="Settings" value="설정(&amp;S)" revision="0" />
+  <Message key="Online Repository" value="온라인 리포지토리…" revision="0" />
+  <Enumeration key="StructureViewerBind">
+    <Item value="바인드…" revision="0" />
+    <Item value="새 구조 바인드" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerClear">
+    <Item value="모두 바인딩 해제" revision="0" />
+    <Item value="바인딩된 모든 구조의 바인딩 해제" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerLibrary">
+    <Item value="라이브러리" revision="1" />
+    <Item value="구조 라이브러리 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerHexMode">
+    <Item value="16진수 값 표시" revision="0" />
+    <Item value="데이터를 10진수 또는 16진수로 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSaveScheme">
+    <Item value="구성표 저장…" revision="0" />
+    <Item value="현재 구조 구성표 저장" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerDeleteScheme">
+    <Item value="구성표 제거" revision="0" />
+    <Item value="현재 구성표 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerSynchronizePosition">
+    <Item value="위치 동기화" revision="0" />
+    <Item value="위치 동기화" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAutorefresh">
+    <Item value="자동 새로 고침" revision="0" />
+    <Item value="데이터가 변경되면 구조가 자동으로 새로 고쳐집니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnline">
+    <Item value="온라인 정의 라이브러리" revision="0" />
+    <Item value="온라인 정의 라이브러리 리포지토리 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerOnlineRepository">
+    <Item value="온라인 리포지토리…" revision="0" />
+    <Item value="새 구조 정의 파일을 다운로드할 수 있는 온라인 리포지토리를 엽니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerAssociations">
+    <Item value="연결…" revision="0" />
+    <Item value="연결 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGlobalColoring">
+    <Item value="글로벌 구조 채색 체계…" revision="0" />
+    <Item value="전역 색 구성표 정의" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerTooltip">
+    <Item value="도구 설명 표시" revision="0" />
+    <Item value="커서 아래의 데이터에 대한 도구 설명에 자세한 필드 정보 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToBookmark">
+    <Item value="북마크할 필드" revision="0" />
+    <Item value="선택한 구조 필드를 북마크로 변환합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item value="NO_ERROR" revision="1" />
+    <Item value="CE001: 요청된 작업이 지정된 데이터 유형에서 허용되지 않거나 여기에 예상되지 않습니다" revision="1" />
+    <Item value="CE002: 0으로 나누기" revision="1" />
+    <Item value="CE003: 지정한 식별자를 찾을 수 없습니다" revision="1" />
+    <Item value="CE004: 스칼라가 필요합니다" revision="1" />
+    <Item value="CE005: 벡터가 필요합니다" revision="1" />
+    <Item value="CE006: 배열 인덱스가 범위를 벗어났습니다" revision="1" />
+    <Item value="CE007: 아직 구현되지 않았습니다" revision="1" />
+    <Item value="CE008: 잘못된 비트 필드 크기" revision="1" />
+    <Item value="CE009: 구문 오류" revision="1" />
+    <Item value="CE010: 유형이 전달로만 선언되었습니다" revision="1" />
+    <Item value="CE011: 동적 유형에 대해 지원되지 않는 작업입니다" revision="1" />
+    <Item value="CE012: 유형이 재정의되었습니다" revision="1" />
+    <Item value="CE013: 주장 실패" revision="1" />
+    <Item value="CE014: 상수 식이 필요합니다" revision="1" />
+    <Item value="CE015: 상수 문자열 식이 필요합니다" revision="1" />
+    <Item value="CE016: 함수 호출에 대한 인수 수가 잘못되었습니다" revision="1" />
+    <Item value="CE017: 색인화되지 않은 배열에 대한 첨자 작업입니다 (힌트: [noindex] 속성 제거)" revision="1" />
+    <Item value="CE018: Javascript 엔진에서 오류가 반환되었습니다" revision="1" />
+    <Item value="CE019: 잘못된 인수" revision="1" />
+    <Item value="CE020: 최대 허용 재귀 깊이에 도달했습니다" revision="1" />
+    <Item value="CE021: 다른 유형의 식이 필요합니다" revision="1" />
+    <Item value="CE022: 전처리 오류" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuStructureViewer">
+    <Item value="구조 뷰어" revision="0" />
+    <Item value="구조 뷰어 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="LibraryColumns">
+    <Item value="파일 " revision="0" />
+    <Item value="구조" revision="0" />
+  </Enumeration>
+  <Enumeration key="AssocColumns">
+    <Item value="정규식" revision="0" />
+    <Item value="구성표" revision="0" />
+  </Enumeration>
+  <Enumeration key="SVColumns">
+    <Item value="이름" revision="0" />
+    <Item value="값" revision="0" />
+    <Item value="주소" revision="0" />
+    <Item value="크기" revision="0" />
+    <Item value="유형" revision="0" />
+    <Item value="설명" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOneStruct">
+    <Item value="구조 뷰어" revision="0" />
+    <Item value="구조 뷰어 기능을 사용하면 헤더 파일에서 불어온 구조 정의에 따라 파일 데이터를 분석할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item value="문서 이름" revision="0" />
+    <Item value="파일" revision="0" />
+    <Item value="유형" revision="0" />
+    <Item value="줄" revision="0" />
+    <Item value="설명" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerToSelection">
+    <Item value="선택 대상" revision="0" />
+    <Item value="필드를 선택 항목으로 변환" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoEnd">
+    <Item value="현재 필드 끝으로 이동" revision="1" />
+    <Item value="현재 필드의 끝으로 커서 이동" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoTypeDef">
+    <Item value="유형 정의로 이동" revision="1" />
+    <Item value="현재 유형 정의가 있는 구조 정의 파일 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoFieldDef">
+    <Item value="필드 정의로 이동" revision="1" />
+    <Item value="현재 필드 정의가 있는 구조 정의 파일 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerGotoValueDef">
+    <Item value="값으로 가기" revision="1" />
+    <Item value="값으로 정의된 오프셋으로 가기" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyQName">
+    <Item value="정규화된 이름 복사" revision="1" />
+    <Item value="필드 한정 이름을 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyValue">
+    <Item value="값 복사" revision="1" />
+    <Item value="클립보드에 값 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyLine">
+    <Item value="줄 복사" revision="1" />
+    <Item value="전체 줄을 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyAll">
+    <Item value="모두 복사" revision="1" />
+    <Item value="전체 창 내용을 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCopyColumn">
+    <Item value="열 복사" revision="1" />
+    <Item value="현재 열을 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExportToCSV">
+    <Item value="CSV 파일로 내보내기…" revision="1" />
+    <Item value="전체 창 내용을 CSV 파일로 내보내기" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandAll">
+    <Item value="모두 확장" revision="1" />
+    <Item value="모든 항목 확장" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseAll">
+    <Item value="모두 축소" revision="1" />
+    <Item value="모든 항목 축소" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerExpandSub">
+    <Item value="항목 확장" revision="1" />
+    <Item value="항목 확장" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerCollapseSub">
+    <Item value="항목 축소" revision="1" />
+    <Item value="항목 축소" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureViewerUnbind">
+    <Item value="바인딩 해제" revision="0" />
+    <Item value="바인딩 해제" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuBind">
+    <Item value="바인드…" revision="0" />
+    <Item value="새 구조 바인드" revision="0" />
+  </Enumeration>
+  <Enumeration key="SViewMenuEdit">
+    <Item value="편집…" revision="0" />
+    <Item value="현재 값 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspectorColumns">
+    <Item value="유형" revision="0" />
+    <Item value="값" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspApplyColoring">
+    <Item value="강조 사용" revision="0" />
+    <Item value="현재 필드 강조 활성화 또는 비활성화" revision="0" />
+  </Enumeration>
+  <Enumeration key="InspChooseColor">
+    <Item value="색상 수정…" revision="0" />
+    <Item value="데이터 검사기 강조 표시 색상 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="AddDefinition">
+    <Item value="새 유형 추가(&amp;N)…" revision="0" />
+    <Item value="새 유형 정의 추가" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditDefinition">
+    <Item value="정의 편집…" revision="0" />
+    <Item value="현재 유형 정의 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoveDefinition">
+    <Item value="정의 제거" revision="0" />
+    <Item value="Remove selected type definition" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuInspectorNew">
+    <Item value="데이터 검사기(&amp;D)" revision="0" />
+    <Item value="데이터 검사기 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDataInspector">
+    <Item value="데이터 검사기" revision="0" />
+    <Item value="데이터 검사기 기능은 커서 아래에 데이터를 다양한 형식으로 표시하여 현재 선택된 필드를 강조 표시합니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="DataIspectorGroups">
+    <Item value="표준 유형" revision="0" />
+    <Item value="사용자 유형" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewDefinitionFile">
+    <Item value="새 구조 파일(&amp;T)" revision="0" />
+    <Item value="빈 구조 정의 파일 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureNewKaitaiFile">
+    <Item value="새 카이타이 파일(&amp;K)" revision="0" />
+    <Item value="빈 카이타이 정의 파일" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureOpenDefinitionFile">
+    <Item value="구조 파일 열기(&amp;S)…" revision="0" />
+    <Item value="구조 정의 파일 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAddCurrent">
+    <Item value="현재 구조 파일 추가(&amp;C)" revision="0" />
+    <Item value="라이브러리에 활성 구조 정의 파일 추가" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAdd">
+    <Item value="구조 파일 추가(&amp;A)…" revision="1" />
+    <Item value="라이브러리에 기존 구조 정의 파일 추가" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureSaveAll">
+    <Item value="모든 구조 파일 저장(&amp;A)" revision="0" />
+    <Item value="열려 있는 모든 구조 정의 파일을 디스크에 저장" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRecompile">
+    <Item value="재컴파일(&amp;R)" revision="0" />
+    <Item value="구조 컴파일" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item value="구조 편집기(&amp;S)" revision="0" />
+    <Item value="구조 편집기 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditValue">
+    <Item value="값 편집(&amp;E)" revision="0" />
+    <Item value="현재 값 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureAutoRecompile">
+    <Item value="자동 재컴파일" revision="0" />
+    <Item value="변경된 경우 소스 파일 자동 재컴파일" revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureRemove">
+    <Item value="구조 파일 제거" revision="1" />
+    <Item value="선택한 원본 파일 제거" revision="1" />
+  </Enumeration>
+  <Enumeration key="StructureOpenFolder">
+    <Item value="선택한 원본 파일 제거" revision="0" />
+    <Item value="구조 파일 폴더 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="CsvSeparator">
+    <Item value="CSV 내보내기 구분자" revision="0" />
+    <Item value="자동" revision="0" />
+    <Item value="쉼표" revision="0" />
+    <Item value="탭" revision="0" />
+    <Item value="세미콜론" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowSVNotification">
+    <Item value="구조 뷰어 열기" revision="0" />
+    <Item value="Hex Editor Neo에는 이 파일 형식에 대한 구조 정의가 포함되어 있으며 해당 구조를 이미 구문 분석했습니다. 구문 분석된 데이터를 보려면 구조 뷰어 도구 창을 여시겠습니까?" revision="0" />
+  </Enumeration>
+</Language>

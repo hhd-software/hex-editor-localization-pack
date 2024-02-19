@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" value="체크섬 계산" revision="1" />
+  <Message key="8-bit sum" value="8비트 합계" revision="1" />
+  <Message key="16-bit sum" value="16비트 합계" revision="1" />
+  <Message key="32-bit sum" value="32비트 합게" revision="1" />
+  <Message key="64-bit sum" value="64비트 합계" revision="1" />
+  <Message key="Zero bits" value="제로 비트" revision="0" />
+  <Message key="One bits" value="1비트" revision="0" />
+  <Message key="Sum of Little-Endian 16-bit values" value="Little-Endian 16비트 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="Big-Endian 16비트 값의 합계" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="Little-Endian 32비트 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="Big-Endian 32비트 값의 합계" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="Little-Endian 64비트 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="Big-Endian 64비트 값의 합계" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="8비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="Little-Endian 16비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="Big-Endian 16비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="Little-Endian 32비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="Big-Endian 32비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="Little-Endian 64비트 부호화 값의 합계" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="Big-Endian 64비트 부호화 값의 합계" revision="1" />
+  <Message key="Custom CRC" value="사용자 지정 CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="일부 값은 16비트에 맞지 않습니다. 0 ~ 0xFFFF(65535) 범위의 16비트 값을 제공하십시오." revision="1" />
+  <Message key="Checksum" value="체크섬" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="체크섬 기능은 선택한 데이터 또는 전체 문서에 대한 다양한 체크섬을 계산합니다." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32비트" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32비트" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64비트" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64비트" revision="0" />
+  <Message key="Custom FNV" value="사용자 지정 FNV-1" revision="0" />
+  <Message key="N/A" value="없음" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="보류 중인 모든 작업이 완료될 때까지 기다려 주십시오." revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="탭으로 구분된 텍스트 파일 (*.tsv)|*.tsv|모든 파일|*|" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: 초기={initial}, 다항식={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64비트 {|is64bit}32비트 {?is64bit}: 소수={prime}, 오프셋 기반={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="체크섬" revision="0" />
+  <Message key="Add Algorithm" value="알고리즘 추가" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="아래 목록에서 추가할 알고리즘을 선택하십시오:" revision="1" />
+  <Message key="Custom CRC Parameters" value="사용자 지정 CRC 매개 변수" revision="1" />
+  <Message key="Initial Value:" value="초기 값:" revision="1" />
+  <Message key="Polynomial:" value="다항식" revision="1" />
+  <Message key="XOR Out:" value="XOR 출력:" revision="1" />
+  <Message key="Hex" value="16진수:" revision="2" />
+  <Message key="Decimal" value="10진수:" revision="2" />
+  <Message key="Reflection In" value="반사 입력" revision="1" />
+  <Message key="Reflection Out" value="반사 출력" revision="1" />
+  <Message key="Name:" value="이름:" revision="0" />
+  <Message key="Checksum Result" value="체크섬 결과" revision="1" />
+  <Message key="Copy" value="복사" revision="1" />
+  <Message key="Size:" value="크기:" revision="1" />
+  <Message key="Separator:" value="구분자:" revision="1" />
+  <Message key="Checksum settings" value="체크섭" revision="0" />
+  <Message key="Custom FNV Parameters" value="사용자 지정 FNV-1 매개변수" revision="0" />
+  <Message key="32-bit" value="32비트" revision="0" />
+  <Message key="64-bit" value="64비트" revision="0" />
+  <Message key="Prime:" value="소수:" revision="0" />
+  <Message key="Offset basis:" value="오프셋 기준:" revision="0" />
+  <Message key="Version:" value="버전:" revision="0" />
+  <Enumeration key="Checksum result separators">
+    <Item value="구분자 없음" revision="1" />
+    <Item value="공백 (' ')" revision="1" />
+    <Item value="쉼표 (',')" revision="1" />
+    <Item value="대시 ('-')" revision="1" />
+    <Item value="콜론 (':')" revision="1" />
+    <Item value="세미 콜론 (';')" revision="1" />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item value="단순 가산기" revision="2" />
+    <Item value="추가 가산기" revision="2" />
+    <Item value="체크섬" revision="2" />
+    <Item value="파울러-놀-보 (FNV) 해시" revision="2" />
+    <Item value="해시" revision="2" />
+    <Item value="서명된 합계-" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item value="체크섬(&amp;C)" revision="0" />
+    <Item value="체크섬 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item value="선택 항목만" revision="1" />
+    <Item value="전체 문서" revision="1" />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item value="알고리즘" revision="1" />
+    <Item value="값 (16진수)" revision="1" />
+    <Item value="값 (10진수)" revision="1" />
+    <Item value="매개변수" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item value="결과 표시" revision="0" />
+    <Item value="선택한 검사 합계 결과를 표시합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item value="새로 고침" revision="0" />
+    <Item value="체크섬 계산 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item value="모두 확인" revision="1" />
+    <Item value="모든 알고리즘 켜기" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item value="모두 선택 취소" revision="1" />
+    <Item value="모든 알고리즘 끄기" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item value="복사" revision="1" />
+    <Item value="선택한 결과를 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item value="모두 복사" revision="1" />
+    <Item value="모든 결과를 클립보드에 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item value="내보내기" revision="1" />
+    <Item value="선택한 결과를 텍스트 파일로 내보내기" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item value="매개 변수…" revision="1" />
+    <Item value="알고리즘 매개 변수 구성" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item value="알고리즘 추가…" revision="1" />
+    <Item value="새 알고리즘 추가" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item value="알고리즘 제거" revision="1" />
+    <Item value="현재 선택한 알고리즘 제거" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item value="알고리즘 목록 재설정" revision="1" />
+    <Item value="알고리즘 목록을 기본값으로 재설정" revision="1" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="CapYes" value="예" revision="1" />
+  <Message key="CapNo" value="아니오" revision="1" />
+  <Message key="DiskInfoFmt" value="섹터당 바이트 수: {bps}\t전체 섹터: {total sectors}\r\n트랙 당 섹터: {sectors per track}\t전체 트랙: {total tracks}\r\n실린더 당 트랙: {tracks per cylinder}\t전체 실린더: {total cylinders}\r\n전체 헤드: {total heads}\r\n\r\n디스크 파티션 테이블:\r\n파티션 유형: {partition type}\r\n파티션 수 {npartitions}\r\n" revision="1" />
+  <Message key="PartitionInfoFmt" value="\r\n파티션 #{partition_n}:\r\n   시작 오프셋: {offset}\r\n   길이: {length}\r\n" revision="1" />
+  <Message key="Unused" value="사용되지 않음" revision="1" />
+  <Message key="PartitionTypeMBRFmt" value="   파티션 유형: {type}\r\n   부트 가능: {bootable}\r\n   인증: {recognized}\r\n   숨김 섹터: {hidden_sectors}\r\n" revision="1" />
+  <Message key="PartitionTypeGPTFmt" value="패턴 유형: {type}\r\n   파티션 ID: {id}\r\n   속성: {attr}\r\n   이름: {name}\r\n" revision="1" />
+  <Message key="Disk: {disk}" value="디스크: {disk} ({serial number})" revision="2" />
+  <Message key="Open Disk" value="디스크 열기" revision="1" />
+  <Message key="Select a physical disk to open" value="열려는 물리적 디스크 선택:" revision="1" />
+  <Message key="Disk information" value="디스크 정보:" revision="1" />
+  <Message key="Open as Read-Only" value="읽기 전용으로 열기" revision="1" />
+  <Message key="Create and open snapshot" value="스냅샷 생성 및 열기" revision="0" />
+  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Hex Editor Neo가 물리적 디스크를 검색하는 동안 기다려 주십시오…" revision="1" />
+  <Message key="General Page" value="일반" revision="1" />
+  <Message key="Using this product you are saving environment!" value="이 제품을 사용하면 환경을 절약할 수 있습니다!" revision="1" />
+  <Message key="EcoMessage" value="\r\nHex Editor Neo의 기본 알고리즘은 작업 시간을 절약하고 에너지와 자원을 훨씬 덜 소비하도록 고도로 최적화되고 신중하게 조정됩니다.\r\n\r\n우리는 미래를 걱정합니다!" revision="1" />
+  <Message key="FeatureNotAvailableTitle" value="기능을 사용할 수 없습니다 ({seconds}초 후 종료…)" revision="1" />
+  <Message key="FeatureNotAvailable" value="사용하려는 {feature} 기능은 현재 버전에서 사용할 수 없으며 {edition} 버전에 포함되어 있습니다. 계속하려면 아래에서 작업을 선택하십시오:" revision="1" />
+  <Message key="FeatureExpired" value="사용하려는 {feature} 기능이 만료되어 {edition} 버전에 속합니다. 계속하려면 아래에서 작업을 선택하십시오:" revision="1" />
+  <Message key="EditionStandard" value="Standard" revision="1" />
+  <Message key="EditionPro" value="Professional" revision="1" />
+  <Message key="EditionUltimate" value="Ultimate" revision="1" />
+  <Message key="Trial period started" value="평가판 사용 기간이 시작되었습니다. 이제 14일 동안 Hex Editor Neo의 모든 기능을 평가할 수 있습니다. 평가판 사용 기간이 끝나면 Free Edition의 기능을 사용하거나 Standard, Professional 또는 Ultimate Edition으로 업그레이드합니다." revision="1" />
+  <Message key="Free started" value="HHD Software Free Hex Editor Neo에 오신 것을 환영합니다. 이제 Hex Editor Neo의 복사본이 FREE 모드로 실행되도록 구성되었습니다. Free Edition에 포함된 다양한 기능을 사용할 수 있습니다.\r\n\r\n언제든지 Standard, Professional 및 Ultimate Edition의 일부인 기능의 평가를 시작할 수도 있습니다." revision="1" />
+  <Message key="R/O" value="R/O" revision="1" />
+  <Message key="Continue in Read-Only mode" value="읽기 전용 모드로 계속" revision="1" />
+  <Message key="Continue in Full mode" value="전체 모드로 계속" revision="0" />
+  <Message key="SavePastePrompt" value="이 파일의 일부를 사용하는 다른 파일이 열려 있습니다. 파일을 닫을 때까지 이 문서의 변경 내용을 저장할 수 없습니다. 파일을 다른 이름으로 저장하시겠습니까?" revision="1" />
+  <Message key="SaveError" value="파일 저장 오류: {text} ({code})" revision="1" />
+  <Message key="SaveErrors" value="저장하는 동안 다음 오류가 발생:\r\n{errors}" revision="1" />
+  <Message key="DocumentChangePrompt" value="현재 문서가 변경되었습니다. 저장하시겠습니까?\r\n\r\n{name}" revision="1" />
+  <Message key="AllFilesFilterString" value="모든 파일|*|" revision="1" />
+  <Message key="AllSupportedFormats" value="지원되는 모든 파일" revision="2" />
+  <Message key="NoLoadHandlersRegistered" value="응용 프로그램이 제대로 설치되지 않았습니다. 응용 프로그램을 다시 설치하십시오." revision="1" />
+  <Message key="OldCommonControls" value="이전 버전의 공통 컨트롤이 탐지되었습니다. 운영 체제에 맞는 최신 서비스 팩과 Internet Explorer를 설치하십시오. 응용 프로그램이 닫힙니다." revision="1" />
+  <Message key="Loading" value="불러오는 중" revision="1" />
+  <Message key="Initializing user interface" value="사용자 인터페이스 초기화 중" revision="1" />
+  <Message key="Finishing initialization" value="초기화 완료 중" revision="1" />
+  <Message key="TooManyDocs" value="컴퓨터가 느려질 수 있으므로 편집기에서 많은 문서를 한 번에 열지 않는 것이 좋습니다. 이 문서를 계속 여시겠습니까?" revision="1" />
+  <Message key="DocumentsBusy" value="하나 이상의 문서가 긴 작업을 처리 중입니다. 응용 프로그램을 닫을 수 없습니다. 먼저 작업을 취소하십시오." revision="1" />
+  <Message key="Application Close" value="응용 프로그램 닫기" revision="1" />
+  <Message key="DocumentsBusySaveAll" value="하나 이상의 문서가 긴 작업을 처리 중입니다. 먼저 작업을 취소하십시오." revision="1" />
+  <Message key="Save All" value="모두 저장" revision="1" />
+  <Message key="Open Shared File" value="공유 파일 열기" revision="1" />
+  <Message key="LoadErrors" value="불러오는 동안 다음 오류가 발생:\r\n{errors}" revision="1" />
+  <Message key="NoHandlersFoundError" value="이 파일을 열 수 있는 처리기를 찾을 수 없습니다." revision="1" />
+  <Message key="VolumeOpenError" value="볼륨을 여는 중 오류 발생: {text} ({code})" revision="1" />
+  <Message key="EditorInitializationError" value="편집기 창을 초기화할 수 없습니다." revision="1" />
+  <Message key="NoEditorsFoundError" value="이 파일에 대해 지원되는 편집기를 찾을 수 없습니다." revision="1" />
+  <Message key="ToolsFilter" value="도구 구성 파일 (*.hexdwc7)|*.hexdwc7|" revision="2" />
+  <Message key="Printing" value="인쇄" revision="1" />
+  <Message key="ActivatePane" value="활성 {pane} 창" revision="1" />
+  <Message key="New Document N" value="새 문서 {ordinal}" revision="1" />
+  <Message key="AlreadyOpened" value="&quot;{path}&quot;: 문서가 편집기에서 이미 열려 있습니다.\r\n" revision="1" />
+  <Message key="UnknownVolume" value="이름 없는 볼륨 {ordinal}" revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo는 다음 문서에 액세스할 수 없었고 문서를 닫아야 했습니다. 다음 문서에 대한 변경 내용을 모두 잃어버렸을 수 있습니다:\r\n{document list}\r\n\r\n나중에 데이터 손실을 방지하려면 먼저 문서를 닫지 않고 제거 가능한 미디어를 제거하지 마십시오." revision="1" />
+  <Message key="Activate this window" value="이 창 활성화" revision="1" />
+  <Message key="Settings" value="설정" revision="1" />
+  <Message key="Search settings" value="설정 검색" revision="0" />
+  <Message key="ElevationError" value="권한을 상승시킬 수 없습니다. 오류 메시지: {error}" revision="1" />
+  <Message key="ElevationErrorTitle" value="권한 상승 오류" revision="1" />
+  <Message key="This toolbar cannot be deleted." value="이 도구모음은 삭제할 수 없습니다." revision="1" />
+  <Message key="Toolbar Deletion Failed" value="도구모음 삭제 실패" revision="1" />
+  <Message key="Invalid toolbar name" value="잘못된 도구모음 이름입니다. 유효한 이름은 문자로 시작해야 합니다." revision="1" />
+  <Message key="Toolbar Creation Failed" value="도구모음 생성 실패" revision="1" />
+  <Message key="Toolbar already exists" value="지정한 이름의 도구모음이 이미 있습니다." revision="1" />
+  <Message key="All commands" value="모든 명령" revision="1" />
+  <Message key="Commands Page" value="명령" revision="1" />
+  <Message key="Toolbars" value="도구모음:" revision="2" />
+  <Message key="New" value="새로 만들기(&amp;N)…" revision="1" />
+  <Message key="Delete" value="삭제(&amp;D)" revision="1" />
+  <Message key="Button size" value="버튼 크기:" revision="1" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="설명을 보거나 도구모음으로 끌 명령을 선택합니다:" revision="1" />
+  <Message key="New Group" value="새 그룹(&amp;G)" revision="0" />
+  <Message key="&lt; Add" value="&lt; 추가(&amp;A)" revision="0" />
+  <Message key="Remove &gt;" value="제거(&amp;R) &gt;" revision="0" />
+  <Message key="Move Up" value="위로 이동(&amp;U)" revision="0" />
+  <Message key="Move Down" value="아래로 이동(&amp;D)" revision="0" />
+  <Message key="Clear" value="지우기(&amp;C)" revision="0" />
+  <Message key="Clip toolbars" value="도구모음 자르기(&amp;C)" revision="0" />
+  <Message key="Wrap toolbars" value="도구모음 줄 바꿈(&amp;W)" revision="0" />
+  <Message key="Keyboard" value="키보드" revision="1" />
+  <Message key="MaxShortcuts" value="명령에 5개 이상의 바로 가기를 할당할 수 없습니다." revision="1" />
+  <Message key="ShortcutExists" value="이 바로가기는 {command}에 대해 이미 정의되어 있습니다. 다시 정의하시겠습니까?" revision="1" />
+  <Message key="Keyboard Page" value="키보드" revision="1" />
+  <Message key="Category" value="범주:" revision="1" />
+  <Message key="Commands" value="명령:" revision="1" />
+  <Message key="Current keys" value="현재 키:" revision="1" />
+  <Message key="Press new shortcut key" value="새 바로 가기 키 누르기(&amp;N):" revision="1" />
+  <Message key="Description" value="설명:" revision="1" />
+  <Message key="Currently assigned to" value="현재 할당됨:" revision="1" />
+  <Message key="Assign" value="할당(&amp;A)" revision="1" />
+  <Message key="Keyboard Map" value="키보드맵(&amp;M)" revision="1" />
+  <Message key="[unassigned]" value="[지정되지 않음]" revision="1" />
+  <Message key="Keyboard Map Dialog" value="키보드맵" revision="1" />
+  <Message key="Print" value="인쇄(&amp;P)" revision="1" />
+  <Message key="General" value="일반" revision="1" />
+  <Message key="HideToolWindows" value="도구 창 숨기기" revision="0" />
+  <Message key="AlwaysCreateBackups" value="항상 백업 만들기" revision="1" />
+  <Message key="LowercaseHex" value="소문자 16진수" revision="1" />
+  <Message key="ConvertFloatingPoint" value="바이트 순서 변경은 부동 소수점 유형에 영향을 미칩니다" revision="1" />
+  <Message key="DocumentsToRemember" value="최근에 사용한 문서 표시" revision="1" />
+  <Message key="ClosesCurrentOnly" value="닫기는 현재 도구 창에만 영향을 줍니다" revision="1" />
+  <Message key="RestoreWindowPosition" value="시작 시 기본 창 위치 복원" revision="1" />
+  <Message key="SkipNagScreen" value="권고 화면 건너뛰기" revision="1" />
+  <Message key="Notifications" value="알림" revision="1" />
+  <Message key="SaveNotification" value="문서 저장" revision="1" />
+  <Message key="OpenDisk" value="볼륨/디스크 열기" revision="1" />
+  <Message key="Task" value="작업" revision="1" />
+  <Message key="Hex Editor Neo trial period has expired." value="Hex Editor Neo 평가 기간이 만료되었습니다." revision="1" />
+  <Message key="Continue in Free Mode" value="무료 모드로 계속" revision="1" />
+  <Message key="Expired." value="만료되었습니다." revision="1" />
+  <Message key="{days} days left" value="{days}일 남음" revision="1" />
+  <Message key="ExpiresOn" value=", {date}에 만료됩니다" revision="1" />
+  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
+  <Message key="OpenLicenseFilter" value="라이선스 파일 (*.hexlic)|*.hexlic|모든 파일|*.*|" revision="1" />
+  <Message key="License Installation" value="라이선스 설치" revision="1" />
+  <Message key="LicenseInstallSuccess" value="라이선스가 성공적으로 설치되었습니다. 응용 프로그램을 다시 시작하는 것이 좋습니다. Hex Editor Neo를 선택해 주셔서 감사합니다!" revision="1" />
+  <Message key="LicenseInstallFailure" value="라이선스 파일 형식이 잘못되었거나 라이센스 파일이 만료되었습니다. 새 라이선스 파일을 다운로드하려면 계정에 로그인하십시오." revision="1" />
+  <Message key="LicenseInstallRemove" value="라이선스를 제거하면 제품이 Free Edition으로 전환됩니다. 계속하시겠습니까?" revision="1" />
+  <Message key="VolumeInfo" value="전체 공간:\t{total_space_kb} ({total_space})\r\n남은 공간:\t{free_space_kb} ({free_space})\r\n사용 가능 공간:\t{available_space_kb} ({available_space})" revision="1" />
+  <Message key="Volume #" value="볼륨: {name}" revision="1" />
+  <Message key="OK" value="확인" revision="1" />
+  <Message key="Cancel" value="취소" revision="1" />
+  <Message key="Reset" value="재설정(&amp;R)" revision="1" />
+  <Message key="Help" value="도움말(&amp;H)" revision="1" />
+  <Message key="Yes" value="예(&amp;Y)" revision="1" />
+  <Message key="No" value="아니오(&amp;N)" revision="1" />
+  <Message key="Close" value="닫기" revision="1" />
+  <Message key="Add" value="추가(&amp;A)" revision="1" />
+  <Message key="Edit" value="편집(&amp;E)" revision="0" />
+  <Message key="Remove" value="제거(&amp;R)" revision="1" />
+  <Message key="Remove All" value="모두 제거(&amp;L)" revision="1" />
+  <Message key="Reset All" value="모두 재설정(&amp;L)" revision="1" />
+  <Message key="Copy" value="복사(&amp;C)" revision="1" />
+  <Message key="Continue" value="계속" revision="1" />
+  <Message key="Import" value="가져오기(&amp;I)…" revision="0" />
+  <Message key="Export" value="내보내기(&amp;E)…" revision="0" />
+  <Message key="KB" value="KB" revision="1" />
+  <Message key="MB" value="MB" revision="1" />
+  <Message key="GB" value="GB" revision="1" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="Regular expression" value="정규식" revision="1" />
+  <Message key="Sub-match:" value="하위 일치:" revision="1" />
+  <Message key="Recent Patterns…" value="최근 패턴…" revision="1" />
+  <Message key="Type:" value="유형:" revision="1" />
+  <Message key="Find what:" value="찾을 내용:" revision="1" />
+  <Message key="FREmpty" value="비어 있음" revision="1" />
+  <Message key="Custom colors:" value="사용자 지정 색상:" revision="1" />
+  <Message key="Default colors:" value="기본 색상:" revision="1" />
+  <Message key="Alpha" value="알파" revision="1" />
+  <Message key="Custom…" value="사용자 지정…" revision="1" />
+  <Message key="Windows Title" value="창" revision="1" />
+  <Message key="Save" value="저장" revision="1" />
+  <Message key="Close Window(s)" value="창 열기" revision="1" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. 버전 {major}.{minor}.{revision}.{build}]]]\n{registered?}등록 사용자 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutBoxDisclaimer" value="경고: 이 컴퓨터 프로그램은 저작권법과 국제 조약의 보호를 받습니다. 본 프로그램 또는 일부 프로그램의 무단 복제 또는 배포는 심각한 민형사상 처벌을 받을 수 있으며, 법에 따라 최대한 기소될 것입니다." revision="1" />
+  <Message key="About Hex Editor Neo" value="{product} 정보" revision="2" />
+  <Message key="Choose Default User Interface Layout" value="기본 사용자 인터페이스 레이아웃 선택" revision="1" />
+  <Message key="Select default interface configuration" value="기본 인터페이스 구성을 선택합니다. 보기 » 사전 정의된 레이아웃 메뉴를 사용하여 언제든지 다른 구성을 선택할 수 있습니다." revision="0" />
+  <Message key="Novice user" value="초보 사용자" revision="1" />
+  <Message key="Advanced user" value="고급 사용자" revision="1" />
+  <Message key="Expert user" value="전문가 사용자" revision="1" />
+  <Message key="Application restart required." value="응용 프로그램을 다시 시작해야 합니다." revision="1" />
+  <Message key="Configure color scheme after I close this window" value="이 창을 닫은 후 색상 구성표 구성" revision="1" />
+  <Message key="Select the size of toolbar buttons:" value="도구모음 버튼 크기 선택:" revision="1" />
+  <Message key="Feature not Available" value="기능을 사용할 수 없음" revision="1" />
+  <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="사용하려는 기능은 현재 버전에서 사용할 수 없습니다.\r\n계속하려면 아래에서 작업을 선택하십시오:" revision="1" />
+  <Message key="New Toolbar" value="새 도구모음" revision="1" />
+  <Message key="Enter toolbar name" value="도구 모음 이름 입력:" revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="가정 및 교육용으로 사용됩니다. 자세한 내용은 [[[hUsage Policy]]] 사용 정책을 참조하십시오." revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="상업적, 정부 또는 군사적 용도의 경우 [hupgrade]가 필요합니다." revision="2" />
+  <Message key="Do not display this warning anymore" value="이 경고를 더 이상 표시하지 않음" revision="1" />
+  <Message key="Save changes to selected documents" value="선택한 문서의 변경 저장:" revision="1" />
+  <Message key="Tasks Page" value="작업" revision="1" />
+  <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Hex Editor Neo의 작업 표시줄 아이콘에서 사용할 수 있는 작업을 지정합니다:" revision="1" />
+  <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo 평가판 기간" revision="1" />
+  <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo가 평가판 모드에서 작동 중입니다. 모든 기능이 활성화되어 있습니다." revision="1" />
+  <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="평가판 사용 기간이 끝난 후에도 Hex Editor Neo는 계속 작동하지만 무료 에디션의 기능만 사용할 수 있습니다." revision="1" />
+  <Message key="Upgrade Now…" value="지금 업그레이드…" revision="1" />
+  <Message key="Compare Editions…" value="에디션 비교…" revision="1" />
+  <Message key="Continue Trial" value="평가판 계속" revision="1" />
+  <Message key="License Management and Upgrading" value="라이선스 관리 및 업그레이드" revision="1" />
+  <Message key="Installed license" value="설치된 라이선스:" revision="1" />
+  <Message key="Start Trial now!" value="지금 평가판 시작!" revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="업그레이드하려는 버전을 선택합니다. 선택한 버전에 대한 자세한 정보를 보려면 &quot;더 많은 정보…&quot; 링크를 사용하고, 버전 비교 표를 보려면 &quot;에디션 비교…&quot; 링크를 사용하십시오." revision="1" />
+  <Message key="Standard Edition:" value="Standard 에디션:" revision="1" />
+  <Message key="More Info…" value="더 많은 정보…" revision="1" />
+  <Message key="Upgrade…" value="업그레이드…" revision="1" />
+  <Message key="Professional Edition:" value="Professional 에디션:" revision="1" />
+  <Message key="Ultimate Edition:" value="Ultimate 에디션:" revision="1" />
+  <Message key="Compare editions…" value="에디션 비교…" revision="1" />
+  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="라이선스 파일을 이미 받은 경우 &quot;라이선스 설치…&quot; 버튼을 클릭합니다." revision="1" />
+  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="라이선스를 갱신해야 하는 경우 &quot;라이선스 다운로드…&quot; 버튼을 클릭합니다 (로그인 및 암호 필요)." revision="1" />
+  <Message key="Install License…" value="라이선스 설치…" revision="1" />
+  <Message key="Download License…" value="라이선스 다운로드…" revision="1" />
+  <Message key="Remove License" value="라이선스 제거" revision="1" />
+  <Message key="Open Volume" value="볼륨 열기" revision="1" />
+  <Message key="Select a volume to open" value="열려는 볼륨 선택:" revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo가 시스템 볼륨을 검색하는 동안 기다려 주십시오…" revision="1" />
+  <Message key="File system capabilities" value="파일 시스템 기능:" revision="1" />
+  <Message key="Space" value="공간:" revision="1" />
+  <Message key="ProgressPleaseWait" value="기다려 주십시오…" revision="1" />
+  <Message key="ProgressPerSec" value="{rate}/초" revision="1" />
+  <Message key="ProgressCalculating" value="계산 중…" revision="1" />
+  <Message key="ProgressDone" value="{percent} % 완료" revision="1" />
+  <Message key="Error" value="오류" revision="0" />
+  <Message key="PredefinedDelete" value="미리 정의된 색 구성표를 삭제할 수 없습니다. 사용자 구성표만 삭제할 수 있습니다" revision="0" />
+  <Message key="Round edges" value="둥근 모서리" revision="0" />
+  <Message key="Text" value="텍스트" revision="0" />
+  <Message key="Coloring" value="채색" revision="0" />
+  <Message key="Background" value="배경" revision="0" />
+  <Message key="Outline" value="윤곽선" revision="0" />
+  <Message key="Coloring Schemes" value="색 구성표" revision="0" />
+  <Message key="Auto Hide" value="자동 숨기기" revision="0" />
+  <Message key="Window list" value="창 목록" revision="0" />
+  <Message key="Switch Window" value="창 전환" revision="0" />
+  <Message key="Active Tool Windows" value="활성 도구 창" revision="0" />
+  <Message key="Active Documents" value="활성 문서" revision="0" />
+  <Message key="Checking for new version" value="새 버전 확인 중" revision="1" />
+  <Message key="You are using the most recent version of the software." value="Hex Editor Neo의 최신 버전을 사용하고 있습니다" revision="1" />
+  <Message key="Language Page" value="언어" revision="0" />
+  <Message key="Downloading language pack" value="언어 팩 다운로드 중" revision="0" />
+  <Message key="Product language" value="제품 언어" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="제품 언어를 변경하려면 Hex Editor Neo를 다시 시작해야 합니다." revision="0" />
+  <Message key="Languages online" value="온라인 언어" revision="0" />
+  <Message key="Refresh" value="새로 고침(&amp;R)" revision="0" />
+  <Message key="ButtonRefreshing" value="새로 고치는 중…" revision="0" />
+  <Message key="Download" value="다운로드(&amp;D)" revision="0" />
+  <Message key="Language pack" value="언어 팩: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="선택한 업데이트를 삭제하면 Hex Editor Neo에서 해당 업데이트를 더 이상 알리지 않습니다. 향후 업데이트에 대한 알림이 계속 표시됩니다.\r\n\r\n선택한 업데이트를 삭제하시겠습니까?" revision="0" />
+  <Message key="LangPackUpdated" value="언어 팩이 업데이트되었습니다. 언어 팩을 다시 불러오려면 응용 프로그램을 다시 시작해야 합니다.\r\n\r\n지금 다시 시작하시겠습니까?" revision="0" />
+  <Message key="SavingAll" value="변경 저장" revision="0" />
+  <Message key="Component Updates" value="구성 요소 업데이트" revision="0" />
+  <Message key="The following updates are found:" value="다음 업데이트가 있습니다:" revision="0" />
+  <Message key="Check for updates" value="업데이트 확인" revision="0" />
+  <Message key="Start Download" value="다운로드 시작" revision="0" />
+  <Message key="View Changes…" value="변경 사항 보기…" revision="0" />
+  <Message key="Discard" value="폐기" revision="0" />
+  <Message key="ActionSelection" value="{name}이(가) 다운로드되었습니다. 그걸로 뭘 하고 싶으세요?" revision="1" />
+  <Message key="CopyError" value="다운로드한 파일({code})을 복사하는 동안 오류가 발생했습니다. 기본 위치에서 설치를 실행하고 있습니다." revision="1" />
+  <Message key="LaunchError" value="다운로드된 이미지를 실행하는 중 오류({code})가 발생했습니다." revision="1" />
+  <Message key="File creation error" value="오류가 발생 {create?}만들기{|create}열기{?create} 파일 &quot;{name}&quot;: {text} ({code})" revision="1" />
+  <Message key="New Version Downloaded" value="새 버전 다운로드" revision="0" />
+  <Message key="Install now" value="지금 설치" revision="1" />
+  <Message key="Make a copy and install now" value="지금 사본을 만들고 설치하십시오" revision="1" />
+  <Message key="LangChanged" value="언어 변경 후 Hex Editor Neo를 재시작해야 합니다. 지금 다시 시작하시겠습니까?" revision="0" />
+  <Message key="ChangeLanguage" value="언어 변경" revision="0" />
+  <Message key="AccessLangsOnline" value="온라인 리포지토리 액세스" revision="0" />
+  <Message key="UseLanguage" value="이 언어 팩 사용" revision="0" />
+  <Message key="I can't find my language in this list." value="이 목록에서 내 언어를 찾을 수 없습니다." revision="0" />
+  <Message key="Credits to" value="제작자:" revision="0" />
+  <Message key="SignatureError" value="Hex Editor Neo가 업데이트를 다운로드했지만 무결성 검사에 실패했습니다. 이는 일시적인 또는 영구적인 네트워크 구성 오류를 나타낼 수 있습니다. 나중에 업데이트해 보십시오." revision="0" />
+  <Message key="ExecutablesFilter" value="실행 가능|*.exe|모든 파일|*.*||" revision="1" />
+  <Message key="YourLanguage" value="온라인에서 사용 가능한 사용자 언어" revision="0" />
+  <Message key="NewBetaVersions" value="새 베타 버전이 탐지됨" revision="0" />
+  <Message key="Language pack storage location" value="언어 팩 저장 위치" revision="0" />
+  <Message key="License Upgrade Notification" value="Hex Editor Neo가 이전 버전에서 라이선스를 감지했습니다. 라이센스를 자동으로 업그레이드할 수 없습니다. 업그레이드된 라이선스를 다운로드하려면 내 계정 섹션에 로그인해야 합니다 (초기 구매 옵션에 따라 추가 요금이 발생할 수 있습니다).\n\n지금 내 계정 섹션으로 이동하시겠습니까?" revision="0" />
+  <Message key="CSVFiles" value="CSV 파일 (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="테마 파일 (*.hextheme)|*.hextheme||" revision="0" />
+  <Message key="Rocket settings" value="도구 창 레이아웃 (도구모음 포함)" revision="0" />
+  <Message key="Bars settings" value="도구모음 레이아웃" revision="0" />
+  <Message key="Windows settings" value="대화 상자 창 위치" revision="0" />
+  <Message key="MRU settings" value="가장 최근에 사용한 문서" revision="0" />
+  <Message key="Theme settings" value="테마" revision="0" />
+  <Message key="Props settings" value="일반 설정" revision="0" />
+  <Message key="Language settings" value="언어 설정" revision="0" />
+  <Message key="Setting files" value="설정 (*.hexset7)|*.hexset7|" revision="1" />
+  <Message key="Export successful" value="설정이 파일에 성공적으로 저장되었습니다." revision="0" />
+  <Message key="Import successful" value="설정을 성공적으로 가져왔습니다." revision="0" />
+  <Message key="toolbar.Standard" value="표준" revision="0" />
+  <Message key="toolbar.Edit" value="편집" revision="0" />
+  <Message key="toolbar.Language" value="언어" revision="0" />
+  <Message key="toolbar.New" value="새로 만들기" revision="0" />
+  <Message key="toolbar.Open" value="열기" revision="0" />
+  <Message key="Settings Page" value="설정" revision="0" />
+  <Message key="Settings Storage Location" value="저장 위치 설정" revision="0" />
+  <Message key="Settings Management" value="설정 관리" revision="0" />
+  <Message key="Export Settings…" value="설정 내보내기…" revision="0" />
+  <Message key="Import Settings…" value="설정 가져오기…" revision="0" />
+  <Message key="Reset Settings…" value="설정 재설정…" revision="0" />
+  <Message key="Ask to import settings" value="지정한 파일이 이미 있습니다. 내용을 지금 가져오시겠습니까? 아니오를 클릭하면 파일이 현재 설정으로 덮어쓰기됩니다." revision="0" />
+  <Message key="Ask to reset settings" value="설정을 재설정하려면 응용 프로그램을 다시 시작해야 합니다. 계속하시겠습니까?" revision="0" />
+  <Message key="Ask to restart" value="가져온 설정을 적용하려면 응용 프로그램을 다시 시작하는 것이 좋습니다. 지금 다시 시작하시겠습니까?" revision="0" />
+  <Message key="Select Components" value="구성 요소 선택" revision="0" />
+  <Message key="Select components:" value="구성 요소 선택:" revision="0" />
+  <Message key="Select all" value="모두 선택" revision="0" />
+  <Message key="Beta Page" value="베타" revision="0" />
+  <Message key="Beta title info" value="이 페이지에서는 선택적 베타 구성 요소를 탐색하고 다운로드할 수 있습니다. 이러한 구성 요소는 실험 기능을 추가하거나 보고된 버그를 수정할 수 있습니다. 설치할 구성 요소를 선택하고 제거할 구성 요소를 선택 취소한 후 업데이트 버튼을 누릅니다." revision="1" />
+  <Message key="BetaUpdateButton" value="업데이트(&amp;U)" revision="0" />
+  <Message key="Available beta modules:" value="사용 가능한 베타 모듈:" revision="0" />
+  <Message key="There are no updates available." value="사용할 수 있는 업데이트가 없습니다." revision="0" />
+  <Message key="BetaInstalled" value="구성 요소 구성이 성공적으로 업데이트되었습니다. 변경 사항을 적용하려면 Hex Editor Neo를 다시 시작해야 합니다." revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}다음 구성 요소가 다운로드 및 설치됩니다:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}다음 구성 요소가 제거됩니다:\r\n\n{deleted components}{?has deleted}\r\n\n계속하시겠습니까?" revision="0" />
+  <Message key="BetaConflicts" value="선택한 구성 요소가 설치된 구성 요소와 충돌하거나 서로 충돌합니다. 계속하려면 다음 구성 요소를 탈거해야 합니다:\r\n\n{components}\r\n\n해당 항목을 제거하고 계속하시겠습니까?" revision="0" />
+  <Message key="BetaHeader" value="베타 버전" revision="0" />
+  <Message key="BetaDownloadError" value="선택한 구성 요소를 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주십시오." revision="1" />
+  <Message key="BetaAdvanced" value="고급(&amp;A)…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="HHD 소프트웨어 지원 담당자가 보낸 업데이트 ID를 입력하십시오:" revision="0" />
+  <Message key="Manual Installation" value="수동 설치" revision="0" />
+  <Message key="Crash Page" value="충돌 보고" revision="0" />
+  <Message key="CrashIntro" value="충돌 보고서 제출 상태에 대한 통지를 받고 보고서를 더 높은 우선순위로 처리하려면 아래 상자에 전자 메일 주소를 입력하십시오. 귀하의 전자 메일 주소는 제출에 대해 논의하는 것 외에 다른 용도로 사용되지 않습니다." revision="0" />
+  <Message key="Report Settings" value="설정" revision="0" />
+  <Message key="Send report automatically" value="보고서 자동 전송(&amp;S)" revision="0" />
+  <Message key="Report verbosity level" value="보고서 상세 수준" revision="0" />
+  <Message key="Minidump" value="미니덤프(&amp;M)" revision="0" />
+  <Message key="Full dump" value="전체 덤프(&amp;F)" revision="0" />
+  <Message key="Minidump description" value="미니 덤프는 일반적으로 크기가 메가바이트 미만이고 충돌에 대한 제한된 정보만 포함합니다. 미니 덤프만으로 문제를 진단할 수 있는 경우도 있지만 충돌을 재현하는 데 필요한 정보가 부족한 경우가 많습니다." revision="0" />
+  <Message key="Full dump description" value="전체 덤프에는 모든 프로세스 주소 공간의 압축 보기가 포함됩니다. 개발자가 충돌을 일으킨 상황을 재현하고 가능한 한 빨리 수정할 수 있도록 하는 것이 가장 좋습니다. 그러나 전체 덤프의 크기는 쉽게 수백 메가바이트에 이를 수 있습니다." revision="0" />
+  <Message key="Privacy Policy" value="개인정보 보호 정책" revision="0" />
+  <Message key="Volume access denied" value="볼륨 정보를 쿼리하는 동안 액세스 거부 오류가 발생했습니다. Hex Editor Neo를 관리자로 다시 실행해 보십시오." revision="0" />
+  <Message key="NA" value="없음" revision="0" />
+  <Message key="Open Device" value="장치 열기" revision="0" />
+  <Message key="Enter the device path to open:" value="열려는 장치 경로 입력:" revision="0" />
+  <Message key="Open device as:" value="다음으로 장치 열기 :" revision="0" />
+  <Message key="Auto" value="자동" revision="0" />
+  <Message key="Physical disk" value="물리적 메모리" revision="0" />
+  <Message key="Volume" value="볼륨" revision="0" />
+  <Message key="Value is out of range" value="지정된 값이 범위를 벗어납니다" revision="0" />
+  <Message key="GenericError" value="작업을 실행하는 중 오류 발생: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="기본 UI 색상" revision="0" />
+  <Message key="clr.default_colors.background" value="배경" revision="0" />
+  <Message key="clr.default_colors.control_background" value="제어 배경" revision="0" />
+  <Message key="clr.default_colors.text" value="텍스트/전경" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="하이퍼링크" revision="0" />
+  <Message key="clr.default_colors.disabled" value="비활성화된 텍스트" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="호버 배경" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="호버 스트로크" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="호버 텍스트" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="선택 항목 배경" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="선택 항목 스트로크" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="선택한 색상" revision="0" />
+  <Message key="clr.menu" value="메뉴 색상" revision="0" />
+  <Message key="clr.menu.background" value="배경" revision="0" />
+  <Message key="clr.menu.text" value="텍스트" revision="0" />
+  <Message key="clr.menu.separator" value="구분자" revision="0" />
+  <Message key="clr.menu.disabled_text" value="비활성화된 텍스트" revision="0" />
+  <Message key="clr.menu.checked" value="확인된 항목 배경" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="확인 및 사용 안 함 항목의 배경" revision="0" />
+  <Message key="clr.menu.hover.fill" value="호버 배경" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="호버 스트로크" revision="0" />
+  <Message key="clr.menu.hover.text" value="호버 텍스트" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="사용 안 함 항목 호버 배경" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="비활성화된 항목 호버 스트로크" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="사용 안 함 항목 호버 텍스트" revision="0" />
+  <Message key="clr.rebar" value="보조 표시줄 색상" revision="0" />
+  <Message key="clr.rebar.background" value="배경" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="쉐브론 도트 채우기 색상" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="쉐브론 도트 스트로크 색상" revision="0" />
+  <Message key="clr.toolbar" value="도구모음 색상" revision="0" />
+  <Message key="clr.toolbar.background" value="배경" revision="0" />
+  <Message key="clr.toolbar.text" value="텍스트" revision="0" />
+  <Message key="clr.toolbar.disabled" value="비활성화된 텍스트" revision="0" />
+  <Message key="clr.toolbar.separator" value="구분자" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="호스트 배경" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="호버 스트로크" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="호버 텍스트" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="누름된 항목의 배경" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="누름된 항목의 스트로크" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="누름된 항목의 텍스트" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="눌렀거나 비활성화된 항목의 배경" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="눌렀거나 비활성화된 항목의 스트로크" revision="0" />
+  <Message key="clr.frame" value="프레임 색상" revision="0" />
+  <Message key="clr.frame.frame.background" value="배경" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="클라이언트 배경" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="문서 프레임 배경" revision="0" />
+  <Message key="clr.frame.frame.border" value="테두리" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="비활성 머리글 배경" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="비활성 머리글 텍스트/스트로크" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="활성 머리글 배경" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="활성 머리글 텍스트/스트로크" revision="0" />
+  <Message key="clr.frame.hover.fill" value="호버 배경" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="호버 스트로크" revision="0" />
+  <Message key="clr.frame.hover.text" value="호버 텍스트" revision="0" />
+  <Message key="clr.frame.title_text" value="제목 텍스트" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="탐색 아이콘 그림자" revision="0" />
+  <Message key="clr.frame.nav.background" value="탐색 아이콘 배경" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="탐색 아이콘 강조" revision="0" />
+  <Message key="clr.frame.nav.header" value="탐색 아이콘 머리글" revision="0" />
+  <Message key="clr.frame.nav.frame" value="탐색 아이콘 테두리" revision="0" />
+  <Message key="Settings group.Visual" value="시각적" revision="0" />
+  <Message key="Settings group.User Interface" value="사용자 인터페이스" revision="0" />
+  <Message key="Settings group.Network" value="네트워크 및 지원" revision="0" />
+  <Message key="Settings group.Editor" value="이진 편집기" revision="0" />
+  <Message key="Settings group.Misc" value="기타" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="구조 뷰어" revision="0" />
+  <Message key="Colors Page" value="테마" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="구성표 이름을 입력하고 저장 버튼을 누릅니다" revision="0" />
+  <Message key="ColorSchemeExists" value="구성표가 이미 있습니다. 재정의하시겠습니까?" revision="0" />
+  <Message key="Theme:" value="테마:" revision="0" />
+  <Message key="Display elements:" value="표시 요소:" revision="0" />
+  <Message key="Automatic" value="자동" revision="0" />
+  <Message key="Current" value="현재" revision="0" />
+  <Message key="Selected" value="선택" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="자동 색상은 현재 운영 체제 색 테마에 따라 달라집니다." revision="0" />
+  <Message key="&amp;Open" value="열기(&amp;O)" revision="0" />
+  <Message key="Novice User Layout" value="초보 사용자 레이아웃" revision="0" />
+  <Message key="Advanced User Layout" value="고급 사용자 레이아웃" revision="0" />
+  <Message key="Expert User Layout" value="전문가 사용자 레이아웃" revision="0" />
+  <Message key="Free Hex Editor Layout" value="무료 Hex Editor 레이아웃" revision="0" />
+  <Message key="Open as binary" value="이진 파일" revision="0" />
+  <Message key="Open Recent" value="열기 {item}" revision="0" />
+  <Message key="Structure definition files" value="구조 정의 파일" revision="0" />
+  <Message key="Kaitai definition files" value="카이타이 정의 파일" revision="0" />
+  <Message key="Sample Text" value="예제 텍스트" revision="0" />
+  <Message key="Default" value="기본값" revision="0" />
+  <Enumeration key="Disk dialog columns">
+    <Item value="물리적 메모리" revision="2" />
+    <Item value="크기" revision="2" />
+    <Item value="장치 ID" revision="2" />
+    <Item value="디스크의 볼륨" revision="2" />
+    <Item value="유형" revision="2" />
+    <Item value="기능" revision="2" />
+    <Item value="일련 번호" revision="2" />
+  </Enumeration>
+  <Enumeration key="Disk capabilities">
+    <Item value="알 수 없음" revision="1" />
+    <Item value="기타" revision="1" />
+    <Item value="순차 액세스" revision="1" />
+    <Item value="랜덤 액세스" revision="1" />
+    <Item value="쓰기 지원" revision="1" />
+    <Item value="암호화" revision="1" />
+    <Item value="압축" revision="1" />
+    <Item value="이동식 미디어 지원" revision="1" />
+    <Item value="수동 청소" revision="1" />
+    <Item value="자동 청소" revision="1" />
+    <Item value="SMART 알림" revision="1" />
+    <Item value="양면 미디어 지원" revision="1" />
+    <Item value="드라이브 분리 전 꺼내기 불필요" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partition types">
+    <Item value="MBR (마스터 부트 레코더)" revision="1" />
+    <Item value="GPT (Guid 파티션 테이블)" revision="1" />
+    <Item value="RAW (파티션 테이블 없음 또는 알 수 없음)" revision="1" />
+  </Enumeration>
+  <Enumeration key="GPTAttributes">
+    <Item value="필수" revision="1" />
+    <Item value="드라이브 문자 없음" revision="1" />
+    <Item value="숨김" revision="1" />
+    <Item value="쉐도우 복사" revision="1" />
+    <Item value="읽기 전용" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionUpgrade">
+    <Item value="지금 업그레이드…" revision="1" />
+    <Item value="이 기능에 액세스하려면 Hex Editor Neo를 업그레이드하십시오" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionCompare">
+    <Item value="에디션 비교…" revision="1" />
+    <Item value="http://www.hhdsoftware.com/dispatch/hex/compare.html" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionStartTrial">
+    <Item value="14일 평가판 시작" revision="1" />
+    <Item value="다음 14일 동안 모든 Hex Editor Neo 기능의 잠금을 해제합니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionClose">
+    <Item value="닫기" revision="1" />
+    <Item value="이 창 닫기" revision="1" />
+  </Enumeration>
+  <Enumeration key="SaveNotificationMsg">
+    <Item value="문서 저장" revision="1" />
+    <Item value="문서를 저장하면 모든 변경 기록이 삭제됩니다. 계속하시겠습니까?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenVolumeDiskWarning">
+    <Item value="볼륨/디스크 열기 경고" revision="1" />
+    <Item value="Hex Editor Neo는 쓰기 액세스 권한이 있는 시스템, 임시 또는 응용 프로그램 볼륨을 여는 것을 금지합니다. 계속하려면 아래에서 작업을 선택하십시오:" revision="1" />
+  </Enumeration>
+  <Enumeration key="New document task">
+    <Item value="새 문서" revision="1" />
+    <Item value="편집기에서 빈 문서 작성" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open volume task">
+    <Item value="볼륨 열기" revision="1" />
+    <Item value="전체 볼륨의 이진 표현 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open disk task">
+    <Item value="디스크 열기" revision="1" />
+    <Item value="물리적 디스크의 이진 표현 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="More tasks task">
+    <Item value="추가 작업…" revision="1" />
+    <Item value="작업 목록 구성" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item value="파일(&amp;F)" revision="0" />
+    <Item value="파일 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item value="새로 만들기(&amp;N)" revision="0" />
+    <Item value="새 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOpen">
+    <Item value="열기(&amp;O)" revision="0" />
+    <Item value="메뉴 그룹 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item value="보기(&amp;V)" revision="0" />
+    <Item value="메뉴 그룹 보기" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item value="도구(&amp;T)" revision="0" />
+    <Item value="도구 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item value="창(&amp;W)" revision="0" />
+    <Item value="창 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item value="도움말(&amp;H)" revision="0" />
+    <Item value="도움말 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item value="도구 창(&amp;T)" revision="0" />
+    <Item value="도구 창 메뉴 그룹" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item value="편집(&amp;E)" revision="0" />
+    <Item value="메뉴 그룹 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenShared">
+    <Item value="공유 열기" revision="1" />
+    <Item value="공유 열기 기능을 사용하면 열려 있는 파일을 다른 응용 프로그램과 공유할 수 있습니다. 변경 비교 옵션을 포함한 다양한 병합 전략이 제공됩니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenMemory">
+    <Item value="물리적 메모리 열기" revision="1" />
+    <Item value="실제 메모리 열기 기능을 사용하면 시스템 실제 메모리에 대한 읽기 전용 보기를 가져올 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenVolume">
+    <Item value="볼륨 열기" revision="1" />
+    <Item value="볼륨 열기 기능을 사용하면 보기 및 편집을 위해 논리 디스크 (볼륨)를 열 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenDisk">
+    <Item value="디스크 열기" revision="1" />
+    <Item value="디스크 열기 기능을 사용하면 실제 디스크를 열어 보고 편집할 수 있습니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item value="명령" revision="1" />
+    <Item value="바로가기" revision="1" />
+    <Item value="설명" revision="1" />
+  </Enumeration>
+  <Enumeration key="Endian">
+    <Item value="기본 바이트 순서" revision="1" />
+    <Item value="리틀-엔디안" revision="1" />
+    <Item value="빅-엔디안" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSwitching">
+    <Item value="Windows 전환 스타일" revision="1" />
+    <Item value="레거시" revision="1" />
+    <Item value="최근에 마지막으로 사용됨" revision="1" />
+    <Item value="탐색 창 사용" revision="1" />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item value="알 수 없음, 응용 프로그램 및/또는 라이선스를 다시 설치합니다." revision="1" />
+    <Item value="무료, 평가 기간이 시작되지 않았습니다." revision="1" />
+    <Item value="무료, 평가판 사용 기간이 {days}일 후에 끝납니다." revision="1" />
+    <Item value="무료, 평가 기간이 끝났습니다." revision="1" />
+    <Item value="Standard Edition 라이선스" revision="1" />
+    <Item value="Professional Edition 라이선스" revision="1" />
+    <Item value="Ultimate Edition 라이선스" revision="1" />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item value="비상업적" revision="1" />
+    <Item value="상업적" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogColumns">
+    <Item value="마운트 지점" revision="2" />
+    <Item value="레이블" revision="2" />
+    <Item value="유형" revision="2" />
+    <Item value="파일 시스템" revision="2" />
+    <Item value="일련 번호" revision="2" />
+    <Item value="고유 ID" revision="2" />
+    <Item value="크기" revision="2" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogDriveType">
+    <Item value="알 수 없음" revision="1" />
+    <Item value="무효한" revision="1" />
+    <Item value="이동식" revision="1" />
+    <Item value="고정식" revision="1" />
+    <Item value="원격" revision="1" />
+    <Item value="CDROM" revision="1" />
+    <Item value="RAMDISK" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeCapabilities">
+    <Item value="대소문자 보호" revision="1" />
+    <Item value="대소문자 구분 검색" revision="1" />
+    <Item value="파일 압축" revision="1" />
+    <Item value="명명된 스트림" revision="1" />
+    <Item value="파일 및 디렉터리 보안" revision="1" />
+    <Item value="읽기 전용" revision="1" />
+    <Item value="단일 순차 쓰기" revision="1" />
+    <Item value="File &amp; Directory Encryption" revision="1" />
+    <Item value="개체 식별자" revision="1" />
+    <Item value="지점 재분석" revision="1" />
+    <Item value="희소 파일" revision="1" />
+    <Item value="트랜잭션" revision="1" />
+    <Item value="Unicode" revision="1" />
+    <Item value="압축 볼륨" revision="1" />
+    <Item value="할당량" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="문자열" revision="1" />
+    <Item value="UNICODE 문자열" revision="1" />
+    <Item value="16진수" revision="1" />
+    <Item value="10진수" revision="1" />
+    <Item value="8진수" revision="1" />
+    <Item value="2진수" revision="1" />
+    <Item value="부동" revision="1" />
+    <Item value="이중" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item value="BYTE" revision="1" />
+    <Item value="WORD" revision="1" />
+    <Item value="DWORD" revision="1" />
+    <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowsDlgColumns">
+    <Item value="이름" revision="1" />
+    <Item value="경로" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNew">
+    <Item value="새 파일(&amp;N)" revision="1" />
+    <Item value="새 빈 파일 만들기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item value="파일 열기(&amp;O)…" revision="1" />
+    <Item value="기존 파일 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item value="저장(&amp;S)" revision="1" />
+    <Item value="활성 문서 저장" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item value="다른 이름으로 저장(&amp;A)…" revision="1" />
+    <Item value="활성 문서를 새 이름으로 저장" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item value="닫기(&amp;C)" revision="1" />
+    <Item value="활성 문서 닫기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileCloseAll">
+    <Item value="모두 닫기(&amp;E)" revision="2" />
+    <Item value="열려 있는 모든 문서 닫기" revision="2" />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item value="종료(&amp;X)" revision="1" />
+    <Item value="응용 프로그램 종료" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item value="실행 취소(&amp;U)" revision="1" />
+    <Item value="마지막 작업 실행 취소" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item value="다시 실행(&amp;R)" revision="1" />
+    <Item value="이전에 실행 취소한 작업 다시 실행" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item value="잘라내기(&amp;T)" revision="1" />
+    <Item value="선택 영역을 잘라내어 클립보드에 놓습니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="복사(&amp;C)" revision="1" />
+    <Item value="선택 영역을 복사하여 클립보드에 놓습니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCutMerged">
+    <Item value="병합 및 잘라내기(&amp;E)" revision="1" />
+    <Item value="선택 영역을 잘라내고 각 블록을 병합한 다음 결과를 클립보드에 넣습니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopyMerged">
+    <Item value="병합 및 복사(&amp;M)" revision="1" />
+    <Item value="선택 영역을 복사하고 각 블록을 병합한 다음 결과를 클립보드에 넣습니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item value="붙여넣기(&amp;P)" revision="1" />
+    <Item value="클립보드 내용 삽입" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item value="구성 가져오기(&amp;I)…" revision="1" />
+    <Item value="도구 창 구성 가져오기" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item value="구성 내보내기(&amp;E)…" revision="1" />
+    <Item value="내보내기 도구 창 구성" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item value="구성 재설정(&amp;R)" revision="1" />
+    <Item value="도구 창 구성 재설정" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item value="미리 정의된 레이아웃" revision="1" />
+    <Item value="미리 정의된 레이아웃" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsUpgrade">
+    <Item value="업그레이드(&amp;U)…" revision="1" />
+    <Item value="Hex Editor Neo를 다른 에디션으로 업그레이드" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item value="설정(&amp;S)…" revision="1" />
+    <Item value="프로그램 설정 관리" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNew">
+    <Item value="새 창(&amp;I)" revision="1" />
+    <Item value="활성 문서에 대한 다른 창 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item value="이전(&amp;P)" revision="1" />
+    <Item value="이전 창으로 전환" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item value="다음(&amp;N)" revision="1" />
+    <Item value="다음 창으로 전환" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item value="창 닫기(&amp;C)" revision="1" />
+    <Item value="활성 창을 닫습니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item value="다음 창(&amp;N)" revision="1" />
+    <Item value="다음 도구 창" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item value="이전 창" revision="1" />
+    <Item value="이전 도구 창" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item value="새 수평 프레임(&amp;H)" revision="1" />
+    <Item value="새 수평 프레임" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item value="새 수직 프레임(&amp;V)" revision="1" />
+    <Item value="새 수직 프레임" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item value="취소(&amp;C)" revision="1" />
+    <Item value="취소" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSplit">
+    <Item value="분할(&amp;S)" revision="1" />
+    <Item value="활성 창을 창으로 분할" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowOpenContainingFolder">
+    <Item value="내용이 있는 폴더 열기(&amp;F)" revision="1" />
+    <Item value="Windows 탐색기를 시작하고 선택한 파일로 이동합니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCopyFullPath">
+    <Item value="전체 경로 복사(&amp;C)" revision="1" />
+    <Item value="파일의 전체 경로를 클립보드로 복사" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item value="창(&amp;W)…" revision="1" />
+    <Item value="열려 있는 모든 문서 창 목록 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item value="도움말 내용(&amp;C)" revision="1" />
+    <Item value="도움말 파일 내용 표시도움말 파일 내용 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpIndex">
+    <Item value="색인(&amp;I)" revision="1" />
+    <Item value="도움말 파일 색인 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpSearch">
+    <Item value="검색(&amp;S)" revision="1" />
+    <Item value="도움말 파일 검색 창 보기" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item value="피드백(&amp;F)" revision="1" />
+    <Item value="제품 사용 피드백 전송" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item value="키보드 맵(&amp;K)" revision="1" />
+    <Item value="키보드 맵 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item value="Hex Editor Neo 정보(&amp;A)" revision="1" />
+    <Item value="이 제품에 대한 정보 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenVolume">
+    <Item value="볼륨 열기(&amp;V)…" revision="1" />
+    <Item value="볼륨 (논리적 디스크) 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDisk">
+    <Item value="물리적 디스크 열기(&amp;H)…" revision="1" />
+    <Item value="물리적 디스크 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item value="장치 열기(&amp;D)…" revision="1" />
+    <Item value="사용자가 제공한 경로를 사용하여 장치 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item value="모두 저장(&amp;L)" revision="1" />
+    <Item value="수정된 모든 문서 저장" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePrint">
+    <Item value="인쇄(&amp;P)…" revision="1" />
+    <Item value="현재 문서 인쇄" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePageSetup">
+    <Item value="페이지 설정(&amp;G)…" revision="1" />
+    <Item value="페이지 설정 대화 상자 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item value="삭제(&amp;D)" revision="1" />
+    <Item value="선택 항목 삭제" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewToggleFullScreen">
+    <Item value="도구 창 전환(&amp;T)" revision="1" />
+    <Item value="모든 도구 창 표시 또는 숨기기" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item value="라이선스 관리(&amp;L)…" revision="1" />
+    <Item value="라이선스 관리 대화 상자 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item value="도킹 가능한 도구 창" revision="1" />
+    <Item value="도킹 가능한 도구 창" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item value="탭으로 된 문서" revision="1" />
+    <Item value="탭으로 된 문서" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewQuickUITweak">
+    <Item value="빠른 UI 조정…" revision="1" />
+    <Item value="초기 UI 구성 창 표시" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenNonLocked">
+    <Item value="공유 파일 열기…" revision="1" />
+    <Item value="공유 모드에서 파일 열기" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditionList">
+    <Item value="알 수 없는 제품 상태" revision="2" />
+    <Item value="Free Edition" revision="2" />
+    <Item value="평가판 사용 기간 시작됨" revision="2" />
+    <Item value="무료 에디션" revision="2" />
+    <Item value="Standard 에디션" revision="2" />
+    <Item value="Professional 에디션" revision="2" />
+    <Item value="Ultimate 에디션" revision="2" />
+  </Enumeration>
+  <Enumeration key="HelpCheck">
+    <Item value="업데이트 확인…" revision="1" />
+    <Item value="제품 또는 해당 구성 요소의 최신 버전을 사용할 수 있는지 확인합니다" revision="1" />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item value="요소" revision="0" />
+    <Item value="현재 버전" revision="0" />
+    <Item value="업데이트 버전" revision="0" />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item value="업데이트 확인" revision="1" />
+    <Item value="매번 실행" revision="1" />
+    <Item value="매주" revision="1" />
+    <Item value="안함" revision="1" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item value="더 많은 언어…" revision="0" />
+    <Item value="온라인에서 더 많은 언어 확인" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item value="온라인 언어 리포지토리" revision="0" />
+    <Item value="Hex Editor Neo를 위해 더 많은 언어 팩을 만드는 데 참여하세요." revision="0" />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item value="언어 변경" revision="0" />
+    <Item value="이 언어 팩은 오픈 소스 커뮤니티에서 만들었습니다. 우리는 이 번역의 품질에 대해 어떠한 책임도 지지 않습니다.\r\n\r\n번역에 오류가 있는 경우 티켓을 제출하거나 직접 수정할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item value="온라인 언어 팩 사용 가능" revision="0" />
+    <Item value="&quot;{language name}&quot;에 대한 Hex Editor Neo 언어 팩을 온라인으로 사용할 수 있습니다. 이 언어 팩을 다운로드하여 사용하시겠습니까?" revision="0" />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item value="레지스트리" revision="0" />
+    <Item value="사용자별 기본 저장 위치입니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item value="휴대용 모드" revision="0" />
+    <Item value="응용 프로그램 설정을 portable.hexset7 파일에 시작 폴더에 저장합니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item value="외부 파일:" revision="0" />
+    <Item value="응용 프로그램 설정을 외부 파일에 저장합니다. 장치 간에 설정을 공유할 공유 위치 (예: OneDrive 또는 Dropbox shared 폴더)를 지정합니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item value="새로운 베타 버전 제공" revision="1" />
+    <Item value="제품 버전에 대해 다운로드할 수 있는 새로운 베타 버전이 있습니다." revision="1" />
+    <Item value="업데이트된 구성 요소 목록을 찾아보고 다운로드하시겠습니까?" revision="1" />
+    <Item value="이 프롬프트는 각 온라인 구성 요소 집합에 대해 한 번만 나타납니다." revision="1" />
+    <Item value="새 베타 버전 확인 안 함" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="호환성 설정이 탐지되었습니다!" revision="0" />
+    <Item value="운영 체제에서 Hex Editor Neo에 대한 호환성 설정을 적용하고 있습니다. 이러한 설정이 적용되면 응용 프로그램이 제대로 작동하지 않을 수 있습니다. 또한 호환성 설정에서 실행하면 성능 및 시각적 품질에 영향을 줄 수 있습니다.\r\n\n지금 수행할 작업을 선택하십시오." revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="실행 계속" revision="0" />
+    <Item value="호환성 설정을 제거하고 응용 프로그램을 다시 시작합니다" revision="0" />
+  </Enumeration>
+</Language>

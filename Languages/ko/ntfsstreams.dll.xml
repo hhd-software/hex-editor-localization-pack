@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="현재 스트림 작업이 완료되거나 취소될 때까지 응용 프로그램을 닫을 수 없습니다." revision="0" />
+  <Message key="NTFS Streams" value="NTFS 스트림" revision="0" />
+  <Message key="OpenOnCreate" value="생성 후 스트림 열기" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="폴더 또는 마스크 구문이 잘못되었습니다." revision="0" />
+  <Message key="Invalid folder list syntax." value="폴더 목록 구문이 잘못되었습니다." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="제외 패턴은 잘못된 정규식입니다." revision="0" />
+  <Message key="InvalidStreamName" value="잘못된 스트림 이름입니다. 이름에는 다음 문자를 사용할 수 없습니다: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="NTFS 스트림(&amp;R)" revision="0" />
+  <Message key="CreateError" value="스트림을 만드는 중 오류 발생: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="스트림을 만드는 동안 다음 오류가 발생:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="작업을 실행 취소할 수 없습니다. 선택한 스트림을 계속 삭제하시겠습니까?" revision="0" />
+  <Message key="DeleteError" value="스트림을 삭제하는 중 오류 발생: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="스트림을 삭제하는 동안 다음 오류가 발생:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="스트림을 여는 동안 다음 오류가 발생:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="이 스트림은 현재 편집기에서 열려 있습니다. 요청한 작업을 수행하기 위해 닫으시겠습니까?" revision="0" />
+  <Message key="RenameError" value="스트림 이름 바꾸기 오류: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="스트림 이름을 변경하는 동안 다음 오류가 발생:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}검색 완료했습니다.{|finished}트림을 검색하는 중…{?finished} {found} 의 스트림 찾음 ({folders}개 폴더의 {files}개 파일을 찾았습니다)." revision="0" />
+  <Message key="StreamSize" value="전체: {size}" revision="1" />
+  <Message key="RenameOperation" value="스트림 이름 변경" revision="0" />
+  <Message key="Find Streams Folder List" value="스트림 폴더 목록 찾기" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="폴더 경로를 입력하거나 찾아보기 버튼을 누릅니다:" revision="0" />
+  <Message key="Folder list:" value="폴더 목록:" revision="0" />
+  <Message key="Move &amp;Up" value="위로 이동(&amp;U)" revision="0" />
+  <Message key="Move &amp;Down" value="아래로 이동((&amp;D)" revision="0" />
+  <Message key="File Stream Name" value="파일 스트림 이름" revision="0" />
+  <Message key="Enter the stream name:" value="스트림 이름 입력:" revision="0" />
+  <Message key="Find Streams" value="스트림 찾기" revision="0" />
+  <Message key="Search in:" value="검색 위치:" revision="0" />
+  <Message key="File types:" value="파일 유형:" revision="0" />
+  <Message key="Larger than:" value="다음보다 크면:" revision="0" />
+  <Message key="Exclude:" value="실행:" revision="0" />
+  <Message key="(regular expression)" value="(정규식)" revision="0" />
+  <Message key="Include sub-folders" value="하위 폴더 포함" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="NTFS 스트림" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="스트림 생성(&amp;C)…" revision="0" />
+    <Item value="새 파일 스트림 만들기" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="스트림 열기(&amp;O)" revision="0" />
+    <Item value="편집기에서 파일 스트림 열기" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="스트림 삭제(&amp;D)…" revision="0" />
+    <Item value="파일 스트림 삭제" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="스트림 이름 변경(&amp;R)…" revision="0" />
+    <Item value="파일 스트림 이름 변경" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="현재 작업 취소(&amp;A)" revision="0" />
+    <Item value="현재 스트림 작업 취소" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="상위 파일 열기(&amp;P)" revision="1" />
+    <Item value="상위 파일, 즉 선택한 스트림이 포함된 파일을 엽니다." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="스트림 찾기…" revision="0" />
+    <Item value="선택한 위치에서 대체 데이터 스트림이 있는 모든 파일을 찾습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="스트림 찾기 모드 종료(&amp;M)" revision="0" />
+    <Item value="스트림 찾기 모드를 종료합니다" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="스트림 이름" revision="0" />
+    <Item value="크기" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="파일" revision="0" />
+    <Item value="스트림" revision="0" />
+    <Item value="크기" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS 스트림(&amp;R)" revision="0" />
+    <Item value="NTFS 스트림 메뉴" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="스트림 찾기" revision="0" />
+    <Item value="스트림 찾기 모듈 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="바이트" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="NTFS 스트림" revision="0" />
+    <Item value="NTFS 스트림 기능을 사용하면 명명된 스트림을 새로 만들고 스트림 이름을 변경하고 삭제할 수 있습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="스트림이 없습니다. 먼저 파일을 저장해야 합니다." revision="0" />
+    <Item value="이것은 스트림입니다. 중첩된 스트림은 파일 시스템에서 지원되지 않습니다." revision="0" />
+    <Item value="스트림을 찾을 수 없습니다." revision="0" />
+    <Item value="스트림이 파일 시스템에서 지원되지 않습니다." revision="0" />
+    <Item value="스트림을 찾는 동안 오류가 발생했습니다." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="스트림 찾기" revision="0" />
+    <Item value="스트림 찾기 기능을 사용하면 디스크에 명명된 스트림이 있는 파일을 검색할 수 있습니다." revision="0" />
+  </Enumeration>
+</Language>
