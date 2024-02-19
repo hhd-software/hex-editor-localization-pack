@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Заметки" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Обновились заметки для файла &quot;{File}&quot;. Вы хотите сохранить их?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Максимальное число аннотаций для файла ({number}) достигнуто." revision="0" />
+  <Message key="toolbar.Annotations" value="Заметки" revision="0" />
+  <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Комментировать диапазон" revision="0" />
+  <Message key="Start:" value="Начало:" revision="0" />
+  <Message key="End:" value="Конец:" revision="0" />
+  <Message key="Text:" value="Текст комментария:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
+  <Message key="IncorrectInputText" value="Должно быть шестнадцатеричное значение" revision="0" />
+  <Message key="Annotations Storage Location" value="Место хранения заметок" revision="0" />
+  <Message key="Auto Select" value="Автовыбор" revision="0" />
+  <Message key="NTFS Stream" value="Поток NTFS" revision="0" />
+  <Message key="File extension suffix:" value="Суффикс расширения файла:" revision="0" />
+  <Message key="Custom Folder:" value="Папка:" revision="0" />
+  <Message key="Clear annotations cache" value="Очистить кэш заметок" revision="0" />
+  <Message key="clr.ann_colors" value="Цвета заметок" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Фон заметок" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Обводка заметок" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Текст заметок" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="Заметки" revision="0" />
+    <Item value="Функция &quot;заметки&quot; позволяет вам добавлять заметки к различным частам файла." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="Добавить заметку…" revision="0" />
+    <Item value="Добавить новую заметку" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="Удалить заметку" revision="0" />
+    <Item value="Удалить заметку" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="Очистить заметки" revision="0" />
+    <Item value="Удалить все заметки" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="&amp;Заметки" revision="0" />
+    <Item value="Меню заметок" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="Комментировать место…" revision="0" />
+    <Item value="Добавить новую заметку по месту курсора" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="Комментировать выделение…" revision="0" />
+    <Item value="Добавить заметку для текущего выделения" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="Редактировать заметку" revision="0" />
+    <Item value="Редактировать выбранную заметку" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="Добавить" revision="1" />
+    <Item value="Применить" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="№" revision="0" />
+    <Item value="Адрес" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Текст" revision="0" />
+  </Enumeration>
+</Language>

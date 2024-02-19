@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Провідник 1" revision="0" />
+  <Message key="Explorer 2" value="Провідник 2" revision="0" />
+  <Message key="Invalid path specified" value="Введено невірний шлях" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(помилка при копіюванні папок)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Помилка при копіюванні наступних файлів:" revision="0" />
+  <Message key="Explorer settings" value="Провідник" revision="0" />
+  <Message key="toolbar.Explorer" value="Провідник" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Попередня" revision="0" />
+    <Item value="Перехід до попередньої позиції" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Наступна" revision="0" />
+    <Item value="Перехід до наступної позиції" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Вище" revision="0" />
+    <Item value="Перейти до батьківської папки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Перейти до поточного" revision="0" />
+    <Item value="Перейти до поточного документа, відкритого в програмі" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Пошук у файлах" revision="0" />
+    <Item value="Відкриває діалог пошуку у файлах" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Папки" revision="0" />
+    <Item value="Перемикає вікно огляду" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Вбудований провідник" revision="0" />
+    <Item value="Вбудований провідник повторює функціонал провідника Windows. Одне вікно провідника доступно в редакції Standard, друге вікно провідника доступно в редакціях Professional та Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="Другий вбудований провідник" revision="0" />
+    <Item value="Вбудований провідник повторює функціонал провідника Windows. Одне вікно провідника доступно в редакції Standard, друге вікно провідника доступно в редакціях Professional та Ultimate." revision="0" />
+  </Enumeration>
+</Language>

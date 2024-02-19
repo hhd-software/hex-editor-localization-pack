@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="Копировать &amp; Экспортировать" revision="1" />
+  <Message key="BigSizeNotification" value="Уведомление о копировании большого текста" revision="1" />
+  <Message key="FloatingDigits" value="Количество знаков при копировании/экспорте типа float" revision="1" />
+  <Message key="DoubleDigits" value="Количество знаков при копировании/экспорте типа double" revision="1" />
+  <Message key="IntelHexColumns" value="Количество байтов на строку для форматов Intel HEX и Motorola S" revision="1" />
+  <Message key="EncodedFormat" value="&amp;Кодированные данные" revision="1" />
+  <Message key="RawFilter" value="Текстовые файлы (*.txt)|*.txt|" revision="1" />
+  <Message key="Little Endian" value="Прямой порядок байтов" revision="1" />
+  <Message key="Big Endian" value="Обратный порядок байтов" revision="1" />
+  <Message key="FormattedFormat" value="&amp;Форматированные значения" revision="1" />
+  <Message key="CopyExportLocalized" value="Копирование и Экспорт" revision="2" />
+  <Message key="Export" value="&amp;Экспорт" revision="1" />
+  <Message key="BadFormat" value="Экспорт не может отформатировать выбранные данные" revision="1" />
+  <Message key="BadImportFormat" value="Неправильный формат данных." revision="1" />
+  <Message key="ErrorExport" value="Ошибка при создании файла вывода: {text}\r\n(Код ошибки: {code})" revision="1" />
+  <Message key="ErrorExport2" value="Ошибка при экспорте данных: {text}\r\n(Код ошибки: {code})" revision="1" />
+  <Message key="ErrorImport" value="Ошибка при импорте данных: {text}\r\n(Код ошибки: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="Открыть Hex" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="&amp;Копировать в буфер обмена" revision="1" />
+  <Message key="&amp;Export" value="&amp;Экспорт" revision="1" />
+  <Message key="Format:" value="Формат:" revision="1" />
+  <Message key="Merge" value="Объединить" revision="1" />
+  <Message key="Algorithm:" value="Алгоритм:" revision="1" />
+  <Message key="Append" value="Добавить" revision="1" />
+  <Message key="&amp;Elements:" value="&amp;Элементы:" revision="1" />
+  <Message key="&amp;Columns:" value="&amp;Колонки:" revision="1" />
+  <Message key="&amp;Type:" value="&amp;Тип:" revision="1" />
+  <Message key="Byte order:" value="Порядок байтов:" revision="1" />
+  <Message key="Group:" value="Группировка:" revision="1" />
+  <Message key="&amp;Addresses" value="&amp;Адреса" revision="1" />
+  <Message key="&amp;Text pane" value="&amp;Текстовая область" revision="1" />
+  <Message key="Insert Hex" value="Вставить HEX" revision="1" />
+  <Message key="Insert from" value="Вставить из" revision="1" />
+  <Message key="Format" value="Формат" revision="1" />
+  <Message key="Put the data at" value="Вставить данные" revision="1" />
+  <Message key="Clipboard" value="Буфера обмена" revision="1" />
+  <Message key="File:" value="Файла:" revision="1" />
+  <Message key="Start of the file" value="В начало файла" revision="1" />
+  <Message key="Cursor location" value="От позиции курсора" revision="1" />
+  <Message key="Insert mode" value="Режим вставки" revision="1" />
+  <Message key="Ignore data offset" value="Игнорировать смещение данных" revision="1" />
+  <Message key="Encoding:" value="Кодировка:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка открытия файла HEX: {text} ({code})" revision="3" />
+  <Enumeration key="EditCopyAs">
+    <Item value="Копировать &amp;как…" revision="1" />
+    <Item value="Перевести выбранное в один из поддерживаемых форматов и послать в буфер обмена" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="&amp;Экспортировать…" revision="1" />
+    <Item value="Экспортировать выделенное" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="Вставить &amp;как…" revision="1" />
+    <Item value="Распознать данные в буфере обмена и вставить их в документ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="Вставить &amp;Hex…" revision="1" />
+    <Item value="Вставить закодированный в ASCII бинарный файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="Открыть &amp;Hex…" revision="1" />
+    <Item value="Открыть закодированный в ASCII бинарный файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="Новый файл Intel Hex" revision="0" />
+    <Item value="Создать пустой файл Intel Hex" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="Новый файл Motorola S-Records" revision="0" />
+    <Item value="Создать пустой файл Motorola S-Records" revision="0" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64-encode" revision="1" />
+    <Item value="UU-encode" revision="1" />
+    <Item value="Quoted-printable" revision="1" />
+    <Item value="Intel 8-bit HEX" revision="1" />
+    <Item value="Intel 16-bit HEX" revision="1" />
+    <Item value="Intel 32-bit HEX" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="Копирование/Экспорт кодированных данных" revision="1" />
+    <Item value="Функция копирования/экспорта кодированных данных позволяет перевести выбранное в форматы Base64, UUEncode или Quoted-Printable" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="Копирование/Экспорт форматированных данных" revision="1" />
+    <Item value="Функция копирования/экспорта кодированных данных позволяет перевести содержимое области кода в множество различных форматов." revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="Текущая" revision="1" />
+    <Item value="Отсуствует" revision="1" />
+    <Item value="Системная" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="Копирование/Экспорт необработанного текста" revision="1" />
+    <Item value="Функция копирования/экспорта необработанного текста позволяет перевести содержимое тектовой области в заданную кодировку." revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="&amp;Необработанный текст" revision="1" />
+    <Item value="Переводит текст в ASCII или UNICODE" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="Копирование большого текста" revision="1" />
+    <Item value="Hex Editor Neo поддерживает передачу в буфер обмена больших объемов текста. Однако, вы можете испытать трудности с вставкой такого объема текста в другие приложения. Продолжить?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="Открыть Hex/Вставить Hex" revision="1" />
+    <Item value="Функция &quot;открыть hex/вставить hex&quot; позволяет декодировать файлы Intel HEX или Motorola S-Records и вставлять их содержимое в открытые документы." revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="Intel HEX" revision="1" />
+    <Item value="Motorola S-Records" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="По умолчанию" revision="1" />
+    <Item value="Шестнадцатеричное " revision="1" />
+    <Item value="Десятичное" revision="1" />
+    <Item value="Восьмеричное" revision="1" />
+    <Item value="Двоичное" revision="1" />
+    <Item value="Одинарная точность" revision="1" />
+    <Item value="Двойная точность" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="По умолчанию" revision="1" />
+    <Item value="Байты" revision="1" />
+    <Item value="Слова" revision="1" />
+    <Item value="Двойные слова" revision="1" />
+    <Item value="Четверные слова" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="Без разделителей" revision="1" />
+    <Item value="Разделение пробелами" revision="1" />
+    <Item value="Разделение запятыми" revision="1" />
+    <Item value="Массив C/C++" revision="1" />
+    <Item value="Массив Java" revision="1" />
+    <Item value="Массив Javascript" revision="1" />
+    <Item value="Массив Delphi" revision="1" />
+    <Item value="Массив C# .NET" revision="1" />
+    <Item value="Массив Visual Basic .NET" revision="1" />
+    <Item value="Массив PHP" revision="1" />
+    <Item value="Массив Assembler" revision="1" />
+  </Enumeration>
+</Language>

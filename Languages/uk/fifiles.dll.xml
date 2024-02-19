@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="Відкриття великої кількості документів може значно уповільнити комп'ютер. Продовження цієї операції не рекомендується. Хочете скасувати операцію?" revision="1" />
+  <Message key="Warning" value="Попередження" revision="1" />
+  <Message key="Error" value="Помилка" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} включень)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Помилка {error_code} ({text_message}) {mode} {path}." revision="1" />
+  <Message key="Invalid folder or mask syntax." value="Невірна папка або помилка в синтаксисі маски." revision="1" />
+  <Message key="Invalid folder list syntax." value="Невірний синтаксис списку папок." revision="1" />
+  <Message key="Find All" value="Знайти все" revision="1" />
+  <Message key="Replace All" value="Замінити все" revision="1" />
+  <Message key="Notifications" value="Повідомлення" revision="1" />
+  <Message key="Find in Files" value="Пошук у файлах" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="Хочете скасувати поточну операцію?" revision="1" />
+  <Message key="Operation cancelled." value="Операція скасована." revision="1" />
+  <Message key="Replace with:" value="Замінити на:" revision="1" />
+  <Message key="Progress message" value="Виконано {percent} %. Перевірено {processed_files} з {total_files}{unfinished?}(…){?unfinished} файлів у {total_folders} папках. {matched} файлів знайдено. Опрацьовано {processed_size} з {total_size}." revision="1" />
+  <Message key="ReplaceNotification" value="Заміна у файлах" revision="1" />
+  <Message key="TextFilesFilterString" value="Текстові файли|*.txt|" revision="0" />
+  <Message key="Exporting" value="Експорт" revision="0" />
+  <Message key="Search in:" value="Шукати в:" revision="1" />
+  <Message key="File types:" value="Маска:" revision="1" />
+  <Message key="Mode:" value="Режим:" revision="1" />
+  <Message key="Include sub-folders" value="Включаючи підпапки" revision="1" />
+  <Message key="Ignore case" value="Ігнорувати регістр" revision="1" />
+  <Message key="Display errors" value="Відображати помилки" revision="1" />
+  <Message key="Include streams" value="Включаючи потоки" revision="1" />
+  <Message key="Find and replace mode" value="Режим пошуку з заміною" revision="1" />
+  <Message key="Find in Files Folder List" value="Список папок для пошуку у файлах" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Введіть шлях до папки або натисніть кнопку огляду:" revision="1" />
+  <Message key="Move Up" value="Ви&amp;ще" revision="1" />
+  <Message key="Move Down" value="Ни&amp;жче" revision="1" />
+  <Message key="Folder list:" value="Список папок:" revision="1" />
+  <Message key="All opened documents" value="Всі відкриті документи" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Пошук у файлах" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="при відкритті" revision="1" />
+    <Item value="при збереженні" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="Пошук до першого включення" revision="1" />
+    <Item value="Пошук всіх включень (повільніше)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="Замінити всі включення та зберегти" revision="1" />
+    <Item value="Замінити всі включення та відкрити" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="Пошук у файлах" revision="1" />
+    <Item value="Запустити модуль Пошук у файлах/Пошук із заміною у файлах" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="&amp;Пошук у файлах" revision="0" />
+    <Item value="Пошук у файлах" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="Пошук у файлах" revision="1" />
+    <Item value="Пошук у файлах дозволяє швидко виконати пошук файлів, що містять задану послідовность, по одній або кількох папках." revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="Пошук із заміною у файлах" revision="1" />
+    <Item value="Пошук із заміною у файлах дозволяє швидко знайти всі задані послідовності у файлах по одній або кількох папках і виконати заміну (видалення) даного включення." revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="Увімкнути опцію &quot;Завжди створювати бекапи&quot; та продовжити." revision="1" />
+    <Item value="Переключитися в режим &quot;замінити все та відкрити&quot;." revision="1" />
+    <Item value="Продовжити в поточному режимі (НЕ рекомендовано)." revision="1" />
+    <Item value="Скасувати" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="Пошук із заміною у файлах" revision="1" />
+    <Item value="Виконання операції &quot;Пошук із заміною у файлах&quot; з вимкненою опцією &quot;Завжди створювати бекапи&quot; може призвести до втрати даних, так як бекапи джерельних файлів не будуть створені. Рекомендується включити опцію &quot;Завжди створювати бекапи&quot;." revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="&amp;Пошук у файлах" revision="0" />
+    <Item value="Пошук (і можлива заміна) послідовності одночасно в декількох файлах." revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="Зупинити пошук" revision="1" />
+    <Item value="Перервати поточну операцію" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="Відкрити файл" revision="1" />
+    <Item value="Відкрити вибраний файл в редакторі." revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="Очистити все" revision="0" />
+    <Item value="Очистити вміст вікна" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="Фоновий режим" revision="0" />
+    <Item value="Переключення фонового режиму (знижує вимоги до системних ресурсів)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="Експорт результатів…" revision="0" />
+    <Item value="Експортувати список знайдених файлів" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="Метадані не знайдені" revision="0" />
+  <Message key="FileNotFound" value="Файл не знайдено: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Тип не знайдено: {type}" revision="0" />
+  <Message key="IdNotFound" value="Ідентифікатор не знайдено: {type}" revision="0" />
+  <Message key="CastError" value="Неможливо привести тип {src_type} до {dst_type}." revision="0" />
+  <Message key="BitwiseOpError" value="Неправильний тип лівого операнда бітової операції. Повинен бути цілим." revision="0" />
+  <Message key="MethodNotFound" value="Метод не існує." revision="0" />
+  <Message key="ResultNotANumber" value="Результат 'repeat-expr' не число." revision="0" />
+  <Message key="InvalidArgument" value="Невірний аргумент" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Неправильна кількість аргументів. Очікується: {est}, отримано: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="Можна вказувати або 'size', або 'size-eos'." revision="0" />
+  <Message key="NoRepeatError" value="Відсутній вираз у блоці 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="Відсутній вираз у блоці 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="Дужка не закрита." revision="0" />
+  <Message key="CannotMatch" value="Значення '{value}' немає у значеннях типу '{type}'." revision="0" />
+  <Message key="ContentsError" value="Має бути масив байтів чи рядок." revision="0" />
+  <Message key="ParsingError" value="Помилка розбору. Очікується {est} у {fact}." revision="0" />
+  <Message key="PathNotFound" value="Шлях не знайдено: {path}" revision="0" />
+  <Message key="NotAScope" value="Чи не область" revision="0" />
+  <Message key="UnknownParam" value="Невідомий тип параметра: {type}" revision="0" />
+  <Message key="WrongEndian" value="Невідомий тип endian у мета-полі '{field}'. Має бути 'be' або 'le'" revision="0" />
+</Language>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ProcessCat" value="Процес" revision="0" />
+  <Message key="RegionInfo" value="[[[uРегіон пам'яті процесу]]]\r  [[[bПочаток регіону:]]] {base} ({base:2})\r  [[[bКінець регіону:]]] {end} ({end:2})\r  [[[bРозмір регіону:]]] {size} ({size:2})\r  [[[bТип:]]] {type}\r  [[[bСтатус:]]] {state}\r  [[[bПрапори:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="Unknown" value="Невідомо" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Start:" value="Початок:" revision="1" />
+  <Message key="End:" value="Кінець:" revision="1" />
+  <Message key="Size:" value="Розмір:" revision="1" />
+  <Message key="Snapshots" value="Знімки" revision="0" />
+  <Message key="clr.pex_colors" value="Кольори вікна процесу" revision="1" />
+  <Message key="clr.pex_colors.NoAccess" value="Регіон &quot;Немає доступу&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="Регіон &quot;Тільки читання&quot;" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="Регіон &quot;Читання/запис&quot;" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="Регіон &quot;Копіювати під час запису&quot;" revision="0" />
+  <Message key="clr.pex_colors.Free" value="Свободний регіон" revision="0" />
+  <Message key="Processes" value="Процеси" revision="0" />
+  <Message key="ProcessToolbar" value="Процеси" revision="0" />
+  <Message key="Process filter" value="Шукати…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="Під час відкриття процесу виникла помилка:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="Спроба закінчити процес спричинила помилку:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="Під час запису дампа виникла помилка:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="Спроба виявити запущений відладчик призвела до помилки:\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="Процес: {name}\nІдентифікатор: {id}\nАрхітектура: {arch}\nКористувач: {user}\nСтатус: {status}\nШлях: {path}\nКомандний рядок: {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bКористувач:]]] {user}, [[[bАрхітектура:]]] {arch}\n[[[bШлях:]]] {path}\n[[[bКомандний рядок:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="Завершений {error}" revision="0" />
+  <Message key="Snapshot creation error" value="Помилка створення знімка {text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [знімок]" revision="0" />
+  <Message key="AskClearSnapshots" value="Це назавжди видалить усі знімки без можливості відновлення. Продовжити?" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="Увімкнути пам'ять повністю під час налагодження знімків" revision="0" />
+  <Message key="DumpCreation" value="Підготовка знімка до налагодження" revision="0" />
+  <Message key="highlightRegions" value="Підсвічувати регіони пам'яті в редакторі" revision="0" />
+  <Message key="NoSnapshotting" value="Windows 7 не підтримує технологію знімків для процесу. Ця технологія доступна починаючи з Windows 8." revision="0" />
+  <Message key="DumpFileFilter" value="Файли дампів|*.dmp|" revision="0" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="Відкрити &amp;процес…" revision="1" />
+    <Item value="Відкрити пам'ять процесу для читання та редагування" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item value="Відкрити п&amp;роцес..." revision="0" />
+    <Item value="Відкрити пам'ять процесу для читання і запису" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item value="Відкрити з&amp;німок процесу..." revision="0" />
+    <Item value="Створити знімок процесу і відкрити його пам'ять" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item value="Показати всі процеси" revision="0" />
+    <Item value="Показати процеси для всіх користувачів" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item value="Автооновлення" revision="0" />
+    <Item value="Автоматично оновлювати список процесів" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item value="Оновити список процесів" revision="0" />
+    <Item value="Оновити список процесів" revision="0" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="Перейти до… (В процесах)" revision="1" />
+    <Item value="Перейти до виділеного в пам'яті процесу регіону" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item value="Створити знімок" revision="0" />
+    <Item value="Створити знімок процесу" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item value="Видалити знімок" revision="0" />
+    <Item value="Видалити знімок процесу" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item value="Порівняти вибрані знімки (вибрати два)" revision="0" />
+    <Item value="Порівняти два вибрані знімки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item value="Очистити знімки" revision="0" />
+    <Item value="Видалити всі знімки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item value="Блоки" revision="0" />
+    <Item value="Показувати блоки пам'яті" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item value="Модулі" revision="0" />
+    <Item value="Показувати модулі" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item value="Режим списку процесів" revision="0" />
+    <Item value="Змінити режим для списку процесів" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item value="Відкрити (Лише для читання)" revision="0" />
+    <Item value="Відкрити регіон у режимі &quot;лише для читання&quot;" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item value="Відкрити (Читання/Запис)" revision="0" />
+    <Item value="Відкрити регіон у режимі &quot;читання і запису&quot;" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item value="Оновити" revision="0" />
+    <Item value="Оновити" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item value="Запустити дизасемблер" revision="0" />
+    <Item value="Запустити дизасемблер на обраний модуль" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item value="Налагодити процес/знімок" revision="0" />
+    <Item value="Запустити зовнішній налагоджувач для обраного процесу або знімка" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item value="Зберегти дамп процесу/знімка…" revision="0" />
+    <Item value="Зберегти дамп поточного стану процесу або обраного знімка у файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item value="Завершити процес" revision="0" />
+    <Item value="Завершити процес" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item value="Змінити кольори…" revision="0" />
+    <Item value="Перейти в розділ &quot;Тема&quot; для зміни кольорів" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="Unknown" revision="1" />
+    <Item value="Image" revision="1" />
+    <Item value="Mapped" revision="1" />
+    <Item value="Private" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="Невідомо" revision="1" />
+    <Item value="Виділено" revision="1" />
+    <Item value="Вільно" revision="1" />
+    <Item value="Резервований" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="Недоступно" revision="2" />
+    <Item value="Тільки читання" revision="2" />
+    <Item value="Читання, запис" revision="2" />
+    <Item value="Копіювання при записі" revision="2" />
+    <Item value="Виконання" revision="2" />
+    <Item value="Виконання, читання" revision="2" />
+    <Item value="Виконання, читання, запис" revision="2" />
+    <Item value="Виконання, Копіювання при записі" revision="2" />
+    <Item value="Захищено" revision="2" />
+    <Item value="Без кешу" revision="2" />
+    <Item value="Комбінування запису" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="Відкрити процес" revision="1" />
+    <Item value="Функція &quot;відкрити процес&quot; дозволяє відкривати для перегляду та редагування пам'ять процесів." revision="1" />
+  </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item value="Переважний зовнішній відладчик" revision="0" />
+    <Item value="Зареєстрований JIT-відладчик" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="Відкрити процес" revision="1" />
+    <Item value="Відкрити пам'ять процесу для перегляду та внесення змін" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="Адреса" revision="1" />
+    <Item value="Розмір" revision="1" />
+    <Item value="Тип" revision="1" />
+    <Item value="Статус" revision="1" />
+    <Item value="Прапори" revision="1" />
+    <Item value="Модуль" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="Ім'я" revision="2" />
+    <Item value="Адреса" revision="2" />
+    <Item value="Розмір" revision="2" />
+    <Item value="Шлях" revision="2" />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item value="Ім'я" revision="0" />
+    <Item value="Ідентифікатор" revision="0" />
+    <Item value="Архітектура" revision="0" />
+    <Item value="Користувач" revision="0" />
+    <Item value="Приватні байти" revision="0" />
+    <Item value="Потоки" revision="0" />
+    <Item value="Командний рядок" revision="0" />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item value="Невідомо" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item value="Запущений" revision="0" />
+    <Item value="Завершений" revision="0" />
+  </Enumeration>
+</Language>

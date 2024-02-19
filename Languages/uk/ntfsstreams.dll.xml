@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="Програма не може бути закрита, поки операція з потоками не завершиться або не буде скасована." revision="0" />
+  <Message key="NTFS Streams" value="Потоки NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Відкривати потік після створення" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Невірний синтаксис папки або маски." revision="0" />
+  <Message key="Invalid folder list syntax." value="Невірний синтаксис списку папок." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Невірна послідовність для виключення." revision="0" />
+  <Message key="InvalidStreamName" value="Невірне ім'я потоку. Ім'я не може містити наступні символи: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="&amp;Потоки NTFS" revision="0" />
+  <Message key="CreateError" value="Помилка при створенні потоку: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Виникла помилка при створенні потоку:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="Ця операція необоротна. Хочете видалити вибрані потоки?" revision="0" />
+  <Message key="DeleteError" value="Помилка при видаленні потоку: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="Виникла помилка при видаленні потоку:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="Виникли помилки при відкритті потоків:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Цей потік відкритий в редакторі. Хочете закрити його для продовження обраної операції?" revision="0" />
+  <Message key="RenameError" value="Помилка при перейменуванні потоку: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Виникла помилка при перейменуванні потоку:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Пошук закінчено.{|finished}Пошук потоків…{?finished} {found} потоків знайдено ({files} файлів у {folders} папках перевірено)." revision="0" />
+  <Message key="StreamSize" value="Всього: {size}" revision="1" />
+  <Message key="RenameOperation" value="Перейменування потоку" revision="0" />
+  <Message key="Find Streams Folder List" value="Пошук у потоках, список папок" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Введіть шлях до папки або натисніть кнопку огляду:" revision="0" />
+  <Message key="Folder list:" value="Список папок:" revision="0" />
+  <Message key="Move &amp;Up" value="Ви&amp;ще" revision="0" />
+  <Message key="Move &amp;Down" value="Ни&amp;жче" revision="0" />
+  <Message key="File Stream Name" value="Ім'я потоку" revision="0" />
+  <Message key="Enter the stream name:" value="Введіть ім'я потоку:" revision="0" />
+  <Message key="Find Streams" value="Пошук потоків" revision="0" />
+  <Message key="Search in:" value="Шукати в:" revision="0" />
+  <Message key="File types:" value="Типи файлів:" revision="0" />
+  <Message key="Larger than:" value="Більше ніж:" revision="0" />
+  <Message key="Exclude:" value="Виключити:" revision="0" />
+  <Message key="(regular expression)" value="(регулярний вираз)" revision="0" />
+  <Message key="Include sub-folders" value="Включаючи підпапки" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Потоки NTFS" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="&amp;Створити потік…" revision="0" />
+    <Item value="Створити новий потік" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="&amp;Відкрити потік(и)" revision="0" />
+    <Item value="Відкрити потік(и) в редакторі" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="В&amp;идалити потік(и)…" revision="0" />
+    <Item value="Видалити потік(и)" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="Пе&amp;рейменувати потік…" revision="0" />
+    <Item value="Перейменувати потік" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="С&amp;касувати поточну операцію" revision="0" />
+    <Item value="Скасувати поточну операцію з потоками" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Відкрити &amp;батьківський файл" revision="1" />
+    <Item value="Відкрити батьківський файл, тобто файл, що містить цей потік." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Знайти потоки…" revision="0" />
+    <Item value="Знайти всі файли з потоками в обраних місцях." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="В&amp;ийти з режиму пошуку" revision="0" />
+    <Item value="Вийти з режиму пошуку потоків" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Ім'я потоку" revision="0" />
+    <Item value="Розмір" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Файл" revision="0" />
+    <Item value="Потік" revision="0" />
+    <Item value="Розмір" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="&amp;Потоки NTFS" revision="0" />
+    <Item value="Потоки NTFS" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Знайти потоки" revision="0" />
+    <Item value="Запустити модуль пошуку потоків" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Байтів" revision="0" />
+    <Item value="КБ" revision="0" />
+    <Item value="МБ" revision="0" />
+    <Item value="ГБ" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="Потоки NTFS" revision="0" />
+    <Item value="Функція &quot;потоки NTFS&quot; дозволяє управляти потоками: створювати, зберігати, перейменовувати та видаляти." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Потоків немає. Спочатку збережіть файл." revision="0" />
+    <Item value="Це потік. Вкладені потоки не підтримуються системою." revision="0" />
+    <Item value="Неможливо знайти потоки." revision="0" />
+    <Item value="Потоки не підтримуються системою." revision="0" />
+    <Item value="Помилка при пошуку потоків." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Знайти потоки" revision="0" />
+    <Item value="Функція &quot;знайти потоки&quot; дозволяє шукати файли, що включають у себе потоки." revision="0" />
+  </Enumeration>
+</Language>

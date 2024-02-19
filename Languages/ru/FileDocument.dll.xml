@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="Хотите отменить операцию? Это испортит содержимое файла." revision="1" />
+  <Message key="OccFound" value="Найдено {N} включений." revision="1" />
+  <Message key="CopiedFragmentName" value="Данные из HHD Hex Editor Neo" revision="3" />
+  <Message key="DefaultBranchName" value="По умолчанию" revision="1" />
+  <Message key="Continue working with a file." value="Продолжение работы с файлом." revision="1" />
+  <Message key="Discard all changes and close the file." value="Отменить изменения и закрыть файл." revision="1" />
+  <Message key="SharedError" value="Ошибка при обновлении файла." revision="1" />
+  <Message key="InvalidChars" value="Класс регулярных выражений содержит ошибочный символ." revision="1" />
+  <Message key="ClassExists" value="Этот класс уже существует. Смените имя класса." revision="1" />
+  <Message key="DeleteClasses?" value="Действительно хотите удалить все классы?" revision="1" />
+  <Message key="LoadError" value="Внутренняя ошибка: {text} ({code})" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="Проверять свободное место на диске перед операциями" revision="1" />
+  <Message key="IgnoreRenames" value="Не переименовывать открытые общие файлы" revision="1" />
+  <Message key="RemovedNotification" value="Общий документ удалён" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="Автоматичеки пытаться открыть через образ диска" revision="0" />
+  <Message key="NewBranchName" value="Ветвь {n}" revision="1" />
+  <Message key="OldVersion" value="{name} (старая версия {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;: Ошибка при создании документа: {text} ({code})" revision="2" />
+  <Message key="LongTime" value="Открытие файла &quot;{path}&quot; в &quot;общем&quot; режиме может занять много времени. Хотите открыть файл в обычном режиме?" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Ошибка при открытии документа: {text} ({code})" revision="3" />
+  <Message key="LowDiskSpace" value="На диске {disk} мало свободного места. Операция не может быть продолжена. Освободите место и попытайтесь снова.\r\n\r\nЗамечание: большинство операций Hex Editor Neo недоступно если на диске с временной папкой мало места. Операция &quot;Сохранить как&quot; доступна, чтобы вы могли записать измененный файл на другой том.\r\n\r\nЭту проверку можно отключить в Инструменты » Настройки » Общие »  Проверять свободное место на диске перед операциями." revision="1" />
+  <Message key="Unknown Process" value="Не установленный процесс" revision="1" />
+  <Message key="Physical Memory" value="Физическая память" revision="1" />
+  <Message key="Shared File Conflict Detected" value="Замечены сторонние изменения в общем файле" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Файл был изменен вне Hex Editor Neo. Какое действие хотите выполнить?" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="Сохранить все изменения и не обновлять файл" revision="1" />
+  <Message key="Discard all changes and close the file" value="Сбросить все изменения и закрыть файл" revision="1" />
+  <Message key="Discard all changes and update the file" value="Сбросить все изменения и обновить файл" revision="1" />
+  <Message key="Retain all changes and update the file" value="Сохранить все изменения и обновить файл" revision="1" />
+  <Message key="Highlight changes in the file" value="Подсветить изменения в файле" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="используя простой алгоритм (быстро, но неточно)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="используя алгоритм поиска различий (медленней, точно)" revision="1" />
+  <Message key="Close older versions of the file" value="Закрыть более старую версию файла" revision="1" />
+  <Message key="Edit Class" value="Редактировать класс" revision="1" />
+  <Message key="Class name (must be unique):" value="Имя класса (уникальное)" revision="1" />
+  <Message key="Regular expression:" value="Регулярное выражение:" revision="1" />
+  <Message key="Regular Expressions" value="Регулярные выражения" revision="1" />
+  <Message key="Regular Expressions Page" value="Регулярные выражения" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Здесь вы можете создавать классы для использования регулярных выражений. Класс может быть регулярным выражением, ссылающимся на другие классы." revision="1" />
+  <Message key="Add…" value="Доб&amp;авить…" revision="1" />
+  <Message key="Edit…" value="&amp;Править…" revision="1" />
+  <Message key="Delete All" value="Удалить &amp;все" revision="1" />
+  <Message key="Global regular expression options:" value="Глобальные параметры выражений:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Точка) метасимвол не совпадает с символом ноль ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Точка) метасимвол не совпадает с символом новой строки ('\\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="Не эскейп пробел не значим" revision="1" />
+  <Message key="Open Shared" value="Открыть общий" revision="1" />
+  <Message key="SnapshotTitle" value="Открыть из образа" revision="0" />
+  <Message key="SnapshotDescription" value="Hex Editor Neo не смог открыть &quot;{path}&quot; из-за следующей ошибки:\r\n    » {text} ({code})\r\n\r\nВы хотите попробовать создать образ диска и открыть файл из этого образа?" revision="0" />
+  <Message key="RegExp settings" value="Классы регулярных выражений" revision="0" />
+  <Message key="Shortcut files" value="Ярлыки" revision="0" />
+  <Enumeration key="ConflictOptions">
+    <Item value="Игнорировать изменения" revision="1" />
+    <Item value="Закрыть файл" revision="1" />
+    <Item value="Обновить файл" revision="1" />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item value="Замечены сторонние изменения в общем файле" revision="1" />
+    <Item value="Файл {name} был удален сторонним приложением. Какое действие предпринять?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item value="Найти все" revision="1" />
+    <Item value="Залить" revision="1" />
+    <Item value="Удалить" revision="1" />
+    <Item value="Сохранить" revision="1" />
+    <Item value="Найти" revision="1" />
+    <Item value="Заменить все" revision="1" />
+    <Item value="Собрать статистику" revision="1" />
+    <Item value="Сохранить как" revision="1" />
+    <Item value="Сохранить историю" revision="1" />
+    <Item value="Загрузить историю" revision="1" />
+    <Item value="Создать патч" revision="1" />
+    <Item value="Выделить изменения" revision="1" />
+    <Item value="Копировать" revision="1" />
+    <Item value="Вставить" revision="1" />
+    <Item value="Склеить историю" revision="1" />
+    <Item value="Статистика вхождений" revision="1" />
+    <Item value="Экспортировать" revision="1" />
+    <Item value="Шифровать" revision="1" />
+    <Item value="Расшифровать" revision="1" />
+    <Item value="Битовая операция" revision="1" />
+    <Item value="Арифметическая операция" revision="1" />
+    <Item value="Операция сдвига" revision="1" />
+    <Item value="Операция обращения" revision="1" />
+    <Item value="Регистровая операция" revision="1" />
+    <Item value="Вставить Hex" revision="1" />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item value="Имя класса" revision="1" />
+    <Item value="Регулярное выражение" revision="1" />
+  </Enumeration>
+</Language>
