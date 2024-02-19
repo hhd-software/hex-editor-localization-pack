@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ProcessCat" value="进程" revision="0" />
+  <Message key="RegionInfo" value="[[[u进程内存范围]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[b区域终点:]]]  {end} ({end:2})\r  [[[b区域大小:]]] {size} ({size:2})\r  [[[b类型:]]]  {type}\r  [[[b状态:]]] {state}\r  [[[b标志:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="Unknown" value="未知" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Start:" value="开始地址:" revision="1" />
+  <Message key="End:" value="结束地址:" revision="1" />
+  <Message key="Size:" value="大小:" revision="1" />
+  <Message key="Snapshots" value="快照" revision="0" />
+  <Message key="clr.pex_colors" value="进程窗口颜色" revision="1" />
+  <Message key="clr.pex_colors.NoAccess" value="禁止进入区域" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="只读区域" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="读/写区域" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="写入区域时复制" revision="0" />
+  <Message key="clr.pex_colors.Free" value="自由区域" revision="0" />
+  <Message key="Processes" value="进程" revision="0" />
+  <Message key="ProcessToolbar" value="进程" revision="0" />
+  <Message key="Process filter" value="搜索进程…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="打开所选进程时发生以下错误:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="进程终止失败，错误如下:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="保存进程转储时出错:\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="查找或运行外部调试器时出错:\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="进程名称: {name}\n进程 ID: {id}\n体系结构: {arch}\n用户: {user}\n状态: {status}\n完整映像路径: {path}\n命令行: {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[b用户:]]] {user}, [[[b体系结构:]]] {arch}\n[[[b完整映像路径:]]] {path}\n[[[b命令行:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="退出时出现{error}" revision="0" />
+  <Message key="Snapshot creation error" value="创建快照时出错:{text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [快照]" revision="0" />
+  <Message key="AskClearSnapshots" value="删除所有进程快照操作无法撤消。您确定要继续吗？" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="调试快照时包括完整的内存" revision="0" />
+  <Message key="DumpCreation" value="为调试准备快照" revision="0" />
+  <Message key="highlightRegions" value="在编辑器窗口中突出显示内存区域" revision="0" />
+  <Message key="NoSnapshotting" value="Windows 7不支持进程快照技术。Windows 8或更高版本的操作系统支持这项技术。" revision="0" />
+  <Message key="DumpFileFilter" value="转储文件|*.dmp|" revision="0" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="打开进程(&amp;R)…" revision="1" />
+    <Item value="打开读取和写入的进程内存" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item value="打开进程…" revision="0" />
+    <Item value="打开进程内存进行读写" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item value="打开进程快照…" revision="0" />
+    <Item value="创建一个进程快照并打开它的内存" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item value="显示所有进程" revision="0" />
+    <Item value="显示所有用户的进程" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item value="自动刷新" revision="0" />
+    <Item value="自动刷新正在运行的进程列表" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item value="刷新进程列表" revision="0" />
+    <Item value="刷新正在运行的进程列表" revision="0" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="转到… (进程中)" revision="1" />
+    <Item value="跳转到编辑的进程内存中的给定节段" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item value="创建快照" revision="0" />
+    <Item value="创建进程快照" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item value="删除快照" revision="0" />
+    <Item value="删除所选快照" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item value="比较选定快照（选择两个）" revision="0" />
+    <Item value="选择两个快照进行比较" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item value="清除快照" revision="0" />
+    <Item value="删除所有进程快照" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item value="块" revision="0" />
+    <Item value="显示进程内存块" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item value="模块" revision="0" />
+    <Item value="显示进程映射模块" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item value="进程区域列表模式" revision="0" />
+    <Item value="更改区域列表中显示的数据类型" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item value="打开（只读）" revision="0" />
+    <Item value="将选定的内存区域开放为只读" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item value="打开（读/写）" revision="0" />
+    <Item value="打开选定的内存区域进行读/写访问" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item value="刷新内存" revision="0" />
+    <Item value="刷新内存" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item value="运行反汇编程序" revision="0" />
+    <Item value="反汇编所选模块" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item value="调试进程/快照" revision="0" />
+    <Item value="启动外部调试器来调试选定的进程快照或运行中的进程" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item value="保存进程/快照转储…" revision="0" />
+    <Item value="将进程的当前状态或选定的快照转储到一个文件中。" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item value="终止进程" revision="0" />
+    <Item value="终止运行中的进程" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item value="改变颜色…" revision="0" />
+    <Item value="进入主题页面，改变进程窗口的颜色" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="未知" revision="1" />
+    <Item value="映像" revision="1" />
+    <Item value="已映射" revision="1" />
+    <Item value="私有" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="未知" revision="1" />
+    <Item value="已提交" revision="1" />
+    <Item value="自由" revision="1" />
+    <Item value="保留" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="禁止访问 " revision="2" />
+    <Item value="只读 " revision="2" />
+    <Item value="读取、写入 " revision="2" />
+    <Item value="写入时复制 " revision="2" />
+    <Item value="执行 " revision="2" />
+    <Item value="执行、读取 " revision="2" />
+    <Item value="执行、读取、写入 " revision="2" />
+    <Item value="写入时执行、复制 " revision="2" />
+    <Item value="保护(保护) " revision="2" />
+    <Item value="非缓存 " revision="2" />
+    <Item value="写入合并" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="打开进程" revision="1" />
+    <Item value="打开进程功能允许你打开一个所选的进程内存地址空间以便查看和编辑。" revision="1" />
+  </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item value="首选的外部调试器" revision="0" />
+    <Item value="已注册的JIT调试器" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="打开进程" revision="1" />
+    <Item value="打开进程内存以便查看和修改" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="地址" revision="1" />
+    <Item value="大小" revision="1" />
+    <Item value="类型" revision="1" />
+    <Item value="状态" revision="1" />
+    <Item value="标志" revision="1" />
+    <Item value="模块" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="名称 " revision="2" />
+    <Item value="地址 " revision="2" />
+    <Item value="大小 " revision="2" />
+    <Item value="路径" revision="2" />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item value="名称" revision="0" />
+    <Item value="进程ID" revision="0" />
+    <Item value="体系结构" revision="0" />
+    <Item value="用户" revision="0" />
+    <Item value="私有字节" revision="0" />
+    <Item value="线程" revision="0" />
+    <Item value="命令行" revision="0" />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item value="未知" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item value="运行" revision="0" />
+    <Item value="结束" revision="0" />
+  </Enumeration>
+</Language>

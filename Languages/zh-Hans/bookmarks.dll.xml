@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Bookmarks" value="书签" revision="0" />
+  <Message key="Progress" value="当前操作正在进行，请等到完成。" revision="0" />
+  <Message key="GroupDelete" value="组将被删除（包括它包含的所有书签），是否要继续？" revision="0" />
+  <Message key="AllDelete" value="所有组都将被删除，你想继续吗？" revision="0" />
+  <Message key="BookmarkGroup" value="书签组 {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="创建书签组错误" revision="0" />
+  <Message key="SelWarning" value="当前选择包含多个片段。每一个都将作为单独的书签被添加。你想继续吗？" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="将选择转换为书签时出错" revision="0" />
+  <Message key="Error converting bookmark to selection" value="将书签转换为选择时出错" revision="0" />
+  <Message key="AllBookmarksDelete" value="所有的书签将被删除。你想继续吗？" revision="0" />
+  <Message key="Error loading from file" value="文件加载时出错" revision="0" />
+  <Message key="File has different version" value="文件有不同的版本" revision="0" />
+  <Message key="Error loading bookmarks" value="加载书签时出错" revision="0" />
+  <Message key="Select Action" value="选择操作" revision="0" />
+  <Message key="New selection" value="新选择" revision="0" />
+  <Message key="Add to selection" value="添加到选择" revision="0" />
+  <Message key="Subtract from selection" value="从所选内容中减去" revision="0" />
+  <Message key="Edit Group" value="编辑组" revision="0" />
+  <Message key="Name:" value="名称:" revision="0" />
+  <Message key="Text:" value="文本:" revision="0" />
+  <Message key="Background:" value="背景:" revision="0" />
+  <Message key="Outline:" value="概要：" revision="0" />
+  <Message key="Round edges" value="圆边" revision="0" />
+  <Message key="BookmarksFilterString" value="书签文件 (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="选择文件 (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="显示选定内容到书签的转换警告" revision="1" />
+  <Message key="MergeBookmarks" value="是否要与现有书签合并。" revision="0" />
+  <Message key="toolbar.Bookmarks" value="书签" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="新建书签组" revision="0" />
+    <Item value="创建新书签组" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="切换书签" revision="0" />
+    <Item value="在当前位置放置或删除书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="上一个书签" revision="0" />
+    <Item value="转到上一个书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="下一个书签" revision="0" />
+    <Item value="转到下一个书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="将选择加入书签" revision="0" />
+    <Item value="将当前选定内容转换为书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="选择的书签…" revision="0" />
+    <Item value="将当前书签转换为选定内容" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="载入书签…" revision="0" />
+    <Item value="从文件中加载书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="保存书签…" revision="0" />
+    <Item value="将书签保存到文件" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;书签" revision="0" />
+    <Item value="书签菜单" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;选择" revision="0" />
+    <Item value="选择此书签组" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;编辑" revision="0" />
+    <Item value="编辑书签组" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="全部删除（&amp;A）" revision="0" />
+    <Item value="删除所有条目" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="删除" revision="0" />
+    <Item value="删除当前条目" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="转到书签" revision="0" />
+    <Item value="转到所选书签" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="删除当前的选择，并将当前的书签组转换为新的选择。" revision="0" />
+    <Item value="将当前的书签组添加到一个选择中。" revision="0" />
+    <Item value="从一个选择中减去当前的书签组。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="可见" revision="0" />
+    <Item value="便签" revision="0" />
+    <Item value="启动" revision="0" />
+    <Item value="书签组" revision="0" />
+    <Item value="书签" revision="0" />
+    <Item value="颜色" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="否" revision="0" />
+    <Item value="地址" revision="0" />
+    <Item value="大小" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="书签" revision="0" />
+    <Item value="书签功能允许您在文件中放置书签，以便快速浏览。" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="选择书签转换警告" revision="1" />
+    <Item value="当前选择包含多个片段。每个都将作为单独的书签添加。是否要继续？" revision="1" />
+  </Enumeration>
+</Language>

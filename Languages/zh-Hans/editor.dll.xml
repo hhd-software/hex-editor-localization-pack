@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} 行 {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="转到 {v}" revision="0" />
+  <Message key="FileNotSaved" value="当前文档已经被修改。你想保存吗？" revision="0" />
+  <Message key="SaveProtocolFile" value="保存文件错误 &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="错误" revision="0" />
+  <Message key="Structure Editor" value="结构编辑器" revision="0" />
+  <Message key="Line" value="行" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;未保存的方案&gt;" revision="0" />
+  <Message key="SchemeDelError" value="这个方案不能被删除" revision="0" />
+  <Message key="Coloring" value="颜色" revision="0" />
+  <Message key="Structure Editor Page" value="结构编辑器" revision="0" />
+  <Message key="Save" value="保存" revision="0" />
+  <Message key="Delete" value="删除" revision="0" />
+  <Message key="Font:" value="字体:" revision="0" />
+  <Message key="Size:" value="大小:" revision="0" />
+  <Message key="Font color:" value="字体颜色:" revision="0" />
+  <Message key="Back color:" value="背景颜色:" revision="0" />
+  <Message key="Bold" value="粗体" revision="0" />
+  <Message key="Italic" value="斜体" revision="0" />
+  <Message key="Reset" value="重置" revision="0" />
+  <Message key="Find" value="查找" revision="0" />
+  <Message key="Fi&amp;nd what:" value="查找内容(&amp;N):" revision="0" />
+  <Message key="Options" value="选项" revision="0" />
+  <Message key="Find within" value="查找范围" revision="0" />
+  <Message key="Match &amp;whole word only" value="全字匹配(&amp;W)" revision="0" />
+  <Message key="Match &amp;case" value="大小写匹配(&amp;C)" revision="0" />
+  <Message key="Whole window" value="整个窗口" revision="0" />
+  <Message key="Selection" value="选择" revision="0" />
+  <Message key="&amp;Find" value="查找(&amp;F)" revision="0" />
+  <Message key="Replace" value="替换" revision="0" />
+  <Message key="Replace with: " value="替换为:" revision="0" />
+  <Message key="&amp;Find Next" value="查找下一个(&amp;F)" revision="0" />
+  <Message key="&amp;Replace" value="替换(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="替换全部(&amp;A)" revision="0" />
+  <Message key="A pattern was not found." value="未发现匹配项" revision="0" />
+  <Message key="InvalidColoringScheme" value="无效的颜色方案名称。" revision="0" />
+  <Message key="OverwriteColoringScheme" value="指定的方案已存在。你想要覆盖它吗？" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="替换…" revision="0" />
+    <Item value="替换文本" revision="0" />
+  </Enumeration>
+</Language>

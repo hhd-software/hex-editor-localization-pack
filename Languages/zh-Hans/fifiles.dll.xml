@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="打开太多的文档可能导致非常差的性能，因此，不推荐继续当前的操作，你想取消当前操作吗？" revision="1" />
+  <Message key="Warning" value="警告" revision="1" />
+  <Message key="Error" value="错误" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} 个匹配项)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="错误 {error_code} ({text_message}) {mode} {path}。" revision="1" />
+  <Message key="Invalid folder or mask syntax." value="无效的文件夹或掩码语法。" revision="1" />
+  <Message key="Invalid folder list syntax." value="无效的文件夹列表语法。" revision="1" />
+  <Message key="Find All" value="查找全部" revision="1" />
+  <Message key="Replace All" value="替换全部" revision="1" />
+  <Message key="Notifications" value="通知" revision="1" />
+  <Message key="Find in Files" value="文件中查找" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="你想取消当前操作吗？" revision="1" />
+  <Message key="Operation cancelled." value="操作已取消。" revision="1" />
+  <Message key="Replace with:" value="替换为:" revision="1" />
+  <Message key="Progress message" value="已完成 {percent}%，在 {total_folders} 个文件夹中共选择了 {total_files}{unfinished?}(…){?unfinished} 个文件，已在 {processed_files} 个文件中进行了查找，目前找到 {matched} 个匹配的文件， 待处理的文件总大小 :{total_size}，目前已处理大小: {processed_size}。" revision="1" />
+  <Message key="ReplaceNotification" value="文件中替换" revision="1" />
+  <Message key="TextFilesFilterString" value="文本文件|*.txt|" revision="0" />
+  <Message key="Exporting" value="导出" revision="0" />
+  <Message key="Search in:" value="搜索位置:" revision="1" />
+  <Message key="File types:" value="文件类型:" revision="1" />
+  <Message key="Mode:" value="模式:" revision="1" />
+  <Message key="Include sub-folders" value="包括子文件夹" revision="1" />
+  <Message key="Ignore case" value="不区分大小写" revision="1" />
+  <Message key="Display errors" value="显示错误" revision="1" />
+  <Message key="Include streams" value="包括流" revision="1" />
+  <Message key="Find and replace mode" value="查找和替换模式" revision="1" />
+  <Message key="Find in Files Folder List" value="文件夹列表包含的文件中查找" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="输入文件夹的路径或按浏览按钮:" revision="1" />
+  <Message key="Move Up" value="上移(&amp;U)" revision="1" />
+  <Message key="Move Down" value="下移(&amp;D)" revision="1" />
+  <Message key="Folder list:" value="文件夹列表:" revision="1" />
+  <Message key="All opened documents" value="所有已打开的文档" revision="0" />
+  <Message key="toolbar.FindInFiles" value="在文件中查找" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="正在打开" revision="1" />
+    <Item value="正在保存" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="至少查找一个匹配项" revision="1" />
+    <Item value="查找所有匹配项(较慢)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="替换所有匹配项并保存" revision="1" />
+    <Item value="替换所有匹配项并打开" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="文件中查找" revision="1" />
+    <Item value="开始文件中查找/文件模块中替换" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="文件中查找(&amp;F)" revision="0" />
+    <Item value="文件中查找" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="文件中查找" revision="1" />
+    <Item value="文件中查找功能允许你在一个或多个文件夹中快速查找包含指定模式的文件。" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="文件中替换" revision="1" />
+    <Item value="文件中替换功能允许你在一个或多个文件夹包含的文件中查找指定模式的所有匹配项并用其它模式(或删除)替换指定的模式。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="启用 &quot;始终创建备份&quot; 选项并继续。" revision="1" />
+    <Item value="切换到 &quot;替换所有匹配项并打开&quot; 模式并继续。" revision="1" />
+    <Item value="继续处于此模式(不推荐)" revision="1" />
+    <Item value="取消" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="文件中替换" revision="1" />
+    <Item value="以 关闭&quot;始终创建备份&quot; 选项的方式运行 &quot;文件中替换&quot; 功能可能导致替换时数据丢失，推荐打开 &quot;始终创建备份&quot; 选项，\r\n\r\n请选择下面的一个操作:" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="文件中查找(&amp;D)" revision="0" />
+    <Item value="在几个文件中查找(并有选择性替换)一个模式。" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="停止搜索" revision="1" />
+    <Item value="终止当前操作" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="打开文件" revision="1" />
+    <Item value="在编辑器中打开选定的文件。" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="全部清除(&amp;C)" revision="0" />
+    <Item value="清除此窗口的内容" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="后台模式" revision="0" />
+    <Item value="切换到后台模式(减少系统资源的使用)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="导出结果…" revision="0" />
+    <Item value="导出找到的文件列表" revision="0" />
+  </Enumeration>
+</Language>

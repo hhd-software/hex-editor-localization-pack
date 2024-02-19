@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Offset" value="偏移" revision="1" />
+  <Message key="SchemeNameCue" value="在此输入方案名" revision="1" />
+  <Message key="Encrypt" value="加密" revision="1" />
+  <Message key="Decrypt" value="解密" revision="1" />
+  <Message key="Navigate to Position" value="导航到位置" revision="1" />
+  <Message key="Add Position" value="添加位置" revision="1" />
+  <Message key="Editor" value="编辑器" revision="1" />
+  <Message key="Printing" value="正在打印" revision="1" />
+  <Message key="AutoDropSelection" value="单项选择模式" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="插入操作时修改选择" revision="1" />
+  <Message key="DigitGrouping" value="数字分组" revision="1" />
+  <Message key="ShowCurrentAddress" value="在左侧显示光标地址" revision="1" />
+  <Message key="IgnoreColoring" value="忽略颜色" revision="1" />
+  <Message key="StandardHeader" value="标准页眉" revision="1" />
+  <Message key="StandardFooter" value="标准页脚" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="粘贴后移动光标" revision="1" />
+  <Message key="FindAllNotification" value="全部查找" revision="1" />
+  <Message key="PasteNotification" value="粘贴文本" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="无效的表达式，检查语法。" revision="1" />
+  <Message key="Connect to" value="连接到" revision="1" />
+  <Message key="ConnectToSuccess" value="Windows 已连接成功。" revision="1" />
+  <Message key="ConnectToFailure" value="选择的窗口无效，无法连接到选择的窗口。" revision="1" />
+  <Message key="Copying Selection Regions…" value="正在复制选区..." revision="1" />
+  <Message key="Exporting Selection Regions…" value="正在导出选区..." revision="1" />
+  <Message key="Open documentation section and continue" value="打开文档资料章节并继续" revision="1" />
+  <Message key="Just continue" value="仅继续" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}自动{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="正在载入编辑器" revision="1" />
+  <Message key="Initializing" value="正在初始化编辑器" revision="1" />
+  <Message key="Selection Tool Window" value="选择" revision="1" />
+  <Message key="Output" value="输出" revision="1" />
+  <Message key="Save As" value="另存为" revision="1" />
+  <Message key="Do you want to override this scheme?" value="你想覆盖此方案吗？" revision="1" />
+  <Message key="NoSel" value="未选择" revision="1" />
+  <Message key="EncodingNotSupported" value="你的操作系统不支持目前所选的编码，确认是否安装了必需的代码页和字体。" revision="1" />
+  <Message key="NoEncoding" value="你的系统缺少支持选定的编码所需的组件，选择其它编码。" revision="1" />
+  <Message key="SwitchSingleSel" value="切换 &quot;单项选择模式&quot; 选项，\n这将在关闭多项选择后才有效，你可以在稍后从常规设置选项卡切换回此选项。" revision="1" />
+  <Message key="Find" value="查找" revision="1" />
+  <Message key="A pattern was not found." value="未找到匹配项。" revision="1" />
+  <Message key="RegExpInSel" value="不支持在一个选择内搜索正则表达式。" revision="1" />
+  <Message key="Find All" value="全部查找" revision="1" />
+  <Message key="RegExpBackwards" value="不支持反向搜索一个正则表达式。" revision="1" />
+  <Message key="Replace All" value="全部替换" revision="1" />
+  <Message key="Go to Offset" value="转到偏移" revision="1" />
+  <Message key="Invalid offset." value="无效的偏移。" revision="1" />
+  <Message key="UnsupportedFunction" value="此功能不支持当前的文档类型。" revision="1" />
+  <Message key="Change File Size" value="更改文件大小" revision="1" />
+  <Message key="Invalid file size." value="无效的文件大小。" revision="1" />
+  <Message key="Insert" value="插入" revision="1" />
+  <Message key="Invalid size." value="无效的大小。" revision="1" />
+  <Message key="NFound" value="{isfound?}{n} 个匹配项已找到，{|isfound}未找到匹配项，{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n} 个匹配项已找到并替换，{|isfound}未找到匹配项，{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="不支持选定的加密算法。" revision="1" />
+  <Message key="Copy" value="复制" revision="1" />
+  <Message key="Export" value="导出" revision="1" />
+  <Message key="SelectionFiles" value="选择文件 (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="文本文件 (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} 位)" revision="1" />
+  <Message key="SetSize" value="十六进制: \t{size}\r\n十进制: \t{size:2} ({size as text}){hasfree?}\r\n\r\n文件可用磁盘空间: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="正则表达式语法错误: {error}。" revision="1" />
+  <Message key="OffsetPane" value="偏移: {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="大小: {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="选定的算法需要多个 {bytes} 字节的数据大小。" revision="1" />
+  <Message key="EncryptFailed" value="加密/解密失败，错误代码 {code}" revision="1" />
+  <Message key="PrintedBy" value="由 HHD Software {product} 打印" revision="1" />
+  <Message key="PageNumber" value="页 {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="复制选区错误: {text} ({code})" revision="1" />
+  <Message key="ExportError" value="创建文件错误: {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="模式:" revision="1" />
+  <Message key="Replace with:" value="替换为:" revision="1" />
+  <Message key="Arithmetic Operation" value="算数运算" revision="1" />
+  <Message key="Operation:" value="操作:" revision="1" />
+  <Message key="Operand type:" value="操作数类型:" revision="1" />
+  <Message key="Operand value:" value="操作数值:" revision="1" />
+  <Message key="Current cell" value="当前单元" revision="1" />
+  <Message key="Selection" value="选择" revision="1" />
+  <Message key="Whole file" value="整个文件" revision="1" />
+  <Message key="Hexadecimal" value="十六进制" revision="1" />
+  <Message key="Decimal" value="十进制" revision="1" />
+  <Message key="Modify Bits" value="修改位" revision="1" />
+  <Message key="1 Byte:" value="字节1:" revision="2" />
+  <Message key="2 Byte:" value="字节2:" revision="2" />
+  <Message key="3 Byte:" value="字节3:" revision="2" />
+  <Message key="4 Byte:" value="字节4:" revision="2" />
+  <Message key="5 Byte:" value="字节5:" revision="2" />
+  <Message key="6 Byte:" value="字节6:" revision="2" />
+  <Message key="7 Byte:" value="字节7:" revision="2" />
+  <Message key="8 Byte:" value="字节8:" revision="2" />
+  <Message key="Binary representation:" value="二进制表示:" revision="1" />
+  <Message key="Value:" value="值:" revision="1" />
+  <Message key="Hex" value="十六进制" revision="1" />
+  <Message key="Octal" value="八进制" revision="1" />
+  <Message key="Set All To Zero" value="全部置为 0" revision="1" />
+  <Message key="Set All To One" value="全部置为 1" revision="1" />
+  <Message key="Invert" value="反转" revision="1" />
+  <Message key="Revert" value="逆序" revision="1" />
+  <Message key="Bitwise Operation" value="逐位运算" revision="1" />
+  <Message key="Set Columns" value="设置列" revision="0" />
+  <Message key="Enter number of columns per row:" value="输入每行的列数:" revision="0" />
+  <Message key="Select the Window to Connect" value="选择要连接的窗口" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="点击下面的图标，拖曳它到你想连接到的窗口并释放鼠标按钮。" revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="在连接的窗口中同步移动光标。" revision="0" />
+  <Message key="Encrypt/Decrypt" value="加密/解密" revision="0" />
+  <Message key="Algorithm:" value="算法:" revision="0" />
+  <Message key="Key length:" value="密钥长度:" revision="0" />
+  <Message key="bits" value="位" revision="0" />
+  <Message key="Status:" value="状态:" revision="0" />
+  <Message key="Do not hide password" value="不隐藏密码" revision="0" />
+  <Message key="Password:" value="密码:" revision="0" />
+  <Message key="Re-type password:" value="重新输入密码:" revision="0" />
+  <Message key="Fill" value="填充" revision="0" />
+  <Message key="Fill whole file" value="填充整个文件" revision="0" />
+  <Message key="Fill selection" value="填充所选" revision="0" />
+  <Message key="Transparent fill" value="透明填充" revision="0" />
+  <Message key="Reverse pattern" value="逆序模式" revision="0" />
+  <Message key="&amp;Fill" value="填充(&amp;F)" revision="0" />
+  <Message key="&amp;Find" value="查找(&amp;F)" revision="0" />
+  <Message key="Find &amp;All" value="全部查找(&amp;A)" revision="0" />
+  <Message key="Search whole file" value="搜索整个文件" revision="0" />
+  <Message key="Search selection" value="搜索所选" revision="0" />
+  <Message key="Search up" value="向上搜索" revision="0" />
+  <Message key="Search down" value="向下搜索" revision="0" />
+  <Message key="Ignore case" value="不区分大小写" revision="0" />
+  <Message key="Offset (expressions supported):" value="偏移(支持表达式)" revision="0" />
+  <Message key="Resulting offset:" value="结果偏移:" revision="0" />
+  <Message key="Selection:" value="选择:" revision="0" />
+  <Message key="Bookmark:" value="书签:" revision="0" />
+  <Message key="&amp;Absolute offset" value="绝对偏移(&amp;A)" revision="0" />
+  <Message key="&amp;Relative offset" value="相对偏移(&amp;R)" revision="0" />
+  <Message key="&amp;Percent" value="百分比(&amp;P)" revision="0" />
+  <Message key="&amp;Insert" value="插入(&amp;I)" revision="0" />
+  <Message key="Size (expressions supported):" value="大小(支持表达式):" revision="0" />
+  <Message key="Layout Page" value="布局" revision="0" />
+  <Message key="Font:" value="字体:" revision="0" />
+  <Message key="Size:" value="大小:" revision="0" />
+  <Message key="Visualization elements:" value="可视化元素:" revision="0" />
+  <Message key="Color:" value="颜色:" revision="0" />
+  <Message key="Automatic" value="自动" revision="0" />
+  <Message key="Do not interlace background" value="不交错背景" revision="0" />
+  <Message key="Interlace columns" value="交错列" revision="0" />
+  <Message key="Interlace rows" value="交错行" revision="0" />
+  <Message key="Draw edit cursor frame" value="绘制编辑光标框架" revision="0" />
+  <Message key="Smart indentation" value="智能缩进" revision="0" />
+  <Message key="Antialiased quality (slower)" value="抗锯齿质量(较慢)" revision="0" />
+  <Message key="Schemes…" value="方案..." revision="0" />
+  <Message key="Layout Schemes" value="布局方案" revision="0" />
+  <Message key="&amp;Save As…" value="另存为(&amp;S)..." revision="0" />
+  <Message key="Load Selection" value="载入选择" revision="0" />
+  <Message key="Loading Mode" value="载入模式" revision="0" />
+  <Message key="New selection" value="新建选择" revision="0" />
+  <Message key="Add to current" value="添加到当前" revision="0" />
+  <Message key="Subtract from current" value="从当前减除" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="正在执行当前操作，请稍候..." revision="0" />
+  <Message key="0 % done" value="已完成 0%" revision="0" />
+  <Message key="Elapsed time: " value="已用时间:" revision="0" />
+  <Message key="Remaining time:" value="剩余时间:" revision="0" />
+  <Message key="Speed:" value="速度:" revision="0" />
+  <Message key="Replace" value="替换" revision="0" />
+  <Message key="&amp;Find Next" value="查找下一个(&amp;F)" revision="0" />
+  <Message key="&amp;Replace" value="替换(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="全部替换(&amp;A)" revision="0" />
+  <Message key="Reverse Operation" value="逆序操作" revision="0" />
+  <Message key="Information" value="信息" revision="0" />
+  <Message key="Details" value="详细信息" revision="0" />
+  <Message key="Select Range" value="选择范围" revision="0" />
+  <Message key="Offset:" value="偏移:" revision="0" />
+  <Message key="Add" value="加" revision="0" />
+  <Message key="Subtract" value="减" revision="0" />
+  <Message key="Overlap" value="重叠" revision="0" />
+  <Message key="Specify new file size:" value="指定新文件大小:" revision="0" />
+  <Message key="Resulting file size:" value="生成文件大小:" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="你可以使用数学表达式输入新文件的大小，参见帮助以了解更多的详细信息。" revision="0" />
+  <Message key="Shift Operation" value="移位运算" revision="0" />
+  <Message key="Shift by (bits):" value="移位位数:" revision="0" />
+  <Message key="Editor Page" value="编辑器" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="在此你可以选择默认的编辑器窗口属性:" revision="0" />
+  <Message key="Display as:" value="显示方式:" revision="0" />
+  <Message key="Group by:" value="分组方式:" revision="0" />
+  <Message key="Columns:" value="列" revision="0" />
+  <Message key="Byte order:" value="字节序:" revision="0" />
+  <Message key="Encoding:" value="编码:" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="对每个打开的文档自动保存编辑器窗口设置" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="当勾选时，Hex Editor Neo 将用每个已打开的文档配置关联编辑器窗口设置，下一次你在编辑器中打开相同的文档时，将自动载入编辑器窗口设置。" revision="0" />
+  <Message key="Code pane" value="代码窗格" revision="0" />
+  <Message key="Text pane" value="文本窗格" revision="0" />
+  <Message key="Take from current window" value="从当前窗口获取" revision="0" />
+  <Message key="Reset to Default" value="重置为默认值" revision="0" />
+  <Message key="Clear Cache" value="清除缓存" revision="0" />
+  <Message key="Layout settings" value="编辑器布局" revision="0" />
+  <Message key="Encoding settings" value="最后使用的编码" revision="0" />
+  <Message key="ViewSettingsDb settings" value="编辑器默认" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="全选(&amp;A)" revision="1" />
+    <Item value="选择一个文件中的所有数据" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="取消选择(&amp;N)" revision="1" />
+    <Item value="清除当前选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="反向选择" revision="1" />
+    <Item value="反转当前选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="选择已修改的数据" revision="1" />
+    <Item value="选择已修改的数据" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="选择范围(&amp;R)..." revision="1" />
+    <Item value="指定数据范围并与一个当前选择组合" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="载入选择(&amp;L)..." revision="1" />
+    <Item value="载入新选择或与当前选择之一组合" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="保存选择(&amp;S)..." revision="1" />
+    <Item value="保存当前选择到一个文件中" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="编辑单元(&amp;E)" revision="1" />
+    <Item value="编辑当前单元" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="插入模式(&amp;I)" revision="1" />
+    <Item value="打开或关闭插入模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="查找(&amp;F)..." revision="1" />
+    <Item value="查找匹配或所有匹配项" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="查找下一个(&amp;N)" revision="1" />
+    <Item value="查找下一个匹配项" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="查找上一个(&amp;P)" revision="1" />
+    <Item value="查找上一个匹配项" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="替换(&amp;R)..." revision="1" />
+    <Item value="用其它模式替换" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="填充(&amp;I)..." revision="1" />
+    <Item value="用字节或模式填充所选" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="插入(&amp;I)..." revision="1" />
+    <Item value="插入字节或模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="转到偏移(&amp;G)..." revision="1" />
+    <Item value="转到文件中的指定偏移" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="更改文件大小(&amp;Z)..." revision="1" />
+    <Item value="更改文件的大小" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="插入文件(&amp;L)..." revision="1" />
+    <Item value="将磁盘文件的内容插入到当前位置，或者改写或插入数据，取决于当前的覆盖模式。" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="编码(&amp;E)" revision="1" />
+    <Item value="编码" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="连接到(&amp;C)..." revision="1" />
+    <Item value="此窗口与其它窗口连接" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="十六进制(&amp;H)" revision="1" />
+    <Item value="十六进制模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="十进制(&amp;D)" revision="1" />
+    <Item value="十进制模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="八进制(&amp;O)" revision="1" />
+    <Item value="八进制模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="二进制(&amp;B)" revision="1" />
+    <Item value="二进制模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="单精度浮点数(&amp;L)" revision="1" />
+    <Item value="单精度浮点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="双精度浮点数(&amp;E)" revision="1" />
+    <Item value="双精度浮点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="字节" revision="1" />
+    <Item value="按字节分组" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="字" revision="1" />
+    <Item value="按字分组" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="双字" revision="1" />
+    <Item value="按双字分组" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="四字" revision="1" />
+    <Item value="按四字分组" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="文本窗格(&amp;T)" revision="1" />
+    <Item value="显示或隐藏一个文本 (ASCII 或 UNICODE)窗格" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="十六进制(&amp;H)" revision="1" />
+    <Item value="以十六进制方式查看地址" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="十进制(&amp;D)" revision="1" />
+    <Item value="以十进制方式查看地址" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="八进制(&amp;O)" revision="1" />
+    <Item value="以八进制方式查看地址" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="自动(&amp;O)" revision="1" />
+    <Item value="自动计算列数" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="4 列(&amp;4)" revision="1" />
+    <Item value="4 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="8 列(&amp;8)" revision="1" />
+    <Item value="8 列(" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="16 列(&amp;1)" revision="1" />
+    <Item value="16 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="32 列(&amp;3)" revision="1" />
+    <Item value="32 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="自定义(&amp;C)..." revision="1" />
+    <Item value="指定列数" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="小端序(&amp;L)" revision="1" />
+    <Item value="小端序编码" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="大端序(&amp;B)" revision="1" />
+    <Item value="大端序编码" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="字节序(&amp;B)" revision="0" />
+    <Item value="字节序" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="加密(&amp;Y)..." revision="1" />
+    <Item value="加密文档数据" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="解密(&amp;P)..." revision="1" />
+    <Item value="解密文档数据" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="修改位..." revision="1" />
+    <Item value="修改位" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="代码窗格(&amp;C)" revision="1" />
+    <Item value="显示或隐藏代码窗格" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="单项选择模式(&amp;N)" revision="1" />
+    <Item value="打开或关闭单项选择模式" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="逐位非(&amp;N)..." revision="1" />
+    <Item value="执行一个逐位非运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="逐位或(&amp;O)..." revision="1" />
+    <Item value="执行一个逐位或运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="逐位与(&amp;A)..." revision="1" />
+    <Item value="执行一个逐位与运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="逐位异或(&amp;X)..." revision="1" />
+    <Item value="执行一个逐位异或运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="取反" revision="1" />
+    <Item value="执行一个算数取反运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="加(&amp;D)..." revision="1" />
+    <Item value="执行一个算数加法运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="减(&amp;S)..." revision="1" />
+    <Item value="执行一个算数减法运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="乘(&amp;M)..." revision="1" />
+    <Item value="执行一个算数乘法运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="除(&amp;I)..." revision="1" />
+    <Item value="执行一个算数除法运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="求模(&amp;R)..." revision="1" />
+    <Item value="执行一个算数求余数运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="设置最小值(&amp;I)..." revision="1" />
+    <Item value="执行一个设置最小值的运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="设置最大值(&amp;X)..." revision="1" />
+    <Item value="执行一个设置最大值的运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="逻辑左移(&amp;G)..." revision="1" />
+    <Item value="执行一个逻辑左移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="逻辑右移(&amp;C)..." revision="1" />
+    <Item value="执行一个逻辑右移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="算数左移(&amp;L)..." revision="1" />
+    <Item value="执行一个算数左移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="算数右移(&amp;M)..." revision="1" />
+    <Item value="执行一个算数右移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="循环左移(&amp;T)..." revision="1" />
+    <Item value="执行一个循环左移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="循环右移(&amp;H)..." revision="1" />
+    <Item value="执行一个循环右移运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="小写(&amp;L)" revision="1" />
+    <Item value="将所选转换为小写" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="大写(&amp;U)" revision="1" />
+    <Item value="将所选转换为大写" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="反转大小写(&amp;I)" revision="1" />
+    <Item value="切换大小写" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="反转位(&amp;R)..." revision="1" />
+    <Item value="执行一个位反转运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="字节交换..." revision="1" />
+    <Item value="执行字节交换运算" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="刷新磁盘/内存(&amp;R)" revision="1" />
+    <Item value="刷新当前窗口(磁盘、进程以及内存)" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="复制选区" revision="1" />
+    <Item value="复制选区列表到剪贴板中" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="导出选择..." revision="1" />
+    <Item value="导出选区列表到此文件中" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="全部清除" revision="1" />
+    <Item value="清除当前输出窗口的内容" revision="1" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="取反" revision="1" />
+    <Item value="加" revision="1" />
+    <Item value="减" revision="1" />
+    <Item value="乘" revision="1" />
+    <Item value="除" revision="1" />
+    <Item value="求模" revision="1" />
+    <Item value="设置最小值" revision="1" />
+    <Item value="设置最大值" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="字节" revision="1" />
+    <Item value="字" revision="1" />
+    <Item value="双字" revision="1" />
+    <Item value="四字" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="逐位非" revision="1" />
+    <Item value="逐位或" revision="1" />
+    <Item value="逐位与" revision="1" />
+    <Item value="逐位异或" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="反转位" revision="1" />
+    <Item value="交换字节" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="逻辑左移" revision="1" />
+    <Item value="逻辑右移" revision="1" />
+    <Item value="算数左移" revision="1" />
+    <Item value="算数右移" revision="1" />
+    <Item value="循环左移" revision="1" />
+    <Item value="循环右移" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="未更改" revision="1" />
+    <Item value="替换选择" revision="1" />
+    <Item value="添加到选择" revision="1" />
+    <Item value="从选择移除" revision="1" />
+    <Item value="反向选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="字节" revision="1" />
+    <Item value="匹配项" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="选择范围导出类型" revision="1" />
+    <Item value="使用十六进制数" revision="1" />
+    <Item value="使用十进制数" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="粘贴文本" revision="1" />
+    <Item value="你将要从剪贴板粘贴文本，在执行此操作前强烈推荐你阅读包含文档资料中的相应章节。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="查找全部" revision="1" />
+    <Item value="查找全部功能仅当视图处于 &quot;十六进制字节&quot; 或 &quot;十进制字节&quot;模式时才支持显示结果，你想立即切换到这种模式吗？" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="字节" revision="1" />
+    <Item value="KB" revision="1" />
+    <Item value="MB" revision="1" />
+    <Item value="GB" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="粘贴文本" revision="1" />
+    <Item value="粘贴文本功能允许你从剪贴板粘贴一个文本以及如果文本包含十进制或十六进制数序列时有选择性的粘贴此文本。" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="改写" revision="1" />
+    <Item value="插入" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="十六进制" revision="1" />
+    <Item value="十进制" revision="1" />
+    <Item value="八进制" revision="1" />
+    <Item value="二进制" revision="1" />
+    <Item value="单精度浮点数" revision="1" />
+    <Item value="双精度浮点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="选择(&amp;S)" revision="0" />
+    <Item value="选择" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="操作(&amp;O)" revision="0" />
+    <Item value="操作" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="显示方式(&amp;A)" revision="0" />
+    <Item value="显示方式" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="分组方式" revision="0" />
+    <Item value="分组方式" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="列(&amp;C)" revision="0" />
+    <Item value="列" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="字节序(&amp;B)" revision="0" />
+    <Item value="字节序" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="偏移" revision="2" />
+    <Item value="偏移" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="偏移" revision="2" />
+    <Item value="偏移" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="编码" revision="1" />
+    <Item value="编码功能允许你更改任何编辑器窗口中文本窗格的字符编码。" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="总共大小" revision="1" />
+    <Item value="选块" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="序号" revision="1" />
+    <Item value="地址" revision="1" />
+    <Item value="长度" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="多项选择" revision="1" />
+    <Item value="多项选择功能允许查看几个已选定的数据块并将编辑命令应用到全部。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="查找所有匹配项" revision="1" />
+    <Item value="查找所有匹配项功能快速查找一个文件中的所有匹配项(或在选择范围内)并将它们转换为选择。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="替换所有匹配项" revision="1" />
+    <Item value="替换所有匹配项功能快速查找所有匹配项并用其它模式替换它们，模式可以为不同的大小并可以为空。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="保存选择" revision="1" />
+    <Item value="保存选择功能允许你保存当前选择到文件中。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="载入选择" revision="1" />
+    <Item value="载入选择功能允许你从文件载入一个选择，已载入的选择可以有选择性地添加到当前中的一个，或从它中减除。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="连接到" revision="1" />
+    <Item value="连接到功能允许你连接到两个窗口，在它们中绑定光标移动。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="加密/解密" revision="1" />
+    <Item value="加密/解密功能允许你加密(和解密)选定的数据，使用任何已安装的流或区块加密。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="数据运算" revision="1" />
+    <Item value="数据运算功能允许你堆选定的数据执行逐位、算数、移位、大小写更改以及反转运算。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="复制选区" revision="1" />
+    <Item value="复制选区功能允许你复制当前选区的列表到剪贴板中。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="导出选区" revision="1" />
+    <Item value="导出选区功能允许你导出当前选区的列表到文本文件中。" revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="错误 - 未选择加密算法。" revision="1" />
+    <Item value="确定" revision="1" />
+    <Item value="输入的密码不匹配。" revision="1" />
+    <Item value="错误 - 一个密码为空。" revision="1" />
+    <Item value="错误 - 密钥长度必须是 8 的幂次。" revision="1" />
+    <Item value="错误 - 无效的密钥长度。" revision="1" />
+  </Enumeration>
+  <Enumeration key="ColorNames">
+    <Item value="文本" revision="1" />
+    <Item value="背景" revision="1" />
+    <Item value="地址" revision="1" />
+    <Item value="地址背景" revision="1" />
+    <Item value="ASCII/UNICODE 文本" revision="1" />
+    <Item value="ASCII/UNICODE 背景" revision="1" />
+    <Item value="偶数列/行(针对交错模式)" revision="1" />
+    <Item value="奇数类/行(针对交错模式)" revision="1" />
+    <Item value="&quot;无数据&quot; 文本" revision="1" />
+    <Item value="光标填充" revision="1" />
+    <Item value="光标轮廓" revision="1" />
+    <Item value="活动行和列高亮文本" revision="1" />
+    <Item value="活动行和列高亮背景" revision="1" />
+    <Item value="已更改的文本" revision="1" />
+    <Item value="已更改的背景" revision="1" />
+    <Item value="已更改的轮廓" revision="1" />
+    <Item value="选择" revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="选择" revision="1" />
+    <Item value="光标" revision="1" />
+    <Item value="已更改的文本" revision="1" />
+  </Enumeration>
+</Language>
