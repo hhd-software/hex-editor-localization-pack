@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="Nie znaleziono metadanych" revision="0" />
+  <Message key="FileNotFound" value="Nie znaleziono pliku: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Nie znaleziono typu: {type}" revision="0" />
+  <Message key="IdNotFound" value="Nie znaleziono ID: {type}" revision="0" />
+  <Message key="CastError" value="Nie można podawać typu {src_type} na {dst_type}" revision="0" />
+  <Message key="BitwiseOpError" value="Nielegalny typ lewego operandu operacji bitowej. Musi być liczbą całkowitą." revision="0" />
+  <Message key="MethodNotFound" value="Metoda nie istnieje." revision="0" />
+  <Message key="ResultNotANumber" value="Wynik 'repeat-expr' nie jest liczbą." revision="0" />
+  <Message key="InvalidArgument" value="Nieprawidłowy argument" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Nieprawidłowa liczba argumentów. Szacowany: {est}, otrzymano: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="Musi być podany tylko jeden z 'rozmiar' lub 'rozmiar-eos'." revision="0" />
+  <Message key="NoRepeatError" value="Brak wyrażenia w bloku 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="Brak wyrażenia w bloku 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="Nawias nie jest prawidłowo zamknięty." revision="0" />
+  <Message key="CannotMatch" value="Wartość '{value}' nie może być dopasowana do wartości typu '{type}'" revision="0" />
+  <Message key="ContentsError" value="Musi być szykiem bajtów lub ciągiem znaków" revision="0" />
+  <Message key="ParsingError" value="Błąd analizy. Oczekiwanie: {est} at {fact}" revision="0" />
+  <Message key="PathNotFound" value="Nie znaleziono ścieżki: {path}" revision="0" />
+  <Message key="NotAScope" value="Brak zakresu" revision="0" />
+  <Message key="UnknownParam" value="Nieznany typ parametru: {type}" revision="0" />
+  <Message key="WrongEndian" value="Nieznany endian wpisz w polu meta '{field}'. Musi być 'be' lub 'le'" revision="0" />
+</Language>

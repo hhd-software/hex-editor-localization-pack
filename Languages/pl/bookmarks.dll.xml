@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Bookmarks" value="Zakładki" revision="0" />
+  <Message key="Progress" value="Bieżąca operacja jest w toku. Proszę poczekać, aż zakończy się." revision="0" />
+  <Message key="GroupDelete" value="Grupa zostanie usunięta (łącznie ze wszystkimi zawartymi w niej zakładkami). Czy chcesz kontynuować?" revision="0" />
+  <Message key="AllDelete" value="Wszystkie grupy zostaną usunięte. Czy chcesz kontynuować?" revision="0" />
+  <Message key="BookmarkGroup" value="Grupa zakładek {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Błąd podczas tworzenia grupy zakładek" revision="0" />
+  <Message key="SelWarning" value="Bieżący wybór zawiera wiele fragmentów. Każda z nich zostanie dodana jako osobna zakładka. Czy chcesz kontynuować?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Błąd podczas konwertowania wybranych do zakładek" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Błąd konwersji zakładki do wybranej" revision="0" />
+  <Message key="AllBookmarksDelete" value="Wszystkie zakładki zostaną usunięte. Czy chcesz kontynuować?" revision="0" />
+  <Message key="Error loading from file" value="Błąd ładowania z pliku" revision="0" />
+  <Message key="File has different version" value="Plik ma inną wersję" revision="0" />
+  <Message key="Error loading bookmarks" value="Błąd ładowania zakładek" revision="0" />
+  <Message key="Select Action" value="Wybierz działanie" revision="0" />
+  <Message key="New selection" value="Nowy wybór" revision="0" />
+  <Message key="Add to selection" value="Dodaj do wyboru" revision="0" />
+  <Message key="Subtract from selection" value="Odejmij z wyboru" revision="0" />
+  <Message key="Edit Group" value="Edytuj grupę" revision="0" />
+  <Message key="Name:" value="Nazwa:" revision="0" />
+  <Message key="Text:" value="Tekst:" revision="0" />
+  <Message key="Background:" value="Tło:" revision="0" />
+  <Message key="Outline:" value="Zarys:" revision="0" />
+  <Message key="Round edges" value="Zaokrąglone krawędzie" revision="0" />
+  <Message key="BookmarksFilterString" value="Pliki zakładki (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="Pliki wyboru (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Pokaż ostrzeżenie konwersji wyboru do zakładki" revision="1" />
+  <Message key="MergeBookmarks" value="Czy chcesz połączyć z istniejącymi zakładkami." revision="0" />
+  <Message key="toolbar.Bookmarks" value="Zakładki" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="Nowa grupa zakładek" revision="0" />
+    <Item value="Utwórz nową grupę zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="Przełącznik zakładki" revision="0" />
+    <Item value="Umieść lub usuń zakładkę w bieżącej pozycji" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="Poprzednia zakładka" revision="0" />
+    <Item value="Przejdź do poprzedniej zakładki" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="Następna zakładka" revision="0" />
+    <Item value="Przejdź do następnej zakładki" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="Wybór do zakładek" revision="0" />
+    <Item value="Konwertowanie bieżącego wyboru do zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="Zakładki do wyboru…" revision="0" />
+    <Item value="Konwertuj bieżące zakładki wyboru" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="Załaduj zakładki…" revision="0" />
+    <Item value="Załaduj zakładki z pliku" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="Zapisz zakładki…" revision="0" />
+    <Item value="Zapisz zakładki do pliku" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="&amp;Zakładki" revision="0" />
+    <Item value="Menu zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="&amp;Wybór" revision="0" />
+    <Item value="Wybierz grupę zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="&amp;Edytuj" revision="0" />
+    <Item value="Edytuj grupę zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="Usuń &amp;wszystko" revision="0" />
+    <Item value="Usuń wszystkie wpisy" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="Usuń" revision="0" />
+    <Item value="Usuń bieżący wpis" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="Przejdź do zakładki" revision="0" />
+    <Item value="Przejdź do wybranej zakładki" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="Upuść bieżący wybór i przekonwertuj bieżącą grupę zakładek do nowego wyboru." revision="0" />
+    <Item value="Dodaj bieżącą grupę zakładek do wyboru." revision="0" />
+    <Item value="Odejmij bieżącą grupę zakładek od wyboru." revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Widoczny" revision="0" />
+    <Item value="Mazisty" revision="0" />
+    <Item value="Aktywny" revision="0" />
+    <Item value="Grupa zakładki" revision="0" />
+    <Item value="Zakładki" revision="0" />
+    <Item value="Kolor" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Nr." revision="0" />
+    <Item value="Adres" revision="0" />
+    <Item value="Rozmiar" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="Zakładki" revision="0" />
+    <Item value="Funkcja zakładek umożliwia umieszczanie zakładek w pliku w celu szybkiego przeglądania." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="Ostrzeżenie o konwersji wyboru do zakładki" revision="1" />
+    <Item value="Bieżący wybór zawiera wiele fragmentów. Każda z nich zostanie dodana jako osobna zakładka. Czy chcesz kontynuować?" revision="1" />
+  </Enumeration>
+</Language>

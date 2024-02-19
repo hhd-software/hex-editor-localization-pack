@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Explorer 1" revision="0" />
+  <Message key="Explorer 2" value="Explorer 2" revision="0" />
+  <Message key="Invalid path specified" value="Określono nieprawidłową ścieżkę" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(błąd kopiowania folderów)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Błąd kopiowania następujących plików:" revision="0" />
+  <Message key="Explorer settings" value="Eksplorer" revision="0" />
+  <Message key="toolbar.Explorer" value="Eksplorer" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Poprzedni" revision="0" />
+    <Item value="Przejdź do poprzedniej lokalizacji" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Następny" revision="0" />
+    <Item value="Przejdź do następnej lokalizacji" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Góra" revision="0" />
+    <Item value="Przejdź do katalogu nadrzędnego" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Zlokalizuj bieżący" revision="0" />
+    <Item value="Synchronizuj bieżący katalog z przeglądarką" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Znajdź w plikach" revision="0" />
+    <Item value="Otwórz okno dialogowe Znajdź w plikach" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Foldery" revision="0" />
+    <Item value="Przełącz okno przeglądarki" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Wbudowany Explorer" revision="0" />
+    <Item value="Wbudowane Okno Narzędziowe Eksploratora naśladuje Eksploratora Windows i jest ściśle zintegrowane z Hex Editor. Jedno okno eksploratora dostępne jest w Edycji Standard, a dwa w edycjach Professional i Ultimate." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 Wbudowane Eksploratory" revision="0" />
+    <Item value="Wbudowane Okno Narzędziowe Eksploratora naśladuje Eksploratora Windows i jest ściśle zintegrowane z Hex Editor. Jedno okno eksploratora dostępne jest w edycji Standard, a dwa w edycjach Professional i Ultimate." revision="0" />
+  </Enumeration>
+</Language>

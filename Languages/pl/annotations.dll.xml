@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Adnotacje danych" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Adnotacje danych zostały zmienione dla &quot;{file}&quot;. Czy chcesz zapisać zaktualizowane adnotacje?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Osiągnąłeś limit liczby adnotacji ({number}), które możesz utworzyć dla tego dokumentu" revision="0" />
+  <Message key="toolbar.Annotations" value="Adnotacje" revision="0" />
+  <Message key="ExtSuffixFilter" value="Dozwolone symbole: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Zakres adnotacji" revision="0" />
+  <Message key="Start:" value="Początek:" revision="0" />
+  <Message key="End:" value="Koniec:" revision="0" />
+  <Message key="Text:" value="Tekst adnotacji:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Nieprawidłowe wejście" revision="0" />
+  <Message key="IncorrectInputText" value="Musi być wartością hex" revision="0" />
+  <Message key="Annotations Storage Location" value="Lokalizacja przechowywania adnotacji" revision="0" />
+  <Message key="Auto Select" value="Auto Wybór" revision="0" />
+  <Message key="NTFS Stream" value="Strumień NTFS" revision="0" />
+  <Message key="File extension suffix:" value="Przyrostek rozszerzenia pliku:" revision="0" />
+  <Message key="Custom Folder:" value="Folder niestandardowy:" revision="0" />
+  <Message key="Clear annotations cache" value="Wyczyść pamięć podręczną adnotacji" revision="0" />
+  <Message key="clr.ann_colors" value="Kolory adnotacji" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Tło adnotacji" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Zarys adnotacji" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Tekst adnotacji" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="Adnotacje" revision="0" />
+    <Item value="Funkcja adnotacji umożliwia dodawanie adnotacji do zakresu danych." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="Dodaj adnotację…" revision="0" />
+    <Item value="Utwórz nową adnotację" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="Usuń Adnotację" revision="0" />
+    <Item value="Usuń adnotację" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="Wyczyść adnotacje" revision="0" />
+    <Item value="Usuń wszystkie adnotacje" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="&amp;Adnotacje" revision="0" />
+    <Item value="Menu adnotacji" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="Kursor adnotacji…" revision="0" />
+    <Item value="Adnotuj dane w pozycji kursora" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="Adnotacje wyboru…" revision="0" />
+    <Item value="Dodaj adnotację do bieżącego wyboru" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="Edycja tekstu adnotacji" revision="0" />
+    <Item value="Edytuj wybrany element adnotacji" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="Dodaj" revision="1" />
+    <Item value="Zastosuj" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Nr." revision="0" />
+    <Item value="Adres" revision="0" />
+    <Item value="Rozmiar" revision="0" />
+    <Item value="Tekst" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item value="Przejdź do definicji" revision="0" />
+    <Item value="Otwórz definicję identyfikatora" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item value="Podgląd Definicji" revision="0" />
+    <Item value="Podgląd definicji identyfikatora" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item value="Znajdź wszystkie referencje" revision="0" />
+    <Item value="Wyszukaj wszystkie odniesienia do identyfikatora" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item value="Przejdź do symbolu…" revision="0" />
+    <Item value="Przejdź do definicji symbolu" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item value="Zmień wszystkie wystąpienia" revision="0" />
+    <Item value="Zmień wszystkie wystąpienia symbolu" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item value="Formatuj dokument" revision="0" />
+    <Item value="Formatuj cały dokument" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item value="Paleta poleceń" revision="0" />
+    <Item value="Otwórz paletę poleceń edytora" revision="0" />
+  </Enumeration>
+</Language>

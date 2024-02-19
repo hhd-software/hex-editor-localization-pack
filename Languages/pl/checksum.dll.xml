@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Calculating Checksums" value="Obliczanie sum kontrolnych" revision="1" />
+  <Message key="8-bit sum" value="Suma 8-bit" revision="1" />
+  <Message key="16-bit sum" value="Suma 16-bit" revision="1" />
+  <Message key="32-bit sum" value="Suma 32-bit" revision="1" />
+  <Message key="64-bit sum" value="Suma 64-bit" revision="1" />
+  <Message key="Zero bits" value="Zero bitów" revision="0" />
+  <Message key="One bits" value="Jeden bit" revision="0" />
+  <Message key="Sum of Little-Endian 16-bit values" value="Suma 16-bitowych wartości Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit values" value="Suma 16-bitowych wartości Big-Endian" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit values" value="Suma 32-bit wartości Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit values" value="Suma 32-bit wartości Big-Endian" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit values" value="Suma wartości 64-bit w Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit values" value="Suma 64-bit wartości Big-Endian" revision="1" />
+  <Message key="Sum of 8-bit signed values" value="Suma 8-bit podpisanych wartości" revision="1" />
+  <Message key="Sum of Little-Endian 16-bit signed values" value="Suma 16-bit podpisanych wartości Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 16-bit signed values" value="Suma 16-bit podpisanych wartości Big-Endian" revision="1" />
+  <Message key="Sum of Little-Endian 32-bit signed values" value="Suma 32-bit podpisanych wartości Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 32-bit signed values" value="Suma 32-bit podpisanych wartości Big-Endian" revision="1" />
+  <Message key="Sum of Little-Endian 64-bit signed values" value="Suma 64-bit podpisanych wartości Little-Endian" revision="1" />
+  <Message key="Sum of Big-Endian 64-bit signed values" value="Suma 64-bit podpisanych wartości Big-Endian" revision="1" />
+  <Message key="Custom CRC" value="Niestandardowy CRC" revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="Niektóre wartości nie mieszczą się w 16 bitach. Proszę podać wartości 16-bitowe: zakres od 0 do 0xFFFF (65535)." revision="1" />
+  <Message key="Checksum" value="Suma kontrolna" revision="1" />
+  <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="Funkcja sumy kontrolnej oblicza różne sumy kontrolne dla wybranych danych lub całego dokumentu." revision="1" />
+  <Message key="FNV-1 32-bit" value="FNV-1 32-bit" revision="0" />
+  <Message key="FNV-1a 32-bit" value="FNV-1a 32-bit" revision="0" />
+  <Message key="FNV-1 64-bit" value="FNV-1 64-bit" revision="0" />
+  <Message key="FNV-1a 64-bit" value="FNV-1a 64-bit" revision="0" />
+  <Message key="Custom FNV" value="Niestandardowy FNV-1" revision="0" />
+  <Message key="N/A" value="Niedostępne" revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="Poczekaj, aż wszystkie oczekujące operacje zostaną zakończone." revision="1" />
+  <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Pliki tekstowe oddzielone znakami tabulacji (*.tsv)|*.tsv|Wszystkie pliki|*||" revision="1" />
+  <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
+  <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64-bit{|is64bit}32-bit{?is64bit}: Prime={prime}, Offset basis={basis}" revision="0" />
+  <Message key="toolbar.Checksum" value="Suma kontrolna" revision="0" />
+  <Message key="Add Algorithm" value="Dodaj algorytm" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="Wybierz algorytm do dodania z poniższej listy:" revision="1" />
+  <Message key="Custom CRC Parameters" value="Niestandardowe parametry CRC" revision="1" />
+  <Message key="Initial Value:" value="Wartość początkowa:" revision="1" />
+  <Message key="Polynomial:" value="Wielomian:" revision="1" />
+  <Message key="XOR Out:" value="Wyjście XOR:" revision="1" />
+  <Message key="Hex" value="Hex:" revision="2" />
+  <Message key="Decimal" value="Dziesiętny:" revision="2" />
+  <Message key="Reflection In" value="Odbicie w" revision="1" />
+  <Message key="Reflection Out" value="Odbicie na zewnątrz" revision="1" />
+  <Message key="Name:" value="Nazwa:" revision="0" />
+  <Message key="Checksum Result" value="Wynik sumy kontrolnej" revision="1" />
+  <Message key="Copy" value="Kopiuj" revision="1" />
+  <Message key="Copy as Big-Endian" value="Kopiuj jako Big-Endian" revision="0" />
+  <Message key="Size:" value="Rozmiar:" revision="1" />
+  <Message key="Separator:" value="Separator:" revision="1" />
+  <Message key="Checksum settings" value="Suma kontrolna" revision="0" />
+  <Message key="Custom FNV Parameters" value="Niestandardowe parametry FNV-1" revision="0" />
+  <Message key="32-bit" value="32-bit" revision="0" />
+  <Message key="64-bit" value="64-bit" revision="0" />
+  <Message key="Prime:" value="Główny:" revision="0" />
+  <Message key="Offset basis:" value="Podstawa offsetu:" revision="0" />
+  <Message key="Version:" value="Wersja:" revision="0" />
+  <Enumeration key="Checksum result separators">
+    <Item value="Bez separatorów" revision="1" />
+    <Item value="Spacja (' ')" revision="1" />
+    <Item value="Przecinek (&quot;,&quot;)" revision="1" />
+    <Item value="Myślnik (&quot;-&quot;)" revision="1" />
+    <Item value="Dwukropek (':')" revision="1" />
+    <Item value="Średnik (&quot;;&quot;)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Algorithm groups">
+    <Item value="Sumatory proste" revision="2" />
+    <Item value="Więcej sumatorów" revision="2" />
+    <Item value="Suma kontrolna" revision="2" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="2" />
+    <Item value="Hasze" revision="2" />
+    <Item value="Podpisane sumy-." revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuChecksum">
+    <Item value="&amp;Suma kontrolna" revision="0" />
+    <Item value="Menu sumy kontrolnej" revision="0" />
+  </Enumeration>
+  <Enumeration key="Application range">
+    <Item value="Tylko wybór" revision="1" />
+    <Item value="Cały dokument" revision="1" />
+  </Enumeration>
+  <Enumeration key="Checksum window columns">
+    <Item value="Algorytm" revision="1" />
+    <Item value="Wartość (Hex)" revision="1" />
+    <Item value="Wartość (Dec)" revision="1" />
+    <Item value="Parametry" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumDisplayResult">
+    <Item value="Wyświetl wynik" revision="0" />
+    <Item value="Wyświetl wybrany wynik sumy kontrolnej" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumRefresh">
+    <Item value="Odśwież" revision="0" />
+    <Item value="Uruchom obliczanie sum kontrolnych" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChecksumCheckAll">
+    <Item value="Zaznacz wszystko" revision="1" />
+    <Item value="Włącz wszystkie algorytmy" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumUncheckAll">
+    <Item value="Odznacz wszystkie" revision="1" />
+    <Item value="Wyłącz wszystkie algorytmy" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopy">
+    <Item value="Kopiuj" revision="1" />
+    <Item value="Skopiuj wybrane wyniki do schowka" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumCopyAll">
+    <Item value="Kopiuj wszystko" revision="1" />
+    <Item value="Skopiuj wszystkie wyniki do schowka" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumExport">
+    <Item value="Eksport…" revision="1" />
+    <Item value="Eksportuj wybrane wyniki do pliku tekstowego" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumConfigure">
+    <Item value="Parametry…" revision="1" />
+    <Item value="Skonfiguruj parametry algorytmu" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumAddAlgorithm">
+    <Item value="Dodaj algorytm…" revision="1" />
+    <Item value="Dodaj nowy algorytm" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumRemoveAlgorithm">
+    <Item value="Usuń algorytm" revision="1" />
+    <Item value="Usuń aktualnie wybrany algorytm" revision="1" />
+  </Enumeration>
+  <Enumeration key="ChecksumResetAlgorithms">
+    <Item value="Zresetuj listę algorytmów" revision="1" />
+    <Item value="Zresetuj listę algorytmów do wartości domyślnych" revision="1" />
+  </Enumeration>
+</Language>

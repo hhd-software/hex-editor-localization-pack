@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="Otwarcie zbyt wielu dokumentów może prowadzić do bardzo niskiej wydajności. W związku z tym nie zaleca się kontynuowania bieżącej działalności. Czy chcesz anulować operację?" revision="1" />
+  <Message key="Warning" value="Ostrzeżenie" revision="1" />
+  <Message key="Error" value="Błąd" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} wystąpień)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Błąd {error_code} ({text_message}) {mode} {path}." revision="1" />
+  <Message key="Invalid folder or mask syntax." value="Nieprawidłowa składnia folderu lub maski." revision="1" />
+  <Message key="Invalid folder list syntax." value="Nieprawidłowa składnia listy folderów." revision="1" />
+  <Message key="Find All" value="Znajdź wszystko" revision="1" />
+  <Message key="Replace All" value="Zamień wszystko" revision="1" />
+  <Message key="Notifications" value="Powiadomienia" revision="1" />
+  <Message key="Find in Files" value="Znajdź w plikach" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="Czy chcesz anulować bieżącą operację?" revision="1" />
+  <Message key="Operation cancelled." value="Operacja anulowana." revision="1" />
+  <Message key="Replace with:" value="Zamień z:" revision="1" />
+  <Message key="Progress message" value="{percent}% ukończono. Sprawdzono {processed_files} z {total_files}{unfinished?}(…){?unfinished} plików w {total_folders} folderach znaleziono pasujące pliki: {matched} przetworzono {processed_size} z {total_size}." revision="1" />
+  <Message key="ReplaceNotification" value="Zamień w plikach" revision="1" />
+  <Message key="TextFilesFilterString" value="Pliki tekstowe|*.txt|" revision="0" />
+  <Message key="Exporting" value="Eksportowanie" revision="0" />
+  <Message key="Search in:" value="Szukaj w:" revision="1" />
+  <Message key="File types:" value="Typy plików:" revision="1" />
+  <Message key="Mode:" value="Tryb:" revision="1" />
+  <Message key="Include sub-folders" value="Uwzględnij podfoldery" revision="1" />
+  <Message key="Ignore case" value="Ignoruj wielkość liter" revision="1" />
+  <Message key="Display errors" value="Wyświetl błędy" revision="1" />
+  <Message key="Include streams" value="Uwzględnij strumienie" revision="1" />
+  <Message key="Find and replace mode" value="Znajdź i zamień tryb" revision="1" />
+  <Message key="Find in Files Folder List" value="Znajdź na liście folderów plików" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Wprowadź ścieżkę do folderu lub naciśnij przycisk przeglądania:" revision="1" />
+  <Message key="Move Up" value="Przenieś do &amp;góry" revision="1" />
+  <Message key="Move Down" value="Przenieś na &amp;dół" revision="1" />
+  <Message key="Folder list:" value="Lista folderów:" revision="1" />
+  <Message key="All opened documents" value="Wszystkie otwarte dokumenty" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Znajdź w plikach" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="otwarte" revision="1" />
+    <Item value="zapisane" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="Znajdź co najmniej jedno wystąpienie" revision="1" />
+    <Item value="Znajdź wszystkie wystąpienia (wolniej)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="Zamień wszystkie wystąpienia i zapisz" revision="1" />
+    <Item value="Zamień wszystkie wystąpienia i otwórz" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="Znajdź w plikach" revision="1" />
+    <Item value="Uruchom moduł Znajdź w plikach/Zamień w plikach" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="&amp;Znajdź w plikach" revision="0" />
+    <Item value="Znajdź w menu Pliki" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="Znajdź w plikach" revision="1" />
+    <Item value="Funkcja Znajdź w plikach pozwala szybko znaleźć pliki zawierające określony wzór w jednym lub wielu folderach." revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="Zamień w plikach" revision="1" />
+    <Item value="Funkcja Zamień w plikach umożliwia znalezienie wszystkich wystąpień wzorca w plikach w jednym lub wielu folderach i zastąpienie go innym wzorcem (lub usunięcie)." revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="Włącz opcję &quot;Zawsze twórz kopie zapasowe” i kontynuuj." revision="1" />
+    <Item value="Przełącz na tryb &quot;zamień wszystkie wystąpienia i otwórz” i kontynuuj." revision="1" />
+    <Item value="Kontynuuj w tym trybie (NIE zalecane)" revision="1" />
+    <Item value="Anuluj" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="Zamień w plikach" revision="1" />
+    <Item value="Uruchomienie funkcji &quot;Zamień w plikach&quot; w tym trybie z wyłączoną opcją &quot;Zawsze twórz kopie zapasowe&quot; może prowadzić do utraty danych, ponieważ podczas wymiany danych nie są tworzone kopie zapasowe. Zaleca się włączenie opcji &quot;Zawsze twórz kopie zapasowe&quot;.\r\n\r\nWybierz akcję poniżej:" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="Znaj&amp;dź w plikach…" revision="0" />
+    <Item value="Znajdź (i opcjonalnie zastąp) wzorzec w kilku plikach." revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="Zatrzymaj wyszukiwanie" revision="1" />
+    <Item value="Przerwanie bieżącej operacji" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="Otwórz plik" revision="1" />
+    <Item value="Otwórz wybrany plik w edytorze." revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="&amp;Wyczyść wszystko" revision="0" />
+    <Item value="Wyczyść zawartość okna" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="Tryb tła" revision="0" />
+    <Item value="Przełączanie trybu tła (zmniejszenie zużycia zasobów systemowych)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="Wyniki eksportu…" revision="0" />
+    <Item value="Eksportowanie listy znalezionych plików" revision="0" />
+  </Enumeration>
+</Language>

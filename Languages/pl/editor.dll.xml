@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} numer {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="Przejdź do {v}" revision="0" />
+  <Message key="FileNotSaved" value="W obecnym dokumencie wprowadzono zmiany. Chcesz go zapisać?" revision="0" />
+  <Message key="SaveProtocolFile" value="Błąd podczas zapisywania pliku &quot;{file}”: {error text} ({error})" revision="0" />
+  <Message key="Error" value="Błąd" revision="0" />
+  <Message key="Structure Editor" value="Edytor struktury" revision="0" />
+  <Message key="Line" value="Wiersz" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Niezapisany bieżący schemat&gt;" revision="0" />
+  <Message key="SchemeDelError" value="Tego schematu nie można usunąć" revision="0" />
+  <Message key="Coloring" value="Kolorowanie" revision="0" />
+  <Message key="Structure Editor Page" value="Edytor struktury" revision="0" />
+  <Message key="Save" value="Zapisz" revision="0" />
+  <Message key="Delete" value="Usuń" revision="0" />
+  <Message key="Font:" value="Czcionka:" revision="0" />
+  <Message key="Size:" value="Rozmiar:" revision="0" />
+  <Message key="Font color:" value="Kolor czcionki:" revision="0" />
+  <Message key="Back color:" value="Kolor tyłu:" revision="0" />
+  <Message key="Bold" value="Pogrubiony" revision="0" />
+  <Message key="Italic" value="Kursywa" revision="0" />
+  <Message key="Reset" value="Reset" revision="0" />
+  <Message key="Find" value="Znajdź" revision="0" />
+  <Message key="Fi&amp;nd what:" value="Zn&amp;jdź co:" revision="0" />
+  <Message key="Options" value="Opcje" revision="0" />
+  <Message key="Find within" value="Znajdź w obrębie" revision="0" />
+  <Message key="Match &amp;whole word only" value="Dopasuj tylko i&amp;całe słowo" revision="0" />
+  <Message key="Match &amp;case" value="Dopasuj wielkość liter" revision="0" />
+  <Message key="Whole window" value="Całe okno" revision="0" />
+  <Message key="Selection" value="Wybór" revision="0" />
+  <Message key="&amp;Find" value="&amp;Znajdź" revision="0" />
+  <Message key="Replace" value="Zamień" revision="0" />
+  <Message key="Replace with: " value="Zamień na:" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Znajdź następny" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Zamień" revision="0" />
+  <Message key="Replace &amp;All" value="Zamień &amp;wszystko" revision="0" />
+  <Message key="A pattern was not found." value="Nie znaleziono wzoru." revision="0" />
+  <Message key="InvalidColoringScheme" value="Nieprawidłowa nazwa schematu kolorów." revision="0" />
+  <Message key="OverwriteColoringScheme" value="Istnieje określony schemat. Czy chcesz to zastąpić?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="Zastąp…" revision="0" />
+    <Item value="Zastąp tekst" revision="0" />
+  </Enumeration>
+</Language>
