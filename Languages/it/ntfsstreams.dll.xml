@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="L'Applicazione Non può Essere Chiusa Fino a Quando l'Operazione di Flusso Corrente Viene Completata o Annullata." revision="0" />
+  <Message key="NTFS Streams" value="Flussi NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Apri Flusso Dopo la Creazione" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Cartella Non Valida o la Sintassi Maschera." revision="0" />
+  <Message key="Invalid folder list syntax." value="Elenco delle Cartelle Sintassi Non Valida." revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Escludi Modello è un'Espressione Regolare Non Valida." revision="0" />
+  <Message key="InvalidStreamName" value="Nome del Flusso Non Valido. Un Nome Non può Contenere i Seguenti Caratteri: / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="&amp;Flussi NTFS" revision="0" />
+  <Message key="CreateError" value="Errore Creazione Flusso: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="Si è Verificato Il Seguente Errore Durante la Creazione di Flusso:\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="L'Operazione Non può Essere Annullata. Sicuro di Voler Annullare Flusso/i Selezionato/i?" revision="0" />
+  <Message key="DeleteError" value="Errore Eliminando Flusso: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="Si è Verificato il Seguente Errore Durante la Cancellazione di Flusso:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="Si è Verificato il Seguente Errore/i Durante l'Apertura di Flussi:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Questo Flusso è Attualmente Aperto nell'Editor. Vuoi Chiuderlo al Fine di Eseguire l'Operazione Richiesta?" revision="0" />
+  <Message key="RenameError" value="Errore Ridenominazione Flusso: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="Si è Verificato il Seguente Errore Durante la Rinomina di Flusso:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Ricerca Finita.{|finished}Ricerca per Flussi…{?finished} {found} Flussi Trovati ({files} File in {folders} Cartelle Controllate)." revision="0" />
+  <Message key="StreamSize" value="Totale: {size}" revision="1" />
+  <Message key="RenameOperation" value="Rinominare il flusso" revision="0" />
+  <Message key="Find Streams Folder List" value="Trova Flussi Elenco Cartelle" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Inserisci il Percorso della Cartella o Premi il Pulsante Sfoglia:" revision="0" />
+  <Message key="Folder list:" value="Elenco Cartelle" revision="0" />
+  <Message key="Move &amp;Up" value="Sposta &amp;Sù" revision="0" />
+  <Message key="Move &amp;Down" value="Sposta &amp;Giù" revision="0" />
+  <Message key="File Stream Name" value="Nome File Flusso" revision="0" />
+  <Message key="Enter the stream name:" value="Inserisci il Nome Flusso:" revision="0" />
+  <Message key="Find Streams" value="Trova Flussi" revision="0" />
+  <Message key="Search in:" value="Cerca in:" revision="0" />
+  <Message key="File types:" value="Tipi File:" revision="0" />
+  <Message key="Larger than:" value="Più largo di" revision="0" />
+  <Message key="Exclude:" value="Escludi:" revision="0" />
+  <Message key="(regular expression)" value="(Espressione Regolare)" revision="0" />
+  <Message key="Include sub-folders" value="Includi Sottocartelle" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Flussi NTFS" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="&amp;Crea Flusso…" revision="0" />
+    <Item value="Crea Nuovo File di Flusso" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="&amp;Apri Flusso/i" revision="0" />
+    <Item value="Apri File Flusso/i nell'Editor" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="&amp;Elimina Flusso/i…" revision="0" />
+    <Item value="Elimina File Flusso/i" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="&amp;Rinomina Flusso…" revision="0" />
+    <Item value="Rinomina File Flusso" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="&amp;Annulla l'Operazione Corrente" revision="0" />
+    <Item value="Annulla l'Operazione Flusso Corrente" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Apri File &amp;Padre" revision="1" />
+    <Item value="Aprire il file o i file padre, cioè i file che contengono i flussi selezionati." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Trova Flussi…" revision="0" />
+    <Item value="Individua Tutti i File con Flussi di Dati Alternativi nelle Località Selezionate." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Esci dalla &amp;Modalità Trova Flussi" revision="0" />
+    <Item value="Esci dalla Modalità Trova Flussi" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Nome Flusso" revision="0" />
+    <Item value="Dim." revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="File" revision="0" />
+    <Item value="Flusso" revision="0" />
+    <Item value="Dimensioni" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="&amp;Flussi NTFS" revision="0" />
+    <Item value="Menu Flussi NTFS" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Trova Flussi" revision="0" />
+    <Item value="Inizia Modulo Trova Flussi" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Byte" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="Flussi NTFS" revision="0" />
+    <Item value="La Funzione Flussi NTFS Consente di Creare Nuovi Nomi Flussi, Rinominarli e Eliminarli." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Nessun Flusso. È Necessario Salvare il File Prima." revision="0" />
+    <Item value="Questo è un Flusso. I Flussi Nidificati Non sono Supportati dal File System." revision="0" />
+    <Item value="Impossibile Individuare i Flussi." revision="0" />
+    <Item value="I Flussi Non sono Supportati dal File System." revision="0" />
+    <Item value="Errore nell'Individuazione Flussi." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Trova Flussi" revision="0" />
+    <Item value="La Funzione Trova Flussi: Consente di Ricercare i File con il Nome dei Flussi sul Disco." revision="0" />
+  </Enumeration>
+</Language>

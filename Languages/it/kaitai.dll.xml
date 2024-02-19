@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="Nessun metadato trovato" revision="0" />
+  <Message key="FileNotFound" value="File non trovato: {filename}" revision="0" />
+  <Message key="TypeNotFound" value="Tipo non trovato: {type}" revision="0" />
+  <Message key="IdNotFound" value="Id non trovato: {type}" revision="0" />
+  <Message key="CastError" value="Impossibile lanciare il tipo {src_type} in {dst_type}" revision="0" />
+  <Message key="BitwiseOpError" value="Tipo illegale per l'operando sinistro dell'operazione bitwise. Deve essere un intero." revision="0" />
+  <Message key="MethodNotFound" value="Il metodo non esiste." revision="0" />
+  <Message key="ResultNotANumber" value="Il risultato di 'repeat-expr' non è un numero." revision="0" />
+  <Message key="InvalidArgument" value="Argomento non valido" revision="0" />
+  <Message key="ParamsNumMistmatch" value="Numero di argomenti non valido. Stimato: {est}, ricevuto: {fact}." revision="0" />
+  <Message key="SizeConflictError" value="È necessario specificare solo una delle opzioni 'size' o 'size-eos'." revision="0" />
+  <Message key="NoRepeatError" value="Nessuna espressione nel blocco 'repeat-expr'." revision="0" />
+  <Message key="NoUntilError" value="Nessuna espressione nel blocco 'repeat-until'." revision="0" />
+  <Message key="BracketsError" value="La staffa non è chiusa correttamente." revision="0" />
+  <Message key="CannotMatch" value="Il valore '{value}' non può corrispondere a valori di tipo '{type}'" revision="0" />
+  <Message key="ContentsError" value="Deve essere un array di byte o una stringa" revision="0" />
+  <Message key="ParsingError" value="Errore di parsing. Si aspettava: {est} a {fact}" revision="0" />
+  <Message key="PathNotFound" value="Percorso non trovato: {path}" revision="0" />
+  <Message key="NotAScope" value="Non un ambito" revision="0" />
+  <Message key="UnknownParam" value="Tipo di parametro sconosciuto: {type}" revision="0" />
+  <Message key="WrongEndian" value="Tipo endian sconosciuto nel meta-campo '{field}'. Deve essere 'be' o 'le'" revision="0" />
+</Language>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="Copia&amp;Esporta" revision="1" />
+  <Message key="BigSizeNotification" value="Notifica di Copia Testo di Grandi Dimensioni" revision="1" />
+  <Message key="FloatingDigits" value="Float Copia/Esporta di Numero di Cifre" revision="1" />
+  <Message key="DoubleDigits" value="Doppia Copia/Esporta di Numero di Cifre" revision="1" />
+  <Message key="IntelHexColumns" value="Byte per Riga per i Formati Intel HEX e Motorola S" revision="1" />
+  <Message key="EncodedFormat" value="&amp;Dati Codificati" revision="1" />
+  <Message key="RawFilter" value="File di Testo (*.txt)|*.txt|" revision="1" />
+  <Message key="Little Endian" value="Little Endian" revision="1" />
+  <Message key="Big Endian" value="Big Endian" revision="1" />
+  <Message key="FormattedFormat" value="Valori &amp;Formattati" revision="1" />
+  <Message key="CopyExportLocalized" value="Copia &amp; Esporta" revision="2" />
+  <Message key="Export" value="E&amp;sporta" revision="1" />
+  <Message key="BadFormat" value="Il Formato di Esportazione non è in Grado di Gestire i Dati Selezionati" revision="1" />
+  <Message key="BadImportFormat" value="Formato Dati Sbagliati." revision="1" />
+  <Message key="ErrorExport" value="Si è Verificato un Errore Creando un File di Destinazione: {text}\r\n(Codice Errore: {code})" revision="1" />
+  <Message key="ErrorExport2" value="Errore Esportando dati di: {text} \ r \ n (Codice Errore: {code})" revision="1" />
+  <Message key="ErrorImport" value="Errore Importando Dati Esadecimali: {text}\r\n(Codice Errore: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="Apri Hex" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="&amp;Copia negli Appunti" revision="1" />
+  <Message key="&amp;Export" value="&amp;Esporta" revision="1" />
+  <Message key="Format:" value="Formato:" revision="1" />
+  <Message key="Merge" value="Unisci" revision="1" />
+  <Message key="Algorithm:" value="Algoritmo:" revision="1" />
+  <Message key="Append" value="Aggiunge" revision="1" />
+  <Message key="&amp;Elements:" value="&amp;Elementi:" revision="1" />
+  <Message key="&amp;Columns:" value="&amp;Columni:" revision="1" />
+  <Message key="&amp;Type:" value="&amp;Tipo:" revision="1" />
+  <Message key="Byte order:" value="Ordine dei Byte:" revision="1" />
+  <Message key="Group:" value="Gruppo:" revision="1" />
+  <Message key="&amp;Addresses" value="&amp;Indirizzi" revision="1" />
+  <Message key="&amp;Text pane" value="&amp;Pannello Testo" revision="1" />
+  <Message key="Insert Hex" value="Inserisci Hex" revision="1" />
+  <Message key="Insert from" value="Inserisci da" revision="1" />
+  <Message key="Format" value="Formato" revision="1" />
+  <Message key="Put the data at" value="Metti i Dati in" revision="1" />
+  <Message key="Clipboard" value="Appunti" revision="1" />
+  <Message key="File:" value="File:" revision="1" />
+  <Message key="Start of the file" value="Inizio del File" revision="1" />
+  <Message key="Cursor location" value="Posizione del Cursore" revision="1" />
+  <Message key="Insert mode" value="Modalità Inserimento" revision="1" />
+  <Message key="Ignore data offset" value="Ignora Dati di Correzione" revision="1" />
+  <Message key="Encoding:" value="Codifica:" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Errore nell'apertura del file HEX: {text} ({code})" revision="3" />
+  <Enumeration key="EditCopyAs">
+    <Item value="Copia &amp;Come…" revision="1" />
+    <Item value="Converti Selezione in Uno dei Formati Supportati e Inserirli in Appunti" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="E&amp;sporta…" revision="1" />
+    <Item value="Esporta Selezione" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="Incolla C&amp;ome" revision="1" />
+    <Item value="Analizza i Dati in Appunti e Incollali nel Documento" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="Inserisci &amp;Hex…" revision="1" />
+    <Item value="Inserisci File ASCII-Codificato Binario" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="Apri &amp;Hex…" revision="1" />
+    <Item value="Apri File ASCII-Codificato Binario" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="Nuovo Intel Hex" revision="0" />
+    <Item value="Creare un file Intel HEX vuoto" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="Nuovo Motorola S-Records" revision="0" />
+    <Item value="Creare un file S-Records Motorola vuoto" revision="0" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64-Codifica" revision="1" />
+    <Item value="UU-Codifica" revision="1" />
+    <Item value="Quotata-Stampabile" revision="1" />
+    <Item value="Intel 8-bit HEX" revision="1" />
+    <Item value="Intel 16-bit HEX" revision="1" />
+    <Item value="Intel 32-bit HEX" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="Dati Codificati Copia/Esporta" revision="1" />
+    <Item value="La Caratteristica Dati Codificati Copia/Esporta Consente di Copiare o Esportare la Selezione Corrente in Base64, Formato UU-Codifica o Quotata-Stampabile." revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="Dati Formattati Copia /Esporta" revision="1" />
+    <Item value="La Caratteristica Dati Formattati Copia /Esporta Consente di Copiare o Esportare il Contenuto del Pannello di Codice in una Vasta Gamma di Formati." revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="Corrente" revision="1" />
+    <Item value="Nessuno" revision="1" />
+    <Item value="Sistema Predefinito" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="Testo Raw Copia/Esporta" revision="1" />
+    <Item value="La Funzione Testo Raw Copia/Esporta Consente di Copiare o Esportare il Contenuto del Pannello di Testo in Codifica Selezionata." revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="Testo &amp;Raw" revision="1" />
+    <Item value="Converte a un Semplice ASCII o Stringa di Caratteri UNICODE" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="Grande Copia di Testo" revision="1" />
+    <Item value="Anche se Hex Editor Neo Supporta la Copia di Grandi Quantità di Testo in Appunti, Potrebbero Verificarsi Difficoltà ad Incollare Questo Testo in Altre Applicazioni. Vuoi Continuare?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="Apri Hex/Inserisci Hex" revision="1" />
+    <Item value="La Funzione Apri Hex/Inserisci Hex che Permette di Decodificare i File Intel HEX o Motorola S-Records e Inserire Contenuto Binario come Nuovo Documento o all'Interno del Documento Aperto." revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="Intel HEX" revision="1" />
+    <Item value="Motorola S-Records" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="Predefinito" revision="1" />
+    <Item value="Hex" revision="1" />
+    <Item value="Decimale" revision="1" />
+    <Item value="Ottale" revision="1" />
+    <Item value="Binario" revision="1" />
+    <Item value="Float" revision="1" />
+    <Item value="Doppia" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="Predefinito" revision="1" />
+    <Item value="i Byte" revision="1" />
+    <Item value="Parole" revision="1" />
+    <Item value="Parole Doppie" revision="1" />
+    <Item value="Parole Quad" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="Senza Separatori" revision="1" />
+    <Item value="Testo Spazio Separato" revision="1" />
+    <Item value="Testo Separato da Virgola" revision="1" />
+    <Item value="Matrice C/C++" revision="1" />
+    <Item value="Matrice Java" revision="1" />
+    <Item value="Matrice Javascript" revision="1" />
+    <Item value="Matrice Delphi" revision="1" />
+    <Item value="Matrice C# .NET" revision="1" />
+    <Item value="Matrice Visual Basic .NET" revision="1" />
+    <Item value="Matrice PHP" revision="1" />
+    <Item value="Matrice Assembler" revision="1" />
+  </Enumeration>
+</Language>
