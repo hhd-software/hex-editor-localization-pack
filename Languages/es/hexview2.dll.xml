@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="Navegación" revision="0" />
+  <Message key="Offset" value="Offset" revision="1" />
+  <Message key="SchemeNameCue" value="Escriba aquí el nombre del esquema" revision="1" />
+  <Message key="Encrypt" value="Codificar" revision="1" />
+  <Message key="Decrypt" value="Decodificar" revision="1" />
+  <Message key="Navigate to Position" value="Ir a la posición" revision="1" />
+  <Message key="Add Position" value="Añadir Posición" revision="1" />
+  <Message key="Editor" value="Editor" revision="1" />
+  <Message key="Printing" value="Imprimiendo" revision="1" />
+  <Message key="AutoDropSelection" value="Modo de selección sencilla" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="Ajustar la selección al insertar" revision="1" />
+  <Message key="DigitGrouping" value="Agrupar dígitos" revision="1" />
+  <Message key="ShowCurrentAddress" value="Mostrar la dirección del cursor a la izquieda" revision="1" />
+  <Message key="IgnoreColoring" value="Ignorar colores" revision="1" />
+  <Message key="StandardHeader" value="Cabecera Estándar" revision="1" />
+  <Message key="StandardFooter" value="Pié Estandar" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="Mover el cursor después de pegar" revision="1" />
+  <Message key="FindAllNotification" value="Buscar Todos" revision="1" />
+  <Message key="PasteNotification" value="Pegar texto" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="Exprpesión inváñida. Revise la Sintáxis" revision="1" />
+  <Message key="Connect to" value="Conectar a" revision="1" />
+  <Message key="ConnectToSuccess" value="Las ventanas han sido conectadas con éxito." revision="1" />
+  <Message key="ConnectToFailure" value="Ha seleccionado una ventana inválida. No se pudo conectar a la ventana seleccionada." revision="1" />
+  <Message key="Copying Selection Regions…" value="Copiando las Regiones Seleccionadas…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="Exportando las Regiones Seleccionadas…" revision="1" />
+  <Message key="Open documentation section and continue" value="Abrir la sección y continuar" revision="1" />
+  <Message key="Just continue" value="Sólo continuar" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="Cargando el Editor" revision="1" />
+  <Message key="Initializing" value="Inicializando el Editor" revision="1" />
+  <Message key="Selection Tool Window" value="Selección" revision="1" />
+  <Message key="Output" value="Salida" revision="1" />
+  <Message key="Save As" value="Guardar Como" revision="1" />
+  <Message key="Do you want to override this scheme?" value="¿Quiere invalidar este esquema?" revision="1" />
+  <Message key="NoSel" value="Nada seleccionado" revision="1" />
+  <Message key="EncodingNotSupported" value="Actualmente la codificación seleccionada no es soportada por su sistema operativo. Asegúrese que todos los archivos y fuentes necesarios estén instalados." revision="1" />
+  <Message key="NoEncoding" value="Su sistema no cuenta con los componentes necesarios para el soporte de la codificación seleccionada. Seleccione otro tipo de codificación. " revision="1" />
+  <Message key="Find" value="Buscar" revision="1" />
+  <Message key="A pattern was not found." value="No se encontró un patrón." revision="1" />
+  <Message key="RegExpInSel" value="No puede realizarse la búsqueda de una expresión regular dentro de una selección." revision="1" />
+  <Message key="Find All" value="Buscar Todos" revision="1" />
+  <Message key="RegExpBackwards" value="No puede realizarse la búsqueda inversa de una expresión regular." revision="1" />
+  <Message key="Replace All" value="Reemplazar Todos" revision="1" />
+  <Message key="Go to Offset" value="Ir al Offset" revision="1" />
+  <Message key="Invalid offset." value="Offset inválido." revision="1" />
+  <Message key="UnsupportedFunction" value="No puede usar esta función con el actual tipo de documento." revision="1" />
+  <Message key="Change File Size" value="Cambiar el tamaño del archivo" revision="1" />
+  <Message key="Invalid file size." value="Tamaño de archivo inválido." revision="1" />
+  <Message key="Insert" value="Insertar" revision="1" />
+  <Message key="Invalid size." value="Tamaño inválido." revision="1" />
+  <Message key="NFound" value="{isfound?}{n} casos encontrados.{|isfound}No se encontró un patrón.{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n} casos encontrados y reemplazados.{|isfound}No se encontró un patrón.{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="El algoritmo de cifrado seleccionado no es soportado." revision="1" />
+  <Message key="Copy" value="Copiar" revision="1" />
+  <Message key="Export" value="Exportar" revision="1" />
+  <Message key="SelectionFiles" value="Archivos de Selección (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="Archivos de Texto (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} bits)" revision="1" />
+  <Message key="SetSize" value="Hexadecimal: \t{size}\r\nDecimal: \t{size:2} ({size as text}){hasfree?}\r\n\r\nEspacio libre: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="Error de sintáxis en la expresión regular: {error}." revision="1" />
+  <Message key="OffsetPane" value="Offset: {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="Tamaño: {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="El algoritmo seleccionado requiere que el tamaño de los datos sea un múltiplo de {bytes} bytes." revision="1" />
+  <Message key="EncryptFailed" value="La encriptación/desencriptación falló con el código de error {code}" revision="1" />
+  <Message key="PrintedBy" value="Impreso por el Software {product} de HHD " revision="1" />
+  <Message key="PageNumber" value="Página {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="Error al copiar las regiones seleccionadas: {text} ({code})" revision="1" />
+  <Message key="ExportError" value="Error al crear el archivo: {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="Patrón:" revision="1" />
+  <Message key="Replace with:" value="Reemplazar con:" revision="1" />
+  <Message key="Arithmetic Operation" value="Operación Aritmética." revision="1" />
+  <Message key="Operation:" value="Operación:" revision="1" />
+  <Message key="Operand type:" value="Tipo de Operando:" revision="1" />
+  <Message key="Operand value:" value="Valor del Operando:" revision="1" />
+  <Message key="Current cell" value="Celda actual" revision="1" />
+  <Message key="Selection" value="Selección" revision="1" />
+  <Message key="Whole file" value="Todo el archivo" revision="1" />
+  <Message key="Hexadecimal" value="Hexadecimal" revision="1" />
+  <Message key="Decimal" value="Decimal" revision="1" />
+  <Message key="Modify Bits" value="Modificar Bits" revision="1" />
+  <Message key="1 Byte:" value="1er byte:" revision="2" />
+  <Message key="2 Byte:" value="2do byte:" revision="2" />
+  <Message key="3 Byte:" value="3er byte:" revision="2" />
+  <Message key="4 Byte:" value="4to byte:" revision="2" />
+  <Message key="5 Byte:" value="5to byte:" revision="2" />
+  <Message key="6 Byte:" value="6to byte:" revision="2" />
+  <Message key="7 Byte:" value="7mo byte:" revision="2" />
+  <Message key="8 Byte:" value="8vo byte:" revision="2" />
+  <Message key="Binary representation:" value="Representación binaria" revision="1" />
+  <Message key="Value:" value="Valor:" revision="1" />
+  <Message key="Hex" value="Hexadecimal" revision="1" />
+  <Message key="Octal" value="Octal" revision="1" />
+  <Message key="Set All To Zero" value="Convertir todo a Cero" revision="1" />
+  <Message key="Set All To One" value="Convertir todo a Uno" revision="1" />
+  <Message key="Invert" value="Invertir" revision="1" />
+  <Message key="Revert" value="Revertir" revision="1" />
+  <Message key="Bitwise Operation" value="Operación Bitwise" revision="1" />
+  <Message key="Set Columns" value="Ajustar Columnas" revision="0" />
+  <Message key="Enter number of columns per row:" value="Escriba el número de columnas por fila:" revision="0" />
+  <Message key="Select the Window to Connect" value="Seleccione una ventana para conectar" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="Arrastre el siguiente icono sobre la ventana a la que quiere conectarse y suelte el botón del mouse." revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="El movimiento del cursor está sincronizado en las ventanas conectadas." revision="0" />
+  <Message key="Encrypt/Decrypt" value="Encriptar / Desencriptar" revision="0" />
+  <Message key="Algorithm:" value="Algoritmo:" revision="0" />
+  <Message key="Key length:" value="Largo de la llave:" revision="0" />
+  <Message key="bits" value="bits" revision="0" />
+  <Message key="Status:" value="Estatus:" revision="0" />
+  <Message key="Do not hide password" value="No ocultar la contraseña" revision="0" />
+  <Message key="Password:" value="Contraseña:" revision="0" />
+  <Message key="Re-type password:" value="Vuelva a escribir la contraseña:" revision="0" />
+  <Message key="Fill" value="Llenar" revision="0" />
+  <Message key="Fill whole file" value="Llenar todo el archivo" revision="0" />
+  <Message key="Fill selection" value="Llebar la selección" revision="0" />
+  <Message key="Transparent fill" value="Llenado transparente" revision="0" />
+  <Message key="Reverse pattern" value="Patrón inverso" revision="0" />
+  <Message key="&amp;Fill" value="&amp;Llenar" revision="0" />
+  <Message key="&amp;Find" value="&amp;Buscar" revision="0" />
+  <Message key="Find &amp;All" value="Buscar &amp;Todos" revision="0" />
+  <Message key="Search whole file" value="Buscar en todo el archivo" revision="0" />
+  <Message key="Search selection" value="Buscar la selección" revision="0" />
+  <Message key="Search up" value="Buscar hacia arriba" revision="0" />
+  <Message key="Search down" value="Buscar hacia abajo" revision="0" />
+  <Message key="Ignore case" value="Ignorar Mayúsculas/Minúsculas" revision="0" />
+  <Message key="Offset (expressions supported):" value="Offset (soporta expresiones):" revision="0" />
+  <Message key="Resulting offset:" value="Offset resultante:" revision="0" />
+  <Message key="Selection:" value="Selección:" revision="0" />
+  <Message key="Bookmark:" value="Marcador:" revision="0" />
+  <Message key="&amp;Absolute offset" value="Offset &amp;Absoluto" revision="0" />
+  <Message key="&amp;Relative offset" value="Offset &amp;Relativo" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Porcentaje" revision="0" />
+  <Message key="&amp;Insert" value="&amp;Insertar" revision="0" />
+  <Message key="Size (expressions supported):" value="Tamaño (Soporta expresiones):" revision="0" />
+  <Message key="Layout Page" value="Diseño" revision="0" />
+  <Message key="Font:" value="Fuente:" revision="0" />
+  <Message key="Size:" value="Tamaño:" revision="0" />
+  <Message key="Density:" value="Densidad:" revision="0" />
+  <Message key="Line spacing:" value="Espacio entre líneas:" revision="0" />
+  <Message key="Visualization elements:" value="Elementos de Visualización:" revision="0" />
+  <Message key="Color:" value="Color:" revision="0" />
+  <Message key="Automatic" value="Automático" revision="0" />
+  <Message key="Do not interlace background" value="No entrelazar el Fondo" revision="0" />
+  <Message key="Draw edit cursor frame" value="Cuadro del cursor de edición" revision="0" />
+  <Message key="Smart indentation" value="Sangría Inteligente" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Anti-alias de calidad (más lento)" revision="0" />
+  <Message key="File pattern:" value="Patrón de archivo:" revision="0" />
+  <Message key="Interlacing:" value="Entrelazado:" revision="0" />
+  <Message key="Layout Schemes" value="Esquemas de Diseño" revision="0" />
+  <Message key="&amp;Save As…" value="Guardar &amp;Como…" revision="0" />
+  <Message key="Load Selection" value="Cargar la Selección" revision="0" />
+  <Message key="Loading Mode" value="Modo de Carga" revision="0" />
+  <Message key="New selection" value="Nueva selección" revision="0" />
+  <Message key="Add to current" value="Añadir al actual" revision="0" />
+  <Message key="Subtract from current" value="Eliminar del actual" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="Por favor espere mientras se ejecuta la operación actual…" revision="0" />
+  <Message key="0 % done" value="0 % Terminado" revision="0" />
+  <Message key="Elapsed time: " value="Tiempo transcurrido:" revision="0" />
+  <Message key="Remaining time:" value="Tiempo restante:" revision="0" />
+  <Message key="Speed:" value="Velocidad:" revision="0" />
+  <Message key="Replace" value="Reemplazar" revision="0" />
+  <Message key="&amp;Find Next" value="&amp;Buscar Siguiente" revision="0" />
+  <Message key="&amp;Replace" value="&amp;Reemplazar" revision="0" />
+  <Message key="Replace &amp;All" value="Reemplazar &amp;Todos" revision="0" />
+  <Message key="Reverse Operation" value="Operación Inversa" revision="0" />
+  <Message key="Information" value="Información" revision="0" />
+  <Message key="Details" value="Detalles" revision="0" />
+  <Message key="Select Range" value="Seleccionar Rango" revision="0" />
+  <Message key="Offset:" value="Offset:" revision="0" />
+  <Message key="Add" value="Añadir" revision="0" />
+  <Message key="Subtract" value="Eliminar" revision="0" />
+  <Message key="Overlap" value="Sobreponer" revision="0" />
+  <Message key="Specify new file size:" value="Especificar el nuevo tamaño del archivo:" revision="0" />
+  <Message key="Resulting file size:" value="Tamaño de archivo resultante:" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="Puede usar expresiones matemáticas para escribir le nuevo tamaño del archivo. Consulte la ayuda para obtener más detalles." revision="0" />
+  <Message key="Shift Operation" value="Operación Shift" revision="0" />
+  <Message key="Shift by (bits):" value="Desplazar (bits):" revision="0" />
+  <Message key="Editor Page" value="Editor" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="Aquí puede seleccionar las propiedades predeterminadas de la ventana del editor:" revision="0" />
+  <Message key="Display as:" value="Mostrar como:" revision="0" />
+  <Message key="Group by:" value="Agrupar por:" revision="0" />
+  <Message key="Columns:" value="Columnas:" revision="0" />
+  <Message key="Byte order:" value="Orden de Bytes:" revision="0" />
+  <Message key="Encoding:" value="Codificación:" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="Salvar automáticamente la configuración de la ventana del editor para cada documento abierto" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="Al seleccionarlo, Hex Editor Neo asociará la configuración de la ventana del editor a cada documento abierto. La próxima vez que abra el mismo documento, la configuración de la ventana del editor se cargará automáticamente. " revision="0" />
+  <Message key="Code pane" value="Pánel de código" revision="0" />
+  <Message key="Text pane" value="Panel de texto" revision="0" />
+  <Message key="Take from current window" value="Tomar de la ventana actual" revision="0" />
+  <Message key="Reset to Default" value="Revertir al predeterminado" revision="0" />
+  <Message key="Clear Cache" value="Limpiar el Cache" revision="0" />
+  <Message key="Layout settings" value="Diseño del Editor" revision="0" />
+  <Message key="Encoding settings" value="Últimas codificaciones usadas" revision="0" />
+  <Message key="ViewSettingsDb settings" value="Ajustes Predeterminados del Editor" revision="0" />
+  <Message key="All documents" value="Todos los documentos" revision="0" />
+  <Message key="New Pattern" value="Nuevo patrón" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="Introduzca una nueva expresión regular de patrón de archivo:" revision="0" />
+  <Message key="Pattern cue" value="Expresión regular, como .+\.zip$" revision="1" />
+  <Message key="Pattern override prompt" value="Ese patrón ya existe. ¿Quiere anularlo?" revision="0" />
+  <Message key="clr.colors" value="Colores del editor" revision="0" />
+  <Message key="clr.colors.Text" value="Texto" revision="0" />
+  <Message key="clr.colors.Background" value="Fondo" revision="0" />
+  <Message key="clr.colors.AddressText" value="Texto del área de dirección" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="Fondo de la zona de la dirección" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Texto Ascii" revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Fondo Ascii" revision="0" />
+  <Message key="clr.colors.Even" value="Par" revision="0" />
+  <Message key="clr.colors.Odd" value="Impar" revision="0" />
+  <Message key="clr.colors.Empty" value="Rango vacío" revision="0" />
+  <Message key="clr.colors.CursorFill" value="Relleno del cursor" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="Trazo del cursor" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="Relleno del cursor alternativo" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="Texto destacado activo" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="Fondo destacado activo" revision="0" />
+  <Message key="clr.colors.ChangedText" value="Texto de celda modificado" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="Fondo de la celda modificado" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="Cambio contorno de la celda" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="Fondo de selección" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="Contorno de selección" revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="Subrayado del campo activo" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="Fondo de la información sobre herramientas" revision="0" />
+  <Message key="clr.colors.TooltipText" value="Texto de información sobre herramientas" revision="0" />
+  <Message key="toolbar.Selection" value="Selección" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="Seleccionar &amp;Todos" revision="1" />
+    <Item value="Seleccionar todos los datos de  un archivo" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="&amp;No seleccionar" revision="1" />
+    <Item value="Borra la selección actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item value="Ir a Inicio" revision="0" />
+    <Item value="Navegar hasta el inicio del bloque seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item value="Ir al final" revision="0" />
+    <Item value="Navegar hasta el final del bloque seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item value="Borrar bloque" revision="0" />
+    <Item value="Borrar el bloque seleccionado de la selección" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item value="Borrar la selección" revision="0" />
+    <Item value="Borrar todos los bloques de selección" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="Invertir  Selección" revision="1" />
+    <Item value="Invierte la selección actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="Seleccionar Modificado" revision="1" />
+    <Item value="Selecciona los datos modificados" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="Seleccinar &amp;Rango…" revision="1" />
+    <Item value="Especifica un rango de datos y lo combina con la selección actual." revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="&amp;Cargar Selección…" revision="1" />
+    <Item value="Cargar una nueva selección o la combina con la actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="&amp;Guardar Selección…" revision="1" />
+    <Item value="Guarda la selección actual en un archivo" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="&amp;Editar Celda" revision="1" />
+    <Item value="Edita la celda actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="Modo &amp;Insertar" revision="1" />
+    <Item value="Activa o desactiva el modo Insertar" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="&amp;Buscar…" revision="1" />
+    <Item value="Busca un patrón o todos los casos de un patrón" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="Buscar &amp;Siguiente" revision="1" />
+    <Item value="Busca el siguiente caso" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="Buscar &amp;Anterior" revision="1" />
+    <Item value="Busca el caso enterior" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="&amp;Reemplazar…" revision="1" />
+    <Item value="Reemplaza un patrón con otro" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="R&amp;ellenar" revision="1" />
+    <Item value="Rellena la selección con un byte o un patrón" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="&amp;Insertar…" revision="1" />
+    <Item value="Inserta un byte o patrón" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="&amp;Ir al Offset…" revision="1" />
+    <Item value="Ir a un Offset específico del archivo" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="Cambiar el &amp;Tamaño del Archivo…" revision="1" />
+    <Item value="Cambia el tamaño del archivo" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="Insertar &amp;Archivo…" revision="1" />
+    <Item value="Inserta el contenido de un archivo en la posición actual. Puede escribir o insertar los datos, dependiendo del modo de sobre-escritura seleccionado." revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="&amp;Codificación" revision="1" />
+    <Item value="Codificaciones" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="&amp;Conectar a…" revision="1" />
+    <Item value="Conecta esta ventana con otra" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="&amp;Hex" revision="1" />
+    <Item value="Modo Hexadecimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="&amp;Decimal" revision="1" />
+    <Item value="Modo decimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="&amp;Octal" revision="1" />
+    <Item value="Modo octal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="&amp;Binario" revision="1" />
+    <Item value="Modo binario" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="Punto &amp;Flotante" revision="1" />
+    <Item value="Número de punto flotante con precisión sencilla" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="Dobl&amp;e" revision="1" />
+    <Item value="Número de punto flotante con precisión doble" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="Bytes" revision="1" />
+    <Item value="Agrupar por bytes" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Words" revision="1" />
+    <Item value="Agrupar por Words" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Word Doble" revision="1" />
+    <Item value="Agrupar por Word dobles" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Word Cuádruple" revision="1" />
+    <Item value="Agrupar por word cuádruples" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="&amp;Panel de Texto" revision="1" />
+    <Item value="Mostra u Ocultar el panel de texto (ASCII o UNICODE) " revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="&amp;Hex" revision="1" />
+    <Item value="Ver la dirección como hexadecimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="&amp;Decimal" revision="1" />
+    <Item value="Ver la dirección como decimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="&amp;Octal" revision="1" />
+    <Item value="Ver la dirección como octal" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="&amp;Auto" revision="1" />
+    <Item value="Calcular automáticamente el número de coumnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="&amp;4 Columnas" revision="1" />
+    <Item value="4 columnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="&amp;8 Columnas" revision="1" />
+    <Item value="8 columnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="&amp;16 Columnas" revision="1" />
+    <Item value="16 columnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="&amp;32 Columnas" revision="1" />
+    <Item value="32 columnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="&amp;Personalizado…" revision="1" />
+    <Item value="Especificar el número de columnas" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="&amp;Little-Endian" revision="1" />
+    <Item value="Codificación tipo Little-Endian" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="&amp;Big-Endian" revision="1" />
+    <Item value="Codificación tipo Big-Endian" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="Cambiar el Orden de los Bytes" revision="0" />
+    <Item value="Cambia el orden de los bytes" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="Encr&amp;iptar…" revision="1" />
+    <Item value="Codificar los datos del documento" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="Desencri&amp;ptar" revision="1" />
+    <Item value="Desencripta los datos del documento" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="Modificar los bits…" revision="1" />
+    <Item value="Modifica los bits" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="Panel de &amp;Código" revision="1" />
+    <Item value="Muestra u oculta el panel de código" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="Modo de Selección Si&amp;mple" revision="1" />
+    <Item value="Activa/Desactiva el modo de selección simple" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="Bitwisw &amp;NOT…" revision="1" />
+    <Item value="Realiza una operación bitwise NOT" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="Bitwise &amp;OR…" revision="1" />
+    <Item value="Realiza una operación bitwise OR" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="Bitwise &amp;AND…" revision="1" />
+    <Item value="Realiza una operación bitwise AND" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="Bitwise &amp;XOR…" revision="1" />
+    <Item value="Realiza una operación bitwise XOR" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="N&amp;egación…" revision="1" />
+    <Item value="Realiza una operación aritmética de negación" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="A&amp;dición…" revision="1" />
+    <Item value="Realiza una operación aritmética de adición" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="&amp;Sustracción…" revision="1" />
+    <Item value="Realiza una operación aritmética de resta" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="&amp;Multiplicación…" revision="1" />
+    <Item value="Realiza una operación aritmética de multiplicación" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="D&amp;ivisión…" revision="1" />
+    <Item value="Realiza una operación aritmética de división" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="&amp;Residuo" revision="1" />
+    <Item value="Realiza una operación aritmética de residuo" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="Establecer M&amp;inimo" revision="1" />
+    <Item value="Realiza una operación aritmética de establecer mínimo" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="Establecer Má&amp;ximo" revision="1" />
+    <Item value="Realiza una operación aritmética de establecer máximo" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="Ló&amp;gico Izquierda…" revision="1" />
+    <Item value="Realiza una operación lógica de dezplazar hacia la izquierda" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="Lógi&amp;co Derecha…" revision="1" />
+    <Item value="Realiza una operación lógica de dezplazar hacia la derecha" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="Aritmético &amp;Izquierda…" revision="1" />
+    <Item value="Realiza una operación aritmética de dezplazar hacia la izquierda" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="Arit&amp;mético Derecha…" revision="1" />
+    <Item value="Realiza una operación aritmética de dezplazar hacia la derecha" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="Ro&amp;tar Izquierda" revision="1" />
+    <Item value="Realiza una operación de rotar hacia la izquierda" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="Rotar &amp;Derecha" revision="1" />
+    <Item value="Realiza una operación de rotar hacia la derecha" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="M&amp;inúscula" revision="1" />
+    <Item value="Convierte la selección a minúsculas" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="M&amp;ayúscula" revision="1" />
+    <Item value="Convierte la selección a mayúsculas" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="&amp;Invertir Mayúscula/Minúscula" revision="1" />
+    <Item value="Invierte la selección a mayúsculas/minúsculas" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="&amp;Invertir bits" revision="1" />
+    <Item value="Realiza una operación de invertir los bits" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="Intercambio de Bytes…" revision="1" />
+    <Item value="Realiza una operación de intercambio de bytes" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="Act&amp;ualizar (Disco/Memoria)" revision="1" />
+    <Item value="Actualiza la ventana actual (para el disco, procesos y memoria)" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="Copia Regiones" revision="1" />
+    <Item value="Copia la lista de las regiones al Portapapeles" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="Exporta Regiones…" revision="1" />
+    <Item value="Exporta la lista de regiones a un archivo" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="Limpiar Todo" revision="1" />
+    <Item value="Borra el contenido de la ventana de salida actual" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item value="Navegar hasta la posición" revision="0" />
+    <Item value="Ir al desplazamiento especificado" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item value="Añadir posición" revision="0" />
+    <Item value="Añade el desplazamiento actual a la lista de posiciones almacenadas" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item value="Copiar Posición" revision="0" />
+    <Item value="Copiar el desplazamiento actual en el portapapeles" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="Negación" revision="1" />
+    <Item value="Adición" revision="1" />
+    <Item value="Sustracción" revision="1" />
+    <Item value="multiplicación" revision="1" />
+    <Item value="División" revision="1" />
+    <Item value="Residuo" revision="1" />
+    <Item value="Establecer Mínimo" revision="1" />
+    <Item value="Establecer Máximo" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="Bytes" revision="1" />
+    <Item value="Words" revision="1" />
+    <Item value="Words Dobles" revision="1" />
+    <Item value="Words Cuádruples" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="Bitwise NOT" revision="1" />
+    <Item value="Bitwise OR" revision="1" />
+    <Item value="Bitwise AND" revision="1" />
+    <Item value="Bitwise XOR" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="Invertir Bits" revision="1" />
+    <Item value="Intercambiar Bytes" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="Lógica hacia la Izquierda" revision="1" />
+    <Item value="Lógica hacia la Derecha" revision="1" />
+    <Item value="Aritmética hacia la Izquierda" revision="1" />
+    <Item value="Aritmética hacia la Derecha" revision="1" />
+    <Item value="Rotar hacia la Izquierda" revision="1" />
+    <Item value="Rotar hacia la Derecha" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="Sin cambios" revision="1" />
+    <Item value="Reemplazar la selección" revision="1" />
+    <Item value="Añadir a la selección" revision="1" />
+    <Item value="Eliminar de la selección" revision="1" />
+    <Item value="Invertir la selección" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="bytes" revision="1" />
+    <Item value="casos del patrón" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="Tipo de exportación del rango de selección" revision="1" />
+    <Item value="Usar números hexadecimales" revision="1" />
+    <Item value="Usar números decimales" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="Pegar Texto" revision="1" />
+    <Item value="Está a punto de pegar un texto desde el Portapapeles. Se RECOMIENDA leer la sección correspondiente incluída en la documentación antes de realizar esta operación." revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="Buscar Todo" revision="1" />
+    <Item value="Buscar todo sólo muestra los resultados cuando la vista se encuentra en modo &quot;Hex Bytes&quot; or &quot;Decimal Bytes&quot;. ¿Quiere cambiar de modo ahora?" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="Bytes" revision="1" />
+    <Item value="KB" revision="1" />
+    <Item value="MB" revision="1" />
+    <Item value="GB" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="Pegar Texto" revision="1" />
+    <Item value="La característica pegar texto le permite pegar un texto desde el Portapapeles y opcionalmente analizar si contiene una secuencia de números decimales o hexadecimales." revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="OVR" revision="1" />
+    <Item value="INS" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="Hexadecimal" revision="1" />
+    <Item value="Decimal" revision="1" />
+    <Item value="Octal" revision="1" />
+    <Item value="Binario" revision="1" />
+    <Item value="Flotante" revision="1" />
+    <Item value="Flotante Doble" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="&amp;Seleccionar" revision="0" />
+    <Item value="Menú de selección" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="&amp;Operaciones" revision="0" />
+    <Item value="Menú de operaciones" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="Mostr&amp;ar Como" revision="0" />
+    <Item value="Cambia el tipo de números en la celda" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="Agrupar por" revision="0" />
+    <Item value="Cambia el modo de agrupación de las celdas" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="&amp;Columnas" revision="0" />
+    <Item value="Cambia el número de columnas" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="Orden de &amp;Bytes" revision="0" />
+    <Item value="Cambia el orden de los bytes" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="Offset" revision="2" />
+    <Item value="Cambia el tipo de offset" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="Offset" revision="2" />
+    <Item value="Cambia el tipo de offset" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="Codificaciones" revision="1" />
+    <Item value="La característica de codificaciones le permite cambiar la codificación de los caracteres de  un panel de texto de cualquier ventana del editor." revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="Tamaño Total" revision="1" />
+    <Item value="Fragmentos" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="No." revision="1" />
+    <Item value="Dirección" revision="1" />
+    <Item value="Tamaño" revision="1" />
+  </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item value="Activar la opción &quot;Modo de selección individual&quot;" revision="2" />
+    <Item value="Esto desactivará efectivamente la Selección Múltiple. Más adelante podrá volver a desactivar esta opción en la pestaña de Configuración General." revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="Selección Múltiple" revision="1" />
+    <Item value="La característica de Selección múltiple le permite activar la vista para seleccionar varios bloques de datos y aplicar comandos de edición sobre todos ellos." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="Buscar todos los casos" revision="1" />
+    <Item value="La característica Buscar todos los casos rápidamente encuentra todos los casos donde aparezca un patrón en un archivo (o dentro de una selección) y los convierte en la selección." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="Reemplazar todos los casos" revision="1" />
+    <Item value="La característica Reemplazar todos los casos lrapidamente encuentra todos los casos donde aparezca un patrón y los reemplaza copn otro patrón. Éstos pueden ser de diferentes tamaños y los patrones de destino pueden estar vacíos." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="Guardar Selección" revision="1" />
+    <Item value="La caracyerística guardar selección le permite guardar la selección actual a un archivo." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="Cargar Selección" revision="1" />
+    <Item value="La característica cargar selección le permite cargar una selección desde un archivo. La selección cargada puede ser opcionalmente añadida a la actual, o eliminada de la misma." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="Conectar a" revision="1" />
+    <Item value="La característica conectar a le permite conectar dos ventanas, ligando los movimientos del cursor dentro de ellas." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="Encriptar/Desencriptar" revision="1" />
+    <Item value="La función encriptar/desencriptar le permite encriptar (y desencriptar) los datos seleccionados, usando alguno de los flujos instalados o bloques de cifrado." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="Operaciones con datos" revision="1" />
+    <Item value="La característica operaciones con datos le permite realizar operaciones Bitwise, Aritméticas, Desplazo, cambio de mayúscula/minuscula, e inversión de los datos seleccionados." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="Copiar Regiones Seleccionadas" revision="1" />
+    <Item value="La característica de copiar las regiones seleccionadas le permite copiar la lista de las regiones actuales al Portapapeles." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="Exportar Regiones Seleccionadas" revision="1" />
+    <Item value="La característica de exportar las regiones seleccionadas le permite exportar la lista de las regiones actualmente seleccionadas a un archivo de texto." revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="ERROR - No seleccionó un algoritmo de encriptación." revision="1" />
+    <Item value="OK" revision="1" />
+    <Item value="Las contraseñasescritas no coinciden." revision="1" />
+    <Item value="ERROR - Una contraseña está vacía." revision="1" />
+    <Item value="ERROR - El largo de la llave debe ser potencia de 8." revision="1" />
+    <Item value="ERROR - Largo de la llave inválido." revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="Selección" revision="1" />
+    <Item value="Cursor" revision="1" />
+    <Item value="Texto cambiado" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item value="Ninguno" revision="0" />
+    <Item value="Entrelazar columnas" revision="0" />
+    <Item value="Entrelazar filas" revision="0" />
+  </Enumeration>
+</Language>
