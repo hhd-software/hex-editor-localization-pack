@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FileCorruptionWarning" value="Etes-vous sûr de vouloir annuler cette opération? Cette action pourrait corrompre le fichier.  " revision="1" />
+  <Message key="OccFound" value="{N} occurrences trouvée jusqu'à présent." revision="1" />
+  <Message key="CopiedFragmentName" value="Données copié de HHD Hex Editor Neo" revision="3" />
+  <Message key="DefaultBranchName" value="Default" revision="1" />
+  <Message key="Continue working with a file." value="Continuer a travaillé avec ce fichier" revision="1" />
+  <Message key="Discard all changes and close the file." value="Ignorer toutes les modifications et fermez le fichier." revision="1" />
+  <Message key="SharedError" value="Il y avait une erreur lors du mise à jour d'un fichier." revision="1" />
+  <Message key="InvalidChars" value="Cette Expression régulière contient des caractères non valides." revision="1" />
+  <Message key="ClassExists" value="Cette classe existe déjà. Changer nom de la classe." revision="1" />
+  <Message key="DeleteClasses?" value="Etes-vous sûr de vouloir supprimer toutes les classes?" revision="1" />
+  <Message key="LoadError" value="Erreur interne: {text} ({code})" revision="1" />
+  <Message key="CheckForLowDiskSpace" value="Vérifiez l'espace disque disponible avant de procéder à ces opérations" revision="1" />
+  <Message key="IgnoreRenames" value="Ignorer les renommages des fichiers partagés ouverts" revision="1" />
+  <Message key="RemovedNotification" value="Suppression de Document partagé" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="Essai automatique d'ouverture à l'aide de l'instantané du disque" revision="0" />
+  <Message key="NewBranchName" value="Branche {n}" revision="1" />
+  <Message key="OldVersion" value="{name} (old version {version}){ext}" revision="1" />
+  <Message key="ObjectCreationError" value="&quot;{path}&quot;:Erreur lors de la création du document: {{text} ({{code})" revision="2" />
+  <Message key="LongTime" value="L'ouverture du&quot;{path}&quot; fichier en mode partagé peut prendre beaucoup de temps. Voulez-vous ouvrir le fichier en mode normal, verrouillé à la place?" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: Erreur d'ouverture du fichier: {{text} ({{code})" revision="3" />
+  <Message key="LowDiskSpace" value="L'espace disque libre sur le disque {disque} est trop faible. L'opération ne sera pas exécutée. Veuillez libérer de l'espace disque avant de réessayer..\r\n\r\nNotez: Les opérations de l'éditeur Hex Neo sont désactivées plus lorsque l'espace est faible sur le disque contenant le dossier temporaire. Les opération Enregistrer sous n'est pas désactivé: vous permettant d'enregistrer les modifications apportées au fichier vers un autre volume.\r\n\r\nVous pouvez désactiver cette vérification dans le menu Outils »Paramètres, sous l'onglet Général. Décochez la case &quot;Vérifier l'espace disque disponible avant d'effectuer des opérations&quot; l'option pour désactiver cette vérification." revision="1" />
+  <Message key="Unknown Process" value="Process inconnu" revision="1" />
+  <Message key="Physical Memory" value="Mémoire physique" revision="1" />
+  <Message key="Shared File Conflict Detected" value="Conflit de fichiers partagés détecté" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Le fichier a été modifié en dehors du Hex Editor Neo. Que voulez-vous faire?" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="Conservez tous les changements et ne pas mettre à jour le fichier" revision="1" />
+  <Message key="Discard all changes and close the file" value="Annuler toutes les changements et fermer le fichier" revision="1" />
+  <Message key="Discard all changes and update the file" value="Annuler toutes les changements et mettre à jour le fichier" revision="1" />
+  <Message key="Retain all changes and update the file" value="Conservez tous les changements et mettre à jour le fichier" revision="1" />
+  <Message key="Highlight changes in the file" value="Surlignez les changements dans le fichier" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="utilisant un algorithme simple (plus rapide, mais moins précis)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="utilisant un algorithme de différence (plus lent, plus précis)" revision="1" />
+  <Message key="Close older versions of the file" value="Fermez les versions des fichiers plus anciens" revision="1" />
+  <Message key="Edit Class" value="Editer Classe" revision="1" />
+  <Message key="Class name (must be unique):" value="Nom de la classe (doit être unique):" revision="1" />
+  <Message key="Regular expression:" value="Expression régulière:" revision="1" />
+  <Message key="Regular Expressions" value="Expressions régulière" revision="1" />
+  <Message key="Regular Expressions Page" value="Expressions régulières" revision="1" />
+  <Message key="You can create reusable regular expression classes on this page. Every class should be a valid regular expression and may reference other classes." value="Vous pouvez créer des classes d'expressions régulières réutilisables sur cette page. Chaque classe doit être une expression régulière valide et peut faire référence à d'autres classes." revision="1" />
+  <Message key="Add…" value="&amp;Ajouter…" revision="1" />
+  <Message key="Edit…" value="&amp;Edition…" revision="1" />
+  <Message key="Delete All" value="Supprimer tout" revision="1" />
+  <Message key="Global regular expression options:" value="Options globales d'expressions régulières:" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (Point) méta caractère ne correspond pas à un caractère null ('\\0')" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (Point) métacaractère ne correspond pas à un caractère de nouvelle ligne ('\n')" revision="1" />
+  <Message key="Non-escaped white-space is not significant" value="L'espace blanc non-échappé est négligeable" revision="1" />
+  <Message key="Open Shared" value="Ouvrir fichier partagé" revision="1" />
+  <Message key="SnapshotTitle" value="Ouvrir à partir de l'instantané" revision="0" />
+  <Message key="SnapshotDescription" value="L'éditeur hexadécimal Neo n'a pas pu ouvrir &quot;{path}&quot; en raison de l'erreur suivante:\r\n    » {text} ({code})\r\n\r\nVoulez-vous essayer de créer un instantané de volume et ouvrir un fichier à partir de cet instantané?" revision="0" />
+  <Message key="RegExp settings" value="Classes d'expression régulières" revision="0" />
+  <Message key="Shortcut files" value="Fichiers de raccourcis" revision="0" />
+  <Enumeration key="ConflictOptions">
+    <Item value="Ignorer la case" revision="1" />
+    <Item value="Choisir le fichier" revision="1" />
+    <Item value="Mettre à jour le fichier" revision="1" />
+  </Enumeration>
+  <Enumeration key="SharedRemoved">
+    <Item value="Conflit de fichiers partagés détecté" revision="1" />
+    <Item value="Le fichier {name} a été supprimé par une autre application. Que souhaitez-vous faire?" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationNames">
+    <Item value="Rechercher tout" revision="1" />
+    <Item value="Remplir" revision="1" />
+    <Item value="Supprimer" revision="1" />
+    <Item value="Enregistrer" revision="1" />
+    <Item value="Rechercher" revision="1" />
+    <Item value="Remplacer tout" revision="1" />
+    <Item value="Cueillir des statistiques" revision="1" />
+    <Item value="Enregistrer sous" revision="1" />
+    <Item value="Enregistrer l’historique" revision="1" />
+    <Item value="Charger historique" revision="1" />
+    <Item value="Création de Patch(s)" revision="1" />
+    <Item value="Obtenez la sélection de modification" revision="1" />
+    <Item value="Copier" revision="1" />
+    <Item value="Coller" revision="1" />
+    <Item value="Purger l'historique" revision="1" />
+    <Item value="Statistiques de modèle" revision="1" />
+    <Item value="Exporter" revision="1" />
+    <Item value="Chiffrer" revision="1" />
+    <Item value="Déchiffrer" revision="1" />
+    <Item value="Opération bit à bit" revision="1" />
+    <Item value="Opération arithmétique" revision="1" />
+    <Item value="Opération de décalage" revision="1" />
+    <Item value="Opération de d'inversion" revision="1" />
+    <Item value="Opération de case" revision="1" />
+    <Item value="Insérez hexadécimal" revision="1" />
+  </Enumeration>
+  <Enumeration key="RegExpColumns">
+    <Item value="Nom de  Classe" revision="1" />
+    <Item value="Expression régulière" revision="1" />
+  </Enumeration>
+</Language>

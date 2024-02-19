@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="L'application ne peut pas être fermé jusqu'à ce que l'opération de flux en cours est terminée ou annulé." revision="0" />
+  <Message key="NTFS Streams" value="Flux NTFS" revision="0" />
+  <Message key="OpenOnCreate" value="Ouvrir flux après sa création" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="Dossier inexistante ou la syntaxe du masque est invalide." revision="0" />
+  <Message key="Invalid folder list syntax." value="La liste des dossiers contient une erreur de syntaxe" revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="Les occurrences exclus par l'expression régulière donnée contiennent une erreur" revision="0" />
+  <Message key="InvalidStreamName" value="Nom du flux invalide. Un nom ne peut pas contenir les caractères suivants: / \:? * &quot;&lt;&gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="Flux NTFS" revision="0" />
+  <Message key="CreateError" value="Erreur de création de flux: {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="L'erreur suivante est survenue lors de la création du flux" revision="0" />
+  <Message key="AskDelete" value="L'opération ne peut être annulée. Etes-vous sûr de vouloir continuer à supprimer le(s) flux sélectionné(s)?" revision="0" />
+  <Message key="DeleteError" value="Erreur de suppression de flux: {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="L'erreur suivante est survenue pendant l'effacement des flux:\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="L'erreur suivante (s) s'est produite lors de l'ouverture des flux:\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="Ce flux est actuellement ouvert dans l'éditeur. Voulez-vous le fermer afin d'exécuter l'opération demandée?" revision="0" />
+  <Message key="RenameError" value="Erreur de renommage de Flux: {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="L'erreur suivante est survenue lors du renommage du flux:\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}Recherche terminée:{|finished} Recherche de flux…{?finished} {found} Flux trouvé(s)({files} fichiers dans {folders} folders checked).dossiers vérifiés)." revision="0" />
+  <Message key="StreamSize" value="Totale: {size}" revision="1" />
+  <Message key="RenameOperation" value="Renommer le flux" revision="0" />
+  <Message key="Find Streams Folder List" value="Flux trouvé parmi la liste des dossiers" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Entrez le chemin d'accès au dossier ou pressez le bouton Parcourir:" revision="0" />
+  <Message key="Folder list:" value="Liste des dossiers:" revision="0" />
+  <Message key="Move &amp;Up" value="Déplacer en ha&amp;ut" revision="0" />
+  <Message key="Move &amp;Down" value="&amp;Déplacer en bas" revision="0" />
+  <Message key="File Stream Name" value="Nom du fichier flux" revision="0" />
+  <Message key="Enter the stream name:" value="Saisissez le nom du flux:" revision="0" />
+  <Message key="Find Streams" value="Trouver flux" revision="0" />
+  <Message key="Search in:" value="Rechercher dans:" revision="0" />
+  <Message key="File types:" value="Types de Fichier" revision="0" />
+  <Message key="Larger than:" value="Plus grand que:" revision="0" />
+  <Message key="Exclude:" value="Exclure:" revision="0" />
+  <Message key="(regular expression)" value="(expression régulière)" revision="0" />
+  <Message key="Include sub-folders" value="Inclure les sous-dossiers" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="Flux NTFS" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="&amp;Créer un flux…" revision="0" />
+    <Item value="Création d'un nouveau flux" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="&amp;Ouvrir Flux(s)" revision="0" />
+    <Item value="Ouvrir fichiers flux(s) dans l'editeur" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="Supprimer flux(s)…" revision="0" />
+    <Item value="Supprimer fichiers flux(s)" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="&amp;Renommer flux…" revision="0" />
+    <Item value="Renommer fichier flux" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="Annuler l'opération actuelle" revision="0" />
+    <Item value="Annulez l'opération sur le flux actif" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="Ouvrir Fichier &amp;Parent" revision="1" />
+    <Item value="Ouvrez le ou les fichiers parents, c'est-à-dire les fichiers qui contiennent les flux sélectionnés." revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="Trouver flux…" revision="0" />
+    <Item value="Montrer tous les fichiers avec des données de flux alternatifs dans les dossiers sélectionnés." revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="Quitter Mode Recherche flux" revision="0" />
+    <Item value="Quitter Mode Recherche de flux" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="Nom de Flux" revision="0" />
+    <Item value="Taille" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="Fichier" revision="0" />
+    <Item value="Flux" revision="0" />
+    <Item value="Taille" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS flux" revision="0" />
+    <Item value="Menu flux NTFS" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="Trouver flux" revision="0" />
+    <Item value="Démarrer la recherche des modules de flux" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="Bytes" revision="0" />
+    <Item value="Ko" revision="0" />
+    <Item value="Mo" revision="0" />
+    <Item value="Go" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="Flux NTFS" revision="0" />
+    <Item value="La fonctionnalité &quot;Flux NTFS&quot; vous permet de créer flux nommés, renommer des flux et les supprimer." revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="Aucun flux. Vous devez enregistrer le fichier flux en premier." revision="0" />
+    <Item value="Ceci est un flux; Les flux imbriquées ne sont pas pris en charge par le système de fichiers." revision="0" />
+    <Item value="Impossible de localiser le flux" revision="0" />
+    <Item value="Les flux sont pas pris en charge par le système de fichiers." revision="0" />
+    <Item value="Erreur de localisation du flux" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="Recherchez flux" revision="0" />
+    <Item value="La fonctionnalité   &quot;Recherchez flux&quot; vous permet de rechercher des fichiers avec des flux nommés sur votre disque." revision="0" />
+  </Enumeration>
+</Language>

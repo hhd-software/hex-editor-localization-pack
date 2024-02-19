@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Annotations de données" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Les annotations de données ont été modifiées pour &quot;{file}&quot;. Voulez-vous sauvegarder les annotations mises à jour?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Vous avez atteint la limite du nombre d'annotations ({number}) que vous pouvez créer pour ce document" revision="0" />
+  <Message key="toolbar.Annotations" value="Annotations" revision="0" />
+  <Message key="ExtSuffixFilter" value="Symboles autorisés: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Annoter la plage" revision="0" />
+  <Message key="Start:" value="Début:" revision="0" />
+  <Message key="End:" value="Fin:" revision="0" />
+  <Message key="Text:" value="Texte d'annotation:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
+  <Message key="IncorrectInputText" value="Doit être une valeur hexadécimale" revision="0" />
+  <Message key="Annotations Storage Location" value="Emplacement du stockage des annotations" revision="0" />
+  <Message key="Auto Select" value="Sélection automatique" revision="0" />
+  <Message key="NTFS Stream" value="Flux NTFS" revision="0" />
+  <Message key="File extension suffix:" value="Suffixe d'extension de fichier:" revision="0" />
+  <Message key="Custom Folder:" value="Dossier personnalisé:" revision="0" />
+  <Message key="Clear annotations cache" value="Vider le cache des annotations" revision="0" />
+  <Message key="clr.ann_colors" value="Couleurs des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Arrière-plan des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Contour des annotations" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Texte des annotations" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="Annotations" revision="0" />
+    <Item value="La fonction Annotations vous permet d'ajouter des annotations à la plage de données." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="Ajouter l'annotation…" revision="0" />
+    <Item value="Créer une nouvelle annotation" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="Supprimer l'annotation" revision="0" />
+    <Item value="Supprimer l'annotation" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="Annotations claires" revision="0" />
+    <Item value="Supprimer toutes les annotations" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="&amp;Annotations" revision="0" />
+    <Item value="Menu des annotations" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="Annoter le curseur…" revision="0" />
+    <Item value="Annoter les données à la position du curseur" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="Annoter la sélection…" revision="0" />
+    <Item value="Ajouter une annotation à la sélection actuelle" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="Modifier le texte de l'annotation" revision="0" />
+    <Item value="Modifier l'élément d'annotation sélectionné" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="Ajouter" revision="1" />
+    <Item value="Appliquer" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="N." revision="0" />
+    <Item value="Décalage" revision="0" />
+    <Item value="Taille" revision="0" />
+    <Item value="Texte" revision="0" />
+  </Enumeration>
+</Language>

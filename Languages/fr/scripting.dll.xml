@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Scripts" revision="0" />
+  <Message key="New Script" value="Nouveau script {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="Surveillance de débogage" revision="0" />
+  <Message key="CallStackTitle" value="Déboguer la pile des appels" revision="0" />
+  <Message key="Macros" value="Macros" revision="0" />
+  <Message key="Console" value="Console" revision="0" />
+  <Message key="MacroToolbar" value="Macros" revision="0" />
+  <Message key="WatchToolbar" value="Espion" revision="0" />
+  <Message key="ScriptChanged" value="Votre script a été modifié. Il est impossible de poursuivre l'exécution. Voulez-vous arrêter l'exécution du script?" revision="0" />
+  <Message key="Compiling TypeScript" value="Compilation de TypeScript…\n" revision="0" />
+  <Message key="Started Script" value="L'exécution du script a commencé: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="Arrêter l'exécution du script…" revision="0" />
+  <Message key="Stopped Script" value="\nL'exécution du script s'est arrêtée.\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="Le script est en cours d'exécution. Voulez-vous l'arrêter afin de continuer à fermer la fenêtre du script?" revision="0" />
+  <Message key="ScriptLoadError" value="Erreur de chargement du fichier &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="La ou les erreurs suivantes se sont produites lors du chargement du ou des fichiers sélectionnés:\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="Erreur de sauvegarde du fichier &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="Voulez-vous sauvegarder les modifications apportées au script actuel?" revision="0" />
+  <Message key="NewMacroTitle" value="Nouveau Macro" revision="0" />
+  <Message key="EditMacroTitle" value="Modifier la macro" revision="0" />
+  <Message key="Macro name:" value="Nom de la macro:" revision="0" />
+  <Message key="Macro hot key:" value="Touche de raccourci macro:" revision="0" />
+  <Message key="Edit Macro Script" value="Modifier le script de la macro" revision="0" />
+  <Message key="MacroDiscardPrompt" value="La macro enregistrée sera alors supprimée. Voulez-vous abandonner la macro enregistrée?" revision="0" />
+  <Message key="MacroNameExists" value="Une macro avec le même nom existe déjà. Voulez-vous la remplacer?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="Cela supprimera toutes les macros. Vous êtes sûr de vouloir continuer?" revision="0" />
+  <Message key="MacroName" value="Macro: {name}" revision="0" />
+  <Message key="MacroExportFormat" value="Fichiers d'exportation de macros|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="Fichiers de script" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="&amp;Démarrer l'enregistrement" revision="0" />
+    <Item value="Démarrer l'enregistrement de la macro" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="&amp;Arrêter l'enregistrement/lecture" revision="0" />
+    <Item value="Arrêter l'enregistrement ou la lecture d'une macro" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="Démarrer la &amp;lecture" revision="0" />
+    <Item value="Démarrer la lecture de la macro" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="&amp;Supprimer la macro" revision="0" />
+    <Item value="Supprimer la macro actuellement sélectionnée" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="Supprimer &amp;toutes les macros" revision="0" />
+    <Item value="Supprimer toutes les macros" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="&amp;Modifier la macro" revision="0" />
+    <Item value="Modifier la macro sélectionnée" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="&amp;Importer des macros" revision="0" />
+    <Item value="Importer des macros" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="E&amp;xporter des macros…" revision="0" />
+    <Item value="Exporter des macros" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="Macros" revision="0" />
+    <Item value="Macros" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="Nouveau script" revision="0" />
+    <Item value="Créer un nouveau fichier script vide" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="Script ouvert…" revision="0" />
+    <Item value="Ouvrir un fichier script existant" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="Exé&amp;cuter le script" revision="0" />
+    <Item value="Démarrer l'exécution du script" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="&amp;Arrêt du script" revision="0" />
+    <Item value="Arrêter l'exécution du script" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="Script de &amp;débogage" revision="0" />
+    <Item value="Démarrer le débogage du script" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="Point d’arrêt" revision="0" />
+    <Item value="Définit ou supprime un point d'arrêt d'exécution" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="Supprimer tous les points d'arrêt" revision="0" />
+    <Item value="Supprimer tous les points d'arrêt" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="Pas à pas détaillé" revision="0" />
+    <Item value="Étape dans la fonction appelée" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="Pas à pas sortant" revision="0" />
+    <Item value="Sortir de la fonction appelée" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="Pas à pas principal" revision="0" />
+    <Item value="Passez au-dessus de la fonction appelée" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="Continuer" revision="0" />
+    <Item value="Continuer l'exécution" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="Interruption de l'exécution" revision="0" />
+    <Item value="Interrompre l'exécution du script" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="Ajouter un espion" revision="0" />
+    <Item value="Ajouter un espion" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="Supprimer un espion" revision="0" />
+    <Item value="Supprimer un espion" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="Modifier un espion" revision="0" />
+    <Item value="Modifier un espion" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="&amp;Déboguer" revision="0" />
+    <Item value="Menu de débogage" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="Macro" revision="0" />
+    <Item value="Touche d'accès rapide" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="Nom" revision="0" />
+    <Item value="Ligne" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="Nom" revision="0" />
+    <Item value="Valeur" revision="0" />
+    <Item value="Type" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="Scripts" revision="1" />
+    <Item value="La fonction de script vous permet de contrôler Hex Editor Neo à l'aide de scripts, écrits en TypeScript." revision="1" />
+  </Enumeration>
+</Language>

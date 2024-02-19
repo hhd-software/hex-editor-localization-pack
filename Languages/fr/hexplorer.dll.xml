@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Explorateur 1" revision="0" />
+  <Message key="Explorer 2" value="Explorateur 2" revision="0" />
+  <Message key="Invalid path specified" value="Chemin d'accès spécifié invalide" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(erreur de copie de dossiers)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Erreur de copie des fichiers suivants:" revision="0" />
+  <Message key="Explorer settings" value="Explorateur" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorateur" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Précédent" revision="0" />
+    <Item value="Aller à l'emplacement précédente" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Suivant" revision="0" />
+    <Item value="Aller à l'emplacement suivant" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Monter" revision="0" />
+    <Item value="Dossier parent" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Localiser active" revision="0" />
+    <Item value="Synchroniser répertoire courant avec le navigateur" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Rechercher dan(s) les fichier(s)" revision="0" />
+    <Item value="Ouvrez Le dialogue recherchez dans des fichiers" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Dossiers" revision="0" />
+    <Item value="Activer / désactiver la fenêtre du navigateur" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Explorateur intégré" revision="0" />
+    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l'Édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 Explorateurs intégrés" revision="0" />
+    <Item value="l'Explorateur intégré: Imite l'Explorateur de Windows et est étroitement intégré avec Hex Editor. Une fenêtre de l'explorateur est disponible dans l'Édition Standard et deux sont disponibles dans les éditions Professionnel et Intégrale." revision="0" />
+  </Enumeration>
+</Language>
