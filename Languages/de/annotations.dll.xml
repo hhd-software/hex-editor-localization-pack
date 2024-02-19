@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="Daten-Anmerkungen" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value="Die Datenanmerkungen wurden für &quot;{file}&quot; geändert. Möchten Sie die aktualisierten Anmerkungen speichern?" revision="0" />
+  <Message key="MaxAnnotationsError" value="Sie haben das Limit für die Anzahl der Anmerkungen ({number}) erreicht, die Sie für dieses Dokument erstellen können" revision="0" />
+  <Message key="toolbar.Annotations" value="Anmerkungen" revision="0" />
+  <Message key="ExtSuffixFilter" value="Zulässige Symbole: 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="Bereich annotieren" revision="0" />
+  <Message key="Start:" value="Start Offset:" revision="0" />
+  <Message key="End:" value="Ende Offset:" revision="0" />
+  <Message key="Text:" value="Anmerkungstext:" revision="1" />
+  <Message key="IncorrectInputTitle" value="Falsche Eingabe" revision="0" />
+  <Message key="IncorrectInputText" value="Muss ein hexadezimaler Wert sein" revision="0" />
+  <Message key="Annotations Storage Location" value="Anmerkungen Speicherort" revision="0" />
+  <Message key="Auto Select" value="Automatische Auswahl" revision="0" />
+  <Message key="NTFS Stream" value="NTFS Stream" revision="0" />
+  <Message key="File extension suffix:" value="Suffix der Dateierweiterung:" revision="0" />
+  <Message key="Custom Folder:" value="Benutzerdefinierte Mappe:" revision="0" />
+  <Message key="Clear annotations cache" value="Anmerkungen-Cache löschen" revision="0" />
+  <Message key="clr.ann_colors" value="Anmerkungen Farben" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="Anmerkungen Hintergrund" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="Umrisslinie der Anmerkungen" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="Umrisslinie der Text" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="Anmerkungen" revision="0" />
+    <Item value="Mit der Anmerkungsfunktion können Sie Anmerkungen zu Datenbereichen hinzufügen." revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="Anmerkung hinzufügen…" revision="0" />
+    <Item value="Erstellen Sie eine neue Anmerkung" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="Anmerkung entfernen" revision="0" />
+    <Item value="Anmerkung entfernen" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="Anmerkungen löschen" revision="0" />
+    <Item value="Alle Anmerkungen entfernen" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="&amp;Anmerkungen" revision="0" />
+    <Item value="Menü Anmerkungen" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="Cursor annotieren…" revision="0" />
+    <Item value="Daten an der Cursorposition anmerken" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="Auswahl annotieren…" revision="0" />
+    <Item value="Anmerkung zur aktuellen Auswahl hinzufügen" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="Anmerkungstext bearbeiten" revision="0" />
+    <Item value="Ausgewähltes Anmerkungselement bearbeiten" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="Hinzufügen" revision="1" />
+    <Item value="Anwenden" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="Nu." revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Größe" revision="0" />
+    <Item value="Text" revision="0" />
+  </Enumeration>
+</Language>

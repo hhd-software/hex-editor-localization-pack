@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="Dateien kopieren" revision="0" />
+  <Message key="Volume Errors" value="Volume Fehler" revision="0" />
+  <Message key="CantParse" value="Fehler beim Durchsuchen der Attribute" revision="0" />
+  <Message key="SequenceNumberError" value="Aktualisierungssequenznummerfehler für Datei-Rekord: {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="Ungültiger Datei Rekord: {record}" revision="0" />
+  <Message key="UnknownAttribute" value="Unbekannter Attribut Typ: {type}" revision="0" />
+  <Message key="MagicMismatch" value="Fehler beim Durchsuchen der Indexblöcke: Magic Nichtübereinstimmung" revision="0" />
+  <Message key="IndexSNError" value="Fehler beim Durchsuchen der Index Blocksequenznummer" revision="0" />
+  <Message key="NoFilenameStream" value="Indexeintrag hat keinen Dateinamen Stream:  {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="Cluster überschreitet Datenlauf Grenzen" revision="0" />
+  <Message key="DataRunLengthError" value="Datenlauf Längen-Fehler: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="Datenlauf Dekodierungs-Fehler: Größe = {size}, Offset = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="Datenlauf Dekodierungs-Fehler: VCN überschreitet Grenzwert" revision="0" />
+  <Message key="DataRunLCN" value="Fehler beim Dekodieren der Daten: LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="Unbekannter Dateieintrag" revision="0" />
+  <Message key="FilenameAttributeError" value="Fehler beim Durchsuchen der Dateiattribute für Rekord {record}" revision="0" />
+  <Message key="CopyFileError" value="Fehler beim Kopieren der Datei &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="Das Kopieren von spärlichen, komprimierten oder verschlüsselten Dateien ist noch nicht implementiert: &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="Fehler beim Schreiben der Datei: &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="Nicht genügend Speicherplatz auf der Ziel-Festplatte um &quot;{filename}&quot; zu kopieren. Es wird mindestens {filesize} freier Speicherplatz benötigt." revision="0" />
+  <Message key="CopyWarning" value="Datei &quot;{filename}&quot; existiert bereits. Wollen Sie sie überschreiben oder überspringen?" revision="0" />
+  <Message key="CreateFileError" value="{error} Datei: {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="Dieses Dateisystem wird vom Volume Navigator noch nicht unterstützt." revision="0" />
+  <Message key="VolumeNavigator" value="Volume Navigator" revision="0" />
+  <Message key="CopyStats" value="{files} Dateien kopiert.\r\n{folders} Verzeichnisse kopiert.\r\n{bytes} Bytes kopiert.\r\n{failed} Dateien nicht kopiert.\r\n{skipped} Dateien übersprungen." revision="0" />
+  <Message key="Copy Files Report" value="Bericht Dateien kopieren" revision="0" />
+  <Message key="Overwrite Warning" value="Überschreibungswarnung" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="&amp;Für alle Konflikte" revision="0" />
+  <Message key="&amp;Overwrite" value="&amp;Überschreiben" revision="0" />
+  <Message key="&amp;Skip" value="Über&amp;springen" revision="0" />
+  <Message key="OverwriteWarning" value="Schema &quot;{schemename}&quot; existiert bereits. Wollen Sie es überschreiben?" revision="0" />
+  <Message key="UnsavedWarning" value="Das aktuelle Schema wurde nicht gesichert. Wollen Sie es jetzt sichern?" revision="0" />
+  <Message key="DeleteWarning" value="Das aktuelle Schema wird gelöscht." revision="0" />
+  <Message key="CustomFilesFilter" value="Benutzerspezifische Volume Strukturen|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="Dateiname war nicht angegeben." revision="0" />
+  <Message key="CSRootEmpty" value="Wurzelverzeichnis /-struktur war nicht angegeben." revision="0" />
+  <Message key="CSCheckStructEmpty" value="Prüf-Struktur war nicht angegeben." revision="0" />
+  <Message key="CSCheckAddressError" value="Prüf-Adresse muß eine Zahl sein." revision="1" />
+  <Message key="CSSchemeNameEmpty" value="Schema Name war nicht angegeben." revision="0" />
+  <Message key="CSFileNotFound" value="Strukturdatei &quot;{filename}&quot; nicht gefunden." revision="0" />
+  <Message key="CSRootNotFound" value="Wurzelverzeichnis / Wurzelstruktur {name} nicht gefunden." revision="0" />
+  <Message key="CSBindVolumeError" value="Fehler beim Durchsuchen des Volume. Schema &quot;{name}&quot;, Fehler: {error}" revision="0" />
+  <Message key="UnknownPartition" value="Partition[{index}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="Ungültiger PrivHead Header." revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="Ungültiger TocBlock Header." revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="Ungültiger Vmdb Header." revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Größe des Vblk ist kein Vielfaches der Sektorgröße." revision="0" />
+  <Message key="OpenVolumeWarning" value="Ausgewähltes Volume kann nicht geöffnet werden" revision="0" />
+  <Message key="GPTParseErrorHeader" value="Ungültiger GUID Partition Tabellen Kopf" revision="0" />
+  <Message key="Custom Volume Editor" value="Editor für benutzerspezifisches Volume" revision="0" />
+  <Message key="File:" value="Struktur Datei:" revision="0" />
+  <Message key="Checking structure:" value="Prüfstruktur:" revision="0" />
+  <Message key="Checking address:" value="Prüfadresse:" revision="0" />
+  <Message key="Root structure:" value="Wurzelstruktur:" revision="0" />
+  <Message key="Directory entry structure:" value="Verzeichniseintrag Struktur:" revision="0" />
+  <Message key="File entry structure:" value="Dateieintrag Struktur:" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="Volumen-Navigator" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="Bytes" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="Name" revision="0" />
+    <Item value="Größe" revision="0" />
+    <Item value="Attribute" revision="0" />
+    <Item value="Erstellt" revision="0" />
+    <Item value="Geändert" revision="0" />
+    <Item value="Letzter Zugriff" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="&amp;Kopieren nach…" revision="0" />
+    <Item value="Kopiert Datei- und Verzeichniss-Inhalte an das ausgewählte Ziel" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="&amp;Volume kopieren…" revision="0" />
+    <Item value="Kopiert den ganzen Volume Inhalt (Dateien und Verzeichnisse) an das ausgewählte Ziel." revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="Alle Stream Dateien auswählen" revision="0" />
+    <Item value="Wählt alle Cluster aus, die &quot;Stream&quot; Daten gespeichert haben" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="Datei im Editor &amp;öffnen" revision="0" />
+    <Item value="Öffnet die Datei in Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="Zielverzeichnis ö&amp;ffnen" revision="0" />
+    <Item value="Öffnet das Verzeichnis" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="&amp;Aufwärts" revision="0" />
+    <Item value="Eine Ebene höher navigieren" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="Aktuelle &amp;Ansicht aktualisieren" revision="0" />
+    <Item value="Aktualisiert die aktuelle Ansicht" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="Benutzerspezifisches &amp;Volume bearbeiten" revision="0" />
+    <Item value="Öffnet den Volume Bearbeitungs Dialog für benutzerspezifische Volume Strukturen." revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="Volume" revision="0" />
+    <Item value="Fehler" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="Volume Navigator" revision="1" />
+    <Item value="Volume Navigator durchsucht und zeigt die Volume Dateistruktur an; hilft den Speicherort von Dateien zu finden und beschädigte Dateien und Verzeichnisse wieder herzustellen." revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="Unbekannt" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="Nicht zugeordnet" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Skripting" revision="0" />
+  <Message key="New Script" value="Neues Skript {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="Debug-Überwachen" revision="0" />
+  <Message key="CallStackTitle" value="Debug-Aufrufliste" revision="0" />
+  <Message key="Macros" value="Makros" revision="0" />
+  <Message key="Console" value="Konsole" revision="0" />
+  <Message key="MacroToolbar" value="Makros" revision="0" />
+  <Message key="WatchToolbar" value="Überwachen" revision="0" />
+  <Message key="ScriptChanged" value="Ihr Skript wurde geändert. Es ist nicht möglich, die Ausführung fortzusetzen. Möchten Sie die Ausführung des Skripts beenden?" revision="0" />
+  <Message key="Compiling TypeScript" value="TypeScript kompilieren…\n" revision="0" />
+  <Message key="Started Script" value="Skriptausführung gestartet: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="Stoppen der Skriptausführung…" revision="0" />
+  <Message key="Stopped Script" value="\nSkriptausführung gestoppt.\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="Das Skript wird gerade ausgeführt. Möchten Sie es stoppen, um mit dem Schließen des Skriptfensters fortzufahren?" revision="0" />
+  <Message key="ScriptLoadError" value="Fehler beim Laden der Datei &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="Beim Laden der ausgewählten Datei(en) sind folgende Fehler aufgetreten:\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="Fehler beim Speichern der Datei &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="Möchten Sie die Änderungen, die Sie am aktuellen Skript vorgenommen haben, speichern?" revision="0" />
+  <Message key="NewMacroTitle" value="Neue Makro" revision="0" />
+  <Message key="EditMacroTitle" value="Makro bearbeiten" revision="0" />
+  <Message key="Macro name:" value="Makro Name:" revision="0" />
+  <Message key="Macro hot key:" value="Makro Hotkey:" revision="0" />
+  <Message key="Edit Macro Script" value="Makro-Skript bearbeiten" revision="0" />
+  <Message key="MacroDiscardPrompt" value="Dadurch wird das aufgezeichnete Makro verworfen. Möchten Sie das aufgezeichnete Makro verwerfen?" revision="0" />
+  <Message key="MacroNameExists" value="Makro mit demselben Namen existiert bereits. Möchten Sie es außer Kraft setzen?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="Dadurch werden alle Makros gelöscht. Sind Sie sicher, dass Sie fortfahren möchten?" revision="0" />
+  <Message key="MacroName" value="Makro: {name}" revision="0" />
+  <Message key="MacroExportFormat" value="Makro-Exportdateien|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="Skript-Dateien" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="Aufnahme &amp;Starten" revision="0" />
+    <Item value="Makroaufzeichnung starten" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="Aufnahme/Wiedergabe S&amp;toppen" revision="0" />
+    <Item value="Makroaufnahme oder -wiedergabe stoppen" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="&amp;Wiedergabe starten" revision="0" />
+    <Item value="Makro-Wiedergabe starten" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="Makro &amp;Löschen" revision="0" />
+    <Item value="Das aktuell ausgewählte Makro löschen" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="Löschen &amp;Alle Makros" revision="0" />
+    <Item value="Alle Makros löschen" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="&amp;Bearbeiten Makro…" revision="0" />
+    <Item value="Bearbeiten Sie das ausgewählte Makro" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="Makros &amp;Importieren…" revision="0" />
+    <Item value="Makros importieren" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="Makros E&amp;xportieren…" revision="0" />
+    <Item value="Makros exportieren" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="Makros" revision="0" />
+    <Item value="Makros" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="Neues Skript" revision="0" />
+    <Item value="Neue leere Skriptdatei erstellen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="Skript öffnen…" revision="0" />
+    <Item value="Öffnen einer vorhandenen Skriptdatei" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="Skript A&amp;usführen" revision="0" />
+    <Item value="Start der Skriptausführung" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="Skript A&amp;nhalten" revision="0" />
+    <Item value="Skriptausführung anhalten" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="&amp;Debug-Skript" revision="0" />
+    <Item value="Skript-Debugging starten" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="Haltepunkt umschalten" revision="0" />
+    <Item value="Setzt oder entfernt einen Ausführungsunterbrechungspunkt" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="Alle Haltepunkte entfernen" revision="0" />
+    <Item value="Alle Haltepunkte entfernen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="Einzelschritt" revision="0" />
+    <Item value="Einzelschritt in der aufgerufenen Funktion" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="Rücksprung" revision="0" />
+    <Item value="Rücksprung aus der aufgerufenen Funktion" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="Prozedurschritt" revision="0" />
+    <Item value="Schritt über die aufgerufene Funktion" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="Fortfahren" revision="0" />
+    <Item value="Ausführung fortsetzen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="Pause Ausführung" revision="0" />
+    <Item value="Skriptausführung unterbrechen" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="Überwachung hinzufügen" revision="0" />
+    <Item value="Überwachung hinzufügen" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="Überwachung entfernen" revision="0" />
+    <Item value="Überwachung entfernen" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="Überwachung bearbeiten" revision="0" />
+    <Item value="Überwachung bearbeiten" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="&amp;Debuggen" revision="0" />
+    <Item value="Menü Debuggen" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="Makro" revision="0" />
+    <Item value="Abkürzungstaste" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="Name" revision="0" />
+    <Item value="Zeile" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="Name" revision="0" />
+    <Item value="Wert" revision="0" />
+    <Item value="Typ" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="Skripting" revision="1" />
+    <Item value="Mit der Skripting-Funktion können Sie den Hex Editor Neo mit Skripten steuern, die in TypeScript geschrieben sind." revision="1" />
+  </Enumeration>
+</Language>

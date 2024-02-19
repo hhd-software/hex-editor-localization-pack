@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="Explorer 1" revision="0" />
+  <Message key="Explorer 2" value="Explorer 2" revision="0" />
+  <Message key="Invalid path specified" value="Ungültiger Pfad angegeben" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(Fehler beim Kopieren von Ordnern)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Fehler beim Kopieren folgender Dateien:" revision="0" />
+  <Message key="Explorer settings" value="Explorer" revision="0" />
+  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="Zurück" revision="0" />
+    <Item value="Gehe zu vorherigem Ordner zurück" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="Vorwärts" revision="0" />
+    <Item value="Gehe zu nächstem Ordner vorwärts" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="Hoch" revision="0" />
+    <Item value="Gehe zu übergeordnetem Ordner" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="Gehe zum Ordner des aktuellen Files" revision="0" />
+    <Item value="Synkronisiere aktuellen Ordner mit Browser" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="Suche in Dateien…" revision="0" />
+    <Item value="Öffne &quot;Suchen in Dateien&quot; Dialog" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="Verzeichnisbaum" revision="0" />
+    <Item value="Schalte das Browser Fenster um" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="Eingebauter Explorer" revision="0" />
+    <Item value="Das eingebaute Explorer Tool Fenster ahmt den Windows Explorer nach und ist eng in den Hex Editor integriert. Ein Explorer Fenster ist in der Standard Edition verfügbar und zwei in der Professional sowie der Ultimate Edition." revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="Zwei eingebaute Explorer" revision="0" />
+    <Item value="Das eingebaute Explorer Tool Fenster ahmt den Windows Explorer nach und ist eng in den Hex Editor integriert. Ein Explorer Fenster ist in der Standard Edition verfügbar und zwei in der Professional sowie der Ultimate Edition." revision="0" />
+  </Enumeration>
+</Language>
