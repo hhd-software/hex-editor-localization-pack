@@ -1308,4 +1308,10 @@
 	<Message key="Kaitai definition files" description="Kaitai definition files"/>
 	<Message key="Sample Text" description="Sample Text"/>
 	<Message key="Default" description="Default (button, item, choice)" />
+
+	<Message optional="true" key="clr.balloon" description="Color: Notification Window Colors (currently not used in Hex Editor Neo)" value="Notification Window Colors"/>
+	<Message optional="true" key="clr.balloon.balloon.fill" description="Color: Notification Window Background (currently not used in Hex Editor Neo)" value="Background"/>
+	<Message optional="true" key="clr.balloon.balloon.text" description="Color: Notification Window Text (currently not used in Hex Editor Neo)" value="Text"/>
+	<Message optional="true" key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke (currently not used in Hex Editor Neo)" value="Stroke"/>
+	<Message optional="true" key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore (currently not used in Hex Editor Neo)" value="&quot;Don't display anymore&quot; message"/>
 </Definition>
