@@ -515,6 +515,10 @@
 	<Message key="Help" description="Button: Help" revision="1" value="&amp;Help"/>
 	<Message key="Yes" description="Button: Yes" revision="1" value="&amp;Yes"/>
 	<Message key="No" description="Button: No" revision="1" value="&amp;No"/>
+	<Message key="Abort" description="Button: Abort" value="&amp;Abort"/>
+	<Message key="Retry" description="Button: Retry" value="&amp;Retry"/>
+	<Message key="Ignore" description="Button: Ignore" value="&amp;Ignore"/>
+	<Message key="Try Again" description="Button: Try Again" value="&amp;Try Again"/>
 	<Message key="Close" description="Button: Close" revision="1"/>
 	<Message key="Add" description="Button: Add" revision="1" value="&amp;Add"/>
 	<Message key="Edit" description="Button: Edit" value="&amp;Edit"/>
@@ -951,6 +955,13 @@
 		<Item text="Never"/>
 	</Enumeration>
 
+	<Enumeration key="themingMode" description="Option: Color Mode">
+		<Item text="Color Theme Mode (requires restart)"/>
+		<Item text="Use System"/>
+		<Item text="Always use Light Theme"/>
+		<Item text="Always use Dark Theme"/>
+	</Enumeration>
+
 	<Message key="DiscardWarning" description="Updates discard warning" value="If you discard selected updates, Hex Editor Neo will not notify you about them anymore. You will still be notified of future updates.\r\n\r\nDo you still want to discard selected updates?"/>
 
 	<Message key="LangPackUpdated" description="Language pack(s) updated message" value="Language pack(s) updated. You need to restart the application to reload the language pack.\r\n\r\nDo you want to restart now?"/>
@@ -1231,6 +1242,29 @@
 	<Message key="clr.frame.nav.header" description="Color: Frame Nav Header Color" value="Navigation icon header" />
 	<Message key="clr.frame.nav.frame" description="Color: Frame Nav Frame Color" value="Navigation icon border" />
 
+	<Message key="clr.listview" description="Color: List View Colors" value="List View Colors"/>
+
+	<Message key="clr.listview.normal.fill" description="Color: ListView Background Color" value="Background"/>
+	<Message key="clr.listview.normal.stroke" description="Color: ListView Text Color" value="Text"/>
+
+	<Message key="clr.listview.header.fill" description="Color: ListView Header Background Color" value="Header background"/>
+	<Message key="clr.listview.header.stroke" description="Color: ListView Header Text Color" value="Header text"/>
+
+	<Message key="clr.listview.selected.inactive.fill" description="Color: ListView Inactive Selection Background Color" value="Inactive selection background"/>
+	<Message key="clr.listview.selected.inactive.text" description="Color: ListView Inactive Selection Text Color" value="Inactive selection text"/>
+	<Message key="clr.listview.selected.inactive.stroke" description="Color: ListView Inactive Selection Stroke Color" value="Inactive selection stroke"/>
+
+	<Message key="clr.listview.selected.active.fill" description="Color: Active ListView Selection Background Color" value="Active selection background"/>
+	<Message key="clr.listview.selected.active.text" description="Color: Active ListView Selection Text Color" value="Active selection text"/>
+	<Message key="clr.listview.selected.active.stroke" description="Color: Active ListView Selection Stroke Color" value="Active selection stroke"/>
+
+	<Message key="clr.listview.hover.fill" description="Color: ListView Hover Background Color" value="Hover background"/>
+	<Message key="clr.listview.hover.stroke" description="Color: ListView Hover Text Color" value="Hover text"/>
+
+	<Message key="clr.listview.grid" description="Color: ListView Grid Color" value="Grid"/>
+	<Message key="clr.listview.alternate_background" description="Color: ListView Alternate Background Color" value="Alternate background"/>
+	<Message key="clr.listview.hyperlink" description="Color: ListView Hyperlink Color" value="Hyperlink"/>
+
 	<!-- Settings page groups -->
 	<Message key="Settings group.Visual" description="Settings group: Visual" value="Visual" />
 	<Message key="Settings group.User Interface" description="Settings group: User Interface" value="User Interface" />
@@ -1243,6 +1277,7 @@
 
 	<Message key="Enter the scheme name and press the Save button" description="Color scheme name banner" />
 	<Message key="ColorSchemeExists" description="Color scheme overwrite prompt" value="Color scheme already exists. Do you want to override it?"/>
+	<Message key="PredefinedModifyError" description="Error: Modification of predefined scheme" value="Modifying predefined color scheme is forbidden. Only user schemes can be edited. Please enter a name that does not match any predefined scheme name."/>
 
 	<!-- Theme page -->
 	<Message key="Theme:" description="Field: Theme" />

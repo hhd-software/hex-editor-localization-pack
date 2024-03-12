@@ -212,4 +212,8 @@
 
 	<Message key="Condition:" description="Field: Condition" />
 	<Message key="then" description="Field: then" />
+
+	<Message key="IncorrectInputTitle" description="Title: Incorrect input" value="Incorrect input" />
+	<Message key="NotANumberError" description="Error text: Value must be a number" value="Must be decimal or hexadecimal value"/>
+
 </Definition>
