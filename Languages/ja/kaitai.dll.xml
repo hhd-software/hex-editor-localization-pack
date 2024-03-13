@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="MetaNotFound" value="メタデータが見つかりません" revision="0" />
+  <Message key="FileNotFound" value="ファイルが見つかりません : {filename}" revision="0" />
+  <Message key="TypeNotFound" value="型が見つかりません : {type}" revision="0" />
+  <Message key="IdNotFound" value="ID が見つかりません : {type}" revision="0" />
+  <Message key="CastError" value="型{src_type} を {dst_type} に成型できません" revision="0" />
+  <Message key="BitwiseOpError" value="ビット単位演算の左オペランドの型が不正です。 整数である必要があります。" revision="0" />
+  <Message key="MethodNotFound" value="メソッドは存在しません。" revision="0" />
+  <Message key="ResultNotANumber" value="'repeat-expr' の結果は数値ではありません。" revision="0" />
+  <Message key="InvalidArgument" value="無効な引数" revision="0" />
+  <Message key="ParamsNumMistmatch" value="引数の数が無効です。 推定値: {est}、受信値: {fact}。" revision="0" />
+  <Message key="SizeConflictError" value="'size' または 'size-eos' のいずれか 1 つだけを指定する必要があります。" revision="0" />
+  <Message key="NoRepeatError" value="'repeat-expr' ブロックに式がありません。" revision="0" />
+  <Message key="NoUntilError" value="'repeat-until' ブロックに式がありません。" revision="0" />
+  <Message key="BracketsError" value="ブラケットが正しく閉じられていません。" revision="0" />
+  <Message key="CannotMatch" value="値 '{value}'  は型 '{type}' の値と一致できません" revision="0" />
+  <Message key="ContentsError" value="バイトまたは文字列の配列である必要があります" revision="0" />
+  <Message key="ParsingError" value="解析エラー。 予想: {fact} の {est}" revision="0" />
+  <Message key="PathNotFound" value="パスが見つかりません : {path}" revision="0" />
+  <Message key="NotAScope" value="範囲ではありません" revision="0" />
+  <Message key="UnknownParam" value="不明なパラメータの型 : {type}" revision="0" />
+  <Message key="WrongEndian" value="メタフィールド '{field}' のエンディアン型が不明です。'be'または'le'でなければなりません。" revision="0" />
+</Language>

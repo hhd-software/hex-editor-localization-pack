@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="スクリプト" revision="0" />
+  <Message key="New Script" value="新規スクリプト {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="デバッグの監視" revision="0" />
+  <Message key="CallStackTitle" value="デバッグ コールスタック" revision="0" />
+  <Message key="Macros" value="マクロ" revision="0" />
+  <Message key="Console" value="コンソール" revision="0" />
+  <Message key="MacroToolbar" value="マクロ" revision="0" />
+  <Message key="WatchToolbar" value="監視" revision="0" />
+  <Message key="ScriptChanged" value="スクリプトが変更されました。 実行を継続することは不可能です。 スクリプトの実行を停止しますか?" revision="0" />
+  <Message key="Compiling TypeScript" value="TypeScript のコンパイル…\n" revision="0" />
+  <Message key="Started Script" value="スクリプトの実行が開始されました : {name}\n" revision="0" />
+  <Message key="Stopping Script" value="スクリプトの実行を停止…" revision="0" />
+  <Message key="Stopped Script" value="\nスクリプトの実行が停止されました。\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="スクリプトは現在実行中です。 スクリプト ウィンドウを閉じ続けるために停止しますか?" revision="0" />
+  <Message key="ScriptLoadError" value="ファイルの読み込み中にエラーが発生しました &quot;{file}&quot;: {error} ({code})" revision="1" />
+  <Message key="ScriptLoadErrors" value="選択したファイルの読み込み中に次のエラーが発生しました :\n\n{errors}" revision="0" />
+  <Message key="ScriptSaveError" value="ファイルの保存中にエラーが発生しました &quot;{file}&quot;: {error} ({code})" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="現在のスクリプトに加えた変更を保存しますか?" revision="0" />
+  <Message key="NewMacroTitle" value="新規マクロ" revision="0" />
+  <Message key="EditMacroTitle" value="マクロの編集" revision="0" />
+  <Message key="Macro name:" value="マクロ名" revision="0" />
+  <Message key="Macro hot key:" value="マクロのホットキー :" revision="0" />
+  <Message key="Edit Macro Script" value="マクロスクリプトの編集" revision="0" />
+  <Message key="MacroDiscardPrompt" value="これにより、記録されたマクロが破棄されます。 記録したマクロを破棄しますか?" revision="0" />
+  <Message key="MacroNameExists" value="同名のマクロが既に存在します。 上書きしますか?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="これにより、すべてのマクロが削除されます。 続行してもよろしいですか?" revision="0" />
+  <Message key="MacroName" value="マクロ : {name}" revision="0" />
+  <Message key="MacroExportFormat" value="マクロエクスポートファイル|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="スクリプト ファイル" revision="0" />
+  <Enumeration key="MacroRecord">
+    <Item value="記録開始(&amp;S)" revision="0" />
+    <Item value="マクロの記録を開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroStop">
+    <Item value="記録/再生の停止(&amp;T)" revision="0" />
+    <Item value="マクロの記録または再生を停止" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroRun">
+    <Item value="再生を開始(&amp;P)" revision="0" />
+    <Item value="マクロの再生を開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDelete">
+    <Item value="マクロを削除(&amp;D)" revision="0" />
+    <Item value="現在選択されているマクロを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDeleteAll">
+    <Item value="すべてのマクロを削除(&amp;A)" revision="0" />
+    <Item value="すべてのマクロを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroEdit">
+    <Item value="マクロの編集(&amp;E)…" revision="0" />
+    <Item value="選択したマクロを編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroImport">
+    <Item value="マクロのインポート(&amp;I)…" revision="0" />
+    <Item value="マクロのインポート" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroExport">
+    <Item value="マクロのエクスポート(&amp;X)…" revision="0" />
+    <Item value="マクロのエクスポート" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuMacro">
+    <Item value="マクロ" revision="0" />
+    <Item value="マクロ" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingNewScript">
+    <Item value="新規スクリプト" revision="0" />
+    <Item value="新しい空のスクリプト ファイルを作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingOpenScript">
+    <Item value="スクリプトを開く…" revision="0" />
+    <Item value="既存のスクリプト ファイルを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item value="スクリプトの実行(&amp;R)" revision="0" />
+    <Item value="スクリプトの実行を開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item value="スクリプトの停止(&amp;S)" revision="0" />
+    <Item value="スクリプトの実行を停止" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item value="スクリプトのデバッグ(&amp;D)" revision="0" />
+    <Item value="スクリプトのデバッグを開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item value="ブレークポイントの切り替え" revision="0" />
+    <Item value="実行ブレークポイントを設定または削除する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item value="すべてのブレークポイントを削除" revision="0" />
+    <Item value="すべてのブレークポイントを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item value="ステップ イン" revision="0" />
+    <Item value="呼び出された関数のステップイン" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item value="ステップ アウト" revision="0" />
+    <Item value="呼び出された関数からステップアウト" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item value="ステップ オーバー" revision="0" />
+    <Item value="呼び出された関数をステップオーバー" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item value="継続" revision="0" />
+    <Item value="実行を継続" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item value="実行の中断" revision="0" />
+    <Item value="スクリプトの実行を中断" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item value="監視の追加" revision="0" />
+    <Item value="監視の追加" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item value="監視の削除" revision="0" />
+    <Item value="監視の削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item value="監視の編集" revision="0" />
+    <Item value="監視の編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item value="デバッグ(&amp;D)" revision="0" />
+    <Item value="デバッグ メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroWindowColumns">
+    <Item value="マクロ" revision="0" />
+    <Item value="ホットキー" revision="0" />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item value=" " revision="0" />
+    <Item value="名前" revision="0" />
+    <Item value="行" revision="0" />
+  </Enumeration>
+  <Enumeration key="WatchColumns">
+    <Item value="名前" revision="0" />
+    <Item value="値" revision="0" />
+    <Item value="種類" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureScripting">
+    <Item value="スクリプト" revision="1" />
+    <Item value="スクリプト機能を使用すると、TypeScript で書かれたスクリプトを使用して Hex Editor Neo を制御できます。" revision="1" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Bookmarks" value="ブックマーク" revision="0" />
+  <Message key="Progress" value="現在の操作は進行中です。 完了するまでお待ちください。" revision="0" />
+  <Message key="GroupDelete" value="グループは削除されます (グループに含まれるすべてのブックマークを含む)。 続行しますか？" revision="0" />
+  <Message key="AllDelete" value="すべてのグループが削除されます。 続行しますか？" revision="0" />
+  <Message key="BookmarkGroup" value="ブックマーク グループ {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="ブックマーク グループの作成中にエラーが発生しました" revision="0" />
+  <Message key="SelWarning" value="現在の選択範囲には複数のフラグメントが含まれています。 それぞれが個別のブックマークとして追加されます。 続行しますか？" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="選択範囲をブックマークに変換中にエラーが発生しました" revision="0" />
+  <Message key="Error converting bookmark to selection" value="ブックマークを選択項目に変換中にエラーが発生しました" revision="0" />
+  <Message key="AllBookmarksDelete" value="すべてのブックマークが削除されます。 続行しますか？" revision="0" />
+  <Message key="Error loading from file" value="ファイルからの読み込みエラー" revision="0" />
+  <Message key="File has different version" value="ファイルのバージョンが異なります" revision="0" />
+  <Message key="Error loading bookmarks" value="ブックマークの読み込みエラー" revision="0" />
+  <Message key="Select Action" value="操作の選択" revision="0" />
+  <Message key="New selection" value="新しい選択" revision="0" />
+  <Message key="Add to selection" value="選択範囲に追加" revision="0" />
+  <Message key="Subtract from selection" value="選択範囲から削除する" revision="0" />
+  <Message key="Edit Group" value="グループの編集" revision="0" />
+  <Message key="Name:" value="名前 :" revision="0" />
+  <Message key="Text:" value="テキスト :" revision="0" />
+  <Message key="Background:" value="背景 :" revision="0" />
+  <Message key="Outline:" value="外枠 :" revision="0" />
+  <Message key="Round edges" value="丸いエッジ" revision="0" />
+  <Message key="BookmarksFilterString" value="ブックマーク ファイル (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="選択範囲 ファイル (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="選択範囲をブックマークに変換する警告を表示する" revision="1" />
+  <Message key="MergeBookmarks" value="既存のブックマークと結合しますか?" revision="0" />
+  <Message key="toolbar.Bookmarks" value="ブックマーク" revision="0" />
+  <Enumeration key="BookNewGroup">
+    <Item value="新しいブックマーク グループ" revision="0" />
+    <Item value="新しいブックマーク グループの作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookToggle">
+    <Item value="ブックマークの追加/削除" revision="0" />
+    <Item value="現在の位置にブックマークを追加または削除します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookPrev">
+    <Item value="前のブックマーク" revision="0" />
+    <Item value="前のブックマークへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookNext">
+    <Item value="次のブックマーク" revision="0" />
+    <Item value="次のブックマークへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelectionToBookmark">
+    <Item value="選択範囲をブックマークに変換" revision="0" />
+    <Item value="現在の選択範囲をブックマークに変換します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookBookmarkToSelection">
+    <Item value="ブックマークを選択範囲に変換…" revision="0" />
+    <Item value="現在のブックマークを選択範囲に変換します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookLoad">
+    <Item value="ブックマークの読み込み…" revision="0" />
+    <Item value="ファイルからブックマークを読み込む" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSave">
+    <Item value="ブックマークの保存…" revision="0" />
+    <Item value="ブックマークをファイルへ保存" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuBookmarks">
+    <Item value="ブックマーク(&amp;B)" revision="0" />
+    <Item value="ブックマーク メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookSelect">
+    <Item value="選択(&amp;S)" revision="0" />
+    <Item value="このブックマーク グループを選択" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookEdit">
+    <Item value="編集(&amp;E)" revision="0" />
+    <Item value="ブックマーク グループの編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveAll">
+    <Item value="すべて削除(&amp;A)" revision="0" />
+    <Item value="すべての項目を削除します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookRemoveCurrent">
+    <Item value="削除" revision="0" />
+    <Item value="現在のエントリを削除します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookGoto">
+    <Item value="ブックマークへ移動" revision="0" />
+    <Item value="選択したブックマークへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeDescription">
+    <Item value="現在の選択範囲を削除し、現在のブックマーク グループを新しい選択範囲に変換します。" revision="0" />
+    <Item value="現在のブックマーク グループを選択範囲に追加します。" revision="0" />
+    <Item value="現在のブックマーク グループを選択範囲から削除します。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="表示" revision="0" />
+    <Item value="Sticky" revision="0" />
+    <Item value="アクティブ" revision="0" />
+    <Item value="ブックマーク グループ" revision="0" />
+    <Item value="ブックマーク" revision="0" />
+    <Item value="色" revision="0" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="番号" revision="0" />
+    <Item value="アドレス" revision="0" />
+    <Item value="サイズ" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureBookmarks">
+    <Item value="ブックマーク" revision="0" />
+    <Item value="ブックマーク機能を使用すると、ファイルにブックマークを配置して素早い閲覧を行うことができます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionNotification">
+    <Item value="選択範囲からブックマークへの変換に関する警告" revision="1" />
+    <Item value="現在の選択範囲には複数のフラグメントが含まれています。 それぞれが個別のブックマークとして追加されます。続行しますか？" revision="1" />
+  </Enumeration>
+</Language>

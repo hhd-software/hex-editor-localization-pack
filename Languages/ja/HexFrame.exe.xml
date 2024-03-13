@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="CapYes" value="はい" revision="1" />
+  <Message key="CapNo" value="いいえ" revision="1" />
+  <Message key="DiskInfoFmt" value="セクターあたりのバイト数 : {bps}\t合計セクター数 : {total sectors}\r\nトラックあたりのセクター数 : {sectors per track}\t総トラック数 : {total tracks}\r\nシリンダーあたりのトラック数 : {tracks per cylinder}\t総シリンダー数 : {total cylinders}\r\n総ヘッド数 : {total heads}\r\n\r\nディスクパーティションテーブル :\r\nパーティションの種類 : {partition type}\r\nパーティションの数 : {npartitions}\r\n" revision="1" />
+  <Message key="PartitionInfoFmt" value="\r\nパーティション #{partition_n}:\r\n  開始オフセット : {offset}\r\n   長さ : {length}\r\n" revision="1" />
+  <Message key="Unused" value="未使用" revision="1" />
+  <Message key="PartitionTypeMBRFmt" value="   パーティションの種類 : {type}\r\n   ブータブル : {bootable}\r\n   認識 : {recognized}\r\n   隠しセクター : {hidden_sectors}\r\n" revision="1" />
+  <Message key="PartitionTypeGPTFmt" value="  パーティションの種類 : {type}\r\n   パーティション ID : {id}\r\n   属性 : {attr}\r\n   名前 : {name}\r\n" revision="1" />
+  <Message key="Disk: {disk}" value="ディスク : {disk} ({serial number})" revision="2" />
+  <Message key="Open Disk" value="ディスクを開く" revision="1" />
+  <Message key="Select a physical disk to open" value="物理ディスクの選択 :" revision="1" />
+  <Message key="Disk information" value="ディスク情報 :" revision="1" />
+  <Message key="Open as Read-Only" value="読み取り専用として開く" revision="1" />
+  <Message key="Create and open snapshot" value="スナップショットを作成して開く" revision="0" />
+  <Message key="Please wait while Hex Editor Neo scans physical disks…" value="Hex Editor Neo が物理ディスクをスキャンするまでお待ちください…" revision="1" />
+  <Message key="General Page" value="一般" revision="1" />
+  <Message key="Using this product you are saving environment!" value="この製品を使用すると、環境を節約できます。" revision="1" />
+  <Message key="EcoMessage" value="\r\nHex Editor Neo の基本アルゴリズムは、作業時間を節約し、エネルギーとリソースの消費を大幅に削減するために高度に最適化され、慎重に調整されています。\r\n\r\n私たちは未来を大切にしています。" revision="1" />
+  <Message key="FeatureNotAvailableTitle" value="機能は利用できません (closing in {seconds} seconds…)" revision="1" />
+  <Message key="FeatureNotAvailable" value="使用しようとしている {feature} 機能は現在のエディションでは利用できません。これは {edition} エディションの一部です。 続行するには、以下のアクションを選択してください :" revision="1" />
+  <Message key="FeatureExpired" value="使用しようとしている{feature} 機能は有効期限が切れており、 {edition} エディションの一部です。 続行するには、以下のアクションを選択してください :" revision="1" />
+  <Message key="EditionStandard" value="スタンダード" revision="1" />
+  <Message key="EditionPro" value="プロフェッショナル" revision="1" />
+  <Message key="EditionUltimate" value="アルティメット" revision="1" />
+  <Message key="Trial period started" value="試用期間が開始されました。 Hex Editor Neo のすべての機能を評価するには 14 日間の猶予があります。 試用期間が終了すると、Free Edition の機能を使用するか、Standard Edition、Professional Edition、または Ultimate Edition にアップグレードすることになります。" revision="1" />
+  <Message key="Free started" value="HHD ソフトウェアの無料 Hex Editor Neo へようこそ。 これで、Hex Editor Neo のコピーが FREE モードで実行するように設定されました。 Free Edition に含まれる幅広い機能を使用できます。\r\n\r\nStandard、Professional、Ultimate Edition の一部の機能の評価をいつでも開始できます。" revision="1" />
+  <Message key="R/O" value="R/O" revision="1" />
+  <Message key="Continue in Read-Only mode" value="読み取り専用モードで続行" revision="1" />
+  <Message key="Continue in Full mode" value="フルモードで続行" revision="0" />
+  <Message key="SavePastePrompt" value="このファイルの一部を使用する他のファイルが開かれています。 これらのファイルを閉じるまで、このドキュメントに加えた変更を保存することはできません。 ファイルを別の名前で保存しますか?" revision="1" />
+  <Message key="SaveError" value="ファイルの保存中にエラーが発生しました : {text} ({code})" revision="1" />
+  <Message key="SaveErrors" value="保存中に次のエラーが発生しました :\r\n{errors}" revision="1" />
+  <Message key="DocumentChangePrompt" value="現在のドキュメントは変更されました。 保存しますか?\r\n\r\n{name}" revision="1" />
+  <Message key="AllFilesFilterString" value="すべてのファイル|*|" revision="1" />
+  <Message key="AllSupportedFormats" value="すべてのサポートファイル" revision="2" />
+  <Message key="NoLoadHandlersRegistered" value="アプリケーションが正しくインストールされていません。 アプリケーションを再インストールしてください。" revision="1" />
+  <Message key="OldCommonControls" value="古いバージョンの共通コントロールが検出されました。 オペレーティング システムに最新のサービス パックと Internet Explorer をインストールしてください。 アプリケーションは終了します。" revision="1" />
+  <Message key="Loading" value="読み込み中" revision="1" />
+  <Message key="Initializing user interface" value="ユーザーインターフェースを初期化中" revision="1" />
+  <Message key="Finishing initialization" value="初期化を終了しています" revision="1" />
+  <Message key="TooManyDocs" value="コンピューターの速度が低下する可能性があるため、エディターで一度に多数のドキュメントを開くことはお勧めできません。 これらのドキュメントを開き続けてもよろしいですか?" revision="1" />
+  <Message key="DocumentsBusy" value="1 つ以上のドキュメントが長時間の操作の処理でビジー状態です。 アプリケーションを閉じることができません。 まず操作をキャンセルしてください。" revision="1" />
+  <Message key="Application Close" value="アプリケーションを閉じる" revision="1" />
+  <Message key="DocumentsBusySaveAll" value="1 つ以上のドキュメントが長時間の操作の処理でビジー状態です。 まず操作をキャンセルしてください。" revision="1" />
+  <Message key="Save All" value="すべて保存" revision="1" />
+  <Message key="Open Shared File" value="共有ファイルを開く" revision="1" />
+  <Message key="LoadErrors" value="読み込み中に次のエラーが発生しました :\r\n{errors}" revision="1" />
+  <Message key="NoHandlersFoundError" value="このファイルを開くことができるハンドラーが見つかりませんでした。" revision="1" />
+  <Message key="VolumeOpenError" value="ボリュームを開くときにエラーが発生しました : {text} ({code})" revision="1" />
+  <Message key="EditorInitializationError" value="エディタウィンドウを初期化できません。" revision="1" />
+  <Message key="NoEditorsFoundError" value="このファイルでサポートされているエディタが見つかりません。" revision="1" />
+  <Message key="ToolsFilter" value="ツール構成ファイル (*.hexdwc7)|*.hexdwc7|" revision="2" />
+  <Message key="Printing" value="印刷" revision="1" />
+  <Message key="ActivatePane" value="{pane} ペインをアクティブにする" revision="1" />
+  <Message key="New Document N" value="新しいドキュメント {ordinal}" revision="1" />
+  <Message key="AlreadyOpened" value="&quot;{path}&quot;: ドキュメントはすでにエディタで開かれています。\r\n" revision="1" />
+  <Message key="UnknownVolume" value="名前のないボリューム {ordinal}" revision="1" />
+  <Message key="MediaRemoved" value="Hex Editor Neo は以下のドキュメントにアクセスできなかったため、ドキュメントを閉じる必要がありました。 これらのドキュメントに加えた変更はすべて失われている可能性があります:\r\n{ドキュメント リスト}\r\n\r\n今後のデータ損失を防ぐため、最初にドキュメントを閉じずにリムーバブル メディアを取り外さないでください。" revision="1" />
+  <Message key="Activate this window" value="このウィンドウをアクティブにする" revision="1" />
+  <Message key="Settings" value="設定" revision="1" />
+  <Message key="Search settings" value="設定の検索" revision="0" />
+  <Message key="ElevationError" value="権限を昇格できません。 エラーメッセージ : {error}" revision="1" />
+  <Message key="ElevationErrorTitle" value="昇格エラー" revision="1" />
+  <Message key="This toolbar cannot be deleted." value="このツールバーは削除できません。" revision="1" />
+  <Message key="Toolbar Deletion Failed" value="ツールバーの削除に失敗しました" revision="1" />
+  <Message key="Invalid toolbar name" value="ツールバー名が無効です。 有効な名前は文字で始まる必要があります。" revision="1" />
+  <Message key="Toolbar Creation Failed" value="ツールバーの作成に失敗しました" revision="1" />
+  <Message key="Toolbar already exists" value="指定した名前のツールバーはすでに存在します。" revision="1" />
+  <Message key="All commands" value="すべてのコマンド" revision="1" />
+  <Message key="Commands Page" value="コマンド" revision="1" />
+  <Message key="Toolbars" value="ツールバー :" revision="2" />
+  <Message key="New" value="新規(&amp;N)…" revision="1" />
+  <Message key="Delete" value="削除(&amp;D)" revision="1" />
+  <Message key="Button size" value="ボタンサイズ :" revision="1" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="コマンドを選択して説明を表示するか、ツールバーにドラッグします。" revision="1" />
+  <Message key="New Group" value="新しいグループ(&amp;G)" revision="0" />
+  <Message key="&lt; Add" value="&lt; 追加(&amp;A)" revision="0" />
+  <Message key="Remove &gt;" value="削除(&amp;R) &gt;" revision="0" />
+  <Message key="Move Up" value="上へ(&amp;U)" revision="0" />
+  <Message key="Move Down" value="下へ(&amp;D)" revision="0" />
+  <Message key="Clear" value="消去(&amp;C)" revision="0" />
+  <Message key="Clip toolbars" value="クリップ ツールバー(&amp;C)" revision="0" />
+  <Message key="Wrap toolbars" value="折り返し ツールバー(&amp;W)" revision="0" />
+  <Message key="Keyboard" value="キーボード" revision="1" />
+  <Message key="MaxShortcuts" value="1 つのコマンドに 5 つを超えるショートカットを割り当てることはできません。" revision="1" />
+  <Message key="ShortcutExists" value="このショートカットは、{command} に対してすでに定義されています。 再定義しますか?" revision="1" />
+  <Message key="Keyboard Page" value="キーボード" revision="1" />
+  <Message key="Category" value="カテゴリー :" revision="1" />
+  <Message key="Commands" value="コマンド :" revision="1" />
+  <Message key="Current keys" value="現在のキー :" revision="1" />
+  <Message key="Press new shortcut key" value="新しいショートカット キー(&amp;N) :" revision="1" />
+  <Message key="Description" value="説明 :" revision="1" />
+  <Message key="Currently assigned to" value="現在の割り当て :" revision="1" />
+  <Message key="Assign" value="割り当て(&amp;A)" revision="1" />
+  <Message key="Keyboard Map" value="キーボード マップ(&amp;)" revision="1" />
+  <Message key="[unassigned]" value="[未割り当て]" revision="1" />
+  <Message key="Keyboard Map Dialog" value="キーボード マップ" revision="1" />
+  <Message key="Print" value="印刷(&amp;P)" revision="1" />
+  <Message key="General" value="一般" revision="1" />
+  <Message key="HideToolWindows" value="ツールウィンドウを隠す" revision="0" />
+  <Message key="AlwaysCreateBackups" value="常にバックアップを作成する" revision="1" />
+  <Message key="LowercaseHex" value="小文字の 16 進数" revision="1" />
+  <Message key="ConvertFloatingPoint" value="バイトオーダーの変更は浮動小数点型に影響します" revision="1" />
+  <Message key="DocumentsToRemember" value="最近使用したドキュメントを表示" revision="1" />
+  <Message key="ClosesCurrentOnly" value="閉じるは現在のツールウィンドウのみ" revision="1" />
+  <Message key="RestoreWindowPosition" value="起動時にメインウィンドウの位置を復元する" revision="1" />
+  <Message key="SkipNagScreen" value="ナグスクリーンをスキップ" revision="1" />
+  <Message key="Notifications" value="通知" revision="1" />
+  <Message key="SaveNotification" value="ドキュメントの保存" revision="1" />
+  <Message key="OpenDisk" value="ボリューム/ディスクを開く" revision="1" />
+  <Message key="Task" value="タスク" revision="1" />
+  <Message key="Hex Editor Neo trial period has expired." value="Hex Editor Neo の試用期間は終了しました。" revision="1" />
+  <Message key="Continue in Free Mode" value="フリーモードで続行" revision="1" />
+  <Message key="Expired." value="期限切れ。" revision="1" />
+  <Message key="{days} days left" value="残り {days} 日" revision="1" />
+  <Message key="ExpiresOn" value="、有効期限は {date} です" revision="1" />
+  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
+  <Message key="OpenLicenseFilter" value="ライセンス ファイル (*.hexlic)|*.hexlic|すべてのファイル|*.*|" revision="1" />
+  <Message key="License Installation" value="ライセンスのインストール" revision="1" />
+  <Message key="LicenseInstallSuccess" value="ライセンスは正常にインストールされました。 アプリケーションを再起動することをお勧めします。 Hex Editor Neo をお選びいただき、誠にありがとうございます!" revision="1" />
+  <Message key="LicenseInstallFailure" value="ライセンス ファイルの形式が無効であるか、ライセンス ファイルの有効期限が切れています。 新しいライセンス ファイルをダウンロードするには、アカウントにログインしてください。" revision="1" />
+  <Message key="LicenseInstallRemove" value="ライセンスを削除すると、製品はフリー版に切り替わります。 続行してもよろしいですか?" revision="1" />
+  <Message key="VolumeInfo" value="総スペース :\t{total_space_kb} ({total_space})\r\nフリースペース :\t{free_space_kb} ({free_space})\r\n利用可能なスペース :\t{available_space_kb} ({available_space})" revision="1" />
+  <Message key="Volume #" value="ボリューム : {name}" revision="1" />
+  <Message key="OK" value="OK" revision="1" />
+  <Message key="Cancel" value="キャンセル" revision="1" />
+  <Message key="Reset" value="リセット(&amp;R)" revision="1" />
+  <Message key="Help" value="ヘルプ(&amp;H)" revision="1" />
+  <Message key="Yes" value="はい(&amp;Y)" revision="1" />
+  <Message key="No" value="いいえ(&amp;N)" revision="1" />
+  <Message key="Abort" value="中止(&amp;A)" revision="0" />
+  <Message key="Retry" value="再試行(&amp;R)" revision="0" />
+  <Message key="Ignore" value="無視(&amp;I)" revision="0" />
+  <Message key="Try Again" value="再試行(&amp;T)" revision="0" />
+  <Message key="Close" value="閉じる" revision="1" />
+  <Message key="Add" value="追加(&amp;A)" revision="1" />
+  <Message key="Edit" value="編集(&amp;E)" revision="0" />
+  <Message key="Remove" value="削除(&amp;R)" revision="1" />
+  <Message key="Remove All" value="すべて削除(&amp;L)" revision="1" />
+  <Message key="Reset All" value="すべてリセット(&amp;L)" revision="1" />
+  <Message key="Copy" value="コピー(&amp;C)" revision="1" />
+  <Message key="Continue" value="続行" revision="1" />
+  <Message key="Import" value="インポート(&amp;I)…" revision="0" />
+  <Message key="Export" value="エクスポート(&amp;E)…" revision="0" />
+  <Message key="KB" value="KB" revision="1" />
+  <Message key="MB" value="MB" revision="1" />
+  <Message key="GB" value="GB" revision="1" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="Regular expression" value="正規表現" revision="1" />
+  <Message key="Sub-match:" value="Sub-match :" revision="1" />
+  <Message key="Recent Patterns…" value="最近のパターン…" revision="1" />
+  <Message key="Type:" value="種類 :" revision="1" />
+  <Message key="Find what:" value="検索文字列 :" revision="1" />
+  <Message key="FREmpty" value="空" revision="1" />
+  <Message key="Custom colors:" value="色の変更 :" revision="1" />
+  <Message key="Default colors:" value="既定色 :" revision="1" />
+  <Message key="Alpha" value="アルファ" revision="1" />
+  <Message key="Custom…" value="カスタム…" revision="1" />
+  <Message key="Windows Title" value="ウィンドウ" revision="1" />
+  <Message key="Save" value="保存" revision="1" />
+  <Message key="Close Window(s)" value="ウィンドウを閉じる" revision="1" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Version {major}.{minor}.{revision}.{build}]]]\n{registered?}Registered to [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutBoxDisclaimer" value="警告: このコンピュータ プログラムは著作権法および国際条約によって保護されています。 このプログラムまたはその一部を無断で複製または配布すると、厳しい民事罰および刑事罰が科される可能性があり、法律に基づいて可能な限り起訴されます。" revision="1" />
+  <Message key="About Hex Editor Neo" value="バージョン情報 {product}" revision="2" />
+  <Message key="Choose Default User Interface Layout" value="既定のユーザーインターフェイスレイアウトの選択" revision="1" />
+  <Message key="Select default interface configuration" value="既定のインターフェース構成を選択します。 [表示] » [定義済みレイアウト] メニューを使用して、いつでも別の構成を選択できます。" revision="0" />
+  <Message key="Novice user" value="初心者ユーザー" revision="1" />
+  <Message key="Advanced user" value="中級ユーザー" revision="1" />
+  <Message key="Expert user" value="上級ユーザー" revision="1" />
+  <Message key="Application restart required." value="アプリケーションの再起動が必要です。" revision="1" />
+  <Message key="Configure color scheme after I close this window" value="このウィンドウを閉じた後に配色を設定します" revision="1" />
+  <Message key="Select the size of toolbar buttons:" value="ツールバー ボタンのサイズを選択 :" revision="1" />
+  <Message key="Feature not Available" value="使用不可" revision="1" />
+  <Message key="The feature you are trying to use is not available in the current edition.\r\nSelect an action below to continue:" value="使用しようとしている機能は、現在のエディションでは使用できません。\r\n続行するには、以下のアクションを選択してください :" revision="1" />
+  <Message key="New Toolbar" value="新規ツールバー" revision="1" />
+  <Message key="Enter toolbar name" value="ツールバー名を入力 :" revision="1" />
+  <Message key="For home and educational use. See &lt;a&gt;Usage Policy&lt;/a&gt; for more information." value="家庭用および教育用。 詳細については、 [[[hUsage Policy]]] を参照してください。" revision="2" />
+  <Message key="For commercial, goverment or military use &lt;a&gt;upgrade&lt;/a&gt; is required." value="商業、政府、または軍事で使用する場合は、 [[[hupgrade]]] が必要です。" revision="2" />
+  <Message key="Do not display this warning anymore" value="今後この警告を表示しない" revision="1" />
+  <Message key="Save changes to selected documents" value="選択したドキュメントへの変更を保存 :" revision="1" />
+  <Message key="Tasks Page" value="タスク" revision="1" />
+  <Message key="Specify which tasks are available on Hex Editor Neo's taskbar icon" value="Hex Editor Neo のタスクバー アイコンで使用できるタスクを指定 :" revision="1" />
+  <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo の試用期間" revision="1" />
+  <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo はトライアル モードで動作しています。 すべての機能がアクティブになっています。" revision="1" />
+  <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="試用期間が終了した後も、Hex Editor Neo は引き続き利用できますが、利用できるのは無料版の機能のみになります。" revision="1" />
+  <Message key="Upgrade Now…" value="今すぐアップグレード…" revision="1" />
+  <Message key="Compare Editions…" value="エディションの比較…" revision="1" />
+  <Message key="Continue Trial" value="試用を続ける" revision="1" />
+  <Message key="License Management and Upgrading" value="ライセンスの管理とアップグレード" revision="1" />
+  <Message key="Installed license" value="インストールされているライセンス :" revision="1" />
+  <Message key="Start Trial now!" value="今すぐトライアルを開始!" revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="アップグレード先のエディションを選択します。 選択したエディションに関する詳細情報を取得するには「詳細情報…」リンクを使用し、エディションの比較表を取得するには「エディションの比較…」リンクを使用します。" revision="1" />
+  <Message key="Standard Edition:" value="スタンダード エディション :" revision="1" />
+  <Message key="More Info…" value="詳細はこちら…" revision="1" />
+  <Message key="Upgrade…" value="アップグレード…" revision="1" />
+  <Message key="Professional Edition:" value="プロフェッショナル エディション :" revision="1" />
+  <Message key="Ultimate Edition:" value="アルティメット エディション :" revision="1" />
+  <Message key="Compare editions…" value="エディションの比較…" revision="1" />
+  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="すでにライセンス ファイルを受け取っている場合は、[ライセンスをインストール…] ボタンをクリックします。" revision="1" />
+  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="ライセンスを更新する必要がある場合は、「ライセンスのダウンロード…」ボタンをクリックしてください。 (ログインとパスワードが必要です)。" revision="1" />
+  <Message key="Install License…" value="ライセンスのインストール…" revision="1" />
+  <Message key="Download License…" value="ライセンスのダウンロード…" revision="1" />
+  <Message key="Remove License" value="ライセンスのダウンロード…" revision="1" />
+  <Message key="Open Volume" value="ボリュームを開く" revision="1" />
+  <Message key="Select a volume to open" value="開くボリュームの選択 :" revision="1" />
+  <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo がシステム ボリュームをスキャンするまでお待ちください…" revision="1" />
+  <Message key="File system capabilities" value="ファイル システムのキャパシティ :" revision="1" />
+  <Message key="Space" value="スペース :" revision="1" />
+  <Message key="ProgressPleaseWait" value="お待ちください…" revision="1" />
+  <Message key="ProgressPerSec" value="{rate}/s" revision="1" />
+  <Message key="ProgressCalculating" value="計算中…" revision="1" />
+  <Message key="ProgressDone" value="{percent} % 完了。" revision="1" />
+  <Message key="Error" value="エラー" revision="0" />
+  <Message key="PredefinedDelete" value="事前定義された配色の削除は禁止されています。 ユーザースキームのみを削除できます" revision="0" />
+  <Message key="Round edges" value="丸いエッジ" revision="0" />
+  <Message key="Text" value="テキスト" revision="0" />
+  <Message key="Coloring" value="色" revision="0" />
+  <Message key="Background" value="背景" revision="0" />
+  <Message key="Outline" value="外枠" revision="0" />
+  <Message key="Coloring Schemes" value="カラー スキーム" revision="0" />
+  <Message key="Auto Hide" value="自動的に隠す" revision="0" />
+  <Message key="Window list" value="ウィンドウ リスト" revision="0" />
+  <Message key="Switch Window" value="ウィンドウの切り替え" revision="0" />
+  <Message key="Active Tool Windows" value="アクティブ ツール ウィンドウ" revision="0" />
+  <Message key="Active Documents" value="アクティブ ドキュメント" revision="0" />
+  <Message key="Checking for new version" value="新しいバージョンを確認中" revision="1" />
+  <Message key="You are using the most recent version of the software." value="Hex Editor Neo の最新バージョンを使用しています" revision="1" />
+  <Message key="Language Page" value="言語" revision="0" />
+  <Message key="Downloading language pack" value="言語パックのダウンロード" revision="0" />
+  <Message key="Product language" value="使用言語" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="使用言語を変更するには、Hex Editor Neo の再起動が必要です。" revision="0" />
+  <Message key="Languages online" value="オンライン言語" revision="0" />
+  <Message key="Refresh" value="更新(&amp;R)" revision="0" />
+  <Message key="ButtonRefreshing" value="更新中…" revision="0" />
+  <Message key="Download" value="ダウンロード(&amp;D)" revision="0" />
+  <Message key="Language pack" value="言語パック : {native name}" revision="0" />
+  <Message key="DiscardWarning" value="選択したアップデートを破棄すると、Hex Editor Neo はそれらのアップデートについて通知しなくなります。 今後のアップデートについては引き続き通知されます。\r\n\r\n選択したアップデートを破棄しますか?" revision="0" />
+  <Message key="LangPackUpdated" value="言語パックが更新されました。 言語パックを再読み込みするにはアプリケーションを再起動する必要があります。\r\n\r\n今すぐ再起動しますか?" revision="0" />
+  <Message key="SavingAll" value="変更の保存中" revision="0" />
+  <Message key="Component Updates" value="コンポーネントのアップデート" revision="0" />
+  <Message key="The following updates are found:" value="次の更新が見つかりました :" revision="0" />
+  <Message key="Check for updates" value="更新の確認" revision="0" />
+  <Message key="Start Download" value="ダウンロードを開始" revision="0" />
+  <Message key="View Changes…" value="変更を表示…" revision="0" />
+  <Message key="Discard" value="破棄" revision="0" />
+  <Message key="ActionSelection" value="{name} は正常にダウンロードされました。" revision="1" />
+  <Message key="CopyError" value="ダウンロードしたファイル ({code}) のコピー中にエラーが発生しました。 デフォルトの場所からセットアップを実行します。" revision="1" />
+  <Message key="LaunchError" value="ダウンロードしたイメージの実行中にエラー ({code}) が発生しました。" revision="1" />
+  <Message key="File creation error" value="エラーが発生しました {create?}creating{|create}opening{?create} file &quot;{name}&quot;: {text} ({code})" revision="1" />
+  <Message key="New Version Downloaded" value="新しいバージョンがダウンロードされました" revision="0" />
+  <Message key="Install now" value="今すぐインストール" revision="1" />
+  <Message key="Make a copy and install now" value="コピーを作成して今すぐインストール" revision="1" />
+  <Message key="LangChanged" value="言語を変更した後は、Hex Editor Neo を再起動する必要があります。 今すぐ再起動しますか?" revision="0" />
+  <Message key="ChangeLanguage" value="使用言語の変更" revision="0" />
+  <Message key="AccessLangsOnline" value="オンラインリポジトリにアクセス" revision="0" />
+  <Message key="UseLanguage" value="この言語パックを使用" revision="0" />
+  <Message key="I can't find my language in this list." value="このリストに自分の言語が見つかりません。" revision="0" />
+  <Message key="Credits to" value="クレジット :" revision="0" />
+  <Message key="SignatureError" value="Hex Editor Neo はアップデートをダウンロードしましたが、整合性チェックに失敗しました。 これは、一時的または永続的なネットワーク構成エラーを示している可能性があります。 後で更新してみてください。" revision="0" />
+  <Message key="ExecutablesFilter" value="実行ファイル|*.exe|すべてのファイル|*.*||" revision="1" />
+  <Message key="YourLanguage" value="オンラインで利用可能なユーザー言語" revision="0" />
+  <Message key="NewBetaVersions" value="新しいベータ版が検出されました" revision="0" />
+  <Message key="Language pack storage location" value="言語パックの保存場所" revision="0" />
+  <Message key="License Upgrade Notification" value="Hex Editor Neo は、以前のバージョンのライセンスを検出しました。 ライセンスを自動的にアップグレードすることはできません。 アップグレードされたライセンスをダウンロードするには、[マイ アカウント] セクションにログインする必要があります (最初の購入オプションによっては、追加料金が適用される場合があります)。\n\n今すぐ [マイ アカウント] セクションに移動しますか?" revision="0" />
+  <Message key="CSVFiles" value="CSV ファイル (*.csv)|*.csv||" revision="0" />
+  <Message key="ThemeFiles" value="テーマ ファイル (*.hextheme)|*.hextheme||" revision="0" />
+  <Message key="Rocket settings" value="ツールウィンドウのレイアウト (ツールバーを含む)" revision="0" />
+  <Message key="Bars settings" value="ツールバーのレイアウト" revision="0" />
+  <Message key="Windows settings" value="ダイアログウィンドウの位置" revision="0" />
+  <Message key="MRU settings" value="最近使用したドキュメント" revision="0" />
+  <Message key="Theme settings" value="テーマ" revision="0" />
+  <Message key="Props settings" value="一般的な設定" revision="0" />
+  <Message key="Language settings" value="言語の設定" revision="0" />
+  <Message key="Setting files" value="設定 (*.hexset7)|*.hexset7|" revision="1" />
+  <Message key="Export successful" value="設定がファイルに正常に保存されました。" revision="0" />
+  <Message key="Import successful" value="設定が正常にインポートされました。" revision="0" />
+  <Message key="toolbar.Standard" value="スタンダード" revision="0" />
+  <Message key="toolbar.Edit" value="編集" revision="0" />
+  <Message key="toolbar.Language" value="言語" revision="0" />
+  <Message key="toolbar.New" value="新規" revision="0" />
+  <Message key="toolbar.Open" value="開く" revision="0" />
+  <Message key="Settings Page" value="設定" revision="0" />
+  <Message key="Settings Storage Location" value="設定の保存場所" revision="0" />
+  <Message key="Settings Management" value="設定の管理" revision="0" />
+  <Message key="Export Settings…" value="設定のエクスポート…" revision="0" />
+  <Message key="Import Settings…" value="設定のインポート…" revision="0" />
+  <Message key="Reset Settings…" value="設定をリセット…" revision="0" />
+  <Message key="Ask to import settings" value="指定されたファイルはすでに存在します。 その内容を今すぐインポートしますか? 「いいえ」をクリックすると、ファイルは現在の設定で上書きされます。" revision="0" />
+  <Message key="Ask to reset settings" value="設定をリセットするにはアプリケーションを再起動する必要があります。 続行しますか？" revision="0" />
+  <Message key="Ask to restart" value="インポートした設定を適用するには、アプリケーションを再起動することをお勧めします。 今すぐ再起動しますか?" revision="0" />
+  <Message key="Select Components" value="コンポーネントの選択" revision="0" />
+  <Message key="Select components:" value="コンポーネントの選択 :" revision="0" />
+  <Message key="Select all" value="すべて選択" revision="0" />
+  <Message key="Beta Page" value="ベータ" revision="0" />
+  <Message key="Beta title info" value="このページでは、オプションのベータ コンポーネントを参照してダウンロードできます。 これらのコンポーネントは実験的な機能を追加したり、報告されたバグを修正したりする場合があります。 インストールしたいコンポーネントにチェックを入れ、アンインストールしたいコンポーネントのチェックを外して「更新」ボタンを押します。" revision="1" />
+  <Message key="BetaUpdateButton" value="アップデート(&amp;U)" revision="0" />
+  <Message key="Available beta modules:" value="利用可能なベータモジュール :" revision="0" />
+  <Message key="There are no updates available." value="利用可能なアップデートはありません。" revision="0" />
+  <Message key="BetaInstalled" value="コンポーネント構成が正常に更新されました。 変更を適用するには、Hex Editor Neo を再起動する必要があります。" revision="1" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}次のコンポーネントがダウンロードされ、インストールされます :\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}次のコンポーネントがアンインストールされます :\r\n\n{deleted components}{?has deleted}\r\n\n続行しますか?" revision="0" />
+  <Message key="BetaConflicts" value="選択したコンポーネントは、インストールされているコンポーネントと競合するか、または相互に競合します。 続行するには、次のコンポーネントを削除する必要があります:\r\n\n{components}\r\n\nそれらを削除して続行しますか?" revision="0" />
+  <Message key="BetaHeader" value="ベータ バージョン" revision="0" />
+  <Message key="BetaDownloadError" value="選択したコンポーネントのダウンロード中にエラーが発生しました。 後でもう一度試してください。" revision="1" />
+  <Message key="BetaAdvanced" value="高度な設定(&amp;A)…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="HHD ソフトウェア サポート担当者から送信されたアップデート ID を入力 :" revision="0" />
+  <Message key="Manual Installation" value="マニュアル インストール" revision="0" />
+  <Message key="Crash Page" value="クラッシュレポート" revision="0" />
+  <Message key="CrashIntro" value="クラッシュ レポートの提出ステータスの通知を受け取り、レポートを優先的に処理してもらいたい場合は、下のボックスに電子メール アドレスを入力してください。 あなたの電子メール アドレスは、投稿に関する議論以外の目的には使用されません。" revision="0" />
+  <Message key="Report Settings" value="設定" revision="0" />
+  <Message key="Send report automatically" value="レポートを自動的に送信(&amp;S)" revision="0" />
+  <Message key="Report verbosity level" value="レポートの冗長レベル" revision="0" />
+  <Message key="Minidump" value="ミニダンプ(&amp;M)" revision="0" />
+  <Message key="Full dump" value="フルダンプ(&amp;F)" revision="0" />
+  <Message key="Minidump description" value="ミニダンプのサイズは通常 1 メガバイト未満で、クラッシュに関する限られた情報のみが含まれています。 問題を診断するにはミニダンプで十分な場合もありますが、クラッシュの再現に必要な情報が不足していることもよくあります。" revision="0" />
+  <Message key="Full dump description" value="完全なダンプには、すべてのプロセスのアドレス空間の圧縮されたビューが含まれています。 開発者がクラッシュの原因となった状況を再現し、できるだけ早く修正できるようにするのが最善です。 ただし、完全なダンプのサイズは簡単に数百メガバイトに達する可能性があります。" revision="0" />
+  <Message key="Privacy Policy" value="プライバシー ポリシー" revision="0" />
+  <Message key="Volume access denied" value="ボリューム情報をクエリしようとしたときに、アクセス拒否エラーが発生しました。 Hex Editor Neo を管理者として再起動してみてください。" revision="0" />
+  <Message key="NA" value="N/A" revision="0" />
+  <Message key="Open Device" value="デバイスを開く" revision="0" />
+  <Message key="Enter the device path to open:" value="開くデバイス パスの入力 :" revision="0" />
+  <Message key="Open device as:" value="デバイスを開く :" revision="0" />
+  <Message key="Auto" value="自動" revision="0" />
+  <Message key="Physical disk" value="物理ディスク" revision="0" />
+  <Message key="Volume" value="ボリューム" revision="0" />
+  <Message key="Value is out of range" value="指定された値が範囲外です" revision="0" />
+  <Message key="GenericError" value="操作の実行中にエラーが発生しました : {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="clr.default_colors" value="既定の UI の色" revision="0" />
+  <Message key="clr.default_colors.background" value="背景" revision="0" />
+  <Message key="clr.default_colors.control_background" value="コントロールの背景" revision="0" />
+  <Message key="clr.default_colors.text" value="テキスト/前景" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="ハイパーリンク" revision="0" />
+  <Message key="clr.default_colors.disabled" value="無効なテキスト" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="ホバー中の背景" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="ホバー中の外枠" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="ホバー中のテキスト" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="選択範囲の背景" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="選択範囲の外枠" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="選択範囲のテキスト" revision="0" />
+  <Message key="clr.menu" value="メニューの色" revision="0" />
+  <Message key="clr.menu.background" value="背景" revision="0" />
+  <Message key="clr.menu.text" value="テキスト" revision="0" />
+  <Message key="clr.menu.separator" value="区切り" revision="0" />
+  <Message key="clr.menu.disabled_text" value="無効なテキスト" revision="0" />
+  <Message key="clr.menu.checked" value="チェックした項目の背景" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="チェックされ無効になっている項目の背景" revision="0" />
+  <Message key="clr.menu.hover.fill" value="ホバー中の背景" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="ホバー中の外枠" revision="0" />
+  <Message key="clr.menu.hover.text" value="ホバー中のテキスト" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="無効な項目のホバー中の背景" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="無効な項目のホバー中の外枠" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="無効な項目のホバー中のテキスト" revision="0" />
+  <Message key="clr.rebar" value="リブの色" revision="0" />
+  <Message key="clr.rebar.background" value="背景" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="シェブロンドットの塗りつぶし色" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="シェブロンドットの外枠の色" revision="0" />
+  <Message key="clr.toolbar" value="ツールバーの色" revision="0" />
+  <Message key="clr.toolbar.background" value="背景" revision="0" />
+  <Message key="clr.toolbar.text" value="テキスト" revision="0" />
+  <Message key="clr.toolbar.disabled" value="無効なテキスト" revision="0" />
+  <Message key="clr.toolbar.separator" value="区切り" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="ホバー中の背景" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="ホバー中の外枠" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="ホバー中のテキスト" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="押された項目の背景" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="押された項目の外枠" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="押された項目のテキスト" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="押されて無効になった項目の背景" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="押されて無効になった項目の外枠" revision="0" />
+  <Message key="clr.frame" value="外枠の色" revision="0" />
+  <Message key="clr.frame.frame.background" value="背景" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="クライアントの背景" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="ドキュメントの外枠" revision="0" />
+  <Message key="clr.frame.frame.border" value="枠線" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="非アクティブなヘッダーの背景" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="非アクティブなヘッダーの テキスト/外枠" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="アクティブなヘッダーの背景" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="アクティブなヘッダーの テキスト/外枠" revision="0" />
+  <Message key="clr.frame.hover.fill" value="ホバー中の背景" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="ホバー中の外枠" revision="0" />
+  <Message key="clr.frame.hover.text" value="ホバー中のテキスト" revision="0" />
+  <Message key="clr.frame.title_text" value="タイトルテキスト" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="ナビゲーションアイコンの影" revision="0" />
+  <Message key="clr.frame.nav.background" value="ナビゲーションアイコンの背景" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="ナビゲーションアイコンのハイライト" revision="0" />
+  <Message key="clr.frame.nav.header" value="ナビゲーションアイコンのヘッダー" revision="0" />
+  <Message key="clr.frame.nav.frame" value="ナビゲーションアイコンの枠線" revision="0" />
+  <Message key="clr.listview" value="リストビューの色" revision="0" />
+  <Message key="clr.listview.normal.fill" value="背景" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="テキスト" revision="0" />
+  <Message key="clr.listview.header.fill" value="ヘッダの背景" revision="0" />
+  <Message key="clr.listview.header.stroke" value="ヘッダのテキスト" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="非アクティブな選択範囲の背景" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="非アクティブな選択範囲のテキスト" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="非アクティブな選択範囲の外枠" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="アクティブな選択範囲の背景" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="アクティブな選択範囲のテキスト" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="アクティブな選択範囲の外枠" revision="0" />
+  <Message key="clr.listview.hover.fill" value="ホバー中の背景" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="ホバー中のテキスト" revision="0" />
+  <Message key="clr.listview.grid" value="グリッド" revision="0" />
+  <Message key="clr.listview.alternate_background" value="代替背景" revision="0" />
+  <Message key="clr.listview.hyperlink" value="ハイパーリンク" revision="0" />
+  <Message key="Settings group.Visual" value="ビジュアル" revision="0" />
+  <Message key="Settings group.User Interface" value="ユーザー インターフェース" revision="0" />
+  <Message key="Settings group.Network" value="ネットワークとサポート" revision="0" />
+  <Message key="Settings group.Editor" value="バイナリエディタ" revision="0" />
+  <Message key="Settings group.Misc" value="その他" revision="0" />
+  <Message key="Settings group.Structure Viewer" value="構造体ビューア" revision="0" />
+  <Message key="Colors Page" value="テーマ" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="スキーム名を入力して保存ボタンを押します" revision="0" />
+  <Message key="ColorSchemeExists" value="カラースキームはすでに存在します。 上書きしますか?" revision="0" />
+  <Message key="PredefinedModifyError" value="事前定義された配色の変更は禁止されています。 編集できるのはユーザー スキームのみです。 事前定義されたスキーム名と一致しない名前を入力してください。" revision="0" />
+  <Message key="Theme:" value="テーマ :" revision="0" />
+  <Message key="Display elements:" value="表示要素 :" revision="0" />
+  <Message key="Automatic" value="自動" revision="0" />
+  <Message key="Current" value="現行" revision="0" />
+  <Message key="Selected" value="選択" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="自動カラーは、現在のオペレーティング システムのカラー テーマに依存します。" revision="0" />
+  <Message key="&amp;Open" value="開く(&amp;O)" revision="0" />
+  <Message key="Novice User Layout" value="初心者向けのレイアウト" revision="0" />
+  <Message key="Advanced User Layout" value="高度なユーザー向けのレイアウト" revision="0" />
+  <Message key="Expert User Layout" value="エキスパートユーザー向けのレイアウト" revision="0" />
+  <Message key="Free Hex Editor Layout" value="無料の 16進エディター レイアウト" revision="0" />
+  <Message key="Open as binary" value="バイナリファイル" revision="0" />
+  <Message key="Open Recent" value="開く {item}" revision="0" />
+  <Message key="Structure definition files" value="構造定義ファイル" revision="0" />
+  <Message key="Kaitai definition files" value="解体定義ファイル" revision="0" />
+  <Message key="Sample Text" value="サンプル テキスト" revision="0" />
+  <Message key="Default" value="既定" revision="0" />
+  <Message key="clr.balloon" value="通知ウィンドウの色" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="背景" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="テキスト" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="外枠" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="&quot;今後表示しない&quot;の通知" revision="0" />
+  <Enumeration key="Disk dialog columns">
+    <Item value="物理ディスク" revision="2" />
+    <Item value="サイズ" revision="2" />
+    <Item value="デバイス ID" revision="2" />
+    <Item value="ディスク上のボリューム" revision="2" />
+    <Item value="種類" revision="2" />
+    <Item value="キャパシティ" revision="2" />
+    <Item value="シリアルナンバー" revision="2" />
+  </Enumeration>
+  <Enumeration key="Disk capabilities">
+    <Item value="不明" revision="1" />
+    <Item value="その他" revision="1" />
+    <Item value="シーケンシャル アクセス" revision="1" />
+    <Item value="ランダム アクセス" revision="1" />
+    <Item value="サポートされている書き込み" revision="1" />
+    <Item value="暗号化" revision="1" />
+    <Item value="圧縮" revision="1" />
+    <Item value="Supports Removable Media" revision="1" />
+    <Item value="Manual Cleaning" revision="1" />
+    <Item value="Automatic Cleaning" revision="1" />
+    <Item value="SMART Notification" revision="1" />
+    <Item value="Supports Dual-Sided Media" revision="1" />
+    <Item value="Ejection Prior to Drive Dismount Not Required" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partition types">
+    <Item value="MBR (Master Boot Record)" revision="1" />
+    <Item value="GPT (Guid Partition Table)" revision="1" />
+    <Item value="RAW (No or Unknown Partition Table)" revision="1" />
+  </Enumeration>
+  <Enumeration key="GPTAttributes">
+    <Item value="必須" revision="1" />
+    <Item value="ドライブレターなし" revision="1" />
+    <Item value="隠し属性" revision="1" />
+    <Item value="シャドーコピー" revision="1" />
+    <Item value="読み取り専用" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionUpgrade">
+    <Item value="今すぐアップグレード…" revision="1" />
+    <Item value="この機能にアクセスするには、Hex Editor Neo をアップグレードしてください" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionCompare">
+    <Item value="エディションの比較…" revision="1" />
+    <Item value="http://www.hhdsoftware.com/dispatch/hex/compare.html" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionStartTrial">
+    <Item value="14 日間のトライアルを開始" revision="1" />
+    <Item value="今後 14 日間、Hex Editor Neo のすべての機能のロックを解除します" revision="1" />
+  </Enumeration>
+  <Enumeration key="ActionClose">
+    <Item value="閉じる" revision="1" />
+    <Item value="このウィンドウを閉じる" revision="1" />
+  </Enumeration>
+  <Enumeration key="SaveNotificationMsg">
+    <Item value="ドキュメントの保存" revision="1" />
+    <Item value="ドキュメントを保存すると、すべての変更履歴が消去されます。 続行しますか？" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenVolumeDiskWarning">
+    <Item value="ボリュームを開く/ディスクの警告" revision="1" />
+    <Item value="Hex Editor Neo は、システム、一時ボリューム、またはアプリケーション ボリュームを書き込みアクセスで開くことを禁止します。 続行するには、以下のアクションを選択してください :" revision="1" />
+  </Enumeration>
+  <Enumeration key="New document task">
+    <Item value="新規ドキュメント" revision="1" />
+    <Item value="エディターで空のドキュメントを作成" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open volume task">
+    <Item value="ボリュームを開く" revision="1" />
+    <Item value="ボリューム全体のバイナリを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="Open disk task">
+    <Item value="ディスクを開く" revision="1" />
+    <Item value="物理ディスクのバイナリ表示を開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="More tasks task">
+    <Item value="その他のタスク…" revision="1" />
+    <Item value="タスクリストを構成する" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item value="ファイル(&amp;F)" revision="0" />
+    <Item value="ファイル メニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item value="新規(&amp;N)" revision="0" />
+    <Item value="新しいメニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOpen">
+    <Item value="開く(&amp;O)" revision="0" />
+    <Item value="メニュー グループを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item value="表示(&amp;V)" revision="0" />
+    <Item value="メニュー グループを表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item value="ツール(&amp;T)" revision="0" />
+    <Item value="ツール メニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item value="ウィンドウ(&amp;W)" revision="0" />
+    <Item value="ウィンドウ メニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item value="ヘルプ(&amp;H)" revision="0" />
+    <Item value="ヘルプ メニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item value="ツール ウィンドウ(&amp;T)" revision="0" />
+    <Item value="ツール ウィンドウのメニュー グループ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item value="編集(&amp;E)" revision="0" />
+    <Item value="メニューグループの編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenShared">
+    <Item value="共有を開く" revision="1" />
+    <Item value="共有を開く機能を使用すると、開いているファイルを他のアプリケーションと共有できます。 変更比較オプションを含むさまざまなマージ戦略が提供されます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenMemory">
+    <Item value="物理メモリを開く" revision="1" />
+    <Item value="物理メモリを開く機能を使用すると、コンピュータの物理メモリを読み取り専用で表示できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenVolume">
+    <Item value="ボリュームを開く" revision="1" />
+    <Item value="ボリュームを開く機能を使用すると、論理ディスク (ボリューム) を開いて表示および編集できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureOpenDisk">
+    <Item value="ディスクを開く" revision="1" />
+    <Item value="ディスクを開く機能を使用すると、物理ディスクを開いて表示および編集できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item value="コマンド" revision="1" />
+    <Item value="ショートカット" revision="1" />
+    <Item value="説明" revision="1" />
+  </Enumeration>
+  <Enumeration key="Endian">
+    <Item value="既定のバイトオーダー" revision="1" />
+    <Item value="リトルエンディアン" revision="1" />
+    <Item value="ビッグエンディアン" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSwitching">
+    <Item value="Windows切り替えスタイル" revision="1" />
+    <Item value="レガシー" revision="1" />
+    <Item value="最近使用したもの" revision="1" />
+    <Item value="ナビゲーションウィンドウの使用" revision="1" />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item value="不明です。アプリケーションやライセンスを再インストールしてください。" revision="1" />
+    <Item value="無料、試用期間は開始されていません。" revision="1" />
+    <Item value="無料、試用期間は {days} 日で終了します。" revision="1" />
+    <Item value="無料、試用期間は終了しました。" revision="1" />
+    <Item value="スタンダード エディション ライセンス" revision="1" />
+    <Item value="プロフェッショナル エディション ライセンス" revision="1" />
+    <Item value="アルティメット エディション ライセンス" revision="1" />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item value="非営利" revision="1" />
+    <Item value="商用" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogColumns">
+    <Item value="マウント ポイント" revision="2" />
+    <Item value="ラベル" revision="2" />
+    <Item value="種類" revision="2" />
+    <Item value="ファイル システム" revision="2" />
+    <Item value="シリアルナンバー" revision="2" />
+    <Item value="Unique ID" revision="2" />
+    <Item value="サイズ" revision="2" />
+  </Enumeration>
+  <Enumeration key="VolumeDialogDriveType">
+    <Item value="不明" revision="1" />
+    <Item value="無効" revision="1" />
+    <Item value="リムーバブル" revision="1" />
+    <Item value="固定" revision="1" />
+    <Item value="リモート" revision="1" />
+    <Item value="CDROM" revision="1" />
+    <Item value="RAMDISK" revision="1" />
+  </Enumeration>
+  <Enumeration key="VolumeCapabilities">
+    <Item value="大文字と小文字を区別しない" revision="1" />
+    <Item value="大文字と小文字を区別した検索" revision="1" />
+    <Item value="ファイル圧縮" revision="1" />
+    <Item value="名前付きストリーム" revision="1" />
+    <Item value="ファイルとディレクトリのセキュリティ" revision="1" />
+    <Item value="読み取り専用" revision="1" />
+    <Item value="単一シーケンシャル書き込み" revision="1" />
+    <Item value="ファイルとディレクトリの暗号化" revision="1" />
+    <Item value="オブジェクトの識別子" revision="1" />
+    <Item value="再解析ポイント" revision="1" />
+    <Item value="スパース ファイル" revision="1" />
+    <Item value="トランザクション" revision="1" />
+    <Item value="Unicode" revision="1" />
+    <Item value="圧縮されたボリューム" revision="1" />
+    <Item value="クォータ" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="文字列" revision="1" />
+    <Item value="UNICODE 文字列" revision="1" />
+    <Item value="16進数" revision="1" />
+    <Item value="10進数" revision="1" />
+    <Item value="8進数" revision="1" />
+    <Item value="2進数" revision="1" />
+    <Item value="単精度浮動小数点" revision="1" />
+    <Item value="倍精度浮動小数点" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item value="バイト" revision="1" />
+    <Item value="WORD" revision="1" />
+    <Item value="DWORD" revision="1" />
+    <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowsDlgColumns">
+    <Item value="名前" revision="1" />
+    <Item value="パス" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNew">
+    <Item value="新規ファイル(&amp;N)" revision="1" />
+    <Item value="新しい空のファイルを作成" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item value="ファイルを開く(&amp;O)…" revision="1" />
+    <Item value="既存のファイルを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item value="保存(&amp;S)" revision="1" />
+    <Item value="アクティブなドキュメントを保存" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item value="名前を付けて保存(&amp;A)…" revision="1" />
+    <Item value="アクティブなドキュメントを新しい名前で保存" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item value="閉じる(&amp;C)" revision="1" />
+    <Item value="アクティブなドキュメントを閉じる" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileCloseAll">
+    <Item value="すべて閉じる(&amp;E)" revision="2" />
+    <Item value="開いているドキュメントをすべて閉じる" revision="2" />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item value="終了(&amp;X)" revision="1" />
+    <Item value="アプリケーションを終了する" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item value="取り消し(&amp;U)" revision="1" />
+    <Item value="最後の操作を元に戻す" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item value="やり直し(&amp;R)" revision="1" />
+    <Item value="以前に取り消した操作をやり直す" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item value="切り取り(&amp;T)" revision="1" />
+    <Item value="選択範囲を切り取ってクリップボードへ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="コピー(&amp;C)" revision="1" />
+    <Item value="選択範囲をコピーしてクリップボードへ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCutMerged">
+    <Item value="結合と切り取り(&amp;E)" revision="1" />
+    <Item value="選択範囲を切り取り、各ブロックを結合して、結果をクリップボードへ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditCopyMerged">
+    <Item value="結合とコピー(&amp;M)" revision="1" />
+    <Item value="選択範囲をコピーし、各ブロックを結合して、結果をクリップボードへ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item value="貼り付け(&amp;P)" revision="1" />
+    <Item value="クリップボードの内容を貼り付け" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item value="設定のインポート(&amp;I)…" revision="1" />
+    <Item value="ツール ウィンドウ設定のインポート" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item value="設定のエクスポート(&amp;E)…" revision="1" />
+    <Item value="ツール ウィンドウ設定のエクスポート" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item value="設定をリセット(&amp;R)" revision="1" />
+    <Item value="ツール ウィンドウ設定のリセット" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item value="定義済みのレイアウト" revision="1" />
+    <Item value="定義済みのレイアウト" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsUpgrade">
+    <Item value="アップグレード(&amp;U)…" revision="1" />
+    <Item value="Hex Editor Neo を別のエディションにアップグレード" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item value="設定(&amp;S)…" revision="1" />
+    <Item value="プログラム設定の管理" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNew">
+    <Item value="新規ウィンドウ(&amp;I)" revision="1" />
+    <Item value="アクティブなドキュメントを別のウィンドウで開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item value="前面へ(&amp;P)" revision="1" />
+    <Item value="前面のウィンドウに切り替える" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item value="次へ(&amp;N)" revision="1" />
+    <Item value="次のウィンドウに切り替える" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item value="ウィンドウを閉じる" revision="1" />
+    <Item value="アクティブなウィンドウを閉じる" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item value="次のペイン(&amp;N)" revision="1" />
+    <Item value="次のツール ウィンドウ" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item value="前のペイン" revision="1" />
+    <Item value="前のツール ウィンドウ" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item value="新しい水平フレーム(&amp;H)" revision="1" />
+    <Item value="新しい水平フレーム" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item value="新しい垂直フレーム(&amp;V)" revision="1" />
+    <Item value="新しい垂直フレーム" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item value="キャンセル(&amp;C)" revision="1" />
+    <Item value="キャンセル" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowSplit">
+    <Item value="分割(&amp;S)" revision="1" />
+    <Item value="アクティブなウィンドウをペインに分割" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowOpenContainingFolder">
+    <Item value="含まれているフォルダを開く(&amp;F)" revision="1" />
+    <Item value="Windows エクスプローラーを起動し、選択したファイルに移動します" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowCopyFullPath">
+    <Item value="フルパスをコピー(&amp;C)" revision="1" />
+    <Item value="ファイルへのフルパスをクリップボードにコピー" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item value="ウィンドウ(&amp;W)…" revision="1" />
+    <Item value="開いているすべてのドキュメント ウィンドウのリストを表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item value="ヘルプの内容(&amp;C)" revision="1" />
+    <Item value="ヘルプファイルの内容を表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpIndex">
+    <Item value="ヘルプのインデックス(&amp;I)" revision="1" />
+    <Item value="ヘルプファイルのインデックスを表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpSearch">
+    <Item value="ヘルプの検索(&amp;S)" revision="1" />
+    <Item value="ヘルプ ファイルの検索ペインを表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item value="フィードバック(&amp;F)…" revision="1" />
+    <Item value="製品の使用状況に関するフィードバックを送信" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item value="キーボードマップ(&amp;K)" revision="1" />
+    <Item value="キーボードマップの表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item value="バージョン情報(&amp;A)" revision="1" />
+    <Item value="この製品に関する情報を表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenVolume">
+    <Item value="ボリュームを開く(&amp;V)…" revision="1" />
+    <Item value="ボリューム (論理ディスク) を開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDisk">
+    <Item value="物理ディスクを開く(&amp;H)…" revision="1" />
+    <Item value="物理ディスクを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenDevice">
+    <Item value="デバイスを開く(&amp;D)…" revision="1" />
+    <Item value="ユーザーが指定したパスを使用してデバイスを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item value="すべて保存(&amp;L)" revision="1" />
+    <Item value="変更したすべてのドキュメントを保存" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePrint">
+    <Item value="印刷(&amp;P)…" revision="1" />
+    <Item value="現在のドキュメントを印刷" revision="1" />
+  </Enumeration>
+  <Enumeration key="FilePageSetup">
+    <Item value="ページ設定(&amp;G)…" revision="1" />
+    <Item value="ページ設定ダイアログを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item value="削除(&amp;D)" revision="1" />
+    <Item value="選択範囲を削除" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewToggleFullScreen">
+    <Item value="ツール ウィンドウの切り替え(&amp;T)" revision="1" />
+    <Item value="すべてのツール ウィンドウを表示/非表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item value="ライセンスの管理(&amp;L)…" revision="1" />
+    <Item value="ライセンスの管理ダイアログを表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item value="ドッキング可能なツール ウィンドウ" revision="1" />
+    <Item value="ドッキング可能なツール ウィンドウ" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item value="タブ付きドキュメント" revision="1" />
+    <Item value="タブ付きドキュメント" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewQuickUITweak">
+    <Item value="UI のクイック調整…" revision="1" />
+    <Item value="初期 UI 設定ウィンドウを表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenNonLocked">
+    <Item value="共有ファイルを開く…" revision="1" />
+    <Item value="ファイルを共有モードで開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditionList">
+    <Item value="製品状態不明" revision="2" />
+    <Item value="無料版" revision="2" />
+    <Item value="試用期間の開始" revision="2" />
+    <Item value="無料版" revision="2" />
+    <Item value="スタンダード エディション" revision="2" />
+    <Item value="プロフェッショナル エディション" revision="2" />
+    <Item value="アルティメット エディション" revision="2" />
+  </Enumeration>
+  <Enumeration key="HelpCheck">
+    <Item value="更新の確認…" revision="1" />
+    <Item value="製品またはそのコンポーネントの新しいバージョンが利用可能かどうかを確認" revision="1" />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item value="コンポーネント" revision="0" />
+    <Item value="現在のバージョン" revision="0" />
+    <Item value="更新バージョン" revision="0" />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item value="更新の確認" revision="1" />
+    <Item value="起動時" revision="1" />
+    <Item value="毎週" revision="1" />
+    <Item value="確認しない" revision="1" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="カラーテーマのモード (再起動が必要)" revision="0" />
+    <Item value="システム設定を使用する" revision="0" />
+    <Item value="常にライトテーマを使用する" revision="0" />
+    <Item value="常にダークテーマを使用する" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item value="他の言語…" revision="0" />
+    <Item value="他の言語をオンラインで確認" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item value="オンライン言語リポジトリ" revision="0" />
+    <Item value="Hex Editor Neo 用の言語パックの作成に参加" revision="0" />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item value="言語の変更" revision="0" />
+    <Item value="この言語パックはオープン ソース コミュニティによって作成されました。 この翻訳の品質については一切の責任を負いません。\r\n\r\n翻訳に間違いを見つけた場合は、チケットを送信するか、自分で修正することができます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item value="オンラインで利用できる言語パック" revision="0" />
+    <Item value="{language name} の Hex Editor Neo 言語パックはオンラインで入手できます。 この言語パックをダウンロードして使用しますか?" revision="0" />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item value="レジストリ" revision="0" />
+    <Item value="ユーザーごとの既定の保存場所。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item value="ポータブル モード" revision="0" />
+    <Item value="アプリケーションの設定をスタートアップフォルダーのportable.hexset7ファイルに保存します。" revision="0" />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item value="外部ファイル :" revision="0" />
+    <Item value="アプリケーション設定を外部ファイルに保存します。 デバイス間で設定を共有するには、共有場所 (OneDrive や Dropbox 共有フォルダーなど) を指定します。" revision="0" />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item value="新しいベータ版が利用可能になりました" revision="1" />
+    <Item value="お使いの製品のバージョンに合わせてダウンロードできる新しいベータ版があります。" revision="1" />
+    <Item value="更新されたコンポーネントのリストを参照してダウンロードしますか?" revision="1" />
+    <Item value="このプロンプトは、一意のオンライン コンポーネントのセットごとに 1 回だけ表示されます。" revision="1" />
+    <Item value="新しいベータ版をチェックしない" revision="1" />
+  </Enumeration>
+  <Enumeration key="CompatActive">
+    <Item value="互換性設定が検出されました!" revision="0" />
+    <Item value="オペレーティング システムは Hex Editor Neo の互換性設定を適用しています。 これらの設定が有効な場合、アプリケーションが正しく動作しない可能性があります。 さらに、互換性設定で実行すると、パフォーマンスと表示品質に影響を与える可能性があります。\r\n\n今行うことを選択してください :" revision="0" />
+  </Enumeration>
+  <Enumeration key="CompatActiveActions">
+    <Item value="実行を継続" revision="0" />
+    <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
+  </Enumeration>
+</Language>

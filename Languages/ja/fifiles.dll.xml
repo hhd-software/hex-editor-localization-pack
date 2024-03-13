@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Opening too many documents…" value="開くドキュメントが多すぎると、パフォーマンスが非常に低下する可能性があります。 したがって、現在の操作を継続することはお勧めできません。 操作をキャンセルしますか?" revision="1" />
+  <Message key="Warning" value="警告" revision="1" />
+  <Message key="Error" value="エラー" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} 発生)" revision="1" />
+  <Message key="Error {error_code} ({text_message}) {mode} {path}." value="エラー {error_code} ({text_message}) {mode} {path}." revision="1" />
+  <Message key="Invalid folder or mask syntax." value="フォルダーまたはマスクの構文が無効です。" revision="1" />
+  <Message key="Invalid folder list syntax." value="フォルダー リストの構文が無効です。" revision="1" />
+  <Message key="Find All" value="すべて検索" revision="1" />
+  <Message key="Replace All" value="すべて置き換え" revision="1" />
+  <Message key="Notifications" value="通知" revision="1" />
+  <Message key="Find in Files" value="ファイル内検索" revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="現在の操作をキャンセルしますか?" revision="1" />
+  <Message key="Operation cancelled." value="操作がキャンセルされました。" revision="1" />
+  <Message key="Replace with:" value="置き換え :" revision="1" />
+  <Message key="Progress message" value="{percent} % 完了。 {processed_files} of {total_files}{unfinished?}(…){?unfinished} files in {total_folders} folders have been checked. {matched} matched file(s) found. {processed_size} of {total_size} processed." revision="1" />
+  <Message key="ReplaceNotification" value="ファイル内置き換え" revision="1" />
+  <Message key="TextFilesFilterString" value="テキストファイル|*.txt|" revision="0" />
+  <Message key="Exporting" value="エクスポート中" revision="0" />
+  <Message key="Search in:" value="検索先 :" revision="1" />
+  <Message key="File types:" value="ファイル種類 :" revision="1" />
+  <Message key="Mode:" value="モード :" revision="1" />
+  <Message key="Include sub-folders" value="サブディレクトリを含める" revision="1" />
+  <Message key="Ignore case" value="大文字/小文字を無視" revision="1" />
+  <Message key="Display errors" value="エラーを表示" revision="1" />
+  <Message key="Include streams" value="ストリームを含める" revision="1" />
+  <Message key="Find and replace mode" value="検索と置換のモード" revision="1" />
+  <Message key="Find in Files Folder List" value="ファイルフォルダーリストから検索" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="フォルダーへのパスを入力するか、参照ボタンを押します :" revision="1" />
+  <Message key="Move Up" value="上へ(&amp;U)" revision="1" />
+  <Message key="Move Down" value="下へ(&amp;D)" revision="1" />
+  <Message key="Folder list:" value="フォルダー リスト :" revision="1" />
+  <Message key="All opened documents" value="開いているすべてのドキュメント" revision="0" />
+  <Message key="toolbar.FindInFiles" value="ファイル内検索" revision="0" />
+  <Enumeration key="opening/saving">
+    <Item value="読み込み中" revision="1" />
+    <Item value="保存中" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find modes">
+    <Item value="少なくとも 1 つの出現箇所を見つける" revision="1" />
+    <Item value="すべての出現箇所を検索します (遅い)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace modes">
+    <Item value="すべての出現箇所を置換して保存" revision="1" />
+    <Item value="すべての出現箇所を置き換えて開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="Find in files task">
+    <Item value="ファイル内検索" revision="1" />
+    <Item value="ファイル内検索/ファイル内置換モジュールの開始" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuFIF">
+    <Item value="ファイル内検索(&amp;F)" revision="0" />
+    <Item value="ファイル内検索 メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFiles feature">
+    <Item value="ファイル内検索" revision="1" />
+    <Item value="ファイル内検索機能を使用すると、単一または複数のフォルダー内で指定したパターンを含むファイルをすばやく検索できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceInFiles feature">
+    <Item value="ファイル内置き換え" revision="1" />
+    <Item value="ファイル内置き換え機能を使用すると、単一または複数のフォルダ内のファイル内で出現するパターンをすべて検索し、別のパターンで置換 (または削除) できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Replace all and save options">
+    <Item value="「常にバックアップを作成する」オプションを有効にして続行します。" revision="1" />
+    <Item value="「すべての出現を置換して開く」モードに切り替えて続行します。" revision="1" />
+    <Item value="このモードで続行します (推奨されません)" revision="1" />
+    <Item value="キャンセル" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReplaceAllAndSaveWarning">
+    <Item value="ファイル内置き換え" revision="1" />
+    <Item value="「常にバックアップを作成する」オプションをオフにしてこのモードで「ファイルで置換」機能を実行すると、データの置換中にバックアップ コピーが作成されないため、データが失われる可能性があります。 [常にバックアップを作成する] オプションをオンにすることをお勧めします。\r\n\r\n以下のアクションを選択してください :" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindInFiles">
+    <Item value="ファイル内検索(&amp;D)…" revision="0" />
+    <Item value="複数のファイル内のパターンを検索 (および必要に応じて置換) します。" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindInFilesStop">
+    <Item value="検索を停止" revision="1" />
+    <Item value="現在の操作を中止します" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGotoLocation">
+    <Item value="ファイルを開く" revision="1" />
+    <Item value="選択したファイルをエディタで開きます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditClearAll">
+    <Item value="すべて消去(&amp;C)" revision="0" />
+    <Item value="ウィンドウの内容を消去します" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesBackgroundMode">
+    <Item value="バックグラウンド モード" revision="0" />
+    <Item value="バックグラウンド モードの切り替え (システム リソースの使用量を削減)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindInFilesExport">
+    <Item value="結果をエクスポート…" revision="0" />
+    <Item value="見つかったファイルのリストをエクスポート" revision="0" />
+  </Enumeration>
+</Language>

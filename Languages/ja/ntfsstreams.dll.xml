@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="StreamInProgress" value="現在のストリーム操作が完了するかキャンセルされるまで、アプリケーションを閉じることはできません。" revision="0" />
+  <Message key="NTFS Streams" value="NTFS ストリーム" revision="0" />
+  <Message key="OpenOnCreate" value="作成後にストリームを開く" revision="0" />
+  <Message key="Invalid folder or mask syntax." value="フォルダーまたはマスクの構文が無効です。" revision="0" />
+  <Message key="Invalid folder list syntax." value="フォルダー リストの構文が無効です。" revision="0" />
+  <Message key="Exclude pattern is an invalid regular expression." value="除外パターンは無効な正規表現です。" revision="0" />
+  <Message key="InvalidStreamName" value="ストリーム名が無効です。 名前には次の文字を含めることはできません : / \ : ? * &quot; &lt; &gt; |" revision="0" />
+  <Message key="NTFS St&amp;reams" value="NTFS ストリーム(&amp;R)" revision="0" />
+  <Message key="CreateError" value="ストリーム作成エラー : {text} ({code})" revision="0" />
+  <Message key="CreateErrors" value="ストリーム作成中に次のエラーが発生しました :\r\n{errors}" revision="0" />
+  <Message key="AskDelete" value="操作を元に戻すことはできません。 選択したストリームの削除を続行してもよろしいですか?" revision="0" />
+  <Message key="DeleteError" value="ストリームの削除中にエラーが発生しました : {text} ({code})" revision="0" />
+  <Message key="DeleteErrors" value="ストリームの削除中に次のエラーが発生しました :\r\n{errors}" revision="0" />
+  <Message key="OpenErrors" value="ストリームを開くときに次のエラーが発生しました :\r\n{errors}" revision="0" />
+  <Message key="StreamOpened" value="このストリームは現在エディターで開かれています。 要求された操作を実行するためにそれを閉じますか?" revision="0" />
+  <Message key="RenameError" value="ストリームの名前変更中にエラーが発生しました : {text} ({code})" revision="0" />
+  <Message key="RenameErrors" value="ストリームの名前変更中に次のエラーが発生しました :\r\n{errors}" revision="0" />
+  <Message key="SearchString" value="{finished?}検索が終了しました。{|finished}ストリームを検索しています…{?finished} {found} 個のストリームが見つかりました ({files} フォルダ内の {folders} 個のファイルがチェックされました)." revision="0" />
+  <Message key="StreamSize" value="合計 : {size}" revision="1" />
+  <Message key="RenameOperation" value="ストリームの名前変更" revision="0" />
+  <Message key="Find Streams Folder List" value="ストリームフォルダーリストの検索" revision="0" />
+  <Message key="Enter the path to the folder or press the browse button:" value="フォルダーへのパスを入力するか、参照ボタンを押します :" revision="0" />
+  <Message key="Folder list:" value="フォルダー リスト :" revision="0" />
+  <Message key="Move &amp;Up" value="上へ(&amp;U)" revision="0" />
+  <Message key="Move &amp;Down" value="下へ(&amp;D)" revision="0" />
+  <Message key="File Stream Name" value="ファイル ストリーム名" revision="0" />
+  <Message key="Enter the stream name:" value="ストリーム名の入力 :" revision="0" />
+  <Message key="Find Streams" value="ストリームの検索" revision="0" />
+  <Message key="Search in:" value="検索場所 :" revision="0" />
+  <Message key="File types:" value="ファイルの種類 :" revision="0" />
+  <Message key="Larger than:" value="以上 :" revision="0" />
+  <Message key="Exclude:" value="除外 :" revision="0" />
+  <Message key="(regular expression)" value="(正規表現)" revision="0" />
+  <Message key="Include sub-folders" value="サブディレクトリを含める" revision="0" />
+  <Message key="toolbar.NTFS Streams" value="NTFS ストリーム" revision="0" />
+  <Enumeration key="StreamCreate">
+    <Item value="ストリームの作成(&amp;C)…" revision="0" />
+    <Item value="新しいファイルストリームを作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamOpen">
+    <Item value="ストリームを開く(&amp;O)" revision="0" />
+    <Item value="エディタでファイル ストリームを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamDelete">
+    <Item value="ストリームを削除(&amp;D)…" revision="0" />
+    <Item value="ファイルストリームを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamRename">
+    <Item value="ストリームの名前を変更(&amp;R)…" revision="0" />
+    <Item value="ストリームの名前を変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamCancel">
+    <Item value="現在の操作をキャンセル(&amp;A)" revision="0" />
+    <Item value="現在のストリーム操作をキャンセル" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamUp">
+    <Item value="親ファイルを開く(&amp;P)" revision="1" />
+    <Item value="親ファイル、つまり選択したストリームを含むファイルを開きます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="StreamLocate">
+    <Item value="ストリームの検索…" revision="0" />
+    <Item value="選択した場所にある代替データ ストリームを持つすべてのファイルを検索。" revision="0" />
+  </Enumeration>
+  <Enumeration key="StreamExitLocate">
+    <Item value="ストリーム検索モードを終了(&amp;M)" revision="0" />
+    <Item value="ストリーム検索モードを終了" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnNames">
+    <Item value="ストリーム名" revision="0" />
+    <Item value="サイズ" revision="0" />
+  </Enumeration>
+  <Enumeration key="SearchColumnNames">
+    <Item value="ファイル" revision="0" />
+    <Item value="ストリーム" revision="0" />
+    <Item value="サイズ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuStreams">
+    <Item value="NTFS ストリーム(&amp;R)" revision="0" />
+    <Item value="NTFS ストリーム メニュー(&amp;R)" revision="0" />
+  </Enumeration>
+  <Enumeration key="FindStreamsTask">
+    <Item value="ストリームの検索" revision="0" />
+    <Item value="ストリーム検索モジュールの開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="SizeSuffix">
+    <Item value="バイト" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureNTFSStreams">
+    <Item value="NTFS ストリーム" revision="0" />
+    <Item value="NTFS ストリーム機能を使用すると、新しい名前付きストリームの作成、ストリームの名前変更、削除が可能になります。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Errors">
+    <Item value="ストリームはありません。 最初にファイルを保存する必要があります。" revision="0" />
+    <Item value="これはストリームです。 ネストされたストリームはファイル システムではサポートされていません。" revision="0" />
+    <Item value="ストリームが見つかりません。" revision="0" />
+    <Item value="ストリームはファイル システムではサポートされていません。" revision="0" />
+    <Item value="ストリームの検索中にエラーが発生しました。" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureFindStreams">
+    <Item value="ストリームの検索" revision="0" />
+    <Item value="ストリームの検索機能を使用すると、ディスク上の名前付きストリームを持つファイルを検索できます。" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingGoToDefinition">
+    <Item value="定義に移動" revision="0" />
+    <Item value="識別子の定義を開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingPeekDefinition">
+    <Item value="ピークの定義" revision="0" />
+    <Item value="ピーク識別子の定義" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFindAllReferences">
+    <Item value="すべての参照を検索" revision="0" />
+    <Item value="識別子のすべての参照を検索します" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingGoToSymbol">
+    <Item value="シンボルに移動…" revision="0" />
+    <Item value="シンボル定義に移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingChangeAllOccurrences">
+    <Item value="すべての出現回数の変更" revision="0" />
+    <Item value="シンボルの出現回数をすべて変更する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingFormatDocument">
+    <Item value="ドキュメントのフォーマット" revision="0" />
+    <Item value="ドキュメント全体をフォーマットする" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptingCommandPalette">
+    <Item value="コマンド パレット" revision="0" />
+    <Item value="エディタのコマンド パレットを開く" revision="0" />
+  </Enumeration>
+</Language>

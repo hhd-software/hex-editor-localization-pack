@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportPromt" value="ファイルのコピー中" revision="0" />
+  <Message key="Volume Errors" value="ボリューム エラー" revision="0" />
+  <Message key="CantParse" value="属性解析エラー" revision="0" />
+  <Message key="SequenceNumberError" value="ファイル レコードの更新シーケンス番号エラー : {number}" revision="0" />
+  <Message key="InvalidFileRecord" value="無効なファイルレコード : {record}" revision="0" />
+  <Message key="UnknownAttribute" value="不明な属性タイプ : {type}" revision="0" />
+  <Message key="MagicMismatch" value="インデックス ブロックの解析エラー : マジックの不一致" revision="0" />
+  <Message key="IndexSNError" value="インデックス ブロック シーケンス番号の解析エラー" revision="0" />
+  <Message key="NoFilenameStream" value="インデックス エントリにファイル名ストリームがありません : {record}" revision="0" />
+  <Message key="ClusterOutOfBounds" value="クラスターがデータ実行境界を超えています" revision="0" />
+  <Message key="DataRunLengthError" value="データランレングス エラー: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="データランデコード エラー : サイズ = {size}, オフセット = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="データ実行デコード エラー : VCN が制限を超えています" revision="0" />
+  <Message key="DataRunLCN" value="データ実行のデコード中にエラーが発生しました : LCN &lt; 0" revision="0" />
+  <Message key="FileNotParsed" value="不明なファイルエントリ" revision="0" />
+  <Message key="FilenameAttributeError" value="レコードのファイル属性の解析中にエラーが発生しました {record}" revision="0" />
+  <Message key="CopyFileError" value="ファイルのコピー中にエラーが発生しました &quot;{filename}&quot;" revision="0" />
+  <Message key="NotImplementedFileError" value="スパース ファイル、圧縮ファイル、または暗号化ファイルのコピーはまだ実装されていません : &quot;{filename}&quot;" revision="0" />
+  <Message key="WriteFileError" value="ファイルの書き込みエラー : &quot;{filename}&quot;" revision="0" />
+  <Message key="DiskFull" value="ターゲット ディスクに &quot;{filename}&quot; をコピーするのに十分なスペースがありません。 このファイルをコピーするには、少なくとも {filesize} の空き領域が必要です。" revision="0" />
+  <Message key="CopyWarning" value="ファイル &quot;{filename}&quot; はすでに存在します。 上書きしますか、それともスキップしますか?" revision="0" />
+  <Message key="CreateFileError" value="{error} ファイル : {filename}" revision="0" />
+  <Message key="ParseVolumeWarning" value="このファイル システムは ボリューム ナビゲーター でまだサポートされていません" revision="0" />
+  <Message key="VolumeNavigator" value="ボリューム ナビゲーター" revision="0" />
+  <Message key="CopyStats" value="{files} ファイルがコピーされました。\r\n{folders} フォルダーがコピーされました。\r\n{bytes} バイトがコピーされました。\r\n{failed} 失敗したファイル。\r\n{skipped} スキップされたファイル。" revision="0" />
+  <Message key="Copy Files Report" value="ファイルコピーのレポート" revision="0" />
+  <Message key="Overwrite Warning" value="上書き警告" revision="0" />
+  <Message key="&amp;Do this for all conflicts" value="すべての競合に対してこれを行う(&amp;D)" revision="0" />
+  <Message key="&amp;Overwrite" value="上書き(&amp;O)" revision="0" />
+  <Message key="&amp;Skip" value="スキップ(&amp;S)" revision="0" />
+  <Message key="OverwriteWarning" value="スキーム &quot;{schemename}&quot; はすでに存在します。 上書きしますか?" revision="0" />
+  <Message key="UnsavedWarning" value="現在のスキームは保存されていません。 今すぐ保存しますか?" revision="0" />
+  <Message key="DeleteWarning" value="現在のスキームは削除されます。" revision="0" />
+  <Message key="CustomFilesFilter" value="カスタム ボリューム パーサー|*.h|" revision="0" />
+  <Message key="CSFileNameEmpty" value="ファイル名が指定されていませんでした。" revision="0" />
+  <Message key="CSRootEmpty" value="ルート構造が指定されていません。" revision="0" />
+  <Message key="CSCheckStructEmpty" value="チェック構造が指定されていません。" revision="0" />
+  <Message key="CSCheckAddressError" value="チェックアドレスは数字である必要があります。" revision="1" />
+  <Message key="CSSchemeNameEmpty" value="スキーム名が指定されていませんでした。" revision="0" />
+  <Message key="CSFileNotFound" value="構造ファイル &quot;{filename}&quot; が見つかりません。" revision="0" />
+  <Message key="CSRootNotFound" value="ルート構造 {name} が見つかりません。" revision="0" />
+  <Message key="CSBindVolumeError" value="ボリュームの解析中にエラーが発生しました。 スキーム &quot;{name}&quot;, エラー : {error}" revision="0" />
+  <Message key="UnknownPartition" value="パーティション[{index}]" revision="0" />
+  <Message key="LDMParseErrorHeader" value="無効な PrivHead ヘッダーです。" revision="0" />
+  <Message key="LDMParseErrorTocHeader" value="無効な TocBlock ヘッダーです。" revision="0" />
+  <Message key="LDMParseErrorVmdbHeader" value="無効な Vmdb ヘッダーです。" revision="0" />
+  <Message key="LDMParseErrorVblkSize" value="Vblk のサイズはセクター サイズの倍数ではありません。" revision="0" />
+  <Message key="OpenVolumeWarning" value="選択したボリュームを開けません" revision="0" />
+  <Message key="GPTParseErrorHeader" value="無効な GUID パーティション テーブル ヘッダーです。" revision="0" />
+  <Message key="Custom Volume Editor" value="カスタム ボリューム エディター" revision="0" />
+  <Message key="File:" value="ファイル :" revision="0" />
+  <Message key="Checking structure:" value="構造体の確認中 :" revision="0" />
+  <Message key="Checking address:" value="アドレスの確認中 :" revision="0" />
+  <Message key="Root structure:" value="ルート構造体 :" revision="0" />
+  <Message key="Directory entry structure:" value="ディレクトリエントリ構造体 :" revision="0" />
+  <Message key="File entry structure:" value="ファイルエントリ構造体 :" revision="0" />
+  <Message key="toolbar.VolumeNavigator" value="ボリューム ナビゲーター" revision="0" />
+  <Enumeration key="SizeSuffix">
+    <Item value="バイト" revision="0" />
+    <Item value="KB" revision="0" />
+    <Item value="MB" revision="0" />
+    <Item value="GB" revision="0" />
+  </Enumeration>
+  <Enumeration key="VNColumns">
+    <Item value="名前" revision="0" />
+    <Item value="サイズ" revision="0" />
+    <Item value="属性" revision="0" />
+    <Item value="作成日時" revision="0" />
+    <Item value="更新日時" revision="0" />
+    <Item value="最終アクセス日時" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyTo">
+    <Item value="コピー先(&amp;C)…" revision="0" />
+    <Item value="ファイルまたはディレクトリの内容を選択した宛先にコピーします" revision="0" />
+  </Enumeration>
+  <Enumeration key="CopyVolume">
+    <Item value="ボリュームのコピー(&amp;V)…" revision="0" />
+    <Item value="すべてのボリュームの内容 (ファイルとディレクトリ) を選択した宛先にコピーします" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAllFileData">
+    <Item value="すべてのストリーム データを選択(&amp;S)" revision="0" />
+    <Item value="ストリーム データを保存するすべてのクラスターを選択します" revision="0" />
+  </Enumeration>
+  <Enumeration key="OpenInHexEdior">
+    <Item value="エディタでファイルを開く(&amp;O)" revision="0" />
+    <Item value="Hex Editor Neo でファイルを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShowInFolder">
+    <Item value="含まれているフォルダを開く(&amp;F)" revision="0" />
+    <Item value="エントリが含まれているフォルダを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="LevelUp">
+    <Item value="親へ移動(&amp;U)" revision="0" />
+    <Item value="親へ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="UpdateFilesList">
+    <Item value="現在のビューを更新(&amp;V)" revision="0" />
+    <Item value="現在のディレクトリを更新する" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCustomVolume">
+    <Item value="カスタムボリュームの編集(&amp;V)" revision="0" />
+    <Item value="カスタムボリューム編集ダイアログを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputColumns">
+    <Item value="ボリューム" revision="0" />
+    <Item value="エラー" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDiskEditor">
+    <Item value="ボリューム ナビゲーター" revision="1" />
+    <Item value="ボリューム ナビゲーター は、ボリュームのファイル システム構造をスキャンして表示し、ファイルの場所を見つけて、破損したファイルやフォルダを回復するのに役立ちます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Partitions">
+    <Item value="不明" revision="0" />
+    <Item value="FAT12" revision="0" />
+    <Item value="未割り当て" revision="0" />
+    <Item value="FAT16" revision="0" />
+    <Item value="FAT32" revision="0" />
+    <Item value="NTFS/exFAT" revision="0" />
+    <Item value="Linux" revision="0" />
+    <Item value="LSWAP" revision="0" />
+    <Item value="GPT" revision="0" />
+  </Enumeration>
+</Language>

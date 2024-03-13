@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Downloader" value="ダウンローダー" revision="1" />
+  <Message key="ForegroundDownloading" value="フォアグラウンド ダウンロード" revision="1" />
+  <Message key="ProgressString" value="{percent} % 完了" revision="1" />
+  <Message key="Unknown" value="不明" revision="1" />
+  <Message key="PleaseWait" value="お待ちください…" revision="0" />
+  <Message key="This will restart all current download tasks. Do you want to continue?" value="これにより、現在のダウンロード タスクがすべて再開されます。 続行しますか？" revision="1" />
+  <Message key="Do you want to cancel all active download tasks?" value="アクティブなダウンロード タスクをすべてキャンセルしますか?" revision="1" />
+  <Message key="Proxy Page" value="プロキシ" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="「更新の確認」で使用するプロキシ設定を選択 :" revision="0" />
+  <Message key="Autodetect proxy settings" value="プロキシ設定の自動検出" revision="0" />
+  <Message key="Do not use proxy" value="プロキシを使用しない" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="次のプロキシ (HTTP) を使用 :" revision="0" />
+  <Message key="Settings" value="設定" revision="0" />
+  <Message key="Authentication" value="認証" revision="0" />
+  <Message key="Authentication is not required" value="認証は不要" revision="0" />
+  <Message key="Authenticate me as logged on user" value="ログオンユーザーとして認証" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="次の資格情報を使用して認証" revision="0" />
+  <Message key="User name:" value="ユーザー名 :" revision="0" />
+  <Message key="Password:" value="パスワード :" revision="0" />
+  <Message key="Re-type password:" value="パスワードの再入力 :" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Hex Editor Neo は、入力されたパスワードをユーザー アカウントのローカルに安全に保存します)" revision="0" />
+  <Message key="PasswordMismatch" value="入力したパスワードは一致する必要があります。" revision="0" />
+  <Message key="Downloader settings" value="プロキシの設定" revision="0" />
+  <Message key="toolbar.Downloader" value="ダウンローダー" revision="0" />
+  <Enumeration key="MenuDownloader">
+    <Item value="ダウンローダー(&amp;D)" revision="0" />
+    <Item value="ダウンローダー メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsCancelAll">
+    <Item value="すべてのダウンロードタスクをキャンセル(&amp;C)" revision="1" />
+    <Item value="すべてのダウンロードタスクをキャンセル" revision="1" />
+  </Enumeration>
+  <Enumeration key="ToolsForeground">
+    <Item value="フォアグラウンド ダウンロード(&amp;F)" revision="1" />
+    <Item value="利用可能なすべてのネットワーク帯域幅をダウンロード タスクに使用する" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloaderColumns">
+    <Item value="タスク" revision="1" />
+    <Item value="状況" revision="1" />
+    <Item value="サイズ" revision="1" />
+  </Enumeration>
+  <Enumeration key="DownloadStatus">
+    <Item value="キュー" revision="1" />
+    <Item value="接続中…" revision="1" />
+    <Item value="転送中…" revision="1" />
+    <Item value="一時停止中" revision="1" />
+    <Item value="エラー" revision="1" />
+    <Item value="エラー。 10 秒後に再試行します…" revision="1" />
+    <Item value="転送完了" revision="1" />
+    <Item value="承認済み" revision="1" />
+    <Item value="キャンセル" revision="1" />
+  </Enumeration>
+</Language>

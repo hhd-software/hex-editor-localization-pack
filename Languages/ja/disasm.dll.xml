@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General Purpose" value="一般" revision="0" />
+  <Message key="Function name" value="ファンクション名" revision="0" />
+  <Message key="Little endian" value="リトルエンディアン" revision="0" />
+  <Message key="Big endian" value="ビッグエンディアン" revision="0" />
+  <Message key="Headers" value="ヘッダ" revision="0" />
+  <Message key="InvalidAddress" value="無効なアドレス。 正しいアドレスを入力してください。" revision="0" />
+  <Message key="InvalidLength" value="無効な長さです。 有効な長さを入力してください。" revision="0" />
+  <Message key="Invalid file name." value="ファイル名が無効です。" revision="0" />
+  <Message key="OpenError" value="ファイルを開けません : &quot;{error}&quot;" revision="0" />
+  <Message key="Wrong file size" value="ファイルサイズが間違っています" revision="0" />
+  <Message key="WrongAddress" value="入力されたアドレスがドキュメントのサイズを超えています。 正しいアドレスを入力してください。" revision="0" />
+  <Message key="MaxSize" value="{is too big?}Hex Editor Neo は、 {max size}を超えるファイルを逆アセンブルできません。 {?is too big}{from} から {to}まで逆アセンブルを開始します。 (サイズ = {size}) 続行しますか?" revision="0" />
+  <Message key="Locked" value="このドキュメントは現在ロックされています。 後で操作をやり直してください。" revision="0" />
+  <Message key="FormatString" value="すべての実行可能|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|実行可能 (*.exe)|*.exe|Dynamic-link ライブラリ (*.dll)|*.dll|ActiveX ライブラリ (*.ocx)|*.ocx|ドライバ (*.sys)|*.sys|実行可能およびリンク可能な形式|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
+  <Message key="N/A" value="利用不可" revision="0" />
+  <Message key="- No section selected -" value="- セクションが選択されていません -" revision="0" />
+  <Message key="Can not retrieve file name" value="ファイル名を取得できません" revision="0" />
+  <Message key="CLR Execution Engine can not start" value="CLR 実行エンジンの開始エラー : {reason} (エラーコード : {code})" revision="1" />
+  <Message key="Incorrect file format" value="CLR からメタデータ インターフェイス {interface} を取得中にエラーが発生しました (エラーコード : {code}) この機能を使用するには、.NET {version} が必要です" revision="1" />
+  <Message key="Error parsing metadata" value="メタデータの解析エラー" revision="0" />
+  <Message key="Can not disassemble method" value="メソッドを逆アセンブルできません : {method}" revision="0" />
+  <Message key="Can not parse Exception Header" value="例外ヘッダーを解析できません" revision="0" />
+  <Message key="The document has been changed." value="ドキュメントが変更されました。" revision="0" />
+  <Message key="Refresh" value="更新" revision="0" />
+  <Message key="Go" value="移動" revision="0" />
+  <Message key="Go To:" value="移動先 :" revision="0" />
+  <Message key="Text" value="テキスト" revision="0" />
+  <Message key="Disassembler" value="逆アセンブラ" revision="0" />
+  <Message key="ShowImplicitOperands" value="暗黙的なオペランドを表示する" revision="0" />
+  <Message key="ShowPrefixes" value="プレフィックスを表示する" revision="0" />
+  <Message key="ShowDecimalValues" value="10 進数値を表示する" revision="0" />
+  <Message key="ShowBytecode" value="rawコードを表示" revision="0" />
+  <Message key="ParseSymbols" value="シンボルを解析する" revision="0" />
+  <Message key="IntelVisualization" value="AT&amp;T 構文を使用する" revision="0" />
+  <Message key="ShowVLines" value="グリッド線を表示する" revision="0" />
+  <Message key="ShowHardcodedOperands" value="&quot;ハードコードされた&quot;オペランドを表示する" revision="0" />
+  <Message key="DisasmError" value="ファイルを開くときにエラーが発生しました" revision="0" />
+  <Message key="DisasmError2" value="ファイルの逆アセンブル中にエラーが発生しました{has error?} : {error}{?has error}" revision="1" />
+  <Message key="OpName" value="コードを逆アセンブル" revision="0" />
+  <Message key="RefreshError" value="逆アセンブリのリフレッシュ中にエラーが発生しました。" revision="0" />
+  <Message key="RefreshErrorSize" value="ファイルサイズが変更されました。 逆アセンブリを更新できません。" revision="0" />
+  <Message key="Unable to write to a file." value="ファイルへのデータの書き込みエラー。" revision="0" />
+  <Message key="ClipboardError" value="データのコピー中にエラーが発生しました。" revision="0" />
+  <Message key="Searching" value="検索中" revision="0" />
+  <Message key="NotFound" value="パターンが見つかりませんでした" revision="0" />
+  <Message key="None" value="なし" revision="0" />
+  <Message key="Find what:" value="検索文字列 :" revision="0" />
+  <Message key="InAllColumns" value="--- すべての列で" revision="0" />
+  <Message key="Select" value="選択" revision="0" />
+  <Message key="Symbol Format:" value="シンボルの形式 :" revision="0" />
+  <Message key="Loaded Image Name:" value="読み込まれたイメージ名 :" revision="0" />
+  <Message key="Loaded Pdb Name:" value="読み込まれたPdb 名 :" revision="0" />
+  <Message key="Information matched:" value="一致した情報 :" revision="0" />
+  <Message key="Line numbers:" value="行番号 :" revision="0" />
+  <Message key="Global symbols:" value="グローバル シンボル :" revision="0" />
+  <Message key="Type information:" value="タイプ情報 :" revision="0" />
+  <Message key="Source indexing:" value="ソースのインデックス作成 :" revision="0" />
+  <Message key="Public symbols:" value="パブリック シンボル :" revision="0" />
+  <Message key="No symbol found." value="シンボルが見つかりませんでした。" revision="0" />
+  <Message key="Select Columns" value="列の選択" revision="0" />
+  <Message key="Select all" value="すべて選択" revision="0" />
+  <Message key="Export to:" value="エクスポート先 :" revision="0" />
+  <Message key="Export headers" value="ヘッダのエクスポート" revision="0" />
+  <Message key="File:" value="ファイル :" revision="0" />
+  <Message key="Instr. set:" value="Instr. set:" revision="0" />
+  <Message key="Section:" value="セクション :" revision="0" />
+  <Message key="Start:" value="開始 :" revision="0" />
+  <Message key="Size:" value="サイズ :" revision="0" />
+  <Message key="File size:" value="ファイル サイズ :" revision="0" />
+  <Message key="Dual view" value="デュアルビュー" revision="0" />
+  <Message key="Synchronize cursor with Hex View" value="カーソルを Hex View と同期する" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="選択を Hex View と同期する" revision="0" />
+  <Message key="Hexadecimal" value="16進数" revision="0" />
+  <Message key="Decimal" value="10進数" revision="0" />
+  <Message key="Symbols…" value="シンボル…" revision="0" />
+  <Message key="Mode:" value="モード :" revision="0" />
+  <Message key="Remember used settings" value="命令セットとモードを記憶する" revision="0" />
+  <Message key="Find Window" value="検索" revision="0" />
+  <Message key="Find" value="検索(&amp;F)" revision="0" />
+  <Message key="Find All" value="すべて検索(&amp;A)" revision="0" />
+  <Message key="Search in:" value="検索場所 :" revision="0" />
+  <Message key="Search up" value="上を検索" revision="0" />
+  <Message key="Search down" value="下を検索" revision="0" />
+  <Message key="Ignore case" value="大文字と小文字を無視する" revision="0" />
+  <Message key="Go To" value="移動" revision="0" />
+  <Message key="Raw address" value="Raw アドレス" revision="0" />
+  <Message key="Virtual address" value="仮想アドレス" revision="0" />
+  <Message key="Details" value="詳細" revision="0" />
+  <Message key="Data:" value="日時 :" revision="0" />
+  <Message key="Length:" value="長さ :" revision="0" />
+  <Message key="Lowercase" value="小文字" revision="0" />
+  <Message key="Show symbols" value="シンボルを表示" revision="0" />
+  <Message key="Symbols" value="シンボル" revision="0" />
+  <Message key="Source files:" value="ソース ファイル :" revision="0" />
+  <Message key="Module details:" value="モジュールの詳細 :" revision="0" />
+  <Message key="Address:" value="アドレス :" revision="0" />
+  <Message key="Name:" value="名前 :" revision="0" />
+  <Message key="Search" value="検索" revision="0" />
+  <Message key="Jump" value="ジャンプ" revision="0" />
+  <Message key="Custom" value="カスタム…" revision="0" />
+  <Message key="Custom Section" value="Custom Section" revision="0" />
+  <Message key="Physical address" value="物理アドレス :" revision="0" />
+  <Message key="Virtual size" value="仮想サイズ :" revision="0" />
+  <Message key="Pointer to raw data" value="rawデータへのポインタ :" revision="0" />
+  <Message key="Size of raw data" value="rawデータのサイズ :" revision="0" />
+  <Message key="Image base" value="イメージ ベース :" revision="0" />
+  <Message key="ExportOp" value="逆アセンブルされた命令をエクスポート中…" revision="0" />
+  <Message key="MsilWarning" value="MSIL インストール警告を表示する" revision="0" />
+  <Message key="DownloadNetButton" value=".NET 2.0 ランタイムのダウンロード" revision="0" />
+  <Message key="IncorrectInputTitle" value="間違った入力" revision="0" />
+  <Message key="IncorrectInputText" value="16 進数値である必要があります" revision="0" />
+  <Message key="OffsetFormatTip" value="16進数値" revision="0" />
+  <Message key="UserDefinedSection" value="ユーザー定義" revision="0" />
+  <Message key="MsilFeatureNotAvailable" value="マップされた MSIL モジュールの逆アセンブルは現在サポートされていません。 ファイルシステムからモジュールを逆アセンブルしてください。" revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="保存されていない MSIL モジュールの逆アセンブリは現在サポートされていません。 まずファイルを保存してください。" revision="0" />
+  <Message key="UnsavedCurrentFile" value="&lt;保存されていない現在のファイル&gt;" revision="0" />
+  <Enumeration key="DisasmRun">
+    <Item value="逆アセンブラを実行…" revision="0" />
+    <Item value="実行可能ファイルの逆アセンブル" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmExport">
+    <Item value="エクスポート…" revision="0" />
+    <Item value="逆アセンブルのエクスポート" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmDetails">
+    <Item value="詳細…" revision="0" />
+    <Item value="指示内容の表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSelectColumns">
+    <Item value="列の選択…" revision="0" />
+    <Item value="逆アセンブラ列の選択" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmShowSymbols">
+    <Item value="シンボル…" revision="0" />
+    <Item value="このドキュメントのシンボルを表示します。 選択したシンボルにジャンプします。" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmRefresh">
+    <Item value="更新" revision="0" />
+    <Item value="逆アセンブルを更新" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncCursor">
+    <Item value="カーソルを同期する" revision="0" />
+    <Item value="両方のビューでカーソルを同期する" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmSyncSelection">
+    <Item value="選択範囲を同期する" revision="0" />
+    <Item value="両方のビューで選択を同期する" revision="0" />
+  </Enumeration>
+  <Enumeration key="Flags">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Or" revision="0" />
+    <Item value="Not Carry" revision="0" />
+    <Item value="Not Zero" revision="0" />
+    <Item value="Not Overflow" revision="0" />
+    <Item value="Not Dir" revision="0" />
+    <Item value="Not Sign" revision="0" />
+    <Item value="Not Parity" revision="0" />
+    <Item value="SFEQOF" revision="0" />
+    <Item value="SFNEOF" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlagsX86">
+    <Item value="Carry" revision="0" />
+    <Item value="Zero/Equal" revision="0" />
+    <Item value="Overflow" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Negative" revision="0" />
+    <Item value="Parity" revision="0" />
+    <Item value="Nested Task" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Resume" revision="0" />
+    <Item value="Interrupt" revision="0" />
+    <Item value="Trap" revision="0" />
+    <Item value="Auxiliary Carry" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymTags">
+    <Item value="ファンクション" revision="0" />
+    <Item value="データ" revision="0" />
+    <Item value="パブリックシンボル" revision="0" />
+    <Item value="ユーザー定義タイプ" revision="0" />
+    <Item value="列挙" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColumnDialogCombo">
+    <Item value="クリップボード" revision="0" />
+    <Item value="ファイル" revision="0" />
+  </Enumeration>
+  <Enumeration key="PeColumns">
+    <Item value="フィールド" revision="0" />
+    <Item value="サイズ" revision="0" />
+    <Item value="値" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTypes">
+    <Item value="x86 (32-bit including FPO/MMX/SSE/SSE2/3DNow!)" revision="2" />
+    <Item value="x64" revision="2" />
+    <Item value="MSIL (.NET)" revision="2" />
+    <Item value="ARM (including Thumb, Thumb-2)" revision="2" />
+    <Item value="ARM-64 (AArch64)" revision="2" />
+    <Item value="MIPS" revision="2" />
+    <Item value="PowerPC" revision="2" />
+    <Item value="Sparc" revision="2" />
+    <Item value="SystemZ" revision="2" />
+    <Item value="XCore" revision="2" />
+    <Item value="68K" revision="2" />
+    <Item value="TMS320C64x" revision="2" />
+    <Item value="680X" revision="2" />
+    <Item value="MOS65XX (including MOS6502)" revision="2" />
+    <Item value="RISC-V" revision="2" />
+  </Enumeration>
+  <Enumeration key="Mos65XModes">
+    <Item value="MOS 6502" revision="0" />
+    <Item value="WDC 65c02" revision="0" />
+    <Item value="WDC W65c02" revision="0" />
+    <Item value="WDC 65816, 8-bit m/x" revision="0" />
+    <Item value="WDC 65816, 16-bit m, 8-bit x" revision="0" />
+    <Item value="WDC 65816, 8-bit m, 16-bit x" revision="0" />
+    <Item value="WDC 65816, m/x" revision="0" />
+  </Enumeration>
+  <Enumeration key="RiscvModes">
+    <Item value="RV32G" revision="0" />
+    <Item value="RV64G" revision="0" />
+    <Item value="圧縮された命令" revision="0" />
+  </Enumeration>
+  <Enumeration key="68kModes">
+    <Item value="M68K 68000" revision="0" />
+    <Item value="M68K 68010" revision="0" />
+    <Item value="M68K 68020" revision="0" />
+    <Item value="M68K 68030" revision="0" />
+    <Item value="M68K 68040" revision="0" />
+    <Item value="M68K 68060" revision="0" />
+  </Enumeration>
+  <Enumeration key="680kModes">
+    <Item value="M680X Hitachi 6301,6303" revision="0" />
+    <Item value="M680X Hitachi 6309" revision="0" />
+    <Item value="M680X Motorola 6800,6802" revision="0" />
+    <Item value="M680X Motorola 6801,6803" revision="0" />
+    <Item value="M680X Motorola/Freescale 6805" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC08" revision="0" />
+    <Item value="M680X Motorola 6809" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP 68HC11" revision="0" />
+    <Item value="M680X Motorola/Freescale/NXP CPU12" revision="0" />
+    <Item value="M680X Freescale/NXP HCS08" revision="0" />
+  </Enumeration>
+  <Enumeration key="PowerPcModes">
+    <Item value="64-bit" revision="0" />
+    <Item value="クアッドプロセッシング拡張機能" revision="0" />
+    <Item value="信号処理エンジン" revision="0" />
+    <Item value="Book-E" revision="0" />
+  </Enumeration>
+  <Enumeration key="SparcModes">
+    <Item value="Sparc V8" revision="0" />
+    <Item value="Sparc V9" revision="0" />
+  </Enumeration>
+  <Enumeration key="MipsModes">
+    <Item value="Mips 32-bit" revision="0" />
+    <Item value="Mips 64-bit" revision="0" />
+    <Item value="MicroMips" revision="0" />
+    <Item value="Mips III" revision="0" />
+    <Item value="Mips32r6" revision="0" />
+    <Item value="Mips II" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArmModes">
+    <Item value="Thumb/Thumb-2" revision="0" />
+    <Item value="Cortex-M" revision="0" />
+    <Item value="ARMv8" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureDisasm">
+    <Item value="逆アセンブラ" revision="0" />
+    <Item value="逆アセンブラー モジュールを使用すると、ファイルまたはメモリ内の実行可能コードを逆アセンブルできます。 複数の命令セットをサポートし、シンボル ファイルを使用できます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="MSILDesc">
+    <Item value="命令" revision="0" />
+    <Item value="クラス" revision="0" />
+    <Item value="方法" revision="0" />
+    <Item value="説明" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="Raw アドレス" revision="0" />
+    <Item value="仮想アドレス" revision="0" />
+    <Item value="相対オフセット" revision="0" />
+    <Item value="バイトコード" revision="0" />
+    <Item value="ニモニック" revision="0" />
+    <Item value="オペランド" revision="0" />
+    <Item value="暗黙的なオペランド" revision="0" />
+    <Item value="CPU" revision="0" />
+    <Item value="チェックされたフラグ" revision="0" />
+    <Item value="変更されたフラグ" revision="0" />
+    <Item value="説明" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsColumns">
+    <Item value="アドレス" revision="0" />
+    <Item value="名前" revision="0" />
+    <Item value="サイズ" revision="0" />
+    <Item value="ベースタイプ" revision="0" />
+    <Item value="インデックスのタイプ" revision="0" />
+    <Item value="タグ" revision="0" />
+    <Item value="フラグ" revision="0" />
+  </Enumeration>
+  <Enumeration key="MethodFunction">
+    <Item value="方法" revision="0" />
+    <Item value="関数" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisasmTask">
+    <Item value="逆アセンブル ファイル" revision="0" />
+    <Item value="実行可能ファイルの逆アセンブルを開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="SymbolsType">
+    <Item value="不明な形式" revision="0" />
+    <Item value="モジュールに使用できるシンボルがありません" revision="0" />
+    <Item value="COFF" revision="0" />
+    <Item value="コードビュー (.dbg file)" revision="0" />
+    <Item value="PDB" revision="0" />
+    <Item value="エクスポート" revision="0" />
+    <Item value="遅延" revision="0" />
+    <Item value="SYM" revision="0" />
+    <Item value="DIA" revision="0" />
+    <Item value="仮想" revision="0" />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item value="FALSE" revision="0" />
+    <Item value="TRUE" revision="0" />
+  </Enumeration>
+  <Enumeration key="Availability">
+    <Item value="利用不可" revision="0" />
+    <Item value="利用可能" revision="0" />
+  </Enumeration>
+  <Enumeration key="MsilNotification">
+    <Item value="MSIL インストールに関する警告" revision="0" />
+    <Item value="この機能を使用するには、.NET 2.0 がインストールされている必要があります。 次のリンクをクリックしてダウンロードしてください。" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRTypeListDisasm">
+    <Item value="文字列" revision="0" />
+    <Item value="UNICODE 文字列" revision="0" />
+  </Enumeration>
+  <Enumeration key="CLRErrorReasons">
+    <Item value="メタホストが初期化されていませんでした" revision="0" />
+    <Item value="アセンブリの元の .NET Framework コンパイル バージョンを取得できません" revision="0" />
+    <Item value="共通言語ランタイム (CLR) をロードできません。 この機能を使用するには、.NET {version} が必要です。 不足しているコンポーネントをインストールして、再試行してください。" revision="0" />
+  </Enumeration>
+</Language>

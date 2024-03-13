@@ -25,6 +25,7 @@ Currently, the following language packs are complete for latest version of Hex E
 * Ukrainian
 * Simplified Chinese
 * Korean
+* Japanese
 
 And the following language packs are complete for Hex Editor Neo 5.x or 6.x:
 
@@ -92,3 +93,6 @@ We would like to thank the following persons for their contributions to localiza
 * Simplified Chinese
    * fairycn
    * chyanbo
+
+* Japanese
+   * voolvitto

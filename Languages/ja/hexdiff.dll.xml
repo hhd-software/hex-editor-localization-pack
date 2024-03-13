@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="FilterOperationName" value="ファイル比較結果のフィルタリング" revision="0" />
+  <Message key="Different" value="差異" revision="0" />
+  <Message key="Not Found" value="見つかりません" revision="0" />
+  <Message key="IdenticalNotification" value="ファイル比較 : 同一ファイル内の NTFS ストリーム" revision="0" />
+  <Message key="File Comparison" value="ファイルの比較" revision="0" />
+  <Message key="Error opening both files" value="両方のファイルを開くときにエラーが発生しました" revision="0" />
+  <Message key="Error opening one of files" value="ファイルの 1 つを開くときにエラーが発生しました" revision="0" />
+  <Message key="Locked" value="操作に時間がかかるため、少なくとも 1 つのドキュメントがロックされています。 操作が完了するまでお待ちください。" revision="0" />
+  <Message key="OpName" value="ファイルの比較" revision="0" />
+  <Message key="CompareError" value="ファイルの比較中にエラーが発生しました。" revision="0" />
+  <Message key="ConvertError" value="選択範囲の作成中にエラーが発生しました。" revision="0" />
+  <Message key="DisplayStreams" value="{file} のストリームを表示" revision="0" />
+  <Message key="Convert Blocks To Selection" value="ブロックを選択範囲に変換" revision="0" />
+  <Message key="Matched blocks" value="一致したブロック" revision="0" />
+  <Message key="Inserted blocks" value="挿入されたブロック" revision="0" />
+  <Message key="Removed blocks" value="削除されたブロック" revision="0" />
+  <Message key="Modified blocks" value="変更されたブロック" revision="0" />
+  <Message key="Color Selection" value="色の選択" revision="0" />
+  <Message key="Compare Results Filter" value="比較結果フィルター" revision="0" />
+  <Message key="Edit Filter Condition" value="フィルター条件の編集" revision="0" />
+  <Message key="Compare Files" value="ファイルの比較" revision="0" />
+  <Message key="First file:" value="第1ファイル :" revision="0" />
+  <Message key="Second file:" value="第2ファイル :" revision="0" />
+  <Message key="Comparison method:" value="比較方法 :" revision="0" />
+  <Message key="Align documents:" value="整列 :" revision="0" />
+  <Message key="Synchronize windows" value="ウィンドウを同期する" revision="0" />
+  <Message key="Colors…" value="色…" revision="0" />
+  <Message key="Swap" value="スワップ" revision="0" />
+  <Message key="toolbar.Compare Files" value="ファイルの比較" revision="0" />
+  <Message key="clr.fc_colors" value="ファイル比較の色" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="一致した領域の背景" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="一致した領域のテキスト" revision="0" />
+  <Message key="clr.fc_colors.different.fill" value="異なる領域の背景" revision="0" />
+  <Message key="clr.fc_colors.different.stroke" value="異なる領域のテキスト" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="見つからない領域の背景" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="見つからない領域のテキスト" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="挿入された領域の背景" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="挿入された領域のテキスト" revision="0" />
+  <Message key="clr.fc_colors.removed.fill" value="削除された領域の背景" revision="0" />
+  <Message key="clr.fc_colors.removed.stroke" value="削除された領域のテキスト" revision="0" />
+  <Message key="Compare Files Report" value="比較レポート" revision="0" />
+  <Message key="Total" value="合計" revision="0" />
+  <Message key="Condition:" value="合計" revision="0" />
+  <Message key="then" value="then" revision="0" />
+  <Message key="IncorrectInputTitle" value="間違った入力" revision="0" />
+  <Message key="NotANumberError" value="Must be decimal or hexadecimal value" revision="0" />
+  <Enumeration key="DiffRecompare">
+    <Item value="再比較" revision="0" />
+    <Item value="ファイルの再比較" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCompareFiles">
+    <Item value="ファイルの比較…" revision="0" />
+    <Item value="ファイルの比較" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffToSelection">
+    <Item value="選択範囲に変換" revision="0" />
+    <Item value="ブロックを選択範囲に変換する" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffEnableColoring">
+    <Item value="カラーリングを有効にする" revision="0" />
+    <Item value="カラーリングを有効にする" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffHex">
+    <Item value="16 進値の表示" revision="0" />
+    <Item value="データを10進数または16進数で表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffPrev">
+    <Item value="前のブロック" revision="0" />
+    <Item value="前のブロックへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffNext">
+    <Item value="次のブロック" revision="0" />
+    <Item value="次のブロックへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffColor">
+    <Item value="色の選択…" revision="0" />
+    <Item value="ブロックの強調表示に使用する色の選択" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffCombine">
+    <Item value="結合モード" revision="0" />
+    <Item value="両方のファイルのブロックを一度に表示する" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilter">
+    <Item value="フィルターの定義…" revision="0" />
+    <Item value="指定された基準で比較結果をフィルタリングする" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffReport">
+    <Item value="比較レポートを表示" revision="0" />
+    <Item value="比較結果の統計を表示する" revision="0" />
+  </Enumeration>
+  <Enumeration key="Algorithms">
+    <Item value="単純な比較アルゴリズム" revision="1" />
+    <Item value="差分アルゴリズム" revision="1" />
+    <Item value="差分アルゴリズム (代替)" revision="1" />
+  </Enumeration>
+  <Enumeration key="Alignment">
+    <Item value="整列しない" revision="0" />
+    <Item value="水平に揃える" revision="0" />
+    <Item value="垂直に揃える" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffTypes">
+    <Item value="普通" revision="0" />
+    <Item value="正確" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReportColumns">
+    <Item value="種類" revision="0" />
+    <Item value="ブロック" revision="0" />
+    <Item value="サイズ、バイト" revision="0" />
+  </Enumeration>
+  <Enumeration key="IdenticalWithStreams">
+    <Item value="ファイルの比較" revision="0" />
+    <Item value="ファイルは同一ですが、追加のストリームが含まれています。 Hex Editor Neo は、追加ストリームの内容を自動的に比較しません。 手動で行うこともできます。 続行するには、以下のオプションを選択してください。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Identical">
+    <Item value="ファイルの比較" revision="0" />
+    <Item value="ファイルは同一です。" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="ファイルの比較" revision="0" />
+    <Item value="2 つのバイナリ ファイルの内容を比較する" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCompareFiles">
+    <Item value="ファイルの比較" revision="0" />
+    <Item value="ファイルの比較メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureCompare">
+    <Item value="ファイルの比較" revision="0" />
+    <Item value="ファイル比較機能を使用すると、2 つのファイル間の相違点を見つけることができます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockTypes">
+    <Item value="一致" revision="0" />
+    <Item value="修正済" revision="0" />
+    <Item value="挿入" revision="0" />
+    <Item value="削除" revision="0" />
+    <Item value="移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="Columns">
+    <Item value="種類" revision="0" />
+    <Item value="オフセット (ソース)" revision="0" />
+    <Item value="オフセット (対象)" revision="0" />
+    <Item value="サイズ" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterOperations">
+    <Item value="等しい" revision="0" />
+    <Item value="未満" revision="0" />
+    <Item value="より大きい" revision="0" />
+    <Item value="以下" revision="0" />
+    <Item value="以上" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterType">
+    <Item value="含める" revision="0" />
+    <Item value="除外する" revision="0" />
+  </Enumeration>
+  <Enumeration key="FilterSchemeColumns">
+    <Item value="アクティブ" revision="0" />
+    <Item value="列" revision="0" />
+    <Item value="操作" revision="0" />
+    <Item value="-値" revision="0" />
+    <Item value="アクション" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterAdd">
+    <Item value="フィルタールールの追加" revision="0" />
+    <Item value="現在のスキームにフィルター ルールを追加" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterEdit">
+    <Item value="フィルタルールの編集" revision="0" />
+    <Item value="現在のスキームのフィルター ルールを編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterRemove">
+    <Item value="フィルタルールの削除" revision="0" />
+    <Item value="現在のスキームからフィルター ルールを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterReset">
+    <Item value="すべてのフィルター スキームの変更をロールバック" revision="0" />
+    <Item value="すべてのスキーム変更をロールバック" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffFilterSwitch">
+    <Item value="フィルタリングの有効化/無効化" revision="0" />
+    <Item value="フィルタリングの有効化/無効化" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Data Annotations" value="データの注釈" revision="0" />
+  <Message key="SaveAnnotationsPrompt" value=" &quot;{file}&quot; のデータ注釈が変更されました。 更新された注釈を保存しますか?" revision="0" />
+  <Message key="MaxAnnotationsError" value="このドキュメントに対して作成できる注釈の数 ({number}) の制限に達しました" revision="0" />
+  <Message key="toolbar.Annotations" value="注釈" revision="0" />
+  <Message key="ExtSuffixFilter" value="使用できる記号 : 0-9A-Za-z_" revision="0" />
+  <Message key="Annotate Range" value="範囲に注釈を付ける" revision="0" />
+  <Message key="Start:" value="開始 :" revision="0" />
+  <Message key="End:" value="終了 :" revision="0" />
+  <Message key="Text:" value="注釈テキスト :" revision="1" />
+  <Message key="IncorrectInputTitle" value="不正な入力" revision="0" />
+  <Message key="IncorrectInputText" value="16 進数値である必要があります" revision="0" />
+  <Message key="Annotations Storage Location" value="注釈の保存場所" revision="0" />
+  <Message key="Auto Select" value="自動選択" revision="0" />
+  <Message key="NTFS Stream" value="NTFS ストリーム" revision="0" />
+  <Message key="File extension suffix:" value="ファイル拡張子の接尾辞 :" revision="0" />
+  <Message key="Custom Folder:" value="カスタム フォルダー :" revision="0" />
+  <Message key="Clear annotations cache" value="注釈キャッシュを消去" revision="0" />
+  <Message key="clr.ann_colors" value="注釈の色" revision="0" />
+  <Message key="clr.ann_colors.def.fill" value="注釈の背景" revision="0" />
+  <Message key="clr.ann_colors.def.stroke" value="注釈の外枠" revision="0" />
+  <Message key="clr.ann_colors.def.text" value="注釈テキスト" revision="0" />
+  <Enumeration key="FeatureAnnotations">
+    <Item value="注釈" revision="0" />
+    <Item value="注釈機能を使用すると、データ範囲に注釈を追加できます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAdd">
+    <Item value="注釈の追加…" revision="0" />
+    <Item value="新しい注釈の作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationRemove">
+    <Item value="注釈の削除" revision="0" />
+    <Item value="注釈の削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationClear">
+    <Item value="注釈の消去" revision="0" />
+    <Item value="すべての注釈を削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuAnnotations">
+    <Item value="注釈(&amp;A)" revision="0" />
+    <Item value="注釈メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateCursor">
+    <Item value="カーソル位置に注釈を付ける…" revision="0" />
+    <Item value="カーソル位置のデータに注釈を付ける" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationAnnotateSelection">
+    <Item value="選択範囲に注釈を付ける…" revision="0" />
+    <Item value="現在の選択範囲に注釈を追加" revision="0" />
+  </Enumeration>
+  <Enumeration key="AnnotationEdit">
+    <Item value="注釈テキストの編集" revision="0" />
+    <Item value="選択した注釈項目を編集する" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditButtonText">
+    <Item value="追加" revision="1" />
+    <Item value="適用" revision="1" />
+  </Enumeration>
+  <Enumeration key="RightColumns">
+    <Item value="番号" revision="0" />
+    <Item value="アドレス" revision="0" />
+    <Item value="サイズ" revision="0" />
+    <Item value="テキスト" revision="0" />
+  </Enumeration>
+</Language>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="GotoLine" value="{line} 番号 {first} - {last}" revision="0" />
+  <Message key="GoToHeader" value="{v} へ移動" revision="0" />
+  <Message key="FileNotSaved" value="現在のドキュメントは変更されています。 保存しますか?" revision="0" />
+  <Message key="SaveProtocolFile" value="ファイルの保存中にエラーが発生しました &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="Error" value="エラー" revision="0" />
+  <Message key="Structure Editor" value="構造体エディター" revision="0" />
+  <Message key="Line" value="行" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;保存されていない現在のスキーム&gt;" revision="0" />
+  <Message key="SchemeDelError" value="このスキームは削除できません" revision="0" />
+  <Message key="Coloring" value="カラーリング" revision="0" />
+  <Message key="Structure Editor Page" value="構造体エディター" revision="0" />
+  <Message key="Save" value="保存" revision="0" />
+  <Message key="Delete" value="削除" revision="0" />
+  <Message key="Font:" value="フォント :" revision="0" />
+  <Message key="Size:" value="サイズ :" revision="0" />
+  <Message key="Font color:" value="文字色 :" revision="0" />
+  <Message key="Back color:" value="背景色 :" revision="0" />
+  <Message key="Bold" value="太字" revision="0" />
+  <Message key="Italic" value="斜体" revision="0" />
+  <Message key="Reset" value="リセット" revision="0" />
+  <Message key="Find" value="検索" revision="0" />
+  <Message key="Fi&amp;nd what:" value="検索文字(&amp;N) :" revision="0" />
+  <Message key="Options" value="オプション" revision="0" />
+  <Message key="Find within" value="以下から検索" revision="0" />
+  <Message key="Match &amp;whole word only" value="完全一致のみ(&amp;W)" revision="0" />
+  <Message key="Match &amp;case" value="大文字と小文字を区別(&amp;C)" revision="0" />
+  <Message key="Whole window" value="ウィンドウ全体" revision="0" />
+  <Message key="Selection" value="選択" revision="0" />
+  <Message key="&amp;Find" value="検索(&amp;F)" revision="0" />
+  <Message key="Replace" value="置き換え" revision="0" />
+  <Message key="Replace with: " value="置き換え文字列 :" revision="0" />
+  <Message key="&amp;Find Next" value="次を検索(&amp;F)" revision="0" />
+  <Message key="&amp;Replace" value="置き換え(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="すべて置き換え(&amp;A)" revision="0" />
+  <Message key="A pattern was not found." value="パターンが見つかりませんでした。" revision="0" />
+  <Message key="InvalidColoringScheme" value="無効なカラースキーム名です。" revision="0" />
+  <Message key="OverwriteColoringScheme" value="指定されたスキームが存在します。 上書きしますか?" revision="0" />
+  <Enumeration key="EditReplace">
+    <Item value="置き換え…" revision="0" />
+    <Item value="置き換え文字列" revision="0" />
+  </Enumeration>
+</Language>

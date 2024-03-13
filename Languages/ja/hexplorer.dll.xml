@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Explorer 1" value="エクスプローラー 1" revision="0" />
+  <Message key="Explorer 2" value="エクスプローラー 2" revision="0" />
+  <Message key="Invalid path specified" value="無効なパスが指定されました" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(フォルダーのコピー中にエラーが発生しました)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="次のファイルのコピー中にエラーが発生しました :" revision="0" />
+  <Message key="Explorer settings" value="エクスプローラー" revision="0" />
+  <Message key="toolbar.Explorer" value="エクスプローラー" revision="0" />
+  <Enumeration key="ExpPrev">
+    <Item value="前へ" revision="0" />
+    <Item value="前の場所へ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpNext">
+    <Item value="次へ" revision="0" />
+    <Item value="次の場所へ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpUp">
+    <Item value="上へ" revision="0" />
+    <Item value="親ディレクトリへ移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpLocateCurr">
+    <Item value="現在の場所" revision="0" />
+    <Item value="現在のディレクトリをブラウザと同期する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpSearch">
+    <Item value="ファイル内検索" revision="0" />
+    <Item value="ファイル内検索ダイアログを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ExpTreeVisible">
+    <Item value="フォルダー" revision="0" />
+    <Item value="ブラウザウィンドウの切り替え" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer1">
+    <Item value="内蔵エクスプローラ" revision="0" />
+    <Item value="内蔵エクスプローラツールウィンドウは、Windowsエクスプローラを模倣し、Hex Editorと緊密に統合されています。スタンダード版では1つ、プロフェッショナル版とアルティメット版では2つのエクスプローラウィンドウが利用可能です。" revision="0" />
+  </Enumeration>
+  <Enumeration key="FeatureExplorer2">
+    <Item value="2 内蔵エクスプローラ" revision="0" />
+    <Item value="内蔵エクスプローラツールウィンドウは、Windowsエクスプローラを模倣し、Hex Editorと緊密に統合されています。スタンダード版では1つ、プロフェッショナル版とアルティメット版では2つのエクスプローラウィンドウが利用可能です。" revision="0" />
+  </Enumeration>
+</Language>

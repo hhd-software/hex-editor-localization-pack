@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Copy&amp;Export" value="コピー&amp;エクスポート" revision="1" />
+  <Message key="BigSizeNotification" value="大きなテキストのコピー通知" revision="1" />
+  <Message key="FloatingDigits" value="浮動小数点数 コピー/エクスポート桁数" revision="1" />
+  <Message key="DoubleDigits" value="倍精度 コピー/エクスポート桁数" revision="1" />
+  <Message key="IntelHexColumns" value="Intel HEX および Motorola S フォーマットの行あたりのバイト数" revision="1" />
+  <Message key="EncodedFormat" value="エンコードされたデータ(&amp;E)" revision="1" />
+  <Message key="RawFilter" value="テキスト ファイル (*.txt)|*.txt|" revision="1" />
+  <Message key="Little Endian" value="リトルエンディアン" revision="1" />
+  <Message key="Big Endian" value="ビッグエンディアン" revision="1" />
+  <Message key="FormattedFormat" value="フォーマットされた値(&amp;F)" revision="1" />
+  <Message key="CopyExportLocalized" value="コピーと &amp; エクスポート" revision="2" />
+  <Message key="Export" value="エクスポート(&amp;X)" revision="1" />
+  <Message key="BadFormat" value="エクスポート形式では選択したデータを処理できません" revision="1" />
+  <Message key="BadImportFormat" value="データ形式が正しくありません。" revision="1" />
+  <Message key="ErrorExport" value="出力ファイルの作成中にエラーが発生しました : {text}\r\n(エラーコード: {code})" revision="1" />
+  <Message key="ErrorExport2" value="データのエクスポート中にエラーが発生しました : {text}\r\n(エラーコード: {code})" revision="1" />
+  <Message key="ErrorImport" value="16 進数データのインポートでエラーが発生しました : {text}\r\n(エラーコード: {code})" revision="1" />
+  <Message key="OpenHexTitle" value="16進数データの挿入" revision="1" />
+  <Message key="&amp;Copy to Clipboard" value="クリップボードにコピー(&amp;C)" revision="1" />
+  <Message key="&amp;Export" value="エクスポート(&amp;E)" revision="1" />
+  <Message key="Format:" value="形式 :" revision="1" />
+  <Message key="Merge" value="結合" revision="1" />
+  <Message key="Algorithm:" value="アルゴリズム :" revision="1" />
+  <Message key="Append" value="追加" revision="1" />
+  <Message key="&amp;Elements:" value="要素(&amp;E) :" revision="1" />
+  <Message key="&amp;Columns:" value="列(&amp;C) :" revision="1" />
+  <Message key="&amp;Type:" value="種類(&amp;T) :" revision="1" />
+  <Message key="Byte order:" value="バイトオーダー :" revision="1" />
+  <Message key="Group:" value="グループ :" revision="1" />
+  <Message key="&amp;Addresses" value="アドレス(&amp;A)" revision="1" />
+  <Message key="&amp;Text pane" value="テキスト ペイン(&amp;T)" revision="1" />
+  <Message key="Insert Hex" value="16進数データの挿入" revision="1" />
+  <Message key="Insert from" value="挿入元" revision="1" />
+  <Message key="Format" value="形式" revision="1" />
+  <Message key="Put the data at" value="データの場所" revision="1" />
+  <Message key="Clipboard" value="クリップボード" revision="1" />
+  <Message key="File:" value="ファイル :" revision="1" />
+  <Message key="Start of the file" value="ファイルの先頭" revision="1" />
+  <Message key="Cursor location" value="カーソル位置" revision="1" />
+  <Message key="Insert mode" value="挿入モード" revision="1" />
+  <Message key="Ignore data offset" value="データオフセットを無視する" revision="1" />
+  <Message key="Encoding:" value="エンコーディング :" revision="1" />
+  <Message key="OpenError" value="&quot;{path}&quot;: HEX ファイルを開くときにエラーが発生しました : {text} ({code})" revision="3" />
+  <Enumeration key="EditCopyAs">
+    <Item value="コピー形式(&amp;A)…" revision="1" />
+    <Item value="選択範囲をサポートされている形式のいずれかに変換し、クリップボードに配置します" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item value="エクスポート(&amp;X)…" revision="1" />
+    <Item value="選択範囲をエクスポート" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditPasteAs">
+    <Item value="貼り付け形式(&amp;S)…" revision="1" />
+    <Item value="クリップボード内のデータを解析してドキュメントに貼り付けます" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertHex">
+    <Item value="16進数の挿入(&amp;H)…" revision="1" />
+    <Item value="ASCII エンコードされたバイナリ ファイルを挿入します" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileOpenHex">
+    <Item value="16進数データの挿入(&amp;H)…" revision="1" />
+    <Item value="ASCII エンコードされたバイナリ ファイルを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="FileNewIntelHex">
+    <Item value="新しいインテル形式" revision="0" />
+    <Item value="空のインテル形式 ファイルを作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileNewMotorolaHex">
+    <Item value="新しい Motorola S-Records 形式" revision="0" />
+    <Item value="空の Motorola S-Records ファイルを作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="SupportedFormats">
+    <Item value="base64-encode" revision="1" />
+    <Item value="UU-encode" revision="1" />
+    <Item value="Quoted-printable" revision="1" />
+    <Item value="Intel 8-bit HEX" revision="1" />
+    <Item value="Intel 16-bit HEX" revision="1" />
+    <Item value="Intel 32-bit HEX" revision="1" />
+    <Item value="Motorola S 19" revision="1" />
+    <Item value="Motorola S 28" revision="1" />
+    <Item value="Motorola S 37" revision="1" />
+  </Enumeration>
+  <Enumeration key="EncodedFeature">
+    <Item value="エンコードされたデータのコピー/エクスポート" revision="1" />
+    <Item value="エンコードされたデータのコピー/エクスポート機能を使用すると、現在の選択内容を Base64、UUEncode、または Quoted-Printable 形式でコピーまたはエクスポートできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedFeature">
+    <Item value="フォーマットされたデータのコピー/エクスポート" revision="1" />
+    <Item value="フォーマットされたデータのコピー/エクスポート機能を使用すると、コード ペインの内容をさまざまな形式でコピーまたはエクスポートできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Encodings">
+    <Item value="現行" revision="1" />
+    <Item value="なし" revision="1" />
+    <Item value="システムの既定" revision="1" />
+    <Item value="OEM" revision="1" />
+    <Item value="UTF-7" revision="1" />
+    <Item value="UTF-8" revision="1" />
+    <Item value="Unicode (UTF-16)" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFeature">
+    <Item value="Raw テキストのコピー/エクスポート" revision="1" />
+    <Item value="Raw テキスト のコピー/エクスポート機能を使用すると、選択したエンコーディングでテキスト ペインの内容をコピーまたはエクスポートできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="RawTextFormat">
+    <Item value="&amp;Raw テキスト(&amp;R)" revision="1" />
+    <Item value="一般的な ASCII または UNICODE 文字列に変換します" revision="1" />
+  </Enumeration>
+  <Enumeration key="BigSize">
+    <Item value="大きなテキストのコピー" revision="1" />
+    <Item value="Hex Editor Neo はクリップボードへの大量のテキストのコピーをサポートしていますが、このテキストを他のアプリケーションに貼り付けるのが困難になる場合があります。 続行しますか？" revision="1" />
+  </Enumeration>
+  <Enumeration key="OpenHexFeature">
+    <Item value="16進数ファイルを開く/挿入" revision="1" />
+    <Item value="16進数ファイルを開く/挿入 機能を使用すると、Intel HEX または Motorola S-Records ファイルをデコードし、バイナリ コンテンツを新しいドキュメントとして、または開いているドキュメント内に挿入できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="HexFormats">
+    <Item value="インテル 形式" revision="1" />
+    <Item value="モトローラ S-Records 形式" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedTypes">
+    <Item value="既定" revision="1" />
+    <Item value="16進数" revision="1" />
+    <Item value="10進数" revision="1" />
+    <Item value="8進数" revision="1" />
+    <Item value="2進数" revision="1" />
+    <Item value="単精度浮動小数点" revision="1" />
+    <Item value="倍精度浮動小数点" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedGroups">
+    <Item value="既定" revision="1" />
+    <Item value="バイト" revision="1" />
+    <Item value="Words" revision="1" />
+    <Item value="Double words" revision="1" />
+    <Item value="Quad words" revision="1" />
+  </Enumeration>
+  <Enumeration key="FormattedSupportedKinds">
+    <Item value="区切りなし" revision="1" />
+    <Item value="スペース区切りテキスト" revision="1" />
+    <Item value="カンマ区切りテキスト" revision="1" />
+    <Item value="C/C++ array" revision="1" />
+    <Item value="Java array" revision="1" />
+    <Item value="Javascript array" revision="1" />
+    <Item value="Delphi array" revision="1" />
+    <Item value="C# .NET array" revision="1" />
+    <Item value="Visual Basic .NET array" revision="1" />
+    <Item value="PHP array" revision="1" />
+    <Item value="Assembler array" revision="1" />
+  </Enumeration>
+</Language>

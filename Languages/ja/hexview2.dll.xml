@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="toolbar.Goto" value="ナビゲーション" revision="0" />
+  <Message key="Offset" value="オフセット" revision="1" />
+  <Message key="SchemeNameCue" value="ここにスキーム名を入力" revision="1" />
+  <Message key="Encrypt" value="暗号化" revision="1" />
+  <Message key="Decrypt" value="復号化" revision="1" />
+  <Message key="Navigate to Position" value="位置に移動" revision="1" />
+  <Message key="Add Position" value="位置の追加" revision="1" />
+  <Message key="Editor" value="エディター" revision="1" />
+  <Message key="Printing" value="印刷" revision="1" />
+  <Message key="AutoDropSelection" value="単一選択モード" revision="1" />
+  <Message key="AdjustSelectionOnInsert" value="挿入操作で選択範囲を調整" revision="1" />
+  <Message key="DigitGrouping" value="数字のグループ化" revision="1" />
+  <Message key="ShowCurrentAddress" value="カーソルアドレスを左側に表示" revision="1" />
+  <Message key="IgnoreColoring" value="カラーリングを無視" revision="1" />
+  <Message key="StandardHeader" value="標準ヘッダー" revision="1" />
+  <Message key="StandardFooter" value="標準フッター" revision="1" />
+  <Message key="ShiftCursorOnPaste" value="貼り付け後にカーソルを移動" revision="1" />
+  <Message key="FindAllNotification" value="すべて検索" revision="1" />
+  <Message key="PasteNotification" value="テキストの貼り付け" revision="1" />
+  <Message key="InvalidExpressionSyntax" value="無効な式です。 構文を確認してください。" revision="1" />
+  <Message key="Connect to" value="接続先" revision="1" />
+  <Message key="ConnectToSuccess" value="Windows は正常に接続されました。" revision="1" />
+  <Message key="ConnectToFailure" value="無効なウィンドウが選択されました。 選択したウィンドウに接続できません。" revision="1" />
+  <Message key="Copying Selection Regions…" value="選択範囲をコピー中…" revision="1" />
+  <Message key="Exporting Selection Regions…" value="選択領域をエクスポート中…" revision="1" />
+  <Message key="Open documentation section and continue" value="ドキュメントセクションを開いて続行" revision="1" />
+  <Message key="Just continue" value="続ける" revision="1" />
+  <Message key="InfoPane" value="{mode}{exmode?} {mode2}{?exmode}, {nocols?}Auto{|nocols}{cols}{?nocols}, {isunicode?}UNICODE (UTF-16){|isunicode}{codepage}{?isunicode}" revision="1" />
+  <Message key="Loading" value="エディターの読み込み" revision="1" />
+  <Message key="Initializing" value="エディタの初期化" revision="1" />
+  <Message key="Selection Tool Window" value="選択" revision="1" />
+  <Message key="Output" value="出力" revision="1" />
+  <Message key="Save As" value="名前を付けて保存" revision="1" />
+  <Message key="Do you want to override this scheme?" value="このスキームを上書きしますか?" revision="1" />
+  <Message key="NoSel" value="選択なし" revision="1" />
+  <Message key="EncodingNotSupported" value="現在選択されているエンコーディングは、オペレーティング システムではサポートされていません。 必要なコード ページ ファイルとフォントがインストールされていることを確認してください。" revision="1" />
+  <Message key="NoEncoding" value="お使いのシステムには、選択したエンコーディングをサポートするために必要なコンポーネントがありません。 別のエンコーディングを選択してください。" revision="1" />
+  <Message key="Find" value="検索" revision="1" />
+  <Message key="A pattern was not found." value="パターンが見つかりませんでした。" revision="1" />
+  <Message key="RegExpInSel" value="選択範囲内での正規表現の検索はサポートされていません。" revision="1" />
+  <Message key="Find All" value="すべて検索" revision="1" />
+  <Message key="RegExpBackwards" value="正規表現の逆方向の検索はサポートされていません。" revision="1" />
+  <Message key="Replace All" value="すべて置き換え" revision="1" />
+  <Message key="Go to Offset" value="オフセットへ移動" revision="1" />
+  <Message key="Invalid offset." value="無効なオフセット" revision="1" />
+  <Message key="UnsupportedFunction" value="この関数は現在のドキュメント タイプではサポートされていません。" revision="1" />
+  <Message key="Change File Size" value="ファイルサイズの変更" revision="1" />
+  <Message key="Invalid file size." value="ファイルサイズが無効です。" revision="1" />
+  <Message key="Insert" value="挿入" revision="1" />
+  <Message key="Invalid size." value="サイズが無効です。" revision="1" />
+  <Message key="NFound" value="{isfound?}{n} 出現箇所が見つかりました。{|isfound}パターンが見つかりませんでした。{?isfound}" revision="1" />
+  <Message key="NFoundAndReplaced" value="{isfound?}{n} 出現箇所が見つかり、置き換えられました。{|isfound}パターンが見つかりませんでした。{?isfound}" revision="1" />
+  <Message key="Selected encryption algorithm is unsupported." value="選択した暗号化アルゴリズムはサポートされていません。" revision="1" />
+  <Message key="Copy" value="コピー" revision="1" />
+  <Message key="Export" value="エクスポート" revision="1" />
+  <Message key="SelectionFiles" value="選択ファイル (*.hexsel)|*.hexsel|" revision="1" />
+  <Message key="TextFiles" value="テキストファイル (*.txt)|*.txt|" revision="1" />
+  <Message key="AlgoDef" value="{name} ({bits}{more?} - {morebits}{?more} bits)" revision="1" />
+  <Message key="SetSize" value="16進数 : \t{size}\r\n10進数 : \t{size:2} ({size as text}){hasfree?}\r\n\r\nディスクの空き容量: {free}\r\n{?hasfree}" revision="1" />
+  <Message key="RegExpSyntaxError" value="正規表現の構文エラー : {error}." revision="1" />
+  <Message key="OffsetPane" value="オフセット : {offset} ({offset:2})" revision="1" />
+  <Message key="SizePane" value="サイズ : {size} ({size:2}): {size as text}" revision="1" />
+  <Message key="WrongSize" value="選択したアルゴリズムでは、データ サイズが {bytes} バイトの倍数である必要があります。" revision="1" />
+  <Message key="EncryptFailed" value="暗号化/復号化がエラーコードで失敗しました {code}" revision="1" />
+  <Message key="PrintedBy" value="HHD ソフトウェアで印刷 {product}" revision="1" />
+  <Message key="PageNumber" value="ページ {n} / {pages}" revision="1" />
+  <Message key="CopyError" value="選択領域のコピー中にエラーが発生しました : {text} ({code})" revision="1" />
+  <Message key="ExportError" value="ファイル作成エラー : {text} ({code})" revision="1" />
+  <Message key="Pattern:" value="パターン :" revision="1" />
+  <Message key="Replace with:" value="置き換える値" revision="1" />
+  <Message key="Arithmetic Operation" value="算術演算" revision="1" />
+  <Message key="Operation:" value="操作 :" revision="1" />
+  <Message key="Operand type:" value="オペランドの種類 :" revision="1" />
+  <Message key="Operand value:" value="オペランドの値 :" revision="1" />
+  <Message key="Current cell" value="現在のセル" revision="1" />
+  <Message key="Selection" value="選択" revision="1" />
+  <Message key="Whole file" value="ファイル全体" revision="1" />
+  <Message key="Hexadecimal" value="16進数" revision="1" />
+  <Message key="Decimal" value="10進数" revision="1" />
+  <Message key="Modify Bits" value="ビットの変更" revision="1" />
+  <Message key="1 Byte:" value="1stth バイト :" revision="2" />
+  <Message key="2 Byte:" value="2nd バイト :" revision="2" />
+  <Message key="3 Byte:" value="3rd バイト :" revision="2" />
+  <Message key="4 Byte:" value="4th バイト :" revision="2" />
+  <Message key="5 Byte:" value="5th バイト :" revision="2" />
+  <Message key="6 Byte:" value="6th バイト :" revision="2" />
+  <Message key="7 Byte:" value="7th バイト :" revision="2" />
+  <Message key="8 Byte:" value="8th バイト :" revision="2" />
+  <Message key="Binary representation:" value="2進数表示 :" revision="1" />
+  <Message key="Value:" value="値 :" revision="1" />
+  <Message key="Hex" value="16進数" revision="1" />
+  <Message key="Octal" value="8進数" revision="1" />
+  <Message key="Set All To Zero" value="すべてを 0 に設定" revision="1" />
+  <Message key="Set All To One" value="すべてを 1 に設定" revision="1" />
+  <Message key="Invert" value="反転" revision="1" />
+  <Message key="Revert" value="逆転" revision="1" />
+  <Message key="Bitwise Operation" value="ビット単位の演算" revision="1" />
+  <Message key="Set Columns" value="列の設定" revision="0" />
+  <Message key="Enter number of columns per row:" value="1 行あたりの列数を入力 :" revision="0" />
+  <Message key="Select the Window to Connect" value="接続するウィンドウの選択" revision="0" />
+  <Message key="Click on the icon below, drag it over the window you want to connect to and release the mouse button." value="下のアイコンをクリックし、接続先のウィンドウ上にドラッグしてマウス ボタンを放します。" revision="0" />
+  <Message key="Cursor movement is synchornized in connected windows." value="カーソルの動きは、接続されているウィンドウ間で同期されます。" revision="0" />
+  <Message key="Encrypt/Decrypt" value="暗号化/復号化" revision="0" />
+  <Message key="Algorithm:" value="アルゴリズム :" revision="0" />
+  <Message key="Key length:" value="キーの長さ :" revision="0" />
+  <Message key="bits" value="ビット" revision="0" />
+  <Message key="Status:" value="状態 :" revision="0" />
+  <Message key="Do not hide password" value="パスワードを隠さない" revision="0" />
+  <Message key="Password:" value="パスワード :" revision="0" />
+  <Message key="Re-type password:" value="パスワードの再入力 :" revision="0" />
+  <Message key="Fill" value="埋め込み" revision="0" />
+  <Message key="Fill whole file" value="ファイル全体を埋め込み" revision="0" />
+  <Message key="Fill selection" value="選択範囲の埋め込み" revision="0" />
+  <Message key="Transparent fill" value="透明な塗りつぶし" revision="0" />
+  <Message key="Reverse pattern" value="パターンの逆転" revision="0" />
+  <Message key="&amp;Fill" value="埋め込み(&amp;F)" revision="0" />
+  <Message key="&amp;Find" value="検索(&amp;F)" revision="0" />
+  <Message key="Find &amp;All" value="すべて検索(&amp;A)" revision="0" />
+  <Message key="Search whole file" value="ファイル全体を検索" revision="0" />
+  <Message key="Search selection" value="選択範囲を検索" revision="0" />
+  <Message key="Search up" value="上を検索" revision="0" />
+  <Message key="Search down" value="下を検索" revision="0" />
+  <Message key="Ignore case" value="大文字と小文字を無視" revision="0" />
+  <Message key="Offset (expressions supported):" value="オフセット (サポートされる式) :" revision="0" />
+  <Message key="Resulting offset:" value="オフセットの結果 :" revision="0" />
+  <Message key="Selection:" value="選択 :" revision="0" />
+  <Message key="Bookmark:" value="ブックマーク :" revision="0" />
+  <Message key="&amp;Absolute offset" value="絶対オフセット(&amp;A)" revision="0" />
+  <Message key="&amp;Relative offset" value="相対オフセット(&amp;R)" revision="0" />
+  <Message key="&amp;Percent" value="パーセント(&amp;P)" revision="0" />
+  <Message key="&amp;Insert" value="挿入(&amp;I)" revision="0" />
+  <Message key="Size (expressions supported):" value="サイズ (サポートされる式) :" revision="0" />
+  <Message key="Layout Page" value="レイアウト" revision="0" />
+  <Message key="Font:" value="フォント :" revision="0" />
+  <Message key="Size:" value="サイズ :" revision="0" />
+  <Message key="Density:" value="ウェイト :" revision="0" />
+  <Message key="Line spacing:" value="行間隔 :" revision="0" />
+  <Message key="Visualization elements:" value="視覚化要素 :" revision="0" />
+  <Message key="Color:" value="色 :" revision="0" />
+  <Message key="Automatic" value="自動" revision="0" />
+  <Message key="Do not interlace background" value="背景を織り交ぜない" revision="0" />
+  <Message key="Draw edit cursor frame" value="編集カーソル枠を描画" revision="0" />
+  <Message key="Smart indentation" value="スマート インデント" revision="0" />
+  <Message key="Antialiased quality (slower)" value="アンチエイリアス品質(遅い)" revision="0" />
+  <Message key="File pattern:" value="ファイルパターン :" revision="0" />
+  <Message key="Interlacing:" value="インターレース :" revision="0" />
+  <Message key="Layout Schemes" value="スキームのレイアウト" revision="0" />
+  <Message key="&amp;Save As…" value="名前を付けて保存(&amp;A)…" revision="0" />
+  <Message key="Load Selection" value="選択範囲の読み込み" revision="0" />
+  <Message key="Loading Mode" value="読み込みモード" revision="0" />
+  <Message key="New selection" value="新規選択範囲" revision="0" />
+  <Message key="Add to current" value="現在に追加" revision="0" />
+  <Message key="Subtract from current" value="現在から削除" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="現在の操作が実行されている間お待ちください…" revision="0" />
+  <Message key="0 % done" value="0 % 完了" revision="0" />
+  <Message key="Elapsed time: " value="経過時間 :" revision="0" />
+  <Message key="Remaining time:" value="残り時間 :" revision="0" />
+  <Message key="Speed:" value="速度 :" revision="0" />
+  <Message key="Replace" value="置き換え" revision="0" />
+  <Message key="&amp;Find Next" value="次を検索(&amp;F)" revision="0" />
+  <Message key="&amp;Replace" value="置き換え(&amp;R)" revision="0" />
+  <Message key="Replace &amp;All" value="すべて置き換え(&amp;A)" revision="0" />
+  <Message key="Reverse Operation" value="逆転操作" revision="0" />
+  <Message key="Information" value="情報" revision="0" />
+  <Message key="Details" value="詳細" revision="0" />
+  <Message key="Select Range" value="範囲の選択" revision="0" />
+  <Message key="Offset:" value="オフセット :" revision="0" />
+  <Message key="Add" value="追加" revision="0" />
+  <Message key="Subtract" value="減算" revision="0" />
+  <Message key="Overlap" value="オーバーラップ" revision="0" />
+  <Message key="Specify new file size:" value="新しいファイル サイズを指定 :" revision="0" />
+  <Message key="Resulting file size:" value="結果のファイルサイズ :" revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="数式を使用して新しいファイル サイズを入力できます。 詳細については、ヘルプを参照してください。" revision="0" />
+  <Message key="Shift Operation" value="シフト操作" revision="0" />
+  <Message key="Shift by (bits):" value="シフト (ビット) :" revision="0" />
+  <Message key="Editor Page" value="エディター" revision="0" />
+  <Message key="Here you can select the default properties of the editor window:" value="エディタ ウィンドウのデフォルトのプロパティを選択 :" revision="0" />
+  <Message key="Display as:" value="表示 :" revision="0" />
+  <Message key="Group by:" value="グループ :" revision="0" />
+  <Message key="Columns:" value="列 :" revision="0" />
+  <Message key="Byte order:" value="バイトオーダー :" revision="0" />
+  <Message key="Encoding:" value="エンコーディング :" revision="0" />
+  <Message key="Autosave editor window settings for each opened document" value="開いているドキュメントごとにエディター ウィンドウの設定を自動保存する" revision="0" />
+  <Message key="When checked, Hex Editor Neo will associate the editor window settings you configure with every opened document. Next time you open the same document in the editor, editor window settings are automatically loaded." value="チェックすると、Hex Editor Neo は、開いているすべてのドキュメントに設定したエディター ウィンドウの設定を関連付けます。 次回同じドキュメントをエディターで開くと、エディター ウィンドウの設定が自動的に読み込まれます。" revision="0" />
+  <Message key="Code pane" value="コード ペイン" revision="0" />
+  <Message key="Text pane" value="テキスト ペイン" revision="0" />
+  <Message key="Take from current window" value="現在のウィンドウから取得" revision="0" />
+  <Message key="Reset to Default" value="既定にリセット" revision="0" />
+  <Message key="Clear Cache" value="キャッシュを消去" revision="0" />
+  <Message key="Layout settings" value="エディターのレイアウト" revision="0" />
+  <Message key="Encoding settings" value="最後に使用されたエンコーディング" revision="0" />
+  <Message key="ViewSettingsDb settings" value="エディタの既定値" revision="0" />
+  <Message key="All documents" value="すべてのドキュメント" revision="0" />
+  <Message key="New Pattern" value="新規パターン" revision="0" />
+  <Message key="Enter new file pattern regular expression:" value="新しいファイル パターンの正規表現を入力 :" revision="0" />
+  <Message key="Pattern cue" value="正規表現, たとえば .+\.zip$" revision="1" />
+  <Message key="Pattern override prompt" value="そのようなパターンはすでに存在します。 上書きしますか?" revision="0" />
+  <Message key="clr.colors" value="エディターの色" revision="0" />
+  <Message key="clr.colors.Text" value="テキスト" revision="0" />
+  <Message key="clr.colors.Background" value="背景" revision="0" />
+  <Message key="clr.colors.AddressText" value="アドレス領域のテキスト" revision="0" />
+  <Message key="clr.colors.AddressBackground" value="アドレス領域の背景" revision="0" />
+  <Message key="clr.colors.AsciiText" value="Ascii テキスト" revision="0" />
+  <Message key="clr.colors.AsciiBackground" value="Ascii の背景" revision="0" />
+  <Message key="clr.colors.Even" value="偶数" revision="0" />
+  <Message key="clr.colors.Odd" value="奇数" revision="0" />
+  <Message key="clr.colors.Empty" value="空の範囲" revision="0" />
+  <Message key="clr.colors.CursorFill" value="カーソルの塗りつぶし" revision="0" />
+  <Message key="clr.colors.CursorOutline" value="カーソルの外枠" revision="0" />
+  <Message key="clr.colors.AltCursorFill" value="代替カーソル塗りつぶし" revision="0" />
+  <Message key="clr.colors.ActiveHighlightText" value="アクティブなテキストのハイライト" revision="0" />
+  <Message key="clr.colors.ActiveHighlightBackground" value="アクティブな背景のハイライト" revision="0" />
+  <Message key="clr.colors.ChangedText" value="変更されたセルのテキスト" revision="0" />
+  <Message key="clr.colors.ChangedBackground" value="変更されたセルの背景" revision="0" />
+  <Message key="clr.colors.ChangedOutline" value="変更されたセルの外枠" revision="0" />
+  <Message key="clr.colors.SelectionBackground" value="選択範囲の背景" revision="0" />
+  <Message key="clr.colors.SelectionOutline" value="選択範囲の外枠" revision="0" />
+  <Message key="clr.colors.HoverUnderline" value="アクティブな領域の下線" revision="0" />
+  <Message key="clr.colors.TooltipBackground" value="ツールチップの背景" revision="0" />
+  <Message key="clr.colors.TooltipText" value="ツールチップのテキスト" revision="0" />
+  <Message key="toolbar.Selection" value="選択" revision="0" />
+  <Enumeration key="SelectAll">
+    <Item value="すべて選択(&amp;A)" revision="1" />
+    <Item value="ファイル内のすべてのデータを選択" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectNone">
+    <Item value="選択解除(&amp;N)" revision="1" />
+    <Item value="現在の選択をクリア" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectGoToStart">
+    <Item value="先頭位置に移動" revision="0" />
+    <Item value="選択したブロックの先頭に移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectGoToEnd">
+    <Item value="末尾に移動" revision="0" />
+    <Item value="選択したブロックの末尾に移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDeleteBlock">
+    <Item value="ブロックの削除" revision="0" />
+    <Item value="選択したブロックを選択範囲から削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectClearSelection">
+    <Item value="選択範囲を消去" revision="0" />
+    <Item value="すべての選択ブロックを削除" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectInvert">
+    <Item value="選択範囲を反転" revision="1" />
+    <Item value="現在の選択を反転" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectModified">
+    <Item value="変更されたものを選択" revision="1" />
+    <Item value="変更されたデータを選択" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectRange">
+    <Item value="範囲を選択(&amp;R)…" revision="1" />
+    <Item value="データ範囲を指定し、現在の選択範囲と結合" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectLoad">
+    <Item value="選択範囲の読み込み(&amp;L)…" revision="1" />
+    <Item value="新しい選択を読み込むか、現在の選択と結合" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectSave">
+    <Item value="選択範囲を保存(&amp;S)…" revision="1" />
+    <Item value="現在の選択内容をファイルに保存" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditEditCell">
+    <Item value="セルの編集(&amp;E)" revision="1" />
+    <Item value="現在のセルを編集" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertMode">
+    <Item value="挿入モード(&amp;I)" revision="1" />
+    <Item value="挿入モードのオン/オフ" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item value="検索(&amp;F)…" revision="1" />
+    <Item value="パターンまたはすべてのパターンの出現を検索" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item value="次を検索(&amp;N)" revision="1" />
+    <Item value="次のパターンの出現を検索" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="前を検索(&amp;P)" revision="1" />
+    <Item value="前のパターンの出現を検索" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item value="置き換え(&amp;P)…" revision="1" />
+    <Item value="パターンを別のパターンに置き換" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditFill">
+    <Item value="埋め込み(&amp;I)…" revision="1" />
+    <Item value="選択範囲をバイトまたはパターンで埋め込み" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsert">
+    <Item value="挿入(&amp;I)…" revision="1" />
+    <Item value="バイトまたはパターンを挿入" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item value="オフセットに移動(&amp;G)…" revision="1" />
+    <Item value="ファイル内の特定のオフセットに移動" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditSetSize">
+    <Item value="ファイルサイズの変更(&amp;S)…" revision="1" />
+    <Item value="ファイルのサイズを変更" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditInsertFile">
+    <Item value="ファイルを挿入(&amp;L)…" revision="1" />
+    <Item value="ディスク ファイルの内容を現在の位置に挿入します。 現在の上書きモードに応じて、データを配置または挿入します。" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="エンコーディング(&amp;E)" revision="1" />
+    <Item value="エンコーディング" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewConnect">
+    <Item value="接続先(&amp;C)…" revision="1" />
+    <Item value="このウィンドウを別のウィンドウに接続" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="16進数(&amp;H)" revision="1" />
+    <Item value="16 進 モード" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="10進数(&amp;D)" revision="1" />
+    <Item value="10進数 モード" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="8進数(&amp;O)" revision="1" />
+    <Item value="8進数 モード" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="2進数(&amp;B)" revision="1" />
+    <Item value="2進数 モード" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="単精度(&amp;L)" revision="1" />
+    <Item value="単精度浮動小数点数" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="倍精度(&amp;E)" revision="1" />
+    <Item value="倍精度浮動小数点" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="バイト" revision="1" />
+    <Item value="バイトとしてグループ化" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Words" revision="1" />
+    <Item value="Wordsとしてグループ化" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Double words" revision="1" />
+    <Item value="Double wordsとしてグループ化" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Quad words" revision="1" />
+    <Item value="Quad wordsとしてグループ化" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="テキスト ペイン(&amp;T)" revision="1" />
+    <Item value="テキスト (ASCII または UNICODE) ペインの表示または非表示を切り替え" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="16進数(&amp;H)" revision="1" />
+    <Item value="アドレスを 16 進数で表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="10進数(&amp;D)" revision="1" />
+    <Item value="アドレスを 10 進数で表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="8進数(&amp;O)" revision="1" />
+    <Item value="アドレスを 8 進数で表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="自動(&amp;A)" revision="1" />
+    <Item value="列数の自動計算" revision="1" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="4 列(&amp;4)" revision="1" />
+    <Item value="4 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="8 列(&amp;8)" revision="1" />
+    <Item value="8 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="16 列(&amp;1)" revision="1" />
+    <Item value="16 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="32 列(&amp;3)" revision="1" />
+    <Item value="32 列" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="カスタム(&amp;C)…" revision="1" />
+    <Item value="列数を指定" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="リトルエンディアン(&amp;L)" revision="1" />
+    <Item value="リトルエンディアン" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="ビッグエンディアン(&amp;B)" revision="1" />
+    <Item value="ビッグエンディアン" revision="1" />
+  </Enumeration>
+  <Enumeration key="EndianSwitch">
+    <Item value="バイトオーダーの切り替え" revision="0" />
+    <Item value="バイトオーダーの切り替え" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditEncrypt">
+    <Item value="暗号化(&amp;Y)…" revision="1" />
+    <Item value="ドキュメントのデータを暗号化" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditDecrypt">
+    <Item value="復号化(&amp;P)" revision="1" />
+    <Item value="ドキュメントのデータを復号化" revision="1" />
+  </Enumeration>
+  <Enumeration key="EditModifyBits">
+    <Item value="ビットの変更…" revision="1" />
+    <Item value="ビットの変更" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="コードペイン(&amp;C)" revision="1" />
+    <Item value="コードペインの表示または非表示" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectAutoDrop">
+    <Item value="単一選択モード(&amp;N)" revision="1" />
+    <Item value="単一選択モードのオン/オフ" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseNOT">
+    <Item value="ビット単位の &amp;NOT(&amp;N)…" revision="1" />
+    <Item value="ビット単位の NOT 演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseOR">
+    <Item value="ビット単位の &amp;OR(&amp;O)…" revision="1" />
+    <Item value="ビット単位の OR 演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseAND">
+    <Item value="ビット単位の &amp;AND(&amp;A)…" revision="1" />
+    <Item value="ビット単位の AND 演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationBitwiseXOR">
+    <Item value="ビット単位の &amp;XOR(&amp;X)…" revision="1" />
+    <Item value="ビット単位の XOR 演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticNegation">
+    <Item value="論理否定(&amp;E)…" revision="1" />
+    <Item value="論理否定演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticAddition">
+    <Item value="加算演算(&amp;D)…" revision="1" />
+    <Item value="算術加算演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSubtraction">
+    <Item value="減算演算(&amp;S)…" revision="1" />
+    <Item value="算術減算演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticMultiplication">
+    <Item value="乗算演算(&amp;M)…" revision="1" />
+    <Item value="算術乗算演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticDivision">
+    <Item value="除算演算(&amp;I)…" revision="1" />
+    <Item value="算術除算演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticRemainder">
+    <Item value="剰余演算(&amp;R)…" revision="1" />
+    <Item value="算術剰余演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMinimum">
+    <Item value="最小値設定演算(&amp;I)…" revision="1" />
+    <Item value="最小値設定演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationArithmeticSetMaximum">
+    <Item value="最大値設定演算(&amp;X)…" revision="1" />
+    <Item value="最大値設定演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalLeft">
+    <Item value="論理左シフト演算(&amp;G)…" revision="1" />
+    <Item value="論理左シフト演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftLogicalRight">
+    <Item value="論理右シフト演算(&amp;C)…" revision="1" />
+    <Item value="論理右シフト演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticLeft">
+    <Item value="算術左シフト演算(&amp;L)…" revision="1" />
+    <Item value="算術左シフト演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftArithmeticRight">
+    <Item value="算術右シフト演算(&amp;M)…" revision="1" />
+    <Item value="算術右シフト演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateLeft">
+    <Item value="左回転シフト演算(&amp;T)…" revision="1" />
+    <Item value="左回転シフト演算の実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationShiftRotateRight">
+    <Item value="右回転シフト演算(&amp;H)…" revision="1" />
+    <Item value="右回転シフト演算の実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseLower">
+    <Item value="小文字(&amp;L)" revision="1" />
+    <Item value="選択範囲を小文字にする" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseUpper">
+    <Item value="大文字(&amp;U)" revision="1" />
+    <Item value="選択範囲を大文字にする" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationCaseToggle">
+    <Item value="大文字と小文字を反転(&amp;I)" revision="1" />
+    <Item value="選択範囲の大文字と小文字を反転" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBits">
+    <Item value="ビット反転(&amp;R)…" revision="1" />
+    <Item value="ビット反転の演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationReverseBytes">
+    <Item value="バイトスワップ…" revision="1" />
+    <Item value="バイトスワップ演算を実行" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="リフレッシュ(&amp;R) (ディスク/メモリ)" revision="1" />
+    <Item value="現在のウィンドウを更新します (ディスク、プロセス、メモリの場合)" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectCopy">
+    <Item value="選択領域のコピー" revision="1" />
+    <Item value="選択領域のリストをクリップボードにコピー" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectExport">
+    <Item value="選択領域をエクスポート…" revision="1" />
+    <Item value="選択領域のリストをファイルにエクスポート" revision="1" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="すべて消去" revision="1" />
+    <Item value="現在の出力ウィンドウの内容をクリア" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoGoto">
+    <Item value="オフセットに移動" revision="0" />
+    <Item value="指定されたオフセットに移動" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoAdd">
+    <Item value="オフセットを追加" revision="0" />
+    <Item value="現在のオフセットを保存された位置のリストに追加" revision="0" />
+  </Enumeration>
+  <Enumeration key="GotoCopy">
+    <Item value="オフセットのコピー" revision="0" />
+    <Item value="現在のオフセットをクリップボードにコピー" revision="0" />
+  </Enumeration>
+  <Enumeration key="ArithmeticOperations">
+    <Item value="否定" revision="1" />
+    <Item value="加算" revision="1" />
+    <Item value="減算" revision="1" />
+    <Item value="乗算" revision="1" />
+    <Item value="除算" revision="1" />
+    <Item value="剰余" revision="1" />
+    <Item value="最小値の設定" revision="1" />
+    <Item value="最大値の設定" revision="1" />
+  </Enumeration>
+  <Enumeration key="GroupingModes">
+    <Item value="バイト" revision="1" />
+    <Item value="Words" revision="1" />
+    <Item value="Double words" revision="1" />
+    <Item value="Quad words" revision="1" />
+  </Enumeration>
+  <Enumeration key="BitwiseOperations">
+    <Item value="Bitwise NOT" revision="1" />
+    <Item value="Bitwise OR" revision="1" />
+    <Item value="Bitwise AND" revision="1" />
+    <Item value="Bitwise XOR" revision="1" />
+  </Enumeration>
+  <Enumeration key="ReverseOperations">
+    <Item value="ビット反転" revision="1" />
+    <Item value="スワップ バイト" revision="1" />
+  </Enumeration>
+  <Enumeration key="ShiftOperations">
+    <Item value="Logical Left" revision="1" />
+    <Item value="Logical Right" revision="1" />
+    <Item value="Arithmetic Left" revision="1" />
+    <Item value="Arithmetic Right" revision="1" />
+    <Item value="Rotate Left" revision="1" />
+    <Item value="Rotate Right" revision="1" />
+  </Enumeration>
+  <Enumeration key="GotoSelModes">
+    <Item value="変更なし" revision="1" />
+    <Item value="選択範囲を置換" revision="1" />
+    <Item value="選択範囲に追加" revision="1" />
+    <Item value="選択範囲から削除" revision="1" />
+    <Item value="選択範囲を反転" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsertTypes">
+    <Item value="バイト" revision="1" />
+    <Item value="パターンの出現" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelExport">
+    <Item value="選択範囲のエクスポートタイプ" revision="1" />
+    <Item value="16 進数を使用" revision="1" />
+    <Item value="10 進数を使用" revision="1" />
+  </Enumeration>
+  <Enumeration key="PastingTextNotification">
+    <Item value="テキストの貼り付け" revision="1" />
+    <Item value="クリップボードからテキストを貼り付けようとしています。 この操作を実行する前に、付属のドキュメントの対応するセクションを読むことを強くお勧めします。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FindAllDispNotification">
+    <Item value="すべて検索" revision="1" />
+    <Item value="すべて検索は、ビューが「16 進バイト」または「10 進バイト」モードの場合の結果の表示のみをサポートします。 今すぐこのモードに切り替えますか?" revision="1" />
+  </Enumeration>
+  <Enumeration key="SetSizeOptions">
+    <Item value="バイト" revision="1" />
+    <Item value="KB" revision="1" />
+    <Item value="MB" revision="1" />
+    <Item value="GB" revision="1" />
+  </Enumeration>
+  <Enumeration key="TextPasteFeature">
+    <Item value="テキストの貼り付け" revision="1" />
+    <Item value="テキストの貼り付け機能を使用すると、クリップボードからテキストを貼り付け、テキストに 10 進数または 16 進数のシーケンスが含まれている場合はオプションで解析できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="InsModeIndicator">
+    <Item value="OVR" revision="1" />
+    <Item value="INS" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewModes">
+    <Item value="16進数" revision="1" />
+    <Item value="10進数" revision="1" />
+    <Item value="8進数" revision="1" />
+    <Item value="2進数" revision="1" />
+    <Item value="単精度" revision="1" />
+    <Item value="倍精度" revision="1" />
+  </Enumeration>
+  <Enumeration key="MenuSelect">
+    <Item value="選択(&amp;S)" revision="0" />
+    <Item value="選択 メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOperations">
+    <Item value="操作(&amp;O)" revision="0" />
+    <Item value="操作 メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="表示(&amp;A)" revision="0" />
+    <Item value="セル番号の種類を変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="グループ" revision="0" />
+    <Item value="セルのグループ化モードを変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="列(&amp;C)" revision="0" />
+    <Item value="列数の変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndian">
+    <Item value="バイトオーダー(&amp;B)" revision="0" />
+    <Item value="バイトオーダーの変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuOffset">
+    <Item value="オフセット" revision="2" />
+    <Item value="オフセットタイプの変更" revision="2" />
+  </Enumeration>
+  <Enumeration key="MenuColumnsOffset">
+    <Item value="オフセット" revision="2" />
+    <Item value="オフセットタイプの変更" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureEncodings">
+    <Item value="エンコーディング" revision="1" />
+    <Item value="エンコーディング機能を使用すると、エディタ ウィンドウのテキスト ペインの文字エンコーディングを変更できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionWindowInfo">
+    <Item value="合計サイズ" revision="1" />
+    <Item value="フラグメント" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="番号" revision="1" />
+    <Item value="アドレス" revision="1" />
+    <Item value="長さ" revision="1" />
+  </Enumeration>
+  <Enumeration key="SwitchSingleSel">
+    <Item value="「単一選択モード」オプションをオンにする" revision="2" />
+    <Item value="これにより、実質的に複数選択がオフになります。 このオプションは、後で [一般設定] タブでオフに戻すことができます。" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureMultiSel">
+    <Item value="複数選択" revision="1" />
+    <Item value="複数選択機能を使用すると、ビューで複数のデータ ブロックを選択し、それらすべてに編集コマンドを適用できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureFindAll">
+    <Item value="すべての出現箇所を検索" revision="1" />
+    <Item value="Find All Occurrences feature quickly finds all occurrences of a pattern in a file (or within selection) and converts them to the selection." revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureReplaceAll">
+    <Item value="すべての出現箇所を置換" revision="1" />
+    <Item value="すべての出現を置換機能は、パターンの出現をすべてすばやく検索し、別のパターンに置き換えます。 パターンのサイズが異なる場合や、ターゲット パターンが空の場合があります。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureSaveSelection">
+    <Item value="選択範囲を保存" revision="1" />
+    <Item value="選択内容の保存機能を使用すると、現在の選択内容をファイルに保存できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureLoadSelection">
+    <Item value="選択範囲の読み込み" revision="1" />
+    <Item value="選択範囲の読み込み機能を使用すると、ファイルから選択範囲を読み込みできます。 読み込まれた選択は、オプションで現在の選択に追加したり、現在の選択から減算したりできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureConnectTo">
+    <Item value="接続先" revision="1" />
+    <Item value="Connect To 機能を使用すると、2 つのウィンドウを接続して、それらのウィンドウ内でのカーソルの動きをバインドできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureEncrypt/Decrypt">
+    <Item value="暗号化/復号化" revision="1" />
+    <Item value="暗号化/復号化機能を使用すると、インストールされているストリーム暗号またはブロック暗号のいずれかを使用して、選択したデータを暗号化 (および復号化) できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureDataOperations">
+    <Item value="データ操作" revision="1" />
+    <Item value="データ操作機能を使用すると、選択したデータに対してビット単位の算術演算、シフト演算、大文字と小文字の変換、および逆演算を実行できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureCopySelection">
+    <Item value="選択領域をコピー" revision="1" />
+    <Item value="選択領域のコピー機能を使用すると、現在の選択領域のリストをクリップボードにコピーできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="FeatureExportSelection">
+    <Item value="選択領域のエクスポート" revision="1" />
+    <Item value="選択領域のエクスポート機能を使用すると、現在の選択領域のリストをテキスト ファイルにエクスポートできます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="KeyState">
+    <Item value="エラー - 暗号化アルゴリズムが選択されていません。" revision="1" />
+    <Item value="OK" revision="1" />
+    <Item value="入力されたパスワードが一致しません。" revision="1" />
+    <Item value="エラー - パスワードが空です。" revision="1" />
+    <Item value="エラー - キーの長さは 8 の累乗である必要があります。" revision="1" />
+    <Item value="エラー - キーの長さが無効です。" revision="1" />
+  </Enumeration>
+  <Enumeration key="Tooltip">
+    <Item value="選択" revision="1" />
+    <Item value="カーソル" revision="1" />
+    <Item value="変更されたテキスト" revision="1" />
+  </Enumeration>
+  <Enumeration key="InterlaceMode">
+    <Item value="なし" revision="0" />
+    <Item value="インターレース列" revision="0" />
+    <Item value="インターレース行" revision="0" />
+  </Enumeration>
+</Language>

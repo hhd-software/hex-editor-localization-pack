@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ProcessCat" value="プロセス" revision="0" />
+  <Message key="RegionInfo" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]]  {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="Unknown" value="不明" revision="1" />
+  <Message key="N/A" value="N/A" revision="1" />
+  <Message key="Start:" value="開始 :" revision="1" />
+  <Message key="End:" value="終了 :" revision="1" />
+  <Message key="Size:" value="サイズ :" revision="1" />
+  <Message key="Snapshots" value="スナップショット" revision="0" />
+  <Message key="clr.pex_colors" value="プロセスウィンドウの色" revision="1" />
+  <Message key="clr.pex_colors.NoAccess" value="アクセス禁止領域" revision="0" />
+  <Message key="clr.pex_colors.ReadOnly" value="読み取り専用領域" revision="0" />
+  <Message key="clr.pex_colors.ReadWrite" value="読み取り/書き込み領域" revision="0" />
+  <Message key="clr.pex_colors.WriteCopy" value="コピーオンライト領域" revision="0" />
+  <Message key="clr.pex_colors.Free" value="フリー領域" revision="0" />
+  <Message key="Processes" value="プロセス" revision="0" />
+  <Message key="ProcessToolbar" value="プロセス" revision="0" />
+  <Message key="Process filter" value="プロセスの検索…" revision="0" />
+  <Message key="ErrorOpeningProcess" value="選択したプロセスを開いているときに次のエラーが発生しました :\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorTerminatingProcess" value="次のエラーでプロセスの終了に失敗しました :\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorSavingDump" value="プロセスダンプの保存中にエラーが発生しました :\n\n{text} ({code})" revision="0" />
+  <Message key="ErrorRunningDebugger" value="外部デバッガの検索または実行中にエラーが発生しました :\n\n{text} ({code})" revision="0" />
+  <Message key="Process tooltip" value="プロセス名 : {name}\nプロセス ID : {id}\nアーキテクチャ : {arch}\nユーザー : {user}\n状態 : {status}\nイメージのフルパス : {path}\nコマンドライン : {cmdline}" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[bFull image path:]]] {path}\n[[[bCommand line:]]] {cmdline}" revision="0" />
+  <Message key="Exited with" value="{error} で終了しました" revision="0" />
+  <Message key="Snapshot creation error" value="スナップショットの作成中にエラーが発生しました : {text} ({code})" revision="0" />
+  <Message key="Process snapshot template" value="{name} [snapshot]" revision="0" />
+  <Message key="AskClearSnapshots" value="すべてのプロセス スナップショットを削除するアクションは元に戻すことができません。 続行してもよろしいですか?" revision="0" />
+  <Message key="includeFullMemoryInSnapshotDebug" value="スナップショットのデバッグ時に全メモリを含める" revision="0" />
+  <Message key="DumpCreation" value="デバッグ用のスナップショットの準備" revision="0" />
+  <Message key="highlightRegions" value="エディタウィンドウでメモリ領域を強調表示する" revision="0" />
+  <Message key="NoSnapshotting" value="Windows 7 はプロセス スナップショット テクノロジをサポートしていません。 このテクノロジーは、Windows 8 以降の OS バージョンでサポートされています。" revision="0" />
+  <Message key="DumpFileFilter" value="ダンプ ファイル|*.dmp|" revision="0" />
+  <Enumeration key="FileOpenProcess">
+    <Item value="プロセスを開く(&amp;R)…" revision="1" />
+    <Item value="読み取りと書き込みのためにプロセス メモリを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessOpen">
+    <Item value="プロセスを開く(&amp;R)…" revision="0" />
+    <Item value="読み取りと書き込みのためにプロセス メモリを開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenSnapshot">
+    <Item value="プロセスのスナップショットを開く(&amp;R)…" revision="0" />
+    <Item value="プロセスのスナップショットを作成し、そのメモリを開きます" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAllProcesses">
+    <Item value="すべてのプロセスを表示" revision="0" />
+    <Item value="すべてのユーザーのプロセスを表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessAutoRefresh">
+    <Item value="自動更新" revision="0" />
+    <Item value="実行中のプロセスのリストを自動的に更新します" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefresh">
+    <Item value="プロセスリストの更新" revision="0" />
+    <Item value="実行中のプロセスのリストを更新します" revision="0" />
+  </Enumeration>
+  <Enumeration key="GoToProcess">
+    <Item value="移動… (処理中)" revision="1" />
+    <Item value="編集したプロセスメモリ内の指定されたセクションにジャンプします" revision="1" />
+  </Enumeration>
+  <Enumeration key="ProcessCreateSnapshot">
+    <Item value="スナップショットの作成" revision="0" />
+    <Item value="プロセスのスナップショットを作成" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDeleteSnapshot">
+    <Item value="スナップショットの削除" revision="0" />
+    <Item value="選択したスナップショットを削除する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessCompareSnapshots">
+    <Item value="選択したスナップショットを比較 (2 つ選択)" revision="0" />
+    <Item value="2 つのスナップショットを選択して比較する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessClearSnapshots">
+    <Item value="スナップショットの消去" revision="0" />
+    <Item value="すべてのプロセスのスナップショットを削除する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessBlocksMode">
+    <Item value="ブロック" revision="0" />
+    <Item value="プロセスメモリブロックの表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModulesMode">
+    <Item value="モジュール" revision="0" />
+    <Item value="プロセスマップされたモジュールを表示" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessModeSwitch">
+    <Item value="処理領域リストモード" revision="0" />
+    <Item value="領域リストに表示されるデータの種類を変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegion">
+    <Item value="開く (読み取り専用)" revision="0" />
+    <Item value="選択したメモリ領域を読み取り専用として開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessOpenRegionForWrite">
+    <Item value="開く (読み取り/書き込み)" revision="0" />
+    <Item value="選択したメモリ領域を読み取り/書き込みアクセス用に開く" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessRefreshRegions">
+    <Item value="メモリをリフレッシュ" revision="0" />
+    <Item value="メモリをリフレッシュ" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDisasm">
+    <Item value="逆アセンブラの実行" revision="0" />
+    <Item value="選択したモジュールを逆アセンブルする" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessDebug">
+    <Item value="デバッグプロセス/スナップショット" revision="0" />
+    <Item value="外部デバッガーを起動して、選択したプロセスのスナップショットまたは実行中のプロセスをデバッグする" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessSaveDump">
+    <Item value="保存プロセス/スナップショット ダンプ…" revision="0" />
+    <Item value="プロセスの現在の状態のダンプまたは選択したスナップショットをファイルに保存する" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessKill">
+    <Item value="プロセスを終了" revision="0" />
+    <Item value="実行中のプロセスを終了" revision="0" />
+  </Enumeration>
+  <Enumeration key="ProcessChangeColors">
+    <Item value="色の変更…" revision="0" />
+    <Item value="テーマページに移動して、プロセスウィンドウの色を変更" revision="0" />
+  </Enumeration>
+  <Enumeration key="BlockType">
+    <Item value="不明" revision="1" />
+    <Item value="イメージ" revision="1" />
+    <Item value="マッピング済" revision="1" />
+    <Item value="-プライベート" revision="1" />
+  </Enumeration>
+  <Enumeration key="AllocationType">
+    <Item value="不明" revision="1" />
+    <Item value="コミット済" revision="1" />
+    <Item value="フリー" revision="1" />
+    <Item value="予約済" revision="1" />
+  </Enumeration>
+  <Enumeration key="PageAccess">
+    <Item value="No Access" revision="2" />
+    <Item value="Read Only" revision="2" />
+    <Item value="Read, Write" revision="2" />
+    <Item value="Copy on Write" revision="2" />
+    <Item value="Execute" revision="2" />
+    <Item value="Execute, Read" revision="2" />
+    <Item value="Execute, Read, Write" revision="2" />
+    <Item value="Execute, Copy on Write" revision="2" />
+    <Item value="Protected (Guarded)" revision="2" />
+    <Item value="No Cache" revision="2" />
+    <Item value="Write Combine" revision="2" />
+  </Enumeration>
+  <Enumeration key="FeatureDesc">
+    <Item value="プロセスを開く" revision="1" />
+    <Item value="プロセスを開く機能を使用すると、選択したプロセスのメモリ アドレス空間を開いて表示および編集できます。" revision="1" />
+  </Enumeration>
+  <Enumeration key="debuggerType">
+    <Item value="推奨される外部デバッガー" revision="0" />
+    <Item value="登録済み JIT デバッガ" revision="0" />
+    <Item value="Visual Studio" revision="0" />
+    <Item value="WinDBG" revision="0" />
+  </Enumeration>
+  <Enumeration key="Task">
+    <Item value="プロセスを開く" revision="1" />
+    <Item value="表示および変更のためにプロセス メモリを開く" revision="1" />
+  </Enumeration>
+  <Enumeration key="HeapColumns">
+    <Item value="アドレス" revision="1" />
+    <Item value="サイズ" revision="1" />
+    <Item value="種類" revision="1" />
+    <Item value="状況" revision="1" />
+    <Item value="フラグ" revision="1" />
+    <Item value="モジュール" revision="1" />
+  </Enumeration>
+  <Enumeration key="ModulesColumns">
+    <Item value="名前" revision="2" />
+    <Item value="アドレス" revision="2" />
+    <Item value="サイズ" revision="2" />
+    <Item value="パス" revision="2" />
+  </Enumeration>
+  <Enumeration key="ProcessListColumns">
+    <Item value="名前" revision="0" />
+    <Item value="プロセス ID" revision="0" />
+    <Item value="アーキテクチャ" revision="0" />
+    <Item value="ユーザー" revision="0" />
+    <Item value="プライベート バイト" revision="0" />
+    <Item value="スレッド" revision="0" />
+    <Item value="コマンドライン" revision="0" />
+  </Enumeration>
+  <Enumeration key="MachineTypes">
+    <Item value="不明" revision="0" />
+    <Item value="x86" revision="0" />
+    <Item value="x64" revision="0" />
+    <Item value="ARM64" revision="0" />
+  </Enumeration>
+  <Enumeration key="Running">
+    <Item value="実行中" revision="0" />
+    <Item value="終了" revision="0" />
+  </Enumeration>
+</Language>
