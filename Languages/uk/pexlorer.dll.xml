@@ -37,11 +37,11 @@
     <Item value="Відкрити пам'ять процесу для читання та редагування" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessOpen">
-    <Item value="Відкрити п&amp;роцес..." revision="0" />
+    <Item value="Відкрити п&amp;роцес…" revision="0" />
     <Item value="Відкрити пам'ять процесу для читання і запису" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessOpenSnapshot">
-    <Item value="Відкрити з&amp;німок процесу..." revision="0" />
+    <Item value="Відкрити з&amp;німок процесу…" revision="0" />
     <Item value="Створити знімок процесу і відкрити його пам'ять" revision="0" />
   </Enumeration>
   <Enumeration key="ProcessAllProcesses">

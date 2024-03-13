@@ -186,7 +186,7 @@
   <Message key="License Management and Upgrading" value="Gestione di Licenza e Aggiornamento" revision="1" />
   <Message key="Installed license" value="Licenza Installata:" revision="1" />
   <Message key="Start Trial now!" value="Inizia la Prova Ora!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Scegli l'Edizione che si Vuole Aggiornare a. Usa &quot;Ulteriori Informazioni…&quot; link per Avere Maggiori Info sull'Edizione e Seleziona &quot;Confronta Edizione ...&quot; link per Avere la Tabella di Confronto dell'Edizione." revision="1" />
+  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Scegli l'Edizione che si Vuole Aggiornare a. Usa &quot;Ulteriori Informazioni…&quot; link per Avere Maggiori Info sull'Edizione e Seleziona &quot;Confronta Edizione …&quot; link per Avere la Tabella di Confronto dell'Edizione." revision="1" />
   <Message key="Standard Edition:" value="Edizione Standard:" revision="1" />
   <Message key="More Info…" value="Maggiori Informazioni…" revision="1" />
   <Message key="Upgrade…" value="Aggiornamento…" revision="1" />
