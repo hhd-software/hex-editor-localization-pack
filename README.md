@@ -95,4 +95,4 @@ We would like to thank the following persons for their contributions to localiza
    * chyanbo
 
 * Japanese
-   * voolvitto
+   * coolvitto
