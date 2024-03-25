@@ -6,7 +6,7 @@
   <Message key="Structure Viewer" value="構造体ビューア" revision="0" />
   <Message key="Structure Errors" value="構造体エラー" revision="0" />
   <Message key="Error accessing Clipboard" value="クリップボードへのアクセスでエラーが発生しました" revision="0" />
-  <Message key="ModifiedSuffix" value="(修正)" revision="0" />
+  <Message key="ModifiedSuffix" value="(変更)" revision="0" />
   <Message key="NotFoundSuffix" value="(見つかりません)" revision="0" />
   <Message key="FileInUse" value="このファイルは、構造体ビューア によって使用されます。 一部のタイプはバインドされません。 続行しますか？" revision="0" />
   <Message key="ConfigurationLost" value="現在の設定は失われます。 続行しますか？" revision="0" />
@@ -15,7 +15,7 @@
   <Message key="Enter file extension" value="ファイル拡張子を入力" revision="0" />
   <Message key="No schemes available. Create schemes in Structure Viewer first" value="利用可能なスキームはありません。 最初に構造体ビューアでスキームを作成します" revision="0" />
   <Message key="No scheme selected" value="スキームが選択されていません" revision="0" />
-  <Message key="This extension is already used" value="この拡張機能はすでに使用されています" revision="0" />
+  <Message key="This extension is already used" value="この拡張子はすでに使用されています" revision="0" />
   <Message key="All associations will be lost. Do you want to continue?" value="すべての関連付けが失われます。 続行しますか？" revision="0" />
   <Message key="N/A" value="N/A" revision="0" />
   <Message key="Bind is disabled during lengthy operation. Try again later." value="長時間の操作中はバインドが無効になります。 あとでもう一度試してみてください。" revision="0" />
@@ -48,7 +48,7 @@
   <Message key="SchemeExists" value="スキームはすでに存在します。 上書きしますか?" revision="0" />
   <Message key="Scheme already exists" value="スキームはすでに存在します" revision="0" />
   <Message key="External Editor" value="外部エディター" revision="0" />
-  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="構造体ビューア で使用される外部テキスト ファイル エディタを構成 :" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer:" value="構造体ビューア で使用する外部テキスト ファイル エディタの設定 :" revision="0" />
   <Message key="Clear" value="消去" revision="0" />
   <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" value="ヒント: 次のプレースホルダーを使用してください :\n   » %path% - ソースファイルへのパス\n   » %line% - ソースファイル内の行\n   » %pos% -行内の位置" revision="0" />
   <Message key="Library" value="構造体ライブラリ" revision="0" />
@@ -59,9 +59,9 @@
   <Message key="Structure Viewer Page" value="構造体ビューア" revision="0" />
   <Message key="Include directories" value="ディレクトリを含める" revision="0" />
   <Message key="File associations" value="ファイルの関連付け" revision="0" />
-  <Message key="Configure external editor…" value="外部エディタを設定…" revision="0" />
+  <Message key="Configure external editor…" value="外部エディタの設定…" revision="0" />
   <Message key="Regular expression:" value="正規表現 :" revision="0" />
-  <Message key="Associated scheme:" value="スキームの保関連付け" revision="0" />
+  <Message key="Associated scheme:" value="スキームの関連付け" revision="0" />
   <Message key="Structure Coloring" value="構造体のカラーリング" revision="0" />
   <Message key="Apply" value="適用" revision="0" />
   <Message key="Bind Structure" value="結合構造体" revision="0" />
@@ -75,7 +75,7 @@
   <Message key="Bind" value="結合" revision="0" />
   <Message key="Definition:" value="定義 :" revision="0" />
   <Message key="Type:" value="種類 :" revision="0" />
-  <Message key="Data Inspector" value="データインスペクター" revision="0" />
+  <Message key="Data Inspector" value="データ インスペクター" revision="0" />
   <Message key="Available starting from Standard Edition" value="スタンダード エディション から利用可能" revision="0" />
   <Message key="DataInspCompileError" value="構造体が追加されていません :" revision="0" />
   <Message key="CompileErrorFormat" value=" コンパイルエラー {err_line} " revision="0" />
@@ -88,10 +88,10 @@
   <Message key="FileNotSaved" value="現在のドキュメントは変更されています。 保存しますか?" revision="0" />
   <Message key="Files" value="ファイル" revision="0" />
   <Message key="Structures" value="構造体" revision="0" />
-  <Message key="Data Inspector Color Selection" value="データインスペクターの色の選択" revision="0" />
+  <Message key="Data Inspector Color Selection" value="データ インスペクターの色の選択" revision="0" />
   <Message key="Background color:" value="背景色 :" revision="0" />
   <Message key="Text color:" value="テキストの色 :" revision="0" />
-  <Message key="Outline color:" value="輪郭の色 :" revision="0" />
+  <Message key="Outline color:" value="外枠の色 :" revision="0" />
   <Message key="Add Inspector Type" value="インスペクタータイプの追加" revision="0" />
   <Message key="Change Time" value="時間の変更" revision="0" />
   <Message key="AssignNotification" value="このタイプではデータ変更が有効になっていません。 タイプのデータ変更を有効にする方法の詳細については、「ヘルプ」ボタンをクリックしてください。" revision="0" />
@@ -104,7 +104,7 @@
   <Message key="TypeExists" value="同じ名前のタイプがすでに存在します。" revision="0" />
   <Message key="StructureFileNotFound" value="ファイル {file} が場所 &quot;{path}&quot; に見つかりません。 ライブラリから削除しますか?" revision="0" />
   <Message key="toolbar.StructureViewer" value="構造体ビューア" revision="0" />
-  <Message key="toolbar.DataInspector" value="データインスペクター" revision="0" />
+  <Message key="toolbar.DataInspector" value="データ インスペクター" revision="0" />
   <Message key="OpenStructureViewer" value="「構造体ビューアを表示」メッセージの表示" revision="0" />
   <Message key="Open Structure Viewer" value="構造体ビューアを開く" revision="0" />
   <Message key="Open Online Repository" value="オンライン リポジトリで構造定義をさらに見つける" revision="0" />
@@ -169,7 +169,7 @@
   </Enumeration>
   <Enumeration key="StructureViewerGlobalColoring">
     <Item value="グローバル構造のカラーリングスキーム…" revision="0" />
-    <Item value="グローバルなカラーリングスキームを定義" revision="0" />
+    <Item value="全般的なカラーリングスキームの定義" revision="0" />
   </Enumeration>
   <Enumeration key="StructureViewerTooltip">
     <Item value="ツールチップを表示" revision="0" />
@@ -317,7 +317,7 @@
   </Enumeration>
   <Enumeration key="InspChooseColor">
     <Item value="色の変更…" revision="0" />
-    <Item value="データインスペクターのハイライトの色を変更" revision="0" />
+    <Item value="データ インスペクターの強調色を変更" revision="0" />
   </Enumeration>
   <Enumeration key="AddDefinition">
     <Item value="新しい型の追加…" revision="0" />
@@ -332,8 +332,8 @@
     <Item value="選択した型定義を削除" revision="0" />
   </Enumeration>
   <Enumeration key="MenuInspectorNew">
-    <Item value="データインスペクター(&amp;D)" revision="0" />
-    <Item value="データインスペクター メニュー" revision="0" />
+    <Item value="データ インスペクター(&amp;D)" revision="0" />
+    <Item value="データ インスペクター メニュー" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureDataInspector">
     <Item value="データインスペクター" revision="0" />
@@ -344,7 +344,7 @@
     <Item value="ユーザーの種類" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewDefinitionFile">
-    <Item value="新しい構造ファイル(&amp;S)" revision="0" />
+    <Item value="新規構造ファイル(&amp;S)" revision="0" />
     <Item value="空の構造定義ファイルを作成" revision="0" />
   </Enumeration>
   <Enumeration key="StructureNewKaitaiFile">
@@ -357,7 +357,7 @@
   </Enumeration>
   <Enumeration key="StructureAddCurrent">
     <Item value="現在の構造ファイルを追加(&amp;C)" revision="0" />
-    <Item value="Add active structure definition file to the library" revision="0" />
+    <Item value="アクティブな構造定義ファイルをライブラリに追加します" revision="0" />
   </Enumeration>
   <Enumeration key="StructureAdd">
     <Item value="構造ファイルを追加(&amp;A)…" revision="1" />

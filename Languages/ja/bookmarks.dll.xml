@@ -8,24 +8,24 @@
   <Message key="Error creating bookmarks group" value="ブックマーク グループの作成中にエラーが発生しました" revision="0" />
   <Message key="SelWarning" value="現在の選択範囲には複数のフラグメントが含まれています。 それぞれが個別のブックマークとして追加されます。 続行しますか？" revision="0" />
   <Message key="Error converting selection to bookmarks" value="選択範囲をブックマークに変換中にエラーが発生しました" revision="0" />
-  <Message key="Error converting bookmark to selection" value="ブックマークを選択項目に変換中にエラーが発生しました" revision="0" />
+  <Message key="Error converting bookmark to selection" value="ブックマークを選択範囲に変換中にエラーが発生しました" revision="0" />
   <Message key="AllBookmarksDelete" value="すべてのブックマークが削除されます。 続行しますか？" revision="0" />
   <Message key="Error loading from file" value="ファイルからの読み込みエラー" revision="0" />
   <Message key="File has different version" value="ファイルのバージョンが異なります" revision="0" />
   <Message key="Error loading bookmarks" value="ブックマークの読み込みエラー" revision="0" />
   <Message key="Select Action" value="操作の選択" revision="0" />
-  <Message key="New selection" value="新しい選択" revision="0" />
+  <Message key="New selection" value="新しい選択範囲" revision="0" />
   <Message key="Add to selection" value="選択範囲に追加" revision="0" />
   <Message key="Subtract from selection" value="選択範囲から削除する" revision="0" />
-  <Message key="Edit Group" value="グループの編集" revision="0" />
+  <Message key="Edit Group" value="ブックマーク グループの編集" revision="0" />
   <Message key="Name:" value="名前 :" revision="0" />
   <Message key="Text:" value="テキスト :" revision="0" />
   <Message key="Background:" value="背景 :" revision="0" />
   <Message key="Outline:" value="外枠 :" revision="0" />
-  <Message key="Round edges" value="丸いエッジ" revision="0" />
+  <Message key="Round edges" value="角丸エッジ" revision="0" />
   <Message key="BookmarksFilterString" value="ブックマーク ファイル (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="選択範囲 ファイル (*.hexsel)|*.hexsel|" revision="0" />
-  <Message key="Sel2BookmarkWarning" value="選択範囲をブックマークに変換する警告を表示する" revision="1" />
+  <Message key="Sel2BookmarkWarning" value="選択範囲をブックマークに変換するときの警告" revision="1" />
   <Message key="MergeBookmarks" value="既存のブックマークと結合しますか?" revision="0" />
   <Message key="toolbar.Bookmarks" value="ブックマーク" revision="0" />
   <Enumeration key="BookNewGroup">
@@ -74,7 +74,7 @@
   </Enumeration>
   <Enumeration key="BookRemoveAll">
     <Item value="すべて削除(&amp;A)" revision="0" />
-    <Item value="すべての項目を削除します" revision="0" />
+    <Item value="すべてのエントリを削除します" revision="0" />
   </Enumeration>
   <Enumeration key="BookRemoveCurrent">
     <Item value="削除" revision="0" />
@@ -91,14 +91,14 @@
   </Enumeration>
   <Enumeration key="Columns">
     <Item value="表示" revision="0" />
-    <Item value="Sticky" revision="0" />
+    <Item value="追尾" revision="0" />
     <Item value="アクティブ" revision="0" />
-    <Item value="ブックマーク グループ" revision="0" />
-    <Item value="ブックマーク" revision="0" />
+    <Item value="ブックマーク グループ名" revision="0" />
+    <Item value="個数" revision="0" />
     <Item value="色" revision="0" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="番号" revision="0" />
+    <Item value="No." revision="0" />
     <Item value="アドレス" revision="0" />
     <Item value="サイズ" revision="0" />
   </Enumeration>

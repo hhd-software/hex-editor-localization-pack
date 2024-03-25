@@ -23,7 +23,7 @@
   <Message key="Forks" value="{opname} ({items} 項目{has_forks?}, {forks} fork(s){?has_forks})" revision="0" />
   <Message key="Switch To" value="切り替え" revision="0" />
   <Message key="Purge Branches" value="ブランチの消去" revision="0" />
-  <Message key="Purge Tail" value="テールの消去" revision="0" />
+  <Message key="Purge Tail" value="後方を消去" revision="0" />
   <Message key="CantUndone" value="この操作は元に戻すことができません。 続行しますか？" revision="0" />
   <Message key="HistoryInfo" value="項目 : {items}, ブランチ : {branches}, フォーク : {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} バイト ({size as text})" revision="0" />
@@ -76,7 +76,7 @@
   <Message key="Item color:" value="項目の色 :" revision="0" />
   <Message key="Text color:" value="文字色 :" revision="0" />
   <Message key="Background  color:" value="背景色 :" revision="0" />
-  <Message key="Line color:" value="行番号色 :" revision="0" />
+  <Message key="Line color:" value="行の色 :" revision="0" />
   <Message key="Operation History Tree" value="操作履歴ツリー" revision="0" />
   <Message key="Load History" value="履歴の読み込み" revision="0" />
   <Message key="This document already contains a non-empty history. Select an action to continue:" value="このドキュメントには空ではない履歴がすでに含まれています。 続行するアクションを選択してください :" revision="0" />
@@ -99,7 +99,7 @@
   <Message key="Ignore case" value="大文字と小文字を無視する" revision="0" />
   <Message key="Purge History" value="履歴の消去" revision="0" />
   <Message key="Select operation to perform:" value="実行する操作を選択 :" revision="0" />
-  <Message key="Purge redo tail" value="テールのやり直しを消去" revision="0" />
+  <Message key="Purge redo tail" value="やり直しの後方を消去" revision="0" />
   <Message key="Purge branches" value="ブランチを消去" revision="0" />
   <Message key="Clear History" value="履歴の消去" revision="0" />
   <Message key="Purge all" value="すべて消去" revision="0" />
@@ -109,7 +109,7 @@
   <Message key="Range rule:" value="範囲ルール :" revision="0" />
   <Message key="Offset:" value="オフセット :" revision="0" />
   <Message key="Size:" value="サイズ :" revision="0" />
-  <Message key="Round edges" value="丸いエッジ" revision="0" />
+  <Message key="Round edges" value="角丸エッジ" revision="0" />
   <Message key="Change Time" value="日時の変更" revision="0" />
   <Message key="PatternColoring settings" value="パータンの色" revision="0" />
   <Message key="toolbar.Attributes" value="属性" revision="0" />
@@ -134,8 +134,8 @@
     <Item value="操作履歴をファイルから読み込む" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCollapseSame">
-    <Item value="同じ操作のグループ" revision="0" />
-    <Item value="グループ同一操作モードの切り替え" revision="0" />
+    <Item value="同一操作をグループ化" revision="0" />
+    <Item value="同一操作グループ化 モードの切り替え" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryAutoCreateBranches">
     <Item value="ブランチの自動作成" revision="0" />
@@ -207,7 +207,7 @@
   </Enumeration>
   <Enumeration key="HistoryVisMode">
     <Item value="フォークのみ" revision="0" />
-    <Item value="表示のみフォークモードのオン/オフを切り替え" revision="0" />
+    <Item value="フォークモードの オン/オフ のみ表示切り替え" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryVisZoomIn">
     <Item value="ズームイン" revision="0" />
@@ -222,8 +222,8 @@
     <Item value="履歴を画面に合わせる" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryOpenVisualizer">
-    <Item value="完全な操作履歴ツリー…" revision="0" />
-    <Item value="完全な操作履歴ツリーを表示" revision="0" />
+    <Item value="操作履歴ツリー ウィンドウ…" revision="0" />
+    <Item value="操作履歴ツリー ウィンドウの表示" revision="0" />
   </Enumeration>
   <Enumeration key="AttribSaveAttributes">
     <Item value="変更を適用" revision="0" />
@@ -296,7 +296,7 @@
   <Enumeration key="Colors">
     <Item value="背面の色 :" revision="0" />
     <Item value="文字色 :" revision="0" />
-    <Item value="枠の色 :" revision="0" />
+    <Item value="外枠の色 :" revision="0" />
     <Item value="説明" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
@@ -304,7 +304,7 @@
     <Item value="範囲 : {from} – {to} (サイズ : {size})" revision="0" />
   </Enumeration>
   <Enumeration key="PurgeModes">
-    <Item value="元に戻した操作をすべて削除します。 「やり直し」コマンドは実行できなくなります。" revision="0" />
+    <Item value="取り消し操作をすべて削除します。 やり直しコマンドは実行できなくなります。" revision="0" />
     <Item value="現在のブランチを除くすべてのブランチを削除します。" revision="0" />
     <Item value="すべての操作を削除し、すべてのドキュメントの変更を元に戻します。" revision="0" />
     <Item value="ドキュメントの変更を保持しますが、履歴はすべて削除します。" revision="0" />
@@ -341,7 +341,7 @@
   </Enumeration>
   <Enumeration key="FeatureHistoryPurge">
     <Item value="履歴の消去" revision="0" />
-    <Item value="履歴パージ機能を使用すると、変更履歴全体またはその一部をパージできるため、変更履歴の複雑さとサイズを柔軟に制御できます。" revision="0" />
+    <Item value="履歴消去機能を使用すると、変更履歴全体またはその一部を消去できるため、変更履歴の複雑さとサイズを柔軟に制御できます。" revision="0" />
   </Enumeration>
   <Enumeration key="DescriptiveStatistics">
     <Item value="Mean" revision="0" />
@@ -370,7 +370,7 @@
   </Enumeration>
   <Enumeration key="RangeCombo">
     <Item value="ドキュメント全体" revision="0" />
-    <Item value="選択" revision="0" />
+    <Item value="選択範囲" revision="0" />
   </Enumeration>
   <Enumeration key="ColorColumns">
     <Item value="#" revision="0" />
@@ -401,13 +401,13 @@
     <Item value="値 (10進数)" revision="0" />
     <Item value="値 (16進数)" revision="0" />
     <Item value="値 (文字)" revision="0" />
-    <Item value="量" revision="0" />
+    <Item value="個数" revision="0" />
     <Item value="割合" revision="0" />
   </Enumeration>
   <Enumeration key="ColumnsPat">
     <Item value="ブロック" revision="0" />
     <Item value="範囲" revision="0" />
-    <Item value="量" revision="0" />
+    <Item value="個数" revision="0" />
     <Item value="割合" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHistory">

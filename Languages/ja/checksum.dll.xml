@@ -90,7 +90,7 @@
   </Enumeration>
   <Enumeration key="ChecksumDisplayResult">
     <Item value="結果表示" revision="0" />
-    <Item value="選択したチェックサム結果を表示します" revision="0" />
+    <Item value="選択したチェックサムの結果を表示します" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
     <Item value="更新" revision="0" />

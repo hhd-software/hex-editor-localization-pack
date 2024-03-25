@@ -57,7 +57,7 @@
     <Item value="実行中のプロセスのリストを更新します" revision="0" />
   </Enumeration>
   <Enumeration key="GoToProcess">
-    <Item value="移動… (処理中)" revision="1" />
+    <Item value="移動… (プロセス)" revision="1" />
     <Item value="編集したプロセスメモリ内の指定されたセクションにジャンプします" revision="1" />
   </Enumeration>
   <Enumeration key="ProcessCreateSnapshot">
@@ -124,7 +124,7 @@
     <Item value="不明" revision="1" />
     <Item value="イメージ" revision="1" />
     <Item value="マッピング済" revision="1" />
-    <Item value="-プライベート" revision="1" />
+    <Item value="プライベート" revision="1" />
   </Enumeration>
   <Enumeration key="AllocationType">
     <Item value="不明" revision="1" />

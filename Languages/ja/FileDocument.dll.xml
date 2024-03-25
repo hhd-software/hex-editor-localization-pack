@@ -4,8 +4,8 @@
   <Message key="OccFound" value="これまでに {N} 件見つかりました。" revision="1" />
   <Message key="CopiedFragmentName" value="HHD Hex Editor Neo コピーされたデータ" revision="3" />
   <Message key="DefaultBranchName" value="既定" revision="1" />
-  <Message key="Continue working with a file." value="ファイルの操作を続けます。" revision="1" />
-  <Message key="Discard all changes and close the file." value="すべての変更を破棄してファイルを閉じます。" revision="1" />
+  <Message key="Continue working with a file." value="ファイルの操作を続ける。" revision="1" />
+  <Message key="Discard all changes and close the file." value="すべての変更を破棄してファイルを閉じる。" revision="1" />
   <Message key="SharedError" value="ファイルの更新中にエラーが発生しました。" revision="1" />
   <Message key="InvalidChars" value="正規表現クラスに無効な文字が含まれています。" revision="1" />
   <Message key="ClassExists" value="このクラスはすでに存在します。 クラス名を変更します。" revision="1" />
@@ -13,8 +13,8 @@
   <Message key="LoadError" value="内部エラー : {text} ({code})" revision="1" />
   <Message key="CheckForLowDiskSpace" value="操作を実行する前にディスク容量が不足していないか確認する" revision="1" />
   <Message key="IgnoreRenames" value="開いている共有ファイルの名前変更を無視する" revision="1" />
-  <Message key="RemovedNotification" value="共有ドキュメントが削除されました" revision="1" />
-  <Message key="AutoTrySnapshotNotification" value="ディスクスナップショットを使用して自動的に開く" revision="0" />
+  <Message key="RemovedNotification" value="共有ドキュメントの削除" revision="1" />
+  <Message key="AutoTrySnapshotNotification" value="ディスクのスナップショットを使用して自動試行" revision="0" />
   <Message key="NewBranchName" value="ブランチ {n}" revision="1" />
   <Message key="OldVersion" value="{name} (古いバージョン {version}){ext}" revision="1" />
   <Message key="ObjectCreationError" value="&quot;{path}&quot;: ドキュメントオブジェクトの作成中にエラーが発生しました : {text} ({code})" revision="2" />
@@ -24,16 +24,16 @@
   <Message key="Unknown Process" value="不明なプロセス" revision="1" />
   <Message key="Physical Memory" value="物理メモリ" revision="1" />
   <Message key="Shared File Conflict Detected" value="共有ファイルの競合が検出されました" revision="1" />
-  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="ファイルは Hex Editor Neo の外部で変更されています。 あなたは何をしたいですか？" revision="1" />
-  <Message key="Retain all changes and do not update the file" value="すべての変更を保持し、ファイルを更新しません" revision="1" />
-  <Message key="Discard all changes and close the file" value="すべての変更を破棄してファイルを閉じます" revision="1" />
-  <Message key="Discard all changes and update the file" value="すべての変更を破棄してファイルを更新します" revision="1" />
-  <Message key="Retain all changes and update the file" value="すべての変更を保持してファイルを更新します" revision="1" />
-  <Message key="Highlight changes in the file" value="ファイル内の変更を強調表示する" revision="1" />
-  <Message key="using simple algorithm (faster, less accurate)" value="単純なアルゴリズムを使用する (高速だが精度は低い)" revision="1" />
-  <Message key="using difference algorithm (slower, more accurate)" value="差分アルゴリズムを使用する (低速、より正確)" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="ファイルは Hex Editor Neo の外部で変更されています。 どうしますか？" revision="1" />
+  <Message key="Retain all changes and do not update the file" value="すべての変更を保持するが、ファイルは更新しない" revision="1" />
+  <Message key="Discard all changes and close the file" value="すべての変更を破棄してファイルを閉じる" revision="1" />
+  <Message key="Discard all changes and update the file" value="すべての変更を破棄してファイルを更新する" revision="1" />
+  <Message key="Retain all changes and update the file" value="すべての変更を保持してファイルを更新する" revision="1" />
+  <Message key="Highlight changes in the file" value="ファイル内の変更箇所を強調表示する" revision="1" />
+  <Message key="using simple algorithm (faster, less accurate)" value="シンプル アルゴリズムを使用する (高速だが精度は低い)" revision="1" />
+  <Message key="using difference algorithm (slower, more accurate)" value="差分アルゴリズムを使用する (低速だが精度は高い)" revision="1" />
   <Message key="Close older versions of the file" value="ファイルの古いバージョンを閉じます" revision="1" />
-  <Message key="Edit Class" value="-クラスの編集" revision="1" />
+  <Message key="Edit Class" value="クラスの編集" revision="1" />
   <Message key="Class name (must be unique):" value="クラス名 (一意である必要があります) :" revision="1" />
   <Message key="Regular expression:" value="正規表現 :" revision="1" />
   <Message key="Regular Expressions" value="正規表現" revision="1" />
@@ -42,9 +42,9 @@
   <Message key="Add…" value="追加(&amp;A)…" revision="1" />
   <Message key="Edit…" value="編集(&amp;E)…" revision="1" />
   <Message key="Delete All" value="すべて削除(&amp;T)" revision="1" />
-  <Message key="Global regular expression options:" value="グローバル正規表現オプション :" revision="1" />
-  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (ドット) メタキャラクターはヌル文字 ('\\0') と一致しません" revision="1" />
-  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (ドット) メタ文字が改行文字 ('\\n') と一致しません" revision="1" />
+  <Message key="Global regular expression options:" value="全般的な正規表現オプション :" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match null character ('\\0')" value="'.' (ドット) メタ文字はヌル文字 ('\\0') と一致しない" revision="1" />
+  <Message key="'.' (Dot) metacharacter does not match newline character ('\\n')" value="'.' (ドット) メタ文字は改行文字 ('\\n') と一致しない" revision="1" />
   <Message key="Non-escaped white-space is not significant" value="エスケープされていない空白は無視する" revision="1" />
   <Message key="Open Shared" value="共有を開く" revision="1" />
   <Message key="SnapshotTitle" value="スナップショットから開く" revision="0" />
@@ -58,7 +58,7 @@
   </Enumeration>
   <Enumeration key="SharedRemoved">
     <Item value="共有ファイルの競合が検出されました" revision="1" />
-    <Item value="ファイル {name} は別のアプリケーションによって削除されました。 あなたは何をしたいですか？" revision="1" />
+    <Item value="ファイル {name} は別のアプリケーションによって削除されました。 どうしますか？" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
     <Item value="すべて検索" revision="1" />

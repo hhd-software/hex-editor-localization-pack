@@ -15,7 +15,7 @@
   <Message key="Locked" value="このドキュメントは現在ロックされています。 後で操作をやり直してください。" revision="0" />
   <Message key="FormatString" value="すべての実行可能|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|実行可能 (*.exe)|*.exe|Dynamic-link ライブラリ (*.dll)|*.dll|ActiveX ライブラリ (*.ocx)|*.ocx|ドライバ (*.sys)|*.sys|実行可能およびリンク可能な形式|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
   <Message key="N/A" value="利用不可" revision="0" />
-  <Message key="- No section selected -" value="- セクションが選択されていません -" revision="0" />
+  <Message key="- No section selected -" value="- セクションの選択 -" revision="0" />
   <Message key="Can not retrieve file name" value="ファイル名を取得できません" revision="0" />
   <Message key="CLR Execution Engine can not start" value="CLR 実行エンジンの開始エラー : {reason} (エラーコード : {code})" revision="1" />
   <Message key="Incorrect file format" value="CLR からメタデータ インターフェイス {interface} を取得中にエラーが発生しました (エラーコード : {code}) この機能を使用するには、.NET {version} が必要です" revision="1" />
@@ -27,11 +27,11 @@
   <Message key="Go" value="移動" revision="0" />
   <Message key="Go To:" value="移動先 :" revision="0" />
   <Message key="Text" value="テキスト" revision="0" />
-  <Message key="Disassembler" value="逆アセンブラ" revision="0" />
+  <Message key="Disassembler" value="逆アセンブル" revision="0" />
   <Message key="ShowImplicitOperands" value="暗黙的なオペランドを表示する" revision="0" />
   <Message key="ShowPrefixes" value="プレフィックスを表示する" revision="0" />
   <Message key="ShowDecimalValues" value="10 進数値を表示する" revision="0" />
-  <Message key="ShowBytecode" value="rawコードを表示" revision="0" />
+  <Message key="ShowBytecode" value="rawコードを表示する" revision="0" />
   <Message key="ParseSymbols" value="シンボルを解析する" revision="0" />
   <Message key="IntelVisualization" value="AT&amp;T 構文を使用する" revision="0" />
   <Message key="ShowVLines" value="グリッド線を表示する" revision="0" />
@@ -39,15 +39,15 @@
   <Message key="DisasmError" value="ファイルを開くときにエラーが発生しました" revision="0" />
   <Message key="DisasmError2" value="ファイルの逆アセンブル中にエラーが発生しました{has error?} : {error}{?has error}" revision="1" />
   <Message key="OpName" value="コードを逆アセンブル" revision="0" />
-  <Message key="RefreshError" value="逆アセンブリのリフレッシュ中にエラーが発生しました。" revision="0" />
-  <Message key="RefreshErrorSize" value="ファイルサイズが変更されました。 逆アセンブリを更新できません。" revision="0" />
+  <Message key="RefreshError" value="逆アセンブルの更新中にエラーが発生しました。" revision="0" />
+  <Message key="RefreshErrorSize" value="ファイルサイズが変更されました。 逆アセンブルを更新できません。" revision="0" />
   <Message key="Unable to write to a file." value="ファイルへのデータの書き込みエラー。" revision="0" />
   <Message key="ClipboardError" value="データのコピー中にエラーが発生しました。" revision="0" />
   <Message key="Searching" value="検索中" revision="0" />
   <Message key="NotFound" value="パターンが見つかりませんでした" revision="0" />
   <Message key="None" value="なし" revision="0" />
   <Message key="Find what:" value="検索文字列 :" revision="0" />
-  <Message key="InAllColumns" value="--- すべての列で" revision="0" />
+  <Message key="InAllColumns" value="--- すべての列" revision="0" />
   <Message key="Select" value="選択" revision="0" />
   <Message key="Symbol Format:" value="シンボルの形式 :" revision="0" />
   <Message key="Loaded Image Name:" value="読み込まれたイメージ名 :" revision="0" />
@@ -71,7 +71,7 @@
   <Message key="File size:" value="ファイル サイズ :" revision="0" />
   <Message key="Dual view" value="デュアルビュー" revision="0" />
   <Message key="Synchronize cursor with Hex View" value="カーソルを Hex View と同期する" revision="0" />
-  <Message key="Synchronize selection with Hex View" value="選択を Hex View と同期する" revision="0" />
+  <Message key="Synchronize selection with Hex View" value="選択範囲を Hex View と同期する" revision="0" />
   <Message key="Hexadecimal" value="16進数" revision="0" />
   <Message key="Decimal" value="10進数" revision="0" />
   <Message key="Symbols…" value="シンボル…" revision="0" />
@@ -100,7 +100,7 @@
   <Message key="Search" value="検索" revision="0" />
   <Message key="Jump" value="ジャンプ" revision="0" />
   <Message key="Custom" value="カスタム…" revision="0" />
-  <Message key="Custom Section" value="Custom Section" revision="0" />
+  <Message key="Custom Section" value="カスタム セクション" revision="0" />
   <Message key="Physical address" value="物理アドレス :" revision="0" />
   <Message key="Virtual size" value="仮想サイズ :" revision="0" />
   <Message key="Pointer to raw data" value="rawデータへのポインタ :" revision="0" />
@@ -114,10 +114,10 @@
   <Message key="OffsetFormatTip" value="16進数値" revision="0" />
   <Message key="UserDefinedSection" value="ユーザー定義" revision="0" />
   <Message key="MsilFeatureNotAvailable" value="マップされた MSIL モジュールの逆アセンブルは現在サポートされていません。 ファイルシステムからモジュールを逆アセンブルしてください。" revision="0" />
-  <Message key="MsilFeatureNotAvailable2" value="保存されていない MSIL モジュールの逆アセンブリは現在サポートされていません。 まずファイルを保存してください。" revision="0" />
+  <Message key="MsilFeatureNotAvailable2" value="保存されていない MSIL モジュールの逆アセンブルは現在サポートされていません。 まずファイルを保存してください。" revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;保存されていない現在のファイル&gt;" revision="0" />
   <Enumeration key="DisasmRun">
-    <Item value="逆アセンブラを実行…" revision="0" />
+    <Item value="逆アセンブルの実行…" revision="0" />
     <Item value="実行可能ファイルの逆アセンブル" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmExport">
@@ -130,7 +130,7 @@
   </Enumeration>
   <Enumeration key="DisasmSelectColumns">
     <Item value="列の選択…" revision="0" />
-    <Item value="逆アセンブラ列の選択" revision="0" />
+    <Item value="逆アセンブル列の選択" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmShowSymbols">
     <Item value="シンボル…" revision="0" />
@@ -270,8 +270,8 @@
     <Item value="ARMv8" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureDisasm">
-    <Item value="逆アセンブラ" revision="0" />
-    <Item value="逆アセンブラー モジュールを使用すると、ファイルまたはメモリ内の実行可能コードを逆アセンブルできます。 複数の命令セットをサポートし、シンボル ファイルを使用できます。" revision="0" />
+    <Item value="逆アセンブル" revision="0" />
+    <Item value="逆アセンブル モジュールを使用すると、ファイルまたはメモリ内の実行可能コードを逆アセンブルできます。 複数の命令セットをサポートし、シンボル ファイルを使用できます。" revision="0" />
   </Enumeration>
   <Enumeration key="MSILDesc">
     <Item value="命令" revision="0" />
@@ -303,7 +303,7 @@
   </Enumeration>
   <Enumeration key="MethodFunction">
     <Item value="方法" revision="0" />
-    <Item value="関数" revision="0" />
+    <Item value="ファンクション" revision="0" />
   </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="逆アセンブル ファイル" revision="0" />
@@ -339,7 +339,7 @@
   </Enumeration>
   <Enumeration key="CLRErrorReasons">
     <Item value="メタホストが初期化されていませんでした" revision="0" />
-    <Item value="アセンブリの元の .NET Framework コンパイル バージョンを取得できません" revision="0" />
+    <Item value="アセンブルの元の .NET Framework コンパイル バージョンを取得できません" revision="0" />
     <Item value="共通言語ランタイム (CLR) をロードできません。 この機能を使用するには、.NET {version} が必要です。 不足しているコンポーネントをインストールして、再試行してください。" revision="0" />
   </Enumeration>
 </Language>

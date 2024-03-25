@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FilterOperationName" value="ファイル比較結果のフィルタリング" revision="0" />
   <Message key="Different" value="差異" revision="0" />
-  <Message key="Not Found" value="見つかりません" revision="0" />
+  <Message key="Not Found" value="見つからない" revision="0" />
   <Message key="IdenticalNotification" value="ファイル比較 : 同一ファイル内の NTFS ストリーム" revision="0" />
   <Message key="File Comparison" value="ファイルの比較" revision="0" />
   <Message key="Error opening both files" value="両方のファイルを開くときにエラーが発生しました" revision="0" />
@@ -42,10 +42,10 @@
   <Message key="clr.fc_colors.removed.stroke" value="削除された領域のテキスト" revision="0" />
   <Message key="Compare Files Report" value="比較レポート" revision="0" />
   <Message key="Total" value="合計" revision="0" />
-  <Message key="Condition:" value="合計" revision="0" />
+  <Message key="Condition:" value="状態 :" revision="0" />
   <Message key="then" value="then" revision="0" />
   <Message key="IncorrectInputTitle" value="間違った入力" revision="0" />
-  <Message key="NotANumberError" value="Must be decimal or hexadecimal value" revision="0" />
+  <Message key="NotANumberError" value="10進数または16進数の値でなければなりません" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="再比較" revision="0" />
     <Item value="ファイルの再比較" revision="0" />
@@ -84,21 +84,21 @@
   </Enumeration>
   <Enumeration key="DiffFilter">
     <Item value="フィルターの定義…" revision="0" />
-    <Item value="指定された基準で比較結果をフィルタリングする" revision="0" />
+    <Item value="指定したルールで比較結果をフィルタリングする" revision="0" />
   </Enumeration>
   <Enumeration key="DiffReport">
     <Item value="比較レポートを表示" revision="0" />
     <Item value="比較結果の統計を表示する" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
-    <Item value="単純な比較アルゴリズム" revision="1" />
+    <Item value="シンプル比較アルゴリズム" revision="1" />
     <Item value="差分アルゴリズム" revision="1" />
-    <Item value="差分アルゴリズム (代替)" revision="1" />
+    <Item value="差分アルゴリズム (alternate)" revision="1" />
   </Enumeration>
   <Enumeration key="Alignment">
     <Item value="整列しない" revision="0" />
-    <Item value="水平に揃える" revision="0" />
-    <Item value="垂直に揃える" revision="0" />
+    <Item value="横に並べる" revision="0" />
+    <Item value="縦に並べる" revision="0" />
   </Enumeration>
   <Enumeration key="DiffTypes">
     <Item value="普通" revision="0" />
@@ -131,7 +131,7 @@
   </Enumeration>
   <Enumeration key="BlockTypes">
     <Item value="一致" revision="0" />
-    <Item value="修正済" revision="0" />
+    <Item value="変更" revision="0" />
     <Item value="挿入" revision="0" />
     <Item value="削除" revision="0" />
     <Item value="移動" revision="0" />
@@ -157,7 +157,7 @@
     <Item value="アクティブ" revision="0" />
     <Item value="列" revision="0" />
     <Item value="操作" revision="0" />
-    <Item value="-値" revision="0" />
+    <Item value="値" revision="0" />
     <Item value="アクション" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterAdd">
@@ -165,16 +165,16 @@
     <Item value="現在のスキームにフィルター ルールを追加" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterEdit">
-    <Item value="フィルタルールの編集" revision="0" />
+    <Item value="フィルタールールの編集" revision="0" />
     <Item value="現在のスキームのフィルター ルールを編集" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterRemove">
-    <Item value="フィルタルールの削除" revision="0" />
+    <Item value="フィルタールールの削除" revision="0" />
     <Item value="現在のスキームからフィルター ルールを削除" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterReset">
     <Item value="すべてのフィルター スキームの変更をロールバック" revision="0" />
-    <Item value="すべてのスキーム変更をロールバック" revision="0" />
+    <Item value="すべてのスキームの変更をロールバック" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterSwitch">
     <Item value="フィルタリングの有効化/無効化" revision="0" />

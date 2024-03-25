@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Copy&amp;Export" value="コピー&amp;エクスポート" revision="1" />
+  <Message key="Copy&amp;Export" value="形式指定コピー/エクスポート" revision="1" />
   <Message key="BigSizeNotification" value="大きなテキストのコピー通知" revision="1" />
-  <Message key="FloatingDigits" value="浮動小数点数 コピー/エクスポート桁数" revision="1" />
+  <Message key="FloatingDigits" value="単精度 コピー/エクスポート桁数" revision="1" />
   <Message key="DoubleDigits" value="倍精度 コピー/エクスポート桁数" revision="1" />
   <Message key="IntelHexColumns" value="Intel HEX および Motorola S フォーマットの行あたりのバイト数" revision="1" />
-  <Message key="EncodedFormat" value="エンコードされたデータ(&amp;E)" revision="1" />
+  <Message key="EncodedFormat" value="エンコード(&amp;E)" revision="1" />
   <Message key="RawFilter" value="テキスト ファイル (*.txt)|*.txt|" revision="1" />
   <Message key="Little Endian" value="リトルエンディアン" revision="1" />
   <Message key="Big Endian" value="ビッグエンディアン" revision="1" />
-  <Message key="FormattedFormat" value="フォーマットされた値(&amp;F)" revision="1" />
-  <Message key="CopyExportLocalized" value="コピーと &amp; エクスポート" revision="2" />
+  <Message key="FormattedFormat" value="フォーマット(&amp;F)" revision="1" />
+  <Message key="CopyExportLocalized" value="形式指定コピー/エクスポート" revision="2" />
   <Message key="Export" value="エクスポート(&amp;X)" revision="1" />
   <Message key="BadFormat" value="エクスポート形式では選択したデータを処理できません" revision="1" />
   <Message key="BadImportFormat" value="データ形式が正しくありません。" revision="1" />
@@ -44,7 +44,7 @@
   <Message key="Encoding:" value="エンコーディング :" revision="1" />
   <Message key="OpenError" value="&quot;{path}&quot;: HEX ファイルを開くときにエラーが発生しました : {text} ({code})" revision="3" />
   <Enumeration key="EditCopyAs">
-    <Item value="コピー形式(&amp;A)…" revision="1" />
+    <Item value="形式指定コピー(&amp;A)…" revision="1" />
     <Item value="選択範囲をサポートされている形式のいずれかに変換し、クリップボードに配置します" revision="1" />
   </Enumeration>
   <Enumeration key="EditExport">
@@ -52,8 +52,8 @@
     <Item value="選択範囲をエクスポート" revision="1" />
   </Enumeration>
   <Enumeration key="EditPasteAs">
-    <Item value="貼り付け形式(&amp;S)…" revision="1" />
-    <Item value="クリップボード内のデータを解析してドキュメントに貼り付けます" revision="1" />
+    <Item value="形式指定貼り付け(&amp;S)…" revision="1" />
+    <Item value="クリップボード内のデータを指定形式でドキュメントに貼り付けます" revision="1" />
   </Enumeration>
   <Enumeration key="EditInsertHex">
     <Item value="16進数の挿入(&amp;H)…" revision="1" />
@@ -83,15 +83,15 @@
     <Item value="Motorola S 37" revision="1" />
   </Enumeration>
   <Enumeration key="EncodedFeature">
-    <Item value="エンコードされたデータのコピー/エクスポート" revision="1" />
-    <Item value="エンコードされたデータのコピー/エクスポート機能を使用すると、現在の選択内容を Base64、UUEncode、または Quoted-Printable 形式でコピーまたはエクスポートできます。" revision="1" />
+    <Item value="エンコードを指定してデータのコピー/エクスポート" revision="1" />
+    <Item value="エンコードを指定してデータのコピー/エクスポート機能を使用すると、現在の選択内容を Base64、UUEncode、または Quoted-Printable 形式でコピーまたはエクスポートできます。" revision="1" />
   </Enumeration>
   <Enumeration key="FormattedFeature">
-    <Item value="フォーマットされたデータのコピー/エクスポート" revision="1" />
-    <Item value="フォーマットされたデータのコピー/エクスポート機能を使用すると、コード ペインの内容をさまざまな形式でコピーまたはエクスポートできます。" revision="1" />
+    <Item value="形式を指定してデータのコピー/エクスポート" revision="1" />
+    <Item value="形式を指定してデータのコピー/エクスポート機能を使用すると、コード ペインの内容をさまざまな形式でコピーまたはエクスポートできます。" revision="1" />
   </Enumeration>
   <Enumeration key="Encodings">
-    <Item value="現行" revision="1" />
+    <Item value="現在" revision="1" />
     <Item value="なし" revision="1" />
     <Item value="システムの既定" revision="1" />
     <Item value="OEM" revision="1" />

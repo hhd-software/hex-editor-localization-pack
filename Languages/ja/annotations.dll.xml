@@ -58,7 +58,7 @@
     <Item value="適用" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="番号" revision="0" />
+    <Item value="No." revision="0" />
     <Item value="アドレス" revision="0" />
     <Item value="サイズ" revision="0" />
     <Item value="テキスト" revision="0" />

@@ -10,10 +10,10 @@
   <Message key="IndexSNError" value="インデックス ブロック シーケンス番号の解析エラー" revision="0" />
   <Message key="NoFilenameStream" value="インデックス エントリにファイル名ストリームがありません : {record}" revision="0" />
   <Message key="ClusterOutOfBounds" value="クラスターがデータ実行境界を超えています" revision="0" />
-  <Message key="DataRunLengthError" value="データランレングス エラー: {length}" revision="0" />
-  <Message key="DataRunDecodeError" value="データランデコード エラー : サイズ = {size}, オフセット = {offset}" revision="0" />
-  <Message key="DataRunVCNBound" value="データ実行デコード エラー : VCN が制限を超えています" revision="0" />
-  <Message key="DataRunLCN" value="データ実行のデコード中にエラーが発生しました : LCN &lt; 0" revision="0" />
+  <Message key="DataRunLengthError" value="データ ランレングス エラー: {length}" revision="0" />
+  <Message key="DataRunDecodeError" value="データ ランデコード エラー : サイズ = {size}, オフセット = {offset}" revision="0" />
+  <Message key="DataRunVCNBound" value="データ ランデコード エラー : VCN が制限を超えています" revision="0" />
+  <Message key="DataRunLCN" value="データランのデコード中にエラーが発生しました : LCN &lt; 0" revision="0" />
   <Message key="FileNotParsed" value="不明なファイルエントリ" revision="0" />
   <Message key="FilenameAttributeError" value="レコードのファイル属性の解析中にエラーが発生しました {record}" revision="0" />
   <Message key="CopyFileError" value="ファイルのコピー中にエラーが発生しました &quot;{filename}&quot;" revision="0" />
@@ -88,8 +88,8 @@
     <Item value="Hex Editor Neo でファイルを開く" revision="0" />
   </Enumeration>
   <Enumeration key="ShowInFolder">
-    <Item value="含まれているフォルダを開く(&amp;F)" revision="0" />
-    <Item value="エントリが含まれているフォルダを開く" revision="0" />
+    <Item value="エントリの場所を開く(&amp;F)" revision="0" />
+    <Item value="エントリのある場所のフォルダーを開く" revision="0" />
   </Enumeration>
   <Enumeration key="LevelUp">
     <Item value="親へ移動(&amp;U)" revision="0" />

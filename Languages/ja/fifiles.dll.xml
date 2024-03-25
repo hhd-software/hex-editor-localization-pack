@@ -38,8 +38,8 @@
     <Item value="保存中" revision="1" />
   </Enumeration>
   <Enumeration key="Find modes">
-    <Item value="少なくとも 1 つの出現箇所を見つける" revision="1" />
-    <Item value="すべての出現箇所を検索します (遅い)" revision="1" />
+    <Item value="少なくとも 1 つの出現箇所を検索" revision="1" />
+    <Item value="すべての出現箇所を検索 (遅い)" revision="1" />
   </Enumeration>
   <Enumeration key="Replace modes">
     <Item value="すべての出現箇所を置換して保存" revision="1" />
@@ -62,9 +62,9 @@
     <Item value="ファイル内置き換え機能を使用すると、単一または複数のフォルダ内のファイル内で出現するパターンをすべて検索し、別のパターンで置換 (または削除) できます。" revision="1" />
   </Enumeration>
   <Enumeration key="Replace all and save options">
-    <Item value="「常にバックアップを作成する」オプションを有効にして続行します。" revision="1" />
-    <Item value="「すべての出現を置換して開く」モードに切り替えて続行します。" revision="1" />
-    <Item value="このモードで続行します (推奨されません)" revision="1" />
+    <Item value="「常にバックアップを作成する」オプションを有効にして続行する。" revision="1" />
+    <Item value="「すべての出現を置換して開く」モードに切り替えて続行する。" revision="1" />
+    <Item value="このモードで続行する (推奨されません)" revision="1" />
     <Item value="キャンセル" revision="1" />
   </Enumeration>
   <Enumeration key="ReplaceAllAndSaveWarning">
