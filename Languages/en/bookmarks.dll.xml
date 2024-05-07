@@ -1,143 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <!-- Commands -->
-  <Enumeration key="BookNewGroup" description="Command: Bookmarks.New Group">
-    <Item text="New Bookmarks Group"/>
-    <Item text="Create a new bookmarks group"/>
-  </Enumeration>
-  <Enumeration key="BookToggle" description="Command: Bookmarks.Toggle bookmark">
-    <Item text="Toggle Bookmark"/>
-    <Item text="Put or remove a bookmark on the current position"/>
-  </Enumeration>
-  <Enumeration key="BookPrev" description="Command: Bookmarks.Previous">
-    <Item text="Previous Bookmark"/>
-    <Item text="Go to the previous bookmark"/>
-  </Enumeration>
-  <Enumeration key="BookNext" description="Command: Bookmarks.Next">
-    <Item text="Next Bookmark"/>
-    <Item text="Go to the next bookmark"/>
-  </Enumeration>
-  <Enumeration key="BookSelectionToBookmark" description="Command: Bookmarks.Selection to Bookmarks">
-    <Item text="Selection to Bookmarks"/>
-    <Item text="Convert the current selection to bookmarks"/>
-  </Enumeration>
-  <Enumeration key="BookBookmarkToSelection" description="Command: Bookmarks.Bookmarks to Selection">
-    <Item text="Bookmarks to Selection…"/>
-    <Item text="Convert the current bookmarks to selection"/>
-  </Enumeration>
-  <Enumeration key="BookLoad" description="Command: Bookmarks.Load">
-    <Item text="Load Bookmarks…"/>
-    <Item text="Load bookmarks from a file"/>
-  </Enumeration>
-  <Enumeration key="BookSave" description="Command: Bookmarks.Save">
-    <Item text="Save Bookmarks…"/>
-    <Item text="Save bookmarks to a file"/>
-  </Enumeration>
-  <Enumeration key="MenuBookmarks" description="Command group: Bookmarks">
-    <Item text="&amp;Bookmarks"/>
-    <Item text="Bookmarks menu"/>
-  </Enumeration>
+	<!-- Commands -->
+	<Enumeration key="BookNewGroup" description="Command: Bookmarks.New Group">
+		<Item text="New Bookmarks Group"/>
+		<Item text="Create a new bookmarks group"/>
+	</Enumeration>
+	<Enumeration key="BookToggle" description="Command: Bookmarks.Toggle bookmark">
+		<Item text="Toggle Bookmark"/>
+		<Item text="Put or remove a bookmark on the current position"/>
+	</Enumeration>
+	<Enumeration key="BookPrev" description="Command: Bookmarks.Previous">
+		<Item text="Previous Bookmark"/>
+		<Item text="Go to the previous bookmark"/>
+	</Enumeration>
+	<Enumeration key="BookNext" description="Command: Bookmarks.Next">
+		<Item text="Next Bookmark"/>
+		<Item text="Go to the next bookmark"/>
+	</Enumeration>
+	<Enumeration key="BookSelectionToBookmark" description="Command: Bookmarks.Selection to Bookmarks">
+		<Item text="Selection to Bookmarks"/>
+		<Item text="Convert the current selection to bookmarks"/>
+	</Enumeration>
+	<Enumeration key="BookBookmarkToSelection" description="Command: Bookmarks.Bookmarks to Selection">
+		<Item text="Bookmarks to Selection…"/>
+		<Item text="Convert the current bookmarks to selection"/>
+	</Enumeration>
+	<Enumeration key="BookLoad" description="Command: Bookmarks.Load">
+		<Item text="Load Bookmarks…"/>
+		<Item text="Load bookmarks from a file"/>
+	</Enumeration>
+	<Enumeration key="BookSave" description="Command: Bookmarks.Save">
+		<Item text="Save Bookmarks…"/>
+		<Item text="Save bookmarks to a file"/>
+	</Enumeration>
+	<Enumeration key="MenuBookmarks" description="Command group: Bookmarks">
+		<Item text="&amp;Bookmarks"/>
+		<Item text="Bookmarks menu"/>
+	</Enumeration>
+	<Enumeration key="BookMoveDown" description="Command: Bookmarks.MoveDown">
+		<Item text="Move Group Down"/>
+		<Item text="Move selected group down"/>
+	</Enumeration>
+	<Enumeration key="BookMoveUp" description="Command: Bookmarks.MoveUp">
+		<Item text="Move Group Up"/>
+		<Item text="Move selected group up"/>
+	</Enumeration>
+	<Enumeration key="BookExportCSV" description="Command: Bookmarks.BookExportCSV">
+		<Item text="Export To CSV"/>
+		<Item text="Export bookmarks to CSV"/>
+	</Enumeration>
+	<Enumeration key="BookImportCSV" description="Command: Bookmarks.BookImportCSV">
+		<Item text="Import From CSV"/>
+		<Item text="Import bookmarks from CSV"/>
+	</Enumeration>
 
-  <!-- Strings that were custom context menu now become normal menu -->
-  <Enumeration key="BookSelect" description="Command: Select group">
-    <Item text="&amp;Select"/>
-    <Item text="Select this bookmarks group"/>
-  </Enumeration>
-  <Enumeration key="BookEdit" description="Command: Edit group">
-    <Item text="&amp;Edit"/>
-    <Item text="Edit bookmarks group"/>
-  </Enumeration>
-  <Enumeration key="BookRemoveAll" description="Command: Remove All">
-    <Item text="Remove &amp;All"/>
-    <Item text="Remove all entries"/>
-  </Enumeration>
-  <Enumeration key="BookRemoveCurrent" description="Command: Remove Current">
-    <Item text="Remove"/>
-    <Item text="Remove current entry"/>
-  </Enumeration>
-  <Enumeration key="BookGoto" description="Command: Go to Bookmark">
-    <Item text="Go to Bookmark"/>
-    <Item text="Go to selected bookmark"/>
-  </Enumeration>
+	<!-- Strings that were custom context menu now become normal menu -->
+	<Enumeration key="BookSelect" description="Command: Select group">
+		<Item text="&amp;Select"/>
+		<Item text="Select this bookmarks group"/>
+	</Enumeration>
+	<Enumeration key="BookEdit" description="Command: Edit group">
+		<Item text="&amp;Edit"/>
+		<Item text="Edit bookmarks group"/>
+	</Enumeration>
+	<Enumeration key="BookRemoveAll" description="Command: Remove All">
+		<Item text="Remove &amp;All"/>
+		<Item text="Remove all entries"/>
+	</Enumeration>
+	<Enumeration key="BookRemoveCurrent" description="Command: Remove Current">
+		<Item text="Remove"/>
+		<Item text="Remove current entry"/>
+	</Enumeration>
+	<Enumeration key="BookGoto" description="Command: Go to Bookmark">
+		<Item text="Go to Bookmark"/>
+		<Item text="Go to selected bookmark"/>
+	</Enumeration>
 
-  <Enumeration key="ModeDescription" description="Bookmarks to selection modes description">
-    <Item text="Drop the current selection and convert the current bookmarks group to a new selection."/>
-    <Item text="Add the current bookmarks group to a selection."/>
-    <Item text="Subtract the current bookmarks group from a selection."/>
-  </Enumeration>
+	<Enumeration key="ModeDescription" description="Bookmarks to selection modes description">
+		<Item text="Drop the current selection and convert the current bookmarks group to a new selection."/>
+		<Item text="Add the current bookmarks group to a selection."/>
+		<Item text="Subtract the current bookmarks group from a selection."/>
+	</Enumeration>
 
-  <Message key="Bookmarks" description="Bookmarks tool window"/>
+	<Message key="Bookmarks" description="Bookmarks tool window"/>
 
-  <Enumeration key="Columns" description="Columns">
-    <Item text="Visible"/>
-    <Item text="Sticky"/>
-    <Item text="Active"/>
-    <Item text="Bookmark Group"/>
-    <Item text="Bookmarks"/>
-    <Item text="Color"/>
-  </Enumeration>
+	<Enumeration key="Columns" description="Columns">
+		<Item text="Visible"/>
+		<Item text="Sticky"/>
+		<Item text="Active"/>
+		<Item text="Bookmark Group"/>
+		<Item text="Bookmarks"/>
+		<Item text="Color"/>
+	</Enumeration>
 
-  <Enumeration key="RightColumns" description="Bookmark list columns">
-    <Item text="No."/>
-    <Item text="Address"/>
-    <Item text="Size"/>
-  </Enumeration>
+	<Enumeration key="RightColumns" description="Bookmark list columns">
+		<Item text="No."/>
+		<Item text="Address"/>
+		<Item text="Size"/>
+	</Enumeration>
 
-  <Message key="Progress" description="Current operation is in progress. Please wait until it is finished." value="Current operation is in progress. Please wait until it is finished."/>
-  <Message key="GroupDelete" description="Group will be deleted (including all bookmarks it contains). Do you want to continue?" value="Group will be deleted (including all bookmarks it contains). Do you want to continue?"/>
-  <Message key="AllDelete" description="All groups will be deleted. Do you want to continue?" value="All groups will be deleted. Do you want to continue?"/>
+	<Message key="Progress" description="Current operation is in progress. Please wait until it is finished." value="Current operation is in progress. Please wait until it is finished."/>
+	<Message key="GroupDelete" description="Group will be deleted (including all bookmarks it contains). Do you want to continue?" value="Group will be deleted (including all bookmarks it contains). Do you want to continue?"/>
+	<Message key="AllDelete" description="All groups will be deleted. Do you want to continue?" value="All groups will be deleted. Do you want to continue?"/>
 
-  <Enumeration key="FeatureBookmarks" description="Bookmarks feature">
-    <Item text="Bookmarks"/>
-    <Item text="Bookmarks feature allows you to place bookmarks in a file for quick browsing."/>
-  </Enumeration>
+	<Enumeration key="FeatureBookmarks" description="Bookmarks feature">
+		<Item text="Bookmarks"/>
+		<Item text="Bookmarks feature allows you to place bookmarks in a file for quick browsing."/>
+	</Enumeration>
 
-  <Message key="BookmarkGroup" description="Bookmark Group N" value="Bookmark Group {n}">
-    <Param name="n"/>
-  </Message>
-  <Message key="Error creating bookmarks group" description="Error creating bookmarks group"/>
-  <Message key="SelWarning" description="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?" value="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?"/>
-  <Message key="Error converting selection to bookmarks" description="Error converting selection to bookmarks"/>
-  <Message key="Error converting bookmark to selection" description="Error converting bookmark to selection"/>
+	<Message key="BookmarkGroup" description="Bookmark Group N" value="Bookmark Group {n}">
+		<Param name="n"/>
+	</Message>
+	<Message key="Error creating bookmarks group" description="Error creating bookmarks group"/>
+	<Message key="SelWarning" description="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?" value="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?"/>
+	<Message key="Error converting selection to bookmarks" description="Error converting selection to bookmarks"/>
+	<Message key="Error converting bookmark to selection" description="Error converting bookmark to selection"/>
 
-  <Message key="AllBookmarksDelete" description="All bookmarks will be deleted. Do you want to continue?" value="All bookmarks will be deleted. Do you want to continue?"/>
+	<Message key="AllBookmarksDelete" description="All bookmarks will be deleted. Do you want to continue?" value="All bookmarks will be deleted. Do you want to continue?"/>
 
-  <Message key="Error loading from file" description="Error loading from file"/>
-  <Message key="File has different version" description="File has different version"/>
-  <Message key="Error loading bookmarks" description="Error loading bookmarks"/>
-  
+	<Message key="Error loading from file" description="Error loading from file"/>
+	<Message key="File has different version" description="File has different version"/>
+	<Message key="Error loading bookmarks" description="Error loading bookmarks"/>
 
-  <!-- dialogs -->
-  <!-- Select Action dialog -->
-  <Message key="Select Action" description="Select Action window title"/>
-  <Message key="New selection" description="Choice: New selection"/>
-  <Message key="Add to selection" description="Choice: Add to selection"/>
-  <Message key="Subtract from selection" description="Choice: Subtract from selection"/>
-  
-  <!-- Edit group dialog -->
-  <Message key="Edit Group" description="Edit Group window title"/>
-  <Message key="Name:" description="Field: Name"/>
-  <Message key="Text:" description="Field: Text"/>
-  <Message key="Background:" description="Field: Background:"/>
-  <Message key="Outline:" description="Field: Outline"/>
-  <Message key="Round edges" description="Checkbox: Round edges"/>
 
-  <Message key="BookmarksFilterString" description="Bookmarks filter string" value="Bookmark Files (*.hexbook)|*.hexbook|">
-    <Validate rule="OpenFileDialogFilter"/>
-  </Message>
+	<!-- dialogs -->
+	<!-- Select Action dialog -->
+	<Message key="Select Action" description="Select Action window title"/>
+	<Message key="New selection" description="Choice: New selection"/>
+	<Message key="Add to selection" description="Choice: Add to selection"/>
+	<Message key="Subtract from selection" description="Choice: Subtract from selection"/>
 
-  <Message key="SelectionFilterString" description="Selection filter string" value="Selection Files (*.hexsel)|*.hexsel|">
-    <Validate rule="OpenFileDialogFilter"/>
-  </Message>
+	<!-- Edit group dialog -->
+	<Message key="Save Preset" description="Button: Save Preset"/>
+	<Message key="Edit Group" description="Edit Group window title"/>
+	<Message key="Preset:" description="Field: Preset"/>
+	<Message key="Name:" description="Field: Name"/>
+	<Message key="Text:" description="Field: Text"/>
+	<Message key="Background:" description="Field: Background:"/>
+	<Message key="Outline:" description="Field: Outline"/>
+	<Message key="Round edges" description="Checkbox: Round edges"/>
 
-  <Enumeration key="SelectionNotification" description="Notification: Selection to bookmark conversion warning" revision="1">
-    <Item text="Selection to bookmark conversion warning"/>
-    <Item text="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?"/>
-  </Enumeration>
+	<Message key="Please enter a color preset name" description="Message: Please enter a color preset name"/>
+	<!--<Message key="Enter a name to save current colors as preset" description="Cue Banner Text: Enter a name to save current colors as preset"/>-->
+	<Message key="Do you want to replace color preset" description="Message: Replace color preset" value="Do you want to replace color preset &quot;{name}&quot;?">
+		<Param name="name"/>
+	</Message>
 
-  <Message key="Sel2BookmarkWarning" description="Option: Show selection to bookmark conversion warning" revision="1" value="Show selection to bookmark conversion warning"/>
+	<Message key="BookmarksFilterString" description="Bookmarks filter string" value="Bookmark Files (*.hexbook)|*.hexbook|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
 
-  <Message key="MergeBookmarks" description="Do you want to merge with existing bookmarks." value="Do you want to merge with existing bookmarks."/>
+	<Message key="SelectionFilterString" description="Selection filter string" value="Selection Files (*.hexsel)|*.hexsel|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Enumeration key="SelectionNotification" description="Notification: Selection to bookmark conversion warning" revision="1">
+		<Item text="Selection to bookmark conversion warning"/>
+		<Item text="Current selection contains multiple fragments. Each will be added as separate bookmarks. Do you want to continue?"/>
+	</Enumeration>
+
+	<Message key="Sel2BookmarkWarning" description="Option: Show selection to bookmark conversion warning" revision="1" value="Show selection to bookmark conversion warning"/>
+
+	<Message key="MergeBookmarks" description="Do you want to merge with existing bookmarks." value="Do you want to merge with existing bookmarks."/>
 
 	<Message key="toolbar.Bookmarks" description="Toolbar: Bookmarks" value="Bookmarks" />
+	<Message key="InvalidCSVformat" description="Message: Invalid CSV format" value="Invalid CSV file format. All rows must contain {columns} columns separated with '{separator}'">
+		<Param name="columns"/>
+		<Param name="separator" format="c"/>
+	</Message>
 </Definition>

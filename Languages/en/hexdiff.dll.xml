@@ -48,6 +48,11 @@
 	<Item text="Display comparison results statistics"/>
   </Enumeration>
 
+  <Enumeration key="DiffClear" description="Diff.Clear">
+	<Item text="Clear Results"/>
+	<Item text="Clear comparison results"/>
+  </Enumeration>
+	
   <Message key="FilterOperationName" description="Operation name for filtering process" value="Filtering file comparison results"/>
   <Message key="Different" description="Different"/>
   <Message key="Not Found" description="Not Found"/>
