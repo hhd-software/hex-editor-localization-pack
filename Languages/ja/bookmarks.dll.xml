@@ -17,17 +17,22 @@
   <Message key="New selection" value="新しい選択範囲" revision="0" />
   <Message key="Add to selection" value="選択範囲に追加" revision="0" />
   <Message key="Subtract from selection" value="選択範囲から削除する" revision="0" />
+  <Message key="Save Preset" value="プリセットの保存" revision="0" />
   <Message key="Edit Group" value="ブックマーク グループの編集" revision="0" />
+  <Message key="Preset:" value="プリセット :" revision="0" />
   <Message key="Name:" value="名前 :" revision="0" />
   <Message key="Text:" value="テキスト :" revision="0" />
   <Message key="Background:" value="背景 :" revision="0" />
   <Message key="Outline:" value="外枠 :" revision="0" />
   <Message key="Round edges" value="角丸エッジ" revision="0" />
+  <Message key="Please enter a color preset name" value="カラープリセット名を入力してください" revision="0" />
+  <Message key="Do you want to replace color preset" value="カラープリセット &quot;{name}&quot; を置き換えますか?" revision="0" />
   <Message key="BookmarksFilterString" value="ブックマーク ファイル (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="選択範囲 ファイル (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="選択範囲をブックマークに変換するときの警告" revision="1" />
   <Message key="MergeBookmarks" value="既存のブックマークと結合しますか?" revision="0" />
   <Message key="toolbar.Bookmarks" value="ブックマーク" revision="0" />
+  <Message key="InvalidCSVformat" value="CSV ファイル形式が無効です。 すべての行には、 '{separator}' で区切られた {columns} 列が含まれている必要があります" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="新しいブックマーク グループ" revision="0" />
     <Item value="新しいブックマーク グループの作成" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="ブックマーク(&amp;B)" revision="0" />
     <Item value="ブックマーク メニュー" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="グループを下へ移動" revision="0" />
+    <Item value="選択したグループを下へ移動します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="グループを上へ移動" revision="0" />
+    <Item value="選択したグループを上へ移動します" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="CSV へエクスポート" revision="0" />
+    <Item value="ブックマークを CSV へエクスポート" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="CSV からインポート" revision="0" />
+    <Item value="ブックマークを CSV からインポート" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="選択(&amp;S)" revision="0" />

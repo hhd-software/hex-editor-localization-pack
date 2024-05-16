@@ -90,6 +90,10 @@
     <Item value="比較レポートを表示" revision="0" />
     <Item value="比較結果の統計を表示する" revision="0" />
   </Enumeration>
+  <Enumeration key="DiffClear">
+    <Item value="結果をクリア" revision="0" />
+    <Item value="比較結果をクリア" revision="0" />
+  </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="シンプル比較アルゴリズム" revision="1" />
     <Item value="差分アルゴリズム" revision="1" />

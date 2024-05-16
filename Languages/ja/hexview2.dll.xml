@@ -112,9 +112,9 @@
   <Message key="Re-type password:" value="パスワードの再入力 :" revision="0" />
   <Message key="Fill" value="埋め込み" revision="0" />
   <Message key="Fill whole file" value="ファイル全体を埋め込み" revision="0" />
-  <Message key="Fill selection" value="選択範囲の埋め込み" revision="0" />
+  <Message key="Fill selection" value="選択範囲を埋め込み" revision="0" />
   <Message key="Transparent fill" value="透明モード" revision="0" />
-  <Message key="Reverse pattern" value="パターンの逆転" revision="0" />
+  <Message key="Reverse pattern" value="パターンを反転" revision="0" />
   <Message key="&amp;Fill" value="埋め込み(&amp;F)" revision="0" />
   <Message key="&amp;Find" value="検索(&amp;F)" revision="0" />
   <Message key="Find &amp;All" value="すべて検索(&amp;A)" revision="0" />
