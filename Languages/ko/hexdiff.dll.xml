@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FilterOperationName" value="파일 비교 결과 필터링" revision="0" />
   <Message key="Different" value="차이" revision="0" />
@@ -44,6 +44,8 @@
   <Message key="Total" value="전체" revision="0" />
   <Message key="Condition:" value="상태:" revision="0" />
   <Message key="then" value="그 다음에" revision="0" />
+  <Message key="IncorrectInputTitle" value="잘못된 입력" revision="0" />
+  <Message key="NotANumberError" value="10진수 또는 16진수 값이어야 합니다." revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="다시 비교" revision="0" />
     <Item value="파일 다시 비교" revision="0" />
@@ -87,6 +89,10 @@
   <Enumeration key="DiffReport">
     <Item value="비교 보고서 표시" revision="0" />
     <Item value="비교 결과 통계 표시" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffClear">
+    <Item value="결과 지우기" revision="0" />
+    <Item value="비교 결과 지우기" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="단순 비교 알고리즘" revision="1" />

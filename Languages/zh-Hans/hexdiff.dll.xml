@@ -44,6 +44,8 @@
   <Message key="Total" value="全部的" revision="0" />
   <Message key="Condition:" value="条件：" revision="0" />
   <Message key="then" value="然后" revision="0" />
+  <Message key="IncorrectInputTitle" value="输入错误" revision="0" />
+  <Message key="NotANumberError" value="必须是十进制或十六进制值" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="重新比较" revision="0" />
     <Item value="重新比较文件" revision="0" />
@@ -87,6 +89,10 @@
   <Enumeration key="DiffReport">
     <Item value="显示比较报告" revision="0" />
     <Item value="显示比较结果统计信息" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffClear">
+    <Item value="清除结果" revision="0" />
+    <Item value="清除比较结果" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="简单比较算法 " revision="1" />

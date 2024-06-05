@@ -17,17 +17,22 @@
   <Message key="New selection" value="Nowy wybór" revision="0" />
   <Message key="Add to selection" value="Dodaj do wyboru" revision="0" />
   <Message key="Subtract from selection" value="Odejmij z wyboru" revision="0" />
+  <Message key="Save Preset" value="Zapisz ustawienie wstępne" revision="0" />
   <Message key="Edit Group" value="Edytuj grupę" revision="0" />
+  <Message key="Preset:" value="Ustawienie wstępne:" revision="0" />
   <Message key="Name:" value="Nazwa:" revision="0" />
   <Message key="Text:" value="Tekst:" revision="0" />
   <Message key="Background:" value="Tło:" revision="0" />
   <Message key="Outline:" value="Zarys:" revision="0" />
   <Message key="Round edges" value="Zaokrąglone krawędzie" revision="0" />
+  <Message key="Please enter a color preset name" value="Wprowadź nazwę ustawienia wstępnego koloru" revision="0" />
+  <Message key="Do you want to replace color preset" value="Czy chcesz zastąpić ustawienie wstępne koloru „{name}”?" revision="0" />
   <Message key="BookmarksFilterString" value="Pliki zakładki (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Pliki wyboru (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Pokaż ostrzeżenie konwersji wyboru do zakładki" revision="1" />
   <Message key="MergeBookmarks" value="Czy chcesz połączyć z istniejącymi zakładkami." revision="0" />
   <Message key="toolbar.Bookmarks" value="Zakładki" revision="0" />
+  <Message key="InvalidCSVformat" value="Nieprawidłowy format pliku CSV. Wszystkie wiersze muszą zawierać kolumny {columns} oddzielone '{separator}'." revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nowa grupa zakładek" revision="0" />
     <Item value="Utwórz nową grupę zakładek" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="&amp;Zakładki" revision="0" />
     <Item value="Menu zakładek" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="Przenieś grupę w dół" revision="0" />
+    <Item value="Przesunięcie wybranej grupy w dół" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="Przenieś grupę w górę" revision="0" />
+    <Item value="Przesunięcie wybranej grupy w górę" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="Eksport do CSV" revision="0" />
+    <Item value="Eksportowanie zakładek do formatu CSV" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="Import z CSV" revision="0" />
+    <Item value="Import zakładek z pliku CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Wybór" revision="0" />

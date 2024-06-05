@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Bookmarks" value="북마크" revision="0" />
   <Message key="Progress" value="현재 작업이 진행 중입니다. 완료될 때까지 기다려 주십시오." revision="0" />
@@ -17,17 +17,22 @@
   <Message key="New selection" value="새로 선택" revision="0" />
   <Message key="Add to selection" value="선택 항목에 추가" revision="0" />
   <Message key="Subtract from selection" value="선택에서 빼기" revision="0" />
+  <Message key="Save Preset" value="프리셋 저장" revision="0" />
   <Message key="Edit Group" value="그룹 편집" revision="0" />
+  <Message key="Preset:" value="프리셋:" revision="0" />
   <Message key="Name:" value="이름:" revision="0" />
   <Message key="Text:" value="텍스트:" revision="0" />
   <Message key="Background:" value="배경:" revision="0" />
   <Message key="Outline:" value="외곽선:" revision="0" />
   <Message key="Round edges" value="둥근 모서리" revision="0" />
+  <Message key="Please enter a color preset name" value="색상 사전 설정의 이름을 입력하세요" revision="0" />
+  <Message key="Do you want to replace color preset" value="색상 프리셋 “{name}”을 바꾸시겠습니까?" revision="0" />
   <Message key="BookmarksFilterString" value="북마크 파일 (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="선택 파일 (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="책갈피에 선택 항목 표시 변환 경고" revision="1" />
   <Message key="MergeBookmarks" value="기존 책갈피와 병합하시겠습니까?" revision="0" />
   <Message key="toolbar.Bookmarks" value="북마크" revision="0" />
+  <Message key="InvalidCSVformat" value="잘못된 CSV 파일 형식입니다. 모든 행에는 {columns} 열이 '{separator}'로 구분되어 있어야 합니다." revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="새 북마크 그룹" revision="0" />
     <Item value="새 북마크 그룹 만들기" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="북마크(&amp;B)" revision="0" />
     <Item value="북마크 저장" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="이 그룹 아래로 이동" revision="0" />
+    <Item value="선택한 그룹 아래로 이동" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="이 그룹 위로 이동" revision="0" />
+    <Item value="선택한 그룹 위로 이동" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="CSV로 내보내기" revision="0" />
+    <Item value="북마크를 CSV 형식으로 내보내기" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="CSV 파일에서 가져오기" revision="0" />
+    <Item value="CSV에서 북마크 가져오기" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="선택(&amp;S)" revision="0" />

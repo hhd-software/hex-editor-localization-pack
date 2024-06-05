@@ -17,17 +17,22 @@
   <Message key="New selection" value="Nueva selección" revision="0" />
   <Message key="Add to selection" value="Añadir a la selección" revision="0" />
   <Message key="Subtract from selection" value="Eliminar de la selección" revision="0" />
+  <Message key="Save Preset" value="Guardar peestablecido" revision="0" />
   <Message key="Edit Group" value="Editar Grupo" revision="0" />
+  <Message key="Preset:" value="Preestablecido:" revision="0" />
   <Message key="Name:" value="Nombre:" revision="0" />
   <Message key="Text:" value="Texto:" revision="0" />
   <Message key="Background:" value="Fondo:" revision="0" />
   <Message key="Outline:" value="Contorno:" revision="0" />
   <Message key="Round edges" value="Esquinas en curva" revision="0" />
+  <Message key="Please enter a color preset name" value="Introduzca un nombre de predefinición de color" revision="0" />
+  <Message key="Do you want to replace color preset" value="¿Desea sustituir el preajuste de color «{name}»?" revision="0" />
   <Message key="BookmarksFilterString" value="Archivos de marcadores (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Selección de Archivos (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Mostrar la advertencia de conversión de Seleccción a Marcadores" revision="1" />
   <Message key="MergeBookmarks" value="¿Quiere combinarlo con los marcadores existentes?" revision="0" />
   <Message key="toolbar.Bookmarks" value="Marcadores" revision="0" />
+  <Message key="InvalidCSVformat" value="Formato de archivo CSV no válido. Todas las filas deben contener {columns} columnas separadas por '{separator}'." revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nuevo Grupo de Marcadores" revision="0" />
     <Item value="Crear un nuevo Grupo de Marcadores" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="&amp;Marcadores" revision="0" />
     <Item value="Menú de marcadores" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="Desplazar el grupo hacia abajo" revision="0" />
+    <Item value="Desplazar hacia abajo el grupo seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="Mover grupo hacia arriba" revision="0" />
+    <Item value="Desplazar hacia arriba el grupo seleccionado" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="Exportar a CSV" revision="0" />
+    <Item value="Exportar marcadores a CSV" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="Importar desde CSV" revision="0" />
+    <Item value="Importar favoritos desde CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Seleccionar" revision="0" />

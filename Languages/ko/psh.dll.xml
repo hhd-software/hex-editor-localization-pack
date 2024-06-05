@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="No block selected" value="선택된 블록 없음" revision="0" />
   <Message key="Copy Image to Clipboard" value="클립보드에 이미지 복사" revision="0" />

@@ -129,6 +129,10 @@
   <Message key="Help" value="帮助(&amp;H)" revision="1" />
   <Message key="Yes" value="是(&amp;Y)" revision="1" />
   <Message key="No" value="否(&amp;N)" revision="1" />
+  <Message key="Abort" value="中止(&amp;A)" revision="0" />
+  <Message key="Retry" value="重试(&amp;R)" revision="0" />
+  <Message key="Ignore" value="忽略(&amp;I)" revision="0" />
+  <Message key="Try Again" value="再试一次(&amp;T)" revision="0" />
   <Message key="Close" value="关闭" revision="1" />
   <Message key="Add" value="添加(&amp;A)" revision="1" />
   <Message key="Edit" value="编辑(&amp;E)" revision="0" />
@@ -381,6 +385,20 @@
   <Message key="clr.frame.nav.highlight" value="导航图标高亮显示" revision="0" />
   <Message key="clr.frame.nav.header" value="导航图标标题" revision="0" />
   <Message key="clr.frame.nav.frame" value="导航图标边框" revision="0" />
+  <Message key="clr.listview" value="列表视图的颜色" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="文本" revision="0" />
+  <Message key="clr.listview.header.fill" value="标题背景颜色" revision="0" />
+  <Message key="clr.listview.header.stroke" value="文本标题颜色" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="非活动选区的背景颜色" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="非活动选择文本" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="非活动选择块的笔画" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="非活动选区的背景颜色" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="非活动选区的背景颜色" revision="0" />
+  <Message key="clr.listview.hover.fill" value="悬浮项的背景颜色" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="悬浮项的文本颜色" revision="0" />
+  <Message key="clr.listview.grid" value="网格颜色" revision="0" />
+  <Message key="clr.listview.alternate_background" value="替代背景" revision="0" />
+  <Message key="clr.listview.hyperlink" value="超链接" revision="0" />
   <Message key="Settings group.Visual" value="可视化" revision="0" />
   <Message key="Settings group.User Interface" value="用户界面" revision="0" />
   <Message key="Settings group.Network" value="网络支持" revision="0" />
@@ -390,6 +408,7 @@
   <Message key="Colors Page" value="主题" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="输入方案名称，然后按保存按钮" revision="0" />
   <Message key="ColorSchemeExists" value="配色方案已经存在。您想覆盖它吗？" revision="0" />
+  <Message key="PredefinedModifyError" value="禁止修改预定义的配色方案。只能编辑用户方案。请输入与任何预定义方案名称不匹配的名称。" revision="0" />
   <Message key="Theme:" value="主题:" revision="0" />
   <Message key="Display elements:" value="显示元素:" revision="0" />
   <Message key="Automatic" value="自动的" revision="0" />
@@ -407,6 +426,10 @@
   <Message key="Kaitai definition files" value="Kaitai定义文件" revision="0" />
   <Message key="Sample Text" value="示例文本" revision="0" />
   <Message key="Default" value="默认" revision="0" />
+  <Message key="clr.balloon" value="通知窗口颜色" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="背景颜色" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="文本" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="“不再显示此警告”信息" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理磁盘" revision="2" />
     <Item value="大小" revision="2" />
@@ -850,6 +873,12 @@
     <Item value="每次启动时" revision="1" />
     <Item value="每周" revision="1" />
     <Item value="从不" revision="1" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="色彩主题模式（需要重新启动应用程序" revision="0" />
+    <Item value="使用系统颜色" revision="0" />
+    <Item value="始终使用浅色主题" revision="0" />
+    <Item value="始终使用深色主题" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
     <Item value="更多语言…" revision="0" />

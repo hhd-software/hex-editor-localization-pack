@@ -17,17 +17,22 @@
   <Message key="New selection" value="Démarrer une nouvelle sélection." revision="0" />
   <Message key="Add to selection" value="Ajouter à la sélection" revision="0" />
   <Message key="Subtract from selection" value="Soustraire de la sélection" revision="0" />
+  <Message key="Save Preset" value="Sauvegarder le préréglage" revision="0" />
   <Message key="Edit Group" value="Modifier le Groupe" revision="0" />
+  <Message key="Preset:" value="Préréglage :" revision="0" />
   <Message key="Name:" value="Nom:" revision="0" />
   <Message key="Text:" value="Texte:" revision="0" />
   <Message key="Background:" value="Arrière-plan:" revision="0" />
   <Message key="Outline:" value="Contour:" revision="0" />
   <Message key="Round edges" value="Bords Arrondis" revision="0" />
+  <Message key="Please enter a color preset name" value="Veuillez saisir un nom de préréglage de couleur" revision="0" />
+  <Message key="Do you want to replace color preset" value="Voulez-vous remplacer le préréglage de couleur « {name} » ?" revision="0" />
   <Message key="BookmarksFilterString" value="Fichiers signets (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Fichiers sélectionnés (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Afficher l'alerte de conversion de la sélection en signet" revision="1" />
   <Message key="MergeBookmarks" value="Voulez-vous fusionner avec les signets existants?" revision="0" />
   <Message key="toolbar.Bookmarks" value="Signets" revision="0" />
+  <Message key="InvalidCSVformat" value="Format de fichier CSV non valide. Toutes les lignes doivent contenir des colonnes {columns} séparées par '{separator}'." revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Nouveau groupe de signets" revision="0" />
     <Item value="Créer un nouveau groupe de signets" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="&amp; Signets" revision="0" />
     <Item value="Menu signets" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="Déplacer le groupe vers le bas" revision="0" />
+    <Item value="Déplacer le groupe sélectionné vers le bas" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="Déplacer le groupe vers le haut" revision="0" />
+    <Item value="Déplacer le groupe sélectionné vers le haut" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="Exporter vers CSV" revision="0" />
+    <Item value="Exporter les signets au format CSV" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="Importation à partir d'un fichier CSV" revision="0" />
+    <Item value="Importer des signets à partir d'un fichier CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Sélectionner" revision="0" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FileCorruptionWarning" value="이 작업을 취소하시겠습니까? 파일이 손상됩니다." revision="1" />
   <Message key="OccFound" value="지금까지 {N}번의 발생이 발견되었습니다." revision="1" />

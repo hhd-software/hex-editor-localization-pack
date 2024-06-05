@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="CapYes" value="예" revision="1" />
   <Message key="CapNo" value="아니오" revision="1" />
@@ -129,6 +129,10 @@
   <Message key="Help" value="도움말(&amp;H)" revision="1" />
   <Message key="Yes" value="예(&amp;Y)" revision="1" />
   <Message key="No" value="아니오(&amp;N)" revision="1" />
+  <Message key="Abort" value="중단(&amp;A)" revision="0" />
+  <Message key="Retry" value="다시 시도(&amp;R)" revision="0" />
+  <Message key="Ignore" value="(&amp;I)" revision="0" />
+  <Message key="Try Again" value="다시 시도(&amp;T)" revision="0" />
   <Message key="Close" value="닫기" revision="1" />
   <Message key="Add" value="추가(&amp;A)" revision="1" />
   <Message key="Edit" value="편집(&amp;E)" revision="0" />
@@ -381,6 +385,22 @@
   <Message key="clr.frame.nav.highlight" value="탐색 아이콘 강조" revision="0" />
   <Message key="clr.frame.nav.header" value="탐색 아이콘 머리글" revision="0" />
   <Message key="clr.frame.nav.frame" value="탐색 아이콘 테두리" revision="0" />
+  <Message key="clr.listview" value="목록 보기의 색상" revision="0" />
+  <Message key="clr.listview.normal.fill" value="배경" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="텍스트" revision="0" />
+  <Message key="clr.listview.header.fill" value="헤더 배경색" revision="0" />
+  <Message key="clr.listview.header.stroke" value="헤더 텍스트 색상" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="비활성 선택의 배경색" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="비활성 선택 텍스트" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="비활성 선택의 스트로크" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="비활성 선택의 배경색" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="활성 선택 텍스트" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="활성 선택 스트로크" revision="0" />
+  <Message key="clr.listview.hover.fill" value="호버링 항목의 배경색" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="호버링 항목의 텍스트 색상" revision="0" />
+  <Message key="clr.listview.grid" value="그리드 색상" revision="0" />
+  <Message key="clr.listview.alternate_background" value="대체 배경" revision="0" />
+  <Message key="clr.listview.hyperlink" value="하이퍼링크" revision="0" />
   <Message key="Settings group.Visual" value="시각적" revision="0" />
   <Message key="Settings group.User Interface" value="사용자 인터페이스" revision="0" />
   <Message key="Settings group.Network" value="네트워크 및 지원" revision="0" />
@@ -390,6 +410,7 @@
   <Message key="Colors Page" value="테마" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="구성표 이름을 입력하고 저장 버튼을 누릅니다" revision="0" />
   <Message key="ColorSchemeExists" value="구성표가 이미 있습니다. 재정의하시겠습니까?" revision="0" />
+  <Message key="PredefinedModifyError" value="미리 정의된 색 구성표를 수정하는 것은 금지되어 있습니다. 사용자 색 구성표만 수정할 수 있습니다. 미리 정의된 색 구성표 이름과 일치하지 않는 이름을 입력하세요." revision="0" />
   <Message key="Theme:" value="테마:" revision="0" />
   <Message key="Display elements:" value="표시 요소:" revision="0" />
   <Message key="Automatic" value="자동" revision="0" />
@@ -407,6 +428,10 @@
   <Message key="Kaitai definition files" value="카이타이 정의 파일" revision="0" />
   <Message key="Sample Text" value="예제 텍스트" revision="0" />
   <Message key="Default" value="기본값" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="배경 색상" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="텍스트" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="스트로크" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="“이 경고를 더 이상 표시하지 않음”메시지" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="물리적 메모리" revision="2" />
     <Item value="크기" revision="2" />
@@ -850,6 +875,12 @@
     <Item value="매번 실행" revision="1" />
     <Item value="매주" revision="1" />
     <Item value="안함" revision="1" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="컬러 테마 모드(재시작 필요)" revision="0" />
+    <Item value="시스템 색상 사용" revision="0" />
+    <Item value="항상 밝은 테마 사용" revision="0" />
+    <Item value="항상 어두운 테마 사용" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
     <Item value="더 많은 언어…" revision="0" />
