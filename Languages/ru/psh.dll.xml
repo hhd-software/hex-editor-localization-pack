@@ -38,7 +38,7 @@
   <Message key="The current scheme will be lost. Do you want to continue?" value="Текущая схема будет утеряна. Продолжить?" revision="0" />
   <Message key="The file has different version" value="Файл имеет другую версию" revision="0" />
   <Message key="Clear Coloring Scheme" value="Очистить схему" revision="0" />
-  <Message key="Current item will be removed. Do you want to continue?" value="Текущий эелемент будет удален. Продолжить?" revision="0" />
+  <Message key="Current item will be removed. Do you want to continue?" value="Текущий эелемент будет удалён. Продолжить?" revision="0" />
   <Message key="RuleFmt" value="[[[uПравило подсветки {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} с {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} по{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} множественным выделением{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
   <Message key="Tooltip" value="Имя: {name}\r\n\r\nВетвление: {branch}" revision="0" />

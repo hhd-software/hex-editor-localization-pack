@@ -15,7 +15,7 @@
   <Message key="Convert Blocks To Selection" value="Преобразовать блоки в выделения" revision="0" />
   <Message key="Matched blocks" value="Совпадающие" revision="0" />
   <Message key="Inserted blocks" value="Вставленные" revision="0" />
-  <Message key="Removed blocks" value="Удаленные" revision="0" />
+  <Message key="Removed blocks" value="Удалённые" revision="0" />
   <Message key="Modified blocks" value="Измененные" revision="0" />
   <Message key="Color Selection" value="Выбор цветов" revision="0" />
   <Message key="Compare Results Filter" value="Фильтры" revision="0" />
@@ -131,7 +131,7 @@
     <Item value="Совпадающие" revision="0" />
     <Item value="Измененные" revision="0" />
     <Item value="Вставленные" revision="0" />
-    <Item value="Удаленные" revision="0" />
+    <Item value="Удалённые" revision="0" />
     <Item value="Перенесенные" revision="0" />
   </Enumeration>
   <Enumeration key="Columns">

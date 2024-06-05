@@ -58,7 +58,7 @@
   </Enumeration>
   <Enumeration key="SharedRemoved">
     <Item value="Замечены сторонние изменения в общем файле" revision="1" />
-    <Item value="Файл {name} был удален сторонним приложением. Какое действие предпринять?" revision="1" />
+    <Item value="Файл {name} был удалён сторонним приложением. Какое действие предпринять?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
     <Item value="Найти все" revision="1" />

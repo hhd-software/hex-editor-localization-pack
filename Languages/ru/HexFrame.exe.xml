@@ -578,7 +578,7 @@
     <Item value="Неверный" revision="1" />
     <Item value="Съёмный носитель" revision="1" />
     <Item value="Постоянный носитель" revision="1" />
-    <Item value="Удаленный носитель" revision="1" />
+    <Item value="Удалённый носитель" revision="1" />
     <Item value="Компакт-дисковод" revision="1" />
     <Item value="Ramdisk" revision="1" />
   </Enumeration>
