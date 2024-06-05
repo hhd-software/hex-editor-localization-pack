@@ -52,12 +52,12 @@
   <Message key="Operation History" value="История операций" revision="0" />
   <Message key="Operation history has been saved successfully." value="История операций была успешно сохранена." revision="0" />
   <Message key="There was an error saving operation history." value="Ошибка при созранении истории операций." revision="0" />
-  <Message key="HistoryLoadError" value="Возможные причины:\r\n\r\n · Это не файл истории Hex Editor Neo или файл поврежден.\r\n · История изменений от другого файла.\r\n · Исходный файл был изменен после сохранения истории.\r\n · Файл истории содержит ссылки на отсутствующие или измененные файлы." revision="0" />
+  <Message key="HistoryLoadError" value="Возможные причины:\r\n\r\n · Это не файл истории Hex Editor Neo или файл поврежден.\r\n · История изменений от другого файла.\r\n · Исходный файл был изменён после сохранения истории.\r\n · Файл истории содержит ссылки на отсутствующие или измененные файлы." revision="0" />
   <Message key="Rename Branch" value="Переименовать ветвление" revision="0" />
   <Message key="Delete Branch" value="Удалить ветвление" revision="0" />
   <Message key="Unpin Branch" value="Открепить ветвление" revision="0" />
   <Message key="Pin Branch" value="Закрепить ветвление" revision="0" />
-  <Message key="Double-click to rename branch" value="Щелкнуть дважды для переименования ветвления" revision="0" />
+  <Message key="Double-click to rename branch" value="Щёлкнуть дважды для переименования ветвления" revision="0" />
   <Message key="Decimal:" value="Десятичное:" revision="0" />
   <Message key="Hex:" value="Шестнадцатеричное:" revision="0" />
   <Message key="Octal:" value="Восьмеричное:" revision="0" />

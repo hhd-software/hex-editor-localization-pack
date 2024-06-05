@@ -331,7 +331,7 @@
   </Enumeration>
   <Enumeration key="MsilNotification">
     <Item value="Предупреждение об установке MSIL" revision="0" />
-    <Item value="Использование этой функции требует установки .NET 2.0. Щелкните по следующей ссылке, чтобы загрузить его:" revision="0" />
+    <Item value="Использование этой функции требует установки .NET 2.0. Щёлкните по следующей ссылке, чтобы загрузить его:" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeListDisasm">
     <Item value="Строка" revision="0" />

@@ -24,7 +24,7 @@
   <Message key="Unknown Process" value="Не установленный процесс" revision="1" />
   <Message key="Physical Memory" value="Физическая память" revision="1" />
   <Message key="Shared File Conflict Detected" value="Замечены сторонние изменения в общем файле" revision="1" />
-  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Файл был изменен вне Hex Editor Neo. Какое действие хотите выполнить?" revision="1" />
+  <Message key="The file has been modified outside of the Hex Editor Neo. What do you want to do?" value="Файл был изменён вне Hex Editor Neo. Какое действие хотите выполнить?" revision="1" />
   <Message key="Retain all changes and do not update the file" value="Сохранить все изменения и не обновлять файл" revision="1" />
   <Message key="Discard all changes and close the file" value="Сбросить все изменения и закрыть файл" revision="1" />
   <Message key="Discard all changes and update the file" value="Сбросить все изменения и обновить файл" revision="1" />
