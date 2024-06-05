@@ -204,8 +204,8 @@
   <Message key="clr.colors.AddressBackground" value="Фон адреса" revision="0" />
   <Message key="clr.colors.AsciiText" value="Текст ASCII-панели" revision="0" />
   <Message key="clr.colors.AsciiBackground" value="Фон ASCII-панели" revision="0" />
-  <Message key="clr.colors.Even" value="Четные" revision="0" />
-  <Message key="clr.colors.Odd" value="Нечетные" revision="0" />
+  <Message key="clr.colors.Even" value="Чётные" revision="0" />
+  <Message key="clr.colors.Odd" value="Нечётные" revision="0" />
   <Message key="clr.colors.Empty" value="Пустой диапазон" revision="0" />
   <Message key="clr.colors.CursorFill" value="Фон курсора" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Обводка курсора" revision="0" />
