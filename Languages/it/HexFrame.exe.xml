@@ -678,7 +678,7 @@
     <Item value="Annulla l'Ultima Azione" revision="1" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item value="&amp;Ripeti" revision="1" />
+    <Item value="&amp;Rifare" revision="1" />
     <Item value="Ripristina l'Azione Precedentemente Annullata" revision="1" />
   </Enumeration>
   <Enumeration key="EditCut">
