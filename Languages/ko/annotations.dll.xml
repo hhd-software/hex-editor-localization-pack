@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Data Annotations" value="데이터 주석" revision="0" />
   <Message key="SaveAnnotationsPrompt" value="&quot;{file}&quot;에 대한 데이터 주석이 변경되었습니다. 업데이트된 주석을 저장하시겠습니까?" revision="0" />

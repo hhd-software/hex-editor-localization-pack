@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LocalizationPack xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" version="1.05.05.0001">
+<LocalizationPack xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" version="1.05.06.0001">
   <ValidationRule name="EndsWithComma" regexp=".*\.$" message="A string must end with comma."/>
   <ValidationRule name="OpenFileDialogFilter" regexp=".*|$" message="A string must conform to Open/Save dialog filter list."/>
   <ValidationRule name="StartsWithSpace" regexp="^ .*$" message="A string must start with space."/>
   <ValidationRule name="EndsWithSpace" regexp="^.* $" message="A string must end with space."/>
+
+  <Application id="{8EB85C0E-DE7D-4A53-BD66-708B8F2C80B0}">
+		<LanguagePack key="HHD Software\Hex Editor Neo 7.x\language" value="language_pack_folder"/>
+	</Application>
+
+	<CommonParents>
+		<Parent name="HexFrame.exe"/>
+	</CommonParents>
 </LocalizationPack>

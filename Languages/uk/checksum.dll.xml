@@ -48,6 +48,7 @@
   <Message key="Name:" value="Ім'я:" revision="0" />
   <Message key="Checksum Result" value="Результат" revision="1" />
   <Message key="Copy" value="Копіювати" revision="1" />
+  <Message key="Copy as Big-Endian" value="Скопіювати як Big-Endian" revision="0" />
   <Message key="Size:" value="Розмір:" revision="1" />
   <Message key="Separator:" value="Роздільник:" revision="1" />
   <Message key="Checksum settings" value="Контрольні суми" revision="0" />

@@ -44,6 +44,8 @@
   <Message key="Total" value="Total" revision="0" />
   <Message key="Condition:" value="Condition:" revision="0" />
   <Message key="then" value="puis" revision="0" />
+  <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
+  <Message key="NotANumberError" value="Il doit s'agir d'une valeur décimale ou hexadécimale." revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Re-comparer" revision="0" />
     <Item value="Re-comparer les fichiers" revision="0" />
@@ -87,6 +89,10 @@
   <Enumeration key="DiffReport">
     <Item value="Afficher le rapport" revision="0" />
     <Item value="Afficher les statistiques des résultats de la comparaison" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffClear">
+    <Item value="Effacer les résultats" revision="0" />
+    <Item value="Effacer les résultats de la comparaison" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="Algorithme de comparaison simple" revision="1" />

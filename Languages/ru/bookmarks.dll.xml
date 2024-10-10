@@ -17,17 +17,22 @@
   <Message key="New selection" value="Новое выделение" revision="0" />
   <Message key="Add to selection" value="Добавить к выделениям" revision="0" />
   <Message key="Subtract from selection" value="Вычесть из выделений" revision="0" />
+  <Message key="Save Preset" value="Сохранить предустановки" revision="0" />
   <Message key="Edit Group" value="Правка группы" revision="0" />
+  <Message key="Preset:" value="Предустановки:" revision="0" />
   <Message key="Name:" value="Имя:" revision="0" />
   <Message key="Text:" value="Текст:" revision="0" />
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Outline:" value="Контур:" revision="0" />
   <Message key="Round edges" value="Округлые углы" revision="0" />
+  <Message key="Please enter a color preset name" value="Пожалуйста, введите имя для цветовой схемы" revision="0" />
+  <Message key="Do you want to replace color preset" value="Вы хотите заменить цветовую схему «{name}»?" revision="0" />
   <Message key="BookmarksFilterString" value="Файлы закладок (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Файлы выделений (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показывать предупреждение конвертации выделения в закладки" revision="1" />
   <Message key="MergeBookmarks" value="Объединить с существующими закладками?" revision="0" />
   <Message key="toolbar.Bookmarks" value="Закладки" revision="0" />
+  <Message key="InvalidCSVformat" value="Неверный формат файла CSV. Все строки должны содержать {columns} столбцов, разделенных '{separator}'" revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Новая группа закладок" revision="0" />
     <Item value="Создать новую группу закладок" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="&amp;Закладки" revision="0" />
     <Item value="Меню Закладки" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="Переместить группу вниз" revision="0" />
+    <Item value="Переместить выбранную группу вниз" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="Переместить группу вверх" revision="0" />
+    <Item value="Переместить выбранную группу вверх" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="Экспорт в CSV" revision="0" />
+    <Item value="Экспорт закладок в формат CSV" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="Импорт из CSV" revision="0" />
+    <Item value="Импорт закладок из CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Выбрать" revision="0" />

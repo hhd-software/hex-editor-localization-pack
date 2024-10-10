@@ -17,17 +17,22 @@
   <Message key="New selection" value="Нове виділення" revision="0" />
   <Message key="Add to selection" value="Додати до виділеного" revision="0" />
   <Message key="Subtract from selection" value="Відняти з виділеного" revision="0" />
+  <Message key="Save Preset" value="Зберегти налаштування" revision="0" />
   <Message key="Edit Group" value="Редагувати групу" revision="0" />
+  <Message key="Preset:" value="Налаштовано:" revision="0" />
   <Message key="Name:" value="Ім'я:" revision="0" />
   <Message key="Text:" value="Текст:" revision="0" />
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Outline:" value="Контур:" revision="0" />
   <Message key="Round edges" value="Округлі кути" revision="0" />
+  <Message key="Please enter a color preset name" value="Будь ласка, введіть назву попередньо встановленого кольору" revision="0" />
+  <Message key="Do you want to replace color preset" value="Ви хочете замінити попередньо встановлений колір «{name}»?" revision="0" />
   <Message key="BookmarksFilterString" value="Файли закладок (*.hexbook)|*.hexbook|" revision="0" />
   <Message key="SelectionFilterString" value="Файли виділень (*.hexsel)|*.hexsel|" revision="0" />
   <Message key="Sel2BookmarkWarning" value="Показувати попередження конвертації виділення в закладки" revision="1" />
   <Message key="MergeBookmarks" value="Об'єднати з існуючими закладками?" revision="0" />
   <Message key="toolbar.Bookmarks" value="Закладки" revision="0" />
+  <Message key="InvalidCSVformat" value="Неправильний формат файлу CSV. Усі рядки повинні містити стовпці {columns}, розділені '{separator}'." revision="0" />
   <Enumeration key="BookNewGroup">
     <Item value="Нова група закладок" revision="0" />
     <Item value="Створити нову групу закладок" revision="0" />
@@ -63,6 +68,22 @@
   <Enumeration key="MenuBookmarks">
     <Item value="&amp;Закладки" revision="0" />
     <Item value="Меню Закладок" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveDown">
+    <Item value="Перемістити групу вниз" revision="0" />
+    <Item value="Перемістити вибрану групу вниз" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookMoveUp">
+    <Item value="Перемістити групу вгору" revision="0" />
+    <Item value="Перемістити вибрану групу вгору" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookExportCSV">
+    <Item value="Експорт у CSV" revision="0" />
+    <Item value="Експорт закладок у формат CSV" revision="0" />
+  </Enumeration>
+  <Enumeration key="BookImportCSV">
+    <Item value="Імпорт з CSV" revision="0" />
+    <Item value="Імпорт закладок з CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Вибрати" revision="0" />

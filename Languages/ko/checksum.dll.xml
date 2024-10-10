@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Calculating Checksums" value="체크섬 계산" revision="1" />
   <Message key="8-bit sum" value="8비트 합계" revision="1" />

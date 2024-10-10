@@ -44,6 +44,8 @@
   <Message key="Total" value="Усього" revision="0" />
   <Message key="Condition:" value="Умова:" revision="0" />
   <Message key="then" value="то" revision="0" />
+  <Message key="IncorrectInputTitle" value="Неправильне введення" revision="0" />
+  <Message key="NotANumberError" value="Має бути десяткове або шістнадцяткове значення" revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Порівняти заново" revision="0" />
     <Item value="Порівняти файли заново" revision="0" />
@@ -87,6 +89,10 @@
   <Enumeration key="DiffReport">
     <Item value="Показати звіт" revision="0" />
     <Item value="Показати статистику порівняння" revision="0" />
+  </Enumeration>
+  <Enumeration key="DiffClear">
+    <Item value="Очистити результати" revision="0" />
+    <Item value="Очистити результати порівняння" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="Простий алгоритм порівняння" revision="1" />

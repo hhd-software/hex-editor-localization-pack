@@ -48,6 +48,7 @@
   <Message key="Name:" value="Name:" revision="0" />
   <Message key="Checksum Result" value="Prüfsummenergebnis" revision="1" />
   <Message key="Copy" value="Kopieren" revision="1" />
+  <Message key="Copy as Big-Endian" value="Kopie als Big-Endian" revision="0" />
   <Message key="Size:" value="Größe:" revision="1" />
   <Message key="Separator:" value="Trennung:" revision="1" />
   <Message key="Checksum settings" value="Prüfsummen" revision="0" />

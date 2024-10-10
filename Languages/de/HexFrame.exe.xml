@@ -129,6 +129,10 @@
   <Message key="Help" value="&amp;Hilfe" revision="1" />
   <Message key="Yes" value="&amp;Ja" revision="1" />
   <Message key="No" value="&amp;Nein" revision="1" />
+  <Message key="Abort" value="&amp;Abbruch" revision="0" />
+  <Message key="Retry" value="&amp;Wiederholen" revision="0" />
+  <Message key="Ignore" value="&amp;Ignorieren" revision="0" />
+  <Message key="Try Again" value="&amp;Erneut versuchen" revision="0" />
   <Message key="Close" value="Schließen" revision="1" />
   <Message key="Add" value="&amp;Hinzufügen" revision="1" />
   <Message key="Edit" value="&amp;Bearbeiten" revision="0" />
@@ -381,6 +385,22 @@
   <Message key="clr.frame.nav.highlight" value="Navigationssymbol hervorheben" revision="0" />
   <Message key="clr.frame.nav.header" value="Kopfzeile des Navigationssymbols" revision="0" />
   <Message key="clr.frame.nav.frame" value="Rahmen des Navigationssymbols" revision="0" />
+  <Message key="clr.listview" value="Farben der Listenansicht" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Hintergrund" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Text" revision="0" />
+  <Message key="clr.listview.header.fill" value="Hintergrundfarbe der Kopfzeile" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Textfarbe der Überschrift" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Hintergrundfarbe der inaktiven Auswahl" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Inaktiver Auswahltext" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Schlaganfall der inaktiven Auswahl" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Hintergrund der inaktiven Auswahl" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Aktiver Auswahltext" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Schlaganfall der aktiven Auswahl" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Hintergrundfarbe des Hover-Elements" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Textfarbe des Hover-Elements" revision="0" />
+  <Message key="clr.listview.grid" value="Farbe des Gitters" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Alternativer Hintergrund" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Hyperlink" revision="0" />
   <Message key="Settings group.Visual" value="Visuell" revision="0" />
   <Message key="Settings group.User Interface" value="Benutzeroberfläche" revision="0" />
   <Message key="Settings group.Network" value="Netzwerk &amp; Support" revision="0" />
@@ -390,6 +410,7 @@
   <Message key="Colors Page" value="Themen" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Geben Sie den Namen des Schemas ein und drücken Sie die Schaltfläche Speichern" revision="0" />
   <Message key="ColorSchemeExists" value="Das Farbschema existiert bereits. Möchten Sie es außer Kraft setzen?" revision="0" />
+  <Message key="PredefinedModifyError" value="Das Ändern von vordefinierten Farbschemata ist verboten. Es können nur Benutzerschemata bearbeitet werden. Bitte geben Sie einen Namen ein, der nicht mit einem vordefinierten Schemennamen übereinstimmt." revision="0" />
   <Message key="Theme:" value="Themen:" revision="0" />
   <Message key="Display elements:" value="Elemente anzeigen:" revision="0" />
   <Message key="Automatic" value="Automatisch" revision="0" />
@@ -407,6 +428,11 @@
   <Message key="Kaitai definition files" value="Kaitai-Definitionsdateien" revision="0" />
   <Message key="Sample Text" value="Mustertext" revision="0" />
   <Message key="Default" value="Standard" revision="0" />
+  <Message key="clr.balloon" value="Farben des Benachrichtigungsfensters" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Farbe des Hintergrunds" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Text" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Strich" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="„Nicht mehr anzeigen“ nachricht" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Physikalische Festplatte" revision="2" />
     <Item value="Größe" revision="2" />
@@ -850,6 +876,12 @@
     <Item value="Bei jedem Programmstart" revision="1" />
     <Item value="Jede Woche" revision="1" />
     <Item value="Nie" revision="1" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="Farbthemenmodus (Neustart erforderlich)" revision="0" />
+    <Item value="Systemfarben verwenden" revision="0" />
+    <Item value="Immer Light Theme verwenden" revision="0" />
+    <Item value="Immer dunkles Theme verwenden" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
     <Item value="Weitere Übersetzungen…" revision="0" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Scripting" value="스크립팅" revision="0" />
   <Message key="New Script" value="새 스크립트 {ordinal}" revision="0" />

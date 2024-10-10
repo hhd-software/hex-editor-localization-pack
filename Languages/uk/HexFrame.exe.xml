@@ -129,6 +129,10 @@
   <Message key="Help" value="&amp;Довідка" revision="1" />
   <Message key="Yes" value="&amp;Так" revision="1" />
   <Message key="No" value="&amp;Ні" revision="1" />
+  <Message key="Abort" value="&amp;Перервати" revision="0" />
+  <Message key="Retry" value="&amp;Ще раз" revision="0" />
+  <Message key="Ignore" value="&amp;Ігнорувати" revision="0" />
+  <Message key="Try Again" value="&amp;Спробуйте ще раз" revision="0" />
   <Message key="Close" value="Закрити" revision="1" />
   <Message key="Add" value="&amp;Додати" revision="1" />
   <Message key="Edit" value="&amp;Редагувати" revision="0" />
@@ -381,6 +385,22 @@
   <Message key="clr.frame.nav.highlight" value="Підсвічування навігаційних іконок" revision="0" />
   <Message key="clr.frame.nav.header" value="Заголовок навігаційних іконок" revision="0" />
   <Message key="clr.frame.nav.frame" value="Рамка навігаційних іконок" revision="0" />
+  <Message key="clr.listview" value="Кольори списку" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Фон" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Текст" revision="0" />
+  <Message key="clr.listview.header.fill" value="Колір фону заголовка" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Колір тексту заголовка" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Колір фону неактивного виділення" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Неактивний текст виділення" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Обведення неактивного виділення " revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Фон неактивного виділення" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Текст активного виділення" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Обведення активного виділення" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Колір фону при наведенні елемента" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Колір тексту при наведенні" revision="0" />
+  <Message key="clr.listview.grid" value="Сітка" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Альтернативний фон" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Гіперпосилання" revision="0" />
   <Message key="Settings group.Visual" value="Подання" revision="0" />
   <Message key="Settings group.User Interface" value="Користувальницький інтерфейс" revision="0" />
   <Message key="Settings group.Network" value="Мережа та підтримка" revision="0" />
@@ -390,6 +410,7 @@
   <Message key="Colors Page" value="Теми" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введіть назву схеми та натисніть кнопку Зберегти" revision="0" />
   <Message key="ColorSchemeExists" value="Колірна схема вже існує. Ви хочете її перезаписати?" revision="0" />
+  <Message key="PredefinedModifyError" value="Зміна попередньо встановленої колірної схеми заборонена. Редагувати можна тільки користувацькі схеми. Будь ласка, введіть ім'я, яке не збігається з жодним з імен попередньо встановлених схем." revision="0" />
   <Message key="Theme:" value="Тема:" revision="0" />
   <Message key="Display elements:" value="Колірні елементи:" revision="0" />
   <Message key="Automatic" value="Автоматично" revision="0" />
@@ -407,6 +428,11 @@
   <Message key="Kaitai definition files" value="Файли визначення Kaitai" revision="0" />
   <Message key="Sample Text" value="Зразок тексту" revision="0" />
   <Message key="Default" value="За замовчуванням" revision="0" />
+  <Message key="clr.balloon" value="Кольори вікна сповіщень" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Колір фону" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Обведення" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="&quot;Не показувати більше це&quot; повідомлення" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Розмір" revision="2" />
@@ -850,6 +876,12 @@
     <Item value="Кожен запуск" revision="1" />
     <Item value="Щотижня" revision="1" />
     <Item value="Ніколи" revision="1" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="Колірний режим (потрібне перезавантаження)" revision="0" />
+    <Item value="Використовувати системні кольори" revision="0" />
+    <Item value="Завжди використовувати світлу тему" revision="0" />
+    <Item value="Завжди використовувати темну тему" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
     <Item value="Більше мов …" revision="0" />
