@@ -65,7 +65,7 @@
   <Message key="Structure Coloring" value="Колірні схеми" revision="0" />
   <Message key="Apply" value="Застосувати" revision="0" />
   <Message key="Bind Structure" value="Прив'язати структуру" revision="0" />
-  <Message key="Address" value="Адреса" revision="0" />
+  <Message key="Address" value="Адрес" revision="0" />
   <Message key="Hex:" value="Шістнадцяткове:" revision="0" />
   <Message key="Decimal:" value="Десяткове:" revision="0" />
   <Message key="Absolute address" value="Абсолютна адреса" revision="0" />
