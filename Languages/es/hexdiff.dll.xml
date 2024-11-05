@@ -121,7 +121,7 @@
     <Item value="Comparación de archivos" revision="0" />
     <Item value="Los archivos son idénticos." revision="0" />
   </Enumeration>
-  <Enumeration key="Task">
+  <Enumeration key="DiffTask">
     <Item value="Comparar archivos" revision="0" />
     <Item value="Compare el contenido de dos archivos binarios" revision="0" />
   </Enumeration>

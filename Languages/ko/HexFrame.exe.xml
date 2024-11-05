@@ -584,6 +584,7 @@
     <Item value="Standard Edition 라이선스" revision="1" />
     <Item value="Professional Edition 라이선스" revision="1" />
     <Item value="Ultimate Edition 라이선스" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="비상업적" revision="1" />
@@ -860,6 +861,7 @@
     <Item value="Standard 에디션" revision="2" />
     <Item value="Professional 에디션" revision="2" />
     <Item value="Ultimate 에디션" revision="2" />
+    <Item />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="업데이트 확인…" revision="1" />

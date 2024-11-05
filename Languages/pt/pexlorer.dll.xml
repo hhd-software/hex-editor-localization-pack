@@ -155,7 +155,7 @@
     <Item value="Visual Studio" revision="0" />
     <Item value="WinDBG" revision="0" />
   </Enumeration>
-  <Enumeration key="Task">
+  <Enumeration key="PexTask">
     <Item value="Abrir processo" revision="1" />
     <Item value="Abre processo da memória para exibir e modificação" revision="1" />
   </Enumeration>

@@ -121,7 +121,7 @@
     <Item value="ファイルの比較" revision="0" />
     <Item value="ファイルは同一です。" revision="0" />
   </Enumeration>
-  <Enumeration key="Task">
+  <Enumeration key="DiffTask">
     <Item value="ファイルの比較" revision="0" />
     <Item value="2 つのバイナリ ファイルの内容を比較する" revision="0" />
   </Enumeration>

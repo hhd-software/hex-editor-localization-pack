@@ -149,7 +149,7 @@
 		<Item text="WinDBG"/>
 	</Enumeration>
 
-  <Enumeration key="Task" description="Jump List Item: Open Process" revision="1">
+  <Enumeration key="PexTask" description="Jump List Item: Open Process" revision="1">
     <Item text="Open process"/>
     <Item text="Open process memory for viewing and modification"/>
   </Enumeration>

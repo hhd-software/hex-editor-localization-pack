@@ -585,6 +585,7 @@
     <Item value="Licencia de la Edición Estándard" revision="1" />
     <Item value="Licencia de la Edición Profesional" revision="1" />
     <Item value="Licencia de la Edición Ultimate" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="No-comercial" revision="1" />
@@ -861,6 +862,7 @@
     <Item value="Edición Estándard" revision="2" />
     <Item value="Edición Profesional" revision="2" />
     <Item value="Edición Ultimate" revision="2" />
+    <Item />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Buscar Actualizaciones…" revision="1" />

@@ -582,6 +582,7 @@
     <Item value="标准版授权" revision="1" />
     <Item value="专业版授权" revision="1" />
     <Item value="旗舰版授权" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="非商业" revision="1" />
@@ -858,6 +859,7 @@
     <Item value="标准版" revision="2" />
     <Item value="专业版" revision="2" />
     <Item value="终极版" revision="2" />
+    <Item />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="检查更新…" revision="1" />

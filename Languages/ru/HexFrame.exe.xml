@@ -585,6 +585,7 @@
     <Item value="Лицензия редакции Standard" revision="1" />
     <Item value="Лицензия редакции Professional" revision="1" />
     <Item value="Лицензия редакции Ultimate" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Некоммерческая" revision="1" />
@@ -861,6 +862,7 @@
     <Item value="Редакция Standard" revision="2" />
     <Item value="Редакция Professional" revision="2" />
     <Item value="Редакция Ultimate" revision="2" />
+    <Item />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Поиск обновлений…" revision="1" />

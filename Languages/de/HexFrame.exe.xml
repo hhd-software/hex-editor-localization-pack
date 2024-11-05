@@ -585,6 +585,7 @@
     <Item value="Standard Edition Lizenz" revision="1" />
     <Item value="Professional Edition Lizenz" revision="1" />
     <Item value="Ultimate Edition Lizenz" revision="1" />
+    <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Nicht kommerziell" revision="1" />
@@ -861,6 +862,7 @@
     <Item value="Standard Edition" revision="2" />
     <Item value="Professional Edition" revision="2" />
     <Item value="Ultimate Edition" revision="2" />
+    <Item />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Prüfung auf Updates…" revision="1" />

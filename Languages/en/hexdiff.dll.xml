@@ -91,7 +91,7 @@
   </Enumeration>
 
   <Message key="IdenticalNotification" description="Option: File Comparison: NTFS streams in identical files" value="File Comparison: NTFS streams in identical files"/>
-  <Enumeration key="Task" description="Jump List Item: Compare files">
+  <Enumeration key="DiffTask" description="Jump List Item: Compare files">
     <Item text="Compare files"/>
     <Item text="Compare contents of two binary files"/>
   </Enumeration>

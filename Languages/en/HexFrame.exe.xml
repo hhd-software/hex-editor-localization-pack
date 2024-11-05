@@ -421,7 +421,7 @@
 	</Message>
 
 	<!-- Upgrade dialog -->
-	<Enumeration key="LicenseState" description="Current license state" revision="1">
+	<Enumeration key="LicenseState" description="Current license state" revision="2">
 		<Item text="Unknown, re-install the application and/or license." />
 		<Item text="Free, trial period has not been started." />
 		<Item text="Free, trial period ends in {days} days.">
@@ -431,6 +431,7 @@
 		<Item text="Standard Edition License" />
 		<Item text="Professional Edition License"/>
 		<Item text="Ultimate Edition License"/>
+		<Item text="Registered, upgrade plan expired."/>
 	</Enumeration>
 
 	<Message key="ExpiresOn" description="Expires on {date}" revision="1" value=", expires on {date}">
@@ -798,7 +799,7 @@
 	</Enumeration>
 
 	<!-- About box -->
-	<Message key="AboutInfo" description="About box information string" revision="5" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Version {major}.{minor}.{revision}.{build}]]]\n{registered?}Registered to [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]">
+	<Message key="AboutInfo" description="About box information string" revision="6" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Registered to [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]">
 		<Param name="product"/>
 		<Param name="edition"/>
 		<Param name="major"/>
@@ -811,7 +812,7 @@
 		<Param name="year"/>
 	</Message>
 
-	<Enumeration key="EditionList" description="Product edition list" revision="2">
+	<Enumeration key="EditionList" description="Product edition list" revision="3">
 		<Item text="Unknown product state"/>
 		<Item text="Free Edition"/>
 		<Item text="Trial period started"/>
@@ -819,7 +820,14 @@
 		<Item text="Standard Edition"/>
 		<Item text="Professional Edition"/>
 		<Item text="Ultimate Edition"/>
+		<Item text="[[[T#[#f00]#[[[bYour upgrade plan has expired!]]]]]] Please either revert to previous product version, or purchase an upgrade"/>
 	</Enumeration>
+
+	<Message key="Do not display this message anymore" description="Checkbox: Do not display this message anymore" />
+
+	<Message key="RegExpired" description="Upgrade plan expired notification" value="Your upgrade plan has expired! In order to continue using the product, you either need to revert to the previous version of the product, or [[[hpurchase an upgrade]]].{free?}\n\nIf you want to continue using this version with free license, you may discard this message.{?free}">
+		<Param name="free" format="?" />
+	</Message>
 
 	<Message key="AboutBoxDisclaimer" description="About box disclaimer" revision="1" value="Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law."></Message>
 

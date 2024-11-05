@@ -121,7 +121,7 @@
     <Item value="파일 비교" revision="0" />
     <Item value="파일이 동일합니다." revision="0" />
   </Enumeration>
-  <Enumeration key="Task">
+  <Enumeration key="DiffTask">
     <Item value="파일 비교" revision="0" />
     <Item value="두 이진 파일의 내용 비교" revision="0" />
   </Enumeration>

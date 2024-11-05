@@ -121,7 +121,7 @@
     <Item value="文件比较" revision="0" />
     <Item value="文件是相同的。" revision="0" />
   </Enumeration>
-  <Enumeration key="Task">
+  <Enumeration key="DiffTask">
     <Item value="比较文件" revision="0" />
     <Item value="比较两个二进制文件的内容" revision="0" />
   </Enumeration>
