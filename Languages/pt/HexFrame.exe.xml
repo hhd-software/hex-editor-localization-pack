@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="Janelas" revision="1" />
   <Message key="Save" value="Salvar" revision="1" />
   <Message key="Close Window(s)" value="Fechar Janela(s)" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Versão {major}.{minor}.{revision}.{build}]]]\n{registered?}Registado ao [[[b{user}]]] ({commercial?}[[[hComercial/Gov/Mil]]]{|commercial}[[[hDoméstico/Educativa]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nTodos os direitos são reservados.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nVersão {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Registado ao [[[b{user}]]] ({commercial?}[[[hComercial/Gov/Mil]]]{|commercial}[[[hDoméstico/Educativa]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nTodos os direitos são reservados.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="Não mostrar mais esta mensagem" revision="0" />
+  <Message key="RegExpired" value="O seu plano de atualização expirou! Para continuar a utilizar o produto, é necessário reverter para a versão anterior do produto ou [[[hcomprar uma atualização]]]." revision="0" />
   <Message key="AboutBoxDisclaimer" value="Aviso: Esse programa de computador está protegido por leis de direitos autorais e tratados internacionais. A reprodução ou distribuição desse programa, ou qualquer parte dele não autorizada, pode resultar em penalidades civis e criminais, e serão processadas ​​na máxima extensão possível ao abrigo da lei." revision="1" />
   <Message key="About Hex Editor Neo" value="Sobre {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Escolha o Padrão de Layout da Interface de Usuário" revision="1" />
@@ -578,14 +580,14 @@
     <Item value="Usando a janela de navegação" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Desconhecida, re-instalar o aplicativo ou a licença." revision="1" />
-    <Item value="Free, período de avaliação não foi iniciado." revision="1" />
-    <Item value="Free, período de avaliação termina em {days} dias." revision="1" />
-    <Item value="Free, o período de avaliação é longo." revision="1" />
-    <Item value="Licença Edição Standard" revision="1" />
-    <Item value="Licença Edição Professional" revision="1" />
-    <Item value="Licença Edição Ultimate" revision="1" />
-    <Item />
+    <Item value="Desconhecida, re-instalar o aplicativo ou a licença." revision="2" />
+    <Item value="Free, período de avaliação não foi iniciado." revision="2" />
+    <Item value="Free, período de avaliação termina em {days} dias." revision="2" />
+    <Item value="Free, o período de avaliação é longo." revision="2" />
+    <Item value="Licença Edição Standard" revision="2" />
+    <Item value="Licença Edição Professional" revision="2" />
+    <Item value="Licença Edição Ultimate" revision="2" />
+    <Item value="Registado, o plano de atualização expirou." revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Não-comercial" revision="1" />
@@ -855,14 +857,14 @@
     <Item value="Abre o arquivo no modo compartilhado" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Desconhecida" revision="2" />
-    <Item value="Free Edition" revision="2" />
-    <Item value="Período avaliação iniciado" revision="2" />
-    <Item value="Free Edition" revision="2" />
-    <Item value="Standard Edition" revision="2" />
-    <Item value="Professional Edition" revision="2" />
-    <Item value="Ultimate Edition" revision="2" />
-    <Item />
+    <Item value="Desconhecida" revision="3" />
+    <Item value="Free Edition" revision="3" />
+    <Item value="Período avaliação iniciado" revision="3" />
+    <Item value="Free Edition" revision="3" />
+    <Item value="Standard Edition" revision="3" />
+    <Item value="Professional Edition" revision="3" />
+    <Item value="Ultimate Edition" revision="3" />
+    <Item value="[[[T#[#f00]#[[[bO seu plano de atualização expirou!]]]]]] Reverta para a versão anterior do produto ou adquira uma atualização" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Verificar por Atualizações…" revision="1" />

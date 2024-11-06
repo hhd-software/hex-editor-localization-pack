@@ -48,6 +48,7 @@
   <Message key="Name:" value="이름:" revision="0" />
   <Message key="Checksum Result" value="체크섬 결과" revision="1" />
   <Message key="Copy" value="복사" revision="1" />
+  <Message key="Copy as Big-Endian" value="빅엔디언으로 복사" revision="0" />
   <Message key="Size:" value="크기:" revision="1" />
   <Message key="Separator:" value="구분자:" revision="1" />
   <Message key="Checksum settings" value="체크섭" revision="0" />

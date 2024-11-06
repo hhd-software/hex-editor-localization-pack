@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="Okno" revision="1" />
   <Message key="Save" value="Zapisz" revision="1" />
   <Message key="Close Window(s)" value="Zamknij okno(a)" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Wersja {major}.{minor}.{revision}.{build}]]]\n{registered?}Zarejestrowany na [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nWersja {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Zarejestrowany na [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nWszystkie prawa zastrzeżone.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="Nie wyświetlaj więcej tego komunikatu" revision="0" />
+  <Message key="RegExpired" value="Twój plan aktualizacji wygasł! Aby kontynuować korzystanie z produktu, musisz powrócić do poprzedniej wersji produktu lub [[[hzakupić aktualizację]]]." revision="0" />
   <Message key="AboutBoxDisclaimer" value="Ostrzeżenie: Ten program komputerowy jest chroniony przez prawo autorskie i traktaty międzynarodowe. Nieuprawnione powielanie lub rozpowszechnianie tego programu lub jego części może skutkować poważnymi sankcjami cywilnymi i karnymi i będzie ścigane w maksymalnym zakresie przewidzianym przez prawo." revision="1" />
   <Message key="About Hex Editor Neo" value="O {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Wybierz domyślny układ interfejsu użytkownika" revision="1" />
@@ -431,6 +433,7 @@
   <Message key="clr.balloon" value="Kolory okna powiadomień" revision="0" />
   <Message key="clr.balloon.balloon.fill" value="Kolor tła" revision="0" />
   <Message key="clr.balloon.balloon.text" value="Tekst" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Kontur" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="„Nie wyświetlaj więcej tego ostrzeżenia” wiadomość" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Dysk fizyczny" revision="2" />
@@ -577,14 +580,14 @@
     <Item value="Korzystanie z okna nawigacji" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Nieznany, ponownie zainstaluj aplikację i/lub licencję." revision="1" />
-    <Item value="Darmowy, okres próbny nie został uruchomiony." revision="1" />
-    <Item value="Bezpłatny okres próbny kończy się za {days} dni." revision="1" />
-    <Item value="Bezpłatny, okres próbny dobiegł końca." revision="1" />
-    <Item value="Licencja Standard Edition " revision="1" />
-    <Item value="Licencja Professional Edition" revision="1" />
-    <Item value="Licencja Ultimate Edition" revision="1" />
-    <Item />
+    <Item value="Nieznany, ponownie zainstaluj aplikację i/lub licencję." revision="2" />
+    <Item value="Darmowy, okres próbny nie został uruchomiony." revision="2" />
+    <Item value="Bezpłatny okres próbny kończy się za {days} dni." revision="2" />
+    <Item value="Bezpłatny, okres próbny dobiegł końca." revision="2" />
+    <Item value="Licencja Standard Edition" revision="2" />
+    <Item value="Licencja Professional Edition" revision="2" />
+    <Item value="Licencja Ultimate Edition" revision="2" />
+    <Item value="Zarejestrowany, plan aktualizacji wygasł." revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Nie komercyjne" revision="1" />
@@ -854,14 +857,14 @@
     <Item value="Otwórz plik w trybie udostępniania" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Nieznany stan produktu" revision="2" />
-    <Item value="Edycja Free " revision="2" />
-    <Item value="Rozpoczęcie okresu trial" revision="2" />
-    <Item value="Edycja Free" revision="2" />
-    <Item value="Edycja Standard" revision="2" />
-    <Item value="Edycja Professional" revision="2" />
-    <Item value="Edycja Ultimate" revision="2" />
-    <Item />
+    <Item value="Nieznany stan produktu" revision="3" />
+    <Item value="Edycja Free" revision="3" />
+    <Item value="Rozpoczęcie okresu trial" revision="3" />
+    <Item value="Edycja Free" revision="3" />
+    <Item value="Edycja Standard" revision="3" />
+    <Item value="Edycja Professional" revision="3" />
+    <Item value="Edycja Ultimate" revision="3" />
+    <Item value="[[[T#[#f00]#[[[bTwój plan aktualizacji wygasł!]]]]]] Należy powrócić do poprzedniej wersji produktu lub zakupić aktualizację" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Sprawdź aktualizacje…" revision="1" />

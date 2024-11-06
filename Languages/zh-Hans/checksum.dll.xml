@@ -48,6 +48,7 @@
   <Message key="Name:" value="名称：" revision="0" />
   <Message key="Checksum Result" value="校验码结果" revision="1" />
   <Message key="Copy" value="复制" revision="1" />
+  <Message key="Copy as Big-Endian" value="复制为大印第安人" revision="0" />
   <Message key="Size:" value="大小：" revision="1" />
   <Message key="Separator:" value="分隔符：" revision="1" />
   <Message key="Checksum settings" value="校验值" revision="0" />

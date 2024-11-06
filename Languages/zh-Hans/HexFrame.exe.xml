@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="Windows" revision="1" />
   <Message key="Save" value="保存" revision="1" />
   <Message key="Close Window(s)" value="关闭窗口" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. 版本 {major}.{minor}.{revision}.{build}]]]\n{registered?}注册给 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\n保留所有权利.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n版本 {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}注册给 [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\n保留所有权利.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="不再显示此信息" revision="0" />
+  <Message key="RegExpired" value="您的升级计划已过期！要继续使用该产品，您需要恢复到以前的产品版本，或者 [[[h购买升级]]]。" revision="0" />
   <Message key="AboutBoxDisclaimer" value="警告：本计算机程序受版权法和国际条约的保护。未经授权复制或分发本程序或其任何部分，可能导致严重的民事和刑事处罚，并将在法律允许的最大范围内受到起诉。" revision="1" />
   <Message key="About Hex Editor Neo" value="关于 {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="选择默认用户界面布局" revision="1" />
@@ -575,14 +577,14 @@
     <Item value="使用导航窗口" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="未知，重新安装本应用程序和/或授权。" revision="1" />
-    <Item value="免费，试用期尚未开始。" revision="1" />
-    <Item value="免费，试用期在 {days} 天后到期。" revision="1" />
-    <Item value="免费，试用期已到期。" revision="1" />
-    <Item value="标准版授权" revision="1" />
-    <Item value="专业版授权" revision="1" />
-    <Item value="旗舰版授权" revision="1" />
-    <Item />
+    <Item value="未知，重新安装本应用程序和/或授权。" revision="2" />
+    <Item value="免费，试用期尚未开始。" revision="2" />
+    <Item value="免费，试用期在 {days} 天后到期。" revision="2" />
+    <Item value="免费，试用期已到期。" revision="2" />
+    <Item value="标准版授权" revision="2" />
+    <Item value="专业版授权" revision="2" />
+    <Item value="旗舰版授权" revision="2" />
+    <Item value="已注册，升级计划已过期。" revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="非商业" revision="1" />
@@ -852,14 +854,14 @@
     <Item value="以共享方式打开文件" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="未知产品状态" revision="2" />
-    <Item value="免费版" revision="2" />
-    <Item value="试用期已开始" revision="2" />
-    <Item value="免费版" revision="2" />
-    <Item value="标准版" revision="2" />
-    <Item value="专业版" revision="2" />
-    <Item value="终极版" revision="2" />
-    <Item />
+    <Item value="未知产品状态" revision="3" />
+    <Item value="免费版" revision="3" />
+    <Item value="试用期已开始" revision="3" />
+    <Item value="免费版" revision="3" />
+    <Item value="标准版" revision="3" />
+    <Item value="专业版" revision="3" />
+    <Item value="终极版" revision="3" />
+    <Item value="[[[T#[#f00]#[[[b您的升级计划已过期！]]]]]] 请恢复到以前的产品版本，或购买升级包" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="检查更新…" revision="1" />

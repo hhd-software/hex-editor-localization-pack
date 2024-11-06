@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="Окна" revision="1" />
   <Message key="Save" value="Сохранить" revision="1" />
   <Message key="Close Window(s)" value="Закрыть окна" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Версия {major}.{minor}.{revision}.{build}]]]\n{registered?}Зарегистрировано на [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Зарегистрировано на [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="Больше не показывать это сообщение" revision="0" />
+  <Message key="RegExpired" value="Ваш план обновления истек! Чтобы продолжить использование продукта, вам нужно либо вернуться к предыдущей версии продукта, либо [[[hприобрести обновление]]]." revision="0" />
   <Message key="AboutBoxDisclaimer" value="Внимание: Эта программа защищена законом об авторском праве. Незаконное воспроизведение и распространение этой программы или её частей может привести к уголовному преследованию в рамках действующего законодательства." revision="1" />
   <Message key="About Hex Editor Neo" value="О {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Настройка интерфейса" revision="1" />
@@ -578,14 +580,14 @@
     <Item value="С использованием окна навигации" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Неизвестная. Переустановите продукт и лицензию." revision="1" />
-    <Item value="Бесплатная. Пробный период не начат." revision="1" />
-    <Item value="Бесплатная. Осталось {days} дней пробного периода." revision="1" />
-    <Item value="Бесплатная. Пробный период истек." revision="1" />
-    <Item value="Лицензия редакции Standard" revision="1" />
-    <Item value="Лицензия редакции Professional" revision="1" />
-    <Item value="Лицензия редакции Ultimate" revision="1" />
-    <Item />
+    <Item value="Неизвестная. Переустановите продукт и лицензию." revision="2" />
+    <Item value="Бесплатная. Пробный период не начат." revision="2" />
+    <Item value="Бесплатная. Осталось {days} дней пробного периода." revision="2" />
+    <Item value="Бесплатная. Пробный период истек." revision="2" />
+    <Item value="Лицензия редакции Standard" revision="2" />
+    <Item value="Лицензия редакции Professional" revision="2" />
+    <Item value="Лицензия редакции Ultimate" revision="2" />
+    <Item value="Зарегистрировано, план обновлений истек." revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Некоммерческая" revision="1" />
@@ -855,14 +857,14 @@
     <Item value="Открыть файл в режиме совместного использования с другими приложениями" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Неизвестное состояние продукта" revision="2" />
-    <Item value="Бесплатная редакция" revision="2" />
-    <Item value="Начат пробный период" revision="2" />
-    <Item value="Бесплатная редакция" revision="2" />
-    <Item value="Редакция Standard" revision="2" />
-    <Item value="Редакция Professional" revision="2" />
-    <Item value="Редакция Ultimate" revision="2" />
-    <Item />
+    <Item value="Неизвестное состояние продукта" revision="3" />
+    <Item value="Бесплатная редакция" revision="3" />
+    <Item value="Начат пробный период" revision="3" />
+    <Item value="Бесплатная редакция" revision="3" />
+    <Item value="Редакция Standard" revision="3" />
+    <Item value="Редакция Professional" revision="3" />
+    <Item value="Редакция Ultimate" revision="3" />
+    <Item value="[[[T#[#f00]#[[[bВаш план обновления истек!]]]]]] Пожалуйста, либо вернитесь к предыдущей версии продукта, либо купите обновление" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Поиск обновлений…" revision="1" />

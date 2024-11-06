@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="Fenster" revision="1" />
   <Message key="Save" value="Sichern" revision="1" />
   <Message key="Close Window(s)" value="Fenster schließen" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Version {major}.{minor}.{revision}.{build}]]]\n{registered?}Registriert für: [[[b{user}]]] ({commercial?}[[[hKommerziell/Gov/Mil]]]{|commercial}[[[hPrivat/Bildungswesen]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAlle Rechte vorbehalten.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Registriert für: [[[b{user}]]] ({commercial?}[[[hKommerziell/Gov/Mil]]]{|commercial}[[[hPrivat/Bildungswesen]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAlle Rechte vorbehalten.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="Diese Meldung nicht mehr anzeigen" revision="0" />
+  <Message key="RegExpired" value="Ihr Upgrade-Plan ist ausgelaufen! Um das Produkt weiterhin nutzen zu können, müssen Sie entweder zur vorherigen Version des Produkts zurückkehren [[[hoder ein upgrade erwerben]]]." revision="0" />
   <Message key="AboutBoxDisclaimer" value="Warnung: Dieses Computerprogramm ist durch Copyright Gesetze und internationale Abhandlungen geschützt. Nicht genehmigte Reproduktion oder Verteilung dieses Programmes, oder Teile davon, können zu schweren zivilen und strafrechtlichen Strafen führen und werden bis zum gesetzlichen Maximum verfolgt." revision="1" />
   <Message key="About Hex Editor Neo" value="Über {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="Voreingestelltes Layout der Benutzerschnittstelle wählen" revision="1" />
@@ -578,14 +580,14 @@
     <Item value="Navigationsfenster benutzen" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Unbekannt, nochmalige Installation Produkt und/oder Lizenz" revision="1" />
-    <Item value="Frei, Testzeitraum noch nicht begonnen." revision="1" />
-    <Item value="Frei, Testzeitraum endet in {days} Tagen." revision="1" />
-    <Item value="Frei, Testzeitraum vorbei." revision="1" />
-    <Item value="Standard Edition Lizenz" revision="1" />
-    <Item value="Professional Edition Lizenz" revision="1" />
-    <Item value="Ultimate Edition Lizenz" revision="1" />
-    <Item />
+    <Item value="Unbekannt, nochmalige Installation Produkt und/oder Lizenz" revision="2" />
+    <Item value="Frei, Testzeitraum noch nicht begonnen." revision="2" />
+    <Item value="Frei, Testzeitraum endet in {days} Tagen." revision="2" />
+    <Item value="Frei, Testzeitraum vorbei." revision="2" />
+    <Item value="Standard Edition Lizenz" revision="2" />
+    <Item value="Professional Edition Lizenz" revision="2" />
+    <Item value="Ultimate Edition Lizenz" revision="2" />
+    <Item value="Registriert, Upgrade-Plan abgelaufen." revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Nicht kommerziell" revision="1" />
@@ -855,14 +857,14 @@
     <Item value="Öffnet Dateien im Mode für gemeinsamen Zugriff." revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="Unbekannter Produktstatus" revision="2" />
-    <Item value="Freie Edition" revision="2" />
-    <Item value="Testzeitraum hat begonnen" revision="2" />
-    <Item value="Freie Edition" revision="2" />
-    <Item value="Standard Edition" revision="2" />
-    <Item value="Professional Edition" revision="2" />
-    <Item value="Ultimate Edition" revision="2" />
-    <Item />
+    <Item value="Unbekannter Produktstatus" revision="3" />
+    <Item value="Freie Edition" revision="3" />
+    <Item value="Testzeitraum hat begonnen" revision="3" />
+    <Item value="Freie Edition" revision="3" />
+    <Item value="Standard Edition" revision="3" />
+    <Item value="Professional Edition" revision="3" />
+    <Item value="Ultimate Edition" revision="3" />
+    <Item value="[[[T#[#f00]#[[[bIhr Upgrade-Plan ist abgelaufen!]]]]]] Bitte kehren Sie entweder zur vorherigen Produktversion zurück oder erwerben Sie ein Upgrade" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="Prüfung auf Updates…" revision="1" />

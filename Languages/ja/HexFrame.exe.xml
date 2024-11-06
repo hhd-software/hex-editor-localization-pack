@@ -160,7 +160,9 @@
   <Message key="Windows Title" value="ウィンドウ" revision="1" />
   <Message key="Save" value="保存" revision="1" />
   <Message key="Close Window(s)" value="ウィンドウを閉じる" revision="1" />
-  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\n[[[i{edition}. Version {major}.{minor}.{revision}.{build}]]]\n{registered?}Registered to [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]" revision="5" />
+  <Message key="AboutInfo" value="[[[b[[[s:150:HHD Software {product}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n[[[i{edition}.]]]\n{registered?}Registered to [[[b{user}]]] ({commercial?}[[[hCommercial/Gov/Mil]]]{|commercial}[[[hHome/Educational]]]{?commercial})\n{?registered}\n©2001 – {year} HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]" revision="6" />
+  <Message key="Do not display this message anymore" value="このメッセージを表示しない" revision="0" />
+  <Message key="RegExpired" value="アップグレードプランの有効期限が切れています！製品の使用を継続するには、製品の以前のバージョンに戻すか、[[[hアップグレードを購入]]]する必要があります。" revision="0" />
   <Message key="AboutBoxDisclaimer" value="警告: このコンピュータ プログラムは著作権法および国際条約によって保護されています。 このプログラムまたはその一部を無断で複製または配布すると、厳しい民事罰および刑事罰が科される可能性があり、法律に基づいて可能な限り起訴されます。" revision="1" />
   <Message key="About Hex Editor Neo" value="バージョン情報 {product}" revision="2" />
   <Message key="Choose Default User Interface Layout" value="既定のユーザーインターフェイスレイアウトの選択" revision="1" />
@@ -578,14 +580,14 @@
     <Item value="ナビゲーション ウィンドウの使用" revision="1" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="不明です。アプリケーションやライセンスを再インストールしてください。" revision="1" />
-    <Item value="無料、試用期間は開始されていません。" revision="1" />
-    <Item value="無料、試用期間は {days} 日で終了します。" revision="1" />
-    <Item value="無料、試用期間は終了しました。" revision="1" />
-    <Item value="スタンダード エディション ライセンス" revision="1" />
-    <Item value="プロフェッショナル エディション ライセンス" revision="1" />
-    <Item value="アルティメット エディション ライセンス" revision="1" />
-    <Item />
+    <Item value="不明です。アプリケーションやライセンスを再インストールしてください。" revision="2" />
+    <Item value="無料、試用期間は開始されていません。" revision="2" />
+    <Item value="無料、試用期間は {days} 日で終了します。" revision="2" />
+    <Item value="無料、試用期間は終了しました。" revision="2" />
+    <Item value="スタンダード エディション ライセンス" revision="2" />
+    <Item value="プロフェッショナル エディション ライセンス" revision="2" />
+    <Item value="アルティメット エディション ライセンス" revision="2" />
+    <Item value="登録済み、アップグレードプランは期限切れ。" revision="2" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="非営利" revision="1" />
@@ -855,14 +857,14 @@
     <Item value="ファイルを共有モードで開く" revision="1" />
   </Enumeration>
   <Enumeration key="EditionList">
-    <Item value="製品状態不明" revision="2" />
-    <Item value="無料版" revision="2" />
-    <Item value="試用期間の開始" revision="2" />
-    <Item value="無料版" revision="2" />
-    <Item value="スタンダード エディション" revision="2" />
-    <Item value="プロフェッショナル エディション" revision="2" />
-    <Item value="アルティメット エディション" revision="2" />
-    <Item />
+    <Item value="製品状態不明" revision="3" />
+    <Item value="無料版" revision="3" />
+    <Item value="試用期間の開始" revision="3" />
+    <Item value="無料版" revision="3" />
+    <Item value="スタンダード エディション" revision="3" />
+    <Item value="プロフェッショナル エディション" revision="3" />
+    <Item value="アルティメット エディション" revision="3" />
+    <Item value="[[[T#[#f00]#[[[bアップグレードプランの有効期限が切れました！]]]]]] 以前の製品バージョンに戻すか、アップグレードを購入してください。" revision="3" />
   </Enumeration>
   <Enumeration key="HelpCheck">
     <Item value="更新の確認…" revision="1" />
