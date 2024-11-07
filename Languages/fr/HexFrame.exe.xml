@@ -116,7 +116,8 @@
   <Message key="{days} days left" value="{days} Jours restants" revision="1" />
   <Message key="ExpiresOn" value=", expire le {date}" revision="1" />
   <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="OpenLicenseFilter" value="fichier de licences (*.hexlic)|*.hexlic|All Files|*.*|" revision="1" />
+  <Message key="UPSuffix" value="\r\n{lu?}Plan de mise à niveau : Durée de vie.{|lu}Le plan de mise à niveau expire le {expiration}{?lu}." revision="0" />
+  <Message key="OpenLicenseFilter" value="fichier de licences|*.hexlic|All Files|*.*|" revision="2" />
   <Message key="License Installation" value="Installation de licence " revision="1" />
   <Message key="LicenseInstallSuccess" value="Licence installé avec succès. Il est recommandé de redémarrer l'application. Merci beaucoup pour votre choix!" revision="1" />
   <Message key="LicenseInstallFailure" value="Format de fichier licence invalide ou votre fichier de licence a expiré. Veuillez vous connecter à votre compte pour télécharger nouveau fichier de licence." revision="1" />
@@ -435,6 +436,7 @@
   <Message key="clr.balloon.balloon.text" value="Texte" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Trait" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="« Ne plus afficher cet avertissement » message" revision="0" />
+  <Message key="Ready" value="Prêt" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disque physique" revision="2" />
     <Item value="Taille" revision="2" />

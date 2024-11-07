@@ -116,7 +116,8 @@
   <Message key="{days} days left" value="剩余 {days} 天" revision="1" />
   <Message key="ExpiresOn" value="，到期时间 {date}" revision="1" />
   <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="OpenLicenseFilter" value="授权文件 (*.hexlic)|*.hexlic|All Files|*.*|" revision="1" />
+  <Message key="UPSuffix" value="\r\n{lu?}升级计划： 终身。{|lu}升级计划于 {expiration}{?lu}." revision="0" />
+  <Message key="OpenLicenseFilter" value="授权文件|*.hexlic|All Files|*.*|" revision="2" />
   <Message key="License Installation" value="安装授权" revision="1" />
   <Message key="LicenseInstallSuccess" value="安装授权成功，推荐重启应用程序，非常感谢你选择 Hex Editor Neo！" revision="1" />
   <Message key="LicenseInstallFailure" value="无效的授权文件格式或过期的授权文件，请用你的账户登录下载新授权文件。" revision="1" />
@@ -432,6 +433,7 @@
   <Message key="clr.balloon.balloon.fill" value="背景颜色" revision="0" />
   <Message key="clr.balloon.balloon.text" value="文本" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="“不再显示此警告”信息" revision="0" />
+  <Message key="Ready" value="就绪" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理磁盘" revision="2" />
     <Item value="大小" revision="2" />

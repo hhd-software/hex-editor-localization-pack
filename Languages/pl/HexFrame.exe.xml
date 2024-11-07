@@ -116,7 +116,8 @@
   <Message key="{days} days left" value="Pozostało {days} dni" revision="1" />
   <Message key="ExpiresOn" value=", wygasa {date}" revision="1" />
   <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="OpenLicenseFilter" value="Pliki licencji (*.hexlic)|*.hexlic|Wszystkie pliki|*.*|" revision="1" />
+  <Message key="UPSuffix" value="\r\n{lu?}Plan aktualizacji: Dożywotnia.{|lu}Plan aktualizacji wygasa w dniu {expiration}{?lu}." revision="0" />
+  <Message key="OpenLicenseFilter" value="Pliki licencji|*.hexlic|Wszystkie pliki|*.*|" revision="2" />
   <Message key="License Installation" value="Instalacja licencji" revision="1" />
   <Message key="LicenseInstallSuccess" value="Licencja została pomyślnie zainstalowana. Zalecane jest ponowne uruchomienie aplikacji. Bardzo dziękujemy za wybranie Hex Editor Neo!" revision="1" />
   <Message key="LicenseInstallFailure" value="Nieprawidłowy format pliku licencji lub plik licencji, który utracił ważność. Zaloguj się na swoje konto, aby pobrać nowy plik licencji." revision="1" />
@@ -435,6 +436,7 @@
   <Message key="clr.balloon.balloon.text" value="Tekst" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Kontur" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="„Nie wyświetlaj więcej tego ostrzeżenia” wiadomość" revision="0" />
+  <Message key="Ready" value="Gotowe" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Dysk fizyczny" revision="2" />
     <Item value="Rozmiar" revision="2" />

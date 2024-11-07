@@ -116,7 +116,8 @@
   <Message key="{days} days left" value="{days} Meno Giorni" revision="1" />
   <Message key="ExpiresOn" value=", scade il {date}" revision="1" />
   <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="OpenLicenseFilter" value="File di Licenza (*.hexlic)|*.hexlic|Tutti i File|*.*|" revision="1" />
+  <Message key="UPSuffix" value="\r\n{lu?}Piano di aggiornamento: A vita.{|lu}Il piano di aggiornamento scade il {expiration}{?lu}." revision="0" />
+  <Message key="OpenLicenseFilter" value="File di Licenza|*.hexlic|Tutti i File|*.*|" revision="2" />
   <Message key="License Installation" value="Licenza di Installazione" revision="1" />
   <Message key="LicenseInstallSuccess" value="La Licenza è stata Installata con Successo. Si Consiglia di Riavviare l'Applicazione. Grazie Mille per Aver Scelto Hex Editor Neo!" revision="1" />
   <Message key="LicenseInstallFailure" value="Formato File di Licenza Non Valido o File di Licenza Scaduto. Accedi al Tuo Account per Scaricare il Nuovo File di Licenza." revision="1" />
@@ -435,6 +436,7 @@
   <Message key="clr.balloon.balloon.text" value="Testo" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Tratto" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="“Non Visualizzare più Questo Avviso” messaggio" revision="0" />
+  <Message key="Ready" value="Pronto" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Fisico" revision="2" />
     <Item value="Dimensione" revision="2" />

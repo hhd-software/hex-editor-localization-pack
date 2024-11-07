@@ -116,7 +116,8 @@
   <Message key="{days} days left" value="Осталось {days} дней" revision="1" />
   <Message key="ExpiresOn" value=", истекает {date}" revision="1" />
   <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="OpenLicenseFilter" value="Файлы лицензий (*.hexlic)|*.hexlic|Все файлы|*.*|" revision="1" />
+  <Message key="UPSuffix" value="\r\n{lu?}План обновлений: Пожизненные.{|lu}Срок действия плана обновлений истекает {expiration}{?lu}." revision="0" />
+  <Message key="OpenLicenseFilter" value="Файлы лицензий|*.hexlic|Все файлы|*.*|" revision="2" />
   <Message key="License Installation" value="Установка лицензии" revision="1" />
   <Message key="LicenseInstallSuccess" value="Лицензия успешно установлена. Рекомендуется перезапустить приложение. Спасибо, что выбрали Hex Editor Neo!" revision="1" />
   <Message key="LicenseInstallFailure" value="Устаревший файл лицензии или неправильный его формат. Скачайте новый файл лицензии из вашего аккаунта." revision="1" />
@@ -435,6 +436,7 @@
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Обводка" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Не показывать больше это&quot; сообщение" revision="0" />
+  <Message key="Ready" value="Готово" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
