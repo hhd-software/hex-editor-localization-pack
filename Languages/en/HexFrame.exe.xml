@@ -443,12 +443,17 @@
 		<Param name="comtype"/>
 	</Message>
 
+	<Message key="UPSuffix" description="Upgrade plan information" value="\r\n{lu?}Upgrade plan: Lifetime.{|lu}Upgrade plan expires on {expiration}{?lu}.">
+		<Param name="lu" format="?"/>
+		<Param name="expiration" format="t(%x)"/>
+	</Message>
+
 	<Enumeration key="ComNonCom" description="Commercial and non-commercial license strings" revision="1">
 		<Item text="Non-commercial"/>
 		<Item text="Commercial"/>
 	</Enumeration>
 
-	<Message key="OpenLicenseFilter" value="License Files (*.hexlic)|*.hexlic|All Files|*.*|" description="Install license dialog filter" revision="1">
+	<Message key="OpenLicenseFilter" value="License files|*.hexlic|All files|*.*|" description="Install license dialog filter" revision="2">
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
 
@@ -1322,4 +1327,6 @@
 	<Message key="clr.balloon.balloon.text" description="Color: Notification Window Text (currently not used in Hex Editor Neo)" value="Text"/>
 	<Message key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke (currently not used in Hex Editor Neo)" value="Stroke"/>
 	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore (currently not used in Hex Editor Neo)" value="&quot;Don't display anymore&quot; message"/>
+
+	<Message key="Ready" description="Status bar idle message" />
 </Definition>
