@@ -57,7 +57,11 @@
     <Item text="&amp;Find…"/>
     <Item text="Find pattern or all pattern occurrences"/>
   </Enumeration>
-  <Enumeration key="EditFindNext" description="Command: Edit.Find Next" revision="1">
+	<Enumeration key="SelectGap" description="Command: Select.Gap">
+		<Item text="Gap Selection (Sparse)"/>
+		<Item text="Gap selected regions"/>
+	</Enumeration>
+	<Enumeration key="EditFindNext" description="Command: Edit.Find Next" revision="1">
     <Item text="Find &amp;Next"/>
     <Item text="Find next pattern occurrence"/>
   </Enumeration>
@@ -93,7 +97,11 @@
     <Item text="&amp;Encoding"/>
     <Item text="Encodings"/>
   </Enumeration>
-  <Enumeration key="ViewConnect" description="Command: View.Connect" revision="1">
+	<Enumeration key="RecentPatterns" description="Command group: Recent patterns">
+		<Item text="&amp;Recent Patterns"/>
+		<Item text="Choose one of the recent patterns"/>
+	</Enumeration>
+	<Enumeration key="ViewConnect" description="Command: View.Connect" revision="1">
     <Item text="&amp;Connect to…"/>
     <Item text="Connect this window with another"/>
   </Enumeration>
@@ -725,6 +733,9 @@
   <!-- Bitwise -->
   <Message key="Bitwise Operation" description="Bitwise Operation window title" revision="1"/>
 
+    <!-- Gap -->
+  <Message key="Gap Operation" description="Gap Operation window title" />
+	
   <!-- Set Columns -->
   <Message key="Set Columns" description="Set Columns window title"/>
   <Message key="Enter number of columns per row:" description="Field: Enter number of columns per row"/>
@@ -884,6 +895,7 @@
 	<Message key="clr.colors.Even" description="Color: Even Color" value="Even" />
 	<Message key="clr.colors.Odd" description="Color: Odd Color" value="Odd" />
 	<Message key="clr.colors.Empty" description="Color: Empty Range Color" value="Empty range" />
+	<Message key="clr.colors.ChangedEmpty" description="Color: Changed Empty Range Color" value="Changed empty range" />
 	<Message key="clr.colors.CursorFill" description="Color: Cursor fill" value="Cursor fill" />
 	<Message key="clr.colors.CursorOutline" description="Color: Cursor stroke" value="Cursor stroke" />
 	<Message key="clr.colors.AltCursorFill" description="Color: Alt cursor fill" value="Alternate cursor fill" />

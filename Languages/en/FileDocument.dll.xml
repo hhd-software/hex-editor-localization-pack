@@ -38,7 +38,7 @@
   </Enumeration>
 
   <!-- Operations -->
-  <Enumeration key="OperationNames" description="Operation names" revision="1">
+  <Enumeration key="OperationNames" description="Operation names" revision="2">
     <Item text="Find All"/>
     <Item text="Fill"/>
     <Item text="Delete"/>
@@ -64,6 +64,7 @@
     <Item text="Reverse Operation"/>
     <Item text="Case Operation"/>
     <Item text="Insert Hex"/>
+	  <Item text="Gap"/>
   </Enumeration>
 
   <Enumeration key="RegExpColumns" description="Regular Expression page columns" revision="1">

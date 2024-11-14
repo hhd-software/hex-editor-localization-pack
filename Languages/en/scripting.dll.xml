@@ -6,7 +6,11 @@
     <Item text="&amp;Start Recording"/>
     <Item text="Start macro recording"/>
   </Enumeration>
-  <Enumeration key="MacroStop" description="Command: Stop macro recording or playback">
+	<Enumeration key="MacroNew" description="Command: Create new empty macro">
+		<Item text="&amp;Create Macro…"/>
+		<Item text="Create new empty macro"/>
+	</Enumeration>
+	<Enumeration key="MacroStop" description="Command: Stop macro recording or playback">
     <Item text="S&amp;top Recording/Playback"/>
     <Item text="Stop macro recording or playback"/>
   </Enumeration>
@@ -25,6 +29,10 @@
 	<Enumeration key="MacroEdit" description="Command: Edit macro">
 		<Item text="&amp;Edit Macro…"/>
 		<Item text="Edit the selected macro"/>
+	</Enumeration>
+	<Enumeration key="MacroDuplicate" description="Command: Duplicate macro">
+		<Item text="&amp;Duplicate Macro…"/>
+		<Item text="Copy the selected macro into a new one"/>
 	</Enumeration>
 	<Enumeration key="MacroImport" description="Command: Import macros">
 		<Item text="&amp;Import Macros…"/>
@@ -196,4 +204,12 @@
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
 	<Message key="Script files" description="Format string: Script files" />
+
+	<Message key="DuplicateMacroTemplate" description="Duplicate macro name template" value="Copy of {macro name}">
+		<Param name="macro name"/>
+	</Message>
+
+	<Message key="NewMacroTemplate" description="New macro name template" value="Macro {n}">
+		<Param name="n"/>
+	</Message>
 </Definition>

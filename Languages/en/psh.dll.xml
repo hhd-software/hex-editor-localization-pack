@@ -249,7 +249,7 @@
     <Item text="Retain document changes but drop all history."/>
   </Enumeration>
 
-  <Enumeration key="Operations" description="Operations">
+  <Enumeration key="Operations" description="Operations" revision="1">
     <Item text="Unknown"/>
     <Item text="New"/>
     <Item text="Open"/>
@@ -274,6 +274,7 @@
     <Item text="Shift Operation"/>
     <Item text="Case Change Operation"/>
     <Item text="Reverse Operation"/>
+	  <Item text="Gap" />
   </Enumeration>
 
   <Message key="Forks" description="Forks format string" value="{opname} ({items} items{has_forks?}, {forks} fork(s){?has_forks})">

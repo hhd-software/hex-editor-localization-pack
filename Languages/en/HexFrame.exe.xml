@@ -545,7 +545,6 @@
 	<!-- FR Module -->
 	<Message key="Regular expression" description="Field: Regular expression" revision="1"/>
 	<Message key="Sub-match:" description="Field: Sub-match" revision="1"/>
-	<Message key="Recent Patterns…" description="Field: Recent Patterns" revision="1"/>
 	<Message key="Type:" description="Field: Type" revision="1"/>
 	<Message key="Find what:" description="Field: Find what" revision="1"/>
 
@@ -568,6 +567,11 @@
 	</Enumeration>
 
 	<Message key="FREmpty" description="No entries in Recent patterns list" revision="1" value="Empty"/>
+
+	<Enumeration key="FREmpty2" description="No entries in Recent patterns list">
+		<Item text="Empty" />
+		<Item text="Clear the current pattern" />
+	</Enumeration>
 
 	<!-- Color dialog -->
 	<Message key="Custom colors:" description="Field: Custom colors" revision="1"/>
