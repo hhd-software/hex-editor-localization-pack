@@ -310,30 +310,31 @@
     <Item value="ドキュメントの変更を保持しますが、履歴はすべて削除します。" revision="0" />
   </Enumeration>
   <Enumeration key="Operations">
-    <Item value="不明" revision="0" />
-    <Item value="新規" revision="0" />
-    <Item value="開く" revision="0" />
-    <Item value="書き込み" revision="0" />
-    <Item value="挿入" revision="0" />
-    <Item value="削除" revision="0" />
-    <Item value="埋め込み" revision="0" />
-    <Item value="置き換え" revision="0" />
-    <Item value="すべて置き換え" revision="0" />
-    <Item value="サイズの設定" revision="0" />
-    <Item value="貼り付け" revision="0" />
-    <Item value="切り取り" revision="0" />
-    <Item value="ファイルの挿入" revision="0" />
-    <Item value="暗号化" revision="0" />
-    <Item value="復号化" revision="0" />
-    <Item value="プロセスを開く" revision="0" />
-    <Item value="物理メモリを開く" revision="0" />
-    <Item value="ボリュームを開く" revision="0" />
-    <Item value="物理ドライブを開く" revision="0" />
-    <Item value="ビット単位の演算" revision="0" />
-    <Item value="算術演算" revision="0" />
-    <Item value="シフト操作" revision="0" />
-    <Item value="大文字/小文字の操作" revision="0" />
-    <Item value="反転操作" revision="0" />
+    <Item value="不明" revision="1" />
+    <Item value="新規" revision="1" />
+    <Item value="開く" revision="1" />
+    <Item value="書き込み" revision="1" />
+    <Item value="挿入" revision="1" />
+    <Item value="削除" revision="1" />
+    <Item value="埋め込み" revision="1" />
+    <Item value="置き換え" revision="1" />
+    <Item value="すべて置き換え" revision="1" />
+    <Item value="サイズの設定" revision="1" />
+    <Item value="貼り付け" revision="1" />
+    <Item value="切り取り" revision="1" />
+    <Item value="ファイルの挿入" revision="1" />
+    <Item value="暗号化" revision="1" />
+    <Item value="復号化" revision="1" />
+    <Item value="プロセスを開く" revision="1" />
+    <Item value="物理メモリを開く" revision="1" />
+    <Item value="ボリュームを開く" revision="1" />
+    <Item value="物理ドライブを開く" revision="1" />
+    <Item value="ビット単位の演算" revision="1" />
+    <Item value="算術演算" revision="1" />
+    <Item value="シフト操作" revision="1" />
+    <Item value="大文字/小文字の操作" revision="1" />
+    <Item value="反転操作" revision="1" />
+    <Item value="ギャップ" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
     <Item value="履歴の参照" revision="0" />

@@ -61,31 +61,32 @@
     <Item value="Файл {name} был удалён сторонним приложением. Какое действие предпринять?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Найти все" revision="1" />
-    <Item value="Залить" revision="1" />
-    <Item value="Удалить" revision="1" />
-    <Item value="Сохранить" revision="1" />
-    <Item value="Найти" revision="1" />
-    <Item value="Заменить все" revision="1" />
-    <Item value="Собрать статистику" revision="1" />
-    <Item value="Сохранить как" revision="1" />
-    <Item value="Сохранить историю" revision="1" />
-    <Item value="Загрузить историю" revision="1" />
-    <Item value="Создать патч" revision="1" />
-    <Item value="Выделить изменения" revision="1" />
-    <Item value="Копировать" revision="1" />
-    <Item value="Вставить" revision="1" />
-    <Item value="Склеить историю" revision="1" />
-    <Item value="Статистика вхождений" revision="1" />
-    <Item value="Экспортировать" revision="1" />
-    <Item value="Шифровать" revision="1" />
-    <Item value="Расшифровать" revision="1" />
-    <Item value="Битовая операция" revision="1" />
-    <Item value="Арифметическая операция" revision="1" />
-    <Item value="Операция сдвига" revision="1" />
-    <Item value="Операция обращения" revision="1" />
-    <Item value="Регистровая операция" revision="1" />
-    <Item value="Вставить Hex" revision="1" />
+    <Item value="Найти все" revision="2" />
+    <Item value="Залить" revision="2" />
+    <Item value="Удалить" revision="2" />
+    <Item value="Сохранить" revision="2" />
+    <Item value="Найти" revision="2" />
+    <Item value="Заменить все" revision="2" />
+    <Item value="Собрать статистику" revision="2" />
+    <Item value="Сохранить как" revision="2" />
+    <Item value="Сохранить историю" revision="2" />
+    <Item value="Загрузить историю" revision="2" />
+    <Item value="Создать патч" revision="2" />
+    <Item value="Выделить изменения" revision="2" />
+    <Item value="Копировать" revision="2" />
+    <Item value="Вставить" revision="2" />
+    <Item value="Склеить историю" revision="2" />
+    <Item value="Статистика вхождений" revision="2" />
+    <Item value="Экспортировать" revision="2" />
+    <Item value="Шифровать" revision="2" />
+    <Item value="Расшифровать" revision="2" />
+    <Item value="Битовая операция" revision="2" />
+    <Item value="Арифметическая операция" revision="2" />
+    <Item value="Операция сдвига" revision="2" />
+    <Item value="Операция обращения" revision="2" />
+    <Item value="Регистровая операция" revision="2" />
+    <Item value="Вставить Hex" revision="2" />
+    <Item value="Пробел" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Имя класса" revision="1" />

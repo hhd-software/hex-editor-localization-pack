@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="Espressione Regolare" revision="1" />
   <Message key="Sub-match:" value="Sub-Match:" revision="1" />
-  <Message key="Recent Patterns…" value="Modelli Recenti…" revision="1" />
   <Message key="Type:" value="Tipo:" revision="1" />
   <Message key="Find what:" value="Cosa Trovare:" revision="1" />
   <Message key="FREmpty" value="Vuoto" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="WORD" revision="1" />
     <Item value="DWORD" revision="1" />
     <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Vuoto" revision="0" />
+    <Item value="Cancella il modello corrente" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="Nome" revision="1" />

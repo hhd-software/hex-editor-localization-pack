@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="正規表現" revision="1" />
   <Message key="Sub-match:" value="Sub-match :" revision="1" />
-  <Message key="Recent Patterns…" value="最近のパターン…" revision="1" />
   <Message key="Type:" value="種類 :" revision="1" />
   <Message key="Find what:" value="検索文字列 :" revision="1" />
   <Message key="FREmpty" value="空" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="WORD" revision="1" />
     <Item value="DWORD" revision="1" />
     <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="空" revision="0" />
+    <Item value="現在のパターンをクリアする" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="名前" revision="1" />

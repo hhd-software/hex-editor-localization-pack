@@ -61,31 +61,32 @@
     <Item value="文件 {name} 已被其它应用程序移除，你想做什么？" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="查找所有" revision="1" />
-    <Item value="填充" revision="1" />
-    <Item value="删除" revision="1" />
-    <Item value="保存" revision="1" />
-    <Item value="查找" revision="1" />
-    <Item value="替换全部" revision="1" />
-    <Item value="收集统计" revision="1" />
-    <Item value="另存为" revision="1" />
-    <Item value="保存历史" revision="1" />
-    <Item value="载入历史" revision="1" />
-    <Item value="创建路径" revision="1" />
-    <Item value="获取已修改的选择" revision="1" />
-    <Item value="复制" revision="1" />
-    <Item value="粘贴" revision="1" />
-    <Item value="历史清理" revision="1" />
-    <Item value="模式统计" revision="1" />
-    <Item value="导出" revision="1" />
-    <Item value="加密" revision="1" />
-    <Item value="解密" revision="1" />
-    <Item value="逐位运算" revision="1" />
-    <Item value="算数运算" revision="1" />
-    <Item value="移位运算" revision="1" />
-    <Item value="逆序运算" revision="1" />
-    <Item value="大小写转换运算" revision="1" />
-    <Item value="插入十六进制" revision="1" />
+    <Item value="查找所有" revision="2" />
+    <Item value="填充" revision="2" />
+    <Item value="删除" revision="2" />
+    <Item value="保存" revision="2" />
+    <Item value="查找" revision="2" />
+    <Item value="替换全部" revision="2" />
+    <Item value="收集统计" revision="2" />
+    <Item value="另存为" revision="2" />
+    <Item value="保存历史" revision="2" />
+    <Item value="载入历史" revision="2" />
+    <Item value="创建路径" revision="2" />
+    <Item value="获取已修改的选择" revision="2" />
+    <Item value="复制" revision="2" />
+    <Item value="粘贴" revision="2" />
+    <Item value="历史清理" revision="2" />
+    <Item value="模式统计" revision="2" />
+    <Item value="导出" revision="2" />
+    <Item value="加密" revision="2" />
+    <Item value="解密" revision="2" />
+    <Item value="逐位运算" revision="2" />
+    <Item value="算数运算" revision="2" />
+    <Item value="移位运算" revision="2" />
+    <Item value="逆序运算" revision="2" />
+    <Item value="大小写转换运算" revision="2" />
+    <Item value="插入十六进制" revision="2" />
+    <Item value="差距" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="类名" revision="1" />

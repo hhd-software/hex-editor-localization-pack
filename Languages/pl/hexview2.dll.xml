@@ -97,6 +97,7 @@
   <Message key="Invert" value="Odwróć" revision="1" />
   <Message key="Revert" value="Odwracanie" revision="1" />
   <Message key="Bitwise Operation" value="Operacja bitowa" revision="1" />
+  <Message key="Gap Operation" value="Operacja Gap" revision="0" />
   <Message key="Set Columns" value="Ustaw kolumny" revision="0" />
   <Message key="Enter number of columns per row:" value="Wpisz liczbę kolumn w wierszu:" revision="0" />
   <Message key="Select the Window to Connect" value="Wybierz okno do połączenia" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Równomierny" revision="0" />
   <Message key="clr.colors.Odd" value="Pozostały" revision="0" />
   <Message key="clr.colors.Empty" value="Pusty zakres" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Zmieniony pusty zakres" revision="0" />
   <Message key="clr.colors.CursorFill" value="Wypełnienie kursora" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Obrys kursora" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Alternatywne wypełnienie kursora" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Znajdź…" revision="1" />
     <Item value="Znajdź wzór lub wszystkie wystąpienia wzoru" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Luka w wybranych regionach (Rozrzedzony)" revision="0" />
+    <Item value="Luka w wybranych regionach" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Znajdź &amp;następny" revision="1" />
     <Item value="Znajdź następne wystąpienie wzorca" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Kodowanie" revision="1" />
     <Item value="Kodowania" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Najnowsze wzorce" revision="0" />
+    <Item value="Wybierz jeden z ostatnich wzorów" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;Połącz z…" revision="1" />

@@ -310,30 +310,31 @@
     <Item value="Behält alle Dokumentenänderungen aber löschet die Historie." revision="0" />
   </Enumeration>
   <Enumeration key="Operations">
-    <Item value="Unbekannt" revision="0" />
-    <Item value="Neu…" revision="0" />
-    <Item value="Öffnen" revision="0" />
-    <Item value="Schreiben" revision="0" />
-    <Item value="Einfügen" revision="0" />
-    <Item value="Löschen" revision="0" />
-    <Item value="Füllen" revision="0" />
-    <Item value="Ersetzen" revision="0" />
-    <Item value="Alles ersetzen" revision="0" />
-    <Item value="Größe setzen" revision="0" />
-    <Item value="Einfügen" revision="0" />
-    <Item value="Ausschneiden" revision="0" />
-    <Item value="Datei einfügen" revision="0" />
-    <Item value="Verschlüsseln" revision="0" />
-    <Item value="Entschlüsseln" revision="0" />
-    <Item value="Prozess öffnen" revision="0" />
-    <Item value="Physikalischen Speicher öffnen" revision="0" />
-    <Item value="Volume öffnen" revision="0" />
-    <Item value="Physikalisches Laufwerk öffnen" revision="0" />
-    <Item value="Bitweise Operation" revision="0" />
-    <Item value="Arithmetische Operation" revision="0" />
-    <Item value="Verschiebe-Operation" revision="0" />
-    <Item value="Groß-/Kleinschreibungswechsel Operation" revision="0" />
-    <Item value="Umkehr Operation" revision="0" />
+    <Item value="Unbekannt" revision="1" />
+    <Item value="Neu" revision="1" />
+    <Item value="Öffnen" revision="1" />
+    <Item value="Schreiben" revision="1" />
+    <Item value="Einfügen" revision="1" />
+    <Item value="Löschen" revision="1" />
+    <Item value="Füllen" revision="1" />
+    <Item value="Ersetzen" revision="1" />
+    <Item value="Alles ersetzen" revision="1" />
+    <Item value="Größe setzen" revision="1" />
+    <Item value="Einfügen" revision="1" />
+    <Item value="Ausschneiden" revision="1" />
+    <Item value="Datei einfügen" revision="1" />
+    <Item value="Verschlüsseln" revision="1" />
+    <Item value="Entschlüsseln" revision="1" />
+    <Item value="Prozess öffnen" revision="1" />
+    <Item value="Physikalischen Speicher öffnen" revision="1" />
+    <Item value="Volume öffnen" revision="1" />
+    <Item value="Physikalisches Laufwerk öffnen" revision="1" />
+    <Item value="Bitweise Operation" revision="1" />
+    <Item value="Arithmetische Operation" revision="1" />
+    <Item value="Verschiebe-Operation" revision="1" />
+    <Item value="Groß-/Kleinschreibungswechsel Operation" revision="1" />
+    <Item value="Umkehr Operation" revision="1" />
+    <Item value="Lücke" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
     <Item value="Historie Durchschauen" revision="0" />

@@ -29,9 +29,15 @@
   <Message key="MacroName" value="매크로: {name}" revision="0" />
   <Message key="MacroExportFormat" value="매크로 내보내기 파일|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="스크립트 파일" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="{macro name} 복사" revision="0" />
+  <Message key="NewMacroTemplate" value="매크로 {n}" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="기록 시작(&amp;S)" revision="0" />
     <Item value="매크로 기록 시작" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroNew">
+    <Item value="&amp;매크로 만들기…" revision="0" />
+    <Item value="새 빈 매크로 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
     <Item value="기록/재생 중지(&amp;T)" revision="0" />
@@ -52,6 +58,10 @@
   <Enumeration key="MacroEdit">
     <Item value="매크로 편집(&amp;E)" revision="0" />
     <Item value="선택한 매크로 편집" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDuplicate">
+    <Item value="&amp;매크로 복제…" revision="0" />
+    <Item value="선택한 매크로를 새 매크로에 복사합니다." revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="매크로 가져오기(&amp;I)" revision="0" />

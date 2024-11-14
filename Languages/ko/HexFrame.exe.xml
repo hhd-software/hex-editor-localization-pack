@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="정규식" revision="1" />
   <Message key="Sub-match:" value="하위 일치:" revision="1" />
-  <Message key="Recent Patterns…" value="최근 패턴…" revision="1" />
   <Message key="Type:" value="유형:" revision="1" />
   <Message key="Find what:" value="찾을 내용:" revision="1" />
   <Message key="FREmpty" value="비어 있음" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="WORD" revision="1" />
     <Item value="DWORD" revision="1" />
     <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="빈" revision="0" />
+    <Item value="현재 패턴 지우기" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="이름" revision="1" />

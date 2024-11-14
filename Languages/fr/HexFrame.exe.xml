@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="Expression régulière" revision="1" />
   <Message key="Sub-match:" value="Correspondance de sous-motif" revision="1" />
-  <Message key="Recent Patterns…" value="Modèles récents…" revision="1" />
   <Message key="Type:" value="Type:" revision="1" />
   <Message key="Find what:" value="Rechercher:" revision="1" />
   <Message key="FREmpty" value="Vide" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="MOT" revision="1" />
     <Item value="DOUBLE MOT" revision="1" />
     <Item value="QUAD MOT" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Vide" revision="0" />
+    <Item value="Effacer le motif actuel" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="Nom" revision="1" />

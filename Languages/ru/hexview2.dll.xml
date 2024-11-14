@@ -97,6 +97,7 @@
   <Message key="Invert" value="Обратить" revision="1" />
   <Message key="Revert" value="Вернуть" revision="1" />
   <Message key="Bitwise Operation" value="Побитовая операция" revision="1" />
+  <Message key="Gap Operation" value="Операция Пробел" revision="0" />
   <Message key="Set Columns" value="Установить колонки" revision="0" />
   <Message key="Enter number of columns per row:" value="Число колонок на строку:" revision="0" />
   <Message key="Select the Window to Connect" value="Выберите окно для связи" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Чётные" revision="0" />
   <Message key="clr.colors.Odd" value="Нечётные" revision="0" />
   <Message key="clr.colors.Empty" value="Пустой диапазон" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Измененный пустой диапазон" revision="0" />
   <Message key="clr.colors.CursorFill" value="Фон курсора" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Обводка курсора" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Фон дополнительного курсора" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Найти…" revision="1" />
     <Item value="Найти последовательность или все её включения" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Пробел в выбранных регионах (Разреженный)" revision="0" />
+    <Item value="Пробел в выбранных регионах" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Найти &amp;следующее" revision="1" />
     <Item value="Найти следующее включение" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Кодировка" revision="1" />
     <Item value="Кодировки" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Последние шаблоны" revision="0" />
+    <Item value="Выберите один из последних шаблонов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="Со&amp;единить с…" revision="1" />

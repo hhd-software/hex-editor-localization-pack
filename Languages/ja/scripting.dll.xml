@@ -29,9 +29,15 @@
   <Message key="MacroName" value="マクロ : {name}" revision="0" />
   <Message key="MacroExportFormat" value="マクロエクスポートファイル|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="スクリプト ファイル" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="{macro name}のコピー" revision="0" />
+  <Message key="NewMacroTemplate" value="マクロ {n}" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="記録開始(&amp;S)" revision="0" />
     <Item value="マクロの記録を開始" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroNew">
+    <Item value="&amp;マクロの作成…" revision="0" />
+    <Item value="新しい空のマクロを作成する" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
     <Item value="記録/再生の停止(&amp;T)" revision="0" />
@@ -52,6 +58,10 @@
   <Enumeration key="MacroEdit">
     <Item value="マクロの編集(&amp;E)…" revision="0" />
     <Item value="選択したマクロを編集" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDuplicate">
+    <Item value="&amp;マクロの複製…" revision="0" />
+    <Item value="選択したマクロを新しいマクロにコピーする" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="マクロのインポート(&amp;I)…" revision="0" />

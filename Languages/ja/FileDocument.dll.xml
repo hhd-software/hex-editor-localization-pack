@@ -61,31 +61,32 @@
     <Item value="ファイル {name} は別のアプリケーションによって削除されました。 どうしますか？" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="すべて検索" revision="1" />
-    <Item value="埋め込み" revision="1" />
-    <Item value="削除" revision="1" />
-    <Item value="保存" revision="1" />
-    <Item value="検索" revision="1" />
-    <Item value="すべて置き換え" revision="1" />
-    <Item value="統計を収集" revision="1" />
-    <Item value="名前を付けて保存" revision="1" />
-    <Item value="履歴の保存" revision="1" />
-    <Item value="履歴の読み込み" revision="1" />
-    <Item value="パッチの作成" revision="1" />
-    <Item value="変更された選択範囲を取得" revision="1" />
-    <Item value="コピー" revision="1" />
-    <Item value="貼り付け" revision="1" />
-    <Item value="履歴の消去" revision="1" />
-    <Item value="パターン統計" revision="1" />
-    <Item value="エクスポート" revision="1" />
-    <Item value="暗号化" revision="1" />
-    <Item value="復号化" revision="1" />
-    <Item value="ビット単位の演算" revision="1" />
-    <Item value="算術演算" revision="1" />
-    <Item value="シフト操作" revision="1" />
-    <Item value="反転操作" revision="1" />
-    <Item value="大文字/小文字の操作" revision="1" />
-    <Item value="16進数の挿入" revision="1" />
+    <Item value="すべて検索" revision="2" />
+    <Item value="埋め込み" revision="2" />
+    <Item value="削除" revision="2" />
+    <Item value="保存" revision="2" />
+    <Item value="検索" revision="2" />
+    <Item value="すべて置き換え" revision="2" />
+    <Item value="統計を収集" revision="2" />
+    <Item value="名前を付けて保存" revision="2" />
+    <Item value="履歴の保存" revision="2" />
+    <Item value="履歴の読み込み" revision="2" />
+    <Item value="パッチの作成" revision="2" />
+    <Item value="変更された選択範囲を取得" revision="2" />
+    <Item value="コピー" revision="2" />
+    <Item value="貼り付け" revision="2" />
+    <Item value="履歴の消去" revision="2" />
+    <Item value="パターン統計" revision="2" />
+    <Item value="エクスポート" revision="2" />
+    <Item value="暗号化" revision="2" />
+    <Item value="復号化" revision="2" />
+    <Item value="ビット単位の演算" revision="2" />
+    <Item value="算術演算" revision="2" />
+    <Item value="シフト操作" revision="2" />
+    <Item value="反転操作" revision="2" />
+    <Item value="大文字/小文字の操作" revision="2" />
+    <Item value="16進数の挿入" revision="2" />
+    <Item value="ギャップ" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="クラス名" revision="1" />

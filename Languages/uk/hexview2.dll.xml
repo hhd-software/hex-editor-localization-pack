@@ -97,6 +97,7 @@
   <Message key="Invert" value="Інвертувати" revision="1" />
   <Message key="Revert" value="Повернути" revision="1" />
   <Message key="Bitwise Operation" value="Побітова операція" revision="1" />
+  <Message key="Gap Operation" value="Операція Пробіл" revision="0" />
   <Message key="Set Columns" value="Встановити колонки" revision="0" />
   <Message key="Enter number of columns per row:" value="Введіть число колонок у рядку:" revision="0" />
   <Message key="Select the Window to Connect" value="Виберіть вікно для зв'язку" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Парні" revision="0" />
   <Message key="clr.colors.Odd" value="Непарні" revision="0" />
   <Message key="clr.colors.Empty" value="Порожній діапазон" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Змінено порожній діапазон" revision="0" />
   <Message key="clr.colors.CursorFill" value="Фон курсору" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Обведення курсору" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Фон додаткового курсору" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Знайти…" revision="1" />
     <Item value="Знайти послідовність чи всі її включення" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Пробіл у вибраних регіонах (Розріджений)" revision="0" />
+    <Item value="Пробіл у вибраних регіонах" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Знайти &amp;наступне" revision="1" />
     <Item value="Знайти наступне включення" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Кодування" revision="1" />
     <Item value="Кодування" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Нещодавні шаблони" revision="0" />
+    <Item value="Виберіть один з останніх шаблонів" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;З'єднати з…" revision="1" />

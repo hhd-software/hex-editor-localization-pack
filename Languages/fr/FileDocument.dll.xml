@@ -61,31 +61,32 @@
     <Item value="Le fichier {name} a été supprimé par une autre application. Que souhaitez-vous faire?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Rechercher tout" revision="1" />
-    <Item value="Remplir" revision="1" />
-    <Item value="Supprimer" revision="1" />
-    <Item value="Enregistrer" revision="1" />
-    <Item value="Rechercher" revision="1" />
-    <Item value="Remplacer tout" revision="1" />
-    <Item value="Cueillir des statistiques" revision="1" />
-    <Item value="Enregistrer sous" revision="1" />
-    <Item value="Enregistrer l’historique" revision="1" />
-    <Item value="Charger historique" revision="1" />
-    <Item value="Création de Patch(s)" revision="1" />
-    <Item value="Obtenez la sélection de modification" revision="1" />
-    <Item value="Copier" revision="1" />
-    <Item value="Coller" revision="1" />
-    <Item value="Purger l'historique" revision="1" />
-    <Item value="Statistiques de modèle" revision="1" />
-    <Item value="Exporter" revision="1" />
-    <Item value="Chiffrer" revision="1" />
-    <Item value="Déchiffrer" revision="1" />
-    <Item value="Opération bit à bit" revision="1" />
-    <Item value="Opération arithmétique" revision="1" />
-    <Item value="Opération de décalage" revision="1" />
-    <Item value="Opération de d'inversion" revision="1" />
-    <Item value="Opération de case" revision="1" />
-    <Item value="Insérez hexadécimal" revision="1" />
+    <Item value="Rechercher tout" revision="2" />
+    <Item value="Remplir" revision="2" />
+    <Item value="Supprimer" revision="2" />
+    <Item value="Enregistrer" revision="2" />
+    <Item value="Rechercher" revision="2" />
+    <Item value="Remplacer tout" revision="2" />
+    <Item value="Cueillir des statistiques" revision="2" />
+    <Item value="Enregistrer sous" revision="2" />
+    <Item value="Enregistrer l’historique" revision="2" />
+    <Item value="Charger historique" revision="2" />
+    <Item value="Création de Patch(s)" revision="2" />
+    <Item value="Obtenez la sélection de modification" revision="2" />
+    <Item value="Copier" revision="2" />
+    <Item value="Coller" revision="2" />
+    <Item value="Purger l'historique" revision="2" />
+    <Item value="Statistiques de modèle" revision="2" />
+    <Item value="Exporter" revision="2" />
+    <Item value="Chiffrer" revision="2" />
+    <Item value="Déchiffrer" revision="2" />
+    <Item value="Opération bit à bit" revision="2" />
+    <Item value="Opération arithmétique" revision="2" />
+    <Item value="Opération de décalage" revision="2" />
+    <Item value="Opération de d'inversion" revision="2" />
+    <Item value="Opération de case" revision="2" />
+    <Item value="Insérez hexadécimal" revision="2" />
+    <Item value="Écart" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Nom de  Classe" revision="1" />

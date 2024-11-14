@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="Wyrażenie regularne" revision="1" />
   <Message key="Sub-match:" value="Dopasowanie podrzędne:" revision="1" />
-  <Message key="Recent Patterns…" value="Najnowsze wzorce…" revision="1" />
   <Message key="Type:" value="Typ:" revision="1" />
   <Message key="Find what:" value="Znajdź co:" revision="1" />
   <Message key="FREmpty" value="Pusty" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="WORD" revision="1" />
     <Item value="DWORD" revision="1" />
     <Item value="QWORD" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Pusty" revision="0" />
+    <Item value="Wyczyść bieżący wzorzec" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="Nazwa" revision="1" />

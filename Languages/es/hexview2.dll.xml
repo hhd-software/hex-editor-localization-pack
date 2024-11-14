@@ -97,6 +97,7 @@
   <Message key="Invert" value="Invertir" revision="1" />
   <Message key="Revert" value="Revertir" revision="1" />
   <Message key="Bitwise Operation" value="Operación Bitwise" revision="1" />
+  <Message key="Gap Operation" value="Operación Gap" revision="0" />
   <Message key="Set Columns" value="Ajustar Columnas" revision="0" />
   <Message key="Enter number of columns per row:" value="Escriba el número de columnas por fila:" revision="0" />
   <Message key="Select the Window to Connect" value="Seleccione una ventana para conectar" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Par" revision="0" />
   <Message key="clr.colors.Odd" value="Impar" revision="0" />
   <Message key="clr.colors.Empty" value="Rango vacío" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Rango vacío modificado" revision="0" />
   <Message key="clr.colors.CursorFill" value="Relleno del cursor" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Trazo del cursor" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Relleno del cursor alternativo" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Buscar…" revision="1" />
     <Item value="Busca un patrón o todos los casos de un patrón" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Brecha regiones seleccionadas (Disperso)" revision="0" />
+    <Item value="Brecha regiones seleccionadas" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Buscar &amp;Siguiente" revision="1" />
     <Item value="Busca el siguiente caso" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codificación" revision="1" />
     <Item value="Codificaciones" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Patrones recientes" revision="0" />
+    <Item value="Elija uno de los modelos recientes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;Conectar a…" revision="1" />

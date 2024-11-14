@@ -29,9 +29,15 @@
   <Message key="MacroName" value="Makro: {name}" revision="0" />
   <Message key="MacroExportFormat" value="Pliki eksportu makr|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="Pliki skryptów" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="Kopia {macro name}" revision="0" />
+  <Message key="NewMacroTemplate" value="Makro {n}" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="&amp;Rozpocznij nagrywanie" revision="0" />
     <Item value="Rozpocznij nagrywanie makr" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroNew">
+    <Item value="&amp;Utwórz makro…" revision="0" />
+    <Item value="Utwórz nowe puste makro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
     <Item value="Z&amp;atrzymaj Nagrywanie/Odtwarzanie" revision="0" />
@@ -52,6 +58,10 @@
   <Enumeration key="MacroEdit">
     <Item value="&amp;Edytuj makro…" revision="0" />
     <Item value="Edytuj wybrane makro" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDuplicate">
+    <Item value="&amp;Powiel makro…" revision="0" />
+    <Item value="Skopiuj wybrane makro do nowego" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="&amp;Importuj makra…" revision="0" />

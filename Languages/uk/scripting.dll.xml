@@ -29,9 +29,15 @@
   <Message key="MacroName" value="Макрос: {name}" revision="0" />
   <Message key="MacroExportFormat" value="Файли експорту макросів|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="Файли скриптів" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="Копія {macro name}" revision="0" />
+  <Message key="NewMacroTemplate" value="Макро {n}" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="Почати &amp;запис" revision="0" />
     <Item value="Розпочати запис макросу" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroNew">
+    <Item value="&amp;Створити макрос…" revision="0" />
+    <Item value="Створіть новий порожній макрос" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
     <Item value="Зупинка запису/відтворення" revision="0" />
@@ -52,6 +58,10 @@
   <Enumeration key="MacroEdit">
     <Item value="&amp;Редагувати макрос…" revision="0" />
     <Item value="Редагувати обраний макрос" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDuplicate">
+    <Item value="&amp;Дублювати макрос…" revision="0" />
+    <Item value="Скопіюйте вибраний макрос у новий" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="&amp;Імпорт макросів…" revision="0" />

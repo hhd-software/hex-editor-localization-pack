@@ -310,30 +310,31 @@
     <Item value="Zachowaj zmiany w dokumentach, ale porzuć całą historię." revision="0" />
   </Enumeration>
   <Enumeration key="Operations">
-    <Item value="Nieznany" revision="0" />
-    <Item value="Nowy" revision="0" />
-    <Item value="Otwórz" revision="0" />
-    <Item value="Zapisz" revision="0" />
-    <Item value="Wstaw" revision="0" />
-    <Item value="Usuń" revision="0" />
-    <Item value="Wypełnij" revision="0" />
-    <Item value="Zamień" revision="0" />
-    <Item value="Zamień wszystko" revision="0" />
-    <Item value="Ustaw rozmiar" revision="0" />
-    <Item value="Wklej" revision="0" />
-    <Item value="Wytnij" revision="0" />
-    <Item value="Wstaw plik" revision="0" />
-    <Item value="Szyfruj" revision="0" />
-    <Item value="Odszyfruj" revision="0" />
-    <Item value="Otwórz proces" revision="0" />
-    <Item value="Otwórz pamięć fizyczną" revision="0" />
-    <Item value="Otwórz wolumin" revision="0" />
-    <Item value="Otwórz dysk fizyczny" revision="0" />
-    <Item value="Operacja bitowa" revision="0" />
-    <Item value="Operacja arytmetyczna" revision="0" />
-    <Item value="Operacja zmiany" revision="0" />
-    <Item value="Operacja zmiany wielkości liter" revision="0" />
-    <Item value="Operacja odwrotna" revision="0" />
+    <Item value="Nieznany" revision="1" />
+    <Item value="Nowy" revision="1" />
+    <Item value="Otwórz" revision="1" />
+    <Item value="Zapisz" revision="1" />
+    <Item value="Wstaw" revision="1" />
+    <Item value="Usuń" revision="1" />
+    <Item value="Wypełnij" revision="1" />
+    <Item value="Zamień" revision="1" />
+    <Item value="Zamień wszystko" revision="1" />
+    <Item value="Ustaw rozmiar" revision="1" />
+    <Item value="Wklej" revision="1" />
+    <Item value="Wytnij" revision="1" />
+    <Item value="Wstaw plik" revision="1" />
+    <Item value="Szyfruj" revision="1" />
+    <Item value="Odszyfruj" revision="1" />
+    <Item value="Otwórz proces" revision="1" />
+    <Item value="Otwórz pamięć fizyczną" revision="1" />
+    <Item value="Otwórz wolumin" revision="1" />
+    <Item value="Otwórz dysk fizyczny" revision="1" />
+    <Item value="Operacja bitowa" revision="1" />
+    <Item value="Operacja arytmetyczna" revision="1" />
+    <Item value="Operacja zmiany" revision="1" />
+    <Item value="Operacja zmiany wielkości liter" revision="1" />
+    <Item value="Operacja odwrotna" revision="1" />
+    <Item value="Gap" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
     <Item value="Przeglądanie historii" revision="0" />

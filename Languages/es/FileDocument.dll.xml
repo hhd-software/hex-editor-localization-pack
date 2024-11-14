@@ -61,31 +61,32 @@
     <Item value="El archivo {name} ha sido eliminado por otra aplicación. ¿Que quiere hacer?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Buscar todo" revision="1" />
-    <Item value="Relllenar" revision="1" />
-    <Item value="Borrar" revision="1" />
-    <Item value="Guardar" revision="1" />
-    <Item value="Buscar" revision="1" />
-    <Item value="Reemplazar todo" revision="1" />
-    <Item value="Recopilar estadísticas" revision="1" />
-    <Item value="Salvar Como" revision="1" />
-    <Item value="Salvar Historia" revision="1" />
-    <Item value="Cargar Historia" revision="1" />
-    <Item value="Crear un parche" revision="1" />
-    <Item value="Tomar la Selección Modificada" revision="1" />
-    <Item value="Copiar" revision="1" />
-    <Item value="Pegar" revision="1" />
-    <Item value="Depurar el Historial" revision="1" />
-    <Item value="Estadísticas de Patrones" revision="1" />
-    <Item value="Exportar" revision="1" />
-    <Item value="Encriptar" revision="1" />
-    <Item value="Desencriptar" revision="1" />
-    <Item value="Operación Bitwise" revision="1" />
-    <Item value="Operación Aritmética" revision="1" />
-    <Item value="Operación Shift" revision="1" />
-    <Item value="Operación Inversa" revision="1" />
-    <Item value="Operación Case" revision="1" />
-    <Item value="Insertar Hex" revision="1" />
+    <Item value="Buscar todo" revision="2" />
+    <Item value="Relllenar" revision="2" />
+    <Item value="Borrar" revision="2" />
+    <Item value="Guardar" revision="2" />
+    <Item value="Buscar" revision="2" />
+    <Item value="Reemplazar todo" revision="2" />
+    <Item value="Recopilar estadísticas" revision="2" />
+    <Item value="Salvar Como" revision="2" />
+    <Item value="Salvar Historia" revision="2" />
+    <Item value="Cargar Historia" revision="2" />
+    <Item value="Crear un parche" revision="2" />
+    <Item value="Tomar la Selección Modificada" revision="2" />
+    <Item value="Copiar" revision="2" />
+    <Item value="Pegar" revision="2" />
+    <Item value="Depurar el Historial" revision="2" />
+    <Item value="Estadísticas de Patrones" revision="2" />
+    <Item value="Exportar" revision="2" />
+    <Item value="Encriptar" revision="2" />
+    <Item value="Desencriptar" revision="2" />
+    <Item value="Operación Bitwise" revision="2" />
+    <Item value="Operación Aritmética" revision="2" />
+    <Item value="Operación Shift" revision="2" />
+    <Item value="Operación Inversa" revision="2" />
+    <Item value="Operación Case" revision="2" />
+    <Item value="Insertar Hex" revision="2" />
+    <Item value="Gap" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Nombre de Clase" revision="1" />

@@ -310,30 +310,31 @@
     <Item value="Сохраняет все изменения, но сбрасывает всю историю изменений." revision="0" />
   </Enumeration>
   <Enumeration key="Operations">
-    <Item value="Неизвестно" revision="0" />
-    <Item value="Новый" revision="0" />
-    <Item value="Открытие" revision="0" />
-    <Item value="Запись" revision="0" />
-    <Item value="Вставка" revision="0" />
-    <Item value="Удаление" revision="0" />
-    <Item value="Заливка" revision="0" />
-    <Item value="Замена" revision="0" />
-    <Item value="Замена всех" revision="0" />
-    <Item value="Установка размера" revision="0" />
-    <Item value="Вставка из буфера" revision="0" />
-    <Item value="Вырезание" revision="0" />
-    <Item value="Вставка файла" revision="0" />
-    <Item value="Шифровка" revision="0" />
-    <Item value="Расшифровка" revision="0" />
-    <Item value="Открытие процесса" revision="0" />
-    <Item value="Открытие памяти" revision="0" />
-    <Item value="Открытие тома" revision="0" />
-    <Item value="Открытие диска" revision="0" />
-    <Item value="Побитовая операция" revision="0" />
-    <Item value="Арифметическая операция" revision="0" />
-    <Item value="Операция сдвига" revision="0" />
-    <Item value="Регистровая операция" revision="0" />
-    <Item value="Операция обращения" revision="0" />
+    <Item value="Неизвестно" revision="1" />
+    <Item value="Новый" revision="1" />
+    <Item value="Открытие" revision="1" />
+    <Item value="Запись" revision="1" />
+    <Item value="Вставка" revision="1" />
+    <Item value="Удаление" revision="1" />
+    <Item value="Заливка" revision="1" />
+    <Item value="Замена" revision="1" />
+    <Item value="Замена всех" revision="1" />
+    <Item value="Установка размера" revision="1" />
+    <Item value="Вставка из буфера" revision="1" />
+    <Item value="Вырезание" revision="1" />
+    <Item value="Вставка файла" revision="1" />
+    <Item value="Шифровка" revision="1" />
+    <Item value="Расшифровка" revision="1" />
+    <Item value="Открытие процесса" revision="1" />
+    <Item value="Открытие памяти" revision="1" />
+    <Item value="Открытие тома" revision="1" />
+    <Item value="Открытие диска" revision="1" />
+    <Item value="Побитовая операция" revision="1" />
+    <Item value="Арифметическая операция" revision="1" />
+    <Item value="Операция сдвига" revision="1" />
+    <Item value="Регистровая операция" revision="1" />
+    <Item value="Операция обращения" revision="1" />
+    <Item value="Пробел" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
     <Item value="Обзор истории" revision="0" />

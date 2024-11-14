@@ -97,6 +97,7 @@
   <Message key="Invert" value="反转" revision="1" />
   <Message key="Revert" value="逆序" revision="1" />
   <Message key="Bitwise Operation" value="逐位运算" revision="1" />
+  <Message key="Gap Operation" value="间隙操作" revision="0" />
   <Message key="Set Columns" value="设置列" revision="0" />
   <Message key="Enter number of columns per row:" value="输入每行的列数:" revision="0" />
   <Message key="Select the Window to Connect" value="选择要连接的窗口" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="平均" revision="0" />
   <Message key="clr.colors.Odd" value="反常" revision="0" />
   <Message key="clr.colors.Empty" value="空范围" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="已更改的空白范围" revision="0" />
   <Message key="clr.colors.CursorFill" value="光标填充" revision="0" />
   <Message key="clr.colors.CursorOutline" value="光标笔划" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="替代光标填充" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="查找(&amp;F)…" revision="1" />
     <Item value="查找匹配或所有匹配项" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="选定地区的差距 (稀疏)" revision="0" />
+    <Item value="选定地区的差距" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="查找下一个(&amp;N)" revision="1" />
     <Item value="查找下一个匹配项" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="编码(&amp;E)" revision="1" />
     <Item value="编码" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;最新模式" revision="0" />
+    <Item value="从最近的模式中选择一种" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="连接到(&amp;C)…" revision="1" />

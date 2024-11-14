@@ -61,31 +61,32 @@
     <Item value="Il File {name} è stato Rimosso da un'Altra Applicazione. Cosa Vuoi fare?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Trova Tutto" revision="1" />
-    <Item value="Riempi" revision="1" />
-    <Item value="Elimina" revision="1" />
-    <Item value="Salva" revision="1" />
-    <Item value="Trova" revision="1" />
-    <Item value="Sostituisci Tutto" revision="1" />
-    <Item value="Raccogliere Statistiche" revision="1" />
-    <Item value="Salva Come" revision="1" />
-    <Item value="Salva Cronologia" revision="1" />
-    <Item value="Carica Cronologia" revision="1" />
-    <Item value="Creazione Patch" revision="1" />
-    <Item value="Ottieni Selezione Modificato" revision="1" />
-    <Item value="Copia" revision="1" />
-    <Item value="Incolla" revision="1" />
-    <Item value="Elimina Cronologia" revision="1" />
-    <Item value="Modello Statistiche" revision="1" />
-    <Item value="Esporta" revision="1" />
-    <Item value="Cripta" revision="1" />
-    <Item value="DeCripta" revision="1" />
-    <Item value="Operazione Bitwise" revision="1" />
-    <Item value="Operazione Aritmetica" revision="1" />
-    <Item value="Operazione Sposta" revision="1" />
-    <Item value="Operazione Inversa" revision="1" />
-    <Item value="Operazione Caso" revision="1" />
-    <Item value="Inserisci Hex" revision="1" />
+    <Item value="Trova Tutto" revision="2" />
+    <Item value="Riempi" revision="2" />
+    <Item value="Elimina" revision="2" />
+    <Item value="Salva" revision="2" />
+    <Item value="Trova" revision="2" />
+    <Item value="Sostituisci Tutto" revision="2" />
+    <Item value="Raccogliere Statistiche" revision="2" />
+    <Item value="Salva Come" revision="2" />
+    <Item value="Salva Cronologia" revision="2" />
+    <Item value="Carica Cronologia" revision="2" />
+    <Item value="Creazione Patch" revision="2" />
+    <Item value="Ottieni Selezione Modificato" revision="2" />
+    <Item value="Copia" revision="2" />
+    <Item value="Incolla" revision="2" />
+    <Item value="Elimina Cronologia" revision="2" />
+    <Item value="Modello Statistiche" revision="2" />
+    <Item value="Esporta" revision="2" />
+    <Item value="Cripta" revision="2" />
+    <Item value="DeCripta" revision="2" />
+    <Item value="Operazione Bitwise" revision="2" />
+    <Item value="Operazione Aritmetica" revision="2" />
+    <Item value="Operazione Sposta" revision="2" />
+    <Item value="Operazione Inversa" revision="2" />
+    <Item value="Operazione Caso" revision="2" />
+    <Item value="Inserisci Hex" revision="2" />
+    <Item value="Gap" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Nome Class" revision="1" />

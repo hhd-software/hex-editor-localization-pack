@@ -97,6 +97,7 @@
   <Message key="Invert" value="反転" revision="1" />
   <Message key="Revert" value="逆転" revision="1" />
   <Message key="Bitwise Operation" value="ビット単位の演算" revision="1" />
+  <Message key="Gap Operation" value="ギャップ操作" revision="0" />
   <Message key="Set Columns" value="列の設定" revision="0" />
   <Message key="Enter number of columns per row:" value="1 行あたりの列数を入力 :" revision="0" />
   <Message key="Select the Window to Connect" value="接続するウィンドウの選択" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="偶数列の背景" revision="0" />
   <Message key="clr.colors.Odd" value="奇数列の背景" revision="0" />
   <Message key="clr.colors.Empty" value="空の範囲" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="空の範囲を変更" revision="0" />
   <Message key="clr.colors.CursorFill" value="カーソル位置の背景" revision="0" />
   <Message key="clr.colors.CursorOutline" value="カーソル位置の外枠" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="カーソル位置の背景の代替" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="検索(&amp;F)…" revision="1" />
     <Item value="パターンまたはすべてのパターンの出現を検索" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="ギャップ選択地域 (スパース)" revision="0" />
+    <Item value="ギャップ選択地域" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="次を検索(&amp;N)" revision="1" />
     <Item value="次のパターンの出現を検索" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="エンコーディング(&amp;E)" revision="1" />
     <Item value="エンコーディング" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;最近のパターン" revision="0" />
+    <Item value="最近のパターンから1つを選ぶ" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="接続先(&amp;C)…" revision="1" />

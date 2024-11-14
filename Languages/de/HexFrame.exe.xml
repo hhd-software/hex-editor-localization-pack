@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="Regulärer Ausdruck" revision="1" />
   <Message key="Sub-match:" value="Sub-Match:" revision="1" />
-  <Message key="Recent Patterns…" value="Jüngste Muster…" revision="1" />
   <Message key="Type:" value="Typ:" revision="1" />
   <Message key="Find what:" value="Suchmuster:" revision="1" />
   <Message key="FREmpty" value="Leer" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="WORT" revision="1" />
     <Item value="DOPPEL-WORT" revision="1" />
     <Item value="VIERFACH-WORT" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Leer" revision="0" />
+    <Item value="Löschen des aktuellen Musters" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="Name" revision="1" />

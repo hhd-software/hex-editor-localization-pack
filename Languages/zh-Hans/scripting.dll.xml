@@ -29,9 +29,15 @@
   <Message key="MacroName" value="宏: {name}" revision="0" />
   <Message key="MacroExportFormat" value="宏导出文件|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="脚本文件" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="{macro name}的副本" revision="0" />
+  <Message key="NewMacroTemplate" value="宏 {n}" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="&amp;开始录制" revision="0" />
     <Item value="开始宏记录" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroNew">
+    <Item value="&amp;创建宏…" revision="0" />
+    <Item value="创建新的空宏" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
     <Item value="停止录制/回放" revision="0" />
@@ -52,6 +58,10 @@
   <Enumeration key="MacroEdit">
     <Item value="&amp;编辑宏…" revision="0" />
     <Item value="编辑所选宏" revision="0" />
+  </Enumeration>
+  <Enumeration key="MacroDuplicate">
+    <Item value="&amp;复制宏…" revision="0" />
+    <Item value="将选定宏复制到新宏中" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="&amp;导入宏…" revision="0" />

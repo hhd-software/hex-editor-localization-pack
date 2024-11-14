@@ -97,6 +97,7 @@
   <Message key="Invert" value="Inverser" revision="1" />
   <Message key="Revert" value="Rétablir" revision="1" />
   <Message key="Bitwise Operation" value="Opération bit à bit" revision="1" />
+  <Message key="Gap Operation" value="Fonctionnement de l'écart" revision="0" />
   <Message key="Set Columns" value="Configurer les colonnes:" revision="0" />
   <Message key="Enter number of columns per row:" value="Entrez le nombre de colonnes par ligne:" revision="0" />
   <Message key="Select the Window to Connect" value="Sélectionner la fenêtre avec laquelle établir une connexion" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Paire" revision="0" />
   <Message key="clr.colors.Odd" value="Impaire" revision="0" />
   <Message key="clr.colors.Empty" value="Plage vide" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Gamme vide modifiée" revision="0" />
   <Message key="clr.colors.CursorFill" value="Remplissage du curseur" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Course du curseur" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Remplissage alternatif du curseur" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="Rechercher…" revision="1" />
     <Item value="Rechercher modèle ou toutes les occurrences du modèle" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Écart régions sélectionnées (Éparse)" revision="0" />
+    <Item value="Écart régions sélectionnées" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Prochaine occurrence" revision="1" />
     <Item value="Trouver la prochaine occurrence" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Encodage" revision="1" />
     <Item value="Enodages" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Modèles récents" revision="0" />
+    <Item value="Choisissez l'un des modèles récents" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;Connecter à…" revision="1" />

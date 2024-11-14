@@ -150,7 +150,6 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="Regular expression" value="正则表达式" revision="1" />
   <Message key="Sub-match:" value="子匹配:" revision="1" />
-  <Message key="Recent Patterns…" value="最近用过的模式…" revision="1" />
   <Message key="Type:" value="类型:" revision="1" />
   <Message key="Find what:" value="查找内容:" revision="1" />
   <Message key="FREmpty" value="空" revision="1" />
@@ -642,6 +641,10 @@
     <Item value="字" revision="1" />
     <Item value="双字" revision="1" />
     <Item value="四字" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="空的" revision="0" />
+    <Item value="清除当前模式" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="名称" revision="1" />

@@ -61,31 +61,32 @@
     <Item value="Файл {name} був видалений іншою програмою. Яку дію вжити?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Знайти все" revision="1" />
-    <Item value="Залити" revision="1" />
-    <Item value="Видалити" revision="1" />
-    <Item value="Зберегти" revision="1" />
-    <Item value="Знайти" revision="1" />
-    <Item value="Замінити все" revision="1" />
-    <Item value="Збір статистики" revision="1" />
-    <Item value="Зберегти як" revision="1" />
-    <Item value="Зберегти історію" revision="1" />
-    <Item value="Завантажити історію" revision="1" />
-    <Item value="Створити патч" revision="1" />
-    <Item value="Виділити зміни" revision="1" />
-    <Item value="Копіювати" revision="1" />
-    <Item value="Вставити" revision="1" />
-    <Item value="Склеїти історію" revision="1" />
-    <Item value="Статистика послідовностей" revision="1" />
-    <Item value="Експортувати" revision="1" />
-    <Item value="Шифрувати" revision="1" />
-    <Item value="Розшифрувати" revision="1" />
-    <Item value="Бітова операція" revision="1" />
-    <Item value="Арифметична операція" revision="1" />
-    <Item value="Операція зсуву" revision="1" />
-    <Item value="Операція звернення" revision="1" />
-    <Item value="Регістрова операція" revision="1" />
-    <Item value="Вставити Hex" revision="1" />
+    <Item value="Знайти все" revision="2" />
+    <Item value="Залити" revision="2" />
+    <Item value="Видалити" revision="2" />
+    <Item value="Зберегти" revision="2" />
+    <Item value="Знайти" revision="2" />
+    <Item value="Замінити все" revision="2" />
+    <Item value="Збір статистики" revision="2" />
+    <Item value="Зберегти як" revision="2" />
+    <Item value="Зберегти історію" revision="2" />
+    <Item value="Завантажити історію" revision="2" />
+    <Item value="Створити патч" revision="2" />
+    <Item value="Виділити зміни" revision="2" />
+    <Item value="Копіювати" revision="2" />
+    <Item value="Вставити" revision="2" />
+    <Item value="Склеїти історію" revision="2" />
+    <Item value="Статистика послідовностей" revision="2" />
+    <Item value="Експортувати" revision="2" />
+    <Item value="Шифрувати" revision="2" />
+    <Item value="Розшифрувати" revision="2" />
+    <Item value="Бітова операція" revision="2" />
+    <Item value="Арифметична операція" revision="2" />
+    <Item value="Операція зсуву" revision="2" />
+    <Item value="Операція звернення" revision="2" />
+    <Item value="Регістрова операція" revision="2" />
+    <Item value="Вставити Hex" revision="2" />
+    <Item value="Пробіл" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Ім'я класу" revision="1" />

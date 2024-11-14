@@ -61,31 +61,32 @@
     <Item value="{name} 파일이 다른 응용 프로그램에서 제거되었습니다. 무엇을 하고 싶습니까?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="모두 찾기" revision="1" />
-    <Item value="채우기" revision="1" />
-    <Item value="삭제" revision="1" />
-    <Item value="저장" revision="1" />
-    <Item value="찾기" revision="1" />
-    <Item value="모두 바꾸기" revision="1" />
-    <Item value="통계 수집" revision="1" />
-    <Item value="다른 이름으로 저장" revision="1" />
-    <Item value="기록 저장" revision="1" />
-    <Item value="기록 불러오기" revision="1" />
-    <Item value="패치 만들기" revision="1" />
-    <Item value="수정된 선택 항목 가져오기" revision="1" />
-    <Item value="복사" revision="1" />
-    <Item value="붙여넣기" revision="1" />
-    <Item value="기록 제거" revision="1" />
-    <Item value="패턴 통계" revision="1" />
-    <Item value="내보내기" revision="1" />
-    <Item value="암호화" revision="1" />
-    <Item value="복호화" revision="1" />
-    <Item value="비트 연산" revision="1" />
-    <Item value="산술 연산" revision="1" />
-    <Item value="시프트 연산" revision="1" />
-    <Item value="역방향 연산" revision="1" />
-    <Item value="대소문자 연산" revision="1" />
-    <Item value="16진수 삽입" revision="1" />
+    <Item value="모두 찾기" revision="2" />
+    <Item value="채우기" revision="2" />
+    <Item value="삭제" revision="2" />
+    <Item value="저장" revision="2" />
+    <Item value="찾기" revision="2" />
+    <Item value="모두 바꾸기" revision="2" />
+    <Item value="통계 수집" revision="2" />
+    <Item value="다른 이름으로 저장" revision="2" />
+    <Item value="기록 저장" revision="2" />
+    <Item value="기록 불러오기" revision="2" />
+    <Item value="패치 만들기" revision="2" />
+    <Item value="수정된 선택 항목 가져오기" revision="2" />
+    <Item value="복사" revision="2" />
+    <Item value="붙여넣기" revision="2" />
+    <Item value="기록 제거" revision="2" />
+    <Item value="패턴 통계" revision="2" />
+    <Item value="내보내기" revision="2" />
+    <Item value="암호화" revision="2" />
+    <Item value="복호화" revision="2" />
+    <Item value="비트 연산" revision="2" />
+    <Item value="산술 연산" revision="2" />
+    <Item value="시프트 연산" revision="2" />
+    <Item value="역방향 연산" revision="2" />
+    <Item value="대소문자 연산" revision="2" />
+    <Item value="16진수 삽입" revision="2" />
+    <Item value="갭" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="클래스 이름" revision="1" />

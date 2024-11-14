@@ -97,6 +97,7 @@
   <Message key="Invert" value="반전" revision="1" />
   <Message key="Revert" value="역전" revision="1" />
   <Message key="Bitwise Operation" value="비트 연산" revision="1" />
+  <Message key="Gap Operation" value="갭 작업" revision="0" />
   <Message key="Set Columns" value="열 설정" revision="0" />
   <Message key="Enter number of columns per row:" value="행 당 열 수 입력:" revision="0" />
   <Message key="Select the Window to Connect" value="연결할 창 선택" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="짝수" revision="0" />
   <Message key="clr.colors.Odd" value="홀수" revision="0" />
   <Message key="clr.colors.Empty" value="빈 범위" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="빈 범위 변경" revision="0" />
   <Message key="clr.colors.CursorFill" value="커서 채우기" revision="0" />
   <Message key="clr.colors.CursorOutline" value="커서 스트로크" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="대체 커서 채우기" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="찾기(&amp;F)…" revision="1" />
     <Item value="패턴 또는 모든 패턴 발생 찾기" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="선택한 지역 간 격차 (스파스)" revision="0" />
+    <Item value="선택한 지역 간 격차" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="다음 찾기(&amp;N)" revision="1" />
     <Item value="다음 패턴 발생 찾기" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="인코딩(&amp;E)" revision="1" />
     <Item value="인코딩" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;최근 패턴" revision="0" />
+    <Item value="최근 패턴 중 하나를 선택하세요." revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="연결 대상(&amp;C)…" revision="1" />

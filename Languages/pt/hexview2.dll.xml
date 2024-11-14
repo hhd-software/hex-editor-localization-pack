@@ -97,6 +97,7 @@
   <Message key="Invert" value="Inverter" revision="1" />
   <Message key="Revert" value="Reverter" revision="1" />
   <Message key="Bitwise Operation" value="Operação Bit a bit" revision="1" />
+  <Message key="Gap Operation" value="Operação de lacuna" revision="0" />
   <Message key="Set Columns" value="Definir Colunas" revision="0" />
   <Message key="Enter number of columns per row:" value="Insira o número de colunas por linha:" revision="0" />
   <Message key="Select the Window to Connect" value="Selecione a janela para Conectar" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Par" revision="0" />
   <Message key="clr.colors.Odd" value="Ímpar" revision="0" />
   <Message key="clr.colors.Empty" value="Alcance vazio" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Intervalo vazio alterado" revision="0" />
   <Message key="clr.colors.CursorFill" value="Preenchimento do cursor" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Curso de cursor" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Preenchimento alternado do cursor" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Localizar…" revision="1" />
     <Item value="Localiza o padrão ou todas as ocorrências do padrão" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Lacunas nas regiões selecionadas (Esparso)" revision="0" />
+    <Item value="Lacunas nas regiões selecionadas" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Localizar &amp;Próxima" revision="1" />
     <Item value="Localiza a próxima ocorrência do padrão" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codificação" revision="1" />
     <Item value="Codificações" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Padrões recentes" revision="0" />
+    <Item value="Escolha um dos padrões recentes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;Conectar a…" revision="1" />

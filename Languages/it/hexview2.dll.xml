@@ -97,6 +97,7 @@
   <Message key="Invert" value="Inverti" revision="1" />
   <Message key="Revert" value="Ritorna" revision="1" />
   <Message key="Bitwise Operation" value="Operazione Bitwise" revision="1" />
+  <Message key="Gap Operation" value="Operazione di gap" revision="0" />
   <Message key="Set Columns" value="Imposta Colonne" revision="0" />
   <Message key="Enter number of columns per row:" value="Inserisci il Numero di Colonne per Riga" revision="0" />
   <Message key="Select the Window to Connect" value="Seleziona la Finestra per Connettersi" revision="0" />
@@ -207,6 +208,7 @@
   <Message key="clr.colors.Even" value="Pari" revision="0" />
   <Message key="clr.colors.Odd" value="Dispari" revision="0" />
   <Message key="clr.colors.Empty" value="Gamma vuota" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="Intervallo vuoto modificato" revision="0" />
   <Message key="clr.colors.CursorFill" value="Riempimento del cursore" revision="0" />
   <Message key="clr.colors.CursorOutline" value="Tratto del cursore" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="Riempimento alternativo del cursore" revision="0" />
@@ -277,6 +279,10 @@
     <Item value="&amp;Trova" revision="1" />
     <Item value="Trova Modello o Tutte le Occorrenze di Modello" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectGap">
+    <Item value="Gap regioni selezionate (Sparse)" revision="0" />
+    <Item value="Gap regioni selezionate" revision="0" />
+  </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Trova &amp;Successiva" revision="1" />
     <Item value="Trova Modello Occorrenza Successiva" revision="1" />
@@ -312,6 +318,10 @@
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codifica" revision="1" />
     <Item value="Codifiche" revision="1" />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Modelli recenti" revision="0" />
+    <Item value="Scegliete uno dei modelli recenti" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="&amp;Connetti a…" revision="1" />

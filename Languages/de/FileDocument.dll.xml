@@ -61,31 +61,32 @@
     <Item value="Die Datei {name} wurde von einer anderen Anwendung entfernt. Was möchten Sie machen?" revision="1" />
   </Enumeration>
   <Enumeration key="OperationNames">
-    <Item value="Alle suchen" revision="1" />
-    <Item value="Füllen" revision="1" />
-    <Item value="Löschen" revision="1" />
-    <Item value="Speichern" revision="1" />
-    <Item value="Suchen" revision="1" />
-    <Item value="Alle ersetzen" revision="1" />
-    <Item value="Statistik sammeln" revision="1" />
-    <Item value="Sichern als" revision="1" />
-    <Item value="Historie speichern" revision="1" />
-    <Item value="Historie laden" revision="1" />
-    <Item value="Patch erzeugen" revision="1" />
-    <Item value="Geänderte Auswahl bekommen" revision="1" />
-    <Item value="Kopieren" revision="1" />
-    <Item value="Einfügen" revision="1" />
-    <Item value="Historie reinigen" revision="1" />
-    <Item value="Muster Statistik" revision="1" />
-    <Item value="Export" revision="1" />
-    <Item value="Verschlüsseln" revision="1" />
-    <Item value="Entschlüsseln" revision="1" />
-    <Item value="Bitweise Operationen" revision="1" />
-    <Item value="Arithmetische Operationen" revision="1" />
-    <Item value="Verschiebe Operationen" revision="1" />
-    <Item value="Umkehr-Operationen" revision="1" />
-    <Item value="Groß-/Kleinschreibung Operationen" revision="1" />
-    <Item value="Hexadezimal einfügen" revision="1" />
+    <Item value="Alle suchen" revision="2" />
+    <Item value="Füllen" revision="2" />
+    <Item value="Löschen" revision="2" />
+    <Item value="Speichern" revision="2" />
+    <Item value="Suchen" revision="2" />
+    <Item value="Alle ersetzen" revision="2" />
+    <Item value="Statistik sammeln" revision="2" />
+    <Item value="Sichern als" revision="2" />
+    <Item value="Historie speichern" revision="2" />
+    <Item value="Historie laden" revision="2" />
+    <Item value="Patch erzeugen" revision="2" />
+    <Item value="Geänderte Auswahl bekommen" revision="2" />
+    <Item value="Kopieren" revision="2" />
+    <Item value="Einfügen" revision="2" />
+    <Item value="Historie reinigen" revision="2" />
+    <Item value="Muster Statistik" revision="2" />
+    <Item value="Export" revision="2" />
+    <Item value="Verschlüsseln" revision="2" />
+    <Item value="Entschlüsseln" revision="2" />
+    <Item value="Bitweise Operationen" revision="2" />
+    <Item value="Arithmetische Operationen" revision="2" />
+    <Item value="Verschiebe Operationen" revision="2" />
+    <Item value="Umkehr-Operationen" revision="2" />
+    <Item value="Groß-/Kleinschreibung Operationen" revision="2" />
+    <Item value="Hexadezimal einfügen" revision="2" />
+    <Item value="Lücke" revision="2" />
   </Enumeration>
   <Enumeration key="RegExpColumns">
     <Item value="Klassenname" revision="1" />

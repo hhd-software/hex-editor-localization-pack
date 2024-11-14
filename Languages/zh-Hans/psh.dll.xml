@@ -310,30 +310,31 @@
     <Item value="保留文档更改但废弃所有历史。" revision="0" />
   </Enumeration>
   <Enumeration key="Operations">
-    <Item value="未知" revision="0" />
-    <Item value="新建" revision="0" />
-    <Item value="打开" revision="0" />
-    <Item value="写入" revision="0" />
-    <Item value="插入" revision="0" />
-    <Item value="删除" revision="0" />
-    <Item value="填充" revision="0" />
-    <Item value="替换" revision="0" />
-    <Item value="全部替换" revision="0" />
-    <Item value="设置大小" revision="0" />
-    <Item value="粘贴" revision="0" />
-    <Item value="剪切" revision="0" />
-    <Item value="插入文件" revision="0" />
-    <Item value="加密" revision="0" />
-    <Item value="解密" revision="0" />
-    <Item value="打开进程" revision="0" />
-    <Item value="打开物理内存" revision="0" />
-    <Item value="打开卷" revision="0" />
-    <Item value="打开物理驱动器" revision="0" />
-    <Item value="逐位操作" revision="0" />
-    <Item value="算数操作" revision="0" />
-    <Item value="移位操作" revision="0" />
-    <Item value="更改大小写操作" revision="0" />
-    <Item value="逆序操作" revision="0" />
+    <Item value="未知" revision="1" />
+    <Item value="新建" revision="1" />
+    <Item value="打开" revision="1" />
+    <Item value="写入" revision="1" />
+    <Item value="插入" revision="1" />
+    <Item value="删除" revision="1" />
+    <Item value="填充" revision="1" />
+    <Item value="替换" revision="1" />
+    <Item value="全部替换" revision="1" />
+    <Item value="设置大小" revision="1" />
+    <Item value="粘贴" revision="1" />
+    <Item value="剪切" revision="1" />
+    <Item value="插入文件" revision="1" />
+    <Item value="加密" revision="1" />
+    <Item value="解密" revision="1" />
+    <Item value="打开进程" revision="1" />
+    <Item value="打开物理内存" revision="1" />
+    <Item value="打开卷" revision="1" />
+    <Item value="打开物理驱动器" revision="1" />
+    <Item value="逐位操作" revision="1" />
+    <Item value="算数操作" revision="1" />
+    <Item value="移位操作" revision="1" />
+    <Item value="更改大小写操作" revision="1" />
+    <Item value="逆序操作" revision="1" />
+    <Item value="差距" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
     <Item value="历史浏览" revision="0" />

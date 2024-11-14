@@ -150,7 +150,6 @@
   <Message key="TB" value="ТБ" revision="0" />
   <Message key="Regular expression" value="Регулярное выражение" revision="1" />
   <Message key="Sub-match:" value="Подгруппа:" revision="1" />
-  <Message key="Recent Patterns…" value="Последние значения…" revision="1" />
   <Message key="Type:" value="Тип:" revision="1" />
   <Message key="Find what:" value="Найти:" revision="1" />
   <Message key="FREmpty" value="Пусто" revision="1" />
@@ -645,6 +644,10 @@
     <Item value="Слова" revision="1" />
     <Item value="Двойные слова" revision="1" />
     <Item value="Четверные слова" revision="1" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Пусто" revision="0" />
+    <Item value="Очистить текущий шаблон" revision="0" />
   </Enumeration>
   <Enumeration key="WindowsDlgColumns">
     <Item value="Имя" revision="1" />
