@@ -110,9 +110,6 @@
 		<Item text="RISC-V"/>
 	</Enumeration>
 
-	<Message key="Little endian" description="Choice: Little endian"/>
-	<Message key="Big endian" description="Choice: Big endian"/>
-
 	<Enumeration key="Mos65XModes" description="MOS 65xx architecture instructions disassembly modes">
 		<Item text="MOS 6502"/>
 		<Item text="WDC 65c02"/>
@@ -203,7 +200,6 @@
 	<Message key="FormatString" description="Format string" value="All executables|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Executables (*.exe)|*.exe|Dynamic-link libraries (*.dll)|*.dll|ActiveX libraries (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|Executable and Linkable Format|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1">
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
-	<Message key="N/A" description="Not Available" value="Not Available"/>
 	<Message key="- No section selected -" description="- No section selected -"/>
 	<Message key="Can not retrieve file name" description="Can not retrieve file name"/>
 

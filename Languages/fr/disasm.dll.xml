@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="&quot;CPU Usage général&quot;" revision="0" />
   <Message key="Function name" value="Nom de Fonction" revision="0" />
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
   <Message key="Headers" value="En-têtes" revision="0" />
   <Message key="InvalidAddress" value="Adresse Invalid. Veuillez entré une adresse correcte" revision="0" />
   <Message key="InvalidLength" value="Longeur incorecte. Veuillez entré une longeur correcte." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo n'est pas en mesure de désassembler les fichiers qui sont plus grandes que la taille {max size}. {?is too big}Désassemblage  à partir de {from}  jusqu'à  {to} (size = {size}). Continuer?" revision="0" />
   <Message key="Locked" value="Ce document est actuellement verrouillé. Veuillez répéter l'opération plus tard." revision="0" />
   <Message key="FormatString" value="Tous les exécutables|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Exécutables (*.exe)|*.exe|Bibliothèques de liens dynamiques (*.dll)|*.dll|Bibliothèques ActiveX (*.ocx)|*.ocx|Pilotes (*.sys)|*.sys|Format exécutable et linkable|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="Pas disponible" revision="0" />
   <Message key="- No section selected -" value="- Pas de section sélectionnée -" revision="0" />
   <Message key="Can not retrieve file name" value="Impossible de récupérer le nom du fichier" revision="0" />
   <Message key="CLR Execution Engine can not start" value="Erreur de démarrage du moteur d'exécution du CLR : {reason} (Code d'erreur :  {code})" revision="1" />

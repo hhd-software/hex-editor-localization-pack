@@ -932,4 +932,6 @@
     <Item value="继续执行" revision="0" />
     <Item value="删除兼容性设置并重新启动应用程序" revision="0" />
   </Enumeration>
+  <Message key="Little endian" value="小端" revision="0" />
+  <Message key="Big endian" value="大端" revision="0" />
 </Language>

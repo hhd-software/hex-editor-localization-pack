@@ -17,7 +17,6 @@
   <Message key="No scheme selected" value="Схеми не вибрані" revision="0" />
   <Message key="This extension is already used" value="Таке розширення вже використовується" revision="0" />
   <Message key="All associations will be lost. Do you want to continue?" value="Всі асоціації будуть втрачені. Продовжити?" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Bind is disabled during lengthy operation. Try again later." value="Прив'язка неможлива під час тривалих операцій. Спробуйте пізніше." revision="0" />
   <Message key="Do you want to continue and remove the selected structure?" value="Бажаєте продовжити та видалити вибрані структури?" revision="0" />
   <Message key="SchemeNotFound" value="Асоційована схема &quot;{scheme}&quot; не знайдена для розширення {ext}." revision="0" />

@@ -54,8 +54,6 @@
   </Enumeration>
   <Message key="EncodedFormat" description="Format name &amp; desc - encoded data" revision="1" value="&amp;Encoded Data"/>
   <Message key="RawFilter" description="Filter string: raw text" revision="1" value="Text Files (*.txt)|*.txt|"/>
-  <Message key="Little Endian" description="Little Endian" revision="1"/>
-  <Message key="Big Endian" description="Big Endian" revision="1"/>
   <Message key="FormattedFormat" description="Format name &amp; desc - formatted values" revision="1" value="&amp;Formatted Values"/>
   <Enumeration key="Encodings" description="Encodings" revision="1">
     <Item text="Current"/>

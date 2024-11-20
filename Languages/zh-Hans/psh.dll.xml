@@ -28,7 +28,6 @@
   <Message key="HistoryInfo" value="项数: {items}，分支数: {branches}，分支: {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} 字节 ({size as text})" revision="0" />
   <Message key="Descriptive Statistics" value="描述统计" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Entropy Analysis" value="熵值分析" revision="0" />
   <Message key="Entropy" value="{bits} 位 (最大 {percent}%)" revision="0" />
   <Message key="Error writing to the file" value="写入到文件错误" revision="0" />

@@ -28,7 +28,6 @@
   <Message key="HistoryInfo" value="Pozycje: {items}, Gałęzie: {branches}, Forks: {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} bajty ({size as text})" revision="0" />
   <Message key="Descriptive Statistics" value="Opisowe statystyki" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Entropy Analysis" value="Analiza entropii" revision="0" />
   <Message key="Entropy" value="{bits} bitów ({percent}% maksimum)" revision="0" />
   <Message key="Error writing to the file" value="Błąd zapisu do pliku" revision="0" />

@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="Propósito General" revision="0" />
   <Message key="Function name" value="Nombre de la función" revision="0" />
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
   <Message key="Headers" value="Cabeceras" revision="0" />
   <Message key="InvalidAddress" value="Dirección inválida. Escriba la dirección correcta." revision="0" />
   <Message key="InvalidLength" value="Tamaño inválido. Escriba un tamaño correcto." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo es incapaz de desensamblar archivos que son mayores a {max size}. {?is too big}Desensamble comenzando de {from} a {to} (tamaño = {size}). ¿Continuar?" revision="0" />
   <Message key="Locked" value="Este documento está bloqueado. Por favor repita la operación más tarde." revision="0" />
   <Message key="FormatString" value="Todos los ejecutables|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Ejecutables (*.exe)|*.exe|Librerías de enlace dinámico (*.dll)|*.dll|Librerías ActiveX (*.ocx)|*.ocx|Controladores (*.sys)|*.sys|Formato ejecutable y linkable|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="No Disponible" revision="0" />
   <Message key="- No section selected -" value="- No se ha seleccionado una sección -" revision="0" />
   <Message key="Can not retrieve file name" value="No se puede recuperar el nombre del archivo" revision="0" />
   <Message key="CLR Execution Engine can not start" value="Error al iniciar el motor de ejecución CLR: {reason} (Código de error: {code})" revision="1" />

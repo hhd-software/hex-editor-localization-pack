@@ -935,4 +935,6 @@
     <Item value="Продовжити" revision="0" />
     <Item value="Вимкнути налаштування сумісності та перезапустити програму" revision="0" />
   </Enumeration>
+  <Message key="Little endian" value="Прямий порядок байтів" revision="1" />
+  <Message key="Big endian" value="Зворотний порядок байтів" revision="1" />
 </Language>

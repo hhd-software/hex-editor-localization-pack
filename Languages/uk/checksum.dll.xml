@@ -29,7 +29,6 @@
   <Message key="FNV-1 64-bit" value="FNV-1 64 біти" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64 біти" revision="0" />
   <Message key="Custom FNV" value="Настроювана FNV-1" revision="0" />
-  <Message key="N/A" value="Немає даних" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Будь ласка, дочекайтеся закінчення виконуваних операцій." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстові файли з табуляцією-роздільником (*.tsv)|*.tsv|Всі файли|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Початкове={initial}, Поліном={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />

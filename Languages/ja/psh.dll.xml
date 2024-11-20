@@ -28,7 +28,6 @@
   <Message key="HistoryInfo" value="項目 : {items}, ブランチ : {branches}, フォーク : {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} バイト ({size as text})" revision="0" />
   <Message key="Descriptive Statistics" value="記述統計" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Entropy Analysis" value="エントロピー分析" revision="0" />
   <Message key="Entropy" value="{bits} ビット ({percent}% of maximum)" revision="0" />
   <Message key="Error writing to the file" value="ファイルへの書き込みエラー" revision="0" />

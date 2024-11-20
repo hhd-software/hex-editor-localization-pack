@@ -17,7 +17,6 @@
   <Message key="No scheme selected" value="Nie wybrano schematu" revision="0" />
   <Message key="This extension is already used" value="To rozszerzenie jest już używane" revision="0" />
   <Message key="All associations will be lost. Do you want to continue?" value="Wszystkie powiązania zostaną utracone. Czy chcesz kontynuować?" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Bind is disabled during lengthy operation. Try again later." value="Powiązanie jest wyłączone podczas długotrwałej pracy. Spróbuj ponownie później." revision="0" />
   <Message key="Do you want to continue and remove the selected structure?" value="Czy chcesz kontynuować i usunąć wybraną strukturę?" revision="0" />
   <Message key="SchemeNotFound" value="Nie znaleziono powiązanego schematu &quot;{scheme}” dla rozszerzenia pliku {ext}." revision="0" />

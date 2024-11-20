@@ -63,7 +63,6 @@
 		<Item text="Value (Dec)"/>
 		<Item text="Parameters"/>
 	</Enumeration>
-	<Message key="N/A" description="Not available" revision="1"/>
 	<Message key="Please wait until all pending operations are completed." description="Pending operations warning" revision="1"/>
 	<Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" description="File formats filter" revision="1">
 		<Validate rule="OpenFileDialogFilter"/>

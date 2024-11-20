@@ -131,8 +131,6 @@
     <Item text="Description"/>
   </Enumeration>
 
-  <Message key="N/A" description="N/A"/>
-
   <Enumeration key="FeatureOneStruct" description="Structure Viewer feature">
     <Item text="Structure Viewer"/>
     <Item text="Structure Viewer feature allows you to analyze file data according to the structure definition loaded from header files."/>

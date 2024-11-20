@@ -17,7 +17,6 @@
   <Message key="No scheme selected" value="Aucun schéma sélectioné" revision="0" />
   <Message key="This extension is already used" value="Cette extension est déjà utilisé" revision="0" />
   <Message key="All associations will be lost. Do you want to continue?" value="Toutes les associations seront perdues. Voulez-vous continuer?" revision="0" />
-  <Message key="N/A" value="Non disponible" revision="0" />
   <Message key="Bind is disabled during lengthy operation. Try again later." value="La liaison est désactivée pendant une opération de longue durée. Réessayez ultérieurement." revision="0" />
   <Message key="Do you want to continue and remove the selected structure?" value="Voulez-vous continuer et enlever la structure sélectionnée?" revision="0" />
   <Message key="SchemeNotFound" value="Schéma associé  &quot;{scheme}&quot; n'est pas trouvée pour {ext} file extension." revision="0" />

@@ -935,4 +935,7 @@
     <Item value="Continuar la ejecución" revision="0" />
     <Item value="Eliminar los ajustes de compatibilidad y reiniciar la aplicación" revision="0" />
   </Enumeration>
+  <Message key="Little endian" value="Little endian" revision="1" />
+  <Message key="Big endian" value="Big endian" revision="1" />
+
 </Language>

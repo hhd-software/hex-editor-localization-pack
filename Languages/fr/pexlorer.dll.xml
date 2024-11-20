@@ -3,7 +3,6 @@
   <Message key="ProcessCat" value="Processus" revision="0" />
   <Message key="RegionInfo" value="[[[uPlage mémoire du processus]]]\r  [[[bPlage de base:]]] {base} ({base:2})\r  [[[bTaille de plage:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bEtat:]]] {state}\r  [[[bDrapeaux:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="Inconnu" revision="1" />
-  <Message key="N/A" value="Non disponible" revision="1" />
   <Message key="Start:" value="Début:" revision="1" />
   <Message key="End:" value="Fin:" revision="1" />
   <Message key="Size:" value="Taille:" revision="1" />

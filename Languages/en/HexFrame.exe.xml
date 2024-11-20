@@ -1333,4 +1333,9 @@
 	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore (currently not used in Hex Editor Neo)" value="&quot;Don't display anymore&quot; message"/>
 
 	<Message key="Ready" description="Status bar idle message" />
+
+	<!--  -->
+	<Message key="Little endian" description="Choice: Little endian"/>
+	<Message key="Big endian" description="Choice: Big endian"/>
+
 </Definition>

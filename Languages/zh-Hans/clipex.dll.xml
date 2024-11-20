@@ -7,8 +7,6 @@
   <Message key="IntelHexColumns" value="Intel HEX和Motorola S格式的每行字节数" revision="1" />
   <Message key="EncodedFormat" value="&amp;编码的数据" revision="1" />
   <Message key="RawFilter" value="文本文件 (*.txt)|*.txt|" revision="1" />
-  <Message key="Little Endian" value="小端" revision="1" />
-  <Message key="Big Endian" value="大端" revision="1" />
   <Message key="FormattedFormat" value="&amp;格式化的值" revision="1" />
   <Message key="CopyExportLocalized" value="复制和导出" revision="2" />
   <Message key="Export" value="导出" revision="1" />

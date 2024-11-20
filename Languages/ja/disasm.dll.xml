@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="一般" revision="0" />
   <Message key="Function name" value="ファンクション名" revision="0" />
-  <Message key="Little endian" value="リトルエンディアン" revision="0" />
-  <Message key="Big endian" value="ビッグエンディアン" revision="0" />
   <Message key="Headers" value="ヘッダ" revision="0" />
   <Message key="InvalidAddress" value="無効なアドレス。 正しいアドレスを入力してください。" revision="0" />
   <Message key="InvalidLength" value="無効な長さです。 有効な長さを入力してください。" revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo は、 {max size}を超えるファイルを逆アセンブルできません。 {?is too big}{from} から {to}まで逆アセンブルを開始します。 (サイズ = {size}) 続行しますか?" revision="0" />
   <Message key="Locked" value="このドキュメントは現在ロックされています。 後で操作をやり直してください。" revision="0" />
   <Message key="FormatString" value="すべての実行可能|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|実行可能 (*.exe)|*.exe|Dynamic-link ライブラリ (*.dll)|*.dll|ActiveX ライブラリ (*.ocx)|*.ocx|ドライバ (*.sys)|*.sys|実行可能およびリンク可能な形式|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="利用不可" revision="0" />
   <Message key="- No section selected -" value="- セクションの選択 -" revision="0" />
   <Message key="Can not retrieve file name" value="ファイル名を取得できません" revision="0" />
   <Message key="CLR Execution Engine can not start" value="CLR 実行エンジンの開始エラー : {reason} (エラーコード : {code})" revision="1" />

@@ -935,4 +935,6 @@
     <Item value="Продолжить" revision="0" />
     <Item value="Отключить настройки совместимости и перезапустить приложение" revision="0" />
   </Enumeration>
+  <Message key="Little endian" value="Little endian" revision="0" />
+  <Message key="Big endian" value="Big endian" revision="0" />
 </Language>

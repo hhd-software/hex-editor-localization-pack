@@ -28,7 +28,6 @@
   <Message key="HistoryInfo" value="항목: {items}, 분기: {branches}, 포크: {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} 바이트 ({size as text})" revision="0" />
   <Message key="Descriptive Statistics" value="기술 통계" revision="0" />
-  <Message key="N/A" value="없음" revision="0" />
   <Message key="Entropy Analysis" value="엔트로피 분석" revision="0" />
   <Message key="Entropy" value="{bits}비트 (최대값의 {percent}%)" revision="0" />
   <Message key="Error writing to the file" value="파일에 쓰는 중 오류 발생" revision="0" />

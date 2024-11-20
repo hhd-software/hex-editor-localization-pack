@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="일반 용도" revision="0" />
   <Message key="Function name" value="함수명" revision="0" />
-  <Message key="Little endian" value="리틀 에디안" revision="0" />
-  <Message key="Big endian" value="빅 에디안" revision="0" />
   <Message key="Headers" value="머리글" revision="0" />
   <Message key="InvalidAddress" value="주소가 잘못되었습니다. 올바른 주소를 입력하십시오." revision="0" />
   <Message key="InvalidLength" value="길이가 잘못되었습니다. 올바른 길이를 입력하십시오." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo에서 {max size}보다 큰 파일을 분해할 수 없습니다. {?is too big}{from}에서 {to} (size = {size})로 시작하여 분해합니다. 계속하시겠습니까?" revision="0" />
   <Message key="Locked" value="이 문서는 현재 잠겨 있습니다. 나중에 작업을 반복하십시오." revision="0" />
   <Message key="FormatString" value="모든 실행 파일 |*.exe;*.dll;*.sys;*.ocx|실행 파일 (*.exe)|*.exe|다이나믹 링크 라이브러리 (*.dll)|*.dll|ActiveX 라이브러리 (*.ocx)|*.ocx|드라이버 (*.sys)|*.sys|실행 및 연결 가능한 형식|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="사용할 수 없음" revision="0" />
   <Message key="- No section selected -" value="- 선택한 섹션 없음 -" revision="0" />
   <Message key="Can not retrieve file name" value="파일 이름을 검색할 수 없습니다" revision="0" />
   <Message key="CLR Execution Engine can not start" value="CLR 실행 엔진을 시작하는 중 오류 발생: {reason} (오류 코드: {code})" revision="1" />

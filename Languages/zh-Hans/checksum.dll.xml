@@ -29,7 +29,6 @@
   <Message key="FNV-1 64-bit" value="FNV-1 64位" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64位" revision="0" />
   <Message key="Custom FNV" value="自定义FNV-1" revision="0" />
-  <Message key="N/A" value="N/A" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="请等待，直到所有待处理的操作都完成。" revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="以制表符分隔的文本文件 (*.tsv)|*.tsv|All Files|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Initial={initial}, 多项式={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />

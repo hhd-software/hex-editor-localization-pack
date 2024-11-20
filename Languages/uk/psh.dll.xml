@@ -28,7 +28,6 @@
   <Message key="HistoryInfo" value="Елементів: {items}, Розгалужень: {branches}, Розвилок: {forks}" revision="0" />
   <Message key="CompressionSizeLimit" value="{size} байтів ({size as text})" revision="0" />
   <Message key="Descriptive Statistics" value="Описова статистика" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Entropy Analysis" value="Аналіз ентропії" revision="0" />
   <Message key="Entropy" value="{bits} біт ({percent}% від максимуму)" revision="0" />
   <Message key="Error writing to the file" value="Помилка при записі у файл" revision="0" />

@@ -3,7 +3,6 @@
   <Message key="ProcessCat" value="Процесс" revision="0" />
   <Message key="RegionInfo" value="[[[uРегион памяти процесса]]]\r  [[[bНачало региона:]]] {base} ({base:2})\r  [[[bКонец региона:]]] {end} ({end:2})\r  [[[bРазмер региона:]]] {size} ({size:2})\r  [[[bТип:]]] {type}\r  [[[bСтатус:]]] {state}\r  [[[bФлаги:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="Неизвестно" revision="1" />
-  <Message key="N/A" value="N/A" revision="1" />
   <Message key="Start:" value="Начало:" revision="1" />
   <Message key="End:" value="Конец:" revision="1" />
   <Message key="Size:" value="Размер:" revision="1" />

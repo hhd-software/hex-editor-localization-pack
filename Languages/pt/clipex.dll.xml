@@ -7,8 +7,6 @@
   <Message key="IntelHexColumns" value="Bytes por linha para formatos Intel HEX e Motorola S" revision="1" />
   <Message key="EncodedFormat" value="&amp;Dados Codificados" revision="1" />
   <Message key="RawFilter" value="Arquivos de Texto (*.txt)|*.txt|" revision="1" />
-  <Message key="Little Endian" value="Little Endian" revision="1" />
-  <Message key="Big Endian" value="Big Endian" revision="1" />
   <Message key="FormattedFormat" value="&amp;Valores Formatados" revision="1" />
   <Message key="CopyExportLocalized" value="Copiar &amp; Exportar" revision="2" />
   <Message key="Export" value="E&amp;xportar" revision="1" />

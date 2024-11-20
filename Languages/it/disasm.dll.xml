@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="Scopo Generale" revision="0" />
   <Message key="Function name" value="Nome Funzione" revision="0" />
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
   <Message key="Headers" value="Intestazioni" revision="0" />
   <Message key="InvalidAddress" value="Indirizzo Non Valido. Inserisci l'Indirizzo Corretto." revision="0" />
   <Message key="InvalidLength" value="Lunghezza Non Valida. Inserisci una Lunghezza Valida." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo Non Riesce a Smontare i File di Dimensioni Superiori a {max size}. {?is too big}Smontaggio a Partire da {from} a {to} (size = {size}). Continua?" revision="0" />
   <Message key="Locked" value="Questo Documento è Attualmente Bloccato. Ripetere l'Operazione più Tardi." revision="0" />
   <Message key="FormatString" value="Tutti Eseguibili|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Eseguibili (*.exe)|*.exe|Dinamico-Link Librerie (*.dll)|*.dll|Librerie ActiveX (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|Formato eseguibile e linkabile|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="Non Disponibile" revision="0" />
   <Message key="- No section selected -" value="- Nessuna Sezione Selezionata -" revision="0" />
   <Message key="Can not retrieve file name" value="Impossibile Recuperare Nome File" revision="0" />
   <Message key="CLR Execution Engine can not start" value="Errore nell'avvio del motore di esecuzione CLR: {reason} (Codice di errore: {code})" revision="1" />

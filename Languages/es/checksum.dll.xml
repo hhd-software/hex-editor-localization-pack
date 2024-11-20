@@ -29,7 +29,6 @@
   <Message key="FNV-1 64-bit" value="FNV-1 64 bits" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64 bits" revision="0" />
   <Message key="Custom FNV" value="FNV-1 personalizado" revision="0" />
-  <Message key="N/A" value="No Aplica" revision="1" />
   <Message key="Please wait until all pending operations are completed." value="Por favor espere hasta que todas las operaciones pendientes sean completadas." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Archivos de texto separados por tabuladores (*.tsv)|*.tsv|All Files|*||" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: Inicial={initial}, Polinomio={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />

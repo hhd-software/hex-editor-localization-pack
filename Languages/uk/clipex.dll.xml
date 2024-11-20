@@ -7,8 +7,6 @@
   <Message key="IntelHexColumns" value="Кількість байтів на рядок для форматів Intel HEX та Motorola S" revision="1" />
   <Message key="EncodedFormat" value="&amp;Кодовані дані" revision="1" />
   <Message key="RawFilter" value="Текстові файли (*.txt)|*.txt|" revision="1" />
-  <Message key="Little Endian" value="Прямий порядок байтів" revision="1" />
-  <Message key="Big Endian" value="Зворотний порядок байтів" revision="1" />
   <Message key="FormattedFormat" value="&amp;Форматовані значення" revision="1" />
   <Message key="CopyExportLocalized" value="Копіювання та Експорт" revision="2" />
   <Message key="Export" value="&amp;Експорт" revision="1" />

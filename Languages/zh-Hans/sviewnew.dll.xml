@@ -17,7 +17,6 @@
   <Message key="No scheme selected" value="未选择方案" revision="0" />
   <Message key="This extension is already used" value="此扩展名已被使用" revision="0" />
   <Message key="All associations will be lost. Do you want to continue?" value="所有关联将被丢失，你想继续吗？" revision="0" />
-  <Message key="N/A" value="N/A" revision="0" />
   <Message key="Bind is disabled during lengthy operation. Try again later." value="漫长操作期间绑定被禁用，请稍后重试。" revision="0" />
   <Message key="Do you want to continue and remove the selected structure?" value="你想继续并移除选定的结构吗？" revision="0" />
   <Message key="SchemeNotFound" value="未找到 {ext} 文件扩展名的关联方案 &quot;{scheme}&quot;。" revision="0" />

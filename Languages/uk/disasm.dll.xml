@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="Загальне призначення" revision="0" />
   <Message key="Function name" value="Ім'я функції" revision="0" />
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
   <Message key="Headers" value="Заголовки" revision="0" />
   <Message key="InvalidAddress" value="Невірна адреса. Введіть коректну адресу." revision="0" />
   <Message key="InvalidLength" value="Невірний розмір. Введіть коректний розмір." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo не може дизасемблювати файли більші за {max size}. {?is too big}Дизасемблювання почнеться з {from} по {to} (size = {size}). Продовжити?" revision="0" />
   <Message key="Locked" value="Цей документ зараз заблокований. Повторіть пізніше." revision="0" />
   <Message key="FormatString" value="Всі виконувані|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Виконувані (*.exe)|*.exe|Динамічні бібліотеки (*.dll)|*.dll|ActiveX бібліотеки (*.ocx)|*.ocx|Драйвера (*.sys)|*.sys|Виконуваний і посилальний формат|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="Не доступно" revision="0" />
   <Message key="- No section selected -" value="- Нічого не виділено -" revision="0" />
   <Message key="Can not retrieve file name" value="Неможливо отримати ім'я файлу" revision="0" />
   <Message key="CLR Execution Engine can not start" value="Помилка запуску виконавчого механізму CLR: {reason} (Код помилки: {code})" revision="1" />

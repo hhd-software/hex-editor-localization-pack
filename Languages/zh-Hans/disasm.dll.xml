@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="通用" revision="0" />
   <Message key="Function name" value="函数名称" revision="0" />
-  <Message key="Little endian" value="小端" revision="0" />
-  <Message key="Big endian" value="大端" revision="0" />
   <Message key="Headers" value="PE 文件头" revision="0" />
   <Message key="InvalidAddress" value="无效的地址，请输入正确的地址。" revision="0" />
   <Message key="InvalidLength" value="无效的长度，请输入一个有效的长度。" revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo 无法反汇编大于 {max size} 大小的文件，{?is too big}反汇编开始自 {from} 到 {to} (大小 = {size})，要继续吗？" revision="0" />
   <Message key="Locked" value="此文档目前被锁定，请以后重复操作。" revision="0" />
   <Message key="FormatString" value="所有可执行文件|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|可执行文件 (*.exe)|*.exe|动态链接库(*.dll)|*.dll|ActiveX库 (*.ocx)|*.ocx|驱动程序 (*.sys)|*.sys|可执行和可链接格式|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="不可用" revision="0" />
   <Message key="- No section selected -" value="- 未选择节 -" revision="0" />
   <Message key="Can not retrieve file name" value="无法获取文件名" revision="0" />
   <Message key="CLR Execution Engine can not start" value="启动CLR执行引擎时出错:{reason}(错误代码:{code})" revision="1" />

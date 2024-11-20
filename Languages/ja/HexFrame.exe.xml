@@ -935,4 +935,6 @@
     <Item value="実行を継続" revision="0" />
     <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
   </Enumeration>
+  <Message key="Little endian" value="リトルエンディアン" revision="0" />
+  <Message key="Big endian" value="ビッグエンディアン" revision="0" />
 </Language>

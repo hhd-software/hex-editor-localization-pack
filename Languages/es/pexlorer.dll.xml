@@ -3,7 +3,6 @@
   <Message key="ProcessCat" value="Proceso" revision="0" />
   <Message key="RegionInfo" value="[[[uRango de memoria de proceso]]]\r  [[[bBase de la región:]]] {base} ({base:2})\r  [[[bFinal de la región:]]] {end} ({end:2})\r  [[[bTamaño de la región:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bIndicadores:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="Desconocido" revision="1" />
-  <Message key="N/A" value="N/A" revision="1" />
   <Message key="Start:" value="Inicio:" revision="1" />
   <Message key="End:" value="Final:" revision="1" />
   <Message key="Size:" value="Tamaño:" revision="1" />

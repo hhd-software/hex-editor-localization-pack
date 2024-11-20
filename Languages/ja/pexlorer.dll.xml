@@ -3,7 +3,6 @@
   <Message key="ProcessCat" value="プロセス" revision="0" />
   <Message key="RegionInfo" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]]  {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="不明" revision="1" />
-  <Message key="N/A" value="N/A" revision="1" />
   <Message key="Start:" value="開始 :" revision="1" />
   <Message key="End:" value="終了 :" revision="1" />
   <Message key="Size:" value="サイズ :" revision="1" />

@@ -329,7 +329,6 @@
     <Item text="Statistics feature gathers distribution statistics (either general or for specified pattern) and provides results in a table and histogram, as well as computes descriptive statistics for it."/>
   </Enumeration>
   <Message key="Descriptive Statistics" description="Descriptive Statistics"/>
-  <Message key="N/A" description="N/A"/>
   <Message key="Entropy Analysis" description="Entropy Analysis"/>
   <Message key="Entropy" description="Entropy string" value="{bits} bits ({percent}% of maximum)">
     <Param name="bits" format="l"/>

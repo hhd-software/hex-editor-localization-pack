@@ -2,8 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="General Purpose" value="Ogólne przeznaczenie" revision="0" />
   <Message key="Function name" value="Nazwa funkcji" revision="0" />
-  <Message key="Little endian" value="Mały endian" revision="0" />
-  <Message key="Big endian" value="Duży endian" revision="0" />
   <Message key="Headers" value="Nagłówki" revision="0" />
   <Message key="InvalidAddress" value="Nieprawidłowy adres. Wprowadź poprawny adres." revision="0" />
   <Message key="InvalidLength" value="Nieprawidłowa długość. Wprowadź prawidłową długość." revision="0" />
@@ -14,7 +12,6 @@
   <Message key="MaxSize" value="{is too big?}Hex Editor Neo nie może zdemontować plików, które są większe niż {max size}. {?is too big} Demontaż zaczynając od {from} do {to} (size = {size}). Kontynuować?" revision="0" />
   <Message key="Locked" value="Ten dokument jest obecnie zablokowany. Powtórz operację później." revision="0" />
   <Message key="FormatString" value="Wszystkie wykonywalne|*.exe;*.dll;*.sys;*.ocx;*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|Wykonywalne (*.exe)|*.exe|Dynamic-link libraries (*.dll)|*.dll|ActiveX libraries (*.ocx)|*.ocx|Drivers (*.sys)|*.sys|Format wykonywalny i powiązany|*.axf;*.bin;*.elf;*.o;*.out;*.prx;*.puff;*.ko;*.mod;*.so|" revision="1" />
-  <Message key="N/A" value="Nie dostępne" revision="0" />
   <Message key="- No section selected -" value="- Nie wybrano sekcji -" revision="0" />
   <Message key="Can not retrieve file name" value="Nie można pobrać nazwy pliku" revision="0" />
   <Message key="CLR Execution Engine can not start" value="Błąd przy uruchamianiu CLR Execution Engine: {reason} (Kod błędu: {code})" revision="1" />
