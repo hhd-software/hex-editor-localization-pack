@@ -191,7 +191,7 @@
   <Message key="License Management and Upgrading" value="Gestion des licences et mise à niveau" revision="1" />
   <Message key="Install License" value="Installer Licence…"  />
   <Message key="Download License" value="Télécharger Licence…"  />
-  <Message key="LicenseManagementText" value="[[[bLicence installée:]]]\n{license}{can start trial?}\t[[[hDémarrer la période d’essai dès maintenant!]]]{?can start trial}\n\n{can upgrade?}Choisissez l'édition que vous souhaitez acheter. Utilisez le lien [[[bPlus d'infos…]]] pour obtenir plus d'informations sur une édition particulière et le lien [[[bComparer Édition…]]] pour obtenir le tableau de comparaison d'éditions.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText" value="[[[bLicence installée:]]]\n{license}{can start trial?}\t[[[hCommencez à essayer !]]]{?can start trial}\n\n{can upgrade?}Choisissez l'édition que vous souhaitez acheter. Utilisez le lien [[[bPlus d'infos…]]] pour obtenir plus d'informations sur une édition particulière et le lien [[[bComparer Édition…]]] pour obtenir le tableau de comparaison d'éditions.\n\n{upgrade block}" revision="0" />
   <Message key="LicenseManagementText2" value="Si vous avez déjà reçu un fichier de licence, cliquez sur le bouton. [[[bInstaller Licence…]]].\nSi vous avez besoin de renouveler votre licence, cliquez sur le bouton [[[bTélécharger Licence…]]] (Nécessite votre identifiant et votre mot de passe)." revision="0" />
   <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[hPlus d'infos…]]]{can upgrade?}\t[[[hMettre à niveau…]]]{?can upgrade}\n" revision="0" />
   <Message key="Compare editions" value="\t[[[hComparer les éditions…]]]\n" revision="0" />
