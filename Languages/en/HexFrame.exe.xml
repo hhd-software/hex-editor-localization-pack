@@ -886,13 +886,13 @@
 	<Message key="Download License…" description="Button: Download License" revision="1"/>
 		
 	
-	<Message key="LicenseManagementText" value="[[[bInstalled license:]]]\n{license}{can start trial?}\t[[[hStart trial now!]]]{?can start trial}\n\n{can upgrade?}Choose the edition you want to upgrade to. Use [[[bMore Info…]]] link to view more information about selected edition and [[[bCompare editions…]]] link to view edition comparison table.\n\n{upgrade block}">
+	<Message key="LicenseManagementText" description="License Management window text" value="[[[bInstalled license:]]]\n{license}{can start trial?}\t[[[hStart trial now!]]]{?can start trial}\n\n{can upgrade?}Choose the edition you want to upgrade to. Use [[[bMore Info…]]] link to view more information about selected edition and [[[bCompare editions…]]] link to view edition comparison table.\n\n{upgrade block}">
 		<Param name="can start trial" format="?"/>
 		<Param name="can upgrade" format="?"/>
 		<Param name="license" />
 		<Param name="upgrade block" />
 	</Message>
-	<Message key="LicenseManagementText2" value="If you have already received a license file, click the [[[bInstall License…]]] button.\nIf you need to renew a license, click the [[[bDownload License…]]] button. (Requires login and password)." />
+	<Message key="LicenseManagementText2" description="License Management window bottom text" value="If you have already received a license file, click the [[[bInstall License…]]] button.\nIf you need to renew a license, click the [[[bDownload License…]]] button. (Requires login and password)." />
 
 	<Message key="UpgradeLineTemplate" description="Upgrade edition template" value="    {edition}:\t[[[hMore info…]]]{can upgrade?}\t[[[hUpgrade…]]]{?can upgrade}\n">
 		<Param name="edition"/>
