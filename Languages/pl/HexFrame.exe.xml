@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="Kontur" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="„Nie wyświetlaj więcej tego ostrzeżenia” wiadomość" revision="0" />
   <Message key="Ready" value="Gotowe" revision="0" />
+  <Message key="Little endian" value="Mały endian" revision="0" />
+  <Message key="Big endian" value="Duży endian" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Dysk fizyczny" revision="2" />
     <Item value="Rozmiar" revision="2" />
@@ -935,6 +937,4 @@
     <Item value="Kontynuuj wykonanie" revision="0" />
     <Item value="Usuń ustawienia kompatybilności i uruchom ponownie aplikację" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="Mały endian" revision="0" />
-  <Message key="Big endian" value="Duży endian" revision="0" />
 </Language>

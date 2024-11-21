@@ -1,74 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Scripting" value="Scripting" revision="0" />
-  <Message key="New Script" value="Nuovo Script {ordinal}" revision="0" />
-  <Message key="WatchTitle" value="Debug Epressione di Controllo" revision="0" />
-  <Message key="CallStackTitle" value="Debug Stack Chiamate" revision="0" />
+  <Message key="Scripting" value="Partitura" revision="0" />
+  <Message key="New Script" value="Nuovo copione {ordinal}" revision="0" />
+  <Message key="WatchTitle" value="Debug osservazione" revision="0" />
+  <Message key="CallStackTitle" value="Debug pila chiamate" revision="0" />
   <Message key="Macros" value="Macro" revision="0" />
-  <Message key="Console" value="Console" revision="0" />
+  <Message key="Console" value="Plancia" revision="0" />
   <Message key="MacroToolbar" value="Macro" revision="0" />
-  <Message key="WatchToolbar" value="Epressione di Controllo" revision="0" />
-  <Message key="ScriptChanged" value="Lo script è stato modificato. È impossibile continuare l'esecuzione. Si desidera interrompere l'esecuzione dello script?" revision="0" />
-  <Message key="Compiling TypeScript" value="Compilazione di TypeScript…\n" revision="0" />
-  <Message key="Started Script" value="L'esecuzione dello script è iniziata: {name}\n" revision="0" />
-  <Message key="Stopping Script" value="Arresto dell'esecuzione dello script…" revision="0" />
-  <Message key="Stopped Script" value="\nL'esecuzione dello script è stata interrotta.\n" revision="0" />
-  <Message key="ScrpitRunningClose" value="Lo script è attualmente in esecuzione. Si desidera interromperlo per continuare a chiudere la finestra dello script?" revision="0" />
+  <Message key="WatchToolbar" value="Osserva" revision="0" />
+  <Message key="ScriptChanged" value="Il copione è stato modificato. È impossibile continuare l'esecuzione. Si desidera interromperlo?" revision="0" />
+  <Message key="Compiling TypeScript" value="Compilazione TypeScript…\n" revision="0" />
+  <Message key="Started Script" value="L'esecuzione del copione è iniziata: {name}\n" revision="0" />
+  <Message key="Stopping Script" value="Arresto esecuzione dello copione…" revision="0" />
+  <Message key="Stopped Script" value="\nL'esecuzione dello copione è stata interrotta.\n" revision="0" />
+  <Message key="ScrpitRunningClose" value="Il copione è attualmente in esecuzione. Si desidera interromperlo per continuare?" revision="0" />
   <Message key="ScriptLoadError" value="Errore nel caricamento del file &quot;{file}&quot;: {error} ({code})" revision="1" />
   <Message key="ScriptLoadErrors" value="Si sono verificati i seguenti errori durante il caricamento dei file selezionati:\n\n{errors}" revision="0" />
   <Message key="ScriptSaveError" value="Errore nel salvataggio del file &quot;{file}&quot;: {error} ({code})" revision="0" />
-  <Message key="CloseUnsavedScriptPrompt" value="Si desidera salvare le modifiche apportate allo script corrente?" revision="0" />
-  <Message key="NewMacroTitle" value="Nuova Macro" revision="0" />
+  <Message key="CloseUnsavedScriptPrompt" value="Si desidera salvare le modifiche apportate al copione corrente?" revision="0" />
+  <Message key="NewMacroTitle" value="Nuova macro" revision="0" />
   <Message key="EditMacroTitle" value="Modifica macro" revision="0" />
   <Message key="Macro name:" value="Nome della macro:" revision="0" />
-  <Message key="Macro hot key:" value="Tasto di scelta rapida della macro:" revision="0" />
-  <Message key="Edit Macro Script" value="Modifica dello script macro" revision="0" />
-  <Message key="MacroDiscardPrompt" value="In questo modo si elimina la macro registrata. Si desidera eliminare la macro registrata?" revision="0" />
+  <Message key="Macro hot key:" value="Tasto rapido della macro:" revision="0" />
+  <Message key="Edit Macro Script" value="Modifica copione della macro" revision="0" />
+  <Message key="MacroDiscardPrompt" value="In questo modo si scarta la macro registrata. Si desidera eliminarla veramente?" revision="0" />
   <Message key="MacroNameExists" value="Esiste già una macro con lo stesso nome. Si desidera sovrascriverla?" revision="0" />
-  <Message key="MacroDeleteAllPrompt" value="In questo modo si eliminano tutte le macro. Siete sicuri di voler continuare?" revision="0" />
+  <Message key="MacroDeleteAllPrompt" value="In questo modo si eliminano tutte le macro. Sicuro di voler continuare?" revision="0" />
   <Message key="MacroName" value="Macro: {name}" revision="0" />
-  <Message key="MacroExportFormat" value="File di esportazione delle macro|*.neo-macro.json" revision="0" />
-  <Message key="Script files" value="File di script" revision="0" />
+  <Message key="MacroExportFormat" value="File di esportazione macro|*.neo-macro.json" revision="0" />
+  <Message key="Script files" value="File di copione" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Copia di {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Macro {n}" revision="0" />
   <Enumeration key="MacroRecord">
-    <Item value="&amp;Avvia la Registrazione" revision="0" />
+    <Item value="&amp;Avvia registrazione" revision="0" />
     <Item value="Avvio della registrazione macro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroNew">
-    <Item value="&amp;Creare macro…" revision="0" />
-    <Item value="Creare una nuova macro vuota" revision="0" />
+    <Item value="&amp;Crea macro…" revision="0" />
+    <Item value="Crea una nuova macro vuota" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
-    <Item value="&amp;Interrompere la Registrazione/Riproduzione" revision="0" />
-    <Item value="Interrompere la registrazione o la riproduzione delle macro" revision="0" />
+    <Item value="&amp;Ferma registrazione/riproduzione" revision="0" />
+    <Item value="Interrompe la registrazione o riproduzione della macro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroRun">
-    <Item value="Avviare la Ri&amp;produzione" revision="0" />
-    <Item value="Avviare la riproduzione della macro" revision="0" />
+    <Item value="Avvia ri&amp;produzione" revision="0" />
+    <Item value="Avvia la riproduzione della macro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroDelete">
-    <Item value="&amp;Elimina Macro" revision="0" />
-    <Item value="Eliminare la macro attualmente selezionata" revision="0" />
+    <Item value="&amp;Elimina macro" revision="0" />
+    <Item value="Elimina la macro attualmente selezionata" revision="0" />
   </Enumeration>
   <Enumeration key="MacroDeleteAll">
-    <Item value="Eliminare &amp;Tutte le Macro" revision="0" />
-    <Item value="Eliminare tutte le macro" revision="0" />
+    <Item value="Elimina &amp;tutte le macro" revision="0" />
+    <Item value="Elimina tutte le macro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroEdit">
-    <Item value="&amp;Modifica Macro…" revision="0" />
+    <Item value="&amp;Modifica macro…" revision="0" />
     <Item value="Modifica della macro selezionata" revision="0" />
   </Enumeration>
   <Enumeration key="MacroDuplicate">
-    <Item value="&amp;Duplicare la macro…" revision="0" />
-    <Item value="Copiare la macro selezionata in una nuova macro" revision="0" />
+    <Item value="&amp;Duplica macro…" revision="0" />
+    <Item value="Copia la macro selezionata in una nuova" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
-    <Item value="&amp;Importazione di Macro…" revision="0" />
+    <Item value="&amp;Importa macro…" revision="0" />
     <Item value="Importazione di macro" revision="0" />
   </Enumeration>
   <Enumeration key="MacroExport">
-    <Item value="E&amp;sportazione di Macro" revision="0" />
+    <Item value="E&amp;sporta macro" revision="0" />
     <Item value="Esportazione di macro" revision="0" />
   </Enumeration>
   <Enumeration key="MenuMacro">
@@ -76,64 +76,64 @@
     <Item value="Macro" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
-    <Item value="Nuovo Script" revision="0" />
-    <Item value="Creare un nuovo file di script vuoto" revision="0" />
+    <Item value="Nuovo copione" revision="0" />
+    <Item value="Crea un nuovo file di copione vuoto" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingOpenScript">
-    <Item value="Apri Script…" revision="0" />
-    <Item value="Aprire un file di script esistente" revision="0" />
+    <Item value="Apri copione…" revision="0" />
+    <Item value="Apri un file di copione esistente" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">
-    <Item value="Ese&amp;guire lo script" revision="0" />
-    <Item value="Avviare l'esecuzione dello script" revision="0" />
+    <Item value="A&amp;vvia copione" revision="0" />
+    <Item value="Avvia l'esecuzione del copione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStop">
-    <Item value="&amp;Interrompere lo Script" revision="0" />
-    <Item value="Interrompere l'esecuzione dello script" revision="0" />
+    <Item value="&amp;Ferma copione" revision="0" />
+    <Item value="Interrompe l'esecuzione del copione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingDebug">
-    <Item value="Debug Script" revision="0" />
-    <Item value="Avviare il debug dello script" revision="0" />
+    <Item value="Debug copione" revision="0" />
+    <Item value="Avvia il debug del copione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingToggleBreakpoint">
-    <Item value="Imposta/Rimuovi Breakpoint" revision="0" />
+    <Item value="Imposta/Rimuovi punto di rottura" revision="0" />
     <Item value="Imposta o rimuove un punto di interruzione dell'esecuzione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRemoveAllBreakpoints">
-    <Item value="Rimuovere Tutti i Punti di Interruzione" revision="0" />
-    <Item value="Rimuovere tutti i punti di interruzione" revision="0" />
+    <Item value="Rimuovi tutti i punti di rottura" revision="0" />
+    <Item value="Rimuove tutti i punti di interruzione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepIn">
-    <Item value="Esegui Istruzione" revision="0" />
-    <Item value="Passo nella funzione chiamata" revision="0" />
+    <Item value="Intervieni" revision="0" />
+    <Item value="Entra nella funzione chiamata" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOut">
-    <Item value="Esci da Istruzione/Routine" revision="0" />
-    <Item value="Esce dalla funzione chiamata" revision="0" />
+    <Item value="Fuoriesci" revision="0" />
+    <Item value="Fuoriesce dalla funzione chiamata" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOver">
-    <Item value="Esegui Istruzione/Routine" revision="0" />
-    <Item value="Passa sopra la funzione chiamata" revision="0" />
+    <Item value="Supera" revision="0" />
+    <Item value="Oltrepassa la funzione chiamata" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">
     <Item value="Continua" revision="0" />
     <Item value="Continua l'esecuzione" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingAsyncBreak">
-    <Item value="Interruzione dell'esecuzione" revision="0" />
-    <Item value="Interrompere l'esecuzione dello script" revision="0" />
+    <Item value="Interrompi esecuzione" revision="0" />
+    <Item value="Interrompe l'esecuzione del copione" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
-    <Item value="Aggiungi Epressione di Controllo" revision="0" />
-    <Item value="Aggiungi Epressione di Controllo" revision="0" />
+    <Item value="Aggiungi osservazione" revision="0" />
+    <Item value="Aggiunge l'osservazione" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
-    <Item value="Rimuovere Epressione di Controllo" revision="0" />
-    <Item value="Rimuovere Epressione di Controllo" revision="0" />
+    <Item value="Rimuovi osservazione" revision="0" />
+    <Item value="Rimuove l'osservazione" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item value="Modifica Epressione di Controllo" revision="0" />
-    <Item value="Modifica Epressione di Controllo" revision="0" />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuDebug">
     <Item value="&amp;Debug" revision="0" />
@@ -141,7 +141,7 @@
   </Enumeration>
   <Enumeration key="MacroWindowColumns">
     <Item value="Macro" revision="0" />
-    <Item value="Tasto di scelta rapida" revision="0" />
+    <Item value="Tasto rapido" revision="0" />
   </Enumeration>
   <Enumeration key="CallStackColumns">
     <Item value=" " revision="0" />
@@ -154,7 +154,7 @@
     <Item value="Tipo" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureScripting">
-    <Item value="Scripting" revision="1" />
-    <Item value="La funzione di scripting consente di controllare Hex Editor Neo utilizzando script scritti in TypeScript." revision="1" />
+    <Item value="Partitura" revision="1" />
+    <Item value="La funzione Partitura consente di controllare Hex Editor Neo tramite copioni scritti in TypeScript." revision="1" />
   </Enumeration>
 </Language>

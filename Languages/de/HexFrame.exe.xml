@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="Strich" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="„Nicht mehr anzeigen“ nachricht" revision="0" />
   <Message key="Ready" value="Bereit" revision="0" />
+  <Message key="Little endian" value="Little endian" revision="0" />
+  <Message key="Big endian" value="Big endian" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Physikalische Festplatte" revision="2" />
     <Item value="Größe" revision="2" />
@@ -935,6 +937,4 @@
     <Item value="Ausführung fortsetzen" revision="0" />
     <Item value="Entfernen Sie die Kompatibilitätseinstellungen und starten Sie die Anwendung neu" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
 </Language>

@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="外枠" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;今後表示しない&quot;の通知" revision="0" />
   <Message key="Ready" value="準備完了" revision="0" />
+  <Message key="Little endian" value="リトルエンディアン" revision="0" />
+  <Message key="Big endian" value="ビッグエンディアン" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理ディスク" revision="2" />
     <Item value="サイズ" revision="2" />
@@ -935,6 +937,4 @@
     <Item value="実行を継続" revision="0" />
     <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="リトルエンディアン" revision="0" />
-  <Message key="Big endian" value="ビッグエンディアン" revision="0" />
 </Language>

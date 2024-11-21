@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="Trazo" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="«No volver a mostrar esta advertencia» mensaje" revision="0" />
   <Message key="Ready" value="Listo" revision="0" />
+  <Message key="Little endian" value="Little endian" revision="1" />
+  <Message key="Big endian" value="Big endian" revision="1" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Físico" revision="2" />
     <Item value="Tamaño" revision="2" />
@@ -935,7 +937,4 @@
     <Item value="Continuar la ejecución" revision="0" />
     <Item value="Eliminar los ajustes de compatibilidad y reiniciar la aplicación" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="Little endian" revision="1" />
-  <Message key="Big endian" value="Big endian" revision="1" />
-
 </Language>

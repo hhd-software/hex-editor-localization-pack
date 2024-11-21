@@ -1,98 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="L'Apertura di Troppi Documenti può Portare a Prestazioni Molto Scarse. Non è Pertanto Consigliato Continuare l'Operazione Corrente. Vuoi Annullare l'Operazione?" revision="1" />
+  <Message key="Opening too many documents…" value="L'apertura di troppi documenti può portare a prestazioni molto scarse. non è pertanto consigliato continuare l'operazione corrente. Vuoi annullarla?" revision="1" />
   <Message key="Warning" value="Avviso" revision="1" />
   <Message key="Error" value="Errore" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" (occurrences} occorrenze)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" (occurrences} ricorrenze)" revision="1" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Errore {error_code} ({text_message}) {mode} {path}." revision="1" />
-  <Message key="Invalid folder or mask syntax." value="Cartella Non Valida o Sintassi Maschera." revision="1" />
-  <Message key="Invalid folder list syntax." value="Cartella non Valida Lista Sintassi." revision="1" />
-  <Message key="Find All" value="Trova Tutto" revision="1" />
-  <Message key="Replace All" value="Sostituisci Tutto" revision="1" />
+  <Message key="Invalid folder or mask syntax." value="Cartella o sintassi maschera non valide." revision="1" />
+  <Message key="Invalid folder list syntax." value="Cartella lista sintassi non valida." revision="1" />
+  <Message key="Find All" value="Trova tutto" revision="1" />
+  <Message key="Replace All" value="Sostituisci tutto" revision="1" />
   <Message key="Notifications" value="Notifiche" revision="1" />
   <Message key="Find in Files" value="Trova nei file" revision="1" />
-  <Message key="Do you want to cancel the current operation?" value="Vuoi Annullare l'Operazione in Corso?" revision="1" />
-  <Message key="Operation cancelled." value="Operazione Annullata." revision="1" />
+  <Message key="Do you want to cancel the current operation?" value="Vuoi annullare l'operazione in corso?" revision="1" />
+  <Message key="Operation cancelled." value="Operazione annullata." revision="1" />
   <Message key="Replace with:" value="Sostituisci con:" revision="1" />
-  <Message key="Progress message" value="{percent} % Completetati. {processed_files} di {total_files}{unfinished?}(…){?unfinished} in File {total_folders} Cartelle sono state Controllate. {matched} File Trovati Abbinati. {processed_size} di {total_size} Elaborati." revision="1" />
-  <Message key="ReplaceNotification" value="Sostituisci nei File" revision="1" />
-  <Message key="TextFilesFilterString" value="File di Testo|*.txt|" revision="0" />
+  <Message key="Progress message" value="{percent} % completato. {processed_files} di {total_files}{unfinished?}(…){?unfinished} file {total_folders} cartelle sono stati controllati. {matched} File abbinati trovati. {processed_size} di {total_size} elaborati." revision="1" />
+  <Message key="ReplaceNotification" value="Sostituisci nei file" revision="1" />
+  <Message key="TextFilesFilterString" value="File di testo|*.txt|" revision="0" />
   <Message key="Exporting" value="Esportazione" revision="0" />
   <Message key="Search in:" value="Cerca in:" revision="1" />
   <Message key="File types:" value="Tipi di file:" revision="1" />
   <Message key="Mode:" value="Modalità:" revision="1" />
-  <Message key="Include sub-folders" value="Includi Sottocartelle" revision="1" />
-  <Message key="Ignore case" value="Ignora Caso" revision="1" />
-  <Message key="Display errors" value="Errori di Visualizzazione" revision="1" />
-  <Message key="Include streams" value="Includi Flussi" revision="1" />
-  <Message key="Find and replace mode" value="Trova e Sostituisci la Modalità" revision="1" />
-  <Message key="Find in Files Folder List" value="Trova nei File Elenco Cartelle" revision="1" />
-  <Message key="Enter the path to the folder or press the browse button:" value="Immetti il Percorso della Cartella o Premi il Pulsante Sfoglia:" revision="1" />
-  <Message key="Move Up" value="Sposta &amp;Sù" revision="1" />
-  <Message key="Move Down" value="Sposta &amp;Giù" revision="1" />
-  <Message key="Folder list:" value="Elenco Cartelle:" revision="1" />
-  <Message key="All opened documents" value="Tutti i Documenti Aperti" revision="0" />
-  <Message key="toolbar.FindInFiles" value="Trova nei File" revision="0" />
+  <Message key="Include sub-folders" value="Includi sottocartelle" revision="1" />
+  <Message key="Ignore case" value="Ignora forma" revision="1" />
+  <Message key="Display errors" value="Mostra errori" revision="1" />
+  <Message key="Include streams" value="Includi flussi" revision="1" />
+  <Message key="Find and replace mode" value="Modo trova e sostituisci" revision="1" />
+  <Message key="Find in Files Folder List" value="Trova nell'elenco file cartelle" revision="1" />
+  <Message key="Enter the path to the folder or press the browse button:" value="Immetti il percorso della cartella o premi Sfoglia:" revision="1" />
+  <Message key="Move Up" value="Sposta &amp;su" revision="1" />
+  <Message key="Move Down" value="Sposta &amp;giù" revision="1" />
+  <Message key="Folder list:" value="Elenco cartelle:" revision="1" />
+  <Message key="All opened documents" value="Tutti i documenti aperti" revision="0" />
+  <Message key="toolbar.FindInFiles" value="Trova nei file" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="Apertura" revision="1" />
     <Item value="Salvataggio" revision="1" />
   </Enumeration>
   <Enumeration key="Find modes">
-    <Item value="Trova Almeno un'Occorrenza" revision="1" />
-    <Item value="Trova Tutte le Occorrenze (più Lento)" revision="1" />
+    <Item value="Trova almeno una ricorrenza" revision="1" />
+    <Item value="Trova tutte le ricorrenze (più Lento)" revision="1" />
   </Enumeration>
   <Enumeration key="Replace modes">
-    <Item value="Sostituisci Tutte le Occorrenze e Salva" revision="1" />
-    <Item value="Sostituisci Tutte le Occorrenze e Apri" revision="1" />
+    <Item value="Sostituisci tutte le ricorrenze e salva" revision="1" />
+    <Item value="Sostituisci tutte le ricorrenze e apri" revision="1" />
   </Enumeration>
   <Enumeration key="Find in files task">
-    <Item value="Trova nei File" revision="1" />
-    <Item value="Avvia il Trova in File/Sostituisci nel Modulo File" revision="1" />
+    <Item value="Trova nei file" revision="1" />
+    <Item value="Avvia il modulo Trova/Sostituisci nel file" revision="1" />
   </Enumeration>
   <Enumeration key="MenuFIF">
-    <Item value="&amp;Trova nei File" revision="0" />
-    <Item value="Trova ne Menu File" revision="0" />
+    <Item value="&amp;Trova nei file" revision="0" />
+    <Item value="Menu Trova nel file" revision="0" />
   </Enumeration>
   <Enumeration key="FindInFiles feature">
-    <Item value="Trova nei File" revision="1" />
-    <Item value="Trova in Funzione File; ti Consente di Trovare Rapidamente i File Contenenti Modello Specifico all'Interno di una Singola o più Cartelle." revision="1" />
+    <Item value="Trova nei file" revision="1" />
+    <Item value="La funzione Trova nei file ti consente di trovare rapidamente i file contenenti il modello specifico all'interno di una o più cartelle." revision="1" />
   </Enumeration>
   <Enumeration key="ReplaceInFiles feature">
-    <Item value="Sostituisci nei File" revision="1" />
-    <Item value="Sostituire in Funzione File, ti Consente di trovare Tutte le Occorrenze del Modello di File all'Interno di una Singola o più Cartelle e Sostituirla con un Altro Modello (o eliminare)." revision="1" />
+    <Item value="Sostituisci nei file" revision="1" />
+    <Item value="La funzione Sostituisci nei file, ti consente di trovare tutte le ricorrenze del modello di file all'interno di una o più cartelle e sostituirle con altro (o eliminarle)." revision="1" />
   </Enumeration>
   <Enumeration key="Replace all and save options">
-    <Item value="Attiva Opzione &quot;Crea Sempre Backup&quot; e Continua." revision="1" />
-    <Item value="Passa a Modalità &quot;Sostituire Tutte le Occorrenze e Apri&quot; e Continua." revision="1" />
-    <Item value="Continua in Questo Modo (non consigliato)" revision="1" />
+    <Item value="Attiva l'opzione &quot;Crea sempre una copia&quot; e continua." revision="1" />
+    <Item value="Passa a modalità &quot;Sostituisci tutte le ricorrenze e apri&quot; e continua." revision="1" />
+    <Item value="Continua in questo modo (non consigliato)" revision="1" />
     <Item value="Annulla" revision="1" />
   </Enumeration>
   <Enumeration key="ReplaceAllAndSaveWarning">
-    <Item value="Sostituisci nei FIle" revision="1" />
-    <Item value="Eseguendo la Funzione &quot;Sostituisci nei File&quot; con l'Opzione &quot;Crea Sempre Backup&quot; Spenta, in Questo Modo si può Evitare di Perdere Dati, come le Copie di Backup dei Dati che Vengono Create Durante la Sostituzione. Si Consiglia di Disattivare &quot;Crea Sempre Backup&quot; con l'Opzione \ r \ n \ r \ n. Selezionare un'Azione di Seguito:" revision="1" />
+    <Item value="Sostituisci nei fIle" revision="1" />
+    <Item value="Eseguendo la funzione &quot;Sostituisci nei file&quot; con l'opzione &quot;Crea sempre una copia&quot; spenta, c'è il rischio di perdere dati e non poterli recuperare in mancanza dei backup dopo la sostituzione. Si consiglia di attivare l'opzione &quot;Crea sempre una copia&quot;.\r\n\r\nSelezionare un'azione di seguito:" revision="1" />
   </Enumeration>
   <Enumeration key="EditFindInFiles">
     <Item value="T&amp;rova nei file…" revision="0" />
-    <Item value="Trova (ed eventualmente sostituisci) un Modello in Alcuni file." revision="0" />
+    <Item value="Trova (ed eventualmente sostituisce) un modello in alcuni file" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindInFilesStop">
-    <Item value="Ferma la Ricerca" revision="1" />
-    <Item value="Interrompi l'Operazione in Corso" revision="1" />
+    <Item value="Ferma la ricerca" revision="1" />
+    <Item value="Interrompe l'operazione in corso" revision="1" />
   </Enumeration>
   <Enumeration key="EditGotoLocation">
-    <Item value="Apri il File" revision="1" />
-    <Item value="Aprire il File Selezionato nell'Editor." revision="1" />
+    <Item value="Apri il file" revision="1" />
+    <Item value="Apre il file selezionato nell'editor" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearAll">
-    <Item value="&amp;Cancella Tutto" revision="0" />
-    <Item value="Cancella il Contenuto della Finestra" revision="0" />
+    <Item value="&amp;Cancella tutto" revision="0" />
+    <Item value="Cancella il contenuto della finestra" revision="0" />
   </Enumeration>
   <Enumeration key="FindInFilesBackgroundMode">
-    <Item value="Modalità Background" revision="0" />
-    <Item value="Alterna Modalità Background (riduce le risorse di utilizzo del sistema)" revision="0" />
+    <Item value="Modalità sottofondo" revision="0" />
+    <Item value="Alterna la modalità sottofondo (riduce l'uso di risorse)" revision="0" />
   </Enumeration>
   <Enumeration key="FindInFilesExport">
-    <Item value="Esporta i Risultati…" revision="0" />
-    <Item value="Esporta l'Elenco dei File Trovati" revision="0" />
+    <Item value="Esporta i risultati…" revision="0" />
+    <Item value="Esporta l'elenco dei file trovati" revision="0" />
   </Enumeration>
 </Language>

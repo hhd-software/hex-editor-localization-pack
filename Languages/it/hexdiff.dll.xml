@@ -2,107 +2,107 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="FilterOperationName" value="Filtrazione dei risultati" revision="0" />
   <Message key="Different" value="Diverso" revision="0" />
-  <Message key="Not Found" value="Non Trovato" revision="0" />
-  <Message key="IdenticalNotification" value="Confronto File: Flussi NTFS in File Identici" revision="0" />
-  <Message key="File Comparison" value="Confronto File" revision="0" />
-  <Message key="Error opening both files" value="Errore Aprendo Entrambi i File" revision="0" />
-  <Message key="Error opening one of files" value="Errore Aprendo uno dei File" revision="0" />
-  <Message key="Locked" value="Almeno un Documento è Bloccato a Causa di Uso Prolungato. Attendere Fino al Termine dell'Operazione." revision="0" />
-  <Message key="OpName" value="Comparazione File" revision="0" />
-  <Message key="CompareError" value="Errore Comparazione File." revision="0" />
-  <Message key="ConvertError" value="Errore Creando Selezione." revision="0" />
-  <Message key="DisplayStreams" value="Visualizza Flussi per {file}" revision="0" />
-  <Message key="Convert Blocks To Selection" value="Converti Blocchi alla Selezione" revision="0" />
-  <Message key="Matched blocks" value="Blocchi Abbinati" revision="0" />
-  <Message key="Inserted blocks" value="Blocchi Inseriti" revision="0" />
-  <Message key="Removed blocks" value="Blocchi Rimossi" revision="0" />
-  <Message key="Modified blocks" value="Blocchi Modificati" revision="0" />
-  <Message key="Color Selection" value="Selezione Colore" revision="0" />
+  <Message key="Not Found" value="Non trovato" revision="0" />
+  <Message key="IdenticalNotification" value="Confronto file: Flussi NTFS in file identici" revision="0" />
+  <Message key="File Comparison" value="Confronto file" revision="0" />
+  <Message key="Error opening both files" value="Errore aprendo entrambi i file" revision="0" />
+  <Message key="Error opening one of files" value="Errore aprendo uno dei file" revision="0" />
+  <Message key="Locked" value="Almeno un documento è bloccato a causa di uso prolungato. Attendere il termine dell'operazione." revision="0" />
+  <Message key="OpName" value="Comparazione file" revision="0" />
+  <Message key="CompareError" value="Errore comparazione file." revision="0" />
+  <Message key="ConvertError" value="Errore creando selezione." revision="0" />
+  <Message key="DisplayStreams" value="Mostra flussi per {file}" revision="0" />
+  <Message key="Convert Blocks To Selection" value="Converti blocchi in selezione" revision="0" />
+  <Message key="Matched blocks" value="Blocchi abbinati" revision="0" />
+  <Message key="Inserted blocks" value="Blocchi inseriti" revision="0" />
+  <Message key="Removed blocks" value="Blocchi rimossi" revision="0" />
+  <Message key="Modified blocks" value="Blocchi modificati" revision="0" />
+  <Message key="Color Selection" value="Selezione colore" revision="0" />
   <Message key="Compare Results Filter" value="Filtri" revision="0" />
-  <Message key="Edit Filter Condition" value="Cambiare la regola" revision="0" />
-  <Message key="Compare Files" value="Confronta File" revision="0" />
-  <Message key="First file:" value="Primo File:" revision="0" />
-  <Message key="Second file:" value="Secondo File:" revision="0" />
-  <Message key="Comparison method:" value="Comparazione Metodo" revision="0" />
-  <Message key="Align documents:" value="Allinea Documento:" revision="0" />
-  <Message key="Synchronize windows" value="Sincronizza Finestre" revision="0" />
+  <Message key="Edit Filter Condition" value="Modifica la regola" revision="0" />
+  <Message key="Compare Files" value="Confronta file" revision="0" />
+  <Message key="First file:" value="Primo file:" revision="0" />
+  <Message key="Second file:" value="Secondo file:" revision="0" />
+  <Message key="Comparison method:" value="Metodo comparazione" revision="0" />
+  <Message key="Align documents:" value="Allinea documento:" revision="0" />
+  <Message key="Synchronize windows" value="Sincronizza finestre" revision="0" />
   <Message key="Colors…" value="Colori…" revision="0" />
   <Message key="Swap" value="Scambia" revision="0" />
-  <Message key="toolbar.Compare Files" value="Confronta i File" revision="0" />
-  <Message key="clr.fc_colors" value="Colori di confronto dei file" revision="0" />
-  <Message key="clr.fc_colors.matched.fill" value="Sfondo della regione abbinata" revision="0" />
-  <Message key="clr.fc_colors.matched.stroke" value="Testo della regione abbinata" revision="0" />
+  <Message key="toolbar.Compare Files" value="Confronta i file" revision="0" />
+  <Message key="clr.fc_colors" value="Colori confronto dei file" revision="0" />
+  <Message key="clr.fc_colors.matched.fill" value="Sfondo della regione abbinato" revision="0" />
+  <Message key="clr.fc_colors.matched.stroke" value="Testo della regione abbinato" revision="0" />
   <Message key="clr.fc_colors.different.fill" value="Sfondo della regione diverso" revision="0" />
   <Message key="clr.fc_colors.different.stroke" value="Testo della regione diverso" revision="0" />
-  <Message key="clr.fc_colors.notFound.fill" value="Sfondo della regione Non trovato" revision="0" />
-  <Message key="clr.fc_colors.notFound.stroke" value="Testo della regione Non trovato" revision="0" />
-  <Message key="clr.fc_colors.inserted.fill" value="Sfondo della regione inserita" revision="0" />
-  <Message key="clr.fc_colors.inserted.stroke" value="Testo della regione inserita" revision="0" />
+  <Message key="clr.fc_colors.notFound.fill" value="Sfondo della regione non trovato" revision="0" />
+  <Message key="clr.fc_colors.notFound.stroke" value="Testo della regione non trovato" revision="0" />
+  <Message key="clr.fc_colors.inserted.fill" value="Sfondo della regione inserito" revision="0" />
+  <Message key="clr.fc_colors.inserted.stroke" value="Testo della regione inserito" revision="0" />
   <Message key="clr.fc_colors.removed.fill" value="Sfondo della regione rimosso" revision="0" />
   <Message key="clr.fc_colors.removed.stroke" value="Testo della regione rimosso" revision="0" />
   <Message key="Compare Files Report" value="Rapporto" revision="0" />
   <Message key="Total" value="Totale" revision="0" />
   <Message key="Condition:" value="Condizione:" revision="0" />
   <Message key="then" value="allora" revision="0" />
-  <Message key="IncorrectInputTitle" value="Ingresso non corretto" revision="0" />
-  <Message key="NotANumberError" value="Deve essere un valore decimale o esadecimale." revision="0" />
+  <Message key="IncorrectInputTitle" value="Immissione sbagliata" revision="0" />
+  <Message key="NotANumberError" value="Dev'essere un valore decimale o esadecimale." revision="0" />
   <Enumeration key="DiffRecompare">
     <Item value="Riconfronto" revision="0" />
-    <Item value="Riconfronto File" revision="0" />
+    <Item value="Riconfronto file" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCompareFiles">
-    <Item value="Confronto File…" revision="0" />
-    <Item value="Confronto File" revision="0" />
+    <Item value="Confronto file…" revision="0" />
+    <Item value="Confronto file" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Converti alla Selezione" revision="0" />
-    <Item value="Convertire i Blocchi alla Selezione" revision="0" />
+    <Item value="Converti alla selezione" revision="0" />
+    <Item value="Converte i blocchi alla selezione" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
-    <Item value="Abilita Colorazione" revision="0" />
-    <Item value="Abilita Colorazione" revision="0" />
+    <Item value="Abilita colorazione" revision="0" />
+    <Item value="Abilita colorazione" revision="0" />
   </Enumeration>
   <Enumeration key="DiffHex">
-    <Item value="Visualizza Valori HEX" revision="0" />
-    <Item value="Visualizza Dati in Decimale o Esadecimale" revision="0" />
+    <Item value="Visualizza valori hex" revision="0" />
+    <Item value="Visualizza dati in decimale o esadecimale" revision="0" />
   </Enumeration>
   <Enumeration key="DiffPrev">
-    <Item value="Blocco Precedente" revision="0" />
-    <Item value="Vai a Blocco Precedente" revision="0" />
+    <Item value="Blocco precedente" revision="0" />
+    <Item value="Vai al blocco precedente" revision="0" />
   </Enumeration>
   <Enumeration key="DiffNext">
-    <Item value="Blocco Succassivo" revision="0" />
-    <Item value="Vai a Blocco Succassivo" revision="0" />
+    <Item value="Blocco successivo" revision="0" />
+    <Item value="Vai al blocco successivo" revision="0" />
   </Enumeration>
   <Enumeration key="DiffColor">
-    <Item value="Seleziona Colori…" revision="0" />
-    <Item value="Seleziona Colori Utilizzati per Evidenziare i Blocchi" revision="0" />
+    <Item value="Seleziona colori…" revision="0" />
+    <Item value="Seleziona colori utilizzati per evidenziare i blocchi" revision="0" />
   </Enumeration>
   <Enumeration key="DiffCombine">
-    <Item value="Combina Modalità" revision="0" />
-    <Item value="Visualizza Blocchi per Entrambi i File una Sola Volta" revision="0" />
+    <Item value="Modalità combina" revision="0" />
+    <Item value="Visualizza blocchi per entrambi i file una sola volta" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilter">
-    <Item value="Configurare il filtro…" revision="0" />
-    <Item value="Filtrare i risultati del confronto in base a determinati criteri" revision="0" />
+    <Item value="Configura filtro…" revision="0" />
+    <Item value="Filtra i risultati del confronto in base a determinati criteri" revision="0" />
   </Enumeration>
   <Enumeration key="DiffReport">
     <Item value="Mostra rapporto di confronto" revision="0" />
-    <Item value="Visualizzare le statistiche dei risultati del confronto" revision="0" />
+    <Item value="Visualizza le statistiche dei risultati del confronto" revision="0" />
   </Enumeration>
   <Enumeration key="DiffClear">
-    <Item value="Cancellare i risultati" revision="0" />
-    <Item value="Cancellare i risultati del confronto" revision="0" />
+    <Item value="Cancella i risultati" revision="0" />
+    <Item value="Cancella i risultati del confronto" revision="0" />
   </Enumeration>
   <Enumeration key="Algorithms">
     <Item value="Algoritmo di confronto semplice" revision="1" />
     <Item value="Algoritmo della differenza" revision="1" />
-    <Item value="Algoritmo della differenza (alternativo)" revision="1" />
+    <Item value="Algoritmo delle differenze (alternativo)" revision="1" />
   </Enumeration>
   <Enumeration key="Alignment">
-    <Item value="Non Allineare" revision="0" />
-    <Item value="Allinea Orizzontalmente" revision="0" />
-    <Item value="Allinea Verticalmente" revision="0" />
+    <Item value="Non allineare" revision="0" />
+    <Item value="Allinea orizzontalmente" revision="0" />
+    <Item value="Allinea verticalmente" revision="0" />
   </Enumeration>
   <Enumeration key="DiffTypes">
     <Item value="Normale" revision="0" />
@@ -114,36 +114,36 @@
     <Item value="Dimensioni, byte" revision="0" />
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
-    <Item value="Confronto File" revision="0" />
-    <Item value="I File sono Identici, ma Contengono Uteriori Flussi. Hex Editor Neo Non Confronta Automaticamente i Contenuti di Ulteriori Flussi. Si può Fare Manualmente. Seleziona una delle Seguenti Opzioni per Continuare." revision="0" />
+    <Item value="Confronto file" revision="0" />
+    <Item value="I file sono identici, ma contengono ulteriori flussi. Hex Editor Neo non confronta automaticamente i contenuti di ulteriori flussi. Si può fare manualmente. seleziona una delle seguenti opzioni per continuare." revision="0" />
   </Enumeration>
   <Enumeration key="Identical">
-    <Item value="Confronto File" revision="0" />
-    <Item value="I File sono Identici." revision="0" />
+    <Item value="Confronto file" revision="0" />
+    <Item value="I file sono identici." revision="0" />
   </Enumeration>
   <Enumeration key="DiffTask">
-    <Item value="Confronto i File" revision="0" />
+    <Item value="Confronto file" revision="0" />
     <Item value="Comparare i Contenuti di Due File Binari" revision="0" />
   </Enumeration>
   <Enumeration key="MenuCompareFiles">
-    <Item value="Confronto File" revision="0" />
-    <Item value="Menu Confronto File" revision="0" />
+    <Item value="Confronto file" revision="0" />
+    <Item value="Menu confronto file" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureCompare">
-    <Item value="Confronto File" revision="0" />
-    <Item value="La Caratteristica Confronto File Consente di Trovare le Differenze tra Due File." revision="0" />
+    <Item value="Confronto file" revision="0" />
+    <Item value="La caratteristica Confronto file consente di trovare le differenze tra due file." revision="0" />
   </Enumeration>
   <Enumeration key="BlockTypes">
     <Item value="Abbinato" revision="0" />
     <Item value="Modificato" revision="0" />
     <Item value="Inserito" revision="0" />
     <Item value="Rimosso" revision="0" />
-    <Item value="Mosso" revision="0" />
+    <Item value="Spostato" revision="0" />
   </Enumeration>
   <Enumeration key="Columns">
     <Item value="Tipo" revision="0" />
-    <Item value="Offset (Origine)" revision="0" />
-    <Item value="Offset (Destinazione)" revision="0" />
+    <Item value="Scostamento (Origine)" revision="0" />
+    <Item value="Scostamento (Destinazione)" revision="0" />
     <Item value="Dimensione" revision="0" />
   </Enumeration>
   <Enumeration key="FilterOperations">
@@ -165,23 +165,23 @@
     <Item value="Azione" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterAdd">
-    <Item value="Add Filter Rule" revision="0" />
-    <Item value="Aggiungere una regola di filtro allo schema corrente" revision="0" />
+    <Item value="Aggiungi regola di filtro" revision="0" />
+    <Item value="Aggiunge una regola di filtro allo schema corrente" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterEdit">
-    <Item value="Modifica regola filtro" revision="0" />
-    <Item value="Modifica della regola di filtro nello schema corrente" revision="0" />
+    <Item value="Modifica regola di filtro" revision="0" />
+    <Item value="Modifica la regola di filtro nello schema corrente" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterRemove">
-    <Item value="Rimuovi regola filtro" revision="0" />
-    <Item value="Rimuovere la regola del filtro dallo schema corrente" revision="0" />
+    <Item value="Rimuovi regola di filtro" revision="0" />
+    <Item value="Rimuove la regola del filtro dallo schema corrente" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterReset">
-    <Item value="Rollback di tutte le modifiche" revision="0" />
-    <Item value="Rollback di tutte le modifiche" revision="0" />
+    <Item value="Annulla tutte le modifiche allo schema filtro" revision="0" />
+    <Item value="Annulla tutte le modifiche allo schema" revision="0" />
   </Enumeration>
   <Enumeration key="DiffFilterSwitch">
-    <Item value="Abilitare/disabilitare il filtraggio" revision="0" />
-    <Item value="Abilitare/disabilitare il filtraggio" revision="0" />
+    <Item value="Dis/abilita il filtraggio" revision="0" />
+    <Item value="Abilita o disabilita il filtraggio" revision="0" />
   </Enumeration>
 </Language>

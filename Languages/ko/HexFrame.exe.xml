@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="스트로크" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="“이 경고를 더 이상 표시하지 않음”메시지" revision="0" />
   <Message key="Ready" value="준비됨" revision="0" />
+  <Message key="Little endian" value="리틀 에디안" revision="0" />
+  <Message key="Big endian" value="빅 에디안" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="물리적 메모리" revision="2" />
     <Item value="크기" revision="2" />
@@ -935,6 +937,4 @@
     <Item value="실행 계속" revision="0" />
     <Item value="호환성 설정을 제거하고 응용 프로그램을 다시 시작합니다" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="리틀 에디안" revision="0" />
-  <Message key="Big endian" value="빅 에디안" revision="0" />
 </Language>

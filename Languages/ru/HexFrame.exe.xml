@@ -436,6 +436,8 @@
   <Message key="clr.balloon.balloon.stroke" value="Обводка" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Не показывать больше это&quot; сообщение" revision="0" />
   <Message key="Ready" value="Готово" revision="0" />
+  <Message key="Little endian" value="Little endian" revision="0" />
+  <Message key="Big endian" value="Big endian" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
@@ -935,6 +937,4 @@
     <Item value="Продолжить" revision="0" />
     <Item value="Отключить настройки совместимости и перезапустить приложение" revision="0" />
   </Enumeration>
-  <Message key="Little endian" value="Little endian" revision="0" />
-  <Message key="Big endian" value="Big endian" revision="0" />
 </Language>

@@ -1,134 +1,134 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Bookmarks" value="Segnalibri" revision="0" />
-  <Message key="Progress" value="L'Operazione Corrente è in Corso.  Attendere che sia Finito." revision="0" />
-  <Message key="GroupDelete" value="Il Gruppo sarà Cancellato (inclusi tutti i segnalibri in esso contenuti). Vuoi Continuare?" revision="0" />
-  <Message key="AllDelete" value="Tutti i Gruppi sararro Cancellati. Vuoi Continuare?" revision="0" />
-  <Message key="BookmarkGroup" value="Gruppo Segnalibro {n}" revision="0" />
-  <Message key="Error creating bookmarks group" value="Errore nella creazione del Gruppo Segnalibri" revision="0" />
-  <Message key="SelWarning" value="La Selezione Attuale Contiene più Frammenti. Ciascuno sarà Aggiunto come Segnalibro Separato. Vuoi Continuare?" revision="0" />
-  <Message key="Error converting selection to bookmarks" value="Errore Durante la Conversione Selezione ai Segnalibri" revision="0" />
-  <Message key="Error converting bookmark to selection" value="Errore Durante la Conversione Segnalibro per la Selezione" revision="0" />
-  <Message key="AllBookmarksDelete" value="Verranno Eliminati Tutti i Segnalibri. Vuoi Continuare?" revision="0" />
-  <Message key="Error loading from file" value="Errore Durante il Caricamento dal File" revision="0" />
-  <Message key="File has different version" value="Il File ha Versione Diversa" revision="0" />
-  <Message key="Error loading bookmarks" value="Errore Durante il Caricamento dei Segnalibri" revision="0" />
-  <Message key="Select Action" value="Seleziona Azione" revision="0" />
-  <Message key="New selection" value="Nuova Selezione" revision="0" />
-  <Message key="Add to selection" value="Aggiungi alla Selezione" revision="0" />
-  <Message key="Subtract from selection" value="Sottrai dalla Selezione" revision="0" />
-  <Message key="Save Preset" value="Salvare la preimpostazione" revision="0" />
-  <Message key="Edit Group" value="Modifica Gruppo" revision="0" />
+  <Message key="Progress" value="L'operazione corrente è in corso. Attendere che finisca." revision="0" />
+  <Message key="GroupDelete" value="Il gruppo sarà eliminato (inclusi tutti i segnalibri in esso contenuti). Vuoi continuare?" revision="0" />
+  <Message key="AllDelete" value="Tutti i gruppi saranno eliminati. Vuoi continuare?" revision="0" />
+  <Message key="BookmarkGroup" value="Gruppo segnalibro {n}" revision="0" />
+  <Message key="Error creating bookmarks group" value="Errore durante la creazione del gruppo segnalibri" revision="0" />
+  <Message key="SelWarning" value="La selezione attuale contiene più frammenti. Ciascuno sarà aggiunto come segnalibro separato. Vuoi continuare?" revision="0" />
+  <Message key="Error converting selection to bookmarks" value="Errore durante la conversione della selezione ai segnalibri" revision="0" />
+  <Message key="Error converting bookmark to selection" value="Errore durante la conversione del segnalibro alla selezione" revision="0" />
+  <Message key="AllBookmarksDelete" value="Verranno eliminati tutti i segnalibri. Vuoi continuare?" revision="0" />
+  <Message key="Error loading from file" value="Errore durante il caricamento dal file" revision="0" />
+  <Message key="File has different version" value="Il file ha versione diversa" revision="0" />
+  <Message key="Error loading bookmarks" value="Errore durante il caricamento dei segnalibri" revision="0" />
+  <Message key="Select Action" value="Seleziona azione" revision="0" />
+  <Message key="New selection" value="Nuova selezione" revision="0" />
+  <Message key="Add to selection" value="Aggiungi alla selezione" revision="0" />
+  <Message key="Subtract from selection" value="Sottrai dalla selezione" revision="0" />
+  <Message key="Save Preset" value="Salva la preimpostazione" revision="0" />
+  <Message key="Edit Group" value="Modifica gruppo" revision="0" />
   <Message key="Preset:" value="Preimpostazione:" revision="0" />
   <Message key="Name:" value="Nome:" revision="0" />
   <Message key="Text:" value="Testo:" revision="0" />
   <Message key="Background:" value="Sfondo:" revision="0" />
   <Message key="Outline:" value="Contorno:" revision="0" />
-  <Message key="Round edges" value="Bordi Arrotondati" revision="0" />
-  <Message key="Please enter a color preset name" value="Please enter a color preset name" revision="0" />
+  <Message key="Round edges" value="Bordi arrotondati" revision="0" />
+  <Message key="Please enter a color preset name" value="Inserire nome della preimpostazione colore" revision="0" />
   <Message key="Do you want to replace color preset" value="Si desidera sostituire la preimpostazione del colore “{name}”?" revision="0" />
-  <Message key="BookmarksFilterString" value="Segnalibro File (*.hexbook)|*.hexbook|" revision="0" />
-  <Message key="SelectionFilterString" value="Selezione File (*.hexsel)|*.hexsel|" revision="0" />
-  <Message key="Sel2BookmarkWarning" value="Mostra Selezione di Avviso Conversione Segnalibro" revision="1" />
-  <Message key="MergeBookmarks" value="Vuoi Fondere con i Segnalibri Esistenti." revision="0" />
+  <Message key="BookmarksFilterString" value="File segnalibro (*.hexbook)|*.hexbook|" revision="0" />
+  <Message key="SelectionFilterString" value="File selezione (*.hexsel)|*.hexsel|" revision="0" />
+  <Message key="Sel2BookmarkWarning" value="Mostra avviso selezione di conversione segnalibro" revision="1" />
+  <Message key="MergeBookmarks" value="Vuoi fondere con i segnalibri esistenti." revision="0" />
   <Message key="toolbar.Bookmarks" value="Segnalibri" revision="0" />
   <Message key="InvalidCSVformat" value="Formato file CSV non valido. Tutte le righe devono contenere {columns} colonne separate da '{separator}'." revision="0" />
   <Enumeration key="BookNewGroup">
-    <Item value="Nuovo Gruppo Segnalibri" revision="0" />
-    <Item value="Crea Nuovo Gruppo Segnalibri" revision="0" />
+    <Item value="Nuovo gruppo segnalibri" revision="0" />
+    <Item value="Crea nuovo gruppo segnalibri" revision="0" />
   </Enumeration>
   <Enumeration key="BookToggle">
-    <Item value="Alterna Segnalibro" revision="0" />
-    <Item value="Metti o Rimuovi un Segnalibro alla Posizione Corrente" revision="0" />
+    <Item value="Alterna segnalibro" revision="0" />
+    <Item value="Pone o rimuove un segnalibro alla posizione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="BookPrev">
-    <Item value="Segnalibro Precedente" revision="0" />
-    <Item value="Vai al Segnalibro Precedente" revision="0" />
+    <Item value="Segnalibro precedente" revision="0" />
+    <Item value="Vai al segnalibro precedente" revision="0" />
   </Enumeration>
   <Enumeration key="BookNext">
-    <Item value="Segnalibro Successivo" revision="0" />
-    <Item value="Vai al Segnalibro Successivo" revision="0" />
+    <Item value="Segnalibro successivo" revision="0" />
+    <Item value="Vai al segnalibro successivo" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelectionToBookmark">
-    <Item value="Selezione ai Segnalibri" revision="0" />
-    <Item value="Converti la Selezione Corrente ai Segnalibri" revision="0" />
+    <Item value="Selezione ai segnalibri" revision="0" />
+    <Item value="Converte la selezione corrente ai segnalibri" revision="0" />
   </Enumeration>
   <Enumeration key="BookBookmarkToSelection">
-    <Item value="Segnalibri alla Selezione…" revision="0" />
-    <Item value="Converti gli Attuali Segnalibri alla Selezione" revision="0" />
+    <Item value="Segnalibri alla selezione…" revision="0" />
+    <Item value="Converte gli attuali segnalibri alla selezione" revision="0" />
   </Enumeration>
   <Enumeration key="BookLoad">
-    <Item value="Carica Segnalibri…" revision="0" />
-    <Item value="Carica Segnalibri da un File…" revision="0" />
+    <Item value="Carica segnalibri…" revision="0" />
+    <Item value="Carica segnalibri da file" revision="0" />
   </Enumeration>
   <Enumeration key="BookSave">
-    <Item value="Salva Segnalibri…" revision="0" />
-    <Item value="Salva Segnalibri ad un File…" revision="0" />
+    <Item value="Salva segnalibri…" revision="0" />
+    <Item value="Salva segnalibri su file" revision="0" />
   </Enumeration>
   <Enumeration key="MenuBookmarks">
     <Item value="&amp;Segnalibri" revision="0" />
     <Item value="Menu Segnalibri" revision="0" />
   </Enumeration>
   <Enumeration key="BookMoveDown">
-    <Item value="Spostare il gruppo in basso" revision="0" />
+    <Item value="Sposta il gruppo in basso" revision="0" />
     <Item value="Sposta il gruppo selezionato verso il basso" revision="0" />
   </Enumeration>
   <Enumeration key="BookMoveUp">
-    <Item value="Spostare il gruppo in alto" revision="0" />
+    <Item value="Sposta il gruppo in alto" revision="0" />
     <Item value="Sposta il gruppo selezionato verso l'alto" revision="0" />
   </Enumeration>
   <Enumeration key="BookExportCSV">
-    <Item value="Esportazione in CSV" revision="0" />
-    <Item value="Esportazione dei segnalibri in formato CSV" revision="0" />
+    <Item value="Esporta in CSV" revision="0" />
+    <Item value="Esporta i segnalibri in formato CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookImportCSV">
-    <Item value="Importazione da file CSV" revision="0" />
-    <Item value="Importare i segnalibri da un file CSV" revision="0" />
+    <Item value="Importa da file CSV" revision="0" />
+    <Item value="Importa i segnalibri da un file CSV" revision="0" />
   </Enumeration>
   <Enumeration key="BookSelect">
     <Item value="&amp;Seleziona" revision="0" />
-    <Item value="Seleziona questo Gruppo Segnalibri" revision="0" />
+    <Item value="Seleziona questo gruppo segnalibri" revision="0" />
   </Enumeration>
   <Enumeration key="BookEdit">
     <Item value="&amp;Modifica" revision="0" />
-    <Item value="Modifica Gruppo Segnalibri" revision="0" />
+    <Item value="Modifica gruppo segnalibri" revision="0" />
   </Enumeration>
   <Enumeration key="BookRemoveAll">
     <Item value="Rimuovi &amp;Tutto" revision="0" />
-    <Item value="Rimuovi Tutte le Voci" revision="0" />
+    <Item value="Rimuovi Tutte le voci" revision="0" />
   </Enumeration>
   <Enumeration key="BookRemoveCurrent">
     <Item value="Rimuovi" revision="0" />
-    <Item value="Rimuovi la Voce Corrente" revision="0" />
+    <Item value="Rimuovi la voce corrente" revision="0" />
   </Enumeration>
   <Enumeration key="BookGoto">
-    <Item value="Vai a Segnalibro" revision="0" />
-    <Item value="Vai a Segnalibro Selezionato" revision="0" />
+    <Item value="Vai a segnalibro" revision="0" />
+    <Item value="Vai al segnalibro selezionato" revision="0" />
   </Enumeration>
   <Enumeration key="ModeDescription">
-    <Item value="Elimina la Selezione Corrente e Converti il Gruppo Segnalibri Corrente a una Nuova Selezione." revision="0" />
-    <Item value="Aggiungi il Gruppo Segnalibri Corrente ad una Selezione." revision="0" />
-    <Item value="Sottrai il Gruppo Segnalibri Corrente da una Selezione." revision="0" />
+    <Item value="Elimina la selezione corrente e converti il gruppo segnalibri in una nuova selezione." revision="0" />
+    <Item value="Aggiungi il gruppo segnalibri corrente ad una selezione." revision="0" />
+    <Item value="Sottrai il gruppo segnalibri corrente da una selezione." revision="0" />
   </Enumeration>
   <Enumeration key="Columns">
     <Item value="Visibile" revision="0" />
-    <Item value="In Rilievo" revision="0" />
+    <Item value="In rilievo" revision="0" />
     <Item value="Attivo" revision="0" />
-    <Item value="Gruppo Segnalibri" revision="0" />
+    <Item value="Gruppo segnalibri" revision="0" />
     <Item value="Segnalibri" revision="0" />
     <Item value="Colore" revision="0" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="No" revision="0" />
+    <Item value="Nr." revision="0" />
     <Item value="Indirizzo" revision="0" />
     <Item value="Dimensione" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureBookmarks">
     <Item value="Segnalibri" revision="0" />
-    <Item value="La Funzione Segnalibri Consente di Inserire i Segnalibri in un File per la Navigazione Veloce." revision="0" />
+    <Item value="La funzione Segnalibri consente di inserire i segnalibri in un file per la navigazione veloce." revision="0" />
   </Enumeration>
   <Enumeration key="SelectionNotification">
-    <Item value="La Selezione di Segnalibro Avviso Conversione" revision="1" />
-    <Item value="La Selezione Attuale Contiene più Frammenti. Ciascuno sarà Aggiunto come Segnalibro Separato. Vuoi Continuare?" revision="1" />
+    <Item value="Avviso selezione di conversione segnalibro" revision="1" />
+    <Item value="La selezione attuale contiene più frammenti. Ciascuno sarà aggiunto come segnalibro separato. Vuoi continuare?" revision="1" />
   </Enumeration>
 </Language>

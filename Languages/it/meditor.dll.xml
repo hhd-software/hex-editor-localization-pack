@@ -2,30 +2,30 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="ScriptingGoToDefinition">
     <Item value="Vai alla definizione" revision="0" />
-    <Item value="Aprire la definizione dell'identificatore" revision="0" />
+    <Item value="Apre la definizione dell'identificatore" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingPeekDefinition">
     <Item value="Definizione" revision="0" />
     <Item value="Definizione dell'identificatore" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFindAllReferences">
-    <Item value="Trova Tutti i Riferimenti" revision="0" />
+    <Item value="Trova tutti i riferimenti" revision="0" />
     <Item value="Ricerca di tutti i riferimenti di un identificatore" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item value="Vai al Simbolo…" revision="0" />
-    <Item value="Navigare fino alla definizione del simbolo" revision="0" />
+    <Item value="Vai al simbolo…" revision="0" />
+    <Item value="Naviga alla definizione del simbolo" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">
-    <Item value="Cambiare Tutte le Occorrenze" revision="0" />
-    <Item value="Cambia tutte le occorrenze di un simbolo" revision="0" />
+    <Item value="Cambia tutte le ricorrenze" revision="0" />
+    <Item value="Cambia tutte le ricorrenze di un simbolo" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFormatDocument">
-    <Item value="Formato del Documento" revision="0" />
-    <Item value="Formattare l'intero documento" revision="0" />
+    <Item value="Formato del documento" revision="0" />
+    <Item value="Formatta l'intero documento" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingCommandPalette">
-    <Item value="Tavolozza dei Comandi" revision="0" />
-    <Item value="Aprire la tavolozza dei comandi dell'editor" revision="0" />
+    <Item value="Tavolozza dei comandi" revision="0" />
+    <Item value="Apre la tavolozza dei comandi dell'editor" revision="0" />
   </Enumeration>
 </Language>

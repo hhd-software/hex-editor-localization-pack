@@ -2,41 +2,41 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Explorer 1" value="Esplora 1" revision="0" />
   <Message key="Explorer 2" value="Esplora 2" revision="0" />
-  <Message key="Invalid path specified" value="Percorso Specificato Non Valido" revision="0" />
-  <Message key="ErrorCopyingFolders" value="(errore copiando cartelle)" revision="0" />
-  <Message key="ErrorCopyingFiles" value="Errore Copiando i File Seguenti:" revision="0" />
-  <Message key="Explorer settings" value="Esplora" revision="0" />
-  <Message key="toolbar.Explorer" value="Explorer" revision="0" />
+  <Message key="Invalid path specified" value="Percorso specificato non valido" revision="0" />
+  <Message key="ErrorCopyingFolders" value="(Errore copiando cartelle)" revision="0" />
+  <Message key="ErrorCopyingFiles" value="Errore copiando i file seguenti:" revision="0" />
+  <Message key="Explorer settings" value="Esploratore" revision="0" />
+  <Message key="toolbar.Explorer" value="Esploratore" revision="0" />
   <Enumeration key="ExpPrev">
     <Item value="Precedente" revision="0" />
-    <Item value="Vai alla Posizione Precedente" revision="0" />
+    <Item value="Vai alla posizione precedente" revision="0" />
   </Enumeration>
   <Enumeration key="ExpNext">
-    <Item value="Successivo" revision="0" />
-    <Item value="Vai alla Posizione Successiva" revision="0" />
+    <Item value="Successiva" revision="0" />
+    <Item value="Vai alla posizione successiva" revision="0" />
   </Enumeration>
   <Enumeration key="ExpUp">
-    <Item value="Sù" revision="0" />
-    <Item value="Vai alla Directory Padre" revision="0" />
+    <Item value="Su" revision="0" />
+    <Item value="Vai alla directory genitore" revision="0" />
   </Enumeration>
   <Enumeration key="ExpLocateCurr">
-    <Item value="Posizione Corrente" revision="0" />
-    <Item value="Sincronizza la Directory Corrente con Browser" revision="0" />
+    <Item value="Posizione corrente" revision="0" />
+    <Item value="Sincronizza la directory corrente con il navigatore" revision="0" />
   </Enumeration>
   <Enumeration key="ExpSearch">
-    <Item value="Trova nei File" revision="0" />
-    <Item value="Apri Finestra di Trova nei File" revision="0" />
+    <Item value="Trova nei file" revision="0" />
+    <Item value="Apre la finestra Trova nei file" revision="0" />
   </Enumeration>
   <Enumeration key="ExpTreeVisible">
     <Item value="Cartelle" revision="0" />
-    <Item value="Attiva o Disattiva la Finestra del Browser" revision="0" />
+    <Item value="Attiva o disattiva la finestra del navigatore" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureExplorer1">
-    <Item value="Esplora Incorpora" revision="0" />
-    <Item value="Esplora Incorpora Finestra Strumenti che Imita Windows Explorer ed è Strettamente Integrato con Hex Editor. Una Finestra di Esplora Risorse è Disponibile nell'Edizione Standard e Due sono Disponibili nelle Versioni Professionale e Ultimate." revision="0" />
+    <Item value="Esploratore incorporato" revision="0" />
+    <Item value="Lo strumento Esploratore incorpora la finestra che imita Esplora risorse ed è strettamente integrato con Hex Editor. Una finestra di Esplora risorse è disponibile nell'edizione Standard e due nelle versioni Professional e Ultimate." revision="0" />
   </Enumeration>
   <Enumeration key="FeatureExplorer2">
-    <Item value="2 Esploratori Incorporati" revision="0" />
-    <Item value="Esplora Incorpora Finestra Strumenti che Imita Windows Explorer ed è Strettamente Integrato con Hex Editor. Una Finestra di Esplora Risorse è Disponibile nell'Edizione Standard e Due sono Disponibili nelle Versioni Professionale e Ultimate." revision="0" />
+    <Item value="2 Esploratori incorporati" revision="0" />
+    <Item value="Lo strumento Esploratore incorpora la finestra che imita Esplora risorse ed è strettamente integrato con Hex Editor. Una finestra di Esplora risorse è disponibile nell'edizione Standard e due nelle versioni Professional e Ultimate." revision="0" />
   </Enumeration>
 </Language>
