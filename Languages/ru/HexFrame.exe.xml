@@ -115,8 +115,7 @@
   <Message key="Expired." value="Пробный период окончен." revision="1" />
   <Message key="{days} days left" value="Осталось {days} дней" revision="1" />
   <Message key="ExpiresOn" value=", истекает {date}" revision="1" />
-  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="UPSuffix" value="\r\n{lu?}План обновлений: Пожизненные.{|lu}Срок действия плана обновлений истекает {expiration}{?lu}." revision="0" />
+  <Message key="UPSuffix" value="\n{lu?}План обновлений: Пожизненные.{|lu}Срок действия плана обновлений истекает {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="Файлы лицензий|*.hexlic|Все файлы|*.*|" revision="2" />
   <Message key="License Installation" value="Установка лицензии" revision="1" />
   <Message key="LicenseInstallSuccess" value="Лицензия успешно установлена. Рекомендуется перезапустить приложение. Спасибо, что выбрали Hex Editor Neo!" revision="1" />
@@ -190,20 +189,12 @@
   <Message key="Compare Editions…" value="Сравнить редакции…" revision="1" />
   <Message key="Continue Trial" value="Продолжить пробу" revision="1" />
   <Message key="License Management and Upgrading" value="Управление лицензиями и покупками" revision="1" />
-  <Message key="Installed license" value="Установлена лицензия:" revision="1" />
-  <Message key="Start Trial now!" value="Начать пробный период!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Выберите требуемую редакцию. Используйте ссылку &quot;Узнать больше…&quot; о фукнциях редакции или &quot;Сравнить редакции…&quot; для сравнения версий продукта." revision="1" />
-  <Message key="Standard Edition:" value="Редакция Standard:" revision="1" />
-  <Message key="More Info…" value="Узнать больше…" revision="1" />
-  <Message key="Upgrade…" value="Купить…" revision="1" />
-  <Message key="Professional Edition:" value="Редакция Professional:" revision="1" />
-  <Message key="Ultimate Edition:" value="Редакция Ultimate:" revision="1" />
-  <Message key="Compare editions…" value="Сравнить редакции…" revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Если у вас уже есть файл лицензии, нажмите &quot;Установить лицензию…&quot;." revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Если вам надо обновить файл лицензии нажмите &quot;Скачать лицензию…&quot;. (Требуется логин и пароль)." revision="1" />
-  <Message key="Install License…" value="Установить лицензию…" revision="1" />
-  <Message key="Download License…" value="Скачать лицензию…" revision="1" />
-  <Message key="Remove License" value="Удалить лицензию" revision="1" />
+  <Message key="Install License" value="Установить лицензию…" />
+  <Message key="Download License" value="Скачать лицензию…" />
+  <Message key="LicenseManagementText" value="[[[bУстановлена лицензия:]]]\n{license}{can start trial?}\t[[[hНачать пробный период!]]]{?can start trial}\n\n{can upgrade?}Выберите требуемую редакцию. Используйте ссылку [[[bУзнать больше…]]] о фукнциях редакции или [[[bСравнить редакции…]]] для сравнения версий продукта.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText2" value="Если у вас уже есть файл лицензии, нажмите кнопку [[[bУстановить лицензию…]]].\nЕсли вам надо обновить файл лицензии, нажмите кнопку [[[bСкачать лицензию…]]]. (Требуется логин и пароль)." revision="0" />
+  <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[hУзнать больше…]]]{can upgrade?}\t[[[hКупить…]]]{?can upgrade}\n" revision="0" />
+  <Message key="Compare editions" value="\t[[[hСравнить редакции…]]]\n" revision="0" />
   <Message key="Open Volume" value="Открыть том" revision="1" />
   <Message key="Select a volume to open" value="Выбрать том:" revision="1" />
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Подождите пока Hex Editor Neo сканирует тома…" revision="1" />

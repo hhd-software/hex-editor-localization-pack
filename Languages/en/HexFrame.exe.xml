@@ -882,10 +882,9 @@
 	<!-- License management dialog -->
 	<Message key="License Management and Upgrading" description="License Management and Upgrading window title" revision="1"/>
 
-	<Message key="Install License…" description="Button: Install License" revision="1"/>
-	<Message key="Download License…" description="Button: Download License" revision="1"/>
-		
-	
+	<Message key="Install License" description="Button: Install License" value="Install License…"/>
+	<Message key="Download License" description="Button: Download License" value="Download License…"/>
+
 	<Message key="LicenseManagementText" description="License Management window text" value="[[[bInstalled license:]]]\n{license}{can start trial?}\t[[[hStart trial now!]]]{?can start trial}\n\n{can upgrade?}Choose the edition you want to upgrade to. Use [[[bMore Info…]]] link to view more information about selected edition and [[[bCompare editions…]]] link to view edition comparison table.\n\n{upgrade block}">
 		<Param name="can start trial" format="?"/>
 		<Param name="can upgrade" format="?"/>

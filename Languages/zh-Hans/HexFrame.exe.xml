@@ -115,8 +115,7 @@
   <Message key="Expired." value="过期。" revision="1" />
   <Message key="{days} days left" value="剩余 {days} 天" revision="1" />
   <Message key="ExpiresOn" value="，到期时间 {date}" revision="1" />
-  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="UPSuffix" value="\r\n{lu?}升级计划： 终身。{|lu}升级计划于 {expiration}{?lu}." revision="0" />
+  <Message key="UPSuffix" value="\n{lu?}升级计划： 终身。{|lu}升级计划于 {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="授权文件|*.hexlic|All Files|*.*|" revision="2" />
   <Message key="License Installation" value="安装授权" revision="1" />
   <Message key="LicenseInstallSuccess" value="安装授权成功，推荐重启应用程序，非常感谢你选择 Hex Editor Neo！" revision="1" />
@@ -190,20 +189,12 @@
   <Message key="Compare Editions…" value="比较版本…" revision="1" />
   <Message key="Continue Trial" value="继续试用" revision="1" />
   <Message key="License Management and Upgrading" value="授权管理和升级" revision="1" />
-  <Message key="Installed license" value="已安装的授权:" revision="1" />
-  <Message key="Start Trial now!" value="立即开始试用！" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="选择一个你想升级的版本，使用 &quot;更多信息…&quot; 链接获取有关选定版本的更多信息，使用 &quot;比较版本…&quot; 链接获取对各种版本所授权的功能比较表。" revision="1" />
-  <Message key="Standard Edition:" value="标准版:" revision="1" />
-  <Message key="More Info…" value="更多信息…" revision="1" />
-  <Message key="Upgrade…" value="升级…" revision="1" />
-  <Message key="Professional Edition:" value="专业版" revision="1" />
-  <Message key="Ultimate Edition:" value="旗舰版:" revision="1" />
-  <Message key="Compare editions…" value="比较版本…" revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="如果你已经收到一个授权文件，点击 &quot;安装授权…&quot; 按钮。" revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="如果你需要更新授权，点击 &quot;下载授权…&quot; 按钮 (需要登录名和密码)。" revision="1" />
-  <Message key="Install License…" value="安装授权…" revision="1" />
-  <Message key="Download License…" value="下载授权…" revision="1" />
-  <Message key="Remove License" value="移除授权" revision="1" />
+  <Message key="Install License" value="安装授权…" />
+  <Message key="Download License" value="下载授权…" />
+  <Message key="LicenseManagementText" value="[[[b已安装的授权:]]]\n{license}{can start trial?}\t[[[h立即开始试用!]]]{?can start trial}\n\n{can upgrade?}选择一个你想升级的版本，使用 [[[b更多信息…]]] 链接获取有关选定版本的更多信息，使用 [[[b比较版本…]]] 链接获取对各种版本所授权的功能比较表。.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText2" value="如果你已经收到一个授权文件，点击 [[[b安装授权…]]] 按钮。\n如果你需要更新授权，点击 [[[b下载授权…]]] 按钮 (需要登录名和密码)。" revision="0" />
+  <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[h更多信息…]]]{can upgrade?}\t[[[h升级…]]]{?can upgrade}\n" revision="0" />
+  <Message key="Compare editions" value="\t[[[h比较版本…]]]\n" revision="0" />
   <Message key="Open Volume" value="打开卷" revision="1" />
   <Message key="Select a volume to open" value="选择一个要打开的卷:" revision="1" />
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo 正在扫描系统卷，请稍候…" revision="1" />

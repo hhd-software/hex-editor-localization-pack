@@ -115,8 +115,7 @@
   <Message key="Expired." value="Пробний період закінчено." revision="1" />
   <Message key="{days} days left" value="Залишилося {days} днів" revision="1" />
   <Message key="ExpiresOn" value=", закінчується {date}" revision="1" />
-  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="UPSuffix" value="\r\n{lu?}План апгрейда: Довічне.{|lu}Термін дії плану оновлення закінчується {expiration}{?lu}." revision="0" />
+  <Message key="UPSuffix" value="\n{lu?}План апгрейда: Довічне.{|lu}Термін дії плану оновлення закінчується {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="Файли ліцензій|*.hexlic|Всі файли|*.*|" revision="2" />
   <Message key="License Installation" value="Установка ліцензії" revision="1" />
   <Message key="LicenseInstallSuccess" value="Ліцензія успішно встановлена. Рекомендується перезапустити програму. Спасибі, що вибрали Hex Editor Neo!" revision="1" />
@@ -190,20 +189,12 @@
   <Message key="Compare Editions…" value="Порівняти редакції…" revision="1" />
   <Message key="Continue Trial" value="Продовжити пробу" revision="1" />
   <Message key="License Management and Upgrading" value="Управління ліцензіями та покупками" revision="1" />
-  <Message key="Installed license" value="Встановлена ліцензія:" revision="1" />
-  <Message key="Start Trial now!" value="Почати пробний період!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Виберіть необхідну редакцію. Використовуйте посилання &quot;Дізнатися більше…&quot; про функції редакції або &quot;Порівняти редакції…&quot; для порівняння версій продукту." revision="1" />
-  <Message key="Standard Edition:" value="Редакція Standard:" revision="1" />
-  <Message key="More Info…" value="Дізнатися більше…" revision="1" />
-  <Message key="Upgrade…" value="Купити…" revision="1" />
-  <Message key="Professional Edition:" value="Редакція Professional:" revision="1" />
-  <Message key="Ultimate Edition:" value="Редакція Ultimate:" revision="1" />
-  <Message key="Compare editions…" value="Порівняти редакції…" revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Якщо у вас вже є файл ліцензії, натисніть &quot;Встановити ліцензію…&quot;." revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Якщо вам треба оновити файл ліцензії натисніть &quot;Скачати ліцензію…&quot;. (Потрібен логін та пароль)." revision="1" />
-  <Message key="Install License…" value="Встановити ліцензію…" revision="1" />
-  <Message key="Download License…" value="Скачати ліцензію…" revision="1" />
-  <Message key="Remove License" value="Видалити ліцензію" revision="1" />
+  <Message key="Install License" value="Встановити ліцензію…" />
+  <Message key="Download License" value="Скачати ліцензію…" />
+  <Message key="LicenseManagementText" value="[[[bВстановлена ліцензія:]]]\n{license}{can start trial?}\t[[[hПочати пробний період!]]]{?can start trial}\n\n{can upgrade?}Виберіть необхідну редакцію. Використовуйте посилання [[[bДізнатися більше…]]] про функції редакції або [[[bПорівняти редакції…]]] для порівняння версій продукту.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText2" value="Якщо у вас вже є файл ліцензії, натисніть [[[bВстановити ліцензію…]]].\nЯкщо вам треба оновити файл ліцензії натисніть [[[bСкачати ліцензію…]]]. (Потрібен логін та пароль)." revision="0" />
+  <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[hДізнатися більше…]]]{can upgrade?}\t[[[hКупити…]]]{?can upgrade}\n" revision="0" />
+  <Message key="Compare editions" value="\t[[[hПорівняти редакції…]]]\n" revision="0" />
   <Message key="Open Volume" value="Відкрити том" revision="1" />
   <Message key="Select a volume to open" value="Вибрати том:" revision="1" />
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Зачекайте поки Hex Editor Neo сканує томи…" revision="1" />

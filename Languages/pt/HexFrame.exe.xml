@@ -115,8 +115,7 @@
   <Message key="Expired." value="Expirado." revision="1" />
   <Message key="{days} days left" value="{days} dias restantes" revision="1" />
   <Message key="ExpiresOn" value=", expirará em {date}" revision="1" />
-  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="UPSuffix" value="\r\n{lu?}Upgrade plan: Vitalício.{|lu}O plano de atualização expira em {expiration}{?lu}." revision="0" />
+  <Message key="UPSuffix" value="\n{lu?}Upgrade plan: Vitalício.{|lu}O plano de atualização expira em {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="Arquivos de Licença|*.hexlic|Todos os Arquivos|*.*|" revision="2" />
   <Message key="License Installation" value="Instalação de Licença" revision="1" />
   <Message key="LicenseInstallSuccess" value="Licença instalada com êxito. Recomenda-se reiniciar o aplicativo. Muito obrigado por escolher o Hex Editor Neo!" revision="1" />
@@ -190,20 +189,12 @@
   <Message key="Compare Editions…" value="Comparar Edições…" revision="1" />
   <Message key="Continue Trial" value="Continuar Avaliação" revision="1" />
   <Message key="License Management and Upgrading" value="Gerenciamento de Licenças e Atualização" revision="1" />
-  <Message key="Installed license" value="Licença instalada:" revision="1" />
-  <Message key="Start Trial now!" value="Iniciar Avaliação agora!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="Escolha a edição que você deseja atualizar. Use o link de &quot;Mais Informação…&quot; para obter mais informações sobre a edição selecionada e &quot;Comparar Edição…&quot; para obter a tabela de comparação de edição." revision="1" />
-  <Message key="Standard Edition:" value="Edição Padrão:" revision="1" />
-  <Message key="More Info…" value="Mais Informação…" revision="1" />
-  <Message key="Upgrade…" value="Atualizar…" revision="1" />
-  <Message key="Professional Edition:" value="Edição Professional:" revision="1" />
-  <Message key="Ultimate Edition:" value="Edição Ultimate:" revision="1" />
-  <Message key="Compare editions…" value="Comparar edições…" revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="Se você já recebeu um arquivo de licença, clique no botão &quot;Instalar licença…&quot;" revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="Se você precisa renovar a licença, clique no botão &quot;Baixar Licença…&quot; (Requer login e senha)." revision="1" />
-  <Message key="Install License…" value="Instalar Licença…" revision="1" />
-  <Message key="Download License…" value="Baixar Licença…" revision="1" />
-  <Message key="Remove License" value="Remover Licença" revision="1" />
+  <Message key="Install License" value="Instalar Licença…"  />
+  <Message key="Download License" value="Baixar Licença…"  />
+  <Message key="LicenseManagementText" value="[[[bLicença instalada:]]]\n{license}{can start trial?}\t[[[hIniciar Avaliação agora!]]]{?can start trial}\n\n{can upgrade?}Escolha a edição que você deseja atualizar. Use o link de [[[bMais Informação…]]] para obter mais informações sobre a edição selecionada e [[[bComparar Edição…]]] para obter a tabela de comparação de edição.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText2" value="Se você já recebeu um arquivo de licença, clique no botão [[[bInstalar licença…]]].\nSe você precisa renovar a licença, clique no botão [[[bBaixar Licença…]]] (Requer login e senha)." revision="0" />
+  <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[hMais Informação…]]]{can upgrade?}\t[[[hAtualizar…]]]{?can upgrade}\n" revision="0" />
+  <Message key="Compare editions" value="\t[[[hComparar edições…]]]\n" revision="0" />
   <Message key="Open Volume" value="Abrir Volume" revision="1" />
   <Message key="Select a volume to open" value="Selecione um volume para abrir:" revision="1" />
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Aguarde enquanto o Hex Editor Neo examina volumes do sistema…" revision="1" />

@@ -115,8 +115,7 @@
   <Message key="Expired." value="만료되었습니다." revision="1" />
   <Message key="{days} days left" value="{days}일 남음" revision="1" />
   <Message key="ExpiresOn" value=", {date}에 만료됩니다" revision="1" />
-  <Message key="ComNonComSuffix" value=" ({comtype})" revision="1" />
-  <Message key="UPSuffix" value="\r\n{lu?}업그레이드 요금제: 평생.{|lu}업그레이드 플랜은 다음 날짜에 만료됩니다 {expiration}{?lu}." revision="0" />
+  <Message key="UPSuffix" value="\n{lu?}업그레이드 요금제: 평생.{|lu}업그레이드 플랜은 다음 날짜에 만료됩니다 {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="라이선스 파일|*.hexlic|모든 파일|*.*|" revision="2" />
   <Message key="License Installation" value="라이선스 설치" revision="1" />
   <Message key="LicenseInstallSuccess" value="라이선스가 성공적으로 설치되었습니다. 응용 프로그램을 다시 시작하는 것이 좋습니다. Hex Editor Neo를 선택해 주셔서 감사합니다!" revision="1" />
@@ -190,20 +189,12 @@
   <Message key="Compare Editions…" value="에디션 비교…" revision="1" />
   <Message key="Continue Trial" value="평가판 계속" revision="1" />
   <Message key="License Management and Upgrading" value="라이선스 관리 및 업그레이드" revision="1" />
-  <Message key="Installed license" value="설치된 라이선스:" revision="1" />
-  <Message key="Start Trial now!" value="지금 평가판 시작!" revision="1" />
-  <Message key="Choose the edition you want to upgrade to. Use &quot;More Info…&quot; link to get more information about selected edition and &quot;Compare Edition…&quot; link to get edition comparison table." value="업그레이드하려는 버전을 선택합니다. 선택한 버전에 대한 자세한 정보를 보려면 &quot;더 많은 정보…&quot; 링크를 사용하고, 버전 비교 표를 보려면 &quot;에디션 비교…&quot; 링크를 사용하십시오." revision="1" />
-  <Message key="Standard Edition:" value="Standard 에디션:" revision="1" />
-  <Message key="More Info…" value="더 많은 정보…" revision="1" />
-  <Message key="Upgrade…" value="업그레이드…" revision="1" />
-  <Message key="Professional Edition:" value="Professional 에디션:" revision="1" />
-  <Message key="Ultimate Edition:" value="Ultimate 에디션:" revision="1" />
-  <Message key="Compare editions…" value="에디션 비교…" revision="1" />
-  <Message key="If you have already received a license file, click the &quot;Install License…&quot; button." value="라이선스 파일을 이미 받은 경우 &quot;라이선스 설치…&quot; 버튼을 클릭합니다." revision="1" />
-  <Message key="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)." value="라이선스를 갱신해야 하는 경우 &quot;라이선스 다운로드…&quot; 버튼을 클릭합니다 (로그인 및 암호 필요)." revision="1" />
-  <Message key="Install License…" value="라이선스 설치…" revision="1" />
-  <Message key="Download License…" value="라이선스 다운로드…" revision="1" />
-  <Message key="Remove License" value="라이선스 제거" revision="1" />
+  <Message key="Install License" value="라이선스 설치…"  />
+  <Message key="Download License" value="라이선스 다운로드…"  />
+  <Message key="LicenseManagementText" value="[[[b설치된 라이선스:]]]\n{license}{can start trial?}\t[[[h지금 평가판 시작!]]]{?can start trial}\n\n{can upgrade?}업그레이드하려는 버전을 선택합니다. 선택한 버전에 대한 자세한 정보를 보려면 [[[b더 많은 정보…]]] 링크를 사용하고, 버전 비교 표를 보려면 [[[b에디션 비교…]]] 링크를 사용하십시오.\n\n{upgrade block}" revision="0" />
+  <Message key="LicenseManagementText2" value="라이선스 파일을 이미 받은 경우 [[[b라이선스 설치…]]] 버튼을 클릭합니다.\n라이선스를 갱신해야 하는 경우 [[[b라이선스 다운로드…]]] 버튼을 클릭합니다 (로그인 및 암호 필요)." revision="0" />
+  <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[h더 많은 정보…]]]{can upgrade?}\t[[[h업그레이드…]]]{?can upgrade}\n" revision="0" />
+  <Message key="Compare editions" value="\t[[[h에디션 비교…]]]\n" revision="0" />
   <Message key="Open Volume" value="볼륨 열기" revision="1" />
   <Message key="Select a volume to open" value="열려는 볼륨 선택:" revision="1" />
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo가 시스템 볼륨을 검색하는 동안 기다려 주십시오…" revision="1" />
