@@ -21,7 +21,7 @@
   <Message key="ErrorSavingDump" value="Si è verificato un'errore durante il salvataggio del travaso:\n\n{text} ({code})" revision="0" />
   <Message key="ErrorRunningDebugger" value="Si è verificato un'errore nell'individuazione o nell'esecuzione di un debugger esterno:\n\n{text} ({code})" revision="0" />
   <Message key="Process tooltip" value="Nome: {name}\nPID: {id}\nArchitettura: {arch}\nUtente: {user}\nStato: {status}\nPercorso immagine completo: {path}\nLinea di comando: {cmdline}" revision="0" />
-  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[bFull image path:]]] {path}\n[[[bCommand line:]]] {cmdline" revision="0" />
+  <Message key="Process header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[bFull image path:]]] {path}\n[[[bCommand line:]]] {cmdline}" revision="0" />
   <Message key="Exited with" value="Terminato con errore {error}" revision="0" />
   <Message key="Snapshot creation error" value="Errore nella creazione dell'istantanea: {text} ({code})" revision="0" />
   <Message key="Process snapshot template" value="{name} [snapshot]" revision="0" />
