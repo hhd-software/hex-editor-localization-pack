@@ -108,7 +108,7 @@
 
 	<Enumeration key="ActionCompare" description="Action: Compare Editions" revision="1">
 		<Item text="Compare Editions…" />
-		<Item text="http://www.hhdsoftware.com/dispatch/hex/compare.html" />
+		<Item text="https://hhdsoftware.com/dispatch/hex/compare.html" />
 	</Enumeration>
 
 	<Enumeration key="ActionStartTrial" description="Action: Start Trial" revision="1">
@@ -438,12 +438,7 @@
 		<Param name="date"/>
 	</Message>
 
-	<Message key="ComNonComSuffix" description="Commercial or non-commercial license suffix" revision="1" value=" ({comtype})">
-		<Validate rule="StartsWithSpace"/>
-		<Param name="comtype"/>
-	</Message>
-
-	<Message key="UPSuffix" description="Upgrade plan information" value="\r\n{lu?}Upgrade plan: Lifetime.{|lu}Upgrade plan expires on {expiration}{?lu}.">
+	<Message key="UPSuffix" description="Upgrade plan information" value="\n{lu?}Upgrade plan: Lifetime.{|lu}Upgrade plan expires on {expiration}{?lu}." revision="1">
 		<Param name="lu" format="?"/>
 		<Param name="expiration" format="t(%x)"/>
 	</Message>
@@ -886,20 +881,25 @@
 
 	<!-- License management dialog -->
 	<Message key="License Management and Upgrading" description="License Management and Upgrading window title" revision="1"/>
-	<Message key="Installed license" description="Field: Installed license" revision="1" value="Installed license:"/>
-	<Message key="Start Trial now!" description="Link: Start Trial now!" revision="1"/>
-	<Message key='Choose the edition you want to upgrade to. Use "More Info…" link to get more information about selected edition and "Compare Edition…" link to get edition comparison table.' description="Field: Choose edition you want to upgrade to…" revision="1"/>
-	<Message key="Standard Edition:" description="Field: Standard Edition" revision="1"/>
-	<Message key="More Info…" description="Link: More Info…" revision="1"/>
-	<Message key="Upgrade…" description="Link: Upgrade…" revision="1"/>
-	<Message key="Professional Edition:" description="Field: Professional Edition" revision="1"/>
-	<Message key="Ultimate Edition:" description="Field: Ultimate Edition" revision="1"/>
-	<Message key="Compare editions…" description="Link: Compare editions…" revision="1"/>
-	<Message key='If you have already received a license file, click the "Install License…" button.' description="Field: If you have already received a license file…" revision="1"/>
-	<Message key='If you need to renew a license, click the "Download License…" button. (Requires login and password).' description="Field: If you need to renew a license…" revision="1"/>
+
 	<Message key="Install License…" description="Button: Install License" revision="1"/>
 	<Message key="Download License…" description="Button: Download License" revision="1"/>
-	<Message key="Remove License" description="Button: Remove License" revision="1"/>
+		
+	
+	<Message key="LicenseManagementText" value="[[[bInstalled license:]]]\n{license}{can start trial?}\t[[[hStart trial now!]]]{?can start trial}\n\n{can upgrade?}Choose the edition you want to upgrade to. Use [[[bMore Info…]]] link to view more information about selected edition and [[[bCompare editions…]]] link to view edition comparison table.\n\n{upgrade block}">
+		<Param name="can start trial" format="?"/>
+		<Param name="can upgrade" format="?"/>
+		<Param name="license" />
+		<Param name="upgrade block" />
+	</Message>
+	<Message key="LicenseManagementText2" value="If you have already received a license file, click the [[[bInstall License…]]] button.\nIf you need to renew a license, click the [[[bDownload License…]]] button. (Requires login and password)." />
+
+	<Message key="UpgradeLineTemplate" description="Upgrade edition template" value="    {edition}:\t[[[hMore info…]]]{can upgrade?}\t[[[hUpgrade…]]]{?can upgrade}\n">
+		<Param name="edition"/>
+		<Param name="can upgrade" format="?"/>
+	</Message>
+
+	<Message key="Compare editions" description="Link: Compare editions…" value="\t[[[hCompare editions…]]]\n"/>
 
 	<!-- Open volume dialog -->
 	<Message key="Open Volume" description="Open Volume window title" revision="1"/>
