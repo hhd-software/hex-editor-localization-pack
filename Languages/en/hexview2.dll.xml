@@ -49,7 +49,15 @@
     <Item text="&amp;Edit Cell"/>
     <Item text="Edit the current cell"/>
   </Enumeration>
-  <Enumeration key="EditInsertMode" description="Command: Edit.Insert Mode" revision="1">
+	<Enumeration key="EditNextIsland" description="Command: Edit.NextIsland">
+		<Item text="Go to Next Data Island"/>
+		<Item text="Jump to next non-sparse data region in a document"/>
+	</Enumeration>
+	<Enumeration key="EditPrevIsland" description="Command: Edit.PrevIsland">
+		<Item text="Go to Prev Data Island"/>
+		<Item text="Jump to previous non-sparse data region in a document"/>
+	</Enumeration>
+	<Enumeration key="EditInsertMode" description="Command: Edit.Insert Mode" revision="1">
     <Item text="&amp;Insert Mode"/>
     <Item text="Turn the Insert mode on or off"/>
   </Enumeration>
@@ -60,6 +68,10 @@
 	<Enumeration key="SelectGap" description="Command: Select.Gap">
 		<Item text="Gap Selection (Sparse)"/>
 		<Item text="Gap selected regions"/>
+	</Enumeration>
+	<Enumeration key="SelectDataIslands" description="Command: Select.DataIslands">
+		<Item text="Select Data Islands"/>
+		<Item text="Select all existing data in a document (skipping gaps)"/>
 	</Enumeration>
 	<Enumeration key="EditFindNext" description="Command: Edit.Find Next" revision="1">
     <Item text="Find &amp;Next"/>
