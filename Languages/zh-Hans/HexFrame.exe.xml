@@ -189,8 +189,8 @@
   <Message key="Compare Editions…" value="比较版本…" revision="1" />
   <Message key="Continue Trial" value="继续试用" revision="1" />
   <Message key="License Management and Upgrading" value="授权管理和升级" revision="1" />
-  <Message key="Install License" value="安装授权…" />
-  <Message key="Download License" value="下载授权…" />
+  <Message key="Install License" value="安装授权…" revision="0" />
+  <Message key="Download License" value="下载授权…" revision="0" />
   <Message key="LicenseManagementText" value="[[[b已安装的授权:]]]\n{license}{can start trial?}\t[[[h立即开始试用!]]]{?can start trial}\n\n{can upgrade?}选择一个你想升级的版本，使用 [[[b更多信息…]]] 链接获取有关选定版本的更多信息，使用 [[[b比较版本…]]] 链接获取对各种版本所授权的功能比较表。.\n\n{upgrade block}" revision="0" />
   <Message key="LicenseManagementText2" value="如果你已经收到一个授权文件，点击 [[[b安装授权…]]] 按钮。\n如果你需要更新授权，点击 [[[b下载授权…]]] 按钮 (需要登录名和密码)。" revision="0" />
   <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[h更多信息…]]]{can upgrade?}\t[[[h升级…]]]{?can upgrade}\n" revision="0" />

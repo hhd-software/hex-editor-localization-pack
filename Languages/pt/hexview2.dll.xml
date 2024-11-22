@@ -271,6 +271,14 @@
     <Item value="&amp;Editar Célula" revision="1" />
     <Item value="Edita a célula atual" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Ir para a próxima ilha de dados" revision="0" />
+    <Item value="Saltar para a próxima região de dados não esparsos num documento" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Ir para a anterior ilha de dados" revision="0" />
+    <Item value="Saltar para a região anterior de dados não esparsos num documento" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="Modo de &amp;Inserção" revision="1" />
     <Item value="Ativa ou desativa o modo de inserção" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Lacunas nas regiões selecionadas (Esparso)" revision="0" />
     <Item value="Lacunas nas regiões selecionadas" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Selecionar ilhas de dados" revision="0" />
+    <Item value="Selecionar todos os dados existentes num documento (ignorando lacunas)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Localizar &amp;Próxima" revision="1" />

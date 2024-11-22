@@ -271,6 +271,14 @@
     <Item value="셀 편집(&amp;E)" revision="1" />
     <Item value="현재 셀 편집" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="다음 데이터 섬으로 이동" revision="0" />
+    <Item value="문서에서 희소성이 없는 다음 데이터 영역으로 이동하기" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="이전 데이터 섬으로 이동" revision="0" />
+    <Item value="문서에서 이전의 희소하지 않은 데이터 영역으로 이동하기" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="삽입 모드(&amp;I)" revision="1" />
     <Item value="삽입 모드 켜기 또는 끄기" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="선택한 지역 간 격차 (스파스)" revision="0" />
     <Item value="선택한 지역 간 격차" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="데이터 섬 선택" revision="0" />
+    <Item value="문서에 있는 모든 기존 데이터 선택(공백 건너뛰기)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="다음 찾기(&amp;N)" revision="1" />

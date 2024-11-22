@@ -271,6 +271,14 @@
     <Item value="&amp;Edytuj komórkę" revision="1" />
     <Item value="Edytuj bieżącą komórkę" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Przejdź do następnej wyspy danych" revision="0" />
+    <Item value="Przejście do następnego regionu danych w dokumencie." revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Przejdź do poprzedniej wyspy danych" revision="0" />
+    <Item value="Przeskok do poprzedniego regionu danych w dokumencie." revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="&amp;Tryb wstawiania" revision="1" />
     <Item value="Włącz lub wyłącz tryb wstawiania" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Luka w wybranych regionach (Rozrzedzony)" revision="0" />
     <Item value="Luka w wybranych regionach" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Wybierz wyspy danych" revision="0" />
+    <Item value="Wybrać wszystkie istniejące dane w dokumencie (pomijając luki)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Znajdź &amp;następny" revision="1" />

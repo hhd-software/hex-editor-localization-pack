@@ -271,6 +271,14 @@
     <Item value="编辑单元(&amp;E)" revision="1" />
     <Item value="编辑当前单元" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="转到下一个数据岛" revision="0" />
+    <Item value="跳转到文档中的下一个非稀疏数据区域" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="转到上一个数据岛" revision="0" />
+    <Item value="跳转到文档中上一个非稀疏数据区域" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="插入模式(&amp;I)" revision="1" />
     <Item value="打开或关闭插入模式" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="选定地区的差距 (稀疏)" revision="0" />
     <Item value="选定地区的差距" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="选择数据岛" revision="0" />
+    <Item value="选择文档中的所有现有数据（跳过间隙）" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="查找下一个(&amp;N)" revision="1" />

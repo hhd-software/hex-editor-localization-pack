@@ -271,6 +271,14 @@
     <Item value="Zelle &amp;bearbeiten" revision="1" />
     <Item value="Bearbeitet die aktuelle Zelle" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Weiter zur nächsten Dateninsel" revision="0" />
+    <Item value="Sprung zum nächsten nicht-dichten Datenbereich in einem Dokument" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Wechseln zur vorherigen Dateninsel" revision="0" />
+    <Item value="Sprung zum vorherigen nicht-darstellenden Datenbereich in einem Dokument" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="E&amp;infüge Modus" revision="1" />
     <Item value="Schaltet den Einfügemodus an oder aus" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Lücke ausgewählte Regionen (Spärliche)" revision="0" />
     <Item value="Lücke ausgewählte Regionen" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Wählen Sie Dateninseln" revision="0" />
+    <Item value="Auswahl aller vorhandenen Daten in einem Dokument (Überspringen von Lücken)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="&amp;Nächstes suchen" revision="1" />

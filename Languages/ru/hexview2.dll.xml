@@ -271,6 +271,14 @@
     <Item value="&amp;Править ячейку" revision="1" />
     <Item value="Править текущую ячейку" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Перейти на следующий остров данных" revision="0" />
+    <Item value="Переход к следующей непустой области данных в документе" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Перейти к предыдущему острову данных" revision="0" />
+    <Item value="Переход к предыдущей непустой области данных в документе" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="Режим &amp;вставки" revision="1" />
     <Item value="Переключение режима вставки" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Пробел в выбранных регионах (Разреженный)" revision="0" />
     <Item value="Пробел в выбранных регионах" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Выбрать острова данных" revision="0" />
+    <Item value="Выберите все существующие данные в документе (пропуская пустоты)." revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Найти &amp;следующее" revision="1" />

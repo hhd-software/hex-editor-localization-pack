@@ -271,6 +271,14 @@
     <Item value="セルの編集(&amp;E)" revision="1" />
     <Item value="現在のセルを編集" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="次のデータアイランドへ" revision="0" />
+    <Item value="文書内の次の非スパースデータ領域にジャンプする" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="前のデータ・アイランドへ" revision="0" />
+    <Item value="文書内の前の非スパースデータ領域にジャンプする" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="挿入モード(&amp;I)" revision="1" />
     <Item value="挿入モードのオン/オフ" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="ギャップ選択地域 (スパース)" revision="0" />
     <Item value="ギャップ選択地域" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="データ・アイランドを選択" revision="0" />
+    <Item value="文書内のすべての既存データを選択（ギャップをスキップ）" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="次を検索(&amp;N)" revision="1" />

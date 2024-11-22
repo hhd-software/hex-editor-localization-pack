@@ -271,6 +271,14 @@
     <Item value="&amp;Editar Celda" revision="1" />
     <Item value="Edita la celda actual" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Ir a la siguiente isla de datos" revision="0" />
+    <Item value="Saltar a la siguiente región de datos no dispersos de un documento" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Ir a la isla de datos anterior" revision="0" />
+    <Item value="Saltar a la región anterior de datos no dispersos de un documento" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="Modo &amp;Insertar" revision="1" />
     <Item value="Activa o desactiva el modo Insertar" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Brecha regiones seleccionadas (Disperso)" revision="0" />
     <Item value="Brecha regiones seleccionadas" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Seleccionar islas de datos" revision="0" />
+    <Item value="Seleccionar todos los datos existentes en un documento (omitiendo los espacios en blanco)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Buscar &amp;Siguiente" revision="1" />

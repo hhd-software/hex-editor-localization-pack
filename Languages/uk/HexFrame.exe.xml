@@ -189,8 +189,8 @@
   <Message key="Compare Editions…" value="Порівняти редакції…" revision="1" />
   <Message key="Continue Trial" value="Продовжити пробу" revision="1" />
   <Message key="License Management and Upgrading" value="Управління ліцензіями та покупками" revision="1" />
-  <Message key="Install License" value="Встановити ліцензію…" />
-  <Message key="Download License" value="Скачати ліцензію…" />
+  <Message key="Install License" value="Встановити ліцензію…" revision="0" />
+  <Message key="Download License" value="Скачати ліцензію…" revision="0" />
   <Message key="LicenseManagementText" value="[[[bВстановлена ліцензія:]]]\n{license}{can start trial?}\t[[[hПочати пробу!]]]{?can start trial}\n\n{can upgrade?}Виберіть необхідну редакцію. Використовуйте посилання [[[bДізнатися більше…]]] про функції редакції або [[[bПорівняти редакції…]]] для порівняння версій продукту.\n\n{upgrade block}" revision="0" />
   <Message key="LicenseManagementText2" value="Якщо у вас вже є файл ліцензії, натисніть [[[bВстановити ліцензію…]]].\nЯкщо вам треба оновити файл ліцензії натисніть [[[bСкачати ліцензію…]]]. (Потрібен логін та пароль)." revision="0" />
   <Message key="UpgradeLineTemplate" value="    {edition}:\t[[[hДізнатися більше…]]]{can upgrade?}\t[[[hКупити…]]]{?can upgrade}\n" revision="0" />

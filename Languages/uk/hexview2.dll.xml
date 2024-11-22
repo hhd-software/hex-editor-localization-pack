@@ -271,6 +271,14 @@
     <Item value="&amp;Редагувати комірку" revision="1" />
     <Item value="Редагувати поточну комірку" revision="1" />
   </Enumeration>
+  <Enumeration key="EditNextIsland">
+    <Item value="Перейдіть до наступного острівця даних" revision="0" />
+    <Item value="Перехід до наступної нерозрідженої області даних у документі" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditPrevIsland">
+    <Item value="Перейти до попереднього острівця даних" revision="0" />
+    <Item value="Перехід до попередньої нерозрідженої області даних у документі" revision="0" />
+  </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="Режим &amp;вставки" revision="1" />
     <Item value="Перемикання режиму вставки" revision="1" />
@@ -282,6 +290,10 @@
   <Enumeration key="SelectGap">
     <Item value="Пробіл у вибраних регіонах (Розріджений)" revision="0" />
     <Item value="Пробіл у вибраних регіонах" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectDataIslands">
+    <Item value="Виберіть острови даних" revision="0" />
+    <Item value="Виділіть усі наявні дані в документі (минаючи пропуски)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="Знайти &amp;наступне" revision="1" />
