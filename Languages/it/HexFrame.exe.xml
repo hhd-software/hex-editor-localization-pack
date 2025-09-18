@@ -704,11 +704,11 @@
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
     <Item value="&amp;Importa configurazione…" revision="1" />
-    <Item value="Finestra importa strumento" revision="1" />
+    <Item value="Importa la configurazione della finestra degli strumenti" revision="1" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
     <Item value="&amp;Esporta configurazione…" revision="1" />
-    <Item value="Finestra esporta strumento" revision="1" />
+    <Item value="Esporta la configurazione della finestra degli strumenti" revision="1" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
     <Item value="&amp;Resetta configurazione" revision="1" />

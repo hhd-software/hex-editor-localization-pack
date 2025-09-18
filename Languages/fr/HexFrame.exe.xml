@@ -703,15 +703,15 @@
     <Item value="Insérer le contenu du presse-papiers" revision="1" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item value="&amp;Importer la Configuration…" revision="1" />
+    <Item value="&amp;Importer configuration…" revision="1" />
     <Item value="Importer la configuration des fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item value="&amp;Exporter la Configuration…" revision="1" />
-    <Item value="Exporter la configuration des fenêtres d'outils" revision="1" />
+    <Item value="&amp;Exporter configuration…" revision="1" />
+    <Item value="Exporter la configuration de la fenêtre d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item value="Réinitialiser la Configuration" revision="1" />
+    <Item value="&amp;Réinitialiser la configuration" revision="1" />
     <Item value="Réinitialiser la configuration des fenêtres d'outils" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLayouts">

@@ -703,16 +703,16 @@
     <Item value="Inserta el contenido del Portapapeles" revision="1" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item value="Configuración de &amp;Importación…" revision="1" />
-    <Item value="Configuración de la ventana de la herramienta de Importación" revision="1" />
+    <Item value="&amp;Importar configuración…" revision="1" />
+    <Item value="Importar la configuración de la ventana de herramientas" revision="1" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item value="Configuración de &amp;Exportación…" revision="1" />
-    <Item value="Configuración de la ventana de la herramienta de Exportación" revision="1" />
+    <Item value="&amp;Exportar configuración…" revision="1" />
+    <Item value="Exportar la configuración de la ventana de herramientas" revision="1" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item value="&amp;Reiniciar Configuración" revision="1" />
-    <Item value="Configuración de la ventana de la herramienta de Reinicio" revision="1" />
+    <Item value="&amp;Restablecer configuración" revision="1" />
+    <Item value="Restablecer la configuración de la ventana de herramientas" revision="1" />
   </Enumeration>
   <Enumeration key="ViewLayouts">
     <Item value="Diseños Predefinidos" revision="1" />
