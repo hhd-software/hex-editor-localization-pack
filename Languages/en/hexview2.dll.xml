@@ -161,7 +161,11 @@
     <Item text="&amp;Text Pane"/>
     <Item text="Show or hide a text (ASCII or UNICODE) pane"/>
   </Enumeration>
-  <Enumeration key="ViewOffsetHex" description="Command: View.Offset Hex" revision="1">
+	<Enumeration key="ViewInfoPane" description="Command: View.Info Pane" revision="1">
+		<Item text="&amp;Info Pane"/>
+		<Item text="Show or hide an information pane"/>
+	</Enumeration>
+	<Enumeration key="ViewOffsetHex" description="Command: View.Offset Hex" revision="1">
     <Item text="&amp;Hex"/>
     <Item text="View address as hexadecimal"/>
   </Enumeration>
@@ -353,6 +357,7 @@
 	</Enumeration>
 
 	<Message key="toolbar.Goto" description="Toolbar: Navigation window" value="Navigation" />
+	<Message key="menu.HexViewPopup" description="Menu: Hex View popup" value="Hex window popup menu" />
 
   <Enumeration key="ArithmeticOperations" description="Arithmetic operations" revision="1">
     <Item text="Negation"/>
@@ -435,8 +440,11 @@
   <Message key="ShiftCursorOnPaste" description="Option: Move cursor after paste" revision="1" value="Move cursor after paste"/>
   <Message key="FindAllNotification" description="Option (notification): Find All" revision="1" value="Find All"/>
   <Message key="PasteNotification" description="Option (notification): Paste text" revision="1" value="Paste text"/>
+	<Message key="ctrlPageStep" description="Option: Ctrl+PageUp/PageDn scroll step (pages)" value="Ctrl+PageUp/PageDn scroll step (pages)"/>
+	<Message key="altPageStep" description="Option: Alt+PageUp/PageDn scroll step (pages)" value="Alt+PageUp/PageDn scroll step (pages)"/>
+	<Message key="ctrlAltPageStep" description="Option: Ctrl+Alt+PageUp/PageDn scroll step (pages)" value="Ctrl+Alt+PageUp/PageDn scroll step (pages)"/>
 
-  <Enumeration key="PastingTextNotification" description="Text paste notification" revision="1">
+	<Enumeration key="PastingTextNotification" description="Text paste notification" revision="1">
     <Item text="Pasting Text"/>
     <Item text="You are about to paste a text from the Clipboard. It is STRONGLY recommended to read a corresponding section in an included documentation before performing this operation."/>
   </Enumeration>
@@ -921,6 +929,12 @@
 	<Message key="clr.colors.HoverUnderline" description="Color: Active field underline" value="Active field underline" />
 	<Message key="clr.colors.TooltipBackground" description="Color: Tooltip Background" value="Tooltip background" />
 	<Message key="clr.colors.TooltipText" description="Color: Tooltip Text" value="Tooltip text" />
+	<Message key="clr.colors.InfoBackground" description="Color: Info Background" value="Info box background" />
+	<Message key="clr.colors.InfoText" description="Color: Info Text" value="Info box text" />
+	<Message key="clr.colors.InfoBorder" description="Color: Info outline" value="Info box outline" />
+	<Message key="clr.colors.Wave" description="Color: Wave" value="Field highlight" />
 
 	<Message key="toolbar.Selection" description="Toolbar: Selection" value="Selection" />
+
+	<Message key="Info pane header" description="Info pane header" value="Info pane" />
 </Definition>

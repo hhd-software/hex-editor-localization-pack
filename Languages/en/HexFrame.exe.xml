@@ -334,7 +334,9 @@
 	<Message key="Toolbar already exists" description="Toolbar already exists" revision="1" value="The toolbar with the name you specified already exists."/>
 	<Message key="All commands" description="Field: All commands" revision="1"/>
 	<Message key="Commands Page" description="Commands Page window title" revision="1" value="Commands"/>
-	<Message key="Toolbars" description="Field: Toolbars" revision="2" value="Toolbar:"/>
+	<Message key="Command lists" description="Field: Command lists" />
+	<Message key="Command lists.Toolbars" description="Toolbars subsection in Command lists combo" value="――― Toolbars ―――"/>
+	<Message key="Command lists.Menus" description="Menus subsection in Command lists combo" value="――― Menus ―――"/>
 	<Message key="New" description="Button: New…" revision="1" value="&amp;New…"/>
 	<Message key="Delete" description="Button: Delete" revision="1" value="&amp;Delete"/>
 	<Message key="Button size" description="Field: Button size" revision="1" value="Button size:"/>
@@ -567,6 +569,8 @@
 		<Item text="Empty" />
 		<Item text="Clear the current pattern" />
 	</Enumeration>
+
+	<Message key="FRGapNotice" description="Press 'X' to insert a wildcard byte" value="Press 'X' to insert a wildcard byte"/>
 
 	<!-- Color dialog -->
 	<Message key="Custom colors:" description="Field: Custom colors" revision="1"/>
@@ -992,6 +996,12 @@
 	<Message key="View Changes…" description="Button: View Changes…"/>
 	<Message key="Discard" description="Button and choice: Discard"/>
 
+	<Message key="Error checking for new version" description="Error checking for new version" value="The following error occurred during checking for new version:\n\n  {error}">
+		<Param name="error"/>
+	</Message>
+
+	<Message key="Invalid response" description="Check for updates: Invalid response" value="Invalid response received from the update server."/>
+
 	<Message key="ActionSelection" description="{name} has been successfully downloaded. What do you want to do with it?" revision="1" value="{name} has been successfully downloaded. What do you want to do with it?">
 		<Param name="name"/>
 	</Message>
@@ -1187,7 +1197,27 @@
 	<Message key="Volume" description="Option: Volume"/>
 	<!--<Message key="Open as Read-Only" description="Option: Open as Read-Only"/>-->
 
-	<Message key="Value is out of range" description="Value passed in script is out of range" value="Specified value is out of range" />
+	<Message key="Value is out of range" description="Scripting error: Value passed in script is out of range" value="Specified value [[[p{value}]]] is out of range for parameter [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1">
+		<Param name="parameter"/>
+		<Param name="value"/>
+		<Param name="from"/>
+		<Param name="to"/>
+		<Param name="exclusive" format="?"/>
+	</Message>
+
+	<Message key="Invalid enum value" description="Scripting error: Invalid enum value" value="Invalid enumeration value [[[p{value}]]] specified for [[[p{parameter}: {type}]]] parameter">
+		<Param name="parameter"/>
+		<Param name="type"/>
+		<Param name="value"/>
+	</Message>
+
+	<Message key="Invalid argument type" description="Scripting error: Invalid argument type" value="Value passed for parameter [[[p{parameter}]]] is of invalid type. Expected [[[p{type}]]]">
+		<Param name="parameter"/>
+		<Param name="type"/>
+	</Message>
+
+	<Message key="Unsupported clipboard format" description="Scripting error: Unsupported clipboard format"/>
+	<Message key="Requested clipboard format is not available" description="Scripting error: Requested clipboard format is not available"/>
 
 	<Message key="GenericError" description="Generic error" value="Error executing operation: {text}{has_code?} ({code}){?has_code}">
 		<Param name="text"/>
@@ -1203,6 +1233,7 @@
 	<Message key="clr.default_colors.text" description="Color: Default UI Text Color" value="Text/foreground" />
 	<Message key="clr.default_colors.hyperlink" description="Color: Default Hyperlink Color" value="Hyperlink" />
 	<Message key="clr.default_colors.disabled" description="Color: Default UI Disabled Color" value="Disabled text" />
+	<Message key="clr.default_colors.error" description="Color: Default Error Color" value="Error" />
 	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
 	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
 	<Message key="clr.default_colors.hover.text" description="Color: Default UI Hover Text Color" value="Hover text" />
@@ -1331,10 +1362,38 @@
 	<Message key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke (currently not used in Hex Editor Neo)" value="Stroke"/>
 	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore (currently not used in Hex Editor Neo)" value="&quot;Don't display anymore&quot; message"/>
 
+	<Message key="clr.statusbar" description="Color: Statusbar Colors" value="Statusbar Colors"/>
+	<Message key="clr.statusbar.background" description="Color: Statusbar background" value="Background"/>
+	<Message key="clr.statusbar.text" description="Color: Statusbar text" value="Text"/>
+	<Message key="clr.statusbar.separator" description="Color: Statusbar separator" value="Separator"/>
+	<Message key="clr.statusbar.border" description="Color: Statusbar border" value="Border"/>
+	<Message key="clr.statusbar.hyperlink" description="Color: Statusbar hyperlink" value="Hyperlink"/>
+	<Message key="clr.statusbar.chevron.fill" description="Color: Statusbar chevron fill" value="Chevron dot fill color"/>
+	<Message key="clr.statusbar.chevron.stroke" description="Color: Statusbar chevron stroke" value="Chevron dot stroke color"/>
+	
 	<Message key="Ready" description="Status bar idle message" />
 
 	<!--  -->
 	<Message key="Little endian" description="Choice: Little endian"/>
 	<Message key="Big endian" description="Choice: Big endian"/>
 
+	<Message key="ConfigurationError" description="Bad application state" value="Hex Editor Neo is in invalid state. Reinstall the application to fix it.{has additional info?}\n\nAdditional information:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPress [[[bCtrl+C]]] to copy this text to the Clipboard and [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contact Support]]] for assistance.{?has additional info}" revision="1">
+		<Param name="has additional info" format="?"/>
+		<Param name="has error code" format="?"/>
+		<Param name="error message"/>
+		<Param name="error code" format="ub016x"/>
+		<Param name="has description" format="?"/>
+		<Param name="description"/>
+	</Message>
+
+	<Message key="AlignmentHeader" description="Field: Alignment" value="Alignment"/>
+
+	<Message key="DefaultAlignment" description="Default alignment" value="Default{has default?} ({alignment}){?has default}">
+		<Param name="alignment"/>
+		<Param name="has default" format="?"/>
+	</Message>
+
+	<Message key="InvalidAlignment" description="Invalid alignment" value="Invalid alignment specified: alignment must be a positive integer value (expressions supported)."/>
+
+	<Message key="Delete prompt" description="Delete item confirmation message" value="This operation cannot be undone. Are you sure you want to continue?" />
 </Definition>

@@ -12,30 +12,30 @@
     <Item text="Cancel all download tasks"/>
   </Enumeration>
 
-  <Enumeration key="ToolsForeground" description="Command: Tools.Foreground" revision="1">
-    <Item text="&amp;Foreground Downloading"/>
-    <Item text="Use all available network bandwidth for download tasks"/>
-  </Enumeration>
-
   <Enumeration key="DownloaderColumns" description="Downloader window columns" revision="1">
     <Item text="Task"/>
     <Item text="Status"/>
     <Item text="Size"/>
   </Enumeration>
 
-  <Enumeration key="DownloadStatus" description="Download statuses" revision="1">
-    <Item text="Queued"/>
-    <Item text="Connecting…"/>
-    <Item text="Transferring…"/>
-    <Item text="Suspended"/>
-    <Item text="Error"/>
-    <Item text="Error. Retrying in 10 seconds…"/>
-    <Item text="Transferred"/>
-    <Item text="Acknowledged"/>
-    <Item text="Cancelled"/>
-  </Enumeration>
+	<Enumeration key="DownloadStatus" description="Download statuses" revision="3">
+		<Item text="Unknown"/>
+		<Item text="Started"/>
+		<Item text="Detecting proxy"/>
+		<Item text="Resolving name"/>
+		<Item text="Connecting to server"/>
+		<Item text="Negotiating SSL"/>
+		<Item text="Sending headers"/>
+		<Item text="Sending content"/>
+		<Item text="Waiting for response"/>
+		<Item text="Receiving headers"/>
+		<Item text="Receiving content"/>
+		<Item text="Error: {error}">
+			<Param name="error"/>
+		</Item>
+	</Enumeration>
 
-  <Message key="ForegroundDownloading" description="Option: Foreground downloading" revision="1" value="Foreground downloading"/>
+	<Message key="ForegroundDownloading" description="Option: Foreground downloading" revision="1" value="Foreground downloading"/>
   <Message key="ProgressString" description="Progress string" revision="1" value="{percent} % done">
     <Param name="percent" format="lp2"/>
   </Message>

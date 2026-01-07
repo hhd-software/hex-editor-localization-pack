@@ -46,7 +46,11 @@
     <Item text="Macros"/>
     <Item text="Macros"/>
   </Enumeration>
-  <Enumeration key="ScriptingNewScript" description="Command: New Script">
+	<Enumeration key="MenuRunMacro" description="Command group: Run Macro">
+		<Item text="Run"/>
+		<Item text="Run selected macro"/>
+	</Enumeration>
+	<Enumeration key="ScriptingNewScript" description="Command: New Script">
     <Item text="New Script"/>
     <Item text="Create new empty script file"/>
   </Enumeration>
@@ -212,4 +216,25 @@
 	<Message key="NewMacroTemplate" description="New macro name template" value="Macro {n}">
 		<Param name="n"/>
 	</Message>
+
+	<Message key="CmdLineMacroName" description="Command-line script name" value="Command-line script"/>
+
+	<Message key="Running macro" description="Running macro status bar template" value="Running [[[b{macro}]]]… [[[hClick to stop]]].">
+		<Param name="macro"/>
+	</Message>
+
+	<Message key="Recording macro" description="Recording macro status bar text" value="Recording macro… [[[hClick to stop recording]]]."/>
+
+	<Message key="Macro script opened" description="Macro script opened (note the use of non-breaking space around '»')" value="Macro script is opened in editor. To start it, use [[[bDebug&#160;»&#160;Run Script]]] or [[[bDebug&#160;»&#160;Debug Script]]] commands."/>
+
+	<Message key="ScriptException" description="Script exception during debugging" value="{uncaught?}Uncaught e{|uncaught}E{?uncaught}xception &quot;{name}&quot; occurred at {line}:{column}\n">
+		<Param name="uncaught" format="?"/>
+		<Param name="name"/>
+		<Param name="line"/>
+		<Param name="column"/>
+	</Message>
+
+	<Message key="catchFirstChanceExceptions" description="Option: Catch first-chance exceptions" value="Catch first-chance exceptions during debugging"/>
+	<Message key="Debugger" description="Option group: Debugger" />
+	<Message key="Main body finish" description="Script reached its end" value="Main script body execution finished. Running async functions and events…\n"/>
 </Definition>

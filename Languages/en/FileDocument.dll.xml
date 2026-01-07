@@ -146,5 +146,10 @@
 
     <Message key="Shortcut files" description="Shortcut files" />
 
+	<Message key="Running operation" description="Status bar lengthy operation template" value="Running [[[b{operation}]]] operation on {document}…">
+		<Param name="operation"/>
+		<Param name="document"/>
+	</Message>
+	
 </Definition>
 

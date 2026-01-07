@@ -146,4 +146,6 @@
 
   <Message key="All opened documents" description="All opened documents"/>
 	<Message key="toolbar.FindInFiles" description="Toolbar: Find in Files" value="Find in Files"/>
+
+	<Message key="Running Find in Files" description="Running Find in Files status bar message" value="Running Find in Files…"/>
 </Definition>

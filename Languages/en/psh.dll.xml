@@ -33,11 +33,23 @@
     <Item text="Create Pa&amp;tch…"/>
     <Item text="Create a patch with current changes"/>
   </Enumeration>
-  <Enumeration key="ColoringNewRule" description="Coloring.New Rule">
-    <Item text="Add New Rule…"/>
+  <Enumeration key="ColoringNewPatternRule" description="Coloring.New Pattern Rule">
+    <Item text="Create New Pattern Rule…"/>
     <Item text="Define new pattern coloring rule"/>
   </Enumeration>
-  <Enumeration key="ColoringSaveColoring" description="Coloring.Save">
+	<Enumeration key="ColoringNewRangeRule" description="Coloring.New Range Rule">
+		<Item text="Create New Range Rule…"/>
+		<Item text="Define new range coloring rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringNewValueRangeRule" description="Coloring.New Value Range Rule">
+		<Item text="Create New Value Range Rule…"/>
+		<Item text="Define new value range coloring rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringDuplicateRule" description="Coloring.Duplicate Rule">
+		<Item text="Duplicate Rule…"/>
+		<Item text="Create a copy of a selected rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringSaveColoring" description="Coloring.Save">
     <Item text="Save Scheme…"/>
     <Item text="Save Pattern Coloring scheme"/>
   </Enumeration>
@@ -211,27 +223,31 @@
     <Item text="Decimal"/>
   </Enumeration>
 
-  <Enumeration key="Colors" description="Colors">
-    <Item text="Back color:"/>
-    <Item text="Text color:"/>
-    <Item text="Outline color:"/>
-    <Item text="Description"/>
-  </Enumeration>
+    <Message key="Back color" description="Field: Back color"/>
+    <Message key="Text color" description="Field: Text color"/>
+    <Message key="Outline color" description="Field: Outline color"/>
 
-  <Enumeration key="Range" description="Range information (both strings must be the same!)">
-    <Item text="Range: {from} – {to} (Size: {size})">
+  <Enumeration key="Range" description="Range information (both strings must be the same!)" revision="2">
+    <Item text="Range: [ [[[b{from}]]] – [[[b{to}]]] ] (size: [[[b{size}]]])">
       <Param name="from" format="b016"/>
       <Param name="to" format="b016"/>
       <Param name="size" format="b016"/>
     </Item>
-    <Item text="Range: {from} – {to} (Size: {size})">
+    <Item text="Range: [ [[[b{from}]]] – [[[b{to}]]] ] (size: [[[b{size}]]])">
       <Param name="from" format="l"/>
       <Param name="to" format="l"/>
       <Param name="size" format="l"/>
     </Item>
   </Enumeration>
-  <Message key="RegExpPattern" description="Regular expression pattern" value="RE: {pattern}">
+
+	<Message key="ValueRangeHeader" description="Value range rule header" value="Value range"/>
+	
+  <Message key="RegExpPattern" description="Regular expression pattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2">
     <Param name="pattern"/>
+	  <Param name="has submatch" format="?"/>
+	  <Param name="submatch"/>
+	  <Param name="codepage"/>
+	  <Param name="ignore" format="?"/>
   </Message>
 
   <Message key="History" description="History tool window, message box title"/>
@@ -359,7 +375,7 @@
     <Item text="Pattern Coloring feature allows you to configure pattern hilighting. Upgrade to Professional Edition to have unlimited number of patterns."/>
   </Enumeration>
 
-  <Message key="PColFilter" description="Pattern coloring filter string" value="Pattern Coloring Scheme Files|*.hexpcs|" revision="2"/>
+  <Message key="PColFilter" description="Pattern coloring filter string" value="Pattern coloring scheme files" revision="3"/>
   <Message key="The current scheme will be lost. Do you want to continue?" description="The current scheme will be lost. Do you want to continue?"/>
   <Message key="The file has different version" description="The file has different version"/>
 
@@ -529,8 +545,10 @@
   <Message key="Offset:" description="Field: Offset"/>
   <Message key="Size:" description="Field: Size"/>
   <Message key="Round edges" description="Checkbox: Round edges"/>
+	<Message key="Show rule tooltip" description="Checkbox: Show rule tooltip"/>
+	<Message key="Show in info pane" description="Checkbox: Show in info pane"/>
 
-  <!-- Change Time -->
+	<!-- Change Time -->
   <Message key="Change Time" description="Change Time window title"/>
 
   <Message key="PatternColoring settings" description="Settings: Pattern Coloring" value="Pattern Coloring"/>
@@ -540,4 +558,43 @@
 	<Message key="toolbar.Statistics" description="Toolbar: Statistics" value="Statistics" />
 	<Message key="toolbar.History" description="Toolbar: History" value="History" />
 	<Message key="toolbar.History Window" description="Toolbar: History Tree Window" value="History Tree Window" />
+
+	<Message key="ShowRuleTooltip" description="Option: Display rule in tooltip" value="Show rule in tooltip"/>
+
+	<Message key="Pattern coloring alignment" description="Pattern alignment suffix in pattern sample" value=", alignment={alignment}">
+		<Param name="alignment" format="l"/>
+	</Message>
+
+	<Enumeration key="RangeRuleDlg" description="Window title: New Range Rule/Edit Range Rule">
+		<Item text="New Range Rule"/>
+		<Item text="Edit Range Rule"/>		
+	</Enumeration>
+
+	<Enumeration key="ValueRangeRuleDlg" description="Window title: New Value Range Rule/Edit Value Range Rule">
+		<Item text="New Value Range Rule"/>
+		<Item text="Edit Value Range Rule"/>
+	</Enumeration>
+
+	<Enumeration key="PatternRuleDlg" description="Window title: New Pattern Rule/Edit Range Rule">
+		<Item text="New Pattern Rule"/>
+		<Item text="Edit Pattern Rule"/>
+	</Enumeration>
+
+	<Message key="rr.Expressions supported" description="Field: expressions supported" value="You can use mathematical expressions when entering [[[bStart]]], [[[bSize]]] or [[[bEnd]]] values.\n\nPrefix numbers with &quot;0x&quot; to use hexadecimal numbers."/>
+
+	<Message key="Invalid fp value" description="Invalid floating-point value" value="Error parsing the floating-point value"/>
+	<Message key="No negative integers" description="No negative values allowed for value range" value="Both minimum and maximum range values must be non-negative."/>
+	<Message key="Max is less than min" description="Maximum value is less than minimum value" value="Maximum value range value must be greater or equal to minimum value."/>
+	<Message key="Out of range value" description="Value is out of range" value="Value is out of range for selected value type."/>
+	
+	<!-- Scripting errors -->
+	<Message key="pattern_rule.data is empty" description="Scripting error: pattern is empty" value="Pattern is empty" />
+	<Message key="pattern_rule.invalid type" description="Scripting error: invalid pattern type" value="Invalid pattern type" />
+	<Message key="pc_rule.invalid group" description="Scripting error: invalid pattern grouping" value="Invalid grouping" />
+	<Message key="regexp_rule.regular expression empty" description="Scripting error: regular expression is empty" value="Regular expression string is empty" />
+	<Message key="range_rule.size is zero" description="Scripting error: range size is zero" value="Range size is zero" />
+	<Message key="range_rule.invalid range" description="Scripting error: invalid range" value="Invalid range" />
+	<Message key="Invalid rule object" description="Scripting error: Invalid rule object" value="Invalid rule object: {error}">
+		<Param name="error"/>
+	</Message>
 </Definition>

@@ -157,4 +157,6 @@
   <Message key="Include sub-folders" description="Checkbox: Include sub-folders"/>
 
 	<Message key="toolbar.NTFS Streams" description="Toolbar: NTFS Streams" value="NTFS Streams" />
+
+	<Message key="Running Find Streams" description="Searching for streams status bar message" value="Searching for NTFS streams…"/>
 </Definition>

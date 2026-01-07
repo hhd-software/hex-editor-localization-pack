@@ -92,8 +92,8 @@
 		<Item text="Display the selected checksum result"/>
 	</Enumeration>
 
-	<Enumeration key="ChecksumRefresh" description="Command: Refresh">
-		<Item text="Refresh"/>
+	<Enumeration key="ChecksumRefresh" description="Command: Refresh" revision="1">
+		<Item text="Calculate"/>
 		<Item text="Start checksums calculation"/>
 	</Enumeration>
 
@@ -174,4 +174,12 @@
 	<Message key="Prime:" description="Field: Prime" />
 	<Message key="Offset basis:" description="Field: Offset basis" />
 	<Message key="Version:" description="Field: Version" />
+	
+	<!-- Scripting errors -->
+	<Message key="Unsupported checksum algorithm" description="Script error: Unsupported checksum algorithm" />
+	<Message key="Called on an empty document" description="Script error: called on an empty document" value="Checksum calculation called on an empty document"/>
+	<Message key="Checksum result is not yet available" description="Script error: checksum result is not yet available" value="Checksum result is not yet available, call [[[pcalculate]]] method first" />
+	<Message key="Called on an empty selection" description="Script error: called on an empty selection" value="Checksum calculation called on an empty selection" />
+	<Message key="Invalid CRC bits" description="Script error: invalid number of bits specified for custom CRC algorithm" value="Invalid number of bits specified for custom CRC algorithm. Supported values are 16 and 32" />
+	<Message key="Invalid FNV bits" description="Script error: invalid number of bits specified for custom FNV algorithm" value="Invalid number of bits specified for custom FNV algorithm. Supported values are 32 and 64" />
 </Definition>
