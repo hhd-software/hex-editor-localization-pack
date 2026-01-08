@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Impossibile aprire Hex Editor Neo &quot;{path}&quot; a causa del seguente errore:\r\n    » {text} ({code})\r\n\r\nVuoi provare a creare un'istantanea del volume e aprire il file da essa?" revision="0" />
   <Message key="RegExp settings" value="Classi espressioni regolari" revision="0" />
   <Message key="Shortcut files" value="File di collegamento" revision="0" />
+  <Message key="Running operation" value="Esecuzione dell'operazione [[[b{operation}]]] su {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignora le modifiche" revision="1" />
     <Item value="Chiudi il file" revision="1" />

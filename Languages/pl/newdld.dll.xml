@@ -32,24 +32,23 @@
     <Item value="&amp;Anuluj wszystkie zadania pobierania" revision="1" />
     <Item value="Anuluj wszystkie zadania pobierania" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="&amp;Pobieranie pierwszego planu" revision="1" />
-    <Item value="Do zadań pobierania używaj całej dostępnej przepustowości sieci" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Zadanie" revision="1" />
     <Item value="Status" revision="1" />
     <Item value="Rozmiar" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="W kolejce" revision="1" />
-    <Item value="Łączenie…" revision="1" />
-    <Item value="Przesyłanie…" revision="1" />
-    <Item value="Zawieszenie" revision="1" />
-    <Item value="Błąd" revision="1" />
-    <Item value="Błąd. Ponowna próba za 10 sekund…" revision="1" />
-    <Item value="Przekazane" revision="1" />
-    <Item value="Potwierdzone" revision="1" />
-    <Item value="Anulowane" revision="1" />
+    <Item value="Nieznany" revision="3" />
+    <Item value="Rozpoczęto" revision="3" />
+    <Item value="Wykrywanie proxy" revision="3" />
+    <Item value="Rozwiązywanie nazw" revision="3" />
+    <Item value="Łączenie się z serwerem" revision="3" />
+    <Item value="Negocjowanie SSL" revision="3" />
+    <Item value="Wysyłanie nagłówków" revision="3" />
+    <Item value="Wysyłanie treści" revision="3" />
+    <Item value="Oczekiwanie na odpowiedź" revision="3" />
+    <Item value="Nagłówki odbiorcze" revision="3" />
+    <Item value="Odbieranie treści" revision="3" />
+    <Item value="Błąd: {error}" revision="3" />
   </Enumeration>
 </Language>

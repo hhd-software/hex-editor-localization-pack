@@ -383,6 +383,10 @@
     <Item value="&amp;Text-Bereich" revision="1" />
     <Item value="Zeigt den Textbereich (ASCII oder UNICODE) im Editor-Fenster (Bearbeitungsfenster) an oder blendet ihn aus" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />
     <Item value="Zeigt die Adresse in Hexadezimal" revision="1" />

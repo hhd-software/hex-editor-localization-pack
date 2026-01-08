@@ -32,24 +32,23 @@
     <Item value="&amp;Отменить все задачи" revision="1" />
     <Item value="Отменить все задачи по закачке" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="Режим &amp;активной закачки" revision="1" />
-    <Item value="Использовать всю пропускную способность канала" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Задача" revision="1" />
     <Item value="Статус" revision="1" />
     <Item value="Размер" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="В очереди" revision="1" />
-    <Item value="Соединение…" revision="1" />
-    <Item value="Закачка…" revision="1" />
-    <Item value="Приостановлено" revision="1" />
-    <Item value="Ошибка" revision="1" />
-    <Item value="Ошибка. Повтор через 10 секунд…" revision="1" />
-    <Item value="Загружено" revision="1" />
-    <Item value="Подтверждено" revision="1" />
-    <Item value="Отменено" revision="1" />
+    <Item value="Неизвестно" revision="3" />
+    <Item value="Начато" revision="3" />
+    <Item value="Обнаружение прокси" revision="3" />
+    <Item value="Выявление имени" revision="3" />
+    <Item value="Подключение к серверу" revision="3" />
+    <Item value="Осуществление SSL" revision="3" />
+    <Item value="Отправка заголовков" revision="3" />
+    <Item value="Отправка контента" revision="3" />
+    <Item value="Ожидание ответа" revision="3" />
+    <Item value="Прием заголовков" revision="3" />
+    <Item value="Получение контента" revision="3" />
+    <Item value="Ошибка: {error}" revision="3" />
   </Enumeration>
 </Language>

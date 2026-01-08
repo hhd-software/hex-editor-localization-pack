@@ -32,24 +32,23 @@
     <Item value="Annulla tutte le attività di scarico" revision="1" />
     <Item value="Annulla tutte le attività di scarico" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="&amp;Alta priorità scaricamento" revision="1" />
-    <Item value="Usa tutta la banda di rete disponibile per le attività di scaricamento" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Attività" revision="1" />
     <Item value="Stato" revision="1" />
     <Item value="Dimensione" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="In coda" revision="1" />
-    <Item value="Connessione…" revision="1" />
-    <Item value="Trasferimento…" revision="1" />
-    <Item value="Sospeso" revision="1" />
-    <Item value="Errore" revision="1" />
-    <Item value="Errore. Riprovare fra 10 Secondi…" revision="1" />
-    <Item value="Trasferito" revision="1" />
-    <Item value="Rilevato" revision="1" />
-    <Item value="Annullato" revision="1" />
+    <Item value="Sconosciuto" revision="3" />
+    <Item value="Iniziato" revision="3" />
+    <Item value="Rilevamento proxy" revision="3" />
+    <Item value="Risoluzione del nome" revision="3" />
+    <Item value="Connessione al server" revision="3" />
+    <Item value="Negoziazione SSL" revision="3" />
+    <Item value="Invio delle intestazioni" revision="3" />
+    <Item value="Invio di contenuti" revision="3" />
+    <Item value="In attesa di risposta" revision="3" />
+    <Item value="Ricezione delle intestazioni" revision="3" />
+    <Item value="Ricezione dei contenuti" revision="3" />
+    <Item value="Errore: {error}" revision="3" />
   </Enumeration>
 </Language>

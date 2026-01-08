@@ -144,9 +144,21 @@
     <Item value="Создать &amp;патч" revision="0" />
     <Item value="Создать патч с текущими изменениями" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Новое правило…" revision="0" />
-    <Item value="Добавить новое правило подстветки последовательностей" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Сохранить схему…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Шестнадцатеричное" revision="0" />
     <Item value="Десятичное" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Фон:" revision="0" />
-    <Item value="Текст:" revision="0" />
-    <Item value="Контур:" revision="0" />
-    <Item value="Описание" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
     <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Ветвление истории" revision="0" />
     <Item value="Функция &quot;Ветвление истории&quot; позволяет вести параллельно несколько редакций одного файла и выполнять для них операции, в т.ч. из разных ветвей." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

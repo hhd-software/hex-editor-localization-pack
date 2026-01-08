@@ -383,6 +383,10 @@
     <Item value="&amp;Текстовая область" revision="1" />
     <Item value="Включить или выключить текстовую область" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шестнадцатеричный" revision="1" />
     <Item value="Показывать адреса восьмеричными" revision="1" />

@@ -33,6 +33,7 @@
   <Message key="Folder list:" value="Список папок:" revision="1" />
   <Message key="All opened documents" value="Всі відкриті документи" revision="0" />
   <Message key="toolbar.FindInFiles" value="Пошук у файлах" revision="0" />
+  <Message key="Running Find in Files" value="Виконання пошуку у файлах…" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="при відкритті" revision="1" />
     <Item value="при збереженні" revision="1" />

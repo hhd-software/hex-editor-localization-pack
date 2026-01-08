@@ -75,6 +75,10 @@
     <Item value="Macro" revision="0" />
     <Item value="Macro" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Nuovo copione" revision="0" />
     <Item value="Crea un nuovo file di copione vuoto" revision="0" />

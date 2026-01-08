@@ -383,6 +383,10 @@
     <Item value="文本窗格(&amp;T)" revision="1" />
     <Item value="显示或隐藏一个文本 (ASCII 或 UNICODE)窗格" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="十六进制(&amp;H)" revision="1" />
     <Item value="以十六进制方式查看地址" revision="1" />

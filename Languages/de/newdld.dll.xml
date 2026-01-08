@@ -32,24 +32,23 @@
     <Item value="&amp;Annulliert alle Download Aufgaben" revision="1" />
     <Item value="Annulliert alle Download Aufgaben" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="Herunterladen im Vordergrund" revision="1" />
-    <Item value="Benutzt die ganze verfügbare Netzwerkbandbreite für die Download Aufgaben" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Aufgabe" revision="1" />
     <Item value="Status" revision="1" />
     <Item value="Größe" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="In Warteschlange" revision="1" />
-    <Item value="Verbindung aufbauen…" revision="1" />
-    <Item value="Übertragung…" revision="1" />
-    <Item value="Unterbrochen" revision="1" />
-    <Item value="Fehler" revision="1" />
-    <Item value="Fehler. Neuer Versuch in 10 Sekunden…" revision="1" />
-    <Item value="Übertragen" revision="1" />
-    <Item value="Abgeschlossen" revision="1" />
-    <Item value="Abgebrochen" revision="1" />
+    <Item value="Unbekannt" revision="3" />
+    <Item value="Begonnen" revision="3" />
+    <Item value="Proxy erkennen" revision="3" />
+    <Item value="Namensauflösung" revision="3" />
+    <Item value="Verbindung zum Server herstellen" revision="3" />
+    <Item value="Verhandlung von SSL" revision="3" />
+    <Item value="Header senden" revision="3" />
+    <Item value="Inhalte senden" revision="3" />
+    <Item value="Warten auf Antwort" revision="3" />
+    <Item value="Empfangs-Header" revision="3" />
+    <Item value="Empfangen von Inhalten" revision="3" />
+    <Item value="Fehler: {error}" revision="3" />
   </Enumeration>
 </Language>

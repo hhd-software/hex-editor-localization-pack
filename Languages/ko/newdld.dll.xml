@@ -32,24 +32,23 @@
     <Item value="모든 다운로드 작업 취소(&amp;C)" revision="1" />
     <Item value="모든 다운로드 작업 취소" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="전경 다운로드(&amp;F)" revision="1" />
-    <Item value="다운로드 작업에 사용 가능한 모든 네트워크 대역폭 사용" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="작업" revision="1" />
     <Item value="상태" revision="1" />
     <Item value="크기" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="대기 중" revision="1" />
-    <Item value="연결 중…" revision="1" />
-    <Item value="전송 중…" revision="1" />
-    <Item value="일시 중단" revision="1" />
-    <Item value="오류" revision="1" />
-    <Item value="오류. 10초 후에 다시 시도하는 중…" revision="1" />
-    <Item value="전송됨" revision="1" />
-    <Item value="인증됨" revision="1" />
-    <Item value="취소됨" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item />
+    <Item />
+    <Item value="오류: {error}" revision="3" />
   </Enumeration>
 </Language>

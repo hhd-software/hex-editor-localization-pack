@@ -32,24 +32,23 @@
     <Item value="すべてのダウンロードタスクをキャンセル(&amp;C)" revision="1" />
     <Item value="すべてのダウンロードタスクをキャンセル" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="フォアグラウンド ダウンロード(&amp;F)" revision="1" />
-    <Item value="利用可能なすべてのネットワーク帯域幅をダウンロード タスクに使用する" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="タスク" revision="1" />
     <Item value="状況" revision="1" />
     <Item value="サイズ" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="キュー" revision="1" />
-    <Item value="接続中…" revision="1" />
-    <Item value="転送中…" revision="1" />
-    <Item value="一時停止中" revision="1" />
-    <Item value="エラー" revision="1" />
-    <Item value="エラー。 10 秒後に再試行します…" revision="1" />
-    <Item value="転送完了" revision="1" />
-    <Item value="承認済み" revision="1" />
-    <Item value="キャンセル" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item />
+    <Item />
+    <Item value="エラー: {error}" revision="3" />
   </Enumeration>
 </Language>

@@ -383,6 +383,10 @@
     <Item value="&amp;Текстова область" revision="1" />
     <Item value="Увімкнути або вимкнути текстову (ASCII або UNICODE) область" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шістнадцятковий" revision="1" />
     <Item value="Показувати адреси шістнадцятковим" revision="1" />

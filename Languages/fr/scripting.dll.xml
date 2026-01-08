@@ -75,6 +75,10 @@
     <Item value="Macros" revision="0" />
     <Item value="Macros" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Nouveau script" revision="0" />
     <Item value="Créer un nouveau fichier script vide" revision="0" />

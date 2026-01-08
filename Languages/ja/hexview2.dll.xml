@@ -383,6 +383,10 @@
     <Item value="テキスト ペイン(&amp;T)" revision="1" />
     <Item value="テキスト (ASCII または UNICODE) ペインの表示または非表示を切り替え" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="16進数(&amp;H)" revision="1" />
     <Item value="アドレスを 16 進数で表示" revision="1" />

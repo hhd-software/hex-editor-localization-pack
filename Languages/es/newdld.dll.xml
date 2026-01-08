@@ -32,24 +32,23 @@
     <Item value="&amp;Cancelar Todas las Tareas de Descarga" revision="1" />
     <Item value="Cancela todas las tareas de descarga" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="&amp;Descarga en Primer Plano" revision="1" />
-    <Item value="Usar todo el ancho de banda disponible para las tareas de descarga" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Tarea" revision="1" />
     <Item value="Estado" revision="1" />
     <Item value="Tamaño" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="En Cola" revision="1" />
-    <Item value="Conectando…" revision="1" />
-    <Item value="Transfiriendo…" revision="1" />
-    <Item value="Suspendido" revision="1" />
-    <Item value="Error" revision="1" />
-    <Item value="Error. Reintentando en 10 segundos…" revision="1" />
-    <Item value="Transfiriendo" revision="1" />
-    <Item value="Reconocido" revision="1" />
-    <Item value="Cancelado" revision="1" />
+    <Item value="Desconocido" revision="3" />
+    <Item value="Comenzó" revision="3" />
+    <Item value="Detección de proxy" revision="3" />
+    <Item value="Resolución de nombres" revision="3" />
+    <Item value="Conectando al servidor" revision="3" />
+    <Item value="Negociación de SSL" revision="3" />
+    <Item value="Envío de encabezados" revision="3" />
+    <Item value="Envío de contenido" revision="3" />
+    <Item value="Esperando respuesta" revision="3" />
+    <Item value="Recibir encabezados" revision="3" />
+    <Item value="Recibir contenido" revision="3" />
+    <Item value="Error: {error}" revision="3" />
   </Enumeration>
 </Language>

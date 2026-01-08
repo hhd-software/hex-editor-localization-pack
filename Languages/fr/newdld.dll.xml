@@ -32,24 +32,23 @@
     <Item value="Annuler toutes les tâ&amp;ches de téléchargement" revision="1" />
     <Item value="Annuler toutes les tâches de téléchargement" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="Téléchargement en premier plan" revision="1" />
-    <Item value="Utilisez toute la bande passante réseau disponible pour les tâches de téléchargement" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Tâches" revision="1" />
     <Item value="Statut" revision="1" />
     <Item value="Taille" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="Mis en attente" revision="1" />
-    <Item value="Connection…" revision="1" />
-    <Item value="Transfert…" revision="1" />
-    <Item value="Suspendu" revision="1" />
-    <Item value="Erreur" revision="1" />
-    <Item value="Erreur. Nouvelle tentative en 10 secondes…" revision="1" />
-    <Item value="Transféré" revision="1" />
-    <Item value="Reconnu" revision="1" />
-    <Item value="Annulé" revision="1" />
+    <Item value="Inconnu" revision="3" />
+    <Item value="Commencé" revision="3" />
+    <Item value="Détection du proxy" revision="3" />
+    <Item value="Résolution de nom" revision="3" />
+    <Item value="Connexion au serveur" revision="3" />
+    <Item value="Négociation SSL" revision="3" />
+    <Item value="Envoi d'en-têtes" revision="3" />
+    <Item value="Envoi de contenu" revision="3" />
+    <Item value="En attente de réponse" revision="3" />
+    <Item value="En-têtes de réception" revision="3" />
+    <Item value="Réception de contenu" revision="3" />
+    <Item value="Erreur : {error}" revision="3" />
   </Enumeration>
 </Language>

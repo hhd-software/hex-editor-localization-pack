@@ -144,9 +144,21 @@
     <Item value="パッチの作成(&amp;T)…" revision="0" />
     <Item value="現在の変更を含むパッチを作成" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="新しいルールの追加…" revision="0" />
-    <Item value="新しいパターンのカラーリングを定義" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="スキームの保存…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="16進数" revision="0" />
     <Item value="10進数" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="背面の色 :" revision="0" />
-    <Item value="文字色 :" revision="0" />
-    <Item value="外枠の色 :" revision="0" />
-    <Item value="説明" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="範囲 : {from} – {to} (サイズ : {size})" revision="0" />
     <Item value="範囲 : {from} – {to} (サイズ : {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="履歴分岐" revision="0" />
     <Item value="履歴分岐機能を使用すると、元に戻した操作を別の履歴分岐に保持できます。 その後、そのブランチに切り替えたり、そこからデータをコピーしたりすることができます。" revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

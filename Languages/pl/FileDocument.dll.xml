@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo nie może otworzyć &quot;{path}&quot; z powodu następującego błędu:\r\n   » {text} ({code})\r\n\r\nCzy chcesz spróbować utworzyć migawkę woluminu i otworzyć plik z tej migawki?" revision="0" />
   <Message key="RegExp settings" value="Klasy wyrażeń regularnych" revision="0" />
   <Message key="Shortcut files" value="Pliki skrótów" revision="0" />
+  <Message key="Running operation" value="Wykonanie operacji [[[b{operation}]]] na {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignoruj ​​zmiany" revision="1" />
     <Item value="Zamknij plik" revision="1" />

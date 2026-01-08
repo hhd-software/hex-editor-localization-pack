@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo não pode abrir &quot;{path}&quot; devido ao seguinte erro:\r\n    » {text} ({code})\r\n\r\nVocê quer tentar criar um instantâneo do volume e do arquivo aberto a partir desse instantâneo?" revision="0" />
   <Message key="RegExp settings" value="Classes de Expressões Regulares" revision="0" />
   <Message key="Shortcut files" value="Ficheiros atalhos" revision="0" />
+  <Message key="Running operation" value="Executando a operação [[[b{operation}]]] no {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignorar alterações" revision="1" />
     <Item value="Fechar o arquivo" revision="1" />

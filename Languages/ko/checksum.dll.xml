@@ -92,8 +92,8 @@
     <Item value="선택한 검사 합계 결과를 표시합니다" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="새로 고침" revision="0" />
-    <Item value="체크섬 계산 시작" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="체크섬 계산 시작" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="모두 확인" revision="1" />

@@ -35,6 +35,7 @@
   <Message key="(regular expression)" value="(regulärer Ausdruck)" revision="0" />
   <Message key="Include sub-folders" value="Unterverzeichnisse" revision="0" />
   <Message key="toolbar.NTFS Streams" value="NTFS Streams" revision="0" />
+  <Message key="Running Find Streams" value="Suche nach NTFS-Streams…" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="Stream &amp;erzeugen…" revision="0" />
     <Item value="Erzeugt einen neuen Datei-Stream" revision="0" />

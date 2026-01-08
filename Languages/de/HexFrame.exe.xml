@@ -69,7 +69,6 @@
   <Message key="Toolbar already exists" value="Die Werkzeugleiste mit diesem Namen existiert bereits." revision="1" />
   <Message key="All commands" value="Alle Kommandos" revision="1" />
   <Message key="Commands Page" value="Kommandos/Werkzeugleisten" revision="1" />
-  <Message key="Toolbars" value="Werkzeugleiste:" revision="2" />
   <Message key="New" value="&amp;Neu" revision="1" />
   <Message key="Delete" value="&amp;Löschen" revision="1" />
   <Message key="Button size" value="Schaltflächen Größe:" revision="1" />

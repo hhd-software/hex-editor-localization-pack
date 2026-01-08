@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="L'éditeur hexadécimal Neo n'a pas pu ouvrir &quot;{path}&quot; en raison de l'erreur suivante:\r\n    » {text} ({code})\r\n\r\nVoulez-vous essayer de créer un instantané de volume et ouvrir un fichier à partir de cet instantané?" revision="0" />
   <Message key="RegExp settings" value="Classes d'expression régulières" revision="0" />
   <Message key="Shortcut files" value="Fichiers de raccourcis" revision="0" />
+  <Message key="Running operation" value="Exécution de l'opération [[[b{operation}]]] sur {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignorer la case" revision="1" />
     <Item value="Choisir le fichier" revision="1" />

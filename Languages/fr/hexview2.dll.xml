@@ -383,6 +383,10 @@
     <Item value="&amp;Volet de texte" revision="1" />
     <Item value="Afficher ou masquer le volet de texte (ASCII ou Unicode)" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />
     <Item value="Afficher adresses en hexadécimal" revision="1" />

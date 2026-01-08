@@ -69,7 +69,6 @@
   <Message key="Toolbar already exists" value="지정한 이름의 도구모음이 이미 있습니다." revision="1" />
   <Message key="All commands" value="모든 명령" revision="1" />
   <Message key="Commands Page" value="명령" revision="1" />
-  <Message key="Toolbars" value="도구모음:" revision="2" />
   <Message key="New" value="새로 만들기(&amp;N)…" revision="1" />
   <Message key="Delete" value="삭제(&amp;D)" revision="1" />
   <Message key="Button size" value="버튼 크기:" revision="1" />

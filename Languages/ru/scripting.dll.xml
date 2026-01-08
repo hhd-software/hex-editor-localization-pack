@@ -75,6 +75,10 @@
     <Item value="Макросы" revision="0" />
     <Item value="Макросы" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Новый &amp;скрипт" revision="0" />
     <Item value="Создать новый пустой скрипт" revision="0" />

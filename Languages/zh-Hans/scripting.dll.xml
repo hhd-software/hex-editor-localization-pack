@@ -75,6 +75,10 @@
     <Item value="宏" revision="0" />
     <Item value="宏" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="新建脚本" revision="0" />
     <Item value="创建新的空脚本文件" revision="0" />

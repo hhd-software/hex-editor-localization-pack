@@ -57,6 +57,12 @@
   <Message key="Prime:" value="Простое:" revision="0" />
   <Message key="Offset basis:" value="Начальное:" revision="0" />
   <Message key="Version:" value="Версия:" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="Алгоритм контрольной суммы не поддерживается" revision="0" />
+  <Message key="Called on an empty document" value="Вычисление контрольной суммы вызвано на пустом документе" revision="0" />
+  <Message key="Checksum result is not yet available" value="Результат контрольной суммы еще недоступен, сначала вызовите метод [[[pcalculate]]]" revision="0" />
+  <Message key="Called on an empty selection" value="Вычисление контрольной суммы для пустой выборки" revision="0" />
+  <Message key="Invalid CRC bits" value="Недопустимое количество бит для алгоритма CRC. Поддерживаемые значения: 32 и 64" revision="0" />
+  <Message key="Invalid FNV bits" value="Недопустимое количество бит для алгоритма FNV. Поддерживаемые значения: 32 и 64" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Без разделителей" revision="1" />
     <Item value="Пробел" revision="1" />
@@ -92,8 +98,8 @@
     <Item value="Вывести результат выбранной контрольной суммы" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="Обновить" revision="0" />
-    <Item value="Запустить вычесление контрольных сумм" revision="0" />
+    <Item value="Рассчитать" revision="1" />
+    <Item value="Запустить вычесление контрольных сумм" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="Выбрать все" revision="1" />

@@ -92,8 +92,8 @@
     <Item value="選択したチェックサムの結果を表示します" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="更新" revision="0" />
-    <Item value="チェックサム計算の開始" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="チェックサム計算の開始" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="すべてチェック" revision="1" />

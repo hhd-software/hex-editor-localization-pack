@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo kann &quot;{path}&quot; nicht öffnen wegen folgendem Fehler:\r\n    » {text} ({code})\r\n\r\nWollen Sie einen Volume Schnappschuss erzeugen und die Datei aus dem Schnappschuss öffnen?" revision="0" />
   <Message key="RegExp settings" value="Reguläre Ausdrücke" revision="0" />
   <Message key="Shortcut files" value="Verknüpfte Dateien" revision="0" />
+  <Message key="Running operation" value="Ausführung der Operation [[[b{operation}]]] auf {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignoriere Änderungen" revision="1" />
     <Item value="Schließe die Datei" revision="1" />

@@ -57,6 +57,12 @@
   <Message key="Prime:" value="Główny:" revision="0" />
   <Message key="Offset basis:" value="Podstawa offsetu:" revision="0" />
   <Message key="Version:" value="Wersja:" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="Nieobsługiwany algorytm sum kontrolnych" revision="0" />
+  <Message key="Called on an empty document" value="Obliczanie sumy kontrolnej wywołane na pustym dokumencie" revision="0" />
+  <Message key="Checksum result is not yet available" value="Wynik sumy kontrolnej nie jest jeszcze dostępny, najpierw wywołaj metodę [[[pcalculate]]]." revision="0" />
+  <Message key="Called on an empty selection" value="Obliczanie sumy kontrolnej wywołane na pustym zaznaczeniu" revision="0" />
+  <Message key="Invalid CRC bits" value="Nieprawidłowa liczba bitów określona dla algorytmu CRC. Obsługiwane wartości to 32 i 64" revision="0" />
+  <Message key="Invalid FNV bits" value="Nieprawidłowa liczba bitów określona dla algorytmu FNV. Obsługiwane wartości to 32 i 64" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Bez separatorów" revision="1" />
     <Item value="Spacja (' ')" revision="1" />
@@ -92,8 +98,8 @@
     <Item value="Wyświetl wybrany wynik sumy kontrolnej" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="Odśwież" revision="0" />
-    <Item value="Uruchom obliczanie sum kontrolnych" revision="0" />
+    <Item value="Oblicz" revision="1" />
+    <Item value="Uruchom obliczanie sum kontrolnych" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="Zaznacz wszystko" revision="1" />

@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo не смог открыть &quot;{path}&quot; из-за следующей ошибки:\r\n    » {text} ({code})\r\n\r\nВы хотите попробовать создать образ диска и открыть файл из этого образа?" revision="0" />
   <Message key="RegExp settings" value="Классы регулярных выражений" revision="0" />
   <Message key="Shortcut files" value="Ярлыки" revision="0" />
+  <Message key="Running operation" value="Выполнение операции [[[b{operation}]]] над {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Игнорировать изменения" revision="1" />
     <Item value="Закрыть файл" revision="1" />

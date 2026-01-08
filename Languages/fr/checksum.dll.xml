@@ -57,6 +57,12 @@
   <Message key="Prime:" value="Premier:" revision="0" />
   <Message key="Offset basis:" value="Base de décalage:" revision="0" />
   <Message key="Version:" value="Version:" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="Algorithme de somme de contrôle non pris en charge" revision="0" />
+  <Message key="Called on an empty document" value="Calcul de la somme de contrôle appelé sur un document vide" revision="0" />
+  <Message key="Checksum result is not yet available" value="Le résultat du contrôle de somme n'est pas encore disponible, appelez d'abord la méthode [[[pcalculate]]]." revision="0" />
+  <Message key="Called on an empty selection" value="Calcul de la somme de contrôle appelé sur une sélection vide" revision="0" />
+  <Message key="Invalid CRC bits" value="Nombre de bits invalide spécifié pour l'algorithme CRC. Les valeurs prises en charge sont 32 et 64" revision="0" />
+  <Message key="Invalid FNV bits" value="Nombre de bits invalide spécifié pour l'algorithme FNV. Les valeurs prises en charge sont 32 et 64" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Aucun Séparateur" revision="1" />
     <Item value="Espace (' ')" revision="1" />
@@ -92,8 +98,8 @@
     <Item value="Afficher le resultat du somme de contrôle sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="Rafraichir " revision="0" />
-    <Item value="Démarrer le calcul du somme de contrôle" revision="0" />
+    <Item value="Calculer" revision="1" />
+    <Item value="Démarrer le calcul du somme de contrôle" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="Cocher tout" revision="1" />

@@ -35,6 +35,7 @@
   <Message key="(regular expression)" value="(expresión regular)" revision="0" />
   <Message key="Include sub-folders" value="Incluír sub-carpetas" revision="0" />
   <Message key="toolbar.NTFS Streams" value="Secuencias NTFS" revision="0" />
+  <Message key="Running Find Streams" value="Búsqueda de flujos NTFS…" revision="0" />
   <Enumeration key="StreamCreate">
     <Item value="&amp;Crear Secuencia…" revision="0" />
     <Item value="Crea un nuevo archivo de secuencia" revision="0" />

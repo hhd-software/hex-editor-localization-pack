@@ -92,8 +92,8 @@
     <Item value="显示选定的校验码结果" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="刷新" revision="0" />
-    <Item value="开始校验码计算" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="开始校验码计算" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="检查所有" revision="1" />

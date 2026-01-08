@@ -144,9 +144,21 @@
     <Item value="Pa&amp;tch erzeugen…" revision="0" />
     <Item value="Erzeugt einen Patch mit den aktuellen Änderungen" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Neue Regel hinzufügen…" revision="0" />
-    <Item value="Neue Farbregel für Mustereinfärbung definieren" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Farbschema speichern…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Hex" revision="0" />
     <Item value="Dezimal" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Hintergrundfarbe:" revision="0" />
-    <Item value="Textfarbe:" revision="0" />
-    <Item value="Umrissfarbe:" revision="0" />
-    <Item value="Beschreibung" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Bereich: {from} – {to} (Größe: {size})" revision="0" />
     <Item value="Bereich: {from} – {to} (Größe: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Historie Verzweigung" revision="0" />
     <Item value="Die Historie Verzweigung Funktion erlaubt es Ihnen Rückgängig Operationen in verschiedenen Historie Verzweigungen zu behalten. Sie können dann zu diesem Zweig wechseln, Daten davon kopieren etc." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

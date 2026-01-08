@@ -57,6 +57,12 @@
   <Message key="Prime:" value="Prime:" revision="0" />
   <Message key="Offset basis:" value="Base de offset:" revision="0" />
   <Message key="Version:" value="Versão:" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="Algoritmo de soma de verificação não suportado" revision="0" />
+  <Message key="Called on an empty document" value="Cálculo da soma de verificação chamado num documento vazio" revision="0" />
+  <Message key="Checksum result is not yet available" value="O resultado da soma de verificação ainda não está disponível, chame primeiro o método [[[pcalculate]]]." revision="0" />
+  <Message key="Called on an empty selection" value="Cálculo da soma de verificação chamado numa seleção vazia" revision="0" />
+  <Message key="Invalid CRC bits" value="Número inválido de bits especificado para o algoritmo CRC. Os valores suportados são 32 e 64" revision="0" />
+  <Message key="Invalid FNV bits" value="Número inválido de bits especificado para o algoritmo FNV. Os valores suportados são 32 e 64" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="Sem separador" revision="1" />
     <Item value="Espaço (' ')" revision="1" />
@@ -92,8 +98,8 @@
     <Item value="Exibe o resultado checksum da seleção" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="Atualizar" revision="0" />
-    <Item value="Inicia os cálculos checksums" revision="0" />
+    <Item value="Calcular" revision="1" />
+    <Item value="Inicia os cálculos checksums" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">
     <Item value="Verificar Todos" revision="1" />

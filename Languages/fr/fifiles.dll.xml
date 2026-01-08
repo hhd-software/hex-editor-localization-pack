@@ -33,6 +33,7 @@
   <Message key="Folder list:" value="Liste de Répertoires:" revision="1" />
   <Message key="All opened documents" value="Tous les documents ouverts" revision="0" />
   <Message key="toolbar.FindInFiles" value="Trouver dans les fichier(s)" revision="0" />
+  <Message key="Running Find in Files" value="Exécuter la recherche dans les fichiers…" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="ouverture en cours" revision="1" />
     <Item value="enregistrement en cours" revision="1" />

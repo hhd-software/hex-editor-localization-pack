@@ -144,9 +144,21 @@
     <Item value="Crée Pa&amp;tch…" revision="0" />
     <Item value="Création de patch avec les changements actuels" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Ajouter nouvelle régle…" revision="0" />
-    <Item value="Définir un nouveau modéle de coloration" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Enregistrer schéma…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Hexadécimale" revision="0" />
     <Item value="Décimale" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Couleur de Fond:" revision="0" />
-    <Item value="Couleur de Texte:" revision="0" />
-    <Item value="Couleur de contour:" revision="0" />
-    <Item value="Description" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Plage: {from} – {to} (Taille: {size})" revision="0" />
     <Item value="Plage: {from} – {to} (Taille: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Historique: Arborescence des Operations" revision="0" />
     <Item value="La fonctionnalité &quot;Historique (Arborescence des Operations)&quot; vous permet de conserver les opérations annulées d’une branche d’opérations sur des données d’un fichier ou plusieurs. Vous pouvez ensuite basculer entre les branches et copiez des opérations sur les données d'une branche à une autre etc. D’où l’intérêt des conserver une historique des Operations en forme d’arborescence" revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

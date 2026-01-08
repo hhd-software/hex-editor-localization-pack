@@ -69,7 +69,6 @@
   <Message key="Toolbar already exists" value="Панель інструментів з таким ім'ям вже існує." revision="1" />
   <Message key="All commands" value="Усі команди" revision="1" />
   <Message key="Commands Page" value="Команди" revision="1" />
-  <Message key="Toolbars" value="Панель інструментів:" revision="2" />
   <Message key="New" value="&amp;Нова…" revision="1" />
   <Message key="Delete" value="В&amp;идалити" revision="1" />
   <Message key="Button size" value="Розмір кнопок:" revision="1" />

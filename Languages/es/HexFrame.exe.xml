@@ -69,7 +69,6 @@
   <Message key="Toolbar already exists" value="La barra de herramientas con el nombre que especificó ya existe." revision="1" />
   <Message key="All commands" value="Todos los comandos" revision="1" />
   <Message key="Commands Page" value="Comandos" revision="1" />
-  <Message key="Toolbars" value="Barras de herramientas:" revision="2" />
   <Message key="New" value="&amp;Nueva…" revision="1" />
   <Message key="Delete" value="&amp;Borrar" revision="1" />
   <Message key="Button size" value="Tamaño del botón:" revision="1" />

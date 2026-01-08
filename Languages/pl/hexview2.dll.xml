@@ -383,6 +383,10 @@
     <Item value="&amp;Okienko tekstowe" revision="1" />
     <Item value="Pokaż lub ukryj panel tekstowy (ASCII lub UNICODE)." revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />
     <Item value="Wyświetl adres jako hex" revision="1" />

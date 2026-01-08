@@ -383,6 +383,10 @@
     <Item value="텍스트 창(&amp;A)" revision="1" />
     <Item value="텍스트 표시 또는 숨기기 (ASCII 또는 UNICODE) 창" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="16진수(&amp;H)" revision="1" />
     <Item value="주소를 16진수로 표시" revision="1" />

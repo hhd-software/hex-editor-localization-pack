@@ -383,6 +383,10 @@
     <Item value="Pannello &amp;testo" revision="1" />
     <Item value="Mostra o nasconde il pannello testo (ASCII o UNICODE)" revision="1" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />
     <Item value="Visualizza scostamento esadecimale" revision="1" />

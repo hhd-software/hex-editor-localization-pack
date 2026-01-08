@@ -32,24 +32,23 @@
     <Item value="取消所有下载任务(&amp;C)" revision="1" />
     <Item value="取消所有下载任务" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="前台下载(&amp;F)" revision="1" />
-    <Item value="使用全部可用的网络带宽给下载任务" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="任务" revision="1" />
     <Item value="状态" revision="1" />
     <Item value="大小" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="队列" revision="1" />
-    <Item value="正在连接…" revision="1" />
-    <Item value="正在传输…" revision="1" />
-    <Item value="已挂起" revision="1" />
-    <Item value="错误" revision="1" />
-    <Item value="错误，10 秒内重试…" revision="1" />
-    <Item value="已传输" revision="1" />
-    <Item value="响应" revision="1" />
-    <Item value="已取消" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
+    <Item value="" revision="3" />
+    <Item />
+    <Item />
+    <Item value="错误: {error}" revision="3" />
   </Enumeration>
 </Language>

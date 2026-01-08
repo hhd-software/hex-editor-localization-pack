@@ -144,9 +144,21 @@
     <Item value="创建补丁(&amp;T)…" revision="0" />
     <Item value="用当前更改创建一个补丁" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="添加新规则…" revision="0" />
-    <Item value="定义新模式颜色规则" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="保存方案…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="十六进制" revision="0" />
     <Item value="十进制" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="背景色:" revision="0" />
-    <Item value="文本颜色:" revision="0" />
-    <Item value="轮廓颜色:" revision="0" />
-    <Item value="描述" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="范围: {from} – {to} (大小: {size})" revision="0" />
     <Item value="范围: {from} – {to} (大小: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="历史分支" revision="0" />
     <Item value="历史分支功能允许你在不同的历史分支中保留撤销操作，你可以切换到那个分支，然后从那个分支复制数据等等。" revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

@@ -75,6 +75,10 @@
     <Item value="매크로" revision="0" />
     <Item value="매크로" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="새 스크립트" revision="0" />
     <Item value="빈 스크립트 파일 새로 만들기" revision="0" />

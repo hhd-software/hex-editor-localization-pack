@@ -144,9 +144,21 @@
     <Item value="Створити &amp;патч…" revision="0" />
     <Item value="Створити патч з поточними змінами" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Додати нове правило…" revision="0" />
-    <Item value="Додати нове правило забарвлення послідовності" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Зберегти схему…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Шістнадцяткове" revision="0" />
     <Item value="Десяткове" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Фон:" revision="0" />
-    <Item value="Текст:" revision="0" />
-    <Item value="Контур:" revision="0" />
-    <Item value="Опис" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Діапазон: {from} – {to} (Розмір: {size})" revision="0" />
     <Item value="Діапазон: {from} – {to} (Розмір: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Історія розгалужень" revision="0" />
     <Item value="Функція &quot;Історія розгалужень&quot; дозволяє вести паралельно кілька редакцій одного файлу та виконувати для них операції, в т.ч. з різних гілок." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

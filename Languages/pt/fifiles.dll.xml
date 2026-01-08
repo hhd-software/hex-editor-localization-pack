@@ -33,6 +33,7 @@
   <Message key="Folder list:" value="lista de pastas:" revision="1" />
   <Message key="All opened documents" value="Todos os documentos abertos" revision="0" />
   <Message key="toolbar.FindInFiles" value="Localizar no Arquivo" revision="0" />
+  <Message key="Running Find in Files" value="Executar a função Localizar nos ficheiros…" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="abrindo" revision="1" />
     <Item value="salvando" revision="1" />

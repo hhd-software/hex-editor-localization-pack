@@ -75,6 +75,10 @@
     <Item value="マクロ" revision="0" />
     <Item value="マクロ" revision="0" />
   </Enumeration>
+  <Enumeration key="MenuRunMacro">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="新規スクリプト" revision="0" />
     <Item value="新しい空のスクリプト ファイルを作成" revision="0" />

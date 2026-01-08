@@ -144,9 +144,21 @@
     <Item value="Utwórz łatkę…" revision="0" />
     <Item value="Utwórz łatkę z bieżącymi zmianami" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Dodaj nową regułę…" revision="0" />
-    <Item value="Zdefiniuj nową regułę kolorowania wzoru" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Zapisz schemat…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Hex" revision="0" />
     <Item value="Decimal" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Kolor wstecz:" revision="0" />
-    <Item value="Kolor tekstu:" revision="0" />
-    <Item value="Kolor konturu:" revision="0" />
-    <Item value="Opis" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Zakres: {from} – {to} (Rozmiar: {size})" revision="0" />
     <Item value="Zakres: {from} – {to} (Rozmiar: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Historia Rozgałęzienia" revision="0" />
     <Item value="Funkcja rozgałęziania historii umożliwia zachowanie cofniętych operacji w różnych gałęziach historii. Następnie możesz przełączyć się do tej gałęzi, skopiować z niej dane itp." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

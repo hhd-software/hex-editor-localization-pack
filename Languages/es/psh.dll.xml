@@ -144,9 +144,21 @@
     <Item value="Crear Pa&amp;rche…" revision="0" />
     <Item value="Crear un parche con los cambios actuales" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Añadir una Regla Nueva…" revision="0" />
-    <Item value="Definir una nueva regla de patrón de coloreo" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Guardar Esquema…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Hexadecimal" revision="0" />
     <Item value="Decimal" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Color de fondo:" revision="0" />
-    <Item value="Color del texto:" revision="0" />
-    <Item value="Color del contorno:" revision="0" />
-    <Item value="Descripción" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Rango: {from} – {to} (Size: {size})" revision="0" />
     <Item value="Rango: {from} – {to} (Size: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Historial de Ramificaciones" revision="0" />
     <Item value="La característica del Historial de Ramificaciones le permite mantener operaciones sin aplicar en diferentes historiales. entonces puede cambiar a otra ramificación y copiar datos de ella, etc." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

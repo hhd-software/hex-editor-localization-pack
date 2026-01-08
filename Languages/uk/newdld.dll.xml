@@ -32,24 +32,23 @@
     <Item value="&amp;Скасувати всі завдання" revision="1" />
     <Item value="Скасувати всі завдання по закачуванню" revision="1" />
   </Enumeration>
-  <Enumeration key="ToolsForeground">
-    <Item value="Режим &amp;активного закачування" revision="1" />
-    <Item value="Використовувати всю пропускну здатність каналу" revision="1" />
-  </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Задача" revision="1" />
     <Item value="Статус" revision="1" />
     <Item value="Розмір" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="У черзі" revision="1" />
-    <Item value="З'єднання…" revision="1" />
-    <Item value="Передача…" revision="1" />
-    <Item value="Призупинено" revision="1" />
-    <Item value="Помилка" revision="1" />
-    <Item value="Помилка. Повтор через 10 секунд…" revision="1" />
-    <Item value="Завантажено" revision="1" />
-    <Item value="Підтверджено" revision="1" />
-    <Item value="Скасовано" revision="1" />
+    <Item value="Невідомо" revision="3" />
+    <Item value="Розпочато" revision="3" />
+    <Item value="Виявлення проксі-сервера" revision="3" />
+    <Item value="Вирішення імені" revision="3" />
+    <Item value="Підключення до сервера" revision="3" />
+    <Item value="Обговорення SSL" revision="3" />
+    <Item value="Відправлення заголовків" revision="3" />
+    <Item value="Відправлення вмісту" revision="3" />
+    <Item value="Очікування відповіді" revision="3" />
+    <Item value="Отримання заголовків" revision="3" />
+    <Item value="Отримання контенту" revision="3" />
+    <Item value="Помилка: {error}" revision="3" />
   </Enumeration>
 </Language>

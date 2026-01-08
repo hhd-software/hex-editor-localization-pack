@@ -144,9 +144,21 @@
     <Item value="Crea p&amp;ezza…" revision="0" />
     <Item value="Crea una pezza con le modifiche correnti" revision="0" />
   </Enumeration>
-  <Enumeration key="ColoringNewRule">
-    <Item value="Aggiungi nuova regola…" revision="0" />
-    <Item value="Definisce nuova regola colorazione modello" revision="0" />
+  <Enumeration key="ColoringNewPatternRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Salva schema…" revision="0" />
@@ -292,12 +304,6 @@
     <Item value="Hex" revision="0" />
     <Item value="Decimale" revision="0" />
   </Enumeration>
-  <Enumeration key="Colors">
-    <Item value="Colore posteriore:" revision="0" />
-    <Item value="Colore testo:" revision="0" />
-    <Item value="Colore contorno:" revision="0" />
-    <Item value="Descrizione" revision="0" />
-  </Enumeration>
   <Enumeration key="Range">
     <Item value="Intervallo: {from} – {to} (Dim.: {size})" revision="0" />
     <Item value="Intervallo: {from} – {to} (Dim.: {size})" revision="0" />
@@ -429,5 +435,17 @@
   <Enumeration key="FeatureBranches">
     <Item value="Rami cronologia" revision="0" />
     <Item value="La funzione Rami cronologia consente di mantenere le operazioni annullate in varie diramazioni cronologiche. È quindi possibile passare a quel ramo, copiare i dati da esso, ecc." revision="0" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

@@ -69,7 +69,6 @@
   <Message key="Toolbar already exists" value="Pasek narzędzi o podanej nazwie już istnieje." revision="1" />
   <Message key="All commands" value="Wszystkie polecenia" revision="1" />
   <Message key="Commands Page" value="Polecenia" revision="1" />
-  <Message key="Toolbars" value="Pasek narzędzi:" revision="2" />
   <Message key="New" value="&amp;Nowy…" revision="1" />
   <Message key="Delete" value="&amp;Usuń" revision="1" />
   <Message key="Button size" value="Rozmiar przycisku:" revision="1" />
