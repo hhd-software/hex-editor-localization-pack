@@ -315,7 +315,6 @@
   <Message key="Auto" value="自動" revision="0" />
   <Message key="Physical disk" value="物理ディスク" revision="0" />
   <Message key="Volume" value="ボリューム" revision="0" />
-  <Message key="Value is out of range" value="指定された値が範囲外です" revision="0" />
   <Message key="GenericError" value="操作の実行中にエラーが発生しました : {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="既定の UI の色" revision="0" />
   <Message key="clr.default_colors.background" value="背景" revision="0" />
@@ -425,6 +424,8 @@
   <Message key="clr.balloon.balloon.text" value="テキスト" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="外枠" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;今後表示しない&quot;の通知" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="シェブロンドットの塗りつぶし色" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="シェブロンドットの外枠" revision="0" />
   <Message key="Ready" value="準備完了" revision="0" />
   <Message key="Little endian" value="リトルエンディアン" revision="0" />
   <Message key="Big endian" value="ビッグエンディアン" revision="0" />

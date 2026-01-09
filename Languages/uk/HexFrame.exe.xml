@@ -69,6 +69,9 @@
   <Message key="Toolbar already exists" value="Панель інструментів з таким ім'ям вже існує." revision="1" />
   <Message key="All commands" value="Усі команди" revision="1" />
   <Message key="Commands Page" value="Команди" revision="1" />
+  <Message key="Command lists" value="Списки команд" revision="0" />
+  <Message key="Command lists.Toolbars" value="――― Панелі інструментів ―――" revision="0" />
+  <Message key="Command lists.Menus" value="――― Меню ―――" revision="0" />
   <Message key="New" value="&amp;Нова…" revision="1" />
   <Message key="Delete" value="В&amp;идалити" revision="1" />
   <Message key="Button size" value="Розмір кнопок:" revision="1" />
@@ -151,6 +154,7 @@
   <Message key="Type:" value="Тип:" revision="1" />
   <Message key="Find what:" value="Знайти:" revision="1" />
   <Message key="FREmpty" value="Порожньо" revision="1" />
+  <Message key="FRGapNotice" value="Натисніть «X», щоб вставити символ-замінник" revision="0" />
   <Message key="Custom colors:" value="Настроювані кольори:" revision="1" />
   <Message key="Default colors:" value="Кольори за замовчуванням:" revision="1" />
   <Message key="Alpha" value="Альфа" revision="1" />
@@ -236,6 +240,8 @@
   <Message key="Start Download" value="Завантажити" revision="0" />
   <Message key="View Changes…" value="Показати зміни …" revision="0" />
   <Message key="Discard" value="Відмовитись" revision="0" />
+  <Message key="Error checking for new version" value="Під час перевірки наявності нової версії сталася така помилка:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Отримано недійсну відповідь від сервера оновлень." revision="0" />
   <Message key="ActionSelection" value="{name} був успішно завантажений. Яку дію виконати?" revision="1" />
   <Message key="CopyError" value="Виникла помилка при копіюванні завантаженого файлу ({code}). Запускається установка з папки за замовчуванням." revision="1" />
   <Message key="LaunchError" value="Виникла помилка ({code}) при запуску завантаженої копії." revision="1" />
@@ -315,7 +321,11 @@
   <Message key="Auto" value="Автоматично" revision="0" />
   <Message key="Physical disk" value="Фізичний диск" revision="0" />
   <Message key="Volume" value="Том" revision="0" />
-  <Message key="Value is out of range" value="Зазначене значення знаходиться поза дозволеним діапазоном" revision="0" />
+  <Message key="Value is out of range" value="Зазначене значення [[[p{value}]]] виходить за межі діапазону для параметра [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="Недійсне значення [[[p{value}]]] вказано для параметра [[[p{parameter}: {type}]]]" revision="0" />
+  <Message key="Invalid argument type" value="Значення, передане для параметра [[[p{parameter}]]], має недійсний тип. Очікується [[[p{type}]]]" revision="0" />
+  <Message key="Unsupported clipboard format" value="Непідтримуваний формат буфера обміну" revision="0" />
+  <Message key="Requested clipboard format is not available" value="Запитаний формат буфера обміну недоступний" revision="0" />
   <Message key="GenericError" value="Помилка виконання операції: {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="Кольори за замовчуванням" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
@@ -323,6 +333,7 @@
   <Message key="clr.default_colors.text" value="Текст/передній план" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="Гіперпосилання" revision="0" />
   <Message key="clr.default_colors.disabled" value="Недоступний текст" revision="0" />
+  <Message key="clr.default_colors.error" value="Помилка" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Фон підсвічування" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Обведення підсвічування" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Текст підсвічування" revision="0" />
@@ -425,9 +436,22 @@
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Обведення" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Не показувати більше це&quot; повідомлення" revision="0" />
+  <Message key="clr.statusbar" value="Кольори статусної панелі" revision="0" />
+  <Message key="clr.statusbar.background" value="Фон" revision="0" />
+  <Message key="clr.statusbar.text" value="Текст" revision="0" />
+  <Message key="clr.statusbar.separator" value="Роздільник" revision="0" />
+  <Message key="clr.statusbar.border" value="Облямівка" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="Гіперпосилання" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="Фон шеврона" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="Обведення шеврону" revision="0" />
   <Message key="Ready" value="Готово" revision="0" />
   <Message key="Little endian" value="Прямий порядок байтів" revision="1" />
   <Message key="Big endian" value="Зворотний порядок байтів" revision="1" />
+  <Message key="ConfigurationError" value="Hex Editor Neo перебуває в недійсній стані. Переінсталюйте програму, щоб виправити це.{has additional info?}\n\nДодаткова інформація:\n{has error code?}\n  • Помилка: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nНатисніть [[[bCtrl+C]]], щоб скопіювати цей текст у буфер обміну та[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#зв'язатися з підтримкою]]] для отримання допомоги.{?has additional info}" revision="1" />
+  <Message key="AlignmentHeader" value="Вирівнювання" revision="0" />
+  <Message key="DefaultAlignment" value="Стандартне{has default?} ({alignment}){?has default}" revision="0" />
+  <Message key="InvalidAlignment" value="Вказано недійсне вирівнювання: вирівнювання повинно бути додатним цілим числом (expressions supported)." revision="0" />
+  <Message key="Delete prompt" value="Цю операцію неможливо скасувати. Ви впевнені, що хочете продовжити?" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Розмір" revision="2" />

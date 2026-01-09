@@ -69,6 +69,9 @@
   <Message key="Toolbar already exists" value="Панель инструментов с таким именем уже существует." revision="1" />
   <Message key="All commands" value="Все команды" revision="1" />
   <Message key="Commands Page" value="Команды" revision="1" />
+  <Message key="Command lists" value="Списки команд" revision="0" />
+  <Message key="Command lists.Toolbars" value="――― Панели инструментов ―――" revision="0" />
+  <Message key="Command lists.Menus" value="――― Меню ―――" revision="0" />
   <Message key="New" value="&amp;Новая…" revision="1" />
   <Message key="Delete" value="У&amp;далить" revision="1" />
   <Message key="Button size" value="Размер кнопок:" revision="1" />
@@ -151,6 +154,7 @@
   <Message key="Type:" value="Тип:" revision="1" />
   <Message key="Find what:" value="Найти:" revision="1" />
   <Message key="FREmpty" value="Пусто" revision="1" />
+  <Message key="FRGapNotice" value="Нажмите «X», чтобы вставить шаблонный символ" revision="0" />
   <Message key="Custom colors:" value="Произвольные цвета" revision="1" />
   <Message key="Default colors:" value="Цвета по умолчанию" revision="1" />
   <Message key="Alpha" value="Альфа" revision="1" />
@@ -236,6 +240,8 @@
   <Message key="Start Download" value="Скачать" revision="0" />
   <Message key="View Changes…" value="Просмотреть…" revision="0" />
   <Message key="Discard" value="Проигнорировать" revision="1" />
+  <Message key="Error checking for new version" value="При проверке наличия новой версии произошла следующая ошибка:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="От сервера обновлений получен недопустимый ответ." revision="0" />
   <Message key="ActionSelection" value="{name} был успешно загружен. Какое действие выполнить?" revision="1" />
   <Message key="CopyError" value="Возникла ошибка при копировании загруженного файла ({code}). Запускается установка из папки по умолчанию." revision="1" />
   <Message key="LaunchError" value="Возникла ошибка ({code}) при запуске загруженной копии." revision="1" />
@@ -315,7 +321,11 @@
   <Message key="Auto" value="Автоматически" revision="0" />
   <Message key="Physical disk" value="Физический диск" revision="0" />
   <Message key="Volume" value="Том" revision="0" />
-  <Message key="Value is out of range" value="Указанное значение находится вне разрешенного диапазона" revision="0" />
+  <Message key="Value is out of range" value="Указанное значение [[[p{value}]]] выходит за пределы диапазона для параметра [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="Недопустимое значение [[[p{value}]]] указано для параметра [[[p{parameter}: {type}]]]" revision="0" />
+  <Message key="Invalid argument type" value="Значение, переданное для параметра [[[p{parameter}]]], имеет недопустимый тип. Ожидается [[[p{type}]]]" revision="0" />
+  <Message key="Unsupported clipboard format" value="Неподдерживаемый формат в буфере обмена" revision="0" />
+  <Message key="Requested clipboard format is not available" value="Запрашиваемый формат буфера обмена недоступен" revision="0" />
   <Message key="GenericError" value="Ошибка выполнения операции: {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="Цвета по-умолчанию" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
@@ -323,6 +333,7 @@
   <Message key="clr.default_colors.text" value="Текст/рисунок" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="Гиперссылка" revision="0" />
   <Message key="clr.default_colors.disabled" value="Недоступный текст" revision="0" />
+  <Message key="clr.default_colors.error" value="Ошибка" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Фон подсветки" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Обводка подсветки" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Текст подсветки" revision="0" />
@@ -425,9 +436,22 @@
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Обводка" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Не показывать больше это&quot; сообщение" revision="0" />
+  <Message key="clr.statusbar" value="Цвета панели статусов" revision="0" />
+  <Message key="clr.statusbar.background" value="Фон" revision="0" />
+  <Message key="clr.statusbar.text" value="Текст" revision="0" />
+  <Message key="clr.statusbar.separator" value="Разделитель" revision="0" />
+  <Message key="clr.statusbar.border" value="Обводка" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="Гиперссылка" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="Фон шеврона" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="Обводка шеврона" revision="0" />
   <Message key="Ready" value="Готово" revision="0" />
   <Message key="Little endian" value="Little endian" revision="0" />
   <Message key="Big endian" value="Big endian" revision="0" />
+  <Message key="ConfigurationError" value="Hex Editor Neo находится в некорректном состоянии. Переустановите приложение, чтобы исправить это.{has additional info?}\n\nДополнительная информация:\n{has error code?}\n  • Ошибка: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nНажмите [[[bCtrl+C]]], чтобы скопировать этот текст в буфер обмена и[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#связаться с поддержкой]]] для получения помощи.{?has additional info}" revision="1" />
+  <Message key="AlignmentHeader" value="Выравнивание" revision="0" />
+  <Message key="DefaultAlignment" value="По умолчанию{has default?} ({alignment}){?has default}" revision="0" />
+  <Message key="InvalidAlignment" value="Указано недопустимое выравнивание: выравнивание должно быть положительным целым числом (expressions supported)." revision="0" />
+  <Message key="Delete prompt" value="Эту операцию нельзя отменить. Вы уверены, что хотите продолжить?" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />

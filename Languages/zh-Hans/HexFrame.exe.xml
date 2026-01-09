@@ -315,7 +315,6 @@
   <Message key="Auto" value="自动" revision="0" />
   <Message key="Physical disk" value="物理磁盘" revision="0" />
   <Message key="Volume" value="卷" revision="0" />
-  <Message key="Value is out of range" value="指定值超出范围" revision="0" />
   <Message key="GenericError" value="执行操作时出错： {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="默认UI颜色" revision="0" />
   <Message key="clr.default_colors.background" value="背景" revision="0" />
@@ -422,6 +421,8 @@
   <Message key="clr.balloon.balloon.fill" value="背景颜色" revision="0" />
   <Message key="clr.balloon.balloon.text" value="文本" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="“不再显示此警告”信息" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="V形圆点填充颜色" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="V形点笔划颜色" revision="0" />
   <Message key="Ready" value="就绪" revision="0" />
   <Message key="Little endian" value="小端" revision="0" />
   <Message key="Big endian" value="大端" revision="0" />

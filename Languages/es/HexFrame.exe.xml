@@ -69,6 +69,9 @@
   <Message key="Toolbar already exists" value="La barra de herramientas con el nombre que especificó ya existe." revision="1" />
   <Message key="All commands" value="Todos los comandos" revision="1" />
   <Message key="Commands Page" value="Comandos" revision="1" />
+  <Message key="Command lists" value="Listas de comandos" revision="0" />
+  <Message key="Command lists.Toolbars" value="――― Barras de herramientas ―――" revision="0" />
+  <Message key="Command lists.Menus" value="――― Menús ―――" revision="0" />
   <Message key="New" value="&amp;Nueva…" revision="1" />
   <Message key="Delete" value="&amp;Borrar" revision="1" />
   <Message key="Button size" value="Tamaño del botón:" revision="1" />
@@ -151,6 +154,7 @@
   <Message key="Type:" value="Tipo:" revision="1" />
   <Message key="Find what:" value="Buscar que:" revision="1" />
   <Message key="FREmpty" value="Vacío" revision="1" />
+  <Message key="FRGapNotice" value="Pulse «X» para insertar un comodín" revision="0" />
   <Message key="Custom colors:" value="Colores personalizados:" revision="1" />
   <Message key="Default colors:" value="Colores por defecto:" revision="1" />
   <Message key="Alpha" value="Alpha" revision="1" />
@@ -236,6 +240,8 @@
   <Message key="Start Download" value="Comenzar la descarga" revision="0" />
   <Message key="View Changes…" value="Ver los cambios…" revision="0" />
   <Message key="Discard" value="Descartar" revision="0" />
+  <Message key="Error checking for new version" value="Se produjo el siguiente error al comprobar si hay una nueva versión:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Se ha recibido una respuesta no válida del servidor de actualización." revision="0" />
   <Message key="ActionSelection" value="{name} se ha descargado con éxito. ¿Que quiere hacer con el?" revision="1" />
   <Message key="CopyError" value="Ha ocurrido un error al copiar el archivo descargado ({file}). Iniciar instalación desde la dirección predeterminada." revision="1" />
   <Message key="LaunchError" value="Ocurrió un error ({error}) al iniciar la imagen descargada." revision="1" />
@@ -315,7 +321,11 @@
   <Message key="Auto" value="Automático" revision="0" />
   <Message key="Physical disk" value="Disco físico" revision="0" />
   <Message key="Volume" value="Volumen" revision="0" />
-  <Message key="Value is out of range" value="El valor especificado está fuera de rango" revision="0" />
+  <Message key="Value is out of range" value="El valor especificado [[[p{value}]]] está fuera del rango del parámetro [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="Valor de enumeración no válido [[[p{value}]]] especificado para el parámetro [[[p{parameter}: {type}]]]" revision="0" />
+  <Message key="Invalid argument type" value="El valor pasado para el parámetro [[[p{parameter}]]] es de tipo no válido. Se esperaba [[[p{type}]]]" revision="0" />
+  <Message key="Unsupported clipboard format" value="Formato de portapapeles no compatible" revision="0" />
+  <Message key="Requested clipboard format is not available" value="El formato de portapapeles solicitado no está disponible" revision="0" />
   <Message key="GenericError" value="Error en la ejecución de la operación: {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="Colores de la interfaz de usuario por predeterminado" revision="0" />
   <Message key="clr.default_colors.background" value="Fondo" revision="0" />
@@ -323,6 +333,7 @@
   <Message key="clr.default_colors.text" value="Texto/primer plano" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="Hipervínculo" revision="0" />
   <Message key="clr.default_colors.disabled" value="Texto desactivado" revision="0" />
+  <Message key="clr.default_colors.error" value="Error" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Fondo de hover" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Trazo de hover" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Texto de hover" revision="0" />
@@ -425,9 +436,22 @@
   <Message key="clr.balloon.balloon.text" value="Texto" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Trazo" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="«No volver a mostrar esta advertencia» mensaje" revision="0" />
+  <Message key="clr.statusbar" value="Colores de la barra de estado" revision="0" />
+  <Message key="clr.statusbar.background" value="Fondo" revision="0" />
+  <Message key="clr.statusbar.text" value="Texto" revision="0" />
+  <Message key="clr.statusbar.separator" value="Separador" revision="0" />
+  <Message key="clr.statusbar.border" value="Borde" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="Hipervínculo" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="Color de relleno del punto Chevron" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="Color del trazo del punto Chevron" revision="0" />
   <Message key="Ready" value="Listo" revision="0" />
   <Message key="Little endian" value="Little endian" revision="1" />
   <Message key="Big endian" value="Big endian" revision="1" />
+  <Message key="ConfigurationError" value="Hex Editor Neo se encuentra en un estado no válido. Vuelva a instalar la aplicación para solucionarlo.{has additional info?}\n\nInformación adicional:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPresiona [[[bCtrl+C]]] para copiar este texto al portapapeles y[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contactar con Soporte Técnico]]] para obtener ayuda.{?has additional info}" revision="1" />
+  <Message key="AlignmentHeader" value="Alineación" revision="0" />
+  <Message key="DefaultAlignment" value="Predeterminado{has default?} ({alignment}){?has default}" revision="0" />
+  <Message key="InvalidAlignment" value="Alineación no válida especificada: la alineación debe ser un valor entero positivo (expressions supported)." revision="0" />
+  <Message key="Delete prompt" value="Esta operación no se puede deshacer. ¿Está seguro de que desea continuar?" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Físico" revision="2" />
     <Item value="Tamaño" revision="2" />

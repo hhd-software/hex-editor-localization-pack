@@ -315,7 +315,6 @@
   <Message key="Auto" value="자동" revision="0" />
   <Message key="Physical disk" value="물리적 메모리" revision="0" />
   <Message key="Volume" value="볼륨" revision="0" />
-  <Message key="Value is out of range" value="지정된 값이 범위를 벗어납니다" revision="0" />
   <Message key="GenericError" value="작업을 실행하는 중 오류 발생: {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="기본 UI 색상" revision="0" />
   <Message key="clr.default_colors.background" value="배경" revision="0" />
@@ -425,6 +424,8 @@
   <Message key="clr.balloon.balloon.text" value="텍스트" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="스트로크" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="“이 경고를 더 이상 표시하지 않음”메시지" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="쉐브론 도트 채우기 색상" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="쉐브론 도트 스트로크 색상" revision="0" />
   <Message key="Ready" value="준비됨" revision="0" />
   <Message key="Little endian" value="리틀 에디안" revision="0" />
   <Message key="Big endian" value="빅 에디안" revision="0" />
