@@ -452,6 +452,9 @@
   <Message key="DefaultAlignment" value="По умолчанию{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Указано недопустимое выравнивание: выравнивание должно быть положительным целым числом (expressions supported)." revision="0" />
   <Message key="Delete prompt" value="Эту операцию нельзя отменить. Вы уверены, что хотите продолжить?" revision="0" />
+  <Message key="Start" value="Начало" revision="0" />
+  <Message key="End" value="Конец" revision="0" />
+  <Message key="Size" value="Размер" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
@@ -951,7 +954,4 @@
     <Item value="Продолжить" revision="0" />
     <Item value="Отключить настройки совместимости и перезапустить приложение" revision="0" />
   </Enumeration>
-  <Message key="Start" value="Начало" />
-  <Message key="End" value="Конец" />
-  <Message key="Size" value="Размер" />
 </Language>

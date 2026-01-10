@@ -135,6 +135,7 @@
   <Message key="regexp_rule.regular expression empty" value="A string da expressão regular está vazia" revision="0" />
   <Message key="range_rule.size is zero" value="O tamanho do intervalo é zero" revision="0" />
   <Message key="range_rule.invalid range" value="Intervalo inválido" revision="0" />
+  <Message key="Invalid rule object" value="Objeto de regra inválido: {error}" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Limpar Histórico" revision="0" />
     <Item value="Limpa o Histórico" revision="0" />
@@ -164,20 +165,20 @@
     <Item value="Cria um patch com as alterações atuais" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item />
-    <Item />
+    <Item value="Criar nova regra de padrão…" revision="0" />
+    <Item value="Definir nova regra de coloração de padrão" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item />
-    <Item />
+    <Item value="Criar nova regra de intervalo…" revision="0" />
+    <Item value="Definir nova regra de coloração de intervalo" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item />
-    <Item />
+    <Item value="Criar nova regra de intervalo de valores…" revision="0" />
+    <Item value="Definir nova regra de coloração do intervalo de valores" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
-    <Item />
-    <Item />
+    <Item value="Duplique a regra…" revision="0" />
+    <Item value="Criar uma cópia de uma regra selecionada" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Salvar o Esquema…" revision="0" />
@@ -456,15 +457,15 @@
     <Item value="O recurso Histórico de Ramificação permite-lhe manter as operações desfeitas em diferentes ramos de  histórico. Você pode, então, mudar para esse ramo, copiar dados a partir dele etc." revision="0" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nova regra de alcance" revision="0" />
+    <Item value="Editar a regra de intervalo" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nova regra de intervalo de valores" revision="0" />
+    <Item value="Editar a regra do intervalo de valores" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nova regra de padrão" revision="0" />
+    <Item value="Editar a regra do padrão" revision="0" />
   </Enumeration>
 </Language>

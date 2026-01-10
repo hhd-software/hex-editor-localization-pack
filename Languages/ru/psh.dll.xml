@@ -135,6 +135,7 @@
   <Message key="regexp_rule.regular expression empty" value="Строка регулярного выражения пустая" revision="0" />
   <Message key="range_rule.size is zero" value="Размер диапазона равен нулю" revision="0" />
   <Message key="range_rule.invalid range" value="Недопустимый диапазон" revision="0" />
+  <Message key="Invalid rule object" value="Неверный объект правила: {error}" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Удалить историю" revision="0" />
     <Item value="Удалить историю" revision="0" />
@@ -164,20 +165,20 @@
     <Item value="Создать патч с текущими изменениями" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item />
-    <Item />
+    <Item value="Создать новое правило шаблона…" revision="0" />
+    <Item value="Определить новое правило раскрашивания шаблона" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item />
-    <Item />
+    <Item value="Создать новое диапазонное правило…" revision="0" />
+    <Item value="Определить новое правило раскраски диапазона" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item />
-    <Item />
+    <Item value="Создать новое правило диапазона значений…" revision="0" />
+    <Item value="Определить новое правило раскраски диапазона значений" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
-    <Item />
-    <Item />
+    <Item value="Дублировать правило…" revision="0" />
+    <Item value="Создать копию выбранного правила" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Сохранить схему…" revision="0" />
@@ -456,15 +457,15 @@
     <Item value="Функция &quot;Ветвление истории&quot; позволяет вести параллельно несколько редакций одного файла и выполнять для них операции, в т.ч. из разных ветвей." revision="0" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Новое правило диапазона" revision="0" />
+    <Item value="Изменить правило диапазона" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Новое правило диапазона значений" revision="0" />
+    <Item value="Изменить правило диапазона значений" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Новое правило шаблона" revision="0" />
+    <Item value="Редактирование правила шаблона" revision="0" />
   </Enumeration>
 </Language>

@@ -429,6 +429,9 @@
   <Message key="Ready" value="準備完了" revision="0" />
   <Message key="Little endian" value="リトルエンディアン" revision="0" />
   <Message key="Big endian" value="ビッグエンディアン" revision="0" />
+  <Message key="Start" value="開始" revision="0" />
+  <Message key="End" value="終了" revision="0" />
+  <Message key="Size" value="サイズ" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理ディスク" revision="2" />
     <Item value="サイズ" revision="2" />
@@ -928,7 +931,4 @@
     <Item value="実行を継続" revision="0" />
     <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
   </Enumeration>
-  <Message key="Start" value="開始" />
-  <Message key="End" value="終了" />
-  <Message key="Size" value="サイズ" />
 </Language>

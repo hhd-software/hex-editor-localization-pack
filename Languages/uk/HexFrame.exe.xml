@@ -452,6 +452,9 @@
   <Message key="DefaultAlignment" value="Стандартне{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Вказано недійсне вирівнювання: вирівнювання повинно бути додатним цілим числом (expressions supported)." revision="0" />
   <Message key="Delete prompt" value="Цю операцію неможливо скасувати. Ви впевнені, що хочете продовжити?" revision="0" />
+  <Message key="Start" value="Початок" revision="0" />
+  <Message key="End" value="Кінець" revision="0" />
+  <Message key="Size" value="Розмір" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Розмір" revision="2" />
@@ -951,7 +954,4 @@
     <Item value="Продовжити" revision="0" />
     <Item value="Вимкнути налаштування сумісності та перезапустити програму" revision="0" />
   </Enumeration>
-  <Message key="Start" value="Початок" />
-  <Message key="End" value="Кінець" />
-  <Message key="Size" value="Розмір" />
 </Language>

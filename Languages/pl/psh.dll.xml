@@ -135,6 +135,7 @@
   <Message key="regexp_rule.regular expression empty" value="Ciąg znaków wyrażenia regularnego jest pusty" revision="0" />
   <Message key="range_rule.size is zero" value="Rozmiar zakresu wynosi zero" revision="0" />
   <Message key="range_rule.invalid range" value="Nieważny zakres" revision="0" />
+  <Message key="Invalid rule object" value="Nieprawidłowy obiekt reguły: {error}" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Czyść historię" revision="0" />
     <Item value="Czyść historię" revision="0" />
@@ -164,20 +165,20 @@
     <Item value="Utwórz łatkę z bieżącymi zmianami" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item />
-    <Item />
+    <Item value="Utwórz nową regułę wzorca…" revision="0" />
+    <Item value="Zdefiniuj nową regułę kolorowania wzoru" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item />
-    <Item />
+    <Item value="Utwórz nową regułę zakresu…" revision="0" />
+    <Item value="Zdefiniuj nową regułę kolorowania zakresu" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item />
-    <Item />
+    <Item value="Utwórz nową regułę zakresu wartości…" revision="0" />
+    <Item value="Zdefiniuj nową regułę kolorowania zakresu wartości" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
-    <Item />
-    <Item />
+    <Item value="Powiel regułę…" revision="0" />
+    <Item value="Utwórz kopię wybranej reguły" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Zapisz schemat…" revision="0" />
@@ -456,15 +457,15 @@
     <Item value="Funkcja rozgałęziania historii umożliwia zachowanie cofniętych operacji w różnych gałęziach historii. Następnie możesz przełączyć się do tej gałęzi, skopiować z niej dane itp." revision="0" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nowa zasada dotycząca zasięgu" revision="0" />
+    <Item value="Edytuj regułę zakresu" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nowa reguła zakresu wartości" revision="0" />
+    <Item value="Edytuj regułę zakresu wartości" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nowa zasada dotycząca wzorów" revision="0" />
+    <Item value="Edytuj regułę wzorca" revision="0" />
   </Enumeration>
 </Language>

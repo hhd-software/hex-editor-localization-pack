@@ -452,6 +452,9 @@
   <Message key="DefaultAlignment" value="Standardowe{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Podano nieprawidłowe wyrównanie: wyrównanie musi być dodatnią wartością całkowitą (expressions supported)." revision="0" />
   <Message key="Delete prompt" value="Nie można cofnąć tej operacji. Czy na pewno chcesz kontynuować?" revision="0" />
+  <Message key="Start" value="Start" revision="0" />
+  <Message key="End" value="Koniec" revision="0" />
+  <Message key="Size" value="Rozmiar" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Dysk fizyczny" revision="2" />
     <Item value="Rozmiar" revision="2" />
@@ -951,7 +954,4 @@
     <Item value="Kontynuuj wykonanie" revision="0" />
     <Item value="Usuń ustawienia kompatybilności i uruchom ponownie aplikację" revision="0" />
   </Enumeration>
-  <Message key="Start" value="Start" />
-  <Message key="End" value="Koniec" />
-  <Message key="Size" value="Rozmiar" />
 </Language>
