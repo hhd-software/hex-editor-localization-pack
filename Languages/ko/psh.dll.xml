@@ -15,7 +15,8 @@
   <Message key="These attributes can not be applied." value="이러한 특성을 적용할 수 없습니다." revision="0" />
   <Message key="Error setting file time." value="파일 시간을 설정하는 중 오류가 발생했습니다." revision="0" />
   <Message key="Multiple" value="다중" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Outline color" value="윤곽선 색상" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="내역" revision="0" />
   <Message key="Pattern Coloring" value="패턴 색상" revision="0" />
   <Message key="Base Converter" value="기본 변환기" revision="0" />
@@ -33,7 +34,6 @@
   <Message key="Error writing to the file" value="파일에 쓰는 중 오류 발생" revision="0" />
   <Message key="Error reading from the file" value="파일에서 읽는 중 오류 발생" revision="0" />
   <Message key="Select Colors" value="색상 선택" revision="0" />
-  <Message key="PColFilter" value="패턴 색상 구성표 파일|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="현재 구성표가 손실됩니다. 계속하시겠습니까?" revision="0" />
   <Message key="The file has different version" value="파일의 버전이 다릅니다" revision="0" />
   <Message key="Clear Coloring Scheme" value="색상 구성표 지우기" revision="0" />
@@ -305,8 +305,8 @@
     <Item value="10진수" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="범위: {from} – {to} (Size: {size})" revision="0" />
-    <Item value="범위: {from} – {to} (Size: {size})" revision="0" />
+    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (Size: [[[b{size}]]])" revision="2" />
+    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (Size: [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="실행 취소된 작업을 모두 삭제합니다. 다시 실행 명령을 실행할 수 없습니다." revision="0" />

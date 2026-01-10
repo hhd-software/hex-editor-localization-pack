@@ -15,7 +15,11 @@
   <Message key="These attributes can not be applied." value="Ці атрибути не можуть бути застосовані." revision="0" />
   <Message key="Error setting file time." value="Помилка при встановленні часу." revision="0" />
   <Message key="Multiple" value="Множинне" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Back color" value="Колір фону" revision="0" />
+  <Message key="Text color" value="Колір тексту" revision="0" />
+  <Message key="Outline color" value="Колір контуру" revision="0" />
+  <Message key="ValueRangeHeader" value="Діапазон значень" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Історія" revision="0" />
   <Message key="Pattern Coloring" value="Забарвлення послідовності" revision="0" />
   <Message key="Base Converter" value="Базовий конвертер" revision="0" />
@@ -33,7 +37,7 @@
   <Message key="Error writing to the file" value="Помилка при записі у файл" revision="0" />
   <Message key="Error reading from the file" value="Помилка при читанні з файлу" revision="0" />
   <Message key="Select Colors" value="Вибрати кольори" revision="0" />
-  <Message key="PColFilter" value="Файли колірних схем послідовностей |*.hexpcs|" revision="2" />
+  <Message key="PColFilter" value="Файли схем забарвлення візерунківs" revision="3" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Поточна схема буде загублена. Продовжити?" revision="0" />
   <Message key="The file has different version" value="Файл має іншу версію" revision="0" />
   <Message key="Clear Coloring Scheme" value="Очистити колірну схему" revision="0" />
@@ -109,6 +113,8 @@
   <Message key="Offset:" value="Зміщення:" revision="0" />
   <Message key="Size:" value="Розмір:" revision="0" />
   <Message key="Round edges" value="Округлі кути" revision="0" />
+  <Message key="Show rule tooltip" value="Показувати пораду" revision="0" />
+  <Message key="Show in info pane" value="Показувати в інформаційній панелі" revision="0" />
   <Message key="Change Time" value="Зміна часу" revision="0" />
   <Message key="PatternColoring settings" value="Підсвічування послідовностей" revision="0" />
   <Message key="toolbar.Attributes" value="Атрибути" revision="0" />
@@ -116,6 +122,14 @@
   <Message key="toolbar.Statistics" value="Статистика" revision="0" />
   <Message key="toolbar.History" value="Історія" revision="0" />
   <Message key="toolbar.History Window" value="Дерево історії" revision="0" />
+  <Message key="ShowRuleTooltip" value="Показувати правило у підказці" revision="0" />
+  <Message key="Pattern coloring alignment" value=", вирівнювання={alignment}" revision="0" />
+  <Message key="rr.Expressions supported" value="Ви можете використовувати математичні вирази при введенні значень [[[bПочаток]]], [[[bРозмір]]] або [[[bКінець]]].\n\nДодайте префікс «0x», щоб використовувати шістнадцяткові числа." revision="0" />
+  <Message key="Invalid fp value" value="Помилка під час аналізу значення з плаваючою комою" revision="0" />
+  <Message key="No negative integers" value="Мінімальне і максимальне значення діапазону повинні бути невід'ємними." revision="0" />
+  <Message key="Max is less than min" value="Максимальне значення діапазону повинно бути більшим або дорівнювати мінімальному значенню." revision="0" />
+  <Message key="Out of range value" value="Значення виходить за межі діапазону для вибраного типу значення." revision="0" />
+  <Message key="pattern_rule.data is empty" value="Шаблон порожній" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Видалити історію" revision="0" />
     <Item value="Видалити історію" revision="0" />
@@ -305,8 +319,8 @@
     <Item value="Десяткове" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="Діапазон: {from} – {to} (Розмір: {size})" revision="0" />
-    <Item value="Діапазон: {from} – {to} (Розмір: {size})" revision="0" />
+    <Item value="Діапазон: [ [[[b{from}]]] – [[[b{to}]]] ] (Розмір: [[[b{size}]]])" revision="2" />
+    <Item value="Діапазон: [ [[[b{from}]]] – [[[b{to}]]] ] (Розмір: [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="Видаляє всі скасовані операції. Операція повернення стає недоступною." revision="0" />

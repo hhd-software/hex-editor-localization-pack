@@ -15,7 +15,11 @@
   <Message key="These attributes can not be applied." value="Ces attributs ne peuvent pas être appliquées." revision="0" />
   <Message key="Error setting file time." value="Erreur lors du changement de l'heure du fichier." revision="0" />
   <Message key="Multiple" value="Multiple" revision="0" />
-  <Message key="RegExpPattern" value="Expression régulière: {pattern}" revision="0" />
+  <Message key="Back color" value="Couleur d'arrière-plan" revision="0" />
+  <Message key="Text color" value="Couleur du texte" revision="0" />
+  <Message key="Outline color" value="Couleur des contours" revision="0" />
+  <Message key="ValueRangeHeader" value="Plage de valeurs" revision="0" />
+  <Message key="RegExpPattern" value="Expression régulière: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Historique" revision="0" />
   <Message key="Pattern Coloring" value="Coloriage du Motif" revision="0" />
   <Message key="Base Converter" value="Changement  de base" revision="0" />
@@ -33,7 +37,7 @@
   <Message key="Error writing to the file" value="Erreur lors d'écriture des données au fichier." revision="0" />
   <Message key="Error reading from the file" value="Erreur lors de la lecture des données du fichier." revision="0" />
   <Message key="Select Colors" value="Sélectionner les couleurs" revision="0" />
-  <Message key="PColFilter" value="Fichier de schéma de coloriage|*.hexpcs|" revision="2" />
+  <Message key="PColFilter" value="Fichiers de schémas de coloration de motifs" revision="3" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Le schéma de Coloriage actuel sera perdu. Voulez-vous continuer?" revision="0" />
   <Message key="The file has different version" value="Le fichier a une version différente." revision="0" />
   <Message key="Clear Coloring Scheme" value="Rétablir le schéma de Coloriage" revision="0" />
@@ -109,6 +113,8 @@
   <Message key="Offset:" value="Décalage:" revision="0" />
   <Message key="Size:" value="Taille:" revision="0" />
   <Message key="Round edges" value="Bordures arrondis" revision="0" />
+  <Message key="Show rule tooltip" value="Afficher l'info-bulle" revision="0" />
+  <Message key="Show in info pane" value="Afficher dans le volet d'informations" revision="0" />
   <Message key="Change Time" value="Changer l'heure" revision="0" />
   <Message key="PatternColoring settings" value="Motif de modéle" revision="0" />
   <Message key="toolbar.Attributes" value="Attributs" revision="0" />
@@ -116,6 +122,14 @@
   <Message key="toolbar.Statistics" value="Statistiques" revision="0" />
   <Message key="toolbar.History" value="Historique" revision="0" />
   <Message key="toolbar.History Window" value="Fenêtre de l'arborescence historique" revision="0" />
+  <Message key="ShowRuleTooltip" value="Afficher la règle dans l'info-bulle" revision="0" />
+  <Message key="Pattern coloring alignment" value=", alignement={alignment}" revision="0" />
+  <Message key="rr.Expressions supported" value="Vous pouvez utiliser des expressions mathématiques lorsque vous saisissez les valeurs [[[bDébut]]], [[[bTaille]]] ou [[[bFin]]].\n\nAjoutez le préfixe « 0x » aux nombres pour utiliser les nombres hexadécimaux." revision="0" />
+  <Message key="Invalid fp value" value="Erreur lors de l'analyse de la valeur à virgule flottante" revision="0" />
+  <Message key="No negative integers" value="Les valeurs minimales et maximales doivent être non négatives." revision="0" />
+  <Message key="Max is less than min" value="La valeur maximale doit être supérieure ou égale à la valeur minimale." revision="0" />
+  <Message key="Out of range value" value="La valeur est hors plage pour le type de valeur sélectionné." revision="0" />
+  <Message key="pattern_rule.data is empty" value="Le motif est vide" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Supprimer l'historique " revision="0" />
     <Item value="Supprimer l'historique" revision="0" />
@@ -305,8 +319,8 @@
     <Item value="Décimale" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="Plage: {from} – {to} (Taille: {size})" revision="0" />
-    <Item value="Plage: {from} – {to} (Taille: {size})" revision="0" />
+    <Item value="Plage: [ [[[b{from}]]] – [[[b{to}]]] ] (Taille : [[[b{size}]]])" revision="2" />
+    <Item value="Plage: [ [[[b{from}]]] – [[[b{to}]]] ] (Taille : [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="Supprimer toutes les opérations annulées. Vous ne serez pas en mesure d'exécuter une commande Rétablir." revision="0" />

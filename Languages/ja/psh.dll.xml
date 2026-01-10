@@ -15,7 +15,8 @@
   <Message key="These attributes can not be applied." value="これらの属性は適用できません。" revision="0" />
   <Message key="Error setting file time." value="ファイル日時の設定中にエラーが発生しました。" revision="0" />
   <Message key="Multiple" value="複数" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Outline color" value="外枠の色" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="履歴" revision="0" />
   <Message key="Pattern Coloring" value="パターン カラーリング" revision="0" />
   <Message key="Base Converter" value="ベース コンバーター" revision="0" />
@@ -33,7 +34,6 @@
   <Message key="Error writing to the file" value="ファイルへの書き込みエラー" revision="0" />
   <Message key="Error reading from the file" value="ファイルからの読み取りエラー" revision="0" />
   <Message key="Select Colors" value="色の選択" revision="0" />
-  <Message key="PColFilter" value="パターンカラーリングスキームファイル|*.hexpcs|" revision="2" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="現在のスキームは失われます。 続行しますか？" revision="0" />
   <Message key="The file has different version" value="ファイルのバージョンが異なります" revision="0" />
   <Message key="Clear Coloring Scheme" value="カラーリング スキームの消去" revision="0" />
@@ -305,8 +305,8 @@
     <Item value="10進数" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="範囲 : {from} – {to} (サイズ : {size})" revision="0" />
-    <Item value="範囲 : {from} – {to} (サイズ : {size})" revision="0" />
+    <Item value="範囲 : [ [[[b{from}]]] – [[[b{to}]]] ] (サイズ : [[[b{size}]]])" revision="2" />
+    <Item value="範囲 : [ [[[b{from}]]] – [[[b{to}]]] ] (サイズ : [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="取り消し操作をすべて削除します。 やり直しコマンドは実行できなくなります。" revision="0" />

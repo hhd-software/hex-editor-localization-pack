@@ -15,7 +15,11 @@
   <Message key="These attributes can not be applied." value="Te atrybuty nie mogą być stosowane." revision="0" />
   <Message key="Error setting file time." value="Błąd ustawienia czasu pliku." revision="0" />
   <Message key="Multiple" value="Wiele" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Back color" value="Kolor tła" revision="0" />
+  <Message key="Text color" value="Kolor tekstu" revision="0" />
+  <Message key="Outline color" value="Kolor konturu" revision="0" />
+  <Message key="ValueRangeHeader" value="Zakres wartości" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Historia" revision="0" />
   <Message key="Pattern Coloring" value="Kolorowanie wzorów" revision="0" />
   <Message key="Base Converter" value="Konwerter bazowy" revision="0" />
@@ -33,7 +37,7 @@
   <Message key="Error writing to the file" value="Błąd zapisu do pliku" revision="0" />
   <Message key="Error reading from the file" value="Błąd odczytu z pliku" revision="0" />
   <Message key="Select Colors" value="Wybierz Kolory" revision="0" />
-  <Message key="PColFilter" value="Pliki schematu kolorowania wzoru|*.hexpcs|" revision="2" />
+  <Message key="PColFilter" value="Pliki schematów kolorów wzorów" revision="3" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Obecny schemat zostanie utracony. Czy chcesz kontynuować?" revision="0" />
   <Message key="The file has different version" value="Plik ma inną wersję" revision="0" />
   <Message key="Clear Coloring Scheme" value="Wyczyść schemat kolorystyczny" revision="0" />
@@ -109,6 +113,8 @@
   <Message key="Offset:" value="Offset:" revision="0" />
   <Message key="Size:" value="Rozmiar:" revision="0" />
   <Message key="Round edges" value="Zaokrąglone krawędzie" revision="0" />
+  <Message key="Show rule tooltip" value="Pokaż sugestię" revision="0" />
+  <Message key="Show in info pane" value="Pokaż w panelu informacyjnym" revision="0" />
   <Message key="Change Time" value="Zmień czas" revision="0" />
   <Message key="PatternColoring settings" value="Kolorowanie wzorów" revision="0" />
   <Message key="toolbar.Attributes" value="Atrybuty" revision="0" />
@@ -116,6 +122,14 @@
   <Message key="toolbar.Statistics" value="Statystyka" revision="0" />
   <Message key="toolbar.History" value="Historia" revision="0" />
   <Message key="toolbar.History Window" value="Okno drzewa historii" revision="0" />
+  <Message key="ShowRuleTooltip" value="Pokaż regułę w podpowiedzi" revision="0" />
+  <Message key="Pattern coloring alignment" value=", wyrównanie={alignment}" revision="0" />
+  <Message key="rr.Expressions supported" value="Podczas wprowadzania wartości [[[bStart]]], [[[bRozmiar]]] lub [[[bKoniec]]] można używać wyrażeń matematycznych.\n\nAby używać liczb szesnastkowych, należy poprzedzić je prefiksem „0x”." revision="0" />
+  <Message key="Invalid fp value" value="Błąd podczas analizowania wartości zmiennoprzecinkowej" revision="0" />
+  <Message key="No negative integers" value="Zarówno minimalne, jak i maksymalne wartości zakresu muszą być nieujemne." revision="0" />
+  <Message key="Max is less than min" value="Maksymalna wartość zakresu musi być większa lub równa wartości minimalnej." revision="0" />
+  <Message key="Out of range value" value="Wartość wykracza poza zakres dla wybranego typu wartości." revision="0" />
+  <Message key="pattern_rule.data is empty" value="Wzór jest pusty" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Czyść historię" revision="0" />
     <Item value="Czyść historię" revision="0" />
@@ -305,8 +319,8 @@
     <Item value="Decimal" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="Zakres: {from} – {to} (Rozmiar: {size})" revision="0" />
-    <Item value="Zakres: {from} – {to} (Rozmiar: {size})" revision="0" />
+    <Item value="Zakres: [ [[[b{from}]]] – [[[b{to}]]] ] (Rozmiar: [[[b{size}]]])" revision="2" />
+    <Item value="Zakres: [ [[[b{from}]]] – [[[b{to}]]] ] (Rozmiar: [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="Usuń wszystkie cofnięte operacje. Nie będzie można wykonać polecenia Ponów." revision="0" />

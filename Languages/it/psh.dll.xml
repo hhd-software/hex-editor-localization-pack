@@ -15,7 +15,11 @@
   <Message key="These attributes can not be applied." value="Questi attributi non possono essere applicati." revision="0" />
   <Message key="Error setting file time." value="Errore impostazione data al file." revision="0" />
   <Message key="Multiple" value="Multiplo" revision="0" />
-  <Message key="RegExpPattern" value="ER: {pattern}" revision="0" />
+  <Message key="Back color" value="Colore di sfondo" revision="0" />
+  <Message key="Text color" value="Colore del testo" revision="0" />
+  <Message key="Outline color" value="Colore contorno" revision="0" />
+  <Message key="ValueRangeHeader" value="Intervallo di valori" revision="0" />
+  <Message key="RegExpPattern" value="ER: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Cronologia" revision="0" />
   <Message key="Pattern Coloring" value="Colorazione modello" revision="0" />
   <Message key="Base Converter" value="Convertitore base" revision="0" />
@@ -33,7 +37,7 @@
   <Message key="Error writing to the file" value="Errore scrittura nel file" revision="0" />
   <Message key="Error reading from the file" value="Errore lettura dal file" revision="0" />
   <Message key="Select Colors" value="Seleziona colori" revision="0" />
-  <Message key="PColFilter" value="File schema modello colorazione|*.hexpcs|" revision="2" />
+  <Message key="PColFilter" value="File con schemi di colorazione dei modelli" revision="3" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="Lo schema attuale andrà perso. Vuoi continuare?" revision="0" />
   <Message key="The file has different version" value="Il file ha versione diversa" revision="0" />
   <Message key="Clear Coloring Scheme" value="Cancella schema colorazione" revision="0" />
@@ -109,6 +113,8 @@
   <Message key="Offset:" value="Scostamento:" revision="0" />
   <Message key="Size:" value="Dim." revision="0" />
   <Message key="Round edges" value="Bordi arrotondati" revision="0" />
+  <Message key="Show rule tooltip" value="Mostra suggerimento" revision="0" />
+  <Message key="Show in info pane" value="Mostra nel riquadro informativo" revision="0" />
   <Message key="Change Time" value="Cambia data" revision="0" />
   <Message key="PatternColoring settings" value="Colorazione modello" revision="0" />
   <Message key="toolbar.Attributes" value="Attributi" revision="0" />
@@ -116,6 +122,14 @@
   <Message key="toolbar.Statistics" value="Statistiche" revision="0" />
   <Message key="toolbar.History" value="Cronologia" revision="0" />
   <Message key="toolbar.History Window" value="Finestra albero della cronologia" revision="0" />
+  <Message key="ShowRuleTooltip" value="Mostra regola nel tooltip" revision="0" />
+  <Message key="Pattern coloring alignment" value=", allineamento={alignment}" revision="0" />
+  <Message key="rr.Expressions supported" value="È possibile utilizzare espressioni matematiche quando si immettono i valori [[[bInizio]]], [[[bDim.]]] o [[[bFine]]].\n\nAnteporre “0x” ai numeri per utilizzare numeri esadecimali." revision="0" />
+  <Message key="Invalid fp value" value="Errore nell'analisi del valore in virgola mobile" revision="0" />
+  <Message key="No negative integers" value="Sia il valore minimo che quello massimo dell'intervallo devono essere non negativi." revision="0" />
+  <Message key="Max is less than min" value="Il valore massimo dell'intervallo deve essere maggiore o uguale al valore minimo." revision="0" />
+  <Message key="Out of range value" value="Il valore non rientra nell'intervallo previsto per il tipo di valore selezionato." revision="0" />
+  <Message key="pattern_rule.data is empty" value="Il modello è vuoto" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Cancella cronologia" revision="0" />
     <Item value="Cancella cronologia" revision="0" />
@@ -305,8 +319,8 @@
     <Item value="Decimale" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="Intervallo: {from} – {to} (Dim.: {size})" revision="0" />
-    <Item value="Intervallo: {from} – {to} (Dim.: {size})" revision="0" />
+    <Item value="Intervallo: [ [[[b{from}]]] – [[[b{to}]]] ] (Dim.: [[[b{size}]]])" revision="2" />
+    <Item value="Intervallo: [ [[[b{from}]]] – [[[b{to}]]] ] (Dim.: [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="Epura tutte le operazioni annullate. Non sarai in grado di eseguire il comando ripristina." revision="0" />

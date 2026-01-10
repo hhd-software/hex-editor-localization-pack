@@ -584,7 +584,7 @@
 
 	<Message key="Invalid fp value" description="Invalid floating-point value" value="Error parsing the floating-point value"/>
 	<Message key="No negative integers" description="No negative values allowed for value range" value="Both minimum and maximum range values must be non-negative."/>
-	<Message key="Max is less than min" description="Maximum value is less than minimum value" value="Maximum value range value must be greater or equal to minimum value."/>
+	<Message key="Max is less than min" description="Maximum value is less than minimum value" value="Maximum range value must be greater or equal than minimum value."/>
 	<Message key="Out of range value" description="Value is out of range" value="Value is out of range for selected value type."/>
 	
 	<!-- Scripting errors -->
