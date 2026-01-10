@@ -1396,4 +1396,8 @@
 	<Message key="InvalidAlignment" description="Invalid alignment" value="Invalid alignment specified: alignment must be a positive integer value (expressions supported)."/>
 
 	<Message key="Delete prompt" description="Delete item confirmation message" value="This operation cannot be undone. Are you sure you want to continue?" />
+
+	<Message key="Start" description="Field: Start" />
+	<Message key="End" description="Field: End" />
+	<Message key="Size" description="Field: Size" />
 </Definition>

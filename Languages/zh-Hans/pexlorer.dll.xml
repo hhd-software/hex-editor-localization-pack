@@ -3,9 +3,6 @@
   <Message key="ProcessCat" value="进程" revision="0" />
   <Message key="RegionInfo" value="[[[u进程内存范围]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[b区域终点:]]]  {end} ({end:2})\r  [[[b区域大小:]]] {size} ({size:2})\r  [[[b类型:]]]  {type}\r  [[[b状态:]]] {state}\r  [[[b标志:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="未知" revision="1" />
-  <Message key="Start:" value="开始地址:" revision="1" />
-  <Message key="End:" value="结束地址:" revision="1" />
-  <Message key="Size:" value="大小:" revision="1" />
   <Message key="Snapshots" value="快照" revision="0" />
   <Message key="clr.pex_colors" value="进程窗口颜色" revision="1" />
   <Message key="clr.pex_colors.NoAccess" value="禁止进入区域" revision="0" />

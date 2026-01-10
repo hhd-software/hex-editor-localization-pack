@@ -951,4 +951,7 @@
     <Item value="Continua l'esecuzione" revision="0" />
     <Item value="Rimuovi le impostazioni di compatibilità e riavvia l'applicazione" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Inizio" />
+  <Message key="End" value="Fine" />
+  <Message key="Size" value="Dim:" />
 </Language>

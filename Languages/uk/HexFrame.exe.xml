@@ -951,4 +951,7 @@
     <Item value="Продовжити" revision="0" />
     <Item value="Вимкнути налаштування сумісності та перезапустити програму" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Початок" />
+  <Message key="End" value="Кінець" />
+  <Message key="Size" value="Розмір" />
 </Language>

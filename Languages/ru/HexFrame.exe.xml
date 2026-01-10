@@ -951,4 +951,7 @@
     <Item value="Продолжить" revision="0" />
     <Item value="Отключить настройки совместимости и перезапустить приложение" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Начало" />
+  <Message key="End" value="Конец" />
+  <Message key="Size" value="Размер" />
 </Language>

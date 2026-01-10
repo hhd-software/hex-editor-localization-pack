@@ -3,9 +3,6 @@
   <Message key="ProcessCat" value="Proces" revision="0" />
   <Message key="RegionInfo" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]]  {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
   <Message key="Unknown" value="Nieznany" revision="1" />
-  <Message key="Start:" value="Start:" revision="1" />
-  <Message key="End:" value="Koniec:" revision="1" />
-  <Message key="Size:" value="Rozmiar:" revision="1" />
   <Message key="Snapshots" value="Migawki" revision="0" />
   <Message key="clr.pex_colors" value="Kolory okna procesu" revision="1" />
   <Message key="clr.pex_colors.NoAccess" value="Region bez dostępu" revision="0" />

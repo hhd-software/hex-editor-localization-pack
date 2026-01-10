@@ -951,4 +951,7 @@
     <Item value="Ausführung fortsetzen" revision="0" />
     <Item value="Entfernen Sie die Kompatibilitätseinstellungen und starten Sie die Anwendung neu" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Beginn" />
+  <Message key="End" value="Ende" />
+  <Message key="Size" value="Größe" />
 </Language>

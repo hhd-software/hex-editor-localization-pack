@@ -928,4 +928,7 @@
     <Item value="実行を継続" revision="0" />
     <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
   </Enumeration>
+  <Message key="Start" value="開始" />
+  <Message key="End" value="終了" />
+  <Message key="Size" value="サイズ" />
 </Language>

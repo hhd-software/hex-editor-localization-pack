@@ -3,9 +3,6 @@
   <Message key="ProcessCat" value="프로세스" revision="0" />
   <Message key="RegionInfo" value="[[[u프로세스 메모리 범위]]]\r  [[[b지역 기반:]]] {base} ({base:2})\r  [[[b지역 끝:]]] {end} ({end:2})\r  [[[b지역 크기:]]] {size} ({size:2})\r  [[[b유형:]]] {type}\r  [[[b상태:]]] {state}\r  [[[b플래그:]]] {flags}" revision="3" />
   <Message key="Unknown" value="알 수 없음" revision="1" />
-  <Message key="Start:" value="시작:" revision="1" />
-  <Message key="End:" value="끝:" revision="1" />
-  <Message key="Size:" value="크기:" revision="1" />
   <Message key="Snapshots" value="스냅샷" revision="0" />
   <Message key="clr.pex_colors" value="프로세스 창 색상" revision="1" />
   <Message key="clr.pex_colors.NoAccess" value="액세스 금지 영역" revision="0" />

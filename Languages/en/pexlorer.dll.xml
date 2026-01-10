@@ -187,9 +187,6 @@
   </Enumeration>
 
   <!-- Dialog boxes -->
-  <Message key="Start:" description="Field: Start" revision="1"/>
-  <Message key="End:" description="Field: End" revision="1"/>
-  <Message key="Size:" description="Field: Size" revision="1"/>
 	<Message key="Snapshots" description="Text field: Snapshots"/>
 
 	<!-- Color scheme -->

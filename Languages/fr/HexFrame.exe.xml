@@ -951,4 +951,7 @@
     <Item value="Poursuivre l'exécution" revision="0" />
     <Item value="Supprimer les paramètres de compatibilité et relancer l'application" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Début" />
+  <Message key="End" value="Fin" />
+  <Message key="Size" value="Taille" />
 </Language>

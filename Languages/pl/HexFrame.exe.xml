@@ -951,4 +951,7 @@
     <Item value="Kontynuuj wykonanie" revision="0" />
     <Item value="Usuń ustawienia kompatybilności i uruchom ponownie aplikację" revision="0" />
   </Enumeration>
+  <Message key="Start" value="Start" />
+  <Message key="End" value="Koniec" />
+  <Message key="Size" value="Rozmiar" />
 </Language>
