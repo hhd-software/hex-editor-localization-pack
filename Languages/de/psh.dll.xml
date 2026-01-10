@@ -130,6 +130,11 @@
   <Message key="Max is less than min" value="Der maximale Bereichswert muss größer oder gleich dem Mindestwert sein." revision="0" />
   <Message key="Out of range value" value="Der Wert liegt außerhalb des Bereichs für den ausgewählten Wertetyp." revision="0" />
   <Message key="pattern_rule.data is empty" value="Das Muster ist leer" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Ungültiger Mustertyp" revision="0" />
+  <Message key="pc_rule.invalid group" value="Ungültige Gruppierung" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="Regex-Zeichenfolge ist leer" revision="0" />
+  <Message key="range_rule.size is zero" value="Bereichsgröße ist Null" revision="0" />
+  <Message key="range_rule.invalid range" value="Ungültiger Bereich" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Historie löschen" revision="0" />
     <Item value="Löschet die Operationen Historie" revision="0" />

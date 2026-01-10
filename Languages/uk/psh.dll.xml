@@ -130,6 +130,11 @@
   <Message key="Max is less than min" value="Максимальне значення діапазону повинно бути більшим або дорівнювати мінімальному значенню." revision="0" />
   <Message key="Out of range value" value="Значення виходить за межі діапазону для вибраного типу значення." revision="0" />
   <Message key="pattern_rule.data is empty" value="Шаблон порожній" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Недійсний тип шаблону" revision="0" />
+  <Message key="pc_rule.invalid group" value="Недійсне групування" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="Рядок регулярного виразу порожній" revision="0" />
+  <Message key="range_rule.size is zero" value="Розмір діапазону дорівнює нулю" revision="0" />
+  <Message key="range_rule.invalid range" value="Недійсний діапазон" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Видалити історію" revision="0" />
     <Item value="Видалити історію" revision="0" />

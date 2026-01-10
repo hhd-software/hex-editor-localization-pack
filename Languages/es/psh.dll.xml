@@ -130,6 +130,11 @@
   <Message key="Max is less than min" value="El valor máximo del rango debe ser mayor o igual que el valor mínimo." revision="0" />
   <Message key="Out of range value" value="El valor está fuera del rango para el tipo de valor seleccionado." revision="0" />
   <Message key="pattern_rule.data is empty" value="El patrón está vacío" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Tipo de patrón no válido" revision="0" />
+  <Message key="pc_rule.invalid group" value="Agrupación no válida" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="La cadena de expresión regular está vacía" revision="0" />
+  <Message key="range_rule.size is zero" value="El tamaño del rango es cero" revision="0" />
+  <Message key="range_rule.invalid range" value="Rango no válido" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Borrar el Historial" revision="0" />
     <Item value="Borrar el Historial" revision="0" />

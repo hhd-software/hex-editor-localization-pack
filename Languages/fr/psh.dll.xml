@@ -130,6 +130,11 @@
   <Message key="Max is less than min" value="La valeur maximale doit être supérieure ou égale à la valeur minimale." revision="0" />
   <Message key="Out of range value" value="La valeur est hors plage pour le type de valeur sélectionné." revision="0" />
   <Message key="pattern_rule.data is empty" value="Le motif est vide" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Type de modèle non valide" revision="0" />
+  <Message key="pc_rule.invalid group" value="Regroupement invalide" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="La chaîne d'expression régulière est vide" revision="0" />
+  <Message key="range_rule.size is zero" value="La taille de la plage est nulle" revision="0" />
+  <Message key="range_rule.invalid range" value="Plage non valide" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Supprimer l'historique " revision="0" />
     <Item value="Supprimer l'historique" revision="0" />

@@ -130,6 +130,11 @@
   <Message key="Max is less than min" value="Максимальное значение диапазона должно быть больше или равно минимальному значению." revision="0" />
   <Message key="Out of range value" value="Значение выходит за пределы диапазона для выбранного типа значения." revision="0" />
   <Message key="pattern_rule.data is empty" value="Шаблон пуст" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Недопустимый тип шаблона" revision="0" />
+  <Message key="pc_rule.invalid group" value="Неверная группировка" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="Строка регулярного выражения пустая" revision="0" />
+  <Message key="range_rule.size is zero" value="Размер диапазона равен нулю" revision="0" />
+  <Message key="range_rule.invalid range" value="Недопустимый диапазон" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Удалить историю" revision="0" />
     <Item value="Удалить историю" revision="0" />
