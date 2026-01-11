@@ -144,8 +144,8 @@
     <Item value="Rimuove l'osservazione" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item />
-    <Item />
+    <Item value="Modifica Osserva" revision="0" />
+    <Item value="Modifica Osserva" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDebug">
     <Item value="&amp;Debug" revision="0" />
