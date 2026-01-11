@@ -36,7 +36,7 @@
   <Message key="Recording macro" value="Запис макросу… [[[hНатисніть для зупинки запису]]]." revision="0" />
   <Message key="Macro script opened" value="Макроскрипт відкритий в редакторі. Щоб запустити його, використовуйте команди [[[bНалагодження » Виконати скрипт]]] або [[[bНалагодження » Налагодження скрипта]]]." revision="0" />
   <Message key="ScriptException" value="{uncaught?}Неперехоплене виключення{|uncaught}Виключення{?uncaught} &quot;{name}&quot; сталося в {line}:{column}\n" revision="0" />
-  <Message key="catchFirstChanceExceptions" value="Виловлювання винятків першої можливості під час налагодження" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Виловлювання винятків первинне виключення під час налагодження" revision="0" />
   <Message key="Debugger" value="Налагоджувач" revision="0" />
   <Message key="Main body finish" value="Виконання основного тіла скрипта завершено. Виконання асинхронних функцій та подій…\n" revision="0" />
   <Enumeration key="MacroRecord">

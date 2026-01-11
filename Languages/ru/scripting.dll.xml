@@ -36,7 +36,7 @@
   <Message key="Recording macro" value="Запись макроса… [[[hКликните для остановки записи]]]." revision="0" />
   <Message key="Macro script opened" value="Макроскрипт открыт в редакторе. Чтобы запустить его, используйте команды [[[bОтладка » Запустить скрипт]]] или [[[bОтладка » Отладка скрипта]]]." revision="0" />
   <Message key="ScriptException" value="{uncaught?}Неперехваченное исключение{|uncaught}Исключение{?uncaught} &quot;{name}&quot; произошло в {line}:{column}\n" revision="0" />
-  <Message key="catchFirstChanceExceptions" value="Перехватывать исключения первого уровня во время отладки" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Перехватывать первичное исключение во время отладки" revision="0" />
   <Message key="Debugger" value="Отладчик" revision="0" />
   <Message key="Main body finish" value="Выполнение основного тела скрипта завершено. Выполнение асинхронных функций и событий…\n" revision="0" />
   <Enumeration key="MacroRecord">
