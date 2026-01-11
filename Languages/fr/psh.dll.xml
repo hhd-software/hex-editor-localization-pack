@@ -130,6 +130,12 @@
   <Message key="Max is less than min" value="La valeur maximale doit être supérieure ou égale à la valeur minimale." revision="0" />
   <Message key="Out of range value" value="La valeur est hors plage pour le type de valeur sélectionné." revision="0" />
   <Message key="pattern_rule.data is empty" value="Le motif est vide" revision="0" />
+  <Message key="pattern_rule.invalid type" value="Type de modèle non valide" revision="0" />
+  <Message key="pc_rule.invalid group" value="Regroupement invalide" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="La chaîne d'expression régulière est vide" revision="0" />
+  <Message key="range_rule.size is zero" value="La taille de la plage est nulle" revision="0" />
+  <Message key="range_rule.invalid range" value="Plage non valide" revision="0" />
+  <Message key="Invalid rule object" value="Objet de règle non valide: {error}" revision="0" />
   <Enumeration key="HistoryClearHistory">
     <Item value="Supprimer l'historique " revision="0" />
     <Item value="Supprimer l'historique" revision="0" />
@@ -159,20 +165,20 @@
     <Item value="Création de patch avec les changements actuels" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item />
-    <Item />
+    <Item value="Créer une nouvelle règle de modèle…" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des motifs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item />
-    <Item />
+    <Item value="Créer une nouvelle règle de plage…" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des plages" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item />
-    <Item />
+    <Item value="Créer une nouvelle règle de plage de valeurs…" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des plages de valeurs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
-    <Item />
-    <Item />
+    <Item value="Dupliquer la règle…" revision="0" />
+    <Item value="Créer une copie d'une règle sélectionnée" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Enregistrer schéma…" revision="0" />
@@ -451,15 +457,15 @@
     <Item value="La fonctionnalité &quot;Historique (Arborescence des Operations)&quot; vous permet de conserver les opérations annulées d’une branche d’opérations sur des données d’un fichier ou plusieurs. Vous pouvez ensuite basculer entre les branches et copiez des opérations sur les données d'une branche à une autre etc. D’où l’intérêt des conserver une historique des Operations en forme d’arborescence" revision="0" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nouvelle règle de portée" revision="0" />
+    <Item value="Modifier la règle de plage" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nouvelle règle relative à la fourchette de valeur" revision="0" />
+    <Item value="Modifier la règle de plage de valeurs" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nouvelle règle relative aux motifs" revision="0" />
+    <Item value="Modifier la règle de motif" revision="0" />
   </Enumeration>
 </Language>

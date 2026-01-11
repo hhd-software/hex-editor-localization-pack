@@ -452,6 +452,9 @@
   <Message key="DefaultAlignment" value="Standard{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Ungültige Ausrichtung angegeben: Die Ausrichtung muss ein positiver ganzzahliger Wert sein (expressions supported)." revision="0" />
   <Message key="Delete prompt" value="Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie wirklich fortfahren?" revision="0" />
+  <Message key="Start" value="Beginn" revision="0" />
+  <Message key="End" value="Ende" revision="0" />
+  <Message key="Size" value="Größe" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Physikalische Festplatte" revision="2" />
     <Item value="Größe" revision="2" />
@@ -951,7 +954,4 @@
     <Item value="Ausführung fortsetzen" revision="0" />
     <Item value="Entfernen Sie die Kompatibilitätseinstellungen und starten Sie die Anwendung neu" revision="0" />
   </Enumeration>
-  <Message key="Start" value="Beginn" />
-  <Message key="End" value="Ende" />
-  <Message key="Size" value="Größe" />
 </Language>

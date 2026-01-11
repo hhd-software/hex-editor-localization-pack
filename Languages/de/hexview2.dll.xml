@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navigationsfenster" revision="0" />
+  <Message key="menu.HexViewPopup" value="Hex-Fenster-Popup-Menü" revision="0" />
   <Message key="Offset" value="Versatz" revision="1" />
   <Message key="SchemeNameCue" value="Gebe den Schema-Namen hier ein" revision="1" />
   <Message key="Encrypt" value="Verschlüsseln" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Bewege Cursor hinter Einfügung" revision="1" />
   <Message key="FindAllNotification" value="Alle suchen (falscher Anzeigemodus)" revision="1" />
   <Message key="PasteNotification" value="Text einfügen" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn ab Scrollschritt (Seiten)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn ab Scrollschritt (Seiten)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn ab Scrollschritt (Seiten)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Ungültiger Ausdruck. Prüfe die Syntax." revision="1" />
   <Message key="Connect to" value="Verbinden mit" revision="1" />
   <Message key="ConnectToSuccess" value="Fenster wurde erfolgreich verbunden." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Aktives Feld unterstreichen" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="QuickInfo-Hintergrund" revision="0" />
   <Message key="clr.colors.TooltipText" value="QuickInfo-Text" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Hintergrundfarbe der Infobox" revision="0" />
+  <Message key="clr.colors.InfoText" value="Infobox-Text" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Infobox-Übersicht" revision="0" />
+  <Message key="clr.colors.Wave" value="Feldhervorhebung" revision="0" />
   <Message key="toolbar.Selection" value="Auswahl" revision="0" />
+  <Message key="Info pane header" value="Infofenster" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="&amp;Alles auswählen" revision="1" />
     <Item value="Wählt alle Daten in einer Datei aus." revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Zeigt den Textbereich (ASCII oder UNICODE) im Editor-Fenster (Bearbeitungsfenster) an oder blendet ihn aus" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Infofenster" revision="1" />
+    <Item value="Informationsfenster ein- oder ausblenden" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />

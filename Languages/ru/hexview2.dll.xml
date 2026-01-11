@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Навигация" revision="0" />
+  <Message key="menu.HexViewPopup" value="Всплывающее меню Hex окна" revision="0" />
   <Message key="Offset" value="Смещение" revision="1" />
   <Message key="SchemeNameCue" value="Введите имя схемы здесь" revision="1" />
   <Message key="Encrypt" value="Шифровка" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Передвигать курсор после вставок" revision="1" />
   <Message key="FindAllNotification" value="Найти все" revision="1" />
   <Message key="PasteNotification" value="Вставить текст" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn шаг прокрутки (страницы)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn шаг прокрутки (страницы)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn шаг прокрутки (страницы)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Неправильное выражение, проверьте синтаксис" revision="1" />
   <Message key="Connect to" value="Соединить с" revision="1" />
   <Message key="ConnectToSuccess" value="Окно было успешно соединено." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Подчёркивание подсветки" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="Фон всплывающей подсказки" revision="0" />
   <Message key="clr.colors.TooltipText" value="Текст всплывающей подсказки" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Фон информационного блока" revision="0" />
+  <Message key="clr.colors.InfoText" value="Текст информационного блока" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Схема информационного блока" revision="0" />
+  <Message key="clr.colors.Wave" value="Подсветка поля" revision="0" />
   <Message key="toolbar.Selection" value="Выделение" revision="0" />
+  <Message key="Info pane header" value="Информационная панель" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Выделить &amp;все" revision="1" />
     <Item value="Выделить все данные в файле" revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Включить или выключить текстовую область" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Информационная панель" revision="1" />
+    <Item value="Показать или скрыть панель информации" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шестнадцатеричный" revision="1" />

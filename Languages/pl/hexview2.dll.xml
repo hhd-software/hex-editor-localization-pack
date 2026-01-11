@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Nawigacja" revision="0" />
+  <Message key="menu.HexViewPopup" value="Menu podręczne okna szesnastkowego" revision="0" />
   <Message key="Offset" value="Offset" revision="1" />
   <Message key="SchemeNameCue" value="Wpisz tutaj nazwę schematu" revision="1" />
   <Message key="Encrypt" value="Szyfruj" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Przesuń kursor po wklejeniu" revision="1" />
   <Message key="FindAllNotification" value="Znajdź wszystko" revision="1" />
   <Message key="PasteNotification" value="Wklej tekst" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn przewijanie (strony)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn przewijanie (strony)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn przewijanie (strony)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Nieprawidłowe wyrażenie. Sprawdź składnię." revision="1" />
   <Message key="Connect to" value="Połącz z" revision="1" />
   <Message key="ConnectToSuccess" value="Windows został pomyślnie podłączony." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Aktywne podkreślenie pola" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="Tło podpowiedzi" revision="0" />
   <Message key="clr.colors.TooltipText" value="Tekst podpowiedzi" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Tło okna informacyjnego" revision="0" />
+  <Message key="clr.colors.InfoText" value="Tekst ramki informacyjnej" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Zarys ramki informacyjnej" revision="0" />
+  <Message key="clr.colors.Wave" value="Podświetlenie pola" revision="0" />
   <Message key="toolbar.Selection" value="Wybór" revision="0" />
+  <Message key="Info pane header" value="Panel informacyjny" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Wybierz &amp;wszystko" revision="1" />
     <Item value="Wybierz wszystkie dane w pliku" revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Pokaż lub ukryj panel tekstowy (ASCII lub UNICODE)." revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Panel informacyjny" revision="1" />
+    <Item value="Pokaż lub ukryj panel informacyjny" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />

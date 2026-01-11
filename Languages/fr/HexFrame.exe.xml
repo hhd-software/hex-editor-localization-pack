@@ -452,6 +452,9 @@
   <Message key="DefaultAlignment" value="Par défaut{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Alignement invalide spécifié : l'alignement doit être une valeur entière positive (expressions supported)." revision="0" />
   <Message key="Delete prompt" value="Cette opération ne peut pas être annulée. Voulez-vous vraiment continuer ?" revision="0" />
+  <Message key="Start" value="Début" revision="0" />
+  <Message key="End" value="Fin" revision="0" />
+  <Message key="Size" value="Taille" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disque physique" revision="2" />
     <Item value="Taille" revision="2" />
@@ -951,7 +954,4 @@
     <Item value="Poursuivre l'exécution" revision="0" />
     <Item value="Supprimer les paramètres de compatibilité et relancer l'application" revision="0" />
   </Enumeration>
-  <Message key="Start" value="Début" />
-  <Message key="End" value="Fin" />
-  <Message key="Size" value="Taille" />
 </Language>

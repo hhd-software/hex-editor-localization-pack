@@ -442,7 +442,7 @@
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
     <Item />
-    <Item />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
     <Item />
