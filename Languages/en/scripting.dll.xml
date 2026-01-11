@@ -227,7 +227,7 @@
 
 	<Message key="Macro script opened" description="Macro script opened (note the use of non-breaking space around '»')" value="Macro script is opened in editor. To start it, use [[[bDebug&#160;»&#160;Run Script]]] or [[[bDebug&#160;»&#160;Debug Script]]] commands."/>
 
-	<Message key="ScriptException" description="Script exception during debugging" value="{uncaught?}Uncaught e{|uncaught}E{?uncaught}xception &quot;{name}&quot; occurred at {line}:{column}\n">
+	<Message key="ScriptException" description="Script exception during debugging" value="{uncaught?}Uncaught exception{|uncaught}Exception{?uncaught} &quot;{name}&quot; occurred at {line}:{column}\n">
 		<Param name="uncaught" format="?"/>
 		<Param name="name"/>
 		<Param name="line"/>

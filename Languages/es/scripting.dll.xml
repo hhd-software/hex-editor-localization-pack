@@ -31,6 +31,14 @@
   <Message key="Script files" value="Archivos de script" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Copia de {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Macro {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Script de línea de comandos" revision="0" />
+  <Message key="Running macro" value="Ejecutar [[[b{macro}]]]… [[[hHaga clic para detener]]]." revision="0" />
+  <Message key="Recording macro" value="Grabación de macro… [[[hHaga clic para detener la grabación]]]." revision="0" />
+  <Message key="Macro script opened" value="El script macro se abre en el editor. Para iniciarlo, utilice los comandos [[[bDepurar » Ejecutar script]]] o [[[bDepurar » Depurar el script]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Excepción no detectada{|uncaught}Excepción{?uncaught} &quot;{name}&quot; se produjo en {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Detectar excepciones de primera oportunidad durante la depuración" revision="0" />
+  <Message key="Debugger" value="Depurador" revision="0" />
+  <Message key="Main body finish" value="Ejecución del cuerpo principal del script finalizada. Ejecutando funciones y eventos asíncronos.…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="E&amp;mpezar a grabar" revision="0" />
     <Item value="Iniciar la grabación de macros" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Macros" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Ejecutar" revision="0" />
+    <Item value="Ejecutar macro seleccionada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Nuevo Script" revision="0" />

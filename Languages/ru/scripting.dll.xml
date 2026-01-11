@@ -31,6 +31,14 @@
   <Message key="Script files" value="Файлы скриптов" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Копия {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Макро {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Скрипт командной строки" revision="0" />
+  <Message key="Running macro" value="Исполнение [[[b{macro}]]]… [[[hКликнуть для остановки]]]." revision="0" />
+  <Message key="Recording macro" value="Запись макроса… [[[hКликните для остановки записи]]]." revision="0" />
+  <Message key="Macro script opened" value="Макроскрипт открыт в редакторе. Чтобы запустить его, используйте команды [[[bОтладка » Запустить скрипт]]] или [[[bОтладка » Отладка скрипта]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Неперехваченное исключение{|uncaught}Исключение{?uncaught} &quot;{name}&quot; произошло в {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Перехватывать исключения первого уровня во время отладки" revision="0" />
+  <Message key="Debugger" value="Отладчик" revision="0" />
+  <Message key="Main body finish" value="Выполнение основного тела скрипта завершено. Выполнение асинхронных функций и событий…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="Начать &amp;запись" revision="0" />
     <Item value="Начать запись макроса" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Макросы" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Запустить" revision="0" />
+    <Item value="Запустить выбранный макрос" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Новый &amp;скрипт" revision="0" />

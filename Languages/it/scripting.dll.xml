@@ -31,6 +31,14 @@
   <Message key="Script files" value="File di copione" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Copia di {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Macro {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Script da riga di comando" revision="0" />
+  <Message key="Running macro" value="Esecuzione [[[b{macro}]]]… [[[hClicca per interrompere]]]." revision="0" />
+  <Message key="Recording macro" value="Registrazione macro… [[[hClick to stop recording]]]." revision="0" />
+  <Message key="Macro script opened" value="Lo script macro viene aperto nell'editor. Per avviarlo, utilizzare i comandi [[[bDebug » Esegui script]]] o [[[bDebug » Debug dello script]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Eccezione non rilevata{|uncaught}Eccezione{?uncaught} &quot;{name}&quot; si è verificato alla {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Cattura le eccezioni di primo livello durante il debug" revision="0" />
+  <Message key="Debugger" value="Debugger" revision="0" />
+  <Message key="Main body finish" value="Esecuzione del corpo principale dello script completata. Esecuzione di funzioni asincrone ed eventi in corso.…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="&amp;Avvia registrazione" revision="0" />
     <Item value="Avvio della registrazione macro" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Macro" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Esegui" revision="0" />
+    <Item value="Esegui macro selezionata" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Nuovo copione" revision="0" />

@@ -31,6 +31,14 @@
   <Message key="Script files" value="Skript-Dateien" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Kopie von {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Makro {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Befehlszeilenskript" revision="0" />
+  <Message key="Running macro" value="Ausführen [[[b{macro}]]]… [[[hZum Anhalten klicken]]]." revision="0" />
+  <Message key="Recording macro" value="Makro aufzeichnen… [[[hKlicken, um die Aufnahme zu beenden]]]." revision="0" />
+  <Message key="Macro script opened" value="Das Makroskript wird im Editor geöffnet. Um es zu starten, verwenden Sie die Befehle [[[bDebuggen » Skript ausführen]]] oder [[[bDebuggen » Das Skript debuggen]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Nicht abgefangene Ausnahme{|uncaught}Ausnahme{?uncaught} &quot;{name}&quot; ist aufgetreten in {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Fangen Sie First-Chance-Ausnahmen während des Debuggens ab" revision="0" />
+  <Message key="Debugger" value="Debugger" revision="0" />
+  <Message key="Main body finish" value="Ausführung des Hauptskriptkörpers abgeschlossen. Asynchrone Funktionen und Ereignisse werden ausgeführt.…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="Aufnahme &amp;Starten" revision="0" />
     <Item value="Makroaufzeichnung starten" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Makros" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Ausgewähltes" revision="0" />
+    <Item value="Ausgewähltes Makro ausführen" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Neues Skript" revision="0" />

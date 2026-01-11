@@ -31,6 +31,14 @@
   <Message key="Script files" value="Pliki skryptów" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Kopia {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Makro {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Skrypt wiersza poleceń" revision="0" />
+  <Message key="Running macro" value="Uruchamianie [[[b{macro}]]]… [[[hKliknij, aby zatrzymać]]]." revision="0" />
+  <Message key="Recording macro" value="Nagrywanie makra… [[[hKliknij, aby zatrzymać nagrywanie]]]." revision="0" />
+  <Message key="Macro script opened" value="Skrypt makr jest otwarty w edytorze. Aby go uruchomić, użyj polecenia [[[bDebugowanie » Uruchom skrypt]]] lub [[[bDebugowanie » Debugowanie skryptu]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Nieprzechwycony wyjątek{|uncaught}Wyjątek{?uncaught} &quot;{name}&quot; wystąpiło w {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Wykrywanie wyjątków pierwszej szansy podczas debugowania" revision="0" />
+  <Message key="Debugger" value="Debugger" revision="0" />
+  <Message key="Main body finish" value="Wykonanie głównego korpusu skryptu zakończone. Uruchamianie funkcji asynchronicznych i zdarzeń.…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="&amp;Rozpocznij nagrywanie" revision="0" />
     <Item value="Rozpocznij nagrywanie makr" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Makra" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Uruchom" revision="0" />
+    <Item value="Uruchom wybrane makro" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Nowy skrypt" revision="0" />

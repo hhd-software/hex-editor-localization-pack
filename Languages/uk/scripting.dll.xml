@@ -31,6 +31,14 @@
   <Message key="Script files" value="Файли скриптів" revision="0" />
   <Message key="DuplicateMacroTemplate" value="Копія {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Макро {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="Скрипт командного рядка" revision="0" />
+  <Message key="Running macro" value="Виконання [[[b{macro}]]]… [[[hНатисніть для зупинки]]]." revision="0" />
+  <Message key="Recording macro" value="Запис макросу… [[[hНатисніть для зупинки запису]]]." revision="0" />
+  <Message key="Macro script opened" value="Макроскрипт відкритий в редакторі. Щоб запустити його, використовуйте команди [[[bНалагодження » Виконати скрипт]]] або [[[bНалагодження » Налагодження скрипта]]]." revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Неперехоплене виключення{|uncaught}Виключення{?uncaught} &quot;{name}&quot; сталося в {line}:{column}\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="Виловлювання винятків першої можливості під час налагодження" revision="0" />
+  <Message key="Debugger" value="Налагоджувач" revision="0" />
+  <Message key="Main body finish" value="Виконання основного тіла скрипта завершено. Виконання асинхронних функцій та подій…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="Почати &amp;запис" revision="0" />
     <Item value="Розпочати запис макросу" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="Макроси" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="Виконати" revision="0" />
+    <Item value="Виконати вибраний макрос" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="Новий &amp;скрипт" revision="0" />
