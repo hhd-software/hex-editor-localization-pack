@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navigation" revision="0" />
+  <Message key="menu.HexViewPopup" value="Menu contextuel de la fenêtre hexadécimale" revision="0" />
   <Message key="Offset" value="Décalage" revision="1" />
   <Message key="SchemeNameCue" value=" Entrez le nom de schéma ici" revision="1" />
   <Message key="Encrypt" value="Encrypter" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Déplacer le curseur après une opération copier/coller" revision="1" />
   <Message key="FindAllNotification" value="Rechercher tout" revision="1" />
   <Message key="PasteNotification" value="Coller texte" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn défilement par pages" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn défilement par pages" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn défilement par pages" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Expression Invalide. Vérifier votre syntaxe" revision="1" />
   <Message key="Connect to" value="Connecter à" revision="1" />
   <Message key="ConnectToSuccess" value="Les fenêtres ont été connectés avec succès." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Soulignement du champ actif" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="Arrière-plan de l'info-bulle" revision="0" />
   <Message key="clr.colors.TooltipText" value="Texte de l'info-bulle" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Arrière-plan de l'encadré d'information" revision="0" />
+  <Message key="clr.colors.InfoText" value="Texte de l'encadré d'information" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Contour de la boîte d'informations" revision="0" />
+  <Message key="clr.colors.Wave" value="Mise en évidence du champ" revision="0" />
   <Message key="toolbar.Selection" value="Sélection" revision="0" />
+  <Message key="Info pane header" value="Panneau d'informations" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Sélectionner tout" revision="1" />
     <Item value="Sélectionner toutes les données d'un fichier" revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Afficher ou masquer le volet de texte (ASCII ou Unicode)" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Panneau d'informations" revision="1" />
+    <Item value="Afficher ou masquer un volet d'informations" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />

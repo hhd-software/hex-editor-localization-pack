@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navigazione" revision="0" />
+  <Message key="menu.HexViewPopup" value="Menu a comparsa della finestra esadecimale" revision="0" />
   <Message key="Offset" value="Scostamento" revision="1" />
   <Message key="SchemeNameCue" value=" Inserisci il nome dello schema qui" revision="1" />
   <Message key="Encrypt" value="Cripta" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Muta il cursore dopo incolla" revision="1" />
   <Message key="FindAllNotification" value="Trova tutto" revision="1" />
   <Message key="PasteNotification" value="Incolla testo" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn giù passo di scorrimento (pagine)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn giù passo di scorrimento (pagine)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn giù passo di scorrimento (pagine)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Espressione non valida. Controlla la sintassi." revision="1" />
   <Message key="Connect to" value="Connetti a" revision="1" />
   <Message key="ConnectToSuccess" value="Le finestre sono state collegate con successo." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Sottolineatura del campo attiva" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="Sfondo del fumetto" revision="0" />
   <Message key="clr.colors.TooltipText" value="Testo del fumetto" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Sfondo della casella informativa" revision="0" />
+  <Message key="clr.colors.InfoText" value="Testo del riquadro informativo" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Contorno riquadro informativo" revision="0" />
+  <Message key="clr.colors.Wave" value="Evidenziazione del campo" revision="0" />
   <Message key="toolbar.Selection" value="Selezione" revision="0" />
+  <Message key="Info pane header" value="Pannello informativo" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Seleziona &amp;Tutto" revision="1" />
     <Item value="Seleziona Tutti i dati in un file" revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Mostra o nasconde il pannello testo (ASCII o UNICODE)" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Pannello informativo" revision="1" />
+    <Item value="Mostra o nascondi un riquadro informativo" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="1" />

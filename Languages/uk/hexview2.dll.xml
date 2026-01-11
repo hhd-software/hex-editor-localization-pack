@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Навігація" revision="0" />
+  <Message key="menu.HexViewPopup" value="Спливаюче меню Hex вікна " revision="0" />
   <Message key="Offset" value="Зміщення" revision="1" />
   <Message key="SchemeNameCue" value="Введіть ім'я схеми тут" revision="1" />
   <Message key="Encrypt" value="Шифрувати" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="Пересувати курсор після вставок" revision="1" />
   <Message key="FindAllNotification" value="Знайти все" revision="1" />
   <Message key="PasteNotification" value="Вставити текст" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn крок прокрутки (сторінки)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn крок прокрутки (сторінки)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn крок прокрутки (сторінки)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="Неправильний вираз, перевірте синтаксис." revision="1" />
   <Message key="Connect to" value="Підключення до" revision="1" />
   <Message key="ConnectToSuccess" value="Вікно було успішно з'єднане." revision="1" />
@@ -222,7 +226,12 @@
   <Message key="clr.colors.HoverUnderline" value="Підкреслення підсвічування" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="Фон спливаючої підказки" revision="0" />
   <Message key="clr.colors.TooltipText" value="Текст спливаючої підказки" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="Фон інформаційного блоку" revision="0" />
+  <Message key="clr.colors.InfoText" value="Текст інформаційного блоку" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="Контур інформаційного блоку" revision="0" />
+  <Message key="clr.colors.Wave" value="Підсвічування поля" revision="0" />
   <Message key="toolbar.Selection" value="Виділення" revision="0" />
+  <Message key="Info pane header" value="Інформаційна панель" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="Виділити &amp;все" revision="1" />
     <Item value="Виділити всі дані у файлі" revision="1" />
@@ -384,8 +393,8 @@
     <Item value="Увімкнути або вимкнути текстову (ASCII або UNICODE) область" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Інформаційна панель" revision="1" />
+    <Item value="Показати або приховати інформаційну панель" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шістнадцятковий" revision="1" />
