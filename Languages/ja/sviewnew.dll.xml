@@ -89,8 +89,6 @@
   <Message key="Structures" value="構造体" revision="0" />
   <Message key="Data Inspector Color Selection" value="データ インスペクターの色の選択" revision="0" />
   <Message key="Background color:" value="背景色 :" revision="0" />
-  <Message key="Text color:" value="テキストの色 :" revision="0" />
-  <Message key="Outline color:" value="外枠の色 :" revision="0" />
   <Message key="Add Inspector Type" value="インスペクタータイプの追加" revision="0" />
   <Message key="Change Time" value="時間の変更" revision="0" />
   <Message key="AssignNotification" value="このタイプではデータ変更が有効になっていません。 タイプのデータ変更を有効にする方法の詳細については、「ヘルプ」ボタンをクリックしてください。" revision="0" />

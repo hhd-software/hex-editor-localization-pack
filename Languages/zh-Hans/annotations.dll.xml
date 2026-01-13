@@ -6,9 +6,6 @@
   <Message key="toolbar.Annotations" value="注释" revision="0" />
   <Message key="ExtSuffixFilter" value="允许的符号:0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="注释范围" revision="0" />
-  <Message key="Start:" value="启动：" revision="0" />
-  <Message key="End:" value="结束:" revision="0" />
-  <Message key="Text:" value="注释文本:" revision="1" />
   <Message key="IncorrectInputTitle" value="输入不正确" revision="0" />
   <Message key="IncorrectInputText" value="必须是十六进制值" revision="0" />
   <Message key="Annotations Storage Location" value="注释存储位置" revision="0" />
@@ -53,6 +50,10 @@
     <Item value="编辑注释文本" revision="0" />
     <Item value="编辑选中的注释项目" revision="0" />
   </Enumeration>
+  <Enumeration key="AnnotationDuplicate">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="添加" revision="1" />
     <Item value="应用" revision="1" />
@@ -62,5 +63,6 @@
     <Item value="地址" revision="0" />
     <Item value="大小" revision="0" />
     <Item value="文本内容" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

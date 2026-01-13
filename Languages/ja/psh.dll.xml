@@ -15,7 +15,6 @@
   <Message key="These attributes can not be applied." value="これらの属性は適用できません。" revision="0" />
   <Message key="Error setting file time." value="ファイル日時の設定中にエラーが発生しました。" revision="0" />
   <Message key="Multiple" value="複数" revision="0" />
-  <Message key="Outline color" value="外枠の色" revision="0" />
   <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="履歴" revision="0" />
   <Message key="Pattern Coloring" value="パターン カラーリング" revision="0" />
@@ -68,12 +67,9 @@
   <Message key="EBCDIC:" value="EBCDIC :" revision="0" />
   <Message key="Histogram Color Selection" value="ヒストグラムの色の選択" revision="0" />
   <Message key="First color:" value="色1 :" revision="0" />
-  <Message key="Second color:" value="色2 :" revision="0" />
-  <Message key="Outline color:" value="外枠の色 :" revision="0" />
   <Message key="Selected Color:" value="選択色 :" revision="0" />
   <Message key="Select All" value="すべて選択" revision="0" />
   <Message key="Item color:" value="項目の色 :" revision="0" />
-  <Message key="Text color:" value="文字色 :" revision="0" />
   <Message key="Background  color:" value="背景色 :" revision="0" />
   <Message key="Line color:" value="行の色 :" revision="0" />
   <Message key="Operation History Tree" value="操作履歴ツリー" revision="0" />
@@ -83,7 +79,6 @@
   <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="現在の履歴を保持します。 必要に応じて、読み込まれた履歴ブランチに次のプレフィックスを追加します :" revision="0" />
   <Message key="Prefix:" value="プレフィックス :" revision="0" />
   <Message key="Color Selection" value="色の選択" revision="0" />
-  <Message key="Back color:" value="背景色 :" revision="0" />
   <Message key="Selection Color:" value="選択色 :" revision="0" />
   <Message key="Patch file name:" value="パッチのファイル名 :" revision="0" />
   <Message key="Patch creation options" value="パッチ作成オプション" revision="0" />
@@ -108,7 +103,6 @@
   <Message key="Range rule:" value="範囲ルール :" revision="0" />
   <Message key="Offset:" value="オフセット :" revision="0" />
   <Message key="Size:" value="サイズ :" revision="0" />
-  <Message key="Round edges" value="角丸エッジ" revision="0" />
   <Message key="Change Time" value="日時の変更" revision="0" />
   <Message key="PatternColoring settings" value="パータンの色" revision="0" />
   <Message key="toolbar.Attributes" value="属性" revision="0" />

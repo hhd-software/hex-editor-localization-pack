@@ -15,7 +15,6 @@
   <Message key="These attributes can not be applied." value="이러한 특성을 적용할 수 없습니다." revision="0" />
   <Message key="Error setting file time." value="파일 시간을 설정하는 중 오류가 발생했습니다." revision="0" />
   <Message key="Multiple" value="다중" revision="0" />
-  <Message key="Outline color" value="윤곽선 색상" revision="0" />
   <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="내역" revision="0" />
   <Message key="Pattern Coloring" value="패턴 색상" revision="0" />
@@ -68,12 +67,9 @@
   <Message key="EBCDIC:" value="EBCDIC:" revision="0" />
   <Message key="Histogram Color Selection" value="히스토그램 색상 선택" revision="0" />
   <Message key="First color:" value="첫 번째 색상:" revision="0" />
-  <Message key="Second color:" value="두 번째 색상:" revision="0" />
-  <Message key="Outline color:" value="윤곽선 색상:" revision="0" />
   <Message key="Selected Color:" value="선택한 색상:" revision="0" />
   <Message key="Select All" value="모두 선택" revision="0" />
   <Message key="Item color:" value="항목 색상:" revision="0" />
-  <Message key="Text color:" value="텍스트 색상:" revision="0" />
   <Message key="Background  color:" value="배경 색상:" revision="0" />
   <Message key="Line color:" value="줄 색상:" revision="0" />
   <Message key="Operation History Tree" value="작업 내역 트리" revision="0" />
@@ -83,7 +79,6 @@
   <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="현재 내역을 유지합니다. 선택적으로 불러온 내역 분기에 다음 접두사를 추가합니다." revision="0" />
   <Message key="Prefix:" value="접두사:" revision="0" />
   <Message key="Color Selection" value="색상 선택" revision="0" />
-  <Message key="Back color:" value="배경 색상:" revision="0" />
   <Message key="Selection Color:" value="선택 색상:" revision="0" />
   <Message key="Patch file name:" value="패치 파일 이름:" revision="0" />
   <Message key="Patch creation options" value="패치 생성 옵션" revision="0" />
@@ -108,7 +103,6 @@
   <Message key="Range rule:" value="규칙 범위:" revision="0" />
   <Message key="Offset:" value="오프셋:" revision="0" />
   <Message key="Size:" value="크기:" revision="0" />
-  <Message key="Round edges" value="둥근 모서리" revision="0" />
   <Message key="Change Time" value="시간 변경" revision="0" />
   <Message key="PatternColoring settings" value="패턴 색상" revision="0" />
   <Message key="toolbar.Attributes" value="속성" revision="0" />

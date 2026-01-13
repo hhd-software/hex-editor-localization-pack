@@ -89,8 +89,6 @@
   <Message key="Structures" value="Strutture" revision="0" />
   <Message key="Data Inspector Color Selection" value="Seleziona colore Ispettore dati" revision="0" />
   <Message key="Background color:" value="Colore sfondo:" revision="0" />
-  <Message key="Text color:" value="Colore testo:" revision="0" />
-  <Message key="Outline color:" value="Colore contorno:" revision="0" />
   <Message key="Add Inspector Type" value="Aggiungi tipo ispettore" revision="0" />
   <Message key="Change Time" value="Cambia data" revision="0" />
   <Message key="AssignNotification" value="La modifica dei dati non è abilitata per questo tipo. Clicca il pulsante Guida per informazioni dettagliate su come abilitarla." revision="0" />

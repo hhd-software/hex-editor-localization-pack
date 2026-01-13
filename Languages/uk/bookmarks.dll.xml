@@ -24,7 +24,6 @@
   <Message key="Text:" value="Текст:" revision="0" />
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Outline:" value="Контур:" revision="0" />
-  <Message key="Round edges" value="Округлі кути" revision="0" />
   <Message key="Please enter a color preset name" value="Будь ласка, введіть назву попередньо встановленого кольору" revision="0" />
   <Message key="Do you want to replace color preset" value="Ви хочете замінити попередньо встановлений колір «{name}»?" revision="0" />
   <Message key="BookmarksFilterString" value="Файли закладок (*.hexbook)|*.hexbook|" revision="0" />

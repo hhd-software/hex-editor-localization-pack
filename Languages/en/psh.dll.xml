@@ -223,9 +223,6 @@
     <Item text="Decimal"/>
   </Enumeration>
 
-    <Message key="Back color" description="Field: Back color"/>
-    <Message key="Text color" description="Field: Text color"/>
-    <Message key="Outline color" description="Field: Outline color"/>
 
   <Enumeration key="Range" description="Range information (both strings must be the same!)" revision="2">
     <Item text="Range: [ [[[b{from}]]] – [[[b{to}]]] ] (size: [[[b{size}]]])">
@@ -486,8 +483,6 @@
   <!-- Histogram color -->
   <Message key="Histogram Color Selection" description="Histogram Color Selection window title"/>
   <Message key="First color:" description="Field: First color"/>
-  <Message key="Second color:" description="Field: Second color"/>
-  <Message key="Outline color:" description="Field: Outline color"/>
   <Message key="Selected Color:" description="Field: Selected Color"/>
 
   <!-- Select columns dialog -->
@@ -495,7 +490,6 @@
 
   <!-- Select Colors -->
   <Message key="Item color:" description="Field: Item color"/>
-  <Message key="Text color:" description="Field: Text color"/>
   <Message key="Background  color:" description="Field: Background  color"/>
   <Message key="Line color:" description="Field: Line color"/>
 
@@ -511,7 +505,6 @@
 
   <!-- Color Selection -->
   <Message key="Color Selection" description="Color Selection window title"/>
-  <Message key="Back color:" description="Field: Back color"/>
   <Message key="Selection Color:" description="Field: Selection Color"/>
 
   <!-- Create Patch -->
@@ -544,9 +537,7 @@
   <Message key="Range rule:" description="Choice: Range rule"/>
   <Message key="Offset:" description="Field: Offset"/>
   <Message key="Size:" description="Field: Size"/>
-  <Message key="Round edges" description="Checkbox: Round edges"/>
 	<Message key="Show rule tooltip" description="Checkbox: Show rule tooltip"/>
-	<Message key="Show in info pane" description="Checkbox: Show in info pane"/>
 
 	<!-- Change Time -->
   <Message key="Change Time" description="Change Time window title"/>
@@ -579,8 +570,6 @@
 		<Item text="New Pattern Rule"/>
 		<Item text="Edit Pattern Rule"/>
 	</Enumeration>
-
-	<Message key="rr.Expressions supported" description="Field: expressions supported" value="You can use mathematical expressions when entering [[[bStart]]], [[[bSize]]] or [[[bEnd]]] values.\n\nPrefix numbers with &quot;0x&quot; to use hexadecimal numbers."/>
 
 	<Message key="Invalid fp value" description="Invalid floating-point value" value="Error parsing the floating-point value"/>
 	<Message key="No negative integers" description="No negative values allowed for value range" value="Both minimum and maximum range values must be non-negative."/>

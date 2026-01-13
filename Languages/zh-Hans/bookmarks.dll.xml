@@ -24,7 +24,6 @@
   <Message key="Text:" value="文本:" revision="0" />
   <Message key="Background:" value="背景:" revision="0" />
   <Message key="Outline:" value="概要：" revision="0" />
-  <Message key="Round edges" value="圆边" revision="0" />
   <Message key="Please enter a color preset name" value="请输入颜色预设的名称" revision="0" />
   <Message key="Do you want to replace color preset" value="您想替换颜色预设“{name}”吗？" revision="0" />
   <Message key="BookmarksFilterString" value="书签文件 (*.hexbook)|*.hexbook|" revision="0" />

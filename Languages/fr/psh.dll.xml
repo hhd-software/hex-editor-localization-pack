@@ -15,9 +15,6 @@
   <Message key="These attributes can not be applied." value="Ces attributs ne peuvent pas être appliquées." revision="0" />
   <Message key="Error setting file time." value="Erreur lors du changement de l'heure du fichier." revision="0" />
   <Message key="Multiple" value="Multiple" revision="0" />
-  <Message key="Back color" value="Couleur d'arrière-plan" revision="0" />
-  <Message key="Text color" value="Couleur du texte" revision="0" />
-  <Message key="Outline color" value="Couleur des contours" revision="0" />
   <Message key="ValueRangeHeader" value="Plage de valeurs" revision="0" />
   <Message key="RegExpPattern" value="Expression régulière: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Historique" revision="0" />
@@ -72,12 +69,9 @@
   <Message key="EBCDIC:" value="EBCDIC:" revision="0" />
   <Message key="Histogram Color Selection" value="Histogramme de la sélection des couleurs" revision="0" />
   <Message key="First color:" value="Première couleur:" revision="0" />
-  <Message key="Second color:" value="Deuxième couleur:" revision="0" />
-  <Message key="Outline color:" value="Couleur des contours:" revision="0" />
   <Message key="Selected Color:" value="Couleur de sélection:" revision="0" />
   <Message key="Select All" value="Sélectionner tout" revision="0" />
   <Message key="Item color:" value="Couleur de l'élément:" revision="0" />
-  <Message key="Text color:" value="Couleur de texte:" revision="0" />
   <Message key="Background  color:" value="Couleur d'arrière plan:" revision="0" />
   <Message key="Line color:" value="Couleur des lignes:" revision="0" />
   <Message key="Operation History Tree" value="Arborescence de l'historique des opérations" revision="0" />
@@ -87,7 +81,6 @@
   <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="Conserver l’historique  chargé. Optionnellement ajouter le préfixe suivant aux branches chargé dans l'historique:" revision="0" />
   <Message key="Prefix:" value="Préfixe:" revision="0" />
   <Message key="Color Selection" value="Colorier sélection" revision="0" />
-  <Message key="Back color:" value="Couleur de l'arrière plan:" revision="0" />
   <Message key="Selection Color:" value="Couleur de la sélection:" revision="0" />
   <Message key="Patch file name:" value="Nom du Fichier Patch:" revision="0" />
   <Message key="Patch creation options" value="Options de création de patch" revision="0" />
@@ -112,9 +105,7 @@
   <Message key="Range rule:" value="Règle sur l'intervalle:" revision="0" />
   <Message key="Offset:" value="Décalage:" revision="0" />
   <Message key="Size:" value="Taille:" revision="0" />
-  <Message key="Round edges" value="Bordures arrondis" revision="0" />
   <Message key="Show rule tooltip" value="Afficher l'info-bulle" revision="0" />
-  <Message key="Show in info pane" value="Afficher dans le volet d'informations" revision="0" />
   <Message key="Change Time" value="Changer l'heure" revision="0" />
   <Message key="PatternColoring settings" value="Motif de modéle" revision="0" />
   <Message key="toolbar.Attributes" value="Attributs" revision="0" />
@@ -124,7 +115,6 @@
   <Message key="toolbar.History Window" value="Fenêtre de l'arborescence historique" revision="0" />
   <Message key="ShowRuleTooltip" value="Afficher la règle dans l'info-bulle" revision="0" />
   <Message key="Pattern coloring alignment" value=", alignement={alignment}" revision="0" />
-  <Message key="rr.Expressions supported" value="Vous pouvez utiliser des expressions mathématiques lorsque vous saisissez les valeurs [[[bDébut]]], [[[bTaille]]] ou [[[bFin]]].\n\nAjoutez le préfixe « 0x » aux nombres pour utiliser les nombres hexadécimaux." revision="0" />
   <Message key="Invalid fp value" value="Erreur lors de l'analyse de la valeur à virgule flottante" revision="0" />
   <Message key="No negative integers" value="Les valeurs minimales et maximales doivent être non négatives." revision="0" />
   <Message key="Max is less than min" value="La valeur maximale doit être supérieure ou égale à la valeur minimale." revision="0" />

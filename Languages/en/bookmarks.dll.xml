@@ -138,7 +138,6 @@
 	<Message key="Text:" description="Field: Text"/>
 	<Message key="Background:" description="Field: Background:"/>
 	<Message key="Outline:" description="Field: Outline"/>
-	<Message key="Round edges" description="Checkbox: Round edges"/>
 
 	<Message key="Please enter a color preset name" description="Message: Please enter a color preset name"/>
 	<!--<Message key="Enter a name to save current colors as preset" description="Cue Banner Text: Enter a name to save current colors as preset"/>-->

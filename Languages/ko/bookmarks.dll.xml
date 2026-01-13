@@ -24,7 +24,6 @@
   <Message key="Text:" value="텍스트:" revision="0" />
   <Message key="Background:" value="배경:" revision="0" />
   <Message key="Outline:" value="외곽선:" revision="0" />
-  <Message key="Round edges" value="둥근 모서리" revision="0" />
   <Message key="Please enter a color preset name" value="색상 사전 설정의 이름을 입력하세요" revision="0" />
   <Message key="Do you want to replace color preset" value="색상 프리셋 “{name}”을 바꾸시겠습니까?" revision="0" />
   <Message key="BookmarksFilterString" value="북마크 파일 (*.hexbook)|*.hexbook|" revision="0" />

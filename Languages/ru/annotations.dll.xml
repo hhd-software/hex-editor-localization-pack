@@ -6,9 +6,6 @@
   <Message key="toolbar.Annotations" value="Заметки" revision="0" />
   <Message key="ExtSuffixFilter" value="Разрешённые символы: 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="Комментировать диапазон" revision="0" />
-  <Message key="Start:" value="Начало:" revision="0" />
-  <Message key="End:" value="Конец:" revision="0" />
-  <Message key="Text:" value="Текст комментария:" revision="1" />
   <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
   <Message key="IncorrectInputText" value="Должно быть шестнадцатеричное значение" revision="0" />
   <Message key="Annotations Storage Location" value="Место хранения заметок" revision="0" />
@@ -53,6 +50,10 @@
     <Item value="Редактировать заметку" revision="0" />
     <Item value="Редактировать выбранную заметку" revision="0" />
   </Enumeration>
+  <Enumeration key="AnnotationDuplicate">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="Добавить" revision="1" />
     <Item value="Применить" revision="1" />
@@ -62,5 +63,6 @@
     <Item value="Адрес" revision="0" />
     <Item value="Размер" revision="0" />
     <Item value="Текст" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

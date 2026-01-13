@@ -15,9 +15,6 @@
   <Message key="These attributes can not be applied." value="Такие атрибуты не могут быть назначены." revision="0" />
   <Message key="Error setting file time." value="Ошибка при установке времени." revision="0" />
   <Message key="Multiple" value="Множественное" revision="0" />
-  <Message key="Back color" value="Цвет фона" revision="0" />
-  <Message key="Text color" value="Цвет текста" revision="0" />
-  <Message key="Outline color" value="Цвет контура" revision="0" />
   <Message key="ValueRangeHeader" value="Диапазон значений" revision="0" />
   <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="История" revision="0" />
@@ -72,12 +69,9 @@
   <Message key="EBCDIC:" value="EBCDIC:" revision="0" />
   <Message key="Histogram Color Selection" value="Выбор цветов гистограммы" revision="0" />
   <Message key="First color:" value="Первый цвет:" revision="0" />
-  <Message key="Second color:" value="Второй цвет:" revision="0" />
-  <Message key="Outline color:" value="Цвет контура:" revision="0" />
   <Message key="Selected Color:" value="Цвет выделения:" revision="0" />
   <Message key="Select All" value="Выбрать все" revision="0" />
   <Message key="Item color:" value="Цвет элемента:" revision="0" />
-  <Message key="Text color:" value="Цвет текста:" revision="0" />
   <Message key="Background  color:" value="Цвет фона:" revision="0" />
   <Message key="Line color:" value="Цвет линии:" revision="0" />
   <Message key="Operation History Tree" value="Дерево истории операций" revision="0" />
@@ -87,7 +81,6 @@
   <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="Сохранить текущую историю. Добавить префикс к загружаемым ветвлениям:" revision="0" />
   <Message key="Prefix:" value="Префикс:" revision="0" />
   <Message key="Color Selection" value="Выбор цветов" revision="0" />
-  <Message key="Back color:" value="Цвет фона:" revision="0" />
   <Message key="Selection Color:" value="Цвет выделения:" revision="0" />
   <Message key="Patch file name:" value="Имя файла патча:" revision="0" />
   <Message key="Patch creation options" value="Настройки создания" revision="0" />
@@ -112,9 +105,7 @@
   <Message key="Range rule:" value="Правило на диапазон:" revision="0" />
   <Message key="Offset:" value="Смещение:" revision="0" />
   <Message key="Size:" value="Размер:" revision="0" />
-  <Message key="Round edges" value="Округлые углы" revision="0" />
   <Message key="Show rule tooltip" value="Показывать советы" revision="0" />
-  <Message key="Show in info pane" value="Показывать в информационной панели" revision="0" />
   <Message key="Change Time" value="Смена времени" revision="0" />
   <Message key="PatternColoring settings" value="Подсветка последовательностей" revision="0" />
   <Message key="toolbar.Attributes" value="Атрибуты" revision="0" />
@@ -124,7 +115,6 @@
   <Message key="toolbar.History Window" value="Дерево истории" revision="0" />
   <Message key="ShowRuleTooltip" value="Показывать правило в подсказке" revision="0" />
   <Message key="Pattern coloring alignment" value=", выравнивание={alignment}" revision="0" />
-  <Message key="rr.Expressions supported" value="При вводе значений [[[bНачало]]], [[[bРазмер]]] или [[[bКонец]]] можно использовать математические выражения.\n\nДобавьте префикс «0x», чтобы использовать шестнадцатеричные числа." revision="0" />
   <Message key="Invalid fp value" value="Ошибка при анализе значения с плавающей запятой" revision="0" />
   <Message key="No negative integers" value="Минимальные и максимальные значения диапазона должны быть неотрицательными." revision="0" />
   <Message key="Max is less than min" value="Максимальное значение диапазона должно быть больше или равно минимальному значению." revision="0" />

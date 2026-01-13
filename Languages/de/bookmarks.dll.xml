@@ -24,7 +24,6 @@
   <Message key="Text:" value="Text:" revision="0" />
   <Message key="Background:" value="Hintergrund:" revision="0" />
   <Message key="Outline:" value="Umrisslinie:" revision="0" />
-  <Message key="Round edges" value="Runde Ecken" revision="0" />
   <Message key="Please enter a color preset name" value="Bitte geben Sie einen Namen für die Farbvoreinstellung ein" revision="0" />
   <Message key="Do you want to replace color preset" value="Möchten Sie die Farbvoreinstellung „{name}“ ersetzen?" revision="0" />
   <Message key="BookmarksFilterString" value="Lesezeichen Dateien (*.hexbook)|*.hexbookk|" revision="0" />

@@ -15,9 +15,6 @@
   <Message key="These attributes can not be applied." value="Te atrybuty nie mogą być stosowane." revision="0" />
   <Message key="Error setting file time." value="Błąd ustawienia czasu pliku." revision="0" />
   <Message key="Multiple" value="Wiele" revision="0" />
-  <Message key="Back color" value="Kolor tła" revision="0" />
-  <Message key="Text color" value="Kolor tekstu" revision="0" />
-  <Message key="Outline color" value="Kolor konturu" revision="0" />
   <Message key="ValueRangeHeader" value="Zakres wartości" revision="0" />
   <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
   <Message key="History" value="Historia" revision="0" />
@@ -72,12 +69,9 @@
   <Message key="EBCDIC:" value="EBCDIC:" revision="0" />
   <Message key="Histogram Color Selection" value="Wybór koloru histogramu" revision="0" />
   <Message key="First color:" value="Pierwszy kolor:" revision="0" />
-  <Message key="Second color:" value="Drugi kolor:" revision="0" />
-  <Message key="Outline color:" value="Kolor konturu:" revision="0" />
   <Message key="Selected Color:" value="Wybrany kolor:" revision="0" />
   <Message key="Select All" value="Wybierz wszystko" revision="0" />
   <Message key="Item color:" value="Kolor pozycji:" revision="0" />
-  <Message key="Text color:" value="Kolor tekstu:" revision="0" />
   <Message key="Background  color:" value="Kolor tła:" revision="0" />
   <Message key="Line color:" value="Kolor linii:" revision="0" />
   <Message key="Operation History Tree" value="Drzewo historii operacji" revision="0" />
@@ -87,7 +81,6 @@
   <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="Zachowaj aktualną historię. Opcjonalnie dodaj następujący prefiks do załadowanych gałęzi historii:" revision="0" />
   <Message key="Prefix:" value="Prefiks:" revision="0" />
   <Message key="Color Selection" value="Wybór koloru" revision="0" />
-  <Message key="Back color:" value="Kolor wstecz:" revision="0" />
   <Message key="Selection Color:" value="Wybór koloru:" revision="0" />
   <Message key="Patch file name:" value="Nazwa pliku łatki:" revision="0" />
   <Message key="Patch creation options" value="Opcje tworzenia łatek" revision="0" />
@@ -112,9 +105,7 @@
   <Message key="Range rule:" value="Reguła zakresu:" revision="0" />
   <Message key="Offset:" value="Offset:" revision="0" />
   <Message key="Size:" value="Rozmiar:" revision="0" />
-  <Message key="Round edges" value="Zaokrąglone krawędzie" revision="0" />
   <Message key="Show rule tooltip" value="Pokaż sugestię" revision="0" />
-  <Message key="Show in info pane" value="Pokaż w panelu informacyjnym" revision="0" />
   <Message key="Change Time" value="Zmień czas" revision="0" />
   <Message key="PatternColoring settings" value="Kolorowanie wzorów" revision="0" />
   <Message key="toolbar.Attributes" value="Atrybuty" revision="0" />
@@ -124,7 +115,6 @@
   <Message key="toolbar.History Window" value="Okno drzewa historii" revision="0" />
   <Message key="ShowRuleTooltip" value="Pokaż regułę w podpowiedzi" revision="0" />
   <Message key="Pattern coloring alignment" value=", wyrównanie={alignment}" revision="0" />
-  <Message key="rr.Expressions supported" value="Podczas wprowadzania wartości [[[bStart]]], [[[bRozmiar]]] lub [[[bKoniec]]] można używać wyrażeń matematycznych.\n\nAby używać liczb szesnastkowych, należy poprzedzić je prefiksem „0x”." revision="0" />
   <Message key="Invalid fp value" value="Błąd podczas analizowania wartości zmiennoprzecinkowej" revision="0" />
   <Message key="No negative integers" value="Zarówno minimalne, jak i maksymalne wartości zakresu muszą być nieujemne." revision="0" />
   <Message key="Max is less than min" value="Maksymalna wartość zakresu musi być większa lub równa wartości minimalnej." revision="0" />

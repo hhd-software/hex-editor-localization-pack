@@ -45,9 +45,14 @@
 		<Item text="Add annotation to current selection"/>
 	</Enumeration>
 
-	<Enumeration key="AnnotationEdit" description="Command: Annotations.Edit">
-		<Item text="Edit Annotation Text"/>
-		<Item text="Edit selected annotation item"/>
+	<Enumeration key="AnnotationEdit" description="Command: Annotations.Edit" revision="1">
+		<Item text="Edit Annotation"/>
+		<Item text="Edit selected annotation"/>
+	</Enumeration>
+
+	<Enumeration key="AnnotationDuplicate" description="Command: Annotations.Duplicate">
+		<Item text="Duplicate Annotation"/>
+		<Item text="Create a copy of a selected annotation"/>
 	</Enumeration>
 
 	<Enumeration key="EditButtonText" description="Annotation edit form button texts" revision="1">
@@ -55,10 +60,11 @@
 		<Item text="Apply"/>
 	</Enumeration>
 
-	<Enumeration key="RightColumns" description="Annotations list columns">
+	<Enumeration key="RightColumns" description="Annotations list columns" revision="1">
 		<Item text="No."/>
 		<Item text="Address"/>
 		<Item text="Size"/>
+		<Item text="Size (decimal)"/>
 		<Item text="Text"/>
 	</Enumeration>
 
@@ -66,12 +72,10 @@
 
 	<!-- Annotate Range dialog -->
 	<Message key="Annotate Range" description="Window title: Annotate Range" />
-	<Message key="Start:" description="Field: Start Offset" />
-	<Message key="End:" description="Field: End Offset" />
-	<Message key="Text:" description="Field: Text" revision="1" value="Annotation text:"/>
 	<Message key="IncorrectInputTitle" description="Error text: Incorrect offset error title" value="Incorrect input" />
 	<Message key="IncorrectInputText" description="Error text: Incorrect offset error text" value="Must be hexadecimal value"/>
 
+	
 	<!-- Settings Page -->
 	<Message key="Annotations Storage Location" description="Group box: Annotations Storage Location"/>
 	<Message key="Auto Select" description="Option: Auto Select" />

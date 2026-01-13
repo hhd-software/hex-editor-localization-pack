@@ -89,8 +89,6 @@
   <Message key="Structures" value="结构" revision="0" />
   <Message key="Data Inspector Color Selection" value="数据检查器颜色选择" revision="0" />
   <Message key="Background color:" value="背景色:" revision="0" />
-  <Message key="Text color:" value="文本颜色:" revision="0" />
-  <Message key="Outline color:" value="轮廓颜色" revision="0" />
   <Message key="Add Inspector Type" value="添加检查器类型" revision="0" />
   <Message key="Change Time" value="更改时间" revision="0" />
   <Message key="AssignNotification" value="此类型不允许数据修改.点击帮助按钮获取如何为此类型启用数据编辑的详细信息." revision="0" />

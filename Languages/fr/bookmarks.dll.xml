@@ -24,7 +24,6 @@
   <Message key="Text:" value="Texte:" revision="0" />
   <Message key="Background:" value="Arrière-plan:" revision="0" />
   <Message key="Outline:" value="Contour:" revision="0" />
-  <Message key="Round edges" value="Bords Arrondis" revision="0" />
   <Message key="Please enter a color preset name" value="Veuillez saisir un nom de préréglage de couleur" revision="0" />
   <Message key="Do you want to replace color preset" value="Voulez-vous remplacer le préréglage de couleur « {name} » ?" revision="0" />
   <Message key="BookmarksFilterString" value="Fichiers signets (*.hexbook)|*.hexbook|" revision="0" />

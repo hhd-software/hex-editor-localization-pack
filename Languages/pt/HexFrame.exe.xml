@@ -954,4 +954,11 @@
     <Item value="Continuar a execução" revision="0" />
     <Item value="Remover configurações de compatibilidade e reiniciar o aplicativo" revision="0" />
   </Enumeration>
+  <Message key="Back color" value="Cor de fundo" revision="0" />
+  <Message key="Text color" value="Cor do texto" revision="0" />
+  <Message key="Outline color" value="Cor de contorno" revision="0" />
+  <Message key="Second color" value="Segunda cor" revision="0" />
+  <Message key="Round edges" value="Bordas redondas" revision="0" />
+   <Message key="Show in info pane" value="Mostrar no painel de informações" revision="0" />
+    <Message key="rr.Expressions supported" value="Pode utilizar expressões matemáticas ao introduzir os valores [[[bInício]]], [[[bTamanho]]] ou [[[bFim]]].\n\nPrefixar números com “0x” para usar números hexadecimais." revision="0" />
 </Language>

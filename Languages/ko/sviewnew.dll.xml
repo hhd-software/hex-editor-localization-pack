@@ -89,8 +89,6 @@
   <Message key="Structures" value="구조" revision="0" />
   <Message key="Data Inspector Color Selection" value="데이터 검사기 색상 선택" revision="0" />
   <Message key="Background color:" value="배경 색상:" revision="0" />
-  <Message key="Text color:" value="텍스트 색상:" revision="0" />
-  <Message key="Outline color:" value="윤곽선 색상:" revision="0" />
   <Message key="Add Inspector Type" value="검사기 유형 추가" revision="0" />
   <Message key="Change Time" value="시간 변경" revision="0" />
   <Message key="AssignNotification" value="이 유형에 대해 데이터 수정을 사용할 수 없습니다. 유형에 대한 데이터 수정을 활성화하는 방법에 대한 자세한 내용을 보려면 도움말 단추를 클릭하십시오." revision="0" />

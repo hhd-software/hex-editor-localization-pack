@@ -474,8 +474,6 @@
   <!-- Colors -->
   <Message key="Data Inspector Color Selection" description="Window title: Data Inspector Color Selection"/>
   <Message key="Background color:" description="Field: Background color"/>
-  <Message key="Text color:" description="Field: Text color"/>
-  <Message key="Outline color:" description="Field: Outline color"/>
 
   <!-- Add Inspector Type -->
   <Message key="Add Inspector Type" description="Window title: Add Inspector Type"/>

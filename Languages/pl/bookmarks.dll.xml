@@ -24,7 +24,6 @@
   <Message key="Text:" value="Tekst:" revision="0" />
   <Message key="Background:" value="Tło:" revision="0" />
   <Message key="Outline:" value="Zarys:" revision="0" />
-  <Message key="Round edges" value="Zaokrąglone krawędzie" revision="0" />
   <Message key="Please enter a color preset name" value="Wprowadź nazwę ustawienia wstępnego koloru" revision="0" />
   <Message key="Do you want to replace color preset" value="Czy chcesz zastąpić ustawienie wstępne koloru „{name}”?" revision="0" />
   <Message key="BookmarksFilterString" value="Pliki zakładki (*.hexbook)|*.hexbook|" revision="0" />

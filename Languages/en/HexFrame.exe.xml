@@ -1400,4 +1400,16 @@
 	<Message key="Start" description="Field: Start" />
 	<Message key="End" description="Field: End" />
 	<Message key="Size" description="Field: Size" />
+
+	<Message key="rr.Expressions supported" description="Field: expressions supported" value="You can use mathematical expressions when entering [[[bStart]]], [[[bSize]]] or [[[bEnd]]] values.\n\nPrefix numbers with &quot;0x&quot; to use hexadecimal numbers."/>
+
+	<!-- Common fields -->
+	<Message key="Back color" description="Field: Back color"/>
+	<Message key="Second color" description="Field: Second color"/>
+	<Message key="Text color" description="Field: Text color"/>
+	<Message key="Outline color" description="Field: Outline color"/>
+	<Message key="Show tooltip" description="Field: Show tooltip" />
+	<Message key="Show in info pane" description="Checkbox: Show in info pane"/>
+
+
 </Definition>

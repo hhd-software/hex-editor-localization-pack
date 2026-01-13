@@ -954,4 +954,11 @@
     <Item value="Ausführung fortsetzen" revision="0" />
     <Item value="Entfernen Sie die Kompatibilitätseinstellungen und starten Sie die Anwendung neu" revision="0" />
   </Enumeration>
+  <Message key="Round edges" value="Runde Ecken" revision="0" />
+  <Message key="Back color" value="Hintergrundfarbe" revision="0" />
+  <Message key="Text color" value="Textfarbe" revision="0" />
+  <Message key="Outline color" value="Umrissfarbe" revision="0" />
+  <Message key="Show in info pane" value="Im Infofenster anzeigen" revision="0" />
+  <Message key="rr.Expressions supported" value="Bei der Eingabe der Werte [[[bBeginn]]], [[[bGröße]]] oder [[[bEnde]]] können Sie mathematische Ausdrücke verwenden.\n\nStellen Sie Zahlen mit „0x“ voran, um Hexadezimalzahlen zu verwenden." revision="0" />
+  <Message key="Second color" value="Zweite Farbe" revision="0" />
 </Language>

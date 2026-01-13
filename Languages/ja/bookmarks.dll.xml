@@ -24,7 +24,6 @@
   <Message key="Text:" value="テキスト :" revision="0" />
   <Message key="Background:" value="背景 :" revision="0" />
   <Message key="Outline:" value="外枠 :" revision="0" />
-  <Message key="Round edges" value="角丸エッジ" revision="0" />
   <Message key="Please enter a color preset name" value="カラープリセット名を入力してください" revision="0" />
   <Message key="Do you want to replace color preset" value="カラープリセット &quot;{name}&quot; を置き換えますか?" revision="0" />
   <Message key="BookmarksFilterString" value="ブックマーク ファイル (*.hexbook)|*.hexbook|" revision="0" />

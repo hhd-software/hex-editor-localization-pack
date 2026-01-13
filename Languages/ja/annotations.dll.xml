@@ -6,9 +6,6 @@
   <Message key="toolbar.Annotations" value="注釈" revision="0" />
   <Message key="ExtSuffixFilter" value="使用できる記号 : 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="範囲に注釈を付ける" revision="0" />
-  <Message key="Start:" value="開始 :" revision="0" />
-  <Message key="End:" value="終了 :" revision="0" />
-  <Message key="Text:" value="注釈テキスト :" revision="1" />
   <Message key="IncorrectInputTitle" value="不正な入力" revision="0" />
   <Message key="IncorrectInputText" value="16 進数値である必要があります" revision="0" />
   <Message key="Annotations Storage Location" value="注釈の保存場所" revision="0" />
@@ -53,6 +50,10 @@
     <Item value="注釈テキストの編集" revision="0" />
     <Item value="選択した注釈項目を編集する" revision="0" />
   </Enumeration>
+  <Enumeration key="AnnotationDuplicate">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="追加" revision="1" />
     <Item value="適用" revision="1" />
@@ -62,5 +63,6 @@
     <Item value="アドレス" revision="0" />
     <Item value="サイズ" revision="0" />
     <Item value="テキスト" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

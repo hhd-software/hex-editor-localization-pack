@@ -6,9 +6,6 @@
   <Message key="toolbar.Annotations" value="Adnotacje" revision="0" />
   <Message key="ExtSuffixFilter" value="Dozwolone symbole: 0-9A-Za-z_" revision="0" />
   <Message key="Annotate Range" value="Zakres adnotacji" revision="0" />
-  <Message key="Start:" value="Początek:" revision="0" />
-  <Message key="End:" value="Koniec:" revision="0" />
-  <Message key="Text:" value="Tekst adnotacji:" revision="1" />
   <Message key="IncorrectInputTitle" value="Nieprawidłowe wejście" revision="0" />
   <Message key="IncorrectInputText" value="Musi być wartością hex" revision="0" />
   <Message key="Annotations Storage Location" value="Lokalizacja przechowywania adnotacji" revision="0" />
@@ -53,6 +50,10 @@
     <Item value="Edycja tekstu adnotacji" revision="0" />
     <Item value="Edytuj wybrany element adnotacji" revision="0" />
   </Enumeration>
+  <Enumeration key="AnnotationDuplicate">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="Dodaj" revision="1" />
     <Item value="Zastosuj" revision="1" />
@@ -62,5 +63,6 @@
     <Item value="Adres" revision="0" />
     <Item value="Rozmiar" revision="0" />
     <Item value="Tekst" revision="0" />
+    <Item />
   </Enumeration>
 </Language>
