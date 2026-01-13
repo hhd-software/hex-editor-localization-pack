@@ -460,6 +460,7 @@
   <Message key="Second color" value="Segundo color" revision="0" />
   <Message key="Text color" value="Color del texto" revision="0" />
   <Message key="Outline color" value="Color del contorno" revision="0" />
+  <Message key="Show tooltip" value="Mostrar sugerencia" revision="0" />
   <Message key="Show in info pane" value="Mostrar en el panel de información" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Físico" revision="2" />

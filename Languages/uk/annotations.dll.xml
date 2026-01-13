@@ -47,12 +47,12 @@
     <Item value="Додати нотатку для поточного виділення" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="Редагувати замітку" revision="0" />
-    <Item value="Редагувати вибрану нотатку" revision="0" />
+    <Item value="Редагувати замітку" revision="1" />
+    <Item value="Редагувати вибрану нотатку" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
-    <Item />
-    <Item />
+    <Item value="Дублювати анотацію" revision="0" />
+    <Item value="Створити копію вибраного коментаря" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="Додати" revision="1" />
@@ -62,7 +62,7 @@
     <Item value="N" revision="1" />
     <Item value="Адреса" revision="1" />
     <Item value="Розмір" revision="1" />
-    <Item value="" revision="0" />
+    <Item value="Розмір (десятичний)" revision="1" />
     <Item value="Текст" revision="1" />
   </Enumeration>
 </Language>

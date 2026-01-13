@@ -47,8 +47,8 @@
     <Item value="为当前选择添加注释" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="编辑注释文本" revision="0" />
-    <Item value="编辑选中的注释项目" revision="0" />
+    <Item value="编辑注释" revision="1" />
+    <Item value="编辑选中的注释项目" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
     <Item />

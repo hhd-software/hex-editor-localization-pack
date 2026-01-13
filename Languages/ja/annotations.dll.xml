@@ -47,8 +47,8 @@
     <Item value="現在の選択範囲に注釈を追加" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="注釈テキストの編集" revision="0" />
-    <Item value="選択した注釈項目を編集する" revision="0" />
+    <Item value="注釈を編集する" revision="1" />
+    <Item value="選択した注釈項目を編集する" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
     <Item />

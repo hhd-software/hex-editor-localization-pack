@@ -47,12 +47,12 @@
     <Item value="Aggiunge un'annotazione alla selezione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="Modifica testo dell'annotazione" revision="0" />
-    <Item value="Modifica dell'elemento di annotazione selezionato" revision="0" />
+    <Item value="Modifica annotazione" revision="1" />
+    <Item value="Modifica dell'elemento di annotazione selezionato" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
-    <Item />
-    <Item />
+    <Item value="Duplicazione delle annotazioni" revision="0" />
+    <Item value="Crea una copia di un'annotazione selezionata" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="Aggiungi" revision="1" />
@@ -62,7 +62,7 @@
     <Item value="Nr." revision="1" />
     <Item value="Indirizzo" revision="1" />
     <Item value="Dimensione" revision="1" />
-    <Item value="" revision="0" />
+    <Item value="Dimensione (decimale)" revision="1" />
     <Item value="Testo" revision="1" />
   </Enumeration>
 </Language>

@@ -460,6 +460,7 @@
   <Message key="Second color" value="Другий колір" revision="0" />
   <Message key="Text color" value="Колір тексту" revision="0" />
   <Message key="Outline color" value="Колір контуру" revision="0" />
+  <Message key="Show tooltip" value="Показати підказку" revision="0" />
   <Message key="Show in info pane" value="Показувати в інформаційній панелі" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />

@@ -47,12 +47,12 @@
     <Item value="Добавить заметку для текущего выделения" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="Редактировать заметку" revision="0" />
-    <Item value="Редактировать выбранную заметку" revision="0" />
+    <Item value="Редактировать заметку" revision="1" />
+    <Item value="Редактировать выбранную заметку" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
-    <Item />
-    <Item />
+    <Item value="Дублировать аннотацию" revision="0" />
+    <Item value="Создать копию выбранной аннотации" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="Добавить" revision="1" />
@@ -62,7 +62,7 @@
     <Item value="№" revision="1" />
     <Item value="Адрес" revision="1" />
     <Item value="Размер" revision="1" />
-    <Item value="" revision="0" />
+    <Item value="Размер (десятичный)" revision="1" />
     <Item value="Текст" revision="1" />
   </Enumeration>
 </Language>
