@@ -209,7 +209,7 @@
   <Message key="ProgressDone" value="{percent} % realizado." revision="1" />
   <Message key="Error" value="Error" revision="0" />
   <Message key="PredefinedDelete" value="No es posible borrar el esquema de color prederminado. Sólo los esquemas de usuario pueden borrarse." revision="0" />
-  <Message key="Round edges" value="Esquinas redondeadas" revision="0" />
+  <Message key="Round edges" value="Esquinas en curva" revision="0" />
   <Message key="Text" value="Texto" revision="0" />
   <Message key="Coloring" value="Colorear" revision="0" />
   <Message key="Background" value="Fondo" revision="0" />
@@ -455,6 +455,12 @@
   <Message key="Start" value="Inicio" revision="0" />
   <Message key="End" value="Final" revision="0" />
   <Message key="Size" value="Tamaño" revision="0" />
+  <Message key="rr.Expressions supported" value="Puede utilizar expresiones matemáticas al introducir los valores [[[bInicio]]], [[[bTamaño]]] o [[[bFinal]]].\n\nAntepone «0x» a los números para utilizar números hexadecimales." revision="0" />
+  <Message key="Back color" value="Color de fondo" revision="0" />
+  <Message key="Second color" value="Segundo color" revision="0" />
+  <Message key="Text color" value="Color del texto" revision="0" />
+  <Message key="Outline color" value="Color del contorno" revision="0" />
+  <Message key="Show in info pane" value="Mostrar en el panel de información" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco Físico" revision="2" />
     <Item value="Tamaño" revision="2" />
@@ -954,11 +960,4 @@
     <Item value="Continuar la ejecución" revision="0" />
     <Item value="Eliminar los ajustes de compatibilidad y reiniciar la aplicación" revision="0" />
   </Enumeration>
-   <Message key="Round edges" value="Esquinas en curva" revision="0" />
-    <Message key="Back color" value="Color de fondo" revision="0" />
-  <Message key="Text color" value="Color del texto" revision="0" />
-  <Message key="Outline color" value="Color del contorno" revision="0" />
-  <Message key="Show in info pane" value="Mostrar en el panel de información" revision="0" />
-  <Message key="rr.Expressions supported" value="Puede utilizar expresiones matemáticas al introducir los valores [[[bInicio]]], [[[bTamaño]]] o [[[bFinal]]].\n\nAntepone «0x» a los números para utilizar números hexadecimales." revision="0" />
-  <Message key="Second color" value="Segundo color" revision="0" />
 </Language>

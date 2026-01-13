@@ -429,6 +429,8 @@
   <Message key="Start" value="开始地址" revision="0" />
   <Message key="End" value="结束地址" revision="0" />
   <Message key="Size" value="大小" revision="0" />
+  <Message key="Second color" value="第二个颜色" revision="0" />
+  <Message key="Outline color" value="轮廓颜色" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理磁盘" revision="2" />
     <Item value="大小" revision="2" />
@@ -928,7 +930,4 @@
     <Item value="继续执行" revision="0" />
     <Item value="删除兼容性设置并重新启动应用程序" revision="0" />
   </Enumeration>
-  <Message key="Outline color" value="轮廓颜色" revision="0" />
-  <Message key="Second color" value="第二个颜色" revision="0" />
-  <Message key="Round edges" value="圆角边" revision="0" />
 </Language>

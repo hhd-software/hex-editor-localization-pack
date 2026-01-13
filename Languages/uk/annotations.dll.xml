@@ -59,10 +59,10 @@
     <Item value="Застосувати" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="N" revision="0" />
-    <Item value="Адреса" revision="0" />
-    <Item value="Розмір" revision="0" />
-    <Item value="Текст" revision="0" />
-    <Item />
+    <Item value="N" revision="1" />
+    <Item value="Адреса" revision="1" />
+    <Item value="Розмір" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="Текст" revision="1" />
   </Enumeration>
 </Language>

@@ -59,10 +59,10 @@
     <Item value="Zastosuj" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="Nr." revision="0" />
-    <Item value="Adres" revision="0" />
-    <Item value="Rozmiar" revision="0" />
-    <Item value="Tekst" revision="0" />
-    <Item />
+    <Item value="Nr." revision="1" />
+    <Item value="Adres" revision="1" />
+    <Item value="Rozmiar" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="Tekst" revision="1" />
   </Enumeration>
 </Language>

@@ -59,10 +59,10 @@
     <Item value="Appliquer" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="N." revision="0" />
-    <Item value="Décalage" revision="0" />
-    <Item value="Taille" revision="0" />
-    <Item value="Texte" revision="0" />
-    <Item />
+    <Item value="N." revision="1" />
+    <Item value="Décalage" revision="1" />
+    <Item value="Taille" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="Texte" revision="1" />
   </Enumeration>
 </Language>

@@ -59,10 +59,10 @@
     <Item value="Applica" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="Nr." revision="0" />
-    <Item value="Indirizzo" revision="0" />
-    <Item value="Dimensione" revision="0" />
-    <Item value="Testo" revision="0" />
-    <Item />
+    <Item value="Nr." revision="1" />
+    <Item value="Indirizzo" revision="1" />
+    <Item value="Dimensione" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="Testo" revision="1" />
   </Enumeration>
 </Language>

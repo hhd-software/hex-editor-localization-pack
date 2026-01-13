@@ -455,6 +455,12 @@
   <Message key="Start" value="Inizio" revision="0" />
   <Message key="End" value="Fine" revision="0" />
   <Message key="Size" value="Dim:" revision="0" />
+  <Message key="rr.Expressions supported" value="È possibile utilizzare espressioni matematiche quando si immettono i valori [[[bInizio]]], [[[bDim.]]] o [[[bFine]]].\n\nAnteporre “0x” ai numeri per utilizzare numeri esadecimali." revision="0" />
+  <Message key="Back color" value="Colore di sfondo" revision="0" />
+  <Message key="Second color" value="Secondo colore" revision="0" />
+  <Message key="Text color" value="Colore del testo" revision="0" />
+  <Message key="Outline color" value="Colore contorno" revision="0" />
+  <Message key="Show in info pane" value="Mostra nel riquadro informativo" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Disco fisico" revision="2" />
     <Item value="Dimensione" revision="2" />
@@ -954,11 +960,4 @@
     <Item value="Continua l'esecuzione" revision="0" />
     <Item value="Rimuovi le impostazioni di compatibilità e riavvia l'applicazione" revision="0" />
   </Enumeration>
-  <Message key="Back color" value="Colore di sfondo" revision="0" />
-  <Message key="Text color" value="Colore del testo" revision="0" />
-  <Message key="Outline color" value="Colore contorno" revision="0" />
-  <Message key="Round edges" value="Bordi arrotondati" revision="0" />
-  <Message key="Show in info pane" value="Mostra nel riquadro informativo" revision="0" />
-  <Message key="rr.Expressions supported" value="È possibile utilizzare espressioni matematiche quando si immettono i valori [[[bInizio]]], [[[bDim.]]] o [[[bFine]]].\n\nAnteporre “0x” ai numeri per utilizzare numeri esadecimali." revision="0" />
-  <Message key="Second color" value="Secondo colore" revision="0" />
 </Language>

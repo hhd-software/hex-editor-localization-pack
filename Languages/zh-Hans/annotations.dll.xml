@@ -59,10 +59,10 @@
     <Item value="应用" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="否。" revision="0" />
-    <Item value="地址" revision="0" />
-    <Item value="大小" revision="0" />
-    <Item value="文本内容" revision="0" />
-    <Item />
+    <Item value="否。" revision="1" />
+    <Item value="地址" revision="1" />
+    <Item value="大小" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="文本内容" revision="1" />
   </Enumeration>
 </Language>

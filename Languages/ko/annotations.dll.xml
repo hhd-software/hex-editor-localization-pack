@@ -59,10 +59,10 @@
     <Item value="적용" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="번호" revision="0" />
-    <Item value="주소" revision="0" />
-    <Item value="크기" revision="0" />
-    <Item value="텍스트" revision="0" />
-    <Item />
+    <Item value="번호" revision="1" />
+    <Item value="주소" revision="1" />
+    <Item value="크기" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="텍스트" revision="1" />
   </Enumeration>
 </Language>

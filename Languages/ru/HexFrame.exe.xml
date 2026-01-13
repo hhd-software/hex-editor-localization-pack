@@ -209,7 +209,7 @@
   <Message key="ProgressDone" value="{percent} % завершено" revision="1" />
   <Message key="Error" value="Ошибка" revision="0" />
   <Message key="PredefinedDelete" value="Удаление предопределенных схем запрещено. Только пользовательские схемы могут быть удалены." revision="0" />
-  <Message key="Round edges" value="Круглые углы" revision="0" />
+  <Message key="Round edges" value="Округлые углы" revision="0" />
   <Message key="Text" value="Текст" revision="0" />
   <Message key="Coloring" value="Расцветка" revision="0" />
   <Message key="Background" value="Фон" revision="0" />
@@ -455,6 +455,12 @@
   <Message key="Start" value="Начало" revision="0" />
   <Message key="End" value="Конец" revision="0" />
   <Message key="Size" value="Размер" revision="0" />
+  <Message key="rr.Expressions supported" value="При вводе значений [[[bНачало]]], [[[bРазмер]]] или [[[bКонец]]] можно использовать математические выражения.\n\nДобавьте префикс «0x», чтобы использовать шестнадцатеричные числа." revision="0" />
+  <Message key="Back color" value="Цвет фона" revision="0" />
+  <Message key="Second color" value="Второй цвет" revision="0" />
+  <Message key="Text color" value="Цвет текста" revision="0" />
+  <Message key="Outline color" value="Цвет контура" revision="0" />
+  <Message key="Show in info pane" value="Показывать в информационной панели" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Размер" revision="2" />
@@ -954,11 +960,4 @@
     <Item value="Продолжить" revision="0" />
     <Item value="Отключить настройки совместимости и перезапустить приложение" revision="0" />
   </Enumeration>
-  <Message key="Back color" value="Цвет фона" revision="0" />
-  <Message key="Text color" value="Цвет текста" revision="0" />
-  <Message key="Outline color" value="Цвет контура" revision="0" />
-  <Message key="Second color" value="Второй цвет" revision="0" />
-  <Message key="Round edges" value="Округлые углы" revision="0" />
-  <Message key="Show in info pane" value="Показывать в информационной панели" revision="0" />
-  <Message key="rr.Expressions supported" value="При вводе значений [[[bНачало]]], [[[bРазмер]]] или [[[bКонец]]] можно использовать математические выражения.\n\nДобавьте префикс «0x», чтобы использовать шестнадцатеричные числа." revision="0" />
 </Language>

@@ -59,10 +59,10 @@
     <Item value="適用" revision="1" />
   </Enumeration>
   <Enumeration key="RightColumns">
-    <Item value="No." revision="0" />
-    <Item value="アドレス" revision="0" />
-    <Item value="サイズ" revision="0" />
-    <Item value="テキスト" revision="0" />
-    <Item />
+    <Item value="No." revision="1" />
+    <Item value="アドレス" revision="1" />
+    <Item value="サイズ" revision="1" />
+    <Item value="" revision="0" />
+    <Item value="テキスト" revision="1" />
   </Enumeration>
 </Language>

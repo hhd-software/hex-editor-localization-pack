@@ -432,6 +432,9 @@
   <Message key="Start" value="開始" revision="0" />
   <Message key="End" value="終了" revision="0" />
   <Message key="Size" value="サイズ" revision="0" />
+  <Message key="Second color" value="色2" revision="0" />
+  <Message key="Text color" value="文字色" revision="0" />
+  <Message key="Outline color" value="外枠の色" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理ディスク" revision="2" />
     <Item value="サイズ" revision="2" />
@@ -931,8 +934,4 @@
     <Item value="実行を継続" revision="0" />
     <Item value="互換性設定を削除してアプリケーションを再起動する" revision="0" />
   </Enumeration>
-  <Message key="Outline color" value="外枠の色" revision="0" />
-  <Message key="Round edges" value="角丸エッジ" revision="0" />
-  <Message key="Second color" value="色2" revision="0" />
-  <Message key="Text color" value="文字色" revision="0" />
 </Language>

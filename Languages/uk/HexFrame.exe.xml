@@ -455,6 +455,12 @@
   <Message key="Start" value="Початок" revision="0" />
   <Message key="End" value="Кінець" revision="0" />
   <Message key="Size" value="Розмір" revision="0" />
+  <Message key="rr.Expressions supported" value="Ви можете використовувати математичні вирази при введенні значень [[[bПочаток]]], [[[bРозмір]]] або [[[bКінець]]].\n\nДодайте префікс «0x», щоб використовувати шістнадцяткові числа." revision="0" />
+  <Message key="Back color" value="Колір фону" revision="0" />
+  <Message key="Second color" value="Другий колір" revision="0" />
+  <Message key="Text color" value="Колір тексту" revision="0" />
+  <Message key="Outline color" value="Колір контуру" revision="0" />
+  <Message key="Show in info pane" value="Показувати в інформаційній панелі" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="Диск" revision="2" />
     <Item value="Розмір" revision="2" />
@@ -954,11 +960,4 @@
     <Item value="Продовжити" revision="0" />
     <Item value="Вимкнути налаштування сумісності та перезапустити програму" revision="0" />
   </Enumeration>
-  <Message key="Back color" value="Колір фону" revision="0" />
-  <Message key="Text color" value="Колір тексту" revision="0" />
-  <Message key="Outline color" value="Колір контуру" revision="0" />
-  <Message key="Second color" value="Другий колір" revision="0" />
-   <Message key="Round edges" value="Округлі кути" revision="0" />
-   <Message key="Show in info pane" value="Показувати в інформаційній панелі" revision="0" />
-   <Message key="rr.Expressions supported" value="Ви можете використовувати математичні вирази при введенні значень [[[bПочаток]]], [[[bРозмір]]] або [[[bКінець]]].\n\nДодайте префікс «0x», щоб використовувати шістнадцяткові числа." revision="0" />
 </Language>
