@@ -418,7 +418,7 @@
 	<Enumeration key="CLRErrorReasons" description="List of CLR errors">
 		<Item text="Meta host was not initialized"/>
 		<Item text="Unable to retrieve an assembly's original .NET Framework compilation version"/>
-		<Item text="Unable to load common language runtime (CLR). .NET {version} is required to use this feature. Install missing components and try again.">
+		<Item revision="1" text="Unable to load common language runtime (CLR). .NET {version} is required to use this feature. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Install missing components]]] and try again.">
 			<Param name="version"/>
 		</Item>
 	</Enumeration>

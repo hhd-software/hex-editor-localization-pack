@@ -26,6 +26,14 @@
 		<Param name="fact"/>
 	</Message>
 
+	<Message key="CannotDeduceSize" description="Error: Cannot deduce the size of the field" value="Cannot deduce the size of the field '{field}'">
+		<Param name="field"/>
+	</Message>
+	<Message key="CannotCast" description="Error: Cannot cast" value="'{value}' cannot be cast into {type}">
+		<Param name="value"/>
+		<Param name="type"/>
+	</Message>
+
 	<Message key="SizeConflictError" description="Size conflict error" value="Only one of 'size' or 'size-eos' must be specified."/>
 	<Message key="NoRepeatError" description="No 'repeat' expression error" value="No expression in 'repeat-expr' block."/>
 	<Message key="NoUntilError" description="No 'repeat-until' expression error" value="No expression in 'repeat-until' block."/>

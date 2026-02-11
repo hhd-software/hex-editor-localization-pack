@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <!-- Commands -->
+
+<Enumeration key="HistoryRenameOp" description="History.RenameOp">
+		<Item text="Rename Operation…"/>
+		<Item text="Rename selected operation"/>
+	</Enumeration>
+
   <Enumeration key="HistoryClearHistory" description="History.Clear History">
     <Item text="Clear History"/>
     <Item text="Clear History"/>
@@ -33,16 +39,16 @@
     <Item text="Create Pa&amp;tch…"/>
     <Item text="Create a patch with current changes"/>
   </Enumeration>
-  <Enumeration key="ColoringNewPatternRule" description="Coloring.New Pattern Rule">
-    <Item text="Create New Pattern Rule…"/>
+  <Enumeration key="ColoringNewPatternRule" description="Coloring.New Pattern Rule" revision="1">
+    <Item text="New Pattern Rule…"/>
     <Item text="Define new pattern coloring rule"/>
   </Enumeration>
-	<Enumeration key="ColoringNewRangeRule" description="Coloring.New Range Rule">
-		<Item text="Create New Range Rule…"/>
+	<Enumeration key="ColoringNewRangeRule" description="Coloring.New Range Rule" revision="1">
+		<Item text="New Range Rule…"/>
 		<Item text="Define new range coloring rule"/>
 	</Enumeration>
-	<Enumeration key="ColoringNewValueRangeRule" description="Coloring.New Value Range Rule">
-		<Item text="Create New Value Range Rule…"/>
+	<Enumeration key="ColoringNewValueRangeRule" description="Coloring.New Value Range Rule" revision="1">
+		<Item text="New Value Range Rule…"/>
 		<Item text="Define new value range coloring rule"/>
 	</Enumeration>
 	<Enumeration key="ColoringDuplicateRule" description="Coloring.Duplicate Rule">
@@ -586,4 +592,8 @@
 	<Message key="Invalid rule object" description="Scripting error: Invalid rule object" value="Invalid rule object: {error}">
 		<Param name="error"/>
 	</Message>
+
+	<!-- Base Converter -->
+	<Message key="Encode as" description="Field: Endode text as" value="Encode text as:"/>
+	<Message key="Code points" description="Field: Code points"/>
 </Definition>
