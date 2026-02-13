@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="El tamaño del rango es cero" revision="0" />
   <Message key="range_rule.invalid range" value="Rango no válido" revision="0" />
   <Message key="Invalid rule object" value="Objeto de regla no válido: {error}" revision="0" />
+  <Message key="Encode as" value="Codificar texto como:" revision="0" />
+  <Message key="Code points" value="Punto de código" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Cambiar el nombre de la operación…" revision="0" />
+    <Item value="Cambiar el nombre de la operación seleccionada" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Borrar el Historial" revision="0" />
     <Item value="Borrar el Historial" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Crear un parche con los cambios actuales" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Crear nueva regla de patrón…" revision="0" />
-    <Item value="Definir nueva regla de coloración de patrones" revision="0" />
+    <Item value="Nnueva regla de patrón…" revision="1" />
+    <Item value="Definir nueva regla de coloración de patrones" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Crear nueva regla de rango…" revision="0" />
-    <Item value="Definir nueva regla de coloración de rango" revision="0" />
+    <Item value="Nueva regla de rango…" revision="1" />
+    <Item value="Definir nueva regla de coloración de rango" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Crear nueva regla de rango de valores…" revision="0" />
-    <Item value="Definir nueva regla de coloración del rango de valores" revision="0" />
+    <Item value="Nueva regla de rango de valores…" revision="1" />
+    <Item value="Definir nueva regla de coloración del rango de valores" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Duplicar la regla…" revision="0" />

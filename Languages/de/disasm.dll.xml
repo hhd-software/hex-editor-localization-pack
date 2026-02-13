@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="Meta-Host wurde nicht initialisiert" revision="0" />
     <Item value="Die ursprüngliche .NET Framework-Kompilierungsversion einer Assembly kann nicht abgerufen werden" revision="0" />
-    <Item value="Die Common Language Runtime (CLR) kann nicht geladen werden. .NET {version} ist erforderlich, um diese Funktion zu verwenden. Installieren Sie die fehlenden Komponenten und versuchen Sie es erneut." revision="0" />
+    <Item value="Die Common Language Runtime (CLR) konnte nicht geladen werden. Für diese Funktion ist .NET {version} erforderlich. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Installieren Sie die fehlenden Komponenten]]] und versuchen Sie es erneut." revision="1" />
   </Enumeration>
 </Language>

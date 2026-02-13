@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="Розмір діапазону дорівнює нулю" revision="0" />
   <Message key="range_rule.invalid range" value="Недійсний діапазон" revision="0" />
   <Message key="Invalid rule object" value="Недійсний об'єкт правила: {error}" revision="0" />
+  <Message key="Encode as" value="Кодуйте текст як:" revision="0" />
+  <Message key="Code points" value="Кодова точка" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Перейменувати операцію…" revision="0" />
+    <Item value="Перейменувати вибрану операцію" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Видалити історію" revision="0" />
     <Item value="Видалити історію" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Створити патч з поточними змінами" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Створити нове правило шаблону…" revision="0" />
-    <Item value="Визначити нове правило забарвлення візерунка" revision="0" />
+    <Item value="Нове правило шаблону…" revision="1" />
+    <Item value="Задати нове правило забарвлення візерунка" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Створити нове діапазонне правило…" revision="0" />
-    <Item value="Визначити нове правило забарвлення діапазону" revision="0" />
+    <Item value="Нове діапазонне правило…" revision="1" />
+    <Item value="Задати нове правило забарвлення діапазону" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Створити нове правило діапазону значень…" revision="0" />
-    <Item value="Визначити нове правило забарвлення діапазону значень" revision="0" />
+    <Item value="Нове правило діапазону значень…" revision="1" />
+    <Item value="Задати нове правило забарвлення діапазону значень" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Дублювання правила…" revision="0" />

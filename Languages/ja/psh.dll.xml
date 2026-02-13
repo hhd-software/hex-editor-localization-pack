@@ -110,6 +110,10 @@
   <Message key="toolbar.Statistics" value="統計" revision="0" />
   <Message key="toolbar.History" value="履歴" revision="0" />
   <Message key="toolbar.History Window" value="履歴ツリーウィンドウ" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="履歴の消去" revision="0" />
     <Item value="履歴の消去" revision="0" />

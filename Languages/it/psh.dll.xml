@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="La dimensione dell'intervallo è zero" revision="0" />
   <Message key="range_rule.invalid range" value="Intervallo non valido" revision="0" />
   <Message key="Invalid rule object" value="Oggetto regola non valido: {error}" revision="0" />
+  <Message key="Encode as" value="Codifica il testo come:" revision="0" />
+  <Message key="Code points" value="Punto di codice" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Rinomina l'operazione…" revision="0" />
+    <Item value="Rinomina l'operazione selezionata" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Cancella cronologia" revision="0" />
     <Item value="Cancella cronologia" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Crea una pezza con le modifiche correnti" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Crea nuova regola modello…" revision="0" />
-    <Item value="Definire una nuova regola di colorazione dei modelli" revision="0" />
+    <Item value="Nuova regola modello…" revision="1" />
+    <Item value="Definire una nuova regola di colorazione dei modelli" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Crea nuova regola intervallo…" revision="0" />
-    <Item value="Definire una nuova regola di colorazione dell'intervallo" revision="0" />
+    <Item value="Nuova regola intervallo…" revision="1" />
+    <Item value="Definire una nuova regola di colorazione dell'intervallo" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Crea nuova regola intervallo valori…" revision="0" />
-    <Item value="Definire una nuova regola di colorazione dell'intervallo di valori" revision="0" />
+    <Item value="Nuova regola intervallo valori…" revision="1" />
+    <Item value="Definire una nuova regola di colorazione dell'intervallo di valori" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Duplica la regola…" revision="0" />

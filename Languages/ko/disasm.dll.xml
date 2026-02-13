@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="메타 호스트가 초기화되지 않았습니다" revision="0" />
     <Item value="어셈블리의 원래 .NET Framework 컴파일 버전을 검색할 수 없습니다" revision="0" />
-    <Item value="공통 언어 런타임 (CLR)을 불러올 수 없습니다. 이 기능을 사용하려면 .NET {version}이(가) 필요합니다. 누락된 구성 요소를 설치하고 다시 시도하십시오." revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
 </Language>

@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="Meta host nie został zainicjowany" revision="0" />
     <Item value="Nie można pobrać oryginalnej wersji kompilacji zestawu .NET Framework" revision="0" />
-    <Item value="Nie można załadować ogólnego języka runtime (CLR). .NET {version} jest wymagana do korzystania z tej funkcji. Zainstaluj brakujące komponenty i spróbuj ponownie." revision="0" />
+    <Item value="Nie można załadować środowiska uruchomieniowego języka wspólnego (CLR). Do korzystania z tej funkcji wymagany jest .NET w wersji {version}. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Zainstaluj brakujące komponenty]]] i spróbuj ponownie." revision="1" />
   </Enumeration>
 </Language>

@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="Le méta-hôte n'a pas été initialisé" revision="0" />
     <Item value="Impossible de récupérer la version de compilation originale de .NET Framework d'un assemblage" revision="0" />
-    <Item value="Impossible de charger le Common Language Runtime (CLR). .NET {version} est nécessaire pour utiliser cette fonctionnalité. Installez les composants manquants et réessayez." revision="0" />
+    <Item value="Impossible de charger le Common Language Runtime (CLR). .NET {version} est requis pour utiliser cette fonctionnalité. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Installer les composants manquants]]] et réessayez." revision="1" />
   </Enumeration>
 </Language>

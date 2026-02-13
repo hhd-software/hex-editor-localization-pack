@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="Bereichsgröße ist Null" revision="0" />
   <Message key="range_rule.invalid range" value="Ungültiger Bereich" revision="0" />
   <Message key="Invalid rule object" value="Ungültiges Regelobjekt: {error}" revision="0" />
+  <Message key="Encode as" value="Text kodieren als:" revision="0" />
+  <Message key="Code points" value="Coderaum" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Benennen Sie die Operation…" revision="0" />
+    <Item value="Ausgewählten Vorgang umbenennen" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Historie löschen" revision="0" />
     <Item value="Löschet die Operationen Historie" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Erzeugt einen Patch mit den aktuellen Änderungen" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Neue Musterregel erstellen…" revision="0" />
-    <Item value="Neue Regel für Musterfärbung definieren" revision="0" />
+    <Item value="Neue Musterregel…" revision="1" />
+    <Item value="Neue Regel für Musterfärbung definieren" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Neue Bereichsregel erstellen…" revision="0" />
-    <Item value="Neue Regel für Bereichsfarben definieren" revision="0" />
+    <Item value="Neue Bereichsregel…" revision="1" />
+    <Item value="Neue Regel für Bereichsfarben definieren" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Neue Wertbereichsregel erstellen…" revision="0" />
-    <Item value="Neue Regel für die Einfärbung von Wertebereichen definieren" revision="0" />
+    <Item value="Neue Wertbereichsregel…" revision="1" />
+    <Item value="Neue Regel für die Einfärbung von Wertebereichen definieren" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Regel duplizieren…" revision="0" />

@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="O tamanho do intervalo é zero" revision="0" />
   <Message key="range_rule.invalid range" value="Intervalo inválido" revision="0" />
   <Message key="Invalid rule object" value="Objeto de regra inválido: {error}" revision="0" />
+  <Message key="Encode as" value="Codificar texto como:" revision="0" />
+  <Message key="Code points" value="Ponto de código" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Renomeie a Operação…" revision="0" />
+    <Item value="Renomear operação selecionada" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Limpar Histórico" revision="0" />
     <Item value="Limpa o Histórico" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Cria um patch com as alterações atuais" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Criar nova regra de padrão…" revision="0" />
-    <Item value="Definir nova regra de coloração de padrão" revision="0" />
+    <Item value="Nova regra de padrão…" revision="1" />
+    <Item value="Definir nova regra de coloração de padrão" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Criar nova regra de intervalo…" revision="0" />
-    <Item value="Definir nova regra de coloração de intervalo" revision="0" />
+    <Item value="Nova regra de intervalo…" revision="1" />
+    <Item value="Definir nova regra de coloração de intervalo" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Criar nova regra de intervalo de valores…" revision="0" />
-    <Item value="Definir nova regra de coloração do intervalo de valores" revision="0" />
+    <Item value="Nova regra de intervalo de valores…" revision="1" />
+    <Item value="Definir nova regra de coloração do intervalo de valores" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Duplique a regra…" revision="0" />

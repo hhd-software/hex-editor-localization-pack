@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="元宿主机未被初始化" revision="0" />
     <Item value="无法检索一个程序集的原始.NET框架编译版本" revision="0" />
-    <Item value="无法加载通用语言运行时（CLR）。使用此功能需要.NET {版本}。安装缺失的组件并重试。" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
 </Language>

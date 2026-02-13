@@ -110,6 +110,10 @@
   <Message key="toolbar.Statistics" value="통계" revision="0" />
   <Message key="toolbar.History" value="내역" revision="0" />
   <Message key="toolbar.History Window" value="내역 트리 창" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="내역 지우기" revision="0" />
     <Item value="내역 지우기" revision="0" />

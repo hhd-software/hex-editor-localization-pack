@@ -10,6 +10,8 @@
   <Message key="ResultNotANumber" value="Le résultat de 'repeat-expr' n'est pas un nombre." revision="0" />
   <Message key="InvalidArgument" value="Argument invalide" revision="0" />
   <Message key="ParamsNumMistmatch" value="Nombre d'arguments invalide. Estimation: {est}, reçu: {fact}." revision="0" />
+  <Message key="CannotDeduceSize" value="Impossible de déduire la taille du champ '{field}'" revision="0" />
+  <Message key="CannotCast" value="'{value}' ne peut pas être converti en {type}" revision="0" />
   <Message key="SizeConflictError" value="Une seule des options 'size' ou 'size-eos' doit être spécifiée." revision="0" />
   <Message key="NoRepeatError" value="Aucune expression dans le bloc 'repeat-expr'." revision="0" />
   <Message key="NoUntilError" value="Aucune expression dans le bloc 'repeat-until'." revision="0" />

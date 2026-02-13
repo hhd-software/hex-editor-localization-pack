@@ -10,6 +10,8 @@
   <Message key="ResultNotANumber" value="Результат 'repeat-expr' не число." revision="0" />
   <Message key="InvalidArgument" value="Невірний аргумент" revision="0" />
   <Message key="ParamsNumMistmatch" value="Неправильна кількість аргументів. Очікується: {est}, отримано: {fact}." revision="0" />
+  <Message key="CannotDeduceSize" value="Неможливо визначити розмір поля '{field}'" revision="0" />
+  <Message key="CannotCast" value="'{value}' не може бути перетворено на {type}" revision="0" />
   <Message key="SizeConflictError" value="Можна вказувати або 'size', або 'size-eos'." revision="0" />
   <Message key="NoRepeatError" value="Відсутній вираз у блоці 'repeat-expr'." revision="0" />
   <Message key="NoUntilError" value="Відсутній вираз у блоці 'repeat-until'." revision="0" />

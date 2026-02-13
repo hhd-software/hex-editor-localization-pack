@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="Meta anfitrião não foi inicializado" revision="0" />
     <Item value="Incapaz de recuperar a versão original da compilação de uma montagem .NET Framework" revision="0" />
-    <Item value="Incapaz de carregar o tempo de execução da linguagem comum (CLR). .NET {version} é necessário para utilizar esta funcionalidade. Instalar os componentes em falta e tentar novamente." revision="0" />
+    <Item value="Não foi possível carregar o Common Language Runtime (CLR). O . NET {version} é necessário para utilizar este recurso. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Instalar componentes em falta]]] e tente novamente." revision="1" />
   </Enumeration>
 </Language>

@@ -126,6 +126,12 @@
   <Message key="range_rule.size is zero" value="Rozmiar zakresu wynosi zero" revision="0" />
   <Message key="range_rule.invalid range" value="Nieważny zakres" revision="0" />
   <Message key="Invalid rule object" value="Nieprawidłowy obiekt reguły: {error}" revision="0" />
+  <Message key="Encode as" value="Zakoduj tekst jako:" revision="0" />
+  <Message key="Code points" value="Punkt kodowy" revision="0" />
+  <Enumeration key="HistoryRenameOp">
+    <Item value="Zmień nazwę operacji…" revision="0" />
+    <Item value="Zmień nazwę wybranej operacji" revision="0" />
+  </Enumeration>
   <Enumeration key="HistoryClearHistory">
     <Item value="Czyść historię" revision="0" />
     <Item value="Czyść historię" revision="0" />
@@ -155,16 +161,16 @@
     <Item value="Utwórz łatkę z bieżącymi zmianami" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Utwórz nową regułę wzorca…" revision="0" />
-    <Item value="Zdefiniuj nową regułę kolorowania wzoru" revision="0" />
+    <Item value="Nową regułę wzorca…" revision="1" />
+    <Item value="Zdefiniuj nową regułę kolorowania wzoru" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item value="Utwórz nową regułę zakresu…" revision="0" />
-    <Item value="Zdefiniuj nową regułę kolorowania zakresu" revision="0" />
+    <Item value="Nową regułę zakresu…" revision="1" />
+    <Item value="Zdefiniuj nową regułę kolorowania zakresu" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="Utwórz nową regułę zakresu wartości…" revision="0" />
-    <Item value="Zdefiniuj nową regułę kolorowania zakresu wartości" revision="0" />
+    <Item value="Nową regułę zakresu wartości…" revision="1" />
+    <Item value="Zdefiniuj nową regułę kolorowania zakresu wartości" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
     <Item value="Powiel regułę…" revision="0" />

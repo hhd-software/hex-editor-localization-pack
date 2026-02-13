@@ -337,6 +337,6 @@
   <Enumeration key="CLRErrorReasons">
     <Item value="Мета-хост не був ініціалізований" revision="0" />
     <Item value="Неможливо відновити вихідну версію .NET Framework" revision="0" />
-    <Item value="Неможливо завантажити середовище виконання CLR. Для використання цієї функції потрібен .NET {version}. Встановіть компоненти, яких бракує, і повторіть спробу." revision="0" />
+    <Item value="Не вдалося завантажити середовище виконання загальномовних середовищ (CLR). Для використання цієї функції потрібна версія .NET {version}. [[[h#[https://dotnet.microsoft.com/en-us/download/dotnet-framework]#Встановіть відсутні компоненти]]] та спробуйте ще раз." revision="1" />
   </Enumeration>
 </Language>
