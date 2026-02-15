@@ -272,6 +272,15 @@
 	<Message key="ShowVLines" description="Option: Show grid lines" value="Show grid lines"/>
 	<Message key="ShowHardcodedOperands" description='Option: Display "hardcoded" operands' value='Display "hardcoded" operands'/>
 
+	<Enumeration key="InfoType" description="Option: Disassembler info type">
+		<Item text="Show in Info Pane"/>
+		<Item text="Nothing"/>
+		<Item text="Function names"/>
+		<Item text="Mnemonics only"/>
+		<Item text="Full"/>
+	</Enumeration>
+
+
 	<Enumeration key="DisasmTask" description="Jump List Item: Disassembler">
 		<Item text="Disassemble file"/>
 		<Item text="Start disassembling an executable"/>
