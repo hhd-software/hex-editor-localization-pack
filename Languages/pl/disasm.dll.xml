@@ -302,6 +302,13 @@
     <Item value="Metoda" revision="0" />
     <Item value="Funkcja" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item value="Pokaż w panelu informacyjnym" revision="0" />
+    <Item value="Nic" revision="0" />
+    <Item value="Nazwy funkcji" revision="0" />
+    <Item value="Tylko mnemotechniki" revision="0" />
+    <Item value="Pełne" revision="0" />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="Demontaż pliku" revision="0" />
     <Item value="Uruchom demontaż pliku wykonywalnego" revision="0" />

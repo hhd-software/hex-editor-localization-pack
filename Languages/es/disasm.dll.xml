@@ -302,6 +302,13 @@
     <Item value="Método" revision="0" />
     <Item value="Función" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item value="Mostrar en el panel de información" revision="0" />
+    <Item value="Nada" revision="0" />
+    <Item value="Nombres de funciones" revision="0" />
+    <Item value="Sólo mnemotécnicos" revision="0" />
+    <Item value="Completos" revision="0" />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="Desensamblar archivo" revision="0" />
     <Item value="Iniciar el desensamble de un ejecutable" revision="0" />

@@ -302,6 +302,13 @@
     <Item value="Метод" revision="0" />
     <Item value="Функція" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item value="Показати в інформаційній панелі" revision="0" />
+    <Item value="Нічого" revision="0" />
+    <Item value="Назви функцій" revision="0" />
+    <Item value="Тільки мнемоніка" revision="0" />
+    <Item value="Повне" revision="0" />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="Дизасемблювати файл" revision="0" />
     <Item value="Запустити дизасемблювання виконуваного файлу" revision="0" />

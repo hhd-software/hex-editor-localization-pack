@@ -302,6 +302,13 @@
     <Item value="方法" revision="0" />
     <Item value="函数" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="反汇编文件" revision="0" />
     <Item value="开始反汇编一个可执行文件" revision="0" />

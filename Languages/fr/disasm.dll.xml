@@ -302,6 +302,13 @@
     <Item value="Methode" revision="0" />
     <Item value="Fonction" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item value="Afficher dans le volet d'informations" revision="0" />
+    <Item value="Rien" revision="0" />
+    <Item value="Noms de fonctions" revision="0" />
+    <Item value="Mnémoniques uniquement" revision="0" />
+    <Item value="Complètes" revision="0" />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="Désassembler fichier" revision="0" />
     <Item value="Lancé le désassemblage d'un executable" revision="0" />

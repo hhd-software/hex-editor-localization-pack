@@ -302,6 +302,13 @@
     <Item value="方法" revision="0" />
     <Item value="ファンクション" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="逆アセンブル ファイル" revision="0" />
     <Item value="実行可能ファイルの逆アセンブルを開始" revision="0" />

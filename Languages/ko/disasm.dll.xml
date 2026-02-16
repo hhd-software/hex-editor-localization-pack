@@ -302,6 +302,13 @@
     <Item value="방식" revision="0" />
     <Item value="함수" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="파일 디어셈블" revision="0" />
     <Item value="실행 파일 분해 시작" revision="0" />

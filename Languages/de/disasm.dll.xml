@@ -302,6 +302,13 @@
     <Item value="Methode" revision="0" />
     <Item value="Funktion" revision="0" />
   </Enumeration>
+  <Enumeration key="InfoType">
+    <Item value="Im Infobereich anzeigen" revision="0" />
+    <Item value="Nichts" revision="0" />
+    <Item value="Funktionsnamen" revision="0" />
+    <Item value="Nur Mnemotechniken" revision="0" />
+    <Item value="Vollständige" revision="0" />
+  </Enumeration>
   <Enumeration key="DisasmTask">
     <Item value="Disassemblier Datei" revision="0" />
     <Item value="Startet die Disassemblierung eines ausführbaren Kodes" revision="0" />
