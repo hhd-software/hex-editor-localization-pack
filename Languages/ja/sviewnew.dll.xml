@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Update" value="アップデート" revision="0" />
+  <Message key="Update Binding" value="アップデート" revision="0" />
   <Message key="Assertion Failed" value="アサーションが失敗しました{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="バインドされた式を評価できません。" revision="0" />
   <Message key="Structure Viewer" value="構造体ビューア" revision="0" />

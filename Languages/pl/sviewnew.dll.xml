@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Update" value="Aktualizacja" revision="0" />
+  <Message key="Update Binding" value="Aktualizacja" revision="0" />
   <Message key="Assertion Failed" value="Asercja nie powiodła się{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Nie można ocenić powiązanego wyrażenia." revision="0" />
   <Message key="Structure Viewer" value="Widok struktury" revision="0" />

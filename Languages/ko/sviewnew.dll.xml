@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Update" value="업데이트" revision="0" />
+  <Message key="Update Binding" value="업데이트" revision="0" />
   <Message key="Assertion Failed" value="주장 실패{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="바인딩 식을 계산할 수 없습니다." revision="0" />
   <Message key="Structure Viewer" value="구조 뷰어" revision="0" />

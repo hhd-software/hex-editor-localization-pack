@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Update" value="Обновить" revision="0" />
+  <Message key="Update Binding" value="Обновить" revision="0" />
   <Message key="Assertion Failed" value="Условие не выполено{has message?}: {message}{?has message}" revision="0" />
   <Message key="CantEvaluate" value="Ошибка вычисления выражения." revision="0" />
   <Message key="Structure Viewer" value="Структуры" revision="0" />

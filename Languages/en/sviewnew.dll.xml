@@ -86,7 +86,7 @@
     <Item text="CE022: Preprocessing error"/>
   </Enumeration>
 
-  <Message key="Update" description="Button: Update"/>
+  <Message key="Update Binding" description="Button: Update"/>
   <Message key="Assertion Failed" description="Assertion Failed" value="Assertion Failed{has message?}: {message}{?has message}">
     <Param name="has message" format="?"/>
     <Param name="message"/>
