@@ -431,4 +431,6 @@
 			<Param name="version"/>
 		</Item>
 	</Enumeration>
+
+	<Message key="DisasmDoubleClickToChange" description="Double-click to change mode" value="\n\nDouble-click to change visualization mode"/>
 </Definition>
