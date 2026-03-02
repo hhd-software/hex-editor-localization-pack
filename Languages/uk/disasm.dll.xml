@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Дизасемблювання модулів MSIL наразі не підтримується. Будь ласка, дизасемблюйте модуль із файлової системи." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Дизасемблювання незбережених модулів MSIL не підтримується. Будь ласка, спочатку збережіть файл." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;нинішній незбережений файл&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nДвічі клацніть, щоб змінити режим візуалізації" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Запустити Дизасемблер…" revision="0" />
     <Item value="Дизасемблювати виконуваний файл" revision="0" />

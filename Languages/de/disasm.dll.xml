@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Das Disassemblieren von gemappten MSIL-Modulen wird derzeit nicht unterstützt. Bitte disassemblieren Sie das Modul aus dem Dateisystem." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Die Disassemblierung ungespeicherter MSIL-Module wird derzeit nicht unterstützt. Bitte speichern Sie die Datei zuerst." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;ungespeicherte aktuelle Datei&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nDoppelklicken Sie, um den Visualisierungsmodus zu ändern" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Disassembler starten…" revision="0" />
     <Item value="Disassembliert eine ausführbare Datei" revision="0" />

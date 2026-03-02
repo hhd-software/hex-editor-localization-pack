@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Sfondo della casella informativa" revision="0" />
   <Message key="clr.colors.InfoText" value="Testo del riquadro informativo" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Contorno riquadro informativo" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Highlight della riquadro informativo" revision="0" />
   <Message key="clr.colors.Wave" value="Evidenziazione del campo" revision="0" />
   <Message key="toolbar.Selection" value="Selezione" revision="0" />
   <Message key="Info pane header" value="Pannello informativo" revision="0" />

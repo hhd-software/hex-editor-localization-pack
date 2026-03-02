@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Hintergrundfarbe der Infobox" revision="0" />
   <Message key="clr.colors.InfoText" value="Infobox-Text" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Infobox-Übersicht" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Highlight der Infobox" revision="0" />
   <Message key="clr.colors.Wave" value="Feldhervorhebung" revision="0" />
   <Message key="toolbar.Selection" value="Auswahl" revision="0" />
   <Message key="Info pane header" value="Infofenster" revision="0" />

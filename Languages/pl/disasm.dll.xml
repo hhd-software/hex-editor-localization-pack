@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Demontaż zmapowanych modułów MSIL nie jest obecnie obsługiwana. Proszę zdemontować moduł systemu plików." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Demontaż niezapisanych modułów MSIL nie jest obecnie obsługiwana. Najpierw zapisz plik." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;niezapisany bieżący plik&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nKliknij dwukrotnie, aby zmienić tryb wizualizacji" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Uruchom rozmontowanie…" revision="0" />
     <Item value="Rozmontowanie pliku wykonywalnego" revision="0" />

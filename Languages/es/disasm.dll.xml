@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Actualmente no es posible desensamblar módulos MSIL mapeados. Desensamble el módulo desde el sistema de archivos." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Actualmente no es posible desensamblar módulos MSIL sin guardar. Por favor, guarde el archivo primero." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;archivo actual no guardado&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nHaga doble clic para cambiar el modo de visualización" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Iniciar el desensamblador…" revision="0" />
     <Item value="Desensamblar un archivo ejecutable" revision="0" />

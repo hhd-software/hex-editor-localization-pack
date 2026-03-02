@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Arrière-plan de l'encadré d'information" revision="0" />
   <Message key="clr.colors.InfoText" value="Texte de l'encadré d'information" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Contour de la boîte d'informations" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Point fort dela boîte d'informations" revision="0" />
   <Message key="clr.colors.Wave" value="Mise en évidence du champ" revision="0" />
   <Message key="toolbar.Selection" value="Sélection" revision="0" />
   <Message key="Info pane header" value="Panneau d'informations" revision="0" />

@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Fundo da caixa de informações" revision="0" />
   <Message key="clr.colors.InfoText" value="Texto da caixa de informações" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Contorno da caixa de informações" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Destaque da caixa de informações" revision="0" />
   <Message key="clr.colors.Wave" value="Destaque de campo" revision="0" />
   <Message key="toolbar.Selection" value="Selecção" revision="0" />
   <Message key="Info pane header" value="Painel de informações" revision="0" />

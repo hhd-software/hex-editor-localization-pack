@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="A desmontagem de módulos mapeados do MSIL não é actualmente suportada. Favor desmontar o módulo do sistema de ficheiros." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="A desmontagem de módulos MSIL não guardados não é actualmente suportada. Por favor, guarde primeiro o ficheiro." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;ficheiro actual não guardado&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nClique duas vezes para alterar o modo de visualização" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Executar Disassembler…" revision="0" />
     <Item value="Disassemble um arquivo executável" revision="0" />

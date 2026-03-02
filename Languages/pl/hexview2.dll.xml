@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Tło okna informacyjnego" revision="0" />
   <Message key="clr.colors.InfoText" value="Tekst ramki informacyjnej" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Zarys ramki informacyjnej" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Podświetlenie pola informacyjnego" revision="0" />
   <Message key="clr.colors.Wave" value="Podświetlenie pola" revision="0" />
   <Message key="toolbar.Selection" value="Wybór" revision="0" />
   <Message key="Info pane header" value="Panel informacyjny" revision="0" />

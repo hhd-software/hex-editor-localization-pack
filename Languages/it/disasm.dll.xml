@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Il disassemblaggio dei moduli MSIL mappati non è attualmente supportato. Si prega di smontare il modulo dal sistema file." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Il disassemblaggio di moduli MSIL non salvati non è attualmente supportato. Si prega di salvare prima il file." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;file attuale non salvato&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nFai doppio clic per cambiare la modalità di visualizzazione" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Esegui disassemblaggio…" revision="0" />
     <Item value="Disassembla un file eseguibile" revision="0" />

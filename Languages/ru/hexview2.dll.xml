@@ -229,6 +229,7 @@
   <Message key="clr.colors.InfoBackground" value="Фон информационного блока" revision="0" />
   <Message key="clr.colors.InfoText" value="Текст информационного блока" revision="0" />
   <Message key="clr.colors.InfoBorder" value="Схема информационного блока" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="Подсветка информационного блока" revision="0" />
   <Message key="clr.colors.Wave" value="Подсветка поля" revision="0" />
   <Message key="toolbar.Selection" value="Выделение" revision="0" />
   <Message key="Info pane header" value="Информационная панель" revision="0" />

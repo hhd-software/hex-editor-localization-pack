@@ -113,6 +113,7 @@
   <Message key="MsilFeatureNotAvailable" value="Le désassemblage des modules MSIL mappés n'est pas pris en charge actuellement. Veuillez désassembler le module à partir du système de fichiers." revision="0" />
   <Message key="MsilFeatureNotAvailable2" value="Le désassemblage des modules MSIL non sauvegardés n'est pas pris en charge actuellement. Veuillez d'abord enregistrer le fichier." revision="0" />
   <Message key="UnsavedCurrentFile" value="&lt;fichier courant non sauvegardé&gt;" revision="0" />
+  <Message key="DisasmDoubleClickToChange" value="\n\nDouble-cliquez pour changer le mode de visualisation" revision="0" />
   <Enumeration key="DisasmRun">
     <Item value="Lancer Désassembleur…" revision="0" />
     <Item value="Désassembler un fichier exécutable" revision="0" />
