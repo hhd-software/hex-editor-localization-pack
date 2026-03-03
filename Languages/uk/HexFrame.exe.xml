@@ -934,6 +934,10 @@
     <Item value="Мовний пакет доступний on-line" revision="0" />
     <Item value="Мовний пакет для &quot;{language name}&quot; доступний для завантаження. Ви бажаєте завантажити и використати даний мовний пакет?" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Мовний пакет доступний" revision="0" />
+    <Item value="Доступний мовний пакет &quot;{language name}&quot;. Чи хочете ви перейти на цей мовний пакет?" revision="0" />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="Реєстр" revision="0" />
     <Item value="Користувальницький ключ у системному реєстрі. Значення за замовчуванням" revision="0" />

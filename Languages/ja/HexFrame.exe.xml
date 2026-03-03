@@ -907,6 +907,10 @@
     <Item value="オンラインで利用できる言語パック" revision="0" />
     <Item value="{language name} の Hex Editor Neo 言語パックはオンラインで入手できます。 この言語パックをダウンロードして使用しますか?" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="レジストリ" revision="0" />
     <Item value="ユーザーごとの既定の保存場所。" revision="0" />

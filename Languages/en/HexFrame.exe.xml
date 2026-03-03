@@ -1064,7 +1064,7 @@
 
 	<Enumeration key="YourLanguageAvailableLocal" description="User language pack is available">
 		<Item text="Language Pack Available"/>
-		<Item text='"{language name}" language pack is currently installed. Do you want to switch to this language pack?'>
+		<Item text='"{language name}" language pack is available. Do you want to switch to this language pack?'>
 			<Param name="language name"/>
 		</Item>
 	</Enumeration>

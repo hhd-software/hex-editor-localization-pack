@@ -934,6 +934,10 @@
     <Item value="Übersetzung Online verfügbar" revision="0" />
     <Item value="Übersetzung Hex Editor Neo für Sprache &quot;{language name}&quot; ist online verfügbar. Wollen Sie diese Übersetzung herunterladen und verwenden?" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Sprachpaket verfügbar" revision="0" />
+    <Item value="Das Sprachpaket &quot;{language name}&quot; ist verfügbar. Möchten Sie zu diesem Sprachpaket wechseln?" revision="0" />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="Systemregistrierung" revision="0" />
     <Item value="Standardeinstellung für die Speicherung der Anwendungseinstellungen pro Benutzer." revision="0" />

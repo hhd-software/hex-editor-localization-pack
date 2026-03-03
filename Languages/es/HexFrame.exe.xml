@@ -934,6 +934,10 @@
     <Item value="Paquete de Idioma Disponible en Línea" revision="0" />
     <Item value="El paquete de idioma para &quot;{language name}&quot; está disponible en línea. ¿Quiere descargar y usar este paquete de idioma? " revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Paquete de idiomas disponible" revision="0" />
+    <Item value="El paquete de idioma &quot;{language name}&quot; está disponible. ¿Desea cambiar a este paquete de idioma?" revision="0" />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="Registro" revision="0" />
     <Item value="Dirección predeterminada de almacenamiento por usuario." revision="0" />

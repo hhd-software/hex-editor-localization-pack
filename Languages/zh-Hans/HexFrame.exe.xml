@@ -903,6 +903,10 @@
     <Item value="在线有在线的语言包可用" revision="0" />
     <Item value="目前有在线的 Hex Editor Neo &quot;{language name}&quot; 语言包可用，你想下载并使用此语言包吗？" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="注册表" revision="0" />
     <Item value="默认单用户存储位置" revision="0" />

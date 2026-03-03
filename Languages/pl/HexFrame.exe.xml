@@ -934,6 +934,10 @@
     <Item value="Pakiet językowy dostępny on-line" revision="0" />
     <Item value="Pakiet językowy Hex Editor Neo dla &quot;{language name}” jest dostępny on-line. Czy chcesz pobrać i używać tego pakietu językowego?" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Dostępny pakiet językowy" revision="0" />
+    <Item value="Pakiet językowy &quot;{language name}&quot; jest dostępny. Czy chcesz przełączyć się na ten pakiet językowy?" revision="0" />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="Rejestr" revision="0" />
     <Item value="Domyślna lokalizacja przechowywania dla każdego użytkownika." revision="0" />

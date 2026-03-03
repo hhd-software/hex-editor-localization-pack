@@ -934,6 +934,10 @@
     <Item value="Языковый пакет доступен on-line" revision="0" />
     <Item value="Языковый пакет для &quot;{language name}&quot; доступен для скачивания. Вы хотите скачать и использовать данный языковый пакет?" revision="0" />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Доступен языковой пакет" revision="0" />
+    <Item value="Доступен языковой пакет &quot;{language name}&quot;. Хотите переключиться на этот языковой пакет?" revision="0" />
+  </Enumeration>
   <Enumeration key="Registry">
     <Item value="Реестр" revision="0" />
     <Item value="Пользовательский ключ в системном реестре. Значение по-умолчанию" revision="0" />
