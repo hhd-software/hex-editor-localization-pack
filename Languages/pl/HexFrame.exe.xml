@@ -447,7 +447,7 @@
   <Message key="Ready" value="Gotowe" revision="0" />
   <Message key="Little endian" value="Mały endian" revision="0" />
   <Message key="Big endian" value="Duży endian" revision="0" />
-  <Message key="ConfigurationError" value="Program Hex Editor Neo jest w stanie nieprawidłowym. Aby to naprawić, zainstaluj aplikację ponownie.{has additional info?}\n\nDodatkowe informacje:\n{has error code?}\n  • Błąd: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nNaciśnij [[[bCtrl+C]]], aby skopiować ten tekst do schowka i[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#skontaktuj z pomocą techniczną]]] aby uzyskać pomoc.{?has additional info}" revision="1" />
+  <Message key="ConfigurationError" value="Program Hex Editor Neo jest w stanie nieprawidłowym. Aby to naprawić, zainstaluj aplikację ponownie.{has additional info?}\n\nDodatkowe informacje:\n{has error code?}\n  • Błąd: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nNaciśnij [[[bCtrl+C]]], aby skopiować ten tekst do schowka i[[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#skontaktuj z pomocą techniczną]]] aby uzyskać pomoc.{?has additional info}" revision="2" />
   <Message key="AlignmentHeader" value="Wyrównanie" revision="0" />
   <Message key="DefaultAlignment" value="Standardowe{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Podano nieprawidłowe wyrównanie: wyrównanie musi być dodatnią wartością całkowitą (expressions supported)." revision="0" />

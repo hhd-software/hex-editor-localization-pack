@@ -1384,7 +1384,7 @@
 	<Message key="Little endian" description="Choice: Little endian"/>
 	<Message key="Big endian" description="Choice: Big endian"/>
 
-	<Message key="ConfigurationError" description="Bad application state" value="Hex Editor Neo is in invalid state. Reinstall the application to fix it.{has additional info?}\n\nAdditional information:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPress [[[bCtrl+C]]] to copy this text to the Clipboard and [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contact Support]]] for assistance.{?has additional info}" revision="1">
+	<Message key="ConfigurationError" description="Bad application state" value="Hex Editor Neo is in invalid state. Reinstall the application to fix it.{has additional info?}\n\nAdditional information:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPress [[[bCtrl+C]]] to copy this text to the Clipboard and [[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#contact Support]]] for assistance.{?has additional info}" revision="2">
 		<Param name="has additional info" format="?"/>
 		<Param name="has error code" format="?"/>
 		<Param name="error message"/>

@@ -447,7 +447,7 @@
   <Message key="Ready" value="Готово" revision="0" />
   <Message key="Little endian" value="Little endian" revision="0" />
   <Message key="Big endian" value="Big endian" revision="0" />
-  <Message key="ConfigurationError" value="Hex Editor Neo находится в некорректном состоянии. Переустановите приложение, чтобы исправить это.{has additional info?}\n\nДополнительная информация:\n{has error code?}\n  • Ошибка: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nНажмите [[[bCtrl+C]]], чтобы скопировать этот текст в буфер обмена и[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#связаться с поддержкой]]] для получения помощи.{?has additional info}" revision="1" />
+  <Message key="ConfigurationError" value="Hex Editor Neo находится в некорректном состоянии. Переустановите приложение, чтобы исправить это.{has additional info?}\n\nДополнительная информация:\n{has error code?}\n  • Ошибка: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nНажмите [[[bCtrl+C]]], чтобы скопировать этот текст в буфер обмена и[[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#связаться с поддержкой]]] для получения помощи.{?has additional info}" revision="2" />
   <Message key="AlignmentHeader" value="Выравнивание" revision="0" />
   <Message key="DefaultAlignment" value="По умолчанию{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Указано недопустимое выравнивание: выравнивание должно быть положительным целым числом (expressions supported)." revision="0" />

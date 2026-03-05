@@ -447,7 +447,7 @@
   <Message key="Ready" value="Listo" revision="0" />
   <Message key="Little endian" value="Little endian" revision="1" />
   <Message key="Big endian" value="Big endian" revision="1" />
-  <Message key="ConfigurationError" value="Hex Editor Neo se encuentra en un estado no válido. Vuelva a instalar la aplicación para solucionarlo.{has additional info?}\n\nInformación adicional:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPresiona [[[bCtrl+C]]] para copiar este texto al portapapeles y[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contactar con Soporte Técnico]]] para obtener ayuda.{?has additional info}" revision="1" />
+  <Message key="ConfigurationError" value="Hex Editor Neo se encuentra en un estado no válido. Vuelva a instalar la aplicación para solucionarlo.{has additional info?}\n\nInformación adicional:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPresiona [[[bCtrl+C]]] para copiar este texto al portapapeles y[[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#contactar con Soporte Técnico]]] para obtener ayuda.{?has additional info}" revision="2" />
   <Message key="AlignmentHeader" value="Alineación" revision="0" />
   <Message key="DefaultAlignment" value="Predeterminado{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Alineación no válida especificada: la alineación debe ser un valor entero positivo (expressions supported)." revision="0" />

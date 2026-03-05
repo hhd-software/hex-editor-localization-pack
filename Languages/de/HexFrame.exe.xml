@@ -447,7 +447,7 @@
   <Message key="Ready" value="Bereit" revision="0" />
   <Message key="Little endian" value="Little endian" revision="0" />
   <Message key="Big endian" value="Big endian" revision="0" />
-  <Message key="ConfigurationError" value="Hex Editor Neo befindet sich in einem ungültigen Zustand. Installieren Sie die Anwendung neu, um das Problem zu beheben.{has additional info?}\n\nZusätzliche Informationen:\n{has error code?}\n  • Fehler: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nDrücken Sie [[[bStrg+C]]], um diesen Text in die Zwischenablage zu kopieren und[[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#kontakt zum Support]]] um Hilfe zu erhalten.{?has additional info}" revision="1" />
+  <Message key="ConfigurationError" value="Hex Editor Neo befindet sich in einem ungültigen Zustand. Installieren Sie die Anwendung neu, um das Problem zu beheben.{has additional info?}\n\nZusätzliche Informationen:\n{has error code?}\n  • Fehler: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nDrücken Sie [[[bStrg+C]]], um diesen Text in die Zwischenablage zu kopieren und[[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#kontakt zum Support]]] um Hilfe zu erhalten.{?has additional info}" revision="2" />
   <Message key="AlignmentHeader" value="Ausrichtung" revision="0" />
   <Message key="DefaultAlignment" value="Standard{has default?} ({alignment}){?has default}" revision="0" />
   <Message key="InvalidAlignment" value="Ungültige Ausrichtung angegeben: Die Ausrichtung muss ein positiver ganzzahliger Wert sein (expressions supported)." revision="0" />
