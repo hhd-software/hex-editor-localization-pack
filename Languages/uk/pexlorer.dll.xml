@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ProcessCat" value="Процес" revision="0" />
-  <Message key="RegionInfo" value="[[[uРегіон пам'яті процесу]]]\r  [[[bПочаток регіону:]]] {base} ({base:2})\r  [[[bКінець регіону:]]] {end} ({end:2})\r  [[[bРозмір регіону:]]] {size} ({size:2})\r  [[[bТип:]]] {type}\r  [[[bСтатус:]]] {state}\r  [[[bПрапори:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="RegionInfo" value="[[[uРегіон пам'яті процесу]]]\r  [[[bПочаток регіону:]]] [[[h{base}]]] ({base:2})\r  [[[bКінець регіону:]]] [[[h{end}]]] ({end:2})\r  [[[bРозмір регіону:]]] {size} ({size:2})\r  [[[bТип:]]] {type}\r  [[[bСтатус:]]] {state}\r  [[[bПрапори:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="4" />
   <Message key="Unknown" value="Невідомо" revision="1" />
   <Message key="Snapshots" value="Знімки" revision="0" />
   <Message key="clr.pex_colors" value="Кольори вікна процесу" revision="1" />

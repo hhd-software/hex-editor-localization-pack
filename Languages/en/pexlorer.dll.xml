@@ -154,7 +154,7 @@
     <Item text="Open process memory for viewing and modification"/>
   </Enumeration>
 
-  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="3" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[bRegion end:]]]  {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}">
+  <Message key="RegionInfo" description="Selected region info (both strings must be the same!)" revision="4" value="[[[uProcess Memory Range]]]\r  [[[bRegion base:]]] [[[h{base}]]] ({base:2})\r  [[[bRegion end:]]]  [[[h{end}]]] ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]]  {type}\r  [[[bState:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}">
     <Param name="base" format="b016"/>
     <Param name="base:2" format="l"/>
     <Param name="end" format="b016"/>

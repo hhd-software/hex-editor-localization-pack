@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ProcessCat" value="进程" revision="0" />
-  <Message key="RegionInfo" value="[[[u进程内存范围]]]\r  [[[bRegion base:]]] {base} ({base:2})\r  [[[b区域终点:]]]  {end} ({end:2})\r  [[[b区域大小:]]] {size} ({size:2})\r  [[[b类型:]]]  {type}\r  [[[b状态:]]] {state}\r  [[[b标志:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="RegionInfo" value="[[[u进程内存范围]]]\r  [[[bRegion base:]]] [[[h{base}]]] ({base:2})\r  [[[b区域终点:]]]  [[[h{end}]]] ({end:2})\r  [[[b区域大小:]]] {size} ({size:2})\r  [[[b类型:]]]  {type}\r  [[[b状态:]]] {state}\r  [[[b标志:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="4" />
   <Message key="Unknown" value="未知" revision="1" />
   <Message key="Snapshots" value="快照" revision="0" />
   <Message key="clr.pex_colors" value="进程窗口颜色" revision="1" />

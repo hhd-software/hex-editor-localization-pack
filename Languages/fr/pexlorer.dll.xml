@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ProcessCat" value="Processus" revision="0" />
-  <Message key="RegionInfo" value="[[[uPlage mémoire du processus]]]\r  [[[bPlage de base:]]] {base} ({base:2})\r  [[[bTaille de plage:]]] {end} ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bEtat:]]] {state}\r  [[[bDrapeaux:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="RegionInfo" value="[[[uPlage mémoire du processus]]]\r  [[[bPlage de base:]]] [[[h{base}]]] ({base:2})\r  [[[bTaille de plage:]]] [[[h{end}]]] ({end:2})\r  [[[bRegion size:]]] {size} ({size:2})\r  [[[bType:]]] {type}\r  [[[bEtat:]]] {state}\r  [[[bDrapeaux:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="4" />
   <Message key="Unknown" value="Inconnu" revision="1" />
   <Message key="Snapshots" value="Instantanés" revision="0" />
   <Message key="clr.pex_colors" value="Couleurs des fenêtres de processus" revision="1" />

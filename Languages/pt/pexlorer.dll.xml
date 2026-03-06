@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ProcessCat" value="Processo" revision="0" />
-  <Message key="RegionInfo" value="[[[uRegião de Memória de Processo]]]\r  [[[bRegião de base:]]] {base} ({base:2})\r  [[[bRegião final:]]] {end} ({end:2})\r  [[[bTamanho da região:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="3" />
+  <Message key="RegionInfo" value="[[[uRegião de Memória de Processo]]]\r  [[[bRegião de base:]]] [[[h{base}]]] ({base:2})\r  [[[bRegião final:]]] [[[h{end}]]] ({end:2})\r  [[[bTamanho da região:]]] {size} ({size:2})\r  [[[bTipo:]]] {type}\r  [[[bEstado:]]] {state}\r  [[[bFlags:]]] {flags}{is module?}\r  [[[i{module}]]]{?is module}" revision="4" />
   <Message key="Unknown" value="Desconhecido" revision="1" />
   <Message key="Snapshots" value="Instantâneos" revision="0" />
   <Message key="clr.pex_colors" value="Cores da Janela de Processo" revision="1" />
