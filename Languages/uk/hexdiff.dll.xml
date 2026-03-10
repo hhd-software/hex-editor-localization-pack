@@ -55,8 +55,12 @@
     <Item value="Порівняти файли" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Перетворити у виділення" revision="0" />
-    <Item value="Перетворити блоки у виділення" revision="0" />
+    <Item value="Блоки у виділення…" revision="1" />
+    <Item value="Перетворити блоки заданого типу у виділення" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item value="Перетворити на виділення" revision="0" />
+    <Item value="Перетворити вибрані блоки у виділення" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Увімкнути кольори" revision="0" />

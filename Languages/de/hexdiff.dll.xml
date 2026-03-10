@@ -55,8 +55,12 @@
     <Item value="Vergleicht Dateien" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Zu Auswahl konvertieren…" revision="0" />
-    <Item value="Konvertiert Blöcke in Auswahlbereiche." revision="0" />
+    <Item value="Blöcke in Auswahl…" revision="1" />
+    <Item value="Blöcke eines bestimmten Typs in Auswahl konvertieren" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item value="In Auswahl umwandeln" revision="0" />
+    <Item value="Ausgewählte Blöcke in Auswahl umwandeln" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Einfärbung aktivieren" revision="0" />

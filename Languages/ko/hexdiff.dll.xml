@@ -55,8 +55,12 @@
     <Item value="파일 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="선택으로 변환" revision="0" />
-    <Item value="블럭을 선택으로 변환" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="색칠 사용" revision="0" />

@@ -55,8 +55,12 @@
     <Item value="比较文件" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="转换为选择" revision="0" />
-    <Item value="将块转换为选择" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="启用颜色" revision="0" />

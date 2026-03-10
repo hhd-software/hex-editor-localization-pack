@@ -55,8 +55,12 @@
     <Item value="Compara arquivos" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Converter para Seleção" revision="0" />
-    <Item value="Converte blocos para seleção" revision="0" />
+    <Item value="Blocos em seleção…" revision="1" />
+    <Item value="Converter blocos de um determinado tipo para seleção" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item value="Converter para seleção" revision="0" />
+    <Item value="Converter o(s) bloco(s) selecionado(s) em seleção" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Habilitar Cores" revision="0" />

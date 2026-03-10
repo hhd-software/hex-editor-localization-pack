@@ -55,8 +55,12 @@
     <Item value="Сравнить файлы" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
+    <Item value="Блоки в выделение…" revision="1" />
+    <Item value="Преобразовать блоки заданного типа в выделение" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
     <Item value="Преобразовать в выделение" revision="0" />
-    <Item value="Преобразовать блоки в выделения" revision="0" />
+    <Item value="Преобразовать выбранный блок (блоки) в выделение" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Включить цвета" revision="0" />

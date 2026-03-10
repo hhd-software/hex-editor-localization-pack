@@ -55,8 +55,12 @@
     <Item value="Comparer les Fichiers" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Convertir vers Sélection" revision="0" />
-    <Item value="Convertir les blocs vers la sélection" revision="0" />
+    <Item value="Blocs en sélection…" revision="1" />
+    <Item value="Convertir des blocs d'un type donné en sélection" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item value="Convertir en sélection" revision="0" />
+    <Item value="Convertir le ou les blocs sélectionnés en sélection" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Activer le Coloriage" revision="0" />

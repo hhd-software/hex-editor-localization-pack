@@ -55,8 +55,12 @@
     <Item value="Porównaj pliki" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="Konwertuj do wybranego" revision="0" />
-    <Item value="Konwertuj bloki do wybranego" revision="0" />
+    <Item value="Bloki na zaznaczenie…" revision="1" />
+    <Item value="Konwertuj bloki określonego typu na zaznaczenie" revision="1" />
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection">
+    <Item value="Konwertuj na zaznaczenie" revision="0" />
+    <Item value="Konwertuj wybrane bloki na zaznaczenie" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="Włącz kolorowanie" revision="0" />
