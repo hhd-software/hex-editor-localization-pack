@@ -9,9 +9,13 @@
     <Item text="Compare Files…"/>
     <Item text="Compare files"/>
   </Enumeration>
-  <Enumeration key="DiffToSelection" description="Diff.To Selection">
+  <Enumeration key="DiffToSelection" description="Diff.To Selection" revision="1">
+    <Item text="Convert Blocks to Selection…"/>
+    <Item text="Convert blocks of a given type to selection"/>
+  </Enumeration>
+  <Enumeration key="SelectedDiffToSelection" description="Diff.Current To Selection">
     <Item text="Convert to Selection"/>
-    <Item text="Convert blocks to selection"/>
+    <Item text="Convert selected block(s) to selection"/>
   </Enumeration>
   <Enumeration key="DiffEnableColoring" description="Diff.Enable Coloring">
     <Item text="Enable Coloring"/>
