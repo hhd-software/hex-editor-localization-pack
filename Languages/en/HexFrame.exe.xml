@@ -440,9 +440,10 @@
 		<Param name="date"/>
 	</Message>
 
-	<Message key="UPSuffix" description="Upgrade plan information" value="\n{lu?}Upgrade plan: Lifetime.{|lu}Upgrade plan expires on {expiration}{?lu}." revision="1">
+	<Message key="UPSuffix" description="Upgrade plan information" value="\n{lu?}Upgrade plan: Lifetime.{|lu}Upgrade plan {past?}expired{|past}expires{?past} on {expiration}{?lu}." revision="2">
 		<Param name="lu" format="?"/>
 		<Param name="expiration" format="t(%x)"/>
+		<Param name="past" format="?"/>
 	</Message>
 
 	<Enumeration key="ComNonCom" description="Commercial and non-commercial license strings" revision="1">
