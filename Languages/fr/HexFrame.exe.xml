@@ -117,7 +117,7 @@
   <Message key="Expired." value="Expiré" revision="1" />
   <Message key="{days} days left" value="{days} Jours restants" revision="1" />
   <Message key="ExpiresOn" value=", expire le {date}" revision="1" />
-  <Message key="UPSuffix" value="\n{lu?}Plan de mise à niveau : Durée de vie.{|lu}Le plan de mise à niveau expire le {expiration}{?lu}." revision="1" />
+  <Message key="UPSuffix" value="\n{lu?}Plan de mise à niveau : Durée de vie.{|lu}Le plan de mise à niveau {past?}a expiré{|past}expire{?past} le {expiration}{?lu}." revision="2" />
   <Message key="OpenLicenseFilter" value="fichier de licences|*.hexlic|All Files|*.*|" revision="2" />
   <Message key="License Installation" value="Installation de licence " revision="1" />
   <Message key="LicenseInstallSuccess" value="Licence installé avec succès. Il est recommandé de redémarrer l'application. Merci beaucoup pour votre choix!" revision="1" />

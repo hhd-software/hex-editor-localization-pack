@@ -117,7 +117,7 @@
   <Message key="Expired." value="Пробний період закінчено." revision="1" />
   <Message key="{days} days left" value="Залишилося {days} днів" revision="1" />
   <Message key="ExpiresOn" value=", закінчується {date}" revision="1" />
-  <Message key="UPSuffix" value="\n{lu?}План апгрейда: Довічне.{|lu}Термін дії плану оновлення закінчується {expiration}{?lu}." revision="1" />
+  <Message key="UPSuffix" value="\n{lu?}План апгрейда: Довічне.{|lu}Термін дії плану оновлення {past?}закінчився{|past}закінчується{?past} {expiration}{?lu}." revision="2" />
   <Message key="OpenLicenseFilter" value="Файли ліцензій|*.hexlic|Всі файли|*.*|" revision="2" />
   <Message key="License Installation" value="Установка ліцензії" revision="1" />
   <Message key="LicenseInstallSuccess" value="Ліцензія успішно встановлена. Рекомендується перезапустити програму. Спасибі, що вибрали Hex Editor Neo!" revision="1" />

@@ -117,7 +117,7 @@
   <Message key="Expired." value="Wygasły." revision="1" />
   <Message key="{days} days left" value="Pozostało {days} dni" revision="1" />
   <Message key="ExpiresOn" value=", wygasa {date}" revision="1" />
-  <Message key="UPSuffix" value="\n{lu?}Plan aktualizacji: Dożywotnia.{|lu}Plan aktualizacji wygasa w dniu {expiration}{?lu}." revision="1" />
+  <Message key="UPSuffix" value="\n{lu?}Plan aktualizacji: Dożywotnia.{|lu}Plan aktualizacji  {past?}wygasł{|past}wygasa{?past} w dniu {expiration}{?lu}." revision="2" />
   <Message key="OpenLicenseFilter" value="Pliki licencji|*.hexlic|Wszystkie pliki|*.*|" revision="2" />
   <Message key="License Installation" value="Instalacja licencji" revision="1" />
   <Message key="LicenseInstallSuccess" value="Licencja została pomyślnie zainstalowana. Zalecane jest ponowne uruchomienie aplikacji. Bardzo dziękujemy za wybranie Hex Editor Neo!" revision="1" />

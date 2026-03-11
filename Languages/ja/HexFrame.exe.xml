@@ -114,7 +114,6 @@
   <Message key="Expired." value="期限切れ。" revision="1" />
   <Message key="{days} days left" value="残り {days} 日" revision="1" />
   <Message key="ExpiresOn" value="、有効期限は {date} です" revision="1" />
-  <Message key="UPSuffix" value="\n{lu?}アップグレードプラン：寿命。{|lu}アップグレードプランの有効期限 {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="ライセンス ファイル|*.hexlic|すべてのファイル|*.*|" revision="2" />
   <Message key="License Installation" value="ライセンスのインストール" revision="1" />
   <Message key="LicenseInstallSuccess" value="ライセンスは正常にインストールされました。 アプリケーションを再起動することをお勧めします。 Hex Editor Neo をお選びいただき、誠にありがとうございます!" revision="1" />

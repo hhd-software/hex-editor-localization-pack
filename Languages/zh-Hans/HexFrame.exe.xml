@@ -114,7 +114,6 @@
   <Message key="Expired." value="过期。" revision="1" />
   <Message key="{days} days left" value="剩余 {days} 天" revision="1" />
   <Message key="ExpiresOn" value="，到期时间 {date}" revision="1" />
-  <Message key="UPSuffix" value="\n{lu?}升级计划： 终身。{|lu}升级计划于 {expiration}{?lu}." revision="1" />
   <Message key="OpenLicenseFilter" value="授权文件|*.hexlic|All Files|*.*|" revision="2" />
   <Message key="License Installation" value="安装授权" revision="1" />
   <Message key="LicenseInstallSuccess" value="安装授权成功，推荐重启应用程序，非常感谢你选择 Hex Editor Neo！" revision="1" />
