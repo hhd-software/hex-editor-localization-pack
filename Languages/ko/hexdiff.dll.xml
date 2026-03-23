@@ -7,7 +7,7 @@
   <Message key="File Comparison" value="파일 비교" revision="0" />
   <Message key="Error opening both files" value="두 파일 모두 여는 중 오류 발생" revision="0" />
   <Message key="Error opening one of files" value="파일 중 하나를 여는 중 오류 발생" revision="0" />
-  <Message key="Locked" value="긴 작업으로 인해 하나 이상의 문서가 잠겨 있습니다. 작업이 완료될 때까지 기다려 주십시오." revision="0" />
+  <Message key="Locked" value="긴 작업으로 인해 하나 이상의 문서가 잠겨 있습니다. 작업이 완료될 때까지 기다려 주세요." revision="0" />
   <Message key="OpName" value="파일 비교" revision="0" />
   <Message key="CompareError" value="파일을 비교하는 중 오류가 발생했습니다." revision="0" />
   <Message key="ConvertError" value="선택 항목을 만드는 동안 오류가 발생했습니다." revision="0" />
@@ -55,16 +55,16 @@
     <Item value="파일 비교" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="블록을 선택으로 변환..." revision="1" />
+    <Item value="지정된 유형의 블록을 선택으로 변환" revision="1" />
   </Enumeration>
   <Enumeration key="SelectedDiffToSelection">
-    <Item />
-    <Item />
+    <Item value="선택으로 변환" revision="0" />
+    <Item value="선택한 블록을 선택으로 변환" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
-    <Item value="색칠 사용" revision="0" />
-    <Item value="색칠 사용" revision="0" />
+    <Item value="색상 사용" revision="0" />
+    <Item value="색상 사용" revision="0" />
   </Enumeration>
   <Enumeration key="DiffHex">
     <Item value="16진수 값 표시" revision="0" />
@@ -119,7 +119,7 @@
   </Enumeration>
   <Enumeration key="IdenticalWithStreams">
     <Item value="파일 비교" revision="0" />
-    <Item value="파일은 동일하지만 추가 스트림이 포함되어 있습니다. Hex Editor Neo는 추가 스트림의 내용을 자동으로 비교하지 않습니다. 수동으로 할 수 있습니다. 계속하려면 아래 옵션을 선택하십시오." revision="0" />
+    <Item value="파일은 동일하지만 추가 스트림이 포함되어 있습니다. Hex Editor Neo는 추가 스트림의 내용을 자동으로 비교하지 않습니다. 수동으로 할 수 있습니다. 계속하려면 아래 옵션을 선택하세요." revision="0" />
   </Enumeration>
   <Enumeration key="Identical">
     <Item value="파일 비교" revision="0" />
@@ -127,7 +127,7 @@
   </Enumeration>
   <Enumeration key="DiffTask">
     <Item value="파일 비교" revision="0" />
-    <Item value="두 이진 파일의 내용 비교" revision="0" />
+    <Item value="두 바이너리 파일의 내용 비교" revision="0" />
   </Enumeration>
   <Enumeration key="MenuCompareFiles">
     <Item value="파일 비교" revision="0" />

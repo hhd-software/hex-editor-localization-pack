@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo가 다음 오류로 인해 &quot;{path}&quot;을(를) 열 수 없습니다.\r\n    » {text}({code})\r\n\r\n 이 스냅샷에서 볼륨 스냅샷을 생성하고 파일을 여시겠습니까?" revision="0" />
   <Message key="RegExp settings" value="정규식 클래스" revision="0" />
   <Message key="Shortcut files" value="바로 가기 파일" revision="0" />
+  <Message key="Running operation" value="{document}에서 [[[b{operation}]] 작업 실행 중..." revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="변경 무시" revision="1" />
     <Item value="파일 닫기" revision="1" />

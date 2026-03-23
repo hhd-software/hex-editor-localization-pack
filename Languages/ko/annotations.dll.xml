@@ -47,12 +47,12 @@
     <Item value="현재 선택 항목에 주석 추가" revision="0" />
   </Enumeration>
   <Enumeration key="AnnotationEdit">
-    <Item value="주석 편집" revision="1" />
+    <Item value="주석 텍스트 편집" revision="1" />
     <Item value="선택한 주석 항목 편집" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
-    <Item />
-    <Item />
+    <Item value="중복 주석" revision="0" />
+    <Item value="선택한 주석 사본 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="추가" revision="1" />
@@ -62,7 +62,7 @@
     <Item value="번호" revision="1" />
     <Item value="주소" revision="1" />
     <Item value="크기" revision="1" />
-    <Item value="" revision="0" />
+    <Item value="크기 (소수)" revision="1" />
     <Item value="텍스트" revision="1" />
   </Enumeration>
 </Language>
