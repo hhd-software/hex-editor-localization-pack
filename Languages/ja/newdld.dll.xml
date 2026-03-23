@@ -38,17 +38,17 @@
     <Item value="サイズ" revision="1" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
-    <Item />
-    <Item />
+    <Item value="不明" revision="3" />
+    <Item value="開始" revision="3" />
+    <Item value="プロキシの検出" revision="3" />
+    <Item value="名前の解決" revision="3" />
+    <Item value="サーバーに接続中" revision="3" />
+    <Item value="SSLのネゴシエーション" revision="3" />
+    <Item value="ヘッダーの送信" revision="3" />
+    <Item value="コンテンツの送信" revision="3" />
+    <Item value="応答待ち" revision="3" />
+    <Item value="ヘッダーの受信" revision="3" />
+    <Item value="コンテンツの受信" revision="3" />
     <Item value="エラー: {error}" revision="3" />
   </Enumeration>
 </Language>

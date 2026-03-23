@@ -10,6 +10,8 @@
   <Message key="ResultNotANumber" value="'repeat-expr' の結果は数値ではありません。" revision="0" />
   <Message key="InvalidArgument" value="無効な引数" revision="0" />
   <Message key="ParamsNumMistmatch" value="引数の数が無効です。 推定値: {est}、受信値: {fact}。" revision="0" />
+  <Message key="CannotDeduceSize" value="フィールド '{field}' のサイズを推測できません" revision="0" />
+  <Message key="CannotCast" value="'{value}' を {type} に変換できません。" revision="0" />
   <Message key="SizeConflictError" value="'size' または 'size-eos' のいずれか 1 つだけを指定する必要があります。" revision="0" />
   <Message key="NoRepeatError" value="'repeat-expr' ブロックに式がありません。" revision="0" />
   <Message key="NoUntilError" value="'repeat-until' ブロックに式がありません。" revision="0" />

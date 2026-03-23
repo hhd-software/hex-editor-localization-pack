@@ -33,6 +33,7 @@
   <Message key="Folder list:" value="フォルダー リスト :" revision="1" />
   <Message key="All opened documents" value="開いているすべてのドキュメント" revision="0" />
   <Message key="toolbar.FindInFiles" value="ファイル内検索" revision="0" />
+  <Message key="Running Find in Files" value="ファイル内検索を実行中…" revision="0" />
   <Enumeration key="opening/saving">
     <Item value="読み込み中" revision="1" />
     <Item value="保存中" revision="1" />

@@ -55,12 +55,12 @@
     <Item value="ファイルの比較" revision="0" />
   </Enumeration>
   <Enumeration key="DiffToSelection">
-    <Item value="" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="ブロックを選択範囲に変換…" revision="1" />
+    <Item value="指定されたタイプのブロックを選択範囲に変換" revision="1" />
   </Enumeration>
   <Enumeration key="SelectedDiffToSelection">
-    <Item />
-    <Item />
+    <Item value="選択範囲に変換" revision="0" />
+    <Item value="選択したブロックを選択範囲に変換" revision="0" />
   </Enumeration>
   <Enumeration key="DiffEnableColoring">
     <Item value="カラーリングを有効にする" revision="0" />

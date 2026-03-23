@@ -31,6 +31,14 @@
   <Message key="Script files" value="スクリプト ファイル" revision="0" />
   <Message key="DuplicateMacroTemplate" value="{macro name}のコピー" revision="0" />
   <Message key="NewMacroTemplate" value="マクロ {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="コマンドライン スクリプト" revision="0" />
+  <Message key="Running macro" value="[[[b{macro}]]]を実行中… [[[hクリックして停止]]]。" revision="0" />
+  <Message key="Recording macro" value="マクロを記録中… [[[hクリックして記録を停止]]]。" revision="0" />
+  <Message key="Macro script opened" value="マクロスクリプトがエディタで開かれます。実行するには、[[[bDebug » スクリプトの実行]]] または [[[bDebug » スクリプトのデバッグ]]] コマンドを使用します。" revision="0" />
+  <Message key="ScriptException" value="{uncaught?}キャッチされない例外{|uncaught}例外{?uncaught} &quot;{name}&quot; が {line}:{column} で発生しました\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="デバッグ中にファーストチャンス例外をキャッチする" revision="0" />
+  <Message key="Debugger" value="デバッガ" revision="0" />
+  <Message key="Main body finish" value="メインスクリプト本体の実行が完了しました。非同期関数とイベントを実行しています…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="記録開始(&amp;S)" revision="0" />
     <Item value="マクロの記録を開始" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="マクロ" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="実行" revision="0" />
+    <Item value="選択したマクロを実行" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="新規スクリプト" revision="0" />

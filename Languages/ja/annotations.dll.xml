@@ -51,8 +51,8 @@
     <Item value="選択した注釈項目を編集する" revision="1" />
   </Enumeration>
   <Enumeration key="AnnotationDuplicate">
-    <Item />
-    <Item />
+    <Item value="注釈の複製" revision="0" />
+    <Item value="選択した注釈のコピーを作成します" revision="0" />
   </Enumeration>
   <Enumeration key="EditButtonText">
     <Item value="追加" revision="1" />
@@ -62,7 +62,7 @@
     <Item value="No." revision="1" />
     <Item value="アドレス" revision="1" />
     <Item value="サイズ" revision="1" />
-    <Item value="" revision="0" />
+    <Item value="サイズ (10進数)" revision="1" />
     <Item value="テキスト" revision="1" />
   </Enumeration>
 </Language>
