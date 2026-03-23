@@ -322,6 +322,9 @@
   <Message key="Physical disk" value="Dysk fizyczny" revision="0" />
   <Message key="Volume" value="Wolumin" revision="0" />
   <Message key="Value is out of range" value="Określona wartość [[[p{value}]]] wykracza poza zakres parametru [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Value must be less" value="Parametr [[[p{parameter}]]] oczekuje wartości {exclusive?}mniejszej niż{|exclusive}mniejszej lub równej{?exclusive} {maxval}, ale zamiast tego przekazano [[[p{value}]]]." revision="0" />
+  <Message key="Value must be greater" value="Parametr [[[p{parameter}]]] oczekuje wartości {exclusive?}większej niż{|exclusive}większej lub równej{?exclusive} {minval}, ale zamiast tego przekazano [[[p{value}]]]." revision="0" />
+  <Message key="Value must not be equal" value="Parametr [[[p{parameter}]]] nie może być równy [[[p{value}]]]." revision="0" />
   <Message key="Invalid enum value" value="Nieprawidłowa wartość wyliczeniowa [[[p{value}]]] określona dla parametru [[[p{parameter}: {type}]]]" revision="0" />
   <Message key="Invalid argument type" value="Wartość przekazana dla parametru [[[p{parameter}]]] jest nieprawidłowego typu. Oczekiwano [[[p{type}]]]" revision="0" />
   <Message key="Unsupported clipboard format" value="Nieobsługiwany format schowka" revision="0" />

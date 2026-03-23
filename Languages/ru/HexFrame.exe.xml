@@ -322,6 +322,9 @@
   <Message key="Physical disk" value="Физический диск" revision="0" />
   <Message key="Volume" value="Том" revision="0" />
   <Message key="Value is out of range" value="Указанное значение [[[p{value}]]] выходит за пределы диапазона для параметра [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Value must be less" value="Параметр [[[p{parameter}]]] должен принимать значение{exclusive?}меньше{|exclusive}или равно{?exclusive} {maxval}, но вместо этого был передан [[[p{value}]]]." revision="0" />
+  <Message key="Value must be greater" value="Параметр [[[p{parameter}]]] должен принимать значение {exclusive?}большее, чем{|exclusive}не меньше{?exclusive} {minval}, но вместо этого было передано значение [[[p{value}]]]." revision="0" />
+  <Message key="Value must not be equal" value="Параметр [[[p{parameter}]]] не должен быть равен [[[p{value}]]]." revision="0" />
   <Message key="Invalid enum value" value="Недопустимое значение [[[p{value}]]] указано для параметра [[[p{parameter}: {type}]]]" revision="0" />
   <Message key="Invalid argument type" value="Значение, переданное для параметра [[[p{parameter}]]], имеет недопустимый тип. Ожидается [[[p{type}]]]" revision="0" />
   <Message key="Unsupported clipboard format" value="Неподдерживаемый формат в буфере обмена" revision="0" />

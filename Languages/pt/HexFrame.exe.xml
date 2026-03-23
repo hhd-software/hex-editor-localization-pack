@@ -322,6 +322,9 @@
   <Message key="Physical disk" value="Disco físico" revision="0" />
   <Message key="Volume" value="Volume" revision="0" />
   <Message key="Value is out of range" value="O valor especificado [[[p{value}]]] está fora do intervalo para o parâmetro [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Value must be less" value="O parâmetro [[[p{parameter}]]] espera um valor {exclusive?}menor que{|exclusive}menor ou igual a{?exclusive} {maxval}, mas foi passado [[[p{value}]]] em vez disso." revision="0" />
+  <Message key="Value must be greater" value="O parâmetro [[[p{parameter}]]] espera um valor {exclusive?}maior que{|exclusive}maior ou igual a{?exclusive} {minval}, mas foi passado [[[p{value}]]] em vez disso." revision="0" />
+  <Message key="Value must not be equal" value="O parâmetro [[[p{parameter}]]] não pode ser igual a [[[p{value}]]]." revision="0" />
   <Message key="Invalid enum value" value="Valor de enumeração inválido [[[p{value}]]] especificado para o parâmetro [[[p{parameter}: {type}]]]" revision="0" />
   <Message key="Invalid argument type" value="O valor passado para o parâmetro [[[p{parameter}]]] é de tipo inválido. Esperava-se [[[p{type}]]]" revision="0" />
   <Message key="Unsupported clipboard format" value="Formato da área de transferência não suportado" revision="0" />
