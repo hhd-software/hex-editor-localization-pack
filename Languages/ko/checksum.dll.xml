@@ -21,7 +21,7 @@
   <Message key="Sum of Little-Endian 64-bit signed values" value="Little-Endian 64비트 부호화 값의 합계" revision="1" />
   <Message key="Sum of Big-Endian 64-bit signed values" value="Big-Endian 64비트 부호화 값의 합계" revision="1" />
   <Message key="Custom CRC" value="사용자 지정 CRC" revision="1" />
-  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="일부 값은 16비트에 맞지 않습니다. 0 ~ 0xFFFF(65535) 범위의 16비트 값을 제공하십시오." revision="1" />
+  <Message key="Some values do not fit in 16 bits. Please provide 16-bit values: ranged from 0 to 0xFFFF (65535)." value="일부 값은 16비트에 맞지 않습니다. 0 ~ 0xFFFF(65535) 범위의 16비트 값을 제공하세요." revision="1" />
   <Message key="Checksum" value="체크섬" revision="1" />
   <Message key="Checksum feature computes various checksums for a selected data or a whole document." value="체크섬 기능은 선택한 데이터 또는 전체 문서에 대한 다양한 체크섬을 계산합니다." revision="1" />
   <Message key="FNV-1 32-bit" value="FNV-1 32비트" revision="0" />
@@ -29,13 +29,13 @@
   <Message key="FNV-1 64-bit" value="FNV-1 64비트" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64비트" revision="0" />
   <Message key="Custom FNV" value="사용자 지정 FNV-1" revision="0" />
-  <Message key="Please wait until all pending operations are completed." value="보류 중인 모든 작업이 완료될 때까지 기다려 주십시오." revision="1" />
+  <Message key="Please wait until all pending operations are completed." value="보류 중인 모든 작업이 완료될 때까지 기다려 주세요." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="탭으로 구분된 텍스트 파일 (*.tsv)|*.tsv|모든 파일|*|" revision="1" />
   <Message key="{nbit}: Initial={initial}, Polynom={polynom}, XOR={xor}.{reflection_in}{reflection_out}" value="{nbit}: 초기={initial}, 다항식={polynom}, XOR={xor}.{reflection_in}{reflection_out}" revision="1" />
   <Message key="CustomFNVTemplate" value="{is1a?}FNV-1a{|is1a}FNV-1{?is1a} {is64bit?}64비트 {|is64bit}32비트 {?is64bit}: 소수={prime}, 오프셋 기반={basis}" revision="0" />
   <Message key="toolbar.Checksum" value="체크섬" revision="0" />
   <Message key="Add Algorithm" value="알고리즘 추가" revision="1" />
-  <Message key="Select the algorithm to add from the list below:" value="아래 목록에서 추가할 알고리즘을 선택하십시오:" revision="1" />
+  <Message key="Select the algorithm to add from the list below:" value="아래 목록에서 추가할 알고리즘을 선택하세요:" revision="1" />
   <Message key="Custom CRC Parameters" value="사용자 지정 CRC 매개 변수" revision="1" />
   <Message key="Initial Value:" value="초기 값:" revision="1" />
   <Message key="Polynomial:" value="다항식" revision="1" />
@@ -47,7 +47,7 @@
   <Message key="Name:" value="이름:" revision="0" />
   <Message key="Checksum Result" value="체크섬 결과" revision="1" />
   <Message key="Copy" value="복사" revision="1" />
-  <Message key="Copy as Big-Endian" value="빅엔디언으로 복사" revision="0" />
+  <Message key="Copy as Big-Endian" value="Big-Endian으로 복사" revision="0" />
   <Message key="Size:" value="크기:" revision="1" />
   <Message key="Separator:" value="구분자:" revision="1" />
   <Message key="Checksum settings" value="체크섭" revision="0" />
@@ -57,6 +57,12 @@
   <Message key="Prime:" value="소수:" revision="0" />
   <Message key="Offset basis:" value="오프셋 기준:" revision="0" />
   <Message key="Version:" value="버전:" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="지원되지 않는 체크섬 알고리즘" revision="0" />
+  <Message key="Called on an empty document" value="빈 문서에서 체크섬 계산 호출" revision="0" />
+  <Message key="Checksum result is not yet available" value="체크섬 결과는 아직 사용할 수 없습니다. 먼저 [[[pcalculate]]] 메서드를 호출하세요" revision="0" />
+  <Message key="Called on an empty selection" value="빈 선택에서 호출된 체크섬 계산" revision="0" />
+  <Message key="Invalid CRC bits" value="사용자 지정 CRC 알고리즘에 잘못된 비트 수가 지정되었습니다. 지원되는 값은 16과 32입니다" revision="0" />
+  <Message key="Invalid FNV bits" value="사용자 지정 FNV 알고리즘에 잘못된 비트 수가 지정되었습니다. 지원되는 값은 32와 64입니다" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="구분자 없음" revision="1" />
     <Item value="공백 (' ')" revision="1" />
@@ -92,7 +98,7 @@
     <Item value="선택한 검사 합계 결과를 표시합니다" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="" revision="0" />
+    <Item value="새로 고침" revision="1" />
     <Item value="체크섬 계산 시작" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">

@@ -10,6 +10,8 @@
   <Message key="ResultNotANumber" value="'repeat-expr'의 결과가 숫자가 아닙니다." revision="0" />
   <Message key="InvalidArgument" value="잘못된 인수" revision="0" />
   <Message key="ParamsNumMistmatch" value="잘못된 인수 수입니다. 예상됨: {est}, 수신됨: {fact}." revision="0" />
+  <Message key="CannotDeduceSize" value="필드 '{field}'의 크기를 추론할 수 없습니다" revision="0" />
+  <Message key="CannotCast" value="'{value}'를 {type}에 입력할 수 없습니다" revision="0" />
   <Message key="SizeConflictError" value="'size' 또는 'size-eos' 중 하나만 지정해야 합니다." revision="0" />
   <Message key="NoRepeatError" value="'repeat-expr' 블록에 식이 없습니다." revision="0" />
   <Message key="NoUntilError" value="'repeat-til' 블록에 식이 없습니다." revision="0" />
