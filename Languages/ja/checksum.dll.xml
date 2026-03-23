@@ -57,6 +57,12 @@
   <Message key="Prime:" value="Prime:" revision="0" />
   <Message key="Offset basis:" value="オフセット基準 :" revision="0" />
   <Message key="Version:" value="バージョン :" revision="0" />
+  <Message key="Unsupported checksum algorithm" value="サポートされていないチェックサムアルゴリズム" revision="0" />
+  <Message key="Called on an empty document" value="空のドキュメントに対してチェックサム計算が呼び出されました" revision="0" />
+  <Message key="Checksum result is not yet available" value="チェックサム結果はまだ利用できません。最初に[[[pcalculate]]]メソッドを呼び出してください" revision="0" />
+  <Message key="Called on an empty selection" value="空の選択範囲に対してチェックサム計算が呼び出されました" revision="0" />
+  <Message key="Invalid CRC bits" value="カスタムCRCアルゴリズムに指定されたビット数が無効です。サポートされている値は16と32です。" revision="0" />
+  <Message key="Invalid FNV bits" value="カスタムFNVアルゴリズムに指定されたビット数が無効です。サポートされている値は32と64です。" revision="0" />
   <Enumeration key="Checksum result separators">
     <Item value="区切りなし" revision="1" />
     <Item value="スペース (' ')" revision="1" />
@@ -92,7 +98,7 @@
     <Item value="選択したチェックサムの結果を表示します" revision="0" />
   </Enumeration>
   <Enumeration key="ChecksumRefresh">
-    <Item value="" revision="0" />
+    <Item value="計算" revision="1" />
     <Item value="チェックサム計算の開始" revision="1" />
   </Enumeration>
   <Enumeration key="ChecksumCheckAll">

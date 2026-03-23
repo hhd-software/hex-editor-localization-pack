@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="ナビゲーション" revision="0" />
+  <Message key="menu.HexViewPopup" value="Hex window popup menu" revision="0" />
   <Message key="Offset" value="オフセット" revision="1" />
   <Message key="SchemeNameCue" value="ここにスキーム名を入力" revision="1" />
   <Message key="Encrypt" value="暗号化" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="貼り付け後にカーソルを移動" revision="1" />
   <Message key="FindAllNotification" value="すべて検索" revision="1" />
   <Message key="PasteNotification" value="テキストの貼り付け" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn のスクロールステップ (ページ数)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn のスクロールステップ(ページ数)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn のスクロールステップ(ページ数)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="無効な式です。 構文を確認してください。" revision="1" />
   <Message key="Connect to" value="接続先" revision="1" />
   <Message key="ConnectToSuccess" value="Windows は正常に接続されました。" revision="1" />
@@ -222,7 +226,13 @@
   <Message key="clr.colors.HoverUnderline" value="アクティブな領域の下線" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="ツールチップの背景" revision="0" />
   <Message key="clr.colors.TooltipText" value="ツールチップのテキスト" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="情報ボックスの背景" revision="0" />
+  <Message key="clr.colors.InfoText" value="情報ボックスのテキスト" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="情報ボックスのアウトライン" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="情報ボックスのハイライト" revision="0" />
+  <Message key="clr.colors.Wave" value="フィールドのハイライト" revision="0" />
   <Message key="toolbar.Selection" value="選択" revision="0" />
+  <Message key="Info pane header" value="情報ペイン" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="すべて選択(&amp;A)" revision="1" />
     <Item value="ファイル内のすべてのデータを選択" revision="1" />
@@ -384,8 +394,8 @@
     <Item value="テキスト (ASCII または UNICODE) ペインの表示または非表示を切り替え" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="情報ペイン(&amp;I)" revision="1" />
+    <Item value="情報ペインを表示または非表示" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="16進数(&amp;H)" revision="1" />

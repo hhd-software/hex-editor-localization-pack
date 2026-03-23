@@ -69,6 +69,9 @@
   <Message key="Toolbar already exists" value="指定した名前のツールバーはすでに存在します。" revision="1" />
   <Message key="All commands" value="すべてのコマンド" revision="1" />
   <Message key="Commands Page" value="コマンド" revision="1" />
+  <Message key="Command lists" value="コマンド リスト" revision="0" />
+  <Message key="Command lists.Toolbars" value="――― ツールバー ―――" revision="0" />
+  <Message key="Command lists.Menus" value="――― メニュー ―――" revision="0" />
   <Message key="New" value="新規(&amp;N)…" revision="1" />
   <Message key="Delete" value="削除(&amp;D)" revision="1" />
   <Message key="Button size" value="ボタンサイズ :" revision="1" />
@@ -114,6 +117,7 @@
   <Message key="Expired." value="期限切れ。" revision="1" />
   <Message key="{days} days left" value="残り {days} 日" revision="1" />
   <Message key="ExpiresOn" value="、有効期限は {date} です" revision="1" />
+  <Message key="UPSuffix" value="\n{lu?}アップグレードプラン: 生涯ライセンス.{|lu}アップグレードプランは{expiration}に{ past?}期限切れとなりました{|past}期限切れとなります{?past}{?lu}。" revision="2" />
   <Message key="OpenLicenseFilter" value="ライセンス ファイル|*.hexlic|すべてのファイル|*.*|" revision="2" />
   <Message key="License Installation" value="ライセンスのインストール" revision="1" />
   <Message key="LicenseInstallSuccess" value="ライセンスは正常にインストールされました。 アプリケーションを再起動することをお勧めします。 Hex Editor Neo をお選びいただき、誠にありがとうございます!" revision="1" />
@@ -150,6 +154,7 @@
   <Message key="Type:" value="種類 :" revision="1" />
   <Message key="Find what:" value="検索文字列 :" revision="1" />
   <Message key="FREmpty" value="空" revision="1" />
+  <Message key="FRGapNotice" value="ワイルドカードバイトを挿入するには 'X' を押してください" revision="0" />
   <Message key="Custom colors:" value="色の変更 :" revision="1" />
   <Message key="Default colors:" value="既定色 :" revision="1" />
   <Message key="Alpha" value="ｱﾙﾌｧ" revision="1" />
@@ -235,6 +240,8 @@
   <Message key="Start Download" value="ダウンロードを開始" revision="0" />
   <Message key="View Changes…" value="変更を表示…" revision="0" />
   <Message key="Discard" value="破棄" revision="0" />
+  <Message key="Error checking for new version" value="新しいバージョンを確認中にエラーが発生しました :\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="アップデートサーバーから無効な応答を受信しました。" revision="0" />
   <Message key="ActionSelection" value="{name} は正常にダウンロードされました。" revision="1" />
   <Message key="CopyError" value="ダウンロードしたファイル ({code}) のコピー中にエラーが発生しました。 デフォルトの場所からセットアップを実行します。" revision="1" />
   <Message key="LaunchError" value="ダウンロードしたイメージの実行中にエラー ({code}) が発生しました。" revision="1" />
@@ -314,6 +321,11 @@
   <Message key="Auto" value="自動" revision="0" />
   <Message key="Physical disk" value="物理ディスク" revision="0" />
   <Message key="Volume" value="ボリューム" revision="0" />
+  <Message key="Value is out of range" value="指定された値 [[[p{value}]]] は、パラメーター [[[p{parameter}]]] の範囲外です : [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="パラメーター [[[p{parameter}: {type}]]] に無効な列挙値 [[[p{value}]]] が指定されました" revision="0" />
+  <Message key="Invalid argument type" value="パラメーター [[[p{parameter}]]] に渡された値の型が無効です。期待される型: [[[p{type}]]" revision="0" />
+  <Message key="Unsupported clipboard format" value="サポートされていないクリップボード形式" revision="0" />
+  <Message key="Requested clipboard format is not available" value="要求されたクリップボード形式は利用できません" revision="0" />
   <Message key="GenericError" value="操作の実行中にエラーが発生しました : {text}{has_code?} ({code}){?has_code}" revision="0" />
   <Message key="clr.default_colors" value="既定の UI の色" revision="0" />
   <Message key="clr.default_colors.background" value="背景" revision="0" />
@@ -321,6 +333,7 @@
   <Message key="clr.default_colors.text" value="テキスト/前景" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="ハイパーリンク" revision="0" />
   <Message key="clr.default_colors.disabled" value="無効なテキスト" revision="0" />
+  <Message key="clr.default_colors.error" value="エラー" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="ホバー中の背景" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="ホバー中の外枠" revision="0" />
   <Message key="clr.default_colors.hover.text" value="ホバー中のテキスト" revision="0" />
@@ -423,17 +436,32 @@
   <Message key="clr.balloon.balloon.text" value="テキスト" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="外枠" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;今後表示しない&quot;の通知" revision="0" />
+  <Message key="clr.statusbar" value="ステータスバーの色" revision="0" />
+  <Message key="clr.statusbar.background" value="背景" revision="0" />
+  <Message key="clr.statusbar.text" value="テキスト" revision="0" />
+  <Message key="clr.statusbar.separator" value="区切り" revision="0" />
+  <Message key="clr.statusbar.border" value="枠線" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="ハイパーリンク" revision="0" />
   <Message key="clr.statusbar.chevron.fill" value="シェブロンドットの塗りつぶし色" revision="0" />
   <Message key="clr.statusbar.chevron.stroke" value="シェブロンドットの外枠" revision="0" />
   <Message key="Ready" value="準備完了" revision="0" />
   <Message key="Little endian" value="リトルエンディアン" revision="0" />
   <Message key="Big endian" value="ビッグエンディアン" revision="0" />
+  <Message key="ConfigurationError" value="Hex Editor Neoが無効な状態です。修正するにはアプリケーションを再インストールしてください。{has additional info?}\n\n追加情報:\n{has error code?}\n  • エラー: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nこのテキストをクリップボードにコピーするには[[[bCtrl+C]]]を押し、サポートについては[[[h#[https://hhdsoftware.com/dispatch/hex8/broken-installation]#サポートに連絡]]]してください。{?has additional info}" revision="2" />
+  <Message key="AlignmentHeader" value="整列" revision="0" />
+  <Message key="DefaultAlignment" value="デフォルト{has default?} ({alignment}){?has default}" revision="0" />
+  <Message key="InvalidAlignment" value="無効なアラインメントが指定されました: アラインメントは正の整数値である必要があります(式はサポートされています)。" revision="0" />
+  <Message key="Delete prompt" value="この操作は元に戻せません。続行してもよろしいですか？" revision="0" />
   <Message key="Start" value="開始" revision="0" />
   <Message key="End" value="終了" revision="0" />
   <Message key="Size" value="サイズ" revision="0" />
+  <Message key="rr.Expressions supported" value="[[[bStart]]]、[[[bSize]]]、または[[[bEnd]]]の値を入力する際に数式を使用できます。\n\n数値の先頭に&quot;0x&quot;を付けると16進数として扱われます。" revision="0" />
+  <Message key="Back color" value="背景色" revision="0" />
   <Message key="Second color" value="色2" revision="0" />
   <Message key="Text color" value="文字色" revision="0" />
   <Message key="Outline color" value="外枠の色" revision="0" />
+  <Message key="Show tooltip" value="ツールチップを表示" revision="0" />
+  <Message key="Show in info pane" value="情報ペインに表示" revision="0" />
   <Enumeration key="Disk dialog columns">
     <Item value="物理ディスク" revision="2" />
     <Item value="サイズ" revision="2" />
@@ -907,8 +935,8 @@
     <Item value="{language name} の Hex Editor Neo 言語パックはオンラインで入手できます。 この言語パックをダウンロードして使用しますか?" revision="0" />
   </Enumeration>
   <Enumeration key="YourLanguageAvailableLocal">
-    <Item />
-    <Item />
+    <Item value="言語パックが利用可能です" revision="0" />
+    <Item value="&quot;{language name}&quot; 言語パックが利用可能です。この言語パックに切り替えますか?" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
     <Item value="レジストリ" revision="0" />

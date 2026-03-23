@@ -51,6 +51,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo は、次のエラーのため &quot;{path}&quot; を開けませんでした :\r\n    » {text} ({code})\r\n\r\nボリュームのスナップショットを作成し、このスナップショットからファイルを開きますか?" revision="0" />
   <Message key="RegExp settings" value="正規表現クラス" revision="0" />
   <Message key="Shortcut files" value="ショートカット ファイル" revision="0" />
+  <Message key="Running operation" value="{document}に対して[[[b{operation}]]]操作を実行中…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="変更を無視する" revision="1" />
     <Item value="ファイルを閉じる" revision="1" />
