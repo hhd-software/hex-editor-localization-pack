@@ -1213,6 +1213,25 @@
 		<Param name="exclusive" format="?"/>
 	</Message>
 
+	<Message key="Value must be less" description="Scripting error: Value passed in script must be less than" value="Parameter [[[p{parameter}]]] expects value {exclusive?}less than{|exclusive}less or equal to{?exclusive} {maxval}, but [[[p{value}]]] was passed instead.">
+		<Param name="parameter"/>
+		<Param name="value"/>
+		<Param name="maxval"/>
+		<Param name="exclusive" format="?"/>
+	</Message>
+
+	<Message key="Value must be greater" description="Scripting error: Value passed in script must be greater than" value="Parameter [[[p{parameter}]]] expects value {exclusive?}greater than{|exclusive}greater or equal to{?exclusive} {minval}, but [[[p{value}]]] was passed instead.">
+		<Param name="parameter"/>
+		<Param name="value"/>
+		<Param name="minval"/>
+		<Param name="exclusive" format="?"/>
+	</Message>
+
+	<Message key="Value must not be equal" description="Scripting error: Value passed in script must not be equal to" value="Parameter [[[p{parameter}]]] must not be equal to [[[p{value}]]].">
+		<Param name="parameter"/>
+		<Param name="value"/>
+	</Message>
+
 	<Message key="Invalid enum value" description="Scripting error: Invalid enum value" value="Invalid enumeration value [[[p{value}]]] specified for [[[p{parameter}: {type}]]] parameter">
 		<Param name="parameter"/>
 		<Param name="type"/>
