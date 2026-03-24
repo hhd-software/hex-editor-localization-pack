@@ -17,11 +17,11 @@
   </Enumeration>
   <Enumeration key="ExpUp">
     <Item value="위로" revision="0" />
-    <Item value="상의 디렉토리로 가기" revision="0" />
+    <Item value="상의 디렉터리로 가기" revision="0" />
   </Enumeration>
   <Enumeration key="ExpLocateCurr">
     <Item value="현재 위치" revision="0" />
-    <Item value="현재 디렉토리를 브라우저와 동기화" revision="0" />
+    <Item value="현재 디렉터리를 브라우저와 동기화" revision="0" />
   </Enumeration>
   <Enumeration key="ExpSearch">
     <Item value="파일에서 찾기" revision="0" />
@@ -33,10 +33,10 @@
   </Enumeration>
   <Enumeration key="FeatureExplorer1">
     <Item value="내장된 탐색기" revision="0" />
-    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard Edition에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
+    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard 에디션에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
   </Enumeration>
   <Enumeration key="FeatureExplorer2">
     <Item value="내장된 탐색기 2개" revision="0" />
-    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard Edition에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
+    <Item value="내장된 탐색기 도구 창은 Windows 탐색기와 유사하며 16진수 편집기와 긴밀하게 통합되어 있습니다. 하나의 탐색기 창은 Standard 에디션에서 사용할 수 있으며 두 개는 Professional 및 Ultimate 에디션에서 사용할 수 있습니다." revision="0" />
   </Enumeration>
 </Language>

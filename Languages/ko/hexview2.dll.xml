@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="탐색" revision="0" />
+  <Message key="menu.HexViewPopup" value="헥스 창 팝업 메뉴" revision="0" />
   <Message key="Offset" value="오프셋" revision="1" />
   <Message key="SchemeNameCue" value=" 구성표 이름을 여기에 입력" revision="1" />
   <Message key="Encrypt" value="암호화" revision="1" />
@@ -19,6 +20,9 @@
   <Message key="ShiftCursorOnPaste" value="붙여넣기 후 커서 이동" revision="1" />
   <Message key="FindAllNotification" value="모두 찾기" revision="1" />
   <Message key="PasteNotification" value="텍스트 붙여넣기" revision="1" />
+  <Message key="ctrlPageStep" value="Ctrl+PageUp/PageDn 스크롤 단계 (페이지)" revision="0" />
+  <Message key="altPageStep" value="Alt+PageUp/PageDn 스크롤 단계 (페이지)" revision="0" />
+  <Message key="ctrlAltPageStep" value="Ctrl+Alt+PageUp/PageDn 스크롤 단계 (페이지)" revision="0" />
   <Message key="InvalidExpressionSyntax" value="잘못된 식입니다. 구문을 확인합니다." revision="1" />
   <Message key="Connect to" value="연결 위치" revision="1" />
   <Message key="ConnectToSuccess" value="Windows가 성공적으로 연결되었습니다." revision="1" />
@@ -36,7 +40,7 @@
   <Message key="Do you want to override this scheme?" value="이 체계를 재정의하시겠습니까?" revision="1" />
   <Message key="NoSel" value="선택 없음" revision="1" />
   <Message key="EncodingNotSupported" value="현재 선택한 인코딩은 운영 체제에서 지원되지 않습니다. 필요한 코드 페이지 파일과 글꼴이 설치되어 있는지 확인합니다." revision="1" />
-  <Message key="NoEncoding" value="선택한 인코딩을 지원하는 데 필요한 구성 요소가 시스템에 없습니다. 다른 인코딩을 선택하십시오." revision="1" />
+  <Message key="NoEncoding" value="선택한 인코딩을 지원하는 데 필요한 구성 요소가 시스템에 없습니다. 다른 인코딩을 선택하세요." revision="1" />
   <Message key="Find" value="찾기" revision="1" />
   <Message key="A pattern was not found." value="패턴을 찾을 수 없습니다." revision="1" />
   <Message key="RegExpInSel" value="선택 항목 내에서 정규식을 검색할 수 없습니다." revision="1" />
@@ -97,7 +101,7 @@
   <Message key="Invert" value="반전" revision="1" />
   <Message key="Revert" value="역전" revision="1" />
   <Message key="Bitwise Operation" value="비트 연산" revision="1" />
-  <Message key="Gap Operation" value="갭 작업" revision="0" />
+  <Message key="Gap Operation" value="갭 동작" revision="0" />
   <Message key="Set Columns" value="열 설정" revision="0" />
   <Message key="Enter number of columns per row:" value="행 당 열 수 입력:" revision="0" />
   <Message key="Select the Window to Connect" value="연결할 창 선택" revision="0" />
@@ -154,7 +158,7 @@
   <Message key="New selection" value="새 선택" revision="0" />
   <Message key="Add to current" value="현재에 더하기" revision="0" />
   <Message key="Subtract from current" value="현재에서 빼기" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주십시오…" revision="0" />
+  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주세요…" revision="0" />
   <Message key="0 % done" value="0 % 완료" revision="0" />
   <Message key="Elapsed time: " value="경과 시간:" revision="0" />
   <Message key="Remaining time:" value="남은 시간:" revision="0" />
@@ -173,7 +177,7 @@
   <Message key="Overlap" value="겹침" revision="0" />
   <Message key="Specify new file size:" value="새 파일 크기 지정:" revision="0" />
   <Message key="Resulting file size:" value="결과 파일 크기:" revision="0" />
-  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="수학식을 사용하여 새 파일 크기를 입력할 수 있습니다. 자세한 내용은 도움말을 참조하십시오." revision="0" />
+  <Message key="You may use mathematic expression to enter new file size. See Help for more details." value="수학식을 사용하여 새 파일 크기를 입력할 수 있습니다. 자세한 내용은 도움말을 참조하세요." revision="0" />
   <Message key="Shift Operation" value="이동 작업" revision="0" />
   <Message key="Shift by (bits):" value="이동 기준 (비트):" revision="0" />
   <Message key="Editor Page" value="편집기" revision="0" />
@@ -208,7 +212,7 @@
   <Message key="clr.colors.Even" value="짝수" revision="0" />
   <Message key="clr.colors.Odd" value="홀수" revision="0" />
   <Message key="clr.colors.Empty" value="빈 범위" revision="0" />
-  <Message key="clr.colors.ChangedEmpty" value="빈 범위 변경" revision="0" />
+  <Message key="clr.colors.ChangedEmpty" value="변경된 빈 범위" revision="0" />
   <Message key="clr.colors.CursorFill" value="커서 채우기" revision="0" />
   <Message key="clr.colors.CursorOutline" value="커서 스트로크" revision="0" />
   <Message key="clr.colors.AltCursorFill" value="대체 커서 채우기" revision="0" />
@@ -222,7 +226,13 @@
   <Message key="clr.colors.HoverUnderline" value="활성 필드 밑줄" revision="0" />
   <Message key="clr.colors.TooltipBackground" value="도구 설명 배경" revision="0" />
   <Message key="clr.colors.TooltipText" value="도구 설명 텍스트" revision="0" />
+  <Message key="clr.colors.InfoBackground" value="정보 상자 배경" revision="0" />
+  <Message key="clr.colors.InfoText" value="정보 상자 텍스트" revision="0" />
+  <Message key="clr.colors.InfoBorder" value="정보 상자 윤곽선" revision="0" />
+  <Message key="clr.colors.InfoHighlight" value="정보 상자 강조" revision="0" />
+  <Message key="clr.colors.Wave" value="필드 강조" revision="0" />
   <Message key="toolbar.Selection" value="선택 항목" revision="0" />
+  <Message key="Info pane header" value="정보 창" revision="0" />
   <Enumeration key="SelectAll">
     <Item value="모두 선택(&amp;A)" revision="1" />
     <Item value="파일의 모든 데이터 선택" revision="1" />
@@ -272,12 +282,12 @@
     <Item value="현재 셀 편집" revision="1" />
   </Enumeration>
   <Enumeration key="EditNextIsland">
-    <Item value="다음 데이터 섬으로 이동" revision="0" />
-    <Item value="문서에서 희소성이 없는 다음 데이터 영역으로 이동하기" revision="0" />
+    <Item value="다음 데이터 아일랜드로 가기" revision="0" />
+    <Item value="문서에서 다음 희소하지 않은 데이터 영역으로 이동" revision="0" />
   </Enumeration>
   <Enumeration key="EditPrevIsland">
-    <Item value="이전 데이터 섬으로 이동" revision="0" />
-    <Item value="문서에서 이전의 희소하지 않은 데이터 영역으로 이동하기" revision="0" />
+    <Item value="이전 데이터 아일랜드로 가기" revision="0" />
+    <Item value="문서에서 이전의 희소하지 않은 데이터 영역으로 이동" revision="0" />
   </Enumeration>
   <Enumeration key="EditInsertMode">
     <Item value="삽입 모드(&amp;I)" revision="1" />
@@ -288,12 +298,12 @@
     <Item value="패턴 또는 모든 패턴 발생 찾기" revision="1" />
   </Enumeration>
   <Enumeration key="SelectGap">
-    <Item value="선택한 지역 간 격차 (스파스)" revision="0" />
-    <Item value="선택한 지역 간 격차" revision="0" />
+    <Item value="간격 선택 (희소)" revision="0" />
+    <Item value="갭 선택 영역" revision="0" />
   </Enumeration>
   <Enumeration key="SelectDataIslands">
-    <Item value="데이터 섬 선택" revision="0" />
-    <Item value="문서에 있는 모든 기존 데이터 선택(공백 건너뛰기)" revision="0" />
+    <Item value="데이터 아일랜드 선택" revision="0" />
+    <Item value="문서의 모든 기존 데이터 선택 (갭 건너뛰기)" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item value="다음 찾기(&amp;N)" revision="1" />
@@ -332,8 +342,8 @@
     <Item value="인코딩" revision="1" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
-    <Item value="&amp;최근 패턴" revision="0" />
-    <Item value="최근 패턴 중 하나를 선택하세요." revision="0" />
+    <Item value="최근 패턴(&amp;R)" revision="0" />
+    <Item value="최근 패턴 중 하나를 선택합니다" revision="0" />
   </Enumeration>
   <Enumeration key="ViewConnect">
     <Item value="연결 대상(&amp;C)…" revision="1" />
@@ -384,8 +394,8 @@
     <Item value="텍스트 표시 또는 숨기기 (ASCII 또는 UNICODE) 창" revision="1" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="정보 창(&amp;I)" revision="1" />
+    <Item value="정보 창 표시 또는 숨기기" revision="1" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="16진수(&amp;H)" revision="1" />

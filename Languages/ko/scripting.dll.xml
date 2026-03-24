@@ -29,14 +29,22 @@
   <Message key="MacroName" value="매크로: {name}" revision="0" />
   <Message key="MacroExportFormat" value="매크로 내보내기 파일|*.neo-macro.json" revision="0" />
   <Message key="Script files" value="스크립트 파일" revision="0" />
-  <Message key="DuplicateMacroTemplate" value="{macro name} 복사" revision="0" />
+  <Message key="DuplicateMacroTemplate" value="{macro name}의 사본 " revision="0" />
   <Message key="NewMacroTemplate" value="매크로 {n}" revision="0" />
+  <Message key="CmdLineMacroName" value="명령줄 스크립트" revision="0" />
+  <Message key="Running macro" value="실행 중 [[[b{macro}]]]... [[[h중지히려면 클릭]]]." revision="0" />
+  <Message key="Recording macro" value="매크로 기록 중... [[[h기록을 중지하려면 클릭]]]." revision="0" />
+  <Message key="Macro script opened" value="매크로 스크립트는 편집기에서 열립니다. 이를 시작하려면 [[[b디버그 » 스크립트 실행]]] 또는 [[[b디버그 » 스크립트 디버그]]] 명령을 사용합니다." revision="0" />
+  <Message key="ScriptException" value="{uncatched?}{line}{column}에서 {uncatched}E{|uncatched}E{?uncatched}예외 &quot;{name}&quot;이 발생했습니다\n" revision="0" />
+  <Message key="catchFirstChanceExceptions" value="디버깅 중 첫 번째 기회 예외 잡기" revision="0" />
+  <Message key="Debugger" value="디버거" revision="0" />
+  <Message key="Main body finish" value="기본 스크립트 본문 실행이 완료되었습니다. 비동기 기능 및 이벤트 실행 중…\n" revision="0" />
   <Enumeration key="MacroRecord">
     <Item value="기록 시작(&amp;S)" revision="0" />
     <Item value="매크로 기록 시작" revision="0" />
   </Enumeration>
   <Enumeration key="MacroNew">
-    <Item value="&amp;매크로 만들기…" revision="0" />
+    <Item value="매크로 만들기(&amp;C)..." revision="0" />
     <Item value="새 빈 매크로 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="MacroStop">
@@ -60,8 +68,8 @@
     <Item value="선택한 매크로 편집" revision="0" />
   </Enumeration>
   <Enumeration key="MacroDuplicate">
-    <Item value="&amp;매크로 복제…" revision="0" />
-    <Item value="선택한 매크로를 새 매크로에 복사합니다." revision="0" />
+    <Item value="매크로 복제(&amp;D)..." revision="0" />
+    <Item value="선택한 매크로를 새 매크로로 복사" revision="0" />
   </Enumeration>
   <Enumeration key="MacroImport">
     <Item value="매크로 가져오기(&amp;I)" revision="0" />
@@ -76,8 +84,8 @@
     <Item value="매크로" revision="0" />
   </Enumeration>
   <Enumeration key="MenuRunMacro">
-    <Item />
-    <Item />
+    <Item value="실행" revision="0" />
+    <Item value="선택한 매크로 실행" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingNewScript">
     <Item value="새 스크립트" revision="0" />

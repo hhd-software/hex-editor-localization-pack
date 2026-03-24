@@ -15,8 +15,9 @@
   <Message key="These attributes can not be applied." value="이러한 특성을 적용할 수 없습니다." revision="0" />
   <Message key="Error setting file time." value="파일 시간을 설정하는 중 오류가 발생했습니다." revision="0" />
   <Message key="Multiple" value="다중" revision="0" />
+  <Message key="ValueRangeHeader" value="값 범위" revision="0" />
   <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2" />
-  <Message key="History" value="내역" revision="0" />
+  <Message key="History" value="기록" revision="0" />
   <Message key="Pattern Coloring" value="패턴 색상" revision="0" />
   <Message key="Base Converter" value="기본 변환기" revision="0" />
   <Message key="PatchFileFilter" value="패치 파일 (*.hexpatch)|*.hexpatch|실행 파일 (*.exe)|*.exe|" revision="0" />
@@ -33,24 +34,25 @@
   <Message key="Error writing to the file" value="파일에 쓰는 중 오류 발생" revision="0" />
   <Message key="Error reading from the file" value="파일에서 읽는 중 오류 발생" revision="0" />
   <Message key="Select Colors" value="색상 선택" revision="0" />
+  <Message key="PColFilter" value="패턴 색상 구성표 파일" revision="3" />
   <Message key="The current scheme will be lost. Do you want to continue?" value="현재 구성표가 손실됩니다. 계속하시겠습니까?" revision="0" />
   <Message key="The file has different version" value="파일의 버전이 다릅니다" revision="0" />
   <Message key="Clear Coloring Scheme" value="색상 구성표 지우기" revision="0" />
   <Message key="Current item will be removed. Do you want to continue?" value="현재 항목이 제거됩니다. 계속하시겠습니까?" revision="0" />
-  <Message key="RuleFmt" value="[[[uPattern Coloring Rule {n}]]]" revision="1" />
+  <Message key="RuleFmt" value="[[[u패턴 색상 규칙 {n}]]]" revision="1" />
   <Message key="OperationName" value="{opname}{has_1_p?} {pattern1}{has_more_p?} with {pattern2}{?has_more_p}{?has_1_p}{has_location?}{has_more_p?} over{|has_more_p}{has_1_p?}{ms?} in{|ms} at{?ms}{?has_1_p}{?has_more_p}{ms?} multiple selection{|ms} {offset}{has_size?} – {offset_end}{?has_size}{?ms}{?has_location}" revision="0" />
-  <Message key="Tooltip" value="이름: {name}\r\n\r\nBranch: {branch}" revision="0" />
+  <Message key="Tooltip" value="이름: {name}\r\n\r\n분기: {branch}" revision="0" />
   <Message key="NotSupported" value="이 기능은 현재 문서 유형에서 지원되지 않습니다." revision="0" />
   <Message key="Create Patch" value="패치 만들기" revision="0" />
   <Message key="Patch created successfully." value="패치를 성공적으로 만들었습니다." revision="0" />
   <Message key="Patch creation failed." value="패치 만들기를 실패했습니다." revision="0" />
-  <Message key="PatchNotSupported" value="Hex Editor Neo의 현재 버전은 다른 파일에서 데이터를 붙여넣거나 파일에 산술, 시프트 또는 대소문자 변경 작업이 사용된 경우 패치 생성을 지원하지 않습니다. 자세한 내용은 포함된 설명서를 참조하십시오. 이 제한은 이후 버전의 제품에서 제거됩니다." revision="0" />
-  <Message key="All history will be lost. Do you want to continue?" value="모든 내역는 사라질 것입니다. 계속하시겠습니까?" revision="0" />
-  <Message key="HistoryFilter" value="Hex Editor Neo 내역 파일 (*.hexhis)|*.hexhis|" revision="0" />
-  <Message key="Operation History" value="작업 내역" revision="0" />
-  <Message key="Operation history has been saved successfully." value="작업 내역이 저장되었습니다." revision="0" />
-  <Message key="There was an error saving operation history." value="작업 내역을 저장하는 동안 오류가 발생했습니다." revision="0" />
-  <Message key="HistoryLoadError" value="오류의 가능한 이유:\r\n\r\n · Hex Editor Neo 내역 파일이 아니거나 파일이 손상되었습니다.\r\n · 다른 파일에서 내역을 불러오고 있습니다.\r\n · 내역이 생성된 이후 원본 파일이 변경되었습니다.\r\n · 내역 파일에는 존재하지 않거나 변경된 파일에 대한 외부 참조가 포함되어 있습니다." revision="0" />
+  <Message key="PatchNotSupported" value="Hex Editor Neo의 현재 버전은 다른 파일에서 데이터를 붙여넣거나 파일에 산술, 시프트 또는 대소문자 변경 작업이 사용된 경우 패치 생성을 지원하지 않습니다. 자세한 내용은 포함된 설명서를 참조하세요. 이 제한은 이후 버전의 제품에서 제거됩니다." revision="0" />
+  <Message key="All history will be lost. Do you want to continue?" value="모든 기록는 사라질 것입니다. 계속하시겠습니까?" revision="0" />
+  <Message key="HistoryFilter" value="Hex Editor Neo 기록 파일 (*.hexhis)|*.hexhis|" revision="0" />
+  <Message key="Operation History" value="작업 기록" revision="0" />
+  <Message key="Operation history has been saved successfully." value="작업 기록이 저장되었습니다." revision="0" />
+  <Message key="There was an error saving operation history." value="작업 기록을 저장하는 동안 오류가 발생했습니다." revision="0" />
+  <Message key="HistoryLoadError" value="오류의 가능한 이유:\r\n\r\n · Hex Editor Neo 기록 파일이 아니거나 파일이 손상되었습니다.\r\n · 다른 파일에서 기록을 불러오고 있습니다.\r\n · 기록이 생성된 이후 원본 파일이 변경되었습니다.\r\n · 기록 파일에는 존재하지 않거나 변경된 파일에 대한 외부 참조가 포함되어 있습니다." revision="0" />
   <Message key="Rename Branch" value="분기 이름 바꾸기" revision="0" />
   <Message key="Delete Branch" value="분기 삭제" revision="0" />
   <Message key="Unpin Branch" value="분기 고정 해제" revision="0" />
@@ -72,11 +74,11 @@
   <Message key="Item color:" value="항목 색상:" revision="0" />
   <Message key="Background  color:" value="배경 색상:" revision="0" />
   <Message key="Line color:" value="줄 색상:" revision="0" />
-  <Message key="Operation History Tree" value="작업 내역 트리" revision="0" />
-  <Message key="Load History" value="내역 불러오기" revision="0" />
-  <Message key="This document already contains a non-empty history. Select an action to continue:" value="이 문서에는 이미 비어 있지 않은 내역이 있습니다. 계속하려면 작업을 선택하십시오." revision="0" />
-  <Message key="Drop current history and replace it with a loaded one." value="현재 내역을 삭제하고 불러온로드된 기록으로 바꿉니다." revision="0" />
-  <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="현재 내역을 유지합니다. 선택적으로 불러온 내역 분기에 다음 접두사를 추가합니다." revision="0" />
+  <Message key="Operation History Tree" value="작업 기록 트리" revision="0" />
+  <Message key="Load History" value="기록 불러오기" revision="0" />
+  <Message key="This document already contains a non-empty history. Select an action to continue:" value="이 문서에는 이미 비어 있지 않은 기록이 있습니다. 계속하려면 작업을 선택하세요." revision="0" />
+  <Message key="Drop current history and replace it with a loaded one." value="현재 기록을 삭제하고 불러온로드된 기록으로 바꿉니다." revision="0" />
+  <Message key="Retain current history. Optionally add the following prefix to loaded history branches:" value="현재 기록을 유지합니다. 선택적으로 불러온 기록 분기에 다음 접두사를 추가합니다." revision="0" />
   <Message key="Prefix:" value="접두사:" revision="0" />
   <Message key="Color Selection" value="색상 선택" revision="0" />
   <Message key="Selection Color:" value="선택 색상:" revision="0" />
@@ -91,43 +93,59 @@
   <Message key="Target x64 platform" value="대상 x64 플랫폼" revision="0" />
   <Message key="Edit Pattern" value="패턴 편집" revision="0" />
   <Message key="Ignore case" value="대소문자 무시" revision="0" />
-  <Message key="Purge History" value="내역 삭제" revision="0" />
+  <Message key="Purge History" value="기록 삭제" revision="0" />
   <Message key="Select operation to perform:" value="수행할 작업 선택:" revision="0" />
   <Message key="Purge redo tail" value="다시 실행 꼬리 정리" revision="0" />
   <Message key="Purge branches" value="분기 정리" revision="0" />
-  <Message key="Clear History" value="내역 지우기" revision="0" />
+  <Message key="Clear History" value="기록 지우기" revision="0" />
   <Message key="Purge all" value="모두 정리" revision="0" />
-  <Message key="Warning: History purge operation cannot be undone!" value="경고: 내역 제거 작업은 실행 취소할 수 없습니다!" revision="0" />
+  <Message key="Warning: History purge operation cannot be undone!" value="경고: 기록 제거 작업은 실행 취소할 수 없습니다!" revision="0" />
   <Message key="Pattern Editor" value="패턴 편집기" revision="0" />
   <Message key="Standard rule:" value="표준 규칙:" revision="0" />
   <Message key="Range rule:" value="규칙 범위:" revision="0" />
   <Message key="Offset:" value="오프셋:" revision="0" />
   <Message key="Size:" value="크기:" revision="0" />
+  <Message key="Show rule tooltip" value="규칙 도구 설명 표시" revision="0" />
   <Message key="Change Time" value="시간 변경" revision="0" />
   <Message key="PatternColoring settings" value="패턴 색상" revision="0" />
   <Message key="toolbar.Attributes" value="속성" revision="0" />
   <Message key="toolbar.Coloring" value="패턴 색상" revision="0" />
   <Message key="toolbar.Statistics" value="통계" revision="0" />
-  <Message key="toolbar.History" value="내역" revision="0" />
-  <Message key="toolbar.History Window" value="내역 트리 창" revision="0" />
+  <Message key="toolbar.History" value="기록" revision="0" />
+  <Message key="toolbar.History Window" value="기록 트리 창" revision="0" />
+  <Message key="ShowRuleTooltip" value="도구 설명에 규칙 표시" revision="0" />
+  <Message key="Pattern coloring alignment" value=", 정렬={alignment}" revision="0" />
+  <Message key="Invalid fp value" value="부동 소수점 값 구문 분석 오류" revision="0" />
+  <Message key="No negative integers" value="최소 및 최대 범위 값은 모두 음수가 아니어야 합니다." revision="0" />
+  <Message key="Max is less than min" value="최대 범위 값은 최소 값보다 크거나 같아야 합니다." revision="0" />
+  <Message key="Out of range value" value="선택한 값 유형의 값이 범위를 벗어났습니다." revision="0" />
+  <Message key="pattern_rule.data is empty" value="패턴이 비어 있습니다" revision="0" />
+  <Message key="pattern_rule.invalid type" value="잘못된 패턴 유형" revision="0" />
+  <Message key="pc_rule.invalid group" value="잘못된 그룹화" revision="0" />
+  <Message key="regexp_rule.regular expression empty" value="정규 표현식 문자열이 비어 있습니다" revision="0" />
+  <Message key="range_rule.size is zero" value="범위 크기는 0입니다" revision="0" />
+  <Message key="range_rule.invalid range" value="잘못된 범위" revision="0" />
+  <Message key="Invalid rule object" value="잘못된 규칙 개체: {error}" revision="0" />
+  <Message key="Encode as" value="다음으로 텍스트 인코딩:" revision="0" />
+  <Message key="Code points" value="코드 지점" revision="0" />
   <Enumeration key="HistoryRenameOp">
-    <Item />
-    <Item />
+    <Item value="작업 이름 바꾸기..." revision="0" />
+    <Item value="선택한 작업 이름 바꾸기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryClearHistory">
-    <Item value="내역 지우기" revision="0" />
-    <Item value="내역 지우기" revision="0" />
+    <Item value="기록 지우기" revision="0" />
+    <Item value="기록 지우기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryPurge">
     <Item value="정리…" revision="0" />
-    <Item value="내역 정리" revision="0" />
+    <Item value="기록 정리" revision="0" />
   </Enumeration>
   <Enumeration key="HistorySave">
-    <Item value="작업 내역 저장…" revision="0" />
-    <Item value="파일에 작업 내역 저장" revision="0" />
+    <Item value="작업 기록 저장…" revision="0" />
+    <Item value="파일에 작업 기록 저장" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryLoad">
-    <Item value="작업 내역 불러오기…" revision="0" />
+    <Item value="작업 기록 불러오기…" revision="0" />
     <Item value="파일에서 작업 기록 불러오기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryCollapseSame">
@@ -143,20 +161,20 @@
     <Item value="현재 변경 사항이 있는 패치 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item />
-    <Item />
+    <Item value="새 패턴 규칙..." revision="1" />
+    <Item value="새 패턴 색상 규칙 정의" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewRangeRule">
-    <Item />
-    <Item />
+    <Item value="새 범위 규칙..." revision="1" />
+    <Item value="새 범위 색상 규칙 정의" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item />
-    <Item />
+    <Item value="새 값 범위 규칙..." revision="1" />
+    <Item value="새 값 범위 색상 규칙 정의" revision="1" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
-    <Item />
-    <Item />
+    <Item value="중복 규칙..." revision="0" />
+    <Item value="선택한 규칙의 사본 만들기" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="구성표 저장…" revision="0" />
@@ -228,11 +246,11 @@
   </Enumeration>
   <Enumeration key="HistoryVisFitToScreen">
     <Item value="화면에 맞춤" revision="0" />
-    <Item value="화면에 내역 맞추기" revision="0" />
+    <Item value="화면에 기록 맞추기" revision="0" />
   </Enumeration>
   <Enumeration key="HistoryOpenVisualizer">
-    <Item value="전체 작업 내역 트리…" revision="0" />
-    <Item value="전체 작업 내역 트리 표시" revision="0" />
+    <Item value="전체 작업 기록 트리…" revision="0" />
+    <Item value="전체 작업 기록 트리 표시" revision="0" />
   </Enumeration>
   <Enumeration key="AttribSaveAttributes">
     <Item value="변경 적용" revision="0" />
@@ -303,8 +321,8 @@
     <Item value="10진수" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (Size: [[[b{size}]]])" revision="2" />
-    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (Size: [[[b{size}]]])" revision="2" />
+    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (크기: [[[b{size}]]])" revision="2" />
+    <Item value="범위: [ [[[b{from}]]] – [[[b{to}]]] ] (크기: [[[b{size}]]])" revision="2" />
   </Enumeration>
   <Enumeration key="PurgeModes">
     <Item value="실행 취소된 작업을 모두 삭제합니다. 다시 실행 명령을 실행할 수 없습니다." revision="0" />
@@ -340,12 +358,12 @@
     <Item value="갭" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureHistoryBrowsing">
-    <Item value="내역 검색" revision="0" />
-    <Item value="내역 검색 기능을 사용하면 변경 내역의 모든 작업으로 즉시 이동할 수 있습니다." revision="0" />
+    <Item value="기록 검색" revision="0" />
+    <Item value="기록 검색 기능을 사용하면 변경 기록의 모든 작업으로 즉시 이동할 수 있습니다." revision="0" />
   </Enumeration>
   <Enumeration key="FeatureHistoryPurge">
-    <Item value="내역 정리" revision="0" />
-    <Item value="내역 정리 기능을 사용하면 전체 변경 내역 또는 일부 변경 내역을 정리할 수 있으므로 변경 내역의 복잡성과 크기를 유연하게 제어할 수 있습니다." revision="0" />
+    <Item value="기록 정리" revision="0" />
+    <Item value="기록 정리 기능을 사용하면 전체 변경 기록 또는 일부 변경 기록을 정리할 수 있으므로 변경 기록의 복잡성과 크기를 유연하게 제어할 수 있습니다." revision="0" />
   </Enumeration>
   <Enumeration key="DescriptiveStatistics">
     <Item value="의미" revision="0" />
@@ -387,7 +405,7 @@
   </Enumeration>
   <Enumeration key="FeatureColoringUnlim">
     <Item value="패턴 색상" revision="0" />
-    <Item value="패턴 색상 기능을 사용하여 패턴 강조를 구성할 수 있습니다. 패턴 수를 제한하지 않으려면 Professional Edition으로 업그레이드하십시오." revision="0" />
+    <Item value="패턴 색상 기능을 사용하여 패턴 강조를 구성할 수 있습니다. 패턴 수를 제한하지 않으려면 Professional Edition으로 업그레이드하세요." revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
     <Item value="모두 확인" revision="0" />
@@ -415,8 +433,8 @@
     <Item value="퍼센트" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHistory">
-    <Item value="내역(&amp;I)" revision="0" />
-    <Item value="내역 메뉴" revision="0" />
+    <Item value="기록(&amp;I)" revision="0" />
+    <Item value="기록 메뉴" revision="0" />
   </Enumeration>
   <Enumeration key="MenuPatternColoring">
     <Item value="패턴 색상(&amp;P)" revision="0" />
@@ -431,19 +449,19 @@
     <Item value="속성 메뉴" revision="0" />
   </Enumeration>
   <Enumeration key="FeatureBranches">
-    <Item value="내역 분기" revision="0" />
-    <Item value="내역 분기 기능을 사용하면 실행 취소된 작업을 다른 내역 분기에서 유지할 수 있습니다. 그런 다음 해당 분기로 전환하고 해당 분기에서 데이터를 복사하는 등의 작업을 수행할 수 있습니다." revision="0" />
+    <Item value="기록 분기" revision="0" />
+    <Item value="기록 분기 기능을 사용하면 실행 취소된 작업을 다른 기록 분기에서 유지할 수 있습니다. 그런 다음 해당 분기로 전환하고 해당 분기에서 데이터를 복사하는 등의 작업을 수행할 수 있습니다." revision="0" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="새 범위 규칙" revision="0" />
+    <Item value="범위 규칙 편집" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item value="" revision="0" />
+    <Item value="새 값 범위 규칙" revision="0" />
+    <Item value="새 값 범위 규칙 편집" revision="0" />
   </Enumeration>
   <Enumeration key="PatternRuleDlg">
-    <Item />
-    <Item />
+    <Item value="새 패턴 규칙" revision="0" />
+    <Item value="패턴 규칙 편집" revision="0" />
   </Enumeration>
 </Language>
