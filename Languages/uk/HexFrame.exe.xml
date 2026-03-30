@@ -188,8 +188,8 @@
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo пробний період" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Пробний режим. Всі функції продукту доступні." revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="Після закінчення пробного періоду продукт продовжить роботу в безкоштовному режимі. Вам будуть доступні всі функції безкоштовної версії." revision="1" />
-  <Message key="Upgrade Now…" value="Купити…" revision="1" />
-  <Message key="Compare Editions…" value="Порівняти редакції…" revision="1" />
+  <Message key="Trial. Upgrade Now" value="Купити…" revision="1" />
+  <Message key="Trial. Compare Editions" value="Порівняти редакції…" revision="1" />
   <Message key="Continue Trial" value="Продовжити пробу" revision="1" />
   <Message key="License Management and Upgrading" value="Управління ліцензіями та покупками" revision="1" />
   <Message key="Install License" value="Встановити ліцензію…" revision="0" />

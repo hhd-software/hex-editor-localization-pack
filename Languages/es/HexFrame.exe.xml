@@ -188,8 +188,8 @@
   <Message key="Hex Editor Neo Trial Period" value="Período de Prueba de Hex Editor Neo" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="El Hex Editor Neo está funcionando en Modo de Prueba. Todas las carcaterísticas están activas." revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="Después que termine el período de prueba, el Hex Editor Neo seguirá funcionando, pero, sólo algunas características estarán disponibles en la Edición Gratuita." revision="1" />
-  <Message key="Upgrade Now…" value="Mejorar ahora…" revision="1" />
-  <Message key="Compare Editions…" value="Comparar Ediciones…" revision="1" />
+  <Message key="Trial. Upgrade Now" value="Mejorar ahora…" revision="1" />
+  <Message key="Trial. Compare Editions" value="Comparar Ediciones…" revision="1" />
   <Message key="Continue Trial" value="Continuar con el perído de prueba" revision="1" />
   <Message key="License Management and Upgrading" value="Administración y mejoras de la Licencia" revision="1" />
   <Message key="Install License" value="Instalar Licencia…" revision="0" />

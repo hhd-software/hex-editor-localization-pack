@@ -188,8 +188,8 @@
   <Message key="Hex Editor Neo Trial Period" value="Hex Editor Neo 평가판 기간" revision="1" />
   <Message key="Hex Editor Neo is operating in Trial mode. All features are active." value="Hex Editor Neo가 평가판 모드에서 작동 중입니다. 모든 기능이 활성화되어 있습니다." revision="1" />
   <Message key="After the trial period is over, the Hex Editor Neo will remain functional, although, only features of the Free Edition will be available." value="평가판 사용 기간이 끝난 후에도 Hex Editor Neo는 계속 작동하지만 무료 에디션의 기능만 사용할 수 있습니다." revision="1" />
-  <Message key="Upgrade Now…" value="지금 업그레이드…" revision="1" />
-  <Message key="Compare Editions…" value="에디션 비교…" revision="1" />
+  <Message key="Trial. Upgrade Now" value="지금 업그레이드…" revision="1" />
+  <Message key="Trial. Compare Editions" value="에디션 비교…" revision="1" />
   <Message key="Continue Trial" value="평가판 계속" revision="1" />
   <Message key="License Management and Upgrading" value="라이선스 관리 및 업그레이드" revision="1" />
   <Message key="Install License" value="라이선스 설치..." revision="0" />
