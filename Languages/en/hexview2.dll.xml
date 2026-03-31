@@ -45,7 +45,15 @@
     <Item text="&amp;Save Selection…"/>
     <Item text="Save the current selection to a file"/>
   </Enumeration>
-  <Enumeration key="EditEditCell" description="Command: Edit.Edit Cell" revision="1">
+	<Enumeration key="SelectSetAnchor" description="Command: Select.">
+		<Item text="Set Selection Anchor"/>
+		<Item text="Mark selection start or end"/>
+	</Enumeration>
+    <Enumeration key="SelectAnchorToSel" description="Command: Select.">
+		<Item text="Anchor to Selection"/>
+		<Item text="Select range from stored anchor to current position"/>
+	</Enumeration>
+	<Enumeration key="EditEditCell" description="Command: Edit.Edit Cell" revision="1">
     <Item text="&amp;Edit Cell"/>
     <Item text="Edit the current cell"/>
   </Enumeration>
