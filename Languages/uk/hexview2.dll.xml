@@ -277,6 +277,14 @@
     <Item value="&amp;Зберегти виділення…" revision="1" />
     <Item value="Зберегти поточне виділення у файл" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Встановити прив'язку виділення" revision="0" />
+    <Item value="Позначити початок або кінець виділення" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="Від якоря до виділення" revision="0" />
+    <Item value="Вибрати діапазон від збереженої точки прив'язки до поточного положення" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="&amp;Редагувати комірку" revision="1" />
     <Item value="Редагувати поточну комірку" revision="1" />

@@ -277,6 +277,14 @@
     <Item value="&amp;Сохранить выделение" revision="1" />
     <Item value="Сохранить текущее выделение в файл" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Установить привязку выделения" revision="0" />
+    <Item value="Отметить начало или конец выделения" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="Якорь к выделению" revision="0" />
+    <Item value="Выбрать участок от сохраненной привязки до текущего положения" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="&amp;Править ячейку" revision="1" />
     <Item value="Править текущую ячейку" revision="1" />

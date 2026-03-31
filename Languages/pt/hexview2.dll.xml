@@ -277,6 +277,14 @@
     <Item value="&amp;Salvar Seleção…" revision="1" />
     <Item value="Salva a seleção atual para um arquivo" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Definir a âncora de seleção" revision="0" />
+    <Item value="Marcar o início ou o fim da seleção" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="Da âncora à seleção" revision="0" />
+    <Item value="Selecionar o intervalo entre o ponto de referência guardado e a posição atual" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="&amp;Editar Célula" revision="1" />
     <Item value="Edita a célula atual" revision="1" />

@@ -267,6 +267,14 @@
     <Item value="保存选择(&amp;S)…" revision="1" />
     <Item value="保存当前选择到一个文件中" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="编辑单元(&amp;E)" revision="1" />
     <Item value="编辑当前单元" revision="1" />

@@ -277,6 +277,14 @@
     <Item value="&amp;Zapisz wybór…" revision="1" />
     <Item value="Zapisz bieżący wybór do pliku" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Ustaw punkt odniesienia zaznaczenia" revision="0" />
+    <Item value="Zaznacz początek lub koniec zaznaczenia" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="Od kotwicy do wyboru" revision="0" />
+    <Item value="Wybierz zakres od zapisanej pozycji odniesienia do bieżącej pozycji" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="&amp;Edytuj komórkę" revision="1" />
     <Item value="Edytuj bieżącą komórkę" revision="1" />

@@ -277,6 +277,14 @@
     <Item value="Enregistrer la sélection…" revision="1" />
     <Item value="Enregistrer la sélection dans un fichier" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Définir l'ancrage de sélection" revision="0" />
+    <Item value="Marquer le début ou la fin de la sélection" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="De l'ancrage à la sélection" revision="0" />
+    <Item value="Sélectionner la plage comprise entre le point de repère enregistré et la position actuelle" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="Modifier la c&amp;ellule" revision="1" />
     <Item value="Modifier la cellule active" revision="1" />

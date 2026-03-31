@@ -277,6 +277,14 @@
     <Item value="Auswahl &amp;speichern…" revision="1" />
     <Item value="Speichert die aktuelle Auswahl in eine Datei" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Auswahlanker setzen" revision="0" />
+    <Item value="Markierungsanfang oder -ende" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="Vom Anker zur Auswahl" revision="0" />
+    <Item value="Bereich vom gespeicherten Ankerpunkt bis zur aktuellen Position auswählen" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="Zelle &amp;bearbeiten" revision="1" />
     <Item value="Bearbeitet die aktuelle Zelle" revision="1" />

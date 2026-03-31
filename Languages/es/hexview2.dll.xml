@@ -277,6 +277,14 @@
     <Item value="&amp;Guardar Selección…" revision="1" />
     <Item value="Guarda la selección actual en un archivo" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item value="Establecer el anclaje de selección" revision="0" />
+    <Item value="Marcar el inicio o el final de la selección" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item value="De Anchor a Selection" revision="0" />
+    <Item value="Seleccionar el intervalo desde el punto de referencia guardado hasta la posición actual" revision="0" />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="&amp;Editar Celda" revision="1" />
     <Item value="Edita la celda actual" revision="1" />

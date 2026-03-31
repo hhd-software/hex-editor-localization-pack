@@ -277,6 +277,14 @@
     <Item value="선택 항목 저장(&amp;A)" revision="1" />
     <Item value="현재 선택 항목을 파일에 저장" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="셀 편집(&amp;E)" revision="1" />
     <Item value="현재 셀 편집" revision="1" />

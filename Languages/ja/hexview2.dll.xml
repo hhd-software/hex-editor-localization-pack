@@ -277,6 +277,14 @@
     <Item value="選択範囲を保存(&amp;S)…" revision="1" />
     <Item value="現在の選択内容をファイルに保存" revision="1" />
   </Enumeration>
+  <Enumeration key="SelectSetAnchor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectAnchorToSel">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="セルの編集(&amp;E)" revision="1" />
     <Item value="現在のセルを編集" revision="1" />
