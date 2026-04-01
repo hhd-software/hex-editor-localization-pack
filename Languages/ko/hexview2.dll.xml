@@ -278,12 +278,12 @@
     <Item value="현재 선택 항목을 파일에 저장" revision="1" />
   </Enumeration>
   <Enumeration key="SelectSetAnchor">
-    <Item />
-    <Item />
+    <Item value="선택 앵커 설정" revision="0" />
+    <Item value="선택 시작 또는 종료 표시" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAnchorToSel">
-    <Item />
-    <Item />
+    <Item value="선택에 앵커" revision="0" />
+    <Item value="저장된 앵커에서 현재 위치까지의 범위 선택" revision="0" />
   </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="셀 편집(&amp;E)" revision="1" />
