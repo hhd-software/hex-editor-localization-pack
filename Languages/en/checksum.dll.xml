@@ -9,11 +9,12 @@
 		<Item text="Colon (':')"/>
 		<Item text="Semicolon (';')"/>
 	</Enumeration>
-	<Enumeration key="Algorithm groups" description="Algorithm group names. End with minus to hide group" revision="2">
+	<Enumeration key="Algorithm groups" description="Algorithm group names. End with minus to hide group" revision="3">
 		<Item text="Simple summators"/>
 		<Item text="More summators"/>
 		<Item text="Checksum"/>
 		<Item text="Fowler–Noll–Vo (FNV) Hashes" />
+		<Item optional="true" text="xxHash"/>
 		<Item text="Hashes"/>
 		<Item text="Signed sums-"/>
 	</Enumeration>
@@ -45,6 +46,7 @@
 	<Message key="FNV-1a 32-bit" description="Algorithm: FNV-1a 32-bit"/>
 	<Message key="FNV-1 64-bit" description="Algorithm: FNV-1 64-bit"/>
 	<Message key="FNV-1a 64-bit" description="Algorithm: FNV-1a 64-bit"/>
+	<Message key="xxHash3 (64-bit)" description="Algorithm: xxHash3 (64-bit)"/>
 
 	<Message key="Custom FNV" description="Algorithm: Custom FNV-1" value="Custom FNV-1"/>
 

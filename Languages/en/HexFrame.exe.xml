@@ -157,6 +157,14 @@
 		<Param name="code" format="ub016"/>
 	</Message>
 
+	<Message key="DiskCopyError" description="Volume/disk copy error" value="The following error occurred during disk/volume copy: [[[b{text} ({code})]]].\n\nData that could be read has been successfully written to the destination file.\n\nBad sectors map has been saved to {bad sectors map}.">
+		<Param name="text"/>
+		<Param name="code" format="ub016"/>
+		<Param name="bad sectors map"/>
+	</Message>
+
+	<Message key="BadSectorsFileHeader" description="Bad sectors map file header" value="# Bad Sectors Map\n# Bad range start (hex), bad range size (hex)\n"/>
+
 	<Message key="SaveErrors" description="Save error message title" revision="1" value="The following errors occurred during saving:\r\n{errors}">
 		<Param name="errors"/>
 	</Message>
