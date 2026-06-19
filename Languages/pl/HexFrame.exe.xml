@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Kontynuuj w trybie pełnym" revision="0" />
   <Message key="SavePastePrompt" value="Masz otwarte inne pliki, które wykorzystują fragmenty tego pliku. Nie możesz zapisać zmian wprowadzonych w tym dokumencie, dopóki nie zamkniesz tych plików. Czy chcesz zapisać plik pod inną nazwą?" revision="1" />
   <Message key="SaveError" value="Błąd podczas zapisywania pliku: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="Podczas kopiowania dysku/woluminu wystąpił następujący błąd: [[[b{text} ({code})]]].\n\nDane, które można było odczytać, zostały pomyślnie zapisane w pliku docelowym.\n\nMapa uszkodzonych sektorów została zapisana w pliku {bad sectors map}." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Mapa uszkodzonych sektorów" revision="0" />
   <Message key="SaveErrors" value="Podczas zapisywania wystąpiły następujące błędy:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Obecny dokument uległ zmianie. Czy chcesz go zapisać?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Wszystkie pliki|*|" revision="1" />

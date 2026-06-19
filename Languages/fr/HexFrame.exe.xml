@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Continuer en mode complet" revision="0" />
   <Message key="SavePastePrompt" value="Vous avez d'autres fichiers ouverts qui utilisent des parties de ce fichier. Vous ne pouvez pas enregistrer les modifications apportées à ce document jusqu'à ce que vous fermiez ces fichiers. Souhaitez-vous enregistrer ce fichier sous un autre nom?" revision="1" />
   <Message key="SaveError" value="Erreur lors de l’enregistrement du fichier: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="L'erreur suivante s'est produite lors de la copie du disque/volume : [[[b{text} ({code})]]].\n\nLes données qui pouvaient être lues ont été enregistrées avec succès dans le fichier de destination.\n\nLa carte des secteurs défectueux a été enregistrée dans {bad sectors map}." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Carte des secteurs défectueux" revision="0" />
   <Message key="SaveErrors" value="Les erreurs suivantes se sont s'est produites lors de l’enregistrement du fichier:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Le document actuel a changé. Voulez-vous le sauvegarder?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Toutes Fichiers|*|" revision="1" />

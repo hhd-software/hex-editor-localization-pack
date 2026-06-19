@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Continuar en modo completo" revision="0" />
   <Message key="SavePastePrompt" value="Tiene otros archivos abiertos que están utilizando partes de este archivo. No puede guardar los cambios hechos a este documento hasta que cierre estos archivos. ¿Quiere guardar este archivo con otro nombre?" revision="1" />
   <Message key="SaveError" value="Error al guardar el archivo: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="Se ha producido el siguiente error durante la copia del disco o volumen: [[[b{text} ({code})]]].\n\nLos datos que se podían leer se han escrito correctamente en el archivo de destino.\n\nEl mapa de sectores defectuosos se ha guardado en {bad sectors map}." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Mapa de sectores defectuosos" revision="0" />
   <Message key="SaveErrors" value="Los siguientes errores ocurrieron al guardar:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="El documento actual ha cambiado. ¿Quiere guardarlo?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Todos los archivos|*|" revision="1" />

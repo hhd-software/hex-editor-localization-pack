@@ -28,6 +28,7 @@
   <Message key="FNV-1a 32-bit" value="FNV-1a 32-бит" revision="0" />
   <Message key="FNV-1 64-bit" value="FNV-1 64-бит" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64-бит" revision="0" />
+  <Message key="xxHash3 (64-bit)" value="xxHash3 (64-бит)" revision="0" />
   <Message key="Custom FNV" value="Настраиваемый FNV-1" revision="0" />
   <Message key="Please wait until all pending operations are completed." value="Пожалуйста, дождитесь окончания выполняемых операций." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстовые файлы с табуляцией-разделителем (*.tsv)|*.tsv|Все файлы|*||" revision="1" />
@@ -72,12 +73,13 @@
     <Item value="Точка с запятой" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Простые суммы" revision="2" />
-    <Item value="Дополнительные суммы" revision="2" />
-    <Item value="Контрольные суммы" revision="2" />
-    <Item value="Хэши Fowler–Noll–Vo (FNV)" revision="2" />
-    <Item value="Хэши" revision="2" />
-    <Item value="Знаковые суммы-" revision="2" />
+    <Item value="Простые суммы" revision="3" />
+    <Item value="Дополнительные суммы" revision="3" />
+    <Item value="Контрольные суммы" revision="3" />
+    <Item value="Хэши Fowler–Noll–Vo (FNV)" revision="3" />
+    <Item value="" revision="2" />
+    <Item value="Хэши" revision="3" />
+    <Item value="Знаковые суммы-" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Контрольные суммы" revision="0" />

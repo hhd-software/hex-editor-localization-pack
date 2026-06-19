@@ -28,6 +28,7 @@
   <Message key="FNV-1a 32-bit" value="FNV-1a 32 біти" revision="0" />
   <Message key="FNV-1 64-bit" value="FNV-1 64 біти" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64 біти" revision="0" />
+  <Message key="xxHash3 (64-bit)" value="xxHash3 (64 біти)" revision="0" />
   <Message key="Custom FNV" value="Настроювана FNV-1" revision="0" />
   <Message key="Please wait until all pending operations are completed." value="Будь ласка, дочекайтеся закінчення виконуваних операцій." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Текстові файли з табуляцією-роздільником (*.tsv)|*.tsv|Всі файли|*||" revision="1" />
@@ -72,12 +73,13 @@
     <Item value="Крапка з комою (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Прості суми" revision="2" />
-    <Item value="Додаткові суми" revision="2" />
-    <Item value="Контрольні суми" revision="2" />
-    <Item value="Хеши Fowler–Noll–Vo (FNV)" revision="2" />
-    <Item value="Хеши" revision="2" />
-    <Item value="Знакові суми" revision="2" />
+    <Item value="Прості суми" revision="3" />
+    <Item value="Додаткові суми" revision="3" />
+    <Item value="Контрольні суми" revision="3" />
+    <Item value="Хеши Fowler–Noll–Vo (FNV)" revision="3" />
+    <Item value="" revision="2" />
+    <Item value="Хеши" revision="3" />
+    <Item value="Знакові суми" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Контрольні суми" revision="0" />

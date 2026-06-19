@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Продовжити в режимі повного доступу" revision="0" />
   <Message key="SavePastePrompt" value="Частини цього файлу використовуються в інших документах. Ви не можете зберегти зміни у файлі, поки ці інші документи не закриті. Зберегти під іншим ім'ям?" revision="1" />
   <Message key="SaveError" value="Помилка при збереженні файлу: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="Під час копіювання диска/тома сталася така помилка: [[[b{text} ({code})]]].\n\nДані, які можна було прочитати, успішно записано у файл призначення.\n\nКарта пошкоджених секторів збережена у файлі {bad sectors map}." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Карта пошкоджених секторів" revision="0" />
   <Message key="SaveErrors" value="Під час збереження файлу виникли помилки:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Документ був змінений. Зберегти зміни?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Всі файли*|" revision="1" />

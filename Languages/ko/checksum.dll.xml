@@ -72,12 +72,13 @@
     <Item value="세미 콜론 (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="단순 가산기" revision="2" />
-    <Item value="추가 가산기" revision="2" />
-    <Item value="체크섬" revision="2" />
-    <Item value="파울러-놀-보 (FNV) 해시" revision="2" />
-    <Item value="해시" revision="2" />
-    <Item value="서명된 합계-" revision="2" />
+    <Item value="단순 가산기" revision="3" />
+    <Item value="추가 가산기" revision="3" />
+    <Item value="체크섬" revision="3" />
+    <Item value="파울러-놀-보 (FNV) 해시" revision="3" />
+    <Item value="" revision="2" />
+    <Item value="해시" revision="3" />
+    <Item value="서명된 합계-" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="체크섬(&amp;C)" revision="0" />

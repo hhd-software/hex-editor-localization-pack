@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Fortfahren in vollen Modus" revision="0" />
   <Message key="SavePastePrompt" value="Sie haben andere Dateien geöffnet welche Teile dieser Datei benutzen. Sie können Ihre Änderungen in diesem Dokument nicht speichern solange Sie die anderen Dateien nicht geschlossen haben. Wollen Sie die Datei unter einem anderen Namen speichern?" revision="1" />
   <Message key="SaveError" value="Fehler bei Sicherung Datei: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="Beim Kopieren der Festplatte/des Volumes ist folgender Fehler aufgetreten: [[[b{text} ({code})]]].\n\nDie Daten, die gelesen werden konnten, wurden erfolgreich in die Zieldatei geschrieben.\n\nDie Karte der fehlerhaften Sektoren wurde unter {bad sectors map} gespeichert." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Karte der fehlerhaften Sektoren" revision="0" />
   <Message key="SaveErrors" value="Folgende Fehler traten auf bei der Sicherung:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Das aktuelle Dokument wurde verändert. Wollen Sie es speichern?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Alle Dateien|*|" revision="1" />
