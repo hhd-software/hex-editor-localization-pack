@@ -283,9 +283,9 @@
   <Message key="Settings Page" value="Paramètres" revision="0" />
   <Message key="Settings Storage Location" value="Paramètres emplacement de stockage" revision="0" />
   <Message key="Settings Management" value="Gestion des paramètres" revision="0" />
-  <Message key="Export Settings…" value="Exporter Paramètres …" revision="0" />
-  <Message key="Import Settings…" value="Importer Paramètres…" revision="0" />
-  <Message key="Reset Settings…" value="Réinitialiser les paramètres…" revision="0" />
+  <Message key="Export Settings" value="Exporter Paramètres…" revision="0" />
+  <Message key="Import Settings" value="Importer Paramètres…" revision="0" />
+  <Message key="Reset Settings" value="Réinitialiser les paramètres…" revision="0" />
   <Message key="Ask to import settings" value="Le fichier spécifié existe déjà. Voulez-vous importer son contenu maintenant? Si vous cliquez sur Non, le fichier sera remplacé par les paramètres actuels." revision="0" />
   <Message key="Ask to reset settings" value="L'application doit être redémarrée pour réinitialiser les paramètres. Voulez-vous continuer?" revision="0" />
   <Message key="Ask to restart" value="Il est recommandé de redémarrer l'application pour appliquer les paramètres importés. Voulez-vous redémarrer maintenant?" revision="0" />

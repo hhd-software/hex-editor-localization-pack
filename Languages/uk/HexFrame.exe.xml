@@ -283,9 +283,9 @@
   <Message key="Settings Page" value="Налаштування" revision="0" />
   <Message key="Settings Storage Location" value="Зберігання налаштувань" revision="0" />
   <Message key="Settings Management" value="Керування налаштуваннями" revision="0" />
-  <Message key="Export Settings…" value="Експорт налаштувань…" revision="0" />
-  <Message key="Import Settings…" value="Імпорт налаштувань…" revision="0" />
-  <Message key="Reset Settings…" value="Скидання налаштувань…" revision="0" />
+  <Message key="Export Settings" value="Експорт налаштувань…" revision="0" />
+  <Message key="Import Settings" value="Імпорт налаштувань…" revision="0" />
+  <Message key="Reset Settings" value="Скидання налаштувань…" revision="0" />
   <Message key="Ask to import settings" value="Зазначений файл вже існує. Ви хочете імпортувати його зараз? Якщо виберіть &quot;Ні&quot;, він буде перезаписаний поточними налаштуваннями." revision="0" />
   <Message key="Ask to reset settings" value="Програма має бути перезапущена для скидання налаштувань. Ви хочете продовжити?" revision="0" />
   <Message key="Ask to restart" value="Рекомендується перезапустити програму для прийняття завантажених налаштувань. Перезапустити зараз?" revision="0" />

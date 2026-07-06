@@ -274,9 +274,9 @@
   <Message key="Settings Page" value="设置" revision="0" />
   <Message key="Settings Storage Location" value="设置存储位置" revision="0" />
   <Message key="Settings Management" value="设置管理" revision="0" />
-  <Message key="Export Settings…" value="导出设置.." revision="0" />
-  <Message key="Import Settings…" value="导入设置…" revision="0" />
-  <Message key="Reset Settings…" value="复位设置…" revision="0" />
+  <Message key="Export Settings" value="导出设置…" revision="0" />
+  <Message key="Import Settings" value="导入设置…" revision="0" />
+  <Message key="Reset Settings" value="复位设置…" revision="0" />
   <Message key="Ask to import settings" value="指定文件已经存在。你要想立刻导入它的内容吗？点击是，文件会被当前设置覆盖。" revision="0" />
   <Message key="Ask to reset settings" value="必须重启程序来复位设置。你要想继续？" revision="0" />
   <Message key="Ask to restart" value="推荐重启程序来启用导入的设置。你要想想在重启吗？" revision="0" />

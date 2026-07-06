@@ -281,9 +281,9 @@
   <Message key="Settings Page" value="設定" revision="0" />
   <Message key="Settings Storage Location" value="設定の保存場所" revision="0" />
   <Message key="Settings Management" value="設定の管理" revision="0" />
-  <Message key="Export Settings…" value="設定のエクスポート…" revision="0" />
-  <Message key="Import Settings…" value="設定のインポート…" revision="0" />
-  <Message key="Reset Settings…" value="設定をリセット…" revision="0" />
+  <Message key="Export Settings" value="設定のエクスポート…" revision="0" />
+  <Message key="Import Settings" value="設定のインポート…" revision="0" />
+  <Message key="Reset Settings" value="設定をリセット…" revision="0" />
   <Message key="Ask to import settings" value="指定されたファイルはすでに存在します。 その内容を今すぐインポートしますか? 「いいえ」をクリックすると、ファイルは現在の設定で上書きされます。" revision="0" />
   <Message key="Ask to reset settings" value="設定をリセットするにはアプリケーションを再起動する必要があります。 続行しますか？" revision="0" />
   <Message key="Ask to restart" value="インポートした設定を適用するには、アプリケーションを再起動することをお勧めします。 今すぐ再起動しますか?" revision="0" />

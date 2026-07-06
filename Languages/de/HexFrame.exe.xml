@@ -283,9 +283,9 @@
   <Message key="Settings Page" value="Einstellungen" revision="0" />
   <Message key="Settings Storage Location" value="Speicherort der Einstellungen" revision="0" />
   <Message key="Settings Management" value="Verwaltung der Einstellungen" revision="0" />
-  <Message key="Export Settings…" value="Einstellungen exportieren…" revision="0" />
-  <Message key="Import Settings…" value="Einstellungen importieren…" revision="0" />
-  <Message key="Reset Settings…" value="Einstellungen zurücksetzen…" revision="0" />
+  <Message key="Export Settings" value="Einstellungen exportieren…" revision="0" />
+  <Message key="Import Settings" value="Einstellungen importieren…" revision="0" />
+  <Message key="Reset Settings" value="Einstellungen zurücksetzen…" revision="0" />
   <Message key="Ask to import settings" value="Ausgewählte Datei existiert bereits. Wollen Sie ihren Inhalt jetzt importieren? Wenn Sie NEIN anklicken wird die Datei mit den aktuellen Einstellungen überschrieben." revision="0" />
   <Message key="Ask to reset settings" value="Die Anwendung muss neu gestartet werden, um die Einstellungen zurückzusetzen. Wollen Sie fortfahren?" revision="0" />
   <Message key="Ask to restart" value="Es empfiehlt sich die Anwendung neu zu starten, um die importierten Einstellungen anzuwenden. Wollen Sie jetzt neu starten?" revision="0" />

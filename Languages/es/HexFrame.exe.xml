@@ -283,9 +283,9 @@
   <Message key="Settings Page" value="Configuración" revision="0" />
   <Message key="Settings Storage Location" value="Dirección de Almacenamiento de la Configuración" revision="0" />
   <Message key="Settings Management" value="Administración de Configuraciones" revision="0" />
-  <Message key="Export Settings…" value="Exportar Configuración…" revision="0" />
-  <Message key="Import Settings…" value="Importar COnfiguración…" revision="0" />
-  <Message key="Reset Settings…" value="Reiniciar Configuración…" revision="0" />
+  <Message key="Export Settings" value="Exportar Configuración…" revision="0" />
+  <Message key="Import Settings" value="Importar COnfiguración…" revision="0" />
+  <Message key="Reset Settings" value="Reiniciar Configuración…" revision="0" />
   <Message key="Ask to import settings" value="El archivo especificado ya existe. ¿Quiere importar su contenido ahora? Si hace click en NO, el archivo será sobreescrito con la configuración actual." revision="0" />
   <Message key="Ask to reset settings" value="El programa necesita reiniciarse para actualizar la configuración. ¿Quiere continuar?" revision="0" />
   <Message key="Ask to restart" value="Se recomienda reiniciar el programa para aplicar la configuración importada. ¿Quiere reiniciarlo ahora?" revision="0" />

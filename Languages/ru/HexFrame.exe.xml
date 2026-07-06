@@ -283,9 +283,9 @@
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Хранение настроек" revision="0" />
   <Message key="Settings Management" value="Управление настройками" revision="0" />
-  <Message key="Export Settings…" value="Экспорт настроек…" revision="0" />
-  <Message key="Import Settings…" value="Импорт настроек…" revision="0" />
-  <Message key="Reset Settings…" value="Сброс настроек…" revision="0" />
+  <Message key="Export Settings" value="Экспорт настроек…" revision="0" />
+  <Message key="Import Settings" value="Импорт настроек…" revision="0" />
+  <Message key="Reset Settings" value="Сброс настроек…" revision="0" />
   <Message key="Ask to import settings" value="Указанный файл уже существует. Вы хотите импортировать его сейчас? Если Вы выберите &quot;Нет&quot;, он будет перезаписан текущими настройками." revision="0" />
   <Message key="Ask to reset settings" value="Приложение должно быть перезапущено для сброса настроек. Вы хотите продолжить?" revision="0" />
   <Message key="Ask to restart" value="Рекомендуется перезапустить приложение для принятия загруженных настроек. Перезапустить сейчас?" revision="0" />
