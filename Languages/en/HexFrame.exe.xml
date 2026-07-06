@@ -1131,9 +1131,9 @@
 	</Enumeration>
 
 	<Message key="Settings Management" description="Control group: Settings Management"/>
-	<Message key="Export Settings…" description="Button: Export Settings…"/>
-	<Message key="Import Settings…" description="Button: Import Settings…"/>
-	<Message key="Reset Settings…" description="Button: Reset Settings…"/>
+	<Message key="Export Settings" description="Button: Export Settings…"/>
+	<Message key="Import Settings" description="Button: Import Settings…"/>
+	<Message key="Reset Settings" description="Button: Reset Settings…"/>
 
 	<Message key="Ask to import settings" description="Import settings prompt" value="Specified file already exists. Do you want to import its contents now? If you click No, file will be overwritten with current settings."/>
 
