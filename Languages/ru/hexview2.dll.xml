@@ -196,7 +196,7 @@
   <Message key="Clear Cache" value="Очистить кэш" revision="0" />
   <Message key="Layout settings" value="Настройки редактора" revision="0" />
   <Message key="Encoding settings" value="Последние использованные кодировки" revision="0" />
-  <Message key="ViewSettingsDb settings" value="Параметры редактора по-умолчанию" revision="0" />
+  <Message key="ViewSettingsDb settings" value="Параметры редактора по умолчанию" revision="0" />
   <Message key="All documents" value="Все документы" revision="0" />
   <Message key="New Pattern" value="Новый шаблон" revision="0" />
   <Message key="Enter new file pattern regular expression:" value="Введите регулярное выражение для нового файла:" revision="0" />

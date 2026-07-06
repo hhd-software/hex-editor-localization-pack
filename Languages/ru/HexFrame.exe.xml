@@ -332,7 +332,7 @@
   <Message key="Unsupported clipboard format" value="Неподдерживаемый формат в буфере обмена" revision="0" />
   <Message key="Requested clipboard format is not available" value="Запрашиваемый формат буфера обмена недоступен" revision="0" />
   <Message key="GenericError" value="Ошибка выполнения операции: {text}{has_code?} ({code}){?has_code}" revision="0" />
-  <Message key="clr.default_colors" value="Цвета по-умолчанию" revision="0" />
+  <Message key="clr.default_colors" value="Цвета по умолчанию" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
   <Message key="clr.default_colors.control_background" value="Фон окон" revision="0" />
   <Message key="clr.default_colors.text" value="Текст/рисунок" revision="0" />
@@ -435,7 +435,7 @@
   <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
   <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
   <Message key="Sample Text" value="Образец" revision="0" />
-  <Message key="Default" value="По-умолчанию" revision="0" />
+  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="clr.balloon" value="Цвета окон уведомлений" revision="0" />
   <Message key="clr.balloon.balloon.fill" value="Цвет фона" revision="0" />
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
@@ -945,7 +945,7 @@
   </Enumeration>
   <Enumeration key="Registry">
     <Item value="Реестр" revision="0" />
-    <Item value="Пользовательский ключ в системном реестре. Значение по-умолчанию" revision="0" />
+    <Item value="Пользовательский ключ в системном реестре. Значение по умолчанию" revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
     <Item value="Портабельный режим" revision="0" />
