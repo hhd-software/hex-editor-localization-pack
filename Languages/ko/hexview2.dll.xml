@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="정보 상자 윤곽선" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="정보 상자 강조" revision="0" />
   <Message key="clr.colors.Wave" value="필드 강조" revision="0" />
+  <Message key="clr.colors.Error.fill" value="오류 채우기" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="오류 윤곽선" revision="0" />
+  <Message key="clr.colors.Error.text" value="오류 텍스트" revision="0" />
   <Message key="toolbar.Selection" value="선택 항목" revision="0" />
   <Message key="Info pane header" value="정보 창" revision="0" />
   <Enumeration key="SelectAll">

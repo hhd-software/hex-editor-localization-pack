@@ -28,6 +28,7 @@
   <Message key="FNV-1a 32-bit" value="FNV-1a 32비트" revision="0" />
   <Message key="FNV-1 64-bit" value="FNV-1 64비트" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64비트" revision="0" />
+  <Message key="xxHash3 (64-bit)" value="xxHash3 (64비트)" revision="0" />
   <Message key="Custom FNV" value="사용자 지정 FNV-1" revision="0" />
   <Message key="Please wait until all pending operations are completed." value="보류 중인 모든 작업이 완료될 때까지 기다려 주세요." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="탭으로 구분된 텍스트 파일 (*.tsv)|*.tsv|모든 파일|*|" revision="1" />
@@ -72,12 +73,13 @@
     <Item value="세미 콜론 (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="단순 가산기" revision="2" />
-    <Item value="추가 가산기" revision="2" />
-    <Item value="체크섬" revision="2" />
-    <Item value="파울러-놀-보 (FNV) 해시" revision="2" />
-    <Item value="해시" revision="2" />
-    <Item value="서명된 합계-" revision="2" />
+    <Item value="단순 가산기" revision="3" />
+    <Item value="추가 가산기" revision="3" />
+    <Item value="체크섬" revision="3" />
+    <Item value="파울러-놀-보 (FNV) 해시" revision="3" />
+    <Item value="xx해시" revision="3" />
+    <Item value="해시" revision="3" />
+    <Item value="서명된 합계-" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="체크섬(&amp;C)" revision="0" />
