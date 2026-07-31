@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="情報ボックスのアウトライン" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="情報ボックスのハイライト" revision="0" />
   <Message key="clr.colors.Wave" value="フィールドのハイライト" revision="0" />
+  <Message key="clr.colors.Error.fill" value="エラーの塗りつぶし" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="エラーのアウトライン" revision="0" />
+  <Message key="clr.colors.Error.text" value="エラーのテキスト" revision="0" />
   <Message key="toolbar.Selection" value="選択" revision="0" />
   <Message key="Info pane header" value="情報ペイン" revision="0" />
   <Enumeration key="SelectAll">
@@ -278,12 +281,12 @@
     <Item value="現在の選択内容をファイルに保存" revision="1" />
   </Enumeration>
   <Enumeration key="SelectSetAnchor">
-    <Item />
-    <Item />
+    <Item value="選択アンカーの設定" revision="0" />
+    <Item value="選択範囲の開始位置または終了位置をマーク" revision="0" />
   </Enumeration>
   <Enumeration key="SelectAnchorToSel">
-    <Item />
-    <Item />
+    <Item value="選択範囲にアンカーを設定" revision="0" />
+    <Item value="保存済みのアンカーから現在の位置までの範囲を選択" revision="0" />
   </Enumeration>
   <Enumeration key="EditEditCell">
     <Item value="セルの編集(&amp;E)" revision="1" />
