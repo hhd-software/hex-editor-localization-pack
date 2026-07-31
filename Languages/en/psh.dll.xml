@@ -253,7 +253,7 @@
 	  <Param name="ignore" format="?"/>
   </Message>
 
-	<Message key="WildcardPattern" description="Wildcard pattern template in a list" value="&#x2731;: {ignore?}i: {?ignore}[[[b{pattern}]]] ({codepage})">
+	<Message key="WildcardPattern" description="Wildcard pattern template in a list" value="&#x2731;: {ignore?}i: {?ignore}[[[b{pattern}]]] ({codepage})" optional="true">
 		<Param name="pattern"/>
 		<Param name="codepage"/>
 		<Param name="ignore" format="?"/>

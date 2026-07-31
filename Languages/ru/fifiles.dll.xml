@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="Открытие большого числа документов может сильно замедлить компьютер. Продолжение этой операции не рекомендуется. Хотите отменить операцию?" revision="1" />
+  <Message key="Opening too many documents" value="Открытие большого числа документов может сильно замедлить компьютер. Продолжение этой операции не рекомендуется. Хотите отменить операцию?" revision="1" />
   <Message key="Warning" value="Предупреждение" revision="1" />
   <Message key="Error" value="Ошибка" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} включений)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{{occurrences}]]] включений)" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Ошибка {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="Неправильная папка или ошибка в синтаксисе маски." revision="1" />
   <Message key="Invalid folder list syntax." value="Неправильный синтаксис списка папок." revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="Уведомления" revision="1" />
   <Message key="Find in Files" value="Поиск по файлам" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Хотите отменить текущую операцию?" revision="1" />
-  <Message key="Operation cancelled." value="Операция отменена." revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#Операция отменена.]]]" revision="2" />
   <Message key="Replace with:" value="Заменить на:" revision="1" />
-  <Message key="Progress message" value="Выполнено {percent} %. Проверено {processed_files} из {total_files}{unfinished?}(…){?unfinished} файлов в {total_folders} папках. {matched} файлов найдено. Обработано {processed_size} из {total_size}." revision="1" />
+  <Message key="Progress message" value="Выполнено [[[b{percent}]]] %. Проверено [[[b{processed_files}]]] из [[[b{total_files}{unfinished?}(…){?unfinished}]]] файлов в [[[b{total_folders}]]] папках. [[[b{matched}]]] файлов найдено. Обработано [[[b{processed_size}]]] из [[[b{total_size}]]]." revision="2" />
   <Message key="ReplaceNotification" value="Замена по файлам" revision="1" />
   <Message key="TextFilesFilterString" value="Текстовые файлы|*.txt|" revision="0" />
   <Message key="Exporting" value="Экспорт" revision="0" />

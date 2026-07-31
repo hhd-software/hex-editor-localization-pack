@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="L’ouverture d’un trop grand nombre de documents peut conduire à des performances très diminué. Il n'est donc pas conseillé de poursuivre l'opération en cours. Voulez-vous annuler l'opération?" revision="1" />
+  <Message key="Opening too many documents" value="L’ouverture d’un trop grand nombre de documents peut conduire à des performances très diminué. Il n'est donc pas conseillé de poursuivre l'opération en cours. Voulez-vous annuler l'opération?" revision="1" />
   <Message key="Warning" value="Attention" revision="1" />
   <Message key="Error" value="Erreur" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} L’occurrences" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{{occurrences}]]] L’occurrences" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Erreur {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="Répertoire Invalide ou syntaxe du masque incorrect." revision="1" />
   <Message key="Invalid folder list syntax." value="Liste de Répertoire invalides." revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="Notifications" revision="1" />
   <Message key="Find in Files" value="Rechercher dans les Fichiers" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Voulez-vous vraiment annuler cette opération?" revision="1" />
-  <Message key="Operation cancelled." value="Operation annulé." revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#Operation annulé.]]]" revision="2" />
   <Message key="Replace with:" value="Remplacer Par:" revision="1" />
-  <Message key="Progress message" value="{percent} % complété. {processed_files} des {total_files}{unfinished?}(…){?unfinished} fichier(s) dans {total_folders} répertoire(s) ont été vérifié. {matched} Fichier(s) qui correspondent(s) ont été trouvé. {processed_size} de {total_size} traité." revision="1" />
+  <Message key="Progress message" value="[[[b{percent}]]] % complété. [[[b{processed_files}]]] des [[[b{total_files}{unfinished?}(…){?unfinished}]]] fichier(s) dans [[[b{total_folders}]]] répertoire(s) ont été vérifié. [[[b{matched}]]] Fichier(s) qui correspondent(s) ont été trouvé. [[[b{processed_size}]]] de [[[b{total_size}]]] traité." revision="2" />
   <Message key="ReplaceNotification" value="Remplacer dans les Fichiers" revision="1" />
   <Message key="TextFilesFilterString" value="Fichiers texte|*.txt|" revision="0" />
   <Message key="Exporting" value="Exportation" revision="0" />

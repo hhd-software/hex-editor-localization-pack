@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="너무 많은 문서를 열면 성능이 매우 저하될 수 있습니다. 따라서 현재 작업을 계속하지 않는 것이 좋습니다. 작업을 취소하시겠습니까?" revision="1" />
+  <Message key="Opening too many documents" value="너무 많은 문서를 열면 성능이 매우 저하될 수 있습니다. 따라서 현재 작업을 계속하지 않는 것이 좋습니다. 작업을 취소하시겠습니까?" revision="1" />
   <Message key="Warning" value="경고" revision="1" />
   <Message key="Error" value="오류" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} occurrences)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{{occurrences}]]] occurrences)" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="오류 {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="폴더 또는 마스크 구문이 잘못되었습니다." revision="1" />
   <Message key="Invalid folder list syntax." value="폴더 목록 구문이 잘못되었습니다." revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="알림" revision="1" />
   <Message key="Find in Files" value="파일에서 찾기" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="현재 작업을 취소하시겠습니까?" revision="1" />
-  <Message key="Operation cancelled." value="작업이 취소되었습니다." revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#작업이 취소되었습니다.]]]" revision="2" />
   <Message key="Replace with:" value="다음으로 바꾸기:" revision="1" />
-  <Message key="Progress message" value="{percent} %가 완료되었습니다. {total_folders}개 폴더의 {total_files}{unfinished?}(…){?unfinished}개 파일 중 {processed_files}개가 확인되었습니다. {matched}개의 일치하는 파일을 찾았습니다. {total_size}개 중 {processed_size}개가 처리되었습니다." revision="1" />
+  <Message key="Progress message" value="[[[b{percent}]]] %가 완료되었습니다. [[[b{total_folders}]]]개 폴더의 [[[b{total_files}{unfinished?}(…){?unfinished}]]]개 파일 중 [[[b{processed_files}]]]개가 확인되었습니다. [[[b{matched}]]]개의 일치하는 파일을 찾았습니다. [[[b{total_size}]]]개 중 [[[b{processed_size}]]]개가 처리되었습니다." revision="2" />
   <Message key="ReplaceNotification" value="파일에서 바꾸기" revision="1" />
   <Message key="TextFilesFilterString" value="텍스트 파일|*.txt|" revision="0" />
   <Message key="Exporting" value="내보내기" revision="0" />

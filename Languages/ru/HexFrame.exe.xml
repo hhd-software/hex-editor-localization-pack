@@ -151,7 +151,6 @@
   <Message key="MB" value="МБ" revision="1" />
   <Message key="GB" value="ГБ" revision="1" />
   <Message key="TB" value="ТБ" revision="0" />
-  <Message key="Regular expression" value="Регулярное выражение" revision="1" />
   <Message key="Sub-match:" value="Подгруппа:" revision="1" />
   <Message key="Type:" value="Тип:" revision="1" />
   <Message key="Find what:" value="Найти:" revision="1" />
@@ -659,6 +658,12 @@
     <Item value="Юникод" revision="1" />
     <Item value="Сжатый том" revision="1" />
     <Item value="Квоты" revision="1" />
+  </Enumeration>
+  <Enumeration key="String search mode">
+    <Item />
+    <Item />
+    <Item />
+    <Item value="Регулярное выражение" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">
     <Item value="Строка" revision="1" />

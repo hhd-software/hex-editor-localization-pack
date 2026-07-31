@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="開くドキュメントが多すぎると、パフォーマンスが非常に低下する可能性があります。 したがって、現在の操作を継続することはお勧めできません。 操作をキャンセルしますか?" revision="1" />
+  <Message key="Opening too many documents" value="開くドキュメントが多すぎると、パフォーマンスが非常に低下する可能性があります。 したがって、現在の操作を継続することはお勧めできません。 操作をキャンセルしますか?" revision="1" />
   <Message key="Warning" value="警告" revision="1" />
   <Message key="Error" value="エラー" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} 発生)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{{occurrences}]]] 発生)" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="エラー {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="フォルダーまたはマスクの構文が無効です。" revision="1" />
   <Message key="Invalid folder list syntax." value="フォルダー リストの構文が無効です。" revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="通知" revision="1" />
   <Message key="Find in Files" value="ファイル内検索" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="現在の操作をキャンセルしますか?" revision="1" />
-  <Message key="Operation cancelled." value="操作がキャンセルされました。" revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#操作がキャンセルされました。]]]" revision="2" />
   <Message key="Replace with:" value="置き換え :" revision="1" />
-  <Message key="Progress message" value="{percent} % 完了。 {processed_files} of {total_files}{unfinished?}(…){?unfinished} files in {total_folders} folders have been checked. {matched} matched file(s) found. {processed_size} of {total_size} processed." revision="1" />
+  <Message key="Progress message" value="[[[b{percent}]]] % 完了。 [[[b{processed_files}]]] of [[[b{total_files}{unfinished?}(…){?unfinished}]]] files in [[[b{total_folders}]]] folders have been checked. [[[b{matched}]]] matched file(s) found. [[[b{processed_size}]]] of [[[b{total_size}]]] processed." revision="2" />
   <Message key="ReplaceNotification" value="ファイル内置き換え" revision="1" />
   <Message key="TextFilesFilterString" value="テキストファイル|*.txt|" revision="0" />
   <Message key="Exporting" value="エクスポート中" revision="0" />

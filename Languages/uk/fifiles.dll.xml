@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="Відкриття великої кількості документів може значно уповільнити комп'ютер. Продовження цієї операції не рекомендується. Хочете скасувати операцію?" revision="1" />
+  <Message key="Opening too many documents" value="Відкриття великої кількості документів може значно уповільнити комп'ютер. Продовження цієї операції не рекомендується. Хочете скасувати операцію?" revision="1" />
   <Message key="Warning" value="Попередження" revision="1" />
   <Message key="Error" value="Помилка" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" ({occurrences} включень)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{{occurrences}]]] включень)" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Помилка {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="Невірна папка або помилка в синтаксисі маски." revision="1" />
   <Message key="Invalid folder list syntax." value="Невірний синтаксис списку папок." revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="Повідомлення" revision="1" />
   <Message key="Find in Files" value="Пошук у файлах" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Хочете скасувати поточну операцію?" revision="1" />
-  <Message key="Operation cancelled." value="Операція скасована." revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#Операція скасована.]]]" revision="2" />
   <Message key="Replace with:" value="Замінити на:" revision="1" />
-  <Message key="Progress message" value="Виконано {percent} %. Перевірено {processed_files} з {total_files}{unfinished?}(…){?unfinished} файлів у {total_folders} папках. {matched} файлів знайдено. Опрацьовано {processed_size} з {total_size}." revision="1" />
+  <Message key="Progress message" value="Виконано [[[b{percent}]]] %. Перевірено [[[b{processed_files}]]] з [[[b{total_files}{unfinished?}(…){?unfinished}]]] файлів у [[[b{total_folders}]]] папках. [[[b{matched}]]] файлів знайдено. Опрацьовано [[[b{processed_size}]]] з [[[b{total_size}]]]." revision="2" />
   <Message key="ReplaceNotification" value="Заміна у файлах" revision="1" />
   <Message key="TextFilesFilterString" value="Текстові файли|*.txt|" revision="0" />
   <Message key="Exporting" value="Експорт" revision="0" />

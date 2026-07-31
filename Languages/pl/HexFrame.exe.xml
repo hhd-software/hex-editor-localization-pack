@@ -151,7 +151,6 @@
   <Message key="MB" value="MB" revision="1" />
   <Message key="GB" value="GB" revision="1" />
   <Message key="TB" value="TB" revision="0" />
-  <Message key="Regular expression" value="Wyrażenie regularne" revision="1" />
   <Message key="Sub-match:" value="Dopasowanie podrzędne:" revision="1" />
   <Message key="Type:" value="Typ:" revision="1" />
   <Message key="Find what:" value="Znajdź co:" revision="1" />
@@ -659,6 +658,12 @@
     <Item value="Unicode" revision="1" />
     <Item value="Skompresowany wolumin" revision="1" />
     <Item value="Udział" revision="1" />
+  </Enumeration>
+  <Enumeration key="String search mode">
+    <Item />
+    <Item />
+    <Item />
+    <Item value="Wyrażenie regularne" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">
     <Item value="Ciąg" revision="1" />

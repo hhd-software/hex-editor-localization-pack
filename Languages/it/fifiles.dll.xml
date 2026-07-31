@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="L'apertura di troppi documenti può portare a prestazioni molto scarse. non è pertanto consigliato continuare l'operazione corrente. Vuoi annullarla?" revision="1" />
+  <Message key="Opening too many documents" value="L'apertura di troppi documenti può portare a prestazioni molto scarse. non è pertanto consigliato continuare l'operazione corrente. Vuoi annullarla?" revision="1" />
   <Message key="Warning" value="Avviso" revision="1" />
   <Message key="Error" value="Errore" revision="1" />
-  <Message key=" ({occurrences} occurrences)" value=" (occurrences} ricorrenze)" revision="1" />
+  <Message key=" ({occurrences} occurrences)" value=" ([[[b{occurrences}]]] ricorrenze)" revision="2" />
   <Message key="Error {error_code} ({text_message}) {mode} {path}." value="Errore {error_code} ({text_message}) {mode} {path}." revision="1" />
   <Message key="Invalid folder or mask syntax." value="Cartella o sintassi maschera non valide." revision="1" />
   <Message key="Invalid folder list syntax." value="Cartella lista sintassi non valida." revision="1" />
@@ -12,9 +12,9 @@
   <Message key="Notifications" value="Notifiche" revision="1" />
   <Message key="Find in Files" value="Trova nei file" revision="1" />
   <Message key="Do you want to cancel the current operation?" value="Vuoi annullare l'operazione in corso?" revision="1" />
-  <Message key="Operation cancelled." value="Operazione annullata." revision="1" />
+  <Message key="Operation cancelled." value="[[[T#[#c00]#Operazione annullata.]]]" revision="2" />
   <Message key="Replace with:" value="Sostituisci con:" revision="1" />
-  <Message key="Progress message" value="{percent} % completato. {processed_files} di {total_files}{unfinished?}(…){?unfinished} file {total_folders} cartelle sono stati controllati. {matched} File abbinati trovati. {processed_size} di {total_size} elaborati." revision="1" />
+  <Message key="Progress message" value="[[[b{percent}]]] % completato. [[[b{processed_files}]]] di [[[b{total_files}{unfinished?}(…){?unfinished}]]] file [[[b{total_folders}]]] cartelle sono stati controllati. [[[b{matched}]]] File abbinati trovati. [[[b{processed_size}]]] di [[[b{total_size}]]] elaborati." revision="2" />
   <Message key="ReplaceNotification" value="Sostituisci nei file" revision="1" />
   <Message key="TextFilesFilterString" value="File di testo|*.txt|" revision="0" />
   <Message key="Exporting" value="Esportazione" revision="0" />
