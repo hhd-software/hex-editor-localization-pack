@@ -28,6 +28,7 @@
   <Message key="FNV-1a 32-bit" value="FNV-1a 32-bit" revision="0" />
   <Message key="FNV-1 64-bit" value="FNV-1 64-bit" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64-bit" revision="0" />
+  <Message key="xxHash3 (64-bit)" value="xxHash3 (64 bity)" revision="0" />
   <Message key="Custom FNV" value="Niestandardowy FNV-1" revision="0" />
   <Message key="Please wait until all pending operations are completed." value="Poczekaj, aż wszystkie oczekujące operacje zostaną zakończone." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="Pliki tekstowe oddzielone znakami tabulacji (*.tsv)|*.tsv|Wszystkie pliki|*||" revision="1" />
@@ -72,12 +73,13 @@
     <Item value="Średnik (&quot;;&quot;)" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Sumatory proste" revision="2" />
-    <Item value="Więcej sumatorów" revision="2" />
-    <Item value="Suma kontrolna" revision="2" />
-    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="2" />
-    <Item value="Hasze" revision="2" />
-    <Item value="Podpisane sumy-." revision="2" />
+    <Item value="Sumatory proste" revision="3" />
+    <Item value="Więcej sumatorów" revision="3" />
+    <Item value="Suma kontrolna" revision="3" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="3" />
+    <Item value="" revision="2" />
+    <Item value="Hasze" revision="3" />
+    <Item value="Podpisane sumy-" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Suma kontrolna" revision="0" />

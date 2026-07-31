@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="Infobox-Übersicht" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="Highlight der Infobox" revision="0" />
   <Message key="clr.colors.Wave" value="Feldhervorhebung" revision="0" />
+  <Message key="clr.colors.Error.fill" value="Hintergrundfarbe für Fehler" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="Fehlerkontur" revision="0" />
+  <Message key="clr.colors.Error.text" value="Fehlermeldung" revision="0" />
   <Message key="toolbar.Selection" value="Auswahl" revision="0" />
   <Message key="Info pane header" value="Infofenster" revision="0" />
   <Enumeration key="SelectAll">

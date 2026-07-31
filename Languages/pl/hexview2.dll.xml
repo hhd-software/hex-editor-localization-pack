@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="Zarys ramki informacyjnej" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="Podświetlenie pola informacyjnego" revision="0" />
   <Message key="clr.colors.Wave" value="Podświetlenie pola" revision="0" />
+  <Message key="clr.colors.Error.fill" value="Kolor tła błędu" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="Kontur błędu" revision="0" />
+  <Message key="clr.colors.Error.text" value="Tekst błędu" revision="0" />
   <Message key="toolbar.Selection" value="Wybór" revision="0" />
   <Message key="Info pane header" value="Panel informacyjny" revision="0" />
   <Enumeration key="SelectAll">

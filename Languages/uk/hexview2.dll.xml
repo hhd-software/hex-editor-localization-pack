@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="Контур інформаційного блоку" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="Підсвічування інформаційного блоку" revision="0" />
   <Message key="clr.colors.Wave" value="Підсвічування поля" revision="0" />
+  <Message key="clr.colors.Error.fill" value="Колір фону помилки" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="Обведення помилки" revision="0" />
+  <Message key="clr.colors.Error.text" value="Текст помилки" revision="0" />
   <Message key="toolbar.Selection" value="Виділення" revision="0" />
   <Message key="Info pane header" value="Інформаційна панель" revision="0" />
   <Enumeration key="SelectAll">

@@ -28,6 +28,7 @@
   <Message key="FNV-1a 32-bit" value="FNV-1a 32-bit" revision="0" />
   <Message key="FNV-1 64-bit" value="FNV-1 64-bit" revision="0" />
   <Message key="FNV-1a 64-bit" value="FNV-1a 64-bit" revision="0" />
+  <Message key="xxHash3 (64-bit)" value="xxHash3 (64 bit)" revision="0" />
   <Message key="Custom FNV" value="Personalizza FNV-1" revision="0" />
   <Message key="Please wait until all pending operations are completed." value="Attendere il completamento di tutte le operazioni in sospeso." revision="1" />
   <Message key="Tab-separated text files (*.tsv)|*.tsv|All Files|*||" value="File testuali con tabulazione (*.tsv)|*.tsv|Tutti i file|*||" revision="1" />
@@ -72,12 +73,13 @@
     <Item value="Punto e virgola (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Sommatorie semplici" revision="2" />
-    <Item value="Altre sommatorie" revision="2" />
-    <Item value="Somma di controllo" revision="2" />
-    <Item value="Impronte Fowler–Noll–Vo (FNV)" revision="2" />
-    <Item value="Impronte" revision="2" />
-    <Item value="Somme segnate-" revision="2" />
+    <Item value="Sommatorie semplici" revision="3" />
+    <Item value="Altre sommatorie" revision="3" />
+    <Item value="Somma di controllo" revision="3" />
+    <Item value="Impronte Fowler–Noll–Vo (FNV)" revision="3" />
+    <Item value="" revision="2" />
+    <Item value="Impronte" revision="3" />
+    <Item value="Somme segnate-" revision="3" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Somma di controllo" revision="0" />

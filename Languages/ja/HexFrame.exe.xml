@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="フルモードで続行" revision="0" />
   <Message key="SavePastePrompt" value="このファイルの一部を使用する他のファイルが開かれています。 これらのファイルを閉じるまで、このドキュメントに加えた変更を保存することはできません。 ファイルを別の名前で保存しますか?" revision="1" />
   <Message key="SaveError" value="ファイルの保存中にエラーが発生しました : {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="ディスク/ボリュームのコピー中に次のエラーが発生しました: [[[b{text} ({code})]]]。\n\n読み取り可能なデータは、正常にコピー先ファイルへ書き込まれました。\n\n不良セクタマップが {bad sectors map} に保存されました。" revision="0" />
+  <Message key="BadSectorsFileHeader" value="# 不良セクタマップ\n# 不良範囲の開始位置 (16進数), 不良範囲のサイズ (16進数)\n" revision="0" />
   <Message key="SaveErrors" value="保存中に次のエラーが発生しました :\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="現在のドキュメントは変更されました。 保存しますか?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="すべてのファイル|*|" revision="1" />
@@ -281,9 +283,9 @@
   <Message key="Settings Page" value="設定" revision="0" />
   <Message key="Settings Storage Location" value="設定の保存場所" revision="0" />
   <Message key="Settings Management" value="設定の管理" revision="0" />
-  <Message key="Export Settings…" value="設定のエクスポート…" revision="0" />
-  <Message key="Import Settings…" value="設定のインポート…" revision="0" />
-  <Message key="Reset Settings…" value="設定をリセット…" revision="0" />
+  <Message key="Export Settings" value="設定のエクスポート…" revision="0" />
+  <Message key="Import Settings" value="設定のインポート…" revision="0" />
+  <Message key="Reset Settings" value="設定をリセット…" revision="0" />
   <Message key="Ask to import settings" value="指定されたファイルはすでに存在します。 その内容を今すぐインポートしますか? 「いいえ」をクリックすると、ファイルは現在の設定で上書きされます。" revision="0" />
   <Message key="Ask to reset settings" value="設定をリセットするにはアプリケーションを再起動する必要があります。 続行しますか？" revision="0" />
   <Message key="Ask to restart" value="インポートした設定を適用するには、アプリケーションを再起動することをお勧めします。 今すぐ再起動しますか?" revision="0" />
@@ -322,6 +324,9 @@
   <Message key="Physical disk" value="物理ディスク" revision="0" />
   <Message key="Volume" value="ボリューム" revision="0" />
   <Message key="Value is out of range" value="指定された値 [[[p{value}]]] は、パラメーター [[[p{parameter}]]] の範囲外です : [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Value must be less" value="パラメーター [[[p{parameter}]]] には {maxval} {exclusive?}未満{|exclusive}以下{?exclusive} の値が必要ですが、代わりに [[[p{value}]]] が渡されました。" revision="0" />
+  <Message key="Value must be greater" value="パラメーター [[[p{parameter}]]] には {minval} {exclusive?}を超える{|exclusive}以上{?exclusive} の値が必要ですが、代わりに [[[p{value}]]] が渡されました。" revision="0" />
+  <Message key="Value must not be equal" value="パラメーター [[[p{parameter}]]] は [[[p{value}]]] と等しくない値である必要があります。" revision="0" />
   <Message key="Invalid enum value" value="パラメーター [[[p{parameter}: {type}]]] に無効な列挙値 [[[p{value}]]] が指定されました" revision="0" />
   <Message key="Invalid argument type" value="パラメーター [[[p{parameter}]]] に渡された値の型が無効です。期待される型: [[[p{type}]]" revision="0" />
   <Message key="Unsupported clipboard format" value="サポートされていないクリップボード形式" revision="0" />

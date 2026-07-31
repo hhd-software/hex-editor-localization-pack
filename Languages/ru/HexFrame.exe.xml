@@ -30,6 +30,8 @@
   <Message key="Continue in Full mode" value="Продолжить в режиме полного доступа" revision="0" />
   <Message key="SavePastePrompt" value="Части этого файла используются в других документах. Вы не можете сохранить изменения в файле, пока эти другие документы не закрыты. Сохранить под другим именем?" revision="1" />
   <Message key="SaveError" value="Ошибка при сохранении файла: {text} ({code})" revision="1" />
+  <Message key="DiskCopyError" value="При копировании диска/тома произошла следующая ошибка: [[[b{text} ({code})]]].\n\nДанные, которые удалось прочитать, были успешно записаны в файл назначения.\n\nКарта повреждённых секторов сохранена в файле {bad sectors map}." revision="0" />
+  <Message key="BadSectorsFileHeader" value="# Карта поврежденных секторов" revision="0" />
   <Message key="SaveErrors" value="Во время сохранения файла возникли ошибки:\r\n{errors}" revision="1" />
   <Message key="DocumentChangePrompt" value="Документ был изменен. Сохранить изменения?\r\n\r\n{name}" revision="1" />
   <Message key="AllFilesFilterString" value="Все файлы|*|" revision="1" />
@@ -281,9 +283,9 @@
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Хранение настроек" revision="0" />
   <Message key="Settings Management" value="Управление настройками" revision="0" />
-  <Message key="Export Settings…" value="Экспорт настроек…" revision="0" />
-  <Message key="Import Settings…" value="Импорт настроек…" revision="0" />
-  <Message key="Reset Settings…" value="Сброс настроек…" revision="0" />
+  <Message key="Export Settings" value="Экспорт настроек…" revision="0" />
+  <Message key="Import Settings" value="Импорт настроек…" revision="0" />
+  <Message key="Reset Settings" value="Сброс настроек…" revision="0" />
   <Message key="Ask to import settings" value="Указанный файл уже существует. Вы хотите импортировать его сейчас? Если Вы выберите &quot;Нет&quot;, он будет перезаписан текущими настройками." revision="0" />
   <Message key="Ask to reset settings" value="Приложение должно быть перезапущено для сброса настроек. Вы хотите продолжить?" revision="0" />
   <Message key="Ask to restart" value="Рекомендуется перезапустить приложение для принятия загруженных настроек. Перезапустить сейчас?" revision="0" />
@@ -330,7 +332,7 @@
   <Message key="Unsupported clipboard format" value="Неподдерживаемый формат в буфере обмена" revision="0" />
   <Message key="Requested clipboard format is not available" value="Запрашиваемый формат буфера обмена недоступен" revision="0" />
   <Message key="GenericError" value="Ошибка выполнения операции: {text}{has_code?} ({code}){?has_code}" revision="0" />
-  <Message key="clr.default_colors" value="Цвета по-умолчанию" revision="0" />
+  <Message key="clr.default_colors" value="Цвета по умолчанию" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
   <Message key="clr.default_colors.control_background" value="Фон окон" revision="0" />
   <Message key="clr.default_colors.text" value="Текст/рисунок" revision="0" />
@@ -433,7 +435,7 @@
   <Message key="Structure definition files" value="Файлы определения структур" revision="0" />
   <Message key="Kaitai definition files" value="Файлы определения Kaitai" revision="0" />
   <Message key="Sample Text" value="Образец" revision="0" />
-  <Message key="Default" value="По-умолчанию" revision="0" />
+  <Message key="Default" value="По умолчанию" revision="0" />
   <Message key="clr.balloon" value="Цвета окон уведомлений" revision="0" />
   <Message key="clr.balloon.balloon.fill" value="Цвет фона" revision="0" />
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
@@ -943,7 +945,7 @@
   </Enumeration>
   <Enumeration key="Registry">
     <Item value="Реестр" revision="0" />
-    <Item value="Пользовательский ключ в системном реестре. Значение по-умолчанию" revision="0" />
+    <Item value="Пользовательский ключ в системном реестре. Значение по умолчанию" revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
     <Item value="Портабельный режим" revision="0" />

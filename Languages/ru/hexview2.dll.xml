@@ -196,7 +196,7 @@
   <Message key="Clear Cache" value="Очистить кэш" revision="0" />
   <Message key="Layout settings" value="Настройки редактора" revision="0" />
   <Message key="Encoding settings" value="Последние использованные кодировки" revision="0" />
-  <Message key="ViewSettingsDb settings" value="Параметры редактора по-умолчанию" revision="0" />
+  <Message key="ViewSettingsDb settings" value="Параметры редактора по умолчанию" revision="0" />
   <Message key="All documents" value="Все документы" revision="0" />
   <Message key="New Pattern" value="Новый шаблон" revision="0" />
   <Message key="Enter new file pattern regular expression:" value="Введите регулярное выражение для нового файла:" revision="0" />
@@ -231,6 +231,9 @@
   <Message key="clr.colors.InfoBorder" value="Схема информационного блока" revision="0" />
   <Message key="clr.colors.InfoHighlight" value="Подсветка информационного блока" revision="0" />
   <Message key="clr.colors.Wave" value="Подсветка поля" revision="0" />
+  <Message key="clr.colors.Error.fill" value="Цвет фона ошибки" revision="0" />
+  <Message key="clr.colors.Error.stroke" value="Обводка ошибки" revision="0" />
+  <Message key="clr.colors.Error.text" value="Текст ошибки" revision="0" />
   <Message key="toolbar.Selection" value="Выделение" revision="0" />
   <Message key="Info pane header" value="Информационная панель" revision="0" />
   <Enumeration key="SelectAll">

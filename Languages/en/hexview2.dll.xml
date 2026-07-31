@@ -942,6 +942,9 @@
 	<Message key="clr.colors.InfoBorder" description="Color: Info outline" value="Info box outline" />
 	<Message key="clr.colors.InfoHighlight" description="Color: Info outline" value="Info box highlight" />
 	<Message key="clr.colors.Wave" description="Color: Wave" value="Field highlight" />
+	<Message key="clr.colors.Error.fill" description="Color: Error Background" value="Error fill" />
+	<Message key="clr.colors.Error.stroke" description="Color: Error Outline" value="Error outline" />
+	<Message key="clr.colors.Error.text" description="Color: Error text" value="Error text" />
 
 	<Message key="toolbar.Selection" description="Toolbar: Selection" value="Selection" />
 
