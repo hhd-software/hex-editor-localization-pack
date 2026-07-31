@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Opening too many documents…" value="Opening too many documents may lead to very poor performance. It is therefore not recommended to continue the current operation. Do you want to cancel the operation?" description="Opening too many documents…" revision="1"/>
+  <Message key="Opening too many documents" value="Opening too many documents may lead to very poor performance. It is therefore not recommended to continue the current operation. Do you want to cancel the operation?" description="Opening too many documents…" revision="1"/>
   <Message key="Warning" description="Message Box Title: Warning" revision="1"/>
   <Message key="Error" description="Message Box Title: Error" revision="1"/>
 
-  <Message key=" ({occurrences} occurrences)" description="Number of occurrences. Must start with space." revision="1">
+  <Message key=" ({occurrences} occurrences)" description="Number of occurrences. Must start with space." revision="2" value=" ([[[b{occurrences}]]] occurrences)">
     <Validate rule="StartsWithSpace"/>
     <Param name="occurrences" format="l"/>
   </Message>
   <Message key="Error {error_code} ({text_message}) {mode} {path}." description="Error message" revision="1">
-    <Param name="error_code" format="b016"/>
+    <Param name="error_code" format="ub016"/>
     <Param name="text_message"/>
     <Param name="mode"/>
     <Param name="path"/>
@@ -50,7 +50,7 @@
 
   <Message key="Find in Files" description="Find in Files Tool Window title" revision="1"/>
   <Message key="Do you want to cancel the current operation?" description="Prompt: Do you want to cancel the current operation?" revision="1"/>
-  <Message key="Operation cancelled." description="Operation cancelled" revision="1" value="Operation canceled."/>
+  <Message key="Operation cancelled." description="Operation cancelled" revision="2" value="[[[T#[#c00]#Operation canceled.]]]"/>
 
   <Enumeration key="FindInFiles feature" description="Find in Files feature name &amp; description" revision="1">
     <Item text="Find in Files" />
@@ -76,7 +76,7 @@
 
   <Message key="Replace with:" description="Field: Replace with" revision="1"/>
 
-  <Message key="Progress message" value="{percent} % completed. {processed_files} of {total_files}{unfinished?}(…){?unfinished} files in {total_folders} folders have been checked. {matched} matched file(s) found. {processed_size} of {total_size} processed." description="Progress message" revision="1">
+  <Message key="Progress message" value="[[[b{percent}]]] % completed. [[[b{processed_files}]]] of [[[b{total_files}{unfinished?}(…){?unfinished}]]] files in [[[b{total_folders}]]] folders have been checked. [[[b{matched}]]] matched file(s) found. [[[b{processed_size}]]] of [[[b{total_size}]]] processed." description="Progress message" revision="2">
     <Param name="percent"/>
     <Param name="processed_files" format="l"/>
     <Param name="total_files" format="l"/>

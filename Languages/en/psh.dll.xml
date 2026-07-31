@@ -253,7 +253,13 @@
 	  <Param name="ignore" format="?"/>
   </Message>
 
-  <Message key="History" description="History tool window, message box title"/>
+	<Message key="WildcardPattern" description="Wildcard pattern template in a list" value="&#x2731;: {ignore?}i: {?ignore}[[[b{pattern}]]] ({codepage})">
+		<Param name="pattern"/>
+		<Param name="codepage"/>
+		<Param name="ignore" format="?"/>
+	</Message>
+
+	<Message key="History" description="History tool window, message box title"/>
   <Message key="Pattern Coloring" description="Pattern Coloring tool window, message box title"/>
   <Message key="Base Converter" description="Base Converter tool window, message box title"/>
 

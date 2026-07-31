@@ -549,7 +549,13 @@
 	<Message key="TB" description="Terabytes"/>
 
 	<!-- FR Module -->
-	<Message key="Regular expression" description="Field: Regular expression" revision="1"/>
+	<Enumeration key="String search mode" description="Field: String search mode (normal, wildcards, regex)">
+		<Item text="Normal"/>
+		<Item text="Wildcards (greedy)"/>
+		<Item text="Wildcards (non-greedy)"/>
+		<Item text="Regular expression"/>
+	</Enumeration>
+	<Message key="Match mode" description="Field: Match mode (string match mode field title)"/>
 	<Message key="Sub-match:" description="Field: Sub-match" revision="1"/>
 	<Message key="Type:" description="Field: Type" revision="1"/>
 	<Message key="Find what:" description="Field: Find what" revision="1"/>
