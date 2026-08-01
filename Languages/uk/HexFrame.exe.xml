@@ -151,6 +151,7 @@
   <Message key="MB" value="МБ" revision="1" />
   <Message key="GB" value="ГБ" revision="1" />
   <Message key="TB" value="ТБ" revision="0" />
+  <Message key="Match mode" value="Режим співпадінь" revision="0" />
   <Message key="Sub-match:" value="Підгрупа:" revision="1" />
   <Message key="Type:" value="Тип:" revision="1" />
   <Message key="Find what:" value="Знайти:" revision="1" />
