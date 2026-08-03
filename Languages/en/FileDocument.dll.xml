@@ -17,6 +17,8 @@
   <Message key="Discard all changes and close the file." description="Action: Discard all changes and close the file" revision="1"/>
   <Message key="SharedError" description="Error updating shared file" revision="1" value="There was an error updating a file."/>
   <Message key="InvalidChars" description="Error message: Regular expression class contains invalid characters" revision="1" value="Regular expression class contains invalid characters."/>
+	<Message key="InvalidSubExpression" description="Invalid sub-expression number specified" value="Invalid sub-expression number specified" />
+	<Message key="Zero-matching regular expression is forbidden" description="Zero-matching regular expression is forbidden" />
   <Message key="ClassExists" description="Error message: This class already exists. Change the class name" revision="1" value="This class already exists. Change the class name."/>
   <Message key="DeleteClasses?" description="Message: Are you sure you want to delete all classes?" revision="1" value="Are you sure you want to delete all classes?"/>
 
