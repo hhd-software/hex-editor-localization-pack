@@ -151,6 +151,7 @@
   <Message key="MB" value="Mo" revision="1" />
   <Message key="GB" value="Go" revision="1" />
   <Message key="TB" value="TB" revision="0" />
+  <Message key="Match mode" value="Mode de coïncidence" revision="0" />
   <Message key="Sub-match:" value="Correspondance de sous-motif" revision="1" />
   <Message key="Type:" value="Type:" revision="1" />
   <Message key="Find what:" value="Rechercher:" revision="1" />
