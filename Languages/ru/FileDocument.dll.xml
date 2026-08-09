@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="Отменить изменения и закрыть файл." revision="1" />
   <Message key="SharedError" value="Ошибка при обновлении файла." revision="1" />
   <Message key="InvalidChars" value="Класс регулярных выражений содержит ошибочный символ." revision="1" />
+  <Message key="InvalidSubExpression" value="Указан неверный номер подвыражения" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="Регулярное выражение, не дающее совпадений, запрещено" revision="0" />
   <Message key="ClassExists" value="Этот класс уже существует. Смените имя класса." revision="1" />
   <Message key="DeleteClasses?" value="Действительно хотите удалить все классы?" revision="1" />
   <Message key="LoadError" value="Внутренняя ошибка: {text} ({code})" revision="1" />
@@ -51,7 +53,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo не смог открыть &quot;{path}&quot; из-за следующей ошибки:\r\n    » {text} ({code})\r\n\r\nВы хотите попробовать создать образ диска и открыть файл из этого образа?" revision="0" />
   <Message key="RegExp settings" value="Классы регулярных выражений" revision="0" />
   <Message key="Shortcut files" value="Ярлыки" revision="0" />
-  <Message key="Running operation" value="Выполнение операции [[[b{operation}]]] над {document}…" revision="0" />
+  <Message key="Running operation" value="Выполняется операция [[[b{operation}]]] над {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Игнорировать изменения" revision="1" />
     <Item value="Закрыть файл" revision="1" />

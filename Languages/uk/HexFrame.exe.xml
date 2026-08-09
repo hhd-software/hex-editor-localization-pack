@@ -661,9 +661,9 @@
     <Item value="Квоти" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Звичайний" revision="0" />
+    <Item value="Символи підстановки (жадібний)" revision="0" />
+    <Item value="Символи підстановки (нежадібний)" revision="0" />
     <Item value="Регулярний вираз" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

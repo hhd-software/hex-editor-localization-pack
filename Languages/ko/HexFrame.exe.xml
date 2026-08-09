@@ -660,9 +660,9 @@
     <Item value="할당량" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="일반" revision="0" />
+    <Item value="와일드카드(그리디)" revision="0" />
+    <Item value="와일드카드(비그리디)" revision="0" />
     <Item value="정규식" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

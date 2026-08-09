@@ -661,9 +661,9 @@
     <Item value="Quote" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Normale" revision="0" />
+    <Item value="Caratteri jolly (greedy)" revision="0" />
+    <Item value="Caratteri jolly (non greedy)" revision="0" />
     <Item value="Espressione regolare" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

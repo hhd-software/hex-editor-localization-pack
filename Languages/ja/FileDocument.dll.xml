@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="すべての変更を破棄してファイルを閉じる。" revision="1" />
   <Message key="SharedError" value="ファイルの更新中にエラーが発生しました。" revision="1" />
   <Message key="InvalidChars" value="正規表現クラスに無効な文字が含まれています。" revision="1" />
+  <Message key="InvalidSubExpression" value="無効な部分式の番号が指定されています" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="致するものがない正規表現は禁止されています" revision="0" />
   <Message key="ClassExists" value="このクラスはすでに存在します。 クラス名を変更します。" revision="1" />
   <Message key="DeleteClasses?" value="すべてのクラスを削除してもよろしいですか?" revision="1" />
   <Message key="LoadError" value="内部エラー : {text} ({code})" revision="1" />

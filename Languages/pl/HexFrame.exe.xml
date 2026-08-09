@@ -661,9 +661,9 @@
     <Item value="Udział" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Normalne" revision="0" />
+    <Item value="Znaki wieloznaczne (zachłanne)" revision="0" />
+    <Item value="Znaki wieloznaczne (niezachłanne)" revision="0" />
     <Item value="Wyrażenie regularne" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

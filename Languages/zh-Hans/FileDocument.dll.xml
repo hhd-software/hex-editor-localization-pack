@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="放弃所有更改并关闭此文件。" revision="1" />
   <Message key="SharedError" value="更新一个文件时有一个错误。" revision="1" />
   <Message key="InvalidChars" value="正则表达式类包含无效的字符。" revision="1" />
+  <Message key="InvalidSubExpression" value="指定的子表达式编号无效" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="禁止使用不匹配任何内容的正则表达式" revision="0" />
   <Message key="ClassExists" value="此类已存在，请更改类名。" revision="1" />
   <Message key="DeleteClasses?" value="你确实想删除所有类吗？" revision="1" />
   <Message key="LoadError" value="内部错误: {text} ({code})" revision="1" />
@@ -51,6 +53,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo 打开 &quot;{path}&quot; 发生如下错误:\r\n    » {text} ({code})\r\n\r\n你要尝试创建一个卷快照并从快照中打开文件吗？" revision="0" />
   <Message key="RegExp settings" value="正则表达式类 " revision="0" />
   <Message key="Shortcut files" value="快捷方式文件" revision="0" />
+  <Message key="Running operation" value="正在对 {document} 执行 [[[b{operation}]]] 操作…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="忽略更改" revision="1" />
     <Item value="关闭此文件" revision="1" />

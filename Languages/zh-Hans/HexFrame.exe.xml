@@ -623,9 +623,9 @@
     <Item value="配额" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="普通" revision="0" />
+    <Item value="通配符（贪婪)" revision="0" />
+    <Item value="通配符（非贪婪）" revision="0" />
     <Item value="正则表达式" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

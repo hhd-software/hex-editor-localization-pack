@@ -660,9 +660,9 @@
     <Item value="クォータ" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="通常" revision="0" />
+    <Item value="ワイルドカード (欲張り)" revision="0" />
+    <Item value="ワイルドカード (非欲張り)" revision="0" />
     <Item value="正規表現" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

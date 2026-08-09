@@ -661,9 +661,9 @@
     <Item value="Kontingente (quotas)" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item value="" revision="0" />
-    <Item />
-    <Item />
+    <Item value="Normal" revision="0" />
+    <Item value="Wildcards (gierig)" revision="0" />
+    <Item value="Wildcards (nicht gierig)" revision="0" />
     <Item value="Regulärer Ausdruck" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="Alle Änderungen verwerfen und die Datei schließen." revision="1" />
   <Message key="SharedError" value="Es gab einen Fehler beim Aktualisieren der Datei." revision="1" />
   <Message key="InvalidChars" value="Reguläre Ausdruck Klasse enthält ungültige Zeichen." revision="1" />
+  <Message key="InvalidSubExpression" value="Ungültige Teil-Ausdruck-Nummer angegeben" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="Ein regulärer Ausdruck ohne Treffer ist nicht zulässig" revision="0" />
   <Message key="ClassExists" value="Diese Klasse existiert schon. Ändere den Namen der Klasse." revision="1" />
   <Message key="DeleteClasses?" value="Sind sie sicher, dass Sie alle Klassen löschen wollen?" revision="1" />
   <Message key="LoadError" value="Interner Fehler: {text} ({code})" revision="1" />

@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="Odrzuć wszystkie zmiany i zamknij plik." revision="1" />
   <Message key="SharedError" value="Wystąpił błąd aktualizacji pliku." revision="1" />
   <Message key="InvalidChars" value="Klasa wyrażeń regularnych zawiera nieprawidłowe znaki." revision="1" />
+  <Message key="InvalidSubExpression" value="Podano nieprawidłowy numer podwyrażenia" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="Wyrażenie regularne, które nie znajduje dopasowań, jest niedozwolone" revision="0" />
   <Message key="ClassExists" value="Ta klasa już istnieje. Zmień nazwę klasy." revision="1" />
   <Message key="DeleteClasses?" value="Czy na pewno chcesz usunąć wszystkie klasy?" revision="1" />
   <Message key="LoadError" value="Błąd wewnętrzny: {text} ({code})" revision="1" />
@@ -51,7 +53,7 @@
   <Message key="SnapshotDescription" value="Hex Editor Neo nie może otworzyć &quot;{path}&quot; z powodu następującego błędu:\r\n   » {text} ({code})\r\n\r\nCzy chcesz spróbować utworzyć migawkę woluminu i otworzyć plik z tej migawki?" revision="0" />
   <Message key="RegExp settings" value="Klasy wyrażeń regularnych" revision="0" />
   <Message key="Shortcut files" value="Pliki skrótów" revision="0" />
-  <Message key="Running operation" value="Wykonanie operacji [[[b{operation}]]] na {document}…" revision="0" />
+  <Message key="Running operation" value="Wykonywanie operacji [[[b{operation}]]] na obiekcie {document}…" revision="0" />
   <Enumeration key="ConflictOptions">
     <Item value="Ignoruj ​​zmiany" revision="1" />
     <Item value="Zamknij plik" revision="1" />

@@ -8,6 +8,8 @@
   <Message key="Discard all changes and close the file." value="모든 변경 내용을 취소하고 파일을 닫습니다." revision="1" />
   <Message key="SharedError" value="파일을 업데이트하는 동안 오류가 발생했습니다." revision="1" />
   <Message key="InvalidChars" value="정규식 클래스에 잘못된 문자가 있습니다." revision="1" />
+  <Message key="InvalidSubExpression" value="잘못된 서브식 번호가 지정되었습니다" revision="0" />
+  <Message key="Zero-matching regular expression is forbidden" value="일치하는 항목이 없는 정규 표현식은 사용할 수 없습니다" revision="0" />
   <Message key="ClassExists" value="이 클래스가 이미 있습니다. 클래스 이름을 변경합니다." revision="1" />
   <Message key="DeleteClasses?" value="모든 클래스를 삭제하시겠습니까?" revision="1" />
   <Message key="LoadError" value="내부 오류: {text}({code})" revision="1" />

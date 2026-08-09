@@ -661,9 +661,9 @@
     <Item value="Cuotas" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Normal" revision="0" />
+    <Item value="Comodines (codicioso)" revision="0" />
+    <Item value="Comodines (no codicioso)" revision="0" />
     <Item value="Expresión regular" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">

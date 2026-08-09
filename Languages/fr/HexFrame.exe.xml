@@ -661,9 +661,9 @@
     <Item value="Quotas" revision="1" />
   </Enumeration>
   <Enumeration key="String search mode">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Normal" revision="0" />
+    <Item value="Caractères génériques (gourmand)" revision="0" />
+    <Item value="Caractères génériques (non gourmand)" revision="0" />
     <Item value="Expression régulière" revision="0" />
   </Enumeration>
   <Enumeration key="FRTypeList">
