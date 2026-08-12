@@ -205,6 +205,7 @@
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Зачекайте поки Hex Editor Neo сканує томи…" revision="1" />
   <Message key="File system capabilities" value="Характеристики файлової системи:" revision="1" />
   <Message key="Space" value="Місце:" revision="1" />
+  <Message key="Please wait while the current operation is being performed" value="Зачекайте поки виконується поточна операція" revision="0" />
   <Message key="ProgressPleaseWait" value="Зачекайте…" revision="1" />
   <Message key="ProgressPerSec" value="{rate}/с" revision="1" />
   <Message key="ProgressCalculating" value="Підрахунок…" revision="1" />

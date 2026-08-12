@@ -204,6 +204,7 @@
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo がシステム ボリュームをスキャンするまでお待ちください…" revision="1" />
   <Message key="File system capabilities" value="ファイル システムのキャパシティ :" revision="1" />
   <Message key="Space" value="スペース :" revision="1" />
+  <Message key="Please wait while the current operation is being performed" value="現在の操作が実行されている間お待ちください" revision="0" />
   <Message key="ProgressPleaseWait" value="お待ちください…" revision="1" />
   <Message key="ProgressPerSec" value="{rate}/s" revision="1" />
   <Message key="ProgressCalculating" value="計算中…" revision="1" />

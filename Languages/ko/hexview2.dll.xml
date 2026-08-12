@@ -158,7 +158,6 @@
   <Message key="New selection" value="새 선택" revision="0" />
   <Message key="Add to current" value="현재에 더하기" revision="0" />
   <Message key="Subtract from current" value="현재에서 빼기" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="현재 작업을 수행하는 동안 기다려 주세요…" revision="0" />
   <Message key="0 % done" value="0 % 완료" revision="0" />
   <Message key="Elapsed time: " value="경과 시간:" revision="0" />
   <Message key="Remaining time:" value="남은 시간:" revision="0" />

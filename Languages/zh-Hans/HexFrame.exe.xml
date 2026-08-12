@@ -197,6 +197,7 @@
   <Message key="Please wait while Hex Editor Neo scans system volumes…" value="Hex Editor Neo 正在扫描系统卷，请稍候…" revision="1" />
   <Message key="File system capabilities" value="文件系统性能" revision="1" />
   <Message key="Space" value="空间:" revision="1" />
+  <Message key="Please wait while the current operation is being performed" value="正在执行当前操作，请稍候" revision="0" />
   <Message key="ProgressPleaseWait" value="请稍候…" revision="1" />
   <Message key="ProgressPerSec" value="{rate}/秒" revision="1" />
   <Message key="ProgressCalculating" value="正在计算…" revision="1" />

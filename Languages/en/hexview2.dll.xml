@@ -842,7 +842,6 @@
   <Message key="Subtract from current" description="Choice: Subtract from current"/>
 
   <!-- Progress dialog -->
-  <Message key="Please wait while the current operation is being performed…" description="Field: Please wait while the current operation is being performed…"/>
   <Message key="0 % done" description="Field: 0 % done"/>
   <Message key="Elapsed time: " description="Field: Elapsed time"/>
   <Message key="Remaining time:" description="Field: Remaining time"/>

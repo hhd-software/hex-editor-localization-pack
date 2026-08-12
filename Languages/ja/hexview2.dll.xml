@@ -158,7 +158,6 @@
   <Message key="New selection" value="新規選択範囲" revision="0" />
   <Message key="Add to current" value="現在に追加" revision="0" />
   <Message key="Subtract from current" value="現在から削除" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="現在の操作が実行されている間お待ちください…" revision="0" />
   <Message key="0 % done" value="0 % 完了" revision="0" />
   <Message key="Elapsed time: " value="経過時間 :" revision="0" />
   <Message key="Remaining time:" value="残り時間 :" revision="0" />

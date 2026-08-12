@@ -158,7 +158,6 @@
   <Message key="New selection" value="Nouvelle sélection" revision="0" />
   <Message key="Add to current" value="Ajouter à la sélection courante" revision="0" />
   <Message key="Subtract from current" value="Soustraire à la sélection courant" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="Veuillez patienter pendant que l'opération en cours est effectuée…" revision="0" />
   <Message key="0 % done" value="0 % effectuée" revision="0" />
   <Message key="Elapsed time: " value="Temps écoulé:" revision="0" />
   <Message key="Remaining time:" value="Temps restant:" revision="0" />

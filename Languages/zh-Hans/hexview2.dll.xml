@@ -154,7 +154,6 @@
   <Message key="New selection" value="新建选择" revision="0" />
   <Message key="Add to current" value="添加到当前" revision="0" />
   <Message key="Subtract from current" value="从当前减除" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="正在执行当前操作，请稍候…" revision="0" />
   <Message key="0 % done" value="已完成 0%" revision="0" />
   <Message key="Elapsed time: " value="已用时间:" revision="0" />
   <Message key="Remaining time:" value="剩余时间:" revision="0" />

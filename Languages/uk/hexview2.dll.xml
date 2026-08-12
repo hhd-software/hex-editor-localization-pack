@@ -158,7 +158,6 @@
   <Message key="New selection" value="Нове виділення" revision="0" />
   <Message key="Add to current" value="Додати до поточного" revision="0" />
   <Message key="Subtract from current" value="Відняти з поточного" revision="0" />
-  <Message key="Please wait while the current operation is being performed…" value="Зачекайте поки виконується поточна операція…" revision="0" />
   <Message key="0 % done" value="0 % виконано" revision="0" />
   <Message key="Elapsed time: " value="Минуло часу:" revision="0" />
   <Message key="Remaining time:" value="Залишилось часу:" revision="0" />

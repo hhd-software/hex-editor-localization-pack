@@ -927,6 +927,7 @@
 	<Message key="Space" description="Field: Space" revision="1" value="Space:"/>
 
 	<!-- Progress dialog (shared) -->
+	<Message key="Please wait while the current operation is being performed" description="Message: Please wait while the current operation is being performed…"/>
 	<Message key="ProgressPleaseWait" value="Please Wait…" description="Progress dialog: Please Wait…" revision="1"/>
 	<Message key="ProgressPerSec" description="Progress dialog: per second" revision="1" value="{rate}/s">
 		<Param name="rate"/>
