@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Настроить внешний редактор…" revision="0" />
   <Message key="Regular expression:" value="Регулярное выражение:" revision="0" />
   <Message key="Associated scheme:" value="Связанная схема:" revision="0" />
+  <Message key="Check for library updates" value="Проверить наличие обновлений библиотек" revision="0" />
+  <Message key="Public release channel" value="Канал публичных релизов" revision="0" />
+  <Message key="Commit channel" value="Канал для коммитов" revision="0" />
+  <Message key="Do not check for updates" value="Не проверять наличие обновлений" revision="0" />
   <Message key="Structure Coloring" value="Цветовые схемы" revision="0" />
   <Message key="Apply" value="Применить" revision="0" />
   <Message key="Bind Structure" value="Привязать структуру" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="&amp;Обновить" revision="0" />
   <Message key="Settings" value="&amp;Настройки…" revision="0" />
   <Message key="Online Repository" value="Онлайн-репозиторий…" revision="0" />
+  <Message key="FileNotFound" value="Файл не найден" revision="0" />
+  <Message key="CopyColumnError" value="Индекс столбца выходит за пределы диапазона" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Настройте внешний редактор текстовых файлов для использования в Структурах" revision="0" />
+  <Message key="ExternalEditorTip" value="Совет: используйте следующие элементы:\n   » %path% - путь к исходному файлу\n   » %line% - строка в исходном файле\n   » %pos% - позиция в строке" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Привязать…" revision="0" />
     <Item value="Привязать новую структуру" revision="0" />

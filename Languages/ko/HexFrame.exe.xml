@@ -418,7 +418,6 @@
   <Message key="Colors Page" value="테마" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="구성표 이름을 입력하고 저장 버튼을 누릅니다" revision="0" />
   <Message key="ColorSchemeExists" value="구성표가 이미 있습니다. 재정의하시겠습니까?" revision="0" />
-  <Message key="PredefinedModifyError" value="미리 정의된 색 구성표를 수정하는 것은 금지되어 있습니다. 사용자 색 구성표만 수정할 수 있습니다. 미리 정의된 색 구성표 이름과 일치하지 않는 이름을 입력하세요." revision="0" />
   <Message key="Theme:" value="테마:" revision="0" />
   <Message key="Display elements:" value="표시 요소:" revision="0" />
   <Message key="Automatic" value="자동" revision="0" />

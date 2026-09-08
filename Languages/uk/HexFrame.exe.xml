@@ -419,7 +419,7 @@
   <Message key="Colors Page" value="Теми" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введіть назву схеми та натисніть кнопку Зберегти" revision="0" />
   <Message key="ColorSchemeExists" value="Колірна схема вже існує. Ви хочете її перезаписати?" revision="0" />
-  <Message key="PredefinedModifyError" value="Зміна попередньо встановленої колірної схеми заборонена. Редагувати можна тільки користувацькі схеми. Будь ласка, введіть ім'я, яке не збігається з жодним з імен попередньо встановлених схем." revision="0" />
+  <Message key="PredefinedModifyError" value="Змінювати вбудовані схеми заборонено. Редагувати можна лише користувацькі схеми. Введіть назву, яка не збігається з назвою жодної вбудованої схеми." revision="1" />
   <Message key="Theme:" value="Тема:" revision="0" />
   <Message key="Display elements:" value="Колірні елементи:" revision="0" />
   <Message key="Automatic" value="Автоматично" revision="0" />

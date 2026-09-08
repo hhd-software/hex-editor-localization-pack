@@ -419,7 +419,7 @@
   <Message key="Colors Page" value="Motywy" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Wprowadź nazwę schematu i naciśnij przycisk Zapisz" revision="0" />
   <Message key="ColorSchemeExists" value="Schemat kolorów już istnieje. Czy chcesz go nadpisać?" revision="0" />
-  <Message key="PredefinedModifyError" value="Modyfikowanie predefiniowanych schematów kolorów jest zabronione. Edytować można tylko schematy użytkownika. Wprowadź nazwę, która nie pasuje do żadnej predefiniowanej nazwy schematu." revision="0" />
+  <Message key="PredefinedModifyError" value="Zmiana gotowych schematów jest zabroniona. Edytować można wyłącznie schematy użytkownika. Proszę wprowadzić nazwę, która nie pokrywa się z nazwą żadnego gotowego schematu." revision="1" />
   <Message key="Theme:" value="Temat:" revision="0" />
   <Message key="Display elements:" value="Elementy wyświetlacza:" revision="0" />
   <Message key="Automatic" value="Automatycznie" revision="0" />

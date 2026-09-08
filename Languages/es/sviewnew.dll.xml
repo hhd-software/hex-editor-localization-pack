@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Configurar el editor externo…" revision="0" />
   <Message key="Regular expression:" value="Expresión regular:" revision="0" />
   <Message key="Associated scheme:" value="Esquema asociado:" revision="0" />
+  <Message key="Check for library updates" value="Comprueba si hay actualizaciones de la biblioteca" revision="0" />
+  <Message key="Public release channel" value="Canal de distribución pública" revision="0" />
+  <Message key="Commit channel" value="Canal de confirmación" revision="0" />
+  <Message key="Do not check for updates" value="No buscar actualizaciones" revision="0" />
   <Message key="Structure Coloring" value="Coloreado de Estructuras" revision="0" />
   <Message key="Apply" value="Aplicar" revision="0" />
   <Message key="Bind Structure" value="Unir Estructura" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="&amp;Actualizar " revision="0" />
   <Message key="Settings" value="&amp;Ajustes…" revision="0" />
   <Message key="Online Repository" value="Repositorio online…" revision="0" />
+  <Message key="FileNotFound" value="Archivo no encontrado" revision="0" />
+  <Message key="CopyColumnError" value="El índice de la columna está fuera de rango" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Configura el editor de archivos de texto externo que utilizará Visor de Estructura" revision="0" />
+  <Message key="ExternalEditorTip" value="Consejo: utiliza los siguientes marcadores de posición:\n   » %path%: ruta al archivo de origen\n   » %line%: línea del archivo de origen\n   » %pos%: posición en la línea" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Unir…" revision="0" />
     <Item value="Unir una nueva estructura" revision="0" />

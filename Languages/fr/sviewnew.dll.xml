@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Configurer éditeur externe…" revision="0" />
   <Message key="Regular expression:" value="Expression régulière:" revision="0" />
   <Message key="Associated scheme:" value="Schéma associé:" revision="0" />
+  <Message key="Check for library updates" value="Vérifier les mises à jour des bibliothèques" revision="0" />
+  <Message key="Public release channel" value="Canal de diffusion publique" revision="0" />
+  <Message key="Commit channel" value="Canal de validation" revision="0" />
+  <Message key="Do not check for updates" value="Ne pas rechercher les mises à jour" revision="0" />
   <Message key="Structure Coloring" value="Coloriage des Structures" revision="0" />
   <Message key="Apply" value="Appliquer" revision="0" />
   <Message key="Bind Structure" value="Lier Structures" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="&amp;Actualisation" revision="0" />
   <Message key="Settings" value="&amp;Paramètres…" revision="0" />
   <Message key="Online Repository" value="Dépôt en ligne…" revision="0" />
+  <Message key="FileNotFound" value="Fichier introuvable" revision="0" />
+  <Message key="CopyColumnError" value="L'index de colonne est hors limites" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Configurer l'éditeur de fichiers texte externe à utiliser avec Vue de Structure" revision="0" />
+  <Message key="ExternalEditorTip" value="Astuce : utilisez les variables de remplacement suivantes :\n  » %path% - chemin d'accès au fichier source\n  » %line% - ligne du fichier source\n  » %pos% - position dans la ligne" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Lier…" revision="0" />
     <Item value="Lier nouvelle structure" revision="0" />

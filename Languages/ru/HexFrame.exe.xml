@@ -419,7 +419,7 @@
   <Message key="Colors Page" value="Темы" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введите имя схемы и нажмите кнопку Сохранить" revision="0" />
   <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Вы хотите перезаписать её?" revision="0" />
-  <Message key="PredefinedModifyError" value="Изменение предустановленной цветовой схемы запрещено. Редактировать можно только пользовательские схемы. Пожалуйста, введите имя, которое не совпадает ни с одним из имен предустановленных схем." revision="0" />
+  <Message key="PredefinedModifyError" value="Изменение предустановленных схем запрещено. Редактировать можно только пользовательские схемы. Введите имя, которое не совпадает с именем какой-либо предустановленной схемы." revision="1" />
   <Message key="Theme:" value="Тема:" revision="0" />
   <Message key="Display elements:" value="Цветовые элементы:" revision="0" />
   <Message key="Automatic" value="Автоматически" revision="0" />

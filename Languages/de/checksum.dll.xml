@@ -5,6 +5,10 @@
   <Message key="16-bit sum" value="16-bit Summe" revision="1" />
   <Message key="32-bit sum" value="32-bit Summe" revision="1" />
   <Message key="64-bit sum" value="64-bit Summe" revision="1" />
+  <Message key="8-bit XOR" value="8-Bit-XOR" revision="0" />
+  <Message key="16-bit XOR" value="16-Bit-XOR" revision="0" />
+  <Message key="32-bit XOR" value="32-Bit-XOR" revision="0" />
+  <Message key="64-bit XOR" value="64-Bit-XOR" revision="0" />
   <Message key="Zero bits" value="Anzahl NULL Bits" revision="0" />
   <Message key="One bits" value="Anzahl EINS Bits" revision="0" />
   <Message key="Sum of Little-Endian 16-bit values" value="Summe von Little-Endian 16-bit Werten" revision="1" />
@@ -80,7 +84,7 @@
     <Item value="" revision="3" />
     <Item value="Hashes" revision="3" />
     <Item value="Summen mit Vorzeichen" revision="3" />
-    <Item />
+    <Item value="Exklusiv-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Prüfsummen" revision="0" />

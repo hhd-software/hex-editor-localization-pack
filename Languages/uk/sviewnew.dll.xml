@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Налаштувати зовнішній редактор…" revision="0" />
   <Message key="Regular expression:" value="Регулярний вираз:" revision="0" />
   <Message key="Associated scheme:" value="Асоційована схема:" revision="0" />
+  <Message key="Check for library updates" value="Перевірити наявність оновлень бібліотек" revision="0" />
+  <Message key="Public release channel" value="Канал публічного релізу" revision="0" />
+  <Message key="Commit channel" value="Канал комітів" revision="0" />
+  <Message key="Do not check for updates" value="Не перевіряти наявність оновлень" revision="0" />
   <Message key="Structure Coloring" value="Колірні схеми" revision="0" />
   <Message key="Apply" value="Застосувати" revision="0" />
   <Message key="Bind Structure" value="Прив'язати структуру" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="&amp;Оновити" revision="0" />
   <Message key="Settings" value="&amp;Налаштування…" revision="0" />
   <Message key="Online Repository" value="Онлайн-репозиторій…" revision="0" />
+  <Message key="FileNotFound" value="Файл не знайдено" revision="0" />
+  <Message key="CopyColumnError" value="Індекс стовпця виходить за межі діапазону" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Налаштуйте зовнішній редактор текстових файлів, який використовуватиме Оглядач структур" revision="0" />
+  <Message key="ExternalEditorTip" value="Порада: використовуйте такі заповнювачі:\n   » %path% - шлях до вихідного файлу\n   » %line% - рядок у вихідному файлі\n   » %pos% - позиція в рядку" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Прив'язати…" revision="0" />
     <Item value="Прив'язати нову структуру" revision="0" />

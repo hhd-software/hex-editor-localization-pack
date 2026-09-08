@@ -418,7 +418,6 @@
   <Message key="Colors Page" value="テーマ" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="名前を入力して保存" revision="0" />
   <Message key="ColorSchemeExists" value="カラースキームはすでに存在します。 上書きしますか?" revision="0" />
-  <Message key="PredefinedModifyError" value="事前定義された配色の変更は禁止されています。 編集できるのはユーザー スキームのみです。 事前定義されたスキーム名と一致しない名前を入力してください。" revision="0" />
   <Message key="Theme:" value="テーマ :" revision="0" />
   <Message key="Display elements:" value="表示要素 :" revision="0" />
   <Message key="Automatic" value="自動" revision="0" />

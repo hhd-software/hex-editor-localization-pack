@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Skonfiguruj edytor zewnętrzny…" revision="0" />
   <Message key="Regular expression:" value="Wyrażenie regularne:" revision="0" />
   <Message key="Associated scheme:" value="Powiązany schemat:" revision="0" />
+  <Message key="Check for library updates" value="Sprawdź, czy są dostępne aktualizacje bibliotek" revision="0" />
+  <Message key="Public release channel" value="Kanał publiczny" revision="0" />
+  <Message key="Commit channel" value="Kanał zatwierdzeń" revision="0" />
+  <Message key="Do not check for updates" value="Nie sprawdzaj dostępności aktualizacji" revision="0" />
   <Message key="Structure Coloring" value="Kolorowanie struktury" revision="0" />
   <Message key="Apply" value="Zastosuj" revision="0" />
   <Message key="Bind Structure" value="Struktura wiązania" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="&amp;Aktualizuj teraz" revision="0" />
   <Message key="Settings" value="&amp;Ustawienia…" revision="0" />
   <Message key="Online Repository" value="Repozytorium online…" revision="0" />
+  <Message key="FileNotFound" value="Nie znaleziono pliku" revision="0" />
+  <Message key="CopyColumnError" value="Indeks kolumny wykracza poza zakres" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Skonfiguruj zewnętrzny edytor plików tekstowych, z którego będzie korzystał Widok struktury" revision="0" />
+  <Message key="ExternalEditorTip" value="Wskazówka: użyj następujących symboli zastępczych:\n   » %path% - ścieżka do pliku źródłowego\n   » %line% - wiersz w pliku źródłowym\n   » %pos% - pozycja w wierszu" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Powiąż…" revision="0" />
     <Item value="Powiąż nową strukturę" revision="0" />

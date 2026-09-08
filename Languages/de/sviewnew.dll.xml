@@ -61,6 +61,10 @@
   <Message key="Configure external editor" value="Konfiguration externer Editor…" revision="0" />
   <Message key="Regular expression:" value="Regulärer Ausdruck:" revision="0" />
   <Message key="Associated scheme:" value="Verknüpftes Schema:" revision="0" />
+  <Message key="Check for library updates" value="Auf Bibliotheksaktualisierungen prüfen" revision="0" />
+  <Message key="Public release channel" value="Öffentlicher Veröffentlichungskanal" revision="0" />
+  <Message key="Commit channel" value="Commit-Kanal" revision="0" />
+  <Message key="Do not check for updates" value="Nicht nach Updates suchen" revision="0" />
   <Message key="Structure Coloring" value="Einfärbung Struktur" revision="0" />
   <Message key="Apply" value="Übernehmen" revision="0" />
   <Message key="Bind Structure" value="Struktur verknüpfen (verbinden)" revision="0" />
@@ -120,6 +124,10 @@
   <Message key="&amp;Update Now" value="Jetzt &amp;Aktualisieren" revision="0" />
   <Message key="Settings" value="&amp;Einstellungen…" revision="0" />
   <Message key="Online Repository" value="Online-Repositorium…" revision="0" />
+  <Message key="FileNotFound" value="Datei nicht gefunden" revision="0" />
+  <Message key="CopyColumnError" value="Der Spaltenindex liegt außerhalb des zulässigen Bereichs" revision="0" />
+  <Message key="Configure the external text file editor to be used by Structure Viewer" value="Konfigurieren Sie den externen Textdatei-Editor, der von Struktur Betrachter verwendet werden soll" revision="0" />
+  <Message key="ExternalEditorTip" value="Tipp: Verwenden Sie die folgenden Platzhalter:\n   » %path% - Pfad zur Quelldatei\n   » %line% - Zeile in der Quelldatei\n   » %pos% - Position in der Zeile" revision="0" />
   <Enumeration key="StructureViewerBind">
     <Item value="Verknüpfen… " revision="0" />
     <Item value="Verknüpft (bzw. verbindet) eine neue Struktur" revision="0" />

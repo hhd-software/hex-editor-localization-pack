@@ -419,7 +419,7 @@
   <Message key="Colors Page" value="Thèmes" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Saisissez le nom du schéma et appuyez sur le bouton Enregistrer" revision="0" />
   <Message key="ColorSchemeExists" value="Le schéma de couleurs existe déjà. Voulez-vous le remplacer?" revision="0" />
-  <Message key="PredefinedModifyError" value="Il est interdit de modifier les schémas de couleurs prédéfinis. Seuls les modèles de l'utilisateur peuvent être modifiés. Veuillez saisir un nom qui ne correspond à aucun nom de schéma prédéfini." revision="0" />
+  <Message key="PredefinedModifyError" value="Il est interdit de modifier les schémas prédéfinis. Seuls les schémas utilisateur peuvent être modifiés. Veuillez saisir un nom qui ne corresponde à aucun nom de schéma prédéfini." revision="1" />
   <Message key="Theme:" value="Thème:" revision="0" />
   <Message key="Display elements:" value="Éléments d'affichage:" revision="0" />
   <Message key="Automatic" value="Automatique" revision="0" />

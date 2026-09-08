@@ -398,7 +398,6 @@
   <Message key="Colors Page" value="主题" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="输入方案名称，然后按保存按钮" revision="0" />
   <Message key="ColorSchemeExists" value="配色方案已经存在。您想覆盖它吗？" revision="0" />
-  <Message key="PredefinedModifyError" value="禁止修改预定义的配色方案。只能编辑用户方案。请输入与任何预定义方案名称不匹配的名称。" revision="0" />
   <Message key="Theme:" value="主题:" revision="0" />
   <Message key="Display elements:" value="显示元素:" revision="0" />
   <Message key="Automatic" value="自动的" revision="0" />
