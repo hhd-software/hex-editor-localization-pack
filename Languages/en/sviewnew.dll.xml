@@ -555,4 +555,8 @@
 	<Message key="FileNotFound" description="File not found (error description)" value="File not found"/>
 	<Message key="CopyColumnError" description="Column index is out of range (error description)" value="Column index is out of range"/>
 
+	<!-- External Editor Dialog -->
+	<Message key="Configure the external text file editor to be used by Structure Viewer" description="Field: Configure the external text file editor to be used by Structure Viewer" />
+	<Message key="ExternalEditorTip" description="External editor window help" value="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" />
+	
 </Definition>
