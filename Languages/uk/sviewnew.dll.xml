@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="Оглядач структур" revision="0" />
   <Message key="Include directories" value="Папки включення" revision="0" />
   <Message key="File associations" value="Асоціації файлів" revision="0" />
-  <Message key="Configure external editor…" value="Налаштувати зовнішній редактор…" revision="0" />
+  <Message key="Configure external editor" value="Налаштувати зовнішній редактор…" revision="0" />
   <Message key="Regular expression:" value="Регулярний вираз:" revision="0" />
   <Message key="Associated scheme:" value="Асоційована схема:" revision="0" />
   <Message key="Structure Coloring" value="Колірні схеми" revision="0" />

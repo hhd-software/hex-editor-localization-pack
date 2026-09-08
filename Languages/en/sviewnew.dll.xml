@@ -204,7 +204,7 @@
 
   <!-- Dialogs -->
   <!-- External editor -->
-  <Message key="External Editor" description="Extrenal Editor window title"/>
+  <Message key="External Editor" description="Window title: External Editor" />
   <Message key="Configure the external text file editor to be used by Structure Viewer:" description="Field: Configure the external text file editor to be used by Structure Viewer:"/>
   <Message key="Clear" description="Button: Clear"/>
   <Message key="Tip: use the following placeholders:\n   » %path% - path to source file\n   » %line% - line in source file\n   » %pos% - position in line" description="Tip: placeholders"/>
@@ -220,9 +220,13 @@
   <Message key="Structure Viewer Page" description="Structure Viewer Page" value="Structure Viewer"/>
   <Message key="Include directories" description="Field: Include directories"/>
   <Message key="File associations" description="Field: File associations"/>
-  <Message key="Configure external editor…" description="Button: Configure external editor…"/>
+  <Message key="Configure external editor" description="Button: Configure external editor…" value="Configure external editor…"/>
   <Message key="Regular expression:" description="Field: Regular expression:"/>
   <Message key="Associated scheme:" description="Field: Associated scheme"/>
+	<Message key="Check for library updates" description="Field: Check for library updates"/>
+	<Message key="Public release channel" description="Choice: Public release channel"/>
+	<Message key="Commit channel" description="Choice: Commit channel"/>
+	<Message key="Do not check for updates" description="Choice: Do not check for updates"/>
 
   <!-- Structure Coloring -->
   <Message key="Structure Coloring" description="Structure Coloring window title"/>
@@ -548,4 +552,7 @@
 	<Message key="&amp;Update Now" description="Button: Update Now" />
 	<Message key="Settings" description="Button: Settings…" value="&amp;Settings…" />
 	<Message key="Online Repository" description="Button: Online Repository" value="Online repository…"></Message>
+	<Message key="FileNotFound" description="File not found (error description)" value="File not found"/>
+	<Message key="CopyColumnError" description="Column index is out of range (error description)" value="Column index is out of range"/>
+
 </Definition>

@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="Przeglądarka struktury" revision="0" />
   <Message key="Include directories" value="Dołącz katalogi" revision="0" />
   <Message key="File associations" value="Skojarzenia plików" revision="0" />
-  <Message key="Configure external editor…" value="Skonfiguruj edytor zewnętrzny…" revision="0" />
+  <Message key="Configure external editor" value="Skonfiguruj edytor zewnętrzny…" revision="0" />
   <Message key="Regular expression:" value="Wyrażenie regularne:" revision="0" />
   <Message key="Associated scheme:" value="Powiązany schemat:" revision="0" />
   <Message key="Structure Coloring" value="Kolorowanie struktury" revision="0" />

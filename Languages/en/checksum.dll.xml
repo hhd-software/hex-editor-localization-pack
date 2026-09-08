@@ -9,7 +9,7 @@
 		<Item text="Colon (':')"/>
 		<Item text="Semicolon (';')"/>
 	</Enumeration>
-	<Enumeration key="Algorithm groups" description="Algorithm group names. End with minus to hide group" revision="3">
+	<Enumeration key="Algorithm groups" description="Algorithm group names. End with minus to hide group" revision="4">
 		<Item text="Simple summators"/>
 		<Item text="More summators"/>
 		<Item text="Checksum"/>
@@ -17,11 +17,18 @@
 		<Item optional="true" text="xxHash"/>
 		<Item text="Hashes"/>
 		<Item text="Signed sums-"/>
+		<Item text="Exclusive-OR (XOR)"/>
 	</Enumeration>
 	<Message key="8-bit sum" description="Algorithm: 8-bit sum" revision="1"/>
 	<Message key="16-bit sum" description="Algorithm: 16-bit sum" revision="1"/>
 	<Message key="32-bit sum" description="Algorithm: 32-bit sum" revision="1"/>
 	<Message key="64-bit sum" description="Algorithm: 64-bit sum" revision="1"/>
+	
+	<Message key="8-bit XOR" description="Algorithm: 8-bit XOR" />
+	<Message key="16-bit XOR" description="Algorithm: 16-bit XOR" />
+	<Message key="32-bit XOR" description="Algorithm: 32-bit XOR" />
+	<Message key="64-bit XOR" description="Algorithm: 64-bit XOR" />
+
 	<Message key="Zero bits" description="Algorithm: count zero bits"/>
 	<Message key="One bits" description="Algorithm: count one bits"/>
 	<Message key="Sum of Little-Endian 16-bit values" description="Algorithm: Sum of Little-Endian 16-bit values" revision="1"/>

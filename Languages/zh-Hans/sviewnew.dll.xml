@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="结构查看器" revision="0" />
   <Message key="Include directories" value="包括目录" revision="0" />
   <Message key="File associations" value="文件关联" revision="0" />
-  <Message key="Configure external editor…" value="配置外部编辑器…" revision="0" />
+  <Message key="Configure external editor" value="配置外部编辑器…" revision="0" />
   <Message key="Regular expression:" value="正则表达式…" revision="0" />
   <Message key="Associated scheme:" value="关联的方案:" revision="0" />
   <Message key="Structure Coloring" value="结构颜色" revision="0" />

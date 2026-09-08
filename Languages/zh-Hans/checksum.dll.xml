@@ -73,6 +73,7 @@
     <Item value="" revision="2" />
     <Item value="哈希值" revision="3" />
     <Item value="有符号的和" revision="3" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;校验码" revision="0" />

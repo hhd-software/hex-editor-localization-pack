@@ -80,6 +80,7 @@
     <Item value="" revision="2" />
     <Item value="ハッシュ" revision="3" />
     <Item value="Signed sums-" revision="3" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="チェックサム(&amp;C)" revision="0" />

@@ -80,6 +80,7 @@
     <Item value="" revision="2" />
     <Item value="Hasze" revision="3" />
     <Item value="Podpisane sumy-" revision="3" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Suma kontrolna" revision="0" />

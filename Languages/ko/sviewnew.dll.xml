@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="구조 뷰어" revision="0" />
   <Message key="Include directories" value="디렉터리 포함" revision="0" />
   <Message key="File associations" value="파일 연결" revision="0" />
-  <Message key="Configure external editor…" value="외부 편집기 구성…" revision="0" />
+  <Message key="Configure external editor" value="외부 편집기 구성…" revision="0" />
   <Message key="Regular expression:" value="정규식:" revision="0" />
   <Message key="Associated scheme:" value="연결된 구성표:" revision="0" />
   <Message key="Structure Coloring" value="구조 배색" revision="0" />

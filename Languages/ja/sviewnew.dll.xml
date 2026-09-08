@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="構造体ビューア" revision="0" />
   <Message key="Include directories" value="ディレクトリを含める" revision="0" />
   <Message key="File associations" value="ファイルの関連付け" revision="0" />
-  <Message key="Configure external editor…" value="外部エディタの設定…" revision="0" />
+  <Message key="Configure external editor" value="外部エディタの設定…" revision="0" />
   <Message key="Regular expression:" value="正規表現 :" revision="0" />
   <Message key="Associated scheme:" value="スキームの関連付け" revision="0" />
   <Message key="Structure Coloring" value="構造体のカラーリング" revision="0" />

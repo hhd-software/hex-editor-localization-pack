@@ -80,6 +80,7 @@
     <Item value="" revision="2" />
     <Item value="Impronte" revision="3" />
     <Item value="Somme segnate-" revision="3" />
+    <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">
     <Item value="&amp;Somma di controllo" revision="0" />

@@ -58,7 +58,7 @@
   <Message key="Structure Viewer Page" value="Структуры" revision="0" />
   <Message key="Include directories" value="Папки включения" revision="0" />
   <Message key="File associations" value="Назначения на файлы" revision="0" />
-  <Message key="Configure external editor…" value="Настроить внешний редактор…" revision="0" />
+  <Message key="Configure external editor" value="Настроить внешний редактор…" revision="0" />
   <Message key="Regular expression:" value="Регулярное выражение:" revision="0" />
   <Message key="Associated scheme:" value="Связанная схема:" revision="0" />
   <Message key="Structure Coloring" value="Цветовые схемы" revision="0" />

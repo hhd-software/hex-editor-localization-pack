@@ -1366,7 +1366,7 @@
 
 	<Message key="Enter the scheme name and press the Save button" description="Color scheme name banner" />
 	<Message key="ColorSchemeExists" description="Color scheme overwrite prompt" value="Color scheme already exists. Do you want to override it?"/>
-	<Message key="PredefinedModifyError" description="Error: Modification of predefined scheme" value="Modifying predefined color scheme is forbidden. Only user schemes can be edited. Please enter a name that does not match any predefined scheme name."/>
+	<Message key="PredefinedModifyError" description="Error: Modification of predefined scheme" value="Modifying predefined scheme is forbidden. Only user schemes can be edited. Please enter a name that does not match any predefined scheme name." revision="1"/>
 
 	<!-- Theme page -->
 	<Message key="Theme:" description="Field: Theme" />
