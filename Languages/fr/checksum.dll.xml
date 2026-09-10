@@ -77,13 +77,13 @@
     <Item value="Point-Virgule (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Sommateurs simple" revision="3" />
-    <Item value="Sommateurs supplémentaires" revision="3" />
-    <Item value="Somme de contrôle" revision="3" />
-    <Item value="Hachages Fowler-Noll-Vo (FNV)" revision="3" />
+    <Item value="Sommateurs simple" revision="4" />
+    <Item value="Sommateurs supplémentaires" revision="4" />
+    <Item value="Somme de contrôle" revision="4" />
+    <Item value="Hachages Fowler-Noll-Vo (FNV)" revision="4" />
     <Item value="" revision="2" />
-    <Item value="Hachages" revision="3" />
-    <Item value="Sommes signés-" revision="3" />
+    <Item value="Hachages" revision="4" />
+    <Item value="Sommes signés-" revision="4" />
     <Item value="Exclusif-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">

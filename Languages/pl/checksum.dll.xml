@@ -77,13 +77,13 @@
     <Item value="Średnik (&quot;;&quot;)" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Sumatory proste" revision="3" />
-    <Item value="Więcej sumatorów" revision="3" />
-    <Item value="Suma kontrolna" revision="3" />
-    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="3" />
+    <Item value="Sumatory proste" revision="4" />
+    <Item value="Więcej sumatorów" revision="4" />
+    <Item value="Suma kontrolna" revision="4" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="4" />
     <Item value="" revision="2" />
-    <Item value="Hasze" revision="3" />
-    <Item value="Podpisane sumy-" revision="3" />
+    <Item value="Hasze" revision="4" />
+    <Item value="Podpisane sumy-" revision="4" />
     <Item value="Wykluczająca-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">

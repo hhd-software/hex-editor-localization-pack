@@ -77,13 +77,13 @@
     <Item value="Крапка з комою (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Прості суми" revision="3" />
-    <Item value="Додаткові суми" revision="3" />
-    <Item value="Контрольні суми" revision="3" />
-    <Item value="Хеши Fowler–Noll–Vo (FNV)" revision="3" />
+    <Item value="Прості суми" revision="4" />
+    <Item value="Додаткові суми" revision="4" />
+    <Item value="Контрольні суми" revision="4" />
+    <Item value="Хеши Fowler–Noll–Vo (FNV)" revision="4" />
     <Item value="" revision="2" />
-    <Item value="Хеши" revision="3" />
-    <Item value="Знакові суми" revision="3" />
+    <Item value="Хеши" revision="4" />
+    <Item value="Знакові суми-" revision="4" />
     <Item value="Ексклюзивне-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">

@@ -77,13 +77,13 @@
     <Item value="Ponto e vírgula (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Somador simples" revision="3" />
-    <Item value="Mais somadores" revision="3" />
-    <Item value="Checksum" revision="3" />
-    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="3" />
+    <Item value="Somador simples" revision="4" />
+    <Item value="Mais somadores" revision="4" />
+    <Item value="Checksum" revision="4" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="4" />
     <Item value="" revision="2" />
-    <Item value="Hashes" revision="3" />
-    <Item value="Soma - assinada" revision="3" />
+    <Item value="Hashes" revision="4" />
+    <Item value="Soma - assinada-" revision="4" />
     <Item value="Exclusivo-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">

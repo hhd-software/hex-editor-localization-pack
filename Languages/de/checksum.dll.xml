@@ -77,13 +77,13 @@
     <Item value="Strichpunkt (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Einfache Summen" revision="3" />
-    <Item value="Mehr Summen" revision="3" />
-    <Item value="Prüfsummen" revision="3" />
-    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="3" />
+    <Item value="Einfache Summen" revision="4" />
+    <Item value="Mehr Summen" revision="4" />
+    <Item value="Prüfsummen" revision="4" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="4" />
     <Item value="" revision="3" />
-    <Item value="Hashes" revision="3" />
-    <Item value="Summen mit Vorzeichen" revision="3" />
+    <Item value="Hashes" revision="4" />
+    <Item value="Summen mit Vorzeichen-" revision="4" />
     <Item value="Exklusiv-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">

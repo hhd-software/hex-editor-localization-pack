@@ -73,13 +73,13 @@
     <Item value="セミコロン (';')" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Simple summators" revision="3" />
-    <Item value="More summators" revision="3" />
-    <Item value="チェックサム" revision="3" />
-    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="3" />
+    <Item value="Simple summators" revision="4" />
+    <Item value="More summators" revision="4" />
+    <Item value="チェックサム" revision="4" />
+    <Item value="Fowler–Noll–Vo (FNV) Hashes" revision="4" />
     <Item value="" revision="2" />
-    <Item value="ハッシュ" revision="3" />
-    <Item value="Signed sums-" revision="3" />
+    <Item value="ハッシュ" revision="4" />
+    <Item value="Signed sums-" revision="4" />
     <Item />
   </Enumeration>
   <Enumeration key="MenuChecksum">

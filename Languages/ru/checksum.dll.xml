@@ -77,13 +77,13 @@
     <Item value="Точка с запятой" revision="1" />
   </Enumeration>
   <Enumeration key="Algorithm groups">
-    <Item value="Простые суммы" revision="3" />
-    <Item value="Дополнительные суммы" revision="3" />
-    <Item value="Контрольные суммы" revision="3" />
-    <Item value="Хэши Fowler–Noll–Vo (FNV)" revision="3" />
+    <Item value="Простые суммы" revision="4" />
+    <Item value="Дополнительные суммы" revision="4" />
+    <Item value="Контрольные суммы" revision="4" />
+    <Item value="Хэши Fowler–Noll–Vo (FNV)" revision="4" />
     <Item value="" revision="2" />
-    <Item value="Хэши" revision="3" />
-    <Item value="Знаковые суммы-" revision="3" />
+    <Item value="Хэши" revision="4" />
+    <Item value="Знаковые суммы-" revision="4" />
     <Item value="Исключающее-OR (XOR)" revision="4" />
   </Enumeration>
   <Enumeration key="MenuChecksum">
