@@ -126,6 +126,8 @@
   <Message key="Online Repository" value="Dépôt en ligne…" revision="0" />
   <Message key="FileNotFound" value="Fichier introuvable" revision="0" />
   <Message key="CopyColumnError" value="L'index de colonne est hors limites" revision="0" />
+  <Message key="ItemIsInvalid" value="Élément non valide" revision="0" />
+  <Message key="ItemNotFound" value="Élément introuvable" revision="0" />
   <Message key="Configure the external text file editor to be used by Structure Viewer" value="Configurer l'éditeur de fichiers texte externe à utiliser avec Vue de Structure" revision="0" />
   <Message key="ExternalEditorTip" value="Astuce : utilisez les variables de remplacement suivantes :\n  » %path% - chemin d'accès au fichier source\n  » %line% - ligne du fichier source\n  » %pos% - position dans la ligne" revision="0" />
   <Enumeration key="StructureViewerBind">

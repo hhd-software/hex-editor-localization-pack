@@ -126,6 +126,8 @@
   <Message key="Online Repository" value="Онлайн-репозиторий…" revision="0" />
   <Message key="FileNotFound" value="Файл не найден" revision="0" />
   <Message key="CopyColumnError" value="Индекс столбца выходит за пределы диапазона" revision="0" />
+  <Message key="ItemIsInvalid" value="Недопустимый элемент" revision="0" />
+  <Message key="ItemNotFound" value="Элемент не найден" revision="0" />
   <Message key="Configure the external text file editor to be used by Structure Viewer" value="Настройте внешний редактор текстовых файлов для использования в Структурах" revision="0" />
   <Message key="ExternalEditorTip" value="Совет: используйте следующие элементы:\n   » %path% - путь к исходному файлу\n   » %line% - строка в исходном файле\n   » %pos% - позиция в строке" revision="0" />
   <Enumeration key="StructureViewerBind">

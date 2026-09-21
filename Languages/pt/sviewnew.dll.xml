@@ -126,6 +126,8 @@
   <Message key="Online Repository" value="Repositório online…" revision="0" />
   <Message key="FileNotFound" value="Ficheiro não encontrado" revision="0" />
   <Message key="CopyColumnError" value="O índice da coluna está fora do intervalo" revision="0" />
+  <Message key="ItemIsInvalid" value="Elemento inválido" revision="0" />
+  <Message key="ItemNotFound" value="Elemento não encontrado" revision="0" />
   <Message key="Configure the external text file editor to be used by Structure Viewer" value="Configurar o editor de ficheiros de texto externo a utilizar pelo Visualizador de Estrutura" revision="0" />
   <Message key="ExternalEditorTip" value="Dica: utilize os seguintes marcadores de lugar:\n   » %path% - caminho para o ficheiro de origem\n   » %line% - linha no ficheiro de origem\n   » %pos% - posição na linha" revision="0" />
   <Enumeration key="StructureViewerBind">

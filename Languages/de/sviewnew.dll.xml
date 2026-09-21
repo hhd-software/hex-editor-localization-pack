@@ -126,6 +126,8 @@
   <Message key="Online Repository" value="Online-Repositorium…" revision="0" />
   <Message key="FileNotFound" value="Datei nicht gefunden" revision="0" />
   <Message key="CopyColumnError" value="Der Spaltenindex liegt außerhalb des zulässigen Bereichs" revision="0" />
+  <Message key="ItemIsInvalid" value="Ungültiges Element" revision="0" />
+  <Message key="ItemNotFound" value="Element nicht gefunden" revision="0" />
   <Message key="Configure the external text file editor to be used by Structure Viewer" value="Konfigurieren Sie den externen Textdatei-Editor, der von Struktur Betrachter verwendet werden soll" revision="0" />
   <Message key="ExternalEditorTip" value="Tipp: Verwenden Sie die folgenden Platzhalter:\n   » %path% - Pfad zur Quelldatei\n   » %line% - Zeile in der Quelldatei\n   » %pos% - Position in der Zeile" revision="0" />
   <Enumeration key="StructureViewerBind">

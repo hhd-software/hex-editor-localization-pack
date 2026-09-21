@@ -126,6 +126,8 @@
   <Message key="Online Repository" value="Онлайн-репозиторій…" revision="0" />
   <Message key="FileNotFound" value="Файл не знайдено" revision="0" />
   <Message key="CopyColumnError" value="Індекс стовпця виходить за межі діапазону" revision="0" />
+  <Message key="ItemIsInvalid" value="Недійсний елемент" revision="0" />
+  <Message key="ItemNotFound" value="Елемент не знайдено" revision="0" />
   <Message key="Configure the external text file editor to be used by Structure Viewer" value="Налаштуйте зовнішній редактор текстових файлів, який використовуватиме Оглядач структур" revision="0" />
   <Message key="ExternalEditorTip" value="Порада: використовуйте такі заповнювачі:\n   » %path% - шлях до вихідного файлу\n   » %line% - рядок у вихідному файлі\n   » %pos% - позиція в рядку" revision="0" />
   <Enumeration key="StructureViewerBind">
