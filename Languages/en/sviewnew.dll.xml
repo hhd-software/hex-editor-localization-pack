@@ -554,6 +554,8 @@
 	<Message key="Online Repository" description="Button: Online Repository" value="Online repository…"></Message>
 	<Message key="FileNotFound" description="File not found (error description)" value="File not found"/>
 	<Message key="CopyColumnError" description="Column index is out of range (error description)" value="Column index is out of range"/>
+	<Message key="ItemIsInvalid" description="Item is invalid (error description)" value="Item is not valid"/>
+	<Message key="ItemNotFound" description="Item not found (error description)" value="Item not found"/>
 
 	<!-- External Editor Dialog -->
 	<Message key="Configure the external text file editor to be used by Structure Viewer" description="Field: Configure the external text file editor to be used by Structure Viewer" />
