@@ -367,6 +367,8 @@
 	<Message key="toolbar.Goto" description="Toolbar: Navigation window" value="Navigation" />
 	<Message key="menu.HexViewPopup" description="Menu: Hex View popup" value="Hex window popup menu" />
 
+	<Message key="Continuous" description="Shift operation mode" />
+	
   <Enumeration key="ArithmeticOperations" description="Arithmetic operations" revision="1">
     <Item text="Negation"/>
     <Item text="Addition"/>
