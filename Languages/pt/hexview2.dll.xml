@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navegação" revision="0" />
   <Message key="menu.HexViewPopup" value="Menu pop-up da janela hexadecimal" revision="0" />
+  <Message key="Continuous" value="Contínuo" revision="0" />
   <Message key="Offset" value="Endereço" revision="1" />
   <Message key="SchemeNameCue" value="Digite o nome do esquema aqui" revision="1" />
   <Message key="Encrypt" value="Criptografado" revision="1" />

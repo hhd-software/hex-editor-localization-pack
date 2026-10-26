@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="导航" revision="0" />
+  <Message key="Continuous" value="连续" revision="0" />
   <Message key="Offset" value="偏移" revision="1" />
   <Message key="SchemeNameCue" value="在此输入方案名" revision="1" />
   <Message key="Encrypt" value="加密" revision="1" />

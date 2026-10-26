@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="ナビゲーション" revision="0" />
   <Message key="menu.HexViewPopup" value="Hex window popup menu" revision="0" />
+  <Message key="Continuous" value="連続" revision="0" />
   <Message key="Offset" value="オフセット" revision="1" />
   <Message key="SchemeNameCue" value="ここにスキーム名を入力" revision="1" />
   <Message key="Encrypt" value="暗号化" revision="1" />

@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navigationsfenster" revision="0" />
   <Message key="menu.HexViewPopup" value="Hex-Fenster-Popup-Menü" revision="0" />
+  <Message key="Continuous" value="Kontinuierlich" revision="0" />
   <Message key="Offset" value="Versatz" revision="1" />
   <Message key="SchemeNameCue" value="Gebe den Schema-Namen hier ein" revision="1" />
   <Message key="Encrypt" value="Verschlüsseln" revision="1" />

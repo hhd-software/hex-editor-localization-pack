@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Навігація" revision="0" />
   <Message key="menu.HexViewPopup" value="Спливаюче меню Hex вікна " revision="0" />
+  <Message key="Continuous" value="Безперервний" revision="0" />
   <Message key="Offset" value="Зміщення" revision="1" />
   <Message key="SchemeNameCue" value="Введіть ім'я схеми тут" revision="1" />
   <Message key="Encrypt" value="Шифрувати" revision="1" />

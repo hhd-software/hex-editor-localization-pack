@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="Navigazione" revision="0" />
   <Message key="menu.HexViewPopup" value="Menu a comparsa della finestra esadecimale" revision="0" />
+  <Message key="Continuous" value="Continuo" revision="0" />
   <Message key="Offset" value="Scostamento" revision="1" />
   <Message key="SchemeNameCue" value=" Inserisci il nome dello schema qui" revision="1" />
   <Message key="Encrypt" value="Cripta" revision="1" />

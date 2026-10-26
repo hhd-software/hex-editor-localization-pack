@@ -2,6 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="toolbar.Goto" value="탐색" revision="0" />
   <Message key="menu.HexViewPopup" value="헥스 창 팝업 메뉴" revision="0" />
+  <Message key="Continuous" value="연속" revision="0" />
   <Message key="Offset" value="오프셋" revision="1" />
   <Message key="SchemeNameCue" value=" 구성표 이름을 여기에 입력" revision="1" />
   <Message key="Encrypt" value="암호화" revision="1" />
