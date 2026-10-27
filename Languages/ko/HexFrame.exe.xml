@@ -323,12 +323,12 @@
   <Message key="Auto" value="자동" revision="0" />
   <Message key="Physical disk" value="물리적 메모리" revision="0" />
   <Message key="Volume" value="볼륨" revision="0" />
-  <Message key="Value is out of range" value="지정된 값 [[[p{value}]]이 매개변수 [[[p{parameter}]]]에 대해 범위를 벗어났습니다: [{from} ... {to}{exclusive?}){|exclusive}{?exclusive}" revision="1" />
-  <Message key="Value must be less" value="매개변수 [[[p{parameter}]]]는 {|exclusive}보다 작거나 {?exclusive} {maxval}보다 같은 값 {exclusive?}를 기대하지만, 대신 [[[p{value}]]]가 전달되었습니다." revision="0" />
-  <Message key="Value must be greater" value="매개변수 [[[p{parameter}]]]는 {exclusive?}가 {|exclusive}보다 크거나 {?exclusive} {minval}과 같을 것으로 예상하지만, 대신 [[[p{value}]]]가 전달되었습니다." revision="0" />
-  <Message key="Value must not be equal" value="매개변수 [[[p{parameter}]]]는 [[[p{value}]]]와 같아야 합니다." revision="0" />
-  <Message key="Invalid enum value" value="[[[p{parameter: {type}]]] 매개변수에 대해 잘못된 열거 값 [[[p{value}]]]이 지정되었습니다" revision="0" />
-  <Message key="Invalid argument type" value="매개변수 [[[p{parameter}]]]에 대해 전달된 값이 잘못된 유형입니다. 예상되는 [[[p{type}]]]" revision="0" />
+  <Message key="Value is out of range" value="지정된 값 [[[p{value}]]이 매개변수 {parameter}에 대해 범위를 벗어났습니다: [{from} ... {to}{exclusive?}){|exclusive}{?exclusive}" revision="2" />
+  <Message key="Value must be less" value="매개변수 {parameter}는 {|exclusive}보다 작거나 {?exclusive} {maxval}보다 같은 값 {exclusive?}를 기대하지만, 대신 {value}가 전달되었습니다." revision="1" />
+  <Message key="Value must be greater" value="매개변수 {parameter}는 {exclusive?}가 {|exclusive}보다 크거나 {?exclusive} {minval}과 같을 것으로 예상하지만, 대신 {value}가 전달되었습니다." revision="1" />
+  <Message key="Value must not be equal" value="매개변수 {parameter}는 {value}와 같아야 합니다." revision="1" />
+  <Message key="Invalid enum value" value="{parameter: {type} 매개변수에 대해 잘못된 열거 값 {value}이 지정되었습니다" revision="1" />
+  <Message key="Invalid argument type" value="매개변수 {parameter}에 대해 전달된 값이 잘못된 유형입니다. 예상되는 {type}" revision="1" />
   <Message key="Unsupported clipboard format" value="지원되지 않는 클립보드 형식" revision="0" />
   <Message key="Requested clipboard format is not available" value="요청된 클립보드 형식을 사용할 수 없습니다" revision="0" />
   <Message key="GenericError" value="작업을 실행하는 중 오류 발생: {text}{has_code?} ({code}){?has_code}" revision="0" />

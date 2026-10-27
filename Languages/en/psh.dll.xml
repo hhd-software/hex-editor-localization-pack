@@ -230,31 +230,31 @@
   </Enumeration>
 
 
-  <Enumeration key="Range" description="Range information (both strings must be the same!)" revision="2">
-    <Item text="Range: [ [[[b{from}]]] – [[[b{to}]]] ] (size: [[[b{size}]]])">
-      <Param name="from" format="b016"/>
-      <Param name="to" format="b016"/>
-      <Param name="size" format="b016"/>
+  <Enumeration key="Range" description="Range information (both strings must be the same!)" revision="3">
+    <Item text="Range: [ {from} – {to} ] (size: {size})">
+      <Param name="from" format="b016" style="b"/>
+      <Param name="to" format="b016" style="b"/>
+      <Param name="size" format="b016" style="b"/>
     </Item>
-    <Item text="Range: [ [[[b{from}]]] – [[[b{to}]]] ] (size: [[[b{size}]]])">
-      <Param name="from" format="l"/>
-      <Param name="to" format="l"/>
-      <Param name="size" format="l"/>
+    <Item text="Range: [ {from} – {to} ] (size: {size})" revision="1">
+      <Param name="from" format="l" style="b"/>
+      <Param name="to" format="l" style="b"/>
+      <Param name="size" format="l" style="b"/>
     </Item>
   </Enumeration>
 
 	<Message key="ValueRangeHeader" description="Value range rule header" value="Value range"/>
 	
-  <Message key="RegExpPattern" description="Regular expression pattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="2">
-    <Param name="pattern"/>
+  <Message key="RegExpPattern" description="Regular expression pattern" value="RE: {ignore?}i: {?ignore}{pattern}{has submatch?}:{submatch}{?has submatch} ({codepage})" revision="3">
+    <Param name="pattern" style="b" guard="true"/>
 	  <Param name="has submatch" format="?"/>
-	  <Param name="submatch"/>
+	  <Param name="submatch" style="s:80::"/>
 	  <Param name="codepage"/>
 	  <Param name="ignore" format="?"/>
   </Message>
 
-	<Message key="WildcardPattern" description="Wildcard pattern template in a list" value="&#x2731;: {ignore?}i: {?ignore}[[[b{pattern}]]] ({codepage})" optional="true">
-		<Param name="pattern"/>
+	<Message key="WildcardPattern" description="Wildcard pattern template in a list" value="&#x2731;: {ignore?}i: {?ignore}{pattern} ({codepage})" optional="true" revision="1">
+		<Param name="pattern" style="b" guard="true"/>
 		<Param name="codepage"/>
 		<Param name="ignore" format="?"/>
 	</Message>

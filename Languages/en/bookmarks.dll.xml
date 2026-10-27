@@ -142,7 +142,7 @@
 	<Message key="Please enter a color preset name" description="Message: Please enter a color preset name"/>
 	<!--<Message key="Enter a name to save current colors as preset" description="Cue Banner Text: Enter a name to save current colors as preset"/>-->
 	<Message key="Do you want to replace color preset" description="Message: Replace color preset" value="Do you want to replace color preset &quot;{name}&quot;?">
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 	</Message>
 
 	<Message key="BookmarksFilterString" description="Bookmarks filter string" value="Bookmark Files (*.hexbook)|*.hexbook|">

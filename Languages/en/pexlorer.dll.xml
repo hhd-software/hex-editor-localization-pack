@@ -241,22 +241,22 @@
 	</Message>
 
 	<Message key="Process tooltip" description="Process tooltip template" value="Process name: {name}\nProcess ID: {id}\nArchitecture: {arch}\nUser: {user}\nStatus: {status}\nFull image path: {path}\nCommand line: {cmdline}">
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 		<Param name="id"/>
 		<Param name="arch"/>
 		<Param name="user"/>
 		<Param name="status"/>
-		<Param name="path"/>
+		<Param name="path" guard="true"/>
 		<Param name="cmdline"/>
 	</Message>
 
 	<Message key="Process header" description="Process window header" value="[[[b[[[s:180:{name} ({id}) [{status}] ]]]]]]\n[[[bUser:]]] {user}, [[[bArchitecture:]]] {arch}\n[[[bFull image path:]]] {path}\n[[[bCommand line:]]] {cmdline}">
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 		<Param name="id"/>
 		<Param name="arch"/>
 		<Param name="user"/>
 		<Param name="status"/>
-		<Param name="path"/>
+		<Param name="path" guard="true"/>
 		<Param name="cmdline"/>
 	</Message>
 
@@ -275,7 +275,7 @@
 	</Message>
 
 	<Message key="Process snapshot template" description="Process snapshot template (to be shown in the process list window)" value="{name} [snapshot]">
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 	</Message>
 
 	<Message key="AskClearSnapshots" description="Clear snapshots warning prompt" value="Removing all process snapshots action cannot be undone. Are you sure you want to continue?"/>

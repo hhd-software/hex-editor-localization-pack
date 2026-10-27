@@ -175,7 +175,7 @@
 	</Enumeration>
 
 	<Message key="DocumentChangePrompt" description="Document changed - do you want to save prompt" revision="1" value="The current document has changed. Do you want to save it?\r\n\r\n{name}">
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 	</Message>
 
 	<Message key="AllFilesFilterString" description="Filter string: All files" revision="1" value="All Files|*|">
@@ -312,7 +312,7 @@
 	</Message>
 
 	<Message key="AlreadyOpened" description="Document already opened" revision="1" value='"{path}": The document is already opened in the editor.\r\n'>
-		<Param name="path"/>
+		<Param name="path" guard="true"/>
 	</Message>
 
 	<Message key="UnknownVolume" description="Unknown volume" revision="1" value="Unnamed Volume {ordinal}">
@@ -1032,7 +1032,7 @@
 
 	<Message key="File creation error" revision="1" description="Generic file creation error" value='There was an error {create?}creating{|create}opening{?create} file "{name}": {text} ({code})'>
 		<Param name="create" format="?"/>
-		<Param name="name"/>
+		<Param name="name" guard="true"/>
 		<Param name="text"/>
 		<Param name="code" format="ub016"/>
 	</Message>
@@ -1220,42 +1220,42 @@
 	<Message key="Volume" description="Option: Volume"/>
 	<!--<Message key="Open as Read-Only" description="Option: Open as Read-Only"/>-->
 
-	<Message key="Value is out of range" description="Scripting error: Value passed in script is out of range" value="Specified value [[[p{value}]]] is out of range for parameter [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1">
-		<Param name="parameter"/>
-		<Param name="value"/>
+	<Message key="Value is out of range" description="Scripting error: Value passed in script is out of range" value="Specified value {value} is out of range for parameter {parameter}: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="2">
+		<Param name="parameter" style="p"/>
+		<Param name="value" style="p"/>
 		<Param name="from"/>
 		<Param name="to"/>
 		<Param name="exclusive" format="?"/>
 	</Message>
 
-	<Message key="Value must be less" description="Scripting error: Value passed in script must be less than" value="Parameter [[[p{parameter}]]] expects value {exclusive?}less than{|exclusive}less or equal to{?exclusive} {maxval}, but [[[p{value}]]] was passed instead.">
-		<Param name="parameter"/>
-		<Param name="value"/>
+	<Message key="Value must be less" description="Scripting error: Value passed in script must be less than" value="Parameter {parameter} expects value {exclusive?}less than{|exclusive}less or equal to{?exclusive} {maxval}, but {value} was passed instead." revision="1">
+		<Param name="parameter" style="p"/>
+		<Param name="value" style="p"/>
 		<Param name="maxval"/>
 		<Param name="exclusive" format="?"/>
 	</Message>
 
-	<Message key="Value must be greater" description="Scripting error: Value passed in script must be greater than" value="Parameter [[[p{parameter}]]] expects value {exclusive?}greater than{|exclusive}greater or equal to{?exclusive} {minval}, but [[[p{value}]]] was passed instead.">
-		<Param name="parameter"/>
-		<Param name="value"/>
+	<Message key="Value must be greater" description="Scripting error: Value passed in script must be greater than" value="Parameter {parameter} expects value {exclusive?}greater than{|exclusive}greater or equal to{?exclusive} {minval}, but {value} was passed instead." revision="1">
+		<Param name="parameter" style="p"/>
+		<Param name="value" style="p"/>
 		<Param name="minval"/>
 		<Param name="exclusive" format="?"/>
 	</Message>
 
-	<Message key="Value must not be equal" description="Scripting error: Value passed in script must not be equal to" value="Parameter [[[p{parameter}]]] must not be equal to [[[p{value}]]].">
+	<Message key="Value must not be equal" description="Scripting error: Value passed in script must not be equal to" value="Parameter {parameter} must not be equal to {value}." revision="1">
 		<Param name="parameter"/>
 		<Param name="value"/>
 	</Message>
 
-	<Message key="Invalid enum value" description="Scripting error: Invalid enum value" value="Invalid enumeration value [[[p{value}]]] specified for [[[p{parameter}: {type}]]] parameter">
-		<Param name="parameter"/>
-		<Param name="type"/>
-		<Param name="value"/>
+	<Message key="Invalid enum value" description="Scripting error: Invalid enum value" value="Invalid enumeration value {value} specified for {parameter}: {type} parameter." revision="1">
+		<Param name="parameter" style="p"/>
+		<Param name="type" style="p"/>
+		<Param name="value" style="p"/>
 	</Message>
 
-	<Message key="Invalid argument type" description="Scripting error: Invalid argument type" value="Value passed for parameter [[[p{parameter}]]] is of invalid type. Expected [[[p{type}]]]">
-		<Param name="parameter"/>
-		<Param name="type"/>
+	<Message key="Invalid argument type" description="Scripting error: Invalid argument type" value="Value passed for parameter {parameter} is of invalid type. Expected {type}." revision="1">
+		<Param name="parameter" style="p"/>
+		<Param name="type" style="p"/>
 	</Message>
 
 	<Message key="Unsupported clipboard format" description="Scripting error: Unsupported clipboard format"/>
@@ -1387,7 +1387,7 @@
 	<Message key="Open as binary" description="Binary format filter name" value="Binary files"/>
 
 	<Message key="Open Recent" description="Open recent item" value="Open {item}">
-		<Param name="item" />
+		<Param name="item" guard="true" />
 	</Message>
 
 

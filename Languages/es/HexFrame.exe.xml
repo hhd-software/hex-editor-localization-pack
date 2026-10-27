@@ -324,12 +324,12 @@
   <Message key="Auto" value="Automático" revision="0" />
   <Message key="Physical disk" value="Disco físico" revision="0" />
   <Message key="Volume" value="Volumen" revision="0" />
-  <Message key="Value is out of range" value="El valor especificado [[[p{value}]]] está fuera del rango del parámetro [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
-  <Message key="Value must be less" value="El parámetro [[[p{parameter}]]] espera un valor {exclusive?}menor que{|exclusive}menor o igual que{?exclusive} {maxval}, pero en su lugar se ha pasado [[[p{value}]]]." revision="0" />
-  <Message key="Value must be greater" value="El parámetro [[[p{parameter}]]] espera un valor {exclusive?}mayor que{|exclusive}mayor o igual que{?exclusive} {minval}, pero en su lugar se ha pasado [[[p{value}]]]." revision="0" />
-  <Message key="Value must not be equal" value="El parámetro [[[p{parameter}]]] no debe ser igual a [[[p{value}]]]." revision="0" />
-  <Message key="Invalid enum value" value="Valor de enumeración no válido [[[p{value}]]] especificado para el parámetro [[[p{parameter}: {type}]]]" revision="0" />
-  <Message key="Invalid argument type" value="El valor pasado para el parámetro [[[p{parameter}]]] es de tipo no válido. Se esperaba [[[p{type}]]]" revision="0" />
+  <Message key="Value is out of range" value="El valor especificado {value} está fuera del rango del parámetro {parameter}: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="2" />
+  <Message key="Value must be less" value="El parámetro {parameter} espera un valor {exclusive?}menor que{|exclusive}menor o igual que{?exclusive} {maxval}, pero en su lugar se ha pasado {value}." revision="1" />
+  <Message key="Value must be greater" value="El parámetro {parameter} espera un valor {exclusive?}mayor que{|exclusive}mayor o igual que{?exclusive} {minval}, pero en su lugar se ha pasado {value}." revision="1" />
+  <Message key="Value must not be equal" value="El parámetro {parameter} no debe ser igual a {value}." revision="1" />
+  <Message key="Invalid enum value" value="Valor de enumeración no válido {value} especificado para el parámetro {parameter}: {type}." revision="1" />
+  <Message key="Invalid argument type" value="El valor pasado para el parámetro {parameter} es de tipo no válido. Se esperaba {type}." revision="1" />
   <Message key="Unsupported clipboard format" value="Formato de portapapeles no compatible" revision="0" />
   <Message key="Requested clipboard format is not available" value="El formato de portapapeles solicitado no está disponible" revision="0" />
   <Message key="GenericError" value="Error en la ejecución de la operación: {text}{has_code?} ({code}){?has_code}" revision="0" />

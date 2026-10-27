@@ -48,7 +48,7 @@
 		<Param name="fact"/>
 	</Message>
 	<Message key="PathNotFound" description="Path not found error" value="Path not found: {path}">
-		<Param name="path"/>
+		<Param name="path" guard="true"/>
 	</Message>
 	<Message key="NotAScope" description="Not a scope error" value="Not a scope"/>
 	<Message key="UnknownParam" description="Unknown parameter error" value="Unknown parameter type: {type}">

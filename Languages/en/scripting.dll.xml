@@ -202,7 +202,7 @@
 	<Message key="MacroNameExists" description="Macro with the same name already exists" value="Macro with the same name already exists. Do you want to override it?" />
 	<Message key="MacroDeleteAllPrompt" description="Delete all macros confirmation message" value="This will delete all macros. Are you sure you want to continue?" />
 	<Message key="MacroName" description="Macro document name format" value="Macro: {name}">
-		<Param name="name" />
+		<Param name="name"  guard="true"/>
 	</Message>
 	<Message key="MacroExportFormat" description="Macro export file format" value="Macro export files|*.neo-macro.json">
 		<Validate rule="OpenFileDialogFilter"/>
@@ -219,8 +219,8 @@
 
 	<Message key="CmdLineMacroName" description="Command-line script name" value="Command-line script"/>
 
-	<Message key="Running macro" description="Running macro status bar template" value="Running [[[b{macro}]]]… [[[hClick to stop]]].">
-		<Param name="macro"/>
+	<Message key="Running macro" description="Running macro status bar template" value="Running {macro}… [[[hClick to stop]]]." revision="1">
+		<Param name="macro" style="b" guard="true"/>
 	</Message>
 
 	<Message key="Recording macro" description="Recording macro status bar text" value="Recording macro… [[[hClick to stop recording]]]."/>

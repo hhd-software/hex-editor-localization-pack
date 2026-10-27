@@ -32,7 +32,7 @@
   <Message key="DuplicateMacroTemplate" value="Copia di {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Macro {n}" revision="0" />
   <Message key="CmdLineMacroName" value="Script da riga di comando" revision="0" />
-  <Message key="Running macro" value="Esecuzione [[[b{macro}]]]… [[[hClicca per interrompere]]]." revision="0" />
+  <Message key="Running macro" value="Esecuzione {macro}… [[[hClicca per interrompere]]]." revision="1" />
   <Message key="Recording macro" value="Registrazione macro… [[[hClick to stop recording]]]." revision="0" />
   <Message key="Macro script opened" value="Lo script macro viene aperto nell'editor. Per avviarlo, utilizzare i comandi [[[bDebug » Esegui script]]] o [[[bDebug » Debug dello script]]]." revision="0" />
   <Message key="ScriptException" value="{uncaught?}Eccezione non rilevata{|uncaught}Eccezione{?uncaught} &quot;{name}&quot; si è verificato alla {line}:{column}\n" revision="0" />

@@ -4,15 +4,15 @@
   <Message key="Warning" description="Message Box Title: Warning" revision="1"/>
   <Message key="Error" description="Message Box Title: Error" revision="1"/>
 
-  <Message key=" ({occurrences} occurrences)" description="Number of occurrences. Must start with space." revision="2" value=" ([[[b{occurrences}]]] occurrences)">
+  <Message key=" ({occurrences} occurrences)" description="Number of occurrences. Must start with space." revision="3" value=" ({occurrences} occurrences)">
     <Validate rule="StartsWithSpace"/>
-    <Param name="occurrences" format="l"/>
+    <Param name="occurrences" format="l" style="b"/>
   </Message>
   <Message key="Error {error_code} ({text_message}) {mode} {path}." description="Error message" revision="1">
     <Param name="error_code" format="ub016"/>
     <Param name="text_message"/>
     <Param name="mode"/>
-    <Param name="path"/>
+    <Param name="path" guard="true"/>
   </Message>
 
   <Enumeration key="opening/saving" description="Mode for error message" revision="1">
@@ -76,15 +76,15 @@
 
   <Message key="Replace with:" description="Field: Replace with" revision="1"/>
 
-  <Message key="Progress message" value="[[[b{percent}]]] % completed. [[[b{processed_files}]]] of [[[b{total_files}{unfinished?}(…){?unfinished}]]] files in [[[b{total_folders}]]] folders have been checked. [[[b{matched}]]] matched file(s) found. [[[b{processed_size}]]] of [[[b{total_size}]]] processed." description="Progress message" revision="2">
-    <Param name="percent"/>
-    <Param name="processed_files" format="l"/>
-    <Param name="total_files" format="l"/>
+  <Message key="Progress message" value="{percent} % completed. {processed_files} of {total_files}{unfinished?}(…){?unfinished} files in {total_folders} folders have been checked. {matched} matched file(s) found. {processed_size} of {total_size} processed." description="Progress message" revision="4">
+    <Param name="percent" style="b"/>
+    <Param name="processed_files" format="l" style="b"/>
+    <Param name="total_files" format="l" style="b"/>
     <Param name="unfinished" format="?"/>
-    <Param name="total_folders" format="l"/>
-    <Param name="matched" format="l"/>
-    <Param name="processed_size"/>
-    <Param name="total_size"/>
+    <Param name="total_folders" format="l" style="b"/>
+    <Param name="matched" format="l" style="b"/>
+    <Param name="processed_size" style="b"/>
+    <Param name="total_size" style="b"/>
   </Message>
 
   <Message key="ReplaceNotification" description="Property: Replace in Files notification" value="Replace in Files" revision="1"/>

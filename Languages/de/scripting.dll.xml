@@ -32,7 +32,7 @@
   <Message key="DuplicateMacroTemplate" value="Kopie von {macro name}" revision="0" />
   <Message key="NewMacroTemplate" value="Makro {n}" revision="0" />
   <Message key="CmdLineMacroName" value="Befehlszeilenskript" revision="0" />
-  <Message key="Running macro" value="Ausführen [[[b{macro}]]]… [[[hZum Anhalten klicken]]]." revision="0" />
+  <Message key="Running macro" value="Ausführen {macro}… [[[hZum Anhalten klicken]]]." revision="1" />
   <Message key="Recording macro" value="Makro aufzeichnen… [[[hKlicken, um die Aufnahme zu beenden]]]." revision="0" />
   <Message key="Macro script opened" value="Das Makroskript wird im Editor geöffnet. Um es zu starten, verwenden Sie die Befehle [[[bDebuggen » Skript ausführen]]] oder [[[bDebuggen » Das Skript debuggen]]]." revision="0" />
   <Message key="ScriptException" value="{uncaught?}Nicht abgefangene Ausnahme{|uncaught}Ausnahme{?uncaught} &quot;{name}&quot; ist aufgetreten in {line}:{column}\n" revision="0" />

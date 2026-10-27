@@ -506,20 +506,20 @@
 
   <Message key="FileExists" description="Structure definition file already added" value="This file has already been added to the library."/>
   <Message key="ErrorStartingExternalEditor" description="Error starting external editor" value='There was an error starting external editor.\r\n\r\nCommand line: {path}\r\nError: {error text} ({error})'>
-    <Param name="path"/>
+    <Param name="path" guard="true"/>
     <Param name="error text"/>
     <Param name="error" format="b016x"/>
   </Message>
 
   <Message key="UntrustedEditor" description="Prompt to launch external editor" value="You are about to run the untrusted external editor application using the following command line:\r\n\r\n{path}\r\n\r\nDo you want to continue? If you press Yes, this application will be marked as trusted.">
-    <Param name="path"/>
+    <Param name="path" guard="true"/>
   </Message>
 
   <Message key="TypeExists" description="User-defined Data Inspector type already exists" value="The type with the same name already exists."/>
 
   <Message key="StructureFileNotFound" description="Open structure file error" value='File {file} is not found at location "{path}". Do you want remove it from the library?'>
-    <Param name="file"/>
-    <Param name="path"/>
+    <Param name="file" guard="true"/>
+    <Param name="path" guard="true"/>
   </Message>
 
 	<Message key="toolbar.StructureViewer" description="Toolbar: Structure Viewer" value="Structure Viewer" />

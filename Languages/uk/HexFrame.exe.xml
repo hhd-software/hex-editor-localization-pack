@@ -324,12 +324,12 @@
   <Message key="Auto" value="Автоматично" revision="0" />
   <Message key="Physical disk" value="Фізичний диск" revision="0" />
   <Message key="Volume" value="Том" revision="0" />
-  <Message key="Value is out of range" value="Зазначене значення [[[p{value}]]] виходить за межі діапазону для параметра [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
-  <Message key="Value must be less" value="Параметр [[[p{parameter}]]] очікує значення {exclusive?}яке менше{|exclusive}або дорівнює{?exclusive} {maxval}, але замість цього було передано [[[p{value}]]]." revision="0" />
-  <Message key="Value must be greater" value="Параметр [[[p{parameter}]]] очікує значення {exclusive?}більше ніж{|exclusive}не менше ніж{?exclusive} {minval}, але замість цього було передано [[[p{value}]]]." revision="0" />
-  <Message key="Value must not be equal" value="Параметр [[[p{parameter}]]] не повинен дорівнювати [[[p{value}]]]." revision="0" />
-  <Message key="Invalid enum value" value="Недійсне значення [[[p{value}]]] вказано для параметра [[[p{parameter}: {type}]]]" revision="0" />
-  <Message key="Invalid argument type" value="Значення, передане для параметра [[[p{parameter}]]], має недійсний тип. Очікується [[[p{type}]]]" revision="0" />
+  <Message key="Value is out of range" value="Зазначене значення {value} виходить за межі діапазону для параметра {parameter}: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="2" />
+  <Message key="Value must be less" value="Параметр {parameter} очікує значення {exclusive?}яке менше{|exclusive}або дорівнює{?exclusive} {maxval}, але замість цього було передано {value}." revision="1" />
+  <Message key="Value must be greater" value="Параметр {parameter} очікує значення {exclusive?}більше ніж{|exclusive}не менше ніж{?exclusive} {minval}, але замість цього було передано {value}." revision="1" />
+  <Message key="Value must not be equal" value="Параметр {parameter} не повинен дорівнювати {value}." revision="1" />
+  <Message key="Invalid enum value" value="Недійсне значення {value} вказано для параметра {parameter}: {type}." revision="1" />
+  <Message key="Invalid argument type" value="Значення, передане для параметра {parameter}], має недійсний тип. Очікується {type}" revision="1" />
   <Message key="Unsupported clipboard format" value="Непідтримуваний формат буфера обміну" revision="0" />
   <Message key="Requested clipboard format is not available" value="Запитаний формат буфера обміну недоступний" revision="0" />
   <Message key="GenericError" value="Помилка виконання операції: {text}{has_code?} ({code}){?has_code}" revision="0" />
